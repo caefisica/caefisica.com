@@ -54,7 +54,7 @@
     "instant.page": "^5.2.0",
     "katex": "^0.16.38",
     "lazysizes": "^5.3.2",
-    "markdownlint-cli2": "^0.21.0",
+    "markdownlint-cli2": "^0.22.0",
     "mermaid": "^11.13.0",
     "node-fetch": "^3.3.2",
     "pdfjs-dist": "^5.5.207",
