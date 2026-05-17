@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
         modalImg.src = avatar.src;
         modalImg.alt = avatar.alt;
       }
-      if (modalTitle && title) modalTitle.innerHTML = title.innerHTML;
-      if (modalText && text) modalText.innerHTML = text.innerHTML;
+      if (modalTitle && title) modalTitle.textContent = title.textContent;
+      if (modalText && text) modalText.textContent = text.textContent;
 
       toggleModal();
     });
@@ -40,8 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Filter / select
   const select = document.querySelector<HTMLButtonElement>("[data-select]");
   const selectItems = document.querySelectorAll<HTMLButtonElement>("[data-select-item]");
-  // Note: "selecct" is a typo preserved from the HTML template attribute
-  const selectValue = document.querySelector<HTMLElement>("[data-selecct-value]");
+  const selectValue = document.querySelector<HTMLElement>("[data-select-value]");
   const filterBtns = document.querySelectorAll<HTMLButtonElement>("[data-filter-btn]");
   const filterItems = document.querySelectorAll<HTMLElement>("[data-filter-item]");
 
