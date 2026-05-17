@@ -4,9 +4,9 @@
   command = "git config core.quotepath false && pnpm install && pnpm run build"
 
 [build.environment]
-  HUGO_VERSION = "0.157.0"
-  NODE_VERSION = "22"
-  PNPM_VERSION = "10"
+  HUGO_VERSION = "0.161.1"
+  NODE_VERSION = "24"
+  PNPM_VERSION = "11"
 
 [context.deploy-preview]
   command = "git config core.quotepath false && pnpm install && pnpm run build -- -b $DEPLOY_PRIME_URL"
@@ -38,16 +38,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/bee.js"
-  to = "https://cdn.splitbee.io/sb.js"
-  status = 200
-
-[[redirects]]
-  from = "/_hive/*"
-  to = "https://hive.splitbee.io/:splat"
-  status = 200
-
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
 
@@ -63,9 +53,3 @@ package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   cloudName = "dubu"
   loadingStrategy = "lazy"
-
-# [[plugins]]
-#  package = "netlify-plugin-no-more-404"
-#
-#  [plugins.inputs]
-#  on404 = "error"
