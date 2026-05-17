@@ -58,7 +58,7 @@
     "lazysizes": "^5.3.2",
     "markdownlint-cli2": "^0.21.0",
     "mermaid": "^11.13.0",
-    "pdfjs-dist": "^5.5.207",
+    "pdfjs-dist": "^5.7.284",
     "postcss": "^8.5.8",
     "postcss-cli": "^11.0.1",
     "prettier": "3.8.1",
