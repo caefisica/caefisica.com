@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="row d-flex justify-content-between flex-xl-nowrap">
+    <div class="col-lg-5 col-xl-auto docs-sidebar d-none d-lg-block">
+        <nav class="docs-links" aria-label="Tertiary navigation">
+            {{ partial "sidebar/docs-menu.html" . }}
+        </nav>
+    </div>
+    {{- if ne .Params.toc false -}}
+        <nav class="docs-toc d-none d-xl-block col-xl-auto" aria-label="Quaternary navigation">
+            {{ partial "sidebar/docs-toc.html" . }}
+        </nav>
+    {{- end -}}
+    {{- if .Params.toc -}}
+        <main class="docs-content col-lg-10 col-xl-9">
+    {{- else -}}
+        <main class="docs-content col-lg-11 col-xl-10 mx-xl-auto">
+    {{- end -}}
+    <div class="max-width mx-auto ps-xl-5 pe-xl-5">
+        {{- if .Site.Params.options.breadCrumb -}}
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    {{ partial "main/breadcrumb" . -}}
+                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                </ol>
+            </nav>
+        {{- end -}}
+        <h1>{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
+        {{- if ne .Params.toc false -}}
+            {{- partial "main/blog-meta.html" . -}}
+        {{- end -}}
+        {{- if and .Params.showInformationBox .Params.semester -}}
+            {{ partial "components/information_box.html" . -}}
+        {{- end -}}
+        {{- if eq .Params.working true -}}
+            {{ partial "components/alert.html" . -}}
+        {{- end -}}
+        {{- partial "main/headline-hash.html" .Content -}}
+        {{- if and .Params.showProfessors .Site.Params.professors .Params.id -}}
+            {{- partial "components/professors.html" . -}}
+        {{- end -}}
+        <div class="metadata-article">
+            {{- if .Site.Params.lastMod -}}
+                {{- partial "main/last-modified.html" . -}}
+            {{- end -}}
+            {{- if .Site.Params.editPage -}}
+                {{- partial "main/edit-page.html" . -}}
+            {{- end -}}
+        </div>
+        {{ partial "main/docs-navigation.html" . }}
+        {{- if .Site.Params.giscus -}}
+            <div class="mt-2">
+                {{- partial "components/comments.html" . -}}
+            </div>
+        {{- end -}}
+    </div>
+    </main>
+</div>
+{{ end }}

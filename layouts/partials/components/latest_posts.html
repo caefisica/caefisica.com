@@ -41,7 +41,7 @@
                         <a
                             class="button-subscribe button button-secondary button-small text-bg-light w-auto text-decoration-none d-flex"
                             href="https://www.youtube.com/@caefisica/playlists">
-                            {{ partial "svg/youtube.svg" . | safeHTML }}
+                            {{ (resources.Get "icons/youtube.svg").Content | safeHTML }}
                             <span class="button-content">
                                 <span class="button-subheading">
                                     Entérate más en </span

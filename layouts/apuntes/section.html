@@ -1,8 +1,7 @@
 {{ define "main" }}
 <div class="row flex-xl-nowrap mt-md-4 mt-auto">
   <main class="docs-content col-md-15 mx-auto pb-4">
-    {{$docpage := .Site.GetPage "apuntes"}}
-    {{range $docpage.Sections }}
+    {{range .Sections }}
     <section class="section section-featured mt-4 mb-4 bg-light py-5 rounded-4 mb-2">
       <div class="container">
         <h2 class="h3 mt-0 text-center">{{ .Title }}</h2>

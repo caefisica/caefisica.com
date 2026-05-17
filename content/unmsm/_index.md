@@ -1,5 +1,9 @@
 ---
 title: "Cursos"
+cascade:
+  type: docs
+  showInformationBox: true
+  showProfessors: true
 alternativeTitle: "Guías de Estudio"
 description: ""
 description_2: "Guías de estudio con referencias a"

@@ -14,7 +14,7 @@
                             Comienza aquí
                             <span class="mai-icon mai-icon-arrow-right">
                                 <span class="mai-icon-wrap">
-                                    {{ partial "svg/arrow.svg" . }}
+                                    {{ (resources.Get "icons/arrow.svg").Content | safeHTML }}
                                 </span>
                             </span>
                         </a>

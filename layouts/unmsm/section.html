@@ -103,7 +103,7 @@
                                 rel="noopener noreferrer"
                                 href="{{ .RelPermalink }}"
                                 class="text-data fw-semibold d-flex align-items-start text-decoration-none">
-                                {{ partial "svg/books.svg" }}
+                                {{ (resources.Get "icons/books.svg").Content | safeHTML }}
                                 <div class="ms-3">
                                     <h3 class="mt-0 fw-bolder">{{ .Title }}</h3>
                                     <p class="p-0 mb-1 lh-sm">
