@@ -1,26 +1,24 @@
-name: 🔎 Enlaces no existentes
+name: url health
 
 on:
-    workflow_dispatch:
-    pull_request:
-        paths:
-            - '/content/'
-    push:
-        branches: [master]
-        paths:
-            - '/content/'
-    schedule:
-        - cron: '0 0 * * 1' # Lunes a las 00:00
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "content/**"
+  push:
+    branches: [master]
+    paths:
+      - "content/**"
+  schedule:
+    - cron: "0 0 * * 1"
 
 jobs:
-    check-links:
-        runs-on: ubuntu-latest
+  check-links:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Inicializar Github Action
-              uses: actions/checkout@v6
+    steps:
+      - uses: actions/checkout@v6
 
-            - name: 'atalent-labs-404-links'
-              uses: atalent-labs/404-links@3.1.6
-              env:
-                  GITHUB_TOKEN: ${{ secrets.LINK_CHECK_404 }}
+      - uses: atalent-labs/404-links@3.1.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.LINK_CHECK_404 }}

@@ -1,74 +1,71 @@
-name: 👷 CI/CD (Node.JS)
+name: checks
 
 on:
-    workflow_dispatch:
-    pull_request:
-        paths:
-            - '/layouts/'
-            - '/assets/'
-            - '/functions/'
-    push:
-        branches: [master]
-        paths:
-            - '/layouts/'
-            - '/assets/'
-            - '/functions/'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "layouts/**"
+      - "assets/**"
+      - "functions/**"
+  push:
+    branches: [master]
+    paths:
+      - "layouts/**"
+      - "assets/**"
+      - "functions/**"
 
 jobs:
-    build:
-        runs-on: ubuntu-22.04
-        env:
-            HUGO_VERSION: '0.157.0'
-            DART_SASS_VERSION: 1.97.3
+  build:
+    runs-on: ubuntu-22.04
+    env:
+      HUGO_VERSION: "0.161.1"
+      DART_SASS_VERSION: 1.97.3
 
-        steps:
-            - name: Install system dependencies
-              run: |
-                  sudo apt-get update -y
-                  sudo apt-get install -y libvips git-lfs
+    steps:
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y libvips git-lfs
 
-            - name: Inicializar Github Action
-              uses: actions/checkout@v6
-              with:
-                  lfs: true
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          lfs: true
 
-            - name: Instalar pnpm
-              uses: pnpm/action-setup@v4
-              with:
-                  version: 10
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
 
-            - name: Instalar Node.js 24.x
-              uses: actions/setup-node@v6
-              with:
-                  node-version: 24.x
-                  cache: pnpm
+      - name: Install Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24.x
+          cache: pnpm
 
-            - name: Instalar Dart Sass
-              run: |
-                  mkdir -p "${HOME}/.local"
-                  curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-                  tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-                  rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-                  echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
+      - name: Install Dart Sass
+        run: |
+          mkdir -p "${HOME}/.local"
+          curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
 
-            - name: Instalar Hugo
-              uses: peaceiris/actions-hugo@v3
-              with:
-                  hugo-version: ${{ env.HUGO_VERSION }}
-                  extended: true
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
-            - name: Verificar herramientas
-              run: |
-                  node --version
-                  pnpm --version
-                  sass --version
-                  hugo version
+      - name: Verify tools
+        run: |
+          node --version
+          pnpm --version
+          sass --version
+          hugo version
 
-            - name: Instalar dependencias
-              run: pnpm install --frozen-lockfile
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
-            - name: Análisis lint
-              run: pnpm test
-
-            - name: Construir sitio
-              run: pnpm run build
+      - name: Check (lint + typecheck + build)
+        run: pnpm run check

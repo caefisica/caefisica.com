@@ -1,54 +1,42 @@
-name: 🖼️ Capturas de pantalla
+name: screen capture
 
 on:
-    workflow_dispatch:
-    schedule:
-        - cron: '0 0 1 * *' # Cada mes el primer día a las 00:00
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *"
 
 jobs:
-    generate_screenshots:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Inicializar Github Action
-              uses: actions/checkout@v6
+  generate-screenshots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
 
-            - name: Instalar Golang
-              uses: actions/setup-go@v6
-              with:
-                  go-version: 'stable'
+      - uses: actions/setup-go@v6
+        with:
+          go-version: "stable"
 
-            - name: Obtener los enlaces
-              run: go run ./assets/go/markdown-link-extractor/main.go
-              working-directory: ${{ github.workspace }}
-              id: extraer_enlaces
+      - name: Get list of links from markdown files
+        run: go run ./assets/go/markdown-link-extractor/main.go
+        working-directory: ${{ github.workspace }}
 
-            - name: Download Go modules
-              run: |
-                  echo "Downloading Go modules"
-                  echo "$(pwd)"
-                  go mod download
-              working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
+      - run: go mod download
+        working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
 
-            - name: Generar y guardas capturas
-              run: go run ./main.go
-              working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
-              id: generar_capturas
-              env:
-                  GITHUB_TOKEN: ${{ secrets.COMMITS_ALLOWED }}
+      - name: Generate screenshots
+        run: go run ./main.go
+        working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
+        env:
+          GITHUB_TOKEN: ${{ secrets.COMMITS_ALLOWED }}
 
-            - name: Establecer variable de entorno con el hash corto del commit
-              id: vars
-              run: |
-                  echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
-                  echo ${{ env.SHA_SHORT }}
+      - id: vars
+        run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
-            - name: Crear Pull Request
-              uses: peter-evans/create-pull-request@v3.10.0
-              with:
-                  commit-message: 'content: Capturas de pantalla actualizadas'
-                  title: '🤖 Capturas de pantalla'
-                  branch: auto-act-${{ env.SHA_SHORT }}
-                  delete-branch: true
-                  labels: auto-act
-                  base: master
-                  token: ${{ secrets.COMMITS_ALLOWED }}
+      - uses: peter-evans/create-pull-request@v3.10.0
+        with:
+          commit-message: "content: update screenshots"
+          title: "Screenshots update"
+          branch: auto-act-${{ env.SHA_SHORT }}
+          delete-branch: true
+          labels: auto-act
+          base: master
+          token: ${{ secrets.COMMITS_ALLOWED }}

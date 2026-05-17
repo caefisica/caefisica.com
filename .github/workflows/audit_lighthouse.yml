@@ -1,29 +1,27 @@
-name: 💡 Experiencia del usuario
+name: lighthouse
 
 on:
-    workflow_dispatch:
-    push:
-        branches: [master]
-        paths:
-            - '/layouts/'
-            - '/assets/'
-            - '/functions/'
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "layouts/**"
+      - "assets/**"
+      - "functions/**"
 
 jobs:
-    lighthouse:
-        name: Experiencia del usuario
-        runs-on: ubuntu-latest
+  lighthouse:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Inicializar Github Action
-              uses: actions/checkout@v6
+    steps:
+      - uses: actions/checkout@v6
 
-            - name: Auditar usando Lighthouse
-              uses: treosh/lighthouse-ci-action@v12
-              with:
-                  urls: |
-                      https://caefisica.com/
-                      https://caefisica.com/blog/
-                  budgetPath: ./.github/budget.json
-                  uploadArtifacts: true
-                  temporaryPublicStorage: true
+      - name: Audit with Lighthouse
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            https://caefisica.com/
+            https://caefisica.com/blog/
+          budgetPath: ./.github/budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
