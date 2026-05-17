@@ -1,77 +1,59 @@
-import fetch from "node-fetch";
+const { SENDGRID_API_KEY, ADMIN_EMAIL, NOTIFICATION_EMAIL, SENDGRID_LIST_ID } = process.env;
 
-const { SENDGRID_API_KEY } = process.env;
-const { ADMIN_EMAIL } = process.env;
-const { NOTIFICATION_EMAIL } = process.env;
+export const handler = async (event) => {
+  try {
+    if (!event.body) return { statusCode: 400, body: "Missing body" };
+    if (!SENDGRID_API_KEY) return { statusCode: 500, body: "Missing SENDGRID_API_KEY" };
+    if (!SENDGRID_LIST_ID) return { statusCode: 500, body: "Missing SENDGRID_LIST_ID" };
 
-exports.handler = async event => {
     const body = JSON.parse(event.body);
-    const { email, name } = body.payload.data;
+    const email = body?.payload?.data?.email;
+    const name = body?.payload?.data?.name;
+    if (!email) return { statusCode: 400, body: "Missing email" };
 
     console.log(`Submission: ${email}`);
 
-    let headersList = {
-        "Accept": "application/json",
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${SENDGRID_API_KEY}`
+    const headers = {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${SENDGRID_API_KEY}`,
     };
 
-    let bodyContent = JSON.stringify({
-        list_ids: ["6ead6f40-571d-4fcc-82b8-7da4ba3599fc"],
-        contacts: [
-            {
-                email: email,
-                first_name: name
-            }
-        ]
+    const contactsBody = JSON.stringify({
+      list_ids: [SENDGRID_LIST_ID],
+      contacts: [{ email, first_name: name }],
     });
 
-    let response = await fetch(
-        "https://api.sendgrid.com/v3/marketing/contacts",
-        {
-            method: "PUT",
-            body: bodyContent,
-            headers: headersList
-        }
-    );
+    const response = await fetch("https://api.sendgrid.com/v3/marketing/contacts", {
+      method: "PUT",
+      body: contactsBody,
+      headers,
+    });
 
-    let data = await response.text();
-    console.log("Response:", data);
+    const data = await response.text();
+    console.log("Contacts response:", data);
 
-    if (response.status === 202) {
-        let BodyNotification = JSON.stringify({
-            personalizations: [
-                {
-                    to: [{ email: ADMIN_EMAIL }],
-                    subject: "Nuevo suscriptor"
-                }
-            ],
-            from: {
-                email: NOTIFICATION_EMAIL
-            },
-            reply_to: {
-                email: NOTIFICATION_EMAIL
-            },
-            content: [
-                {
-                    type: "text/plain",
-                    value: `Nuevo correo registrado: ${email} - ${name}`
-                }
-            ]
-        });
+    if (response.status === 202 && ADMIN_EMAIL && NOTIFICATION_EMAIL) {
+      const notificationBody = JSON.stringify({
+        personalizations: [{ to: [{ email: ADMIN_EMAIL }], subject: "Nuevo suscriptor" }],
+        from: { email: NOTIFICATION_EMAIL },
+        reply_to: { email: NOTIFICATION_EMAIL },
+        content: [
+          { type: "text/plain", value: `Nuevo correo registrado: ${email} - ${name ?? ""}` },
+        ],
+      });
 
-        let responses = await fetch("https://api.sendgrid.com/v3/mail/send", {
-            method: "POST",
-            body: BodyNotification,
-            headers: headersList
-        });
-
-        let notification = await responses.text();
-        console.log("Response 2:", notification);
+      const notifResponse = await fetch("https://api.sendgrid.com/v3/mail/send", {
+        method: "POST",
+        body: notificationBody,
+        headers,
+      });
+      console.log("Notification response:", notifResponse.status);
     }
 
-    return {
-        statusCode: response.status,
-        body: data
-    };
+    return { statusCode: response.status, body: data };
+  } catch (err) {
+    console.error("Handler error:", err);
+    return { statusCode: 500, body: "Internal error" };
+  }
 };
