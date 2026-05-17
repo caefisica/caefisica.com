@@ -57,7 +57,7 @@
     "katex": "^0.16.38",
     "lazysizes": "^5.3.2",
     "markdownlint-cli2": "^0.21.0",
-    "mermaid": "^11.13.0",
+    "mermaid": "^11.15.0",
     "pdfjs-dist": "^5.5.207",
     "postcss": "^8.5.8",
     "postcss-cli": "^11.0.1",
