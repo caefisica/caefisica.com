@@ -49,7 +49,6 @@ Si ya estás familiarizado con el idioma, puedes utilizar estas herramientas:
 4. Guías:
 
    - [Academic Phrasebank](https://www.phrasebank.manchester.ac.uk/): Una guía para aquellos que están redactando documentos académicos. También se puede descargar la guía en formato .pdf.
-   - [Academic Vocabulary](https://www.nottingham.ac.uk/alzsh3/acvocab/index.htm): Vocabulario académico.
    - [The Writing Center](https://writing.wisc.edu/handbook/assignments/): Material instructivo de la Universidad de Wisconsin - Madison. Para ver el material, ve al índice de la derecha y haz clic en expandir.
 
 ## Tipos de exámenes

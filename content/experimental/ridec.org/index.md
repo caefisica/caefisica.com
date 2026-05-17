@@ -22,5 +22,3 @@ DETALLES
 ```
 
 Este es un grupo de estudiantes de ciencias básicas de diferentes universidades del Perú. Entre sus objetivos se encuentra difundir la ciencia en el Perú.
-
-También tienen una página web: [ridecperu.org](https://ridecperu.org/), sin embargo son más activos en Facebook.
