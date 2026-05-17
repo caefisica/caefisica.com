@@ -16,7 +16,7 @@
     {{ end -}}
 {{ end -}}
 
-<script type="application/ld+json" nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -28,7 +28,7 @@
         "@type": "Person",
         "@id": {{ print $baseURL "#/schema/person/1" }},
       {{ end -}}
-      "name": "{{ .Site.Params.schemaName }}",
+      "name": {{ .Site.Params.schemaName | jsonify }},
       "url": {{ print $baseURL }},
       "sameAs": [
         {{ with .Site.Params.schemaTwitter -}}
@@ -48,7 +48,7 @@
           "url": {{ print $baseURL .Site.Params.schemaLogo }},
           "width": {{ .Site.Params.schemaLogoWidth }},
           "height": {{ .Site.Params.schemaLogoHeight }},
-          "caption": "{{ .Site.Params.schemaName }}"
+          "caption": {{ .Site.Params.schemaName | jsonify }}
         },
         "image": {
           "@id": {{ print $baseURL "#/schema/image/1" }}
@@ -60,7 +60,7 @@
           "url": {{ print $baseURL .Site.Params.schemaImage }},
           "width": {{ .Site.Params.schemaImageWidth }},
           "height": {{ .Site.Params.schemaImageHeight }},
-          "caption": "{{ .Site.Params.schemaName }}"
+          "caption": {{ .Site.Params.schemaName | jsonify }}
         }
       {{ end -}}
     },
@@ -68,8 +68,8 @@
       "@type": "WebSite",
       "@id": {{ print $baseURL "#/schema/website/1" }},
       "url": {{ print $baseURL }},
-      "name": "{{ .Site.Params.title }}",
-      "description": "{{ .Site.Params.description }}",
+      "name": {{ .Site.Params.title | jsonify }},
+      "description": {{ .Site.Params.description | jsonify }},
       {{ if eq .Site.Params.schemaType "Organization" -}}
         "publisher": {
           "@id": {{ print $baseURL "#/schema/organization/1" }}
@@ -88,8 +88,8 @@
       {{ end -}}
       "@id": {{ .Permalink }},
       "url": {{ .Permalink }},
-      "name": "{{ .Title }}",
-      "description": "{{ .Description }}",
+      "name": {{ .Title | jsonify }},
+      "description": {{ .Description | jsonify }},
       "isPartOf": {
         "@id": {{ print $baseURL "#/schema/website/1" }}
       },
@@ -110,7 +110,7 @@
       "primaryImageOfPage": {
         "@id": {{ print .Permalink "#/schema/image/2" }}
       },
-      "inLanguage": "{{ .Site.Params.schemaLocale }}",
+      "inLanguage": {{ .Site.Params.schemaLocale | jsonify }},
       "potentialAction": [{
         "@type": "ReadAction", "target": [{{ .Permalink }}]
       }]
@@ -127,7 +127,7 @@
           "@type": "WebPage",
           "@id": {{ .url }},
           "url": {{ .url }},
-          "name": "{{ .name | humanize | title }}"
+          "name": {{ .name | humanize | title | jsonify }}
           {{ else -}}
           "@id": {{ .url }}
           {{ end -}}
@@ -142,8 +142,8 @@
         {
           "@type": "Article",
           "@id": {{ print $baseURL "#/schema/article/1" }},
-          "headline": "{{ .Title }}",
-          "description": "{{ .Description }}",
+          "headline": {{ .Title | jsonify }},
+          "description": {{ .Description | jsonify }},
           "isPartOf": {
             "@id": {{ .Permalink }}
           },
@@ -202,7 +202,7 @@
           "contentUrl": {{ $.Scratch.Get "primaryImage" }},
           "width": {{ .Site.Params.schemaImageWidth }},
           "height": {{ .Site.Params.schemaImageHeight }},
-          "caption": "{{ .Title }}"
+          "caption": {{ .Title | jsonify }}
         }
       ]
     }

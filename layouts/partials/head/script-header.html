@@ -1,14 +1,11 @@
-{{ if .Site.Params.options.darkMode -}}
-    {{- partial "footer/esbuild" (dict "src" "js/color-mode.ts") }}
-{{ end -}}
-{{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
-    {{- partial "footer/esbuild" (dict "src" "js/dismissable-alert.ts") }}
+{{- if .Site.Params.options.darkMode -}}
+    {{- partial "footer/render-script" (dict "src" "js/color-mode.ts" "load" "none") }}
 {{- end -}}
-{{ if eq (hugo.Environment) "production" -}}
-    <script async src="https://hive.caefisica.com/sb.js"></script>
-{{ end -}}
-{{ if and (partial "components/is-search-enabled.html" .) (ne .Kind "home") -}}
+{{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
+    {{- partial "footer/render-script" (dict "src" "js/dismissable-alert.ts" "load" "none") }}
+{{- end -}}
+{{- if and (partial "components/is-search-enabled.html" .) (ne .Kind "home") -}}
     <script
         src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
         type="text/javascript"></script>
-{{ end -}}
+{{- end -}}
