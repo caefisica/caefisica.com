@@ -2,14 +2,6 @@
 
 declare module "instant.page";
 
-declare function algoliasearchNetlify(options: {
-  appId: string;
-  apiKey: string;
-  siteId: string;
-  branch: string;
-  selector: string;
-}): void;
-
 declare function renderMathInElement(
   element: Element,
   options?: {
