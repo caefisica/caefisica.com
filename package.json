@@ -50,7 +50,7 @@
     "clipboard": "^2.0.11",
     "dotenv": "^17.3.1",
     "encoding": "^0.1.13",
-    "eslint": "^10.0.3",
+    "eslint": "^10.4.0",
     "globals": "^17.4.0",
     "highlight.js": "^11.11.1",
     "instant.page": "^5.2.0",
