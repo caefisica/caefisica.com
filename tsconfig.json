@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-        "target": "ES2020",
-        "module": "ESNext",
-        "moduleResolution": "bundler",
-        "strict": true,
-        "noEmit": true,
-        "lib": ["ES2020", "DOM", "DOM.Iterable"],
-        "skipLibCheck": true
-    },
-    "include": ["assets/js/**/*.ts"],
-    "exclude": ["node_modules", "assets/js/vendor"]
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true
+  },
+  "include": ["assets/js/**/*.ts"],
+  "exclude": ["node_modules", "assets/js/vendor"]
 }

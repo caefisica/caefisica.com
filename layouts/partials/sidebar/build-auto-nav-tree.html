@@ -1,63 +1,17 @@
-{{ $currentPage := .currentPage -}}
-{{ $pages := .pages | default (slice) -}}
-{{ $level := .level | default 0 -}}
-{{ $nodes := slice -}}
-
-{{ if gt (len $pages) 0 -}}
-    {{ range $pages -}}
-        {{ $isCurrent := eq $currentPage.RelPermalink .RelPermalink -}}
-        {{ $isAncestor := and .IsNode (in $currentPage.RelPermalink .RelPermalink) -}}
-        {{ if .IsNode -}}
-            {{ $kind := "group" -}}
-            {{ if eq $level 0 -}}
-                {{ $kind = "section" -}}
-            {{ end -}}
-            {{ $children := partial "sidebar/build-auto-nav-tree.html" (dict
-                "currentPage" $currentPage
-                "pages" .Pages
-                "level" (add $level 1)
-            ) -}}
-            {{ $nodes = $nodes | append (dict
-                "kind" $kind
-                "title" .Title
-                "name" .Name
-                "url" .RelPermalink
-                "children" $children
-                "current" $isCurrent
-                "active" $isAncestor
-            ) -}}
-        {{ else -}}
-            {{ $nodes = $nodes | append (dict
-                "kind" "link"
-                "title" .Title
-                "name" .Name
-                "url" .RelPermalink
-                "current" $isCurrent
-                "active" $isCurrent
-            ) -}}
-        {{ end -}}
-    {{ end -}}
-{{ else -}}
-    {{ range (where $currentPage.Site.Sections "Section" "in" $currentPage.Section) -}}
-        {{ range .Sections -}}
-            {{ $isCurrent := eq $currentPage.RelPermalink .RelPermalink -}}
-            {{ $isAncestor := in $currentPage.RelPermalink .RelPermalink -}}
-            {{ $children := partial "sidebar/build-auto-nav-tree.html" (dict
-                "currentPage" $currentPage
-                "pages" .Pages
-                "level" 1
-            ) -}}
-            {{ $nodes = $nodes | append (dict
-                "kind" "section"
-                "title" .Title
-                "name" .Name
-                "url" .RelPermalink
-                "children" $children
-                "current" $isCurrent
-                "active" $isAncestor
-            ) -}}
-        {{ end -}}
-    {{ end -}}
-{{ end -}}
-
-{{ return $nodes -}}
+{{ $currentPage := .currentPage -}} {{ $pages := .pages | default (slice) -}} {{ $level := .level |
+default 0 -}} {{ $nodes := slice -}} {{ if gt (len $pages) 0 -}} {{ range $pages -}} {{ $isCurrent
+:= eq $currentPage.RelPermalink .RelPermalink -}} {{ $isAncestor := and .IsNode (in
+$currentPage.RelPermalink .RelPermalink) -}} {{ if .IsNode -}} {{ $kind := "group" -}} {{ if eq
+$level 0 -}} {{ $kind = "section" -}} {{ end -}} {{ $children := partial
+"sidebar/build-auto-nav-tree.html" (dict "currentPage" $currentPage "pages" .Pages "level" (add
+$level 1) ) -}} {{ $nodes = $nodes | append (dict "kind" $kind "title" .Title "name" .Name "url"
+.RelPermalink "children" $children "current" $isCurrent "active" $isAncestor ) -}} {{ else -}} {{
+$nodes = $nodes | append (dict "kind" "link" "title" .Title "name" .Name "url" .RelPermalink
+"current" $isCurrent "active" $isCurrent ) -}} {{ end -}} {{ end -}} {{ else -}} {{ range (where
+$currentPage.Site.Sections "Section" "in" $currentPage.Section) -}} {{ range .Sections -}} {{
+$isCurrent := eq $currentPage.RelPermalink .RelPermalink -}} {{ $isAncestor := in
+$currentPage.RelPermalink .RelPermalink -}} {{ $children := partial
+"sidebar/build-auto-nav-tree.html" (dict "currentPage" $currentPage "pages" .Pages "level" 1 ) -}}
+{{ $nodes = $nodes | append (dict "kind" "section" "title" .Title "name" .Name "url" .RelPermalink
+"children" $children "current" $isCurrent "active" $isAncestor ) -}} {{ end -}} {{ end -}} {{ end
+-}} {{ return $nodes -}}

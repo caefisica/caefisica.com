@@ -1,36 +1,36 @@
 [hugoVersion]
-  extended = true
-  min = "0.128.0"
-  max = ""
+extended = true
+min = "0.128.0"
+max = ""
 
 [[mounts]]
-  source = "assets"
-  target = "assets"
+source = "assets"
+target = "assets"
 
 [[mounts]]
-  source = "static"
-  target = "static"
+source = "static"
+target = "static"
 
 [[mounts]]
-  source = "node_modules/docsearch.js"
-  target = "assets/js/vendor/docsearch.js"
+source = "node_modules/docsearch.js"
+target = "assets/js/vendor/docsearch.js"
 
 [[mounts]]
-  source = "layouts"
-  target = "layouts"
+source = "layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@thulite/images/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/images/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/mermaid"
-  target = "assets/js/vendor/mermaid"
+source = "node_modules/mermaid"
+target = "assets/js/vendor/mermaid"
 
 [[mounts]]
-  source = "node_modules/katex"
-  target = "assets/js/vendor/katex"
+source = "node_modules/katex"
+target = "assets/js/vendor/katex"
 
 [[mounts]]
-  source = "node_modules/pdfjs-dist"
-  target = "assets/js/vendor/pdfjs"
+source = "node_modules/pdfjs-dist"
+target = "assets/js/vendor/pdfjs"

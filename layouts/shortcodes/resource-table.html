@@ -1,16 +1,5 @@
-{{ $resourcePath := .Get "resource" -}}
-{{ $type := .Get "type" -}}
-
-{{ if not $resourcePath -}}
-  {{ errorf "The %q shortcode requires a resource parameter. See %s" .Name .Position }}
-{{ end -}}
-
-{{ if not $type -}}
-  {{ errorf "The %q shortcode requires a type parameter. See %s" .Name .Position }}
-{{ end -}}
-
-{{ partial "components/resource-table.html" (dict
-  "page" .Page
-  "resource" $resourcePath
-  "type" $type
-) -}}
+{{ $resourcePath := .Get "resource" -}} {{ $type := .Get "type" -}} {{ if not $resourcePath -}} {{
+errorf "The %q shortcode requires a resource parameter. See %s" .Name .Position }} {{ end -}} {{ if
+not $type -}} {{ errorf "The %q shortcode requires a type parameter. See %s" .Name .Position }} {{
+end -}} {{ partial "components/resource-table.html" (dict "page" .Page "resource" $resourcePath
+"type" $type ) -}}

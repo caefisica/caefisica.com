@@ -11,12 +11,6 @@
     "type": "individual",
     "url": "https://github.com/sponsors/totallynotdavid"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "browserslist": [
-    "defaults"
-  ],
   "scripts": {
     "init": "shx rm -rf .git && git init -b master",
     "clean": "bun run clean:build && bun run clean:packages",
@@ -39,6 +33,9 @@
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "serve": "netlify functions:serve"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
@@ -71,7 +68,7 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.3"
   },
-  "dependencies": {
-    "@eslint/js": "^10.0.1"
-  }
+  "browserslist": [
+    "defaults"
+  ]
 }

@@ -1,67 +1,67 @@
 .docs-content > h2[id]::before,
 .docs-content > h3[id]::before,
 .docs-content > h4[id]::before {
-    display: block;
-    height: 6rem;
-    margin-top: -6rem;
-    content: "";
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  content: "";
 }
 
 .anchor {
-    visibility: hidden;
-    padding-left: 0.5rem;
+  visibility: hidden;
+  padding-left: 0.5rem;
 }
 
 .experimental-meta {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .experimental-meta a {
-    color: $body-color;
+  color: $body-color;
 }
 
 h1:hover a,
 h2:hover a,
 h3:hover a,
 h4:hover a {
-    visibility: visible;
-    text-decoration: none;
+  visibility: visible;
+  text-decoration: none;
 }
 
 .experimental-meta a:hover,
 .experimental-meta a:focus {
-    color: $primary;
+  color: $primary;
 }
 
 .card-list {
-    margin-top: 2.25rem;
+  margin-top: 2.25rem;
 }
 
 .edit-page,
 .last-modified {
-    font-size: $font-size-sm;
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
+  font-size: $font-size-sm;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 @include media-breakpoint-up(md) {
-    .edit-page,
-    .last-modified {
-        font-size: $font-size-base;
-        margin-top: 0.75rem;
-        margin-bottom: 0.25rem;
-    }
+  .edit-page,
+  .last-modified {
+    font-size: $font-size-base;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
 }
 
 .edit-page svg,
 .last-modified svg {
-    margin-right: 0.5rem;
-    margin-bottom: 0.25rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 p.meta {
-    margin-top: 0.5rem;
-    font-size: $font-size-base;
+  margin-top: 0.5rem;
+  font-size: $font-size-base;
 }
 
 /*
@@ -72,33 +72,33 @@ p.meta {
 */
 
 .netlify-link {
-    margin-top: 0.03125rem;
-    margin-bottom: 0.03125rem;
+  margin-top: 0.03125rem;
+  margin-bottom: 0.03125rem;
 }
 
 .algolia-link {
-    margin-top: 0.125rem;
-    margin-bottom: 0.125rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
 }
 
 .browserstack-link {
-    margin-top: -0.03125rem;
-    margin-bottom: -0.03125rem;
+  margin-top: -0.03125rem;
+  margin-bottom: -0.03125rem;
 }
 
 .protocol-labs-link {
-    margin-top: -0.75rem;
-    margin-bottom: -0.75rem;
+  margin-top: -0.75rem;
+  margin-bottom: -0.75rem;
 }
 
 .experimental.list h2:not(.offcanvas-title) {
-    margin: 3rem 0 2rem;
+  margin: 3rem 0 2rem;
 }
 
 .experimental.list h2.heading-pinned {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .apoyo {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }

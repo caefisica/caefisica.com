@@ -1,23 +1,20 @@
-{{- /* Builds a JS/TS asset with esbuild. Minifies and adds SRI fingerprint in production.
-     Usage: partial "footer/render-script" (dict "src" "js/foo.ts" "load" "defer")
-     Pass load "none" to omit the defer/async attribute (e.g. for blocking head scripts).
-*/ -}}
-{{- $isProd := hugo.IsProduction -}}
-{{- $opts := dict
-    "target" "es2020"
-    "minify" $isProd
-    "sourceMap" (cond $isProd "none" "inline")
--}}
-{{- $rawLoad := .load | default "defer" -}}
-{{- $load := cond (eq $rawLoad "none") "" $rawLoad -}}
-{{- with resources.Get .src -}}
-    {{- with . | js.Build $opts -}}
-        {{- if $isProd -}}
-            {{- with . | fingerprint -}}
-<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" {{ $load | safeHTMLAttr }}></script>
-            {{- end -}}
-        {{- else -}}
+{{- /* Builds a JS/TS asset with esbuild. Minifies and adds SRI fingerprint in production. Usage:
+partial "footer/render-script" (dict "src" "js/foo.ts" "load" "defer") Pass load "none" to omit the
+defer/async attribute (e.g. for blocking head scripts). */ -}} {{- $isProd := hugo.IsProduction -}}
+{{- $opts := dict "target" "es2020" "minify" $isProd "sourceMap" (cond $isProd "none" "inline") -}}
+{{- $rawLoad := .load | default "defer" -}} {{- $load := cond (eq $rawLoad "none") "" $rawLoad -}}
+{{- with resources.Get .src -}} {{- with . | js.Build $opts -}} {{- if $isProd -}} {{- with . |
+fingerprint -}}
+<script
+  src="{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+  crossorigin="anonymous"
+  {{
+  $load
+  |
+  safeHTMLAttr
+  }}
+></script>
+{{- end -}} {{- else -}}
 <script src="{{ .RelPermalink }}" {{ $load | safeHTMLAttr }}></script>
-        {{- end -}}
-    {{- end -}}
-{{- end -}}
+{{- end -}} {{- end -}} {{- end -}}

@@ -1,17 +1,17 @@
 cff-version: 1.2.0
-message: 'Si utilizas este software o su contenido, cítalo como se indica a continuación'
-title: 'Documentación del Centro de Apoyo al Estudiante de Física'
+message: "Si utilizas este software o su contenido, cítalo como se indica a continuación"
+title: "Documentación del Centro de Apoyo al Estudiante de Física"
 authors:
-    - family-names: 'Duran'
-      given-names: 'David'
-      orcid: '0000-0003-2358-8524'
-    - family-names: 'Cordero'
-      given-names: 'Sergio'
-      # orcid: "https://orcid.org/0000-0000-0000-0000"
-    - family-names: 'Avalos'
-      given-names: 'Richard'
-      # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Duran"
+    given-names: "David"
+    orcid: "0000-0003-2358-8524"
+  - family-names: "Cordero"
+    given-names: "Sergio"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Avalos"
+    given-names: "Richard"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
 version: 0.9
 date-released: 2022-05-15
-license: 'MIT'
-repository-code: 'https://github.com/caefisica/web'
+license: "MIT"
+repository-code: "https://github.com/caefisica/web"

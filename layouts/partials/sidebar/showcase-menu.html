@@ -22,54 +22,39 @@
 
 {{ $currentPage := . -}}
 
-
 <h3>General</h3>
 <ul class="list-unstyled">
-    {{ $active := or (eq $currentPage.Title "Showcase") (eq .Type "showcase") -}}
-    <li>
-        <a
-            class="docs-link d-flex{{ if $active }}active{{ end }}"
-            href="/experimental/"
-            ><span>Todos los artículos</span
-            ><span class="badge bg-light text-dark fw-normal ms-auto me-lg-4"
-                >{{ len (where .Site.RegularPages "Section" "==" "experimental") }}</span
-            ></a
-        >
-    </li>
+  {{ $active := or (eq $currentPage.Title "Showcase") (eq .Type "showcase") -}}
+  <li>
+    <a class="docs-link d-flex{{ if $active }}active{{ end }}" href="/experimental/"
+      ><span>Todos los artículos</span
+      ><span class="badge bg-light text-dark fw-normal ms-auto me-lg-4"
+        >{{ len (where .Site.RegularPages "Section" "==" "experimental") }}</span
+      ></a
+    >
+  </li>
 </ul>
 
 <h3>Tópicos</h3>
 <ul class="list-unstyled">
-    {{ range .Site.Taxonomies.types }}
-        {{ $active := eq .Page.Title $currentPage.Title -}}
-        <li>
-            <a
-                class="docs-link d-flex{{ if $active }}active{{ end }}"
-                href="{{ .Page.RelPermalink }}"
-                ><span>{{ .Page.Title | title }}</span
-                ><span
-                    class="badge bg-light text-dark fw-normal ms-auto me-lg-4"
-                    >{{ .Count }}</span
-                ></a
-            >
-        </li>
-    {{ end }}
+  {{ range .Site.Taxonomies.types }} {{ $active := eq .Page.Title $currentPage.Title -}}
+  <li>
+    <a class="docs-link d-flex{{ if $active }}active{{ end }}" href="{{ .Page.RelPermalink }}"
+      ><span>{{ .Page.Title | title }}</span
+      ><span class="badge bg-light text-dark fw-normal ms-auto me-lg-4">{{ .Count }}</span></a
+    >
+  </li>
+  {{ end }}
 </ul>
 
 <h3>Categorías</h3>
 <ul class="list-unstyled">
-    {{ range .Site.Taxonomies.functionalities }}
-        {{ $active := eq .Page.Title $currentPage.Title -}}
-        <li>
-            <a
-                class="docs-link d-flex{{ if $active }}active{{ end }}"
-                href="{{ .Page.RelPermalink }}"
-                ><span>{{ .Page.Title | title }}</span
-                ><span
-                    class="badge bg-light text-dark fw-normal ms-auto me-lg-4"
-                    >{{ .Count }}</span
-                ></a
-            >
-        </li>
-    {{ end }}
+  {{ range .Site.Taxonomies.functionalities }} {{ $active := eq .Page.Title $currentPage.Title -}}
+  <li>
+    <a class="docs-link d-flex{{ if $active }}active{{ end }}" href="{{ .Page.RelPermalink }}"
+      ><span>{{ .Page.Title | title }}</span
+      ><span class="badge bg-light text-dark fw-normal ms-auto me-lg-4">{{ .Count }}</span></a
+    >
+  </li>
+  {{ end }}
 </ul>

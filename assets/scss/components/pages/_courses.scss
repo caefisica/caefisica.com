@@ -1,231 +1,230 @@
 .first_box {
-    margin-left: -1px;
-    margin-right: -1px;
-    padding-bottom: 8rem;
+  margin-left: -1px;
+  margin-right: -1px;
+  padding-bottom: 8rem;
 }
 
 .text-box {
-    z-index: 20;
+  z-index: 20;
 }
 
 .description_page {
-    margin: 0 0 1.45rem;
-    margin-bottom: 2rem;
-    font-weight: 500;
-    opacity: 0.6;
+  margin: 0 0 1.45rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  opacity: 0.6;
 }
 
 .form_title {
-    max-width: 32rem;
+  max-width: 32rem;
 }
 
 .search-icon-ban {
-    left: 1rem;
-    width: 1rem;
+  left: 1rem;
+  width: 1rem;
 }
 
 .the-input {
-    border: 0 solid;
-    overflow: visible;
-    background-color: rgb(255, 255, 255);
-    padding-bottom: 0.75rem;
-    padding-top: 0.75rem;
-    padding-left: 2.5rem;
-    text-align: left;
-    color: rgb(143, 143, 140);
+  border: 0 solid;
+  overflow: visible;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-left: 2.5rem;
+  text-align: left;
+  color: rgb(143, 143, 140);
 
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 10px 15px -3px rgb(0, 0, 0, 0.1),
-        0 4px 6px -4px rgb(0, 0, 0, 0.1);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 10px 15px -3px rgb(0, 0, 0, 0.1), 0 4px 6px -4px rgb(0, 0, 0, 0.1);
 
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    width: 500px;
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  width: 500px;
 }
 
 .back-div {
-    bottom: 0;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  height: 100%;
 
-    /* overflow: hidden; */
-    display: block;
+  /* overflow: hidden; */
+  display: block;
 }
 
 .back-span {
-    right: 0;
-    bottom: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .image-div-container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .the-image {
-    inset: 0;
-    height: 100%;
-    padding: 0;
-    transition: opacity 500ms linear;
-    object-fit: cover;
+  inset: 0;
+  height: 100%;
+  padding: 0;
+  transition: opacity 500ms linear;
+  object-fit: cover;
 }
 
 .the-new-image {
-    inset: 0;
-    height: 100%;
-    transform: translateZ(0);
-    transition: opacity 0.25s linear;
-    will-change: opacity;
-    object-fit: cover;
+  inset: 0;
+  height: 100%;
+  transform: translateZ(0);
+  transition: opacity 0.25s linear;
+  will-change: opacity;
+  object-fit: cover;
 }
 
 .section_title {
-    h2 {
-        font-size: 1.875rem;
-        font-weight: 700;
-    }
+  h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+  }
 
-    p {
-        margin: 0 0 1.45rem;
-        font-weight: 500;
-        color: rgb(143, 143, 140);
-    }
+  p {
+    margin: 0 0 1.45rem;
+    font-weight: 500;
+    color: rgb(143, 143, 140);
+  }
 }
 
 .group-data {
-    margin-top: 2rem;
-    border-top: 1px dashed;
-    border-left: 1px dashed;
-    border-right: 0;
-    border-bottom: 0;
-    border-color: rgb(191, 191, 188);
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  margin-top: 2rem;
+  border-top: 1px dashed;
+  border-left: 1px dashed;
+  border-right: 0;
+  border-bottom: 0;
+  border-color: rgb(191, 191, 188);
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 
-    svg {
-        vertical-align: middle;
-        height: 1.5rem;
-        width: 1.5rem;
-        flex-shrink: 0;
-        color: rgb(143, 143, 140);
-        margin-top: 0.125rem;
-        overflow: hidden;
+  svg {
+    vertical-align: middle;
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    color: rgb(143, 143, 140);
+    margin-top: 0.125rem;
+    overflow: hidden;
+  }
+
+  a {
+    h3 {
+      margin-bottom: 0.125rem;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      color: #145fd1;
     }
 
-    a {
-        h3 {
-            margin-bottom: 0.125rem;
-            font-size: 1.125rem;
-            line-height: 1.75rem;
-            color: #145fd1;
-        }
-
-        p {
-            margin: 0 0 1.45rem;
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: #212529;
-        }
+    p {
+      margin: 0 0 1.45rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #212529;
     }
+  }
 }
 
 [data-dark-mode] .group-data {
-    border-color: #343a40;
+  border-color: #343a40;
 }
 
 @media (width >= 1024px) {
-    .group-data {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+  .group-data {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (width >= 1280px) {
-    .group-data {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+  .group-data {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .group-data .text-data {
-    border-bottom: 1px dashed;
-    border-right: 1px dashed;
-    border-color: rgb(191, 191, 188);
-    padding: 1.5rem 2rem;
+  border-bottom: 1px dashed;
+  border-right: 1px dashed;
+  border-color: rgb(191, 191, 188);
+  padding: 1.5rem 2rem;
 }
 
 [data-dark-mode] .group-data .text-data {
-    border-color: #343a40;
+  border-color: #343a40;
 }
 
 .group-data .text-data:hover {
-    background-color: rgb(33, 37, 41, 0.025);
-    transition: background-color 0.3s ease;
+  background-color: rgb(33, 37, 41, 0.025);
+  transition: background-color 0.3s ease;
 }
 
 [data-dark-mode] .group-data .text-data:hover {
-    background-color: rgb(255, 255, 255, 0.025);
+  background-color: rgb(255, 255, 255, 0.025);
 }
 
 [data-dark-mode] .group-data a p {
-    color: #dee2e6;
+  color: #dee2e6;
 }
 
 .second-section {
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
 }
 
 .second-section .section-table {
-    overflow: hidden;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    margin-top: 2.5rem;
+  overflow: hidden;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  margin-top: 2.5rem;
 
-    .group {
-        background-color: rgb(33, 37, 41, 0.04);
-        padding: 1.5rem 2rem;
+  .group {
+    background-color: rgb(33, 37, 41, 0.04);
+    padding: 1.5rem 2rem;
 
-        p {
-            color: rgb(143, 143, 140);
-        }
-
-        ul {
-            list-style: disc;
-            list-style-type: none;
-            grid-template-columns: repeat(1, minmax(0, 1fr));
-        }
-
-        li a {
-            font-size: 14px;
-            font-weight: 500;
-            color: rgb(21, 21, 21);
-        }
+    p {
+      color: rgb(143, 143, 140);
     }
+
+    ul {
+      list-style: disc;
+      list-style-type: none;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    li a {
+      font-size: 14px;
+      font-weight: 500;
+      color: rgb(21, 21, 21);
+    }
+  }
 }
 
 @media (width >= 1280px) {
-    .second-section .section-table {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+  .second-section .section-table {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 [data-dark-mode] .second-section .section-table .group {
-    background-color: rgb(255, 255, 255, 0.04);
+  background-color: rgb(255, 255, 255, 0.04);
 }
 
 [data-dark-mode] .second-section .section-table .group li a {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .second-section .section-table .group li a:hover {
-    background-color: rgb(33, 37, 41, 0.1);
-    transition: background-color 0.25s ease;
+  background-color: rgb(33, 37, 41, 0.1);
+  transition: background-color 0.25s ease;
 }
 
 [data-dark-mode] .second-section .section-table .group li a:hover {
-    background-color: rgb(255, 255, 255, 0.1);
+  background-color: rgb(255, 255, 255, 0.1);
 }
 
 .second-section .section-table .group li a svg {
-    vertical-align: middle;
-    overflow: hidden;
+  vertical-align: middle;
+  overflow: hidden;
 }

@@ -1,574 +1,574 @@
 media:
-    input: content/media
-    output: media
-    path: media
-    extensions:
-        [
-            jpg,
-            jpeg,
-            png,
-            gif,
-            svg,
-            pdf,
-            doc,
-            docx,
-            ppt,
-            pptx,
-            xlsx,
-            mp4,
-            avi,
-            mov,
-            mp3,
-            wav,
-            aac,
-            ogg,
-            flac
-        ]
+  input: content/media
+  output: media
+  path: media
+  extensions:
+    [
+      jpg,
+      jpeg,
+      png,
+      gif,
+      svg,
+      pdf,
+      doc,
+      docx,
+      ppt,
+      pptx,
+      xlsx,
+      mp4,
+      avi,
+      mov,
+      mp3,
+      wav,
+      aac,
+      ogg,
+      flac,
+    ]
 
 content:
-    - name: _index
-      label: Inicio
-      type: file
-      path: content/_index.md
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-            options:
-                autoresize: true
-          - name: lead
-            label: Descripción corta
-            type: string
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: images
-            label: Imágenes
-            type: image
-            list: true
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media
-                    extensions: [jpg, jpeg, png]
-      format: yaml-frontmatter
+  - name: _index
+    label: Inicio
+    type: file
+    path: content/_index.md
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media
+            extensions: [jpg, jpeg, png]
+    format: yaml-frontmatter
 
-    - name: blog
-      label: Blog
-      type: collection
-      path: content/blog
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-            options:
-                autoresize: true
-          - name: lead
-            label: Descripción corta
-            type: string
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: images
-            label: Imágenes
-            type: image
-            list: true
-          - name: thumbnail
-            label: Miniatura
-            type: image
-            list: true
-          - name: contributors
-            label: Colaboradores
-            list: true
-            type: string
-          - name: author_id
-            label: Autor
-            type: string
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: tags
-            label: Etiquetas
-            list: true
-            type: string
-          - name: toc
-            label: Tabla de contenidos
-            type: boolean
-          - name: weight
-            label: Orden
-            type: number
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/blog
-                    extensions: [jpg, jpeg, png]
-      view:
-          fields: [title, date, featured]
-          primary: title
-          sort: [date, desc]
-      format: yaml-frontmatter
-      subfolders: true
+  - name: blog
+    label: Blog
+    type: collection
+    path: content/blog
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: thumbnail
+        label: Miniatura
+        type: image
+        list: true
+      - name: contributors
+        label: Colaboradores
+        list: true
+        type: string
+      - name: author_id
+        label: Autor
+        type: string
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: tags
+        label: Etiquetas
+        list: true
+        type: string
+      - name: toc
+        label: Tabla de contenidos
+        type: boolean
+      - name: weight
+        label: Orden
+        type: number
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/blog
+            extensions: [jpg, jpeg, png]
+    view:
+      fields: [title, date, featured]
+      primary: title
+      sort: [date, desc]
+    format: yaml-frontmatter
+    subfolders: true
 
-    - name: apuntes
-      label: Apuntes
-      type: collection
-      path: content/apuntes
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: string
-          - name: lead
-            label: Descripción corta
-            type: string
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: menu
-            label: Entrada de menú
+  - name: apuntes
+    label: Apuntes
+    type: collection
+    path: content/apuntes
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: string
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: menu
+        label: Entrada de menú
+        type: object
+        fields:
+          - name: cursos
+            label: cursos
             type: object
             fields:
-                - name: cursos
-                  label: cursos
-                  type: object
-                  fields:
-                      - name: parent
-                        label: parent
-                        type: string
-          - name: featured
-            label: Destacado
-            type: boolean
-          - name: contributors
-            label: Colaboradores
-            list: true
-            type: string
-          - name: pdf
-            label: Uso de PDF
-            type: boolean
-          - name: math
-            label: Uso de LaTeX
-            type: boolean
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: weight
-            label: Orden
-            type: number
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/apuntes
-                    extensions: [jpg, jpeg, png]
-      view:
-          fields: [title, description]
-          primary: title
-          sort: [weight]
-      format: yaml-frontmatter
-      subfolders: true
+              - name: parent
+                label: parent
+                type: string
+      - name: featured
+        label: Destacado
+        type: boolean
+      - name: contributors
+        label: Colaboradores
+        list: true
+        type: string
+      - name: pdf
+        label: Uso de PDF
+        type: boolean
+      - name: math
+        label: Uso de LaTeX
+        type: boolean
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: weight
+        label: Orden
+        type: number
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/apuntes
+            extensions: [jpg, jpeg, png]
+    view:
+      fields: [title, description]
+      primary: title
+      sort: [weight]
+    format: yaml-frontmatter
+    subfolders: true
 
-    - name: unmsm
-      label: UNMSM
-      type: collection
-      path: content/unmsm
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-            options:
-                autoresize: true
-          - name: lead
-            label: Descripción corta
-            type: string
-          - name: id
-            label: Código del curso
-            type: string
-          - name: credits
-            label: Créditos
-            type: number
-            options:
-                min: 1
-                max: 6
-          - name: prerrequisites
-            label: Prerrequisitos
-            type: string
-            list: true
-          - name: semester
-            label: Semestre
-            type: number
-            options:
-                min: 1
-                max: 10
-          - name: contributors
-            label: Colaboradores
-            list: true
-            type: string
-          - name: featured
-            label: Destacado
-            type: boolean
-          - name: pdf
-            label: Uso de PDF
-            type: boolean
-          - name: math
-            label: Uso de LaTeX
-            type: boolean
-          - name: weight
-            label: Orden
-            type: number
-          - name: images
-            label: Imágenes
-            type: image
-            list: true
-          - name: toc
-            label: Tabla de contenidos
-            type: boolean
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: string
-            list: true
-          - name: menu
-            label: Entrada de menú
+  - name: unmsm
+    label: UNMSM
+    type: collection
+    path: content/unmsm
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: id
+        label: Código del curso
+        type: string
+      - name: credits
+        label: Créditos
+        type: number
+        options:
+          min: 1
+          max: 6
+      - name: prerrequisites
+        label: Prerrequisitos
+        type: string
+        list: true
+      - name: semester
+        label: Semestre
+        type: number
+        options:
+          min: 1
+          max: 10
+      - name: contributors
+        label: Colaboradores
+        list: true
+        type: string
+      - name: featured
+        label: Destacado
+        type: boolean
+      - name: pdf
+        label: Uso de PDF
+        type: boolean
+      - name: math
+        label: Uso de LaTeX
+        type: boolean
+      - name: weight
+        label: Orden
+        type: number
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: toc
+        label: Tabla de contenidos
+        type: boolean
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: string
+        list: true
+      - name: menu
+        label: Entrada de menú
+        type: object
+        fields:
+          - name: guias
+            label: guias
             type: object
             fields:
-                - name: guias
-                  label: guias
-                  type: object
-                  fields:
-                      - name: parent
-                        label: parent
-                        type: string
-            required: true
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/unmsm
-                    extensions: [jpg, jpeg, png]
-      view:
-          fields: [title, description]
-          primary: title
-      format: yaml-frontmatter
-      subfolders: true
+              - name: parent
+                label: parent
+                type: string
+        required: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/unmsm
+            extensions: [jpg, jpeg, png]
+    view:
+      fields: [title, description]
+      primary: title
+    format: yaml-frontmatter
+    subfolders: true
 
-    - name: experimental
-      label: Experimental
-      type: collection
-      path: content/experimental
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-            options:
-                autoresize: true
-          - name: lead
-            label: Descripción corta
-            type: string
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: images
-            label: Imágenes
-            type: image
-            list: true
-          - name: link
-            label: Enlace
-            type: string
-          - name: menu
-            label: Entrada de menú
+  - name: experimental
+    label: Experimental
+    type: collection
+    path: content/experimental
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: link
+        label: Enlace
+        type: string
+      - name: menu
+        label: Entrada de menú
+        type: object
+        fields:
+          - name: experimental
+            label: experimental
             type: object
             fields:
-                - name: experimental
-                  label: experimental
-                  type: object
-                  fields:
-                      - name: parent
-                        label: parent
-                        type: string
-          - name: weight
-            label: Orden
-            type: number
-          - name: toc
-            label: Tabla de contenidos
-            type: boolean
-          - name: pinned
-            label: Fijado
-            type: boolean
-          - name: types
-            label: Tipos
-            type: string
-            list: true
-          - name: functionalities
-            label: Funcionalidades
-            type: string
-            list: true
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/experimental
-                    extensions: [jpg, jpeg, png]
-      view:
-          fields: [title]
-          primary: title
-      format: yaml-frontmatter
+              - name: parent
+                label: parent
+                type: string
+      - name: weight
+        label: Orden
+        type: number
+      - name: toc
+        label: Tabla de contenidos
+        type: boolean
+      - name: pinned
+        label: Fijado
+        type: boolean
+      - name: types
+        label: Tipos
+        type: string
+        list: true
+      - name: functionalities
+        label: Funcionalidades
+        type: string
+        list: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/experimental
+            extensions: [jpg, jpeg, png]
+    view:
+      fields: [title]
+      primary: title
+    format: yaml-frontmatter
 
-    - name: contributors
-      label: Colaboradores
-      type: collection
-      path: content/contributors
-      fields:
-          - name: title
-            label: Nombre
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: images
-            label: Imágenes
-            type: image
-            list: true
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/contributors
-                    extensions: [jpg, jpeg, png]
-      view:
-          fields: [name, role]
-          primary: name
-      format: yaml-frontmatter
-      subfolders: true
+  - name: contributors
+    label: Colaboradores
+    type: collection
+    path: content/contributors
+    fields:
+      - name: title
+        label: Nombre
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/contributors
+            extensions: [jpg, jpeg, png]
+    view:
+      fields: [name, role]
+      primary: name
+    format: yaml-frontmatter
+    subfolders: true
 
-    - name: nosotros
-      label: Nosotros
-      type: file
-      path: content/nosotros/index.md
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-            options:
-                autoresize: true
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: images
-            label: Imágenes
-            type: image
-            list: true
-          - name: type
-            label: Tipo
-            type: string
-            list: true
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/nosotros
-                    extensions: [jpg, jpeg, png]
-      format: yaml-frontmatter
+  - name: nosotros
+    label: Nosotros
+    type: file
+    path: content/nosotros/index.md
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: type
+        label: Tipo
+        type: string
+        list: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/nosotros
+            extensions: [jpg, jpeg, png]
+    format: yaml-frontmatter
 
-    - name: contacto
-      label: Contacto
-      type: file
-      path: content/contacto/_index.md
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-            options:
-                autoresize: true
-          - name: lead
-            label: Descripción corta
-            type: string
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/contacto
-                    extensions: [jpg, jpeg, png]
-      format: yaml-frontmatter
+  - name: contacto
+    label: Contacto
+    type: file
+    path: content/contacto/_index.md
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: lead
+        label: Descripción corta
+        type: string
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/contacto
+            extensions: [jpg, jpeg, png]
+    format: yaml-frontmatter
 
-    - name: privacidad
-      label: Privacidad
-      type: file
-      path: content/privacidad/index.md
-      fields:
-          - name: title
-            label: Título
-            type: string
-          - name: description
-            label: Descripción
-            type: text
-            options:
-                autoresize: true
-          - name: date
-            label: Fecha
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: lastmod
-            label: Última modificación
-            type: date
-            options:
-                time: true
-                format: 'YYYY-MM-DDTHH:mm:ssZ'
-            required: true
-          - name: draft
-            label: Borrador
-            type: boolean
-          - name: images
-            label: Imágenes
-            type: image
-            list: true
-          - name: type
-            label: Tipo
-            type: string
-            list: true
-          - name: body
-            label: Cuerpo
-            type: rich-text
-            options:
-                format: markdown
-                image:
-                    path: content/media/privacidad
-                    extensions: [jpg, jpeg, png]
-      format: yaml-frontmatter
+  - name: privacidad
+    label: Privacidad
+    type: file
+    path: content/privacidad/index.md
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+        options:
+          autoresize: true
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: lastmod
+        label: Última modificación
+        type: date
+        options:
+          time: true
+          format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: true
+      - name: draft
+        label: Borrador
+        type: boolean
+      - name: images
+        label: Imágenes
+        type: image
+        list: true
+      - name: type
+        label: Tipo
+        type: string
+        list: true
+      - name: body
+        label: Cuerpo
+        type: rich-text
+        options:
+          format: markdown
+          image:
+            path: content/media/privacidad
+            extensions: [jpg, jpeg, png]
+    format: yaml-frontmatter

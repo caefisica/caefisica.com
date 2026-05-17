@@ -1,69 +1,57 @@
-{{ $page := .page -}}
-{{ $resourcePath := .resource -}}
-{{ $type := .type -}}
-
-{{ with $page.Resources.Get $resourcePath -}}
-  {{ with . | transform.Unmarshal -}}
-    <table>
-      <thead>
-        <tr>
-          {{- if eq $type "book" -}}
-            <th>Autor(es)</th>
-            <th>Título</th>
-            <th>Enlace</th>
-          {{- else if eq $type "playlist" -}}
-            <th>Canal</th>
-            <th>Título</th>
-            <th>Videos</th>
-          {{- else -}}
-            {{ errorf "Unsupported resource table type %q in %s" $type $page.File.Path }}
-          {{- end -}}
-        </tr>
-      </thead>
-      <tbody>
-        {{- range . -}}
-          <tr>
-            {{- if eq $type "book" -}}
-              <td class="align-middle">{{ .author }}</td>
-              <td class="align-middle">
-                <div class="editorial fst-italic">{{ .editorial }}</div>
-                <div class="title">{{ .title }}</div>
-              </td>
-              <td class="align-middle">
-                {{- with .links -}}
-                  {{- $links := . -}}
-                  {{- range $index, $link := $links -}}
-                    <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer">
-                      {{ with $link.edition }}{{ . }},{{ end }}{{ $link.year }}
-                    </a>
-                    {{ if lt $index (sub (len $links) 1) }}<br />{{ end }}
-                  {{- end -}}
-                {{- else -}}
-                  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                    {{ with .edition }}{{ . }},{{ end }}{{ .year }}
-                  </a>
-                {{- end -}}
-              </td>
-            {{- else if eq $type "playlist" -}}
-              <td class="align-middle">
-                <div class="editorial fst-italic">{{ .channel }}</div>
-                <div class="lecturer">{{ .lecturer }}</div>
-              </td>
-              <td class="align-middle">
-                <div class="title">{{ .title }}</div>
-              </td>
-              <td class="align-middle">
-                <div class="videos"><code>{{ .videos }}</code> videos</div>
-                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"> Ver lista </a>
-              </td>
-            {{- end -}}
-          </tr>
+{{ $page := .page -}} {{ $resourcePath := .resource -}} {{ $type := .type -}} {{ with
+$page.Resources.Get $resourcePath -}} {{ with . | transform.Unmarshal -}}
+<table>
+  <thead>
+    <tr>
+      {{- if eq $type "book" -}}
+      <th>Autor(es)</th>
+      <th>Título</th>
+      <th>Enlace</th>
+      {{- else if eq $type "playlist" -}}
+      <th>Canal</th>
+      <th>Título</th>
+      <th>Videos</th>
+      {{- else -}} {{ errorf "Unsupported resource table type %q in %s" $type $page.File.Path }} {{-
+      end -}}
+    </tr>
+  </thead>
+  <tbody>
+    {{- range . -}}
+    <tr>
+      {{- if eq $type "book" -}}
+      <td class="align-middle">{{ .author }}</td>
+      <td class="align-middle">
+        <div class="editorial fst-italic">{{ .editorial }}</div>
+        <div class="title">{{ .title }}</div>
+      </td>
+      <td class="align-middle">
+        {{- with .links -}} {{- $links := . -}} {{- range $index, $link := $links -}}
+        <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer">
+          {{ with $link.edition }}{{ . }},{{ end }}{{ $link.year }}
+        </a>
+        {{ if lt $index (sub (len $links) 1) }}<br />{{ end }} {{- end -}} {{- else -}}
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+          {{ with .edition }}{{ . }},{{ end }}{{ .year }}
+        </a>
         {{- end -}}
-      </tbody>
-    </table>
-  {{ else -}}
-    {{ errorf "Unable to unmarshal page resource %q in %s" $resourcePath $page.File.Path }}
-  {{ end -}}
-{{ else -}}
-  {{ errorf "Unable to get page resource %q in %s" $resourcePath $page.File.Path }}
-{{ end -}}
+      </td>
+      {{- else if eq $type "playlist" -}}
+      <td class="align-middle">
+        <div class="editorial fst-italic">{{ .channel }}</div>
+        <div class="lecturer">{{ .lecturer }}</div>
+      </td>
+      <td class="align-middle">
+        <div class="title">{{ .title }}</div>
+      </td>
+      <td class="align-middle">
+        <div class="videos"><code>{{ .videos }}</code> videos</div>
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"> Ver lista </a>
+      </td>
+      {{- end -}}
+    </tr>
+    {{- end -}}
+  </tbody>
+</table>
+{{ else -}} {{ errorf "Unable to unmarshal page resource %q in %s" $resourcePath $page.File.Path }}
+{{ end -}} {{ else -}} {{ errorf "Unable to get page resource %q in %s" $resourcePath
+$page.File.Path }} {{ end -}}

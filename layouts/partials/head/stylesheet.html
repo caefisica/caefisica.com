@@ -1,32 +1,19 @@
-{{ $scssPath := "scss/app.scss" }}
-{{ $targetPath := "main.css" }}
-{{ if eq .Kind "home" }}
-  {{ $scssPath = "scss/home.scss" }}
-  {{ $targetPath = "home.css" }}
-{{ end }}
-
-{{ $opts := dict
-  "transpiler" "dartsass"
-  "targetPath" $targetPath
-  "includePaths" (slice "node_modules")
-  "quietDeps" true
-  "silenceDeprecations" (slice "import" "if-function" "global-builtin" "color-functions")
-}}
-
-{{ with resources.Get $scssPath }}
-  {{ if hugo.IsDevelopment }}
-    {{ with . | toCSS (merge $opts (dict "enableSourceMap" true)) }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" />
-    {{ end }}
-  {{ else }}
-    {{ with . | toCSS (merge $opts (dict "outputStyle" "compressed")) | postCSS (dict "config" "config/postcss.config.js") | fingerprint "sha512" }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" />
-    {{ end }}
-  {{ end }}
-{{ end }}
-
-{{ with resources.Get "scss/components/_noscript.scss" }}
-  {{ with . | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
-    <noscript><link rel="stylesheet" href="{{ .RelPermalink }}" /></noscript>
-  {{ end }}
-{{ end }}
+{{ $scssPath := "scss/app.scss" }} {{ $targetPath := "main.css" }} {{ if eq .Kind "home" }} {{
+$scssPath = "scss/home.scss" }} {{ $targetPath = "home.css" }} {{ end }} {{ $opts := dict
+"transpiler" "dartsass" "targetPath" $targetPath "includePaths" (slice "node_modules") "quietDeps"
+true "silenceDeprecations" (slice "import" "if-function" "global-builtin" "color-functions") }} {{
+with resources.Get $scssPath }} {{ if hugo.IsDevelopment }} {{ with . | toCSS (merge $opts (dict
+"enableSourceMap" true)) }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }} {{ else }} {{ with . | toCSS (merge $opts (dict "outputStyle" "compressed")) | postCSS
+(dict "config" "config/postcss.config.js") | fingerprint "sha512" }}
+<link
+  rel="stylesheet"
+  href="{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+  crossorigin="anonymous"
+/>
+{{ end }} {{ end }} {{ end }} {{ with resources.Get "scss/components/_noscript.scss" }} {{ with . |
+toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
+<noscript><link rel="stylesheet" href="{{ .RelPermalink }}" /></noscript>
+{{ end }} {{ end }}

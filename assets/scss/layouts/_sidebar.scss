@@ -1,114 +1,114 @@
 .docs-links,
 .docs-toc {
-    scrollbar-width: thin;
-    scrollbar-color: $white $white;
+  scrollbar-width: thin;
+  scrollbar-color: $white $white;
 }
 
 .docs-links::-webkit-scrollbar,
 .docs-toc::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 .docs-links::-webkit-scrollbar-track,
 .docs-toc::-webkit-scrollbar-track {
-    background: $white;
+  background: $white;
 }
 
 .docs-links::-webkit-scrollbar-thumb,
 .docs-toc::-webkit-scrollbar-thumb {
-    background: $white;
+  background: $white;
 }
 
 .docs-links:hover,
 .docs-toc:hover {
-    scrollbar-width: thin;
-    scrollbar-color: $gray-200 $white;
+  scrollbar-width: thin;
+  scrollbar-color: $gray-200 $white;
 }
 
 .docs-links:hover::-webkit-scrollbar-thumb,
 .docs-toc:hover::-webkit-scrollbar-thumb {
-    background: $gray-200;
+  background: $gray-200;
 }
 
 .docs-links::-webkit-scrollbar-thumb:hover,
 .docs-toc::-webkit-scrollbar-thumb:hover {
-    background: $gray-200;
+  background: $gray-200;
 }
 
 .docs-links h3 {
-    /* text-transform: uppercase; */
-    font-size: $font-size-base;
-    margin: 1.25rem 0 0.5rem;
-    padding: 1.5rem 0 0;
+  /* text-transform: uppercase; */
+  font-size: $font-size-base;
+  margin: 1.25rem 0 0.5rem;
+  padding: 1.5rem 0 0;
 }
 
 .page-links a {
-    color: $body-color;
-    display: block;
-    padding: 0.125rem 0;
-    font-size: $font-size-base * 0.9375;
+  color: $body-color;
+  display: block;
+  padding: 0.125rem 0;
+  font-size: $font-size-base * 0.9375;
 }
 
 .author-links a {
-    color: $link-color;
+  color: $link-color;
 }
 
 .social-media-links {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    border-top: 1px dashed #e9ecef;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  border-top: 1px dashed #e9ecef;
 
-    h3 {
-        font-size: $font-size-base;
-        margin: 2rem 1.5rem 1rem 0;
-        padding: 0;
-    }
+  h3 {
+    font-size: $font-size-base;
+    margin: 2rem 1.5rem 1rem 0;
+    padding: 0;
+  }
 
-    button {
-        border: 0;
-        background-color: inherit;
-        color: rgba($gray-900, 0.5);
-    }
+  button {
+    border: 0;
+    background-color: inherit;
+    color: rgba($gray-900, 0.5);
+  }
 
-    a {
-        color: rgba($gray-900, 0.5);
-    }
+  a {
+    color: rgba($gray-900, 0.5);
+  }
 
-    button:hover,
-    a:hover {
-        color: rgba($gray-900, 1);
-        transition: all 0.2s ease;
-    }
+  button:hover,
+  a:hover {
+    color: rgba($gray-900, 1);
+    transition: all 0.2s ease;
+  }
 }
 
 .page-links h3 {
-    /* text-transform: uppercase; */
-    font-size: $font-size-base;
-    margin: 2rem 0 0.5rem;
-    padding: 0;
+  /* text-transform: uppercase; */
+  font-size: $font-size-base;
+  margin: 2rem 0 0.5rem;
+  padding: 0;
 }
 
 @include media-breakpoint-up(lg) {
-    .docs-links h3 {
-        margin: 1.125rem 1.5rem 0.75rem 0;
-        padding: 1.375rem 0 0;
-    }
+  .docs-links h3 {
+    margin: 1.125rem 1.5rem 0.75rem 0;
+    padding: 1.375rem 0 0;
+  }
 
-    .page-links h3 {
-        margin: 2rem 1.5rem 0.75rem 0;
-        padding-top: 0;
-    }
+  .page-links h3 {
+    margin: 2rem 1.5rem 0.75rem 0;
+    padding-top: 0;
+  }
 }
 
 .docs-links h3:not(:first-child) {
-    border-top: 1px dashed $gray-200;
+  border-top: 1px dashed $gray-200;
 }
 
 a.docs-link {
-    color: $body-color;
-    display: block;
-    padding: 0.125rem 0;
-    font-size: $font-size-base;
+  color: $body-color;
+  display: block;
+  padding: 0.125rem 0;
+  font-size: $font-size-base;
 }
 
 /*
@@ -118,60 +118,60 @@ a.docs-link {
 */
 
 .page-links li {
-    margin-top: 0.375rem;
-    padding-top: 0.375rem;
+  margin-top: 0.375rem;
+  padding-top: 0.375rem;
 }
 
 .author-links li {
-    border-top: 0 !important;
+  border-top: 0 !important;
 }
 
 .page-links li ul li {
-    border-top: none;
-    padding-left: 1rem;
-    margin-top: 0.125rem;
-    padding-top: 0.125rem;
+  border-top: none;
+  padding-left: 1rem;
+  margin-top: 0.125rem;
+  padding-top: 0.125rem;
 }
 
 .page-links li:not(:first-child) {
-    border-top: 1px dashed $gray-200;
+  border-top: 1px dashed $gray-200;
 }
 
 .docs-link:hover,
 .docs-link.active,
 .page-links a:hover {
-    text-decoration: none;
-    color: $link-color;
-    transition: all 0.25s ease;
+  text-decoration: none;
+  color: $link-color;
+  transition: all 0.25s ease;
 }
 
 .docs-links h3.sidebar-link,
 .page-links h3.sidebar-link {
-    text-transform: none;
-    font-size: $font-size-md;
-    font-weight: normal;
+  text-transform: none;
+  font-size: $font-size-md;
+  font-weight: normal;
 }
 
 .docs-links h3.sidebar-link a,
 .page-links h3.sidebar-link a {
-    color: $body-color;
+  color: $body-color;
 }
 
 .docs-links h3.sidebar-link a:hover,
 .page-links h3.sidebar-link a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .author-links {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    border-bottom: 1px dashed #e9ecef;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  border-bottom: 1px dashed #e9ecef;
 
-    img {
-        height: 38px;
-    }
+  img {
+    height: 38px;
+  }
 }
 
 .page-links.bottom {
-    bottom: 0;
+  bottom: 0;
 }

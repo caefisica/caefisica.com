@@ -1,25 +1,18 @@
 {{ if or .Prev .Next -}}
-    <div class="docs-navigation d-flex justify-content-between">
-        <!-- https://www.feliciano.tech/blog/custom-sort-hugo-single-pages/ -->
-        {{ $pages := where site.RegularPages "Section" .Section -}}
-        {{ with $pages.ByWeight.Next . -}}
-            <a class="text-decoration-none" href="{{ .RelPermalink }}">
-                <div class="card my-1 hover_card">
-                    <a class="card-body py-2 text-decoration-none active">
-                        &larr;
-                        {{ .Title }}
-                    </a>
-                </div>
-            </a>
-        {{ end -}}
-        {{ with $pages.ByWeight.Prev . -}}
-            <a class="ms-auto text-decoration-none" href="{{ .RelPermalink }}">
-                <div class="card my-1 hover_card">
-                    <a class="card-body py-2 text-decoration-none active">
-                        {{ .Title }} &rarr;
-                    </a>
-                </div>
-            </a>
-        {{ end -}}
+<div class="docs-navigation d-flex justify-content-between">
+  <!-- https://www.feliciano.tech/blog/custom-sort-hugo-single-pages/ -->
+  {{ $pages := where site.RegularPages "Section" .Section -}} {{ with $pages.ByWeight.Next . -}}
+  <a class="text-decoration-none" href="{{ .RelPermalink }}">
+    <div class="card my-1 hover_card">
+      <a class="card-body py-2 text-decoration-none active"> &larr; {{ .Title }} </a>
     </div>
+  </a>
+  {{ end -}} {{ with $pages.ByWeight.Prev . -}}
+  <a class="ms-auto text-decoration-none" href="{{ .RelPermalink }}">
+    <div class="card my-1 hover_card">
+      <a class="card-body py-2 text-decoration-none active"> {{ .Title }} &rarr; </a>
+    </div>
+  </a>
+  {{ end -}}
+</div>
 {{ end -}}

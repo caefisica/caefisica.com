@@ -1,23 +1,23 @@
-{{ define "head/stylesheet" }}
-    {{ partial "head/stylesheet.html" . }}
-    {{ $styles := resources.Get "scss/components/_message.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen" />
-{{ end }}
-
-{{ define "main" }}
-    <section class="section fullpage2">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-12 col-lg-5 me-5">
-                    {{ partial "components/ghost.html" . -}}
-                </div>
-                <div class="col-12 col-lg-7">
-                    <article>
-                        <h1 class="text-left">{{ .Title }}</h1>
-                        <div class="text-left">{{ .Content }}</div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
+{{ define "head/stylesheet" }} {{ partial "head/stylesheet.html" . }} {{ $styles := resources.Get
+"scss/components/_message.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
+<link
+  rel="stylesheet"
+  href="{{ $styles.RelPermalink }}"
+  integrity="{{ $styles.Data.Integrity }}"
+  media="screen"
+/>
+{{ end }} {{ define "main" }}
+<section class="section fullpage2">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-lg-5 me-5">{{ partial "components/ghost.html" . -}}</div>
+      <div class="col-12 col-lg-7">
+        <article>
+          <h1 class="text-left">{{ .Title }}</h1>
+          <div class="text-left">{{ .Content }}</div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}

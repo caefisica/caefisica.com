@@ -1,23 +1,5 @@
-{{ $contributors := slice -}}
-
-{{ range .contributors -}}
-    {{ $id := . -}}
-    {{ $page := $.site.GetPage (printf "/contributors/%s" $id) -}}
-    {{ if not $page -}}
-        {{ errorf "Unable to resolve contributor %q" $id }}
-    {{ end -}}
-
-    {{ $image := "" -}}
-    {{ with $page.Params.images -}}
-        {{ $image = index . 0 -}}
-    {{ end -}}
-
-    {{ $contributors = $contributors | append (dict
-        "id" $id
-        "image" $image
-        "page" $page
-        "name" $page.Title
-    ) -}}
-{{ end -}}
-
-{{ return $contributors -}}
+{{ $contributors := slice -}} {{ range .contributors -}} {{ $id := . -}} {{ $page := $.site.GetPage
+(printf "/contributors/%s" $id) -}} {{ if not $page -}} {{ errorf "Unable to resolve contributor %q"
+$id }} {{ end -}} {{ $image := "" -}} {{ with $page.Params.images -}} {{ $image = index . 0 -}} {{
+end -}} {{ $contributors = $contributors | append (dict "id" $id "image" $image "page" $page "name"
+$page.Title ) -}} {{ end -}} {{ return $contributors -}}

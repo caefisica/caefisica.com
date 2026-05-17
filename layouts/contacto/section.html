@@ -1,26 +1,22 @@
 {{ define "main" }}
-    <div class="row fullpage2 align-items-center">
-        <div class="col-md-12 col-lg-10 col-xl-8">
-            <article class="row d-flex justify-content-center">
-                <h1 class="col-12">{{ .Title }}</h1>
-                <div class="col-12">{{ .Content }}</div>
-                <div class="card-list">
-                    {{ range .Pages -}}
-                        <div class="card">
-                            <div class="card-body">
-                                <h2 class="h3">
-                                    <a
-                                        class="stretched-link text-body"
-                                        href="{{ .RelPermalink }}"
-                                        >{{ .Params.title }}</a
-                                    >
-                                </h2>
-                                <p>{{ .Params.lead | safeHTML }}</p>
-                            </div>
-                        </div>
-                    {{ end -}}
-                </div>
-            </article>
+<div class="row fullpage2 align-items-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
+    <article class="row d-flex justify-content-center">
+      <h1 class="col-12">{{ .Title }}</h1>
+      <div class="col-12">{{ .Content }}</div>
+      <div class="card-list">
+        {{ range .Pages -}}
+        <div class="card">
+          <div class="card-body">
+            <h2 class="h3">
+              <a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+            </h2>
+            <p>{{ .Params.lead | safeHTML }}</p>
+          </div>
         </div>
-    </div>
+        {{ end -}}
+      </div>
+    </article>
+  </div>
+</div>
 {{ end }}

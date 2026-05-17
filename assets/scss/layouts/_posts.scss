@@ -3,24 +3,24 @@
 .newsletter .card,
 .rss .card,
 .contributors.list .card {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    transition: transform 0.3s;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
 }
 
 .list.unmsm .card,
 .list.apuntes .card {
-    transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
 .experimental.list .card,
 .types.list .card,
 .functionalities.list .card {
-    transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
 .home .section-featured .card {
-    margin: 0;
+  margin: 0;
 }
 
 .blog .card:hover,
@@ -32,15 +32,15 @@
 .experimental.list .card:hover,
 .types.list .card:hover,
 .functionalities.list .card:hover {
-    transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 .list.unmsm .section-featured .card {
-    margin: 0;
+  margin: 0;
 }
 
 .home .card:hover:not(.alignfull .card) {
-    transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 .home .card-body,
@@ -48,36 +48,36 @@
 .newsletter .card-body,
 .rss .card-body,
 .contributors.list .card-body {
-    padding: 0 2rem 1rem;
+  padding: 0 2rem 1rem;
 }
 
 .home .section-featured .card-body,
 .list.unmsm .section-featured .card-body,
 .list.apuntes .section-featured .card-body {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .home .section-featured .card-title,
 .list.unmsm .section-featured .card-title,
 .list.apuntes .section-featured .card-title {
-    font-size: $font-size-base;
-    font-weight: normal;
-    text-align: center;
+  font-size: $font-size-base;
+  font-weight: normal;
+  text-align: center;
 
-    @include media-breakpoint-up(md) {
-        font-size: $font-size-md;
-    }
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-md;
+  }
 }
 
 .blog-header {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .blog-footer {
-    text-align: center;
+  text-align: center;
 }
 
 .types-single {
-    margin-right: 0.75rem;
+  margin-right: 0.75rem;
 }

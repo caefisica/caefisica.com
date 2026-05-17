@@ -1,95 +1,95 @@
 [[unmsm]]
-  name = "Pregrado"
-  weight = 10
-  identifier = "cursos"
-  url = "/unmsm/pregrado/"
+name = "Pregrado"
+weight = 10
+identifier = "cursos"
+url = "/unmsm/pregrado/"
 
 [[unmsm]]
-  name = "Posgrado"
-  weight = 20
-  identifier = "posgrado"
-  url = "/unmsm/posgrado/"
+name = "Posgrado"
+weight = 20
+identifier = "posgrado"
+url = "/unmsm/posgrado/"
 
 [[apuntes]]
-  name = "Apuntes"
-  weight = 10
-  identifier = "apuntes"
-  url = "/apuntes/matemática"
+name = "Apuntes"
+weight = 10
+identifier = "apuntes"
+url = "/apuntes/matemática"
 
 [[main]]
-  name = "Biblioteca"
-  url = "/biblioteca/"
-  weight = 10
+name = "Biblioteca"
+url = "/biblioteca/"
+weight = 10
 
 [[main]]
-  name = "Académico"
-  url = "/pregrado/"
-  weight = 20
+name = "Académico"
+url = "/pregrado/"
+weight = 20
 
 [[main]]
-  name = "Artículos"
-  url = "/experimental/"
-  weight = 30
-  parent = "Recursos"
+name = "Artículos"
+url = "/experimental/"
+weight = 30
+parent = "Recursos"
 
 [[main]]
-  name = "Blogs"
-  url = "/blog/"
-  weight = 40
-  parent = "Recursos"
+name = "Blogs"
+url = "/blog/"
+weight = 40
+parent = "Recursos"
 
 [[main]]
-  name = "Cursos"
-  weight = 10
-  url = "/unmsm/"
-  parent = "Académico"
+name = "Cursos"
+weight = 10
+url = "/unmsm/"
+parent = "Académico"
 
 [[main]]
-  name = "Apuntes"
-  weight = 20
-  url = "/apuntes/"
-  parent = "Académico"
+name = "Apuntes"
+weight = 20
+url = "/apuntes/"
+parent = "Académico"
 
 [[main]]
-  name = "Facultad"
-  weight = 20
-  url = "/unmsm/facultad/directorio/"
-  parent = "Académico"
+name = "Facultad"
+weight = 20
+url = "/unmsm/facultad/directorio/"
+parent = "Académico"
 
 [[social]]
-  name = "Facebook"
-  pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"css-i6dzq1\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"></path></svg>"
-  url = "https://www.facebook.com/caefisica"
-  weight = 10
+name = "Facebook"
+pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"css-i6dzq1\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"></path></svg>"
+url = "https://www.facebook.com/caefisica"
+weight = 10
 
 [[social]]
-  name = "Instagram"
-  pre = "<svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"css-i6dzq1\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line></svg>"
-  url = "https://www.instagram.com/caefisica/"
-  weight = 20
+name = "Instagram"
+pre = "<svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"css-i6dzq1\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line></svg>"
+url = "https://www.instagram.com/caefisica/"
+weight = 20
 
 [[footer]]
-  name = "Nosotros"
-  url = "/nosotros"
-  weight = 10
+name = "Nosotros"
+url = "/nosotros"
+weight = 10
 
 [[footer]]
-  name = "Boletín"
-  url = "/newsletter"
-  weight = 20
+name = "Boletín"
+url = "/newsletter"
+weight = 20
 
 [[footer]]
-  name = "Privacidad"
-  url = "/privacidad"
-  weight = 30
+name = "Privacidad"
+url = "/privacidad"
+weight = 30
 
 [[experimental]]
-  name = "General"
-  weight = 10
-  identifier = "experimental"
-  url = "/experimental/"
+name = "General"
+weight = 10
+identifier = "experimental"
+url = "/experimental/"
 
 [[tertiary]]
-  name = "Envía un artículo o página web"
-  url = "https://github.com/caefisica/discusion/labels/página"
-  weight = 10
+name = "Envía un artículo o página web"
+url = "https://github.com/caefisica/discusion/labels/página"
+weight = 10

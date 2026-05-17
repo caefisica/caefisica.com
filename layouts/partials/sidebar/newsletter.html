@@ -1,42 +1,44 @@
 <div class="card top-newsletter">
-    <div class="card-bar"></div>
-    <div class="card-body">
-        <h3 class="h4 card-title">
-            {{ ":wave:" | emojify }} ¿Quieres estar al día?
-        </h3>
-        <p class="card-text">
-            Únete y mantente al tanto de las últimas noticias relacionadas a la
-            física en el Perú y los eventos organizados por el @caefisica.
-        </p>
+  <div class="card-bar"></div>
+  <div class="card-body">
+    <h3 class="h4 card-title">{{ ":wave:" | emojify }} ¿Quieres estar al día?</h3>
+    <p class="card-text">
+      Únete y mantente al tanto de las últimas noticias relacionadas a la física en el Perú y los
+      eventos organizados por el @caefisica.
+    </p>
 
-        <form
-            class="row gx-2 gy-3 email-form d-flex align-items-end"
-            name="newsletter"
-            method="post"
-            netlify-honeypot="name"
-            data-netlify="true"
-            action="/suscrito">
-            <input
-                name="name"
-                type="text"
-                class="form-control name"
-                placeholder="Tu nombre"
-                aria-label="Nombre" />
-            <input
-                name="email"
-                type="email"
-                class="form-control email m-0"
-                placeholder="Tu correo electrónico"
-                aria-label="Correo electrónico"
-                required />
-            <input name="page" type="hidden" value="{{ .Page.RelPermalink }}" />
-            <button
-                id="subscribeButton"
-                type="submit"
-                class="btn btn-primary w-100 button-email mt-0"
-                aria-label="Suscríbete">
-                Suscríbete
-            </button>
-        </form>
-    </div>
+    <form
+      class="row gx-2 gy-3 email-form d-flex align-items-end"
+      name="newsletter"
+      method="post"
+      netlify-honeypot="name"
+      data-netlify="true"
+      action="/suscrito"
+    >
+      <input
+        name="name"
+        type="text"
+        class="form-control name"
+        placeholder="Tu nombre"
+        aria-label="Nombre"
+      />
+      <input
+        name="email"
+        type="email"
+        class="form-control email m-0"
+        placeholder="Tu correo electrónico"
+        aria-label="Correo electrónico"
+        required
+      />
+      <input name="page" type="hidden" value="{{ .Page.RelPermalink }}" />
+      <button
+        id="subscribeButton"
+        type="submit"
+        class="btn btn-primary w-100 button-email mt-0"
+        aria-label="Suscríbete"
+      >
+        Suscríbete
+      </button>
+    </form>
+  </div>
 </div>

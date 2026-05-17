@@ -1,25 +1,25 @@
 /* Espacio entre botones */
 
 .pdf-head .btn {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .paginas {
-    display: table-cell;
-    vertical-align: middle;
-    margin: auto 0;
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto 0;
 
-    span {
-        display: inline-block;
-    }
+  span {
+    display: inline-block;
+  }
 }
 
 .pdf-viewer {
-    max-width: 100%;
-    overflow: hidden;
+  max-width: 100%;
+  overflow: hidden;
 
-    .pdf-canvas {
-        width: 100%;
-        height: auto;
-    }
+  .pdf-canvas {
+    width: 100%;
+    height: auto;
+  }
 }

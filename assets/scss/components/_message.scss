@@ -1,12 +1,12 @@
 .error404 .section,
 .suscrito .section,
 .desuscrito .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .error404 .mascot .mouth,
 .desuscrito .mascot .mouth {
-    transform: rotate(225deg) !important;
+  transform: rotate(225deg) !important;
 }

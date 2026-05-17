@@ -43,33 +43,33 @@ baseName = "sitemap"
 isHTML = false
 isPlainText = true
 noUgly = true
-rel  = "sitemap"
+rel = "sitemap"
 
 [sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [frontmatter]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
 
 [taxonomies]
-  contributor = "contributors"
-  type = "types"
-  functionality = "functionalities"
+contributor = "contributors"
+type = "types"
+functionality = "functionalities"
 
 [permalinks]
-  blog = "/blog/:title/"
-  types = "/experimental/types/:title/"
-  functionalities = "/experimental/functionalities/:title/"
+blog = "/blog/:title/"
+types = "/experimental/types/:title/"
+functionalities = "/experimental/functionalities/:title/"
 
 [minify]
-  disableJs = false
-  [minify.tdewolff]
-  [minify.tdewolff.html]
-    keepWhitespace = false
-  [minify.tdewolff.js]
-    # https://github.com/tdewolff/minify/issues/472
-    keepVarNames = true
-    noNullishOperator = false
-    precision = 0
+disableJs = false
+[minify.tdewolff]
+[minify.tdewolff.html]
+keepWhitespace = false
+[minify.tdewolff.js]
+# https://github.com/tdewolff/minify/issues/472
+keepVarNames = true
+noNullishOperator = false
+precision = 0

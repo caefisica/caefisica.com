@@ -1,67 +1,67 @@
 connectsrc:
-    - "'self'"
-    - https://caefisica.com
-    - https://*.netlify.app
-    - https://*.algolia.net
-    - https://*.algolianet.com
-    - https://*.algolia.io
-    - https://cdn.splitbee.io/
-    - https://*.cloudinary.com
-    - https://unpkg.com
-    - https://*.workers.dev
-    - https://player.vimeo.com/
+  - "'self'"
+  - https://caefisica.com
+  - https://*.netlify.app
+  - https://*.algolia.net
+  - https://*.algolianet.com
+  - https://*.algolia.io
+  - https://cdn.splitbee.io/
+  - https://*.cloudinary.com
+  - https://unpkg.com
+  - https://*.workers.dev
+  - https://player.vimeo.com/
 
 fontsrc:
-    - "'self'"
-    - 'data:'
-    - https://caefisica.com
+  - "'self'"
+  - "data:"
+  - https://caefisica.com
 
 framesrc:
-    - "'self'"
-    - https://*.netlify.com
-    - https://d.cae.workers.dev
-    - https://www.youtube.com
-    - https://player.vimeo.com
+  - "'self'"
+  - https://*.netlify.com
+  - https://d.cae.workers.dev
+  - https://www.youtube.com
+  - https://player.vimeo.com
 
 imgsrc:
-    - "'self'"
-    - https://caefisica.com
-    - https://*.netlify.app
-    - https://*.cloudinary.com
-    - https://i.imgur.com
-    - https://i.ytimg.com
-    - 'data:'
-    - 'blob:'
+  - "'self'"
+  - https://caefisica.com
+  - https://*.netlify.app
+  - https://*.cloudinary.com
+  - https://i.imgur.com
+  - https://i.ytimg.com
+  - "data:"
+  - "blob:"
 
 manifestsrc:
-    - "'self'"
-    - https://caefisica.com
-    - https://*.netlify.app
+  - "'self'"
+  - https://caefisica.com
+  - https://*.netlify.app
 
 prefetchsrc:
-    - "'self'"
-    - https://res.cloudinary.com/dubu/
+  - "'self'"
+  - https://res.cloudinary.com/dubu/
 
 stylesrc:
-    - "'self'"
-    - https://caefisica.com
-    - https://*.netlify.app
-    - "'unsafe-inline'"
+  - "'self'"
+  - https://caefisica.com
+  - https://*.netlify.app
+  - "'unsafe-inline'"
 
 scriptsrc:
-    - "'self'"
-    - https://caefisica.com
-    - https://*.netlify.com
-    - https://*.netlify.app
-    - https://unpkg.com
-    - https://cdn.splitbee.io
-    - https://hive.caefisica.com
-    - https://www.youtube.com
-    - https://player.vimeo.com
-    - "'nonce-Y1ScUXOl8NAZzNrRydXz1Q=='"
-    - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
+  - "'self'"
+  - https://caefisica.com
+  - https://*.netlify.com
+  - https://*.netlify.app
+  - https://unpkg.com
+  - https://cdn.splitbee.io
+  - https://hive.caefisica.com
+  - https://www.youtube.com
+  - https://player.vimeo.com
+  - "'nonce-Y1ScUXOl8NAZzNrRydXz1Q=='"
+  - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
 
 workersrc:
-    - "'self'"
-    - https://d.cae.workers.dev
-    - 'blob:'
+  - "'self'"
+  - https://d.cae.workers.dev
+  - "blob:"

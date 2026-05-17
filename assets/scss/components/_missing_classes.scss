@@ -1,32 +1,32 @@
 /* Reusable classes missing from Bootstrap */
 
 .outline-none {
-    outline: none !important;
+  outline: none !important;
 }
 
 .overflow-hidden {
-    overflow: hidden !important;
+  overflow: hidden !important;
 }
 
 .center-global {
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
 }
 
 .object-fit-cover {
-    object-fit: cover !important;
+  object-fit: cover !important;
 }
 
 .transition-all {
-    transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 .full-height {
-    min-height: 80vh;
+  min-height: 80vh;
 }
 
 .current-color {
-    color: currentcolor !important;
-    fill: currentcolor !important;
+  color: currentcolor !important;
+  fill: currentcolor !important;
 }

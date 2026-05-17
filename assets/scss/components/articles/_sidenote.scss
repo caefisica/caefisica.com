@@ -1,28 +1,28 @@
 body {
-    counter-reset: theorem;
-    counter-reset: definition;
-    counter-reset: sidenote-counter;
+  counter-reset: theorem;
+  counter-reset: definition;
+  counter-reset: sidenote-counter;
 }
 
 .sidenote {
-    font-size: 0.8rem;
-    float: right;
-    clear: right;
-    width: 14vw;
-    margin-top: -0.9rem;
-    margin-right: -19vw;
-    margin-bottom: 1em;
+  font-size: 0.8rem;
+  float: right;
+  clear: right;
+  width: 14vw;
+  margin-top: -0.9rem;
+  margin-right: -19vw;
+  margin-bottom: 1em;
 
-    &.left {
-        float: left;
-        margin-left: -20vw;
-        margin-bottom: 1em;
-    }
+  &.left {
+    float: left;
+    margin-left: -20vw;
+    margin-bottom: 1em;
+  }
 }
 
 .sidenote::before {
-    position: relative;
-    vertical-align: baseline;
+  position: relative;
+  vertical-align: baseline;
 }
 
 /* (WIP) add border when a sidenote is clicked on */
@@ -30,77 +30,77 @@ body {
 /* sidenote counter */
 
 .sidenote-number {
-    counter-increment: sidenote-counter;
+  counter-increment: sidenote-counter;
 
-    &::after {
-        position: relative;
-        vertical-align: baseline;
+  &::after {
+    position: relative;
+    vertical-align: baseline;
 
-        /* add number in main content */
-        content: counter(sidenote-counter);
-        font-size: 0.7rem;
-        top: -0.5rem;
-        left: 0.1rem;
-    }
+    /* add number in main content */
+    content: counter(sidenote-counter);
+    font-size: 0.7rem;
+    top: -0.5rem;
+    left: 0.1rem;
+  }
 
-    ~ .sidenote::before {
-        content: counter(sidenote-counter) " ";
-        font-size: 0.7rem;
-        top: 1.2rem;
-        margin-left: -1rem;
-    }
+  ~ .sidenote::before {
+    content: counter(sidenote-counter) " ";
+    font-size: 0.7rem;
+    top: 1.2rem;
+    margin-left: -1rem;
+  }
 }
 
 /* sidenotes inside blockquotes are indented more */
 
 blockquote .sidenote {
-    margin-right: -24vw;
-    width: 18vw;
+  margin-right: -24vw;
+  width: 18vw;
 }
 
 .sidenote:target {
-    border: hsl(55, 55%, 70%) 1.5px solid;
-    padding: 0 0.5rem;
-    scroll-margin-block-start: 10rem;
+  border: hsl(55, 55%, 70%) 1.5px solid;
+  padding: 0 0.5rem;
+  scroll-margin-block-start: 10rem;
 }
 
 label.sidenote-toggle {
-    display: inline;
-    cursor: pointer;
+  display: inline;
+  cursor: pointer;
 }
 
 label.sidenote-toggle:not(.sidenote-number) {
-    display: none; /* add number in front of the sidenote */
+  display: none; /* add number in front of the sidenote */
 }
 
 input.sidenote-toggle {
-    display: none;
+  display: none;
 }
 
 @media (width <= 1050px) {
-    label.sidenote-toggle:not(.sidenote-number) {
-        display: inline;
-    }
+  label.sidenote-toggle:not(.sidenote-number) {
+    display: inline;
+  }
 
-    .sidenote {
-        display: none;
-    }
+  .sidenote {
+    display: none;
+  }
 
-    /* tweak indentation of sidenote inside a blockquote */
+  /* tweak indentation of sidenote inside a blockquote */
 
-    blockquote .sidenote {
-        margin-right: -25vw;
-        width: 16vw;
-    }
+  blockquote .sidenote {
+    margin-right: -25vw;
+    width: 16vw;
+  }
 
-    /* end */
+  /* end */
 
-    .sidenote-toggle:checked + .sidenote {
-        display: block;
-        margin: 0.5rem 1.25rem 1rem 0.5rem;
-        float: left;
-        left: 1rem;
-        clear: both;
-        width: 95%;
-    }
+  .sidenote-toggle:checked + .sidenote {
+    display: block;
+    margin: 0.5rem 1.25rem 1rem 0.5rem;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+  }
 }

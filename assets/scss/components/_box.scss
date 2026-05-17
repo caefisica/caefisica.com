@@ -1,24 +1,24 @@
 .parent-box {
-    padding: 28px 32px 32px;
-    margin-bottom: 2rem;
-    border-left: 3px solid;
-    border-radius: 6px 6px 6px 3px;
-    padding-left: calc(29px);
-    background: rgba($indigo-100, 0.35);
-    border-color: $indigo-500;
+  padding: 28px 32px 32px;
+  margin-bottom: 2rem;
+  border-left: 3px solid;
+  border-radius: 6px 6px 6px 3px;
+  padding-left: calc(29px);
+  background: rgba($indigo-100, 0.35);
+  border-color: $indigo-500;
 
-    > .child-box {
-        color: $indigo-500;
-        background: $body-bg;
-    }
+  > .child-box {
+    color: $indigo-500;
+    background: $body-bg;
+  }
 }
 
 [data-dark-mode] .parent-box {
-    background: $body-overlay-dark;
-    border-color: $indigo-600;
+  background: $body-overlay-dark;
+  border-color: $indigo-600;
 
-    > .child-box {
-        color: $indigo-600;
-        background: $body-bg-dark;
-    }
+  > .child-box {
+    color: $indigo-600;
+    background: $body-bg-dark;
+  }
 }
