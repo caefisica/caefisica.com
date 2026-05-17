@@ -11,7 +11,7 @@
 {{- if .Site.Params.options.highLight -}}
     {{ partial "footer/render-script" (dict "src" "js/highlight.ts" "load" "defer") }}
 {{- end -}}
-{{- if .Site.Params.options.kaTex -}}
+{{- if .Params.math -}}
     {{- $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
     {{- $katexRender := resources.Get "js/vendor/katex/dist/contrib/auto-render.js" -}}
     {{- if $isProd -}}
@@ -25,6 +25,7 @@
 <script src="{{ $katex.RelPermalink }}" defer></script>
 <script src="{{ $katexRender.RelPermalink }}" defer></script>
     {{- end -}}
+    {{ partial "footer/render-script" (dict "src" "js/katex.ts" "load" "defer") }}
 {{- end -}}
 {{- with .Params.mermaid -}}
     {{ partial "footer/render-script" (dict "src" "js/mermaid.ts" "load" "defer") }}
@@ -46,9 +47,6 @@
 {{- if .Site.Params.options.instantPage -}}
     {{- $bundle = $bundle | append (resources.Get "js/instant-page.ts" | js.Build $bundleOpts) -}}
 {{- end -}}
-{{- if .Site.Params.options.kaTex -}}
-    {{- $bundle = $bundle | append (resources.Get "js/katex.ts" | js.Build $bundleOpts) -}}
-{{- end -}}
 {{- $mainJs := $bundle | resources.Concat "main.js" -}}
 {{- if $isProd -}}
     {{- with $mainJs | fingerprint "sha512" -}}
@@ -60,9 +58,6 @@
 
 {{- /* Homepage-only: video player */ -}}
 {{- if eq .Kind "home" -}}
-    {{- if $searchEnabled -}}
-<script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
-    {{- end -}}
     {{ partial "footer/render-script" (dict "src" "js/player.ts" "load" "defer") }}
     <script src="https://www.youtube.com/iframe_api" defer></script>
 {{- end -}}
