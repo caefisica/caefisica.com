@@ -1,4 +1,4 @@
-{{ $emailDecoder := resources.Get "js/emaildecoder.js" | js.Build }}
+{{ $emailDecoder := resources.Get "js/emaildecoder.ts" | js.Build }}
 <script src="{{ $emailDecoder.RelPermalink }}" defer></script>
 
 <a href="#" class="email-link text-decoration-none" data-email="{{ .Get 0 }}"

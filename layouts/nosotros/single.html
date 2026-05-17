@@ -506,12 +506,7 @@
     </main>
 
     <!-- custom js link -->
-    {{ $nosotros := resources.Get "js/components/nosotros.js" | js.Build | minify | fingerprint "sha512" -}}
-    <script
-        src="{{ $nosotros.RelPermalink }}"
-        integrity="{{ $nosotros.Data.Integrity }}"
-        crossorigin="anonymous"
-        defer></script>
+    {{ partial "footer/render-script" (dict "src" "js/components/nosotros.ts" "load" "defer") }}
 
     <!-- ionicon link -->
     <script

@@ -1,132 +1,68 @@
-{{ $docSearch := resources.Get "js/docsearch.js" | js.Build -}}
-{{ $keyboard := resources.Get "js/search.js" | js.Build -}}
-<script src="{{ $keyboard.RelPermalink }}" defer></script>
+{{- $isProd := hugo.IsProduction -}}
+{{- $searchEnabled := partial "components/is-search-enabled.html" . -}}
 
-{{ $bs := resources.Get "js/bootstrap.js" -}}
-{{ $bs := $bs | js.Build -}}
+{{- /* Feature scripts: conditional, loaded individually */ -}}
+{{- if $searchEnabled -}}
+    {{ partial "footer/render-script" (dict "src" "js/docsearch.ts" "load" "defer") }}
+{{- end -}}
+{{- if .Site.Params.options.bootStrapJs -}}
+    {{ partial "footer/render-script" (dict "src" "js/bootstrap.ts" "load" "defer") }}
+{{- end -}}
+{{- if .Site.Params.options.highLight -}}
+    {{ partial "footer/render-script" (dict "src" "js/highlight.ts" "load" "defer") }}
+{{- end -}}
+{{- if .Site.Params.options.kaTex -}}
+    {{- $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
+    {{- $katexRender := resources.Get "js/vendor/katex/dist/contrib/auto-render.js" -}}
+    {{- if $isProd -}}
+        {{- with $katex | fingerprint "sha512" -}}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+        {{- end -}}
+        {{- with $katexRender | fingerprint "sha512" -}}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+        {{- end -}}
+    {{- else -}}
+<script src="{{ $katex.RelPermalink }}" defer></script>
+<script src="{{ $katexRender.RelPermalink }}" defer></script>
+    {{- end -}}
+{{- end -}}
+{{- with .Params.mermaid -}}
+    {{ partial "footer/render-script" (dict "src" "js/mermaid.ts" "load" "defer") }}
+{{- end -}}
 
-{{ $highlight := resources.Get "js/highlight.js" -}}
-{{ $highlight := $highlight | js.Build -}}
+{{- /* Core bundle: always loaded */ -}}
+{{- $bundleOpts := dict "target" "es2020" "minify" $isProd "sourceMap" (cond $isProd "none" "inline") -}}
+{{- $bundle := slice
+    (resources.Get "js/newsletter.ts" | js.Build $bundleOpts)
+    (resources.Get "js/keyboard-shortcut.ts" | js.Build $bundleOpts)
+    (resources.Get "js/netlify-identity.ts" | js.Build $bundleOpts)
+-}}
+{{- if .Site.Params.options.lazySizes -}}
+    {{- $bundle = $bundle | append (resources.Get "js/lazysizes.ts" | js.Build $bundleOpts) -}}
+{{- end -}}
+{{- if .Site.Params.options.clipBoard -}}
+    {{- $bundle = $bundle | append (resources.Get "js/clipboard.ts" | js.Build $bundleOpts) -}}
+{{- end -}}
+{{- if .Site.Params.options.instantPage -}}
+    {{- $bundle = $bundle | append (resources.Get "js/instant-page.ts" | js.Build $bundleOpts) -}}
+{{- end -}}
+{{- if .Site.Params.options.kaTex -}}
+    {{- $bundle = $bundle | append (resources.Get "js/katex.ts" | js.Build $bundleOpts) -}}
+{{- end -}}
+{{- $mainJs := $bundle | resources.Concat "main.js" -}}
+{{- if $isProd -}}
+    {{- with $mainJs | fingerprint "sha512" -}}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+    {{- end -}}
+{{- else -}}
+<script src="{{ $mainJs.RelPermalink }}" defer></script>
+{{- end -}}
 
-{{ $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
-{{ $katexAutoRender := resources.Get "js/vendor/katex/dist/contrib/auto-render.js" -}}
-
-{{ $mermaid := resources.Get "js/mermaid.js" | js.Build -}}
-
-{{ $app := resources.Get "js/app.js" -}}
-
-{{ $slice := slice $app -}}
-{{ $searchEnabled := partial "components/is-search-enabled.html" . -}}
-
-{{ if .Site.Params.options.lazySizes -}}
-    {{ $lazySizes := resources.Get "js/lazysizes.js" -}}
-    {{ $lazySizes := $lazySizes | js.Build -}}
-    {{ $slice = $slice | append $lazySizes -}}
-{{ end -}}
-
-{{ if .Site.Params.options.clipBoard -}}
-    {{ $clipBoard := resources.Get "js/clipboard.js" -}}
-    {{ $clipBoard := $clipBoard | js.Build -}}
-    {{ $slice = $slice | append $clipBoard -}}
-{{ end -}}
-
-{{ if .Site.Params.options.instantPage -}}
-    {{ $instantPage := resources.Get "js/instant.page.js" -}}
-    {{ $instantPage := $instantPage | js.Build -}}
-    {{ $slice = $slice | append $instantPage -}}
-{{ end -}}
-
-{{ if .Site.Params.options.kaTex -}}
-    {{ $katexConfig := resources.Get "js/katex.js" -}}
-    {{ $katexConfig := $katexConfig | js.Build -}}
-    {{ $slice = $slice | append $katexConfig -}}
-{{ end -}}
-
-{{ $js := $slice | resources.Concat "main.js" -}}
-
-{{ if eq (hugo.Environment) "development" -}}
-    {{ if .Site.Params.options.bootStrapJs -}}
-        <script src="{{ $bs.RelPermalink }}" defer></script>
-    {{ end -}}
-    {{ if .Site.Params.options.highLight -}}
-        <script src="{{ $highlight.RelPermalink }}" defer></script>
-    {{ end -}}
-    {{ if .Site.Params.options.kaTex -}}
-        <script src="{{ $katex.RelPermalink }}" defer></script>
-        <script
-            src="{{ $katexAutoRender.RelPermalink }}"
-            onload="renderMathInElement(document.body);"
-            defer></script>
-    {{ end -}}
-    {{ with .Params.mermaid -}}
-        <script src="{{ $mermaid.RelPermalink }}" defer></script>
-    {{ end -}}
-    {{ if $searchEnabled -}}
-        <script src="{{ $docSearch.RelPermalink }}" defer></script>
-    {{ end -}}
-    <script src="{{ $js.RelPermalink }}" defer></script>
-{{ else -}}
-    {{ $js := $js | minify | fingerprint "sha512" -}}
-    {{ $docSearch := $docSearch | minify | fingerprint "sha512" -}}
-    {{ $bs := $bs | minify | fingerprint "sha512" -}}
-    {{ $highlight := $highlight | minify | fingerprint "sha512" -}}
-    {{ $katex := $katex | minify | fingerprint "sha512" -}}
-    {{ $katexAutoRender := $katexAutoRender | minify | fingerprint "sha512" -}}
-    {{ $mermaid := $mermaid | minify | fingerprint "sha512" -}}
-    {{ if .Site.Params.options.bootStrapJs -}}
-        <script
-            src="{{ $bs.RelPermalink }}"
-            integrity="{{ $bs.Data.Integrity }}"
-            crossorigin="anonymous"
-            defer></script>
-    {{ end -}}
-    {{ if .Site.Params.options.highLight -}}
-        <script
-            src="{{ $highlight.RelPermalink }}"
-            integrity="{{ $highlight.Data.Integrity }}"
-            crossorigin="anonymous"
-            defer></script>
-    {{ end -}}
-    {{ if .Site.Params.options.kaTex -}}
-        <script
-            src="{{ $katex.RelPermalink }}"
-            integrity="{{ $katex.Data.Integrity }}"
-            crossorigin="anonymous"
-            defer></script>
-        <script
-            src="{{ $katexAutoRender.RelPermalink }}"
-            integrity="{{ $katexAutoRender.Data.Integrity }}"
-            crossorigin="anonymous"
-            defer></script>
-    {{ end -}}
-    {{ with .Params.mermaid -}}
-        <script
-            src="{{ $mermaid.RelPermalink }}"
-            integrity="{{ $mermaid.Data.Integrity }}"
-            crossorigin="anonymous"
-            defer></script>
-    {{ end -}}
-    {{ if $searchEnabled -}}
-        <script
-            src="{{ $docSearch.RelPermalink }}"
-            integrity="{{ $docSearch.Data.Integrity }}"
-            crossorigin="anonymous"
-            defer></script>
-    {{ end -}}
-    <script
-        src="{{ $js.RelPermalink }}"
-        integrity="{{ $js.Data.Integrity }}"
-        crossorigin="anonymous"
-        defer></script>
-{{ end -}}
-
-{{ if eq .Kind "home" -}}
-    {{ if $searchEnabled -}}
-        <script
-            src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}"
-            type="text/javascript"></script>
-    {{ end -}}
-    {{ $player := resources.Get "js/player.js" | js.Build -}}
-    <script src="{{ $player.RelPermalink }}" defer></script>
+{{- /* Homepage-only: video player */ -}}
+{{- if eq .Kind "home" -}}
+    {{- if $searchEnabled -}}
+<script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" type="text/javascript"></script>
+    {{- end -}}
+    {{ partial "footer/render-script" (dict "src" "js/player.ts" "load" "defer") }}
     <script src="https://www.youtube.com/iframe_api" defer></script>
-{{ end -}}
+{{- end -}}
