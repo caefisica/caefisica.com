@@ -1,4 +1,4 @@
 [tools]
-hugo-extended = "0.157.0"
-pnpm = "10.32.1"
-wrangler = "4.72.0"
+hugo-extended = "0.161.1"
+pnpm = "11.1.2"
+wrangler = "4.92.0"
