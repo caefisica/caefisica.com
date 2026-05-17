@@ -28,10 +28,11 @@
     "build": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/ && hugo --gc --minify",
     "build:lan": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/ && hugo --gc --minify --baseURL=http://192.168.18.218",
     "build:preview": "pnpm run build -D -F",
-    "check": "pnpm run lint && pnpm run build",
+    "typecheck": "tsc --noEmit",
+    "check": "pnpm run lint && pnpm run typecheck && pnpm run build",
     "hugo:version": "hugo version",
     "lint": "pnpm run lint:scripts && pnpm run lint:styles && pnpm run lint:markdown",
-    "lint:scripts": "eslint assets/js config functions",
+    "lint:scripts": "eslint assets/js config functions --ext .js,.ts",
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "lint:markdown": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
     "test": "pnpm run lint",
@@ -42,6 +43,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
     "@thulite/images": "^3.3.4",
+    "@types/youtube": "^0.2.0",
     "auto-changelog": "^2.5.0",
     "autoprefixer": "^10.4.27",
     "bootstrap": "^5.3.8",
@@ -66,7 +68,9 @@
     "sass-embedded": "^1.98.0",
     "shx": "^0.4.0",
     "stylelint": "^17.4.0",
-    "stylelint-config-standard-scss": "^17.0.0"
+    "stylelint-config-standard-scss": "^17.0.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.3"
   },
   "dependencies": {
     "@eslint/js": "^10.0.1"
