@@ -1,10 +1,10 @@
 blank_issues_enabled: true
 
 contact_links:
-    - name: 👷 Soporte
-      url: https://caefisica.com/contacto/
-      about: Si lo consideras apropiado, puede dirigir sus consultas y dudas aquí
+  - name: 👷 Soporte
+    url: https://caefisica.com/contacto/
+    about: Si lo consideras apropiado, puede dirigir sus consultas y dudas aquí
 
-    - name: ❓ Preguntas y Discusiones
-      url: https://github.com/caefisica/web/discussions
-      about: Utiliza las discusiones de GitHub para las preguntas y discusiones de tipo tablón de anuncios
+  - name: ❓ Preguntas y Discusiones
+    url: https://github.com/caefisica/web/discussions
+    about: Utiliza las discusiones de GitHub para las preguntas y discusiones de tipo tablón de anuncios

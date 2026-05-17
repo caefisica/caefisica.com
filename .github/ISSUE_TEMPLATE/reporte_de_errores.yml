@@ -2,43 +2,43 @@ name: 🐞 Informe de error
 description: Crear un informe para ayudarnos a mejorar
 
 title: |
-    [🐞]:
-labels: ['bug']
+  [🐞]:
+labels: ["bug"]
 assignees:
-    - totallynotdavid
+  - totallynotdavid
 
 body:
-    - type: markdown
-      attributes:
-          value: |
-              ¡Gracias por tomarte el tiempo de completar este informe de errores!
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo de completar este informe de errores!
 
-    - type: textarea
-      id: que-paso
-      attributes:
-          label: Cuéntanos lo que sucedió
-          description: Adjunte la información solicitada.
-          placeholder: |
-              1. Especifica pasos claros que describan cómo reproducir el problema.
-              2. Cuéntanos lo que ve. Adjunte capturas de pantalla de ser necesario.
-              3. ¿Qué es lo que debería de ocurrir?
-      validations:
-          required: true
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: Cuéntanos lo que sucedió
+      description: Adjunte la información solicitada.
+      placeholder: |
+        1. Especifica pasos claros que describan cómo reproducir el problema.
+        2. Cuéntanos lo que ve. Adjunte capturas de pantalla de ser necesario.
+        3. ¿Qué es lo que debería de ocurrir?
+    validations:
+      required: true
 
-    - type: dropdown
-      id: browsers
-      attributes:
-          label: ¿En qué navegadores ha encontrado el problema?
-          multiple: true
-          options:
-              - Firefox
-              - Chrome
-              - Safari
-              - Microsoft Edge
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: ¿En qué navegadores ha encontrado el problema?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
 
-    - type: textarea
-      id: logs
-      attributes:
-          label: Log output
-          description: Pegue aquí la información que muestra `npm run check` (opcional)
-          render: shell
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output
+      description: Pegue aquí la información que muestra `npm run check` (opcional)
+      render: shell
