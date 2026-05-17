@@ -18,8 +18,8 @@ main() {
     git fetch --unshallow
   fi
 
-  pnpm install
-  pnpm run build
+  bun install
+  bun run build
 }
 
 main "$@"

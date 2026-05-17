@@ -3,7 +3,6 @@ LICENSE
 .gitkeep
 node_modules
 package-lock.json
-pnpm-lock.yaml
 
 # File types
 *.ico

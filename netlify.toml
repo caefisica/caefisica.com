@@ -1,21 +1,21 @@
 [build]
   publish = "public"
   functions = "functions"
-  command = "git config core.quotepath false && pnpm install && pnpm run build"
+  command = "git config core.quotepath false && bun install && bun run build"
 
 [build.environment]
   HUGO_VERSION = "0.161.1"
   NODE_VERSION = "24"
-  PNPM_VERSION = "11"
+  BUN_VERSION = "1.3.14"
 
 [context.deploy-preview]
-  command = "git config core.quotepath false && pnpm install && pnpm run build -- -b $DEPLOY_PRIME_URL"
+  command = "git config core.quotepath false && bun install && bun run build -- -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "git config core.quotepath false && pnpm install && pnpm run build -- -b $DEPLOY_PRIME_URL"
+  command = "git config core.quotepath false && bun install && bun run build -- -b $DEPLOY_PRIME_URL"
 
 [context.next]
-  command = "git config core.quotepath false && pnpm install && pnpm run build"
+  command = "git config core.quotepath false && bun install && bun run build"
 
 [context.next.environment]
   HUGO_ENV = "next"
@@ -26,7 +26,7 @@
 
 [dev]
   framework = "#custom"
-  command = "pnpm run hugo:start"
+  command = "bun run hugo:start"
   targetPort = 1313
   port = 8888
   publish = "public"
