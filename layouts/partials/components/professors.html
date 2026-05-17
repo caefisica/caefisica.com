@@ -8,7 +8,7 @@
         <th>Nombre</th>
         <th>Semestre</th>
     </tr>
-    {{ range $professor := .Site.Data.professors }}
+    {{ range $professor := hugo.Data.professors }}
         {{ range $course := $professor.courses }}
             {{ if eq $course.code $courseCode }}
                 <tr>

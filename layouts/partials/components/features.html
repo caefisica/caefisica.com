@@ -20,7 +20,7 @@
                         </a>
                     </p>
                 </div>
-                {{ with .Site.Data.content.features -}}
+                {{ with hugo.Data.content.features -}}
                     {{ range . -}}
                         {{ $link := .link }}
                         <div class="card my-0 mai-column is-column hover-box">

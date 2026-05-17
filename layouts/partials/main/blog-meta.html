@@ -2,7 +2,7 @@
     {{- $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) -}}
     <small
         >Publicado el {{ .Lastmod.Day }} de
-        {{ index $.Site.Data.fixes.months (printf "%d" .Lastmod.Month) }}<span
+        {{ index (hugo.Data.fixes.months) (printf "%d" .Lastmod.Month) }}<span
             class="special_display">
             por
             {{ $authorLinks := slice }}

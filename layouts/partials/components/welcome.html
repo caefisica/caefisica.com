@@ -22,7 +22,7 @@
         <p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
       </div>
       <div class="col-lg-7 d-none d-lg-block">
-        {{ with .Site.Data.fixes.frontpage -}}
+        {{ with hugo.Data.fixes.frontpage -}}
         <div class="hero_figure position-relative ms-auto">
           <img class="img-hero-mask w-100 h-100" src="{{ .image | relURL }}" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
 
