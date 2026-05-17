@@ -1,9 +1,15 @@
 function showEmail(event: Event, encodedEmail: string): void {
   event.preventDefault();
-  const email = atob(encodedEmail);
+  let email: string;
+  try {
+    email = atob(encodedEmail);
+  } catch {
+    console.error("Invalid base64 email");
+    return;
+  }
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (emailRegex.test(email)) {
-    window.location.href = "mailto:" + encodeURIComponent(email);
+    window.location.href = "mailto:" + email;
   } else {
     console.error("Email inválido:", email);
   }
