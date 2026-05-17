@@ -12,7 +12,7 @@
     const id = announcement.dataset.id ?? "";
 
     if (localStorage.getItem(id) === "closed") {
-      announcement.style.display = "none";
+      announcement.classList.add("d-none");
     } else {
       announcement.classList.remove("d-none");
     }
