@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 main() {
-  HUGO_VERSION=0.157.0
+  HUGO_VERSION=0.161.1
 
   echo "Installing Hugo ${HUGO_VERSION}..."
   curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
@@ -21,5 +22,4 @@ main() {
   pnpm run build
 }
 
-set -euo pipefail
 main "$@"
