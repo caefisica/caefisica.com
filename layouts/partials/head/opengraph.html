@@ -18,7 +18,7 @@
             {{ with .Site.Params.description }}{{ . }}{{ end }}
         {{ end }}
     {{ end }}" />
-{{ if $.Scratch.Get "paginator" -}}
+{{ if $.Store.Get "paginator" -}}
     {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
     <meta property="og:url" content="{{ .Paginator.URL | absURL }}" />
 {{ else -}}
@@ -53,23 +53,23 @@
 {{ end -}}
 
 {{ if eq .Kind "home" -}}
-    {{ .Scratch.Set "title" .Site.Params.titleHome -}}
+    {{ .Store.Set "title" .Site.Params.titleHome -}}
 {{ else -}}
-    {{ .Scratch.Set "title" .Title -}}
+    {{ .Store.Set "title" .Title -}}
 {{ end -}}
 
 {{ $pathPage := .RelPermalink | replaceRE "/$" "" -}}
 {{ $pathPage := replaceRE "/" "%252F" $pathPage -}}
-{{ $imageTitle := replaceRE " " "%20" (.Scratch.Get "title") -}}
+{{ $imageTitle := replaceRE " " "%20" (.Store.Get "title") -}}
 {{ $imageText := print .Site.Params.domainTLD $pathPage -}}
 {{ $imageURL := print "https://res.cloudinary.com/dubu/image/upload/w_1280,h_640,c_fill,q_auto,f_auto/w_860,c_fit,co_rgb:dee2e6,g_south_west,x_105,y_265,fl_text_no_trim,l_text:titulo.woff2_80:" $imageTitle "/w_860,c_fit,co_rgb:dee2e6,g_south_west,x_105,y_205,l_text:cuerpo.woff2_35:" $imageText "/v1645767878/cae.png" -}}
-{{ $.Scratch.Set "primaryImage" $imageURL -}}
+{{ $.Store.Set "primaryImage" $imageURL -}}
 
 
 <meta property="og:image" content="{{ $imageURL }}" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="640" />
-<meta property="og:image:alt" content="{{ .Scratch.Get "title" }}" />
+<meta property="og:image:alt" content="{{ .Store.Get "title" }}" />
 {{ with $.Params.images -}}
     {{ range first 6 . -}}
         <meta property="og:image" content="{{ $.Permalink }}{{ . }}" />

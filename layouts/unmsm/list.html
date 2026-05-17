@@ -1,11 +1,11 @@
-{{ define "main" }}
+{{ define "head/stylesheet" }}
+    {{ partial "head/stylesheet.html" . }}
     {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
     {{ $styles := resources.Get "scss/components/pages/_courses.scss" | toCSS $opts | minify | fingerprint }}
-    <link
-        rel="stylesheet"
-        href="{{ $styles.RelPermalink }}"
-        integrity="{{ $styles.Data.Integrity }}"
-        media="screen" />
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen" />
+{{ end }}
+
+{{ define "main" }}
     <div class="row align-items-start">
         <div class="col-auto docs-sidebar d-none d-xl-block">
             <nav class="docs-links" aria-label="Tertiary navigation">

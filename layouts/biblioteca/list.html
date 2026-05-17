@@ -2,9 +2,9 @@
 <html lang="{{ .Site.LanguageCode | default "es" }}">
     {{ partial "head/head.html" . }}
     {{ partial "head/body-class.html" . -}}
-    <body class="{{ delimit (.Scratch.Get "class") " " }}">
+    <body class="{{ delimit (.Store.Get "class") " " }}">
         {{ partial "header/header.html" . }}
-        {{ $classes := .Scratch.Get "class" }}
+        {{ $classes := .Store.Get "class" }}
         <div class="wrap" role="document">
             <div class="content">
                 {{ $sass := resources.Get "scss/components/_iframe.scss" }}

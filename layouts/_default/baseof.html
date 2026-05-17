@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode | default "es" }}">
     {{ partial "head/head.html" . }}
     {{ partial "head/body-class.html" . -}}
-    <body class="{{ delimit (.Scratch.Get "class") " " }}">
+    <body class="{{ delimit (.Store.Get "class") " " }}">
         {{ partial "header/header.html" . }}
         <div class="wrap container-xxl" role="document">
             <div class="content">

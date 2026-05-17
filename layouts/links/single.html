@@ -11,7 +11,7 @@
         href="{{ $style.RelPermalink -}}"
         integrity="{{ $style.Data.Integrity -}}" />
 
-    <body class="dark-mode {{ delimit (.Scratch.Get "class") " " }}">
+    <body class="dark-mode {{ delimit (.Store.Get "class") " " }}">
         <div>
             <main class="div-father">
                 <div

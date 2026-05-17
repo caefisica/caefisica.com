@@ -1,8 +1,8 @@
 <div class="card h-100">
     {{ $image := index .Params.images 0 -}}
-    {{ .Scratch.Set "src" $image -}}
-    {{ .Scratch.Set "alt" .Title -}}
-    {{ .Scratch.Set "class" "card-img-top" -}}
+    {{ .Store.Set "src" $image -}}
+    {{ .Store.Set "alt" .Title -}}
+    {{ .Store.Set "class" "card-img-top" -}}
     {{ partial "main/img.html" . }}
     <div class="card-body">
         <h5 class="card-title mt-2">

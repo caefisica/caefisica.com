@@ -29,7 +29,7 @@
 		</nav>
 	{{ end }}
    	<h1>Tag: "{{ .Title }}"</h1>
-	{{ $paginator := .Paginate (.Data.Pages) -}}
+	{{ $paginator := .Paginate .Pages -}}
 	{{ range $paginator.Pages -}}
 		<div class="card">
 			<div class="card-body">
@@ -39,9 +39,7 @@
 			</div>
 		</div>
 	{{ end -}}
-	{{ $.Scratch.Set "paginator" true }}
 	{{ template "_internal/pagination.html" . }}
-	</main>
 	</main>
 </div>
 {{ end }}

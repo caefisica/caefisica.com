@@ -34,7 +34,7 @@
     <meta name="description" content="{{ .Site.Params.description }}" />
 {{ end -}}
 
-{{ if $.Scratch.Get "paginator" }}
+{{ if $.Store.Get "paginator" }}
     <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
     {{ if .Paginator.HasPrev -}}
         <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />

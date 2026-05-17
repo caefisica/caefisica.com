@@ -1,10 +1,10 @@
-{{ define "main" }}
+{{ define "head/stylesheet" }}
+    {{ partial "head/stylesheet.html" . }}
     {{ $styles := resources.Get "scss/components/_message.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
-    <link
-        rel="stylesheet"
-        href="{{ $styles.RelPermalink }}"
-        integrity="{{ $styles.Data.Integrity }}"
-        media="screen" />
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen" />
+{{ end }}
+
+{{ define "main" }}
     <section class="section fullpage2">
         <div class="container">
             <div class="row justify-content-center align-items-center">
