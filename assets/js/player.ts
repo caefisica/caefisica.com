@@ -23,11 +23,10 @@ function init(): void {
       origin: window.location.origin,
       width: 900,
       height: 506,
-      events: { onReady, onStateChange },
+      events: {},
       playerVars: {
         autoplay: 1,
         controls: 1,
-        showinfo: 0,
         modestbranding: 1,
         rel: 0,
         fs: 0,
@@ -47,9 +46,6 @@ function init(): void {
     const playerEl = document.querySelector<HTMLElement>("#player");
     if (playerEl) playerEl.style.display = "block";
   }
-
-  function onReady(): void {}
-  function onStateChange(): void {}
 
   function closeVideo(): void {
     player?.stopVideo();
