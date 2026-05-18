@@ -184,16 +184,5 @@ construir un increíble repositorio de recursos para beneficiar a toda la
 comunidad estudiantil. Si necesitas ayuda, no dudes en contactarnos. ¡Esperamos
 tus aportes!
 
-## Tech Stack
-
-Tipo: Headless CSS ([Pages CMS](https://editor.caefisica.com/))
-
-Lenguajes y frameworks: [Hugo](https://github.com/gohugoio/hugo/releases/),
-[Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/),
-SCSS, [Golang](https://go.dev/doc/)
-
-Búsqueda: [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) a
-través de plugins de Netlify.
-
 Puedes encontrar más detalles sobre cómo ejecutar este repositorio localmente,
 visita [CONTRIBUTING](.github/CONTRIBUTING.md).
