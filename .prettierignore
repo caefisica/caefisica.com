@@ -1,16 +1,12 @@
-CHANGELOG.md
 LICENSE
 .gitkeep
 node_modules
 package-lock.json
 
 # File types
-*.ico
-*.png
-*.jp*g
 *.*ignore
 *.svg
-*.woff*
 
-# Special files
-layouts\partials\footer\esbuild.html
+# Handled by gotmplfmt
+layouts/
+data/

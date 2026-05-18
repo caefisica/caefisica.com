@@ -16,9 +16,7 @@
   "htmlWhitespaceSensitivity": "css",
   "endOfLine": "lf",
   "printWidth": 80,
-  "goTemplateBracketSpacing": true,
   "experimentalTernaries": true,
-  "plugins": ["prettier-plugin-go-template"],
   "overrides": [
     {
       "files": "*.js",
@@ -27,12 +25,6 @@
         "singleQuote": false,
         "quoteProps": "consistent",
         "jsxSingleQuote": false
-      }
-    },
-    {
-      "files": ["*.html"],
-      "options": {
-        "parser": "go-template"
       }
     },
     {
