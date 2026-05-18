@@ -1,3 +1,5 @@
+{{/* gotmplfmt-ignore-all */}}
+
 {{- $pdfjs := resources.Get "scss/components/pages/_pdfjs.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint -}}
 <link
 	rel="stylesheet"
