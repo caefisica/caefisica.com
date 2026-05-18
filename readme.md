@@ -3,7 +3,7 @@
 <!-- prettier-ignore-start -->
 | Publicación y CI | Calidad del código | Monitoreo |
 | --- | --- | --- |
-| [![Cloudflare](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.caefisica.workers.dev/?projectName=caefisica)](https://dash.cloudflare.com/?to=/:account/pages/view/caefisica/) | [![CI/CD (Node.JS)](https://github.com/caefisica/web/actions/workflows/ci_nodejs.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/ci_nodejs.yml) | [![Análisis CodeQL](https://github.com/caefisica/web/actions/workflows/analyze_codeql.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/analyze_codeql.yml) |
+| [![Cloudflare](https://img.shields.io/endpoint?url=https://cloudflare-pages-badges.caefisica.workers.dev/?projectName=web)](https://dash.cloudflare.com/?to=/:account/pages/view/caefisica/) | [![CI/CD (Node.JS)](https://github.com/caefisica/web/actions/workflows/ci_nodejs.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/ci_nodejs.yml) | [![Análisis CodeQL](https://github.com/caefisica/web/actions/workflows/analyze_codeql.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/analyze_codeql.yml) |
 | [![Netlify](https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status)](https://app.netlify.com/sites/caefis/deploys) | [![Lighthouse CI](https://github.com/caefisica/web/actions/workflows/audit_lighthouse.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/audit_lighthouse.yml) | [![Enlaces no existentes](https://github.com/caefisica/web/actions/workflows/check_broken_links.yml/badge.svg)](https://github.com/caefisica/web/actions/workflows/check_broken_links.yml) |
 <!-- prettier-ignore-end -->
 
