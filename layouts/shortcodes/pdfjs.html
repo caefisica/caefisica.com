@@ -5,118 +5,95 @@
 	integrity="{{ $pdfjs.Data.Integrity }}"
 	media="screen"
 />
-
 {{- $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | fingerprint -}}
 {{- $pdfjs_worker_dist := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | fingerprint -}}
 {{- $pdf_file := .Get "file" -}}
 {{- $pdf_id := replaceRE "[.-]" "_" $pdf_file -}}
 {{- $lowercase_path := .Page.File.Dir | lower -}}
 {{- $pdf_url := path.Join $lowercase_path $pdf_file | relURL -}}
-
 <script type="module">
 	import * as pdfjsLib from '{{ $pdfjs_dist.RelPermalink }}';
 	pdfjsLib.GlobalWorkerOptions.workerSrc = '{{ $pdfjs_worker_dist.RelPermalink }}';
-
 	window.addEventListener('load', function () {
-	var url = '{{ $pdf_url }}';
-	var hidePaginator = '{{ .Get "hidePaginator" }}';
-	var pdfDoc = null,
-	pageNum = 1,
-	pageRendering = false,
-	pageNumPending = null,
-	scale = 1,
-	canvas = document.getElementById('the-canvas_{{ safeJS $pdf_id }}'),
-	ctx = canvas.getContext('2d');
-
-	function renderPage(num) {
-	pageRendering = true;
-	pdfDoc.getPage(num).then(function (page) {
-	var viewport = page.getViewport({ scale: scale });
-	canvas.height = viewport.height;
-	canvas.width = viewport.width;
-
-	var renderContext = {
-	canvasContext: ctx,
-	viewport: viewport,
-	};
-	var renderTask = page.render(renderContext);
-
-	renderTask.promise.then(function () {
-	pageRendering = false;
-	if (pageNumPending !== null) {
-	renderPage(pageNumPending);
-	pageNumPending = null;
-	}
-	});
-	});
-
-	document.getElementById('page_num_{{ safeJS $pdf_id }}').textContent = num;
-	}
-
-	function queueRenderPage(num) {
-	if (pageRendering) {
-	pageNumPending = num;
-	} else {
-	renderPage(num);
-	}
-	}
-
-	function onPrevPage() {
-	if (pageNum <= 1) {
-		return;
+		var url = '{{ $pdf_url }}';
+		var hidePaginator = '{{ .Get "hidePaginator" }}';
+		var pdfDoc = null,
+			pageNum = 1,
+			pageRendering = false,
+			pageNumPending = null,
+			scale = 1,
+			canvas = document.getElementById('the-canvas_{{ safeJS $pdf_id }}'),
+			ctx = canvas.getContext('2d');
+		function renderPage(num) {
+			pageRendering = true;
+			pdfDoc.getPage(num).then(function (page) {
+				var viewport = page.getViewport({ scale: scale });
+				canvas.height = viewport.height;
+				canvas.width = viewport.width;
+				var renderContext = { canvasContext: ctx, viewport: viewport };
+				var renderTask = page.render(renderContext);
+				renderTask.promise.then(function () {
+					pageRendering = false;
+					if (pageNumPending !== null) {
+						renderPage(pageNumPending);
+						pageNumPending = null;
+					}
+				});
+			});
+			document.getElementById('page_num_{{ safeJS $pdf_id }}').textContent = num;
 		}
-		pageNum--;
-		queueRenderPage(pageNum);
+		function queueRenderPage(num) {
+			if (pageRendering) {
+				pageNumPending = num;
+			} else {
+				renderPage(num);
+			}
 		}
-
+		function onPrevPage() {
+			if (pageNum <= 1) { return; }
+			pageNum--;
+			queueRenderPage(pageNum);
+		}
 		function onNextPage() {
-		if (pageNum >= pdfDoc.numPages) {
-		return;
+			if (pageNum >= pdfDoc.numPages) { return; }
+			pageNum++;
+			queueRenderPage(pageNum);
 		}
-		pageNum++;
-		queueRenderPage(pageNum);
-		}
-
 		if (hidePaginator === 'true') {
-		document.getElementById('paginator_{{ safeJS $pdf_id }}').style.display = 'none';
+			document.getElementById('paginator_{{ safeJS $pdf_id }}').style.display = 'none';
 		}
-
 		document.getElementById('prev_{{ safeJS $pdf_id }}').addEventListener('click', onPrevPage);
 		document.getElementById('next_{{ safeJS $pdf_id }}').addEventListener('click', onNextPage);
-
 		pdfjsLib.getDocument(url).promise.then(function (pdfDoc_) {
-		pdfDoc = pdfDoc_;
-		document.getElementById('page_count_{{ safeJS $pdf_id }}').textContent = pdfDoc.numPages;
-		renderPage(pageNum);
+			pdfDoc = pdfDoc_;
+			document.getElementById('page_count_{{ safeJS $pdf_id }}').textContent = pdfDoc.numPages;
+			renderPage(pageNum);
 		});
-		});
-	</script>
-
-	<div class="mt-auto mb-4">
-		<div
-			class="pdf-paginator d-flex justify-content-center pdf-head"
-			id="paginator_{{- $pdf_id -}}">
-			<button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
-			<div class="paginas">
-				<span>
-					Página: <span id="page_num_{{- $pdf_id -}}"></span> /
-					<span id="page_count_{{- $pdf_id -}}"></span>
-				</span>
-			</div>
-			<button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
-			<a
-				class="btn btn-secondary h-100 d-none d-sm-block"
-				href="{{ $pdf_url }}"
-				target="_blank"
-				rel="noopener noreferrer"
-				id="download_{{- $pdf_id -}}"
-			>
-				Descargar
-			</a>
+	});
+</script>
+<div class="mt-auto mb-4">
+	<div
+		class="pdf-paginator d-flex justify-content-center pdf-head"
+		id="paginator_{{- $pdf_id -}}">
+		<button class="btn btn-primary" id="prev_{{- $pdf_id -}}">Anterior</button>
+		<div class="paginas">
+			<span>
+				Página: <span id="page_num_{{- $pdf_id -}}"></span> /
+				<span id="page_count_{{- $pdf_id -}}"></span>
+			</span>
 		</div>
-		<div id="embed-pdf-container_{{- $pdf_id -}}" class="container-fluid mt-4">
-			<div class="row justify-content-md-center">
-				<canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas>
-			</div>
+		<button class="btn btn-primary" id="next_{{- $pdf_id -}}">Siguiente</button>
+		<a
+			class="btn btn-secondary h-100 d-none d-sm-block"
+			href="{{ $pdf_url }}"
+			target="_blank"
+			rel="noopener noreferrer"
+			id="download_{{- $pdf_id -}}"
+		>Descargar</a>
+	</div>
+	<div id="embed-pdf-container_{{- $pdf_id -}}" class="container-fluid mt-4">
+		<div class="row justify-content-md-center">
+			<canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $pdf_id -}}"></canvas>
 		</div>
 	</div>
+</div>
