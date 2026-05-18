@@ -15,7 +15,7 @@ ourBookLibraryDrive = "https://drive.google.com/drive/folders/152My-loiJkz5eLNhH
 ## Open Graph
 images = ["cae.png"]
 ogLocale = "es_ES"
-domainTLD = "caefisica.com"
+domainTLD = "https://web.caefisica.workers.dev/"
 titleHome = "Centro de Apoyo al Estudiante de Física"
 
 ## Twitter Cards

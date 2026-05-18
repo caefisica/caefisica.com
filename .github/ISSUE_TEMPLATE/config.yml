@@ -2,7 +2,7 @@ blank_issues_enabled: true
 
 contact_links:
   - name: 👷 Soporte
-    url: https://caefisica.com/contacto/
+    url: https://web.caefisica.workers.dev/contacto/
     about: Si lo consideras apropiado, puede dirigir sus consultas y dudas aquí
 
   - name: ❓ Preguntas y Discusiones
