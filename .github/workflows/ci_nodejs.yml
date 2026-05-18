@@ -54,5 +54,11 @@ jobs:
 
       - run: bun install --frozen-lockfile
 
+      - name: Install gotmplfmt
+        run: go install github.com/gohugoio/gotmplfmt@latest
+
+      - name: Check template formatting
+        run: gotmplfmt -l layouts data | grep . && exit 1 || true
+
       - name: lint + typecheck
         run: bun run check
