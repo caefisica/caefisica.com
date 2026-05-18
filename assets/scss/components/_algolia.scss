@@ -395,11 +395,6 @@
   background-color: rgb(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
   box-shadow: 0 0.5rem 1rem rgb(29, 45, 53, 0.15) !important;
 
-  span {
-    display: flex;
-    font-size: 1rem;
-  }
-
   @media (width >= 992px) and (width <= 1200px) {
     right: 0;
     position: relative;
@@ -512,12 +507,6 @@
     display: none;
   }
 
-  @media (width >= 992px) {
-    > div:not(.aa-ItemIcon) {
-      display: flex;
-    }
-  }
-
   &:hover {
     background: #f8f9fa;
   }
@@ -526,7 +515,7 @@
 .aa-ItemTitle {
   font-weight: 700;
   color: #1d2d35;
-  display: flex;
+  display: block;
   font-size: 1rem;
 
   @media (width >= 992px) {
@@ -540,5 +529,11 @@
 
 mark {
   padding: 0 !important;
-  background: rgb(212, 53, 159, 0.2);
+  background-color: rgb(62, 52, 211, 0.12);
+  border-radius: 2px;
+  color: inherit;
+}
+
+[data-dark-mode] mark {
+  background-color: rgb(142, 214, 251, 0.18);
 }

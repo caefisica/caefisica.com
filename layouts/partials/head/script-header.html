@@ -4,6 +4,3 @@
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
     {{- partial "footer/render-script" (dict "src" "js/dismissable-alert.ts" "load" "none") }}
 {{- end -}}
-{{- if partial "components/is-search-enabled.html" . -}}
-    <script src="{{ "js/components/algolia/algoliasearchNetlify.js" | relURL }}" defer></script>
-{{- end -}}

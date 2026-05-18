@@ -35,7 +35,9 @@
     "serve": "netlify functions:serve"
   },
   "dependencies": {
-    "@eslint/js": "^10.0.1"
+    "@algolia/autocomplete-js": "^1.19.8",
+    "@eslint/js": "^10.0.1",
+    "algoliasearch": "^5.52.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
