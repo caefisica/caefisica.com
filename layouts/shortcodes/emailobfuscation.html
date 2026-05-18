@@ -1,5 +1,0 @@
-{{- if not (.Page.Store.Get "emaildecoder-loaded") -}}
-	{{- .Page.Store.Set "emaildecoder-loaded" true -}}
-	{{- partial "footer/render-script" (dict "src" "js/emaildecoder.ts" "load" "defer") -}} 
-{{- end -}}
-<a href="#" class="email-link text-decoration-none" data-email="{{ .Get 0 }}">{{ .Get 1 }}</a>
