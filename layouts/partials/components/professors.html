@@ -1,27 +1,27 @@
 {{ $courseCode := .Params.id }}
 {{ if not $courseCode }}
-  {{ errorf "Professor lookup requires Params.id in %s" .File.Path }}
+	{{ errorf "Professor lookup requires Params.id in %s" .File.Path }}
 {{ end }}
 
 {{ $professorsFound := false }}
 <table>
-  <tr>
-    <th>Nombre</th>
-    <th>Semestre</th>
-  </tr>
-  {{ range $professor := hugo.Data.professors }}
-    {{ range $course := $professor.courses }}
-      {{ if eq $course.code $courseCode }}
-        <tr>
-          <td>{{- $professor.title }} {{ $professor.name }}</td>
-          <td>{{ delimit $course.semesters ", " }}</td>
-        </tr>
-        {{ $professorsFound = true }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+	<tr>
+		<th>Nombre</th>
+		<th>Semestre</th>
+	</tr>
+	{{ range $professor := hugo.Data.professors }}
+		{{ range $course := $professor.courses }}
+			{{ if eq $course.code $courseCode }}
+				<tr>
+					<td>{{- $professor.title }} {{ $professor.name }}</td>
+					<td>{{ delimit $course.semesters ", " }}</td>
+				</tr>
+				{{ $professorsFound = true }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
 </table>
 
 {{ if not $professorsFound }}
-  <p>⚠️ Todavía no tenemos información sobre los profesores que enseñaron este curso.</p>
+	<p>⚠️ Todavía no tenemos información sobre los profesores que enseñaron este curso.</p>
 {{ end }}

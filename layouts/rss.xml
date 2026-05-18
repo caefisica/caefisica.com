@@ -1,27 +1,42 @@
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+{{- `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>` | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ .Title | safeHTML -}} ({{ .Site.Params.Title | safeHTML -}}-{{ .Site.Params.Subtitle | safeHTML -}})</title>
-    <link>{{ .Permalink }}</link>
-    <description>{{ .Site.Params.description | safeHTML -}}</description>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.Language.Locale }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Params.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Params.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Params.copyRight }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    {{ with .OutputFormats.Get "RSS" }}
-        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
-    {{ end }}
-    {{ range .Site.RegularPages }}{{ if ne .Params.feed_exclude true }}
-    <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}</description>
-    </item>
-    {{ end }}{{ end }}
-  </channel>
+	<channel>
+		<title>{{ .Title | safeHTML }} ({{ .Site.Params.Title | safeHTML }}-{{ .Site.Params.Subtitle | safeHTML }})</title>
+		<link>{{ .Permalink }}</link>
+		<description>{{ .Site.Params.description | safeHTML }}</description>
+		<generator>Hugo -- gohugo.io</generator>
+		{{- with .Site.Language.Locale }}
+			<language>{{ . }}</language>
+		{{- end }}
+		{{- $rfc822 := "Mon, 02 Jan 2006 15:04:05 -0700" -}}
+		{{- $author := "" -}}
+		{{- with .Site.Params.Author.email -}}
+			{{- $author = . -}}
+			{{- with $.Site.Params.Author.name -}}{{- $author = printf "%s (%s)" $author . -}}{{- end -}}
+		{{- end }}
+		{{- with $author }}
+			<managingEditor>{{ . }}</managingEditor>
+			<webMaster>{{ . }}</webMaster>
+		{{- end }}
+		{{- with .Site.Params.copyRight }}
+			<copyright>{{ . }}</copyright>
+		{{- end }}
+		{{- if not .Date.IsZero }}
+			<lastBuildDate>{{ now.Format $rfc822 | safeHTML }}</lastBuildDate>
+		{{- end }}
+		{{- with .OutputFormats.Get "RSS" }}
+			{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+		{{- end }}
+		{{- range .Site.RegularPages }}
+			{{- if eq .Params.feed_exclude true }}{{ continue }}{{ end }}
+			<item>
+				<title>{{ .Title }}</title>
+				<link>{{ .Permalink }}</link>
+				<pubDate>{{ .Date.Format $rfc822 | safeHTML }}</pubDate>
+				{{- with $author }}<author>{{ . }}</author>{{ end }}
+				<guid>{{ .Permalink }}</guid>
+				<description>{{ .Summary | html }}</description>
+			</item>
+		{{- end }}
+	</channel>
 </rss>

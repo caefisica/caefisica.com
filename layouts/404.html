@@ -1,28 +1,31 @@
 {{ define "head/stylesheet" }} {{ partial "head/stylesheet.html" . }} {{ $styles := resources.Get
-"scss/components/_message.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
+	"scss/components/_message.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint
+}}
 <link
-  rel="stylesheet"
-  href="{{ $styles.RelPermalink }}"
-  integrity="{{ $styles.Data.Integrity }}"
-  media="screen"
+	rel="stylesheet"
+	href="{{ $styles.RelPermalink }}"
+	integrity="{{ $styles.Data.Integrity }}"
+	media="screen"
 />
-{{ end }} {{ define "main" }}
+{{ end }}
+
+{{ define "main" }}
 <section class="section fullpage2">
-  <div class="container">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12 col-lg-5 me-5">{{ partial "components/ghost.html" . -}}</div>
-      <div class="col-12 col-lg-7">
-        <article>
-          <h1 class="text-left">
-            Lo siento, no encontramos esta página {{ ":pensive:" | emojify }}
-          </h1>
-          <div class="text-left">
-            ¿Estás seguro de que estaba acá? Puedes consultar con alguno de nuestros miembros si
-            crees que se trata de un error.
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-12 col-lg-5 me-5">{{ partial "components/ghost.html" . -}}</div>
+			<div class="col-12 col-lg-7">
+				<article>
+					<h1 class="text-left">
+						Lo siento, no encontramos esta página {{ ":pensive:" | emojify }}
+					</h1>
+					<div class="text-left">
+						¿Estás seguro de que estaba acá? Puedes consultar con alguno de nuestros miembros si
+						crees que se trata de un error.
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
 </section>
 {{ end }}

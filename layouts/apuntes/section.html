@@ -1,30 +1,31 @@
 {{ define "main" }}
 <div class="row flex-xl-nowrap mt-md-4 mt-auto">
-  <main class="docs-content col-md-15 mx-auto pb-4">
-    {{range .Sections }}
-    <section class="section section-featured mt-4 mb-4 bg-light py-5 rounded-4 mb-2">
-      <div class="container">
-        <h2 class="h3 mt-0 text-center">{{ .Title }}</h2>
-        <div class="row justify-content-center mt-3 g-3">
-          {{range $pages := .Pages}}
-          <div class="col-sm-8 col-md-6 col-xl-4">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="h5 card-title my-2">
-                  <a
-                    class="card-link stretched-link text-dark text-decoration-none"
-                    href="{{ .RelPermalink }}"
-                    >{{ .Params.title | truncate 25 }}</a
-                  >
-                </h3>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-    {{ end }}
-  </main>
+	<main class="docs-content col-md-15 mx-auto pb-4">
+		{{ range .Sections }}
+			<section class="section section-featured mt-4 mb-4 bg-light py-5 rounded-4 mb-2">
+				<div class="container">
+					<h2 class="h3 mt-0 text-center">{{ .Title }}</h2>
+					<div class="row justify-content-center mt-3 g-3">
+						{{ range $pages := .Pages }}
+							<div class="col-sm-8 col-md-6 col-xl-4">
+								<div class="card">
+									<div class="card-body">
+										<h3 class="h5 card-title my-2">
+											<a
+												class="card-link stretched-link text-dark text-decoration-none"
+												href="{{ .RelPermalink }}"
+											>
+												{{ .Params.title | truncate 25 }}
+											</a>
+										</h3>
+									</div>
+								</div>
+							</div>
+						{{ end }}
+					</div>
+				</div>
+			</section>
+		{{ end }}
+	</main>
 </div>
 {{ end }}

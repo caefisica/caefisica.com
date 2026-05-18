@@ -1,158 +1,153 @@
 {{ define "head/stylesheet" }}
-    {{ partial "head/stylesheet.html" . }}
-    {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
-    {{ $styles := resources.Get "scss/components/pages/_courses.scss" | toCSS $opts | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen" />
+{{ partial "head/stylesheet.html" . }}
+
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
+{{ $styles := resources.Get "scss/components/pages/_courses.scss" | toCSS $opts | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen" />
 {{ end }}
 
 {{ define "main" }}
-    <div class="row align-items-start">
-        <div class="col-auto docs-sidebar d-none d-xl-block">
-            <nav class="docs-links" aria-label="Tertiary navigation">
-                {{ partial "sidebar/render-auto-nav.html" (dict
-                    "currentPage" .
-                    "mode" "default"
-                ) -}}
-            </nav>
-        </div>
-        <div
-            class="col-lg-16 col-xl-11 col-xxl-12 mx-auto flex-xl-nowrap mt-md-4 mt-auto">
-            <main class="docs-content col-md-15 px-5 mx-auto pb-4">
-                <section>
-                    <div
-                        class="first_box position-relative d-flex align-items-center justify-content-start pt-5 mt-3">
-                        <div class="text-box w-100">
-                            <h1 class="mb-2">{{ .Params.Title }}</h1>
-                            <h5 class="description_page p-0 lh-sm">
-                                {{ .Params.Description_2 }}<br />{{ .Params.Description_3 }}
-                            </h5>
-                            <form
-                                class="form_title p-0 position-relative m-0 d-flex w-100 align-items-center">
-                                <div class="search-icon-ban position-absolute">
-                                    <svg
-                                        class="opacity-50"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 18 18">
-                                        <g opacity="1" clip-path="url(#a)">
-                                            <path
-                                                d="m18 15.964-4.794-4.793A7.2 7.2 0 1 0 .001 7.2a7.2 7.2 0 0 0 11.17 6.006L15.963 18 18 15.964ZM2.04 7.2A5.16 5.16 0 0 1 7.2 2.043 5.16 5.16 0 1 1 2.04 7.2Z"
-                                                fill="#90794B"></path>
-                                        </g>
-                                        <defs>
-                                            <clipPath id="a">
-                                                <path
-                                                    fill="#dee2e6"
-                                                    d="M0 0h18v18H0z"></path>
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                </div>
-                                <input
-                                    name="docs-search"
-                                    placeholder="Buscar cursos..."
-                                    value
-                                    class="the-input m-0 pe-0 fs-6 rounded-pill" />
-                            </form>
-                        </div>
-                        <div class="back-div w-100">
-                            <span class="back-span position-absolute mb-n3">
-                                <div
-                                    class="image-div-container position-relative d-inline-block align-top">
-                                    <div>
-                                        <img
-                                            alt=""
-                                            role="presentation"
-                                            aria-hidden="true"
-                                            src="{{ "images/placeholders/blank.svg" | relURL }}" />
-                                    </div>
-                                    <picture>
-                                        <source
-                                            type="image/webp"
-                                            srcset="
-                                                /images/dirac.webp 125w,
-                                                /images/dirac.webp 250w,
-                                                /images/dirac.webp 500w
-                                            "
-                                            sizes="(min-width: 500px) 500px, 100vw" />
-                                        <img
-                                            width="500"
-                                            height="392"
-                                            data-main-image=""
-                                            class="the-new-image align-middle p-0 m-0 position-absolute w-100 opacity-100"
-                                            sizes="(min-width: 500px) 500px, 100vw"
-                                            decoding="async"
-                                            loading="lazy"
-                                            src="/images/tovar.jpg"
-                                            srcset="
-                                                /images/tovar.jpg  125w,
-                                                /images/dirac.webp 250w,
-                                                /images/tovar.jpg  500w
-                                            "
-                                            alt="Paul Dirac" />
-                                    </picture>
-                                </div>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="group-data d-grid mt-3">
-                        {{ $pregrado := .Site.GetPage "unmsm/pregrado" }}
-                        {{ range $pregrado.Sections -}}
-                            <a
-                                target
-                                rel="noopener noreferrer"
-                                href="{{ .RelPermalink }}"
-                                class="text-data fw-semibold d-flex align-items-start text-decoration-none">
-                                {{ (resources.Get "icons/books.svg").Content | safeHTML }}
-                                <div class="ms-3">
-                                    <h3 class="mt-0 fw-bolder">{{ .Title }}</h3>
-                                    <p class="p-0 mb-1 lh-sm">
-                                        {{ .Params.description }}
-                                    </p>
-                                </div>
-                            </a>
-                        {{ end }}
-                    </div>
-                </section>
-                <section class="second-section">
-                    <div class="section_title text-center">
-                        <h2 class="mx-0 mt-0 mb-1 lh-base">Apuntes/Notas</h2>
-                        <p class="p-0 lh-base fs-6">
-                            Información adicional sobre tópicos selectos de
-                            física
-                        </p>
-                    </div>
-                    <div class="section-table d-grid gap-3 mb-0 rounded-0">
-                        {{ $apuntes := .Site.GetPage "apuntes" }}
-                        {{ range $apuntes.Sections -}}
-                            <div class="group rounded-1">
-                                <div>
-                                    <h4
-                                        class="fs-5 lh-base m-0 fw-bolder text-break">
-                                        {{ .Title }}
-                                    </h4>
-                                    <p class="fs-6 p-0 mb-3 mx-0 mt-1 lh-base">
-                                        {{ .Params.description }}
-                                    </p>
-                                </div>
-                                <ul class="m-0 d-grid w-100 p-0 list-unstyled">
-                                    {{ range .Pages -}}
-                                        <li class="lh-base fs-6 flex-grow-1">
-                                            <a
-                                                class="text-decoration-none d-flex align-items-center p-2 rounded-1"
-                                                href="{{ .RelPermalink }}">
-                                                <span class="me-0 ms-2"
-                                                    >{{ .Title }}</span
-                                                >
-                                            </a>
-                                        </li>
-                                    {{ end }}
-                                </ul>
-                            </div>
-                        {{ end }}
-                    </div>
-                </section>
-            </main>
-        </div>
-    </div>
+<div class="row align-items-start">
+	<div class="col-auto docs-sidebar d-none d-xl-block">
+		<nav class="docs-links" aria-label="Tertiary navigation">
+			{{ partial "sidebar/render-auto-nav.html" (dict "currentPage" . "mode" "default") -}}
+		</nav>
+	</div>
+	<div class="col-lg-16 col-xl-11 col-xxl-12 mx-auto flex-xl-nowrap mt-md-4 mt-auto">
+		<main class="docs-content col-md-15 px-5 mx-auto pb-4">
+			<section>
+				<div class="first_box position-relative d-flex align-items-center justify-content-start pt-5 mt-3">
+					<div class="text-box w-100">
+						<h1 class="mb-2">{{ .Params.Title }}</h1>
+						<h5 class="description_page p-0 lh-sm">
+							{{ .Params.Description_2 }}<br />{{ .Params.Description_3 }}
+						</h5>
+						<form class="form_title p-0 position-relative m-0 d-flex w-100 align-items-center">
+							<div class="search-icon-ban position-absolute">
+								<svg
+									class="opacity-50"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 18 18">
+									<g opacity="1" clip-path="url(#a)">
+										<path
+											d="m18 15.964-4.794-4.793A7.2 7.2 0 1 0 .001 7.2a7.2 7.2 0 0 0 11.17 6.006L15.963 18 18 15.964ZM2.04 7.2A5.16 5.16 0 0 1 7.2 2.043 5.16 5.16 0 1 1 2.04 7.2Z"
+											fill="#90794B"></path>
+									</g>
+									<defs>
+										<clipPath id="a">
+											<path
+												fill="#dee2e6"
+												d="M0 0h18v18H0z"></path>
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+							<input
+								name="docs-search"
+								placeholder="Buscar cursos..."
+								value
+								class="the-input m-0 pe-0 fs-6 rounded-pill" />
+						</form>
+					</div>
+					<div class="back-div w-100">
+						<span class="back-span position-absolute mb-n3">
+							<div class="image-div-container position-relative d-inline-block align-top">
+								<div>
+									<img
+										alt=""
+										role="presentation"
+										aria-hidden="true"
+										src="{{ "images/placeholders/blank.svg" | relURL }}" />
+								</div>
+								<picture>
+									<source
+										type="image/webp"
+										srcset="
+										/images/dirac.webp 125w,
+										/images/dirac.webp 250w,
+										/images/dirac.webp 500w
+										"
+										sizes="(min-width: 500px) 500px, 100vw" />
+									<img
+										width="500"
+										height="392"
+										data-main-image=""
+										class="the-new-image align-middle p-0 m-0 position-absolute w-100 opacity-100"
+										sizes="(min-width: 500px) 500px, 100vw"
+										decoding="async"
+										loading="lazy"
+										src="/images/tovar.jpg"
+										srcset="
+										/images/tovar.jpg  125w,
+										/images/dirac.webp 250w,
+										/images/tovar.jpg  500w
+										"
+										alt="Paul Dirac" />
+								</picture>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="group-data d-grid mt-3">
+					{{ $pregrado := .Site.GetPage "unmsm/pregrado" }}
+					{{ range $pregrado.Sections -}}
+						<a
+							target
+							rel="noopener noreferrer"
+							href="{{ .RelPermalink }}"
+							class="text-data fw-semibold d-flex align-items-start text-decoration-none"
+						>
+							{{ (resources.Get "icons/books.svg").Content | safeHTML }}
+							<div class="ms-3">
+								<h3 class="mt-0 fw-bolder">{{ .Title }}</h3>
+								<p class="p-0 mb-1 lh-sm">
+									{{ .Params.description }}
+								</p>
+							</div>
+						</a>
+					{{ end }}
+				</div>
+			</section>
+			<section class="second-section">
+				<div class="section_title text-center">
+					<h2 class="mx-0 mt-0 mb-1 lh-base">Apuntes/Notas</h2>
+					<p class="p-0 lh-base fs-6">
+						Información adicional sobre tópicos selectos de
+						física
+					</p>
+				</div>
+				<div class="section-table d-grid gap-3 mb-0 rounded-0">
+					{{ $apuntes := .Site.GetPage "apuntes" }}
+					{{ range $apuntes.Sections -}}
+						<div class="group rounded-1">
+							<div>
+								<h4 class="fs-5 lh-base m-0 fw-bolder text-break">
+									{{ .Title }}
+								</h4>
+								<p class="fs-6 p-0 mb-3 mx-0 mt-1 lh-base">
+									{{ .Params.description }}
+								</p>
+							</div>
+							<ul class="m-0 d-grid w-100 p-0 list-unstyled">
+								{{ range .Pages -}}
+									<li class="lh-base fs-6 flex-grow-1">
+										<a
+											class="text-decoration-none d-flex align-items-center p-2 rounded-1"
+											href="{{ .RelPermalink }}"
+										>
+											<span class="me-0 ms-2">
+												{{ .Title }}
+											</span>
+										</a>
+									</li>
+								{{ end }}
+							</ul>
+						</div>
+					{{ end }}
+				</div>
+			</section>
+		</main>
+	</div>
+</div>
 {{ end }}

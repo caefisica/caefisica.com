@@ -1,3 +1,4 @@
-{{ $usesAlgolia := eq .Site.Params.search.provider "algolia" -}} {{ $searchSections := slice "unmsm"
-"apuntes" "blog" "tags" -}} {{ $enabled := and $usesAlgolia (or (eq .Kind "home") (in
-$searchSections .Section)) -}} {{ return $enabled -}}
+{{- $usesAlgolia := eq .Site.Params.search.provider "algolia" -}}
+{{- $searchSections := slice "unmsm" "apuntes" "blog" "tags" -}}
+{{- $enabled := and $usesAlgolia (or (eq .Kind "home") (in $searchSections .Section)) -}}
+{{- return $enabled -}}

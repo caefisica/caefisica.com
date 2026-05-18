@@ -1,15 +1,15 @@
 {{ if .Site.Params.alertDismissable -}}
-<div
-  id="announcement"
-  data-id="global-alert-{{ md5 .Site.Params.alertText }}"
-  class="alert alert-primary alert-dismissible fade show text-lg-center d-none"
-  role="alert"
->
-  <span class="alert-text"> {{ .Site.Params.alertText | safeHTML }} </span>
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
-</div>
+	<div
+		id="announcement"
+		data-id="global-alert-{{ md5 .Site.Params.alertText }}"
+		class="alert alert-primary alert-dismissible fade show text-lg-center d-none"
+		role="alert"
+	>
+		<span class="alert-text"> {{ .Site.Params.alertText | safeHTML }} </span>
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+	</div>
 {{ else -}}
-<div class="alert alert-primary text-lg-center" role="alert">
-  {{ .Site.Params.alertText | safeHTML | emojify }}
-</div>
+	<div class="alert alert-primary text-lg-center" role="alert">
+		{{ .Site.Params.alertText | safeHTML | emojify }}
+	</div>
 {{ end -}}

@@ -1,48 +1,47 @@
 {{/* Fondo del reproductor */}}
 <div class="cover_play d-none position-fixed overflow-hidden"></div>
 <div class="player_container position-fixed outline-none overflow-hidden d-grid d-none center-global">
-  <button type="button" class="border-0 bg-transparent outline-none" id="close-button">×</button>
-  <div class="youtube_container d-flex">
-    <div id="player">
-    </div>
-  </div>
+	<button type="button" class="border-0 bg-transparent outline-none" id="close-button">×</button>
+	<div class="youtube_container d-flex">
+		<div id="player">
+		</div>
+	</div>
 </div>
 
 <section class="section p-0">
-  <div class="container full-height d-flex justify-content-center align-items-center text-center">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-7 text-center text-lg-start">
-        <h1>Una guía para el estudio de las Ciencias Físicas</h1>
-        <p class="lead mb-4 fs-5">{{ .Params.Lead | safeHTML -}}</p>
-        {{ if partial "components/is-search-enabled.html" . -}}
-          <form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
-            <div id="docsearch"></div>
-          </form>
-        {{ end -}}
-        <p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
-      </div>
-      <div class="col-lg-7 d-none d-lg-block">
-        {{ with hugo.Data.fixes.frontpage -}}
-        <div class="hero_figure position-relative ms-auto">
-          <img class="img-hero-mask w-100 h-100" src="{{ .image | relURL }}" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
+	<div class="container full-height d-flex justify-content-center align-items-center text-center">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-lg-7 text-center text-lg-start">
+				<h1>Una guía para el estudio de las Ciencias Físicas</h1>
+				<p class="lead mb-4 fs-5">{{ .Params.Lead | safeHTML -}}</p>
+				{{ if partial "components/is-search-enabled.html" . -}}
+					<form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
+						<div id="docsearch"></div>
+					</form>
+				{{ end -}}
+				<p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
+		</div>
+		<div class="col-lg-7 d-none d-lg-block">
+			{{ with hugo.Data.fixes.frontpage -}}
+				<div class="hero_figure position-relative ms-auto">
+					<img class="img-hero-mask w-100 h-100" src="{{ .image | relURL }}" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
 
-          {{ if .videoURL -}}
-          <div class="hero_figure-popup position-absolute">
-            <div class="thumb position-relative overflow-hidden rounded-4">
-              <img class="w-100 h-100 object-fit-cover" src="{{ .videoThumb -}}" loading="lazy" alt="{{ .videoThumb_alt | markdownify -}}" title="{{ .videoThumb_title | markdownify -}}"/>
-            </div>
-            <a id="play-video" type="button" data-video-id="{{ .videoURL -}}" class="popup-button text-center big position-absolute rounded-circle center-global" aria-label="Mirar video de Youtube" href="#">
-              <svg class="position-absolute center-global transition-all" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24">
-                <path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
-                  data-name="Polygon 4" />
-              </svg>
-            </a>
-          </div>
-          {{ end -}}
-
-        </div>
-        {{ end -}}
-      </div>
-    </div>
-  </div>
+					{{ if .videoURL -}}
+						<div class="hero_figure-popup position-absolute">
+							<div class="thumb position-relative overflow-hidden rounded-4">
+								<img class="w-100 h-100 object-fit-cover" src="{{ .videoThumb -}}" loading="lazy" alt="{{ .videoThumb_alt | markdownify -}}" title="{{ .videoThumb_title | markdownify -}}"/>
+							</div>
+							<a id="play-video" type="button" data-video-id="{{ .videoURL -}}" class="popup-button text-center big position-absolute rounded-circle center-global" aria-label="Mirar video de Youtube" href="#">
+								<svg class="position-absolute center-global transition-all" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24">
+									<path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
+										data-name="Polygon 4" />
+								</svg>
+							</a>
+						</div>
+					{{ end -}}
+				</div>
+			{{ end -}}
+		</div>
+	</div>
+</div>
 </section>

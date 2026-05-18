@@ -1,88 +1,85 @@
 {{ define "main" }}
-    {{ partial "components/welcome.html" . -}}
+{{ partial "components/welcome.html" . -}}
 {{ end }}
 
 {{ define "prefooter" }}
-    {{/* partial "main/featured-courses.html" . - */}}
+{{/* partial "main/featured-courses.html" . - */}}
 
+<div class="d-flex justify-content-start">
+	<div class="bg-dots"></div>
+</div>
 
-    <div class="d-flex justify-content-start">
-        <div class="bg-dots"></div>
-    </div>
+{{ partial "components/features.html" . -}}
 
-    {{ partial "components/features.html" . -}}
+{{ partial "components/latest_posts.html" . -}}
 
-    {{ partial "components/latest_posts.html" . -}}
-
-
-    <section class="section apoyo mt-3 bg-light">
-        <div class="container">
-            <h2 class="h3 mt-0 text-center">¿Deseas colaborar?</h2>
-            <p class="text-center">
-                Si eres estudiante de segundo año o superior y deseas colaborar
-                con nuestro proyecto, ¡nos gustaría contar contigo! Puedes
-                editar directamente el contenido de la página, o bien, puedes
-                contactarnos a través de nuestro correo.
-            </p>
-            <p class="text-center mb-0 mt-4">
-                <a
-                    class="btn btn-primary px-4 mb-2"
-                    href="https://github.com/caefis/discusion/labels/sugerencia"
-                    role="button">
-                    Quiero dar una recomendación
-                </a>
-                <a
-                    class="btn btn-outline-primary px-4 ms-2 mb-2"
-                    href="{{ "contacto/" | relURL }}"
-                    role="button">
-                    Contáctanos
-                </a>
-            </p>
-        </div>
-    </section>
+<section class="section apoyo mt-3 bg-light">
+	<div class="container">
+		<h2 class="h3 mt-0 text-center">¿Deseas colaborar?</h2>
+		<p class="text-center">
+			Si eres estudiante de segundo año o superior y deseas colaborar
+			con nuestro proyecto, ¡nos gustaría contar contigo! Puedes
+			editar directamente el contenido de la página, o bien, puedes
+			contactarnos a través de nuestro correo.
+		</p>
+		<p class="text-center mb-0 mt-4">
+			<a
+				class="btn btn-primary px-4 mb-2"
+				href="https://github.com/caefis/discusion/labels/sugerencia"
+				role="button">
+				Quiero dar una recomendación
+			</a>
+			<a
+				class="btn btn-outline-primary px-4 ms-2 mb-2"
+				href="{{ "contacto/" | relURL }}"
+				role="button">
+				Contáctanos
+			</a>
+		</p>
+	</div>
+</section>
 {{ end }}
 
 {{ define "footer-widgets" }}
+<section class="section section-sm mt-4 mt-lg-5 mb-4 mb-lg-5">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-12 col-lg-10 col-xl-8">
+				<h2 class="h3 mt-3 text-center">Blog</h2>
+				<div class="card-list">
+					{{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "blog") -}}
+						<div class="card">
+							<div class="card-body">
+								<h3>
+									<a
+										class="stretched-link text-body"
+										href="{{ .RelPermalink }}"
+									>{{ .Params.title }}
+										{{ with .Params.emoji -}}
+											&nbsp;{{ . | emojify }}
+										{{ end -}}
+									</a>
+								</h3>
+								<p>{{ .Params.lead | safeHTML }}</p>
+								{{ partial "main/blog-meta.html" . -}}
+							</div>
+						</div>
+					{{ end -}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <section class="section section-sm mt-4 mt-lg-5 mb-4 mb-lg-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 col-lg-10 col-xl-8">
-                    <h2 class="h3 mt-3 text-center">Blog</h2>
-                    <div class="card-list">
-                        {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "blog") -}}
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3>
-                                        <a
-                                            class="stretched-link text-body"
-                                            href="{{ .RelPermalink }}"
-                                            >{{ .Params.title }}{{ with .Params.emoji -}}
-                                                &nbsp;{{ . | emojify }}
-                                            {{ end -}}</a
-                                        >
-                                    </h3>
-                                    <p>{{ .Params.lead | safeHTML }}</p>
-                                    {{ partial "main/blog-meta.html" . -}}
-                                </div>
-                            </div>
-                        {{ end -}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{ partial "components/miembros.html" . -}}
 
-    {{ partial "components/miembros.html" . -}}
-
-
-    <section class="section section-sm mt-3 mb-3">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 col-lg-10 col-xl-8">
-                    {{ partial "sidebar/newsletter.html" . -}}
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="section section-sm mt-3 mb-3">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-12 col-lg-10 col-xl-8">
+				{{ partial "sidebar/newsletter.html" . -}}
+			</div>
+		</div>
+	</div>
+</section>
 {{ end }}

@@ -1,14 +1,17 @@
-{{ $currentPage := .currentPage -}} {{ $mode := .mode | default "default" -}} {{ $tree := partial
-"sidebar/build-auto-nav-tree.html" (dict "currentPage" $currentPage ) -}} {{ if eq $mode
-"collapsible" -}}
-<ul class="list-unstyled collapsible-sidebar">
-  {{ partial "sidebar/render-auto-nav-nodes.html" (dict "nodes" $tree "mode" $mode ) }}
-</ul>
-{{ else -}} {{ range $tree -}}
-<div class="docs-section">
-  <div class="h6 text-uppercase mb-2">{{ .title }}</div>
-  <ul class="list-unstyled">
-    {{ partial "sidebar/render-auto-nav-nodes.html" (dict "nodes" .children "mode" $mode ) }}
-  </ul>
-</div>
-{{ end -}} {{ end -}}
+{{- $currentPage := .currentPage -}}
+{{- $mode := .mode | default "default" -}}
+{{- $tree := partial "sidebar/build-auto-nav-tree.html" (dict "currentPage" $currentPage) -}}
+{{- if eq $mode "collapsible" -}}
+	<ul class="list-unstyled collapsible-sidebar">
+		{{ partial "sidebar/render-auto-nav-nodes.html" (dict "nodes" $tree "mode" $mode) }}
+	</ul>
+{{- else -}}
+	{{- range $tree -}}
+		<div class="docs-section">
+			<div class="h6 text-uppercase mb-2">{{ .title }}</div>
+			<ul class="list-unstyled">
+				{{ partial "sidebar/render-auto-nav-nodes.html" (dict "nodes" .children "mode" $mode) }}
+			</ul>
+		</div>
+	{{- end -}}
+{{- end -}}

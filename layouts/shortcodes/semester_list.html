@@ -1,24 +1,24 @@
 <table>
-  <thead>
-    <tr>
-      <th>Código</th>
-      <th>Curso</th>
-      <th>Créditos</th>
-      <th>Requisitos</th>
-      <th>Obligatorio*</th>
-    </tr>
-  </thead>
-  <tbody>
-    {{ range .Page.Pages }}
-    <tr>
-      <td>{{- .Params.id -}}</td>
-      <td>
-        <a href="{{- .RelPermalink -}}">{{- .Title -}}</a>
-      </td>
-      <td>{{- .Params.credits -}}</td>
-      <td>{{ delimit .Params.prerrequisites ", " " y " -}}</td>
-      <td>Sí</td>
-    </tr>
-    {{ end }}
-  </tbody>
+	<thead>
+		<tr>
+			<th>Código</th>
+			<th>Curso</th>
+			<th>Créditos</th>
+			<th>Requisitos</th>
+			<th>Obligatorio*</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{ range .Page.Pages }}
+			<tr>
+				<td>{{- .Params.id -}}</td>
+				<td>
+					<a href="{{- .RelPermalink -}}">{{- .Title -}}</a>
+				</td>
+				<td>{{- .Params.credits -}}</td>
+				<td>{{ delimit .Params.prerrequisites ", " " y " -}}</td>
+				<td>Sí</td>
+			</tr>
+		{{ end }}
+	</tbody>
 </table>

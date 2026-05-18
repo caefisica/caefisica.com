@@ -1,23 +1,16 @@
 <p class="published_data mt-1">
-    {{- $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) -}}
-    <small
-        >Publicado el {{ .Lastmod.Day }} de
-        {{ index (hugo.Data.fixes.months) (printf "%d" .Lastmod.Month) }}<span
-            class="special_display">
-            por
-            {{ $authorLinks := slice }}
-            {{ range $contributors -}}
-                {{ $authorLinks = $authorLinks | append (printf "<a class=\"stretched-link position-relative\" href=\"%s\">%s</a>" .page.RelPermalink .name) }}
-            {{ end -}}
-            {{ if eq ( len $authorLinks ) 2 -}}
-                {{ delimit $authorLinks " y " | safeHTML }}
-            {{ else }}
-                {{ delimit $authorLinks ", " " y " | safeHTML }}
-            {{ end -}} </span
-        >&nbsp;&hyphen;&nbsp;<strong
-            >{{ .ReadingTime -}}&nbsp;min. de lectura</strong
-        ></small
-    >
+	{{- $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) -}}
+	{{- $authorLinks := slice -}}
+	{{- range $contributors -}}
+		{{- $authorLinks = $authorLinks | append (printf "<a class=\"stretched-link position-relative\" href=\"%s\">%s</a>" .page.RelPermalink .name) -}}
+	{{- end -}}
+	<small>Publicado el {{ .Lastmod.Day }} de
+		{{ index (hugo.Data.fixes.months) (printf "%d" .Lastmod.Month) -}}<span class="special_display">
+			por
+			{{- if eq (len $authorLinks) 2 -}}
+				{{ delimit $authorLinks " y " | safeHTML }}
+			{{- else -}}
+				{{ delimit $authorLinks ", " " y " | safeHTML }}
+			{{- end }}
+		</span>&nbsp;&hyphen;&nbsp;<strong>{{ .ReadingTime -}}&nbsp;min. de lectura</strong></small>
 </p>
-
-<p></p>

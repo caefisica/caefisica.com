@@ -1,8 +1,8 @@
 User-agent: *
 {{ if eq (hugo.Environment) "production" -}}
-Allow: /
+	Allow: /
 {{ else -}}
-Disallow: /
+	Disallow: /
 {{ end }}
 Sitemap: {{ "sitemap.xml" | absURL -}}
 # Algolia-Crawler-Verif: 808D45522984F82F

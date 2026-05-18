@@ -3,61 +3,61 @@
 
 {{- /* Feature scripts: conditional, loaded individually */ -}}
 {{- if $searchEnabled -}}
-    {{ partial "footer/render-script" (dict "src" "js/docsearch.ts" "load" "defer") }}
+	{{ partial "footer/render-script" (dict "src" "js/docsearch.ts" "load" "defer") }}
 {{- end -}}
 {{- if .Site.Params.options.bootStrapJs -}}
-    {{ partial "footer/render-script" (dict "src" "js/bootstrap.ts" "load" "defer") }}
+	{{ partial "footer/render-script" (dict "src" "js/bootstrap.ts" "load" "defer") }}
 {{- end -}}
 {{- if .Site.Params.options.highLight -}}
-    {{ partial "footer/render-script" (dict "src" "js/highlight.ts" "load" "defer") }}
+	{{ partial "footer/render-script" (dict "src" "js/highlight.ts" "load" "defer") }}
 {{- end -}}
 {{- if .Params.math -}}
-    {{- $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
-    {{- $katexRender := resources.Get "js/vendor/katex/dist/contrib/auto-render.js" -}}
-    {{- if $isProd -}}
-        {{- with $katex | fingerprint "sha512" -}}
-<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
-        {{- end -}}
-        {{- with $katexRender | fingerprint "sha512" -}}
-<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
-        {{- end -}}
-    {{- else -}}
-<script src="{{ $katex.RelPermalink }}" defer></script>
-<script src="{{ $katexRender.RelPermalink }}" defer></script>
-    {{- end -}}
-    {{ partial "footer/render-script" (dict "src" "js/katex.ts" "load" "defer") }}
+	{{- $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
+	{{- $katexRender := resources.Get "js/vendor/katex/dist/contrib/auto-render.js" -}}
+	{{- if $isProd -}}
+		{{- with $katex | fingerprint "sha512" -}}
+			<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+		{{- end -}}
+		{{- with $katexRender | fingerprint "sha512" -}}
+			<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+		{{- end -}}
+	{{- else -}}
+		<script src="{{ $katex.RelPermalink }}" defer></script>
+		<script src="{{ $katexRender.RelPermalink }}" defer></script>
+	{{- end -}}
+	{{ partial "footer/render-script" (dict "src" "js/katex.ts" "load" "defer") }}
 {{- end -}}
 {{- with .Params.mermaid -}}
-    {{ partial "footer/render-script" (dict "src" "js/mermaid.ts" "load" "defer") }}
+	{{ partial "footer/render-script" (dict "src" "js/mermaid.ts" "load" "defer") }}
 {{- end -}}
 
 {{- /* Core bundle: always loaded */ -}}
 {{- $bundleOpts := dict "target" "es2020" "minify" $isProd "sourceMap" (cond $isProd "none" "inline") -}}
 {{- $bundle := slice
-    (resources.Get "js/newsletter.ts" | js.Build $bundleOpts)
-    (resources.Get "js/keyboard-shortcut.ts" | js.Build $bundleOpts)
-    (resources.Get "js/netlify-identity.ts" | js.Build $bundleOpts)
+	(resources.Get "js/newsletter.ts" | js.Build $bundleOpts)
+	(resources.Get "js/keyboard-shortcut.ts" | js.Build $bundleOpts)
+	(resources.Get "js/netlify-identity.ts" | js.Build $bundleOpts)
 -}}
 {{- if .Site.Params.options.lazySizes -}}
-    {{- $bundle = $bundle | append (resources.Get "js/lazysizes.ts" | js.Build $bundleOpts) -}}
+	{{- $bundle = $bundle | append (resources.Get "js/lazysizes.ts" | js.Build $bundleOpts) -}}
 {{- end -}}
 {{- if .Site.Params.options.clipBoard -}}
-    {{- $bundle = $bundle | append (resources.Get "js/clipboard.ts" | js.Build $bundleOpts) -}}
+	{{- $bundle = $bundle | append (resources.Get "js/clipboard.ts" | js.Build $bundleOpts) -}}
 {{- end -}}
 {{- if .Site.Params.options.instantPage -}}
-    {{- $bundle = $bundle | append (resources.Get "js/instant-page.ts" | js.Build $bundleOpts) -}}
+	{{- $bundle = $bundle | append (resources.Get "js/instant-page.ts" | js.Build $bundleOpts) -}}
 {{- end -}}
 {{- $mainJs := $bundle | resources.Concat "main.js" -}}
 {{- if $isProd -}}
-    {{- with $mainJs | fingerprint "sha512" -}}
-<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
-    {{- end -}}
+	{{- with $mainJs | fingerprint "sha512" -}}
+		<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+	{{- end -}}
 {{- else -}}
-<script src="{{ $mainJs.RelPermalink }}" defer></script>
+	<script src="{{ $mainJs.RelPermalink }}" defer></script>
 {{- end -}}
 
 {{- /* Homepage-only: video player */ -}}
 {{- if eq .Kind "home" -}}
-    {{ partial "footer/render-script" (dict "src" "js/player.ts" "load" "defer") }}
-    <script src="https://www.youtube.com/iframe_api" defer></script>
+	{{ partial "footer/render-script" (dict "src" "js/player.ts" "load" "defer") }}
+	<script src="https://www.youtube.com/iframe_api" defer></script>
 {{- end -}}

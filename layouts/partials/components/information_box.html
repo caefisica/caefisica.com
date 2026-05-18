@@ -1,31 +1,31 @@
 <div class="description_border mt-3 mb-4">
-  <div class="text-center description_box mt-3 mb-3">
-    <div class="row text-start">
-      <h6 class="ps-0">Información del curso</h6>
-      <div class="col-5 col-md-4 p-0">
-        <p class="fs-6">Código:</p>
-      </div>
-      <div class="col-11 col-md-12 p-0">
-        <p class="fs-6">{{ .Params.id | safeHTML }}</p>
-      </div>
-    </div>
-    <div class="row text-start">
-      <div class="col-5 col-md-4 p-0">
-        <p class="fs-6">Créditos:</p>
-      </div>
-      <div class="col-11 col-md-12 p-0">
-        <p class="fs-6">{{ .Params.credits | safeHTML }} créditos</p>
-      </div>
-    </div>
-    <div class="row text-start">
-      <div class="col-5 col-md-4 p-0">
-        <p class="fs-6">Prerrequisitos:</p>
-      </div>
-      <div class="col-11 col-md-12 p-0">
-        <p class="fs-6">
-          {{ with .Params.prerrequisites }} {{ delimit . " y " | safeHTML }} {{ end }}
-        </p>
-      </div>
-    </div>
-  </div>
+	<div class="text-center description_box mt-3 mb-3">
+		<div class="row text-start">
+			<h6 class="ps-0">Información del curso</h6>
+			<div class="col-5 col-md-4 p-0">
+				<p class="fs-6">Código:</p>
+			</div>
+			<div class="col-11 col-md-12 p-0">
+				<p class="fs-6">{{ .Params.id | safeHTML }}</p>
+			</div>
+		</div>
+		<div class="row text-start">
+			<div class="col-5 col-md-4 p-0">
+				<p class="fs-6">Créditos:</p>
+			</div>
+			<div class="col-11 col-md-12 p-0">
+				<p class="fs-6">{{ .Params.credits | safeHTML }} créditos</p>
+			</div>
+		</div>
+		<div class="row text-start">
+			<div class="col-5 col-md-4 p-0">
+				<p class="fs-6">Prerrequisitos:</p>
+			</div>
+			<div class="col-11 col-md-12 p-0">
+				<p class="fs-6">
+					{{ with .Params.prerrequisites }} {{ delimit . " y " | safeHTML }} {{ end }}
+				</p>
+			</div>
+		</div>
+	</div>
 </div>

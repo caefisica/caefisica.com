@@ -1,50 +1,50 @@
 <div class="bg-light wp-block-group alignfull my-0">
-    <div class="wp-block-group__inner-container">
-        <div class="mai-columns">
-            <div class="mai-columns-wrap has-columns">
-                <div class="mai-column is-column">
-                    <h2 class="has-xxxxl-font-size has-md-margin-bottom">
-                        Conoce más sobre<br />lo que hacemos
-                    </h2>
-                    <p class="w-75">
-                        ¿Eres estudiante de primer semestre?
-                        <a
-                            class="text-decoration-underline"
-                            href="{{ "unmsm/pregrado/" | relURL }}">
-                            Comienza aquí
-                            <span class="mai-icon mai-icon-arrow-right">
-                                <span class="mai-icon-wrap">
-                                    {{ (resources.Get "icons/arrow.svg").Content | safeHTML }}
-                                </span>
-                            </span>
-                        </a>
-                    </p>
-                </div>
-                {{ with hugo.Data.content.features -}}
-                    {{ range . -}}
-                        {{ $link := .link }}
-                        <div class="card my-0 mai-column is-column hover-box">
-                            <h2 class="has-black-color has-xl-font-size">
-                                <a href="{{ $link | relURL }}">
-                                    {{ .title | markdownify -}}
-                                </a>
-                            </h2>
-                            <p class="has-sm-font-size">
-                                {{ .description | markdownify -}}
-                            </p>
-                            <div class="d-flex flex-wrap wp-block-buttons">
-                                <div class="wp-block-button">
-                                    <a
-                                        class="wp-block-button__link button button-link"
-                                        href="{{ $link | relURL }}">
-                                        Explorar
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    {{ end -}}
-                {{ end -}}
-            </div>
-        </div>
-    </div>
+	<div class="wp-block-group__inner-container">
+		<div class="mai-columns">
+			<div class="mai-columns-wrap has-columns">
+				<div class="mai-column is-column">
+					<h2 class="has-xxxxl-font-size has-md-margin-bottom">
+						Conoce más sobre<br />lo que hacemos
+					</h2>
+					<p class="w-75">
+						¿Eres estudiante de primer semestre?
+						<a
+							class="text-decoration-underline"
+							href="{{ "unmsm/pregrado/" | relURL }}">
+							Comienza aquí
+							<span class="mai-icon mai-icon-arrow-right">
+								<span class="mai-icon-wrap">
+									{{ (resources.Get "icons/arrow.svg").Content | safeHTML }}
+								</span>
+							</span>
+						</a>
+					</p>
+				</div>
+				{{ with hugo.Data.content.features -}}
+					{{ range . -}}
+						{{ $link := .link }}
+						<div class="card my-0 mai-column is-column hover-box">
+							<h2 class="has-black-color has-xl-font-size">
+								<a href="{{ $link | relURL }}">
+									{{ .title | markdownify -}}
+								</a>
+							</h2>
+							<p class="has-sm-font-size">
+								{{ .description | markdownify -}}
+							</p>
+							<div class="d-flex flex-wrap wp-block-buttons">
+								<div class="wp-block-button">
+									<a
+										class="wp-block-button__link button button-link"
+										href="{{ $link | relURL }}">
+										Explorar
+									</a>
+								</div>
+							</div>
+						</div>
+					{{ end -}}
+				{{ end -}}
+			</div>
+		</div>
+	</div>
 </div>

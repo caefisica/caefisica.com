@@ -1,29 +1,29 @@
 <link
-    rel="preload"
-    as="font"
-    href="{{ "fonts/vendor/jost/jost-v4-latin-regular.woff2" | relURL }}"
-    type="font/woff2"
-    crossorigin />
+	rel="preload"
+	as="font"
+	href="{{ "fonts/vendor/jost/jost-v4-latin-regular.woff2" | relURL }}"
+	type="font/woff2"
+	crossorigin />
 <link
-    rel="preload"
-    as="font"
-    href="{{ "fonts/vendor/jost/jost-v4-latin-700.woff2" | relURL }}"
-    type="font/woff2"
-    crossorigin />
+	rel="preload"
+	as="font"
+	href="{{ "fonts/vendor/jost/jost-v4-latin-700.woff2" | relURL }}"
+	type="font/woff2"
+	crossorigin />
 {{ if partial "components/is-search-enabled.html" . -}}
-    <link rel="preconnect" href="https://B36UGT1YWJ-dsn.algolia.net" crossorigin />
+	<link rel="preconnect" href="https://B36UGT1YWJ-dsn.algolia.net" crossorigin />
 {{ end -}}
 {{ if .Site.Params.options.kaTex -}}
-    <link
-        rel="preload"
-        as="font"
-        href="{{ "fonts/KaTeX_Main-Regular.woff2" | relURL }}"
-        type="font/woff2"
-        crossorigin />
-    <link
-        rel="preload"
-        as="font"
-        href="{{ "fonts/KaTeX_Math-Italic.woff2" | relURL }}"
-        type="font/woff2"
-        crossorigin />
+	<link
+		rel="preload"
+		as="font"
+		href="{{ "fonts/KaTeX_Main-Regular.woff2" | relURL }}"
+		type="font/woff2"
+		crossorigin />
+	<link
+		rel="preload"
+		as="font"
+		href="{{ "fonts/KaTeX_Math-Italic.woff2" | relURL }}"
+		type="font/woff2"
+		crossorigin />
 {{ end -}}

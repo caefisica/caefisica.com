@@ -1,9 +1,9 @@
 {{ if .Site.Params.options.clipBoard -}}
-    <div class="doks-clipboard">
-        <button
-            class="btn-clipboard btn btn-link"
-            data-clipboard-text="{{ .Get "text" | safeHTML }}">
-            <span class="copy-status"></span>
-        </button>
-    </div>
+	<div class="doks-clipboard">
+		<button
+			class="btn-clipboard btn btn-link"
+			data-clipboard-text="{{ .Get "text" | safeHTML }}">
+			<span class="copy-status"></span>
+		</button>
+	</div>
 {{ end -}}

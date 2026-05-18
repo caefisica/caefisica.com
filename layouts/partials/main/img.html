@@ -1,23 +1,27 @@
-{{ $image := .Page.Resources.GetMatch (printf "*%s*" (.Store.Get "src")) -}}
-{{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}
+{{- $image := .Page.Resources.GetMatch (printf "*%s*" (.Store.Get "src")) -}}
+{{- $img := partial "components/image-srcset.html" (dict "image" $image) -}}
 
-{{ $imgSrc := "" -}}
-{{ $imgSrcSet := slice -}}
-
-{{ $widths := $.Site.Params.landscapePhotoWidths -}}
-{{ if gt $image.Height $image.Width -}}
-  {{ $widths = $.Site.Params.portraitPhotoWidths -}}
-{{ end -}}
-
-{{ range $widths -}}
-  {{ $srcUrl := (printf "%dx" . | $image.Resize).RelPermalink -}}
-  {{ if eq $imgSrc "" -}}{{ $imgSrc = $srcUrl -}}{{ end -}}
-  {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) -}}
-{{ end -}}
-{{ $imgSrcSet = (delimit $imgSrcSet ",") -}}
-
-<figure{{ with .Store.Get "class" }} class="{{.}}"{{ end }}>
-  <img class="img-fluid lazyload blur-up" data-sizes="auto" src="{{ $lqip.RelPermalink }}" data-srcset="{{ $imgSrcSet }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with .Store.Get "alt" }}alt="{{.}}"{{ end }}>
-  <noscript><img class="img-fluid" sizes="100vw" srcset="{{ $imgSrcSet }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with .Store.Get "alt" }}alt="{{.}}"{{ end }}></noscript>
-  {{ with .Store.Get "caption" -}}<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>{{ end }}
+<figure{{ with .Store.Get "class" }} class="{{ . }}"{{ end }}>
+	<img
+		class="img-fluid lazyload blur-up"
+		data-sizes="auto"
+		src="{{ $img.lqip }}"
+		data-srcset="{{ $img.srcset }}"
+		width="{{ $image.Width }}"
+		height="{{ $image.Height }}"
+		{{ with .Store.Get "alt" }}alt="{{ . }}"{{ end }}
+	>
+	<noscript><img
+			class="img-fluid"
+			sizes="100vw"
+			srcset="{{ $img.srcset }}"
+			src="{{ $img.src }}"
+			width="{{ $image.Width }}"
+			height="{{ $image.Height }}"
+			{{ with .Store.Get "alt" }}alt="{{ . }}"{{ end }}
+		>
+	</noscript>
+	{{- with .Store.Get "caption" -}}
+		<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>
+	{{- end -}}
 </figure>

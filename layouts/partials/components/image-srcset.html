@@ -1,0 +1,23 @@
+{{- /*
+Computes responsive image data from a Hugo image resource.
+Input: dict "image" $imageResource
+Returns: dict with keys "lqip", "src", "srcset"
+  lqip   — low-quality image placeholder (.RelPermalink)
+  src    — largest fitting image URL (used for non-JS fallback src)
+  srcset — comma-joined srcset string for use in data-srcset / srcset attributes
+*/ -}}
+
+{{- $image := .image -}}
+{{- $lqip := $image.Resize site.Params.lqipWidth -}}
+{{- $imgSrc := "" -}}
+{{- $imgSrcSet := slice -}}
+{{- $widths := site.Params.landscapePhotoWidths -}}
+{{- if gt $image.Height $image.Width -}}
+	{{- $widths = site.Params.portraitPhotoWidths -}}
+{{- end -}}
+{{- range $widths -}}
+	{{- $srcUrl := (printf "%dx" . | $image.Resize).RelPermalink -}}
+	{{- if eq $imgSrc "" -}}{{- $imgSrc = $srcUrl -}}{{- end -}}
+	{{- $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) -}}
+{{- end -}}
+{{- return (dict "lqip" $lqip.RelPermalink "src" $imgSrc "srcset" (delimit $imgSrcSet ",")) -}}

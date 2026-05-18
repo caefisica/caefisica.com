@@ -1,6 +1,6 @@
 {{- if .Site.Params.options.darkMode -}}
-    {{- partial "footer/render-script" (dict "src" "js/color-mode.ts" "load" "none") }}
+	{{- partial "footer/render-script" (dict "src" "js/color-mode.ts" "load" "none") }}
 {{- end -}}
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
-    {{- partial "footer/render-script" (dict "src" "js/dismissable-alert.ts" "load" "none") }}
+	{{- partial "footer/render-script" (dict "src" "js/dismissable-alert.ts" "load" "none") }}
 {{- end -}}

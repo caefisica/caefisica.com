@@ -1,110 +1,96 @@
-<div
-    class="is-layout-flow wp-block-group alignfull home-recent-podcasts has-lg-padding-top has-lg-padding-bottom">
-    <div class="wp-block-group__inner-container">
-        <div class="mai-columns">
-            <div class="mai-columns-wrap has-columns study-guides-section">
-                <div
-                    class="mai-column is-column justify-content-between study-guides-description">
-                    <div>
-                        <figure
-                            class="wp-block-image size-large has-no-margin-top mb-3 w-100">
-                            <img
-                                decoding="async"
-                                loading="lazy"
-                                width="1024"
-                                height="1024"
-                                src="/images/thumbnail/Logo_GuiaDeEstudios.webp"
-                                alt=""
-                                class="h-auto w-100 align-baseline rounded-4"
-                                sizes="(max-width: 1024px) 100vw, 1024px" />
-                        </figure>
-                        <p class="has-lg-font-size lh-base">
-                            Una serie de guías de estudio sobre el plan de
-                            estudios de Física de nuestra facultad.
-                        </p>
-                        <p
-                            class="has-sm-font-size has-lg-margin-bottom fs-6 mb-3">
-                            Nuestras
-                            <a
-                                class="text-decoration-underline"
-                                href="{{ "/unmsm/pregrado/" | relURL }}">
-                                guías de estudio
-                            </a>
-                            incluyen una lista de recomendaciones de libros y
-                            canales de Youtube. Nos enfocamos en proporcionar
-                            recursos de alta calidad y actualizados para que los
-                            estudiantes puedan tener éxito en sus estudios.
-                        </p>
-                    </div>
+<div class="is-layout-flow wp-block-group alignfull home-recent-podcasts has-lg-padding-top has-lg-padding-bottom">
+	<div class="wp-block-group__inner-container">
+		<div class="mai-columns">
+			<div class="mai-columns-wrap has-columns study-guides-section">
+				<div class="mai-column is-column justify-content-between study-guides-description">
+					<div>
+						<figure class="wp-block-image size-large has-no-margin-top mb-3 w-100">
+							<img
+								decoding="async"
+								loading="lazy"
+								width="1024"
+								height="1024"
+								src="/images/thumbnail/Logo_GuiaDeEstudios.webp"
+								alt=""
+								class="h-auto w-100 align-baseline rounded-4"
+								sizes="(max-width: 1024px) 100vw, 1024px"
+							/>
+						</figure>
+						<p class="has-lg-font-size lh-base">
+							Una serie de guías de estudio sobre el plan de
+							estudios de Física de nuestra facultad.
+						</p>
+						<p class="has-sm-font-size has-lg-margin-bottom fs-6 mb-3">
+							Nuestras
+							<a class="text-decoration-underline" href="{{ "/unmsm/pregrado/" | relURL }}">
+								guías de estudio
+							</a>
+							incluyen una lista de recomendaciones de libros y
+							canales de Youtube. Nos enfocamos en proporcionar
+							recursos de alta calidad y actualizados para que los
+							estudiantes puedan tener éxito en sus estudios.
+						</p>
+					</div>
 
-                    <div class="podcast-subscribe">
-                        <a
-                            class="button-subscribe button button-secondary button-small text-bg-light w-auto text-decoration-none d-flex"
-                            href="https://www.youtube.com/@caefisica/playlists">
-                            {{ (resources.Get "icons/youtube.svg").Content | safeHTML }}
-                            <span class="button-content">
-                                <span class="button-subheading">
-                                    Entérate más en </span
-                                >Youtube
-                            </span>
-                        </a>
-                    </div>
-                </div>
+					<div class="podcast-subscribe">
+						<a
+							class="button-subscribe button button-secondary button-small text-bg-light w-auto text-decoration-none d-flex"
+							href="https://www.youtube.com/@caefisica/playlists">
+							{{ (resources.Get "icons/youtube.svg").Content | safeHTML }}
+							<span class="button-content">
+								<span class="button-subheading">
+									Entérate más en
+								</span>
+								Youtube
+							</span>
+						</a>
+					</div>
+				</div>
 
-                <div class="mai-column is-column recent-guides-list">
-                    <h2
-                        class="has-md-font-size has-xl-margin-bottom fw-semibold mt-0 lh-sm fs-6"
-                        id="recent-podcast-episodes">
-                        Artículos editados recientemente:
-                    </h2>
-                    <div
-                        class="mai-grid podcast-list entries entries-grid study-guides-list">
-                        <div class="entries-wrap has-columns recent-guides">
-                            {{ range where (sort .Site.RegularPages "Lastmod" "desc") "Type" "unmsm" | first 5 }}
-                                {{ $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) }}
-                                {{ $contributorNames := slice }}
-                                {{ range $contributors }}
-                                    {{ $contributorNames = $contributorNames | append .name }}
-                                {{ end }}
-                                <article
-                                    class="entry entry-grid is-column has-entry-link podcast type-podcast"
-                                    aria-label="{{ delimit $contributorNames ", " }} han editado en el {{ .Parent.Name | safeHTML }}">
-                                    <div class="entry-wrap entry-wrap-grid">
-                                        <div
-                                            class="entry-meta entry-meta-before-content fw-semibold">
-                                            Modificado por última vez:
-                                            {{ .Lastmod.Format "2/1/2006" }}
-                                        </div>
-                                        <h3
-                                            class="entry-title fw-bold mt-0 lh-sm">
-                                            <a
-                                                class="entry-title-link d-flex justify-content-between"
-                                                href="{{ .RelPermalink }}"
-                                                rel="bookmark">
-                                                {{ .Title }}
-                                                <span
-                                                    class="d-xl-flex d-none tag px-2 py-1 rounded-pill bg-black align-items-center justify-content-center text-center"
-                                                    >{{ .Parent.Name }}</span
-                                                >
-                                            </a>
-                                        </h3>
-                                    </div>
-                                </article>
-                            {{ end }}
-                        </div>
-                    </div>
+				<div class="mai-column is-column recent-guides-list">
+					<h2 class="has-md-font-size has-xl-margin-bottom fw-semibold mt-0 lh-sm fs-6" id="recent-podcast-episodes">
+						Artículos editados recientemente:
+					</h2>
+					<div class="mai-grid podcast-list entries entries-grid study-guides-list">
+						<div class="entries-wrap has-columns recent-guides">
+							{{ range where (sort .Site.RegularPages "Lastmod" "desc") "Type" "unmsm" | first 5 }}
+								{{ $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) }}
+								{{ $contributorNames := slice }}
+								{{ range $contributors }}
+									{{ $contributorNames = $contributorNames | append .name }}
+								{{ end }}
+								<article class="entry entry-grid is-column has-entry-link podcast type-podcast" aria-label="{{ delimit $contributorNames ", " }} han editado en el {{ .Parent.Name | safeHTML }}">
+									<div class="entry-wrap entry-wrap-grid">
+										<div class="entry-meta entry-meta-before-content fw-semibold">
+											Modificado por última vez:
+											{{ .Lastmod.Format "2/1/2006" }}
+										</div>
+										<h3 class="entry-title fw-bold mt-0 lh-sm">
+											<a
+												class="entry-title-link d-flex justify-content-between"
+												href="{{ .RelPermalink }}"
+												rel="bookmark">
+												{{ .Title }}
+												<span class="d-xl-flex d-none tag px-2 py-1 rounded-pill bg-black align-items-center justify-content-center text-center">
+													{{ .Parent.Name }}
+												</span>
+											</a>
+										</h3>
+									</div>
+								</article>
+							{{ end }}
+						</div>
+					</div>
 
-                    <div class="is-layout-flex wp-block-buttons">
-                        <div class="wp-block-button">
-                            <a
-                                class="button button-link text-decoration-underline"
-                                href="{{ "/unmsm/pregrado/" | relURL }}">
-                                Ver todas las guías
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+					<div class="is-layout-flex wp-block-buttons">
+						<div class="wp-block-button">
+							<a class="button button-link text-decoration-underline" href="{{ "/unmsm/pregrado/" | relURL }}">
+								Ver todas las guías
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
