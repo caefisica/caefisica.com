@@ -27,5 +27,54 @@
 				</p>
 			</div>
 		</div>
+		{{- if .Pages -}}
+			{{- $profSlugs := slice -}}
+			{{- range .Pages -}}
+				{{- if .Params.professor -}}
+					{{- $profSlugs = $profSlugs | append .Params.professor -}}
+				{{- end -}}
+			{{- end -}}
+			{{- $profSlugs = $profSlugs | uniq -}}
+			<div class="row text-start">
+				<div class="col-5 col-md-4 p-0">
+					<p class="fs-6">Profesores:</p>
+				</div>
+				<div class="col-11 col-md-12 p-0">
+					<p class="fs-6">
+						{{- range $i, $slug := $profSlugs -}}
+							{{- if $i }} · {{ end -}}
+							{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
+							{{- with $prof -}}
+								{{- with .Params.honorific -}}{{ . }} {{ end -}}{{ .Title -}}
+							{{- else -}}
+								{{ $slug }}
+							{{- end -}}
+						{{- end -}}
+					</p>
+				</div>
+			</div>
+			{{- $syllabi := slice -}}
+			{{- range .Pages -}}
+				{{- if .Resources.Match "silabo*.pdf" -}}
+					{{- $syllabi = $syllabi | append . -}}
+				{{- end -}}
+			{{- end -}}
+			{{- $syllabi = sort $syllabi "Params.semester" "desc" -}}
+			{{- if $syllabi -}}
+				<div class="row text-start">
+					<div class="col-5 col-md-4 p-0">
+						<p class="fs-6">Sílabos:</p>
+					</div>
+					<div class="col-11 col-md-12 p-0">
+						<p class="fs-6">
+							{{- range $i, $o := $syllabi -}}
+								{{- if $i }} · {{ end -}}
+								<a href="{{ $o.RelPermalink }}">{{ $o.Params.semester }} →</a>
+							{{- end -}}
+						</p>
+					</div>
+				</div>
+			{{- end -}}
+		{{- end -}}
 	</div>
 </div>

@@ -6,8 +6,10 @@
 			<table class="table table-sm mb-0">
 				<tbody>
 					{{- range $offerings -}}
+						{{- $offering := . -}}
 						{{- $slug := .Params.professor -}}
 						{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
+						{{- $hasPDF := .Resources.Match "silabo*.pdf" -}}
 						<tr>
 							<td class="text-nowrap ps-0">{{ .Params.semester }}</td>
 							<td>
@@ -18,7 +20,9 @@
 								{{- end -}}
 							</td>
 							<td class="text-end text-nowrap pe-0">
-								<a href="{{ .RelPermalink }}">Ver sílabo →</a>
+								{{- if $hasPDF -}}
+									<a href="{{ $offering.RelPermalink }}">Ver sílabo →</a>
+								{{- end -}}
 							</td>
 						</tr>
 					{{- end -}}
