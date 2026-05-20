@@ -26,7 +26,7 @@
 				"active" $isAncestor
 				)
 			-}}
-		{{- else -}}
+		{{- else if ne .Params.layout "offering" -}}
 			{{- $nodes = $nodes | append (dict
 				"kind" "link"
 				"title" .Title

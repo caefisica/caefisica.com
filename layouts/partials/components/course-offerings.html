@@ -1,27 +1,29 @@
 {{- $offerings := sort .Pages "Params.semester" "desc" -}}
 {{- if $offerings -}}
-<section class="course-offerings mt-4">
-	<h2 id="silabos">Sílabos</h2>
-	<table class="table table-sm">
-		<tbody>
-			{{- range $offerings -}}
-				{{- $slug := .Params.professor -}}
-				{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
-				<tr>
-					<td class="text-nowrap">{{ .Params.semester }}</td>
-					<td>
-						{{- with $prof -}}
-							{{- with .Params.honorific -}}{{ . }} {{ end -}}{{ .Title -}}
-						{{- else -}}
-							—
-						{{- end -}}
-					</td>
-					<td class="text-end text-nowrap">
-						<a href="{{ .RelPermalink }}">Ver sílabo →</a>
-					</td>
-				</tr>
-			{{- end -}}
-		</tbody>
-	</table>
-</section>
+	<div class="description_border mt-4 mb-4">
+		<div class="description_box mt-3 mb-3 px-3">
+			<h6>Sílabos</h6>
+			<table class="table table-sm mb-0">
+				<tbody>
+					{{- range $offerings -}}
+						{{- $slug := .Params.professor -}}
+						{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
+						<tr>
+							<td class="text-nowrap ps-0">{{ .Params.semester }}</td>
+							<td>
+								{{- with $prof -}}
+									{{- with .Params.honorific -}}{{ . }} {{ end -}}{{ .Title -}}
+								{{- else -}}
+									—
+								{{- end -}}
+							</td>
+							<td class="text-end text-nowrap pe-0">
+								<a href="{{ .RelPermalink }}">Ver sílabo →</a>
+							</td>
+						</tr>
+					{{- end -}}
+				</tbody>
+			</table>
+		</div>
+	</div>
 {{- end -}}
