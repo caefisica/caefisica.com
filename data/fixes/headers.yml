@@ -58,8 +58,7 @@ scriptsrc:
   - https://hive.caefisica.com
   - https://www.youtube.com
   - https://player.vimeo.com
-  - "'nonce-Y1ScUXOl8NAZzNrRydXz1Q=='"
-  - "'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs='"
+  - "'unsafe-inline'"
 
 workersrc:
   - "'self'"
