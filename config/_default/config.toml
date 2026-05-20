@@ -57,6 +57,7 @@ lastmod = [":git", "lastmod", "date", "publishDate"]
 contributor = "contributors"
 type = "types"
 functionality = "functionalities"
+topic = "topics"
 
 [permalinks]
 blog = "/blog/:title/"
