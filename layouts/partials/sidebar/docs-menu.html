@@ -1,12 +1,16 @@
-{{- $auto := .Site.Params.menu.section.auto -}}
-{{- $collapsible := .Site.Params.menu.section.collapsibleSidebar -}}
-
-{{- if and $auto $collapsible -}}
-	{{ partial "sidebar/render-auto-nav.html" (dict "currentPage" . "mode" "collapsible") }}
-{{- else if $auto -}}
-	{{ partial "sidebar/render-auto-nav.html" (dict "currentPage" . "mode" "default") }}
-{{- else if $collapsible -}}
-	{{ partial "sidebar/manual-collapsible-menu.html" . }}
+{{- $isPlan := findRE `/plan-` .RelPermalink -}}
+{{- if $isPlan -}}
+	{{ partial "sidebar/plan-nav.html" . }}
 {{- else -}}
-	{{ partial "sidebar/manual-default-menu.html" . }}
+	{{- $auto := .Site.Params.menu.section.auto -}}
+	{{- $collapsible := .Site.Params.menu.section.collapsibleSidebar -}}
+	{{- if and $auto $collapsible -}}
+		{{ partial "sidebar/render-auto-nav.html" (dict "currentPage" . "mode" "collapsible") }}
+	{{- else if $auto -}}
+		{{ partial "sidebar/render-auto-nav.html" (dict "currentPage" . "mode" "default") }}
+	{{- else if $collapsible -}}
+		{{ partial "sidebar/manual-collapsible-menu.html" . }}
+	{{- else -}}
+		{{ partial "sidebar/manual-default-menu.html" . }}
+	{{- end -}}
 {{- end -}}

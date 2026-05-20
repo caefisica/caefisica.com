@@ -12,39 +12,39 @@
 
 			<h1>{{ .Params.honorific }} {{ .Title }}</h1>
 			{{ with .Params.institution }}
-			<p class="text-muted">{{ . | upper }}</p>
+				<p class="text-muted">{{ . | upper }}</p>
 			{{ end }}
 
 			{{ with .Content }}
-			<div class="mt-4">{{ . }}</div>
+				<div class="mt-4">{{ . }}</div>
 			{{ end }}
 
 			{{- $slug := .File.Dir | path.Base -}}
 			{{- $offerings := where site.RegularPages "Params.professor" $slug -}}
 			{{ if $offerings }}
-			<div class="mt-5">
-				<h2>Cursos impartidos</h2>
-				<table class="table table-sm">
-					<thead>
-						<tr>
-							<th>Curso</th>
-							<th>Semestre</th>
-						</tr>
-					</thead>
-					<tbody>
-						{{ range $offerings }}
-						<tr>
-							<td>
-								{{ with .Parent }}
-								<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-								{{ end }}
-							</td>
-							<td>{{ .Params.semester }}</td>
-						</tr>
-						{{ end }}
-					</tbody>
-				</table>
-			</div>
+				<div class="mt-5">
+					<h2>Cursos impartidos</h2>
+					<table class="table table-sm">
+						<thead>
+							<tr>
+								<th>Curso</th>
+								<th>Semestre</th>
+							</tr>
+						</thead>
+						<tbody>
+							{{ range $offerings }}
+								<tr>
+									<td>
+										{{ with .Parent }}
+											<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+										{{ end }}
+									</td>
+									<td>{{ .Params.semester }}</td>
+								</tr>
+							{{ end }}
+						</tbody>
+					</table>
+				</div>
 			{{ end }}
 		</div>
 	</div>

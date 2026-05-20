@@ -1,0 +1,21 @@
+{{ with .Params.topics }}
+	{{ $topic := index . 0 }}
+	{{ $equivalents := where site.RegularPages "Params.topics" "intersect" (slice $topic) }}
+	{{ $others := where $equivalents "RelPermalink" "ne" $.RelPermalink }}
+	{{ if $others }}
+		<div class="topic-switcher mt-4 mb-3">
+			<h6>Cursos equivalentes</h6>
+			<ul class="list-unstyled">
+				{{ range $others }}
+					<li>
+						<a href="{{ .RelPermalink }}">
+							{{ with .Params.university }}{{ . | upper }} &middot; {{ end -}}
+							{{ with .Params.plan }}{{ . }} &middot; {{ end -}}
+							{{ .Title }}
+						</a>
+					</li>
+				{{ end }}
+			</ul>
+		</div>
+	{{ end }}
+{{ end }}

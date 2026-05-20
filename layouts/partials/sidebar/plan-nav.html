@@ -1,0 +1,52 @@
+{{- $currentPage := . -}}
+{{- $planSection := .CurrentSection -}}
+{{- if findRE `/plan-` .CurrentSection.Parent.RelPermalink -}}
+	{{- $planSection = .CurrentSection.Parent -}}
+{{- end -}}
+
+{{- /* Collect and sort unique semester numbers */ -}}
+{{- $semesters := slice -}}
+{{- range $planSection.Pages -}}
+	{{- $sem := .Params.semester -}}
+	{{- if and $sem (not (in $semesters $sem)) -}}
+		{{- $semesters = $semesters | append $sem -}}
+	{{- end -}}
+{{- end -}}
+{{- $semesters = sort $semesters -}}
+
+<ul class="list-unstyled collapsible-sidebar">
+	{{- range $semesters -}}
+		{{- $sem := . -}}
+		{{- $courses := where $planSection.Pages "Params.semester" $sem -}}
+		{{- $collapseID := printf "ciclo-%v" $sem -}}
+		{{- $isActive := false -}}
+		{{- range $courses -}}
+			{{- if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) -}}
+				{{- $isActive = true -}}
+			{{- end -}}
+		{{- end -}}
+		<li class="my-1">
+			<button
+				class="btn btn-toggle align-items-center rounded{{ if not $isActive }} collapsed{{ end }}"
+				data-bs-toggle="collapse"
+				data-bs-target="#{{ $collapseID }}"
+				aria-expanded="{{ if $isActive }}true{{ else }}false{{ end }}">
+				Ciclo {{ $sem }}
+			</button>
+			<div class="collapse{{ if $isActive }} show{{ end }}" id="{{ $collapseID }}">
+				<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+					{{- range $courses -}}
+						<li>
+							<a
+								class="docs-link rounded{{ if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) }} active{{ end }}"
+								href="{{ .RelPermalink }}"
+								{{ if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) }}aria-current="page"{{ end }}>
+								{{ .Title }}
+							</a>
+						</li>
+					{{- end -}}
+				</ul>
+			</div>
+		</li>
+	{{- end -}}
+</ul>

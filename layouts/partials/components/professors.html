@@ -1,27 +1,25 @@
-{{ $courseCode := .Params.id }}
-{{ if not $courseCode }}
-	{{ errorf "Professor lookup requires Params.id in %s" .File.Path }}
-{{ end }}
-
-{{ $professorsFound := false }}
-<table>
-	<tr>
-		<th>Nombre</th>
-		<th>Semestre</th>
-	</tr>
-	{{ range $professor := hugo.Data.professors }}
-		{{ range $course := $professor.courses }}
-			{{ if eq $course.code $courseCode }}
-				<tr>
-					<td>{{- $professor.title }} {{ $professor.name }}</td>
-					<td>{{ delimit $course.semesters ", " }}</td>
-				</tr>
-				{{ $professorsFound = true }}
-			{{ end }}
+{{ $offerings := .Pages }}
+{{ if $offerings }}
+	<table>
+		<tr>
+			<th>Nombre</th>
+			<th>Semestre</th>
+		</tr>
+		{{ range $offerings }}
+			{{ $slug := .Params.professor }}
+			{{ $prof := site.GetPage (printf "/professors/%s" $slug) }}
+			<tr>
+				<td>
+					{{ with $prof }}
+						<a href="{{ .RelPermalink }}">{{ .Params.honorific }} {{ .Title }}</a>
+					{{ else }}
+						{{ $slug }}
+					{{ end }}
+				</td>
+				<td>{{ .Params.semester }}</td>
+			</tr>
 		{{ end }}
-	{{ end }}
-</table>
-
-{{ if not $professorsFound }}
+	</table>
+{{ else }}
 	<p>⚠️ Todavía no tenemos información sobre los profesores que enseñaron este curso.</p>
 {{ end }}

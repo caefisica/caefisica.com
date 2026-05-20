@@ -1,0 +1,27 @@
+{{- $slug := .Params.professor -}}
+{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
+<div class="description_border mt-3 mb-4">
+	<div class="text-center description_box mt-3 mb-3">
+		<div class="row text-start">
+			<h6 class="ps-0">Información del sílabo</h6>
+			<div class="col-5 col-md-4 p-0">
+				<p class="fs-6">Semestre:</p>
+			</div>
+			<div class="col-11 col-md-12 p-0">
+				<p class="fs-6">{{ .Params.semester }}</p>
+			</div>
+		</div>
+		{{ with $prof }}
+			<div class="row text-start">
+				<div class="col-5 col-md-4 p-0">
+					<p class="fs-6">Docente:</p>
+				</div>
+				<div class="col-11 col-md-12 p-0">
+					<p class="fs-6">
+						<a href="{{ .RelPermalink }}">{{ .Params.honorific }} {{ .Title }}</a>
+					</p>
+				</div>
+			</div>
+		{{ end }}
+	</div>
+</div>

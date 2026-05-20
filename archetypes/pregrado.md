@@ -4,7 +4,8 @@ lead: ""
 description: ""
 id: ""
 credits:
-prerrequisites: [""]
+prerequisites: [""]
+topics: []
 semester:
 contributors: ["David"]
 featured: false
@@ -15,12 +16,4 @@ weight: 999
 toc: true
 images: []
 date: {{ .Date }}
-lastmod:
-  - :git
-  - lastmod
-  - date
-  - publishDate
-menu:
-  guias:
-    parent: "pregrado"
 ---
