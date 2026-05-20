@@ -57,7 +57,3 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 ## Listas de reproducción
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
-
-## Sílabos
-
-## Docentes

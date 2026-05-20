@@ -36,7 +36,9 @@
 		{{- end -}}
 		{{- partial "main/headline-hash.html" .Content -}}
 		{{- partial "components/topic-switcher.html" . -}}
-		{{- if and .Params.showProfessors .Site.Params.professors .Params.id -}}
+		{{- if .Pages -}}
+			{{- partial "components/course-offerings.html" . -}}
+		{{- else if and .Params.showProfessors .Site.Params.professors .Params.id -}}
 			{{- partial "components/professors.html" . -}}
 		{{- end -}}
 		<div class="metadata-article">

@@ -31,7 +31,3 @@ date: 2022-11-11T16:00:00
 
 1. [Vesta](https://jp-minerals.org/vesta/en/)
 2. [CrystalMaker](https://crystalmaker.com/)
-
-### Sílabo
-
-### Docentes

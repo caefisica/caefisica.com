@@ -29,5 +29,3 @@ date: 2022-02-01T15:00:00
 | Nombre | Autor | Enlace |
 | --- | --- | --- |
 | Curso de Física Moderna | Ramon Castillo Bastos | [spa](https://www.youtube.com/playlist?list=PL4i6Jlnz3GWUY1je5sOfwcQDvF4OWNSiR) |
-
-## Docentes

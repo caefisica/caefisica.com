@@ -34,7 +34,3 @@ El plan de estudios incluye los siguientes temas:
 ## Documentos
 
 {{< resource-table resource="books-documents.yaml" type="book" >}}
-
-## Sílabos
-
-## Docentes

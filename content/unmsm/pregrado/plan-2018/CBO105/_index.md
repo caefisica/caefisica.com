@@ -57,10 +57,8 @@ Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico
 | Álgebra Superior II | El blog de Leo (UNAM) | [blog](https://blog.nekomath.com/as2/) | Español |
 | Matemáticas | Yony Raul | [Google sites](https://sites.google.com/view/yonyraul/matematicabasica?authuser=0) | Español |
 
-## Sílabos
+## Material de referencia
 
-{{< details "Semestre I (Universidad Nacional Autónoma de México)" >}} {{< pdfjs file="referencia_unam_as1.pdf" >}} {{< /details >}}
+{{< details "Álgebra Superior I (Universidad Nacional Autónoma de México)" >}} {{< pdfjs file="referencia_unam_as1.pdf" >}} {{< /details >}}
 
-{{< details "Semestre II (Universidad Nacional Autónoma de México)" >}} {{< pdfjs file="referencia_unam_as2.pdf" >}} {{< /details >}}
-
-## Docentes
+{{< details "Álgebra Superior II (Universidad Nacional Autónoma de México)" >}} {{< pdfjs file="referencia_unam_as2.pdf" >}} {{< /details >}}

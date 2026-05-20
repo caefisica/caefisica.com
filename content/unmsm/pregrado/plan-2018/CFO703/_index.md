@@ -53,9 +53,3 @@ Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
 ## Listas de reproducción
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
-
-## Sílabos
-
-{{< details "Sílabo del semestre 2022-I" >}} {{< pdfjs file="MC2_Sílabo_2022-I_Rivera.pdf" >}} {{< /details >}}
-
-## Docentes

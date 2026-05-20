@@ -42,9 +42,3 @@ El plan de estudios incluye generalmente los siguientes temas:
 ## Listas de reproducción
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
-
-## Sílabos
-
-{{< details "Semestre 2020-I- Universidad Nacional Mayor de San Marcos" >}} {{< pdfjs file="silabo_fisica_Molecuar_fisica-II-2020-I.doc.pdf" >}} {{< /details >}}
-
-## Docentes

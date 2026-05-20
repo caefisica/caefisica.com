@@ -68,7 +68,3 @@ Para ayudarte aún más en la comprensión del material, aquí tienes una lista 
 Leonard Susskind impartió una serie de 10 conferencias sobre Mecánica Estadística en la primavera de 2013. Las charlas cubren temas como entropía, temperatura, distribución de Boltzmann, presión de gases ideales y entropía frente a reversibilidad. Además, analizó modelos como el de Ising y las transiciones de fase líquido-gas, ofreciendo una visión integral del campo de la mecánica estadística.
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
-
-## Sílabos
-
-## Docentes

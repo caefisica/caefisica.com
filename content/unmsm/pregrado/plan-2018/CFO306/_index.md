@@ -87,9 +87,3 @@ A continuación, se presentan algunas páginas web que brindan información adic
 | Numerical Methods for Scientists | H. M. Anthia | [eng](https://web.archive.org/web/20230609023514/https://www.tifr.res.in/~antia/nmse3.html) |
 | Fortran 90 for the Fortran 77 Programmer | Bo Einarsson & Yurij Shokin | [eng](https://ergodic.ugr.es/cphys/index.php?id=lec_fortran_html2) |
 | Learning Fortran | Alvaro Siesquen | [spa](https://sites.google.com/unmsm.edu.pe/learningfortran/inicio) |
-
-## Sílabos
-
-Para tener una idea más clara de los contenidos del curso, puedes consultar los sílabos de cursos anteriores impartidos por diferentes profesores en la UNMSM:
-
-## Docentes

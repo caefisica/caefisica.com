@@ -62,9 +62,3 @@ La siguiente lista consiste de libros con bastante contenido teórico y una secc
 | `29` MIT 2.71 Optics, Spring 2009 | MIT OpenCourseWare | [eng](https://youtube.com/playlist?list=PLEA084AC2DD3CEC09) |
 
 Para una introducción más conceptual y dinámica a los temas de Óptica puedes ver una serie de videos que forman parte de la serie "[Crash Course Physics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV)". Los videos son producidos por Crash Course, un canal de habla inglesa, pero podrás encontrar subtítulos en español en casi todos sus videos. Esta lista de reproducción abarca múltiples temas, pero entre los episodios 38 y 41, tocan temas de [Óptica](https://www.youtube.com/playlist?list=PLtmYHzw6fOYQ4vvlP7liJMpsIM-dvs9xG).
-
-## Sílabos
-
-{{< details "Semestre 2022-I" >}} {{< pdfjs file="SILABO_OPTICA.pdf" >}} {{< /details >}}
-
-## Docentes

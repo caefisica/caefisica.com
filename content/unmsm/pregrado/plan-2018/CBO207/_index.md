@@ -60,8 +60,6 @@ Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 | --- | --- | --- | --- |
 | Curso Interactivo de Física en Internet | Ángel Franco García | [Java](http://www.sc.ehu.es/sbweb/fisica/) | Español |
 
-## Sílabos
+## Material de referencia
 
-{{< details "Referencia — Universidad Nacional de Ingeniería" >}} {{< pdfjs file="referencia_uni.pdf" >}} {{< /details >}}
-
-## Docentes
+{{< details "Física II — Universidad Nacional de Ingeniería" >}} {{< pdfjs file="referencia_uni.pdf" >}} {{< /details >}}

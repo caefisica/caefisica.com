@@ -51,9 +51,3 @@ Hemos seleccionado dos listas de reproducción con videos educativos sobre el us
 Para la parte teórica, puedes recurrir a las siguiente listas de reproducción:
 
 {{< resource-table resource="playlists-theory.yaml" type="playlist" >}}
-
-## Sílabos
-
-{{< details "Sílabo del semestre 2014-I" >}} {{< pdfjs file="FE1_sílabo_2014-I_yactayo.pdf" >}} {{< /details >}}
-
-## Docentes

@@ -1,0 +1,46 @@
+{{- $offerings := sort .Pages "Params.semester" "desc" -}}
+{{- if $offerings -}}
+	<section class="course-offerings mt-4">
+		<h2 id="silabos">Sílabos</h2>
+		<div class="accordion" id="offerings-{{ .File.UniqueID }}">
+			{{- range $i, $o := $offerings -}}
+				{{- $slug := $o.Params.professor -}}
+				{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
+				{{- $pdfs := $o.Resources.Match "silabo*.pdf" -}}
+				{{- $colID := printf "off-%s" ($o.Params.semester | urlize) -}}
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="h-{{ $colID }}">
+						<button
+							class="accordion-button{{ if gt $i 0 }} collapsed{{ end }}"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#{{ $colID }}"
+							aria-expanded="{{ if eq $i 0 }}true{{ else }}false{{ end }}"
+							aria-controls="{{ $colID }}">
+							<span class="badge bg-secondary me-2">{{ $o.Params.semester }}</span>
+							{{- with $prof -}}
+								{{- with .Params.honorific -}}{{ . }} {{ end -}}{{ .Title -}}
+							{{- else -}}
+								—
+							{{- end -}}
+						</button>
+					</h3>
+					<div
+						id="{{ $colID }}"
+						class="accordion-collapse collapse{{ if eq $i 0 }} show{{ end }}"
+						aria-labelledby="h-{{ $colID }}">
+						<div class="accordion-body">
+							{{- range $pdfs -}}
+								{{ partial "components/pdfjs-viewer.html" (dict "url" .RelPermalink "id" .Name "hidePaginator" false) }}
+							{{- end -}}
+							{{- if not $pdfs -}}
+								<p class="text-muted">No hay sílabo disponible para este semestre.</p>
+							{{- end -}}
+							<a href="{{ $o.RelPermalink }}" class="btn btn-sm btn-outline-secondary mt-2">Ver página del sílabo →</a>
+						</div>
+					</div>
+				</div>
+			{{- end -}}
+		</div>
+	</section>
+{{- end -}}

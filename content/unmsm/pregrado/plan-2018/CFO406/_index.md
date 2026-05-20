@@ -100,11 +100,3 @@ Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 | Nombre | Autor | Enlace |
 | --- | --- | --- |
 | Complex Analysis: a visual and interactive introduction | Juan Carlos Ponce Campuzano | [Web](https://complex-analysis.com/) |
-
-## Sílabos
-
-{{< details "Dr. José Domingo Arbañil Vela (2021-II)" >}} {{< pdfjs file="Sílabo_de_Física_Matemática_II_2021.pdf" >}} {{< /details >}}
-
-{{< details "Dr. Richard Toribio Saavedra (2021-II)" >}} {{< pdfjs file="SILABO_Fisica_Matematica_2_Toribio_2021_I.pdf" >}} {{< /details >}}
-
-## Docentes

@@ -59,9 +59,3 @@ El curso de cálculo III se puede dividir de manera general en los siguientes te
 | Curso Completo de Cálculo de varias variables | MateFacil | [spa](https://youtube.com/playlist?list=PL9SnRnlzoyX2-qH2lY3o5Lhv9f6za9o9A) |
 | Cálculo Vectorial | Cursos Héctor UNAM | [spa](https://youtube.com/playlist?list=PLrkGrLgBpVbQh0o8MSgbUxRg6ujNUET-H) |
 | Curso de Cálculo Vectorial | 1a con Berni | [spa](https://www.youtube.com/c/1aconBerni/playlists?view=50&sort=dd&shelf_id=6) |
-
-## Sílabos
-
-{{< details "Semestre 2020-I- Universidad Nacional Mayor de San Marcos" >}} {{< pdfjs file="SILABOCALCULOIII.pdf" >}} {{< /details >}}
-
-## Docentes

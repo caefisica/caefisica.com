@@ -47,8 +47,6 @@ El plan de estudios incluye los siguientes temas:
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
 
-## Sílabos
-
-## Docentes
+## Recursos adicionales
 
 Para más información sobre el curso, tales como exámenes, prácticas, tareas, etc. que se dieron en este, visita el siguiente enlace de Google Drive: [Curso Mecánica Clásica II](https://drive.google.com/drive/u/0/folders/1EEwAXrCBzNqFvXmisFSPyrHzdCoc1ULx)

@@ -51,7 +51,3 @@ Si no tienes una base muy amplia en matemáticas, lo recomendable es ir por el l
 | `38` Grant Sanderson (3blue1brown) | Esencia del Álgebra Lineal | [2018, Trad.](https://www.youtube.com/playlist?list=PLIb_io8a5NB2DddFf-PwvZDCOUNT1GZoA), [2016, 2021](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) |
 
 ## Recursos adicionales
-
-{{< details "Sílabo del semestre 2021-I" >}} {{< pdfjs file="SILABOALGEBRALINEAL.pdf" >}} {{< /details >}}
-
-### Docentes

@@ -65,9 +65,3 @@ Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico
 - Dicen que el libro **5000 problemas de análisis matemático** es la biblia que todo matemático usa para dominar el Análisis matemático.
 - Puedes consultar los solucionarios para que veas los métodos que se usaron si esque no te sale algún problema. Recomendación: consulta el **Anti-Demidovich**, hay métodos de resolución muy interesantes.
 - Del **Espinoza Ramos** sirve consultar su solucionario, pues algunas partes de su libro de teoría tienen errores. Si consultas este libro ten en cuenta que el solucionario presenta errores de tipeo en algunos ejercicios, lamentable.
-
-## Sílabos
-
-{{< details "Semestre 2021-II" >}} {{< pdfjs file="C1_Sílabo_2021-II_Elvia.pdf" >}} {{< /details >}}
-
-## Docentes

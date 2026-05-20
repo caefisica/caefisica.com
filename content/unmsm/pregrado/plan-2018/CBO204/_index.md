@@ -65,9 +65,3 @@ Para ayudarte aún más en la comprensión del material, aquí tienes una lista 
 Los capítulos 8 y 9 de la lista de reproducción "Essence of Calculus" del canal 3Blue1Brown muestran conceptos fundamentales del cálculo integral.
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
-
-## Sílabos
-
-{{< details "Semestre 2021-II, UNMSM" >}} {{< pdfjs file="C2_Sílabo_2021-II_Pejerrey.pdf" >}} {{< /details >}}
-
-## Docentes

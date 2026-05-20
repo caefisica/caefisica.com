@@ -39,7 +39,3 @@ El plan de estudios incluye los siguientes temas:
 | Nombre   | Autor   | Editorial | Año |
 | -------- | ------- | --------- | --- |
 | Nombre 1 | Autor 1 | Editorial | Año |
-
-## Sílabos
-
-## Docentes

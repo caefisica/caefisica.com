@@ -45,9 +45,3 @@ El plan de estudios incluye generalmente los siguientes temas:
 ## Listas de reproducción
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
-
-## Sílabos
-
-{{< details "Sílabo del semestre 2021-II" >}} {{< pdfjs file="SILABOFISICAMATEMATICAI.pdf" >}} {{< /details >}}
-
-## Docentes

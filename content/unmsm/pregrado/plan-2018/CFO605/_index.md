@@ -49,5 +49,3 @@ El plan de estudios incluye los siguientes temas:
 ## Páginas web
 
 La Universidad de Cambridge tiene una página interactiva con artículos de aprendizaje. Una de los paquetes es el siguiente: [Índices de Miller](https://www.doitpoms.ac.uk/tlplib/miller_indices/index.php).
-
-## Docentes

@@ -73,7 +73,3 @@ Adicionalmente, puedes revisar la página de [Physlabs](https://physlab.lums.edu
 Las primeras clases dictadas por Allan Adams en 2013 en el MIT pueden servirte para comprender algunas ideas fundamentales de la mecánica cuántica.
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
-
-## Sílabos
-
-## Docentes

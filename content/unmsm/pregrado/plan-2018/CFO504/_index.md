@@ -53,9 +53,3 @@ Libros enfocados en la resolución de problemas.
 | `109` Física Matemática III - UNMSM | Rentov | [spa](https://youtube.com/playlist?list=PLK_B1a9wXn7dlNL2mkTzxCs2W8wvGfETb) |
 | `101` Curso Completo EDP | MateFacil | [spa](https://youtube.com/playlist?list=PL9SnRnlzoyX05Y-DlDAoD4KwuHeNoP39F) |
 | `8` Partial Differential Equations and Separation of Variables | Daniel An | [Eng](https://youtube.com/playlist?list=PLP1OdTlavJNvcONsgPope4qBJ7fdSYWtY) |
-
-## Sílabos
-
-{{< details "Semestre 2021-II" >}} {{< pdfjs file="SILABO_FM3.pdf" >}} {{< /details >}}
-
-## Docentes

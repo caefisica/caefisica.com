@@ -30,7 +30,3 @@ El curso de termodinámica posee un carácter teórico, siendo su estudio las re
 | `32` Termodinámica | Entropía Negativa | [spa](https://www.youtube.com/playlist?list=PLBMRQ0GOZVeUupx-NE0HJBwNaa1shUHR3) |
 | `3` Termodinámica | Javier García | [spa](https://www.youtube.com/playlist?list=PLAnA8FVrBl8CKOC5CCPSLWAE887RAKnTV) |
 | `49` Thermal Physics | Tonya Coffey | [eng](https://www.youtube.com/playlist?list=PLm2F3BtpcrEguyXo7mWlF47-YFB3vBvbY) |
-
-### Sílabo
-
-### Docentes
