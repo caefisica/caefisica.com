@@ -53,7 +53,10 @@
 					</h2>
 					<div class="mai-grid podcast-list entries entries-grid study-guides-list">
 						<div class="entries-wrap has-columns recent-guides">
-							{{ range where (sort .Site.RegularPages "Lastmod" "desc") "Type" "unmsm" | first 5 }}
+							{{ $sections := where .Site.Pages "Kind" "section" }}
+							{{ $courses := where $sections "Params.credits" "gt" 0 }}
+							{{ $sorted := sort $courses "Lastmod" "desc" }}
+							{{ range first 5 $sorted }}
 								{{ $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) }}
 								{{ $contributorNames := slice }}
 								{{ range $contributors }}
