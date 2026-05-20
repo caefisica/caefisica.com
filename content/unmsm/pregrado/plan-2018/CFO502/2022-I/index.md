@@ -4,10 +4,5 @@ professor: "erich-victor-manrique-castillo"
 semester: "2022-I"
 date: 2022-03-01T00:00:00
 draft: false
+layout: "offering"
 ---
-
-## Sílabo
-
-{{< details "silabo.pdf" >}}
-{{< pdfjs file="silabo.pdf" >}}
-{{< /details >}}

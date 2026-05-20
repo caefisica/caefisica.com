@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="row d-flex justify-content-center">
+	<main class="docs-content col-12">
+		<div class="max-width mx-auto ps-xl-5 pe-xl-5">
+			{{- if .Site.Params.options.breadCrumb -}}
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						{{ partial "main/breadcrumb" . -}}
+						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+					</ol>
+				</nav>
+			{{- end -}}
+			<h1>{{ .Title }}</h1>
+			{{- partial "components/offering-details.html" . -}}
+			{{- $pdfs := .Resources.Match "silabo*.pdf" -}}
+			{{- range $pdfs -}}
+				{{ partial "components/pdfjs-viewer.html" (dict "url" .RelPermalink "id" .Name "hidePaginator" false) }}
+			{{- end -}}
+			{{- if not $pdfs -}}
+				<p class="text-muted mt-4">No hay sílabo disponible para este semestre.</p>
+			{{- end -}}
+			<div class="metadata-article">
+				{{- if .Site.Params.lastMod -}}
+					{{- partial "main/last-modified.html" . -}}
+				{{- end -}}
+				{{- if .Site.Params.editPage -}}
+					{{- partial "main/edit-page.html" . -}}
+				{{- end -}}
+			</div>
+		</div>
+	</main>
+</div>
+{{ end }}

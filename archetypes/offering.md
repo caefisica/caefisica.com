@@ -4,4 +4,5 @@ professor: ""
 semester: ""
 date: {{ .Date }}
 draft: false
+layout: "offering"
 ---

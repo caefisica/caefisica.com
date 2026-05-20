@@ -31,9 +31,6 @@
 		{{- if and .Params.showInformationBox .Params.id -}}
 			{{ partial "components/information_box.html" . -}}
 		{{- end -}}
-		{{- if .Params.professor -}}
-			{{- partial "components/offering-details.html" . -}}
-		{{- end -}}
 		{{- if eq .Params.working true -}}
 			{{ partial "components/alert.html" . -}}
 		{{- end -}}

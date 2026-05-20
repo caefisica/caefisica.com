@@ -31,16 +31,16 @@
 		{{- if and .Params.showInformationBox .Params.id -}}
 			{{ partial "components/information_box.html" . -}}
 		{{- end -}}
-		{{- if eq .Params.working true -}}
-			{{ partial "components/alert.html" . -}}
-		{{- end -}}
-		{{- partial "main/headline-hash.html" .Content -}}
-		{{- partial "components/topic-switcher.html" . -}}
 		{{- if .Pages -}}
 			{{- partial "components/course-offerings.html" . -}}
 		{{- else if and .Params.showProfessors .Site.Params.professors .Params.id -}}
 			{{- partial "components/professors.html" . -}}
 		{{- end -}}
+		{{- if eq .Params.working true -}}
+			{{ partial "components/alert.html" . -}}
+		{{- end -}}
+		{{- partial "main/headline-hash.html" .Content -}}
+		{{- partial "components/topic-switcher.html" . -}}
 		<div class="metadata-article">
 			{{- if .Site.Params.lastMod -}}
 				{{- partial "main/last-modified.html" . -}}
