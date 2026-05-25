@@ -52,7 +52,7 @@
     "globals": "^17.6.0",
     "highlight.js": "^11.11.1",
     "instant.page": "^5.2.0",
-    "katex": "^0.16.47",
+    "katex": "^0.17.0",
     "lazysizes": "^5.3.2",
     "markdownlint-cli2": "^0.22.1",
     "mermaid": "^11.15.0",
