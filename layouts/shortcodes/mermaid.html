@@ -1,5 +1,5 @@
 {{ if .Page.Params.mermaid -}}
-	<div class="mermaid{{ with .Get "class" }}{{ . }}{{ end }}">
+	<div class="mermaid{{ with .Get "class" }} {{ . }}{{ end }}">
 		{{ $data := replaceRE "(^\\s+```)" "" .Inner -}}
 		{{ replaceRE "(```\\s+$)" "" $data -}}
 	</div>
