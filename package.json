@@ -27,14 +27,15 @@
     "check": "bun run lint && bun run format:check && bun run typecheck && bun run build",
     "hugo:version": "hugo version",
     "lint": "bun run lint:scripts && bun run lint:styles && bun run lint:markdown",
-    "lint:scripts": "oxlint --deny-warnings assets/js config functions",
+    "lint:scripts": "oxlint --deny-warnings assets/js config functions scripts",
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "lint:markdown": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
-    "format": "oxfmt assets/js config functions",
-    "format:check": "oxfmt --check assets/js config functions",
+    "format": "oxfmt assets/js config functions scripts",
+    "format:check": "oxfmt --check assets/js config functions scripts",
     "test": "bun run lint",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
-    "serve": "netlify functions:serve"
+    "serve": "netlify functions:serve",
+    "screenshots": "bun scripts/screenshots.ts"
   },
   "dependencies": {
     "@algolia/autocomplete-js": "^1.19.11",
@@ -43,6 +44,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
     "@thulite/images": "^3.3.4",
+    "@types/node": "^26.6.3",
     "@types/youtube": "^0.3.0",
     "autoprefixer": "^10.6.1",
     "bootstrap": "^5.3.8",
@@ -58,6 +60,7 @@
     "oxfmt": "^0.70.0",
     "oxlint": "^1.85.0",
     "pdfjs-dist": "^6.3.289",
+    "playwright": "^1.63.0",
     "postcss": "^8.5.28",
     "postcss-cli": "^12.0.0",
     "purgecss-whitelister": "^2.4.0",
