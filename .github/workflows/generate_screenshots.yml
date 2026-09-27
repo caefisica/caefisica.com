@@ -11,22 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-go@v7
+      - uses: oven-sh/setup-bun@v2
         with:
-          go-version: "stable"
+          bun-version: "1.4.2"
 
-      - name: Get list of links from markdown files
-        run: go run ./assets/go/markdown-link-extractor/main.go
-        working-directory: ${{ github.workspace }}
+      - run: bun install --frozen-lockfile
 
-      - run: go mod download
-        working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
+      - name: Install Playwright Chromium
+        run: bunx playwright install --with-deps chromium
 
       - name: Generate screenshots
-        run: go run ./main.go
-        working-directory: ${{ github.workspace }}/assets/go/website-screenshot-generator
-        env:
-          GITHUB_TOKEN: ${{ secrets.COMMITS_ALLOWED }}
+        run: bun run screenshots
 
       - id: vars
         run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> "$GITHUB_ENV"
