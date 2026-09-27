@@ -4,7 +4,6 @@ import (
     "bufio"
     "context"
     "fmt"
-    "io/ioutil"
 		"net/url"
     "os"
     "path/filepath"
@@ -87,7 +86,7 @@ func main() {
         }
 
 				filename := filepath.Join(websiteDir, "main_screenshot.png")
-        err = ioutil.WriteFile(filename, buf, os.ModePerm)
+        err = os.WriteFile(filename, buf, os.ModePerm)
         if err != nil {
             fmt.Println(err)
             continue

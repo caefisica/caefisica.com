@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"os"
 	"regexp"
 	"strings"
 )
 
 func main() {
-	files, err := ioutil.ReadDir(".")
+	files, err := os.ReadDir(".")
 	if err != nil {
 		fmt.Println("Error reading directory:", err)
 		return
@@ -22,7 +22,7 @@ func main() {
 }
 
 func processFile(filename string) {
-	content, err := ioutil.ReadFile(filename)
+	content, err := os.ReadFile(filename)
 	if err != nil {
 		fmt.Println("Error reading file:", err)
 		return
@@ -49,7 +49,7 @@ func processFile(filename string) {
 	}
 
 	newContent := strings.Join(newLines, "\n")
-	err = ioutil.WriteFile(filename, []byte(newContent), 0644)
+	err = os.WriteFile(filename, []byte(newContent), 0644)
 	if err != nil {
 		fmt.Println("Error writing file:", err)
 		return
