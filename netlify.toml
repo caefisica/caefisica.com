@@ -4,9 +4,9 @@ functions = "functions"
 command = "git config core.quotepath false && bun install && bun run build"
 
 [build.environment]
-HUGO_VERSION = "0.161.1"
+HUGO_VERSION = "0.166.0"
 NODE_VERSION = "24"
-BUN_VERSION = "1.3.14"
+BUN_VERSION = "1.4.2"
 
 [context.deploy-preview]
 command = "git config core.quotepath false && bun install && bun run build -- -b $DEPLOY_PRIME_URL"
