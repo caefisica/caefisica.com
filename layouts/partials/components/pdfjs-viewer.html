@@ -22,15 +22,14 @@
 			pageRendering = false,
 			pageNumPending = null,
 			scale = 1,
-			canvas = document.getElementById('the-canvas_{{ safeJS $id }}'),
-			ctx = canvas.getContext('2d');
+			canvas = document.getElementById('the-canvas_{{ safeJS $id }}');
 		function renderPage(num) {
 			pageRendering = true;
 			pdfDoc.getPage(num).then(function (page) {
 				var viewport = page.getViewport({ scale: scale });
 				canvas.height = viewport.height;
 				canvas.width = viewport.width;
-				var renderContext = { canvasContext: ctx, viewport: viewport };
+				var renderContext = { canvas: canvas, viewport: viewport };
 				var renderTask = page.render(renderContext);
 				renderTask.promise.then(function () {
 					pageRendering = false;
