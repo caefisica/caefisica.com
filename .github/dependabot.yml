@@ -10,11 +10,3 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-
-  - package-ecosystem: "gomod"
-    directories:
-      - "/assets/go/markdown-link-extractor"
-      - "/assets/go/overleaf-downloader"
-      - "/assets/go/website-screenshot-generator"
-    schedule:
-      interval: "weekly"
