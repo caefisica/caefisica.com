@@ -64,7 +64,7 @@
 		}
 		document.getElementById('prev_{{ safeJS $id }}').addEventListener('click', onPrevPage);
 		document.getElementById('next_{{ safeJS $id }}').addEventListener('click', onNextPage);
-		pdfjsLib.getDocument(url).promise.then(function (pdfDoc_) {
+		pdfjsLib.getDocument({ url: url }).promise.then(function (pdfDoc_) {
 			pdfDoc = pdfDoc_;
 			document.getElementById('page_count_{{ safeJS $id }}').textContent = pdfDoc.numPages;
 			renderPage(pageNum);
