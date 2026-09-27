@@ -17,7 +17,7 @@ Pass load "none" to omit the defer/async attribute (e.g. for blocking head scrip
 					src="{{ .RelPermalink }}"
 					integrity="{{ .Data.Integrity }}"
 					crossorigin="anonymous"
-				{{ $load | safeHTMLAttr }}
+					{{ $load | safeHTMLAttr }}
 				></script>
 			{{- end -}}
 		{{- else -}}
