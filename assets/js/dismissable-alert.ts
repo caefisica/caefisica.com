@@ -1,6 +1,6 @@
 (() => {
   Object.keys(localStorage).forEach((key) => {
-    if (/^global-alert-/.test(key)) {
+    if (key.startsWith("global-alert-")) {
       document.documentElement.setAttribute("data-global-alert", "closed");
     }
   });
@@ -18,7 +18,7 @@
     }
 
     Object.keys(localStorage).forEach((key) => {
-      if (/^global-alert-/.test(key) && key !== id) {
+      if (key.startsWith("global-alert-") && key !== id) {
         localStorage.removeItem(key);
         document.documentElement.removeAttribute("data-global-alert");
       }
