@@ -21,7 +21,27 @@ Mientras que en Física Matemática I se vieron las ecuaciones diferenciales, su
 
 El plan de estudios incluye los siguientes temas:
 
-{{< mermaid class="bg-light text-center mx-n5" >}} graph LR A[Física Matemática III] --> B[Ecuaciones de la Física Matemática] B --> 1.1[Principales ecuaciones de la Física Matemática] B --> 1.2[Clasificación de las ecuaciones de la Física Matemática] B --> 1.3[Métodos generales de solución de las ecuaciones de la Física Matemática] B --> 1.4[Métodos particulares de solución de las ecuaciones de la Física Matemática] A --> C[Cálculo Variacional] C --> 2.1[Definiciones generales sobre espacios funcionales] C --> 2.2[Máximos y mínimos de los funcionales] C --> 2.3[Principales principios variacionales] C --> 2.4[Aplicaciones a la Mecánica Clásica] A --> D[Teoría de Perturbaciones] D --> 3.1[Concepto de Perturbaciones] D --> 3.2[Solución de problemas de la física usando perturbaciones] D --> 3.3[Apliación de perturbaciones a problemas de valor propio] A --> E[Análisis Tensorial] E --> 4.1[Campos escalares y vectoriales] E --> 4.2[Operadores diferenciales sobre campos escalares y vectoriales] E --> 4.3[Elementos de geometría diferencial] {{< /mermaid >}}
+{{< mermaid class="bg-light text-center mx-n5" >}}
+graph LR
+A[Física Matemática III] --> B[Ecuaciones de la Física Matemática]
+B --> 1.1[Principales ecuaciones de la Física Matemática]
+B --> 1.2[Clasificación de las ecuaciones de la Física Matemática]
+B --> 1.3[Métodos generales de solución de las ecuaciones de la Física Matemática]
+B --> 1.4[Métodos particulares de solución de las ecuaciones de la Física Matemática]
+A --> C[Cálculo Variacional]
+C --> 2.1[Definiciones generales sobre espacios funcionales]
+C --> 2.2[Máximos y mínimos de los funcionales]
+C --> 2.3[Principales principios variacionales]
+C --> 2.4[Aplicaciones a la Mecánica Clásica]
+A --> D[Teoría de Perturbaciones]
+D --> 3.1[Concepto de Perturbaciones]
+D --> 3.2[Solución de problemas de la física usando perturbaciones]
+D --> 3.3[Apliación de perturbaciones a problemas de valor propio]
+A --> E[Análisis Tensorial]
+E --> 4.1[Campos escalares y vectoriales]
+E --> 4.2[Operadores diferenciales sobre campos escalares y vectoriales]
+E --> 4.3[Elementos de geometría diferencial]
+{{< /mermaid >}}
 
 ## Libros recomendados
 
