@@ -38,7 +38,7 @@
     "screenshots": "bun scripts/screenshots.ts"
   },
   "dependencies": {
-    "@algolia/autocomplete-js": "^1.19.11",
+    "@algolia/autocomplete-js": "^1.19.12",
     "algoliasearch": "^5.59.0"
   },
   "devDependencies": {
