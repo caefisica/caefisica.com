@@ -44,7 +44,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
     "@thulite/images": "^3.3.4",
-    "@types/node": "^26.6.3",
+    "@types/node": "^26.6.4",
     "@types/youtube": "^0.3.0",
     "autoprefixer": "^10.6.1",
     "bootstrap": "^5.3.8",
