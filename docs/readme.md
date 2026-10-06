@@ -1,57 +1,13 @@
-# Documentación
+# Manual
 
-**Índices**:
+- [Instalación](instalación.md): herramientas, cómo ejecutar el sitio y las
+  comprobaciones antes de enviar un cambio.
+- [Convenciones](convenciones.md): dónde va cada archivo de `content/`, cómo se
+  nombra y cómo crearlo.
+- [Agregar un curso](cursos.md): guía, libros, listas de reproducción, sílabos y
+  docentes.
+- [Shortcodes](shortcodes.md): tablas, avisos, imágenes, PDF y diagramas.
+- [Despliegue](despliegue.md): Netlify, Cloudflare, el boletín, las cabeceras y
+  los flujos de GitHub.
 
-- [Instalación](instalaci%C3%B3n.md)
-- [Convenciones](convenciones.md)
-- [CSS](#css)
-- [Plantillas](#plantillas)
-- [Listas](#listas)
-
----
-
-## CSS
-
-Con el motivo de simplificar el código. A continuación una lista de clases
-personalizadas reutilizables.
-
-1. Background cover:
-
-   ```css
-   .bg-cover {
-     background-repeat: no-repeat;
-   }
-   ```
-
-## Plantillas
-
-### Shortcode
-
-```html
-{{ ":zap:" | emojify }}
-```
-
-### Markdown
-
-1. Tablas:
-
-   ```markdown
-   {{< content_table type="book" >}}
-   {{< book_row title="" author="" editorial="" year="" edition="" url="" >}}
-   {{< book_row_multiple title="" author="" editorial="" urls="" editions="" years="" >}}
-   {{< playlist_row title="" channel="" lecturer="" videos="" url="" >}}
-   {{< /content_table >}}
-   ```
-
-## Listas
-
-1. Profesores:
-
-   ```yaml
-   - name: ""
-     title: ""
-     courses:
-       - code: ""
-         semesters:
-           - ""
-   ```
+El mapa del código está en [`architecture.md`](../architecture.md).

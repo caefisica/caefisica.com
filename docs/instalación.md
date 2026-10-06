@@ -1,64 +1,82 @@
 # Instalación
 
-## Software necesario
+Cómo ejecutar el sitio en tu equipo y cómo comprobar tus cambios.
 
-Para desarrollar y contribuir a este proyecto, necesitarás tener instalado
-cierto software en tu sistema operativo. A continuación se describen los pasos
-para instalar cada uno de estos programas en un sistema operativo Windows:
+## Herramientas
 
-- `npm`: es el administrador de paquetes de Node.js. Puedes instalarlo a través
-  de la página de descargas de [Node.js](https://nodejs.org/es/download/).
-  Asegúrate de descargar la versión `18.16.0` y sigue los pasos predeterminados
-  durante la instalación. Una vez finalizada, reinicia tu ordenador y abre una
-  consola (por ejemplo, cmd). Escribe npm -v y presiona Enter. Si aparece una
-  serie de números como 1.4, significa que npm se ha instalado correctamente.
-  Alternativamente, puedes utilizar
-  [nvm-windows](https://github.com/coreybutler/nvm-windows). Si decides usar
-  nvm, no utilices el instalador de Node.js.
-- `git`: es una herramienta de control de versiones que nos permitirá gestionar
-  y mantener el código fuente del proyecto. Puedes descargarlo desde la página
-  de [`git-scm`](https://git-scm.com/downloads). Sigue los pasos predeterminados
-  durante la instalación. Una vez finalizada la instalación, abre una consola
-  (por ejemplo, Powershell) y escribe git --version. Si aparece una línea como
-  `git version 2.37.3.windows.1`, significa que git se ha instalado
-  correctamente.
-- `VSCode` (opcional): es un editor de código fuente muy popular y completo.
-  Puedes descargarlo desde la página de
-  [VSCode](https://code.visualstudio.com/download).
+[`mise.toml`](../mise.toml) fija las versiones:
 
-## Configuración del entorno de desarrollo
+| Herramienta     | Versión | Uso                                                |
+| --------------- | ------- | -------------------------------------------------- |
+| `hugo-extended` | 0.166.0 | Genera el sitio. Se necesita la edición extendida. |
+| `bun`           | 1.4.2   | Instala dependencias y ejecuta los scripts.        |
+| `node`          | 24.21.0 | Lo usan las herramientas de `node_modules`.        |
+| `go`            | 1.27.1  | Instala `gotmplfmt`.                               |
+| `wrangler`      | 4.141.0 | Despliegue en Cloudflare.                          |
 
-En adelante, se denominará como consola a un terminal como Powershell o Command
-Prompt (CMD). Para configurar tu entorno de desarrollo, sigue estos pasos:
+Necesitas además `git`. Con [mise](https://mise.jdx.dev/getting-started.html)
+instalado, una orden instala todo:
 
-1. Clona el repositorio en tu equipo usando git. Abre una consola y escribe
-   `git clone https://github.com/caefisica/web.git`. Esto creará una copia del
-   repositorio en tu equipo en una carpeta llamada web.
-2. Accede a la carpeta del proyecto. En la consola, escribe `cd web` para entrar
-   en la carpeta del proyecto.
-3. Instala las dependencias del proyecto. En la consola, escribe `npm install`.
-   Este comando instalará todas las dependencias necesarias para ejecutar y
-   desarrollar el proyecto.
-4. Arranca el servidor de desarrollo. En la consola, escribe `npm run start`.
-   Este comando arrancará el servidor de desarrollo y abrirá automáticamente una
-   pestaña en tu navegador con la página del proyecto. A partir de ahora, cada
-   vez que hagas un cambio en el código fuente, el servidor se reiniciará
-   automáticamente y podrás ver los cambios en tiempo real. Podrás acceder a la
-   página en `http://localhost:1313`.
-5. Para comenzar a editar el proyecto utilizando VSCode, escribe `code .` (no te
-   olvides del punto y el espacio después de `code`). Una vez que hayas
-   realizado los cambios que desees en el proyecto, puedes publicarlos en el
-   repositorio de GitHub siguiendo estos pasos:
+```bash
+mise install
+```
 
-- Abre la lista de archivos modificados en VSCode haciendo clic en el icono de
-  control de código fuente en la barra lateral izquierda o presionando Ctrl +
-  Mayús + G.
-- Selecciona los archivos que deseas incluir en el commit haciendo clic en el
-  icono de "staged changes" al lado de cada archivo.
-- Escribe una descripción clara y concisa del commit en el campo "Message" en la
-  parte inferior de la ventana.
-- Haz clic en el botón "Commit All" para realizar el commit.
-- Para enviar tus cambios al repositorio de GitHub, haz clic en el botón "Push"
-  en la barra superior o selecciona "Push" en el menú "Control de código
-  fuente". Esto enviará tus cambios al repositorio de GitHub y los hará
-  disponibles para todos los miembros del equipo.
+Sin mise, instala a mano las versiones de la tabla.
+
+## Ejecutar el sitio
+
+```bash
+git clone https://github.com/caefisica/caefisica.com.git
+cd caefisica.com
+bun install
+bun run hugo:start
+```
+
+`hugo:start` ejecuta `hugo server --disableFastRender` y sirve el sitio en
+<http://localhost:1313>. Recarga el navegador cuando guardas un archivo.
+
+Ejecuta Hugo siempre con `bun run`. Hugo compila el SCSS con el programa `sass`,
+y `bun run` pone `node_modules/.bin` en el `PATH`, donde `sass-embedded` lo
+aporta. Si llamas a `hugo` directamente, necesitas Dart Sass en el `PATH`.
+
+Hugo pone las direcciones en minúsculas: el archivo
+`content/unmsm/pregrado/plan-2018/CBE013/_index.md` se publica en
+`/unmsm/pregrado/plan-2018/cbe013/`.
+
+El servidor no publica las páginas con `draft: true` y responde 404. Para ver
+una guía nueva en local, pon `draft: false` en su front matter.
+
+## Scripts
+
+| Orden                      | Qué hace                                                                     |
+| -------------------------- | ---------------------------------------------------------------------------- |
+| `bun run hugo:start`       | Servidor de desarrollo en el puerto 1313.                                    |
+| `bun run build`            | Copia las fuentes de KaTeX a `static/fonts/` y ejecuta `hugo --gc --minify`. |
+| `bun run lint`             | `oxlint`, `stylelint` y `markdownlint-cli2`.                                 |
+| `bun run format`           | Da formato con `oxfmt` a `assets/js`, `config`, `functions` y `scripts`.     |
+| `bun run format:check`     | Lo mismo, sin escribir.                                                      |
+| `bun run format:templates` | Da formato a `layouts` y `data` con `gotmplfmt`.                             |
+| `bun run typecheck`        | `tsc --noEmit`.                                                              |
+| `bun run check`            | `lint`, `format:check`, `typecheck` y `build`, en ese orden.                 |
+| `bun run hugo:create`      | Alias de `hugo new`. Ver [convenciones](convenciones.md#crear-un-archivo).   |
+| `bun run screenshots`      | Genera las capturas de `content/experimental` con Playwright.                |
+
+`bun run lint:markdown` ejecuta `markdownlint-cli2` con `fix: true`, así que
+corrige los Markdown que puede. La primera ejecución de `bun run build` tarda
+cerca de 30 segundos porque procesa las imágenes. `bun run screenshots` necesita
+el navegador de Playwright: `bunx playwright install chromium`.
+
+## Antes de enviar un cambio
+
+```bash
+bun run check
+```
+
+El flujo [`ci_nodejs.yml`](../.github/workflows/ci_nodejs.yml) ejecuta esa orden
+en cada pull request y además `gotmplfmt -l layouts data`. Si cambias
+plantillas, ejecuta `bun run format:templates` antes. `gotmplfmt` se instala con
+`go install github.com/gohugoio/gotmplfmt@latest`.
+
+El flujo [`check_broken_links.yml`](../.github/workflows/check_broken_links.yml)
+revisa los enlaces de `content/` con la configuración de
+[`.404-links.yml`](../.404-links.yml).
