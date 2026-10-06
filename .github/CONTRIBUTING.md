@@ -1,58 +1,52 @@
 # Contribuir
 
-Hey 👋 ¿Quieres contribuir a mejorar nuestra página web? ¡Genial! Nos encanta recibir aportes de la comunidad, ya sean grandes o pequeños. Cada contribución nos ayuda a hacer de este un mejor recurso para todos los estudiantes universitarios de física.
+Gracias por querer mejorar caefisica.com. Aceptamos aportes de cualquier tamaño.
 
-## ¿Cómo puedo contribuir? 🤔
+## Qué puedes aportar
 
-Hay varias formas en las que puedes colaborar:
+- Guías de estudio y apuntes de clase nuevos.
+- Correcciones y mejoras al contenido existente.
+- Libros, listas de reproducción y otros recursos recomendados.
+- Reportes de errores y propuestas, con las
+  [plantillas de incidencias](https://github.com/caefisica/caefisica.com/issues/new/choose).
 
-- ✏️ Añadiendo nuevas Guías de Estudio o Notas de Clase
-- 🔄 Actualizando o mejorando el contenido existente
-- 📚 Sugiriendo libros o materiales de estudio útiles
-- 🐛 Reportando errores o problemas que encuentres
+Si tienes otra idea, escríbenos por [correo](https://caefisica.com/contacto/) o
+en [nuestras redes](https://linktr.ee/caefisica).
 
-¡Todas las ideas son bienvenidas! Si se te ocurre alguna otra forma de aportar que capaz no se nos ocurrió, no dudes en proponerla. Puedes contactarnos por [correo](https://caefisica.com/contacto/) o a través de [nuestras redes sociales](https://linktr.ee/caefisica).
+## Editar desde el navegador
 
-## ¿Cómo hago mi contribución? 📝
+1. En la página que quieres cambiar, haz clic en «Edita esta página», al final.
+   Se abre el archivo en GitHub.
+2. Pulsa el lápiz ✏️ para editar. El formato es Markdown.
+3. Pulsa «Commit changes» y describe qué cambiaste. GitHub te guía para abrir un
+   pull request.
 
-Contribuir es fácil, solo sigue estos pasos:
+Si no sabes en qué carpeta va un archivo nuevo, mira las
+[convenciones](../docs/convenciones.md).
 
-1. Ubica el archivo que quieres editar:
-   - Ve al artículo en nuestra web y al final verás la opción "Edita esta página". ¡Haz click ahí y listo! Se abrirá GitHub.
-   - Si prefieres, puedes ir directo a GitHub. Las guías están en `content/unmsm/pregrado/`, organizadas por semestre (`1`, `2`, etc). Cada guía es un archivo `.md`.
-2. En GitHub, busca el botoncito de ✏️ "Editar" arriba a la derecha y dale click.
-3. Realiza tus cambios en el editor. En nuestras guías, usamos formato Markdown.
-4. Abajo verás "Commit changes". Pon un mensajito sobre lo que modificaste, nos servirá para entender tus cambios.
-5. ¡Dale a "Commit changes" y listo! Nosotros nos encargaremos de revisar e integrar tu aporte.
+## Trabajar en tu equipo
 
-### Para usuarios avanzados 🔧
+1. Haz un fork de
+   [caefisica/caefisica.com](https://github.com/caefisica/caefisica.com) y
+   clónalo.
+2. Instala las herramientas y arranca el sitio con la
+   [guía de instalación](../docs/instalación.md).
+3. Crea una rama, haz tus cambios y comprueba que pasan las verificaciones:
 
-Si manejas Git, puedes clonar el repo y mandarnos un Pull Request:
+   ```bash
+   bun run check
+   ```
 
-```bash
-git clone https://github.com/caefisica/web
-git branch sugerencias
-git checkout sugerencias
-```
+4. Envía un pull request a `master` con un título y una descripción claros.
 
-Haz tus cambios y luego:
-
-```bash
-git add .
-git commit -m "Un mensaje sobre tus cambios"
-git push
-```
-
-Luego ve a [Pull Requests](https://github.com/caefisica/web/pulls), crea uno nuevo desde tu branch, añade título y descripción, ¡y envíalo! Lo revisaremos y te avisaremos cualquier cosa.
-
-## Código de Conducta 🤝
+Si agregas un curso, sigue [Agregar un curso](../docs/cursos.md). Los shortcodes
+disponibles están en [shortcodes](../docs/shortcodes.md). El mapa del código
+está en [architecture.md](../architecture.md).
 
 ## Código de conducta
 
-Para mantener un espacio amigable y respetuoso, te pedimos seguir nuestro [Código de Conducta](CODE_OF_CONDUCT.md). Básicamente, se trata de ser buena onda con tod@s. 😊
+Al participar aceptas el [Código de Conducta](../CODE_OF_CONDUCT.md).
 
-## Licencia 📜
+## Licencia
 
-Al contribuir, aceptas publicar tu aporte bajo la [licencia MIT](LICENSE). Así todos podrán beneficiarse de las mejoras.
-
-¡Eso es todo! Cualquier duda, nos avisas. Y nuevamente, ¡muchas gracias por tu interés en contribuir! 🙌 Entre todos podemos hacer de este un recurso increíble para aprender física. ¡Manos a la obra! 💪
+Al contribuir, publicas tu aporte bajo la [licencia MIT](../LICENCE).
