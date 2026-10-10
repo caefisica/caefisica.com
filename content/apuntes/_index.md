@@ -7,6 +7,6 @@ lead: 'En los últimos meses hemos ido publicando varios cursos, estos comprende
 date: 2020-10-06T08:48:23+00:00
 draft: false
 images: []
-alias: ["/summaries/introduccion"]
+aliases: ["/summaries/introduccion"]
 math: false
 ---

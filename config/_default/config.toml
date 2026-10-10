@@ -15,7 +15,7 @@ pagerSize = 7
 # add redirects/headers
 [outputs]
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-section = ["HTML", "RSS", "SITEMAP"]
+section = ["HTML", "RSS"]
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
@@ -36,15 +36,6 @@ baseName = "_headers"
 isPlainText = true
 notAlternative = true
 
-# add output format for section sitemap.xml
-[outputFormats.SITEMAP]
-mediaType = "application/xml"
-baseName = "sitemap"
-isHTML = false
-isPlainText = true
-noUgly = true
-rel = "sitemap"
-
 [sitemap]
 changefreq = "weekly"
 filename = "sitemap.xml"
@@ -57,7 +48,6 @@ lastmod = [":git", "lastmod", "date", "publishDate"]
 contributor = "contributors"
 type = "types"
 functionality = "functionalities"
-topic = "topics"
 
 [permalinks]
 blog = "/blog/:title/"
