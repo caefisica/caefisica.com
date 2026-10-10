@@ -208,42 +208,7 @@
 				{{ end -}}
 			</div>
 
-			{{ if eq .Site.Params.options.docsVersioning true -}}
-				<div class="dropdown ms-3">
-					<button
-						class="btn btn-doks-light dropdown-toggle"
-						id="doks-versions"
-						data-bs-toggle="dropdown"
-						aria-expanded="false"
-						data-bs-display="static"
-						aria-label="Toggle version menu">
-						<span class="d-none d-lg-inline">UNMSM</span>
-					</button>
-					<ul
-						class="dropdown-menu dropdown-menu-end"
-						aria-labelledby="doks-versions">
-						<li>
-							<a
-								class="dropdown-item current"
-								aria-current="true"
-								href="{{ "unmsm/" | relLangURL }}"
-							>
-								UNMSM
-							</a>
-						</li>
-						<li><hr class="dropdown-divider" /></li>
-						<li><a class="dropdown-item" href="/">PUCP</a></li>
-						<li><hr class="dropdown-divider" /></li>
-						<li>
-							<a class="dropdown-item" href="/i/">
-								Todas las universidades
-							</a>
-						</li>
-					</ul>
-				</div>
-			{{ else -}}
-				<span class="navbar-text fs-6 ms-3 d-none d-sm-block">San Marcos</span>
-			{{ end -}}
+			<span class="navbar-text fs-6 ms-3 d-none d-sm-block">San Marcos</span>
 
 			{{ partial "header/sidebar-toggle.html" (dict "class" "ms-3" "label" "Toggle documentation navigation") }}
 		</div>
@@ -256,33 +221,6 @@
 				class="collapse d-lg-none"
 				aria-label="Tertiary navigation">
 				{{ partial "sidebar/docs-menu.html" . }}
-			</nav>
-		</aside>
-	</div>
-{{ end -}}
-
-{{ if eq .Section "tutorial" -}}
-	<nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
-		<div class="container-xxl d-flex align-items-md-center">
-			<nav class="nav">
-				{{ range .Site.Menus.secondary -}}
-					<a class="nav-link text-dark" href="{{ .URL | relURL }}">
-						{{ .Name | safeHTML }}
-					</a>
-				{{ end -}}
-			</nav>
-
-			{{ partial "header/sidebar-toggle.html" (dict "label" "Toggle tutorial navigation") }}
-		</div>
-	</nav>
-
-	<div class="container-xxl">
-		<aside class="doks-sidebar">
-			<nav
-				id="doks-docs-nav"
-				class="collapse d-lg-none"
-				aria-label="Navegación terciaria">
-				{{ partial "sidebar/tutorial-menu.html" . }}
 			</nav>
 		</aside>
 	</div>

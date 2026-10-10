@@ -12,10 +12,6 @@ source = "static"
 target = "static"
 
 [[mounts]]
-source = "node_modules/docsearch.js"
-target = "assets/js/vendor/docsearch.js"
-
-[[mounts]]
 source = "layouts"
 target = "layouts"
 

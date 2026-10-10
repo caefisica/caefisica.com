@@ -1,21 +1,3 @@
-[[unmsm]]
-name = "Pregrado"
-weight = 10
-identifier = "cursos"
-url = "/unmsm/pregrado/"
-
-[[unmsm]]
-name = "Posgrado"
-weight = 20
-identifier = "posgrado"
-url = "/unmsm/posgrado/"
-
-[[apuntes]]
-name = "Apuntes"
-weight = 10
-identifier = "apuntes"
-url = "/apuntes/matemática"
-
 [[main]]
 name = "Biblioteca"
 url = "/biblioteca/"
@@ -82,12 +64,6 @@ weight = 20
 name = "Privacidad"
 url = "/privacidad"
 weight = 30
-
-[[experimental]]
-name = "General"
-weight = 10
-identifier = "experimental"
-url = "/experimental/"
 
 [[tertiary]]
 name = "Envía un artículo o página web"

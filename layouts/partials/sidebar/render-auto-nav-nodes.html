@@ -1,17 +1,16 @@
 {{- $nodes := .nodes -}}
-{{- $mode := .mode -}}
 {{- $level := .level | default 0 -}}
 {{- range $nodes -}}
 	{{- if eq .kind "link" -}}
 		<li>
 			<a
-				class="docs-link{{ if eq $mode "collapsible" }} rounded{{ end }}{{ if .current }} active{{ end }}"
+				class="docs-link rounded{{ if .current }} active{{ end }}"
 				href="{{ .url }}"
 				{{ if .current }}aria-current="page"{{ end }}>
-				{{ if eq $mode "collapsible" }}{{ .title }}{{ else }}{{ .name }}{{ end }}
+				{{ .title }}
 			</a>
 		</li>
-	{{- else if eq $mode "collapsible" -}}
+	{{- else -}}
 		{{- $collapseID := printf "section-%s" (md5 .url) -}}
 		<li class="my-1{{ if gt $level 0 }} ms-3{{ end }}">
 			<button
@@ -25,26 +24,11 @@
 				<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
 					{{ partial "sidebar/render-auto-nav-nodes.html" (dict
 						"nodes" .children
-						"mode" $mode
 						"level" (add $level 1)
 					)
 					}}
 				</ul>
 			</div>
-		</li>
-	{{- else -}}
-		<li class="{{ if gt $level 0 }}ms-3{{ end }}">
-			<div class="h6 text-uppercase mt-3 mb-2{{ if gt $level 0 }} ms-3{{ end }}">
-				{{ .title }}
-			</div>
-			<ul class="list-unstyled{{ if gt $level 0 }} ms-3{{ end }}">
-				{{ partial "sidebar/render-auto-nav-nodes.html" (dict
-					"nodes" .children
-					"mode" $mode
-					"level" (add $level 1)
-				)
-				}}
-			</ul>
 		</li>
 	{{- end -}}
 {{- end -}}

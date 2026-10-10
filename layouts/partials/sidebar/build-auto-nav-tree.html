@@ -8,8 +8,6 @@
 		{{- $isCurrent := eq $currentPage.RelPermalink .RelPermalink -}}
 		{{- $isAncestor := and .IsBranch (in $currentPage.RelPermalink .RelPermalink) -}}
 		{{- if .IsBranch -}}
-			{{- $kind := "group" -}}
-			{{- if eq $level 0 -}}{{- $kind = "section" -}}{{- end -}}
 			{{- $children := partial "sidebar/build-auto-nav-tree.html" (dict
 				"currentPage" $currentPage
 				"pages" .Pages
@@ -17,9 +15,8 @@
 			)
 			-}}
 			{{- $nodes = $nodes | append (dict
-				"kind" $kind
+				"kind" "branch"
 				"title" .Title
-				"name" .Name
 				"url" .RelPermalink
 				"children" $children
 				"current" $isCurrent
@@ -30,7 +27,6 @@
 			{{- $nodes = $nodes | append (dict
 				"kind" "link"
 				"title" .Title
-				"name" .Name
 				"url" .RelPermalink
 				"current" $isCurrent
 				"active" $isCurrent
@@ -50,9 +46,8 @@
 			)
 			-}}
 			{{- $nodes = $nodes | append (dict
-				"kind" "section"
+				"kind" "branch"
 				"title" .Title
-				"name" .Name
 				"url" .RelPermalink
 				"children" $children
 				"current" $isCurrent

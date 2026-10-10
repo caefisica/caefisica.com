@@ -1,5 +1,5 @@
 <p class="edit-page">
-	<a href="{{ .Site.Params.docsRepo }}/blob/master/content/{{ replace .File.Path "\\" "/" }}">
+	<a href="{{ .Site.Params.docsRepo }}/blob/{{ .Site.Params.docsRepoBranch }}/content/{{ replace .File.Path "\\" "/" }}">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="16"
