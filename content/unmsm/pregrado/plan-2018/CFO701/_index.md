@@ -3,7 +3,6 @@ title: "Electromagnetismo II"
 lead: ""
 description: ""
 id: "CFO701"
-topics: []
 credits: 5
 prerequisites: ["Electromagnetismo I"]
 semester: 7

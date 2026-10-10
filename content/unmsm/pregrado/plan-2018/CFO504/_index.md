@@ -3,7 +3,6 @@ title: "Física Matemática III"
 lead: ""
 description: ""
 id: "CFO504"
-topics: []
 credits: 4
 prerequisites: ["Física Matemática II"]
 semester: 5

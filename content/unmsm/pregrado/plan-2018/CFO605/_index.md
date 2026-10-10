@@ -3,7 +3,6 @@ title: "Física Moderna II"
 lead: ""
 description: ""
 id: "CFO605"
-topics: []
 credits: 4
 prerequisites: ["Física Moderna I"]
 semester: 6

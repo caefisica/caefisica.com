@@ -3,7 +3,6 @@ title: "Metodología de la Enseñanza de la Física"
 lead: ""
 description: ""
 id: "CFO801"
-topics: []
 credits: 3
 prerequisites: ["No aplica"]
 semester: 8

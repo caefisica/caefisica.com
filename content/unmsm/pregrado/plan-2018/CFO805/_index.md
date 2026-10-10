@@ -3,7 +3,6 @@ title: "Astronomía y Astrofísica"
 lead: ""
 description: ""
 id: "CFO805"
-topics: []
 credits: 4
 prerequisites: ["Mecánica Clásica II", "Electromagnetismo II"]
 semester: 8

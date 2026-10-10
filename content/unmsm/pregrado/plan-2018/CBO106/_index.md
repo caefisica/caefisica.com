@@ -3,7 +3,6 @@ title: "Biología"
 lead: ""
 description: ""
 id: "CBO106"
-topics: []
 credits: 4
 prerequisites: ["No aplica"]
 semester: 1

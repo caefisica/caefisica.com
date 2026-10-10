@@ -3,7 +3,6 @@ title: "Mecánica Cuántica II"
 lead: "Profundiza en la mecánica cuántica aplicada a sistemas de dos cuerpos, muchos cuerpos, interacción radiación-materia y cuantización del campo electromagnético"
 description: "Este curso aborda temas avanzados de la mecánica cuántica, incluyendo el problema de dos cuerpos, teoría de perturbaciones, problema de muchos cuerpos, matriz de densidad, scattering, fotones y átomos, operadores fermiónicos e información cuántica. Está diseñado para estudiantes que hayan completado la primera parte del curso (Mecánica Cuántica I) y cuenten con sólidos conocimientos en física moderna y álgebra lineal"
 id: "CFO703"
-topics: []
 credits: 5
 prerequisites: ["Mecánica Cuántica I"]
 semester: 7

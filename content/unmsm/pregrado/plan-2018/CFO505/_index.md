@@ -3,7 +3,6 @@ title: "Física Moderna I"
 lead: ""
 description: ""
 id: "CFO505"
-topics: []
 credits: 4
 prerequisites: ["Electricidad y Magnetismo"]
 semester: 5

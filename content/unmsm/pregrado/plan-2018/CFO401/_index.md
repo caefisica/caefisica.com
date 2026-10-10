@@ -3,7 +3,6 @@ title: "Electricidad y Magnetismo"
 lead: ""
 description: ""
 id: "CFO401"
-topics: []
 credits: 6
 prerequisites: ["Física Molecular"]
 semester: 4

@@ -3,7 +3,6 @@ title: "Química Orgánica e Inorgánica"
 lead: ""
 description: ""
 id: "CBO205"
-topics: []
 credits: 4
 prerequisites: ["No aplica"]
 semester: 2

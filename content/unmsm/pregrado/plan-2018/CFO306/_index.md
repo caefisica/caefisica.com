@@ -3,7 +3,6 @@ title: "Física Computacional I"
 lead: "Introducción a métodos numéricos y programación en Fortran aplicados a problemas físicos"
 description: "Este curso ofrece una visión general de los métodos numéricos y la programación en Fortran, con el objetivo de enseñar a diseñar programas para resolver problemas y analizar los resultados obtenidos mediante métodos computacionales en diversos problemas físicos"
 id: "CFO306"
-topics: []
 credits: 4
 prerequisites: ["Cálculo I"]
 semester: 3

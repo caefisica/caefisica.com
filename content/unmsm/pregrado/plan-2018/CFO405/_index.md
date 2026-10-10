@@ -3,7 +3,6 @@ title: "Mecánica Clásica I"
 lead: ""
 description: ""
 id: "CFO405"
-topics: []
 credits: 4
 prerequisites: ["Cálculo III", "Física Matemática I"]
 semester: 4

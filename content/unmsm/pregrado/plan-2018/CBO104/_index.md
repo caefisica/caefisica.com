@@ -3,7 +3,6 @@ title: "Cálculo I"
 lead: ""
 description: ""
 id: "CBO104"
-topics: []
 credits: 4
 prerequisites: ["No aplica"]
 semester: 1

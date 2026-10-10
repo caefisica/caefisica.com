@@ -3,7 +3,6 @@ title: "Geofísica General"
 lead: ""
 description: ""
 id: "CFO804"
-topics: []
 credits: 4
 prerequisites: ["Mecánica Clásica I", "Electromagnetismo I"]
 semester: 8

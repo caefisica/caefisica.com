@@ -5,7 +5,6 @@ description: ""
 id: ""
 credits:
 prerequisites: [""]
-topics: []
 semester:
 contributors: ["David"]
 featured: false

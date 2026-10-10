@@ -3,7 +3,6 @@ title: "Álgebra Lineal"
 lead: ""
 description: ""
 id: "CFO304"
-topics: []
 credits: 4
 prerequisites: ["Matemática Básica"]
 semester: 3

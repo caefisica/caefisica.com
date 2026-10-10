@@ -3,7 +3,6 @@ title: "Física Molecular"
 lead: ""
 description: ""
 id: "CFO303"
-topics: []
 credits: 6
 prerequisites: ["No aplica"]
 semester: 3

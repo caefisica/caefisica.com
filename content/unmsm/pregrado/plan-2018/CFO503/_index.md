@@ -3,7 +3,6 @@ title: "Mecánica Clásica II"
 lead: ""
 description: ""
 id: "CFO503"
-topics: []
 credits: 4
 prerequisites: ["Mecánica Clásica I"]
 semester: 5

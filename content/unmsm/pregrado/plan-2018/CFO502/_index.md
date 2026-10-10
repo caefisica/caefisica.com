@@ -3,7 +3,6 @@ title: "Física Computacional II"
 lead: ""
 description: ""
 id: "CFO502"
-topics: []
 credits: 4
 prerequisites: ["Física Computacional I"]
 semester: 5

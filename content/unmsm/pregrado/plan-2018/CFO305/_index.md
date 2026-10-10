@@ -3,7 +3,6 @@ title: "Cálculo III"
 lead: ""
 description: ""
 id: "CFO305"
-topics: []
 credits: 4
 prerequisites: ["Cálculo II"]
 semester: 3

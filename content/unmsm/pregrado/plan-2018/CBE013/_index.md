@@ -3,7 +3,6 @@ title: "Física I"
 lead: "Este curso, anteriormente conocido como 'Física General I', cubre los principios fundamentales de la Mecánica Newtoniana"
 description: "Este curso, anteriormente conocido como 'Física General I', cubre los principios fundamentales de la Mecánica Newtoniana"
 id: "CBE013"
-topics: []
 credits: 2
 prerequisites: ["No aplica"]
 semester: 1

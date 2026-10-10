@@ -3,7 +3,6 @@ title: "Termodinámica"
 lead: ""
 description: ""
 id: "CFO604"
-topics: []
 credits: 4
 prerequisites: ["Cálculo III", "Física Molecular"]
 semester: 6

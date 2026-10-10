@@ -3,7 +3,6 @@ title: "Física Matemática I"
 lead: ""
 description: ""
 id: "CFO302"
-topics: []
 credits: 4
 prerequisites: ["Cálculo II"]
 semester: 3

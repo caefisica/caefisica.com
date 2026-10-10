@@ -3,7 +3,6 @@ title: "Física II"
 lead: ""
 description: ""
 id: "CBO207"
-topics: []
 credits: 4
 prerequisites: ["No aplica"]
 semester: 2

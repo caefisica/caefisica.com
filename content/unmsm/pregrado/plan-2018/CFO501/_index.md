@@ -3,7 +3,6 @@ title: Óptica
 lead: ""
 description: ""
 id: "CFO501"
-topics: []
 credits: 6
 prerequisites: ["Electricidad y Magnetismo"]
 semester: 5

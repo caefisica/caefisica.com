@@ -3,7 +3,6 @@ title: "Física Electrónica I"
 lead: "El curso de Física Electrónica I combina teoría y práctica, enfocándose en la teoría electrónica moderna y sus aplicaciones en el campo de la instrumentación física."
 description: "El curso de Física Electrónica I combina teoría y práctica, enfocándose en la teoría electrónica moderna y sus aplicaciones en el campo de la instrumentación física."
 id: "CFO602"
-topics: []
 credits: 4
 prerequisites: ["Cálculo III", "Física Molecular"]
 semester: 6

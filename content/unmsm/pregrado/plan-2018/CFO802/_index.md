@@ -3,7 +3,6 @@ title: "Física del Estado Sólido I"
 lead: ""
 description: ""
 id: "CFO802"
-topics: []
 credits: 5
 prerequisites: ["Mecánica Cuántica I", "Física Estadística I"]
 semester: 8

@@ -3,7 +3,6 @@ title: "Física Nuclear I"
 lead: ""
 description: ""
 id: "CFO803"
-topics: []
 credits: 5
 prerequisites: ["Mecánica Cuántica I"]
 semester: 8

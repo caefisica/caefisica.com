@@ -3,7 +3,6 @@ title: "Cursos"
 cascade:
   type: docs
   showInformationBox: true
-  showProfessors: true
 alternativeTitle: "Guías de Estudio"
 description: ""
 description_2: "Guías de estudio con referencias a"
@@ -12,6 +11,6 @@ lead: "En los últimos meses hemos ido publicando varias guías de estudio, esta
 date: 2020-10-06T08:48:23+00:00
 draft: false
 images: []
-alias: ["/cursos/introduccion"]
+aliases: ["/cursos/introduccion"]
 math: false
 ---

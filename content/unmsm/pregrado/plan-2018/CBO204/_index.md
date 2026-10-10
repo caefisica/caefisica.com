@@ -3,7 +3,6 @@ title: "Cálculo II"
 lead: "Domina el cálculo integral y sus aplicaciones en problemas físicos y geométricos"
 description: "Una guía de estudio completa para el curso de Cálculo II, que incluye recursos de aprendizaje, libros recomendados, listas de reproducción y más"
 id: "CBO204"
-topics: []
 credits: 4
 prerequisites: ["Cálculo I"]
 semester: 2

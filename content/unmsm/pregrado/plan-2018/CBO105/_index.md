@@ -3,7 +3,6 @@ title: "Matemática Básica"
 lead: ""
 description: ""
 id: "CBO105"
-topics: []
 credits: 4
 prerequisites: ["No aplica"]
 semester: 1

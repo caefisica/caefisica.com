@@ -3,7 +3,6 @@ title: "Electromagnetismo I"
 lead: "Explora los fundamentos del electromagnetismo."
 description: ""
 id: "CFO601"
-topics: []
 credits: 5
 prerequisites: ["Electricidad y Magnetismo", "Física Matemática II"]
 semester: 6

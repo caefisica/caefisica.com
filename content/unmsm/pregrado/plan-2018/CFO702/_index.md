@@ -3,7 +3,6 @@ title: "Física Electrónica II"
 lead: ""
 description: ""
 id: "CFO702"
-topics: []
 credits: 4
 prerequisites: ["Física Electrónica I"]
 semester: 7

@@ -3,7 +3,6 @@ title: "Redacción y Metodología Científica"
 lead: ""
 description: ""
 id: "CFO705"
-topics: []
 credits: 3
 prerequisites: ["No aplica"]
 semester: 7
