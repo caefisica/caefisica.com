@@ -15,12 +15,13 @@ content/
 ├── experimental/<dominio>/index.md    artículos de otros sitios
 ├── professors/<slug>/index.md         docentes
 ├── contributors/<slug>/_index.md      colaboradores
-├── biblioteca/, contacto/, privacidad/, newsletter.md, redes.md
+├── types/, functionalities/           índices de las taxonomías de experimental
+├── biblioteca/, contacto/, privacidad/
+├── newsletter.md, suscrito.md, desuscrito.md, redes.md
 └── _index.md                          portada
 ```
 
-Los cursos del Plan de Estudios 2018 viven en
-`content/unmsm/pregrado/plan-2018/`. La guía del curso `CBO106` es
+La guía del curso `CBO106` es
 `content/unmsm/pregrado/plan-2018/CBO106/_index.md`. Cómo escribirla:
 [cursos](cursos.md).
 
@@ -53,8 +54,9 @@ y escribe LaTeX con KaTeX.
 
 ## Crear un archivo
 
-`hugo new content` copia un molde de [`archetypes/`](../archetypes). Hugo elige
-el molde por la carpeta; para otros, indícalo con `--kind`:
+`bun run hugo:create content` (`hugo new content`) copia un molde de
+[`archetypes/`](../archetypes). Hugo elige el molde por la carpeta; para otros,
+indícalo con `--kind`:
 
 | Molde             | Cómo se elige                           |
 | ----------------- | --------------------------------------- |
@@ -66,11 +68,12 @@ el molde por la carpeta; para otros, indícalo con `--kind`:
 | `default.md`      | Cualquier otra carpeta.                 |
 
 ```bash
-hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
+bun run hugo:create content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
 ```
 
-Los moldes crean la página con `draft: true`; ver
-[instalación](instalación.md#ejecutar-el-sitio) para verla en local.
+Los moldes `blog`, `experimental`, `pregrado` y `default` crean la página con
+`draft: true`; `offering` y `professor`, con `draft: false`. Para ver una página
+con `draft: true` en local, ver [instalación](instalación.md#ejecutar-el-sitio).
 
 ## Editar desde GitHub
 

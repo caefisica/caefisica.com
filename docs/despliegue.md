@@ -14,16 +14,18 @@ destinos con su propia configuración: Netlify y Cloudflare.
   `-b $DEPLOY_PRIME_URL` para que los enlaces apunten a la URL de la vista
   previa.
 - El contexto `next` define `HUGO_ENV=next`, que activa `config/next/`.
-- Los plugins `@algolia/netlify-plugin-crawler` (rama `master`) y
-  `netlify-plugin-cloudinary` se ejecutan en cada despliegue.
+- El plugin `@algolia/netlify-plugin-crawler` rastrea el sitio en los
+  despliegues de la rama `master`. `netlify-plugin-cloudinary` se ejecuta en
+  cada despliegue.
 - `functions = "functions"` publica la carpeta [`functions/`](../functions).
 
 ### Boletín
 
 El formulario de suscripción es un formulario de Netlify. Al enviarse, Netlify
 ejecuta [`functions/submission-created.js`](../functions/submission-created.js),
-que agrega el correo a una lista de SendGrid y, si están definidas `ADMIN_EMAIL`
-y `NOTIFICATION_EMAIL`, envía un aviso de nuevo suscriptor.
+que agrega el correo a una lista de SendGrid. Si SendGrid responde 202 y están
+definidas `ADMIN_EMAIL` y `NOTIFICATION_EMAIL`, envía un aviso de nuevo
+suscriptor.
 
 Variables de entorno de la función:
 
@@ -39,8 +41,8 @@ Sin las dos primeras, la función responde 500.
 ### Búsqueda
 
 `assets/js/docsearch.ts` consulta un índice de Algolia que el plugin del
-rastreador actualiza en cada despliegue de `master`. La búsqueda aparece en la
-portada y en `unmsm`, `apuntes` y `blog`.
+rastreador actualiza en cada despliegue de `master`. Dónde se carga el buscador:
+[arquitectura](architecture.md#estilos-y-scripts).
 
 ## Cloudflare
 
@@ -79,11 +81,13 @@ Cámbiala en todos a la vez.
 
 ## Flujos de GitHub
 
-| Flujo                      | Cuándo                                                              | Qué hace                                                                                   |
-| -------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| `ci_nodejs.yml`            | Pull request y push a `master`                                      | `bun run check` y `gotmplfmt`.                                                             |
-| `check_broken_links.yml`   | Cambios en `content/`, los lunes                                    | Revisa los enlaces de `content/`.                                                          |
-| `generate_screenshots.yml` | El día 1 de cada mes                                                | Abre un pull request con capturas nuevas.                                                  |
-| `analyze_codeql.yml`       | Cambios en `layouts/`, `assets/` o `functions/`, los viernes        | Análisis CodeQL.                                                                           |
-| `audit_lighthouse.yml`     | Push a `master` con cambios en `layouts/`, `assets/` o `functions/` | Auditoría Lighthouse de la portada y `/blog/` con el presupuesto de `.github/budget.json`. |
-| `analyze_legitify.yml`     | Los lunes                                                           | Análisis de la configuración del repositorio con Legitify.                                 |
+Todos los flujos se pueden lanzar a mano.
+
+| Flujo                      | Cuándo                                                                                          | Qué hace                                                                                                             |
+| -------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `ci_nodejs.yml`            | Pull request y push a `master`                                                                  | `gotmplfmt -l layouts data` y `bun run check`.                                                                       |
+| `check_broken_links.yml`   | Pull request y push a `master` con cambios en `content/`; los lunes                             | Revisa los enlaces de `content/` con [`.404-links.yml`](../.404-links.yml).                                          |
+| `generate_screenshots.yml` | El día 1 de cada mes                                                                            | Abre un pull request con capturas nuevas.                                                                            |
+| `analyze_codeql.yml`       | Pull request y push a `master` con cambios en `layouts/`, `assets/` o `functions/`; los viernes | Análisis CodeQL de JavaScript.                                                                                       |
+| `audit_lighthouse.yml`     | Push a `master` con cambios en `layouts/`, `assets/` o `functions/`                             | Auditoría Lighthouse de `https://web.caefisica.workers.dev/` y `/blog/` con el presupuesto de `.github/budget.json`. |
+| `analyze_legitify.yml`     | Los lunes                                                                                       | Análisis de la configuración del repositorio con Legitify.                                                           |

@@ -19,27 +19,27 @@ content/unmsm/pregrado/plan-2018/CFO601/
 Crea el archivo con el molde `pregrado`:
 
 ```bash
-hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
+bun run hugo:create content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
 ```
 
 Campos del front matter que usan las plantillas:
 
-| Campo           | Uso                                                                                           |
-| --------------- | --------------------------------------------------------------------------------------------- |
-| `title`         | Nombre del curso.                                                                             |
-| `lead`          | Texto de apertura bajo el título.                                                             |
-| `description`   | Resumen para buscadores y redes sociales.                                                     |
-| `id`            | Código del curso. Sin `id` no aparece la caja de información.                                 |
-| `credits`       | Créditos, en la caja de información.                                                          |
-| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.                                 |
-| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.                            |
-| `topics`        | Lista de temas. La página muestra «Cursos equivalentes» con las que comparten el primer tema. |
-| `contributors`  | Slugs de `content/contributors/`. Uno inexistente detiene la compilación.                     |
-| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».                              |
-| `math`          | Con `true`, carga KaTeX para las fórmulas.                                                    |
-| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                                        |
-| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                                             |
-| `draft`         | Con `true`, la página no se publica.                                                          |
+| Campo           | Uso                                                                                |
+| --------------- | ---------------------------------------------------------------------------------- |
+| `title`         | Nombre del curso.                                                                  |
+| `lead`          | Texto de apertura bajo el título.                                                  |
+| `description`   | Resumen para buscadores y redes sociales.                                          |
+| `id`            | Código del curso. Sin `id` no aparece la caja de información.                      |
+| `credits`       | Créditos, en la caja de información.                                               |
+| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.                      |
+| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.                 |
+| `topics`        | Lista de temas. «Cursos equivalentes» la lee, pero hoy no se muestra en las guías. |
+| `contributors`  | Slugs de `content/contributors/`. Ver [convenciones](convenciones.md#nombres).     |
+| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».                   |
+| `math`          | Con `true`, carga KaTeX para las fórmulas.                                         |
+| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                             |
+| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                                  |
+| `draft`         | Con `true`, la página no se publica.                                               |
 
 La caja de información (código, créditos, prerrequisitos, docentes y sílabos)
 aparece en las páginas de `content/unmsm/` que tienen `id`:
@@ -103,11 +103,12 @@ lista `links`; cada enlace lleva `url`, `edition` y `year`:
 
 ## Sílabos
 
-Un sílabo es una carpeta `AAAA-I` o `AAAA-II` dentro del curso, con un
-`index.md` y, opcionalmente, un PDF cuyo nombre empiece por `silabo`:
+Un sílabo es una carpeta de semestre dentro del curso
+([nombre](convenciones.md#nombres)), con un `index.md` y, opcionalmente, un PDF
+cuyo nombre empiece por `silabo`:
 
 ```bash
-hugo new content --kind offering unmsm/pregrado/plan-2018/CFO601/2024-I/index.md
+bun run hugo:create content --kind offering unmsm/pregrado/plan-2018/CFO601/2024-I/index.md
 ```
 
 ```yaml
@@ -121,16 +122,17 @@ layout: "offering"
 ---
 ```
 
-`professor` es el nombre de una carpeta de `content/professors/`. La página del
-sílabo muestra el semestre, el docente y cada archivo `silabo*.pdf` en un visor.
-Sin PDF muestra «No hay sílabo disponible para este semestre».
+`professor` es el slug de un docente (ver
+[convenciones](convenciones.md#nombres)). La página del sílabo muestra el
+semestre, el docente y cada archivo `silabo*.pdf` en un visor. Sin PDF muestra
+«No hay sílabo disponible para este semestre».
 
 ## Docentes
 
 Un docente es `content/professors/<slug>/index.md`:
 
 ```bash
-hugo new content --kind professor professors/fulgencio-villegas-silva/index.md
+bun run hugo:create content --kind professor professors/fulgencio-villegas-silva/index.md
 ```
 
 ```yaml
@@ -143,4 +145,5 @@ date: 2024-01-01T00:00:00
 ---
 ```
 
-`honorific` y `title` forman el nombre que se muestra en las tablas de sílabos.
+`honorific` y `title` forman el nombre del docente en la caja de información de
+la guía, en la cabecera del sílabo y en las páginas de `content/professors/`.

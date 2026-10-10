@@ -1,7 +1,7 @@
 # Shortcodes
 
 Los shortcodes están en [`layouts/shortcodes/`](../layouts/shortcodes). Se usan
-dentro del Markdown de `content/`.
+dentro del Markdown de `content/`. Esta página describe los que usa `content/`.
 
 ## `resource-table`
 
@@ -60,10 +60,10 @@ Visor de PDF. `file` es el nombre de un PDF de la carpeta de la página.
 {{< pdfjs file="plan2018.pdf" >}}
 ```
 
-| Parámetro       | Valores                                          |
-| --------------- | ------------------------------------------------ |
-| `file`          | Nombre del PDF.                                  |
-| `hidePaginator` | Oculta los controles de página si está definido. |
+| Parámetro       | Valores                                  |
+| --------------- | ---------------------------------------- |
+| `file`          | Nombre del PDF.                          |
+| `hidePaginator` | `"true"` oculta los controles de página. |
 
 ## `img` e `img-simple`
 

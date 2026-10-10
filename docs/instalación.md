@@ -4,15 +4,15 @@ Cómo ejecutar el sitio en tu equipo y cómo comprobar tus cambios.
 
 ## Herramientas
 
-[`mise.toml`](../mise.toml) fija las versiones:
+[`mise.toml`](../mise.toml) fija la versión de cada herramienta:
 
-| Herramienta     | Versión | Uso                                                |
-| --------------- | ------- | -------------------------------------------------- |
-| `hugo-extended` | 0.166.0 | Genera el sitio. Se necesita la edición extendida. |
-| `bun`           | 1.4.2   | Instala dependencias y ejecuta los scripts.        |
-| `node`          | 24.21.0 | Lo usan las herramientas de `node_modules`.        |
-| `go`            | 1.27.1  | Instala `gotmplfmt`.                               |
-| `wrangler`      | 4.141.0 | Despliegue en Cloudflare.                          |
+| Herramienta     | Uso                                                |
+| --------------- | -------------------------------------------------- |
+| `hugo-extended` | Genera el sitio. Se necesita la edición extendida. |
+| `bun`           | Instala dependencias y ejecuta los scripts.        |
+| `node`          | Lo usan las herramientas de `node_modules`.        |
+| `go`            | Instala `gotmplfmt`.                               |
+| `wrangler`      | Despliegue en Cloudflare.                          |
 
 Necesitas además `git`. Con [mise](https://mise.jdx.dev/getting-started.html)
 instalado, una orden instala todo:
@@ -21,7 +21,7 @@ instalado, una orden instala todo:
 mise install
 ```
 
-Sin mise, instala a mano las versiones de la tabla.
+Sin mise, instala a mano las versiones de `mise.toml`.
 
 ## Ejecutar el sitio
 
@@ -39,12 +39,9 @@ Ejecuta Hugo siempre con `bun run`. Hugo compila el SCSS con el programa `sass`,
 y `bun run` pone `node_modules/.bin` en el `PATH`, donde `sass-embedded` lo
 aporta. Si llamas a `hugo` directamente, necesitas Dart Sass en el `PATH`.
 
-Hugo pone las direcciones en minúsculas: el archivo
-`content/unmsm/pregrado/plan-2018/CBE013/_index.md` se publica en
-`/unmsm/pregrado/plan-2018/cbe013/`.
-
 El servidor no publica las páginas con `draft: true` y responde 404. Para ver
-una guía nueva en local, pon `draft: false` en su front matter.
+una página nueva en local, pon `draft: false` en su front matter. Cómo se forman
+las direcciones: [convenciones](convenciones.md#nombres).
 
 ## Scripts
 
@@ -62,9 +59,25 @@ una guía nueva en local, pon `draft: false` en su front matter.
 | `bun run screenshots`      | Genera las capturas de `content/experimental` con Playwright.                |
 
 `bun run lint:markdown` ejecuta `markdownlint-cli2` con `fix: true`, así que
-corrige los Markdown que puede. La primera ejecución de `bun run build` tarda
-cerca de 30 segundos porque procesa las imágenes. `bun run screenshots` necesita
-el navegador de Playwright: `bunx playwright install chromium`.
+corrige los Markdown que puede.
+
+### Capturas
+
+`bun run screenshots` necesita el navegador de Playwright:
+`bunx playwright install chromium`. Recorre las carpetas de
+`content/experimental/` con un `index.md` que tenga `link: "…"` e
+`images: ["…"]` en el front matter. Busca en la carpeta un archivo `.png`,
+`.jpg` o `.jpeg` cuyo nombre contenga el primer valor de `images`. Abre el
+`link` en una ventana de 1920×1080, espera a que la red quede inactiva (30 s
+como máximo) y **sobrescribe** ese archivo con la captura. Omite, con un mensaje
+de error, las carpetas sin archivo coincidente o con otro formato. Pasa nombres
+de carpeta para limitar la ejecución:
+
+```bash
+bun run screenshots aps.org
+```
+
+Termina con error si no encuentra carpetas o si ninguna captura sale bien.
 
 ## Antes de enviar un cambio
 
@@ -72,11 +85,14 @@ el navegador de Playwright: `bunx playwright install chromium`.
 bun run check
 ```
 
-El flujo [`ci_nodejs.yml`](../.github/workflows/ci_nodejs.yml) ejecuta esa orden
-en cada pull request y además `gotmplfmt -l layouts data`. Si cambias
-plantillas, ejecuta `bun run format:templates` antes. `gotmplfmt` se instala con
-`go install github.com/gohugoio/gotmplfmt@latest`.
+Si cambias plantillas de `layouts/` o `data/`, formatéalas:
 
-El flujo [`check_broken_links.yml`](../.github/workflows/check_broken_links.yml)
-revisa los enlaces de `content/` con la configuración de
-[`.404-links.yml`](../.404-links.yml).
+```bash
+bun run format:templates
+```
+
+El flujo de CI solo comprueba, sin escribir: falla si
+`gotmplfmt -l layouts data` lista algún archivo. `gotmplfmt` se instala con
+`go install github.com/gohugoio/gotmplfmt@latest`. Los flujos de GitHub que
+repiten estas comprobaciones están en
+[despliegue](despliegue.md#flujos-de-github).
