@@ -89,6 +89,7 @@ async function main() {
 
   const browser = await chromium.launch();
   let successCount = 0;
+  const deadLinks: string[] = [];
 
   try {
     for (const bundle of bundles) {
@@ -98,8 +99,20 @@ async function main() {
           waitUntil: "networkidle",
           timeout: 30_000,
         });
-        if (!response || !response.ok()) {
-          throw new Error(`HTTP ${response?.status() ?? "no response"}`);
+        if (!response) {
+          throw new Error("no response");
+        }
+        if (!response.ok()) {
+          // Do not overwrite the existing image when the URL returns an HTTP error.
+          // The response may be an error page.
+          const message =
+            `${bundle.name}: ${bundle.link} answers HTTP ${response.status()}; ` +
+            "kept the existing image";
+          deadLinks.push(message);
+          console.warn(
+            process.env.GITHUB_ACTIONS ? `::warning title=Link not captured::${message}` : message,
+          );
+          continue;
         }
         await page.screenshot({ path: bundle.imagePath, type: bundle.screenshotType });
         successCount++;
@@ -116,7 +129,10 @@ async function main() {
     await browser.close();
   }
 
-  console.log(`${successCount}/${bundles.length} screenshots succeeded.`);
+  console.log(
+    `${successCount}/${bundles.length} screenshots succeeded, ` +
+      `${deadLinks.length} links answered with an error status.`,
+  );
   if (successCount === 0) {
     process.exit(1);
   }
