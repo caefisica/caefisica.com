@@ -27,14 +27,19 @@
 				</p>
 			</div>
 		</div>
-		{{- if .Pages -}}
-			{{- $profSlugs := slice -}}
-			{{- range .Pages -}}
-				{{- if .Params.professor -}}
-					{{- $profSlugs = $profSlugs | append .Params.professor -}}
-				{{- end -}}
+		{{- $profSlugs := slice -}}
+		{{- $syllabi := slice -}}
+		{{- range .Pages -}}
+			{{- with .Params.professor -}}
+				{{- $profSlugs = $profSlugs | append . -}}
 			{{- end -}}
-			{{- $profSlugs = $profSlugs | uniq -}}
+			{{- if .Resources.Match "silabo*.pdf" -}}
+				{{- $syllabi = $syllabi | append . -}}
+			{{- end -}}
+		{{- end -}}
+		{{- $profSlugs = $profSlugs | uniq -}}
+		{{- $syllabi = sort $syllabi "Params.semester" "desc" -}}
+		{{- if $profSlugs -}}
 			<div class="row text-start">
 				<div class="col-5 col-md-4 p-0">
 					<p class="fs-6">Profesores:</p>
@@ -43,38 +48,26 @@
 					<p class="fs-6">
 						{{- range $i, $slug := $profSlugs -}}
 							{{- if $i }} · {{ end -}}
-							{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
-							{{- with $prof -}}
-								{{- with .Params.honorific -}}{{ . }} {{ end -}}{{ .Title -}}
-							{{- else -}}
-								{{ $slug }}
-							{{- end -}}
+							{{- partial "components/professor-name.html" (partial "components/resolve-professor.html" $slug) -}}
 						{{- end -}}
 					</p>
 				</div>
 			</div>
-			{{- $syllabi := slice -}}
-			{{- range .Pages -}}
-				{{- if .Resources.Match "silabo*.pdf" -}}
-					{{- $syllabi = $syllabi | append . -}}
-				{{- end -}}
-			{{- end -}}
-			{{- $syllabi = sort $syllabi "Params.semester" "desc" -}}
-			{{- if $syllabi -}}
-				<div class="row text-start">
-					<div class="col-5 col-md-4 p-0">
-						<p class="fs-6">Sílabos:</p>
-					</div>
-					<div class="col-11 col-md-12 p-0">
-						<p class="fs-6">
-							{{- range $i, $o := $syllabi -}}
-								{{- if $i }} · {{ end -}}
-								<a href="{{ $o.RelPermalink }}">{{ $o.Params.semester }} →</a>
-							{{- end -}}
-						</p>
-					</div>
+		{{- end -}}
+		{{- if $syllabi -}}
+			<div class="row text-start">
+				<div class="col-5 col-md-4 p-0">
+					<p class="fs-6">Sílabos:</p>
 				</div>
-			{{- end -}}
+				<div class="col-11 col-md-12 p-0">
+					<p class="fs-6">
+						{{- range $i, $o := $syllabi -}}
+							{{- if $i }} · {{ end -}}
+							<a href="{{ $o.RelPermalink }}">{{ $o.Params.semester }} →</a>
+						{{- end -}}
+					</p>
+				</div>
+			</div>
 		{{- end -}}
 	</div>
 </div>

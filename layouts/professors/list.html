@@ -8,7 +8,7 @@
 				<div class="card h-100">
 					<div class="card-body">
 						<h5 class="card-title">
-							<a href="{{ .RelPermalink }}">{{ .Params.honorific }} {{ .Title }}</a>
+							<a href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
 						</h5>
 						{{ with .Params.institution }}
 							<p class="card-text text-muted small">{{ . | upper }}</p>

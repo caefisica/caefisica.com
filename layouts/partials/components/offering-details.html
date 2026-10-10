@@ -1,5 +1,7 @@
-{{- $slug := .Params.professor -}}
-{{- $prof := site.GetPage (printf "/professors/%s" $slug) -}}
+{{- $prof := false -}}
+{{- with .Params.professor -}}
+	{{- $prof = partial "components/resolve-professor.html" . -}}
+{{- end -}}
 <div class="description_border mt-3 mb-4">
 	<div class="text-center description_box mt-3 mb-3">
 		<div class="row text-start">
@@ -18,7 +20,7 @@
 				</div>
 				<div class="col-7 col-md-8 p-0">
 					<p class="fs-6">
-						<a href="{{ .RelPermalink }}">{{ .Params.honorific }} {{ .Title }}</a>
+						<a href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
 					</p>
 				</div>
 			</div>

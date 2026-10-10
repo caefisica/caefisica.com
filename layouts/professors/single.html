@@ -10,7 +10,7 @@
 				</ol>
 			</nav>
 
-			<h1>{{ .Params.honorific }} {{ .Title }}</h1>
+			<h1>{{ partial "components/professor-name.html" . }}</h1>
 			{{ with .Params.institution }}
 				<p class="text-muted">{{ . | upper }}</p>
 			{{ end }}
