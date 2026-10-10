@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Mapa del código: [architecture.md](architecture.md). Manual:
+Mapa del código: [docs/architecture.md](docs/architecture.md). Manual:
 [docs/readme.md](docs/readme.md).
 
 - Usa Bun (`bun.lock`). No uses npm.
@@ -16,8 +16,7 @@ Mapa del código: [architecture.md](architecture.md). Manual:
   `bun run lint:markdown`.
 - Un cambio de versión de Hugo o de Bun se aplica a la vez en todos los archivos
   que la fijan (ver [despliegue](docs/despliegue.md#versiones-de-herramientas)).
-- Las carpetas de curso se llaman con el código en mayúsculas y los sílabos con
-  `AAAA-I` o `AAAA-II`.
-- Los slugs de `contributors` y `professors` deben existir en `content/`.
+- Nombres de carpetas y slugs de `contributors` y `professors`:
+  [convenciones](docs/convenciones.md#nombres).
 - No edites `assets/js/vendor/`, `public/` ni `resources/`.
 - No registres claves ni archivos `.env`.

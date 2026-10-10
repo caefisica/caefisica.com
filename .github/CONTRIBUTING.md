@@ -41,7 +41,7 @@ Si no sabes en qué carpeta va un archivo nuevo, mira las
 
 Si agregas un curso, sigue [Agregar un curso](../docs/cursos.md). Los shortcodes
 disponibles están en [shortcodes](../docs/shortcodes.md). El mapa del código
-está en [architecture.md](../architecture.md).
+está en [arquitectura](../docs/architecture.md).
 
 ## Código de conducta
 

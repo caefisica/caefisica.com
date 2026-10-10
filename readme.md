@@ -23,20 +23,8 @@ bun install
 bun run hugo:start
 ```
 
-El servidor de desarrollo queda en <http://localhost:1313>. Las direcciones van
-en minúsculas: la guía del curso `CBE013` está en
-`/unmsm/pregrado/plan-2018/cbe013/`.
-
-Una guía es una carpeta con un `_index.md` y archivos YAML con los libros y las
-listas de reproducción que recomienda:
-
-```text
-content/unmsm/pregrado/plan-2018/CBE013/
-├── _index.md
-├── books-theoretical.yaml
-├── playlists.yaml
-└── 2022-I/index.md
-```
+El servidor de desarrollo queda en <http://localhost:1313>. La guía del curso
+`CBE013` está en <http://localhost:1313/unmsm/pregrado/plan-2018/cbe013/>.
 
 ## Qué incluye
 
@@ -54,7 +42,7 @@ content/unmsm/pregrado/plan-2018/CBE013/
 
 - [Manual](docs/readme.md): instalación, estructura del contenido, cómo agregar
   un curso, shortcodes y despliegue.
-- [Arquitectura](architecture.md): mapa del código.
+- [Arquitectura](docs/architecture.md): mapa del código.
 - [Contribuir](.github/CONTRIBUTING.md): cómo enviar cambios.
 
 ## Licencia
