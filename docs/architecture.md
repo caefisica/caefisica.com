@@ -34,15 +34,17 @@ content/ + data/ + config/ ──▶ layouts/ ──▶ hugo ──▶ public/ �
 `markup.toml`, `menus.toml`, `module.toml` y `params.toml`. `config/production/`
 y `config/next/` solo fijan `canonifyURLs = false`.
 
-- Taxonomías: `contributors`, `types`, `functionalities` y `topics`. Los
-  permalinks de `blog`, `types` y `functionalities` están en `[permalinks]`.
+- Taxonomías: `contributors`, `types` y `functionalities`. Los permalinks de
+  `blog`, `types` y `functionalities` están en `[permalinks]`.
 - `home` produce además `_redirects` y `_headers` (formatos de salida
   `REDIRECTS` y `HEADERS`), generados por `layouts/index.redirects` y
   `layouts/index.headers`. La política CSP sale de `data/fixes/headers.yml`.
+- `layouts/sitemap.xml` genera `/sitemap.xml`. Una página con
+  `sitemap_exclude: true` en el front matter no entra.
 - `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` de `node_modules` en
   `assets/js/vendor/` y las plantillas de `@thulite/images` en `layouts/`.
 - `params.toml` activa las funciones del sitio: `options` (lazysizes, KaTeX,
-  modo oscuro, resaltado), `search.provider = "algolia"` y `professors`.
+  modo oscuro, resaltado) y `search.provider = "algolia"`.
 
 ## Plantillas
 
@@ -64,20 +66,19 @@ scripts. Hugo elige la plantilla por tipo de contenido:
 `layouts/partials/` se divide en `head/`, `header/`, `footer/`, `sidebar/`,
 `main/` y `components/`. Los componentes de curso son:
 
-- `components/information_box.html`: código, créditos, prerrequisitos, docentes
-  y sílabos con PDF. Lo dibuja `layouts/docs/` en las páginas con
+- `components/information_box.html`: código, créditos y prerrequisitos de la
+  guía, más una fila «Profesores» con los docentes de sus sílabos y una fila
+  «Sílabos» con los semestres que tienen PDF. Cada fila aparece solo si tiene
+  datos. Lo dibuja `layouts/docs/single.html` en las páginas con
   `showInformationBox` e `id`.
-- `components/professors.html`: tabla de docentes y semestres. Hoy no se muestra
-  en ninguna página: solo la llama `layouts/docs/page.html`, que Hugo usa para
-  páginas regulares, y ninguna tiene `id`. Las guías de curso son secciones y se
-  dibujan con `layouts/docs/single.html`, que no la llama.
-- `components/offering-details.html`: cabecera de un sílabo. Busca al docente en
-  `content/professors/<slug>`.
+- `components/resolve-professor.html`: resuelve un slug de `professor` a
+  `content/professors/<slug>`. Si la carpeta no existe, la compilación falla.
+- `components/professor-name.html`: `honorific` y `title` de un docente. Lo usan
+  la caja de información, `offering-details.html` y `layouts/professors/`.
+- `components/offering-details.html`: cabecera de un sílabo. Muestra la fila
+  «Docente» solo si el sílabo tiene `professor`.
 - `components/resource-table.html`: tabla de libros o listas de reproducción
   desde un YAML del bundle. La llama el shortcode `resource-table`.
-- `components/topic-switcher.html`: «Cursos equivalentes». Busca solo entre las
-  páginas regulares (`site.RegularPages`), y las guías de curso son páginas de
-  sección (`_index.md`), así que hoy no se muestra en ninguna.
 - `sidebar/plan-nav.html`: menú lateral de un plan, agrupado por `semester`.
 - `components/resolve-contributors.html`: resuelve cada slug de `contributors` a
   `content/contributors/<slug>`. Reglas de los slugs:

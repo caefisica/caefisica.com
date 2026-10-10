@@ -24,26 +24,28 @@ bun run hugo:create content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_ind
 
 Campos del front matter que usan las plantillas:
 
-| Campo           | Uso                                                                                |
-| --------------- | ---------------------------------------------------------------------------------- |
-| `title`         | Nombre del curso.                                                                  |
-| `lead`          | Texto de apertura bajo el título.                                                  |
-| `description`   | Resumen para buscadores y redes sociales.                                          |
-| `id`            | Código del curso. Sin `id` no aparece la caja de información.                      |
-| `credits`       | Créditos, en la caja de información.                                               |
-| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.                      |
-| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.                 |
-| `topics`        | Lista de temas. «Cursos equivalentes» la lee, pero hoy no se muestra en las guías. |
-| `contributors`  | Slugs de `content/contributors/`. Ver [convenciones](convenciones.md#nombres).     |
-| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».                   |
-| `math`          | Con `true`, carga KaTeX para las fórmulas.                                         |
-| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                             |
-| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                                  |
-| `draft`         | Con `true`, la página no se publica.                                               |
+| Campo           | Uso                                                                            |
+| --------------- | ------------------------------------------------------------------------------ |
+| `title`         | Nombre del curso.                                                              |
+| `lead`          | Texto de apertura bajo el título.                                              |
+| `description`   | Resumen para buscadores y redes sociales.                                      |
+| `id`            | Código del curso. Sin `id` no aparece la caja de información.                  |
+| `credits`       | Créditos, en la caja de información.                                           |
+| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.                  |
+| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.             |
+| `contributors`  | Slugs de `content/contributors/`. Ver [convenciones](convenciones.md#nombres). |
+| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».               |
+| `math`          | Con `true`, carga KaTeX para las fórmulas.                                     |
+| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                         |
+| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                              |
+| `draft`         | Con `true`, la página no se publica.                                           |
 
 La caja de información (código, créditos, prerrequisitos, docentes y sílabos)
 aparece en las páginas de `content/unmsm/` que tienen `id`:
-`content/unmsm/_index.md` activa `showInformationBox` para sus descendientes.
+`content/unmsm/_index.md` activa `showInformationBox` para sus descendientes. La
+fila «Profesores» reúne el `professor` de los sílabos de la guía, sin
+repetirlos. La fila «Sílabos» enlaza, del semestre más reciente al más antiguo,
+cada sílabo que tiene un `silabo*.pdf`. Una fila sin datos no se dibuja.
 
 El cuerpo es Markdown. Los libros y las listas de reproducción se insertan con
 el shortcode `resource-table`:
@@ -123,9 +125,10 @@ layout: "offering"
 ```
 
 `professor` es el slug de un docente (ver
-[convenciones](convenciones.md#nombres)). La página del sílabo muestra el
-semestre, el docente y cada archivo `silabo*.pdf` en un visor. Sin PDF muestra
-«No hay sílabo disponible para este semestre».
+[convenciones](convenciones.md#nombres)); si no existe esa carpeta, la
+compilación falla. Sin `professor` el sílabo no muestra la fila «Docente». La
+página del sílabo muestra el semestre, el docente y cada archivo `silabo*.pdf`
+en un visor. Sin PDF muestra «No hay sílabo disponible para este semestre».
 
 ## Docentes
 

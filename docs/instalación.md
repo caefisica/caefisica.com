@@ -58,8 +58,9 @@ las direcciones: [convenciones](convenciones.md#nombres).
 | `bun run hugo:create`      | Alias de `hugo new`. Ver [convenciones](convenciones.md#crear-un-archivo).   |
 | `bun run screenshots`      | Genera las capturas de `content/experimental` con Playwright.                |
 
-`bun run lint:markdown` ejecuta `markdownlint-cli2` con `fix: true`, así que
-corrige los Markdown que puede.
+`bun run lint:markdown` ejecuta `markdownlint-cli2 "**/*.md" "!node_modules/**"`
+sin opciones. `.markdownlint-cli2.jsonc` fija `fix: true`, así que corrige los
+Markdown que puede.
 
 ### Capturas
 
@@ -77,7 +78,10 @@ de carpeta para limitar la ejecución:
 bun run screenshots aps.org
 ```
 
-Termina con error si no encuentra carpetas o si ninguna captura sale bien.
+Si el `link` responde con un estado HTTP de error, no guarda la captura,
+conserva la imagen anterior y lo avisa (en GitHub Actions, como `::warning`).
+Cuenta esos enlaces aparte en el resumen final. Termina con error si no
+encuentra carpetas o si ninguna captura sale bien.
 
 ## Antes de enviar un cambio
 

@@ -37,9 +37,8 @@ La guía del curso `CBO106` es
 | YAML de recursos       | Cualquier nombre; el shortcode lo cita.       | `books-theoretical.yaml`, `playlists.yaml` |
 
 Un slug de `contributors` en el front matter debe existir como carpeta en
-`content/contributors/`; si no, la compilación falla. El campo `professor` de un
-sílabo debe coincidir con una carpeta de `content/professors/`; si no, la página
-no enlaza al docente.
+`content/contributors/`; si no, la compilación falla. Lo mismo vale para el
+campo `professor` de un sílabo y las carpetas de `content/professors/`.
 
 Hugo pone las direcciones en minúsculas: `CBE013` se publica en
 `/unmsm/pregrado/plan-2018/cbe013/`.
