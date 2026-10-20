@@ -24,7 +24,7 @@ content/ + data/ + config/ ──▶ layouts/ ──▶ hugo ──▶ public/ �
 | `archetypes/`                               | Moldes de `hugo new`.                                                                                                                                                              |
 | `functions/`                                | Función de Netlify `submission-created`.                                                                                                                                           |
 | `scripts/`                                  | `screenshots.ts`, genera las capturas de `content/experimental`.                                                                                                                   |
-| `.github/`                                  | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`. La auditoría Lighthouse mide `https://web.caefisica.workers.dev/`; ver [flujos](despliegue.md#flujos-de-github). |
+| `.github/`                                  | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`. La auditoría Lighthouse mide `https://web.empirical.workers.dev/`; ver [flujos](despliegue.md#flujos-de-github). |
 | `netlify.toml`, `wrangler.toml`, `build.sh` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                       |
 | `.pages.yml`                                | Esquema de los campos de Pages CMS.                                                                                                                                                |
 
