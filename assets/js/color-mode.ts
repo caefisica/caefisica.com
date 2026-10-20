@@ -20,9 +20,9 @@ const toggleTheme = (): void => {
   setTheme(current === "dark" ? "light" : "dark");
 };
 
-const initTheme = (): void => {
-  setTheme(getPreferredTheme());
+setTheme(getPreferredTheme());
 
+const initTheme = (): void => {
   window
     .matchMedia("(prefers-color-scheme: dark)")
     .addEventListener("change", (e) => setTheme(e.matches ? "dark" : "light"));

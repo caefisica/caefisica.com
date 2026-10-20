@@ -1,5 +1,9 @@
 {{- if .Site.Params.options.darkMode -}}
-	{{- partial "footer/render-script" (dict "src" "js/color-mode.ts" "load" "none") }}
+	{{- /* El tema se aplica antes del primer pintado sin pedir un archivo bloqueante. */ -}}
+	{{- $opts := dict "target" "es2020" "minify" hugo.IsProduction -}}
+	{{- with resources.Get "js/color-mode.ts" | js.Build $opts }}
+		<script>{{ .Content | safeJS }}</script>
+	{{- end }}
 {{- end -}}
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
 	{{- partial "footer/render-script" (dict "src" "js/dismissable-alert.ts" "load" "none") }}
