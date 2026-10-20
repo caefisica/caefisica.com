@@ -2,15 +2,16 @@ name: lighthouse
 
 on:
   workflow_dispatch:
-  push:
-    branches: [master]
-    paths:
-      - "layouts/**"
-      - "assets/**"
-      - "functions/**"
+  check_run:
+    types: [completed]
 
 jobs:
   lighthouse:
+    # Cloudflare reports its deploy as a check run, not a workflow. Wait for it to succeed on master before auditing.
+    if: >-
+      github.event_name == 'workflow_dispatch' || (github.event.check_run.name
+      == 'Workers Builds: web' && github.event.check_run.conclusion == 'success'
+      && github.event.check_run.check_suite.head_branch == 'master')
     runs-on: ubuntu-latest
 
     steps:
