@@ -9,9 +9,9 @@ jobs:
   generate-screenshots:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
-      - uses: jdx/mise-action@v5
+      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5
 
       - run: mise run install
 
@@ -22,7 +22,7 @@ jobs:
       - id: vars
         run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> "$GITHUB_ENV"
 
-      - uses: peter-evans/create-pull-request@v8.1.1
+      - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           commit-message: "content: update screenshots"
           title: "Screenshots update"

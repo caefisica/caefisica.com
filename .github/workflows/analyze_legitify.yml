@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Legitify
-        uses: Legit-Labs/legitify@v1.0.11
+        uses: Legit-Labs/legitify@002049404ef93b207048323fe996eb2330327031 # v1.0.11
         with:
           github_token: ${{ secrets.PAT_FOR_LEGITIFY }}
           repositories: caefisica/web
