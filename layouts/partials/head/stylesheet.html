@@ -17,13 +17,31 @@
 			<link rel="stylesheet" href="{{ .RelPermalink }}" />
 		{{- end -}}
 	{{- else -}}
-		{{- with . | toCSS (merge $opts (dict "outputStyle" "compressed")) | postCSS (dict "config" "config/postcss.config.js") | fingerprint "sha512" -}}
+		{{- with . | toCSS (merge $opts (dict "outputStyle" "compressed")) | postCSS (dict "config" "config/postcss.config.js") -}}
+			{{- if eq $.Kind "home" -}}
+				{{- /* La portada usa esta hoja en línea. El primer pintado no espera otra petición. */ -}}
+				<style>{{ .Content | safeCSS }}</style>
+			{{- else -}}
+				{{- with . | fingerprint "sha512" -}}
+					<link
+						rel="stylesheet"
+						href="{{ .RelPermalink }}"
+						integrity="{{ .Data.Integrity }}"
+						crossorigin="anonymous"
+					/>
+				{{- end -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- if .Params.math -}}
+	{{- with resources.Get "scss/katex.scss" -}}
+		{{- with . | toCSS (dict "transpiler" "dartsass" "targetPath" "katex.css" "includePaths" (slice "node_modules") "outputStyle" "compressed" "quietDeps" true "silenceDeprecations" (slice "import")) | fingerprint "sha512" -}}
 			<link
 				rel="stylesheet"
 				href="{{ .RelPermalink }}"
 				integrity="{{ .Data.Integrity }}"
-				crossorigin="anonymous"
-			/>
+				crossorigin="anonymous" />
 		{{- end -}}
 	{{- end -}}
 {{- end -}}

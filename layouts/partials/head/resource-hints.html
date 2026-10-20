@@ -16,7 +16,7 @@
 		href="https://{{ .Site.Params.search.appId }}-dsn.algolia.net"
 		crossorigin />
 {{ end -}}
-{{ if .Site.Params.options.kaTex -}}
+{{ if and .Site.Params.options.kaTex .Params.math -}}
 	<link
 		rel="preload"
 		as="font"
