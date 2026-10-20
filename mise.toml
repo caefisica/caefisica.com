@@ -1,5 +1,5 @@
 [tools]
-wrangler = "4.151.1"
+wrangler = "4.151.2"
 bun = "1.4.3"
 go = "1.27.2"
 hugo-extended = "0.168.0"
