@@ -13,20 +13,20 @@ content/ + data/ + config/ ──▶ layouts/ ──▶ hugo ──▶ public/ �
 
 ## Mapa del código
 
-| Ruta                                        | Responsabilidad                                                                   |
-| ------------------------------------------- | --------------------------------------------------------------------------------- |
-| `content/`                                  | Páginas en Markdown, YAML de recursos y PDF. Ver [convenciones](convenciones.md). |
-| `layouts/`                                  | Plantillas Go de Hugo, shortcodes y parciales.                                    |
-| `assets/`                                   | SCSS, TypeScript, fuentes e iconos que Hugo compila.                              |
-| `static/`                                   | Archivos que se copian tal cual: favicons, imágenes, fuentes.                     |
-| `data/`                                     | JSON y YAML leídos con `hugo.Data`.                                               |
-| `config/`                                   | Configuración de Hugo por entorno y de PostCSS.                                   |
-| `archetypes/`                               | Moldes de `hugo new`.                                                             |
-| `functions/`                                | Función de Netlify `submission-created`.                                          |
-| `scripts/`                                  | `screenshots.ts`, genera las capturas de `content/experimental`.                  |
-| `.github/`                                  | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                 |
-| `netlify.toml`, `wrangler.toml`, `build.sh` | Despliegue. Ver [despliegue](despliegue.md).                                      |
-| `.pages.yml`                                | Esquema de los campos de Pages CMS.                                               |
+| Ruta                                        | Responsabilidad                                                                                                                                                                    |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `content/`                                  | Páginas en Markdown, YAML de recursos y PDF. Ver [convenciones](convenciones.md).                                                                                                  |
+| `layouts/`                                  | Plantillas Go de Hugo, shortcodes y parciales.                                                                                                                                     |
+| `assets/`                                   | SCSS, TypeScript, fuentes e iconos que Hugo compila.                                                                                                                               |
+| `static/`                                   | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                                                                                      |
+| `data/`                                     | JSON y YAML leídos con `hugo.Data`.                                                                                                                                                |
+| `config/`                                   | Configuración de Hugo por entorno y de PostCSS.                                                                                                                                    |
+| `archetypes/`                               | Moldes de `hugo new`.                                                                                                                                                              |
+| `functions/`                                | Función de Netlify `submission-created`.                                                                                                                                           |
+| `scripts/`                                  | `screenshots.ts`, genera las capturas de `content/experimental`.                                                                                                                   |
+| `.github/`                                  | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`. La auditoría Lighthouse mide `https://web.caefisica.workers.dev/`; ver [flujos](despliegue.md#flujos-de-github). |
+| `netlify.toml`, `wrangler.toml`, `build.sh` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                       |
+| `.pages.yml`                                | Esquema de los campos de Pages CMS.                                                                                                                                                |
 
 ## Configuración
 
