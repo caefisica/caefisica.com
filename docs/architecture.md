@@ -91,17 +91,31 @@ Los shortcodes están en `layouts/shortcodes/` y se describen en
 
 - `layouts/partials/head/stylesheet.html` compila `assets/scss/app.scss` (y
   `assets/scss/home.scss` en la portada) con Dart Sass. En producción pasa por
-  PostCSS (`config/postcss.config.js`: autoprefixer y PurgeCSS) y se
-  fingerprinta. PurgeCSS lee `layouts/**/*.html` y `content/**/*.md`: una clase
-  que solo aparece en otro lugar se elimina salvo que esté en su `safelist`.
+  PostCSS (`config/postcss.config.js`: autoprefixer y PurgeCSS). La hoja de la
+  portada va en línea en un `<style>`; las demás páginas enlazan `main.css`
+  fingerprinteado. PurgeCSS lee `layouts/**/*.html` y `content/**/*.md`: una
+  clase que solo aparece en otro lugar se elimina salvo que esté en su
+  `safelist`. El CSS de KaTeX está aparte (`assets/scss/katex.scss`, salida
+  `katex.css`) y solo se enlaza con `math: true`.
+- `layouts/partials/head/script-header.html` pone el script de modo oscuro
+  (`assets/js/color-mode.ts`) en línea, para aplicar el tema antes del primer
+  pintado sin pedir un archivo que bloquee el render.
 - `layouts/partials/footer/script-footer.html` compila los `.ts` de `assets/js/`
   con esbuild (`js.Build`). El paquete base (`main.js`) reúne newsletter y
   atajos de teclado, más lazysizes, clipboard e instant.page cuando
-  `params.toml` los activa. Bootstrap y highlight.js se cargan aparte, según
-  `params.toml`. KaTeX se carga con `math: true` en el front matter y Mermaid
-  con `mermaid: true`. El buscador solo se carga en la portada y en `unmsm` y
-  `apuntes`, las páginas que tienen su caja de búsqueda
-  (`components/is-search-enabled.html`).
+  `params.toml` los activa. Bootstrap (solo `collapse`, `dropdown` y
+  `offcanvas`, en `assets/js/bootstrap.ts`) y highlight.js se cargan aparte,
+  según `params.toml`; highlight.js solo en páginas con un bloque `<pre`. KaTeX
+  se carga con `math: true` en el front matter y Mermaid con `mermaid: true`. El
+  buscador solo se carga en la portada y en `unmsm` y `apuntes`, las páginas que
+  tienen su caja de búsqueda (`components/is-search-enabled.html`).
+- `main.js`, `bootstrap.ts` y el buscador se piden cuando termina `load`
+  (`partials/footer/load-after.html`), para que sus peticiones no compitan con
+  el primer pintado. Corren después de `DOMContentLoaded`: un script que se sume
+  a ellos no debe esperar ese evento. La API de YouTube se pide al primer clic
+  en reproducir (`assets/js/player.ts`).
+- Las dos fuentes Jost de `head/resource-hints.html` (400 y 700) se precargan a
+  propósito: sin la precarga, el cambio de fuente desplaza el texto (CLS).
 - `assets/js/vendor/` se llena con los montajes de `module.toml`; no se edita.
 
 ## Boletín
