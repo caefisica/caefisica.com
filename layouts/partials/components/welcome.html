@@ -23,7 +23,7 @@
 		<div class="col-lg-7 d-none d-lg-block">
 			{{ with hugo.Data.fixes.frontpage -}}
 				<div class="hero_figure position-relative ms-auto">
-					<img class="img-hero-mask w-100 h-100" src="{{ .image | relURL }}" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
+					<img class="img-hero-mask w-100 h-100" loading="lazy" src="{{ .image | relURL }}" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
 
 					{{ if .videoURL -}}
 						<div class="hero_figure-popup position-absolute">
