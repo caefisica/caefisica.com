@@ -3,8 +3,8 @@ Builds a JS/TS asset with esbuild. Minifies and adds SRI fingerprint in producti
 
 Usage: partial "footer/render-script" (dict "src" "js/foo.ts" "load" "defer")
 Pass load "none" to omit the defer/async attribute (e.g. for blocking head scripts).
-Pass load "after-load" for code the first paint does not need.
-The script runs after DOMContentLoaded.
+Pass load "after-load" for code the first paint does not need. The script runs
+after DOMContentLoaded.
 Pass params (a dict) to read it in the script with `import params from "@params"`.
 */ -}}
 
