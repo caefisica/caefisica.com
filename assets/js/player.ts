@@ -1,6 +1,22 @@
 /// <reference types="youtube" />
 
+interface YouTubeWindow {
+  onYouTubeIframeAPIReady?: () => void;
+}
+
 let player: YT.Player | null = null;
+let apiReady: Promise<void> | null = null;
+
+// YouTube solo se necesita al reproducir. La API se carga en el primer clic.
+function loadApi(): Promise<void> {
+  apiReady ??= new Promise((resolve) => {
+    (window as YouTubeWindow).onYouTubeIframeAPIReady = resolve;
+    const script = document.createElement("script");
+    script.src = "https://www.youtube.com/iframe_api";
+    document.head.append(script);
+  });
+  return apiReady;
+}
 
 function init(): void {
   const playButton = document.querySelector<HTMLButtonElement>("#play-video");
@@ -11,12 +27,13 @@ function init(): void {
   playButton.addEventListener("click", playVideo);
   closeButton.addEventListener("click", closeVideo);
 
-  function playVideo(): void {
+  async function playVideo(): Promise<void> {
     const videoId = playButton!.getAttribute("data-video-id") ?? "";
     document.querySelector(".cover_play")?.classList.remove("d-none");
     document.querySelector(".player_container")?.classList.remove("d-none");
     document.querySelector("#close-button")?.classList.remove("d-none");
 
+    await loadApi();
     player?.destroy();
 
     player = new YT.Player("player", {

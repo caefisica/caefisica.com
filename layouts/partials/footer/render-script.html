@@ -3,6 +3,8 @@ Builds a JS/TS asset with esbuild. Minifies and adds SRI fingerprint in producti
 
 Usage: partial "footer/render-script" (dict "src" "js/foo.ts" "load" "defer")
 Pass load "none" to omit the defer/async attribute (e.g. for blocking head scripts).
+Pass load "after-load" for code the first paint does not need.
+The script runs after DOMContentLoaded.
 Pass params (a dict) to read it in the script with `import params from "@params"`.
 */ -}}
 
@@ -12,20 +14,28 @@ Pass params (a dict) to read it in the script with `import params from "@params"
 	{{- $opts = merge $opts (dict "params" .) -}}
 {{- end -}}
 {{- $rawLoad := .load | default "defer" -}}
-{{- $load := cond (eq $rawLoad "none") "" $rawLoad -}}
+{{- $load := cond (in (slice "none" "after-load") $rawLoad) "" $rawLoad -}}
 {{- with resources.Get .src -}}
 	{{- with . | js.Build $opts -}}
+		{{- $attrs := dict -}}
 		{{- if $isProd -}}
 			{{- with . | fingerprint -}}
-				<script
-					src="{{ .RelPermalink }}"
-					integrity="{{ .Data.Integrity }}"
-					crossorigin="anonymous"
-					{{ $load | safeHTMLAttr }}
-				></script>
+				{{- $attrs = dict "src" .RelPermalink "integrity" .Data.Integrity "crossOrigin" "anonymous" -}}
 			{{- end -}}
 		{{- else -}}
-			<script src="{{ .RelPermalink }}" {{ $load | safeHTMLAttr }}></script>
+			{{- $attrs = dict "src" .RelPermalink -}}
+		{{- end -}}
+		{{- if eq $rawLoad "after-load" -}}
+			{{- partial "footer/load-after" $attrs -}}
+		{{- else if $isProd -}}
+			<script
+				src="{{ $attrs.src }}"
+				integrity="{{ $attrs.integrity }}"
+				crossorigin="anonymous"
+				{{ $load | safeHTMLAttr }}
+			></script>
+		{{- else -}}
+			<script src="{{ $attrs.src }}" {{ $load | safeHTMLAttr }}></script>
 		{{- end -}}
 	{{- end -}}
 {{- end -}}

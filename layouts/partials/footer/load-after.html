@@ -1,0 +1,7 @@
+{{- /*
+Loads a script once the page has loaded, so its request does not compete with the first paint.
+The script runs after DOMContentLoaded and must not wait for that event.
+Usage: partial "footer/load-after" (dict "src" "/js/foo.js" "integrity" "sha512-..." "crossOrigin" "anonymous")
+The integrity and crossOrigin fields are optional.
+*/ -}}
+<script>addEventListener("load",()=>document.head.append(Object.assign(document.createElement("script"),{{ . | jsonify | safeJS }})),{once:true})</script>

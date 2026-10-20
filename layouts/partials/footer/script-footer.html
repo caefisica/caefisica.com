@@ -2,12 +2,12 @@
 {{- $searchEnabled := partial "components/is-search-enabled.html" . -}}
 
 {{- if $searchEnabled -}}
-	{{ partial "footer/render-script" (dict "src" "js/docsearch.ts" "load" "defer" "params" (dict "appId" .Site.Params.search.appId)) }}
+	{{ partial "footer/render-script" (dict "src" "js/docsearch.ts" "load" "after-load" "params" (dict "appId" .Site.Params.search.appId)) }}
 {{- end -}}
 {{- if .Site.Params.options.bootStrapJs -}}
-	{{ partial "footer/render-script" (dict "src" "js/bootstrap.ts" "load" "defer") }}
+	{{ partial "footer/render-script" (dict "src" "js/bootstrap.ts" "load" "after-load") }}
 {{- end -}}
-{{- if .Site.Params.options.highLight -}}
+{{- if and .Site.Params.options.highLight (strings.Contains .Content "<pre") -}}
 	{{ partial "footer/render-script" (dict "src" "js/highlight.ts" "load" "defer") }}
 {{- end -}}
 {{- if .Params.math -}}
@@ -47,13 +47,12 @@
 {{- $mainJs := $bundle | resources.Concat "main.js" -}}
 {{- if $isProd -}}
 	{{- with $mainJs | fingerprint "sha512" -}}
-		<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+		{{- partial "footer/load-after" (dict "src" .RelPermalink "integrity" .Data.Integrity "crossOrigin" "anonymous") -}}
 	{{- end -}}
 {{- else -}}
-	<script src="{{ $mainJs.RelPermalink }}" defer></script>
+	{{- partial "footer/load-after" (dict "src" $mainJs.RelPermalink) -}}
 {{- end -}}
 
 {{- if eq .Kind "home" -}}
 	{{ partial "footer/render-script" (dict "src" "js/player.ts" "load" "defer") }}
-	<script src="https://www.youtube.com/iframe_api" defer></script>
 {{- end -}}
