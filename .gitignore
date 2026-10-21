@@ -8,7 +8,9 @@ hugo_stats.json
 static/fonts
 assets/jsconfig.json
 
-# sensitive varibles
+# sensitive variables
 .env
+.env.*
+!.env.example
 .hugo_build.lock
 .netlify
