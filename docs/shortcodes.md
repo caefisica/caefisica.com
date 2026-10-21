@@ -26,11 +26,11 @@ Aviso con un icono. El texto va en `text` o entre las etiquetas.
 {{< alert icon="📌" text="Este curso requiere Cálculo II." />}}
 ```
 
-| Parámetro | Valores                                                           |
-| --------- | ----------------------------------------------------------------- |
-| `icon`    | Texto o emoji que se muestra a la izquierda.                      |
-| `context` | Variante de Bootstrap: `warning` (por defecto), `info`, `danger`… |
-| `text`    | Contenido HTML. Si falta se usa el contenido interior.            |
+| Parámetro | Valores                                                                                            |
+| --------- | -------------------------------------------------------------------------------------------------- |
+| `icon`    | Texto o emoji que se muestra a la izquierda.                                                       |
+| `context` | Variante de color: `warning` (por defecto), `info`, `danger`, `primary`, `dark`, `light` o `white` |
+| `text`    | Contenido HTML. Si falta se usa el contenido interior.                                             |
 
 ## `infobox-alert`
 

@@ -7,7 +7,7 @@ scripts viven en este repositorio. `hugo` genera HTML estático en `public/`,
 
 ```text
 content/ + data/ + config/ ──▶ layouts/ ──▶ hugo ──▶ pagefind ──▶ public/ ──▶ Cloudflare
-                               assets/ ──▶ esbuild + Dart Sass + PostCSS
+                               assets/ ──▶ esbuild + Tailwind CSS
 ```
 
 ## Mapa del código
@@ -16,10 +16,10 @@ content/ + data/ + config/ ──▶ layouts/ ──▶ hugo ──▶ pagefind 
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | `content/`                      | Páginas en Markdown, YAML de recursos y PDF. Ver [convenciones](convenciones.md).                               |
 | `layouts/`                      | Plantillas Go de Hugo, shortcodes y parciales.                                                                  |
-| `assets/`                       | SCSS, TypeScript, fuentes e iconos que Hugo compila.                                                            |
+| `assets/`                       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                             |
 | `static/`                       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                   |
 | `data/`                         | JSON y YAML leídos con `hugo.Data`.                                                                             |
-| `config/`                       | Configuración de Hugo por entorno y de PostCSS.                                                                 |
+| `config/`                       | Configuración de Hugo por entorno.                                                                              |
 | `archetypes/`                   | Moldes de `hugo new`.                                                                                           |
 | `scripts/`                      | `screenshots.ts`, genera las capturas de `content/experimental`.                                                |
 | `.github/`                      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`. Ver [flujos](despliegue.md#flujos-de-github). |
@@ -86,28 +86,30 @@ Los shortcodes están en `layouts/shortcodes/` y se describen en
 
 ## Estilos y scripts
 
-- `layouts/partials/head/stylesheet.html` compila `assets/scss/app.scss` (y
-  `assets/scss/home.scss` en la portada) con Dart Sass. En producción pasa por
-  PostCSS (`config/postcss.config.js`: autoprefixer y PurgeCSS). La hoja de la
-  portada va en línea en un `<style>`; las demás páginas enlazan `main.css`
-  fingerprinteado. PurgeCSS lee `layouts/**/*.html` y `content/**/*.md`: una
-  clase que solo aparece en otro lugar se elimina salvo que esté en su
-  `safelist`. El CSS de KaTeX está aparte (`assets/scss/katex.scss`, salida
-  `katex.css`) y solo se enlaza con `math: true`.
+- `layouts/partials/head/stylesheet.html` compila `assets/css/app.css` con
+  `css.TailwindCSS` (Tailwind CSS v4). Hugo genera `hugo_stats.json`
+  (`build.buildStats.enable`) y `app.css` lo lee con `@source`, así que solo se
+  emiten las utilidades que usan las plantillas; una clase que solo aparece en
+  otro lugar no se genera. La hoja de la portada va en línea en un `<style>`;
+  las demás páginas la enlazan fingerprinteada. El CSS de KaTeX está aparte
+  (`katex.min.css` del paquete) y solo se enlaza con `math: true`. Las hojas de
+  la página de enlaces (`assets/css/links.css`) y del fantasma del 404
+  (`assets/css/mascot.css`) se cargan solo donde se usan.
 - `layouts/partials/head/script-header.html` pone el script de modo oscuro
   (`assets/js/color-mode.ts`) en línea, para aplicar el tema antes del primer
   pintado sin pedir un archivo que bloquee el render.
 - `layouts/partials/footer/script-footer.html` compila los `.ts` de `assets/js/`
-  con esbuild (`js.Build`). El paquete base (`main.js`) reúne los atajos de
-  teclado, más lazysizes, clipboard e instant.page cuando `params.toml` los
-  activa. Bootstrap (solo `collapse`, `dropdown` y `offcanvas`, en
-  `assets/js/bootstrap.ts`) y highlight.js se cargan aparte, según
-  `params.toml`; highlight.js solo en páginas con un bloque `<pre`. KaTeX se
-  carga con `math: true` en el front matter y Mermaid con `mermaid: true`. El
-  buscador (`assets/js/search.ts`, la interfaz de Pagefind) solo se carga en la
-  portada y en `unmsm` y `apuntes`, las páginas que tienen su caja de búsqueda
+  con esbuild (`js.Build`). El paquete base (`main.js`) reúne la navegación
+  (`assets/js/navigation.ts`: el menú principal es un `popover`, los menús del
+  encabezado son `<details>` y los niveles de la barra lateral se abren con
+  `data-toggle`), los atajos de teclado, más lazysizes, clipboard e instant.page
+  cuando `params.toml` los activa. highlight.js se carga aparte y solo en
+  páginas con un bloque `<pre`. KaTeX se carga con `math: true` en el front
+  matter y Mermaid con `mermaid: true`. El buscador (`assets/js/search.ts`, la
+  interfaz de Pagefind) solo se carga en la portada y en `unmsm` y `apuntes`,
+  las páginas que tienen su caja de búsqueda
   (`components/is-search-enabled.html`).
-- `main.js`, `bootstrap.ts` y el buscador se piden cuando termina `load`
+- `main.js` y el buscador se piden cuando termina `load`
   (`partials/footer/load-after.html`), para que sus peticiones no compitan con
   el primer pintado. Corren después de `DOMContentLoaded`: un script que se sume
   a ellos no debe esperar ese evento. La API de YouTube se pide al primer clic

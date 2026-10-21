@@ -36,10 +36,10 @@ copia las fuentes de KaTeX a `static/fonts/`, ejecuta
 `hugo server --bind=127.0.0.1 --port=1313 --disableFastRender` y sirve el sitio
 en <http://localhost:1313>. Recarga el navegador cuando guardas un archivo.
 
-Ejecuta Hugo siempre con `mise run`. Hugo compila el SCSS con el programa
-`sass`, y `mise.toml` pone `node_modules/.bin` en el `PATH` de las tareas, donde
-`sass-embedded` lo aporta. Si llamas a `hugo` directamente, necesitas Dart Sass
-en el `PATH`.
+Ejecuta Hugo siempre con `mise run`. Hugo compila `assets/css/app.css` con
+`css.TailwindCSS`, que llama al binario `tailwindcss`, y `mise.toml` pone
+`node_modules/.bin` en el `PATH` de las tareas. Si llamas a `hugo` directamente,
+necesitas `tailwindcss` en el `PATH`.
 
 El servidor no publica las páginas con `draft: true` y responde 404. Para ver
 una página nueva en local, pon `draft: false` en su front matter. Cómo se forman
@@ -62,13 +62,12 @@ las direcciones: [convenciones](convenciones.md#nombres).
 | `mise run screenshots`     | Genera las capturas de `content/experimental` con Playwright.                            |
 | `mise run install:browser` | Instala Chromium para `screenshots`.                                                     |
 
-`lint` se divide en `lint:scripts` (`oxlint`), `lint:styles` (`stylelint`),
-`lint:templates` (`gotmplfmt -l layouts data`), `lint:markdown`
-(`markdownlint-cli2`) y `lint:format` (`oxfmt --check .`). `oxfmt` da formato a
-los scripts, los Markdown, los YAML y los JSON; no toca `layouts/`,
-`assets/scss/`, el código de terceros (`vendor/`) ni los archetypes
-`offering.md`, `professor.md` y `tutorial.md`, porque `oxfmt` rompe la acción de
-Hugo de su front matter (`date: {{ .Date }}`).
+`lint` se divide en `lint:scripts` (`oxlint`), `lint:templates`
+(`gotmplfmt -l layouts data`), `lint:markdown` (`markdownlint-cli2`) y
+`lint:format` (`oxfmt --check .`). `oxfmt` da formato a los scripts, los
+Markdown, los YAML y los JSON; no toca `layouts/`, el código de terceros
+(`vendor/`) ni los archetypes `offering.md`, `professor.md` y `tutorial.md`,
+porque `oxfmt` rompe la acción de Hugo de su front matter (`date: {{ .Date }}`).
 
 ### Capturas
 
