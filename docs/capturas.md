@@ -21,10 +21,9 @@ mise run screenshots aps.org
 ```
 
 - Si el `link` responde con un estado HTTP de error, no guarda la captura,
-  conserva la imagen anterior y lo avisa (en GitHub Actions, como `::warning`).
+  conserva la imagen anterior y lo avisa.
 - Omite, con un mensaje de error, las carpetas sin archivo coincidente o con
   otro formato.
 - Termina con error si no encuentra carpetas o si ninguna captura sale bien.
 
-El flujo [`screen capture`](../.github/workflows/generate_screenshots.yml) corre
-la tarea el día 1 de cada mes y abre un pull request con las capturas nuevas.
+Ningún flujo de GitHub ejecuta la tarea. Revisa las imágenes antes de enviarlas.
