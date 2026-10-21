@@ -1,42 +1,84 @@
 # Despliegue
 
-El sitio se publica en `https://web.empirical.workers.dev/`, el Worker `web` de
-Cloudflare. Sirve la carpeta `public/` que genera `mise run build`: `hugo` y
-después `pagefind`. El host sale de `baseURL` en
+El sitio se publica en `https://web.caefisica.workers.dev/`, el Worker `web` de
+la cuenta `caefisica` de Cloudflare. Sirve la carpeta `public/` que genera
+`mise run build`: `hugo` y después `pagefind`. El host sale de `baseURL` en
 [`config/_default/config.toml`](../config/_default/config.toml); cámbialo solo
 ahí.
 
 ## Cloudflare
 
-[`wrangler.toml`](../wrangler.toml) define el proyecto `web`:
+[`wrangler.toml`](../wrangler.toml) define el Worker:
 
-- `build.command` ejecuta [`build.sh`](../build.sh).
+- `account_id` es la cuenta que recibe el despliegue.
 - `assets.directory = "./public"` sirve el sitio; las rutas inexistentes
   devuelven `404.html` (`not_found_handling = "404-page"`).
 
-`build.sh` instala su propia copia de mise en `~/.local/bin` e ignora el mise y
-las variables `MISE_*` de la imagen de compilación. Después instala las
-herramientas de `mise.toml` (sin `wrangler`, `go` ni `gotmplfmt`), antepone al
-`PATH` el `node` de mise, porque Hugo ejecuta `postcss` con el primer `node` que
-encuentra, completa el historial de git si el clon es superficial y ejecuta
-`mise run install` y `mise run build`. Hugo necesita el historial completo
-porque `enableGitInfo` calcula la fecha de última modificación de cada página
-desde git.
+## Publicación
 
-`bash build.sh -b <url>` compila con ese `baseURL` en lugar del de
-`config.toml`.
+El trabajo `deploy` de [`ci.yml`](../.github/workflows/ci.yml) publica el sitio.
+Necesita el trabajo `check` y corre en un push a `master` o al lanzar el flujo a
+mano sobre `master`. Sus pasos:
 
-El paso de compilación de Workers Builds es el campo **Build command** de
-_Settings > Build_ del Worker `web` en el panel de Cloudflare. Debe ser
-`bash build.sh`. El campo **Deploy command** se queda en `npx wrangler deploy`.
+1. Falla con un mensaje que nombra cada secreto ausente: `CLOUDFLARE_API_TOKEN`,
+   `NETLIFY_AUTH_TOKEN` o la variable `NETLIFY_SITE_ID`.
+2. Clona el repositorio con todo el historial, porque `enableGitInfo` calcula la
+   fecha de última modificación de cada página desde git.
+3. Instala las herramientas de `mise.toml` y las dependencias.
+4. Ejecuta `mise run deploy`. Compila una vez con `mise run build` y sube
+   `public/` a Cloudflare (`wrangler deploy`) y a Netlify
+   (`netlify deploy --prod`).
 
-## Netlify
+Los despliegues hacen cola: uno nuevo espera a que termine el que está en curso.
+Cuando `deploy` termina bien, el trabajo `lighthouse` audita el sitio de
+Cloudflare. Netlify recibe la carpeta ya construida y este repositorio no le
+define ningún comando de compilación. Un sitio de Netlify enlazado a un
+repositorio de Git compila por su cuenta además de recibir la carga de Actions:
+desvincúlalo en **Project configuration > Build & deploy > Continuous
+deployment > Link repository**. De [`netlify.toml`](../netlify.toml) solo se usa
+`[dev]`, para `netlify dev`.
 
-El sitio `caefis` de Netlify compila las vistas previas de cada pull request y
-de las ramas con [`netlify.toml`](../netlify.toml): publica `public/` y ejecuta
-`bash build.sh -b $DEPLOY_PRIME_URL`, así que cada vista previa usa su propio
-host como `baseURL`. El plugin `netlify-plugin-cloudinary` carga las imágenes de
-Cloudinary. La producción es solo el Worker de Cloudflare.
+El trabajo `preview` corre en cada pull request del propio repositorio. Compila
+con el `baseURL` que Netlify da al alias,
+`https://pr-<número>--<sitio>.netlify.app/`, y publica `public/` con
+`netlify deploy --alias pr-<número>`. La URL queda en el resumen del trabajo. Un
+pull request de un fork o de Dependabot no tiene acceso a los secretos: el
+trabajo avisa del motivo y termina bien, sin vista previa.
+
+### Despliegue desde cero
+
+Para publicar el sitio con tus propias cuentas:
+
+1. En el panel de Cloudflare abre **Workers & Pages** y copia el **Account ID**
+   de _Account Details_. Pégalo en `account_id` de `wrangler.toml`.
+2. En Cloudflare abre **My Profile > API Tokens > Create Token > Custom token**.
+   Dale el permiso de cuenta **Workers Scripts: Edit** sobre esa cuenta.
+3. En Netlify crea un sitio vacío en **Sites > Add new site > Deploy manually**
+   y copia el **Project ID** de _Project configuration > General_.
+4. En Netlify abre **User settings > Applications > Personal access tokens** y
+   crea un token.
+5. En GitHub abre **Settings > Secrets and variables > Actions**. En _Secrets_
+   crea `CLOUDFLARE_API_TOKEN` y `NETLIFY_AUTH_TOKEN` con los dos tokens. En
+   _Variables_ crea `NETLIFY_SITE_ID` con el Project ID.
+6. Cambia `baseURL` en `config/_default/config.toml` y las URL de
+   [`audit_lighthouse.yml`](../.github/workflows/audit_lighthouse.yml) por el
+   host de tu Worker.
+7. Haz push a `master` o lanza el flujo `checks` desde la pestaña **Actions**.
+
+### Despliegue a mano
+
+Con los dos tokens y el ID del sitio en el entorno, desde la raíz del
+repositorio:
+
+```bash
+export CLOUDFLARE_API_TOKEN=<token de Cloudflare>
+export NETLIFY_AUTH_TOKEN=<token de Netlify>
+export NETLIFY_SITE_ID=<Project ID de Netlify>
+mise run deploy
+```
+
+`mise run deploy` compila antes de publicar. Para publicar en un solo host,
+ejecuta `mise run deploy:cloudflare` o `mise run deploy:netlify`.
 
 ## Búsqueda
 
@@ -66,18 +108,17 @@ un recurso externo, agrega su dominio a la lista que corresponda: `scriptsrc`,
 
 ## Versiones de herramientas
 
-[`mise.toml`](../mise.toml) fija la versión de cada herramienta: Hugo, Bun,
-Node, Go, Wrangler y `gotmplfmt`. Los flujos de GitHub y
-[`build.sh`](../build.sh) las leen de ahí. Cambia una versión solo en
-`mise.toml`. La versión de Pagefind está fijada en `package.json`.
+[`mise.toml`](../mise.toml) fija la versión de cada herramienta. Los flujos de
+GitHub las leen de ahí. Cambia una versión solo en `mise.toml`. La versión de
+Pagefind está fijada en `package.json`.
 
 ## Flujos de GitHub
 
 Todos los flujos se pueden lanzar a mano.
 
-| Flujo                      | Cuándo                                                                                                      | Qué hace                                                                                                                                                                                                                                                                                                                       |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `ci.yml`                   | Pull request y push a `master`                                                                              | `mise run install` y `mise run check`.                                                                                                                                                                                                                                                                                         |
-| `check_broken_links.yml`   | Pull request y push a `master` con cambios en `content/`; los lunes                                         | Revisa los enlaces de `content/` con [`.404-links.yml`](../.404-links.yml).                                                                                                                                                                                                                                                    |
-| `generate_screenshots.yml` | El día 1 de cada mes                                                                                        | Abre un pull request con capturas nuevas.                                                                                                                                                                                                                                                                                      |
-| `audit_lighthouse.yml`     | Ejecución manual, o cuando el check `Workers Builds: web` de un commit que ya está en `master` termina bien | Auditoría Lighthouse de `https://web.empirical.workers.dev/` y `/blog/` con el presupuesto de `.github/budget.json`. Mide cada URL tres veces y compara con el presupuesto la mediana de las tres corridas; [`.github/lighthouserc.cjs`](../.github/lighthouserc.cjs) convierte el presupuesto en aserciones sobre la mediana. |
+| Flujo                      | Cuándo                                                                      | Qué hace                                                                                                                                                                                                                                                                                                                       |
+| -------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `ci.yml`                   | Pull request y push a `master`                                              | `check`: `mise run install` y `mise run check`. En `master`, `deploy` publica el sitio y después `lighthouse` lo audita. En un pull request, `preview` publica una vista previa en Netlify.                                                                                                                                    |
+| `check_broken_links.yml`   | Pull request y push a `master` con cambios en `content/`; los lunes         | Revisa los enlaces de `content/` con [`.404-links.yml`](../.404-links.yml).                                                                                                                                                                                                                                                    |
+| `generate_screenshots.yml` | El día 1 de cada mes                                                        | Abre un pull request con capturas nuevas.                                                                                                                                                                                                                                                                                      |
+| `audit_lighthouse.yml`     | Ejecución manual, o el trabajo `lighthouse` de `ci.yml` después de `deploy` | Auditoría Lighthouse de `https://web.caefisica.workers.dev/` y `/blog/` con el presupuesto de `.github/budget.json`. Mide cada URL tres veces y compara con el presupuesto la mediana de las tres corridas; [`.github/lighthouserc.cjs`](../.github/lighthouserc.cjs) convierte el presupuesto en aserciones sobre la mediana. |
