@@ -3,69 +3,29 @@
 [![checks](https://github.com/caefisica/caefisica.com/actions/workflows/ci.yml/badge.svg)](https://github.com/caefisica/caefisica.com/actions/workflows/ci.yml)
 [![url health](https://github.com/caefisica/caefisica.com/actions/workflows/check_broken_links.yml/badge.svg)](https://github.com/caefisica/caefisica.com/actions/workflows/check_broken_links.yml)
 
-Sitio web del Centro de Apoyo al Estudiante de Física
-([@caefisica](https://linktr.ee/caefisica)) de la
-[Escuela Profesional de Física](https://fisica.unmsm.edu.pe) de la UNMSM. Reúne
-guías de estudio por curso con libros, listas de reproducción y sílabos, además
-de apuntes, una biblioteca, un blog y artículos. Es un sitio estático hecho con
-[Hugo](https://gohugo.io), con contenido en español.
+Sitio web del Centro de Apoyo al Estudiante de Física de la
+[Escuela Profesional de Física](https://fisica.unmsm.edu.pe) de la UNMSM: guías
+de estudio por curso, apuntes, biblioteca y blog, en español. Es un sitio
+estático hecho con [Hugo](https://gohugo.io), publicado en
+<https://web.caefisica.workers.dev/>.
 
 ## Ejecútalo
 
-Necesitas [mise](https://mise.jdx.dev). Instala las herramientas de
-[`mise.toml`](mise.toml) y las dependencias, y arranca el servidor:
+Necesitas [mise](https://mise.jdx.dev).
 
 ```bash
 git clone https://github.com/caefisica/caefisica.com.git caefisica
 cd caefisica
 mise install
-mise run install
 mise run dev
 ```
 
-El servidor de desarrollo queda en <http://localhost:1313>. La guía del curso
-`CBE013` está en <http://localhost:1313/unmsm/pregrado/plan-2018/cbe013/>.
-
-## Qué incluye
-
-- Guías de estudio del Plan de Estudios 2018, con tablas de libros y listas de
-  reproducción generadas desde YAML.
-- Sílabos por semestre y docente, con visor de PDF.
-- Apuntes con fórmulas LaTeX (KaTeX) y diagramas Mermaid.
-- Biblioteca de archivos, blog, artículos y directorio de colaboradores y
-  docentes.
-- Búsqueda con Pagefind.
-- Edición desde el navegador con Pages CMS, configurado en `.pages.yml`.
-- Despliegue en Cloudflare Workers.
+El sitio queda en <http://localhost:1313>. `mise run dev` instala las
+dependencias, compila e indexa el sitio una vez y levanta el servidor,
+borradores incluidos.
 
 ## Más
 
-- [Manual](docs/readme.md): instalación, estructura del contenido, cómo agregar
-  un curso, shortcodes y despliegue.
-- [Arquitectura](docs/architecture.md): mapa del código.
+- [Manual](docs/readme.md): contenido, cursos, blog, shortcodes, capturas y
+  despliegue.
 - [Contribuir](.github/CONTRIBUTING.md): cómo enviar cambios.
-
-## Licencia
-
-[MIT](LICENCE).
-
-## Contribuidores
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="http://totallynotdavid.github.io"><img src="https://avatars.githubusercontent.com/u/20960328?v=4?s=100" width="100px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="#maintenance-totallynotdavid" title="Maintenance">🚧</a> <a href="#security-totallynotdavid" title="Security">🛡️</a> <a href="#research-totallynotdavid" title="Research">🔬</a> <a href="#blog-totallynotdavid" title="Blogposts">📝</a></td>
-      <td align="center"><a href="https://github.com/alvaro18101"><img src="https://avatars.githubusercontent.com/u/75409414?v=4?s=100" width="100px;" alt="Alvaro Alejandro Siesquen Abad"/><br /><sub><b>Alvaro Alejandro Siesquen Abad</b></sub></a><br /><a href="#research-alvaro18101" title="Research">🔬</a> <a href="#blog-alvaro18101" title="Blogposts">📝</a></td>
-      <td align="center"><a href="https://github.com/Ser-CorD"><img src="https://avatars.githubusercontent.com/u/98802192?v=4?s=100" width="100px;" alt="Ser-CorD"/><br /><sub><b>Ser-CorD</b></sub></a><br /><a href="#research-Ser-CorD" title="Research">🔬</a> <a href="#blog-Ser-CorD" title="Blogposts">📝</a></td>
-      <td align="center"><a href="https://github.com/Rifejo"><img src="https://avatars.githubusercontent.com/u/99055529?v=4?s=100" width="100px;" alt="Rifejo"/><br /><sub><b>Rifejo</b></sub></a><br /><a href="#research-Rifejo" title="Research">🔬</a> <a href="#blog-Rifejo" title="Blogposts">📝</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
