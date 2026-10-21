@@ -45,7 +45,7 @@ El plan de estudios incluye los siguientes temas:
 
 ## Listas de reproducción
 
-{{< img-simple src="Guillermo_Abramson.jpeg" alt="Guillermo Abramson dando la introducción al curso de Mecánica Clásica." class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="Guillermo_Abramson.jpeg" alt="Guillermo Abramson dando la introducción al curso de Mecánica Clásica." class="mx-auto block shadow-lg my-6" >}}
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
 

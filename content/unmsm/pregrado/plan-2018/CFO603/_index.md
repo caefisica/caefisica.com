@@ -88,7 +88,7 @@ mecánica cuántica.
 
 ## Listas de reproducción
 
-{{< img-simple src="allan_adams.jpg" alt="Profesor Allan Adams explicando una ecuación escrita en una pizarra negra." class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="allan_adams.jpg" alt="Profesor Allan Adams explicando una ecuación escrita en una pizarra negra." class="mx-auto block shadow-lg my-6" >}}
 
 Las primeras clases dictadas por Allan Adams en 2013 en el MIT pueden servirte
 para comprender algunas ideas fundamentales de la mecánica cuántica.

@@ -131,7 +131,7 @@ $$
 \hat{T}\left(a_{y} \mathbf{j}\right) \hat{T}\left(a_{x} \mathbf{i}\right)=\hat{T}\left(a_{x} \mathbf{i}\right) \hat{T}\left(a_{y} \mathbf{j}\right) .
 $$
 
-{{< img-simple src="fig_1.jpg" alt="Cursos electivos cuando te encuentras en la Escuela de Estudios Generales" class="d-block mx-auto shadow my-5 w-50" >}}
+{{< img-simple src="fig_1.jpg" alt="Cursos electivos cuando te encuentras en la Escuela de Estudios Generales" class="mx-auto block w-1/2 shadow-lg my-12" >}}
 
 Probando la última expresión, hacemos
 

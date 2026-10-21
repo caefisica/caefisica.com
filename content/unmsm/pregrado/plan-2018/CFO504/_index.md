@@ -26,7 +26,7 @@ mecánica cuántica. Favor de aprender bien el curso.
 
 El plan de estudios incluye los siguientes temas:
 
-{{< mermaid class="bg-light text-center mx-n5" >}}
+{{< mermaid class="bg-gray-100 -mx-12 text-center" >}}
 graph LR A[Física Matemática III] --> B[Ecuaciones de la Física Matemática] B
 --> 1.1[Principales ecuaciones de la Física Matemática] B --> 1.2[Clasificación
 de las ecuaciones de la Física Matemática] B --> 1.3[Métodos generales de

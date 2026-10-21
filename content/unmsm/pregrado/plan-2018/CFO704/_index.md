@@ -76,7 +76,7 @@ solucionarios para algunos libros seleccionados.
 
 ## Listas de reproducción
 
-{{< img-simple src="Leonard_Susskind.jpg" alt="Miniatura del video titulado 'Statistical Mechanics Lecture 10'" class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="Leonard_Susskind.jpg" alt="Miniatura del video titulado 'Statistical Mechanics Lecture 10'" class="mx-auto block shadow-lg my-6" >}}
 
 Leonard Susskind impartió una serie de 10 conferencias sobre Mecánica
 Estadística en la primavera de 2013. Las charlas cubren temas como entropía,

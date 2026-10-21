@@ -70,7 +70,7 @@ solucionarios para algunos libros seleccionados.
 
 ## Listas de reproducción
 
-{{< img-simple src="3Blue1Brown.png" alt="Miniatura del video titulado 'El Teorema Fundamental del Cálculo'" class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="3Blue1Brown.png" alt="Miniatura del video titulado 'El Teorema Fundamental del Cálculo'" class="mx-auto block shadow-lg my-6" >}}
 
 Los capítulos 8 y 9 de la lista de reproducción "Essence of Calculus" del canal
 3Blue1Brown muestran conceptos fundamentales del cálculo integral.

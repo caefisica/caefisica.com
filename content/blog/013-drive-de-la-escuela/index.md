@@ -88,7 +88,7 @@ Telemática de la UNMSM a tomar medidas cada vez más drásticas:
 1. Al principio,
    [indicaron que la información no sería eliminada](https://www.facebook.com/1551UNMSM/posts/pfbid0XqSY3X9wpaLesWXuudPDdpC5fzcM3WB5pdGZp3awtpCKmhjngCUyZbTBsQnmDhawl).
 
-   {{< img-simple src="UNMSM_Comunicado_Cambio_Politica_Almacenamiento_Google_2023-01-04.png" alt="Imagen de un comunicado oficial en español de la Universidad Nacional Mayor de San Marcos (UNMSM), conocida como la Universidad del Perú, Decana de América. El documento informa sobre un cambio en las políticas de almacenamiento de Google, especificando que el espacio en Google Drive para correos institucionales ya no será ilimitado. Se aconseja respaldar la información en otro medio de almacenamiento. El comunicado incluye el escudo de la universidad, un encabezado en negritas que dice \"COMUNICADO\", y al final, los detalles de contacto de la Oficina de la Red Telemática. Fecha del comunicado: Lima, 4 de enero de 2023." class="d-block mx-auto shadow my-4" >}}
+   {{< img-simple src="UNMSM_Comunicado_Cambio_Politica_Almacenamiento_Google_2023-01-04.png" alt="Imagen de un comunicado oficial en español de la Universidad Nacional Mayor de San Marcos (UNMSM), conocida como la Universidad del Perú, Decana de América. El documento informa sobre un cambio en las políticas de almacenamiento de Google, especificando que el espacio en Google Drive para correos institucionales ya no será ilimitado. Se aconseja respaldar la información en otro medio de almacenamiento. El comunicado incluye el escudo de la universidad, un encabezado en negritas que dice \"COMUNICADO\", y al final, los detalles de contacto de la Oficina de la Red Telemática. Fecha del comunicado: Lima, 4 de enero de 2023." class="mx-auto block shadow-lg my-6" >}}
 
 2. Luego, desactivaron la opción de grabar reuniones de Google Meet para cuentas
    institucionales.
@@ -157,13 +157,13 @@ he llegado es la siguiente:
 
 1. Compartir las carpetas individualmente de forma pública.
 
-{{< img-simple src="Captura_EP_Fisica_Listado_Archivos.png" alt="Captura de pantalla que muestra la interfaz de Google Drive con una lista nombrada \"E.P. de Física\" que incluye 3 grupos y 2 personas. La vista detalla un menú con opciones para ordenar por 'Tipo', 'Personas' y 'Modificado'. Debajo hay una lista de archivos titulados 'Base 18' hasta 'Base 24', además de un archivo llamado 'Representantes Estudiantiles' y una carpeta denominada 'Otros'." class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="Captura_EP_Fisica_Listado_Archivos.png" alt="Captura de pantalla que muestra la interfaz de Google Drive con una lista nombrada \"E.P. de Física\" que incluye 3 grupos y 2 personas. La vista detalla un menú con opciones para ordenar por 'Tipo', 'Personas' y 'Modificado'. Debajo hay una lista de archivos titulados 'Base 18' hasta 'Base 24', además de un archivo llamado 'Representantes Estudiantiles' y una carpeta denominada 'Otros'." class="mx-auto block shadow-lg my-6" >}}
 
 Las carpetas se pueden compartir públicamente. _Voilà_, caso cerrado. Bueno, no
 tanto. Desde entonces, se reciben ocasionalmente solicitudes de acceso a la
 unidad compartida:
 
-{{< img-simple src="Solicitudes_Compartir_Archivos_Notificaciones.png" alt="Captura de pantalla de una lista de notificaciones de solicitudes de compartir archivos. Las solicitudes incluyen una para \"Salazar\" a las 11:29, sin fecha específica, y varias fechadas el 20 y 19 de abril para \"5 Mecánica Clásica II\" y \"E.P. de Física\"." class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="Solicitudes_Compartir_Archivos_Notificaciones.png" alt="Captura de pantalla de una lista de notificaciones de solicitudes de compartir archivos. Las solicitudes incluyen una para \"Salazar\" a las 11:29, sin fecha específica, y varias fechadas el 20 y 19 de abril para \"5 Mecánica Clásica II\" y \"E.P. de Física\"." class="mx-auto block shadow-lg my-6" >}}
 
 Para solucionar esto, hay dos posibles salidas:
 
@@ -191,7 +191,7 @@ Para solucionar esto, hay dos posibles salidas:
 Finalmente, se optó por la segunda opción y se organizó la unidad compartida del
 siguiente modo:
 
-{{< img-simple src="Diagrama_Roles_Permisos_Organizacion_Educativa.png" alt="Diagrama de flujo mostrando los roles y permisos en una organización educativa. Arriba, un rectángulo con la etiqueta 'Administrador' con tareas de 'Gestor de contenido', 'Añadir usuarios' y 'Modificar permisos y ajustes', fluye hacia 'Consejer@s de Facultad' y luego a 'Delegad@s de base'. Debajo, un rectángulo para 'Gestor de contenido' con 'Añadir, editar contenido', 'Mover y eliminar contenido' y 'Compartir contenido', conectado a 'Subdelegad@s de base'. Al final, 'Colaborador' con 'Añadir archivos' y 'Editar archivos', vinculado a 'Delegad@s de curso'. A la derecha, un texto explica que la idea es permitir a administradores dar permisos a delegad@s de curso y/o estudiantes de confianza." class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="Diagrama_Roles_Permisos_Organizacion_Educativa.png" alt="Diagrama de flujo mostrando los roles y permisos en una organización educativa. Arriba, un rectángulo con la etiqueta 'Administrador' con tareas de 'Gestor de contenido', 'Añadir usuarios' y 'Modificar permisos y ajustes', fluye hacia 'Consejer@s de Facultad' y luego a 'Delegad@s de base'. Debajo, un rectángulo para 'Gestor de contenido' con 'Añadir, editar contenido', 'Mover y eliminar contenido' y 'Compartir contenido', conectado a 'Subdelegad@s de base'. Al final, 'Colaborador' con 'Añadir archivos' y 'Editar archivos', vinculado a 'Delegad@s de curso'. A la derecha, un texto explica que la idea es permitir a administradores dar permisos a delegad@s de curso y/o estudiantes de confianza." class="mx-auto block shadow-lg my-6" >}}
 
 Se establecieron diferentes roles y permisos para garantizar una gestión
 eficiente y segura del contenido.
@@ -209,7 +209,7 @@ bajo el mailing list "epfisica" con permisos de lector, lo que les permite
 acceder y beneficiarse de todo el contenido disponible en la unidad compartida.
 Es necesario recordar que los estudiantes ya podían acceder a estas carpetas.
 
-{{< img-simple src="Gestion_Miembros_Roles_Sistema.png" alt="Captura de pantalla de la interfaz de 'Gestionar miembros' en un sistema digital. Muestra un campo de búsqueda para 'Añadir personas y grupos' y una lista de miembros con sus roles. 'David Duran' listado como 'Administrador', 'andrea.palacios@unmsm.edu.pe' también como 'Administrador', 'Delegad@s de base' como 'Administrador', 'epfisica' como 'Lector' y 'Subdelegad@s de base' como 'Gestor de contenido'. Hay un botón azul en la parte inferior que dice 'Hecho'." class="d-block mx-auto shadow my-4" >}}
+{{< img-simple src="Gestion_Miembros_Roles_Sistema.png" alt="Captura de pantalla de la interfaz de 'Gestionar miembros' en un sistema digital. Muestra un campo de búsqueda para 'Añadir personas y grupos' y una lista de miembros con sus roles. 'David Duran' listado como 'Administrador', 'andrea.palacios@unmsm.edu.pe' también como 'Administrador', 'Delegad@s de base' como 'Administrador', 'epfisica' como 'Lector' y 'Subdelegad@s de base' como 'Gestor de contenido'. Hay un botón azul en la parte inferior que dice 'Hecho'." class="mx-auto block shadow-lg my-6" >}}
 
 Si eres estudiante de física y quieres acceder a esta valiosa unidad compartida
 de Google Drive, no te preocupes, tenemos un

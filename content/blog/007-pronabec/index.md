@@ -82,7 +82,7 @@ Los requisitos que se tienen para poder postular a la beca son los siguientes
    [6 de junio](https://www.facebook.com/photo/?fbid=388337150000090&set=a.250435240456949)
    del año 2022 PRONABEC lanzó la Beca Permanencia:
 
-   {{< img-simple src="permanencia.png" alt="Fuente: Página Oficial de Facebook del PRONABEC" class="d-block mx-auto shadow my-4" >}}
+   {{< img-simple src="permanencia.png" alt="Fuente: Página Oficial de Facebook del PRONABEC" class="mx-auto block shadow-lg my-6" >}}
 
 </details>
 

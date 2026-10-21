@@ -83,4 +83,4 @@ $$
 \end{align}
 $$
 
-{{< img-simple src="diagram-20230116.png" alt="Proceso isotérmico" class="d-block mx-auto shadow my-5 w-50" >}}
+{{< img-simple src="diagram-20230116.png" alt="Proceso isotérmico" class="mx-auto block w-1/2 shadow-lg my-12" >}}

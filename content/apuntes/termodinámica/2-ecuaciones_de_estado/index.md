@@ -80,7 +80,7 @@ esta ecuación se demostrará mas adelante.
 
 ## Proceso Isotérmico (T=cte)
 
-{{< img-simple src="isotermico.png" alt="Proceso isotérmico" class="d-block mx-auto shadow my-5 w-50" >}}
+{{< img-simple src="isotermico.png" alt="Proceso isotérmico" class="mx-auto block w-1/2 shadow-lg my-12" >}}
 
 Partiendo de la ecuación de Clapeyron-Mendeleiev, como $T=cte$ entonces
 $nRT=c_1$
@@ -103,7 +103,7 @@ donde $c_1=nRT$.
 
 ## Proceso Isobárico (p=cte)
 
-{{< img-simple src="isobara.png" alt="Proceso isobárico" class="d-block mx-auto shadow my-5 w-50" >}}
+{{< img-simple src="isobara.png" alt="Proceso isobárico" class="mx-auto block w-1/2 shadow-lg my-12" >}}
 
 Partiendo de la ecuación de Clapeyron-Mendeleiev, como $p=cte$ entonces:
 
@@ -123,7 +123,7 @@ $$
 
 ## Proceso Isocórico
 
-{{< img-simple src="isocora.png" alt="Proceso isocórico" class="d-block mx-auto shadow my-5 w-50" >}}
+{{< img-simple src="isocora.png" alt="Proceso isocórico" class="mx-auto block w-1/2 shadow-lg my-12" >}}
 
 Partiendo de la ecuación de Clapeyron-Mendeleiev, como $V=cte$ entonces:
 
