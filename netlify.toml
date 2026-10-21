@@ -1,0 +1,24 @@
+[build]
+publish = "public"
+command = "bash build.sh"
+
+[context.deploy-preview]
+command = "bash build.sh -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "bash build.sh -b $DEPLOY_PRIME_URL"
+
+[dev]
+framework = "#custom"
+command = "mise run dev"
+targetPort = 1313
+port = 8888
+publish = "public"
+autoLaunch = false
+
+[[plugins]]
+package = "netlify-plugin-cloudinary"
+
+[plugins.inputs]
+cloudName = "dubu"
+loadingStrategy = "lazy"

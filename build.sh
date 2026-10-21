@@ -2,6 +2,19 @@
 set -euo pipefail
 
 main() {
+  # -b <url> sustituye el baseURL de config.toml, para las vistas previas de
+  # Netlify, que se sirven en otro host.
+  local base_url=""
+  while getopts "b:" opt; do
+    case "${opt}" in
+      b) base_url="${OPTARG}" ;;
+      *) echo "Usage: build.sh [-b base-url]" >&2; exit 2 ;;
+    esac
+  done
+  if [ -n "${base_url}" ]; then
+    export HUGO_BASEURL="${base_url}"
+  fi
+
   # La imagen de compilación puede proporcionar una versión distinta de mise y
   # variables MISE_*. Usa la versión instalada aquí y la configuración del repo.
   # shellcheck disable=SC2046
@@ -40,4 +53,4 @@ main() {
   "${mise_bin}" run build
 }
 
-main
+main "$@"
