@@ -118,11 +118,7 @@ async function main() {
             `${bundle.name}: ${bundle.link} answers HTTP ${response.status()}; ` +
             "kept the existing image";
           deadLinks.push(message);
-          console.warn(
-            process.env.GITHUB_ACTIONS
-              ? `::warning title=Link not captured::${message}`
-              : message,
-          );
+          console.warn(message);
           continue;
         }
         await page.screenshot({
