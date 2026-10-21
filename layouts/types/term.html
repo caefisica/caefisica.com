@@ -1,17 +1,13 @@
 {{ define "main" }}
-<div class="row flex-xl-nowrap">
-	<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
-		<nav class="docs-links" aria-label="Main navigation">
-			{{ partial "sidebar/showcase-menu.html" . }}
-		</nav>
-	</div>
-	<main class="docs-content col-lg-11 mx-xl-auto">
+<div class="-mx-6 flex flex-wrap justify-between xl:flex-nowrap">
+	{{ partial "sidebar/aside.html" (dict "page" . "menu" "sidebar/showcase-menu.html" "label" "Main navigation") }}
+	<main class="order-1 w-full px-6 pb-12 lg:w-11/16 xl:mx-auto xl:w-10/16">
 		<h1 class="text-center">{{ .Title | title }}</h1>
-		<p class="lead text-center">Artículos relacionados a {{ .Title }}</p>
+		<p class="text-lead text-center">Artículos relacionados a {{ .Title }}</p>
 		<h2>Reciente</h2>
-		<div class="row row-cols-1 row-cols-md-2 g-5">
+		<div class="grid grid-cols-1 gap-12 md:grid-cols-2">
 			{{ range .Pages.ByWeight.Reverse -}}
-				<div class="col">{{ .Render "showcase-card" -}}</div>
+				{{ .Render "showcase-card" -}}
 			{{ end }}
 		</div>
 	</main>

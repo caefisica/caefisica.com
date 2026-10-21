@@ -1,55 +1,42 @@
 {{ define "main" }}
-<div class="row d-flex justify-content-between flex-xl-nowrap">
-	<div class="col-lg-5 col-xl-auto docs-sidebar d-none d-lg-block">
-		<nav class="docs-links" aria-label="Tertiary navigation">
-			{{ partial "sidebar/docs-menu.html" . }}
-		</nav>
-	</div>
+<div class="-mx-6 flex flex-wrap justify-between xl:flex-nowrap">
+	{{ partial "sidebar/aside.html" (dict "page" . "menu" "sidebar/docs-menu.html" "label" "Tertiary navigation") }}
 	{{- if ne .Params.toc false -}}
-		<nav class="docs-toc d-none d-xl-block col-xl-auto" aria-label="Quaternary navigation">
+		<nav class="toc order-2 hidden border-x border-dashed border-line px-6 xl:sticky xl:top-16 xl:block xl:h-[calc(100vh-4rem)] xl:self-start xl:overflow-y-auto" aria-label="Quaternary navigation">
 			{{ partial "sidebar/docs-toc.html" . }}
 		</nav>
 	{{- end -}}
-	{{- if .Params.toc -}}
-		<main class="docs-content col-lg-10 col-xl-9">
-	{{- else -}}
-		<main class="docs-content col-lg-11 col-xl-10 mx-xl-auto">
-	{{- end -}}
-	<div class="max-width mx-auto ps-xl-5 pe-xl-5">
-		{{- if .Site.Params.options.breadCrumb -}}
-			<nav aria-label="breadcrumb">
-				<ol class="breadcrumb">
-					{{ partial "main/breadcrumb" . -}}
-					<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-				</ol>
-			</nav>
-		{{- end -}}
-		<h1>{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
-		{{- if ne .Params.toc false -}}
-			{{- partial "main/blog-meta.html" . -}}
-		{{- end -}}
-		{{- if and .Params.showInformationBox .Params.id -}}
-			{{ partial "components/information_box.html" . -}}
-		{{- end -}}
-		{{- if eq .Params.working true -}}
-			{{ partial "components/alert.html" . -}}
-		{{- end -}}
-		{{- partial "main/headline-hash.html" .Content -}}
-		<div class="metadata-article">
-			{{- if .Site.Params.lastMod -}}
-				{{- partial "main/last-modified.html" . -}}
+	<main class="order-1 w-full px-6 pb-12 lg:w-{{ if .Params.toc }}10{{ else }}11{{ end }}/16 xl:w-{{ if .Params.toc }}9{{ else }}10{{ end }}/16{{ if not .Params.toc }} xl:mx-auto{{ end }}">
+		<div class="mx-auto lg:max-w-200 xl:px-12">
+			{{ partial "main/breadcrumbs.html" . }}
+			<h1 class="m-0">{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
+			{{- if ne .Params.toc false -}}
+				{{- partial "main/blog-meta.html" (dict "page" . "single" true) -}}
 			{{- end -}}
-			{{- if .Site.Params.editPage -}}
-				{{- partial "main/edit-page.html" . -}}
+			{{- if and .Params.showInformationBox .Params.id -}}
+				{{ partial "components/information_box.html" . -}}
+			{{- end -}}
+			{{- if eq .Params.working true -}}
+				{{ partial "components/alert.html" . -}}
+			{{- end -}}
+			<div class="markdown">
+				{{- partial "main/headline-hash.html" .Content -}}
+			</div>
+			<div class="py-4">
+				{{- if .Site.Params.lastMod -}}
+					{{- partial "main/last-modified.html" . -}}
+				{{- end -}}
+				{{- if .Site.Params.editPage -}}
+					{{- partial "main/edit-page.html" . -}}
+				{{- end -}}
+			</div>
+			{{ partial "main/docs-navigation.html" . }}
+			{{- if .Site.Params.giscus -}}
+				<div class="mt-2">
+					{{- partial "components/comments.html" . -}}
+				</div>
 			{{- end -}}
 		</div>
-		{{ partial "main/docs-navigation.html" . }}
-		{{- if .Site.Params.giscus -}}
-			<div class="mt-2">
-				{{- partial "components/comments.html" . -}}
-			</div>
-		{{- end -}}
-	</div>
-</main>
+	</main>
 </div>
 {{ end }}

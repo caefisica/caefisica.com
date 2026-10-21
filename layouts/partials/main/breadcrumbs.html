@@ -1,0 +1,8 @@
+{{- if .Site.Params.options.breadCrumb -}}
+	<nav aria-label="breadcrumb">
+		<ol class="mb-4 flex list-none flex-wrap pt-[2.125rem]">
+			{{ partial "main/breadcrumb.html" . -}}
+			<li class="pl-2 text-muted before:pr-2 before:text-gray-600 before:content-['/']" aria-current="page">{{ .Title }}</li>
+		</ol>
+	</nav>
+{{- end -}}

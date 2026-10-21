@@ -3,7 +3,7 @@
 
 <figure>
 	<img
-		class="img-fluid lazyload blur-up{{ with .Get "class" }} {{ . | safeHTML }}{{ end }}"
+		class="lazyload blur-up{{ with .Get "class" }} {{ . | safeHTML }}{{ end }}"
 		data-sizes="auto"
 		src="{{ $img.lqip }}"
 		data-srcset="{{ $img.srcset }}"
@@ -11,7 +11,7 @@
 		height="{{ $image.Height }}"
 		{{ with .Get "alt" }}alt="{{ . }}"{{ end }} />
 	<noscript><img
-			class="img-fluid{{ with .Get "class" }} {{ . | safeHTML }}{{ end }}"
+			class="{{ with .Get "class" }}{{ . | safeHTML }}{{ end }}"
 			sizes="100vw"
 			srcset="{{ $img.srcset }}"
 			src="{{ $img.src }}"
@@ -21,6 +21,6 @@
 		/>
 	</noscript>
 	{{ with .Get "caption" }}
-		<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>
+		<figcaption>{{ . | safeHTML }}</figcaption>
 	{{ end }}
 </figure>

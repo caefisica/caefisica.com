@@ -1,19 +1,17 @@
 {{ define "main" }}
-<div class="container py-5">
+<div class="py-12">
 	<h1>{{ .Title }}</h1>
-	{{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
-	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+	{{ with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
+	<div class="mt-4 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 		{{ range .Pages }}
-			<div class="col">
-				<div class="card h-100">
-					<div class="card-body">
-						<h5 class="card-title">
-							<a href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
-						</h5>
-						{{ with .Params.institution }}
-							<p class="card-text text-muted small">{{ . | upper }}</p>
-						{{ end }}
-					</div>
+			<div class="relative rounded-md border border-black/15 bg-bg dark:border-white/15">
+				<div class="p-4">
+					<h5>
+						<a href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
+					</h5>
+					{{ with .Params.institution }}
+						<p class="text-sm text-muted">{{ . | upper }}</p>
+					{{ end }}
 				</div>
 			</div>
 		{{ end }}

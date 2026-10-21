@@ -1,46 +1,56 @@
-<div class="cover_play d-none position-fixed overflow-hidden"></div>
-<div class="player_container position-fixed outline-none overflow-hidden d-grid d-none center-global">
-	<button type="button" class="border-0 bg-transparent outline-none" id="close-button">×</button>
-	<div class="youtube_container d-flex">
-		<div id="player">
-		</div>
-	</div>
-</div>
+<dialog
+	id="video-dialog"
+	aria-label="Video de presentación"
+	class="m-auto max-w-[90vw] overflow-visible bg-transparent p-0 text-white backdrop:bg-gray-900/80">
+	<form method="dialog" class="text-right">
+		<button
+			type="submit"
+			class="px-2 text-4xl leading-none"
+			aria-label="Cerrar el video">
+			<span aria-hidden="true">×</span>
+		</button>
+	</form>
+	<div id="player" class="aspect-video w-225 max-w-full"></div>
+</dialog>
 
-<section class="section p-0">
-	<div class="container full-height d-flex justify-content-center align-items-center text-center">
-		<div class="row justify-content-between align-items-center">
-			<div class="col-lg-7 text-center text-lg-start">
-				<h1>Una guía para el estudio de las Ciencias Físicas</h1>
-				<p class="lead mb-4 fs-5">{{ .Params.Lead | safeHTML -}}</p>
-				{{ if partial "components/is-search-enabled.html" . -}}
-					<div class="search-wrapper home-search">
-						<div id="docsearch"></div>
-					</div>
-				{{ end -}}
-				<p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
+<section class="mx-auto flex min-h-[80vh] w-full max-w-[1200px] items-center justify-center px-6 text-center">
+	<div class="-mx-6 flex w-full flex-wrap items-center justify-between">
+		<div class="w-full px-6 text-center lg:w-7/16 lg:text-left">
+			<h1 class="mt-0 mb-4 text-[2.3rem]">Una guía para el estudio de las Ciencias Físicas</h1>
+			<p class="mb-6 text-[calc(1.275rem+0.3vw)] xl:text-xl">{{ .Params.Lead | safeHTML -}}</p>
+			{{ if partial "components/is-search-enabled.html" . -}}
+				<div class="home-search">
+					<div id="docsearch"></div>
+				</div>
+			{{ end -}}
+			<p class="mt-4 mb-0 text-base">Un proyecto del {{ .Site.Params.titleAddition }}</p>
 		</div>
-		<div class="col-lg-7 d-none d-lg-block">
+		<div class="hidden w-full px-6 lg:block lg:w-7/16">
 			{{ with hugo.Data.fixes.frontpage -}}
-				<div class="hero_figure position-relative ms-auto">
-					<img class="img-hero-mask w-100 h-100" loading="lazy" src="{{ .image | relURL }}" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
+				<div class="relative ml-auto">
+					<img class="h-full w-full mask-contain mask-center mask-no-repeat [mask-image:url('/images/shape/hero-mask-svg.png')]" loading="lazy" src="{{ .image | relURL }}" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
 
 					{{ if .videoURL -}}
-						<div class="hero_figure-popup position-absolute">
-							<div class="thumb position-relative overflow-hidden rounded-4">
-								<img class="w-100 h-100 object-fit-cover" src="{{ .videoThumb -}}" loading="lazy" alt="{{ .videoThumb_alt | markdownify -}}" title="{{ .videoThumb_title | markdownify -}}"/>
+						<div class="absolute bottom-20 left-0 -translate-x-1/2 transition-all duration-300 group">
+							<div class="relative h-40 w-62.5 overflow-hidden rounded-2xl after:absolute after:inset-0 after:z-1 after:bg-black/60">
+								<img class="h-full w-full object-cover" src="{{ .videoThumb -}}" loading="lazy" alt="{{ .videoThumb_alt | markdownify -}}" title="{{ .videoThumb_title | markdownify -}}"/>
 							</div>
-							<a id="play-video" type="button" data-video-id="{{ .videoURL -}}" class="popup-button text-center big position-absolute rounded-circle center-global" aria-label="Mirar video de Youtube" href="#">
-								<svg class="position-absolute center-global transition-all" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24">
+							<button
+								id="play-video"
+								type="button"
+								data-video-id="{{ .videoURL -}}"
+								class="absolute top-1/2 left-1/2 z-2 flex size-15 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white pl-1 text-indigo-700 transition-all duration-300 hover:scale-110 hover:bg-indigo-700 hover:text-white group-hover:scale-110"
+								aria-haspopup="dialog"
+								aria-label="Mirar video de Youtube">
+								<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24" aria-hidden="true">
 									<path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
 										data-name="Polygon 4" />
 								</svg>
-							</a>
+							</button>
 						</div>
 					{{ end -}}
 				</div>
 			{{ end -}}
 		</div>
 	</div>
-</div>
 </section>

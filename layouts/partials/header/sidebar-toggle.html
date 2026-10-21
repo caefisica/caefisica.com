@@ -1,11 +1,10 @@
-{{- $class := .class | default "ms-auto" -}}
+{{- $class := .class | default "ml-auto" -}}
 {{- $label := .label -}}
 <button
-	class="btn doks-sidebar-toggle d-lg-none {{ $class }} order-3 collapsed"
+	class="group order-3 -mr-2 rounded-md px-1 py-1.5 text-fg hover:bg-pink-100 lg:hidden dark:hover:bg-surface {{ $class }}"
 	type="button"
-	data-bs-toggle="collapse"
-	data-bs-target="#doks-docs-nav"
-	aria-controls="doks-docs-nav"
+	data-toggle="docs-nav"
+	aria-controls="docs-nav"
 	aria-expanded="false"
 	aria-label="{{ $label }}">
 	<svg
@@ -13,13 +12,13 @@
 		width="24"
 		height="24"
 		viewBox="0 0 24 24"
-		class="doks doks-expand"
+		class="group-aria-expanded:hidden"
 		fill="none"
 		stroke="currentColor"
 		stroke-width="2"
 		stroke-linecap="round"
-		stroke-linejoin="round">
-		<title>Expand</title>
+		stroke-linejoin="round"
+		aria-hidden="true">
 		<polyline points="7 13 12 18 17 13"></polyline>
 		<polyline points="7 6 12 11 17 6"></polyline>
 	</svg>
@@ -28,13 +27,13 @@
 		width="24"
 		height="24"
 		viewBox="0 0 24 24"
-		class="doks doks-collapse"
+		class="hidden group-aria-expanded:inline-block"
 		fill="none"
 		stroke="currentColor"
 		stroke-width="2"
 		stroke-linecap="round"
-		stroke-linejoin="round">
-		<title>Collapse</title>
+		stroke-linejoin="round"
+		aria-hidden="true">
 		<polyline points="17 11 12 6 7 11"></polyline>
 		<polyline points="17 18 12 13 7 18"></polyline>
 	</svg>

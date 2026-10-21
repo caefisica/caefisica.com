@@ -1,35 +1,35 @@
-<div class="card h-100">
+<div class="relative flex h-full flex-col rounded-md border border-black/15 bg-bg transition-transform duration-300 hover:scale-[1.025] dark:border-white/15">
 	{{ $page := . -}}
 	{{ with .Params.images -}}
 		{{ partial "main/img.html" (dict
 			"page" $page
 			"src" (index . 0)
 			"alt" $page.Title
-			"class" "card-img-top"
+			"class" "m-0 overflow-hidden rounded-t-md"
 		)
 		}}
 	{{ end -}}
-	<div class="card-body">
-		<h5 class="card-title mt-2">
+	<div class="p-4">
+		<h5 class="mt-2">
 			<a
-				class="card-link stretched-link text-dark text-decoration-none"
+				class="text-fg no-underline after:absolute after:inset-0"
 				href="{{ .RelPermalink }}"
 			>
 				{{ .Title | title }}
 			</a>
 		</h5>
 		{{ with (or .Params.lead .Description) -}}
-			<p class="card-text mb-2">
+			<p class="mb-2">
 				{{ . | safeHTML | truncate 40 }}
 			</p>
 		{{ end -}}
 		{{ if .Params.types -}}
-			<p class="card-text mt-2">
+			<p class="mt-2">
 				<small>
 					{{ range $index, $type := .Params.types }}
 						{{ if gt $index 0 }},{{ end }}
 						<a
-							class="stretched-link position-relative"
+							class="relative"
 							href="{{ "/experimental/types/" | relURL }}{{ . | urlize }}/"
 						>
 							{{ . | humanize }}

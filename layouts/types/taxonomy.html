@@ -1,11 +1,9 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-	<div class="col-md-12 col-lg-10 col-xl-8">
-		<article>
-			<h1 class="text-center">{{ .Title }}</h1>
-			<div class="text-center">{{ .Content }}</div>
-			{{ partial "taxonomy-card-list.html" . }}
-		</article>
-	</div>
+<div class="col-prose">
+	<article>
+		<h1 class="text-center">{{ .Title }}</h1>
+		<div class="markdown text-center">{{ .Content }}</div>
+		{{ partial "taxonomy-card-list.html" . }}
+	</article>
 </div>
 {{ end }}

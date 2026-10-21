@@ -1,35 +1,33 @@
-<div class="author-links page-links d-none d-xl-block pb-3">
-	<h2 class="mb-2 mt-0 ms-4 fs-6">
+<div class="author-links page-links hidden pb-4 xl:block">
+	<h2 class="mb-2 mt-0 ms-4 text-base">
 		{{- if isset .Params "contributors" -}} Escrito por: {{- end -}}
 	</h2>
 	{{- if isset .Params "contributors" -}}
 		{{- $contributors := partial "components/resolve-contributors.html" (dict "contributors" .Params.contributors "site" .Site) -}}
-		<ul class="ms-4 list-unstyled">
+		<ul class="ms-4 list-none">
 			{{- range $contributors -}}
 				{{- $contributor := . -}}
 				<li class="m-0">
 					<a href="{{ $contributor.page.RelPermalink }}">
 						{{- with $contributor.image -}}
-							<img src="{{ . }}" alt="{{ $contributor.name }}" class="avatar rounded-circle" />
+							<img src="{{ . }}" alt="{{ $contributor.name }}" class="avatar rounded-full" />
 						{{- end -}}
-						<span class="name ms-2">{{ $contributor.name }}</span>
+						<span class="ms-2">{{ $contributor.name }}</span>
 					</a>
 				</li>
 			{{- end -}}
 		</ul>
 	{{- end -}}
 </div>
-<div class="page-links mt-auto pb-3 pb-sm-1">
-	<h2 class="h3">Tabla de contenido</h2>
+<div class="page-links mt-auto pb-4 sm:pb-1">
+	<h2 class="text-h3">Tabla de contenido</h2>
 	{{ .TableOfContents }}
 </div>
-<div class="social-media-links d-none d-xl-block mt-auto ps-4 pe-4 pb-5">
-	<h2 class="h3">Comparte</h2>
-	<div class="opacity-50 d-flex gx-5 align-items-center">
+<div class="social-media-links mt-auto hidden px-4 pb-8 xl:block">
+	<h2 class="text-h3">Comparte</h2>
+	<div class="flex items-center gap-4 opacity-50">
 		<button
-			class="d-flex pe-3 js-share-facebook"
-			data-bs-toggle="tooltip"
-			data-bs-placement="top"
+			class="flex pe-3 js-share-facebook"
 			title="Compartir en Facebook"
 		>
 			<svg
@@ -50,9 +48,7 @@
 			</svg>
 		</button>
 		<button
-			class="d-flex pe-3 js-share-twitter"
-			data-bs-toggle="tooltip"
-			data-bs-placement="top"
+			class="flex pe-3 js-share-twitter"
 			title="Compartir en Twitter"
 		>
 			<svg
@@ -76,9 +72,7 @@
 			</svg>
 		</button>
 		<button
-			class="d-flex pe-3 js-share-linkedin"
-			data-bs-toggle="tooltip"
-			data-bs-placement="top"
+			class="flex pe-3 js-share-linkedin"
 			title="Compartir en Linkedin"
 		>
 			<svg
@@ -95,7 +89,7 @@
 			</svg>
 		</button>
 		<a
-			class="d-flex pe-3"
+			class="flex pe-3"
 			href="mailto:?subject=Algo interesante que acabo de encontrar&amp;body=Buen día, quizá te interese leer este artículo."
 		>
 			<svg

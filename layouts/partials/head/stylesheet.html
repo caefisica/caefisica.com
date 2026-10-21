@@ -1,42 +1,26 @@
-{{- $scssPath := "scss/app.scss" -}}
-{{- $targetPath := "main.css" -}}
-{{- if eq .Kind "home" -}}
-	{{- $scssPath = "scss/home.scss" -}}
-	{{- $targetPath = "home.css" -}}
-{{- end -}}
-{{- $opts := dict
-	"transpiler" "dartsass"
-	"targetPath" $targetPath
-	"includePaths" (slice "node_modules")
-	"quietDeps" true
-	"silenceDeprecations" (slice "import" "if-function" "global-builtin" "color-functions")
--}}
-{{- with resources.Get $scssPath -}}
-	{{- if hugo.IsDevelopment -}}
-		{{- with . | toCSS (merge $opts (dict "enableSourceMap" true)) -}}
-			<link rel="stylesheet" href="{{ .RelPermalink }}" />
-		{{- end -}}
-	{{- else -}}
-		{{- with . | toCSS (merge $opts (dict "outputStyle" "compressed")) | postCSS (dict "config" "config/postcss.config.js") -}}
-			{{- if eq $.Kind "home" -}}
-				{{- /* La portada usa esta hoja en línea. El primer pintado no espera otra petición. */ -}}
-				<style>{{ .Content | safeCSS }}</style>
-			{{- else -}}
-				{{- with . | fingerprint "sha512" -}}
-					<link
-						rel="stylesheet"
-						href="{{ .RelPermalink }}"
-						integrity="{{ .Data.Integrity }}"
-						crossorigin="anonymous"
-					/>
-				{{- end -}}
+{{- with resources.Get "css/app.css" -}}
+	{{- $opts := dict "minify" hugo.IsProduction -}}
+	{{- with . | css.TailwindCSS $opts -}}
+		{{- if and hugo.IsProduction (eq $.Kind "home") -}}
+			{{- /* La portada usa esta hoja en línea. El primer pintado no espera otra petición. */ -}}
+			<style>{{ .Content | safeCSS }}</style>
+		{{- else if hugo.IsProduction -}}
+			{{- with . | fingerprint "sha512" -}}
+				<link
+					rel="stylesheet"
+					href="{{ .RelPermalink }}"
+					integrity="{{ .Data.Integrity }}"
+					crossorigin="anonymous"
+				/>
 			{{- end -}}
+		{{- else -}}
+			<link rel="stylesheet" href="{{ .RelPermalink }}" />
 		{{- end -}}
 	{{- end -}}
 {{- end -}}
 {{- if .Params.math -}}
-	{{- with resources.Get "scss/katex.scss" -}}
-		{{- with . | toCSS (dict "transpiler" "dartsass" "targetPath" "katex.css" "includePaths" (slice "node_modules") "outputStyle" "compressed" "quietDeps" true "silenceDeprecations" (slice "import")) | fingerprint "sha512" -}}
+	{{- with resources.Get "js/vendor/katex/dist/katex.min.css" -}}
+		{{- with . | resources.Copy "katex.css" | fingerprint "sha512" -}}
 			<link
 				rel="stylesheet"
 				href="{{ .RelPermalink }}"
@@ -45,8 +29,4 @@
 		{{- end -}}
 	{{- end -}}
 {{- end -}}
-{{- with resources.Get "scss/components/_noscript.scss" -}}
-	{{- with . | toCSS (dict "transpiler" "dartsass") | minify | fingerprint -}}
-		<noscript><link rel="stylesheet" href="{{ .RelPermalink }}" /></noscript>
-	{{- end -}}
-{{- end -}}
+<noscript><style>img.lazyload{display:none}</style></noscript>

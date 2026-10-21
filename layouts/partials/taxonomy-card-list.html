@@ -1,11 +1,9 @@
-<div class="card-list">
+<div class="mt-9">
 	{{ range .Pages.ByTitle }}
-		<div class="card my-3">
-			<div class="card-body">
-				<a class="stretched-link" href="{{ .RelPermalink }}">
-					{{ .Params.title | title }} &rarr;
-				</a>
-			</div>
+		<div class="relative my-4 rounded-md border border-black/15 bg-bg p-4 transition-colors duration-300 hover:border-link dark:border-white/15 dark:hover:border-indigo-500">
+			<a class="after:absolute after:inset-0" href="{{ .RelPermalink }}">
+				{{ .Params.title | title }} &rarr;
+			</a>
 		</div>
 	{{ end }}
 </div>

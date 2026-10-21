@@ -7,9 +7,9 @@
 {{- with $image -}}
 	{{- $img := partial "components/image-srcset.html" (dict "image" $image) -}}
 	{{- if gt $image.Width site.Params.smallLimit -}}
-		<figure class="figure">
+		<figure>
 			<img
-				class="figure-img img-fluid lazyload blur-up"
+				class="lazyload blur-up"
 				data-sizes="auto"
 				src="{{ $img.lqip }}"
 				data-srcset="{{ $img.srcset }}"
@@ -18,7 +18,6 @@
 				alt="{{ $.Text }}"
 			/>
 			<noscript><img
-					class="figure-img img-fluid"
 					sizes="100vw"
 					srcset="{{ $img.srcset }}"
 					src="{{ $img.src }}"
@@ -28,12 +27,12 @@
 				/>
 			</noscript>
 			{{ with $.Title -}}
-				<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>
+				<figcaption>{{ . | safeHTML }}</figcaption>
 			{{- end }}
 		</figure>
 	{{- else -}}
 		<img
-			class="img-fluid lazyload blur-up"
+			class="lazyload blur-up"
 			src="{{ $img.lqip }}"
 			data-src="{{ $img.src }}"
 			width="{{ $image.Width }}"

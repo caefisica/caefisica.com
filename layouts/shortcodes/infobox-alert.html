@@ -1,5 +1,5 @@
-<aside class="position-relative mt-4 parent-box mx-n2r">
-	<div class="child-box position-absolute top-0 start-0 translate-middle p-2 rounded-circle">
+<aside class="relative mt-4 mb-8 rounded-md rounded-bl-[3px] border-l-3 border-indigo-500 bg-indigo-100/35 pt-7 pr-8 pb-8 pl-[29px] xl:-mx-8 dark:border-indigo-600 dark:bg-surface">
+	<div class="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-bg p-2 text-indigo-500 dark:text-indigo-600">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="32"
@@ -17,10 +17,10 @@
 		</svg>
 	</div>
 	{{ with .Get "text" }}
-		<div class="w-100">{{ . | safeHTML }}</div>
+		<div class="w-full">{{ . | safeHTML }}</div>
 	{{ else }} 
 		{{ with .Inner }}
-			<div class="w-100">{{ . | markdownify }}</div>
+			<div class="w-full">{{ . | markdownify }}</div>
 		{{ else }}
 			{{ errorf "No valid text variable or Inner content given" }} 
 		{{ end }} 

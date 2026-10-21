@@ -14,14 +14,15 @@
 		{{- $collapseID := printf "section-%s" (md5 .url) -}}
 		<li class="my-1{{ if gt $level 0 }} ms-3{{ end }}">
 			<button
-				class="btn btn-toggle align-items-center rounded collapsed"
-				data-bs-toggle="collapse"
-				data-bs-target="#{{ $collapseID }}"
+				class="btn-toggle items-center rounded"
+				type="button"
+				data-toggle="{{ $collapseID }}"
+				aria-controls="{{ $collapseID }}"
 				aria-expanded="{{ if .active }}true{{ else }}false{{ end }}">
 				{{ .title }}
 			</button>
-			<div class="collapse{{ if .active }} show{{ end }}" id="{{ $collapseID }}">
-				<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+			<div id="{{ $collapseID }}"{{ if not .active }} hidden{{ end }}>
+				<ul class="btn-toggle-nav list-none pb-1 text-sm font-normal">
 					{{ partial "sidebar/render-auto-nav-nodes.html" (dict
 						"nodes" .children
 						"level" (add $level 1)

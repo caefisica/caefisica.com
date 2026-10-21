@@ -1,0 +1,19 @@
+{{- /*
+Link card. Context: dict with
+  title, url, tag (heading element, default "h2"), emoji, lead (HTML), meta (page for blog-meta).
+*/ -}}
+{{ $tag := .tag | default "h2" -}}
+<div class="relative rounded-md border border-black/15 bg-bg dark:border-white/15">
+	<div class="px-8 pb-8">
+		{{ printf `<%s class="mt-8 mb-[1.125rem] text-h3">` $tag | safeHTML }}
+		<a class="text-fg after:absolute after:inset-0 hover:text-fg hover:no-underline" href="{{ .url }}"
+		>{{ .title }}
+			{{ with .emoji -}}
+				&nbsp;{{ . | emojify }}
+			{{ end -}}
+		</a>
+		{{ printf `</%s>` $tag | safeHTML }}
+		{{ with .lead }}<p>{{ . | safeHTML }}</p>{{ end }}
+		{{ with .meta }}{{ partial "main/blog-meta.html" (dict "page" .) }}{{ end }}
+	</div>
+</div>

@@ -2,13 +2,6 @@
 {{- $url := .url -}}
 {{- $id := .id | replaceRE `[^a-zA-Z0-9]` "_" -}}
 {{- $hidePaginator := .hidePaginator | default false -}}
-{{- $pdfjs := resources.Get "scss/components/pages/_pdfjs.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint -}}
-<link
-	rel="stylesheet"
-	href="{{ $pdfjs.RelPermalink }}"
-	integrity="{{ $pdfjs.Data.Integrity }}"
-	media="screen"
-/>
 {{- $pdfjs_dist := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | fingerprint -}}
 {{- $pdfjs_worker_dist := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | fingerprint -}}
 <script type="module">
@@ -72,27 +65,29 @@
 </script>
 <div class="mt-auto mb-4">
 	<div
-		class="pdf-paginator d-flex justify-content-center pdf-head"
+		class="flex items-center justify-center gap-8 pt-4"
 		id="paginator_{{- $id -}}">
-		<button class="btn btn-primary" id="prev_{{- $id -}}">Anterior</button>
-		<div class="paginas">
-			<span>
-				Página: <span id="page_num_{{- $id -}}"></span> /
-				<span id="page_count_{{- $id -}}"></span>
-			</span>
-		</div>
-		<button class="btn btn-primary" id="next_{{- $id -}}">Siguiente</button>
+		<button
+			class="rounded-md border border-link bg-link px-3 py-1.5 text-white transition-colors hover:border-indigo-900 hover:bg-indigo-900 dark:text-bg dark:hover:border-indigo-200 dark:hover:bg-indigo-200 dark:hover:text-bg"
+			id="prev_{{- $id -}}"
+			type="button">Anterior</button>
+		<span>
+			Página: <span id="page_num_{{- $id -}}"></span> /
+			<span id="page_count_{{- $id -}}"></span>
+		</span>
+		<button
+			class="rounded-md border border-link bg-link px-3 py-1.5 text-white transition-colors hover:border-indigo-900 hover:bg-indigo-900 dark:text-bg dark:hover:border-indigo-200 dark:hover:bg-indigo-200 dark:hover:text-bg"
+			id="next_{{- $id -}}"
+			type="button">Siguiente</button>
 		<a
-			class="btn btn-secondary h-100 d-none d-sm-block"
+			class="hidden h-full rounded-md border border-gray-600 bg-gray-600 px-3 py-1.5 text-white transition-colors hover:border-gray-700 hover:bg-gray-700 sm:block"
 			href="{{ $url }}"
 			target="_blank"
 			rel="noopener noreferrer"
 			id="download_{{- $id -}}"
 		>Descargar</a>
 	</div>
-	<div id="embed-pdf-container_{{- $id -}}" class="container-fluid mt-4">
-		<div class="row justify-content-md-center">
-			<canvas class="pdf-canvas pdf-cae col-md-auto" id="the-canvas_{{- $id -}}"></canvas>
-		</div>
+	<div id="embed-pdf-container_{{- $id -}}" class="mt-6">
+		<canvas class="mx-auto block h-auto max-w-full" id="the-canvas_{{- $id -}}"></canvas>
 	</div>
 </div>

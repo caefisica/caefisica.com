@@ -1,0 +1,8 @@
+{{- /*
+Sticky sidebar from lg. Context: dict with page, menu (partial name), label.
+*/ -}}
+<div class="hidden px-6 lg:sticky lg:top-[3.625rem] lg:z-1000 lg:block lg:h-[calc(100vh-3.625rem)] lg:w-5/16 lg:self-start lg:border-r lg:border-dashed lg:border-line xl:w-80">
+	<nav class="[scrollbar-color:transparent_transparent] [scrollbar-width:thin] hover:[scrollbar-color:var(--color-line)_transparent] lg:-mr-6 lg:max-h-[calc(100vh-4rem)] lg:overflow-y-auto lg:pb-16" aria-label="{{ .label }}">
+		{{ partial .menu .page }}
+	</nav>
+</div>

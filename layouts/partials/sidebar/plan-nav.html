@@ -13,7 +13,7 @@
 {{- end -}}
 {{- $semesters = sort $semesters -}}
 
-<ul class="list-unstyled collapsible-sidebar">
+<ul class="collapsible-sidebar list-none">
 	{{- range $semesters -}}
 		{{- $sem := . -}}
 		{{- $courses := where $planSection.Pages "Params.semester" $sem -}}
@@ -26,14 +26,15 @@
 		{{- end -}}
 		<li class="my-1">
 			<button
-				class="btn btn-toggle align-items-center rounded{{ if not $isActive }} collapsed{{ end }}"
-				data-bs-toggle="collapse"
-				data-bs-target="#{{ $collapseID }}"
+				class="btn-toggle items-center rounded"
+				type="button"
+				data-toggle="{{ $collapseID }}"
+				aria-controls="{{ $collapseID }}"
 				aria-expanded="{{ if $isActive }}true{{ else }}false{{ end }}">
 				Ciclo {{ $sem }}
 			</button>
-			<div class="collapse{{ if $isActive }} show{{ end }}" id="{{ $collapseID }}">
-				<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+			<div id="{{ $collapseID }}"{{ if not $isActive }} hidden{{ end }}>
+				<ul class="btn-toggle-nav list-none pb-1 text-sm font-normal">
 					{{- range $courses -}}
 						<li>
 							<a

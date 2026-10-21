@@ -1,4 +1,4 @@
-{{ $styles := resources.Get "scss/components/_mascot.scss" | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
+{{ $styles := resources.Get "css/mascot.css" | minify | fingerprint }}
 <link
 	rel="stylesheet"
 	href="{{ $styles.RelPermalink }}"

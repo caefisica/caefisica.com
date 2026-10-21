@@ -1,70 +1,64 @@
 {{ define "main" }}
-<div class="row flex-xl-nowrap">
-	<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
-		<nav class="docs-links" aria-label="Main navigation">
-			{{ partial "sidebar/showcase-menu.html" . }}
-		</nav>
-	</div>
-	{{ if ne .Params.toc false -}}
-		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+<div class="-mx-6 flex flex-wrap justify-between xl:flex-nowrap">
+	{{ partial "sidebar/aside.html" (dict "page" . "menu" "sidebar/showcase-menu.html" "label" "Main navigation") }}
+	{{- if ne .Params.toc false -}}
+		<nav class="toc order-2 hidden border-x border-dashed border-line px-6 xl:sticky xl:top-16 xl:block xl:h-[calc(100vh-4rem)] xl:self-start xl:overflow-y-auto" aria-label="Secondary navigation">
 			{{ partial "sidebar/docs-toc.html" . }}
 		</nav>
 	{{ end -}}
-	{{ if ne .Params.toc false -}}
-		<main class="docs-content col-lg-11 col-xl-9">
-	{{ else -}}
-		<main class="docs-content col-lg-11 mx-xl-auto">
-	{{ end -}}
-	<div class="experimental-meta d-flex justify-content-between">
-		<span class="fw-bold">{{ .Title }}</span>
-		<span>
-			{{ if .Params.types -}}
-				<small class="types-single">{{ range $index, $type := .Params.types }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "/experimental/types/" | relURL }}{{ . | urlize }}/">{{ . | title }}</a>{{ end -}}</small>
+	<main class="order-1 w-full px-6 pb-12 lg:w-11/16 {{ if ne .Params.toc false }}xl:w-9/16{{ else }}xl:mx-auto xl:w-10/16{{ end }}">
+		<div class="experimental-meta flex justify-between">
+			<span class="font-bold">{{ .Title }}</span>
+			<span>
+				{{ if .Params.types -}}
+					<small class="types-single">{{ range $index, $type := .Params.types }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "/experimental/types/" | relURL }}{{ . | urlize }}/">{{ . | title }}</a>{{ end -}}</small>
+				{{ end -}}
+				<a class="view-website" href="{{ .Params.link }}" target="_blank" rel="noopener">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="20"
+						height="20"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="inline-block"
+					>
+						<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+						<circle cx="12" cy="12" r="3"></circle>
+					</svg>
+				</a>
+			</span>
+		</div>
+		{{ $image := index .Params.images 0 -}}
+		<div class="relative my-4 rounded-md border border-black/15 dark:border-white/15">
+			{{ partial "main/img.html" (dict
+				"page" .
+				"src" $image
+				"alt" .Title
+				"class" "m-0 overflow-hidden rounded-t-md"
+			)
+			}}
+		</div>
+		<h1>{{ .Title }}</h1>
+		<p class="text-lead">{{ .Params.lead | safeHTML }}</p>
+		<div class="markdown">
+			{{ partial "main/headline-hash.html" .Content }}
+			{{ if .Params.functionalities -}}
+				<h2>Categorías</h2>
+				<ul>
+					{{ range $index, $type := .Params.functionalities }}<li><a href="{{ "/experimental/functionalities/" | relURL }}{{ . | urlize }}/">{{ . | title }}</a></li>{{ end -}}
+				</ul>
 			{{ end -}}
-			<a class="view-website" href="{{ .Params.link }}" target="_blank" rel="noopener">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="20"
-					height="20"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					class="feather feather-eye"
-				>
-					<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-					<circle cx="12" cy="12" r="3"></circle>
-				</svg>
-			</a>
-		</span>
-	</div>
-	{{ $image := index .Params.images 0 -}}
-	<div class="card my-3">
-		{{ partial "main/img.html" (dict
-			"page" .
-			"src" $image
-			"alt" .Title
-			"class" "card-img-top m-0 p-0"
-		)
-		}}
-	</div>
-	<h1>{{ .Title }}</h1>
-	<p class="lead">{{ .Params.lead | safeHTML }}</p>
-	{{ partial "main/headline-hash.html" .Content }}
-	{{ if .Params.functionalities -}}
-		<h2>Categorías</h2>
-		<ul>
-			{{ range $index, $type := .Params.functionalities }}<li><a href="{{ "/experimental/functionalities/" | relURL }}{{ . | urlize }}/">{{ . | title }}</a></li>{{ end -}}
-		</ul>
-	{{ end -}}
-	<h2>Página web</h2>
-	<ul>
-		<li><a href="{{ .Params.link }}">{{ strings.TrimPrefix "https://" .Params.link }}</a></li>
-	</ul>
-	{{ partial "main/edit-page.html" . }}
-	{{ partial "main/docs-navigation.html" . }}
-</main>
+			<h2>Página web</h2>
+			<ul>
+				<li><a href="{{ .Params.link }}">{{ strings.TrimPrefix "https://" .Params.link }}</a></li>
+			</ul>
+		</div>
+		{{ partial "main/edit-page.html" . }}
+		{{ partial "main/docs-navigation.html" . }}
+	</main>
 </div>
 {{ end }}

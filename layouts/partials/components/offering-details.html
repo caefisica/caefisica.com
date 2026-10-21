@@ -2,24 +2,24 @@
 {{- with .Params.professor -}}
 	{{- $prof = partial "components/resolve-professor.html" . -}}
 {{- end -}}
-<div class="description_border mt-3 mb-4">
-	<div class="text-center description_box mt-3 mb-3">
-		<div class="row text-start">
-			<h6 class="ps-0">Información del sílabo</h6>
-			<div class="col-5 col-md-4 p-0">
-				<p class="fs-6">Semestre:</p>
+<div class="-mx-6 mt-4 mb-6 border-y border-dashed border-line">
+	<div class="mt-4 mb-4 ml-6 text-center [&_p]:mb-0.5">
+		<div class="grid grid-cols-16 text-start">
+			<h6 class="col-span-16">Información del sílabo</h6>
+			<div class="col-span-5 p-0 md:col-span-4">
+				<p class="text-base">Semestre:</p>
 			</div>
-			<div class="col-7 col-md-8 p-0">
-				<p class="fs-6">{{ .Params.semester }}</p>
+			<div class="col-span-7 p-0 md:col-span-8">
+				<p class="text-base">{{ .Params.semester }}</p>
 			</div>
 		</div>
 		{{ with $prof }}
-			<div class="row text-start">
-				<div class="col-5 col-md-4 p-0">
-					<p class="fs-6">Docente:</p>
+			<div class="grid grid-cols-16 text-start">
+				<div class="col-span-5 p-0 md:col-span-4">
+					<p class="text-base">Docente:</p>
 				</div>
-				<div class="col-7 col-md-8 p-0">
-					<p class="fs-6">
+				<div class="col-span-7 p-0 md:col-span-8">
+					<p class="text-base">
 						<a href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
 					</p>
 				</div>

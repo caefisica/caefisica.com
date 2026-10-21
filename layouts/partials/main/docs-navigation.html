@@ -1,18 +1,14 @@
 {{ if or .Prev .Next -}}
-	<div class="docs-navigation d-flex justify-content-between">
+	<div class="docs-navigation flex justify-between">
 		{{ $pages := where site.RegularPages "Section" .Section -}} 
 		{{ with $pages.ByWeight.Next . -}}
-			<a class="text-decoration-none" href="{{ .RelPermalink }}">
-				<div class="card my-1 hover_card">
-					<a class="card-body py-2 text-decoration-none active"> &larr; {{ .Title }} </a>
-				</div>
+			<a class="my-1 block rounded-md border border-black/15 px-4 py-2 no-underline transition-colors duration-300 hover:border-link dark:border-white/15 dark:hover:border-indigo-500" href="{{ .RelPermalink }}">
+				&larr; {{ .Title }}
 			</a>
 		{{ end -}} 
 		{{ with $pages.ByWeight.Prev . -}}
-			<a class="ms-auto text-decoration-none" href="{{ .RelPermalink }}">
-				<div class="card my-1 hover_card">
-					<a class="card-body py-2 text-decoration-none active"> {{ .Title }} &rarr; </a>
-				</div>
+			<a class="my-1 ms-auto block rounded-md border border-black/15 px-4 py-2 no-underline transition-colors duration-300 hover:border-link dark:border-white/15 dark:hover:border-indigo-500" href="{{ .RelPermalink }}">
+				{{ .Title }} &rarr;
 			</a>
 		{{ end -}}
 	</div>

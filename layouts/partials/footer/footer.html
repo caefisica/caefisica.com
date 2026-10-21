@@ -1,20 +1,14 @@
-<footer class="footer text-muted">
-	<div class="container-xxl">
-		<div class="row">
-			<div class="col-lg-8 order-last order-lg-first">
-				<ul class="list-inline">
-					<li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
-				</ul>
-			</div>
-			<div class="col-lg-8 order-first order-lg-last text-lg-end">
-				<ul class="list-inline">
-					{{ range .Site.Menus.footer -}}
-						<li class="list-inline-item">
-							<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-						</li>
-					{{ end -}}
-				</ul>
-			</div>
+<footer class="border-t border-dashed border-line py-[1.125rem] text-muted">
+	<div class="mx-auto w-full max-w-page px-6">
+		<div class="flex flex-col-reverse justify-between gap-x-12 lg:flex-row">
+			<p class="mb-0 text-sm md:text-base">{{ .Site.Params.footer | safeHTML }}</p>
+			<ul class="m-0 flex list-none flex-wrap gap-x-2 p-0 text-sm md:text-base lg:text-right">
+				{{ range .Site.Menus.footer -}}
+					<li>
+						<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+					</li>
+				{{ end -}}
+			</ul>
 		</div>
 	</div>
 </footer>

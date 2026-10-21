@@ -6,7 +6,7 @@ Recibe `page`, `src`, `alt` y `class` en un `dict` y muestra la imagen solicitad
 
 <figure{{ with .class }} class="{{ . }}"{{ end }}>
 	<img
-		class="img-fluid lazyload blur-up"
+		class="lazyload blur-up"
 		data-sizes="auto"
 		src="{{ $img.lqip }}"
 		data-srcset="{{ $img.srcset }}"
@@ -15,7 +15,6 @@ Recibe `page`, `src`, `alt` y `class` en un `dict` y muestra la imagen solicitad
 		{{ with .alt }}alt="{{ . }}"{{ end }}
 	>
 	<noscript><img
-			class="img-fluid"
 			sizes="100vw"
 			srcset="{{ $img.srcset }}"
 			src="{{ $img.src }}"

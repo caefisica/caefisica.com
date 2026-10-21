@@ -1,28 +1,31 @@
-<div class="description_border mt-3 mb-4">
-	<div class="text-center description_box mt-3 mb-3">
-		<div class="row text-start">
-			<h6 class="ps-0">Información del curso</h6>
-			<div class="col-5 col-md-4 p-0">
-				<p class="fs-6">Código:</p>
+{{- $infoboxRow := "grid grid-cols-16 text-start" -}}
+{{- $infoboxLabel := "col-span-5 p-0 md:col-span-4" -}}
+{{- $infoboxValue := "col-span-11 p-0 md:col-span-12" -}}
+<div class="-mx-6 mt-4 mb-6 border-y border-dashed border-line">
+	<div class="mt-4 mb-4 ml-6 text-center [&_p]:mb-0.5">
+		<div class="{{ $infoboxRow }}">
+			<h6 class="col-span-16">Información del curso</h6>
+			<div class="{{ $infoboxLabel }}">
+				<p class="text-base">Código:</p>
 			</div>
-			<div class="col-11 col-md-12 p-0">
-				<p class="fs-6">{{ .Params.id | safeHTML }}</p>
-			</div>
-		</div>
-		<div class="row text-start">
-			<div class="col-5 col-md-4 p-0">
-				<p class="fs-6">Créditos:</p>
-			</div>
-			<div class="col-11 col-md-12 p-0">
-				<p class="fs-6">{{ .Params.credits | safeHTML }} créditos</p>
+			<div class="{{ $infoboxValue }}">
+				<p class="text-base">{{ .Params.id | safeHTML }}</p>
 			</div>
 		</div>
-		<div class="row text-start">
-			<div class="col-5 col-md-4 p-0">
-				<p class="fs-6">Prerrequisitos:</p>
+		<div class="{{ $infoboxRow }}">
+			<div class="{{ $infoboxLabel }}">
+				<p class="text-base">Créditos:</p>
 			</div>
-			<div class="col-11 col-md-12 p-0">
-				<p class="fs-6">
+			<div class="{{ $infoboxValue }}">
+				<p class="text-base">{{ .Params.credits | safeHTML }} créditos</p>
+			</div>
+		</div>
+		<div class="{{ $infoboxRow }}">
+			<div class="{{ $infoboxLabel }}">
+				<p class="text-base">Prerrequisitos:</p>
+			</div>
+			<div class="{{ $infoboxValue }}">
+				<p class="text-base">
 					{{ with .Params.prerequisites }} {{ delimit . " y " | safeHTML }} {{ end }}
 				</p>
 			</div>
@@ -40,12 +43,12 @@
 		{{- $profSlugs = $profSlugs | uniq -}}
 		{{- $syllabi = sort $syllabi "Params.semester" "desc" -}}
 		{{- if $profSlugs -}}
-			<div class="row text-start">
-				<div class="col-5 col-md-4 p-0">
-					<p class="fs-6">Profesores:</p>
+			<div class="{{ $infoboxRow }}">
+				<div class="{{ $infoboxLabel }}">
+					<p class="text-base">Profesores:</p>
 				</div>
-				<div class="col-11 col-md-12 p-0">
-					<p class="fs-6">
+				<div class="{{ $infoboxValue }}">
+					<p class="text-base">
 						{{- range $i, $slug := $profSlugs -}}
 							{{- if $i }} · {{ end -}}
 							{{- partial "components/professor-name.html" (partial "components/resolve-professor.html" $slug) -}}
@@ -55,12 +58,12 @@
 			</div>
 		{{- end -}}
 		{{- if $syllabi -}}
-			<div class="row text-start">
-				<div class="col-5 col-md-4 p-0">
-					<p class="fs-6">Sílabos:</p>
+			<div class="{{ $infoboxRow }}">
+				<div class="{{ $infoboxLabel }}">
+					<p class="text-base">Sílabos:</p>
 				</div>
-				<div class="col-11 col-md-12 p-0">
-					<p class="fs-6">
+				<div class="{{ $infoboxValue }}">
+					<p class="text-base">
 						{{- range $i, $o := $syllabi -}}
 							{{- if $i }} · {{ end -}}
 							<a href="{{ $o.RelPermalink }}">{{ $o.Params.semester }} →</a>

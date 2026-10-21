@@ -1,27 +1,23 @@
-<section class="section section-sm my-3 py-5 bg-light">
-	<div class="container">
-		<h2 class="h3 text-center mb-4">Nuestro equipo</h2>
-		<div class="row justify-content-center g-4 mb-5">
+<section class="my-4 bg-surface py-12">
+	<div class="mx-auto max-w-[1240px] px-6">
+		<h2 class="mt-8 mb-6 text-center text-h3">Nuestro equipo</h2>
+		<div class="mb-12 flex flex-wrap justify-center gap-6">
 			{{ range hugo.Data.authors.members -}}
-				<div class="col-14 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+				<div class="w-[calc((100%+1.5rem)*var(--cols)-1.5rem)] [--cols:0.875] sm:[--cols:0.5] md:[--cols:0.375] lg:[--cols:0.3125] xl:[--cols:0.25]">
 					{{ if .url -}}
-						<a href="{{ .url | relURL }}" class="text-decoration-none text-body">
+						<a href="{{ .url | relURL }}" class="block text-fg hover:text-fg hover:no-underline">
 					{{ end -}}
-					<div class="card text-center border-0 m-0 lista_miembros">
-						<div class="card-body d-flex justify-content-center align-items-center pb-0 px-2">
-							<div class="row align-items-center justify-content-center">
-								<img
-									id="{{ .first_name }}"
-									class="imagen_miembros rounded-circle"
-									src="/images/member/{{ .first_name | lower }}.webp"
-									width="83"
-									height="83"
-									loading="lazy"
-									alt="" />
-								<p class="fw-bolder pt-2 mb-0">{{ .funcion -}}</p>
-								<p>{{ .name -}}</p>
-							</div>
-						</div>
+					<div class="flex aspect-square w-full flex-col items-center justify-center bg-bg px-2 text-center">
+						<img
+							id="{{ .first_name }}"
+							class="size-[83px] rounded-full bg-gray-200 object-cover"
+							src="/images/member/{{ .first_name | lower }}.webp"
+							width="83"
+							height="83"
+							loading="lazy"
+							alt="" />
+						<p class="mt-0 mb-0 pt-2 font-bold">{{ .funcion -}}</p>
+						<p class="mb-4">{{ .name -}}</p>
 					</div>
 					{{ if .url -}}
 					</a>

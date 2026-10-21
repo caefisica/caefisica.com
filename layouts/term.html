@@ -1,19 +1,15 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-	<div class="col-md-12 col-lg-10 col-xl-8">
-		<h1>{{ .Title }}</h1>
-		<div class="card-list">
-			{{ range .Pages }}
-				<div class="card">
-					<div class="card-body">
-						<h2 class="h3">
-							<a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Title }}</a>
-						</h2>
-						<p>{{ .Params.lead | safeHTML }}</p>
-					</div>
-				</div>
-			{{ end }}
-		</div>
+<div class="col-prose">
+	<h1>{{ .Title }}</h1>
+	<div class="mt-9 flex flex-col gap-8">
+		{{ range .Pages }}
+			{{ partial "components/card.html" (dict
+				"title" .Title
+				"url" .RelPermalink
+				"lead" .Params.lead
+			)
+			}}
+		{{ end }}
 	</div>
 </div>
 {{ end }}
