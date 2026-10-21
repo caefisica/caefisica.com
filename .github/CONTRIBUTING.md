@@ -59,7 +59,7 @@ Abre un pull request a `master` con un título y una descripción claros. El flu
 
 Si el pull request toca `content/`, el flujo
 [`url health`](workflows/check_broken_links.yml) revisa los enlaces de esa
-carpeta.
+carpeta. Para revisarlos antes, ejecuta `mise run links`.
 
 Al participar aceptas el [Código de Conducta](../CODE_OF_CONDUCT.md) y publicas
 tu aporte bajo la [licencia MIT](../LICENCE).
