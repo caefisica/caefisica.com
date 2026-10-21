@@ -19,16 +19,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5
+      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
 
-      - run: mise run install
-
-      - run: mise run check
+      - run: bun run check
 
   deploy:
     needs: check
@@ -61,16 +59,14 @@ jobs:
           fi
           exit "$missing"
 
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5
+      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
 
-      - run: mise run install
-
-      - run: mise run deploy
+      - run: bun run deploy
 
   preview:
     if: github.event_name == 'pull_request'
@@ -115,23 +111,20 @@ jobs:
           exit "$missing"
 
       - if: steps.access.outputs.enabled == 'true'
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           fetch-depth: 0
 
       - if: steps.access.outputs.enabled == 'true'
-        uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5
-
-      - if: steps.access.outputs.enabled == 'true'
-        run: mise run install
+        uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
 
       # Netlify serves an alias at https://<alias>--<site name>.netlify.app.
       - if: steps.access.outputs.enabled == 'true'
         name: Build for the alias URL
         run: |
           name=$(netlify api getSite --data "{\"site_id\": \"$NETLIFY_SITE_ID\"}" | jq -r .name)
-          HUGO_BASEURL="https://$ALIAS--$name.netlify.app/" mise run build
+          HUGO_BASEURL="https://$ALIAS--$name.netlify.app/" bun run build
 
       - if: steps.access.outputs.enabled == 'true'
         name: Deploy the preview
