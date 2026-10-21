@@ -505,15 +505,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: $gray-600 !important;
 }
 
-[data-dark-mode] body .email-form .form-control {
-  background: $body-overlay-dark;
-  border: 1px solid transparent;
-}
-
-[data-dark-mode] body .email-form .form-control:focus {
-  border: 1px solid $link-color-dark;
-}
-
 [data-dark-mode] .page-link {
   color: $link-color-dark;
   background-color: transparent;

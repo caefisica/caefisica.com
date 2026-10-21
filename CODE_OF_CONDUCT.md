@@ -68,7 +68,8 @@ determinen otros miembros del equipo de mantenimiento del proyecto.
 
 El actual Comité de Ética consiste de:
 
-- David Duran ([david@caefisica.com](mailto:david@caefisica.com))
+- David Duran
+  ([reporte privado en GitHub](https://github.com/caefisica/caefisica.com/security/advisories/new))
 - Andrea Palacios
 - Liuba Ramos
 

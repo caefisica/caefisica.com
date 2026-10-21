@@ -1,28 +1,17 @@
 connectsrc:
   - "'self'"
-  - https://caefisica.com
-  - https://*.netlify.app
-  - https://*.algolia.net
-  - https://*.algolianet.com
-  - https://*.algolia.io
   - https://*.cloudinary.com
-  - https://*.workers.dev
 
 fontsrc:
   - "'self'"
   - "data:"
-  - https://caefisica.com
 
 framesrc:
   - "'self'"
-  - https://*.netlify.com
-  - https://d.cae.workers.dev
   - https://www.youtube.com
 
 imgsrc:
   - "'self'"
-  - https://caefisica.com
-  - https://*.netlify.app
   - https://*.cloudinary.com
   - https://i.imgur.com
   - "data:"
@@ -30,24 +19,17 @@ imgsrc:
 
 manifestsrc:
   - "'self'"
-  - https://caefisica.com
-  - https://*.netlify.app
 
 stylesrc:
   - "'self'"
-  - https://caefisica.com
-  - https://*.netlify.app
   - "'unsafe-inline'"
 
 scriptsrc:
   - "'self'"
-  - https://caefisica.com
-  - https://*.netlify.com
-  - https://*.netlify.app
+  - "'wasm-unsafe-eval'"
   - https://www.youtube.com
   - "'unsafe-inline'"
 
 workersrc:
   - "'self'"
-  - https://d.cae.workers.dev
   - "blob:"

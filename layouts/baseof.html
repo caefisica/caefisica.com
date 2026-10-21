@@ -5,7 +5,7 @@
 	<body class="{{ delimit (.Store.Get "class") " " }}">
 		{{ partial "header/header.html" . }}
 		<div class="wrap container-xxl" role="document">
-			<div class="content">
+			<div class="content"{{ if ne .Kind "404" }} data-pagefind-body{{ end }}>
 				{{ block "main" . }}{{ end }}
 			</div>
 		</div>

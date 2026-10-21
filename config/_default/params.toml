@@ -10,7 +10,6 @@ ourBookLibraryDrive = "https://drive.google.com/drive/folders/152My-loiJkz5eLNhH
 
 images = ["cae.png"]
 ogLocale = "es_ES"
-domainTLD = "https://web.caefisica.workers.dev/"
 titleHome = "Centro de Apoyo al Estudiante de Física"
 
 twitterSite = "@caefisica"
@@ -29,7 +28,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/caefisica"
 schemaLinkedIn = "https://www.linkedin.com/company/caefisica/"
-schemaGitHub = "https://github.com/caefisica/web"
+schemaGitHub = "https://github.com/caefisica/caefisica.com"
 
 themeColor = "#fff"
 
@@ -50,16 +49,12 @@ events = true
 bannerEventForm = "https://forms.gle/bhDitoK3ymySbJgZ7"
 bannerEventImage = "2022_11_1.jpg"
 
-docsRepo = "https://github.com/caefisica/web"
+docsRepo = "https://github.com/caefisica/caefisica.com"
 docsRepoBranch = "master"
 editPage = true
 lastMod = true
 
 giscus = false
-
-[search]
-provider = "algolia"
-appId = "Q678D1SIXS"
 
 [options]
 lazySizes = true

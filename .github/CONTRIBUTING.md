@@ -1,6 +1,7 @@
 # Contribuir
 
-Gracias por querer mejorar caefisica.com. Aceptamos aportes de cualquier tamaño.
+Gracias por querer mejorar el sitio del CAE. Aceptamos aportes de cualquier
+tamaño.
 
 ## Qué puedes aportar
 
@@ -10,8 +11,8 @@ Gracias por querer mejorar caefisica.com. Aceptamos aportes de cualquier tamaño
 - Reportes de errores y propuestas, con las
   [plantillas de incidencias](https://github.com/caefisica/caefisica.com/issues/new/choose).
 
-Si tienes otra idea, escríbenos por [correo](https://caefisica.com/contacto/) o
-en [nuestras redes](https://linktr.ee/caefisica).
+Si tienes otra idea, escríbenos en
+[nuestras redes](https://linktr.ee/caefisica).
 
 ## Editar desde el navegador
 

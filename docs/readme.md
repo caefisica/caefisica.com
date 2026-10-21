@@ -8,5 +8,5 @@
 - [Agregar un curso](cursos.md): guía, libros, listas de reproducción, sílabos y
   docentes.
 - [Shortcodes](shortcodes.md): tablas, avisos, imágenes, PDF y diagramas.
-- [Despliegue](despliegue.md): Netlify, Cloudflare, el boletín, las cabeceras y
-  los flujos de GitHub.
+- [Despliegue](despliegue.md): Cloudflare, la búsqueda, las cabeceras y los
+  flujos de GitHub.

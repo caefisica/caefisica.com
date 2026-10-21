@@ -1,4 +1,4 @@
-# caefisica.com
+# caefisica
 
 [![checks](https://github.com/caefisica/caefisica.com/actions/workflows/ci.yml/badge.svg)](https://github.com/caefisica/caefisica.com/actions/workflows/ci.yml)
 [![url health](https://github.com/caefisica/caefisica.com/actions/workflows/check_broken_links.yml/badge.svg)](https://github.com/caefisica/caefisica.com/actions/workflows/check_broken_links.yml)
@@ -16,8 +16,8 @@ Necesitas [mise](https://mise.jdx.dev). Instala las herramientas de
 [`mise.toml`](mise.toml) y las dependencias, y arranca el servidor:
 
 ```bash
-git clone https://github.com/caefisica/caefisica.com.git
-cd caefisica.com
+git clone https://github.com/caefisica/caefisica.com.git caefisica
+cd caefisica
 mise install
 mise run install
 mise run dev
@@ -34,9 +34,9 @@ El servidor de desarrollo queda en <http://localhost:1313>. La guía del curso
 - Apuntes con fórmulas LaTeX (KaTeX) y diagramas Mermaid.
 - Biblioteca de archivos, blog, artículos y directorio de colaboradores y
   docentes.
-- Búsqueda con Algolia y boletín por correo.
+- Búsqueda con Pagefind.
 - Edición desde el navegador con Pages CMS, configurado en `.pages.yml`.
-- Despliegue en Cloudflare y Netlify.
+- Despliegue en Cloudflare Workers.
 
 ## Más
 

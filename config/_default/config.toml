@@ -1,4 +1,4 @@
-baseURL = "https://caefisica.com/"
+baseURL = "https://web.empirical.workers.dev/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -15,18 +15,18 @@ pagerSize = 7
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 section = ["HTML", "RSS"]
 
-[mediaTypes."text/netlify"]
+[mediaTypes."text/x-cloudflare-assets"]
 suffixes = [""]
 delimiter = ""
 
 [outputFormats.REDIRECTS]
-mediaType = "text/netlify"
+mediaType = "text/x-cloudflare-assets"
 baseName = "_redirects"
 isPlainText = true
 notAlternative = true
 
 [outputFormats.HEADERS]
-mediaType = "text/netlify"
+mediaType = "text/x-cloudflare-assets"
 baseName = "_headers"
 isPlainText = true
 notAlternative = true

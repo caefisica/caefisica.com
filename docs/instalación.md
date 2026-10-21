@@ -24,8 +24,8 @@ mise install
 ## Ejecutar el sitio
 
 ```bash
-git clone https://github.com/caefisica/caefisica.com.git
-cd caefisica.com
+git clone https://github.com/caefisica/caefisica.com.git caefisica
+cd caefisica
 mise install
 mise run install
 mise run dev
@@ -33,8 +33,8 @@ mise run dev
 
 `mise run install` instala las dependencias de `bun.lock` sin modificarlo. `dev`
 copia las fuentes de KaTeX a `static/fonts/`, ejecuta
-`hugo server --disableFastRender` y sirve el sitio en <http://localhost:1313>.
-Recarga el navegador cuando guardas un archivo.
+`hugo server --bind=127.0.0.1 --port=1313 --disableFastRender` y sirve el sitio
+en <http://localhost:1313>. Recarga el navegador cuando guardas un archivo.
 
 Ejecuta Hugo siempre con `mise run`. Hugo compila el SCSS con el programa
 `sass`, y `mise.toml` pone `node_modules/.bin` en el `PATH` de las tareas, donde
@@ -53,7 +53,7 @@ las direcciones: [convenciones](convenciones.md#nombres).
 | -------------------------- | ---------------------------------------------------------------------------------------- |
 | `mise run install`         | Instala las dependencias de `bun.lock` sin modificarlo.                                  |
 | `mise run dev`             | Copia las fuentes de KaTeX y sirve el sitio en el puerto 1313.                           |
-| `mise run build`           | Copia las fuentes de KaTeX a `static/fonts/` y ejecuta `hugo --gc --minify`.             |
+| `mise run build`           | Copia las fuentes de KaTeX a `static/fonts/`, ejecuta `hugo --gc --minify` y `pagefind`. |
 | `mise run lint`            | Comprueba scripts, estilos, plantillas, Markdown y formato, sin escribir.                |
 | `mise run fix`             | Corrige los Markdown que `markdownlint-cli2` puede y da formato a plantillas y al resto. |
 | `mise run typecheck`       | `tsc --noEmit`.                                                                          |

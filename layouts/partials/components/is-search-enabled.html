@@ -1,3 +1,2 @@
-{{- $usesAlgolia := eq .Site.Params.search.provider "algolia" -}}
 {{- $inDocs := in (partial "components/docs-sections.html") .Section -}}
-{{- return (and $usesAlgolia (or (eq .Kind "home") $inDocs)) -}}
+{{- return (or (eq .Kind "home") $inDocs) -}}

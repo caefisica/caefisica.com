@@ -47,7 +47,7 @@ cual optamos por diseñar una página propia.
 
 3. **Fase 2**
 
-   - Búsqueda de contenido global gracias a Algolia
+   - Búsqueda de contenido global
    - Menús desplegables
    - Boletín informativo
    - Comentarios en las páginas

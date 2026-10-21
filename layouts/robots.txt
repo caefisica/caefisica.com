@@ -5,4 +5,3 @@ User-agent: *
 	Disallow: /
 {{ end }}
 Sitemap: {{ "sitemap.xml" | absURL -}}
-# Algolia-Crawler-Verif: 808D45522984F82F

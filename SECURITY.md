@@ -37,8 +37,8 @@ incluyendo pero no limitado a:
 
 ### Cómo reportar
 
-Para reportar un problema de seguridad, por favor envía un correo electrónico a
-[david@caefisica.com](mailto:david@caefisica.com) con el asunto "SEGURIDAD".
+Para reportar un problema de seguridad, por favor abre un
+[aviso de seguridad privado en GitHub](https://github.com/caefisica/caefisica.com/security/advisories/new).
 
 En tu reporte, por favor incluye:
 
@@ -92,9 +92,8 @@ Please report any security issues you discover, including but not limited to:
 
 ### How to Report
 
-To report a security issue, please email
-[david@caefisica.com](mailto:david@caefisica.com) with the subject line
-"SECURITY".
+To report a security issue, please open a
+[private security advisory on GitHub](https://github.com/caefisica/caefisica.com/security/advisories/new).
 
 In your report, please include:
 

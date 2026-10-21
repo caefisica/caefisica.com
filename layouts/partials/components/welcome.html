@@ -14,9 +14,9 @@
 				<h1>Una guía para el estudio de las Ciencias Físicas</h1>
 				<p class="lead mb-4 fs-5">{{ .Params.Lead | safeHTML -}}</p>
 				{{ if partial "components/is-search-enabled.html" . -}}
-					<form class="search-wrapper home-search" action="{{ `search` | relLangURL }}">
+					<div class="search-wrapper home-search">
 						<div id="docsearch"></div>
-					</form>
+					</div>
 				{{ end -}}
 				<p class="meta mt-3">Un proyecto del {{ .Site.Params.titleAddition }}</a></p>
 		</div>

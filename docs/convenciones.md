@@ -17,7 +17,7 @@ content/
 ├── contributors/<slug>/_index.md      colaboradores
 ├── types/, functionalities/           índices de las taxonomías de experimental
 ├── biblioteca/, contacto/, privacidad/
-├── newsletter.md, suscrito.md, desuscrito.md, redes.md
+├── redes.md
 └── _index.md                          portada
 ```
 

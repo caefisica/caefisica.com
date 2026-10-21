@@ -1,19 +1,15 @@
 {
-  "name": "@caefisica/web",
+  "name": "@caefisica/caefisica.com",
   "version": "0.9.6",
   "private": true,
   "author": "David Duran <contacto@altmails.com> (https://totallynotdavid.github.io/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caefisica/web.git"
+    "url": "https://github.com/caefisica/caefisica.com.git"
   },
   "funding": {
     "type": "individual",
     "url": "https://github.com/sponsors/totallynotdavid"
-  },
-  "dependencies": {
-    "@algolia/autocomplete-js": "^1.19.12",
-    "algoliasearch": "^5.60.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
@@ -31,6 +27,7 @@
     "mermaid": "^12.2.0",
     "oxfmt": "^0.74.0",
     "oxlint": "^1.89.0",
+    "pagefind": "1.5.2",
     "pdfjs-dist": "^6.4.299",
     "playwright": "^1.64.1",
     "postcss": "^8.5.31",

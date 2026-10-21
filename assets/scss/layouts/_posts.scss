@@ -1,6 +1,5 @@
 .home .card,
 .blog .card,
-.newsletter .card,
 .rss .card,
 .contributors.list .card {
   margin-top: 2rem;
@@ -24,7 +23,6 @@
 }
 
 .blog .card:hover,
-.newsletter .card:hover,
 .rss .card:hover,
 .list.unmsm .card:hover,
 .list.apuntes .card:hover,
@@ -45,7 +43,6 @@
 
 .home .card-body,
 .blog .card-body,
-.newsletter .card-body,
 .rss .card-body,
 .contributors.list .card-body {
   padding: 0 2rem 1rem;

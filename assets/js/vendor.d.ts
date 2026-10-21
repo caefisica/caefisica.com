@@ -3,7 +3,7 @@
 declare module "instant.page";
 
 declare module "@params" {
-  const params: { appId: string };
+  const params: { bundlePath: string };
   export default params;
 }
 

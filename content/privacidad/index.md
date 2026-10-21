@@ -10,8 +10,7 @@ type: "extend"
 
 ***
 
-**Resumen**: No utilizamos cookies y no recogemos Datos Personales de forma
-obligatoria.
+**Resumen**: No utilizamos cookies y no recogemos Datos Personales.
 
 ---
 
@@ -33,18 +32,7 @@ Correo electrónico de contacto del Titular: cae [en] unmsm.edu.pe
 
 ## Clases de Datos recogidos
 
-Los únicos Datos que recogemos son los solicitados para la suscripción al
-boletín del CAE. Este es un servicio provisto a través de terceros, en este
-caso: `Buttondown`. Para efectos funcionales solicitamos el nombre y el correo
-del usuario. El uso de este servicio es opcional, es decir los usuarios serán
-libres de no comunicar tales Datos sin que esto tenga consecuencia alguna sobre
-la disponibilidad o el funcionamiento del servicio.
-
-El usuario asume la responsabilidad respecto de los Datos Personales que se
-obtengan, publiquen o compartan a través de esta página web y declara por la
-presente que da su consentimiento para el uso de sus Datos por parte de
-`Sendgrid` en caso decida participar del boletín. Véase la política de
-privacidad de [`Sendgrid`](https://www.twilio.com/en-us/legal/privacy).
+Esta página web no tiene formularios y no recoge Datos Personales.
 
 ## Información detallada del proveedor
 
@@ -61,10 +49,10 @@ determinación de la localización exacta en la que se almacenan los Datos
 Personales.
 
 ```text
-Netlify (Netlify, Inc.)
+Cloudflare (Cloudflare, Inc.)
 ```
 
-Netlify es un servicio de hosting prestado por Netlify, Inc.
+Cloudflare es un servicio de hosting prestado por Cloudflare, Inc.
 
 - Datos Personales tratados: Datos comunicados durante el uso del servicio.
 - Lugar de tratamiento: EE.UU. – Política de privacidad.
@@ -75,4 +63,4 @@ Netlify es un servicio de hosting prestado por Netlify, Inc.
 
 [Contáctanos]({{< relref "contacto/_index.md" >}}) si tienes alguna pregunta.
 
-Fecha de entrada en vigor: _14 de febrero del 2022_
+Fecha de entrada en vigor: _21 de octubre del 2026_

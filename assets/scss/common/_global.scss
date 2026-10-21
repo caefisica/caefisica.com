@@ -356,14 +356,6 @@ main ul:has(li) {
   font-size: $font-size-md;
 }
 
-.top-newsletter {
-  border-top: double 4px transparent;
-  background-image:
-    linear-gradient(white, white), radial-gradient(circle at top left, $primary, #145fd1);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-}
-
 .modal-backdrop {
   background-color: #fff;
 }

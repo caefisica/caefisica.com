@@ -10,4 +10,3 @@ assets/jsconfig.json
 # sensitive varibles
 .env
 .hugo_build.lock
-.netlify
