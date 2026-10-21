@@ -114,8 +114,11 @@ Los shortcodes están en `layouts/shortcodes/` y se describen en
   el primer pintado. Corren después de `DOMContentLoaded`: un script que se sume
   a ellos no debe esperar ese evento. La API de YouTube se pide al primer clic
   en reproducir (`assets/js/player.ts`).
-- Las dos fuentes Jost de `head/resource-hints.html` (400 y 700) se precargan a
-  propósito: sin la precarga, el cambio de fuente desplaza el texto (CLS).
+- `head/resource-hints.html` precarga las dos fuentes Jost (400 y 700) en todas
+  las páginas menos la portada: sin la precarga, el cambio de fuente desplaza el
+  texto (CLS). La portada no las precarga porque el LCP es su párrafo
+  introductorio y una precarga retrasa ese pintado; ahí el cambio de fuente
+  mueve el párrafo 0,003 de CLS.
 - `assets/js/vendor/` se llena con los montajes de `module.toml`; no se edita.
 
 ## Boletín
