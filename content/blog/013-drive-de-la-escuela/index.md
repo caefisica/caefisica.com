@@ -16,9 +16,6 @@ weight: 400
 toc: false
 images: []
 date: 2024-04-19T00:00:00-00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 #### El inicio de todo: Google Apps for Education
@@ -212,9 +209,8 @@ Es necesario recordar que los estudiantes ya podían acceder a estas carpetas.
 {{< img-simple src="Gestion_Miembros_Roles_Sistema.png" alt="Captura de pantalla de la interfaz de 'Gestionar miembros' en un sistema digital. Muestra un campo de búsqueda para 'Añadir personas y grupos' y una lista de miembros con sus roles. 'David Duran' listado como 'Administrador', 'andrea.palacios@unmsm.edu.pe' también como 'Administrador', 'Delegad@s de base' como 'Administrador', 'epfisica' como 'Lector' y 'Subdelegad@s de base' como 'Gestor de contenido'. Hay un botón azul en la parte inferior que dice 'Hecho'." class="mx-auto block shadow-lg my-6" >}}
 
 Si eres estudiante de física y quieres acceder a esta valiosa unidad compartida
-de Google Drive, no te preocupes, tenemos un
-[artículo](/blog/acceder-a-nuevo-drive) dedicado a explicarte paso a paso cómo
-hacerlo.
+de Google Drive, no te preocupes: este mismo artículo te explica paso a paso
+cómo hacerlo.
 
 ---
 

@@ -65,8 +65,8 @@ weight: 30
 
    Sí, puedes revisar todos los convenios (como intercambios o becas) en la
    pagina de la <a href="https://cooperacion.unmsm.edu.pe">OGCRI</a>. Puedes ver
-   la sección [Noticias](/rss) disponible en esta página para revisar por
-   actualizaciones nuevas.
+   la sección [Noticias](https://news.caefisica.workers.dev/) disponible en esta
+   página para revisar por actualizaciones nuevas.
 
 6. **¿Cuánto es la nota mínima para aprobar un curso?**
 
