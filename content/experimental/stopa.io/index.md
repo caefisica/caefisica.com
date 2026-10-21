@@ -8,9 +8,6 @@ lastmod: 2022-03-25T04:20:42-05:00
 draft: true
 images: ["stopa.io.png"]
 link: "https://stopa.io/post/269"
-menu:
-  experimental:
-    parent: "general"
 weight: 130
 toc: false
 pinned: false

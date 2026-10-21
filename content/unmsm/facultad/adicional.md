@@ -5,9 +5,6 @@ lead: ""
 date: 2022-02-01T12:00:00
 draft: true
 images: []
-menu:
-  pregrado:
-    parent: "cursos"
 toc: true
 weight: 900
 ---

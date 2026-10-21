@@ -11,9 +11,6 @@ lastmod: 2022-03-25T04:03:13-05:00
 draft: true
 images: ["phalpern.medium.com"]
 link: "https://phalpern.medium.com/a-quantum-of-insults-23150f27bbb3"
-menu:
-  experimental:
-    parent: "general"
 weight: 110
 toc: false
 pinned: false

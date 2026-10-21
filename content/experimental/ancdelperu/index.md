@@ -13,9 +13,6 @@ lastmod: 2022-03-25T13:15:52-05:00
 draft: false
 images: ["ancdelperu.png"]
 link: "https://www.facebook.com/ANCdelPeru/"
-menu:
-  experimental:
-    parent: "general"
 weight: 270
 toc: false
 pinned: false

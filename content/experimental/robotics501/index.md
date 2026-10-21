@@ -7,9 +7,6 @@ lastmod: 2022-03-25T19:59:29-05:00
 draft: false
 images: ["robotics501.png"]
 link: "https://github.com/michiganrobotics/rob501"
-menu:
-  experimental:
-    parent: "general"
 weight: 430
 toc: false
 pinned: false

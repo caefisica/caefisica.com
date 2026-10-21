@@ -11,9 +11,6 @@ lastmod: 2022-03-25T03:42:03-05:00
 draft: true
 images: ["elpais.com.png"]
 link: "https://elpais.com/elpais/2018/04/30/ciencia/1525069233_387473.html"
-menu:
-  experimental:
-    parent: "general"
 weight: 080
 toc: false
 pinned: false

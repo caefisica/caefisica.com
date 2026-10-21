@@ -7,9 +7,6 @@ lastmod: 2022-02-07T04:07:24-05:00
 draft: true
 images: ["neutrinos"]
 link: "https://neutrinos.fnal.gov/"
-menu:
-  experimental:
-    parent: "general"
 weight: 120
 toc: false
 pinned: false

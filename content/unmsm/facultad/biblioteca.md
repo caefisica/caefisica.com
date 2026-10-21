@@ -11,9 +11,6 @@ weight: 200
 toc: false
 images: []
 date: 2022-09-14T02:11:03-05:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 | Fecha    | Horario          |

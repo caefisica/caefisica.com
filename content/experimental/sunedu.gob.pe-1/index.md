@@ -8,9 +8,6 @@ lastmod: 2022-03-25T13:01:45-05:00
 draft: true
 images: ["sunedu.gob.pe-1"]
 link: "https://www.sunedu.gob.pe/procedimiento-de-reconocimiento-de-grados-y-titulos-extranjeros/"
-menu:
-  experimental:
-    parent: "general"
 weight: 220
 toc: false
 pinned: false

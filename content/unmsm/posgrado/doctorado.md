@@ -12,9 +12,6 @@ lead:
 date: 2022-02-01T17:28:27
 draft: false
 images: []
-menu:
-  guias:
-    parent: "posgrado"
 weight: 1020
 toc: true
 contributors: ["david"]

@@ -7,9 +7,6 @@ lastmod: 2022-03-25T20:10:44-05:00
 draft: false
 images: ["apprendre.tv5monde.com.png"]
 link: "https://apprendre.tv5monde.com/es"
-menu:
-  experimental:
-    parent: "general"
 weight: 490
 toc: false
 pinned: false

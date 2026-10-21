@@ -15,9 +15,6 @@ lastmod: 2021-03-04T08:02:23+01:00
 draft: true
 images: ["stat-phy-bio.png"]
 link: "https://doi.org/10.1088/2058-7058/6/9/35"
-menu:
-  experimental:
-    parent: "general"
 weight: 060
 toc: false
 pinned: false

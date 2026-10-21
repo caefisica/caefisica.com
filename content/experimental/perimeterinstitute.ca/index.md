@@ -8,9 +8,6 @@ lastmod: 2022-03-25T13:24:00-05:00
 draft: false
 images: ["perimeterinstitute.ca.png"]
 link: "https://perimeterinstitute.ca/psi-masters-program"
-menu:
-  experimental:
-    parent: "general"
 weight: 350
 toc: false
 pinned: false

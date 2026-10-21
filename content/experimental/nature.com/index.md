@@ -11,9 +11,6 @@ lastmod: 2022-03-25T03:05:39-05:00
 draft: false
 images: ["nature.com"]
 link: "https://www.nature.com/news/the-top-100-papers-1.16224#/interactive"
-menu:
-  experimental:
-    parent: "general"
 weight: 070
 toc: false
 pinned: false

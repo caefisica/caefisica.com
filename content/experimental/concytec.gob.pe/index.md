@@ -11,9 +11,6 @@ lastmod: 2022-03-25T15:26:08-05:00
 draft: false
 images: ["concytec.gob.pe.png"]
 link: "https://ctivitae.concytec.gob.pe/renacyt-ui/#/registro/investigadores"
-menu:
-  experimental:
-    parent: "general"
 weight: 300
 toc: false
 pinned: true

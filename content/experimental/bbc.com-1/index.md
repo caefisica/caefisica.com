@@ -11,9 +11,6 @@ lastmod: 2022-03-25T04:27:56-05:00
 draft: true
 images: ["bbc.com-1.png"]
 link: "https://www.bbc.com/mundo/noticias-39281395"
-menu:
-  experimental:
-    parent: "general"
 weight: 150
 toc: false
 pinned: false

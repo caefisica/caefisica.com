@@ -11,9 +11,6 @@ lastmod: 2022-03-25T03:49:16-05:00
 draft: true
 images: ["cantorsparadise.com.png"]
 link: "https://www.cantorsparadise.com/the-unparalleled-genius-of-john-von-neumann-791bb9f42a2d"
-menu:
-  experimental:
-    parent: "general"
 weight: 100
 toc: false
 pinned: false

@@ -7,9 +7,6 @@ lastmod: 2022-03-25T12:56:32-05:00
 draft: false
 images: [sunedu.gob.pe.png]
 link: "https://enlinea.sunedu.gob.pe/"
-menu:
-  experimental:
-    parent: "general"
 weight: 220
 toc: false
 pinned: false

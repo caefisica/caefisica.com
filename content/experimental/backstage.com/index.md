@@ -17,9 +17,6 @@ lastmod: 2021-03-04T08:02:23+01:00
 draft: true
 images: ["backstage.com.png"]
 link: "https://www.backstage.com/magazine/article/visual-effects-supervisor-day-in-the-life-vfx-tim-burke-70727/"
-menu:
-  experimental:
-    parent: "general"
 weight: 060
 toc: false
 pinned: false

@@ -11,9 +11,6 @@ lastmod: 2022-03-25T13:20:36-05:00
 draft: false
 images: [daad.co.png]
 link: "https://www.daad.co/es/becas"
-menu:
-  experimental:
-    parent: "general"
 weight: 280
 toc: false
 pinned: false

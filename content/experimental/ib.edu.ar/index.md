@@ -9,9 +9,6 @@ lastmod: 2022-03-25T16:33:53-05:00
 draft: false
 images: ["ib.edu.ar.png"]
 link: "https://www.ib.edu.ar/comunicacion-y-prensa/"
-menu:
-  experimental:
-    parent: "general"
 weight: 330
 toc: false
 pinned: false

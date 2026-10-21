@@ -7,9 +7,6 @@ lastmod: 2022-03-25T20:10:44-05:00
 draft: false
 images: ["immersivemath.com.png"]
 link: "http://immersivemath.com/ila/learnmore.html"
-menu:
-  experimental:
-    parent: "general"
 weight: 450
 toc: false
 pinned: false

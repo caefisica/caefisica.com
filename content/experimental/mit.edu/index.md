@@ -7,9 +7,6 @@ lastmod: 2022-03-25T13:24:00-05:00
 draft: false
 images: ["mit.edu.png"]
 link: "https://gradadmissions.mit.edu/programs/physics"
-menu:
-  experimental:
-    parent: "general"
 weight: 290
 toc: false
 pinned: false

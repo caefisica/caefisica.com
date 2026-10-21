@@ -11,9 +11,6 @@ lastmod: 2022-03-25T15:30:34-05:00
 draft: false
 images: ["adsabs_harvard_edu"]
 link: "https://ui.adsabs.harvard.edu/"
-menu:
-  experimental:
-    parent: "general"
 weight: 310
 toc: false
 pinned: false

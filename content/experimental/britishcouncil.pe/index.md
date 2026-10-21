@@ -9,9 +9,6 @@ lastmod: 2022-03-25T13:30:21-05:00
 draft: false
 images: ["britishcouncil.pe"]
 link: "https://www.britishcouncil.pe/programas/educacion/educacion-superior/tratado-peru-uk"
-menu:
-  experimental:
-    parent: "general"
 weight: 300
 toc: false
 pinned: false

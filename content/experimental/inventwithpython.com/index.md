@@ -7,9 +7,6 @@ lastmod: 2022-03-25T20:10:44-05:00
 draft: false
 images: ["inventwithpython.com.png"]
 link: "https://inventwithpython.com/bigbookpython/"
-menu:
-  experimental:
-    parent: "general"
 weight: 480
 toc: false
 pinned: false

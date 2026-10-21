@@ -7,9 +7,6 @@ lastmod: 2022-03-25T15:19:02-05:00
 draft: false
 images: ["scimagojr.com"]
 link: "https://www.scimagojr.com/"
-menu:
-  experimental:
-    parent: "general"
 weight: 290
 toc: false
 pinned: false

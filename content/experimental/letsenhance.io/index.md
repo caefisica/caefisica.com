@@ -13,9 +13,6 @@ lastmod: 2021-03-04T08:02:23+01:00
 draft: false
 images: ["letsenhance.io.png"]
 link: "https://letsenhance.io/blog/all/2019/07/09/computational-photographyfrom-selfies-to-black-holes/"
-menu:
-  experimental:
-    parent: "general"
 weight: 060
 toc: false
 pinned: false

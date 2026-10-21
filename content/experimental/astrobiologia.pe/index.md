@@ -7,9 +7,6 @@ lastmod: 2022-03-25T15:08:51-05:00
 draft: true
 images: ["astrobiologia.pe.png"]
 link: "https://astrobiologia.pe/"
-menu:
-  experimental:
-    parent: "general"
 weight: 240
 toc: false
 pinned: false

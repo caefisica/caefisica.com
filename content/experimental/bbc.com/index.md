@@ -11,9 +11,6 @@ lastmod: 2021-03-04T08:02:23+01:00
 draft: true
 images: ["bbc.com.png"]
 link: "https://www.bbc.com/mundo/noticias/2015/09/150921_republica_dominicana_guevedoces_genetica_ac_lav"
-menu:
-  experimental:
-    parent: "general"
 weight: 060
 toc: false
 pinned: false

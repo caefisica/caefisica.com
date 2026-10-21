@@ -7,9 +7,6 @@ lastmod: 2022-03-25T16:46:55-05:00
 draft: false
 images: ["geft.uni.png"]
 link: "https://www.facebook.com/geft.uni"
-menu:
-  experimental:
-    parent: "general"
 weight: 380
 toc: false
 pinned: false

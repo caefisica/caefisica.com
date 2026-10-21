@@ -7,9 +7,6 @@ lastmod: 2022-03-25T20:10:44-05:00
 draft: false
 images: ["learnlatex.org.png"]
 link: "https://www.learnlatex.org/es/"
-menu:
-  experimental:
-    parent: "general"
 weight: 460
 toc: false
 pinned: true

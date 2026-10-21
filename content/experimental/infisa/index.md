@@ -7,9 +7,6 @@ lastmod: 2022-03-25T16:00:01-05:00
 draft: false
 images: ["infisa.png"]
 link: "https://vrip.unmsm.edu.pe/infisa/"
-menu:
-  experimental:
-    parent: "general"
 weight: 250
 toc: false
 pinned: false

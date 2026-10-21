@@ -5,9 +5,6 @@ lead: ""
 date: 2023-01-08T08:00:45+00:00
 draft: false
 images: []
-menu:
-  guias:
-    parent: "Facultad"
 weight: 1010
 contributors: ["nelson"]
 ---

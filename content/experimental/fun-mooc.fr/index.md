@@ -8,9 +8,6 @@ lastmod: 2022-03-25T20:10:44-05:00
 draft: false
 images: ["fun-mooc.fr.png"]
 link: "https://www.fun-mooc.fr/en/categories/thematiques/languages/"
-menu:
-  experimental:
-    parent: "general"
 weight: 490
 toc: false
 pinned: false

@@ -14,9 +14,6 @@ weight: 300
 toc: false
 images: []
 date: 2023-08-12T00:00:00-00:00
-menu:
-  guias:
-    parent: "pregrado"
 ---
 
 Si te encuentras en el noveno ciclo y te enfrentas a la tarea de elegir cursos

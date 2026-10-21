@@ -11,9 +11,6 @@ lastmod: 2022-03-25T13:11:31-05:00
 draft: false
 images: ["journalclubunmsm.png"]
 link: "https://www.facebook.com/JournalClubUNMSM/"
-menu:
-  experimental:
-    parent: "general"
 weight: 330
 toc: false
 pinned: false

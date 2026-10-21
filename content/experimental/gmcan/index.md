@@ -7,9 +7,6 @@ lastmod: 2022-03-25T13:34:22-05:00
 draft: false
 images: ["gmcan.png"]
 link: "https://vrip.unmsm.edu.pe/gmcan/"
-menu:
-  experimental:
-    parent: "general"
 weight: 230
 toc: false
 pinned: false

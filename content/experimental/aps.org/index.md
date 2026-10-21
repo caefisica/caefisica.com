@@ -7,9 +7,6 @@ lastmod: 2022-03-25T04:24:49-05:00
 draft: true
 images: ["aps.org.png"]
 link: "https://www.aps.org/publications/apsnews/201501/physicshistory.cfm"
-menu:
-  experimental:
-    parent: "general"
 weight: 140
 toc: false
 pinned: false

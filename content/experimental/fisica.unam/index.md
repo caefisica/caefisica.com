@@ -10,9 +10,6 @@ lastmod: 2022-03-25T16:46:55-05:00
 draft: false
 images: ["fisica.unam.png"]
 link: "https://www.facebook.com/InstitutodeFisicaUNAM/"
-menu:
-  experimental:
-    parent: "general"
 weight: 390
 toc: false
 pinned: false

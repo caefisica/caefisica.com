@@ -6,9 +6,6 @@ date: 2021-07-01T11:40:11-03:00
 lastmod: 2021-07-01T11:40:11-03:00
 draft: false
 images: []
-menu:
-  guias:
-    parent: "posgrado"
 weight: 1010
 toc: true
 contributors: ["david", "renzo"]

@@ -10,9 +10,6 @@ lastmod: 2022-03-25T13:34:22-05:00
 draft: false
 images: ["ctclima.png"]
 link: "https://vrip.unmsm.edu.pe/ctclima/"
-menu:
-  experimental:
-    parent: "general"
 weight: 220
 toc: false
 pinned: false

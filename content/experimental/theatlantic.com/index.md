@@ -10,9 +10,6 @@ lastmod: 2021-03-04T08:02:23+01:00
 draft: true
 images: ["theatlantic.com.png"]
 link: "https://www.theatlantic.com/science/archive/2016/03/psychologys-replication-crisis-cant-be-wished-away/472272/"
-menu:
-  experimental:
-    parent: "general"
 weight: 060
 toc: false
 pinned: false

@@ -9,9 +9,6 @@ lastmod: 2022-03-25T04:35:06-05:00
 draft: true
 images: ["math.ucr.edu.png"]
 link: "https://math.ucr.edu/home/baez/advice.html"
-menu:
-  experimental:
-    parent: "general"
 weight: 170
 toc: false
 pinned: false

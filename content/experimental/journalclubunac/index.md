@@ -11,9 +11,6 @@ lastmod: 2022-03-25T13:11:31-05:00
 draft: false
 images: ["journalclubunac.png"]
 link: "https://www.facebook.com/journalclubunac/"
-menu:
-  experimental:
-    parent: "general"
 weight: 250
 toc: false
 pinned: false

@@ -7,9 +7,6 @@ lastmod: 2022-03-25T13:06:56-05:00
 draft: false
 images: ["ridec.org.png"]
 link: "https://www.facebook.com/RIDECPERUOFICIAL/"
-menu:
-  experimental:
-    parent: "general"
 weight: 230
 toc: false
 pinned: false
