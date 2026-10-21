@@ -1,4 +1,4 @@
-baseURL = "https://web.empirical.workers.dev/"
+baseURL = "https://web.caefisica.workers.dev/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
