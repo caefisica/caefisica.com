@@ -6,9 +6,7 @@ id: ""
 credits:
 prerequisites: [""]
 semester:
-contributors: ["David"]
-featured: false
-pdf: false
+contributors: []
 math: false
 draft: true
 weight: 999

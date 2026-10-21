@@ -7,9 +7,6 @@ lastmod: {{ .Date }}
 draft: true
 images: []
 link: ""
-menu:
-  experimental:
-    parent: "general"
 weight: 999
 toc: false
 pinned: false

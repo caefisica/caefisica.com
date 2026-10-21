@@ -9,7 +9,6 @@
     "layouts/**",
     // Conserva las acciones de Hugo y los shortcodes del front matter.
     "archetypes/offering.md",
-    "archetypes/professor.md",
-    "archetypes/tutorial.md"
+    "archetypes/professor.md"
   ]
 }
