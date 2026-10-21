@@ -136,7 +136,7 @@ jobs:
       - if: steps.access.outputs.enabled == 'true'
         name: Deploy the preview
         run: |
-          url=$(netlify deploy --dir public --site "$NETLIFY_SITE_ID" --alias "$ALIAS" --json | jq -r .deploy_url)
+          url=$(netlify deploy --no-build --dir public --site "$NETLIFY_SITE_ID" --alias "$ALIAS" --json | jq -r .deploy_url)
           echo "Preview: $url" >> "$GITHUB_STEP_SUMMARY"
 
   lighthouse:

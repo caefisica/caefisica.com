@@ -87,7 +87,7 @@ run = "wrangler deploy"
 [tasks."deploy:netlify"]
 description = "Build the site and deploy it to the Netlify production site"
 depends = ["build"]
-run = "netlify deploy --prod --dir public --site \"$NETLIFY_SITE_ID\""
+run = "netlify deploy --prod --no-build --dir public --site \"$NETLIFY_SITE_ID\""
 
 [tasks.check]
 description = "Run every check that CI runs"

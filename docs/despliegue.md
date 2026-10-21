@@ -27,7 +27,9 @@ mano sobre `master`. Sus pasos:
 3. Instala las herramientas de `mise.toml` y las dependencias.
 4. Ejecuta `mise run deploy`. Compila una vez con `mise run build` y sube
    `public/` a Cloudflare (`wrangler deploy`) y a Netlify
-   (`netlify deploy --prod`).
+   (`netlify deploy --prod --no-build`). La opción `--no-build` evita el comando
+   de compilación configurado en la app de Netlify. La compilación ya ocurrió en
+   la tarea `build`.
 
 Los despliegues hacen cola: uno nuevo espera a que termine el que está en curso.
 Cuando `deploy` termina bien, el trabajo `lighthouse` audita el sitio de
@@ -41,9 +43,9 @@ deployment > Link repository**. De [`netlify.toml`](../netlify.toml) solo se usa
 El trabajo `preview` corre en cada pull request del propio repositorio. Compila
 con el `baseURL` que Netlify da al alias,
 `https://pr-<número>--<sitio>.netlify.app/`, y publica `public/` con
-`netlify deploy --alias pr-<número>`. La URL queda en el resumen del trabajo. Un
-pull request de un fork o de Dependabot no tiene acceso a los secretos: el
-trabajo avisa del motivo y termina bien, sin vista previa.
+`netlify deploy --no-build --alias pr-<número>`. La URL queda en el resumen del
+trabajo. Un pull request de un fork o de Dependabot no tiene acceso a los
+secretos: el trabajo avisa del motivo y termina bien, sin vista previa.
 
 ### Despliegue desde cero
 
