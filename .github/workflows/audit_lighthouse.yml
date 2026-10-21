@@ -24,6 +24,7 @@ jobs:
           urls: |
             https://web.empirical.workers.dev/
             https://web.empirical.workers.dev/blog/
-          budgetPath: ./.github/budget.json
+          configPath: ./.github/lighthouserc.cjs
+          runs: 3
           uploadArtifacts: true
           temporaryPublicStorage: true
