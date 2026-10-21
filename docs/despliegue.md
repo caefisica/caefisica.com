@@ -85,15 +85,14 @@ ejecuta `mise run deploy:cloudflare` o `mise run deploy:netlify`.
 ## Búsqueda
 
 `mise run build` ejecuta `pagefind --site public` después de `hugo`. Pagefind
-indexa el contenido de `<div class="content">` de cada página (el atributo
-`data-pagefind-body` está en [`layouts/baseof.html`](../layouts/baseof.html)) y
-escribe el índice y la interfaz en `public/pagefind/`.
+indexa el contenido de las páginas dentro del contenedor con el atributo
+`data-pagefind-body` ([`layouts/baseof.html`](../layouts/baseof.html)) y escribe
+el índice y la interfaz en `public/pagefind/`.
 [`assets/js/search.ts`](../assets/js/search.ts) carga esa interfaz. Dónde se
-carga el buscador: [arquitectura](architecture.md#estilos-y-scripts).
+carga el buscador: [arquitectura](architecture.md).
 
-`mise run dev` no genera el índice. Sin `public/pagefind/`, el buscador muestra
-«La búsqueda no está disponible.». Ejecuta `mise run build` antes y `dev` sirve
-el índice desde `public/`.
+`mise run dev` ejecuta `build` antes, así que el índice también existe en local
+y el buscador funciona.
 
 ## Cabeceras y redirecciones
 

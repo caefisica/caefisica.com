@@ -1,36 +1,122 @@
 # Arquitectura
 
-El sitio es un proyecto Hugo sin tema externo: las plantillas, los estilos y los
-scripts viven en este repositorio. `hugo` genera HTML estático en `public/`,
-`pagefind` lo indexa y el Worker `web` de Cloudflare sirve esa carpeta; ver
-[despliegue](despliegue.md). No hay código de servidor.
+El sitio es un proyecto Hugo sin tema externo: plantillas, estilos y scripts
+viven aquí. `hugo` genera HTML estático en `public/`, `pagefind` lo indexa y el
+Worker `web` de Cloudflare sirve esa carpeta (ver [despliegue](despliegue.md)).
+No hay código de servidor.
 
 ```text
 content/ + data/ + config/ ──▶ layouts/ ──▶ hugo ──▶ pagefind ──▶ public/ ──▶ Cloudflare
                                assets/ ──▶ esbuild + Tailwind CSS
 ```
 
+## El camino de una página
+
+Seguimos la guía del curso `CBE013`
+([`content/unmsm/pregrado/plan-2018/CBE013/_index.md`](../content/unmsm/pregrado/plan-2018/CBE013/_index.md)),
+publicada en `/unmsm/pregrado/plan-2018/cbe013/` (Hugo pone las direcciones en
+minúsculas).
+
+**El contenido.** La guía es un branch bundle: `_index.md` lleva el front matter
+(`id`, `credits`, `prerequisites`, `semester`, `contributors`) y el cuerpo en
+Markdown; los YAML `books-*.yaml` y `playlists.yaml` y las carpetas de semestre
+(`2022-I/…`) son sus recursos y sus páginas hijas. Cómo se organiza `content/`:
+[contenido](contenido.md).
+
+**La plantilla.** [`content/unmsm/_index.md`](../content/unmsm/_index.md) fija
+`type: docs` y `showInformationBox: true` en `cascade` para toda la sección, y
+[`content/unmsm/pregrado/plan-2018/_index.md`](../content/unmsm/pregrado/plan-2018/_index.md)
+fija `layout: "single"` para sus descendientes de tipo `section`. Hugo resuelve
+`type` + `layout` a [`layouts/docs/single.html`](../layouts/docs/single.html),
+que define el bloque `main` de [`layouts/baseof.html`](../layouts/baseof.html).
+`baseof` envuelve toda página: `head`, cabecera, el contenido dentro de
+`data-pagefind-body` y los scripts del pie.
+
+**Los parciales.** `single.html` compone la página con parciales de
+[`layouts/partials/`](../layouts/partials):
+
+- `sidebar/aside.html` → `sidebar/docs-menu.html`: para las URL `/plan-*` usa
+  [`sidebar/plan-nav.html`](../layouts/partials/sidebar/plan-nav.html), que
+  agrupa los cursos por su campo `semester`; el resto de las secciones `docs`
+  usa `sidebar/render-auto-nav.html`, que arma el árbol del menú desde las
+  secciones de Hugo.
+- `main/blog-meta.html` resuelve cada slug de `contributors` a
+  `content/contributors/<slug>` con `components/resolve-contributors.html` y
+  dibuja fecha y tiempo de lectura.
+- `components/information_box.html` dibuja la caja de información (código,
+  créditos, prerrequisitos, docentes de los sílabos y semestres con
+  `silabo*.pdf`) en las páginas con `showInformationBox` e `id`. Cada slug de
+  `professor` se resuelve con `components/resolve-professor.html`: si la carpeta
+  no existe en `content/professors/`, la compilación falla.
+- `main/edit-page.html` pone el enlace «Edita esta página» al pie.
+- El sílabo `2022-I/index.md` usa `layout: "offering"`:
+  [`layouts/docs/offering.html`](../layouts/docs/offering.html) muestra el
+  docente con `components/offering-details.html` y cada `silabo*.pdf` del bundle
+  en el visor `components/pdfjs-viewer.html`.
+
+**Los shortcodes.** El cuerpo usa `infobox-alert` y `resource-table`
+([`layouts/shortcodes/`](../layouts/shortcodes), ver
+[shortcodes](shortcodes.md)). `resource-table` llama a
+`components/resource-table.html`, que hace `Get` del YAML dentro del bundle y lo
+vuelca con `transform.Unmarshal` en una tabla de libros o de listas de
+reproducción.
+
+**Los estilos y los scripts.**
+
+- [`partials/head/stylesheet.html`](../layouts/partials/head/stylesheet.html)
+  compila [`assets/css/app.css`](../assets/css/app.css) con `css.TailwindCSS`
+  (Tailwind v4). Hugo genera `hugo_stats.json` (`build.buildStats.enable`) y
+  `app.css` lo lee con `@source`: solo se emiten las utilidades que usan las
+  plantillas. La portada lleva la hoja en línea; las demás páginas la enlazan
+  fingerprinteada. KaTeX tiene su propia hoja, enlazada solo con `math: true`.
+- [`partials/head/script-header.html`](../layouts/partials/head/script-header.html)
+  pone `assets/js/color-mode.ts` en línea para aplicar el tema antes del primer
+  pintado.
+- [`partials/footer/script-footer.html`](../layouts/partials/footer/script-footer.html)
+  compila los `.ts` de `assets/js/` con `js.Build` (esbuild). El paquete base
+  reúne la navegación (`assets/js/navigation.ts`), los atajos de teclado,
+  lazysizes, clipboard e instant.page según `params.toml`; highlight.js, KaTeX,
+  Mermaid y el buscador (`assets/js/search.ts`, la interfaz de Pagefind) se
+  cargan solo donde se usan. `main.js` y el buscador se piden al terminar `load`
+  (`partials/footer/load-after.html`). Las cabeceras `Link` de precarga salen de
+  `head/resource-hints.html`.
+- `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` desde `node_modules` en
+  `assets/js/vendor/`, y las plantillas de `@thulite/images` en `layouts/`
+  (`_shortcodes`, `_markup` y `_partials`). Un `_shortcodes` montado gana a
+  `layouts/shortcodes/` del sitio; `layouts/_shortcodes/` del sitio gana al
+  montado. `assets/js/vendor/` no se edita.
+
+**La compilación.** `mise run build` ejecuta `hugo --gc --minify` y
+`pagefind --site public`. Hugo escribe las páginas, `_headers`, `_redirects` y
+`sitemap.xml` en `public/`; Pagefind indexa `data-pagefind-body` y escribe
+`public/pagefind/`.
+
+**El servidor.** [`wrangler.toml`](../wrangler.toml) define el Worker `web`:
+`assets.directory = "./public"` lo sirve y las rutas inexistentes devuelven
+`404.html` (`not_found_handling = "404-page"`). El host sale de `baseURL` en
+[`config/_default/config.toml`](../config/_default/config.toml). Detalles:
+[despliegue](despliegue.md).
+
 ## Mapa del código
 
-| Ruta                            | Responsabilidad                                                                                                 |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| `content/`                      | Páginas en Markdown, YAML de recursos y PDF. Ver [convenciones](convenciones.md).                               |
-| `layouts/`                      | Plantillas Go de Hugo, shortcodes y parciales.                                                                  |
-| `assets/`                       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                             |
-| `static/`                       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                   |
-| `data/`                         | JSON y YAML leídos con `hugo.Data`.                                                                             |
-| `config/`                       | Configuración de Hugo por entorno.                                                                              |
-| `archetypes/`                   | Moldes de `hugo new`.                                                                                           |
-| `scripts/`                      | `screenshots.ts`, genera las capturas de `content/experimental`.                                                |
-| `.github/`                      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`. Ver [flujos](despliegue.md#flujos-de-github). |
-| `wrangler.toml`, `netlify.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                    |
-| `.pages.yml`                    | Esquema de los campos de Pages CMS.                                                                             |
+| Ruta                            | Responsabilidad                                                               |
+| ------------------------------- | ----------------------------------------------------------------------------- |
+| `content/`                      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).   |
+| `layouts/`                      | Plantillas Go de Hugo, shortcodes y parciales.                                |
+| `assets/`                       | CSS, TypeScript, fuentes e iconos que Hugo compila.                           |
+| `static/`                       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                 |
+| `data/`                         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros. |
+| `config/`                       | Configuración de Hugo por entorno.                                            |
+| `archetypes/`                   | Moldes de `hugo new`.                                                         |
+| `scripts/`                      | `screenshots.ts`, genera las capturas de `content/experimental`.              |
+| `.github/`                      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.             |
+| `wrangler.toml`, `netlify.toml` | Despliegue. Ver [despliegue](despliegue.md).                                  |
+| `.pages.yml`                    | Esquema de los campos de Pages CMS.                                           |
 
 ## Configuración
 
 `config/_default/` tiene `config.toml` (salidas, taxonomías, permalinks),
-`markup.toml`, `menus.toml`, `module.toml` y `params.toml`. `baseURL` es el
-único lugar donde está el host del sitio.
+`markup.toml`, `menus.toml`, `module.toml` y `params.toml`.
 
 - Taxonomías: `contributors`, `types` y `functionalities`. Los permalinks de
   `blog`, `types` y `functionalities` están en `[permalinks]`.
@@ -39,84 +125,10 @@ content/ + data/ + config/ ──▶ layouts/ ──▶ hugo ──▶ pagefind 
   `layouts/index.headers`. La política CSP sale de `data/fixes/headers.yml`.
 - `layouts/sitemap.xml` genera `/sitemap.xml`. Una página con
   `sitemap_exclude: true` en el front matter no entra.
-- `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` de `node_modules` en
-  `assets/js/vendor/` y las plantillas de `@thulite/images` en `layouts/`.
-- `params.toml` activa las funciones del sitio: `options` (lazysizes, KaTeX,
+- `params.toml` activa las funciones del sitio en `options` (lazysizes, KaTeX,
   modo oscuro, resaltado).
 
-## Plantillas
-
-`layouts/baseof.html` envuelve todas las páginas: cabecera, contenido, pie y
-scripts. Hugo elige la plantilla por tipo de contenido:
-
-- Las secciones `blog`, `experimental`, `biblioteca`, `contacto` y `professors`
-  usan la carpeta de `layouts/` con su nombre.
-- `content/unmsm/_index.md` y `content/apuntes/_index.md` fijan `type: docs` con
-  `cascade`, así que esas secciones y todas sus páginas usan `layouts/docs/`.
-  `layouts/docs/offering.html` dibuja los sílabos por semestre
-  (`layout: "offering"`).
-- Algunas páginas fijan `type` en su front matter: `extend` y `links`.
-- `layouts/types/` y `layouts/functionalities/` dibujan las taxonomías de
-  `experimental`, publicadas en `/experimental/types/` y
-  `/experimental/functionalities/`.
-
-`layouts/partials/` se divide en `head/`, `header/`, `footer/`, `sidebar/`,
-`main/` y `components/`. Los componentes de curso son:
-
-- `components/information_box.html`: código, créditos y prerrequisitos de la
-  guía, más una fila «Profesores» con los docentes de sus sílabos y una fila
-  «Sílabos» con los semestres que tienen PDF. Cada fila aparece solo si tiene
-  datos. Lo dibuja `layouts/docs/single.html` en las páginas con
-  `showInformationBox` e `id`.
-- `components/resolve-professor.html`: resuelve un slug de `professor` a
-  `content/professors/<slug>`. Si la carpeta no existe, la compilación falla.
-- `components/professor-name.html`: `honorific` y `title` de un docente. Lo usan
-  la caja de información, `offering-details.html` y `layouts/professors/`.
-- `components/offering-details.html`: cabecera de un sílabo. Muestra la fila
-  «Docente» solo si el sílabo tiene `professor`.
-- `components/resource-table.html`: tabla de libros o listas de reproducción
-  desde un YAML del bundle. La llama el shortcode `resource-table`.
-- `sidebar/plan-nav.html`: menú lateral de un plan, agrupado por `semester`.
-- `components/resolve-contributors.html`: resuelve cada slug de `contributors` a
-  `content/contributors/<slug>`. Reglas de los slugs:
-  [convenciones](convenciones.md#nombres).
-
-Los shortcodes están en `layouts/shortcodes/` y se describen en
-[shortcodes](shortcodes.md).
-
-## Estilos y scripts
-
-- `layouts/partials/head/stylesheet.html` compila `assets/css/app.css` con
-  `css.TailwindCSS` (Tailwind CSS v4). Hugo genera `hugo_stats.json`
-  (`build.buildStats.enable`) y `app.css` lo lee con `@source`, así que solo se
-  emiten las utilidades que usan las plantillas; una clase que solo aparece en
-  otro lugar no se genera. La hoja de la portada va en línea en un `<style>`;
-  las demás páginas la enlazan fingerprinteada. El CSS de KaTeX está aparte
-  (`katex.min.css` del paquete) y solo se enlaza con `math: true`. Las hojas de
-  la página de enlaces (`assets/css/links.css`) y del fantasma del 404
-  (`assets/css/mascot.css`) se cargan solo donde se usan.
-- `layouts/partials/head/script-header.html` pone el script de modo oscuro
-  (`assets/js/color-mode.ts`) en línea, para aplicar el tema antes del primer
-  pintado sin pedir un archivo que bloquee el render.
-- `layouts/partials/footer/script-footer.html` compila los `.ts` de `assets/js/`
-  con esbuild (`js.Build`). El paquete base (`main.js`) reúne la navegación
-  (`assets/js/navigation.ts`: el menú principal es un `popover`, los menús del
-  encabezado son `<details>` y los niveles de la barra lateral se abren con
-  `data-toggle`), los atajos de teclado, más lazysizes, clipboard e instant.page
-  cuando `params.toml` los activa. highlight.js se carga aparte y solo en
-  páginas con un bloque `<pre`. KaTeX se carga con `math: true` en el front
-  matter y Mermaid con `mermaid: true`. El buscador (`assets/js/search.ts`, la
-  interfaz de Pagefind) solo se carga en la portada y en `unmsm` y `apuntes`,
-  las páginas que tienen su caja de búsqueda
-  (`components/is-search-enabled.html`).
-- `main.js` y el buscador se piden cuando termina `load`
-  (`partials/footer/load-after.html`), para que sus peticiones no compitan con
-  el primer pintado. Corren después de `DOMContentLoaded`: un script que se sume
-  a ellos no debe esperar ese evento. La API de YouTube se pide al primer clic
-  en reproducir (`assets/js/player.ts`).
-- `head/resource-hints.html` precarga las dos fuentes Jost (400 y 700) en todas
-  las páginas menos la portada: sin la precarga, el cambio de fuente desplaza el
-  texto (CLS). La portada no las precarga porque el LCP es su párrafo
-  introductorio y una precarga retrasa ese pintado; ahí el cambio de fuente
-  mueve el párrafo 0,003 de CLS.
-- `assets/js/vendor/` se llena con los montajes de `module.toml`; no se edita.
+Otras carpetas de `layouts/`: las secciones `blog`, `experimental`,
+`biblioteca`, `contacto` y `professors` usan la carpeta con su nombre; algunas
+páginas fijan `type` en su front matter (`extend`, `links`); `layouts/types/` y
+`layouts/functionalities/` dibujan las taxonomías de `experimental`.

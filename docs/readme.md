@@ -1,12 +1,13 @@
 # Manual
 
-- [Instalación](instalación.md): herramientas, cómo ejecutar el sitio y las
-  comprobaciones antes de enviar un cambio.
-- [Arquitectura](architecture.md): mapa del código y sus límites.
-- [Convenciones](convenciones.md): dónde va cada archivo de `content/`, cómo se
-  nombra y cómo crearlo.
+- [Arquitectura](architecture.md): el camino de una página desde `content/`
+  hasta el Worker, y el mapa del código.
+- [Contenido](contenido.md): dónde va cada archivo de `content/`, cómo se nombra
+  y cómo crearlo.
 - [Agregar un curso](cursos.md): guía, libros, listas de reproducción, sílabos y
   docentes.
+- [Agregar una entrada de blog](blog.md): front matter, imágenes y publicación.
 - [Shortcodes](shortcodes.md): tablas, avisos, imágenes, PDF y diagramas.
-- [Despliegue](despliegue.md): Cloudflare, la búsqueda, las cabeceras y los
-  flujos de GitHub.
+- [Regenerar las capturas](capturas.md): screenshots de `content/experimental`.
+- [Despliegue](despliegue.md): Cloudflare, Netlify, búsqueda, cabeceras y flujos
+  de GitHub.

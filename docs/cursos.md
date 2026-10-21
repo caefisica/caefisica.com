@@ -1,8 +1,12 @@
 # Agregar un curso
 
+```bash
+mise run new content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
+```
+
 Una guía de curso es una carpeta de `content/unmsm/pregrado/plan-2018/` con el
 código del curso. Contiene la guía, los YAML de recursos y una carpeta por
-semestre con el sílabo.
+semestre con el sílabo:
 
 ```text
 content/unmsm/pregrado/plan-2018/CFO601/
@@ -16,29 +20,23 @@ content/unmsm/pregrado/plan-2018/CFO601/
 
 ## La guía
 
-Crea el archivo con el molde `pregrado`:
-
-```bash
-mise run new content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
-```
-
 Campos del front matter que usan las plantillas:
 
-| Campo           | Uso                                                                            |
-| --------------- | ------------------------------------------------------------------------------ |
-| `title`         | Nombre del curso.                                                              |
-| `lead`          | Texto de apertura bajo el título.                                              |
-| `description`   | Resumen para buscadores y redes sociales.                                      |
-| `id`            | Código del curso. Sin `id` no aparece la caja de información.                  |
-| `credits`       | Créditos, en la caja de información.                                           |
-| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.                  |
-| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.             |
-| `contributors`  | Slugs de `content/contributors/`. Ver [convenciones](convenciones.md#nombres). |
-| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».               |
-| `math`          | Con `true`, carga KaTeX para las fórmulas.                                     |
-| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                         |
-| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                              |
-| `draft`         | Con `true`, la página no se publica.                                           |
+| Campo           | Uso                                                                    |
+| --------------- | ---------------------------------------------------------------------- |
+| `title`         | Nombre del curso.                                                      |
+| `lead`          | Texto de apertura bajo el título.                                      |
+| `description`   | Resumen para buscadores y redes sociales.                              |
+| `id`            | Código del curso. Sin `id` no aparece la caja de información.          |
+| `credits`       | Créditos, en la caja de información.                                   |
+| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.          |
+| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.     |
+| `contributors`  | Slugs de `content/contributors/`. Ver [nombres](contenido.md#nombres). |
+| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».       |
+| `math`          | Con `true`, carga KaTeX para las fórmulas.                             |
+| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                 |
+| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                      |
+| `draft`         | Con `true`, la página no se publica. `mise run dev` la muestra.        |
 
 La caja de información (código, créditos, prerrequisitos, docentes y sílabos)
 aparece en las páginas de `content/unmsm/` que tienen `id`:
@@ -106,7 +104,7 @@ lista `links`; cada enlace lleva `url`, `edition` y `year`:
 ## Sílabos
 
 Un sílabo es una carpeta de semestre dentro del curso
-([nombre](convenciones.md#nombres)), con un `index.md` y, opcionalmente, un PDF
+([nombre](contenido.md#nombres)), con un `index.md` y, opcionalmente, un PDF
 cuyo nombre empiece por `silabo`:
 
 ```bash
@@ -124,11 +122,11 @@ layout: "offering"
 ---
 ```
 
-`professor` es el slug de un docente (ver
-[convenciones](convenciones.md#nombres)); si no existe esa carpeta, la
-compilación falla. Sin `professor` el sílabo no muestra la fila «Docente». La
-página del sílabo muestra el semestre, el docente y cada archivo `silabo*.pdf`
-en un visor. Sin PDF muestra «No hay sílabo disponible para este semestre».
+`professor` es el slug de un docente (ver [nombres](contenido.md#nombres)); si
+no existe esa carpeta, la compilación falla. Sin `professor` el sílabo no
+muestra la fila «Docente». La página del sílabo muestra el semestre, el docente
+y cada archivo `silabo*.pdf` en un visor. Sin PDF muestra «No hay sílabo
+disponible para este semestre».
 
 ## Docentes
 

@@ -1,8 +1,8 @@
-# Convenciones
+# Contenido
 
 Dónde va cada archivo de `content/` y cómo se nombra.
 
-## Estructura de `content/`
+## Estructura
 
 ```text
 content/
@@ -20,10 +20,6 @@ content/
 ├── redes.md
 └── _index.md                          portada
 ```
-
-La guía del curso `CBO106` es
-`content/unmsm/pregrado/plan-2018/CBO106/_index.md`. Cómo escribirla:
-[cursos](cursos.md).
 
 ## Nombres
 
@@ -43,19 +39,11 @@ campo `professor` de un sílabo y las carpetas de `content/professors/`.
 Hugo pone las direcciones en minúsculas: `CBE013` se publica en
 `/unmsm/pregrado/plan-2018/cbe013/`.
 
-## Formato del texto
-
-El contenido es Markdown procesado por goldmark. Está activado el HTML sin
-escapar (`unsafe = true`) y los identificadores de títulos al estilo de GitHub
-(`markup.toml`). Para insertar tablas, imágenes, PDF y avisos usa los
-[shortcodes](shortcodes.md). Para fórmulas, agrega `math: true` al front matter
-y escribe LaTeX con KaTeX.
-
 ## Crear un archivo
 
-`mise run new content` (`hugo new content`) copia un molde de
-[`archetypes/`](../archetypes). Hugo elige el molde por la carpeta; para otros,
-indícalo con `--kind`:
+`mise run new` (`hugo new content`) copia un molde de
+[`archetypes/`](../archetypes). Hugo elige el molde por la primera carpeta del
+destino; para otros, indícalo con `--kind`:
 
 | Molde             | Cómo se elige                           |
 | ----------------- | --------------------------------------- |
@@ -71,11 +59,14 @@ mise run new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
 ```
 
 Los moldes `blog`, `experimental`, `pregrado` y `default` crean la página con
-`draft: true`; `offering` y `professor`, con `draft: false`. Para ver una página
-con `draft: true` en local, ver [instalación](instalación.md#ejecutar-el-sitio).
+`draft: true`; `offering` y `professor`, con `draft: false`. `mise run dev`
+muestra los borradores; la compilación del sitio (`mise run build`) no los
+publica.
 
-## Editar desde GitHub
+## Formato del texto
 
-Cada página tiene al pie el enlace «Edita esta página», que abre el archivo en
-GitHub (plantilla [`edit-page.html`](../layouts/partials/main/edit-page.html)).
-El esquema de campos que ofrece Pages CMS está en [`.pages.yml`](../.pages.yml).
+El contenido es Markdown procesado por goldmark. Está activado el HTML sin
+escapar (`unsafe = true`) y los identificadores de títulos al estilo de GitHub
+(`markup.toml`). Para insertar tablas, imágenes, PDF y avisos usa los
+[shortcodes](shortcodes.md). Para fórmulas, agrega `math: true` al front matter
+y escribe LaTeX con KaTeX.
