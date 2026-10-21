@@ -7,10 +7,5 @@ resources
 hugo_stats.json
 static/fonts
 assets/jsconfig.json
-
-# sensitive variables
-.env
-.env.*
-!.env.example
 .hugo_build.lock
 .netlify
