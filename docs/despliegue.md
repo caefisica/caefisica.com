@@ -23,9 +23,20 @@ encuentra, completa el historial de git si el clon es superficial y ejecuta
 porque `enableGitInfo` calcula la fecha de última modificación de cada página
 desde git.
 
+`bash build.sh -b <url>` compila con ese `baseURL` en lugar del de
+`config.toml`.
+
 El paso de compilación de Workers Builds es el campo **Build command** de
 _Settings > Build_ del Worker `web` en el panel de Cloudflare. Debe ser
 `bash build.sh`. El campo **Deploy command** se queda en `npx wrangler deploy`.
+
+## Netlify
+
+El sitio `caefis` de Netlify compila las vistas previas de cada pull request y
+de las ramas con [`netlify.toml`](../netlify.toml): publica `public/` y ejecuta
+`bash build.sh -b $DEPLOY_PRIME_URL`, así que cada vista previa usa su propio
+host como `baseURL`. El plugin `netlify-plugin-cloudinary` carga las imágenes de
+Cloudinary. La producción es solo el Worker de Cloudflare.
 
 ## Búsqueda
 
