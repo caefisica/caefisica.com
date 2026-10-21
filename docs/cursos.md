@@ -1,7 +1,7 @@
 # Agregar un curso
 
 ```bash
-mise run new content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
+hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
 ```
 
 Una guía de curso es una carpeta de `content/unmsm/pregrado/plan-2018/` con el
@@ -36,7 +36,7 @@ Campos del front matter que usan las plantillas:
 | `math`          | Con `true`, carga KaTeX para las fórmulas.                             |
 | `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                 |
 | `weight`        | Orden de la página; Hugo ordena de menor a mayor.                      |
-| `draft`         | Con `true`, la página no se publica. `mise run dev` la muestra.        |
+| `draft`         | Con `true`, la página no se publica. `bun run dev` la muestra.         |
 
 La caja de información (código, créditos, prerrequisitos, docentes y sílabos)
 aparece en las páginas de `content/unmsm/` que tienen `id`:
@@ -108,7 +108,7 @@ Un sílabo es una carpeta de semestre dentro del curso
 cuyo nombre empiece por `silabo`:
 
 ```bash
-mise run new content --kind offering unmsm/pregrado/plan-2018/CFO601/2024-I/index.md
+hugo new content --kind offering unmsm/pregrado/plan-2018/CFO601/2024-I/index.md
 ```
 
 ```yaml
@@ -133,7 +133,7 @@ disponible para este semestre».
 Un docente es `content/professors/<slug>/index.md`:
 
 ```bash
-mise run new content --kind professor professors/fulgencio-villegas-silva/index.md
+hugo new content --kind professor professors/fulgencio-villegas-silva/index.md
 ```
 
 ```yaml

@@ -17,10 +17,10 @@ Necesitas [mise](https://mise.jdx.dev).
 git clone https://github.com/caefisica/caefisica.com.git caefisica
 cd caefisica
 mise install
-mise run dev
+bun run dev
 ```
 
-El sitio queda en <http://localhost:1313>. `mise run dev` instala las
+El sitio queda en <http://localhost:1313>. `bun run dev` instala las
 dependencias, compila e indexa el sitio una vez y levanta el servidor,
 borradores incluidos.
 

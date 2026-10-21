@@ -41,5 +41,5 @@ body:
     attributes:
       label: Log output
       description:
-        Pegue aquí la información que muestra `mise run check` (opcional)
+        Pegue aquí la información que muestra `bun run check` (opcional)
       render: shell

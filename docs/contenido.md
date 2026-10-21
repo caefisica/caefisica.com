@@ -41,9 +41,8 @@ Hugo pone las direcciones en minúsculas: `CBE013` se publica en
 
 ## Crear un archivo
 
-`mise run new` (`hugo new content`) copia un molde de
-[`archetypes/`](../archetypes). Hugo elige el molde por la primera carpeta del
-destino; para otros, indícalo con `--kind`:
+`hugo new content` copia un molde de [`archetypes/`](../archetypes). Hugo elige
+el molde por la primera carpeta del destino; para otros, indícalo con `--kind`:
 
 | Molde             | Cómo se elige                           |
 | ----------------- | --------------------------------------- |
@@ -55,12 +54,12 @@ destino; para otros, indícalo con `--kind`:
 | `default.md`      | Cualquier otra carpeta.                 |
 
 ```bash
-mise run new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
+hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
 ```
 
 Los moldes `blog`, `experimental`, `pregrado` y `default` crean la página con
-`draft: true`; `offering` y `professor`, con `draft: false`. `mise run dev`
-muestra los borradores; la compilación del sitio (`mise run build`) no los
+`draft: true`; `offering` y `professor`, con `draft: false`. `bun run dev`
+muestra los borradores; la compilación del sitio (`bun run build`) no los
 publica.
 
 ## Formato del texto

@@ -86,7 +86,7 @@ reproducción.
   `layouts/shortcodes/` del sitio; `layouts/_shortcodes/` del sitio gana al
   montado. `assets/js/vendor/` no se edita.
 
-**La compilación.** `mise run build` ejecuta `hugo --gc --minify` y
+**La compilación.** `bun run build` ejecuta `hugo --gc --minify` y
 `pagefind --site public`. Hugo escribe las páginas, `_headers`, `_redirects` y
 `sitemap.xml` en `public/`; Pagefind indexa `data-pagefind-body` y escribe
 `public/pagefind/`.

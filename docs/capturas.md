@@ -4,8 +4,8 @@ Las tarjetas de `content/experimental/` muestran una captura del sitio enlazado.
 [`scripts/screenshots.ts`](../scripts/screenshots.ts) las vuelve a tomar:
 
 ```bash
-mise run install:browser   # instala el Chromium de Playwright, una vez
-mise run screenshots
+bun run install:browser   # instala el Chromium de Playwright, una vez
+bun run screenshots
 ```
 
 La tarea recorre las carpetas de `content/experimental/` cuyo `index.md` tiene
@@ -17,7 +17,7 @@ como máximo) y **sobrescribe** ese archivo con la captura.
 Pasa nombres de carpeta para limitar la ejecución:
 
 ```bash
-mise run screenshots aps.org
+bun run screenshots aps.org
 ```
 
 - Si el `link` responde con un estado HTTP de error, no guarda la captura,

@@ -22,23 +22,23 @@ Necesitas `git` y [mise](https://mise.jdx.dev).
 git clone https://github.com/caefisica/caefisica.com.git caefisica
 cd caefisica
 mise install
-mise run dev
+bun run dev
 ```
 
 `mise install` instala las herramientas de [`mise.toml`](../mise.toml) (Hugo
-extended, Bun, Node, Go y Wrangler). `mise run dev` instala las dependencias,
-compila e indexa el sitio y lo sirve en <http://localhost:1313>, borradores
-incluidos. `mise tasks` lista el resto de las tareas.
+extended, Bun, Node, Go y Wrangler). `bun run dev` instala las dependencias de
+`bun.lock`, compila e indexa el sitio y lo sirve en <http://localhost:1313>,
+borradores incluidos. Los scripts de [`package.json`](../package.json) son las
+tareas del proyecto.
 
-Ejecuta Hugo siempre con `mise run`. Hugo llama al binario `tailwindcss` para
-compilar el CSS y `mise.toml` pone `node_modules/.bin` en el `PATH` de las
-tareas.
+Ejecuta Hugo siempre con `bun run`. Hugo llama al binario `tailwindcss` para
+compilar el CSS y `bun run` pone `node_modules/.bin` en el `PATH` del script.
 
 ## Comprobar un cambio
 
 ```bash
-mise run fix
-mise run check
+bun run fix
+bun run check
 ```
 
 `fix` da formato a plantillas, Markdown, scripts, YAML y JSON. `check` ejecuta
@@ -52,14 +52,14 @@ lo mismo que CI: lint (`oxlint`, `markdownlint-cli2`, `gotmplfmt`, `actionlint`,
 Abre un pull request a `master` con un título y una descripción claros. El flujo
 [`checks`](workflows/ci.yml) corre en cada pull request:
 
-- `check` ejecuta `mise run install` y `mise run check`.
+- `check` ejecuta `bun run check`.
 - `preview` publica una vista previa en Netlify y deja la URL en el resumen del
   trabajo. Un pull request de un fork o de Dependabot no tiene acceso a los
   secretos: el trabajo avisa del motivo y termina bien, sin vista previa.
 
 Si el pull request toca `content/`, el flujo
 [`url health`](workflows/check_broken_links.yml) revisa los enlaces de esa
-carpeta. Para revisarlos antes, ejecuta `mise run links`.
+carpeta. Para revisarlos antes, ejecuta `bun run links`.
 
 Al participar aceptas el [Código de Conducta](../CODE_OF_CONDUCT.md) y publicas
 tu aporte bajo la [licencia MIT](../LICENCE).
