@@ -29,10 +29,6 @@ depends = ["lint:*"]
 description = "Lint the JavaScript and TypeScript"
 run = "oxlint --deny-warnings assets/js config scripts"
 
-[tasks."lint:styles"]
-description = "Lint the SCSS"
-run = "stylelint 'assets/scss/**/*.{css,sass,scss,sss,less}'"
-
 [tasks."lint:markdown"]
 description = "Lint the Markdown"
 run = "markdownlint-cli2 '**/*.md' '!node_modules/**'"

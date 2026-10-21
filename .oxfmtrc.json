@@ -6,7 +6,6 @@
     // Conserva los archivos de terceros en su formato publicado.
     "assets/js/vendor/**",
     // Cada formateador se encarga de su tipo de archivo.
-    "assets/scss/**",
     "layouts/**",
     // Conserva las acciones de Hugo y los shortcodes del front matter.
     "archetypes/offering.md",

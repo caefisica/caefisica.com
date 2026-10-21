@@ -4,6 +4,7 @@ node_modules
 # build files
 public
 resources
+hugo_stats.json
 static/fonts
 assets/jsconfig.json
 

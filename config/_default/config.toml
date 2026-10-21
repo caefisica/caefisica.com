@@ -49,6 +49,16 @@ blog = "/blog/:title/"
 types = "/experimental/types/:title/"
 functionalities = "/experimental/functionalities/:title/"
 
+[build.buildStats]
+enable = true
+
+[[build.cachebusters]]
+source = "assets/notwatching/hugo_stats\\.json"
+target = "css"
+
+[security.exec]
+allow = ["^go$", "^git$", "^node$", "^tailwindcss$"]
+
 [minify]
 disableJs = false
 [minify.tdewolff]

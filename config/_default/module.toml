@@ -16,6 +16,11 @@ source = "layouts"
 target = "layouts"
 
 [[mounts]]
+source = "hugo_stats.json"
+target = "assets/notwatching/hugo_stats.json"
+disableWatch = true
+
+[[mounts]]
 source = "node_modules/@thulite/images/layouts"
 target = "layouts"
 

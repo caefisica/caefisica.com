@@ -43,7 +43,7 @@ copyRight = "Copyright (c) 2023 @caefisica"
 
 alert = false
 alertDismissable = true
-alertText = "Tenemos nueva charla 🥳: \"¿Cómo publicar en una revista científica en pregrado?\", regístrese <a class=\"alert-link\" href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">aquí</a>."
+alertText = "Tenemos nueva charla 🥳: \"¿Cómo publicar en una revista científica en pregrado?\", regístrese <a href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">aquí</a>."
 
 events = true
 bannerEventForm = "https://forms.gle/bhDitoK3ymySbJgZ7"
@@ -61,7 +61,6 @@ lazySizes = true
 clipBoard = true
 instantPage = true
 darkMode = true
-bootStrapJs = true
 breadCrumb = true
 highLight = true
 kaTex = true
