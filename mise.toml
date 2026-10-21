@@ -1,5 +1,9 @@
 [tools]
 wrangler = "4.151.2"
+actionlint = "1.7.12"
+"npm:netlify-cli" = { version = "27.14.0", trust_policy_excludes = [
+  "@netlify/serverless-functions-api@2.24.0",
+] }
 bun = "1.4.3"
 go = "1.27.2"
 hugo-extended = "0.168.0"
@@ -37,6 +41,10 @@ run = "markdownlint-cli2 '**/*.md' '!node_modules/**'"
 description = "Check the Hugo templates are formatted"
 run = "test -z \"$(gotmplfmt -l layouts data)\""
 
+[tasks."lint:workflows"]
+description = "Lint the GitHub Actions workflows"
+run = "actionlint"
+
 [tasks."lint:format"]
 description = "Check the formatting of scripts, Markdown, YAML and JSON"
 run = "oxfmt --check ."
@@ -66,6 +74,20 @@ run = ["hugo --gc --minify", "pagefind --site public"]
 description = "Build and index the site with drafts and future-dated pages"
 depends = ["copy:fonts"]
 run = ["hugo --gc --minify -D -F", "pagefind --site public"]
+
+[tasks.deploy]
+description = "Build the site once and deploy it to Cloudflare and Netlify"
+depends = ["deploy:*"]
+
+[tasks."deploy:cloudflare"]
+description = "Build the site and deploy it to Cloudflare"
+depends = ["build"]
+run = "wrangler deploy"
+
+[tasks."deploy:netlify"]
+description = "Build the site and deploy it to the Netlify production site"
+depends = ["build"]
+run = "netlify deploy --prod --dir public --site \"$NETLIFY_SITE_ID\""
 
 [tasks.check]
 description = "Run every check that CI runs"

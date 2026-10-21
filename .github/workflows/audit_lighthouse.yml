@@ -2,18 +2,10 @@ name: lighthouse
 
 on:
   workflow_dispatch:
-  check_run:
-    types: [completed]
+  workflow_call:
 
 jobs:
   lighthouse:
-    # Cloudflare reports its deploy as a check run under the check suite of the branch it first built, so head_branch
-    # stays the preview branch even after the commit reaches master. In a check_run workflow GITHUB_SHA is master's
-    # last commit, so a matching head_sha means the deploy ran on master.
-    if: >-
-      github.event_name == 'workflow_dispatch' || (github.event.check_run.name
-      == 'Workers Builds: web' && github.event.check_run.conclusion == 'success'
-      && github.event.check_run.head_sha == github.sha)
     runs-on: ubuntu-latest
 
     steps:
@@ -22,8 +14,8 @@ jobs:
       - uses: treosh/lighthouse-ci-action@3e7e23fb74242897f95c0ba9cabad3d0227b9b18 # v12
         with:
           urls: |
-            https://web.empirical.workers.dev/
-            https://web.empirical.workers.dev/blog/
+            https://web.caefisica.workers.dev/
+            https://web.caefisica.workers.dev/blog/
           configPath: ./.github/lighthouserc.cjs
           runs: 3
           uploadArtifacts: true

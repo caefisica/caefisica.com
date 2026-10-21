@@ -8,7 +8,8 @@ on:
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  # A push to master must not cancel a deploy in progress.
+  cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
 
 permissions:
   contents: read
@@ -28,3 +29,116 @@ jobs:
       - run: mise run install
 
       - run: mise run check
+
+  deploy:
+    needs: check
+    if: >-
+      github.ref == 'refs/heads/master' && (github.event_name == 'push' ||
+      github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy
+      cancel-in-progress: false
+    env:
+      CF_SEND_TELEMETRY: "false"
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
+
+    steps:
+      - name: Require the deploy credentials
+        run: |
+          missing=0
+          for secret in CLOUDFLARE_API_TOKEN NETLIFY_AUTH_TOKEN; do
+            if [ -z "${!secret}" ]; then
+              echo "::error::The $secret secret is not set. Add it under Settings > Secrets and variables > Actions."
+              missing=1
+            fi
+          done
+          if [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error::The NETLIFY_SITE_ID variable is not set. Add it under Settings > Secrets and variables > Actions > Variables."
+            missing=1
+          fi
+          exit "$missing"
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5
+
+      - run: mise run install
+
+      - run: mise run deploy
+
+  preview:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    env:
+      CF_SEND_TELEMETRY: "false"
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
+      ALIAS: pr-${{ github.event.number }}
+
+    steps:
+      # A fork or Dependabot pull request runs without secrets.
+      - id: access
+        env:
+          FORK:
+            ${{ github.event.pull_request.head.repo.full_name !=
+            github.repository }}
+          BOT: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
+        run: |
+          if [ "$FORK" = true ]; then
+            echo "::notice::No preview: a pull request from a fork has no access to the NETLIFY_AUTH_TOKEN secret."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          elif [ "$BOT" = true ]; then
+            echo "::notice::No preview: a Dependabot pull request has no access to the NETLIFY_AUTH_TOKEN secret."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.access.outputs.enabled == 'true'
+        name: Require the preview credentials
+        run: |
+          missing=0
+          if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
+            echo "::error::The NETLIFY_AUTH_TOKEN secret is not set. Add it under Settings > Secrets and variables > Actions."
+            missing=1
+          fi
+          if [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error::The NETLIFY_SITE_ID variable is not set. Add it under Settings > Secrets and variables > Actions > Variables."
+            missing=1
+          fi
+          exit "$missing"
+
+      - if: steps.access.outputs.enabled == 'true'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - if: steps.access.outputs.enabled == 'true'
+        uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5
+
+      - if: steps.access.outputs.enabled == 'true'
+        run: mise run install
+
+      # Netlify serves an alias at https://<alias>--<site name>.netlify.app.
+      - if: steps.access.outputs.enabled == 'true'
+        name: Build for the alias URL
+        run: |
+          name=$(netlify api getSite --data "{\"site_id\": \"$NETLIFY_SITE_ID\"}" | jq -r .name)
+          HUGO_BASEURL="https://$ALIAS--$name.netlify.app/" mise run build
+
+      - if: steps.access.outputs.enabled == 'true'
+        name: Deploy the preview
+        run: |
+          url=$(netlify deploy --dir public --site "$NETLIFY_SITE_ID" --alias "$ALIAS" --json | jq -r .deploy_url)
+          echo "Preview: $url" >> "$GITHUB_STEP_SUMMARY"
+
+  lighthouse:
+    needs: deploy
+    uses: ./.github/workflows/audit_lighthouse.yml
