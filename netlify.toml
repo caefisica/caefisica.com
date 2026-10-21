@@ -1,6 +1,6 @@
 [dev]
 framework = "#custom"
-command = "mise run dev"
+command = "bun run dev"
 targetPort = 1313
 port = 8888
 publish = "public"
