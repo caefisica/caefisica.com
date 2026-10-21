@@ -20,18 +20,18 @@ function loadApi(): Promise<void> {
 
 function init(): void {
   const playButton = document.querySelector<HTMLButtonElement>("#play-video");
-  const closeButton =
-    document.querySelector<HTMLButtonElement>("#close-button");
-  if (!playButton || !closeButton) return;
+  const dialog = document.querySelector<HTMLDialogElement>("#video-dialog");
+  if (!playButton || !dialog) return;
 
   playButton.addEventListener("click", playVideo);
-  closeButton.addEventListener("click", closeVideo);
+  dialog.addEventListener("close", () => player?.stopVideo());
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
 
   async function playVideo(): Promise<void> {
     const videoId = playButton!.getAttribute("data-video-id") ?? "";
-    document.querySelector(".cover_play")?.classList.remove("d-none");
-    document.querySelector(".player_container")?.classList.remove("d-none");
-    document.querySelector("#close-button")?.classList.remove("d-none");
+    dialog!.showModal();
 
     await loadApi();
     player?.destroy();
@@ -59,15 +59,6 @@ function init(): void {
         "allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation",
       );
     }
-
-    const playerEl = document.querySelector<HTMLElement>("#player");
-    if (playerEl) playerEl.style.display = "block";
-  }
-
-  function closeVideo(): void {
-    player?.stopVideo();
-    document.querySelector(".player_container")?.classList.add("d-none");
-    document.querySelector(".cover_play")?.classList.add("d-none");
   }
 }
 

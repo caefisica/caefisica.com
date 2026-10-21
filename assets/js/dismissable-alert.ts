@@ -11,11 +11,10 @@
 
     const id = announcement.dataset.id ?? "";
 
-    if (localStorage.getItem(id) === "closed") {
-      announcement.classList.add("d-none");
-    } else {
-      announcement.classList.remove("d-none");
-    }
+    announcement.classList.toggle(
+      "hidden",
+      localStorage.getItem(id) === "closed",
+    );
 
     Object.keys(localStorage).forEach((key) => {
       if (key.startsWith("global-alert-") && key !== id) {
@@ -25,7 +24,10 @@
     });
 
     announcement
-      .querySelector(".btn-close")
-      ?.addEventListener("click", () => localStorage.setItem(id, "closed"));
+      .querySelector("[data-dismiss]")
+      ?.addEventListener("click", () => {
+        localStorage.setItem(id, "closed");
+        announcement.classList.add("hidden");
+      });
   });
 })();

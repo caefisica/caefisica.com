@@ -2,11 +2,12 @@ import Clipboard from "clipboard";
 
 for (const pre of Array.from(document.getElementsByTagName("pre"))) {
   const btn = document.createElement("button");
-  btn.className = "btn btn-copy";
+  btn.className = "copy-button";
+  btn.type = "button";
   pre.insertAdjacentElement("afterbegin", btn);
 }
 
-const clipboard = new Clipboard(".btn-copy", {
+const clipboard = new Clipboard(".copy-button", {
   target: (trigger) => trigger.nextElementSibling ?? trigger,
 });
 
