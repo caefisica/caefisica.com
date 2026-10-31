@@ -35,7 +35,7 @@
 	<div class="mx-auto w-full max-w-page px-gutter">
 		<div class="mb-12 flex flex-wrap items-end justify-between gap-4">
 			<h2 id="blog" class="reveal m-0 text-title">Blog</h2>
-			<a class="learn font-medium" href="{{ "blog/" | relURL }}">Ver todas las entradas{{ partial "components/learn-chevron.html" }}</a>
+			<a class="learn font-bold" href="{{ "blog/" | relURL }}">Ver todas las entradas{{ partial "components/learn-chevron.html" }}</a>
 		</div>
 		<ul class="m-0 grid list-none gap-10 p-0 md:grid-cols-3">
 			{{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "blog") -}}
