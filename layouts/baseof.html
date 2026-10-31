@@ -4,13 +4,16 @@
 	{{ partial "head/body-class.html" . -}}
 	<body class="{{ delimit (.Store.Get "class") " " }}">
 		{{ partial "header/header.html" . }}
-		<div class="mx-auto w-full max-w-page px-6" role="document">
+		{{- /* Inner layouts open their own <main>; the home page spreads its content over three blocks, so the landmark wraps them here. */}}
+		{{ if .IsHome }}<main>{{ end }}
+		<div class="mx-auto w-full max-w-page px-gutter" role="document">
 			<div{{ if ne .Kind "404" }} data-pagefind-body{{ end }}>
 				{{ block "main" . }}{{ end }}
 			</div>
 		</div>
 		{{ block "prefooter" . }}{{ end }}
 		{{ block "footer-widgets" . }}{{ end }}
+		{{ if .IsHome }}</main>{{ end }}
 		{{ partial "footer/footer.html" . }}
 		{{ partial "footer/script-footer.html" . }}
 	</body>
