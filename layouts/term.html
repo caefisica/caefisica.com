@@ -1,3 +1,4 @@
+{{- /* An author's page: portrait, role, bio and what they wrote, grouped by section, newest first. */ -}}
 {{ define "main" }}
 <div class="col-prose py-page">
 	<header class="profile">
@@ -8,13 +9,20 @@
 		</div>
 	</header>
 	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
-	{{- with .Pages.ByDate.Reverse }}
-		<h2>Publicaciones</h2>
-		<div class="card-list">
-			{{- range . }}
-				{{ partial "ui/card.html" (dict "title" .Title "url" .RelPermalink "lead" (or .Params.lead .Description) "tag" "h3" "page" .) }}
-			{{- end }}
-		</div>
+	{{- with .Pages }}
+		<h2>Publicaciones <span class="text-muted font-normal">· {{ len . }}</span></h2>
+		{{- range .GroupBy "Section" }}
+			{{- $section := site.GetPage (printf "/%s" .Key) }}
+			<h3>{{ with $section }}{{ .LinkTitle }}{{ else }}{{ .Key }}{{ end }}</h3>
+			<ul class="entries">
+				{{- range .Pages.ByDate.Reverse }}
+					<li>
+						<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+						<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+					</li>
+				{{- end }}
+			</ul>
+		{{- end }}
 	{{- end }}
 </div>
 {{ end }}

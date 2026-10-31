@@ -1,0 +1,5 @@
+# Keyed by the slug a professor's `institution` names. section is the
+# university's content section, which holds its courses, plans and faculty pages.
+unmsm:
+  name: Universidad Nacional Mayor de San Marcos
+  section: /unmsm

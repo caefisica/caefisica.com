@@ -1,15 +1,31 @@
 {{ define "main" }}
 <div class="py-page">
 	<h1>{{ .Title }}</h1>
-	{{- with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
-	<ul class="section-cards">
-		{{- range .Pages.ByTitle }}
-			<li class="card card-hover group">
-				<a class="card-link" href="{{ .RelPermalink }}">{{ partial "data/professor-name.html" . }}</a>
-				{{- with .Params.institution }}<p>{{ . | upper }}</p>{{ end }}
-				{{ partial "ui/chevron.html" }}
-			</li>
-		{{- end }}
-	</ul>
+	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
+	{{- range .Pages.GroupByParam "institution" }}
+		{{- $u := partial "data/university.html" .Key }}
+		<section class="section-group" aria-labelledby="u-{{ .Key }}">
+			<h2 id="u-{{ .Key }}">{{ $u.name }}</h2>
+			<ul class="section-cards">
+				{{- range .Pages.ByTitle }}
+					{{- $courses := partial "data/professor-courses.html" . }}
+					<li class="card card-hover group">
+						<div class="min-w-0">
+							<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+							<p class="truncate">
+								{{- with $courses -}}
+									{{- $names := slice }}{{ range first 2 . }}{{ $names = $names | append .course.Title }}{{ end -}}
+									{{ delimit $names ", " }}{{ with after 2 . }} y {{ len . }} más{{ end }}
+								{{- else -}}
+									Sin cursos registrados
+								{{- end -}}
+							</p>
+						</div>
+						{{ partial "ui/chevron.html" }}
+					</li>
+				{{- end }}
+			</ul>
+		</section>
+	{{- end }}
 </div>
 {{ end }}

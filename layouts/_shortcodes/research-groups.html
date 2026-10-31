@@ -1,0 +1,61 @@
+{{- /*
+The research groups listed in the page's front matter `groups`: an index by research line, then one row per group, sorted by acronym.
+A group holds acronym, name, an optional url, head (email plus a name or the slug of a professor page) and optional lines.
+Each row's id is its lowercased acronym; the index links to it.
+*/ -}}
+{{- $groups := .Page.Params.groups -}}
+{{- if not $groups -}}
+	{{- errorf "The %q shortcode needs groups in the front matter. See %s" .Name .Position -}}
+{{- end -}}
+{{- $groups = sort $groups "acronym" -}}
+{{- $byLine := newScratch -}}
+{{- range $groups -}}
+	{{- $acronym := .acronym -}}
+	{{- range .lines }}{{ $byLine.Add . (slice $acronym) }}{{ end -}}
+{{- end -}}
+
+<h2 id="lineas">Líneas de investigación</h2>
+<ul class="entries">
+	{{- range $line, $acronyms := $byLine.Values }}
+		<li>
+			<span>{{ $line }}</span>
+			<span class="entries-tags">
+				{{- range $i, $a := $acronyms }}{{ if $i }}, {{ end }}<a href="#{{ lower $a }}">{{ $a }}</a>{{ end -}}
+			</span>
+		</li>
+	{{- end }}
+</ul>
+
+<h2 id="grupos">Grupos <span class="text-muted font-normal">· {{ len $groups }}</span></h2>
+<ul class="shelf groups">
+	{{- range $groups }}
+		{{- $group := . -}}
+		{{- $name := .head.name -}}
+		{{- $professor := "" -}}
+		{{- with .head.professor -}}
+			{{- $professor = site.GetPage (printf "/professors/%s" .) -}}
+			{{- if not $professor }}{{ errorf "research-groups: no professor page %q" . }}{{ end -}}
+		{{- end -}}
+		<li class="doc-head" id="{{ lower .acronym }}">
+			<span class="doc-name">
+				<h3 class="doc-title">
+					<span class="group-acronym">{{ .acronym }}</span>
+					{{- if ne .name .acronym }} {{ .name }}{{ end -}}
+				</h3>
+				<span class="doc-meta">
+					{{- "Responsable: " }}{{ with $professor }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ $name }}{{ end }} ·
+					<a href="mailto:{{ .head.email }}">{{ .head.email }}</a>
+				</span>
+				{{- with .lines }}<span class="group-lines">{{ delimit . " · " }}</span>{{ end }}
+			</span>
+			{{- with .url }}
+				<span class="doc-actions">
+					<a class="doc-btn" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+						{{- "VRIP" }}<span class="sr-only">: {{ $group.acronym }}</span>
+						{{ partial "ui/icon.html" (dict "name" "external" "size" 14) }}
+					</a>
+				</span>
+			{{- end }}
+		</li>
+	{{- end }}
+</ul>

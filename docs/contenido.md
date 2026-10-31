@@ -44,8 +44,31 @@ Hugo pone las direcciones en minúsculas: `CBE013` se publica en
 
 La página del equipo,
 [`layouts/contributors/taxonomy.html`](../layouts/contributors/taxonomy.html),
-muestra el equipo actual de `data/authors/members.json`, cada autor con su
-número de publicaciones y cómo colaborar.
+muestra el equipo actual de `data/authors/members.json`, después los demás
+autores con su número de publicaciones, y cómo colaborar. Un miembro cuyo `url`
+es la página de un autor enlaza a ella y no se repite en la lista de autores. La
+página de un autor ([`layouts/term.html`](../layouts/term.html)) agrupa sus
+publicaciones por sección, de la más reciente a la más antigua.
+
+## Universidades
+
+Cada universidad es una sección de primer nivel (`content/unmsm/`) y una entrada
+de [`data/universities.yaml`](../data/universities.yaml):
+
+```yaml
+unmsm:
+  name: Universidad Nacional Mayor de San Marcos
+  section: /unmsm
+```
+
+La clave es el slug que usa el campo `institution` de un docente. `/professors/`
+agrupa a los docentes por universidad con ese nombre, y la página de un docente
+enlaza la sección. Un `institution` que no está en el archivo detiene la
+compilación.
+
+Para agregar una universidad, crea `content/<slug>/_index.md` con
+`cascade: {type: docs}`, como `content/unmsm/_index.md`, y agrega su entrada al
+archivo.
 
 ## Crear un archivo
 

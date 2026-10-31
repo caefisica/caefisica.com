@@ -1,0 +1,2 @@
+{{- /* "1 publicación" or "N publicaciones". Context: the count. */ -}}
+{{- return printf "%d %s" . (cond (eq . 1) "publicación" "publicaciones") -}}

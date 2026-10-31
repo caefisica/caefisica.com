@@ -1,0 +1,17 @@
+{{- /*
+The courses a professor taught, newest first. Context: the professor page.
+Returns a slice of dicts: course (the course page) and offerings (its offering pages by this professor, newest semester first).
+*/ -}}
+{{- $offerings := sort (where site.RegularPages "Params.professor" .File.ContentBaseName) "Params.semester" "desc" -}}
+{{- $courses := slice -}}
+{{- $seen := slice -}}
+{{- range $offerings -}}
+	{{- $course := .Parent -}}
+	{{- if not (in $seen $course.RelPermalink) -}}
+		{{- $seen = $seen | append $course.RelPermalink -}}
+		{{- $taught := slice -}}
+		{{- range $offerings }}{{ if eq .Parent $course }}{{ $taught = $taught | append . }}{{ end }}{{ end -}}
+		{{- $courses = $courses | append (dict "course" $course "offerings" $taught) -}}
+	{{- end -}}
+{{- end -}}
+{{- return $courses -}}

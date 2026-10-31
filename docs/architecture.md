@@ -70,8 +70,8 @@ en el contenido), `media/` (imágenes y PDF), `ui/` (iconos, fechas, avatares), 
 ([`layouts/_shortcodes/`](../layouts/_shortcodes), ver
 [shortcodes](shortcodes.md)). `resource-table` llama a
 `docs/resource-table.html`, que hace `Get` del YAML dentro del bundle y lo
-vuelca con `transform.Unmarshal` en una tabla de libros o de listas de
-reproducción.
+vuelca con `transform.Unmarshal` en una lista de filas, una por libro o lista de
+reproducción, con un botón por enlace.
 
 **Los estilos y los scripts.**
 
@@ -172,6 +172,8 @@ página.
   navegador (`loading="lazy"`).
 
 Otras carpetas de `layouts/`: las secciones `blog`, `experimental` y
-`professors` usan la carpeta con su nombre; `experimental/taxonomy.html` y
-`experimental/term.html` dibujan sus taxonomías `types` y `functionalities`; la
-página de enlaces fija `type: links` y usa `layouts/links/page.html`.
+`professors` usan la carpeta con su nombre (la página de un docente reúne sus
+cursos con `data/professor-courses.html` y el nombre de su universidad con
+`data/university.html`); `experimental/taxonomy.html` y `experimental/term.html`
+dibujan sus taxonomías `types` y `functionalities`; la página de enlaces fija
+`type: links` y usa `layouts/links/page.html`.

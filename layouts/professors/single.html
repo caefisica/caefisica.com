@@ -2,24 +2,33 @@
 <article class="col-prose py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<h1>{{ partial "data/professor-name.html" . }}</h1>
-	{{- with .Params.institution }}<p class="text-lead">{{ . | upper }}</p>{{ end }}
+	{{- with .Params.institution }}
+		{{- $u := partial "data/university.html" . }}
+		<p class="text-lead">{{ with site.GetPage $u.section }}<a href="{{ .RelPermalink }}">{{ $u.name }}</a>{{ else }}{{ $u.name }}{{ end }}</p>
+	{{- end }}
 	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
-	{{- $offerings := where site.RegularPages "Params.professor" .File.ContentBaseName }}
-	{{- with sort $offerings "Params.semester" "desc" }}
-		<h2>Cursos dictados</h2>
-		<div class="markdown">
-			<table>
-				<thead><tr><th scope="col">Curso</th><th scope="col">Semestre</th></tr></thead>
-				<tbody>
-					{{- range . }}
-						<tr>
-							<td>{{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</td>
-							<td><a href="{{ .RelPermalink }}">{{ .Params.semester }}</a></td>
-						</tr>
-					{{- end }}
-				</tbody>
-			</table>
-		</div>
+	{{- with partial "data/professor-courses.html" . }}
+		<h2>Cursos</h2>
+		<p class="text-muted">Cada semestre enlaza su sílabo, cuando lo hay.</p>
+		<ul class="shelf">
+			{{- range . }}
+				{{- $course := .course }}
+				<li class="doc-head">
+					{{ partial "ui/icon.html" (dict "name" "file" "size" 24 "class" "doc-icon") }}
+					<span class="doc-name">
+						<a class="doc-title" href="{{ $course.RelPermalink }}">{{ $course.Title }}</a>
+						<span class="doc-meta">{{ delimit (slice $course.Params.id $course.Parent.Title) " · " }}</span>
+					</span>
+					<span class="doc-actions">
+						{{- range .offerings }}
+							<a class="doc-btn" href="{{ .RelPermalink }}">{{ .Params.semester }}<span class="sr-only">: {{ $course.Title }}</span></a>
+						{{- end }}
+					</span>
+				</li>
+			{{- end }}
+		</ul>
+	{{- else }}
+		<p class="text-muted">Aún no hay cursos registrados para este docente.</p>
 	{{- end }}
 </article>
 {{ end }}

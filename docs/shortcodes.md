@@ -5,8 +5,10 @@ usan dentro del Markdown de `content/`.
 
 ## `resource-table`
 
-Tabla de libros o de listas de reproducción desde un YAML de la carpeta de la
-página. Los campos del YAML están en [cursos](cursos.md#libros).
+Lista de libros o de listas de reproducción desde un YAML de la carpeta de la
+página. Cada fila muestra título, autor y editorial (o docente, canal y número
+de videos) y un botón por enlace: la edición y el año de un libro, «Ver lista»
+de una lista. Los campos del YAML están en [cursos](cursos.md#libros).
 
 ```markdown
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
@@ -17,6 +19,35 @@ página. Los campos del YAML están en [cursos](cursos.md#libros).
 | ---------- | -------------------------------------------------------------------- |
 | `resource` | Nombre del YAML dentro de la carpeta de la página. Obligatorio.      |
 | `type`     | `book` o `playlist`. Obligatorio; otro valor detiene la compilación. |
+
+## `research-groups`
+
+Grupos de investigación desde el campo `groups` del front matter de la página:
+primero un índice por línea de investigación, después una fila por grupo
+ordenada por sigla. Sin `groups` la compilación falla. Lo usa
+`content/unmsm/facultad/gi.md`.
+
+```yaml
+groups:
+  - acronym: GISICOF
+    name: Grupo de Investigación de Sistemas Complejos Funcionalizados
+    url: https://vrip.unmsm.edu.pe/gisicof
+    head: { professor: carlos-landauro-saenz, email: clandauros@unmsm.edu.pe }
+    lines:
+      - Propiedades estructurales de las nanopartículas
+```
+
+| Campo     | Valores                                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `acronym` | Sigla. Su versión en minúsculas es el ancla de la fila (`#gisicof`).                                                    |
+| `name`    | Nombre del grupo. Si es igual a la sigla, se muestra una vez.                                                           |
+| `url`     | Página del grupo. Opcional; con ella la fila muestra el botón «VRIP».                                                   |
+| `head`    | `email` y, o bien `name`, o bien `professor`: el slug de un docente, que enlaza su página. Un slug que no existe falla. |
+| `lines`   | Líneas de investigación. Opcional. Escribe la misma línea con el mismo texto en cada grupo, o el índice la separa.      |
+
+```markdown
+{{< research-groups >}}
+```
 
 ## `alert`
 
