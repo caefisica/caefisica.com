@@ -1,7 +1,23 @@
-{{ range $p := .Site.Pages }}
-{{- range .Aliases -}}
-{{ . }} {{ $p.RelPermalink }}
-{{ end -}}
-{{ end -}}
+{{- /*
+Cloudflare matches a rule's path exactly as the browser sends it. Hugo drops an alias's trailing slash,
+so a page alias also gets a line with the slash, and an alias with an accent also gets its percent-encoded form.
+*/ -}}
+{{- $lines := slice -}}
+{{- range $p := .Site.Pages -}}
+	{{- range $alias := .Aliases -}}
+		{{- $paths := slice $alias -}}
+		{{- if not (path.Ext $alias) -}}
+			{{- $paths = $paths | append (printf "%s/" $alias) -}}
+		{{- end -}}
+		{{- range $paths -}}
+			{{- $lines = $lines | append (printf "%s %s" . $p.RelPermalink) -}}
+			{{- $encoded := replace (urlquery .) "%2F" "/" -}}
+			{{- if ne $encoded . -}}
+				{{- $lines = $lines | append (printf "%s %s" $encoded $p.RelPermalink) -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{ delimit $lines "\n" }}
 {{- /* The library moved to its own site; this keeps old links working. */}}
 /biblioteca/ https://216.empirical.workers.dev/ 301
