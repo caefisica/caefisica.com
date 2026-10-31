@@ -1,0 +1,6 @@
+{{- /* The entry of data/universities.yaml for a slug. Context: the slug. A slug without an entry fails the build, so a new university is registered before content names it. */ -}}
+{{- $u := index hugo.Data.universities . -}}
+{{- if not $u -}}
+	{{- errorf "University %q is not in data/universities.yaml" . -}}
+{{- end -}}
+{{- return $u -}}

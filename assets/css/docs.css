@@ -291,6 +291,32 @@
     }
   }
 
+  /* Books and playlists of a course (docs/resource-table.html): document rows joined into one bordered list. */
+  .shelf {
+    margin: 1rem 0 1.5rem;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 0.5rem;
+    list-style: none;
+
+    & > li {
+      margin: 0;
+    }
+
+    & > li + li {
+      border-top: 1px solid var(--line);
+    }
+
+    /* Once the buttons wrap under the title, they line up with it, past the icon. */
+    & .doc-actions {
+      flex-wrap: wrap;
+
+      @media (width < 36rem) {
+        margin-left: calc(24px + 0.75rem);
+      }
+    }
+  }
+
   .doc-head {
     display: flex;
     flex-wrap: wrap;
@@ -426,7 +452,7 @@
 
   .markdown {
     /* A prose link is underlined at rest, since colour alone does not mark it (WCAG 1.4.1). On hover a full-strength line sweeps in from the left over the faint one. */
-    & :is(p, li, td, dd) a {
+    & :is(p, li, td, dd) a:not(.doc-btn) {
       padding-bottom: 0.2rem;
       background:
         linear-gradient(currentColor, currentColor) 0 100% / 0 0.1em no-repeat,
@@ -1199,9 +1225,113 @@
   .people {
     display: grid;
     gap: 0.25rem;
-    margin: 2rem 0 0;
+    margin: 1rem 0 0;
     padding: 0;
     list-style: none;
+
+    @media (width >= 36rem) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  /* An author's publications: one line each, the date flush right. */
+  .entries {
+    margin: 0.5rem 0 1.5rem;
+    padding: 0;
+    border-top: 1px solid var(--line);
+    list-style: none;
+
+    & > li {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 1rem;
+      align-items: baseline;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    & a {
+      color: var(--fg);
+      font-weight: 500;
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+
+    & time {
+      color: var(--muted);
+      font-size: var(--text-sm);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+  }
+
+  /* Links to the rows a line names (research-groups shortcode), flush right like a date. */
+  .entries-tags {
+    margin-left: auto;
+    font-size: var(--text-sm);
+    text-align: right;
+
+    & a {
+      color: var(--link);
+      font-weight: 500;
+    }
+  }
+
+  /* Research groups (research-groups shortcode): shelf rows without an icon, so wrapped buttons start at the left edge. */
+  .groups {
+    & .doc-head {
+      align-items: start;
+      scroll-margin-top: 5rem;
+
+      &:target {
+        background: var(--surface);
+      }
+    }
+
+    /* Wide enough that on a phone the button drops below the text instead of squeezing it. */
+    & .doc-name {
+      flex-basis: 20rem;
+    }
+
+    & .doc-title {
+      margin: 0;
+      font-size: inherit;
+      line-height: 1.4;
+    }
+
+    & .doc-meta a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 0.2em;
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+
+    & .doc-actions {
+      @media (width < 36rem) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .group-acronym {
+    margin-right: 0.375rem;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    letter-spacing: 0.02em;
+  }
+
+  .group-lines {
+    margin-top: 0.25rem;
+    font-size: var(--text-sm);
   }
 
   .person {

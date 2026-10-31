@@ -1,68 +1,51 @@
+{{- /*
+A list of books or video playlists read from a YAML file in the page bundle. Context: dict with page, resource (the file name) and type ("book" or "playlist").
+A book holds author, title, editorial and either url, edition and year, or links: a list of url, edition and year, newest first.
+A playlist holds title, lecturer, channel, videos and url.
+Each row reads like a document row (media/document.html): title and source on the left, one button per link on the right. A button names its item for screen readers, since a list of "13va ed." links says nothing out of context.
+*/ -}}
 {{- $page := .page -}}
-{{- $resourcePath := .resource -}}
 {{- $type := .type -}}
-{{- with $page.Resources.Get $resourcePath -}}
-	{{- with . | transform.Unmarshal -}}
-		<table>
-			<thead>
-				<tr>
-					{{- if eq $type "book" -}}
-						<th>Autor(es)</th>
-						<th>Título</th>
-						<th>Enlace</th>
-					{{- else if eq $type "playlist" -}}
-						<th>Canal</th>
-						<th>Título</th>
-						<th>Videos</th>
-					{{- else -}}
-						{{- errorf "Unsupported resource table type %q in %s" $type $page.File.Path -}}
-					{{- end -}}
-				</tr>
-			</thead>
-			<tbody>
-				{{- range . -}}
-					<tr>
-						{{- if eq $type "book" -}}
-							<td class="align-middle">{{ .author }}</td>
-							<td class="align-middle">
-								<div class="text-sm text-muted italic">{{ .editorial }}</div>
-								<div class="font-medium">{{ .title }}</div>
-							</td>
-							<td class="align-middle">
-								{{- with .links -}}
-									{{- $links := . -}}
-									{{- range $index, $link := $links -}}
-										<a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer">
-											{{ with $link.edition }}{{ . }},{{ end }}{{ $link.year }}
-										</a>
-										{{- if lt $index (sub (len $links) 1) }}<br />{{ end -}}
-									{{- end -}}
-								{{- else -}}
-									<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-										{{ with .edition }}{{ . }},{{ end }}{{ .year }}
-									</a>
-								{{- end -}}
-							</td>
-						{{- else if eq $type "playlist" -}}
-							<td class="align-middle">
-								<div class="text-sm text-muted italic">{{ .channel }}</div>
-								<div>{{ .lecturer }}</div>
-							</td>
-							<td class="align-middle">
-								<div class="font-medium">{{ .title }}</div>
-							</td>
-							<td class="align-middle">
-								<div>{{ .videos }} videos</div>
-								<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">Ver lista</a>
-							</td>
-						{{- end -}}
-					</tr>
-				{{- end -}}
-			</tbody>
-		</table>
-	{{- else -}}
-		{{- errorf "Unable to unmarshal page resource %q in %s" $resourcePath $page.File.Path -}}
-	{{- end -}}
-{{- else -}}
-	{{- errorf "Unable to get page resource %q in %s" $resourcePath $page.File.Path -}}
+{{- if not (in (slice "book" "playlist") $type) -}}
+	{{- errorf "Unsupported resource type %q in %s" $type $page.File.Path -}}
 {{- end -}}
+{{- $file := $page.Resources.Get .resource -}}
+{{- if not $file -}}
+	{{- errorf "Unable to get page resource %q in %s" .resource $page.File.Path -}}
+{{- end -}}
+<ul class="shelf">
+	{{- range $file | transform.Unmarshal }}
+		{{- $item := . -}}
+		{{- $meta := slice -}}
+		{{- $links := slice -}}
+		{{- if eq $type "book" -}}
+			{{- $meta = slice .author .editorial -}}
+			{{- range .links | default (slice .) -}}
+				{{- $label := slice -}}
+				{{- with .edition }}{{ $label = $label | append . }}{{ end -}}
+				{{- with .year }}{{ $label = $label | append . }}{{ end -}}
+				{{- $links = $links | append (dict "url" .url "label" (delimit ($label | default (slice "Abrir")) " · ")) -}}
+			{{- end -}}
+		{{- else -}}
+			{{- $meta = slice .lecturer .channel (cond (isset . "videos") (printf "%v videos" .videos) "") -}}
+			{{- $links = slice (dict "url" .url "label" "Ver lista") -}}
+		{{- end -}}
+		{{- $source := slice -}}
+		{{- range $meta }}{{ with . }}{{ $source = $source | append . }}{{ end }}{{ end }}
+		<li class="doc-head">
+			{{ partial "ui/icon.html" (dict "name" (cond (eq $type "book") "file" "play") "size" 24 "class" "doc-icon") }}
+			<span class="doc-name">
+				<span class="doc-title">{{ .title }}</span>
+				<span class="doc-meta">{{ delimit $source " · " }}</span>
+			</span>
+			<span class="doc-actions">
+				{{- range $links }}
+					<a class="doc-btn" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+						{{- .label }}<span class="sr-only">: {{ $item.title }}</span>
+						{{ partial "ui/icon.html" (dict "name" "external" "size" 14) }}
+					</a>
+				{{- end }}
+			</span>
+		</li>
+	{{- end }}
+</ul>

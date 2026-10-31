@@ -148,3 +148,6 @@ date: 2024-01-01T00:00:00
 
 `honorific` y `title` forman el nombre del docente en la caja de información de
 la guía, en la cabecera del sílabo y en las páginas de `content/professors/`.
+`institution` es una clave de `data/universities.yaml` (ver
+[universidades](contenido.md#universidades)). La página del docente lista los
+cursos de los sílabos que lo nombran en `professor`, con un enlace por semestre.
