@@ -6,12 +6,15 @@ The frame of a docs page: the section menu, the article and, from xl, the table 
 Front matter `toc: false` drops the contents column. List pages of a taxonomy get no pager: their siblings are not a reading order.
 */ -}}
 {{- $page := .page -}}
-{{- $sidebar := merge (dict "title" $page.FirstSection.LinkTitle "menu" "docs/tree.html") (.sidebar | default dict) -}}
+{{- $root := $page.FirstSection -}}
+{{- $sidebar := dict "title" $root.LinkTitle "menu" "docs/tree.html" -}}
+{{- if ne $root $page }}{{ $sidebar = merge $sidebar (dict "link" $root.RelPermalink) }}{{ end -}}
+{{- $sidebar = merge $sidebar (.sidebar | default dict) -}}
 {{- $toc := and (ne $page.Params.toc false) (or $page.Fragments.Headings $page.Params.contributors) -}}
 <div class="docs-layout{{ if $toc }} has-toc{{ end }}">
 	{{ partial "docs/sidebar.html" (merge $sidebar (dict "page" $page)) }}
 	<article class="docs-article">
-		{{ partial "article/breadcrumbs.html" $page }}
+		{{ partial "article/breadcrumbs.html" (dict "page" $page "root" $root) }}
 		<h1>{{ $page.Title }}{{ with $page.Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
 		{{- with or .lead $page.Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
 		{{ .body }}

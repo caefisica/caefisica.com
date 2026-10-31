@@ -1,8 +1,17 @@
-{{- /* The sections above the page. Context: the page. Home and the page itself are left out: the logo links home and the title follows. A section with `build.render: never` has no page, so it is left out too. */ -}}
+{{- /*
+The sections above the page. Context: the page, or dict with page and root (a section the trail starts below, because the section bar already links it).
+Home and the page itself are left out: the logo links home and the title follows. A section with `build.render: never` has no page, so it is left out too.
+*/ -}}
 {{- if site.Params.options.breadCrumb -}}
+	{{- $page := . -}}
+	{{- $skip := slice site.Home -}}
+	{{- if reflect.IsMap . -}}
+		{{- $page = .page -}}
+		{{- with .root }}{{ $skip = $skip | append .Ancestors | append . }}{{ end -}}
+	{{- end -}}
 	{{- $trail := slice -}}
-	{{- range .Ancestors.Reverse }}
-		{{- if and (not .IsHome) .RelPermalink }}{{ $trail = $trail | append . }}{{ end }}
+	{{- range $page.Ancestors.Reverse }}
+		{{- if and .RelPermalink (not (in $skip .)) }}{{ $trail = $trail | append . }}{{ end }}
 	{{- end }}
 	{{- with $trail }}
 		<nav class="breadcrumbs" aria-label="Ruta" data-pagefind-ignore="all">

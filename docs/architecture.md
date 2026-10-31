@@ -40,10 +40,11 @@ en el contenido), `media/` (imágenes y PDF), `ui/` (iconos, fechas, avatares), 
 [`docs/layout.html`](../layouts/_partials/docs/layout.html) con el cuerpo de
 [`docs/guide.html`](../layouts/_partials/docs/guide.html):
 
-- `docs/layout.html` arma el marco: menú de la sección, migas de pan (una línea;
-  en pantallas angostas, solo el enlace al padre), título, cuerpo, pie,
-  paginación anterior/siguiente, comentarios y, desde `xl`, el índice
-  (`article/toc.html`), que `toc: false` oculta.
+- `docs/layout.html` arma el marco: menú de la sección, cuyo título enlaza a la
+  primera sección; migas de pan desde debajo de esa sección (una línea; en
+  pantallas angostas, solo el enlace al padre), título, cuerpo, pie, paginación
+  anterior/siguiente, comentarios y, desde `xl`, el índice (`article/toc.html`),
+  que `toc: false` oculta.
 - [`docs/sidebar.html`](../layouts/_partials/docs/sidebar.html) dibuja el menú
   con [`docs/tree.html`](../layouts/_partials/docs/tree.html), que recorre la
   sección con [`docs/nav-node.html`](../layouts/_partials/docs/nav-node.html).
