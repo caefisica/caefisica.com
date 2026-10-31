@@ -13,10 +13,9 @@
   },
   "scripts": {
     "dev": "bun run build && hugo server --bind=127.0.0.1 --port=1313 --disableFastRender --buildDrafts --buildFuture",
-    "build": "bun run copy:fonts && hugo --gc --minify && pagefind --site public",
-    "build:preview": "bun run copy:fonts && hugo --gc --minify -D -F && pagefind --site public",
+    "build": "bun run deps && hugo --gc --minify && pagefind --site public",
+    "build:preview": "bun run deps && hugo --gc --minify -D -F && pagefind --site public",
     "deps": "bun install --frozen-lockfile",
-    "copy:fonts": "bun run deps && shx cp 'node_modules/katex/dist/fonts/*' static/fonts/",
     "check": "bun run --sequential --no-exit-on-error lint typecheck build",
     "fix": "bun run deps && gotmplfmt -w layouts data && oxfmt . && markdownlint-cli2 --fix '**/*.md' '!node_modules/**'",
     "lint": "bun run deps && bun run --parallel --no-exit-on-error 'lint:*'",
@@ -35,6 +34,9 @@
     "screenshots": "bun run deps && bun scripts/screenshots.ts",
     "links": "lychee 'content/**/*.md'",
     "clean": "shx rm -rf public resources node_modules"
+  },
+  "dependencies": {
+    "@fontsource-variable/jost": "^5.3.0"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",

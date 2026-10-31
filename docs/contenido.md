@@ -14,7 +14,7 @@ content/
 ├── blog/<NNN-nombre>/index.md         entradas del blog
 ├── experimental/<dominio>/index.md    artículos de otros sitios
 ├── professors/<slug>/index.md         docentes
-├── contributors/<slug>/_index.md      colaboradores
+├── contributors/<slug>/_index.md      colaboradores; el índice es /equipo/
 ├── types/, functionalities/           índices de las taxonomías de experimental
 ├── contacto/, privacidad/
 ├── redes.md
@@ -38,6 +38,14 @@ campo `professor` de un sílabo y las carpetas de `content/professors/`.
 
 Hugo pone las direcciones en minúsculas: `CBE013` se publica en
 `/unmsm/pregrado/plan-2018/cbe013/`.
+
+`unmsm/pregrado/_index.md` no se publica (`build.render: never`):
+`/unmsm/pregrado/` redirige a `plan-2018/`, el único plan.
+
+La página del equipo,
+[`layouts/contributors/taxonomy.html`](../layouts/contributors/taxonomy.html),
+muestra el equipo actual de `data/authors/members.json`, cada autor con su
+número de publicaciones y cómo colaborar.
 
 ## Crear un archivo
 

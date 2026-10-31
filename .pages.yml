@@ -192,9 +192,6 @@ content:
         label: Colaboradores
         list: true
         type: string
-      - name: pdf
-        label: Uso de PDF
-        type: boolean
       - name: math
         label: Uso de LaTeX
         type: boolean
@@ -260,9 +257,6 @@ content:
         type: string
       - name: featured
         label: Destacado
-        type: boolean
-      - name: pdf
-        label: Uso de PDF
         type: boolean
       - name: math
         label: Uso de LaTeX

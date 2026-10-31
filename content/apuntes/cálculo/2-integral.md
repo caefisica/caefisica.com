@@ -24,4 +24,4 @@ general:
 - Integración Numérica
 - Integrales impropias
 
-{{< pdfjs file="Ap-C2.v1.pdf" >}}
+{{< pdf file="Ap-C2.v1.pdf" title="Apuntes de Cálculo II" open=true >}}

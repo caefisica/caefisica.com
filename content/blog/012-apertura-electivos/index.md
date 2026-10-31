@@ -37,11 +37,7 @@ la elección de tu área física incluyen:
   sustentación
 - Mantenerse atento al seguimiento de la solicitud
 
-A continuación, puedes ver un ejemplo de una solicitud para abrir un área. Si
-necesitas ayuda adicional, puedes descargar la plantilla en formato PDF.
+A continuación, puedes ver un ejemplo de una solicitud para abrir un área. La
+plantilla también está en [formato Word](Carta_Solicitud_Apertura.docx).
 
-{{< details "Solicitud de Apertura de Área" >}} {{< pdfjs file="Carta_Solicitud_Apertura.pdf" >}} {{< /details >}}
-
-Puedes acceder a la plantilla a través de
-[este enlace](Carta_Solicitud_Apertura.pdf) o
-[este enlace](Carta_Solicitud_Apertura.docx).
+{{< pdf file="Carta_Solicitud_Apertura.pdf" title="Solicitud de apertura de área" open=true >}}

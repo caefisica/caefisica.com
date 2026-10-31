@@ -13,8 +13,8 @@
 /*.js
   Cache-Control: public, max-age=31536000, immutable
 
-/fonts/vendor/jost/*.woff2
-  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
 
 /pagefind/*
   ! Cache-Control

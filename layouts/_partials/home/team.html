@@ -1,6 +1,9 @@
 <section id="equipo" class="bg-surface py-section" aria-labelledby="equipo-titulo">
 	<div class="mx-auto w-full max-w-page px-gutter">
-		<h2 id="equipo-titulo" class="reveal mt-0 mb-12 text-title">Nuestro equipo</h2>
+		<div class="mb-12 flex flex-wrap items-end justify-between gap-4">
+			<h2 id="equipo-titulo" class="reveal m-0 text-title">Nuestro equipo</h2>
+			<a class="learn font-bold" href="{{ "equipo/" | relURL }}">Conoce al equipo{{ partial "ui/chevron.html" }}</a>
+		</div>
 		<ul class="m-0 grid list-none grid-cols-2 gap-x-6 gap-y-8 p-0 sm:grid-cols-4 lg:grid-cols-7">
 			{{ range hugo.Data.authors.members -}}
 				<li class="relative">

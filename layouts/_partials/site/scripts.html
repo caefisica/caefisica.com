@@ -23,6 +23,12 @@
 {{- if .Params.mermaid -}}
 	{{- partial "site/script.html" (dict "src" "js/mermaid.ts") -}}
 {{- end -}}
+{{- /* media/document.html sets the mark while the main block renders, before this partial runs. */ -}}
+{{- if .Store.Get "pdf" -}}
+	{{- $lib := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | fingerprint -}}
+	{{- $worker := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | fingerprint -}}
+	{{- partial "site/script.html" (dict "src" "js/pdf-viewer.ts" "params" (dict "lib" $lib.RelPermalink "worker" $worker.RelPermalink)) -}}
+{{- end -}}
 {{- if .IsHome -}}
 	{{- partial "site/script.html" (dict "src" "js/player.ts") -}}
 {{- end -}}

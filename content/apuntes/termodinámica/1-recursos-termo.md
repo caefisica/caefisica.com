@@ -10,12 +10,12 @@ contributors: ["richard"]
 
 ## Apuntes
 
-{{< details "Apuntes del curso de Termodinámica-2022" >}} {{< pdfjs file="termodinamica.pdf" >}} {{< /details >}}
+{{< pdf file="termodinamica.pdf" title="Apuntes del curso de Termodinámica, 2022" >}}
 
-{{< details "Formulario del curso de Termodinámica" >}} {{< pdfjs file="formulario-termo.pdf" >}} {{< /details >}}
+{{< pdf file="formulario-termo.pdf" title="Formulario del curso de Termodinámica" >}}
 
-## Examenes
+## Exámenes
 
-{{< details "Examen parcial de Termodinámica-2022" >}} {{< pdfjs file="Parcial-Termodinámica_2022-2_UNMSM.pdf" >}} {{< /details >}}
+{{< pdf file="Parcial-Termodinámica_2022-2_UNMSM.pdf" title="Examen parcial de Termodinámica, 2022-II" >}}
 
-{{< details "Examen final de Termodinámica-2022" >}} {{< pdfjs file="Examen_FINAL-Termodinámica_2022-2.pdf" >}} {{< /details >}}
+{{< pdf file="Examen_FINAL-Termodinámica_2022-2.pdf" title="Examen final de Termodinámica, 2022-II" >}}

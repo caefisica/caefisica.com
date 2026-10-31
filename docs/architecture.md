@@ -40,9 +40,10 @@ en el contenido), `media/` (imágenes y PDF), `ui/` (iconos, fechas, avatares), 
 [`docs/layout.html`](../layouts/_partials/docs/layout.html) con el cuerpo de
 [`docs/guide.html`](../layouts/_partials/docs/guide.html):
 
-- `docs/layout.html` arma el marco: menú de la sección, migas de pan, título,
-  cuerpo, pie, paginación anterior/siguiente, comentarios y, desde `xl`, el
-  índice (`article/toc.html`), que `toc: false` oculta.
+- `docs/layout.html` arma el marco: menú de la sección, migas de pan (una línea;
+  en pantallas angostas, solo el enlace al padre), título, cuerpo, pie,
+  paginación anterior/siguiente, comentarios y, desde `xl`, el índice
+  (`article/toc.html`), que `toc: false` oculta.
 - [`docs/sidebar.html`](../layouts/_partials/docs/sidebar.html) dibuja el menú
   con [`docs/tree.html`](../layouts/_partials/docs/tree.html), que recorre la
   sección con [`docs/nav-node.html`](../layouts/_partials/docs/nav-node.html).
@@ -61,8 +62,8 @@ en el contenido), `media/` (imágenes y PDF), `ui/` (iconos, fechas, avatares), 
 - El sílabo `2022-I/index.md` usa `layout: "offering"`:
   [`layouts/docs/offering.html`](../layouts/docs/offering.html) pasa a
   `docs/layout.html` el cuerpo de `docs/offering.html`, que muestra el docente
-  con `docs/offering-info.html` y cada `silabo*.pdf` del bundle en el visor
-  `media/pdf-viewer.html`.
+  con `docs/offering-info.html` y cada `silabo*.pdf` del bundle como documento
+  (`media/document.html`, ver el visor de PDF más abajo).
 
 **Los shortcodes.** El cuerpo usa `infobox-alert` y `resource-table`
 ([`layouts/_shortcodes/`](../layouts/_shortcodes), ver
@@ -108,8 +109,18 @@ reproducción.
   [`search/dialog.html`](../layouts/_partials/search/dialog.html). El paquete
   base y el buscador se piden después de `load` y del primer pintado
   (`site/load-after.html`).
+- [`media/document.html`](../layouts/_partials/media/document.html) dibuja un
+  PDF como documento: título, tamaño, «Descargar» y, con `open`, el visor
+  abierto; sin `open`, «Ver» lo despliega. Marca la página con
+  `.Store.Set "pdf"`, y `site/scripts.html` carga entonces
+  [`assets/js/pdf-viewer.ts`](../assets/js/pdf-viewer.ts), que importa pdf.js
+  solo cuando un visor se abre y dibuja una página a la vez en un `<canvas>`. Si
+  el PDF no carga, el visor muestra el error y deja el enlace «Abrir en otra
+  pestaña».
 - `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` desde `node_modules` en
-  `assets/js/vendor/`. `assets/js/vendor/` no se edita.
+  `assets/js/vendor/`, y las fuentes de Jost y KaTeX (solo `.woff2`) en
+  `static/fonts/`. `assets/js/vendor/` no se edita. Las `@font-face` de Jost
+  están en `site.css`, y `site/head/fonts.html` precarga la Jost recta.
 
 **La compilación.** `bun run build` ejecuta `hugo --gc --minify` y
 `pagefind --site public`. Hugo escribe las páginas, `_headers`, `_redirects` y

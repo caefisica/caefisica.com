@@ -87,7 +87,7 @@ weight = 40
 
 [[footer]]
 name = "Nosotros"
-url = "/#equipo"
+pageRef = "/contributors"
 weight = 10
 
 [[footer]]

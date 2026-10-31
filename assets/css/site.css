@@ -2,52 +2,44 @@
 
 @custom-variant dark (&:where([data-dark-mode], [data-dark-mode] *));
 
+/* Jost variable from @fontsource-variable/jost, mounted at /fonts/jost/ by module.toml. One file per style covers every weight. latin-ext downloads only for a page that uses its characters. */
 @font-face {
   font-family: Jost;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100 900;
   font-display: swap;
-  src: url("/fonts/vendor/jost/jost-v4-latin-regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: Jost;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("/fonts/vendor/jost/jost-v4-latin-500.woff2") format("woff2");
+  src: url("/fonts/jost/jost-latin-wght-normal.woff2")
+    format("woff2-variations");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
   font-family: Jost;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 100 900;
   font-display: swap;
-  src: url("/fonts/vendor/jost/jost-v4-latin-700.woff2") format("woff2");
+  src: url("/fonts/jost/jost-latin-ext-wght-normal.woff2")
+    format("woff2-variations");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 @font-face {
   font-family: Jost;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 100 900;
   font-display: swap;
-  src: url("/fonts/vendor/jost/jost-v4-latin-italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: Jost;
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url("/fonts/vendor/jost/jost-v4-latin-500italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: Jost;
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url("/fonts/vendor/jost/jost-v4-latin-700italic.woff2") format("woff2");
+  src: url("/fonts/jost/jost-latin-wght-italic.woff2")
+    format("woff2-variations");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
 }
 
 @theme {
@@ -183,11 +175,8 @@
 }
 
 @utility text-lead {
-  font-size: calc(1.275rem + 0.3vw);
-
-  @media (width >= 75rem) {
-    font-size: 1.25rem;
-  }
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 /* Centered reading column: 10/16 of the row from lg, 8/16 from xl. */
@@ -218,6 +207,19 @@
 
   @media (width >= 75rem) {
     padding-inline: 4rem;
+  }
+}
+
+/* Frame of a stand-alone page below the header, the same as a docs article. The title's own top margin would double the gap. */
+@utility py-page {
+  padding-block: 1.5rem 4rem;
+
+  @media (width >= 62rem) {
+    padding-top: 2rem;
+  }
+
+  & :where(h1) {
+    margin-top: 0;
   }
 }
 

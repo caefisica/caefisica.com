@@ -1,14 +1,10 @@
 ---
 title: "Doctorado"
-description: ""
+description:
+  "El Doctorado en Física en San Marcos: duración, plan de estudios y perfiles."
 lead:
-  "El Doctorado en Física es un programa académico cuyo plan de estudios se
-  estructura en un esquema semestral y se organiza en tres áreas con asignaturas
-  comunes obligatorias y asignaturas electivas. Las áreas permiten investigar y
-  documentar fenómenos naturales a escalas espaciales global, regional y local,
-  y a escalas variables de tiempo. Se programa un intenso uso de laboratorios
-  virtuales por medio del modelaje matemático-numérico y la utilización
-  intensiva de datos digitales de sensoramiento."
+  "Un programa de tres años (seis semestres) con asignaturas comunes
+  obligatorias y electivas en tres áreas."
 date: 2022-02-01T17:28:27
 draft: false
 images: []
@@ -17,11 +13,17 @@ toc: true
 contributors: ["david"]
 ---
 
-Duración: 3 años (6 semestres).
+El plan de estudios del Doctorado en Física se estructura en un esquema
+semestral y se organiza en tres áreas con asignaturas comunes obligatorias y
+asignaturas electivas. Las áreas permiten investigar y documentar fenómenos
+naturales a escalas espaciales global, regional y local, y a escalas variables
+de tiempo. Se programa un intenso uso de laboratorios virtuales por medio del
+modelaje matemático-numérico y la utilización intensiva de datos digitales de
+sensoramiento.
 
 ## Plan de Estudios
 
-{{< details "Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Doctorado.pdf" >}} {{< /details >}}
+{{< pdf file="PE_2020_Doctorado.pdf" title="Plan de estudios 2020" >}}
 
 ## Perfil del Ingresante
 

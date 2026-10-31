@@ -69,4 +69,4 @@ Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 
 ## Material de referencia
 
-{{< details "Física II — Universidad Nacional de Ingeniería" >}} {{< pdfjs file="referencia_uni.pdf" >}} {{< /details >}}
+{{< pdf file="referencia_uni.pdf" title="Física II, Universidad Nacional de Ingeniería" >}}
