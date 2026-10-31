@@ -126,6 +126,7 @@
   --glass: rgb(255 255 255 / 0.95);
   --code-bg: var(--color-beige);
   --string: var(--color-pink-500);
+  --icon-search: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M12.75 11.25h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99 1.49-1.49-4.99-5Zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Z'/%3E%3C/svg%3E");
   --icon-chevron: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
   color-scheme: light;
 }
@@ -850,51 +851,6 @@
     }
   }
 
-  #docsearch {
-    --pagefind-ui-scale: 0.85;
-    --pagefind-ui-primary: var(--color-indigo-800);
-    --pagefind-ui-text: var(--color-ink);
-    --pagefind-ui-background: #fff;
-    --pagefind-ui-border: var(--color-gray-300);
-    --pagefind-ui-font: var(--font-sans);
-
-    position: relative;
-    min-height: 2.5rem;
-    text-align: left;
-
-    & .pagefind-ui__search-input {
-      font-weight: 400;
-    }
-
-    /* Pagefind dims the placeholder to 20% opacity, which leaves the box reading as empty. */
-    & .pagefind-ui__search-input::placeholder {
-      opacity: 0.7;
-    }
-
-    [data-dark-mode] & {
-      --pagefind-ui-primary: var(--color-indigo-300);
-      --pagefind-ui-text: var(--color-gray-300);
-      --pagefind-ui-background: #1b1f22;
-      --pagefind-ui-border: var(--color-gray-800);
-    }
-
-    & .pagefind-ui__drawer {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      z-index: 1000;
-      box-sizing: border-box;
-      width: min(32rem, calc(100vw - 3rem));
-      max-height: 70vh;
-      margin-top: 0.5rem;
-      padding: 1rem;
-      overflow-y: auto;
-      background: var(--pagefind-ui-background);
-      border-radius: 0.375rem;
-      box-shadow: 0 0.5rem 1rem rgb(29 45 53 / 0.15);
-    }
-  }
-
   /* Menús de las barras laterales de la documentación. */
   .docs-links {
     scrollbar-width: thin;
@@ -1475,5 +1431,85 @@
       transition-duration: 0s !important;
       transition-delay: 0s !important;
     }
+  }
+}
+
+/* Unlayered: pagefind-ui.css is unlayered, and an unlayered rule beats every layered one whatever its specificity. */
+#docsearch {
+  --pagefind-ui-scale: 0.85;
+  --pagefind-ui-primary: var(--color-indigo-800);
+  --pagefind-ui-text: var(--color-ink);
+  --pagefind-ui-background: #fff;
+  --pagefind-ui-border: var(--color-gray-300);
+  --pagefind-ui-font: var(--font-sans);
+
+  position: relative;
+  min-height: 2.5rem;
+  text-align: left;
+
+  & .pagefind-ui__search-input {
+    font-weight: 400;
+  }
+
+  /* The stub copies Pagefind's input at --pagefind-ui-scale, so the swap to Pagefind does not move the box. */
+  & .search-stub {
+    position: relative;
+    margin: 0;
+
+    &::before {
+      position: absolute;
+      top: calc(23px * var(--pagefind-ui-scale));
+      left: calc(20px * var(--pagefind-ui-scale));
+      width: calc(18px * var(--pagefind-ui-scale));
+      height: calc(18px * var(--pagefind-ui-scale));
+      content: "";
+      background-color: var(--pagefind-ui-text);
+      opacity: 0.7;
+      mask: var(--icon-search) center / contain no-repeat;
+      pointer-events: none;
+    }
+
+    & input {
+      box-sizing: border-box;
+      width: 100%;
+      height: calc(64px * var(--pagefind-ui-scale));
+      padding: 0 calc(70px * var(--pagefind-ui-scale)) 0
+        calc(54px * var(--pagefind-ui-scale));
+      font: 400 calc(21px * var(--pagefind-ui-scale)) var(--pagefind-ui-font);
+      color: var(--pagefind-ui-text);
+      background-color: var(--pagefind-ui-background);
+      border: 2px solid var(--pagefind-ui-border);
+      border-radius: 8px;
+      appearance: none;
+    }
+  }
+
+  /* Pagefind dims the placeholder to 20% opacity, which leaves the box reading as empty. */
+  & :is(.search-stub input, .pagefind-ui__search-input)::placeholder {
+    color: var(--pagefind-ui-text);
+    opacity: 0.7;
+  }
+
+  [data-dark-mode] & {
+    --pagefind-ui-primary: var(--color-indigo-300);
+    --pagefind-ui-text: var(--color-gray-300);
+    --pagefind-ui-background: #1b1f22;
+    --pagefind-ui-border: var(--color-gray-800);
+  }
+
+  & .pagefind-ui__drawer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    width: min(32rem, calc(100vw - 3rem));
+    max-height: 70vh;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    overflow-y: auto;
+    background: var(--pagefind-ui-background);
+    border-radius: 0.375rem;
+    box-shadow: 0 0.5rem 1rem rgb(29 45 53 / 0.15);
   }
 }
