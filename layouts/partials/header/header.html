@@ -206,10 +206,7 @@
 		<div class="mx-auto flex w-full max-w-page items-center px-gutter">
 			<div class="mr-auto inline-flex">
 				{{ if partial "components/is-search-enabled.html" . -}}
-					<div id="search-placeholder" aria-hidden="true">
-						<div class="h-10 w-29 rounded-md bg-surface md:w-31.5"></div>
-					</div>
-					<div id="docsearch"></div>
+					{{ partial "components/search-box.html" }}
 				{{ end -}}
 			</div>
 

@@ -18,8 +18,9 @@
 		<h1 class="enter mt-0 mb-6 text-display">Una guía para el estudio de las Ciencias Físicas</h1>
 		<p class="enter mb-8 max-w-[34rem] text-lead text-muted" style="--i: 1">{{ .Params.Lead | safeHTML -}}</p>
 		{{ if partial "components/is-search-enabled.html" . -}}
-			<div class="enter max-w-[28rem]" style="--i: 2">
-				<div id="docsearch"></div>
+			{{- /* z-10: each .enter is its own stacking context, and later siblings would paint over the results drawer. */}}
+			<div class="enter relative z-10 max-w-[28rem]" style="--i: 2">
+				{{ partial "components/search-box.html" }}
 			</div>
 		{{ end -}}
 		<p class="enter mt-6 mb-0 text-base text-muted" style="--i: 3">Un proyecto del {{ .Site.Params.titleAddition }}</p>
