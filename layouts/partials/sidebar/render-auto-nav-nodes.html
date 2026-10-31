@@ -1,5 +1,6 @@
 {{- $nodes := .nodes -}}
 {{- $level := .level | default 0 -}}
+{{- $scope := .scope -}}
 {{- range $nodes -}}
 	{{- if eq .kind "link" -}}
 		<li>
@@ -11,7 +12,7 @@
 			</a>
 		</li>
 	{{- else -}}
-		{{- $collapseID := printf "section-%s" (md5 .url) -}}
+		{{- $collapseID := printf "%s-section-%s" $scope (md5 .url) -}}
 		<li class="my-1{{ if gt $level 0 }} ms-3{{ end }}">
 			<button
 				class="btn-toggle items-center rounded"
@@ -21,14 +22,17 @@
 				aria-expanded="{{ if .active }}true{{ else }}false{{ end }}">
 				{{ .title }}
 			</button>
-			<div id="{{ $collapseID }}"{{ if not .active }} hidden{{ end }}>
-				<ul class="btn-toggle-nav list-none pb-1 text-sm font-normal">
-					{{ partial "sidebar/render-auto-nav-nodes.html" (dict
-						"nodes" .children
-						"level" (add $level 1)
-					)
-					}}
-				</ul>
+			<div id="{{ $collapseID }}" class="disclosure" data-open="{{ if .active }}true{{ else }}false{{ end }}"{{ if not .active }} inert{{ end }}>
+				<div class="disclosure-body">
+					<ul class="btn-toggle-nav list-none pb-1 text-sm font-normal">
+						{{ partial "sidebar/render-auto-nav-nodes.html" (dict
+							"nodes" .children
+							"level" (add $level 1)
+							"scope" $scope
+						)
+						}}
+					</ul>
+				</div>
 			</div>
 		</li>
 	{{- end -}}

@@ -1,4 +1,4 @@
-{{- $tree := partial "sidebar/build-auto-nav-tree.html" (dict "currentPage" .) -}}
+{{- $tree := partial "sidebar/build-auto-nav-tree.html" (dict "currentPage" .page) -}}
 <ul class="collapsible-sidebar list-none">
-	{{ partial "sidebar/render-auto-nav-nodes.html" (dict "nodes" $tree) }}
+	{{ partial "sidebar/render-auto-nav-nodes.html" (dict "nodes" $tree "scope" .scope) }}
 </ul>

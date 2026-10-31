@@ -1,7 +1,8 @@
-{{- $currentPage := . -}}
-{{- $planSection := .CurrentSection -}}
-{{- if findRE `/plan-` .CurrentSection.Parent.RelPermalink -}}
-	{{- $planSection = .CurrentSection.Parent -}}
+{{- $currentPage := .page -}}
+{{- $scope := .scope -}}
+{{- $planSection := $currentPage.CurrentSection -}}
+{{- if findRE `/plan-` $currentPage.CurrentSection.Parent.RelPermalink -}}
+	{{- $planSection = $currentPage.CurrentSection.Parent -}}
 {{- end -}}
 
 {{- $semesters := slice -}}
@@ -17,7 +18,7 @@
 	{{- range $semesters -}}
 		{{- $sem := . -}}
 		{{- $courses := where $planSection.Pages "Params.semester" $sem -}}
-		{{- $collapseID := printf "ciclo-%v" $sem -}}
+		{{- $collapseID := printf "%s-ciclo-%v" $scope $sem -}}
 		{{- $isActive := false -}}
 		{{- range $courses -}}
 			{{- if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) -}}
@@ -33,19 +34,21 @@
 				aria-expanded="{{ if $isActive }}true{{ else }}false{{ end }}">
 				Ciclo {{ $sem }}
 			</button>
-			<div id="{{ $collapseID }}"{{ if not $isActive }} hidden{{ end }}>
-				<ul class="btn-toggle-nav list-none pb-1 text-sm font-normal">
-					{{- range $courses -}}
-						<li>
-							<a
-								class="docs-link rounded{{ if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) }} active{{ end }}"
-								href="{{ .RelPermalink }}"
-								{{ if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) }}aria-current="page"{{ end }}>
-								{{ .Title }}
-							</a>
-						</li>
-					{{- end -}}
-				</ul>
+			<div id="{{ $collapseID }}" class="disclosure" data-open="{{ if $isActive }}true{{ else }}false{{ end }}"{{ if not $isActive }} inert{{ end }}>
+				<div class="disclosure-body">
+					<ul class="btn-toggle-nav list-none pb-1 text-sm font-normal">
+						{{- range $courses -}}
+							<li>
+								<a
+									class="docs-link rounded{{ if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) }} active{{ end }}"
+									href="{{ .RelPermalink }}"
+									{{ if or (eq $currentPage.RelPermalink .RelPermalink) (hasPrefix $currentPage.RelPermalink .RelPermalink) }}aria-current="page"{{ end }}>
+									{{ .Title }}
+								</a>
+							</li>
+						{{- end -}}
+					</ul>
+				</div>
 			</div>
 		</li>
 	{{- end -}}
