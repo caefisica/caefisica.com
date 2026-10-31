@@ -32,13 +32,16 @@
 {{- if .Site.Params.options.lazySizes -}}
 	{{- $bundle = $bundle | append (resources.Get "js/lazysizes.ts" | js.Build $bundleOpts) -}}
 {{- end -}}
-{{- if .Site.Params.options.clipBoard -}}
+{{- $mainName := "main.js" -}}
+{{- if and .Site.Params.options.clipBoard (strings.Contains .Content "<pre") -}}
 	{{- $bundle = $bundle | append (resources.Get "js/clipboard.ts" | js.Build $bundleOpts) -}}
+	{{- /* Hugo caches resources.Concat by target name, so each bundle needs its own. */ -}}
+	{{- $mainName = "main-code.js" -}}
 {{- end -}}
 {{- if .Site.Params.options.instantPage -}}
 	{{- $bundle = $bundle | append (resources.Get "js/instant-page.ts" | js.Build $bundleOpts) -}}
 {{- end -}}
-{{- $mainJs := $bundle | resources.Concat "main.js" -}}
+{{- $mainJs := $bundle | resources.Concat $mainName -}}
 {{- if $isProd -}}
 	{{- with $mainJs | fingerprint "sha512" -}}
 		{{- partial "footer/load-after" (dict "src" .RelPermalink "integrity" .Data.Integrity "crossOrigin" "anonymous") -}}

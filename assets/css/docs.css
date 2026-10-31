@@ -1,0 +1,655 @@
+/* Content and docs rules. Every page but the home page loads them through app.css. */
+
+@layer base {
+  table {
+    width: 100%;
+    margin: 1rem 0 2rem;
+    border-color: var(--line);
+    caption-side: bottom;
+    border-collapse: collapse;
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+    vertical-align: bottom;
+
+    @media (width >= 48rem) {
+      top: 59px;
+    }
+  }
+
+  tbody {
+    vertical-align: inherit;
+  }
+
+  /* El encabezado es sticky. La celda pinta el fondo y el borde para cubrir las filas que pasan debajo. */
+  th,
+  td {
+    padding: 0.5rem;
+    background-color: var(--bg);
+    border-bottom: 1px dashed var(--line);
+    vertical-align: top;
+  }
+
+  th {
+    text-align: inherit;
+  }
+
+  tbody tr {
+    border-bottom: 0;
+  }
+
+  [data-dark-mode] th,
+  [data-dark-mode] td {
+    color: #fff;
+    border-color: #373b3e;
+  }
+
+  pre,
+  code,
+  kbd,
+  samp {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    border-radius: 0.375rem;
+  }
+
+  code {
+    padding: 0.25rem 0.5rem;
+    background: var(--code-bg);
+    color: var(--fg);
+  }
+
+  pre {
+    position: relative;
+    margin: 2rem 0;
+
+    @media (width < 36rem) {
+      margin-inline: -1.5rem;
+    }
+  }
+
+  @media (width < 36rem) {
+    pre,
+    code,
+    kbd,
+    samp {
+      border-radius: 0;
+    }
+  }
+
+  pre code {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    overflow-x: auto;
+    line-height: 1.5;
+    tab-size: 4;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+
+    &:hover {
+      scrollbar-color: var(--color-gray-500) transparent;
+    }
+
+    &::-webkit-scrollbar {
+      height: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--color-gray-400);
+
+      &:hover {
+        background: var(--color-gray-500);
+      }
+    }
+  }
+
+  code.language-mermaid {
+    background: none;
+  }
+
+  figcaption {
+    margin: 0.25rem 0 0.75rem;
+    color: var(--muted);
+    font-size: 0.875em;
+  }
+}
+
+@layer components {
+  .hljs {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    overflow-x: auto;
+    background: var(--code-bg);
+    color: var(--fg);
+  }
+
+  .hljs-string,
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-section,
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-link {
+    color: var(--string);
+  }
+
+  .hljs-comment,
+  .hljs-quote,
+  .hljs-meta,
+  .hljs-deletion {
+    color: #888;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-section,
+  .hljs-name,
+  .hljs-type,
+  .hljs-strong {
+    font-weight: bold;
+  }
+
+  .hljs-emphasis {
+    font-style: italic;
+  }
+
+  .katex {
+    font-size: 1.125rem;
+  }
+
+  .mermaid {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+
+    & svg {
+      height: auto;
+    }
+  }
+
+  .blur-up {
+    filter: blur(5px);
+
+    &.lazyloaded {
+      filter: unset;
+    }
+  }
+
+  /* Botón que clipboard.ts agrega a cada bloque de código. */
+  .copy-button {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    z-index: 10;
+    display: none;
+    padding: 0.375rem;
+    border-radius: 0.375rem;
+    background: var(--color-pink-500);
+    color: #fff;
+    opacity: 0;
+    transition:
+      opacity 0.2s ease-out,
+      background-color 0.15s ease;
+
+    @media (width >= 48rem) {
+      display: block;
+    }
+
+    pre:hover &,
+    &:focus-visible {
+      opacity: 1;
+    }
+
+    &:hover {
+      background: #db4aa9;
+    }
+  }
+
+  [data-dark-mode] .copy-button {
+    background: transparent;
+    color: var(--fg);
+
+    &:hover {
+      color: var(--link);
+    }
+  }
+
+  .markdown {
+    details {
+      display: block;
+      margin: 0.5rem 0;
+      padding: 0.5rem 1rem 0;
+      border: 1px solid var(--line);
+      border-radius: 0.25rem;
+
+      &[open] {
+        padding: 0.5rem 1rem;
+      }
+
+      h2,
+      h3,
+      h4 {
+        margin: 1rem 0 0.5rem;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      ul,
+      ol {
+        margin-bottom: 0;
+      }
+
+      pre {
+        margin: 0;
+      }
+    }
+
+    summary {
+      display: inline-block;
+      width: calc(100% + 2rem);
+      margin: -0.5rem -1rem 0;
+      padding: 0.5rem 0.75rem;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::before {
+        display: inline-block;
+        margin-right: 0.375rem;
+        content: "";
+        width: 14px;
+        height: 14px;
+        vertical-align: -2px;
+        background-color: currentcolor;
+        opacity: 0.75;
+        mask: var(--icon-chevron) center / contain no-repeat;
+        transition: transform 0.25s var(--ease-snap);
+      }
+
+      &:hover {
+        background: var(--surface);
+      }
+    }
+
+    details[open] > summary {
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid var(--color-gray-300);
+
+      &::before {
+        transform: rotate(90deg);
+      }
+    }
+
+    [data-dark-mode] & details[open] > summary {
+      border-bottom-color: var(--line);
+    }
+
+    :is(p, li, td) a:not(.plain) {
+      padding-bottom: 0.2rem;
+      background:
+        linear-gradient(90deg, rgb(44 38 130 / 0.4), rgb(44 38 130 / 0.4)) 0
+          100% / 0 0.1em no-repeat,
+        linear-gradient(90deg, transparent, transparent) 100% 100% / 100% 0.1em
+          no-repeat;
+      transition: background-size 0.3s var(--ease-snap);
+
+      &:hover {
+        background-size:
+          100% 0.1em,
+          0 0.1em;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .markdown {
+    & :is(h2, h3, h4)[id] {
+      scroll-margin-top: 6rem;
+    }
+
+    & .anchor {
+      visibility: hidden;
+      padding-left: 0.5rem;
+    }
+
+    & :is(h1, h2, h3, h4):hover .anchor {
+      visibility: visible;
+      text-decoration: none;
+    }
+  }
+
+  .toc {
+    & ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    & li {
+      margin-top: 0.375rem;
+      padding-top: 0.375rem;
+
+      &:not(:first-child) {
+        border-top: 1px dashed var(--line);
+      }
+
+      & ul li {
+        margin-top: 0.125rem;
+        padding-top: 0.125rem;
+        padding-left: 1rem;
+      }
+    }
+
+    & a {
+      display: block;
+      padding: 0.125rem 0;
+      color: var(--fg);
+      font-size: 0.9375rem;
+
+      &:hover {
+        color: var(--link);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .custom-block {
+    margin: 1rem 0;
+    padding: 1rem 1rem 0.5rem;
+    border: 1px dashed rgb(70 58 203 / 0.5);
+    border-radius: 0.5rem;
+    background-color: rgb(70 58 203 / 0.05);
+    color: var(--color-indigo-700);
+    font-size: 14px;
+    line-height: 1.5rem;
+
+    & p {
+      margin: 0.5rem 0;
+      line-height: 1.5rem;
+    }
+
+    & p:first-child {
+      margin: 0;
+    }
+
+    [data-dark-mode] & {
+      color: var(--color-indigo-300);
+    }
+  }
+
+  /* Menús de las barras laterales de la documentación. */
+  .docs-links {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+
+    &:hover {
+      scrollbar-color: var(--line) transparent;
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+      background: var(--line);
+    }
+
+    & h3 {
+      margin: 1.25rem 0 0.5rem;
+      padding: 1.5rem 0 0;
+      font-size: 1rem;
+
+      &:not(:first-child) {
+        border-top: 1px dashed var(--color-gray-200);
+      }
+
+      [data-dark-mode] &:not(:first-child) {
+        border-top-color: var(--line);
+      }
+
+      @media (width >= 62rem) {
+        margin: 1.125rem 1.5rem 0.75rem 0;
+        padding: 1.375rem 0 0;
+      }
+    }
+  }
+
+  .docs-link {
+    display: block;
+    padding: 0.125rem 0;
+    color: var(--fg);
+    font-size: 1rem;
+
+    &:hover,
+    &.active {
+      color: var(--link);
+      text-decoration: none;
+    }
+  }
+
+  .collapsible-sidebar {
+    margin: 2.125rem 0;
+  }
+
+  /* Botón data-toggle que despliega un nivel del menú lateral. */
+  .btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.5rem 0.25rem 0;
+    color: var(--fg);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    border: 0;
+
+    &::before {
+      width: 1.25em;
+      height: 0.875rem;
+      margin-bottom: 0.125rem;
+      background-color: currentcolor;
+      opacity: 0.75;
+      mask: var(--icon-chevron) center / contain no-repeat;
+      content: "";
+      transition: transform 0.25s var(--ease-snap);
+      transform-origin: 0.5em 50%;
+    }
+
+    &[aria-expanded="true"]::before {
+      transform: rotate(90deg);
+    }
+  }
+
+  .btn-toggle-nav a {
+    display: inline-flex;
+    padding: 0.1875rem 0.5rem;
+    margin-top: 0.125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: var(--link);
+    }
+  }
+
+  /* Bloques de autoría y de compartir al pie de la tabla de contenido. */
+  .author-links,
+  .social-media-links {
+    margin-inline: -1.5rem;
+  }
+
+  .author-links {
+    border-bottom: 1px dashed var(--color-gray-200);
+
+    & img {
+      height: 38px;
+    }
+
+    & a {
+      color: var(--link);
+    }
+  }
+
+  .social-media-links {
+    border-top: 1px dashed var(--color-gray-200);
+  }
+
+  [data-dark-mode] :is(.author-links, .social-media-links) {
+    border-color: var(--line);
+  }
+
+  /* La lista de la tabla de contenido pone un borde superior a cada elemento. El bloque de autoría no los lleva. */
+  .toc .author-links li:not(:first-child) {
+    border-top: 0;
+  }
+
+  .experimental-meta {
+    margin-top: 2rem;
+
+    & a {
+      color: var(--fg);
+
+      &:hover,
+      &:focus {
+        color: var(--link);
+      }
+    }
+  }
+
+  .types-single {
+    margin-right: 0.75rem;
+  }
+
+  .img-simple {
+    margin-top: 0.375rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Paginación de la plantilla interna _internal/pagination.html. */
+  .pagination {
+    display: flex;
+    margin: 1rem 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .page-link {
+    position: relative;
+    display: block;
+    margin-left: -1px;
+    padding: 0.375rem 0.75rem;
+    color: var(--link);
+    text-decoration: none;
+    background-color: var(--bg);
+    border: 1px solid var(--color-gray-300);
+    transition:
+      color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+
+    &:hover {
+      z-index: 2;
+      color: var(--accent);
+      background-color: var(--surface);
+      border-color: var(--color-gray-300);
+    }
+  }
+
+  .page-item {
+    &:first-child .page-link {
+      border-top-left-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+      margin-left: 0;
+    }
+
+    &:last-child .page-link {
+      border-top-right-radius: 0.25rem;
+      border-bottom-right-radius: 0.25rem;
+    }
+
+    &.active .page-link {
+      z-index: 3;
+      color: #fff;
+      background-color: var(--link);
+      border-color: var(--link);
+    }
+
+    &.disabled .page-link {
+      color: var(--muted);
+      pointer-events: none;
+      background-color: var(--bg);
+      border-color: var(--color-gray-300);
+    }
+  }
+
+  [data-dark-mode] .page-link {
+    border-color: var(--line);
+
+    &:hover,
+    &:focus {
+      color: var(--bg);
+      background-color: var(--fg);
+      border-color: var(--fg);
+    }
+  }
+
+  [data-dark-mode] .page-item {
+    &.active .page-link {
+      color: var(--bg);
+      background-color: var(--link);
+      border-color: var(--link);
+    }
+
+    &.disabled .page-link {
+      color: var(--color-gray-600);
+      background-color: var(--surface);
+      border-color: var(--line);
+    }
+  }
+
+  /* Toast: the copy confirmation. `role="status"` makes it a live region. */
+  .toast {
+    position: fixed;
+    inset: auto 0 1.5rem;
+    z-index: 2000;
+    width: max-content;
+    max-width: calc(100% - 3rem);
+    margin-inline: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: var(--fg);
+    color: var(--bg);
+    font-size: 0.875rem;
+    opacity: 0;
+    translate: 0 1rem;
+    scale: 0.97;
+    filter: blur(2px);
+    pointer-events: none;
+    transition:
+      opacity 0.25s var(--ease-snap),
+      translate 0.25s var(--ease-snap),
+      scale 0.25s var(--ease-snap),
+      filter 0.25s var(--ease-snap);
+
+    &.is-open {
+      opacity: 1;
+      translate: 0;
+      scale: 1;
+      filter: none;
+      transition-duration: 0.35s;
+    }
+  }
+}

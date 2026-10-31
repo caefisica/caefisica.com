@@ -1,4 +1,4 @@
-{{- with resources.Get "css/app.css" -}}
+{{- with resources.Get (cond (eq .Kind "home") "css/home.css" "css/app.css") -}}
 	{{- $opts := dict "minify" hugo.IsProduction -}}
 	{{- with . | css.TailwindCSS $opts -}}
 		{{- if and hugo.IsProduction (eq $.Kind "home") -}}
