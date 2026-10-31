@@ -1,13 +1,15 @@
-// Los botones data-toggle muestran y ocultan el elemento cuyo id declaran.
+// Los botones data-toggle despliegan el .disclosure cuyo id declaran. El CSS anima la altura con
+// data-open; `inert` saca el contenido plegado del orden de tabulación y del árbol de accesibilidad.
 for (const button of document.querySelectorAll<HTMLButtonElement>(
   "[data-toggle]",
 )) {
   const target = document.getElementById(button.dataset.toggle ?? "");
   if (!target) continue;
   button.addEventListener("click", () => {
-    const expanded = button.getAttribute("aria-expanded") === "true";
-    button.setAttribute("aria-expanded", String(!expanded));
-    target.hidden = expanded;
+    const open = button.getAttribute("aria-expanded") !== "true";
+    button.setAttribute("aria-expanded", String(open));
+    target.dataset.open = String(open);
+    target.inert = !open;
   });
 }
 
@@ -16,11 +18,20 @@ const dropdowns = document.querySelectorAll<HTMLDetailsElement>(
   "details[data-dropdown]",
 );
 
+// `is-closing` reproduce la animación de salida antes de cerrar el <details>.
+// Con movimiento reducido no hay animaciones y se cierra al instante.
+async function closeDropdown(dropdown: HTMLDetailsElement): Promise<void> {
+  if (!dropdown.open || dropdown.classList.contains("is-closing")) return;
+  dropdown.classList.add("is-closing");
+  const animations = dropdown.querySelector("ul")?.getAnimations() ?? [];
+  await Promise.all(animations.map((a) => a.finished.catch(() => undefined)));
+  dropdown.open = false;
+  dropdown.classList.remove("is-closing");
+}
+
 document.addEventListener("click", (event) => {
   for (const dropdown of dropdowns) {
-    if (dropdown.open && !dropdown.contains(event.target as Node)) {
-      dropdown.open = false;
-    }
+    if (!dropdown.contains(event.target as Node)) void closeDropdown(dropdown);
   }
 });
 
@@ -28,7 +39,7 @@ document.addEventListener("keydown", (event) => {
   if (event.key !== "Escape") return;
   for (const dropdown of dropdowns) {
     if (!dropdown.open) continue;
-    dropdown.open = false;
+    void closeDropdown(dropdown);
     dropdown.querySelector("summary")?.focus();
   }
 });
@@ -36,7 +47,12 @@ document.addEventListener("keydown", (event) => {
 for (const dropdown of dropdowns) {
   dropdown.addEventListener("focusout", (event) => {
     const next = event.relatedTarget as Node | null;
-    if (next && !dropdown.contains(next)) dropdown.open = false;
+    if (next && !dropdown.contains(next)) void closeDropdown(dropdown);
+  });
+  dropdown.querySelector("summary")?.addEventListener("click", (event) => {
+    if (!dropdown.open) return;
+    event.preventDefault();
+    void closeDropdown(dropdown);
   });
 }
 

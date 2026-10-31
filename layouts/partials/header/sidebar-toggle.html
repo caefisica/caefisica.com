@@ -1,40 +1,40 @@
 {{- $class := .class | default "ml-auto" -}}
 {{- $label := .label -}}
 <button
-	class="group order-3 -mr-2 rounded-md px-1 py-1.5 text-fg hover:bg-pink-100 lg:hidden dark:hover:bg-surface {{ $class }}"
+	class="order-3 -mr-2 rounded-md px-1 py-1.5 text-fg hover:bg-pink-100 lg:hidden dark:hover:bg-surface {{ $class }}"
 	type="button"
 	data-toggle="docs-nav"
 	aria-controls="docs-nav"
 	aria-expanded="false"
 	aria-label="{{ $label }}">
-	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		width="24"
-		height="24"
-		viewBox="0 0 24 24"
-		class="group-aria-expanded:hidden"
-		fill="none"
-		stroke="currentColor"
-		stroke-width="2"
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		aria-hidden="true">
-		<polyline points="7 13 12 18 17 13"></polyline>
-		<polyline points="7 6 12 11 17 6"></polyline>
-	</svg>
-	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		width="24"
-		height="24"
-		viewBox="0 0 24 24"
-		class="hidden group-aria-expanded:inline-block"
-		fill="none"
-		stroke="currentColor"
-		stroke-width="2"
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		aria-hidden="true">
-		<polyline points="17 11 12 6 7 11"></polyline>
-		<polyline points="17 18 12 13 7 18"></polyline>
-	</svg>
+	<span class="swap block">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			aria-hidden="true">
+			<polyline points="7 13 12 18 17 13"></polyline>
+			<polyline points="7 6 12 11 17 6"></polyline>
+		</svg>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			aria-hidden="true">
+			<polyline points="17 11 12 6 7 11"></polyline>
+			<polyline points="17 18 12 13 7 18"></polyline>
+		</svg>
+	</span>
 </button>
