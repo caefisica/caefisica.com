@@ -1,29 +1,26 @@
-<section class="my-4 bg-surface py-12">
-	<div class="mx-auto max-w-[1240px] px-6">
-		<h2 class="mt-8 mb-6 text-center text-h3">Nuestro equipo</h2>
-		<div class="mb-12 flex flex-wrap justify-center gap-6">
+<section id="equipo" class="bg-surface px-6 py-20 md:py-32" aria-labelledby="equipo-titulo">
+	<div class="mx-auto w-full max-w-page">
+		<h2 id="equipo-titulo" class="reveal mt-0 mb-12 text-title">Nuestro equipo</h2>
+		<ul class="m-0 grid list-none grid-cols-2 gap-x-6 gap-y-10 p-0 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6">
 			{{ range hugo.Data.authors.members -}}
-				<div class="w-[calc((100%+1.5rem)*var(--cols)-1.5rem)] [--cols:0.875] sm:[--cols:0.5] md:[--cols:0.375] lg:[--cols:0.3125] xl:[--cols:0.25]">
-					{{ if .url -}}
-						<a href="{{ .url | relURL }}" class="block text-fg hover:text-fg hover:no-underline">
-					{{ end -}}
-					<div class="flex aspect-square w-full flex-col items-center justify-center bg-bg px-2 text-center">
-						<img
-							id="{{ .first_name }}"
-							class="size-[83px] rounded-full bg-gray-200 object-cover"
-							src="/images/member/{{ .first_name | lower }}.webp"
-							width="83"
-							height="83"
-							loading="lazy"
-							alt="" />
-						<p class="mt-0 mb-0 pt-2 font-bold">{{ .funcion -}}</p>
-						<p class="mb-4">{{ .name -}}</p>
-					</div>
-					{{ if .url -}}
-					</a>
-					{{ end -}}
-				</div>
+				<li class="relative">
+					<img
+						class="mb-3 size-20 rounded-full bg-gray-200 object-cover"
+						src="/images/member/{{ .first_name | lower }}.webp"
+						width="80"
+						height="80"
+						loading="lazy"
+						alt="" />
+					<p class="m-0 text-sm text-muted">{{ .funcion }}</p>
+					<p class="m-0 font-bold">
+						{{- if .url -}}
+							<a class="text-fg before:absolute before:inset-0 hover:text-link" href="{{ .url | relURL }}">{{ .name }}</a>
+						{{- else -}}
+							{{ .name }}
+						{{- end -}}
+					</p>
+				</li>
 			{{ end -}}
-		</div>
+		</ul>
 	</div>
 </section>
