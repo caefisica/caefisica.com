@@ -1,26 +1,19 @@
 {{- /*
-Recibe `page`, `src`, `alt` y `class` en un `dict` y muestra la imagen solicitada.
+Recibe `page`, `src`, `alt`, `class` y `eager` en un `dict` y muestra la imagen solicitada.
+`eager` es para una imagen visible al cargar la página: no se difiere y se pide con prioridad alta.
+`sizes="auto"` solo vale con `loading="lazy"`; el navegador usa el ancho con que se dibuja.
 */ -}}
 {{- $image := .page.Resources.GetMatch (printf "*%s*" .src) -}}
 {{- $img := partial "components/image-srcset.html" (dict "image" $image) -}}
 
 <figure{{ with .class }} class="{{ . }}"{{ end }}>
 	<img
-		class="lazyload blur-up"
-		data-sizes="auto"
-		src="{{ $img.lqip }}"
-		data-srcset="{{ $img.srcset }}"
+		{{ if .eager }}fetchpriority="high" sizes="100vw"{{ else }}loading="lazy" sizes="auto, 100vw"{{ end }}
+		decoding="async"
+		src="{{ $img.src }}"
+		srcset="{{ $img.srcset }}"
 		width="{{ $image.Width }}"
 		height="{{ $image.Height }}"
 		{{ with .alt }}alt="{{ . }}"{{ end }}
 	>
-	<noscript><img
-			sizes="100vw"
-			srcset="{{ $img.srcset }}"
-			src="{{ $img.src }}"
-			width="{{ $image.Width }}"
-			height="{{ $image.Height }}"
-			{{ with .alt }}alt="{{ . }}"{{ end }}
-		>
-	</noscript>
 </figure>
