@@ -1,9 +1,0 @@
-{{- $file := .Get "file" -}}
-{{- $url := "" -}}
-{{- $resource := .Page.Resources.GetMatch $file -}}
-{{- if $resource -}}
-	{{- $url = $resource.RelPermalink -}}
-{{- else -}}
-	{{- $url = path.Join (.Page.File.Dir | lower) $file | relURL -}}
-{{- end -}}
-{{ partial "components/pdfjs-viewer.html" (dict "url" $url "id" $file "hidePaginator" (.Get "hidePaginator")) }}

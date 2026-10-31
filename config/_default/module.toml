@@ -1,6 +1,6 @@
 [hugoVersion]
 extended = true
-min = "0.128.0"
+min = "0.146.0"
 max = ""
 
 [[mounts]]
@@ -19,10 +19,6 @@ target = "layouts"
 source = "hugo_stats.json"
 target = "assets/notwatching/hugo_stats.json"
 disableWatch = true
-
-[[mounts]]
-source = "node_modules/@thulite/images/layouts"
-target = "layouts"
 
 [[mounts]]
 source = "node_modules/mermaid"

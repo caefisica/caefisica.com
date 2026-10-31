@@ -1,18 +1,6 @@
-{{- $image := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) -}}
-{{- $img := partial "components/image-srcset.html" (dict "image" $image) -}}
-
-<figure>
-	<img
-		{{ with .Get "class" }}class="{{ . | safeHTML }}"{{ end }}
-		loading="lazy"
-		decoding="async"
-		sizes="auto, 100vw"
-		src="{{ $img.src }}"
-		srcset="{{ $img.srcset }}"
-		width="{{ $image.Width }}"
-		height="{{ $image.Height }}"
-		{{ with .Get "alt" }}alt="{{ . }}"{{ end }} />
-	{{ with .Get "caption" }}
-		<figcaption>{{ . | safeHTML }}</figcaption>
-	{{ end }}
-</figure>
+{{- $src := .Get "src" -}}
+{{- with .Page.Resources.GetMatch (printf "*%s*" $src) -}}
+	{{- partial "media/picture.html" (dict "image" . "alt" ($.Get "alt") "imgClass" ($.Get "class") "caption" ($.Get "caption")) -}}
+{{- else -}}
+	{{- errorf "The %q shortcode found no image matching %q. See %s" .Name $src .Position -}}
+{{- end -}}

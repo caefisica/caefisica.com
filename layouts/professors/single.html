@@ -1,51 +1,25 @@
 {{ define "main" }}
-<div class="py-12">
-	<div class="mx-auto lg:w-8/16">
-		<nav aria-label="breadcrumb">
-			<ol class="mb-4 flex list-none flex-wrap">
-				<li><a href="{{ "/" | relURL }}">Inicio</a></li>
-				<li class="pl-2 before:pr-2 before:text-gray-600 before:content-['/']">
-					<a href="{{ "professors/" | relURL }}">Profesores</a>
-				</li>
-				<li class="pl-2 text-muted before:pr-2 before:text-gray-600 before:content-['/']" aria-current="page">{{ .Title }}</li>
-			</ol>
-		</nav>
-		<h1>{{ partial "components/professor-name.html" . }}</h1>
-		{{ with .Params.institution }}
-			<p class="text-muted">{{ . | upper }}</p>
-		{{ end }}
-
-		{{ with .Content }}
-			<div class="mt-6">{{ . }}</div>
-		{{ end }}
-
-		{{- $slug := .File.Dir | path.Base -}}
-		{{- $offerings := where site.RegularPages "Params.professor" $slug -}}
-		{{ if $offerings }}
-			<div class="mt-8">
-				<h2>Cursos impartidos</h2>
-				<table>
-					<thead>
+<article class="col-prose py-section">
+	{{ partial "article/breadcrumbs.html" . }}
+	<h1>{{ partial "data/professor-name.html" . }}</h1>
+	{{- with .Params.institution }}<p class="text-lead">{{ . | upper }}</p>{{ end }}
+	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
+	{{- $offerings := where site.RegularPages "Params.professor" .File.ContentBaseName }}
+	{{- with sort $offerings "Params.semester" "desc" }}
+		<h2>Cursos dictados</h2>
+		<div class="markdown">
+			<table>
+				<thead><tr><th scope="col">Curso</th><th scope="col">Semestre</th></tr></thead>
+				<tbody>
+					{{- range . }}
 						<tr>
-							<th>Curso</th>
-							<th>Semestre</th>
+							<td>{{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</td>
+							<td><a href="{{ .RelPermalink }}">{{ .Params.semester }}</a></td>
 						</tr>
-					</thead>
-					<tbody>
-						{{ range $offerings }}
-							<tr>
-								<td>
-									{{ with .Parent }}
-										<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-									{{ end }}
-								</td>
-								<td>{{ .Params.semester }}</td>
-							</tr>
-						{{ end }}
-					</tbody>
-				</table>
-			</div>
-		{{ end }}
-	</div>
-</div>
+					{{- end }}
+				</tbody>
+			</table>
+		</div>
+	{{- end }}
+</article>
 {{ end }}

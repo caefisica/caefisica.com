@@ -1,0 +1,43 @@
+<section class="py-section" aria-labelledby="guias">
+	<div class="mx-auto grid w-full max-w-page gap-12 px-gutter lg:grid-cols-[5fr_7fr] lg:gap-16">
+		<div>
+			<h2 id="guias" class="reveal mt-0 mb-4 text-title">Guías de estudio</h2>
+			<p class="reveal mb-4 max-w-[30rem] text-lead">
+				Una serie de guías sobre el plan de estudios de Física de nuestra facultad.
+			</p>
+			<p class="reveal mb-8 max-w-[30rem] text-muted">
+				Incluyen una lista de recomendaciones de libros y canales de Youtube.
+				Nos enfocamos en proporcionar recursos de alta calidad y actualizados
+				para que los estudiantes puedan tener éxito en sus estudios.
+			</p>
+			<a class="btn btn-outline reveal inline-flex items-center gap-2" href="https://www.youtube.com/@caefisica/playlists">
+				<span class="size-5 [&>svg]:size-full" aria-hidden="true">
+					{{ (resources.Get "icons/youtube.svg").Content | safeHTML }}
+				</span>
+				Mira las listas en Youtube
+			</a>
+		</div>
+
+		<div>
+			<h3 class="reveal mt-0 mb-4 text-sm font-bold text-muted">Artículos editados recientemente</h3>
+			<ul class="m-0 list-none border-t border-edge p-0">
+				{{ $courses := where (where .Site.Pages "Kind" "section") "Params.credits" "gt" 0 }}
+				{{ range first 5 (sort $courses "Lastmod" "desc") }}
+					<li class="reveal group relative flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6 border-b border-edge py-4">
+						<h4 class="m-0 text-xl font-normal">
+							<a
+								class="text-fg before:absolute before:inset-0 group-hover:text-link"
+								href="{{ .RelPermalink }}"
+								rel="bookmark">{{ .Title }}</a>
+						</h4>
+						<p class="m-0 text-sm text-muted">
+							{{ .Parent.Name }} &middot;
+							<time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Day }} de {{ index (hugo.Data.fixes.months) (printf "%d" .Lastmod.Month) }} de {{ .Lastmod.Year }}</time>
+						</p>
+					</li>
+				{{ end }}
+			</ul>
+			<a class="learn reveal mt-6 inline-flex items-center font-bold" href="{{ "/unmsm/pregrado/" | relURL }}">Ver todas las guías{{ partial "ui/chevron.html" }}</a>
+		</div>
+	</div>
+</section>

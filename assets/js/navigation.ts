@@ -1,5 +1,5 @@
-// Los botones data-toggle despliegan el .disclosure cuyo id declaran. El CSS anima la altura con
-// data-open; `inert` saca el contenido plegado del orden de tabulación y del árbol de accesibilidad.
+// Los botones data-toggle despliegan el .disclosure cuyo id declaran. El CSS anima la altura y
+// oculta el contenido plegado según data-open.
 for (const button of document.querySelectorAll<HTMLButtonElement>(
   "[data-toggle]",
 )) {
@@ -9,7 +9,6 @@ for (const button of document.querySelectorAll<HTMLButtonElement>(
     const open = button.getAttribute("aria-expanded") !== "true";
     button.setAttribute("aria-expanded", String(open));
     target.dataset.open = String(open);
-    target.inert = !open;
   });
 }
 

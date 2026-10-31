@@ -1,8 +1,7 @@
 # Shortcodes
 
-Los shortcodes están en [`layouts/shortcodes/`](../layouts/shortcodes) y
-[`layouts/_shortcodes/`](../layouts/_shortcodes). Se usan dentro del Markdown de
-`content/`.
+Los shortcodes están en [`layouts/_shortcodes/`](../layouts/_shortcodes). Se
+usan dentro del Markdown de `content/`.
 
 ## `resource-table`
 

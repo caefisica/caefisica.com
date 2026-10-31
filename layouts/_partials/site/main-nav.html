@@ -1,0 +1,24 @@
+{{- /* The main menu. A parent entry opens a dropdown on wide screens and an indented list in the drawer. */ -}}
+{{- $page := . -}}
+<ul class="m-0 flex list-none flex-col p-0 md:-ml-2 md:flex-row md:items-center md:gap-2">
+	{{- range site.Menus.main }}
+		{{- $active := partial "site/menu-active.html" (dict "page" $page "entry" .) }}
+		<li>
+			{{- if .HasChildren }}
+				<details class="group relative" name="main-menu-dropdown" data-dropdown>
+					<summary class="nav-link list-none marker:content-none [&::-webkit-details-marker]:hidden"{{ if $active }} data-active{{ end }}>
+						{{ .Name }}
+						{{ partial "ui/icon.html" (dict "name" "chevron-down" "size" 16 "class" "transition-transform duration-200 ease-snap group-open:rotate-180") }}
+					</summary>
+					<ul class="nav-dropdown">
+						{{- range .Children }}
+							<li>{{ partial "site/nav-link.html" (dict "page" $page "entry" .) }}</li>
+						{{- end }}
+					</ul>
+				</details>
+			{{- else }}
+				{{ partial "site/nav-link.html" (dict "page" $page "entry" .) }}
+			{{- end }}
+		</li>
+	{{- end }}
+</ul>

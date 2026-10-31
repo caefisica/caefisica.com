@@ -1,0 +1,12 @@
+{{- /* Icon buttons with a tooltip on wide screens; labelled rows in the drawer. Each entry names its icon in params.icon. */ -}}
+<ul class="m-0 flex list-none flex-col p-0 md:flex-row md:items-center md:gap-1">
+	{{- range site.Menus.social }}
+		<li>
+			<a class="social-link" href="{{ .URL }}" aria-label="{{ .Name }}">
+				{{- partial "ui/icon.html" .Params.icon -}}
+				<span class="md:hidden">{{ .Name }}</span>
+				<span class="tip hidden md:block" aria-hidden="true">{{ .Name }}</span>
+			</a>
+		</li>
+	{{- end }}
+</ul>

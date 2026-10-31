@@ -1,0 +1,8 @@
+{{- /* Context: dict with res (a JS resource) and attr ("defer" or ""). Production adds integrity. */ -}}
+{{- if hugo.IsProduction -}}
+	{{- with .res | fingerprint "sha512" -}}
+		<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" {{ $.attr | safeHTMLAttr }}></script>
+	{{- end -}}
+{{- else -}}
+	<script src="{{ .res.RelPermalink }}" {{ .attr | safeHTMLAttr }}></script>
+{{- end -}}

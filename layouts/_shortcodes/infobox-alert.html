@@ -1,0 +1,7 @@
+{{- /* A course summary set apart from the guide. Params: text, or inner Markdown. */ -}}
+{{- $body := or (.Get "text" | safeHTML) (.Inner | markdownify) -}}
+{{- if not $body }}{{ errorf "%s: infobox-alert needs a text param or inner content" .Position }}{{ end -}}
+<aside class="callout">
+	<span class="callout-icon" aria-hidden="true">{{ partial "ui/icon.html" "info" }}</span>
+	<div>{{ $body }}</div>
+</aside>

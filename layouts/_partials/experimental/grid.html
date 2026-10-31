@@ -1,0 +1,9 @@
+{{- /* A grid of Experimental article cards under an optional heading. Context: dict with pages and optional title. */ -}}
+{{- with .pages }}
+	<section class="showcase-group">
+		{{- with $.title }}<h2>{{ . }}</h2>{{ end }}
+		<div class="showcase-grid">
+			{{- range . }}{{ partial "experimental/card.html" . }}{{ end }}
+		</div>
+	</section>
+{{- end -}}

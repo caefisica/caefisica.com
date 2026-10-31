@@ -1,0 +1,17 @@
+{{- /*
+Builds a TS asset with esbuild and writes its script tag. Production minifies it and adds integrity.
+Context: dict with
+  src     asset path, such as "js/search.ts"
+  load    "defer" (default), "none" for a blocking script, or "after-load" for code the first paint does not need
+  params  optional dict the script reads with `import params from "@params"`
+*/ -}}
+{{- $opts := dict "target" "es2020" "minify" hugo.IsProduction "sourceMap" (cond hugo.IsProduction "none" "inline") -}}
+{{- with .params }}{{ $opts = merge $opts (dict "params" .) }}{{ end -}}
+{{- $load := .load | default "defer" -}}
+{{- with resources.Get .src | js.Build $opts -}}
+	{{- if eq $load "after-load" -}}
+		{{- partial "site/load-after.html" . -}}
+	{{- else -}}
+		{{- partial "site/script-tag.html" (dict "res" . "attr" (cond (eq $load "none") "" $load)) -}}
+	{{- end -}}
+{{- end -}}

@@ -1,0 +1,13 @@
+{{- /* The site-wide alert from params. A dismissable one starts hidden; dismissable-alert.ts shows it unless the reader closed this text before. */ -}}
+{{- $dismissable := site.Params.alertDismissable -}}
+<div
+	{{- if $dismissable }} id="announcement" data-id="global-alert-{{ md5 site.Params.alertText }}"{{ end }}
+	class="announcement{{ if $dismissable }} hidden{{ end }}"
+	role="alert">
+	<p class="m-0">{{ site.Params.alertText | safeHTML | emojify }}</p>
+	{{- if $dismissable }}
+		<button class="icon-btn" type="button" data-dismiss="announcement" aria-label="Cerrar el aviso">
+			{{ partial "ui/icon.html" "close" }}
+		</button>
+	{{- end }}
+</div>

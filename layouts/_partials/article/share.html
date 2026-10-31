@@ -1,0 +1,20 @@
+{{- /* Plain share links: each network's own share URL, opened in a new tab. Context: the page. */ -}}
+{{- $url := .Permalink -}}
+{{- $links := slice
+	(dict "name" "Facebook" "icon" "facebook" "href" (printf "https://www.facebook.com/sharer/sharer.php?u=%s" (urlquery $url)))
+	(dict "name" "X" "icon" "x" "href" (printf "https://twitter.com/intent/tweet?text=%s&url=%s&hashtags=caefisica,physics" (urlquery (printf "¿Te interesa aprender física? Acabo de leer un artículo sobre %s en" .Title)) (urlquery $url)))
+	(dict "name" "LinkedIn" "icon" "linkedin" "href" (printf "https://www.linkedin.com/shareArticle?mini=true&url=%s" (urlquery $url)))
+	(dict "name" "correo" "icon" "mail" "href" (printf "mailto:?subject=%s&body=%s" (urlquery "Algo interesante que acabo de encontrar") (urlquery (printf "Buen día, quizá te interese leer este artículo: %s" $url))))
+-}}
+<section class="share" aria-labelledby="share-title" data-pagefind-ignore="all">
+	<h2 id="share-title">Comparte</h2>
+	<ul>
+		{{- range $links }}
+			<li>
+				<a class="icon-btn" href="{{ .href }}"{{ if ne .icon "mail" }} target="_blank" rel="noopener"{{ end }} aria-label="Compartir por {{ .name }}">
+					{{ partial "ui/icon.html" .icon }}
+				</a>
+			</li>
+		{{- end }}
+	</ul>
+</section>

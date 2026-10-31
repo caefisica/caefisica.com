@@ -1,9 +1,0 @@
-{{- /*
-Carga un script después de la carga de la página y del primer pintado, para no competir con él.
-Una página sin recursos externos, como la portada, dispara `load` antes de pintar; por eso se
-espera además al siguiente cuadro.
-El script se ejecuta después de DOMContentLoaded y no debe esperar ese evento.
-Uso: partial "footer/load-after" (dict "src" "/js/foo.js" "integrity" "sha512-..." "crossOrigin" "anonymous")
-`integrity` y `crossOrigin` son opcionales.
-*/ -}}
-<script>addEventListener("load",()=>requestAnimationFrame(()=>setTimeout(()=>document.head.append(Object.assign(document.createElement("script"),{{ . | jsonify | safeJS }})))),{once:true})</script>

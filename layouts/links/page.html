@@ -1,219 +1,38 @@
 <!doctype html>
-<html lang="{{ .Site.Language.Locale | default "es" }}">
-	{{ partial "head/head.html" . }}
-	{{ partial "head/body-class.html" . -}}
-
-	{{- $style := resources.Get "css/links.css" | minify | fingerprint -}}
-	<link
-		rel="stylesheet"
-		href="{{ $style.RelPermalink -}}"
-		integrity="{{ $style.Data.Integrity -}}"
-	/>
-
-	<body class="dark-mode {{ delimit (.Store.Get "class") " " }}">
-		<div>
-			<main class="div-father">
-				<div class="div-child-1 relative flex items-center justify-center">
-					<div class="div-child-1-direct flex flex-col items-center justify-between p-4 text-center">
-						<div>
-							<div class="div-header-logo flex flex-col items-center">
-								<div class="div-header-logo-img-parent relative">
-									<div class="div-header-logo-img-child h-full w-full">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="0"
-											height="0"
-											fill="#000"
-											stroke="#000"
-											class="avatar-shape">
-											<clipPath
-												id="hex"
-												clipPathUnits="objectBoundingBox"
-												transform="scale(0.005)">
-												<path
-													d="M193.248 73.9547C185.95 57.6268 177.44 41.9442 167.798 27.0561L164.688 22.3002C160.859 16.3899 155.841 11.4612 149.998 7.87254C144.155 4.28382 137.633 2.12515 130.908 1.5534L125.448 1.08526C108.508 -0.361754 91.4873 -0.361754 74.5479 1.08526L69.0879 1.5534C62.3625 2.12515 55.8413 4.28382 49.9981 7.87254C44.155 11.4612 39.1367 16.3899 35.3079 22.3002L32.1979 27.0986C22.5561 41.9868 14.0458 57.6693 6.74789 73.9972L4.39789 79.2531C1.50233 85.7356 0 92.8227 0 100C0 107.177 1.50233 114.264 4.39789 120.747L6.74789 126.003C14.0458 142.331 22.5561 158.014 32.1979 172.901L35.3079 177.7C39.1367 183.61 44.155 188.539 49.9981 192.128C55.8413 195.717 62.3625 197.875 69.0879 198.447L74.5479 198.915C91.4873 200.362 108.508 200.362 125.448 198.915L130.908 198.447C137.638 197.868 144.163 195.7 150.006 192.099C155.85 188.499 160.865 183.558 164.688 177.636L167.798 172.838C177.44 157.95 185.95 142.267 193.248 125.939L195.598 120.683C198.493 114.2 199.996 107.114 199.996 99.9362C199.996 92.7589 198.493 85.6718 195.598 79.1893L193.248 73.9547Z"></path>
-											</clipPath>
-										</svg>
-										<div class="logo-clipped avatar-border absolute h-full w-full"></div>
-										<div class="logo-clipped avatar-fill absolute"></div>
-										<img
-											src="{{- "/images/icon/logo.webp" | relURL -}}"
-											class="logo-clipped absolute"
-										/>
-									</div>
-								</div>
-								<div class="div-header-website-name flex flex-col items-center">
-									<h3 class="mb-0">
-										<a class="text-gray-600 no-underline" href="/">
-											{{ .Site.BaseURL }}
-										</a>
-									</h3>
-								</div>
-							</div>
-							<div class="div-header-website-title flex flex-col">
-								<h1 class="my-0 align-middle">
-									Somos estudiantes de física de la UNMSM y
-									nos hemos propuesto hacer tu viaje por la
-									física más accesible
-								</h1>
-								<h4>
-									Accede a nuestra biblioteca y vísitanos en:
-								</h4>
-							</div>
-							<div class="div-body-parent">
-								<div class="div-body-element div-social-links social mb-4 flex p-0">
-									<div class="iconsonly flex justify-center sm:flex-wrap md:flex-nowrap">
-										<a href="{{- .Site.Params.ourFacebook | safeURL -}}" target="_blank" rel="noreferrer">
-											<div class="div-body-element-child socialIcon relative flex flex-row items-center justify-between text-center text-base font-semibold">
-												<img
-													src="{{- "images/icon/facebook_outline.svg" | relURL -}}"
-													style="filter: var(--img);"
-												/>
-											</div>
-										</a>
-										<a
-											href="{{- .Site.Params.ourInstagram | safeURL -}}"
-											target="_blank"
-											rel="noreferrer">
-											<div class="div-body-element-child socialIcon relative flex flex-row items-center justify-between text-center text-base font-semibold">
-												<img
-													src="{{- "images/icon/instagram_outline.svg" | relURL -}}"
-													style="filter: var(--img);"
-												/>
-											</div>
-										</a>
-										<a
-											href="{{- .Site.Params.schemaGitHub | safeURL -}}"
-											target="_blank"
-											rel="noreferrer">
-											<div class="div-body-element-child socialIcon relative flex flex-row items-center justify-between text-center text-base font-semibold">
-												<img src="{{- "images/icon/github_outline.svg" | relURL -}}" style="filter: var(--img);" />
-											</div>
-										</a>
-									</div>
-								</div>
-								{{ if .Site.Params.events -}}
-									<div class="div-body-element">
-										<h3 class="mt-0 mb-1 uppercase">
-											Eventos
-										</h3>
-										<div class="div-body-element-banner flex items-center">
-											<a
-												href="{{ .Site.Params.bannerEventForm | safeURL -}}"
-												target="_blank"
-												rel="noreferrer">
-												<img
-													class="newproduct w-full"
-													src="{{ printf "/images/events/%s" .Site.Params.bannerEventImage | safeURL -}}" />
-											</a>
-										</div>
-									</div>
-								{{ end -}}
-								<div class="div-body-element">
-									<h3 class="mt-0 mb-1 uppercase">
-										Google Drive
-									</h3>
-									<a
-										href="{{- .Site.Params.ourBookLibraryDrive | safeURL -}}"
-										target="_blank"
-										rel="noreferrer">
-										<div class="div-body-element-child relative flex flex-row items-center justify-between text-center text-base font-semibold">
-											<div class="div-body-element-child-title items-center text-gray-100">
-												<img
-													src="{{- "images/icon/book_outline.png" | relURL -}}"
-													style="filter: var(--img);" />BiblioteCAE
-											</div>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="20"
-												height="20"
-												fill="currentColor"
-												class="new-up text-gray-100">
-												<path
-													d="M5.83366 5C5.37343 5 5.00033 5.3731 5.00033 5.83333C5.00033 6.29357 5.37343 6.66667 5.83366 6.66667V5ZM14.167 5.83333H15.0003C15.0003 5.3731 14.6272 5 14.167 5V5.83333ZM13.3337 14.1667C13.3337 14.6269 13.7068 15 14.167 15C14.6272 15 15.0003 14.6269 15.0003 14.1667H13.3337ZM4.41108 14.4108C4.08563 14.7362 4.08563 15.2638 4.41108 15.5893C4.73651 15.9147 5.26415 15.9147 5.58958 15.5893L4.41108 14.4108ZM5.83366 6.66667H14.167V5H5.83366V6.66667ZM13.3337 5.83333V14.1667H15.0003V5.83333H13.3337ZM13.5777 5.24408L4.41108 14.4108L5.58958 15.5893L14.7562 6.42258L13.5777 5.24408Z"></path>
-											</svg>
-										</div>
-									</a>
-									<a
-										href="{{- .Site.Params.ourVideoLibraryDrive | safeURL -}}"
-										target="_blank"
-										rel="noreferrer">
-										<div class="div-body-element-child relative flex flex-row items-center justify-between text-center text-base font-semibold">
-											<div class="div-body-element-child-title items-center text-gray-100">
-												<img
-													src="{{- "images/icon/cube_outline.png" | relURL -}}"
-													style="filter: var(--img);" />VideoteCAE
-											</div>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="20"
-												height="20"
-												fill="currentColor"
-												class="new-up text-gray-100">
-												<path
-													d="M5.83366 5C5.37343 5 5.00033 5.3731 5.00033 5.83333C5.00033 6.29357 5.37343 6.66667 5.83366 6.66667V5ZM14.167 5.83333H15.0003C15.0003 5.3731 14.6272 5 14.167 5V5.83333ZM13.3337 14.1667C13.3337 14.6269 13.7068 15 14.167 15C14.6272 15 15.0003 14.6269 15.0003 14.1667H13.3337ZM4.41108 14.4108C4.08563 14.7362 4.08563 15.2638 4.41108 15.5893C4.73651 15.9147 5.26415 15.9147 5.58958 15.5893L4.41108 14.4108ZM5.83366 6.66667H14.167V5H5.83366V6.66667ZM13.3337 5.83333V14.1667H15.0003V5.83333H13.3337ZM13.5777 5.24408L4.41108 14.4108L5.58958 15.5893L14.7562 6.42258L13.5777 5.24408Z"></path>
-											</svg>
-										</div>
-									</a>
-								</div>
-								<div class="div-body-element mb-1">
-									<h3 class="mt-0 uppercase">
-										Página web
-									</h3>
-									<a
-										href="{{ "/" | relURL }}"
-										target="_blank"
-										rel="noreferrer">
-										<div class="div-body-element-child relative flex flex-row items-center justify-between text-center text-base font-semibold">
-											<div class="div-body-element-child-title items-center text-gray-100">
-												<img
-													src="https://nxtlnk.vercel.app/bmc.png" />
-												Aplicación web
-											</div>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="20"
-												height="20"
-												fill="currentColor"
-												class="new-up text-gray-100">
-												<path
-													d="M5.83366 5C5.37343 5 5.00033 5.3731 5.00033 5.83333C5.00033 6.29357 5.37343 6.66667 5.83366 6.66667V5ZM14.167 5.83333H15.0003C15.0003 5.3731 14.6272 5 14.167 5V5.83333ZM13.3337 14.1667C13.3337 14.6269 13.7068 15 14.167 15C14.6272 15 15.0003 14.6269 15.0003 14.1667H13.3337ZM4.41108 14.4108C4.08563 14.7362 4.08563 15.2638 4.41108 15.5893C4.73651 15.9147 5.26415 15.9147 5.58958 15.5893L4.41108 14.4108ZM5.83366 6.66667H14.167V5H5.83366V6.66667ZM13.3337 5.83333V14.1667H15.0003V5.83333H13.3337ZM13.5777 5.24408L4.41108 14.4108L5.58958 15.5893L14.7562 6.42258L13.5777 5.24408Z"></path>
-											</svg>
-										</div>
-									</a>
-									<a
-										href="https://216.empirical.workers.dev/"
-										target="_blank"
-										rel="noreferrer">
-										<div class="div-body-element-child relative flex flex-row items-center justify-between text-center text-base font-semibold">
-											<div class="div-body-element-child-title items-center text-gray-100">
-												<img src="https://nxtlnk.vercel.app/vjy.png" />
-												Múltiples Bibliotecas
-											</div>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="20"
-												height="20"
-												fill="currentColor"
-												class="new-up text-gray-100">
-												<path
-													d="M5.83366 5C5.37343 5 5.00033 5.3731 5.00033 5.83333C5.00033 6.29357 5.37343 6.66667 5.83366 6.66667V5ZM14.167 5.83333H15.0003C15.0003 5.3731 14.6272 5 14.167 5V5.83333ZM13.3337 14.1667C13.3337 14.6269 13.7068 15 14.167 15C14.6272 15 15.0003 14.6269 15.0003 14.1667H13.3337ZM4.41108 14.4108C4.08563 14.7362 4.08563 15.2638 4.41108 15.5893C4.73651 15.9147 5.26415 15.9147 5.58958 15.5893L4.41108 14.4108ZM5.83366 6.66667H14.167V5H5.83366V6.66667ZM13.3337 5.83333V14.1667H15.0003V5.83333H13.3337ZM13.5777 5.24408L4.41108 14.4108L5.58958 15.5893L14.7562 6.42258L13.5777 5.24408Z"></path>
-											</svg>
-										</div>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="div-footer-copyright text-base leading-loose">
-							<div class="div-footer-copyright-title">
-								<h4 class="my-0 text-base leading-loose">
-									{{ .Site.Params.copyRight | safeHTML -}}
-								</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-		</div>
+{{- /* The link page the social profiles point to: who we are and where our libraries live. It stands alone, without the site header or footer. */}}
+<html lang="{{ site.Language.Locale | default "es" }}">
+	{{ partial "site/head.html" . }}
+	<body>
+		<main id="main" class="linktree">
+			<img class="linktree-logo" src="{{ "images/icon/logo.webp" | relURL }}" width="96" height="96" alt="" />
+			<p class="linktree-site"><a href="{{ "/" | relURL }}">{{ site.Params.title }}</a></p>
+			<h1>{{ .Description }}</h1>
+			{{ partial "site/socials.html" . }}
+			<h2>Bibliotecas</h2>
+			<ul class="linktree-links">
+				{{- range slice
+					(dict "name" "BiblioteCAE" "note" "Libros en Google Drive" "url" site.Params.ourBookLibraryDrive)
+					(dict "name" "VideoteCAE" "note" "Clases en Google Drive" "url" site.Params.ourVideoLibraryDrive)
+					(dict "name" "Múltiples bibliotecas" "note" "Buscador de libros" "url" "https://216.empirical.workers.dev/")
+				}}
+					<li>
+						<a class="card card-hover linktree-link" href="{{ .url }}" rel="noopener">
+							<span><strong>{{ .name }}</strong><small>{{ .note }}</small></span>
+							{{ partial "ui/icon.html" "external" }}
+						</a>
+					</li>
+				{{- end }}
+			</ul>
+			<h2>Página web</h2>
+			<ul class="linktree-links">
+				<li>
+					<a class="card card-hover linktree-link" href="{{ "/" | relURL }}">
+						<span><strong>Guías de estudio</strong><small>Cursos, apuntes y blog</small></span>
+						{{ partial "ui/chevron.html" }}
+					</a>
+				</li>
+			</ul>
+			<p class="linktree-footer">{{ site.Params.copyRight | safeHTML }}</p>
+		</main>
 	</body>
 </html>

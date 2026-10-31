@@ -1,8 +1,0 @@
-{{- /*
-Section menu. Context: dict with page and scope. The menu renders twice (the mobile drawer and the sticky sidebar), so scope keeps the ids of its disclosures unique.
-*/ -}}
-{{- if findRE `/plan-` .page.RelPermalink -}}
-	{{ partial "sidebar/plan-nav.html" . }}
-{{- else -}}
-	{{ partial "sidebar/render-auto-nav.html" . }}
-{{- end -}}

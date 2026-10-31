@@ -1,0 +1,51 @@
+{{- $title := cond .IsHome site.Params.titleHome .Title -}}
+{{- $description := .Description | default (cond .IsPage .Summary site.Params.description) | plainify -}}
+{{- $image := partial "site/social-image.html" . -}}
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+
+{{- $robots := .Params.robots | default "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" -}}
+<meta name="robots" content="{{ cond (eq .Kind "404") "noindex, follow" $robots }}" />
+{{- if .IsHome }}
+	<title>{{ site.Params.title }} {{ site.Params.titleSeparator }} {{ site.Params.titleAddition }}</title>
+{{- else }}
+	<title>{{ .Title }} {{ site.Params.titleSeparator }} {{ site.Params.title }}</title>
+{{- end }}
+<meta name="description" content="{{ $description }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+{{- range .AlternativeOutputFormats }}
+	<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" />
+{{- end }}
+
+<meta property="og:locale" content="{{ site.Params.ogLocale }}" />
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}" />
+<meta property="og:site_name" content="{{ site.Params.title }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ $image }}" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="640" />
+<meta property="og:image:alt" content="{{ $title }}" />
+{{- range first 6 (.Params.images | default slice) }}
+	<meta property="og:image" content="{{ . | absURL }}" />
+{{- end }}
+{{- if .IsPage }}
+	{{- with .PublishDate | default .Date }}
+		{{ if not .IsZero }}
+			<meta property="article:published_time" content="{{ .Format $iso8601 }}" />
+		{{- end }}
+	{{ end }}
+	{{- with .Lastmod }}
+		{{ if not .IsZero }}
+			<meta property="article:modified_time" content="{{ .Format $iso8601 }}" />
+		{{- end }}
+	{{ end }}
+{{- end }}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{{ site.Params.twitterSite }}" />
+<meta name="twitter:creator" content="{{ site.Params.twitterCreator }}" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+<meta name="twitter:image" content="{{ $image }}" />
+<meta name="twitter:image:alt" content="{{ $title }}" />

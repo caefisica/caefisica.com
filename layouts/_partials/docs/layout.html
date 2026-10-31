@@ -1,0 +1,23 @@
+{{- /*
+The frame of a docs page: the section menu, the article and, from xl, the table of contents. Context: dict with
+  page, body (the rendered article content),
+  lead (optional; the default is the page's lead front matter),
+  sidebar (optional dict for docs/sidebar.html without page; the default is the section tree).
+Front matter `toc: false` drops the contents column. List pages of a taxonomy get no pager: their siblings are not a reading order.
+*/ -}}
+{{- $page := .page -}}
+{{- $sidebar := merge (dict "title" $page.FirstSection.LinkTitle "menu" "docs/tree.html") (.sidebar | default dict) -}}
+{{- $toc := and (ne $page.Params.toc false) (or $page.Fragments.Headings $page.Params.contributors) -}}
+<div class="docs-layout{{ if $toc }} has-toc{{ end }}">
+	{{ partial "docs/sidebar.html" (merge $sidebar (dict "page" $page)) }}
+	<article class="docs-article">
+		{{ partial "article/breadcrumbs.html" $page }}
+		<h1>{{ $page.Title }}{{ with $page.Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
+		{{- with or .lead $page.Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+		{{ .body }}
+		{{ partial "article/page-footer.html" $page }}
+		{{- if in (slice "page" "section") $page.Kind }}{{ partial "article/pager.html" $page }}{{ end }}
+		{{- if site.Params.giscus }}{{ partial "article/comments.html" $page }}{{ end }}
+	</article>
+	{{- if $toc }}{{ partial "article/toc.html" $page }}{{ end }}
+</div>

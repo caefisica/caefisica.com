@@ -1,0 +1,11 @@
+{{- /* The path from home to the page. Context: the page. */ -}}
+{{- if site.Params.options.breadCrumb -}}
+	<nav class="breadcrumbs" aria-label="Ruta" data-pagefind-ignore="all">
+		<ol>
+			{{- range .Ancestors.Reverse }}
+				<li><a href="{{ .RelPermalink }}">{{ if .IsHome }}Inicio{{ else }}{{ .LinkTitle }}{{ end }}</a></li>
+			{{- end }}
+			<li aria-current="page">{{ .LinkTitle }}</li>
+		</ol>
+	</nav>
+{{- end -}}

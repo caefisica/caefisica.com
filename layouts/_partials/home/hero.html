@@ -1,0 +1,60 @@
+{{- /* The first screen: what the site is, a search box as the next step and, from lg, the photo with the video. */ -}}
+<section class="mx-auto grid w-full max-w-page items-center px-gutter gap-12 pt-12 pb-16 lg:min-h-[min(44rem,85vh)] lg:grid-cols-[7fr_5fr] lg:gap-16 lg:pt-6">
+	<div>
+		<h1 class="enter mt-0 mb-6 text-display">Una guía para el estudio de las Ciencias Físicas</h1>
+		<p class="enter mb-8 max-w-[34rem] text-lead text-muted" style="--i: 1">{{ .Params.Lead | safeHTML -}}</p>
+		<button
+			class="enter flex h-14 w-full max-w-[28rem] items-center gap-3 rounded-xl border border-edge bg-bg px-4 text-left text-lg text-muted shadow-sm transition-[border-color,box-shadow] duration-150 hover:border-link hover:shadow-md"
+			style="--i: 2"
+			type="button"
+			data-search-open
+			aria-haspopup="dialog"
+			aria-keyshortcuts="Control+K /">
+			{{ partial "ui/icon.html" "search" }}
+			<span class="grow">Buscar cursos, apuntes…</span>
+			<span class="hidden gap-1 sm:inline-flex" aria-hidden="true"><kbd class="kbd" data-kbd-mod>Ctrl</kbd><kbd class="kbd">K</kbd></span>
+		</button>
+		<p class="enter mt-6 mb-0 text-base text-muted" style="--i: 3">Un proyecto del {{ .Site.Params.titleAddition }}</p>
+	</div>
+	<div class="hidden lg:block">
+		{{ with hugo.Data.fixes.frontpage -}}
+			<div class="relative ml-auto max-w-[32rem]">
+				{{- /* Lazy: the photo is hidden below lg, and an eager fetch there delays the hero text, which is the LCP element. */}}
+				{{- $photo := resources.Get .image }}
+				{{- $widths := slice 384 512 $photo.Width }}
+				<picture>
+					{{- range slice "avif" "webp" }}
+						{{- $format := . }}
+						{{- $srcset := slice }}
+						{{- range $widths }}
+							{{- $srcset = $srcset | append (printf "%s %dw" ($photo.Process (printf "resize %dx %s" . $format)).RelPermalink .) }}
+						{{- end }}
+						<source type="image/{{ $format }}" srcset="{{ delimit $srcset ", " }}" sizes="32rem"/>
+					{{- end }}
+					<img class="h-full w-full mask-contain mask-center mask-no-repeat [mask-image:url('/images/shape/hero-mask-svg.png')]" src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" loading="lazy" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
+				</picture>
+
+				{{ if .videoURL -}}
+					<div class="group absolute bottom-16 left-0 -translate-x-1/3">
+						<div class="relative h-40 w-62.5 overflow-hidden rounded-2xl shadow-[0_1rem_2rem_rgb(29_45_53/0.2)] after:absolute after:inset-0 after:z-1 after:bg-ink/50 after:transition-opacity after:duration-200 group-hover:after:opacity-60">
+							<img class="h-full w-full object-cover" src="{{ .videoThumb -}}" loading="lazy" alt="{{ .videoThumb_alt | markdownify -}}" title="{{ .videoThumb_title | markdownify -}}"/>
+						</div>
+						<button
+							id="play-video"
+							type="button"
+							data-video-id="{{ .videoURL -}}"
+							class="absolute top-1/2 left-1/2 z-2 flex size-15 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white pl-1 text-indigo-700 transition-[scale,background-color,color] duration-200 ease-snap hover:scale-110 hover:bg-indigo-700 hover:text-white group-hover:scale-110"
+							aria-haspopup="dialog"
+							aria-label="Mirar video de Youtube">
+							<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24" aria-hidden="true">
+								<path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
+									data-name="Polygon 4" />
+							</svg>
+						</button>
+					</div>
+				{{ end -}}
+			</div>
+		{{ end -}}
+	</div>
+</section>
+{{- with hugo.Data.fixes.frontpage.videoURL }}{{ partial "home/video-dialog.html" }}{{ end -}}

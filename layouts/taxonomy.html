@@ -1,10 +1,17 @@
 {{ define "main" }}
-<div class="col-prose">
+<div class="col-prose py-section">
 	<h1>{{ .Title }}</h1>
-	<ul>
-		{{ range .Pages }}
-			<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-		{{ end }}
+	{{- with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
+	<ul class="people">
+		{{- range .Pages }}
+			<li class="person">
+				{{ partial "ui/avatar.html" (dict "page" . "size" 64) }}
+				<div>
+					<a class="card-link font-bold" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					{{- with .Description }}<p>{{ . }}</p>{{ end }}
+				</div>
+			</li>
+		{{- end }}
 	</ul>
 </div>
 {{ end }}

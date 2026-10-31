@@ -1,0 +1,31 @@
+{{- /* Links to the previous and next sibling, in the order the section tree shows. A top-level section has no siblings: the site's sections are not a reading order. Context: the page. */ -}}
+{{- $page := . -}}
+{{- $prev := false -}}
+{{- $next := false -}}
+{{- with .Parent -}}
+	{{ if not .IsHome -}}
+		{{- $siblings := partial "docs/children.html" . -}}
+		{{- range $i, $p := $siblings -}}
+			{{- if $p.Eq $page -}}
+				{{- if gt $i 0 }}{{ $prev = index $siblings (sub $i 1) }}{{ end -}}
+				{{- if lt (add $i 1) (len $siblings) }}{{ $next = index $siblings (add $i 1) }}{{ end -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end }}
+{{ end -}}
+{{- if or $prev $next -}}
+	<nav class="pager" aria-label="Páginas vecinas" data-pagefind-ignore="all">
+		{{- with $prev }}
+			<a class="card card-hover pager-link" href="{{ .RelPermalink }}" rel="prev">
+				<span class="pager-label">Anterior</span>
+				<span>{{ .LinkTitle }}</span>
+			</a>
+		{{- end }}
+		{{- with $next }}
+			<a class="card card-hover pager-link pager-next" href="{{ .RelPermalink }}" rel="next">
+				<span class="pager-label">Siguiente</span>
+				<span>{{ .LinkTitle }}</span>
+			</a>
+		{{- end }}
+	</nav>
+{{- end -}}

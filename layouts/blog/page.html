@@ -1,12 +1,14 @@
 {{ define "main" }}
-<div class="col-prose">
-	<article class="markdown">
-		<div class="mb-8 text-center">
-			<h1>{{ .Title }}{{ with .Params.emoji -}} &nbsp;{{ . | emojify }} {{ end -}}</h1>
-			{{ partial "main/blog-meta.html" (dict "page" . "single" true) }}
-		</div>
-		<p class="text-lead">{{ .Params.lead | safeHTML }}</p>
-		{{ .Content }}
-	</article>
-</div>
+<article class="col-prose py-section">
+	<header class="article-head">
+		{{ partial "article/breadcrumbs.html" . }}
+		<h1>{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
+		{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+		{{ partial "article/byline.html" (dict "page" .) }}
+	</header>
+	<div class="markdown">{{ .Content }}</div>
+	{{ partial "article/share.html" . }}
+	{{ partial "article/page-footer.html" . }}
+	{{- if site.Params.giscus }}{{ partial "article/comments.html" . }}{{ end }}
+</article>
 {{ end }}

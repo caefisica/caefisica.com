@@ -1,0 +1,38 @@
+{{- /* The dialog search.ts drives with the Pagefind API. An empty query shows the search menu as suggestions, so the dialog opens with a next step. search.ts copies the enter icon from the first suggestion into each result. */ -}}
+<dialog id="search" aria-label="Buscar en el sitio">
+	<form class="search-head" role="search" method="dialog">
+		{{ partial "ui/icon.html" "search" }}
+		<input
+			id="search-input"
+			type="search"
+			role="combobox"
+			aria-autocomplete="list"
+			aria-controls="search-results"
+			aria-expanded="true"
+			aria-label="Buscar"
+			placeholder="Buscar cursos, apuntes y artículos"
+			autocomplete="off"
+			spellcheck="false"
+			enterkeyhint="go" />
+		<button class="kbd hidden cursor-pointer pointer-fine:inline-block" type="button" data-search-close aria-label="Cerrar la búsqueda">Esc</button>
+		<button class="text-sm text-link pointer-fine:hidden" type="button" data-search-close>Cancelar</button>
+	</form>
+	<div class="search-body">
+		<p class="search-label" id="search-label">Sugerencias</p>
+		<div id="search-results" role="listbox" aria-labelledby="search-label">
+			{{- range site.Menus.search }}
+				<a class="search-option" role="option" href="{{ .URL }}" aria-selected="false">
+					<span class="search-title">{{ .Name }}</span>
+					<span class="search-excerpt">{{ .Title }}</span>
+					{{ partial "ui/icon.html" (dict "name" "enter" "size" 16) }}
+				</a>
+			{{- end }}
+		</div>
+		<p class="sr-only" role="status" id="search-status"></p>
+	</div>
+	<footer class="search-foot" aria-hidden="true">
+		<span><kbd class="kbd">↑</kbd> <kbd class="kbd">↓</kbd> navegar</span>
+		<span><kbd class="kbd">↵</kbd> abrir</span>
+		<span><kbd class="kbd">Esc</kbd> cerrar</span>
+	</footer>
+</dialog>

@@ -1,0 +1,17 @@
+{{- /* A card for one Experimental article: its screenshot, title, lead and topics. Context: the page. */ -}}
+<article class="card card-hover showcase-card">
+	{{- with .Params.images }}
+		{{- with $.Resources.GetMatch (printf "*%s*" (index . 0)) }}
+			{{ partial "media/picture.html" (dict "image" . "alt" "" "imgClass" "showcase-card-image") }}
+		{{- end }}
+	{{- end }}
+	<div class="showcase-card-body">
+		<h3><a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+		{{- with or .Params.lead .Description }}<p>{{ . | plainify | truncate 80 }}</p>{{ end }}
+		{{- with .GetTerms "types" }}
+			<p class="showcase-card-terms">
+				{{- range $i, $t := . }}{{ if $i }}, {{ end }}<a class="relative" href="{{ $t.RelPermalink }}">{{ $t.LinkTitle | humanize }}</a>{{ end -}}
+			</p>
+		{{- end }}
+	</div>
+</article>

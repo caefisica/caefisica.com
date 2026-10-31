@@ -44,10 +44,6 @@ alert = false
 alertDismissable = true
 alertText = "Tenemos nueva charla 🥳: \"¿Cómo publicar en una revista científica en pregrado?\", regístrese <a href=\"https://forms.gle/bhDitoK3ymySbJgZ7\">aquí</a>."
 
-events = true
-bannerEventForm = "https://forms.gle/bhDitoK3ymySbJgZ7"
-bannerEventImage = "2022_11_1.jpg"
-
 docsRepo = "https://github.com/caefisica/caefisica.com"
 docsRepoBranch = "master"
 editPage = true

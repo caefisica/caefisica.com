@@ -1,34 +1,30 @@
-/* Content and docs rules. Every page but the home page loads them through app.css. */
+/* Content pages: prose, the docs frame, article parts, card lists and the stand-alone pages. Every page but the home page loads them through app.css. */
 
 @layer base {
   table {
     width: 100%;
     margin: 1rem 0 2rem;
-    border-color: var(--line);
     caption-side: bottom;
     border-collapse: collapse;
   }
 
+  /* The site header is sticky and 3.5rem tall; a table header sticks right below it. */
   thead {
     position: sticky;
-    top: 0;
+    top: 3.5rem;
     vertical-align: bottom;
-
-    @media (width >= 48rem) {
-      top: 59px;
-    }
   }
 
   tbody {
     vertical-align: inherit;
   }
 
-  /* El encabezado es sticky. La celda pinta el fondo y el borde para cubrir las filas que pasan debajo. */
+  /* The cell paints the background so rows that scroll under the sticky header stay hidden. */
   th,
   td {
     padding: 0.5rem;
-    background-color: var(--bg);
     border-bottom: 1px dashed var(--line);
+    background-color: var(--bg);
     vertical-align: top;
   }
 
@@ -36,27 +32,17 @@
     text-align: inherit;
   }
 
-  tbody tr {
-    border-bottom: 0;
-  }
-
-  [data-dark-mode] th,
-  [data-dark-mode] td {
-    color: #fff;
-    border-color: #373b3e;
-  }
-
   pre,
   code,
   kbd,
   samp {
+    border-radius: 0.375rem;
     font-family: var(--font-mono);
     font-size: 0.875rem;
-    border-radius: 0.375rem;
   }
 
   code {
-    padding: 0.25rem 0.5rem;
+    padding: 0.125rem 0.375rem;
     background: var(--code-bg);
     color: var(--fg);
   }
@@ -66,15 +52,7 @@
     margin: 2rem 0;
 
     @media (width < 36rem) {
-      margin-inline: -1.5rem;
-    }
-  }
-
-  @media (width < 36rem) {
-    pre,
-    code,
-    kbd,
-    samp {
+      margin-inline: -1rem;
       border-radius: 0;
     }
   }
@@ -92,16 +70,8 @@
       scrollbar-color: var(--color-gray-500) transparent;
     }
 
-    &::-webkit-scrollbar {
-      height: 5px;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background: var(--color-gray-400);
-
-      &:hover {
-        background: var(--color-gray-500);
-      }
+    @media (width < 36rem) {
+      border-radius: 0;
     }
   }
 
@@ -170,7 +140,7 @@
     }
   }
 
-  /* Botón que clipboard.ts agrega a cada bloque de código. */
+  /* The button clipboard.ts adds to every code block. */
   .copy-button {
     position: absolute;
     top: 0.25rem;
@@ -179,12 +149,12 @@
     display: none;
     padding: 0.375rem;
     border-radius: 0.375rem;
-    background: var(--color-pink-500);
-    color: #fff;
+    background: var(--bg);
+    color: var(--muted);
     opacity: 0;
     transition:
       opacity 0.2s ease-out,
-      background-color 0.15s ease;
+      color 0.15s ease;
 
     @media (width >= 48rem) {
       display: block;
@@ -196,425 +166,11 @@
     }
 
     &:hover {
-      background: #db4aa9;
-    }
-  }
-
-  [data-dark-mode] .copy-button {
-    background: transparent;
-    color: var(--fg);
-
-    &:hover {
       color: var(--link);
     }
   }
 
-  .markdown {
-    details {
-      display: block;
-      margin: 0.5rem 0;
-      padding: 0.5rem 1rem 0;
-      border: 1px solid var(--line);
-      border-radius: 0.25rem;
-
-      &[open] {
-        padding: 0.5rem 1rem;
-      }
-
-      h2,
-      h3,
-      h4 {
-        margin: 1rem 0 0.5rem;
-      }
-
-      p:last-child {
-        margin-bottom: 0;
-      }
-
-      ul,
-      ol {
-        margin-bottom: 0;
-      }
-
-      pre {
-        margin: 0;
-      }
-    }
-
-    summary {
-      display: inline-block;
-      width: calc(100% + 2rem);
-      margin: -0.5rem -1rem 0;
-      padding: 0.5rem 0.75rem;
-      list-style: none;
-
-      &::-webkit-details-marker {
-        display: none;
-      }
-
-      &::before {
-        display: inline-block;
-        margin-right: 0.375rem;
-        content: "";
-        width: 14px;
-        height: 14px;
-        vertical-align: -2px;
-        background-color: currentcolor;
-        opacity: 0.75;
-        mask: var(--icon-chevron) center / contain no-repeat;
-        transition: transform 0.25s var(--ease-snap);
-      }
-
-      &:hover {
-        background: var(--surface);
-      }
-    }
-
-    details[open] > summary {
-      margin-bottom: 0.5rem;
-      border-bottom: 1px solid var(--color-gray-300);
-
-      &::before {
-        transform: rotate(90deg);
-      }
-    }
-
-    [data-dark-mode] & details[open] > summary {
-      border-bottom-color: var(--line);
-    }
-
-    /* A prose link is underlined at rest, since colour alone does not mark it (WCAG 1.4.1). On hover a full-strength line sweeps in from the left over the faint one. */
-    :is(p, li, td) a:not(.plain) {
-      padding-bottom: 0.2rem;
-      background:
-        linear-gradient(currentColor, currentColor) 0 100% / 0 0.1em no-repeat,
-        linear-gradient(
-            color-mix(in oklab, currentColor 30%, transparent),
-            color-mix(in oklab, currentColor 30%, transparent)
-          )
-          100% 100% / 100% 0.1em no-repeat;
-      transition: background-size 0.3s var(--ease-snap);
-
-      &:hover {
-        background-size:
-          100% 0.1em,
-          0 0.1em;
-      }
-    }
-  }
-
-  .markdown {
-    & :is(h2, h3, h4)[id] {
-      scroll-margin-top: 6rem;
-    }
-
-    & .anchor {
-      visibility: hidden;
-      padding-left: 0.5rem;
-    }
-
-    & :is(h1, h2, h3, h4):hover .anchor {
-      visibility: visible;
-      text-decoration: none;
-    }
-  }
-
-  .toc {
-    & ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    & li {
-      margin-top: 0.375rem;
-      padding-top: 0.375rem;
-
-      &:not(:first-child) {
-        border-top: 1px dashed var(--line);
-      }
-
-      & ul li {
-        margin-top: 0.125rem;
-        padding-top: 0.125rem;
-        padding-left: 1rem;
-      }
-    }
-
-    & a {
-      display: block;
-      padding: 0.125rem 0;
-      color: var(--fg);
-      font-size: 0.9375rem;
-
-      &:hover {
-        color: var(--link);
-        text-decoration: none;
-      }
-    }
-  }
-
-  .custom-block {
-    margin: 1rem 0;
-    padding: 1rem 1rem 0.5rem;
-    border: 1px dashed rgb(70 58 203 / 0.5);
-    border-radius: 0.5rem;
-    background-color: rgb(70 58 203 / 0.05);
-    color: var(--color-indigo-700);
-    font-size: 14px;
-    line-height: 1.5rem;
-
-    & p {
-      margin: 0.5rem 0;
-      line-height: 1.5rem;
-    }
-
-    & p:first-child {
-      margin: 0;
-    }
-
-    [data-dark-mode] & {
-      color: var(--color-indigo-300);
-    }
-  }
-
-  /* Menús de las barras laterales de la documentación. */
-  .docs-links {
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
-
-    &:hover {
-      scrollbar-color: var(--line) transparent;
-    }
-
-    &::-webkit-scrollbar {
-      width: 5px;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background: transparent;
-    }
-
-    &:hover::-webkit-scrollbar-thumb {
-      background: var(--line);
-    }
-
-    & h3 {
-      margin: 1.25rem 0 0.5rem;
-      padding: 1.5rem 0 0;
-      font-size: 1rem;
-
-      &:not(:first-child) {
-        border-top: 1px dashed var(--color-gray-200);
-      }
-
-      [data-dark-mode] &:not(:first-child) {
-        border-top-color: var(--line);
-      }
-
-      @media (width >= 62rem) {
-        margin: 1.125rem 1.5rem 0.75rem 0;
-        padding: 1.375rem 0 0;
-      }
-    }
-  }
-
-  .docs-link {
-    display: block;
-    padding: 0.125rem 0;
-    color: var(--fg);
-    font-size: 1rem;
-
-    &:hover,
-    &.active {
-      color: var(--link);
-      text-decoration: none;
-    }
-  }
-
-  .collapsible-sidebar {
-    margin: 2.125rem 0;
-  }
-
-  /* Botón data-toggle que despliega un nivel del menú lateral. */
-  .btn-toggle {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.25rem 0.5rem 0.25rem 0;
-    color: var(--fg);
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    background: transparent;
-    border: 0;
-
-    &::before {
-      width: 1.25em;
-      height: 0.875rem;
-      margin-bottom: 0.125rem;
-      background-color: currentcolor;
-      opacity: 0.75;
-      mask: var(--icon-chevron) center / contain no-repeat;
-      content: "";
-      transition: transform 0.25s var(--ease-snap);
-      transform-origin: 0.5em 50%;
-    }
-
-    &[aria-expanded="true"]::before {
-      transform: rotate(90deg);
-    }
-  }
-
-  .btn-toggle-nav a {
-    display: inline-flex;
-    padding: 0.1875rem 0.5rem;
-    margin-top: 0.125rem;
-    margin-left: 1.25rem;
-    text-decoration: none;
-
-    &:hover,
-    &:focus,
-    &.active {
-      color: var(--link);
-    }
-  }
-
-  /* Bloques de autoría y de compartir al pie de la tabla de contenido. */
-  .author-links,
-  .social-media-links {
-    margin-inline: -1.5rem;
-  }
-
-  .author-links {
-    border-bottom: 1px dashed var(--color-gray-200);
-
-    & img {
-      height: 38px;
-    }
-
-    & a {
-      color: var(--link);
-    }
-  }
-
-  .social-media-links {
-    border-top: 1px dashed var(--color-gray-200);
-  }
-
-  [data-dark-mode] :is(.author-links, .social-media-links) {
-    border-color: var(--line);
-  }
-
-  /* La lista de la tabla de contenido pone un borde superior a cada elemento. El bloque de autoría no los lleva. */
-  .toc .author-links li:not(:first-child) {
-    border-top: 0;
-  }
-
-  .experimental-meta {
-    margin-top: 2rem;
-
-    & a {
-      color: var(--fg);
-
-      &:hover,
-      &:focus {
-        color: var(--link);
-      }
-    }
-  }
-
-  .types-single {
-    margin-right: 0.75rem;
-  }
-
-  .img-simple {
-    margin-top: 0.375rem;
-    margin-bottom: 1.25rem;
-  }
-
-  /* Paginación de la plantilla interna _internal/pagination.html. */
-  .pagination {
-    display: flex;
-    margin: 1rem 0;
-    padding-left: 0;
-    list-style: none;
-  }
-
-  .page-link {
-    position: relative;
-    display: block;
-    margin-left: -1px;
-    padding: 0.375rem 0.75rem;
-    color: var(--link);
-    text-decoration: none;
-    background-color: var(--bg);
-    border: 1px solid var(--color-gray-300);
-    transition:
-      color 0.15s ease-in-out,
-      background-color 0.15s ease-in-out,
-      border-color 0.15s ease-in-out;
-
-    &:hover {
-      z-index: 2;
-      color: var(--accent);
-      background-color: var(--surface);
-      border-color: var(--color-gray-300);
-    }
-  }
-
-  .page-item {
-    &:first-child .page-link {
-      border-top-left-radius: 0.25rem;
-      border-bottom-left-radius: 0.25rem;
-      margin-left: 0;
-    }
-
-    &:last-child .page-link {
-      border-top-right-radius: 0.25rem;
-      border-bottom-right-radius: 0.25rem;
-    }
-
-    &.active .page-link {
-      z-index: 3;
-      color: #fff;
-      background-color: var(--link);
-      border-color: var(--link);
-    }
-
-    &.disabled .page-link {
-      color: var(--muted);
-      pointer-events: none;
-      background-color: var(--bg);
-      border-color: var(--color-gray-300);
-    }
-  }
-
-  [data-dark-mode] .page-link {
-    border-color: var(--line);
-
-    &:hover,
-    &:focus {
-      color: var(--bg);
-      background-color: var(--fg);
-      border-color: var(--fg);
-    }
-  }
-
-  [data-dark-mode] .page-item {
-    &.active .page-link {
-      color: var(--bg);
-      background-color: var(--link);
-      border-color: var(--link);
-    }
-
-    &.disabled .page-link {
-      color: var(--color-gray-600);
-      background-color: var(--surface);
-      border-color: var(--line);
-    }
-  }
-
-  /* Toast: the copy confirmation. `role="status"` makes it a live region. */
+  /* The copy confirmation clipboard.ts shows. `role="status"` makes it a live region. */
   .toast {
     position: fixed;
     inset: auto 0 1.5rem;
@@ -645,5 +201,887 @@
       filter: none;
       transition-duration: 0.35s;
     }
+  }
+
+  /* Prose rendered from Markdown. */
+  .markdown {
+    & img {
+      max-width: 100%;
+    }
+
+    & details {
+      display: block;
+      margin: 0.5rem 0;
+      padding: 0.5rem 1rem 0;
+      border: 1px solid var(--line);
+      border-radius: 0.375rem;
+
+      &[open] {
+        padding: 0.5rem 1rem;
+      }
+
+      & :is(h2, h3, h4) {
+        margin: 1rem 0 0.5rem;
+      }
+
+      & p:last-child,
+      & :is(ul, ol) {
+        margin-bottom: 0;
+      }
+
+      & pre {
+        margin: 0;
+      }
+    }
+
+    & summary {
+      display: block;
+      margin: -0.5rem -1rem 0;
+      padding: 0.5rem 0.75rem;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::before {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-right: 0.375rem;
+        background-color: currentcolor;
+        content: "";
+        vertical-align: -2px;
+        opacity: 0.75;
+        mask: var(--icon-chevron) center / contain no-repeat;
+        transition: transform 0.25s var(--ease-snap);
+      }
+
+      &:hover {
+        background: var(--surface);
+      }
+    }
+
+    & details[open] > summary {
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid var(--line);
+
+      &::before {
+        transform: rotate(90deg);
+      }
+    }
+
+    /* A prose link is underlined at rest, since colour alone does not mark it (WCAG 1.4.1). On hover a full-strength line sweeps in from the left over the faint one. */
+    & :is(p, li, td, dd) a {
+      padding-bottom: 0.2rem;
+      background:
+        linear-gradient(currentColor, currentColor) 0 100% / 0 0.1em no-repeat,
+        linear-gradient(
+            color-mix(in oklab, currentColor 30%, transparent),
+            color-mix(in oklab, currentColor 30%, transparent)
+          )
+          100% 100% / 100% 0.1em no-repeat;
+      transition: background-size 0.3s var(--ease-snap);
+
+      &:hover {
+        background-size:
+          100% 0.1em,
+          0 0.1em;
+      }
+    }
+
+    & :is(h2, h3, h4)[id] {
+      scroll-margin-top: 5rem;
+    }
+
+    & .anchor {
+      visibility: hidden;
+      padding-left: 0.5rem;
+      color: var(--muted);
+    }
+
+    & :is(h2, h3, h4):hover .anchor {
+      visibility: visible;
+    }
+  }
+
+  .img-simple {
+    margin-top: 0.375rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Small uppercase label over a group: menu sections, the contents column, share links. */
+  :where(
+    .docs-links h3,
+    .toc h2,
+    .share h2,
+    .section-group-term,
+    .linktree h2
+  ) {
+    margin: 0 0 0.5rem;
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /*
+   * Docs frame. Below lg: the section bar, the article, no contents column.
+   * From lg: a sticky section column beside the article. From xl a page with headings adds the contents column.
+   */
+  .docs-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+
+    @media (width >= 62rem) {
+      grid-template-columns: 15rem minmax(0, 1fr);
+      column-gap: 3rem;
+    }
+
+    @media (width >= 75rem) {
+      grid-template-columns: 16rem minmax(0, 1fr);
+
+      &.has-toc {
+        grid-template-columns: 16rem minmax(0, 1fr) 13rem;
+      }
+    }
+  }
+
+  .docs-sidebar {
+    border-bottom: 1px dashed var(--line);
+
+    @media (width >= 62rem) {
+      position: sticky;
+      top: 3.5rem;
+      align-self: start;
+      height: calc(100dvh - 3.5rem);
+      padding: 2rem 1rem 4rem 0;
+      overflow-y: auto;
+      border-right: 1px dashed var(--line);
+      border-bottom: 0;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+
+      &:hover {
+        scrollbar-color: var(--line) transparent;
+      }
+    }
+  }
+
+  /* Below lg the bar names the section and folds the menu; from lg it is the column heading and the toggle goes. */
+  .docs-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 3rem;
+
+    /* The column is narrow, so a section action goes under the title. */
+    @media (width >= 62rem) {
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      min-height: 0;
+      margin-bottom: 1rem;
+      padding-left: 0.5rem;
+
+      & > p {
+        flex-basis: 100%;
+      }
+
+      & > [data-toggle] {
+        display: none;
+      }
+    }
+  }
+
+  @media (width >= 62rem) {
+    .docs-nav.disclosure {
+      grid-template-rows: 1fr;
+    }
+
+    .docs-nav > .disclosure-body {
+      visibility: visible;
+      opacity: 1;
+      filter: none;
+    }
+  }
+
+  .docs-links {
+    padding-bottom: 1rem;
+
+    & h3:not(:first-child) {
+      margin-top: 1.5rem;
+    }
+
+    & h3 {
+      padding-left: 0.5rem;
+    }
+  }
+
+  .nav-tree {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    & .nav-tree {
+      margin: 0.125rem 0 0.25rem 0.75rem;
+      padding-left: 0.5rem;
+      border-left: 1px dashed var(--line);
+    }
+  }
+
+  .docs-link {
+    display: block;
+    padding: 0.3125rem 0.5rem;
+    border-radius: 0.375rem;
+    color: var(--fg);
+    font-size: 0.9375rem;
+    line-height: 1.35;
+
+    &:hover {
+      background: var(--hover);
+      color: var(--link);
+    }
+
+    &[data-active] {
+      color: var(--link);
+    }
+
+    &[aria-current="page"] {
+      background: color-mix(in oklab, var(--link) 9%, transparent);
+      font-weight: 500;
+    }
+  }
+
+  .docs-link-count {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .count {
+    color: var(--muted);
+    font-size: 0.8125rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .nav-branch-row {
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
+
+    & > .docs-link {
+      flex: 1;
+      min-width: 0;
+    }
+  }
+
+  .nav-branch-toggle {
+    display: inline-grid;
+    flex: none;
+    place-items: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0.375rem;
+    color: var(--muted);
+
+    &:hover {
+      background: var(--hover);
+      color: var(--link);
+    }
+
+    & svg {
+      rotate: -90deg;
+      transition: rotate 0.25s var(--ease-snap);
+    }
+
+    &[aria-expanded="true"] svg {
+      rotate: 0deg;
+    }
+  }
+
+  /* A branch with no page of its own (a semester): the whole row is the toggle. */
+  .nav-branch-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 0.3125rem 0.5rem;
+    color: var(--fg);
+    font-size: 0.9375rem;
+    line-height: 1.35;
+    text-align: left;
+  }
+
+  .docs-article {
+    width: 100%;
+    max-width: 48rem;
+    margin-inline: auto;
+    padding-block: 1.5rem 4rem;
+
+    @media (width >= 62rem) {
+      padding-top: 2rem;
+    }
+
+    & > h1 {
+      margin-top: 0;
+    }
+  }
+
+  /* The contents column: who wrote the page, its headings and the share links. */
+  .toc {
+    display: none;
+
+    @media (width >= 75rem) {
+      position: sticky;
+      top: 3.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-self: start;
+      max-height: calc(100dvh - 3.5rem);
+      padding-block: 2rem;
+      overflow-y: auto;
+      font-size: 0.875rem;
+      scrollbar-width: thin;
+    }
+
+    & section > ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    & ul ul {
+      margin: 0;
+      padding-left: 0.75rem;
+      list-style: none;
+    }
+
+    & #TableOfContents a {
+      display: block;
+      padding: 0.25rem 0;
+      color: var(--muted);
+      line-height: 1.35;
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+
+    & #TableOfContents > ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    & .share {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+  }
+
+  .toc-authors {
+    display: grid;
+    gap: 0.5rem;
+
+    & a {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+      color: var(--fg);
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+  }
+
+  .avatar {
+    flex: none;
+    border-radius: 50%;
+    background: var(--surface);
+    object-fit: cover;
+  }
+
+  .avatar-initial {
+    display: grid;
+    place-items: center;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border: 1px solid var(--edge);
+    color: var(--muted);
+    font-size: calc(var(--avatar-size) * 0.4);
+    font-weight: 600;
+  }
+
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 1rem;
+    padding: 0;
+    color: var(--muted);
+    font-size: 0.875rem;
+    list-style: none;
+
+    & li + li::before {
+      margin-inline: 0.5rem;
+      content: "/";
+      opacity: 0.6;
+    }
+
+    & a {
+      color: var(--muted);
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+  }
+
+  .byline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.5rem;
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.875rem;
+
+    & > span + span::before {
+      margin-right: 0.5rem;
+      content: "·";
+    }
+  }
+
+  .article-head {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px dashed var(--line);
+
+    & h1 {
+      margin-top: 0;
+    }
+  }
+
+  .share {
+    margin-top: 3rem;
+
+    & ul {
+      display: flex;
+      gap: 0.25rem;
+      margin: 0 0 0 -0.5rem;
+      padding: 0;
+      list-style: none;
+    }
+  }
+
+  .page-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 2rem;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--line);
+    font-size: 0.875rem;
+
+    & a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      color: var(--muted);
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+  }
+
+  .pager {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    @media (width >= 36rem) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .pager-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: var(--fg);
+
+    &:hover {
+      color: var(--link);
+    }
+  }
+
+  .pager-next {
+    text-align: right;
+
+    @media (width >= 36rem) {
+      grid-column: 2;
+    }
+  }
+
+  .pager-label {
+    display: block;
+    color: var(--muted);
+    font-size: 0.8125rem;
+  }
+
+  /* Course and offering facts. */
+  .facts {
+    margin: 2rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--edge);
+    border-radius: 0.5rem;
+    background: var(--surface);
+
+    & h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1.125rem;
+    }
+
+    & dl {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.375rem 1.5rem;
+      margin: 0;
+      font-size: 0.9375rem;
+    }
+
+    /* Each pair sits in a div so the search index separates the values; the grid ignores it. */
+    & dl > div {
+      display: contents;
+    }
+
+    & dt {
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    & dd {
+      margin: 0;
+    }
+  }
+
+  .callout {
+    display: flex;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid color-mix(in oklab, var(--link) 30%, transparent);
+    border-radius: 0.5rem;
+    background: color-mix(in oklab, var(--link) 6%, transparent);
+
+    & p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .callout-note {
+    border-color: var(--edge);
+    background: var(--surface);
+  }
+
+  .callout-icon {
+    flex: none;
+    color: var(--link);
+    line-height: 1.5;
+  }
+
+  .callout-title {
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+
+  /* Cards with a stretched link: the link's ::before covers the card, and later positioned links stay on top. */
+  .card-link {
+    color: var(--fg);
+    font-weight: 500;
+
+    &::before {
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      content: "";
+    }
+
+    :is(.card, .group, .person):hover & {
+      color: var(--link);
+    }
+  }
+
+  .section-group {
+    margin-top: 2.5rem;
+
+    & > h2 {
+      margin: 0 0 0.5rem;
+    }
+  }
+
+  .section-group-lead {
+    color: var(--muted);
+  }
+
+  .section-group-term {
+    margin-top: 1.5rem;
+  }
+
+  .section-cards {
+    display: grid;
+    gap: 0.75rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+
+    @media (width >= 36rem) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    & > li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.75rem 1rem;
+    }
+
+    & p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+  }
+
+  .card-list {
+    display: grid;
+    gap: 1rem;
+    margin-block: 1.5rem;
+  }
+
+  .link-card {
+    padding: 1.25rem 1.5rem;
+
+    & > :is(h2, h3) {
+      margin: 0 0 0.5rem;
+    }
+
+    & > p:not(.byline) {
+      margin-bottom: 0.75rem;
+      color: var(--muted);
+    }
+  }
+
+  .showcase-group {
+    margin-top: 2.5rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 1rem;
+  }
+
+  .showcase-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .showcase-card-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    border-bottom: 1px solid var(--line);
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .showcase-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem 1.25rem;
+
+    & h3 {
+      margin: 0 0 0.375rem;
+      font-size: 1.125rem;
+    }
+
+    & p {
+      margin-bottom: 0.5rem;
+      color: var(--muted);
+      font-size: 0.9375rem;
+    }
+  }
+
+  .showcase-card-terms {
+    margin: auto 0 0;
+    font-size: 0.8125rem;
+
+    & a {
+      color: var(--muted);
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+  }
+
+  .showcase-shot {
+    display: block;
+    width: 100%;
+    margin-block: 0.5rem 2rem;
+    border: 1px solid var(--edge);
+    border-radius: 0.5rem;
+  }
+
+  /* Contributors: the index list and the profile header. */
+  .people {
+    display: grid;
+    gap: 0.25rem;
+    margin: 2rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .person {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+
+    &:hover {
+      background: var(--hover);
+    }
+
+    & p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9375rem;
+    }
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+
+    & h1 {
+      margin: 0 0 0.25rem;
+    }
+
+    & .text-lead {
+      margin: 0;
+      color: var(--muted);
+    }
+  }
+
+  .not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 60dvh;
+    padding-block: 4rem;
+    text-align: center;
+
+    @media (width >= 48rem) {
+      flex-direction: row;
+      gap: 4rem;
+      text-align: left;
+    }
+
+    & h1 {
+      margin-top: 0;
+    }
+  }
+
+  /* The link page the social profiles point to. */
+  .linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    margin-inline: auto;
+    padding: 3rem 1rem;
+    text-align: center;
+
+    & h1 {
+      margin: 0.5rem 0 1rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    & h2 {
+      align-self: stretch;
+      margin-top: 2rem;
+      text-align: left;
+    }
+
+    & ul:has(.social-link) {
+      flex-direction: row;
+      gap: 0.25rem;
+    }
+  }
+
+  .linktree-logo {
+    border-radius: 50%;
+  }
+
+  .linktree-site {
+    margin: 1rem 0 0;
+    font-weight: 700;
+  }
+
+  .linktree-links {
+    display: grid;
+    gap: 0.75rem;
+    align-self: stretch;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .linktree-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    color: var(--fg);
+    text-align: left;
+
+    & strong,
+    & small {
+      display: block;
+    }
+
+    & small {
+      color: var(--muted);
+    }
+
+    &:hover strong {
+      color: var(--link);
+    }
+  }
+
+  .linktree-footer {
+    margin: 3rem 0 0;
+    color: var(--muted);
+    font-size: 0.875rem;
   }
 }

@@ -1,0 +1,11 @@
+{{- /* Returns the share card URL: Cloudinary draws the page title and address on the site card. */ -}}
+{{- $title := cond .IsHome site.Params.titleHome .Title -}}
+{{- $path := .RelPermalink | strings.TrimSuffix "/" | replaceRE "/" "%252F" -}}
+{{- $text := print site.BaseURL $path -}}
+{{- $url := print
+	"https://res.cloudinary.com/dubu/image/upload/w_1280,h_640,c_fill,q_auto,f_auto/"
+	"w_860,c_fit,co_rgb:dee2e6,g_south_west,x_105,y_265,fl_text_no_trim,l_text:titulo.woff2_80:" (replace $title " " "%20")
+	"/w_860,c_fit,co_rgb:dee2e6,g_south_west,x_105,y_205,l_text:cuerpo.woff2_35:" $text
+	"/v1645767878/cae.png"
+-}}
+{{- return $url -}}

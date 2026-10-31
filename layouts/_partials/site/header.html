@@ -1,0 +1,16 @@
+{{- if site.Params.alert }}{{ partial "site/announcement.html" . }}{{ end -}}
+<div class="h-1 bg-bar"></div>
+{{- /* Sticky and exactly h-14 tall: the docs sidebar, the table of contents and table headers stick right below it. */}}
+<header class="sticky top-0 z-1000 bg-glass backdrop-blur-sm lg:z-1025{{ if not .IsHome }} border-b border-dashed border-line{{ end }}">
+	<nav class="mx-auto flex h-14 w-full max-w-page items-center gap-1 px-gutter" aria-label="Navegación principal">
+		<a class="mr-auto text-lg font-bold text-accent md:mr-4 md:text-xl" href="{{ "/" | relURL }}">{{ site.Params.title }}</a>
+
+		{{ partial "site/search-button.html" (dict "class" "icon-btn md:hidden") }}
+		{{ if site.Params.options.darkMode }}{{ partial "site/theme-toggle.html" }}{{ end }}
+		<button class="icon-btn -mr-2 md:hidden" type="button" popovertarget="main-menu" aria-label="Abrir menú principal">
+			{{ partial "ui/icon.html" (dict "name" "menu" "size" 24) }}
+		</button>
+
+		{{ partial "site/drawer.html" . }}
+	</nav>
+</header>

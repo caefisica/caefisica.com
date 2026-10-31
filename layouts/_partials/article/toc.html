@@ -1,0 +1,25 @@
+{{- /* The right column from xl: who wrote the page, its headings and the share links. Context: the page. */ -}}
+<aside class="toc" aria-label="En esta página" data-pagefind-ignore="all">
+	{{- with .Params.contributors }}
+		<section aria-labelledby="toc-authors">
+			<h2 id="toc-authors">Escrito por</h2>
+			<ul class="toc-authors">
+				{{- range partial "data/contributors.html" . }}
+					<li>
+						<a href="{{ .RelPermalink }}">
+							{{- partial "ui/avatar.html" (dict "page" . "size" 32) -}}
+							<span>{{ .Title }}</span>
+						</a>
+					</li>
+				{{- end }}
+			</ul>
+		</section>
+	{{- end }}
+	{{- if .Fragments.Headings }}
+		<section aria-labelledby="toc-title">
+			<h2 id="toc-title">Tabla de contenido</h2>
+			{{ .TableOfContents }}
+		</section>
+	{{- end }}
+	{{ partial "article/share.html" . }}
+</aside>

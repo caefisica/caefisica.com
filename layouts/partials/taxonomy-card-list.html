@@ -1,9 +1,0 @@
-<div class="mt-9">
-	{{ range .Pages.ByTitle }}
-		<div class="card card-hover my-4 p-4">
-			<a class="after:absolute after:inset-0" href="{{ .RelPermalink }}">
-				{{ .Params.title | title }} &rarr;
-			</a>
-		</div>
-	{{ end }}
-</div>

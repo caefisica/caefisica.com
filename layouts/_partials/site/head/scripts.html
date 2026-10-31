@@ -1,0 +1,9 @@
+{{- if site.Params.options.darkMode -}}
+	{{- /* Inline, so the theme applies before the first paint without a blocking request. */ -}}
+	{{- with resources.Get "js/color-mode.ts" | js.Build (dict "target" "es2020" "minify" hugo.IsProduction) }}
+		<script>{{ .Content | safeJS }}</script>
+	{{- end }}
+{{- end -}}
+{{- if and site.Params.alert site.Params.alertDismissable -}}
+	{{- partial "site/script.html" (dict "src" "js/dismissable-alert.ts" "load" "none") }}
+{{- end -}}
