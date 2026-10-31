@@ -1,0 +1,27 @@
+{{- /*
+One group of section cards. Context: dict with pages, and optional title, link and description.
+Courses carry a semester, so a group of courses splits into one grid per semester, the order of the curriculum.
+*/ -}}
+{{- with .pages -}}
+	{{- $courses := where . "Params.semester" "!=" nil -}}
+	{{- $heading := cond (isset $ "title") "h3" "h2" -}}
+	<section class="section-group">
+		{{- with $.title }}
+			<h2>
+				{{- with $.link }}<a class="learn" href="{{ . }}">{{ $.title }}{{ partial "ui/chevron.html" }}</a>{{ else }}{{ . }}{{ end -}}
+			</h2>
+		{{- end }}
+		{{- with $.description }}<p class="section-group-lead">{{ . }}</p>{{ end }}
+		{{- if $courses -}}
+			{{- /* Courses are section pages, and GroupByParam returns no groups for section pages, so the semesters are collected by hand. */ -}}
+			{{- $semesters := slice -}}
+			{{- range $courses }}{{ $semesters = $semesters | append .Params.semester }}{{ end -}}
+			{{- range sort (uniq $semesters) }}
+				{{ printf `<%s class="section-group-term">Ciclo %v</%s>` $heading . $heading | safeHTML }}
+				{{- partial "docs/section-cards.html" (where $courses "Params.semester" .) -}}
+			{{- end }}
+		{{- else -}}
+			{{- partial "docs/section-cards.html" . -}}
+		{{- end }}
+	</section>
+{{- end -}}

@@ -1,9 +1,0 @@
-{{ define "main" }}
-<div class="col-prose">
-	<article>
-		<h1 class="text-center">{{ .Title }}</h1>
-		<div class="markdown text-center">{{ .Content }}</div>
-		{{ partial "taxonomy-card-list.html" . }}
-	</article>
-</div>
-{{ end }}

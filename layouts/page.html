@@ -1,9 +1,7 @@
 {{ define "main" }}
-<div class="col-prose">
-	<article class="markdown">
-		<h1>{{ .Title }}</h1>
-		<p class="text-lead">{{ .Params.lead | safeHTML }}</p>
-		{{ .Content }}
-	</article>
-</div>
+<article class="col-prose py-section">
+	<h1>{{ .Title }}</h1>
+	{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+	<div class="markdown">{{ .Content }}</div>
+</article>
 {{ end }}

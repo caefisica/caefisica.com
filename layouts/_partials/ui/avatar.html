@@ -1,0 +1,6 @@
+{{- /* A round portrait from the page's first image, or the title's initial when it has none, so rows stay aligned. Context: dict with page, size (px) and optional eager. */ -}}
+{{- with .page.Params.images }}
+	<img class="avatar" src="{{ index . 0 | relURL }}" width="{{ $.size }}" height="{{ $.size }}" alt=""{{ if not $.eager }} loading="lazy"{{ end }} />
+{{- else }}
+	<span class="avatar avatar-initial" style="--avatar-size: {{ $.size }}px" aria-hidden="true">{{ substr $.page.Title 0 1 }}</span>
+{{- end -}}

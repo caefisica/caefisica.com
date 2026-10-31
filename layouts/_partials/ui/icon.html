@@ -1,0 +1,9 @@
+{{- /* Inline SVG from assets/icons. Context: a name, or a dict with name, size and class. Icons are decorative; the control around them carries the accessible name. */ -}}
+{{- $o := cond (reflect.IsMap .) . (dict "name" .) -}}
+{{- with resources.Get (printf "icons/%s.svg" $o.name) -}}
+	{{- $attrs := printf `<svg width="%d" height="%d" aria-hidden="true" focusable="false"` ($o.size | default 20) ($o.size | default 20) -}}
+	{{- with $o.class }}{{ $attrs = printf `%s class="%s"` $attrs . }}{{ end -}}
+	{{- .Content | strings.TrimSpace | replaceRE `^<svg` $attrs | safeHTML -}}
+{{- else -}}
+	{{- errorf "icon %q not found in assets/icons" $o.name -}}
+{{- end -}}

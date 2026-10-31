@@ -1,0 +1,8 @@
+{{- /* Context: a CSS resource. Production links it with subresource integrity. */ -}}
+{{- if hugo.IsProduction -}}
+	{{- with . | fingerprint "sha512" -}}
+		<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" />
+	{{- end -}}
+{{- else -}}
+	<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{- end -}}

@@ -1,0 +1,52 @@
+{{- /*
+One item of the section tree. Context: dict with page (the page being read) and node (a section or page).
+A section whose subsections carry a semester is a curriculum: its courses group under one "Ciclo N" branch per semester. Another section with children is a branch; a page, or a section whose only children are offerings, is a link.
+*/ -}}
+{{- $page := .page -}}
+{{- $node := .node -}}
+{{- $active := or ($page.Eq $node) ($page.IsDescendant $node) -}}
+{{- $children := partial "docs/children.html" $node -}}
+{{- if not $children -}}
+	<li>
+		<a class="docs-link" href="{{ $node.RelPermalink }}"{{ if $active }} data-active{{ end }}{{ if $page.Eq $node }} aria-current="page"{{ end }}>{{ $node.LinkTitle }}</a>
+	</li>
+{{- else -}}
+	{{- $courses := where $children "Params.semester" "!=" nil -}}
+	{{- $items := "" -}}
+	{{- if $courses -}}
+		{{- /* Courses are section pages, and GroupByParam returns no groups for section pages, so the semesters are collected by hand. */ -}}
+		{{- $semesters := slice -}}
+		{{- range $courses }}{{ $semesters = $semesters | append .Params.semester }}{{ end -}}
+		{{- range sort (uniq $semesters) -}}
+			{{- $semester := . -}}
+			{{- $links := "" -}}
+			{{- $open := false -}}
+			{{- range where $courses "Params.semester" $semester -}}
+				{{- $links = printf "%s%s" $links (partial "docs/nav-node.html" (dict "page" $page "node" .)) -}}
+				{{- if or ($page.Eq .) ($page.IsDescendant .) }}{{ $open = true }}{{ end -}}
+			{{- end -}}
+			{{- $items = printf "%s%s" $items (partial "docs/nav-branch.html" (dict
+				"id" (printf "nav-%s-%v" (md5 $node.RelPermalink) $semester)
+				"title" (printf "Ciclo %v" $semester)
+				"open" $open
+				"items" $links
+			)
+			)
+			-}}
+		{{- end -}}
+	{{- end -}}
+	{{- range $children -}}
+		{{- if not (in $courses .) -}}
+			{{- $items = printf "%s%s" $items (partial "docs/nav-node.html" (dict "page" $page "node" .)) -}}
+		{{- end -}}
+	{{- end -}}
+	{{- partial "docs/nav-branch.html" (dict
+		"id" (printf "nav-%s" (md5 $node.RelPermalink))
+		"title" $node.LinkTitle
+		"url" $node.RelPermalink
+		"current" ($page.Eq $node)
+		"open" $active
+		"items" $items
+	)
+	-}}
+{{- end -}}

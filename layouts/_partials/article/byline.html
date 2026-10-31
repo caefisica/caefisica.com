@@ -1,0 +1,14 @@
+{{- /*
+Date, authors and reading time. Context: dict with page, and compact to hide the authors from xl, where the table of contents lists them.
+The date is the front matter `date`: the git-derived Lastmod changes with every formatting commit.
+*/ -}}
+{{- $page := .page -}}
+{{- $authors := slice -}}
+{{- range partial "data/contributors.html" $page.Params.contributors -}}
+	{{- $authors = $authors | append (printf `<a class="relative" href="%s">%s</a>` .RelPermalink .Title) -}}
+{{- end -}}
+<p class="byline" data-pagefind-ignore="all">
+	{{- if not $page.Date.IsZero }}<span>{{ partial "ui/date.html" $page.Date }}</span>{{ end -}}
+	{{- with $authors }}<span{{ if $.compact }} class="xl:hidden"{{ end }}>por {{ delimit . ", " " y " | safeHTML }}</span>{{ end -}}
+	{{- with $page.ReadingTime }}<span>{{ . }}&nbsp;min. de lectura</span>{{ end -}}
+</p>

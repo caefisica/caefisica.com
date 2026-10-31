@@ -1,0 +1,7 @@
+{{- /* The body of an offering page: its facts and each syllabus PDF. Context: the offering page. */ -}}
+{{ partial "docs/offering-info.html" . }}
+{{- range .Resources.Match "silabo*.pdf" }}
+	{{ partial "media/pdf-viewer.html" (dict "url" .RelPermalink "id" .Name "hidePaginator" false) }}
+{{- else }}
+	<p class="text-muted">No hay sílabo disponible para este semestre.</p>
+{{- end -}}

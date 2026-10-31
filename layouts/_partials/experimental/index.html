@@ -1,0 +1,4 @@
+{{- /* The Experimental landing page: pinned articles, then the rest, newest weight first. Context: the section page. */ -}}
+{{- $pages := .Pages.ByWeight.Reverse -}}
+{{ partial "experimental/grid.html" (dict "title" "Fijado" "pages" (where $pages "Params.pinned" true)) }}
+{{ partial "experimental/grid.html" (dict "title" "Reciente" "pages" (where $pages "Params.pinned" "ne" true)) }}

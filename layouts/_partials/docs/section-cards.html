@@ -1,0 +1,17 @@
+{{- /* Card grid of pages. Context: pages. A course card shows its code and credits; a section card shows how many pages it holds. */ -}}
+<ul class="section-cards">
+	{{- range . }}
+		<li class="card card-hover group">
+			<div class="min-w-0">
+				<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+				{{- if .Params.credits }}
+					<p>{{ .Params.id }} · {{ .Params.credits }} créditos</p>
+				{{- else if .IsSection }}
+					{{- $n := len (partial "docs/children.html" .) }}
+					<p>{{ $n }} {{ cond (eq $n 1) "página" "páginas" }}</p>
+				{{- end }}
+			</div>
+			{{ partial "ui/chevron.html" }}
+		</li>
+	{{- end }}
+</ul>

@@ -1,0 +1,22 @@
+{{- /* The facts of one offering of a course: its semester and teacher. Context: the offering page. */ -}}
+<section class="facts" aria-labelledby="offering-info">
+	<h2 id="offering-info">Información del sílabo</h2>
+	<dl>
+		<div>
+			<dt data-pagefind-ignore>Curso</dt>
+			<dd><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></dd>
+		</div>
+		<div>
+			<dt data-pagefind-ignore>Semestre</dt>
+			<dd>{{ .Params.semester }}</dd>
+		</div>
+		{{- with .Params.professor }}
+			{{- with partial "data/professor.html" . }}
+				<div>
+					<dt data-pagefind-ignore>Docente</dt>
+					<dd><a href="{{ .RelPermalink }}">{{ partial "data/professor-name.html" . }}</a></dd>
+				</div>
+			{{- end }}
+		{{- end }}
+	</dl>
+</section>

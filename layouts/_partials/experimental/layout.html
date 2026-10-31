@@ -1,0 +1,6 @@
+{{- /* The docs frame with the Experimental menu. Context: dict with page, body and optional lead. */ -}}
+{{- partial "docs/layout.html" (merge . (dict
+	"sidebar" (dict "title" "Experimental" "menu" "experimental/menu.html" "action" (index site.Menus.tertiary 0))
+)
+)
+-}}

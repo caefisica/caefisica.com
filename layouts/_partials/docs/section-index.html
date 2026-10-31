@@ -1,0 +1,11 @@
+{{- /* Cards for what a docs section holds, so a section page is never only its intro: its pages and courses, then one group per other subsection. Context: the section page. */ -}}
+{{- $children := partial "docs/children.html" . -}}
+{{- $direct := slice -}}
+{{- $groups := slice -}}
+{{- range $children -}}
+	{{- if and .IsSection (not .Params.semester) }}{{ $groups = $groups | append . }}{{ else }}{{ $direct = $direct | append . }}{{ end -}}
+{{- end -}}
+{{- with $direct }}{{ partial "docs/section-group.html" (dict "pages" .) }}{{ end -}}
+{{- range $groups -}}
+	{{ partial "docs/section-group.html" (dict "title" .Title "link" .RelPermalink "description" .Description "pages" (partial "docs/children.html" .)) }}
+{{- end -}}

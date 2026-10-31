@@ -1,0 +1,7 @@
+{{- /* A short note with an emoji marker. Params: icon (an emoji), text, or inner Markdown. */ -}}
+{{- $body := or (.Get "text" | safeHTML) (.Inner | markdownify) -}}
+{{- if not $body }}{{ errorf "%s: alert needs a text param or inner content" .Position }}{{ end -}}
+<aside class="callout callout-note">
+	{{- with .Get "icon" }}<span class="callout-icon" aria-hidden="true">{{ . }}</span>{{ end }}
+	<div>{{ $body }}</div>
+</aside>

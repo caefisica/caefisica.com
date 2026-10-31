@@ -1,0 +1,22 @@
+{{- /*
+A branch of the section tree: a toggle over a disclosure that holds the rendered items. Context: dict with id, title, items (HTML), open, and optional url and current.
+A branch with a url is a link with its own toggle beside it, so the section page stays one click away.
+*/ -}}
+<li class="nav-branch">
+	<div class="nav-branch-row">
+		{{- if .url }}
+			<a class="docs-link" href="{{ .url }}"{{ if .open }} data-active{{ end }}{{ if .current }} aria-current="page"{{ end }}>{{ .title }}</a>
+			<button class="nav-branch-toggle" type="button" data-toggle="{{ .id }}" aria-controls="{{ .id }}" aria-expanded="{{ .open }}" aria-label="{{ .title }}: mostrar u ocultar">
+				{{ partial "ui/icon.html" (dict "name" "chevron-down" "size" 16) }}
+			</button>
+		{{- else }}
+			<button class="nav-branch-toggle nav-branch-label" type="button" data-toggle="{{ .id }}" aria-controls="{{ .id }}" aria-expanded="{{ .open }}">
+				{{ .title }}
+				{{ partial "ui/icon.html" (dict "name" "chevron-down" "size" 16) }}
+			</button>
+		{{- end }}
+	</div>
+	<div id="{{ .id }}" class="disclosure" data-open="{{ .open }}">
+		<ul class="disclosure-body nav-tree">{{ .items | safeHTML }}</ul>
+	</div>
+</li>

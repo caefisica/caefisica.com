@@ -1,0 +1,5 @@
+{{- /* Headings from h2 down get a hover anchor. Search skips it so results do not end in "#". */ -}}
+<h{{ .Level }} id="{{ .Anchor }}"{{ with .Attributes.class }} class="{{ . }}"{{ end }}>
+	{{- .Text -}}
+	{{- if ge .Level 2 }}<a href="#{{ .Anchor }}" class="anchor" aria-hidden="true" tabindex="-1" data-pagefind-ignore>#</a>{{ end -}}
+	</h{{ .Level }}>

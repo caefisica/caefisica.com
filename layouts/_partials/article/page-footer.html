@@ -1,0 +1,20 @@
+{{- /* The commit that last changed the page and a link to edit its source. Context: the page. */ -}}
+{{- $repo := site.Params.docsRepo -}}
+{{- $modified := and site.Params.lastMod .GitInfo $repo -}}
+{{- $edit := and site.Params.editPage .File $repo -}}
+{{- if or $modified $edit -}}
+	<footer class="page-footer" data-pagefind-ignore="all">
+		{{- if $modified }}
+			<a href="{{ $repo }}/commit/{{ .GitInfo.Hash }}">
+				{{ partial "ui/icon.html" (dict "name" "calendar" "size" 16) }}
+				<span>Modificado el {{ partial "ui/date.html" .Lastmod }}</span>
+			</a>
+		{{- end }}
+		{{- if $edit }}
+			<a href="{{ $repo }}/blob/{{ site.Params.docsRepoBranch }}/content/{{ replace .File.Path "\\" "/" }}">
+				{{ partial "ui/icon.html" (dict "name" "edit" "size" 16) }}
+				<span>Edita esta página</span>
+			</a>
+		{{- end }}
+	</footer>
+{{- end -}}

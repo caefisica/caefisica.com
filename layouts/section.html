@@ -1,11 +1,14 @@
 {{ define "main" }}
-<div class="col-prose">
-	{{ range .Paginator.Pages }}
-		<article>
-			<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-			{{ .Description }}
-		</article>
-	{{ end }}
-	{{ template "_internal/pagination.html" . }}
+<div class="col-prose py-section">
+	<h1>{{ .Title }}</h1>
+	{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
+	{{- with .Pages }}
+		<div class="card-list">
+			{{- range . }}
+				{{ partial "ui/card.html" (dict "title" .Title "url" .RelPermalink "emoji" .Params.emoji "lead" (or .Params.lead .Description)) }}
+			{{- end }}
+		</div>
+	{{- end }}
 </div>
 {{ end }}

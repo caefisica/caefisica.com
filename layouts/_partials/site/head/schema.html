@@ -1,0 +1,78 @@
+{{- /* JSON-LD graph built as data, so jsonify does the escaping. */ -}}
+{{- $base := "/" | absURL -}}
+{{- $org := print $base "#/schema/organization/1" -}}
+{{- $site := print $base "#/schema/website/1" -}}
+{{- $image := print .Permalink "#/schema/image/2" -}}
+{{- $date := "2006-01-02T15:04:05-07:00" -}}
+
+{{- $crumbs := slice -}}
+{{- range $i, $p := .Ancestors.Reverse | append . -}}
+	{{- $crumbs = $crumbs | append (dict
+		"@type" "ListItem"
+		"position" (add $i 1)
+		"item" (dict "@id" $p.Permalink "name" (cond $p.IsHome "Inicio" $p.LinkTitle))
+	)
+	-}}
+{{- end -}}
+
+{{- $graph := slice
+	(dict
+		"@type" "Organization"
+		"@id" $org
+		"name" site.Params.schemaName
+		"url" $base
+		"sameAs" (slice site.Params.schemaTwitter site.Params.schemaLinkedIn site.Params.schemaGitHub)
+		"logo" (dict "@type" "ImageObject" "url" (print $base site.Params.schemaLogo) "width" site.Params.schemaLogoWidth "height" site.Params.schemaLogoHeight)
+	)
+	(dict
+		"@type" "WebSite"
+		"@id" $site
+		"url" $base
+		"name" site.Params.title
+		"description" site.Params.description
+		"publisher" (dict "@id" $org)
+		"inLanguage" site.Params.schemaLocale
+	)
+	(dict
+		"@type" (cond (in (slice "taxonomy" "term" "section") .Kind) "CollectionPage" "WebPage")
+		"@id" .Permalink
+		"url" .Permalink
+		"name" .Title
+		"description" (.Description | default site.Params.description)
+		"isPartOf" (dict "@id" $site)
+		"datePublished" (.PublishDate.Format $date)
+		"dateModified" (.Lastmod.Format $date)
+		"breadcrumb" (dict "@type" "BreadcrumbList" "itemListElement" $crumbs)
+		"primaryImageOfPage" (dict "@id" $image)
+		"inLanguage" site.Params.schemaLocale
+	)
+	(dict
+		"@type" "ImageObject"
+		"@id" $image
+		"url" (partial "site/social-image.html" .)
+		"width" site.Params.schemaImageWidth
+		"height" site.Params.schemaImageHeight
+		"caption" .Title
+	)
+-}}
+
+{{- if and .IsPage (in (slice "blog" "unmsm" "apuntes" "experimental") .Section) -}}
+	{{- $graph = $graph | append (dict
+		"@type" "Article"
+		"headline" .Title
+		"description" .Description
+		"mainEntityOfPage" (dict "@id" .Permalink)
+		"datePublished" (.PublishDate.Format $date)
+		"dateModified" (.Lastmod.Format $date)
+		"author" (dict
+			"@type" "Person"
+			"name" site.Params.schemaAuthor
+			"sameAs" (slice site.Params.schemaAuthorTwitter site.Params.schemaAuthorLinkedIn site.Params.schemaAuthorGitHub)
+		)
+		"publisher" (dict "@id" $org)
+		"image" (dict "@id" $image)
+	)
+	-}}
+{{- end -}}
+
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

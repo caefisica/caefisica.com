@@ -11,7 +11,6 @@ draft: false
 weight: 2040
 images: []
 toc: false
-type: extend
 contributors: ["david"]
 ---
 

@@ -2,8 +2,5 @@
 @import "tailwindcss" source(none);
 @source "layouts/home.html";
 @source "layouts/baseof.html";
-@source "layouts/partials/head";
-@source "layouts/partials/header";
-@source "layouts/partials/footer";
-@source "layouts/partials/components/{welcome,features,study-guides,miembros,learn-chevron}.html";
+@source "layouts/_partials/{site,home,ui,search}";
 @import "./site.css";

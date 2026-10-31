@@ -1,0 +1,10 @@
+{{- /* One menu link. Context: dict with page and entry. An external link says so to screen readers and shows an arrow. */ -}}
+{{- $active := partial "site/menu-active.html" . -}}
+{{- with .entry -}}
+	<a class="nav-link" href="{{ .URL }}"{{ if $active }} data-active{{ end }}{{ if and $active ($.page.Eq .Page) }} aria-current="page"{{ end }}>
+		{{- .Name -}}
+		{{- if strings.HasPrefix .URL "http" -}}
+			{{ partial "ui/icon.html" (dict "name" "external" "size" 14 "class" "text-muted") }}<span class="sr-only"> (otro sitio)</span>
+		{{- end -}}
+	</a>
+{{- end -}}

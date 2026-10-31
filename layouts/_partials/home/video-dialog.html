@@ -1,0 +1,9 @@
+{{- /* The dialog player.ts fills with the YouTube player when #play-video is pressed. */ -}}
+<dialog id="video-dialog" aria-label="Video de presentación" class="m-auto max-w-[90vw] overflow-visible bg-transparent p-0 text-white">
+	<form method="dialog" class="text-right">
+		<button type="submit" class="px-2 text-4xl leading-none" aria-label="Cerrar el video">
+			<span aria-hidden="true">×</span>
+		</button>
+	</form>
+	<div id="player" class="aspect-video w-225 max-w-full"></div>
+</dialog>

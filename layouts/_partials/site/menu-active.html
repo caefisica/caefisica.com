@@ -1,0 +1,10 @@
+{{- /* Returns true when the page sits at or below the menu entry's page, or below one of its children. Context: dict with page and entry. */ -}}
+{{- $page := .page -}}
+{{- $active := false -}}
+{{- with .entry.Page -}}
+	{{- $active = or ($page.Eq .) ($page.IsDescendant .) -}}
+{{- end -}}
+{{- range .entry.Children -}}
+	{{- $active = or $active (partial "site/menu-active.html" (dict "page" $page "entry" .)) -}}
+{{- end -}}
+{{- return $active -}}

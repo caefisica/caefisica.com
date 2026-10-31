@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{- partial "experimental/layout.html" (dict
+	"page" .
+	"lead" (printf "Artículos sobre «%s»." (.Title | title))
+	"body" (partial "experimental/grid.html" (dict "pages" .Pages.ByWeight.Reverse))
+)
+-}}
+{{ end }}

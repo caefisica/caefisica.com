@@ -51,10 +51,6 @@
   border: 3px solid;
   border-color: transparent #585959 #585959 transparent;
   border-radius: 50%;
-  transform: rotate(45deg);
-}
-
-.error404 .mascot .mouth {
   transform: rotate(225deg);
 }
 

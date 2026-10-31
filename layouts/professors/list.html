@@ -1,20 +1,15 @@
 {{ define "main" }}
-<div class="py-12">
+<div class="py-section">
 	<h1>{{ .Title }}</h1>
-	{{ with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
-	<div class="mt-4 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-		{{ range .Pages }}
-			<div class="card card-hover">
-				<div class="p-4">
-					<h5 class="mt-4 mb-2">
-						<a class="after:absolute after:inset-0" href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
-					</h5>
-					{{ with .Params.institution }}
-						<p class="mb-0 text-sm text-muted">{{ . | upper }}</p>
-					{{ end }}
-				</div>
-			</div>
-		{{ end }}
-	</div>
+	{{- with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
+	<ul class="section-cards">
+		{{- range .Pages.ByTitle }}
+			<li class="card card-hover group">
+				<a class="card-link" href="{{ .RelPermalink }}">{{ partial "data/professor-name.html" . }}</a>
+				{{- with .Params.institution }}<p>{{ . | upper }}</p>{{ end }}
+				{{ partial "ui/chevron.html" }}
+			</li>
+		{{- end }}
+	</ul>
 </div>
 {{ end }}

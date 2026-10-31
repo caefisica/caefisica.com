@@ -1,0 +1,23 @@
+{{- /*
+The section navigation, rendered once. Context: dict with page, title (the section name), menu (the partial that renders the links, given the page) and optional action (a menu entry shown beside the title).
+Below lg a bar under the header names the section and folds the menu open; from lg the menu is a sticky column and the bar is gone.
+*/ -}}
+<div class="docs-sidebar" data-pagefind-ignore="all">
+	<div class="docs-bar">
+		<p class="m-0 mr-auto truncate font-medium">{{ .title }}</p>
+		{{- with .action }}
+			<a class="truncate text-sm" href="{{ .URL }}" rel="noopener">{{ .Name }}</a>
+		{{- end }}
+		<button class="icon-btn -mr-2" type="button" data-toggle="docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Mostrar u ocultar la navegación de la sección">
+			<span class="swap">
+				{{ partial "ui/icon.html" (dict "name" "chevrons-down" "size" 24) }}
+				{{ partial "ui/icon.html" (dict "name" "chevrons-up" "size" 24) }}
+			</span>
+		</button>
+	</div>
+	<nav id="docs-nav" class="docs-nav disclosure" data-open="false" aria-label="Navegación de la sección">
+		<div class="disclosure-body docs-links">
+			{{ partial .menu .page }}
+		</div>
+	</nav>
+</div>

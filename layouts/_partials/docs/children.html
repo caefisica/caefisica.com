@@ -1,0 +1,7 @@
+{{- /*
+The pages under a docs node, by weight, without offerings. Context: a section page.
+An offering (layout "offering") is one semester of a course; the course page links it, so trees, pagers and indexes leave it out.
+*/ -}}
+{{- $children := slice -}}
+{{- range .Pages.ByWeight }}{{ if ne .Params.layout "offering" }}{{ $children = $children | append . }}{{ end }}{{ end -}}
+{{- return $children -}}

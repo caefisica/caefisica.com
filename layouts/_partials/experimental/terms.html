@@ -1,0 +1,10 @@
+{{- /* The terms of a taxonomy, most used first, each with its article count. Context: the taxonomy page. */ -}}
+<ul class="section-cards">
+	{{- range .Data.Terms.ByCount }}
+		<li class="card card-hover group">
+			<a class="card-link" href="{{ .Page.RelPermalink }}">{{ .Page.Title | title }}</a>
+			<p>{{ .Count }} {{ cond (eq .Count 1) "artículo" "artículos" }}</p>
+			{{ partial "ui/chevron.html" . }}
+		</li>
+	{{- end }}
+</ul>

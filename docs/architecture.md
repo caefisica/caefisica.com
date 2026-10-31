@@ -32,39 +32,49 @@ que define el bloque `main` de [`layouts/baseof.html`](../layouts/baseof.html).
 `baseof` envuelve toda página: `head`, cabecera, el contenido dentro de
 `data-pagefind-body` y los scripts del pie.
 
-**Los parciales.** `single.html` compone la página con parciales de
-[`layouts/partials/`](../layouts/partials):
+**Los parciales.** Los parciales de [`layouts/_partials/`](../layouts/_partials)
+se agrupan por función: `site/` (cabecera, pie, `<head>`, scripts), `docs/`
+(guías y sílabos), `article/` (piezas de cualquier artículo), `data/` (búsquedas
+en el contenido), `media/` (imágenes y PDF), `ui/` (iconos, fechas, avatares), y
+`home/`, `search/` y `experimental/` para sus páginas. `single.html` llama a
+[`docs/layout.html`](../layouts/_partials/docs/layout.html) con el cuerpo de
+[`docs/guide.html`](../layouts/_partials/docs/guide.html):
 
-- `sidebar/aside.html` → `sidebar/docs-menu.html`: para las URL `/plan-*` usa
-  [`sidebar/plan-nav.html`](../layouts/partials/sidebar/plan-nav.html), que
-  agrupa los cursos por su campo `semester`; el resto de las secciones `docs`
-  usa `sidebar/render-auto-nav.html`, que arma el árbol del menú desde las
-  secciones de Hugo.
-- `main/blog-meta.html` resuelve cada slug de `contributors` a
-  `content/contributors/<slug>` con `components/resolve-contributors.html` y
-  dibuja fecha y tiempo de lectura.
-- `components/information_box.html` dibuja la caja de información (código,
-  créditos, prerrequisitos, docentes de los sílabos y semestres con
-  `silabo*.pdf`) en las páginas con `showInformationBox` e `id`. Cada slug de
-  `professor` se resuelve con `components/resolve-professor.html`: si la carpeta
-  no existe en `content/professors/`, la compilación falla.
-- `main/edit-page.html` pone el enlace «Edita esta página» al pie.
+- `docs/layout.html` arma el marco: menú de la sección, migas de pan, título,
+  cuerpo, pie, paginación anterior/siguiente, comentarios y, desde `xl`, el
+  índice (`article/toc.html`), que `toc: false` oculta.
+- [`docs/sidebar.html`](../layouts/_partials/docs/sidebar.html) dibuja el menú
+  con [`docs/tree.html`](../layouts/_partials/docs/tree.html), que recorre la
+  sección con [`docs/nav-node.html`](../layouts/_partials/docs/nav-node.html).
+  Una sección cuyos cursos tienen `semester` es una malla: sus cursos se agrupan
+  en una rama «Ciclo N» por semestre.
+- [`article/byline.html`](../layouts/_partials/article/byline.html) resuelve
+  cada slug de `contributors` a `content/contributors/<slug>` con
+  `data/contributors.html` y dibuja fecha, autores y tiempo de lectura.
+- [`docs/course-info.html`](../layouts/_partials/docs/course-info.html) dibuja
+  los datos del curso (código, créditos, prerrequisitos, docentes y semestres
+  con `silabo*.pdf`) en las páginas con `showInformationBox` e `id`. Cada slug
+  de `professor` se resuelve con `data/professor.html`: si la carpeta no existe
+  en `content/professors/`, la compilación falla.
+- [`article/page-footer.html`](../layouts/_partials/article/page-footer.html)
+  pone la fecha del último commit y el enlace «Edita esta página».
 - El sílabo `2022-I/index.md` usa `layout: "offering"`:
-  [`layouts/docs/offering.html`](../layouts/docs/offering.html) muestra el
-  docente con `components/offering-details.html` y cada `silabo*.pdf` del bundle
-  en el visor `components/pdfjs-viewer.html`.
+  [`layouts/docs/offering.html`](../layouts/docs/offering.html) pasa a
+  `docs/layout.html` el cuerpo de `docs/offering.html`, que muestra el docente
+  con `docs/offering-info.html` y cada `silabo*.pdf` del bundle en el visor
+  `media/pdf-viewer.html`.
 
 **Los shortcodes.** El cuerpo usa `infobox-alert` y `resource-table`
-([`layouts/shortcodes/`](../layouts/shortcodes), ver
+([`layouts/_shortcodes/`](../layouts/_shortcodes), ver
 [shortcodes](shortcodes.md)). `resource-table` llama a
-`components/resource-table.html`, que hace `Get` del YAML dentro del bundle y lo
+`docs/resource-table.html`, que hace `Get` del YAML dentro del bundle y lo
 vuelca con `transform.Unmarshal` en una tabla de libros o de listas de
 reproducción.
 
 **Los estilos y los scripts.**
 
-- [`partials/head/stylesheet.html`](../layouts/partials/head/stylesheet.html)
-  compila una hoja con `css.TailwindCSS` (Tailwind v4). Las reglas viven en dos
+- [`site/head/styles.html`](../layouts/_partials/site/head/styles.html) compila
+  una hoja con `css.TailwindCSS` (Tailwind v4). Las reglas viven en dos
   archivos: [`assets/css/site.css`](../assets/css/site.css) (tokens, base y
   componentes que usa toda página) y
   [`assets/css/docs.css`](../assets/css/docs.css) (tablas, código, Markdown,
@@ -84,28 +94,29 @@ reproducción.
 
   KaTeX tiene su propia hoja, enlazada solo con `math: true`.
 
-- [`partials/head/script-header.html`](../layouts/partials/head/script-header.html)
-  pone `assets/js/color-mode.ts` en línea para aplicar el tema antes del primer
+- [`site/head/scripts.html`](../layouts/_partials/site/head/scripts.html) pone
+  `assets/js/color-mode.ts` en línea para aplicar el tema antes del primer
   pintado.
-- [`partials/footer/script-footer.html`](../layouts/partials/footer/script-footer.html)
-  compila los `.ts` de `assets/js/` con `js.Build` (esbuild). El paquete base
-  reúne la navegación (`assets/js/navigation.ts`), instant.page según
-  `params.toml`, y clipboard solo si el contenido tiene un `<pre>`;
-  highlight.js, KaTeX y Mermaid se cargan solo donde se usan. El buscador
+- [`site/scripts.html`](../layouts/_partials/site/scripts.html) compila los
+  `.ts` de `assets/js/` con `js.Build` (esbuild) a través de `site/script.html`.
+  El paquete base reúne la navegación (`assets/js/navigation.ts`), instant.page
+  según `params.toml`, y clipboard solo si el contenido tiene un `<pre>`;
+  highlight.js, KaTeX y Mermaid se cargan solo donde se usan, y el reproductor
+  del video (`player.ts`) solo en la portada. El buscador
   (`assets/js/search.ts`, sobre la API de Pagefind) se carga en todas las
-  páginas, con sus atajos Ctrl/⌘ K y `/`. `main.js` y el buscador se piden
-  después de `load` y del primer pintado (`partials/footer/load-after.html`).
-  Las cabeceras `Link` de precarga salen de `head/resource-hints.html`.
+  páginas, con sus atajos Ctrl/⌘ K y `/`; su diálogo está en
+  [`search/dialog.html`](../layouts/_partials/search/dialog.html). El paquete
+  base y el buscador se piden después de `load` y del primer pintado
+  (`site/load-after.html`).
 - `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` desde `node_modules` en
-  `assets/js/vendor/`, y las plantillas de `@thulite/images` en `layouts/`
-  (`_shortcodes`, `_markup` y `_partials`). Un `_shortcodes` montado gana a
-  `layouts/shortcodes/` del sitio; `layouts/_shortcodes/` del sitio gana al
-  montado. `assets/js/vendor/` no se edita.
+  `assets/js/vendor/`. `assets/js/vendor/` no se edita.
 
 **La compilación.** `bun run build` ejecuta `hugo --gc --minify` y
 `pagefind --site public`. Hugo escribe las páginas, `_headers`, `_redirects` y
 `sitemap.xml` en `public/`; Pagefind indexa `data-pagefind-body` y escribe
-`public/pagefind/`.
+`public/pagefind/`. El menú, las migas de pan, el pie y la paginación llevan
+`data-pagefind-ignore="all"`, así los resultados muestran solo el texto de la
+página.
 
 **El servidor.** [`wrangler.toml`](../wrangler.toml) define el Worker `web`:
 `assets.directory = "./public"` lo sirve y las rutas inexistentes devuelven
@@ -143,10 +154,12 @@ reproducción.
   `sitemap_exclude: true` en el front matter no entra.
 - `params.toml` activa las funciones del sitio en `options` (KaTeX, modo oscuro,
   resaltado).
-- Las imágenes usan la carga diferida del navegador (`loading="lazy"`) con
-  `srcset`; `components/image-srcset.html` arma los anchos.
+- Las imágenes de Markdown (`_markup/render-image.html`) y del shortcode `img`
+  pasan por [`media/picture.html`](../layouts/_partials/media/picture.html), que
+  arma el `srcset` con los anchos de `params.toml` y usa la carga diferida del
+  navegador (`loading="lazy"`).
 
-Otras carpetas de `layouts/`: las secciones `blog`, `experimental`,
-`biblioteca`, `contacto` y `professors` usan la carpeta con su nombre; algunas
-páginas fijan `type` en su front matter (`extend`, `links`); `layouts/types/` y
-`layouts/functionalities/` dibujan las taxonomías de `experimental`.
+Otras carpetas de `layouts/`: las secciones `blog`, `experimental` y
+`professors` usan la carpeta con su nombre; `experimental/taxonomy.html` y
+`experimental/term.html` dibujan sus taxonomías `types` y `functionalities`; la
+página de enlaces fija `type: links` y usa `layouts/links/page.html`.

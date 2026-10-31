@@ -27,15 +27,14 @@ cascade:
       contributors: ["david"]
       images: []
       layout: "single"
-      toc: false
     target:
       kind: section
       path: /unmsm/pregrado/plan-2018/**
 ---
 
-<br>¡Bienvenido a nuestra serie de guías académicas para físicos en pregrado!
-Aquí encontrarás una descripción detallada de los recursos y materiales
-disponibles para optimizar tu experiencia educativa.
+¡Bienvenido a nuestra serie de guías académicas para físicos en pregrado! Aquí
+encontrarás una descripción detallada de los recursos y materiales disponibles
+para optimizar tu experiencia educativa.
 
 ## Plan de Estudios
 

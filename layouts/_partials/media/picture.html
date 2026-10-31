@@ -1,0 +1,35 @@
+{{- /*
+A page image at the widths in params. Context: dict with image (an image resource), alt, and optional class (on the figure), imgClass, caption and eager.
+An image no wider than params.smallLimit is drawn as it is, without a figure or a srcset.
+eager is for an image visible on load: it is not deferred and asks for high priority. sizes="auto" is only valid with loading="lazy"; the browser then uses the drawn width.
+*/ -}}
+{{- $image := .image -}}
+{{- if le $image.Width site.Params.smallLimit -}}
+	<img
+		{{ with .imgClass }}class="{{ . }}"{{ end }}
+		loading="lazy"
+		decoding="async"
+		src="{{ $image.RelPermalink }}"
+		width="{{ $image.Width }}"
+		height="{{ $image.Height }}"
+		alt="{{ .alt }}">
+{{- else -}}
+	{{- $widths := site.Params.landscapePhotoWidths -}}
+	{{- if gt $image.Height $image.Width }}{{ $widths = site.Params.portraitPhotoWidths }}{{ end -}}
+	{{- $srcset := slice -}}
+	{{- range $widths }}{{ $srcset = $srcset | append (printf "%s %dw" ($image.Resize (printf "%dx" .)).RelPermalink .) }}{{ end -}}
+	<figure{{ with .class }} class="{{ . }}"{{ end }}>
+		<img
+			{{ with .imgClass }}class="{{ . }}"{{ end }}
+			{{ if .eager }}fetchpriority="high" sizes="100vw"{{ else }}loading="lazy" sizes="auto, 100vw"{{ end }}
+			decoding="async"
+			src="{{ ($image.Resize (printf "%dx" (index $widths 0))).RelPermalink }}"
+			srcset="{{ delimit $srcset ", " }}"
+			width="{{ $image.Width }}"
+			height="{{ $image.Height }}"
+			alt="{{ .alt }}">
+		{{- with .caption }}
+			<figcaption>{{ . | safeHTML }}</figcaption>
+		{{- end }}
+	</figure>
+{{- end -}}

@@ -1,0 +1,7 @@
+{{- /* color-mode.ts binds #mode. The swap shows the sun while the page is dark. */ -}}
+<button id="mode" class="icon-btn md:order-last md:-mr-2" type="button" aria-label="Alternar el modo oscuro">
+	<span class="swap" data-theme>
+		{{ partial "ui/icon.html" "moon" }}
+		{{ partial "ui/icon.html" "sun" }}
+	</span>
+</button>

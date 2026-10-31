@@ -1,0 +1,53 @@
+{{- /*
+The facts of a course: code, credits, prerequisites, who taught it and its syllabi. Context: the course page.
+Professors and syllabi come from the course's offerings, newest semester first.
+*/ -}}
+{{- $professors := slice -}}
+{{- $syllabi := slice -}}
+{{- range .Pages -}}
+	{{- with .Params.professor }}{{ $professors = $professors | append . }}{{ end -}}
+	{{- if .Resources.Match "silabo*.pdf" }}{{ $syllabi = $syllabi | append . }}{{ end -}}
+{{- end -}}
+<section class="facts" aria-labelledby="course-info">
+	<h2 id="course-info">Información del curso</h2>
+	<dl>
+		<div>
+			<dt data-pagefind-ignore>Código</dt>
+			<dd>{{ .Params.id }}</dd>
+		</div>
+		{{- with .Params.credits }}
+			<div>
+				<dt data-pagefind-ignore>Créditos</dt>
+				<dd>{{ . }}</dd>
+			</div>
+		{{- end }}
+		{{- with .Params.prerequisites }}
+			<div>
+				<dt data-pagefind-ignore>Prerrequisitos</dt>
+				<dd>{{ delimit . ", " " y " }}</dd>
+			</div>
+		{{- end }}
+		{{- with uniq $professors }}
+			<div>
+				<dt data-pagefind-ignore>Profesores</dt>
+				<dd>
+					{{- range $i, $slug := . -}}
+						{{- if $i }}, {{ end -}}
+						{{- with partial "data/professor.html" $slug }}<a href="{{ .RelPermalink }}">{{ partial "data/professor-name.html" . }}</a>{{ end -}}
+					{{- end -}}
+				</dd>
+			</div>
+		{{- end }}
+		{{- with sort $syllabi "Params.semester" "desc" }}
+			<div>
+				<dt data-pagefind-ignore>Sílabos</dt>
+				<dd>
+					{{- range $i, $o := . -}}
+						{{- if $i }}, {{ end -}}
+						<a href="{{ $o.RelPermalink }}">{{ $o.Params.semester }}</a>
+					{{- end -}}
+				</dd>
+			</div>
+		{{- end }}
+	</dl>
+</section>

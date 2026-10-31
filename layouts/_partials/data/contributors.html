@@ -1,0 +1,10 @@
+{{- /* The contributor pages for a list of ids from front matter. A missing id fails the build. */ -}}
+{{- $pages := slice -}}
+{{- range . -}}
+	{{- with site.GetPage (printf "/contributors/%s" .) -}}
+		{{- $pages = $pages | append . -}}
+	{{- else -}}
+		{{- errorf "Unable to resolve contributor %q" . -}}
+	{{- end -}}
+{{- end -}}
+{{- return $pages -}}

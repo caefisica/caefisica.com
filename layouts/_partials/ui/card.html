@@ -1,0 +1,13 @@
+{{- /*
+A link card. Context: dict with
+  title, url, tag (heading element, default "h2"), emoji, lead (HTML),
+  page (optional; adds the page's byline).
+*/ -}}
+{{- $tag := .tag | default "h2" -}}
+<article class="card card-hover link-card">
+	{{ printf `<%s class="text-h3">` $tag | safeHTML -}}
+	<a class="card-link" href="{{ .url }}">{{ .title }}{{ with .emoji }}&nbsp;{{ . | emojify }}{{ end }}</a>
+	{{- printf `</%s>` $tag | safeHTML }}
+	{{- with .lead }}<p>{{ . | safeHTML }}</p>{{ end }}
+	{{- with .page }}{{ partial "article/byline.html" (dict "page" .) }}{{ end }}
+</article>

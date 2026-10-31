@@ -1,25 +1,19 @@
 <!doctype html>
-<html lang="{{ .Site.Language.Locale | default "es" }}">
-	{{ partial "head/head.html" . }}
-	{{ partial "head/body-class.html" . -}}
-	<body class="{{ delimit (.Store.Get "class") " " }}">
-		{{ partial "header/header.html" . }}
-		{{- /* Inner layouts open their own <main>; the home page spreads its content over three blocks, so the landmark wraps them here. */}}
-		{{ if .IsHome }}<main>{{ end }}
-		<div class="mx-auto w-full max-w-page px-gutter" role="document">
-			<div{{ if ne .Kind "404" }} data-pagefind-body{{ end }}>
-				{{- /* The trail a search result shows above its title. */}}
-				{{- $trail := slice }}
-				{{- range .Ancestors.Reverse }}{{ if not .IsHome }}{{ $trail = $trail | append .LinkTitle }}{{ end }}{{ end }}
-				{{- with $trail }}<span hidden data-pagefind-meta="section:{{ delimit . " › " }}"></span>{{ end }}
-				{{ block "main" . }}{{ end }}
-			</div>
-		</div>
-		{{ block "prefooter" . }}{{ end }}
-		{{ block "footer-widgets" . }}{{ end }}
-		{{ if .IsHome }}</main>{{ end }}
-		{{ partial "footer/footer.html" . }}
-		{{ partial "header/search-dialog.html" . }}
-		{{ partial "footer/script-footer.html" . }}
+<html lang="{{ site.Language.Locale | default "es" }}">
+	{{ partial "site/head.html" . }}
+	<body>
+		<a class="skip-link" href="#main">Saltar al contenido</a>
+		{{ partial "site/header.html" . }}
+		{{- /* The home page lays out full-width bands, so it brings its own containers. Search indexes every page but the home page and the 404. */}}
+		<main id="main"{{ if not .IsHome }} class="mx-auto w-full max-w-page px-gutter"{{ end }}{{ if not (in (slice "home" "404") .Kind) }} data-pagefind-body{{ end }}>
+			{{- /* The trail a search result shows above its title. */}}
+			{{- $trail := slice }}
+			{{- range .Ancestors.Reverse }}{{ if not .IsHome }}{{ $trail = $trail | append .LinkTitle }}{{ end }}{{ end }}
+			{{- with $trail }}<span hidden data-pagefind-meta="section:{{ delimit . " › " }}"></span>{{ end }}
+			{{ block "main" . }}{{ end }}
+		</main>
+		{{ partial "site/footer.html" . }}
+		{{ partial "search/dialog.html" . }}
+		{{ partial "site/scripts.html" . }}
 	</body>
 </html>

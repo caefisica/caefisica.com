@@ -1,60 +1,8 @@
 {{ define "main" }}
-{{ partial "components/welcome.html" . -}}
-{{ end }}
-
-{{ define "prefooter" }}
-{{ partial "components/features.html" . -}}
-
-{{ partial "components/study-guides.html" . -}}
-
-<section class="bg-surface py-section" aria-labelledby="colaborar">
-	<div class="mx-auto w-full max-w-page px-gutter md:text-center">
-		<h2 id="colaborar" class="reveal mt-0 mb-4 text-title">¿Deseas colaborar?</h2>
-		<p class="reveal mx-auto mb-8 max-w-[36rem] text-lead">
-			Si eres estudiante de segundo año o superior y deseas colaborar
-			con nuestro proyecto, ¡nos gustaría contar contigo! Puedes
-			editar directamente el contenido de la página, o bien, puedes
-			contactarnos a través de nuestro correo.
-		</p>
-		<p class="reveal m-0 flex flex-wrap gap-3 md:justify-center">
-			<a
-				class="btn btn-solid"
-				href="https://github.com/caefis/discusion/labels/sugerencia">
-				Quiero dar una recomendación
-			</a>
-			<a class="btn btn-outline" href="{{ "contacto/" | relURL }}">
-				Contáctanos
-			</a>
-		</p>
-	</div>
-</section>
-{{ end }}
-
-{{ define "footer-widgets" }}
-<section class="py-section" aria-labelledby="blog">
-	<div class="mx-auto w-full max-w-page px-gutter">
-		<div class="mb-12 flex flex-wrap items-end justify-between gap-4">
-			<h2 id="blog" class="reveal m-0 text-title">Blog</h2>
-			<a class="learn font-bold" href="{{ "blog/" | relURL }}">Ver todas las entradas{{ partial "components/learn-chevron.html" }}</a>
-		</div>
-		<ul class="m-0 grid list-none gap-10 p-0 md:grid-cols-3">
-			{{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "blog") -}}
-				<li class="reveal group relative border-t border-edge pt-5">
-					<p class="mb-3 text-sm text-muted">
-						<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Day }} de {{ index (hugo.Data.fixes.months) (printf "%d" .Date.Month) }} de {{ .Date.Year }}</time>
-						&middot; {{ .ReadingTime }}&nbsp;min. de lectura
-					</p>
-					<h3 class="mt-0 mb-3 text-h3 leading-tight tracking-tight">
-						<a class="text-fg before:absolute before:inset-0 group-hover:text-link" href="{{ .RelPermalink }}">
-							{{- .Params.title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end -}}
-						</a>
-					</h3>
-					{{ with .Params.lead }}<p class="mb-0 line-clamp-4 text-muted">{{ . | safeHTML }}</p>{{ end }}
-				</li>
-			{{ end -}}
-		</ul>
-	</div>
-</section>
-
-{{ partial "components/miembros.html" . -}}
+{{ partial "home/hero.html" . }}
+{{ partial "home/features.html" . }}
+{{ partial "home/study-guides.html" . }}
+{{ partial "home/collaborate.html" . }}
+{{ partial "home/latest-posts.html" . }}
+{{ partial "home/team.html" . }}
 {{ end }}

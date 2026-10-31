@@ -1,18 +1,13 @@
 {{ define "main" }}
-<section class="flex h-[calc(100vh-100px-1.72rem)] items-center justify-center">
-	<div class="grid grid-cols-1 items-center justify-center lg:grid-cols-16">
-		<div class="lg:col-span-5 lg:me-12">{{ partial "components/ghost.html" . -}}</div>
-		<div class="lg:col-span-7">
-			<article>
-				<h1 class="text-left">
-					Lo siento, no encontramos esta página {{ ":pensive:" | emojify }}
-				</h1>
-				<div class="text-left">
-					¿Estás seguro de que estaba acá? Puedes consultar con alguno de nuestros miembros si
-					crees que se trata de un error.
-				</div>
-			</article>
-		</div>
+<section class="not-found">
+	{{ partial "site/ghost.html" . }}
+	<div>
+		<h1>No encontramos esta página {{ ":pensive:" | emojify }}</h1>
+		<p class="text-lead">Puede que se haya movido. Búscala o vuelve al inicio.</p>
+		<p class="flex flex-wrap gap-3">
+			<button class="btn btn-solid" type="button" data-search-open aria-haspopup="dialog">Buscar en el sitio</button>
+			<a class="btn btn-outline" href="{{ "/" | relURL }}">Ir al inicio</a>
+		</p>
 	</div>
 </section>
 {{ end }}

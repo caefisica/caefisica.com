@@ -1,0 +1,10 @@
+{{- /* The home page gets its own smaller stylesheet; see the @source lines in home.css. */ -}}
+{{- with resources.Get (cond .IsHome "css/home.css" "css/app.css") | css.TailwindCSS (dict "minify" hugo.IsProduction) -}}
+	{{- partial "site/stylesheet-link.html" . -}}
+{{- end -}}
+{{- if .Params.math -}}
+	{{- with resources.Get "js/vendor/katex/dist/katex.min.css" | resources.Copy "katex.css" -}}
+		{{- partial "site/stylesheet-link.html" . -}}
+	{{- end -}}
+{{- end -}}
+<noscript><style>[data-search-open]{display:none}</style></noscript>

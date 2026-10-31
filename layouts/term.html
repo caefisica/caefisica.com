@@ -1,15 +1,20 @@
 {{ define "main" }}
-<div class="col-prose">
-	<h1>{{ .Title }}</h1>
-	<div class="mt-9 flex flex-col gap-8">
-		{{ range .Pages }}
-			{{ partial "components/card.html" (dict
-				"title" .Title
-				"url" .RelPermalink
-				"lead" .Params.lead
-			)
-			}}
-		{{ end }}
-	</div>
+<div class="col-prose py-section">
+	<header class="profile">
+		{{ partial "ui/avatar.html" (dict "page" . "size" 96 "eager" true) }}
+		<div>
+			<h1>{{ .Title }}</h1>
+			{{- with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
+		</div>
+	</header>
+	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
+	{{- with .Pages.ByDate.Reverse }}
+		<h2>Publicaciones</h2>
+		<div class="card-list">
+			{{- range . }}
+				{{ partial "ui/card.html" (dict "title" .Title "url" .RelPermalink "lead" (or .Params.lead .Description) "tag" "h3" "page" .) }}
+			{{- end }}
+		</div>
+	{{- end }}
 </div>
 {{ end }}

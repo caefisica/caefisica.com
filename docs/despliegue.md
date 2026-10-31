@@ -91,9 +91,9 @@ indexa el contenido de las páginas dentro del contenedor con el atributo
 el índice y su API en `public/pagefind/`.
 [`assets/js/search.ts`](../assets/js/search.ts) consulta esa API y dibuja los
 resultados en el diálogo de
-[`header/search-dialog.html`](../layouts/partials/header/search-dialog.html).
-Cada página sin portada lleva el metadato `section` con su ruta de secciones,
-que el resultado muestra sobre el título. Dónde se carga el buscador:
+[`search/dialog.html`](../layouts/_partials/search/dialog.html). Cada página sin
+portada lleva el metadato `section` con su ruta de secciones, que el resultado
+muestra sobre el título. Dónde se carga el buscador:
 [arquitectura](architecture.md).
 
 `bun run dev` ejecuta `build` antes, así que el índice también existe en local y

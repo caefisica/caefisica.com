@@ -1,0 +1,12 @@
+{{- /*
+Context: a JS resource. Appends it after `load` and the next frame, so it never competes with the first paint.
+A page with no external resources, like the home page, fires `load` before it paints, hence the extra frame.
+The script runs after DOMContentLoaded and must not wait for that event.
+*/ -}}
+{{- $attrs := dict "src" .RelPermalink -}}
+{{- if hugo.IsProduction -}}
+	{{- with . | fingerprint "sha512" -}}
+		{{- $attrs = dict "src" .RelPermalink "integrity" .Data.Integrity "crossOrigin" "anonymous" -}}
+	{{- end -}}
+{{- end -}}
+<script>addEventListener("load",()=>requestAnimationFrame(()=>setTimeout(()=>document.head.append(Object.assign(document.createElement("script"),{{ $attrs | jsonify | safeJS }})))),{once:true})</script>

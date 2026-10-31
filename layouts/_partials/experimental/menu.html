@@ -1,0 +1,25 @@
+{{- /* The Experimental menu: every article, then each type and functionality with its count. Context: the page. */ -}}
+{{- $page := . -}}
+{{- $all := site.GetPage "/experimental" -}}
+<h3>General</h3>
+<ul class="nav-tree">
+	<li>
+		<a class="docs-link docs-link-count" href="{{ $all.RelPermalink }}"{{ if $page.Eq $all }} data-active aria-current="page"{{ end }}>
+			<span>Todos los artículos</span>
+			<span class="count">{{ len $all.RegularPages }}</span>
+		</a>
+	</li>
+</ul>
+{{- range slice (dict "title" "Tópicos" "taxonomy" "types") (dict "title" "Categorías" "taxonomy" "functionalities") }}
+	<h3>{{ .title }}</h3>
+	<ul class="nav-tree">
+		{{- range index site.Taxonomies .taxonomy }}
+			<li>
+				<a class="docs-link docs-link-count" href="{{ .Page.RelPermalink }}"{{ if $page.Eq .Page }} data-active aria-current="page"{{ end }}>
+					<span>{{ .Page.Title | title }}</span>
+					<span class="count">{{ .Count }}</span>
+				</a>
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}

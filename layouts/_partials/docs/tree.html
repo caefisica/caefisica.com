@@ -1,0 +1,5 @@
+{{- /* The tree of the docs section the page belongs to. Context: the page. */ -}}
+{{- $page := . -}}
+<ul class="nav-tree">
+	{{- range partial "docs/children.html" .FirstSection }}{{ partial "docs/nav-node.html" (dict "page" $page "node" .) }}{{ end -}}
+</ul>
