@@ -283,20 +283,22 @@
       border-bottom-color: var(--line);
     }
 
+    /* A prose link is underlined at rest, since colour alone does not mark it (WCAG 1.4.1). On hover a full-strength line sweeps in from the left over the faint one. */
     :is(p, li, td) a:not(.plain) {
       padding-bottom: 0.2rem;
       background:
-        linear-gradient(90deg, rgb(44 38 130 / 0.4), rgb(44 38 130 / 0.4)) 0
-          100% / 0 0.1em no-repeat,
-        linear-gradient(90deg, transparent, transparent) 100% 100% / 100% 0.1em
-          no-repeat;
+        linear-gradient(currentColor, currentColor) 0 100% / 0 0.1em no-repeat,
+        linear-gradient(
+            color-mix(in oklab, currentColor 30%, transparent),
+            color-mix(in oklab, currentColor 30%, transparent)
+          )
+          100% 100% / 100% 0.1em no-repeat;
       transition: background-size 0.3s var(--ease-snap);
 
       &:hover {
         background-size:
           100% 0.1em,
           0 0.1em;
-        text-decoration: none;
       }
     }
   }

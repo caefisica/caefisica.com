@@ -1,13 +1,13 @@
 {{- $class := .class | default "ml-auto" -}}
 {{- $label := .label -}}
 <button
-	class="order-3 -mr-2 rounded-md px-1 py-1.5 text-fg hover:bg-pink-100 lg:hidden dark:hover:bg-surface {{ $class }}"
+	class="icon-btn order-3 lg:hidden {{ $class }}"
 	type="button"
 	data-toggle="docs-nav"
 	aria-controls="docs-nav"
 	aria-expanded="false"
 	aria-label="{{ $label }}">
-	<span class="swap block">
+	<span class="swap">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"

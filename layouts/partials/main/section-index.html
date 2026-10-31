@@ -1,0 +1,13 @@
+{{- /* Cards for what a docs section holds, so a section page is never only its intro: its own pages, then one group per subsection. Context: the section page. */ -}}
+{{- with .RegularPages.ByWeight -}}
+	{{ partial "main/section-group.html" (dict "pages" .) }}
+{{- end -}}
+{{- $courses := where .Sections "Params.semester" "!=" nil -}}
+{{- with $courses -}}
+	{{ partial "main/section-group.html" (dict "pages" .) }}
+{{- end -}}
+{{- range .Sections.ByWeight -}}
+	{{- if not .Params.semester -}}
+		{{ partial "main/section-group.html" (dict "title" .Title "link" .RelPermalink "description" .Description "pages" .Pages.ByWeight) }}
+	{{- end -}}
+{{- end -}}

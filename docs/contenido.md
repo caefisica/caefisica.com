@@ -16,7 +16,7 @@ content/
 ├── professors/<slug>/index.md         docentes
 ├── contributors/<slug>/_index.md      colaboradores
 ├── types/, functionalities/           índices de las taxonomías de experimental
-├── biblioteca/, contacto/, privacidad/
+├── contacto/, privacidad/
 ├── redes.md
 └── _index.md                          portada
 ```

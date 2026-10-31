@@ -1,0 +1,17 @@
+{{- /* Card grid of pages. Context: pages. A course card shows its code and credits; a section card shows how many pages it holds. */ -}}
+<ul class="m-0 mt-4 grid list-none gap-3 p-0 sm:grid-cols-2">
+	{{- range . -}}
+		<li class="card card-hover group flex items-center justify-between gap-4 px-4 py-3">
+			<div class="min-w-0">
+				<a class="block font-medium text-fg before:absolute before:inset-0 before:rounded-[inherit] group-hover:text-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+				{{- if .Params.credits -}}
+					<p class="m-0 text-sm text-muted">{{ .Params.id }} · {{ .Params.credits }} créditos</p>
+				{{- else if .IsSection -}}
+					{{- $n := len .Pages -}}
+					<p class="m-0 text-sm text-muted">{{ $n }} {{ cond (eq $n 1) "página" "páginas" }}</p>
+				{{- end -}}
+			</div>
+			{{ partial "components/learn-chevron.html" }}
+		</li>
+	{{- end -}}
+</ul>

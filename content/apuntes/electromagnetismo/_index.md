@@ -1,7 +1,7 @@
 ---
 title: "Electromagnetismo"
-description: "Research"
-lead: "Research"
+description: "Electrostática, electrodinámica, relatividad y superconductores."
+lead: "Electrostática, electrodinámica, relatividad y superconductores."
 cascade:
   - params:
       math: true

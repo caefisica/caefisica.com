@@ -5,5 +5,5 @@
 @source "layouts/partials/head";
 @source "layouts/partials/header";
 @source "layouts/partials/footer";
-@source "layouts/partials/components/{welcome,search-box,features,study-guides,miembros,learn-chevron}.html";
+@source "layouts/partials/components/{welcome,features,study-guides,miembros,learn-chevron}.html";
 @import "./site.css";
