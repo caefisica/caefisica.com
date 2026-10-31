@@ -28,7 +28,19 @@
 		{{ with hugo.Data.fixes.frontpage -}}
 			<div class="relative ml-auto max-w-[32rem]">
 				{{- /* Lazy: the photo is hidden below lg, and an eager fetch there delays the hero text, which is the LCP element. */}}
-				<img class="h-full w-full mask-contain mask-center mask-no-repeat [mask-image:url('/images/shape/hero-mask-svg.png')]" src="{{ .image | relURL }}" width="645" height="800" loading="lazy" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
+				{{- $photo := resources.Get .image }}
+				{{- $widths := slice 384 512 $photo.Width }}
+				<picture>
+					{{- range slice "avif" "webp" }}
+						{{- $format := . }}
+						{{- $srcset := slice }}
+						{{- range $widths }}
+							{{- $srcset = $srcset | append (printf "%s %dw" ($photo.Process (printf "resize %dx %s" . $format)).RelPermalink .) }}
+						{{- end }}
+						<source type="image/{{ $format }}" srcset="{{ delimit $srcset ", " }}" sizes="32rem"/>
+					{{- end }}
+					<img class="h-full w-full mask-contain mask-center mask-no-repeat [mask-image:url('/images/shape/hero-mask-svg.png')]" src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" loading="lazy" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
+				</picture>
 
 				{{ if .videoURL -}}
 					<div class="group absolute bottom-16 left-0 -translate-x-1/3">
