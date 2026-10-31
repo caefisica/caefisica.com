@@ -1,0 +1,9 @@
+/* The home page inlines this sheet, so it must fit the first TCP window with the HTML. Utilities come only from the templates the home page renders, not from hugo_stats.json, which lists every page's classes. */
+@import "tailwindcss" source(none);
+@source "layouts/home.html";
+@source "layouts/baseof.html";
+@source "layouts/partials/head";
+@source "layouts/partials/header";
+@source "layouts/partials/footer";
+@source "layouts/partials/components/{welcome,search-box,features,study-guides,miembros,learn-chevron}.html";
+@import "./site.css";

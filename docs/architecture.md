@@ -64,20 +64,35 @@ reproducción.
 **Los estilos y los scripts.**
 
 - [`partials/head/stylesheet.html`](../layouts/partials/head/stylesheet.html)
-  compila [`assets/css/app.css`](../assets/css/app.css) con `css.TailwindCSS`
-  (Tailwind v4). Hugo genera `hugo_stats.json` (`build.buildStats.enable`) y
-  `app.css` lo lee con `@source`: solo se emiten las utilidades que usan las
-  plantillas. La portada lleva la hoja en línea; las demás páginas la enlazan
-  fingerprinteada. KaTeX tiene su propia hoja, enlazada solo con `math: true`.
+  compila una hoja con `css.TailwindCSS` (Tailwind v4). Las reglas viven en dos
+  archivos: [`assets/css/site.css`](../assets/css/site.css) (tokens, base y
+  componentes que usa toda página) y
+  [`assets/css/docs.css`](../assets/css/docs.css) (tablas, código, Markdown,
+  menús de la documentación y paginación). Dos entradas los importan:
+  - [`assets/css/app.css`](../assets/css/app.css), para toda página salvo la
+    portada, importa los dos. Hugo genera `hugo_stats.json`
+    (`build.buildStats.enable`) y `app.css` lo lee con `@source`: solo se emiten
+    las utilidades que usan las plantillas. Las páginas la enlazan
+    fingerprinteada.
+  - [`assets/css/home.css`](../assets/css/home.css), para la portada, importa
+    solo `site.css` y toma las utilidades de las plantillas que la portada
+    pinta. La portada lleva esta hoja en línea, y el documento debe caber en la
+    primera ventana TCP (unos 14 KB comprimidos): cada ventana más cuesta un
+    viaje de ida y vuelta antes del primer pintado. Una regla que la portada no
+    usa va en `docs.css`.
+
+  KaTeX tiene su propia hoja, enlazada solo con `math: true`.
+
 - [`partials/head/script-header.html`](../layouts/partials/head/script-header.html)
   pone `assets/js/color-mode.ts` en línea para aplicar el tema antes del primer
   pintado.
 - [`partials/footer/script-footer.html`](../layouts/partials/footer/script-footer.html)
   compila los `.ts` de `assets/js/` con `js.Build` (esbuild). El paquete base
   reúne la navegación (`assets/js/navigation.ts`), los atajos de teclado,
-  lazysizes, clipboard e instant.page según `params.toml`; highlight.js, KaTeX,
-  Mermaid y el buscador (`assets/js/search.ts`, la interfaz de Pagefind) se
-  cargan solo donde se usan. `main.js` y el buscador se piden al terminar `load`
+  lazysizes e instant.page según `params.toml`, y clipboard solo si el contenido
+  tiene un `<pre>`; highlight.js, KaTeX, Mermaid y el buscador
+  (`assets/js/search.ts`, la interfaz de Pagefind) se cargan solo donde se usan.
+  `main.js` y el buscador se piden al terminar `load`
   (`partials/footer/load-after.html`). Las cabeceras `Link` de precarga salen de
   `head/resource-hints.html`.
 - `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` desde `node_modules` en
