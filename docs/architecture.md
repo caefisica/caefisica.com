@@ -92,7 +92,7 @@ reproducción.
   lazysizes e instant.page según `params.toml`, y clipboard solo si el contenido
   tiene un `<pre>`; highlight.js, KaTeX, Mermaid y el buscador
   (`assets/js/search.ts`, la interfaz de Pagefind) se cargan solo donde se usan.
-  `main.js` y el buscador se piden al terminar `load`
+  `main.js` y el buscador se piden después de `load` y del primer pintado
   (`partials/footer/load-after.html`). Las cabeceras `Link` de precarga salen de
   `head/resource-hints.html`.
 - `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` desde `node_modules` en
