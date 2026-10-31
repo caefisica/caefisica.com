@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="-mx-6 flex flex-wrap justify-between xl:flex-nowrap">
-	{{ partial "sidebar/aside.html" (dict "page" . "menu" "sidebar/docs-menu.html" "label" "Tertiary navigation") }}
+	{{ partial "sidebar/aside.html" (dict "page" . "menu" "sidebar/docs-menu.html" "label" "Navegación de la sección") }}
 	{{- if ne .Params.toc false -}}
-		<nav class="toc order-2 hidden border-x border-dashed border-line px-6 xl:sticky xl:top-16 xl:block xl:h-[calc(100vh-4rem)] xl:self-start xl:overflow-y-auto" aria-label="Quaternary navigation">
+		<nav class="toc order-2 hidden border-x border-dashed border-line px-6 xl:sticky xl:top-16 xl:block xl:h-[calc(100vh-4rem)] xl:self-start xl:overflow-y-auto" aria-label="En esta página">
 			{{ partial "sidebar/docs-toc.html" . }}
 		</nav>
 	{{- end -}}

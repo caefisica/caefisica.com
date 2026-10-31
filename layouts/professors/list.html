@@ -4,13 +4,13 @@
 	{{ with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
 	<div class="mt-4 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 		{{ range .Pages }}
-			<div class="relative rounded-md border border-black/15 bg-bg dark:border-white/15">
+			<div class="card card-hover">
 				<div class="p-4">
-					<h5>
-						<a href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
+					<h5 class="mt-4 mb-2">
+						<a class="after:absolute after:inset-0" href="{{ .RelPermalink }}">{{ partial "components/professor-name.html" . }}</a>
 					</h5>
 					{{ with .Params.institution }}
-						<p class="text-sm text-muted">{{ . | upper }}</p>
+						<p class="mb-0 text-sm text-muted">{{ . | upper }}</p>
 					{{ end }}
 				</div>
 			</div>

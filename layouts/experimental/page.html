@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="-mx-6 flex flex-wrap justify-between xl:flex-nowrap">
-	{{ partial "sidebar/aside.html" (dict "page" . "menu" "sidebar/showcase-menu.html" "label" "Main navigation") }}
+	{{ partial "sidebar/aside.html" (dict "page" . "menu" "sidebar/showcase-menu.html" "label" "Navegación de la sección") }}
 	{{- if ne .Params.toc false -}}
-		<nav class="toc order-2 hidden border-x border-dashed border-line px-6 xl:sticky xl:top-16 xl:block xl:h-[calc(100vh-4rem)] xl:self-start xl:overflow-y-auto" aria-label="Secondary navigation">
+		<nav class="toc order-2 hidden border-x border-dashed border-line px-6 xl:sticky xl:top-16 xl:block xl:h-[calc(100vh-4rem)] xl:self-start xl:overflow-y-auto" aria-label="En esta página">
 			{{ partial "sidebar/docs-toc.html" . }}
 		</nav>
 	{{ end -}}
@@ -33,7 +33,7 @@
 			</span>
 		</div>
 		{{ $image := index .Params.images 0 -}}
-		<div class="relative my-4 rounded-md border border-black/15 dark:border-white/15">
+		<div class="card my-4 bg-transparent">
 			{{ partial "main/img.html" (dict
 				"page" .
 				"src" $image

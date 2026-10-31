@@ -1,5 +1,6 @@
 {{- /*
 Byline. Context: dict with page and, optionally, single (hide the authors from xl, where the sidebar lists them).
+The date is the front matter `date`: the git-derived Lastmod changes with every formatting commit.
 */ -}}
 {{- $page := .page -}}
 <p class="mt-1 mb-[1.05rem]">
@@ -8,10 +9,11 @@ Byline. Context: dict with page and, optionally, single (hide the authors from x
 	{{- range $contributors -}}
 		{{- $authorLinks = $authorLinks | append (printf "<a class=\"relative\" href=\"%s\">%s</a>" .page.RelPermalink .name) -}}
 	{{- end -}}
-	<small class="text-[0.875em]">Publicado el {{ $page.Lastmod.Day }} de
-		{{ index (hugo.Data.fixes.months) (printf "%d" $page.Lastmod.Month) -}}<span{{ if .single }} class="xl:hidden"{{ end }}>
+	<small class="text-[0.875em]">
+		{{- with $page.Date }}{{ if not .IsZero }}Publicado el {{ .Day }} de {{ index (hugo.Data.fixes.months) (printf "%d" .Month) }}{{ end }}{{ end -}}
+		<span{{ if .single }} class="xl:hidden"{{ end }}>
 			por
-			{{- if eq (len $authorLinks) 2 -}}
+			{{ if eq (len $authorLinks) 2 -}}
 				{{ delimit $authorLinks " y " | safeHTML }}
 			{{- else -}}
 				{{ delimit $authorLinks ", " " y " | safeHTML }}
