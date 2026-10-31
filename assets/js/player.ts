@@ -4,7 +4,9 @@ interface YouTubeWindow {
   onYouTubeIframeAPIReady?: () => void;
 }
 
+// The player methods exist only after `onReady`; until then the iframe is loading.
 let player: YT.Player | null = null;
+let ready = false;
 let apiReady: Promise<void> | null = null;
 
 // YouTube solo se necesita al reproducir. La API se carga en el primer clic.
@@ -24,7 +26,9 @@ function init(): void {
   if (!playButton || !dialog) return;
 
   playButton.addEventListener("click", playVideo);
-  dialog.addEventListener("close", () => player?.stopVideo());
+  dialog.addEventListener("close", () => {
+    if (ready) player?.pauseVideo();
+  });
   dialog.addEventListener("click", (event) => {
     if (event.target === dialog) dialog.close();
   });
@@ -34,14 +38,25 @@ function init(): void {
     dialog!.showModal();
 
     await loadApi();
-    player?.destroy();
+    // The dialog may have closed while the API loaded: nothing must play behind it.
+    if (!dialog!.open) return;
+    if (player) {
+      if (ready) player.playVideo();
+      return;
+    }
 
     player = new YT.Player("player", {
       videoId,
       origin: window.location.origin,
       width: 900,
       height: 506,
-      events: {},
+      events: {
+        onReady: (event) => {
+          ready = true;
+          // `autoplay` starts the video; undo it when the dialog closed before the player was ready.
+          if (!dialog!.open) event.target.pauseVideo();
+        },
+      },
       playerVars: {
         autoplay: 1,
         controls: 1,
