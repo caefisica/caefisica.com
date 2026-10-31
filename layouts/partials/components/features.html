@@ -1,24 +1,20 @@
-<section class="bg-surface px-6 py-20 md:py-32" aria-labelledby="que-hacemos">
-	<div class="mx-auto grid w-full max-w-page gap-10 lg:grid-cols-[5fr_7fr] lg:gap-20">
-		<div class="lg:sticky lg:top-24 lg:self-start">
-			<h2 id="que-hacemos" class="reveal mt-0 mb-5 text-title">Conoce más sobre lo que hacemos</h2>
-			<p class="reveal mb-0 max-w-[26rem] text-lead text-muted">
-				¿Eres estudiante de primer semestre?
-				<a class="learn font-medium whitespace-nowrap" href="{{ "unmsm/pregrado/" | relURL }}">Comienza aquí{{ partial "components/learn-chevron.html" }}</a>
-			</p>
-		</div>
-		<ul class="m-0 list-none border-t border-edge p-0">
-			{{ with hugo.Data.content.features -}}
-				{{ range . -}}
-					<li class="reveal group relative border-b border-edge py-7">
-						<h3 class="m-0 mb-2 text-xl font-bold">
-							<a
-								class="text-fg before:absolute before:inset-0 group-hover:text-link"
-								href="{{ .link | relURL }}">{{ .title | markdownify }}{{ partial "components/learn-chevron.html" }}</a>
-						</h3>
-						<p class="m-0 max-w-[36rem] text-muted">{{ .description | markdownify }}</p>
-					</li>
-				{{ end -}}
+<section class="bg-surface py-section" aria-labelledby="que-hacemos">
+	<div class="mx-auto w-full max-w-page px-gutter">
+		<ul class="m-0 grid list-none gap-6 p-0 md:grid-cols-2 lg:grid-cols-3">
+			<li class="reveal flex flex-col justify-center py-4 md:col-span-2 lg:col-span-1 lg:pr-8">
+				<h2 id="que-hacemos" class="mt-0 mb-4 text-title">Conoce más sobre lo que hacemos</h2>
+				<p class="mb-0 text-muted">
+					¿Eres estudiante de primer semestre?
+					<a class="learn font-medium whitespace-nowrap" href="{{ "unmsm/pregrado/" | relURL }}">Comienza aquí{{ partial "components/learn-chevron.html" }}</a>
+				</p>
+			</li>
+			{{ range hugo.Data.content.features -}}
+				<li class="reveal card card-hover p-6 md:p-8">
+					<h3 class="mt-0 mb-3 text-xl font-bold">
+						<a class="text-fg after:absolute after:inset-0 hover:text-fg hover:no-underline" href="{{ .link | relURL }}">{{ .title | markdownify }}</a>
+					</h3>
+					<p class="m-0 text-muted">{{ .description | markdownify }}</p>
+				</li>
 			{{ end -}}
 		</ul>
 	</div>

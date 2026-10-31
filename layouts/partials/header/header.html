@@ -7,7 +7,7 @@
 <header
 	class="relative z-1000 border-b border-dashed border-line bg-glass py-2 lg:z-1025{{ if eq .Kind "home" }} border-b-0{{ end }}">
 	<nav
-		class="mx-auto flex w-full max-w-page flex-wrap items-center justify-between px-6 md:flex-nowrap"
+		class="mx-auto flex w-full max-w-page flex-wrap items-center justify-between px-gutter md:flex-nowrap"
 		aria-label="Navegación principal">
 		<a
 			class="mr-auto text-lg font-bold text-fg hover:no-underline focus:no-underline md:mr-3 md:text-xl"
@@ -203,7 +203,7 @@
 	<nav
 		class="z-1020 h-14 border-b border-dashed border-line py-2 backdrop-blur-[8px] backdrop-saturate-50 md:h-[59px] lg:sticky lg:top-0"
 		aria-label="Navegación secundaria">
-		<div class="mx-auto flex w-full max-w-page items-center px-6">
+		<div class="mx-auto flex w-full max-w-page items-center px-gutter">
 			<div class="mr-auto inline-flex">
 				{{ if partial "components/is-search-enabled.html" . -}}
 					<div id="search-placeholder" aria-hidden="true">
@@ -219,7 +219,7 @@
 		</div>
 	</nav>
 
-	<div class="mx-auto w-full max-w-page px-6">
+	<div class="mx-auto w-full max-w-page px-gutter">
 		<aside>
 			<div id="docs-nav" class="disclosure lg:hidden" data-open="false" inert>
 				<nav class="disclosure-body docs-links" aria-label="Navegación de la sección">
@@ -234,7 +234,7 @@
 	<nav
 		class="z-1020 h-14 border-b border-dashed border-line py-2 backdrop-blur-[8px] backdrop-saturate-50 md:h-[59px] lg:sticky lg:top-0"
 		aria-label="Navegación terciaria">
-		<div class="mx-auto flex w-full max-w-page items-center px-6">
+		<div class="mx-auto flex w-full max-w-page items-center px-gutter">
 			<nav class="flex">
 				{{ range .Site.Menus.tertiary -}}
 					<a
@@ -249,7 +249,7 @@
 		</div>
 	</nav>
 
-	<div class="mx-auto w-full max-w-page px-6">
+	<div class="mx-auto w-full max-w-page px-gutter">
 		<aside>
 			<div id="docs-nav" class="disclosure lg:hidden" data-open="false" inert>
 				<nav class="disclosure-body docs-links" aria-label="Navegación de la sección">

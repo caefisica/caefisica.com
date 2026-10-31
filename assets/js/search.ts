@@ -31,6 +31,9 @@ if (container) {
       showImages: false,
       showSubResults: false,
     });
+    // Pagefind gives its input a placeholder but no accessible name.
+    const input = container.querySelector("input");
+    input?.setAttribute("aria-label", input.placeholder || "Buscar");
   });
   script.addEventListener("error", () => {
     placeholder?.remove();
