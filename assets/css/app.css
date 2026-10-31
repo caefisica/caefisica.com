@@ -1404,12 +1404,10 @@
     }
   }
 
-  /* Entrance of the hero: each element rises 12px and unblurs. `--i` staggers them. Content is visible at rest, so reduced motion needs no fallback. */
+  /* Entrance of the hero: each element rises 12px. `--i` staggers them. It never fades or blurs: the hero text is the largest contentful paint, and Chrome counts it only once it is visible, so a fade-in costs the whole animation in LCP. */
   @keyframes rise {
     from {
-      opacity: 0;
       translate: 0 0.75rem;
-      filter: blur(3px);
     }
   }
 
