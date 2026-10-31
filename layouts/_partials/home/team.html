@@ -1,29 +1,9 @@
-<section id="equipo" class="bg-surface py-section" aria-labelledby="equipo-titulo">
+<section id="equipo" class="grid-bg py-section" aria-labelledby="equipo-titulo">
 	<div class="mx-auto w-full max-w-page px-gutter">
 		<div class="mb-12 flex flex-wrap items-end justify-between gap-4">
-			<h2 id="equipo-titulo" class="reveal m-0 text-title">Nuestro equipo</h2>
+			<h2 id="equipo-titulo" class="reveal tone m-0 text-title">Nuestro equipo <span>por áreas</span></h2>
 			<a class="learn font-bold" href="{{ "equipo/" | relURL }}">Conoce al equipo{{ partial "ui/chevron.html" }}</a>
 		</div>
-		<ul class="m-0 grid list-none grid-cols-2 gap-x-6 gap-y-8 p-0 sm:grid-cols-4 lg:grid-cols-7">
-			{{ range hugo.Data.authors.members -}}
-				<li class="relative">
-					<img
-						class="mb-3 size-20 rounded-full bg-gray-200 object-cover"
-						src="/images/member/{{ .first_name | lower }}.webp"
-						width="80"
-						height="80"
-						loading="lazy"
-						alt="" />
-					<p class="m-0 text-sm text-muted">{{ .funcion }}</p>
-					<p class="m-0 font-bold">
-						{{- if .url -}}
-							<a class="text-fg before:absolute before:inset-0 hover:text-link" href="{{ .url | relURL }}">{{ .name }}</a>
-						{{- else -}}
-							{{ .name }}
-						{{- end -}}
-					</p>
-				</li>
-			{{ end -}}
-		</ul>
+		{{ partial "ui/org-chart.html" . }}
 	</div>
 </section>

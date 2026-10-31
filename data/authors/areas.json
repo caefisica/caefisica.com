@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Mesa Directiva",
+    "groups": [
+      {
+        "members": [
+          { "who": "David", "role": "Coordinador General" },
+          { "who": "Sergio", "role": "Subcoordinador General" },
+          { "who": "Liuba", "role": "Directora de Comunicaciones" },
+          { "who": "Richard", "role": "Director Académico" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Comunicaciones",
+    "groups": [
+      {
+        "label": "Redes sociales",
+        "members": [
+          { "who": "Liuba", "role": "Planificación y Diseño" },
+          { "who": "Nelson", "role": "Diseño e Investigación" },
+          { "who": "Victor", "role": "Diseño e Investigación" },
+          { "who": "Andrea", "role": "Diseño e Investigación" }
+        ]
+      },
+      {
+        "label": "Comunidad",
+        "members": [
+          { "who": "Karla", "role": "Comunidad de FB e IG" },
+          { "who": "Richard", "role": "Comunidad de WhatsApp" }
+        ]
+      },
+      {
+        "label": "Marketing",
+        "members": [{ "who": "Nelson", "role": "Marketing" }]
+      }
+    ]
+  },
+  {
+    "name": "Académico",
+    "groups": [
+      {
+        "label": "Sitio web y publicaciones técnicas",
+        "members": [
+          { "who": "Sergio", "role": "Redacción" },
+          { "who": "Richard", "role": "Redacción" }
+        ]
+      },
+      {
+        "label": "Cursos y talleres",
+        "members": [{ "who": "David", "role": "Cursos y Talleres" }]
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{{- /* The organisation chart: areas as columns, each group a dashed box of member cards. Reads data/authors/areas.json; a member's photo and author page come from members.json by first name. */ -}}
+{{- $people := dict }}
+{{- range hugo.Data.authors.members }}{{ $people = merge $people (dict (lower .first_name) .) }}{{ end }}
+<div class="org">
+	{{- range hugo.Data.authors.areas }}
+		<section class="org-area">
+			<h3 class="org-title">{{ .name }}</h3>
+			<div class="org-groups">
+				{{- range .groups }}
+					<div class="org-group">
+						{{- with .label }}<p class="org-label">{{ . }}</p>{{ end }}
+						<ul class="org-list">
+							{{- range .members }}
+								{{- $p := index $people (lower .who) }}
+								<li class="org-card">
+									<img class="org-photo" src="{{ printf "/images/member/%s.webp" (lower $p.first_name) | relURL }}" width="40" height="40" loading="lazy" alt="" />
+									<div>
+										<p class="org-name">
+											{{- if $p.url -}}<a class="org-link" href="{{ $p.url | relURL }}">{{ $p.name }}</a>{{ else }}{{ $p.name }}{{ end -}}
+										</p>
+										<p class="org-role">{{ .role }}</p>
+									</div>
+								</li>
+							{{- end }}
+						</ul>
+					</div>
+				{{- end }}
+			</div>
+		</section>
+	{{- end }}
+</div>

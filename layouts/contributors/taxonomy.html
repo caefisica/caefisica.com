@@ -1,35 +1,20 @@
 {{- /*
-The team page: the current team from data/authors/members.json, the other authors by how much they wrote, and how to join.
-A member whose url names an author page links to it and shows its count, so nobody is listed twice.
+The team page: the organisation chart from data/authors/areas.json, the other authors by how much they wrote, and how to join.
+An author who is a current member (members.json) is not listed again under "También escribieron".
 */ -}}
 {{ define "main" }}
+{{- $members := slice }}
+{{- range hugo.Data.authors.members }}
+	{{- with .url }}{{ with site.GetPage . }}{{ $members = $members | append .RelPermalink }}{{ end }}{{ end }}
+{{- end }}
+<div class="grid-bg">
+	<div class="mx-auto w-full max-w-page px-gutter py-page">
+		<h1 class="text-display">{{ .Title }}</h1>
+		{{- with .Params.lead }}<p class="max-w-[40rem] text-lead text-muted">{{ . }}</p>{{ end }}
+		<div class="mt-12">{{ partial "ui/org-chart.html" . }}</div>
+	</div>
+</div>
 <div class="col-prose py-page">
-	<h1>{{ .Title }}</h1>
-	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
-
-	{{- $members := slice }}
-	<ul class="team">
-		{{- range hugo.Data.authors.members }}
-			{{- $author := "" }}
-			{{- with .url }}{{ $author = site.GetPage . }}{{ end }}
-			{{- with $author }}{{ $members = $members | append .RelPermalink }}{{ end }}
-			<li class="member">
-				<img
-					class="avatar"
-					src="{{ printf "/images/member/%s.webp" (lower .first_name) | relURL }}"
-					width="96"
-					height="96"
-					loading="lazy"
-					alt="" />
-				<p class="member-name">
-					{{- with $author }}<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .name }}{{ end -}}
-				</p>
-				<p>{{ .funcion }}</p>
-				{{- with $author }}<p>{{ partial "data/publication-count.html" (len .Pages) }}</p>{{ end }}
-			</li>
-		{{- end }}
-	</ul>
-
 	<h2>También escribieron</h2>
 	<ul class="people">
 		{{- range .Data.Terms.ByCount }}
