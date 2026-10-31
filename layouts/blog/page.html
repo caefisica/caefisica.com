@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="col-prose py-section">
+<article class="col-prose py-page">
 	<header class="article-head">
 		{{ partial "article/breadcrumbs.html" . }}
 		<h1>{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>

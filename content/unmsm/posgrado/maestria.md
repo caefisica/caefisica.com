@@ -1,7 +1,11 @@
 ---
 title: "Maestría"
-description: ""
-lead: ""
+description:
+  "Las menciones de la Maestría en Física en San Marcos y programas en el
+  extranjero."
+lead:
+  "Las cinco menciones de la Maestría en Física en San Marcos, cada una con su
+  plan de estudios, y programas de maestría en el extranjero."
 date: 2021-07-01T11:40:11-03:00
 lastmod: 2021-07-01T11:40:11-03:00
 draft: false
@@ -24,9 +28,7 @@ necesidades de la sociedad.
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_Solido.pdf" >}} {{< /details >}}
-
-<br>
+{{< pdf file="PE_2020_Maestria_Solido.pdf" title="Plan de estudios 2020, Física del Estado Sólido" >}}
 
 1. **Perfil del Ingresante**: El ingresante al programa de Maestría en Física
    debe poseer el grado académico de Bachiller en Física o áreas afines como
@@ -53,9 +55,7 @@ resultados de investigación.
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_Nuclear.pdf" >}} {{< /details >}}
-
-<br>
+{{< pdf file="PE_2020_Maestria_Nuclear.pdf" title="Plan de estudios 2020, Física Nuclear" >}}
 
 1. **Perfil del ingresante**: El ingresante al programa de Maestría en Física
    con mención en Física Nuclear debe poseer el grado académico de Bachiller en
@@ -80,9 +80,7 @@ globales, regionales y locales, y a escalas variables de tiempo.
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_Geofisica.pdf" >}} {{< /details >}}
-
-<br>
+{{< pdf file="PE_2020_Maestria_Geofisica.pdf" title="Plan de estudios 2020, Geofísica" >}}
 
 1. **Perfil del ingresante**: El ingresante al programa de Maestría en Física
    con mención en Geofísica debe poseer el grado académico de Bachiller en
@@ -120,9 +118,7 @@ campo específico.
 
 La duración es de 2 años (4 semestres).
 
-{{< details "Plan de Estudios - Actualizado el 2020" >}} {{< pdfjs file="PE_2020_Maestria_IHidraulica.pdf" >}} {{< /details >}}
-
-<br>
+{{< pdf file="PE_2020_Maestria_IHidraulica.pdf" title="Plan de estudios 2020, Ingeniería Hidráulica" >}}
 
 1. **Perfil del ingresante**: El ingresante al programa de Maestría en Física
    debe poseer el grado académico de Bachiller en Ingeniería de Mecánica de

@@ -21,6 +21,16 @@ target = "assets/notwatching/hugo_stats.json"
 disableWatch = true
 
 [[mounts]]
+source = "node_modules/@fontsource-variable/jost/files"
+target = "static/fonts/jost"
+files = ["jost-latin*.woff2"]
+
+[[mounts]]
+source = "node_modules/katex/dist/fonts"
+target = "static/fonts"
+files = ["*.woff2"]
+
+[[mounts]]
 source = "node_modules/mermaid"
 target = "assets/js/vendor/mermaid"
 

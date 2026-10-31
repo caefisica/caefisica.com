@@ -1,0 +1,63 @@
+{{- /*
+A PDF as a document: a row with its title, size and actions, over a viewer that js/pdf-viewer.ts draws.
+Context: dict with
+  page   the page that shows it; scripts.html loads the viewer when the page holds one
+  url    the PDF's URL
+  title  the document's name
+  size   optional size in bytes
+  open   show the viewer without a click, for a page whose content is the document
+*/ -}}
+{{- .page.Store.Set "pdf" true -}}
+{{- $id := printf "pdf-%s" (substr (md5 .url) 0 8) -}}
+<figure class="doc" data-pdf="{{ .url }}">
+	<figcaption class="doc-head">
+		{{ partial "ui/icon.html" (dict "name" "file" "size" 24 "class" "doc-icon") }}
+		<span class="doc-name">
+			<span class="doc-title">{{ .title }}</span>
+			<span class="doc-meta">
+				PDF
+				{{- with .size }}
+					· {{ if ge . 1048576 }}{{ lang.FormatNumber 1 (div (float .) 1048576) }} MB{{ else }}{{ math.Ceil (div (float .) 1024) }} KB{{ end }}
+				{{- end }}
+			</span>
+		</span>
+		<span class="doc-actions" data-pagefind-ignore="all">
+			{{- if not .open }}
+				<button
+					class="doc-btn"
+					type="button"
+					data-toggle="{{ $id }}"
+					aria-controls="{{ $id }}"
+					aria-expanded="false">
+					Ver
+					{{ partial "ui/icon.html" (dict "name" "chevron-down" "size" 16 "class" "doc-chevron") }}
+				</button>
+			{{- end }}
+			<a class="doc-btn" href="{{ .url }}" download>
+				{{ partial "ui/icon.html" (dict "name" "download" "size" 16) }}
+				Descargar
+			</a>
+		</span>
+	</figcaption>
+	<div class="doc-view disclosure" id="{{ $id }}" data-open="{{ if .open }}true{{ else }}false{{ end }}" data-pagefind-ignore="all">
+		<div class="disclosure-body">
+			<div class="doc-stage">
+				<p class="doc-status" role="status">Cargando el documento…</p>
+				<canvas></canvas>
+			</div>
+			<div class="doc-pager">
+				<button class="icon-btn" type="button" data-pdf-prev aria-label="Página anterior" disabled>
+					{{ partial "ui/icon.html" "chevron-left" }}
+				</button>
+				<span class="doc-count" aria-live="polite" data-pdf-count></span>
+				<button class="icon-btn" type="button" data-pdf-next aria-label="Página siguiente" disabled>
+					{{ partial "ui/icon.html" "chevron-right" }}
+				</button>
+				<a class="doc-open" href="{{ .url }}" target="_blank" rel="noopener">
+					Abrir en otra pestaña
+					{{ partial "ui/icon.html" (dict "name" "external" "size" 16) }}
+				</a>
+			</div>
+		</div>
+	</div>
+</figure>

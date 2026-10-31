@@ -3,7 +3,8 @@
 declare module "instant.page";
 
 declare module "@params" {
-  const params: { bundlePath: string };
+  // Each script.html call passes its own keys; a script reads only the ones its call sets.
+  const params: Record<string, string>;
   export default params;
 }
 

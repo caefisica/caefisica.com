@@ -1,11 +1,11 @@
 ---
 title: "Carga lectiva"
 description:
-  "En esta sección se detallan los procedimiento administrativos de la Facultad
-  de Ciencias Físicas."
+  "Horarios y docentes de los cursos de la Facultad de Ciencias Físicas en el
+  semestre 2022-II."
 lead:
-  "En esta sección se detallan los procedimiento administrativos de la Facultad
-  de Ciencias Físicas."
+  "Horarios y docentes de los cursos del semestre 2022-II, publicados por la
+  Facultad en setiembre de 2022."
 contributors: ["david"]
 date: 2022-09-09T08:48:45+00:00
 draft: false
@@ -13,6 +13,6 @@ weight: 2010
 images: []
 ---
 
-{{< details "Actualizado en setiembre del 2022" >}} {{< pdfjs file="H_2022-II_Facultad.pdf" >}} {{< /details >}}
+{{< pdf file="H_2022-II_Facultad.pdf" title="Cursos de la Facultad, 2022-II" open=true >}}
 
-{{< details "Actualizado en setiembre del 2022" >}} {{< pdfjs file="H_2022-II_EEEG.pdf" >}} {{< /details >}}
+{{< pdf file="H_2022-II_EEEG.pdf" title="Cursos de Estudios Generales, 2022-II" >}}

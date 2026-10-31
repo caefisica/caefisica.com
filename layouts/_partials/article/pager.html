@@ -4,7 +4,8 @@
 {{- $next := false -}}
 {{- with .Parent -}}
 	{{ if not .IsHome -}}
-		{{- $siblings := partial "docs/children.html" . -}}
+		{{- /* A section with `build.render: never` has no page to link. */ -}}
+		{{- $siblings := where (partial "docs/children.html" .) "RelPermalink" "!=" "" -}}
 		{{- range $i, $p := $siblings -}}
 			{{- if $p.Eq $page -}}
 				{{- if gt $i 0 }}{{ $prev = index $siblings (sub $i 1) }}{{ end -}}

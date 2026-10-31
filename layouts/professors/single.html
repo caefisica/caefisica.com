@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="col-prose py-section">
+<article class="col-prose py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<h1>{{ partial "data/professor-name.html" . }}</h1>
 	{{- with .Params.institution }}<p class="text-lead">{{ . | upper }}</p>{{ end }}

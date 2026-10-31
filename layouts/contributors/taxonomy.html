@@ -1,0 +1,49 @@
+{{- /* The team page: the current team from data/authors/members.json, every author by how much they wrote, and how to join. */ -}}
+{{ define "main" }}
+<div class="col-prose py-page">
+	<h1>{{ .Title }}</h1>
+	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
+
+	<h2>Equipo actual</h2>
+	<ul class="team">
+		{{- range $member := hugo.Data.authors.members }}
+			<li class="member">
+				<img
+					class="avatar"
+					src="{{ printf "/images/member/%s.webp" (lower .first_name) | relURL }}"
+					width="96"
+					height="96"
+					loading="lazy"
+					alt="" />
+				<p class="member-name">
+					{{- with .url }}<a class="card-link" href="{{ . | relURL }}">{{ $member.name }}</a>{{ else }}{{ .name }}{{ end -}}
+				</p>
+				<p>{{ .funcion }}</p>
+			</li>
+		{{- end }}
+	</ul>
+
+	<h2>Autores</h2>
+	<p>Quienes escribieron las guías, apuntes y entradas del sitio.</p>
+	<ul class="people">
+		{{- range .Data.Terms.ByCount }}
+			{{- with .Page }}
+				<li class="person">
+					{{ partial "ui/avatar.html" (dict "page" . "size" 48) }}
+					<div>
+						<a class="card-link font-bold" href="{{ .RelPermalink }}">{{ .Title }}</a>
+						<p>{{ len .Pages }} {{ cond (eq (len .Pages) 1) "publicación" "publicaciones" }}</p>
+					</div>
+				</li>
+			{{- end }}
+		{{- end }}
+	</ul>
+
+	<h2>Colabora</h2>
+	<p>Si estudias Física y quieres escribir una guía, corregir un error o proponer un tema, abre una propuesta en el repositorio o escríbenos.</p>
+	<p class="flex flex-wrap gap-3">
+		<a class="btn btn-solid" href="{{ site.Params.docsRepo }}/issues/new">Propón un artículo</a>
+		<a class="btn btn-outline" href="{{ "contacto/" | relURL }}">Contáctanos</a>
+	</p>
+</div>
+{{ end }}

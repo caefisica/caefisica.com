@@ -1,0 +1,13 @@
+{{- /*
+A PDF from the page's folder, shown as a document. Usage: {{< pdf file="plan.pdf" title="Plan de estudios" open=true >}}
+  file   the PDF's name in the page bundle, or in the section bundle of a single-file page
+  title  the document's name; defaults to the file name
+  open   show the viewer without a click, for a page whose content is the document
+*/ -}}
+{{- $file := .Get "file" -}}
+{{- with or (.Page.Resources.Get $file) (.Page.Parent.Resources.Get $file) -}}
+	{{- $title := $.Get "title" | default (path.BaseName $file | replaceRE `[_-]+` " ") -}}
+	{{- partial "media/document.html" (dict "page" $.Page "url" .RelPermalink "title" $title "size" (len .Content) "open" ($.Get "open")) -}}
+{{- else -}}
+	{{- errorf "pdf: %q is not a resource of %s or its section" $file .Page.File.Path -}}
+{{- end -}}

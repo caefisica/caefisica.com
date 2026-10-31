@@ -52,18 +52,20 @@ Texto en Markdown.
 {{< /details >}}
 ```
 
-## `pdfjs`
+## `pdf`
 
-Visor de PDF. `file` es el nombre de un PDF de la carpeta de la página.
+Un PDF como documento: una fila con título, tamaño, «Ver» y «Descargar»; «Ver»
+despliega el visor. La compilación falla si el archivo no existe.
 
 ```markdown
-{{< pdfjs file="plan2018.pdf" >}}
+{{< pdf file="plan2018.pdf" title="Plan de estudios 2018" >}}
 ```
 
-| Parámetro       | Valores                                  |
-| --------------- | ---------------------------------------- |
-| `file`          | Nombre del PDF.                          |
-| `hidePaginator` | `"true"` oculta los controles de página. |
+| Parámetro | Valores                                                                                                        |
+| --------- | -------------------------------------------------------------------------------------------------------------- |
+| `file`    | Nombre del PDF en la carpeta de la página. Una página de un solo archivo lo busca en la carpeta de su sección. |
+| `title`   | Nombre del documento. Por defecto, el nombre del archivo.                                                      |
+| `open`    | `true` muestra el visor abierto, para una página cuyo contenido es el documento.                               |
 
 ## `img` e `img-simple`
 

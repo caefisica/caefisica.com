@@ -1,5 +1,5 @@
-{{- /* Every page preloads the two weights above the fold: without them the text paints in the fallback font and then shifts. */ -}}
-{{- $fonts := slice "fonts/vendor/jost/jost-v4-latin-regular.woff2" "fonts/vendor/jost/jost-v4-latin-700.woff2" -}}
+{{- /* Every page preloads the upright Jost, which holds every weight: without it the text paints in the fallback font and then shifts. */ -}}
+{{- $fonts := slice "fonts/jost/jost-latin-wght-normal.woff2" -}}
 {{- if and site.Params.options.kaTex .Params.math -}}
 	{{- $fonts = $fonts | append "fonts/KaTeX_Main-Regular.woff2" "fonts/KaTeX_Math-Italic.woff2" -}}
 {{- end -}}

@@ -1,13 +1,21 @@
 ---
-title: "Procesos de Matricula"
-description: ""
-lead: ""
+title: "Procesos de matrícula"
+description:
+  "Tipos de matrícula y pasos para matricularse en el SUM, según el Reglamento
+  General de Matrícula."
+lead:
+  "Los tipos de matrícula que reconoce el Reglamento General de Matrícula y los
+  pasos para matricularse en el SUM."
 date: 2023-01-08T08:00:45+00:00
 draft: false
 images: []
 weight: 1010
 contributors: ["nelson"]
+aliases:
+  - /unmsm/pregrado/Reglamento-General-de-Matrícula.pdf
 ---
+
+{{< pdf file="Reglamento-General-de-Matrícula.pdf" title="Resolución que modifica el Reglamento General de Matrícula" >}}
 
 ## Matrícula
 

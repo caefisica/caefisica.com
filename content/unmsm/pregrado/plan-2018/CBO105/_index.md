@@ -64,6 +64,6 @@ Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico
 
 ## Material de referencia
 
-{{< details "Álgebra Superior I (Universidad Nacional Autónoma de México)" >}} {{< pdfjs file="referencia_unam_as1.pdf" >}} {{< /details >}}
+{{< pdf file="referencia_unam_as1.pdf" title="Álgebra Superior I, Universidad Nacional Autónoma de México" >}}
 
-{{< details "Álgebra Superior II (Universidad Nacional Autónoma de México)" >}} {{< pdfjs file="referencia_unam_as2.pdf" >}} {{< /details >}}
+{{< pdf file="referencia_unam_as2.pdf" title="Álgebra Superior II, Universidad Nacional Autónoma de México" >}}

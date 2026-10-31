@@ -26,7 +26,7 @@ A section whose subsections carry a semester is a curriculum: its courses group 
 				{{- if or ($page.Eq .) ($page.IsDescendant .) }}{{ $open = true }}{{ end -}}
 			{{- end -}}
 			{{- $items = printf "%s%s" $items (partial "docs/nav-branch.html" (dict
-				"id" (printf "nav-%s-%v" (md5 $node.RelPermalink) $semester)
+				"id" (printf "nav-%s-%v" (md5 $node.Path) $semester)
 				"title" (printf "Ciclo %v" $semester)
 				"open" $open
 				"items" $links
@@ -41,7 +41,7 @@ A section whose subsections carry a semester is a curriculum: its courses group 
 		{{- end -}}
 	{{- end -}}
 	{{- partial "docs/nav-branch.html" (dict
-		"id" (printf "nav-%s" (md5 $node.RelPermalink))
+		"id" (printf "nav-%s" (md5 $node.Path))
 		"title" $node.LinkTitle
 		"url" $node.RelPermalink
 		"current" ($page.Eq $node)
