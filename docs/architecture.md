@@ -89,13 +89,13 @@ reproducción.
   pintado.
 - [`partials/footer/script-footer.html`](../layouts/partials/footer/script-footer.html)
   compila los `.ts` de `assets/js/` con `js.Build` (esbuild). El paquete base
-  reúne la navegación (`assets/js/navigation.ts`), los atajos de teclado,
-  instant.page según `params.toml`, y clipboard solo si el contenido tiene un
-  `<pre>`; highlight.js, KaTeX, Mermaid y el buscador (`assets/js/search.ts`, la
-  interfaz de Pagefind) se cargan solo donde se usan. `main.js` y el buscador se
-  piden después de `load` y del primer pintado
-  (`partials/footer/load-after.html`). Las cabeceras `Link` de precarga salen de
-  `head/resource-hints.html`.
+  reúne la navegación (`assets/js/navigation.ts`), instant.page según
+  `params.toml`, y clipboard solo si el contenido tiene un `<pre>`;
+  highlight.js, KaTeX y Mermaid se cargan solo donde se usan. El buscador
+  (`assets/js/search.ts`, sobre la API de Pagefind) se carga en todas las
+  páginas, con sus atajos Ctrl/⌘ K y `/`. `main.js` y el buscador se piden
+  después de `load` y del primer pintado (`partials/footer/load-after.html`).
+  Las cabeceras `Link` de precarga salen de `head/resource-hints.html`.
 - `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` desde `node_modules` en
   `assets/js/vendor/`, y las plantillas de `@thulite/images` en `layouts/`
   (`_shortcodes`, `_markup` y `_partials`). Un `_shortcodes` montado gana a

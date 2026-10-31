@@ -1,9 +1,5 @@
 {{- $isProd := hugo.IsProduction -}}
-{{- $searchEnabled := partial "components/is-search-enabled.html" . -}}
-
-{{- if $searchEnabled -}}
-	{{ partial "footer/render-script" (dict "src" "js/search.ts" "load" "after-load" "params" (dict "bundlePath" ("pagefind/" | relURL))) }}
-{{- end -}}
+{{ partial "footer/render-script" (dict "src" "js/search.ts" "load" "after-load" "params" (dict "bundlePath" ("pagefind/" | relURL))) }}
 {{- if and .Site.Params.options.highLight (strings.Contains .Content "<pre") -}}
 	{{ partial "footer/render-script" (dict "src" "js/highlight.ts" "load" "defer") }}
 {{- end -}}
@@ -28,7 +24,7 @@
 {{- end -}}
 
 {{- $bundleOpts := dict "target" "es2020" "minify" $isProd "sourceMap" (cond $isProd "none" "inline") -}}
-{{- $bundle := slice (resources.Get "js/keyboard-shortcut.ts" | js.Build $bundleOpts) (resources.Get "js/navigation.ts" | js.Build $bundleOpts) -}}
+{{- $bundle := slice (resources.Get "js/navigation.ts" | js.Build $bundleOpts) -}}
 {{- $mainName := "main.js" -}}
 {{- if and .Site.Params.options.clipBoard (strings.Contains .Content "<pre") -}}
 	{{- $bundle = $bundle | append (resources.Get "js/clipboard.ts" | js.Build $bundleOpts) -}}

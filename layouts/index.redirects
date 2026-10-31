@@ -3,3 +3,5 @@
 {{ . }} {{ $p.RelPermalink }}
 {{ end -}}
 {{ end -}}
+{{- /* The library moved to its own site; this keeps old links working. */}}
+/biblioteca/ https://216.empirical.workers.dev/ 301

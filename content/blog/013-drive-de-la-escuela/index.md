@@ -68,11 +68,11 @@ Noa]({{< ref "/contributors/nelson/" >}} "Nelson Noa (exdelegado de la Base
 20)"), delegado de la Base 20 de la Escuela Profesional de Física, tuvo la
 iniciativa de crear un repositorio de documentos, libros, exámenes, prácticas y
 grabaciones en Google Drive. Esta carpeta llegó a superar los 120 GB en 2023 y,
-creo yo, fue un éxito, funcionando en paralelo con la [Biblioteca del
-@caefisica]({{< ref "/biblioteca/" >}} "Biblioteca del @caefisica"). Varios
-delegad@s de curso de la B20 contribuyeron a esta iniciativa, aunque no siempre,
-en muchas ocasiones esta responsabilidad implícita fue retomada por otros
-estudiantes del curso.
+creo yo, fue un éxito, funcionando en paralelo con la
+[Biblioteca del @caefisica](https://216.empirical.workers.dev/ "Biblioteca del @caefisica").
+Varios delegad@s de curso de la B20 contribuyeron a esta iniciativa, aunque no
+siempre, en muchas ocasiones esta responsabilidad implícita fue retomada por
+otros estudiantes del curso.
 
 Esta idea no pasó desapercibida y pronto otras bases comenzaron a replicar esta
 iniciativa, creando sus propias carpetas compartidas en Google Drive.

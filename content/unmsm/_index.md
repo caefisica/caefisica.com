@@ -8,10 +8,8 @@ description: ""
 description_2: "Guías de estudio con referencias a"
 description_3: "libros y listas de reproducción de videos."
 lead:
-  "En los últimos meses hemos ido publicando varias guías de estudio, estas
-  comprenden principalmente de dos secciones: libros y canales de Youtube.
-  Todavía no hemos terminado con ellos. A lo largo del año haremos varias
-  actualizaciones en respuesta a los comentarios que recibiremos de ustedes."
+  "Guías de estudio para cada curso de la carrera, con libros y listas de videos
+  recomendados."
 date: 2020-10-06T08:48:23+00:00
 draft: false
 images: []

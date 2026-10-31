@@ -17,12 +17,17 @@
 	<div>
 		<h1 class="enter mt-0 mb-6 text-display">Una guía para el estudio de las Ciencias Físicas</h1>
 		<p class="enter mb-8 max-w-[34rem] text-lead text-muted" style="--i: 1">{{ .Params.Lead | safeHTML -}}</p>
-		{{ if partial "components/is-search-enabled.html" . -}}
-			{{- /* z-10: each .enter is its own stacking context, and later siblings would paint over the results drawer. */}}
-			<div class="enter relative z-10 max-w-[28rem]" style="--i: 2">
-				{{ partial "components/search-box.html" }}
-			</div>
-		{{ end -}}
+		<button
+			class="enter flex h-14 w-full max-w-[28rem] items-center gap-3 rounded-xl border border-edge bg-bg px-4 text-left text-lg text-muted shadow-sm transition-[border-color,box-shadow] duration-150 hover:border-link hover:shadow-md"
+			style="--i: 2"
+			type="button"
+			data-search-open
+			aria-haspopup="dialog"
+			aria-keyshortcuts="Control+K /">
+			{{ partial "header/search-icon.html" }}
+			<span class="grow">Buscar cursos, apuntes…</span>
+			<span class="hidden gap-1 sm:inline-flex" aria-hidden="true"><kbd class="kbd" data-kbd-mod>Ctrl</kbd><kbd class="kbd">K</kbd></span>
+		</button>
 		<p class="enter mt-6 mb-0 text-base text-muted" style="--i: 3">Un proyecto del {{ .Site.Params.titleAddition }}</p>
 	</div>
 	<div class="hidden lg:block">

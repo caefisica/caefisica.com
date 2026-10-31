@@ -1,7 +1,7 @@
 ---
 title: "Física Clásica"
-description: "Research"
-lead: "Research"
+description: "Cinemática y mecánica newtoniana, lagrangiana y hamiltoniana."
+lead: "Cinemática y mecánica newtoniana, lagrangiana y hamiltoniana."
 cascade:
   - params:
       math: true

@@ -1,7 +1,11 @@
 ---
 title: "Termodinámica"
-description: "Research"
-lead: "Research"
+description:
+  "Ecuaciones de estado, energía interna, primera ley y termodinámica
+  estadística."
+lead:
+  "Ecuaciones de estado, energía interna, primera ley y termodinámica
+  estadística."
 cascade:
   - params:
       math: true

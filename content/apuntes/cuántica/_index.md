@@ -1,7 +1,7 @@
 ---
 title: "Mecánica Cuántica"
-description: "Research"
-lead: "Research"
+description: "Simetrías en mecánica cuántica."
+lead: "Simetrías en mecánica cuántica."
 cascade:
   - params:
       math: true

@@ -1,7 +1,7 @@
 ---
 title: "Cálculo"
 description: "Los apuntes de cálculo incluyen problemas resueltos."
-lead: "Research"
+lead: "Los apuntes de cálculo incluyen problemas resueltos."
 cascade:
   - params:
       math: true
