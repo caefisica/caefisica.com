@@ -3,13 +3,13 @@
 
 {{- partial "site/script.html" (dict "src" "js/search.ts" "load" "after-load" "params" (dict "bundlePath" ("pagefind/" | relURL))) -}}
 
-{{- /* navigation.ts and its companions ship as one file. Hugo caches resources.Concat by target name, so each combination needs its own name. */ -}}
+{{- /* navigation.ts and its companions ship as one file. Hugo caches resources.Concat by target name, so each combination needs its own name. The parts join with "-": Cloudflare answers a "+" in a path with a 307 to "%2B", an extra round trip. */ -}}
 {{- $parts := slice "navigation" -}}
 {{- if and site.Params.options.clipBoard $hasCode }}{{ $parts = $parts | append "clipboard" }}{{ end -}}
 {{- if site.Params.options.instantPage }}{{ $parts = $parts | append "instant-page" }}{{ end -}}
 {{- $bundle := slice -}}
 {{- range $parts }}{{ $bundle = $bundle | append (resources.Get (printf "js/%s.ts" .) | js.Build $build) }}{{ end -}}
-{{- partial "site/load-after.html" ($bundle | resources.Concat (printf "js/%s.js" (delimit $parts "+"))) -}}
+{{- partial "site/load-after.html" ($bundle | resources.Concat (printf "js/%s.js" (delimit $parts "-"))) -}}
 
 {{- if and site.Params.options.highLight $hasCode -}}
 	{{- partial "site/script.html" (dict "src" "js/highlight.ts") -}}
