@@ -170,14 +170,6 @@
     }
   }
 
-  .blur-up {
-    filter: blur(5px);
-
-    &.lazyloaded {
-      filter: unset;
-    }
-  }
-
   /* Botón que clipboard.ts agrega a cada bloque de código. */
   .copy-button {
     position: absolute;

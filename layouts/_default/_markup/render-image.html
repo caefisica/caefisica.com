@@ -9,32 +9,24 @@
 	{{- if gt $image.Width site.Params.smallLimit -}}
 		<figure>
 			<img
-				class="lazyload blur-up"
-				data-sizes="auto"
-				src="{{ $img.lqip }}"
-				data-srcset="{{ $img.srcset }}"
+				loading="lazy"
+				decoding="async"
+				sizes="auto, 100vw"
+				src="{{ $img.src }}"
+				srcset="{{ $img.srcset }}"
 				width="{{ $image.Width }}"
 				height="{{ $image.Height }}"
 				alt="{{ $.Text }}"
 			/>
-			<noscript><img
-					sizes="100vw"
-					srcset="{{ $img.srcset }}"
-					src="{{ $img.src }}"
-					width="{{ $image.Width }}"
-					height="{{ $image.Height }}"
-					alt="{{ $.Text }}"
-				/>
-			</noscript>
 			{{ with $.Title -}}
 				<figcaption>{{ . | safeHTML }}</figcaption>
 			{{- end }}
 		</figure>
 	{{- else -}}
 		<img
-			class="lazyload blur-up"
-			src="{{ $img.lqip }}"
-			data-src="{{ $img.src }}"
+			loading="lazy"
+			decoding="async"
+			src="{{ $img.src }}"
 			width="{{ $image.Width }}"
 			height="{{ $image.Height }}"
 			alt="{{ $.Text }}"

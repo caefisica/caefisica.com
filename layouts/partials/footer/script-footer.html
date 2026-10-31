@@ -29,9 +29,6 @@
 
 {{- $bundleOpts := dict "target" "es2020" "minify" $isProd "sourceMap" (cond $isProd "none" "inline") -}}
 {{- $bundle := slice (resources.Get "js/keyboard-shortcut.ts" | js.Build $bundleOpts) (resources.Get "js/navigation.ts" | js.Build $bundleOpts) -}}
-{{- if .Site.Params.options.lazySizes -}}
-	{{- $bundle = $bundle | append (resources.Get "js/lazysizes.ts" | js.Build $bundleOpts) -}}
-{{- end -}}
 {{- $mainName := "main.js" -}}
 {{- if and .Site.Params.options.clipBoard (strings.Contains .Content "<pre") -}}
 	{{- $bundle = $bundle | append (resources.Get "js/clipboard.ts" | js.Build $bundleOpts) -}}

@@ -90,10 +90,10 @@ reproducción.
 - [`partials/footer/script-footer.html`](../layouts/partials/footer/script-footer.html)
   compila los `.ts` de `assets/js/` con `js.Build` (esbuild). El paquete base
   reúne la navegación (`assets/js/navigation.ts`), los atajos de teclado,
-  lazysizes e instant.page según `params.toml`, y clipboard solo si el contenido
-  tiene un `<pre>`; highlight.js, KaTeX, Mermaid y el buscador
-  (`assets/js/search.ts`, la interfaz de Pagefind) se cargan solo donde se usan.
-  `main.js` y el buscador se piden después de `load` y del primer pintado
+  instant.page según `params.toml`, y clipboard solo si el contenido tiene un
+  `<pre>`; highlight.js, KaTeX, Mermaid y el buscador (`assets/js/search.ts`, la
+  interfaz de Pagefind) se cargan solo donde se usan. `main.js` y el buscador se
+  piden después de `load` y del primer pintado
   (`partials/footer/load-after.html`). Las cabeceras `Link` de precarga salen de
   `head/resource-hints.html`.
 - `module.toml` monta `mermaid`, `katex` y `pdfjs-dist` desde `node_modules` en
@@ -141,8 +141,10 @@ reproducción.
   `layouts/index.headers`. La política CSP sale de `data/fixes/headers.yml`.
 - `layouts/sitemap.xml` genera `/sitemap.xml`. Una página con
   `sitemap_exclude: true` en el front matter no entra.
-- `params.toml` activa las funciones del sitio en `options` (lazysizes, KaTeX,
-  modo oscuro, resaltado).
+- `params.toml` activa las funciones del sitio en `options` (KaTeX, modo oscuro,
+  resaltado).
+- Las imágenes usan la carga diferida del navegador (`loading="lazy"`) con
+  `srcset`; `components/image-srcset.html` arma los anchos.
 
 Otras carpetas de `layouts/`: las secciones `blog`, `experimental`,
 `biblioteca`, `contacto` y `professors` usan la carpeta con su nombre; algunas

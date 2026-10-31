@@ -1,9 +1,9 @@
 {{ $image := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) -}}
-{{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}
 <img
-	class="img-simple lazyload blur-up{{ with .Get "class" }} {{ . }}{{ end }}"
-	src="{{ $lqip.RelPermalink }}"
-	data-src="{{ $image.RelPermalink }}"
+	class="img-simple{{ with .Get "class" }} {{ . }}{{ end }}"
+	loading="lazy"
+	decoding="async"
+	src="{{ $image.RelPermalink }}"
 	width="{{ $image.Width }}"
 	height="{{ $image.Height }}"
 	{{ with .Get "alt" }}alt="{{ . }}"{{ end }} />

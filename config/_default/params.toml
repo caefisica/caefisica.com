@@ -34,7 +34,6 @@ themeColor = "#fff"
 
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
-lqipWidth = "20x"
 smallLimit = "600"
 
 footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
@@ -57,7 +56,6 @@ lastMod = true
 giscus = false
 
 [options]
-lazySizes = true
 clipBoard = true
 instantPage = true
 darkMode = true
