@@ -72,14 +72,15 @@ reproducción.
   - [`assets/css/app.css`](../assets/css/app.css), para toda página salvo la
     portada, importa los dos. Hugo genera `hugo_stats.json`
     (`build.buildStats.enable`) y `app.css` lo lee con `@source`: solo se emiten
-    las utilidades que usan las plantillas. Las páginas la enlazan
-    fingerprinteada.
+    las utilidades que usan las plantillas.
   - [`assets/css/home.css`](../assets/css/home.css), para la portada, importa
     solo `site.css` y toma las utilidades de las plantillas que la portada
-    pinta. La portada lleva esta hoja en línea, y el documento debe caber en la
-    primera ventana TCP (unos 14 KB comprimidos): cada ventana más cuesta un
-    viaje de ida y vuelta antes del primer pintado. Una regla que la portada no
-    usa va en `docs.css`.
+    pinta, así la hoja que bloquea su primer pintado es pequeña. Una regla que
+    la portada no usa va en `docs.css`.
+
+  Las dos se enlazan fingerprinteadas. Una hoja en línea agranda el documento
+  más allá de la primera ventana TCP (unos 14 KB comprimidos), y esa ventana de
+  más costó más que pedir la hoja aparte.
 
   KaTeX tiene su propia hoja, enlazada solo con `math: true`.
 

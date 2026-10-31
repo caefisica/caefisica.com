@@ -1,10 +1,7 @@
 {{- with resources.Get (cond (eq .Kind "home") "css/home.css" "css/app.css") -}}
 	{{- $opts := dict "minify" hugo.IsProduction -}}
 	{{- with . | css.TailwindCSS $opts -}}
-		{{- if and hugo.IsProduction (eq $.Kind "home") -}}
-			{{- /* La portada usa esta hoja en línea. El primer pintado no espera otra petición. */ -}}
-			<style>{{ .Content | safeCSS }}</style>
-		{{- else if hugo.IsProduction -}}
+		{{- if hugo.IsProduction -}}
 			{{- with . | fingerprint "sha512" -}}
 				<link
 					rel="stylesheet"
