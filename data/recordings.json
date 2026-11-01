@@ -57,6 +57,17 @@
       "last": "2026"
     },
     {
+      "id": "asdf-pucp",
+      "name": "Charlas de la ASDF PUCP",
+      "organiser": "Asociación de Estudiantes de Física de la PUCP",
+      "one": "charla",
+      "unit": "charlas",
+      "talks": 6,
+      "videos": 6,
+      "first": "2020",
+      "last": "2021"
+    },
+    {
       "id": "divulgacion",
       "name": "Divulgación",
       "organiser": null,
@@ -4794,6 +4805,22 @@
       "month": "2021-02"
     },
     {
+      "id": "yt-w1cq6FICd6c",
+      "series": "asdf-pucp",
+      "date": "2021-01-19",
+      "minutes": 51,
+      "url": "https://www.youtube.com/watch?v=w1cq6FICd6c",
+      "host": "YouTube",
+      "title": "Huellas de la Ciencia: Patrones químicos inducidos por advección",
+      "speakers": [
+        {
+          "name": "Angelo Ledesma",
+          "affiliation": "Bachiller en Física de la PUCP"
+        }
+      ],
+      "month": "2021-01"
+    },
+    {
       "id": "yt-tdSF_Dw-bYs",
       "series": "aeft-uni",
       "date": "2021-01-16",
@@ -4803,6 +4830,39 @@
       "title": "Física y Astrofísica de Neutrinos",
       "speakers": [],
       "month": "2021-01"
+    },
+    {
+      "id": "yt-hnL30Q3VW-s",
+      "series": "asdf-pucp",
+      "date": "2021-01-15",
+      "minutes": 116,
+      "url": "https://www.youtube.com/watch?v=hnL30Q3VW-s",
+      "host": "YouTube",
+      "title": "Peruanos en ciencias: Investigación y Divulgación, 4.ª edición",
+      "speakers": [
+        {
+          "name": "Mauricio Bustamante"
+        },
+        {
+          "name": "Aldo Bartra"
+        }
+      ],
+      "month": "2021-01"
+    },
+    {
+      "id": "yt-w-D336V2rDQ",
+      "series": "asdf-pucp",
+      "date": "2020-12-12",
+      "minutes": 57,
+      "url": "https://www.youtube.com/watch?v=w-D336V2rDQ",
+      "host": "YouTube",
+      "title": "¿Cómo iniciarme en la investigación científica?, 3.ª edición",
+      "speakers": [
+        {
+          "name": "Carla Arce-Tord"
+        }
+      ],
+      "month": "2020-12"
     },
     {
       "id": "yt-yo6W1YvoGro",
@@ -4835,6 +4895,24 @@
       "host": "YouTube",
       "title": "Usando Estrellas de Neutrones para Restringir Teorías Alternativas de Gravedad",
       "speakers": [],
+      "month": "2020-12"
+    },
+    {
+      "id": "yt-zL8Rb_mpy3w",
+      "series": "asdf-pucp",
+      "date": "2020-12-05",
+      "minutes": 118,
+      "url": "https://www.youtube.com/watch?v=zL8Rb_mpy3w",
+      "host": "YouTube",
+      "title": "¿Cómo puedo iniciarme en la investigación en ciencias?, 2.ª edición",
+      "speakers": [
+        {
+          "name": "Christian Valqui"
+        },
+        {
+          "name": "Andrés Guerra"
+        }
+      ],
       "month": "2020-12"
     },
     {
@@ -4937,6 +5015,28 @@
           "name": "Melina Valencia Mori"
         }
       ]
+    },
+    {
+      "id": "yt-WFaxbBtsIAE",
+      "series": "asdf-pucp",
+      "date": "2020-11-07",
+      "minutes": 110,
+      "url": "https://www.youtube.com/watch?v=WFaxbBtsIAE",
+      "host": "YouTube",
+      "title": "¿Cómo puedo iniciarme en la investigación en Pregrado?, 1.ª edición",
+      "speakers": [
+        {
+          "name": "Joel Jones",
+          "profile": "/fisicos/joel-jones-perez/"
+        },
+        {
+          "name": "Julio Montoya"
+        },
+        {
+          "name": "Betty Galarreta"
+        }
+      ],
+      "month": "2020-11"
     },
     {
       "id": "yt-MAUP6Er9qS0",
@@ -5126,6 +5226,22 @@
         }
       ],
       "month": "2020-09"
+    },
+    {
+      "id": "yt-EqI-_VGPTDQ",
+      "series": "asdf-pucp",
+      "date": "2020-07-17",
+      "minutes": 61,
+      "url": "https://www.youtube.com/watch?v=EqI-_VGPTDQ",
+      "host": "YouTube",
+      "title": "REPU Computer Science",
+      "speakers": [
+        {
+          "name": "Claudia Parisuaña",
+          "affiliation": "Bachiller en Física de la PUCP y estudiante de maestría en la Universidad de Stanford"
+        }
+      ],
+      "month": "2020-07"
     },
     {
       "id": "yt-psvik-BUkzQ",

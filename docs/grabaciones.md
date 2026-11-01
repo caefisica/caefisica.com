@@ -51,7 +51,10 @@ Hay cuatro orígenes:
   - la Asociación Estudiantil de Física Teórica de la UNI (`aeft-uni`);
   - el Encuentro de Física de la Facultad de Ciencias de la UNI (`encuentro`);
   - el coloquio del grupo GRACOCC de la UNT (`unt`), sin las clases de sus
-    cursos («Curso:», «Práctica»), que no son charlas.
+    cursos («Curso:», «Práctica»), que no son charlas;
+  - la Asociación de Estudiantes de Física de la PUCP (`asdf-pucp`): solo sus
+    webinars y las charlas de Huellas de la Ciencia. Sus talleres de examen,
+    asesorías y clases no son charlas.
 
   El ponente sale del título o de la descripción. Dos subidas del mismo día con
   el mismo título y casi la misma duración son una sola; si las duraciones
