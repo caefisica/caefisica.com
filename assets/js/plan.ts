@@ -8,7 +8,7 @@ let saved: string | null = null;
 try {
   saved = localStorage.getItem(KEY);
 } catch {
-  // Storage is unavailable in some private modes; the panel then opens on cycle 1.
+  // Some private modes block storage. The panel then opens on cycle 1, and a choice is not remembered.
 }
 
 for (const input of inputs) {
@@ -16,8 +16,6 @@ for (const input of inputs) {
   input.addEventListener("change", () => {
     try {
       localStorage.setItem(KEY, input.value);
-    } catch {
-      // Same as above: the choice simply is not remembered.
-    }
+    } catch {}
   });
 }
