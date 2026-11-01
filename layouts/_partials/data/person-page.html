@@ -1,0 +1,6 @@
+{{- /* Returns the site's page for a person named in data/theses.json, or nil. Context: the person's slugs, in the order the data gives them. A physicist profile wins over a professor page, since it holds the person's path. */ -}}
+{{- $page := false -}}
+{{- range $section := slice "fisicos" "professors" -}}
+	{{- range $ }}{{ if not $page }}{{ with site.GetPage (printf "/%s/%s" $section .) }}{{ $page = . }}{{ end }}{{ end }}{{ end -}}
+{{- end -}}
+{{- return $page -}}

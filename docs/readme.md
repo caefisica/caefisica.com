@@ -11,5 +11,7 @@
   imágenes, PDF y diagramas.
 - [Físicos](fisicos.md): perfiles escritos, fuentes, cronología, foto,
   publicaciones de OpenAlex y el mapa de físicos.
+- [Tesis](tesis.md): la copia de Cybertesis, sus vistas y cómo un nombre enlaza
+  su perfil.
 - [Despliegue](despliegue.md): Cloudflare, Netlify, búsqueda, cabeceras y flujos
   de GitHub.

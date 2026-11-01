@@ -1,0 +1,6 @@
+{{- /* A person from data/theses.json: their name, linking their page on the site when there is one. Context: dict with name and slugs. */ -}}
+{{- with partialCached "data/person-page.html" .slugs .name -}}
+	<a href="{{ .RelPermalink }}">{{ $.name }}</a>
+{{- else -}}
+	{{ .name }}
+{{- end -}}
