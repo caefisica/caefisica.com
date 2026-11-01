@@ -7,9 +7,9 @@ An author who is a current member (members.json) is not listed again under "Tamb
 {{- range hugo.Data.authors.members }}
 	{{- with .url }}{{ with site.GetPage . }}{{ $members = $members | append .RelPermalink }}{{ end }}{{ end }}
 {{- end }}
-<div class="mx-auto w-full max-w-page px-gutter py-page">
-	<h1 class="text-display">{{ .Title }}</h1>
-	{{- with .Params.lead }}<p class="max-w-[40rem] text-lead text-muted">{{ . }}</p>{{ end }}
+<div class="py-page">
+	<h1>{{ .Title }}</h1>
+	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
 	<div class="mt-12">{{ partial "ui/org-chart.html" . }}</div>
 
 	<section class="team-band" aria-labelledby="also">
