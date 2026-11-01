@@ -7,7 +7,7 @@ The rail lists every topic that has a published note.
 {{- $body := $note.RawContent | strings.TrimSpace -}}
 {{- /* Split on display-math fences: even parts are Markdown, odd parts are TeX. The excerpt stops after the second equation. */ -}}
 {{- $parts := first 5 (split $body "$$") -}}
-<section class="sec border-t border-edge" aria-labelledby="apuntes">
+<section class="sec border-t border-dashed border-edge" aria-labelledby="apuntes">
 	<div class="mx-auto w-full max-w-page px-gutter">
 		<div class="sec-copy">
 			<h2 id="apuntes" class="sec-title reveal">Apuntes<br/>de clase en LaTeX</h2>

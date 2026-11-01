@@ -2,7 +2,16 @@
 {{- /* Sticky and exactly h-14 tall: the docs sidebar, the table of contents and table headers stick right below it. */}}
 <header class="sticky top-0 z-1000 border-b border-edge bg-glass backdrop-blur-md lg:z-1025">
 	<nav class="mx-auto flex h-14 w-full max-w-page items-center gap-1 px-gutter" aria-label="Navegación principal">
-		<a class="mr-auto text-lg font-semibold text-fg" href="{{ "/" | relURL }}">{{ site.Params.title }}</a>
+		{{- /* The brand lockup: the name, then the current section after a slash. */}}
+		<p class="m-0 mr-auto flex min-w-0 items-baseline gap-2 text-lg">
+			<a class="font-semibold text-fg" href="{{ "/" | relURL }}">{{ site.Params.title }}</a>
+			{{- with .FirstSection }}
+				{{- if not .IsHome }}
+					<span class="text-muted" aria-hidden="true">/</span>
+					<a class="truncate text-muted hover:text-fg" href="{{ .RelPermalink }}">{{ .Title | lower }}</a>
+				{{- end }}
+			{{- end }}
+		</p>
 
 		{{ partial "site/search-button.html" (dict "class" "icon-btn md:hidden") }}
 		{{ if site.Params.options.darkMode }}{{ partial "site/theme-toggle.html" }}{{ end }}
