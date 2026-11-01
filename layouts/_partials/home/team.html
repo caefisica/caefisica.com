@@ -1,8 +1,10 @@
-<section id="equipo" class="py-section" aria-labelledby="equipo-titulo">
-	<div class="mx-auto w-full max-w-page border-t border-edge px-gutter pt-12">
-		<div class="mb-12 flex flex-wrap items-end justify-between gap-4">
-			<h2 id="equipo-titulo" class="reveal tone m-0 text-title">Nuestro equipo <span>por áreas</span></h2>
-			<a class="learn font-medium" href="{{ "equipo/" | relURL }}">Conoce al equipo{{ partial "ui/chevron.html" }}</a>
+<section id="equipo" class="sec border-t border-edge" aria-labelledby="equipo-titulo">
+	<div class="mx-auto w-full max-w-page px-gutter">
+		<div class="sec-copy">
+			<h2 id="equipo-titulo" class="sec-title reveal">Nuestro equipo por áreas</h2>
+			<div class="reveal">
+				<a class="sec-link mt-0 lg:ml-8" href="{{ "equipo/" | relURL }}">Conoce al equipo<span class="text-fg" aria-hidden="true">→</span></a>
+			</div>
 		</div>
 		{{ partial "ui/org-chart.html" . }}
 	</div>

@@ -14,7 +14,7 @@
 			</div>
 		</div>
 		{{ with hugo.Data.fixes.frontpage -}}
-			<div class="hero-media hero-fade mt-16" style="--i: 3">
+			<div class="hero-media bleed hero-fade mt-16" style="--i: 3">
 				{{- /* Lazy: the photo sits below the title, which is the LCP element. */}}
 				{{- $photo := resources.Get .image }}
 				{{- $widths := slice 768 1280 $photo.Width }}

@@ -1,22 +1,21 @@
-{{- /* The three newest blog posts, as a changelog list. */ -}}
-<section class="py-section" aria-labelledby="blog">
-	<div class="mx-auto grid w-full max-w-page gap-6 border-t border-edge px-gutter pt-12 lg:grid-cols-[5fr_7fr] lg:gap-16">
-		<div>
-			<h2 id="blog" class="reveal mt-0 mb-4 text-title">Blog</h2>
-			<a class="learn font-medium" href="{{ "blog/" | relURL }}">Ver todas las entradas{{ partial "ui/chevron.html" }}</a>
-		</div>
-		<ul class="m-0 list-none p-0">
+{{- /* The three newest blog posts, as a timeline. */ -}}
+<section class="sec" aria-labelledby="blog">
+	<div class="mx-auto w-full max-w-page px-gutter">
+		<h2 id="blog" class="sec-title reveal mb-16">Blog</h2>
+		<ul class="timeline">
 			{{- range first 3 (where site.RegularPages.ByDate.Reverse "Section" "blog") }}
-				<li class="reveal group relative border-b border-edge py-6 first:pt-0">
-					<p class="mb-2 text-sm text-muted">{{ partial "ui/date.html" .Date }} &middot; {{ .ReadingTime }}&nbsp;min. de lectura</p>
-					<h3 class="mt-0 mb-2 text-h5 font-medium">
-						<a class="text-fg before:absolute before:inset-0 group-hover:text-link" href="{{ .RelPermalink }}">
+				<li class="reveal">
+					<span class="dot" aria-hidden="true"></span>
+					<h3 class="m-0 text-base font-medium">
+						<a class="before:absolute before:inset-0" href="{{ .RelPermalink }}">
 							{{- .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end -}}
 						</a>
 					</h3>
-					{{- with .Params.lead }}<p class="m-0 line-clamp-3 text-muted">{{ . | safeHTML }}</p>{{ end }}
+					{{- with .Params.lead }}<p class="mt-2 mb-5 line-clamp-2 text-muted">{{ . | safeHTML }}</p>{{ end }}
+					<p class="mono-label m-0">{{ partial "ui/date.html" .Date }}</p>
 				</li>
 			{{- end }}
 		</ul>
+		<a class="sec-link" href="{{ "blog/" | relURL }}">Ver todas las entradas<span class="text-fg" aria-hidden="true">→</span></a>
 	</div>
 </section>
