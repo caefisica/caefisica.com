@@ -1,0 +1,12 @@
+{{- /* The talks a person gave, on their profile. Context: the profile path ("/fisicos/<slug>/"), matched against each speaker's profile in data/recordings.json. */ -}}
+{{- $path := . -}}
+{{- $talks := slice -}}
+{{- range $r := hugo.Data.recordings.recordings -}}
+	{{- range $r.speakers }}{{ if eq .profile $path }}{{ $talks = $talks | append $r }}{{ end }}{{ end -}}
+{{- end -}}
+{{- with $talks }}
+	<h2 id="charlas">Charlas <span class="count">{{ len . }}</span></h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "grabaciones/row.html" (dict "recording" . "note" (index (where hugo.Data.recordings.series "id" .series) 0).name) }}{{ end }}
+	</ul>
+{{- end }}

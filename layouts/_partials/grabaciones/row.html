@@ -1,15 +1,14 @@
-{{- /* One recording on /grabaciones/: title linking the original video, speakers and where it is under it, date and length on the right. Context: dict with recording and optional note, which replaces the host. */ -}}
+{{- /* One talk or session on /grabaciones/: title linking the video, or the invitation when there is no video; speakers and where it is under it; day or month on the right. Context: dict with recording and optional note, which goes before the host. */ -}}
 {{- $r := .recording -}}
-{{- $when := time.AsTime $r.date -}}
 <li class="group">
 	<div class="row-main">
 		<a class="card-link" href="{{ $r.url }}">{{ $r.title }}</a>
 		<p>
 			{{- range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ end }}
 			{{- with $r.speakers }}{{ with (index . 0).affiliation }} ({{ . }}){{ end }} · {{ end }}
-			{{- .note | default $r.host }}{{ with $r.minutes }} · {{ . }} min{{ end -}}
+			{{- with .note }}{{ . }} · {{ end }}{{ cond (eq $r.host "Invitación") "Invitación, sin video" $r.host }}{{ with $r.minutes }} · {{ . }} min{{ end -}}
 		</p>
 	</div>
-	<time class="row-meta" datetime="{{ $r.date }}">{{ $when | time.Format ":date_medium" }}</time>
+	<span class="row-meta">{{ partial "ui/day-or-month.html" $r }}</span>
 </li>
 {{- /**/ -}}

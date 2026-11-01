@@ -10,6 +10,6 @@
 		{{- end }}
 		<p>{{ partial "tesis/name.html" $d.candidate }} · {{ .note | default ($t.degree | default $d.degree | default "Sustentación") }}</p>
 	</div>
-	<span class="row-meta">{{ partial "tesis/defence-date.html" $d }}</span>
+	<span class="row-meta">{{ partial "ui/day-or-month.html" $d }}</span>
 </li>
 {{- /**/ -}}

@@ -53,7 +53,7 @@ parent = "recursos"
 weight = 15
 
 [[main]]
-name = "Grabaciones"
+name = "Charlas"
 pageRef = "/grabaciones"
 parent = "recursos"
 weight = 16

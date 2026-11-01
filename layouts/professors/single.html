@@ -30,6 +30,6 @@
 	{{- else }}
 		<p class="text-muted">Aún no hay cursos registrados para este docente.</p>
 	{{- end }}
-	{{- with .File }}{{ partial "tesis/person.html" .ContentBaseName }}{{ end }}
+	{{- with .File }}{{ partial "tesis/person.html" .ContentBaseName }}{{ partial "grabaciones/person.html" (printf "/professors/%s/" .ContentBaseName) }}{{ end }}
 </article>
 {{ end }}

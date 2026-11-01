@@ -1,4 +1,4 @@
-{{- /* When a defence was: its day when the invitation gives one, otherwise the month the invitation was posted. Context: a defence from data/defences.json. */ -}}
+{{- /* A <time> for a day when it is known, otherwise for the month. Context: a dict with date (YYYY-MM-DD or nil) and month (YYYY-MM), as in data/defences.json and data/recordings.json. */ -}}
 {{- with .date -}}
 	{{ partial "ui/date.html" (time.AsTime .) }}
 {{- else -}}
