@@ -58,6 +58,7 @@ Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico
 | Nombre              | Autor                              | Enlace                                                                             | Idioma  |
 | ------------------- | ---------------------------------- | ---------------------------------------------------------------------------------- | ------- |
 | Álgebra Superior 1  | Prof. Esteban Rubén Hurtado (UNAM) | [HTML](https://sistemas.fciencias.unam.mx/~erhc/algebra_superior_1/inicio2.html)   | Español |
+| Álgebra Superior 1  | Max Neumann (UNAM)                 | [notas](https://www.matem.unam.mx/~max/algebrasuperior.html)                       | Español |
 | Algebra Superior II | Christof Geiss (UNAM-IMATE)        | [HTML](https://www.matem.unam.mx/~christof/cursos/05_AS2/curso.html)               | Español |
 | Álgebra Superior II | El blog de Leo (UNAM)              | [blog](https://blog.nekomath.com/as2/)                                             | Español |
 | Matemáticas         | Yony Raul                          | [Google sites](https://sites.google.com/view/yonyraul/matematicabasica?authuser=0) | Español |
