@@ -1,0 +1,15 @@
+{{- /* One defence from data/defences.json in a list: the thesis title, linking its page when Cybertesis has it and the invitation otherwise; candidate and degree under it; the day or month on the right. Context: dict with defence and optional note, which replaces the degree. */ -}}
+{{- $d := .defence -}}
+{{- $t := and $d.thesis (index (where hugo.Data.theses.theses "id" $d.thesis) 0) -}}
+<li class="group">
+	<div class="row-main">
+		{{- if $t }}
+			<a class="card-link" href="{{ (site.GetPage (printf "/tesis/%s" $t.id)).RelPermalink }}">{{ $t.title }}</a>
+		{{- else }}
+			<a class="card-link" href="{{ $d.url }}">{{ $d.title | default (printf "Sustentación de %s" $d.candidate.name) }}</a>
+		{{- end }}
+		<p>{{ partial "tesis/name.html" $d.candidate }} · {{ .note | default ($t.degree | default $d.degree | default "Sustentación") }}</p>
+	</div>
+	<span class="row-meta">{{ partial "tesis/defence-date.html" $d }}</span>
+</li>
+{{- /**/ -}}

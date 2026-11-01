@@ -37,11 +37,29 @@
 					<dd>{{ range $i, $a := . }}{{ if $i }}, {{ end }}{{ partial "tesis/name.html" $a }}{{ end }}</dd>
 				</div>
 			{{- end }}
-			{{- with $t.jurors }}
+			{{- $defence := index (where hugo.Data.defences.defences "thesis" $t.id) 0 }}
+			{{- with $defence }}
+				{{- /* The invitation names each juror's role, so the jury splits into one row per role. The advisors are in their own row. */}}
+				{{- $jury := .jury }}
+				{{- range $r := slice (slice "Presidente" "Presidente" "Presidentes") (slice "Miembro" "Miembro" "Miembros") (slice "Miembro externo" "Miembro externo" "Miembros externos") (slice "Miembro suplente" "Suplente" "Suplentes") }}
+					{{- with where $jury "role" (index $r 0) }}
+						<div>
+							<dt>{{ index $r (cond (gt (len .) 1) 2 1) }}</dt>
+							<dd>{{ range $i, $j := . }}{{ if $i }}, {{ end }}{{ partial "tesis/name.html" $j }}{{ end }}</dd>
+						</div>
+					{{- end }}
+				{{- end }}
 				<div>
-					<dt>Jurado</dt>
-					<dd>{{ delimit . ", " }}</dd>
+					<dt>Sustentación</dt>
+					<dd>{{ partial "tesis/defence-date.html" . }} · <a href="{{ .url }}">invitación</a></dd>
 				</div>
+			{{- else }}
+				{{- with $t.jurors }}
+					<div>
+						<dt>Jurado</dt>
+						<dd>{{ delimit . ", " }}</dd>
+					</div>
+				{{- end }}
 			{{- end }}
 			<div>
 				<dt>Texto completo</dt>

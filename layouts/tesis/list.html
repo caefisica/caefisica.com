@@ -28,7 +28,7 @@
 {{- end -}}
 {{- $advisors = sort (sort $advisors "person.name") "n" "desc" -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d trabajos de la Facultad de Ciencias Físicas, de %d a %d, copiados de Cybertesis con su resumen, su asesor y su jurado. El texto completo está en el repositorio." (len $theses) (int (index (last 1 $years) 0)) (int (index $years 0)))) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d trabajos de la Facultad de Ciencias Físicas, de %d a %d, copiados de Cybertesis con su resumen, su asesor y su jurado, y las sustentaciones que la facultad anunció. El texto completo está en el repositorio." (len $theses) (int (index (last 1 $years) 0)) (int (index $years 0)))) }}
 
 	<div class="views">
 		<fieldset class="pill-tabs">
@@ -36,6 +36,7 @@
 			<label><input type="radio" name="vista" value="area" checked /><span>Área</span></label>
 			<label><input type="radio" name="vista" value="anio" /><span>Año</span></label>
 			<label><input type="radio" name="vista" value="asesor" /><span>Asesor</span></label>
+			<label><input type="radio" name="vista" value="sustentacion" /><span>Sustentaciones</span></label>
 		</fieldset>
 
 		<div class="view" data-view="area">
@@ -82,6 +83,24 @@
 				</section>
 			{{- end }}
 			<p class="text-muted">Asesores con tres trabajos o más. Los demás están en la página de cada tesis.</p>
+		</div>
+
+		<div class="view" data-view="sustentacion">
+			{{- $defences := hugo.Data.defences.defences }}
+			{{- $dyears := slice }}
+			{{- range $defences }}{{ $dyears = $dyears | append (substr .month 0 4) }}{{ end }}
+			{{- range uniq $dyears }}
+				{{- $year := . }}
+				{{- $rows := slice }}
+				{{- range $defences }}{{ if eq (substr .month 0 4) $year }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
+				<section class="section-group band">
+					<h2>{{ $year }} <span class="count">{{ len $rows }}</span></h2>
+					<ul class="rows">
+						{{- range $rows }}{{ partial "tesis/defence-row.html" (dict "defence" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			<p class="text-muted">Las invitaciones que la facultad publicó en Facebook desde {{ index (last 1 $dyears) 0 }}, con su jurado. Cada fila abre la tesis cuando ya está en Cybertesis y la invitación cuando no.</p>
 		</div>
 	</div>
 </div>

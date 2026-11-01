@@ -18,3 +18,14 @@
 		{{- range . }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
 	</ul>
 {{- end }}
+{{- /* Defences they judged, from the invitations; the ones they advised are listed above. */ -}}
+{{- $judged := slice -}}
+{{- range $d := hugo.Data.defences.defences -}}
+	{{- range $d.jury }}{{ if and (in .slugs $slug) (not (in (slice "Asesor" "Asesora" "Coasesor") .role)) }}{{ $judged = $judged | append (dict "defence" $d "note" .role) }}{{ end }}{{ end -}}
+{{- end -}}
+{{- with $judged }}
+	<h2 id="jurado">Jurado de sustentaciones <span class="count">{{ len . }}</span></h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "tesis/defence-row.html" . }}{{ end }}
+	</ul>
+{{- end }}

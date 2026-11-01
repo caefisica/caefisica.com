@@ -1,0 +1,8 @@
+{{- /* When a defence was: its day when the invitation gives one, otherwise the month the invitation was posted. Context: a defence from data/defences.json. */ -}}
+{{- with .date -}}
+	{{ partial "ui/date.html" (time.AsTime .) }}
+{{- else -}}
+	{{- $m := time.AsTime (printf "%s-01" .month) -}}
+	<time datetime="{{ .month }}">{{ index hugo.Data.fixes.months (printf "%d" $m.Month) }} de {{ $m.Year }}</time>
+{{- end -}}
+{{- /**/ -}}

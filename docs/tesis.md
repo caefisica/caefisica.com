@@ -30,8 +30,36 @@ enlace.
 El ORCID de un asesor se guarda solo si el registro nombra un único asesor,
 porque Cybertesis lista los ORCID aparte de los nombres y sin orden fijo.
 
+## Sustentaciones
+
+`data/defences.json` reúne las invitaciones a sustentación que la facultad
+publicó en su página de Facebook. Tampoco se edita a mano: lo escribe
+`defences.py`, en el repositorio de notas del proyecto, desde una copia de la
+página. Cada sustentación tiene candidato, grado, título, fecha, mes, jurado,
+tesis y enlace a la invitación.
+
+La copia no trae la fecha de cada publicación. El número de cada foto crece con
+el tiempo, así que el mes sale de interpolar entre las publicaciones que dicen
+su fecha completa. `date` es el día que dice la invitación, si lo dice.
+
+`thesis` es el número de Cybertesis cuando un autor comparte con el candidato
+dos palabras del nombre, una de ellas un apellido. El grado elige la colección y
+el año más cercano a la invitación elige el registro. Así resiste un nombre mal
+escrito y a quien tiene tesis de licenciatura y de maestría.
+
+El jurado guarda el rol que dice la invitación: Presidente, Miembro, Miembro
+externo, Miembro suplente, Asesor o Coasesor. Las sustentaciones de Ingeniería
+Mecánica de Fluidos no entran, porque sus tesis no están en las colecciones de
+física.
+
+La página de una tesis enlazada muestra su jurado por rol, la fecha y la
+invitación. El perfil de cada jurado lista sus sustentaciones en «Jurado de
+sustentaciones», sin las que asesoró, que ya salen en «Tesis asesoradas».
+
 ## Vistas
 
-La lista agrupa por área, por año o por asesor. Un área con menos de ocho
-trabajos entra en «Otras áreas», donde cada fila dice su área. La vista por
-asesor muestra a quienes asesoraron tres trabajos o más.
+La lista agrupa por área, por año, por asesor o por sustentación. Un área con
+menos de ocho trabajos entra en «Otras áreas», donde cada fila dice su área. La
+vista por asesor muestra a quienes asesoraron tres trabajos o más. La vista de
+sustentaciones agrupa las invitaciones por año; cada fila abre la tesis si ya
+está en Cybertesis y la invitación si no.
