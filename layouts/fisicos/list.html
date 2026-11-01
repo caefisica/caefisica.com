@@ -189,7 +189,7 @@
 	{{- end }}
 
 	<p class="person-note text-muted">
-		Los datos vienen de las fichas públicas de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a> (Concytec), cuyos grados registra SUNEDU, del <a href="https://www.pucp.edu.pe/profesor/">Portal del Profesorado de la PUCP</a> para la Sección Física de esa universidad, y de ORCID para quien no está en ninguno, consultadas el {{ time.AsTime $data.fetched | time.Format ":date_long" }}. El área sale de los temas que OpenAlex asigna a sus publicaciones; quien tiene pocas publicaciones indexadas queda sin área. Cada nombre enlaza su perfil, que copia esos datos. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		Los datos vienen de las fichas públicas de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a> (Concytec), cuyos grados registra SUNEDU, del <a href="https://www.pucp.edu.pe/profesor/">Portal del Profesorado de la PUCP</a> para la Sección Física de esa universidad, y de ORCID o de la página de su universidad para quien no está en ninguno, consultadas el {{ time.AsTime $data.fetched | time.Format ":date_long" }}. El área sale de los temas que OpenAlex asigna a sus publicaciones; quien tiene pocas publicaciones indexadas queda sin área. Cada nombre enlaza su perfil, que copia esos datos. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 	</p>
 </div>
 {{ end }}
