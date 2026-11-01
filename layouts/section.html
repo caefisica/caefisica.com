@@ -4,11 +4,17 @@
 	{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
 	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
 	{{- with .Pages }}
-		<div class="card-list">
+		<ul class="rows">
 			{{- range . }}
-				{{ partial "ui/card.html" (dict "title" .Title "url" .RelPermalink "emoji" .Params.emoji "lead" (or .Params.lead .Description)) }}
+				<li class="group">
+					<div class="row-main">
+						<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</a>
+						{{- with or .Params.lead .Description }}<p>{{ . | safeHTML }}</p>{{ end }}
+					</div>
+					{{ partial "ui/chevron.html" }}
+				</li>
 			{{- end }}
-		</div>
+		</ul>
 	{{- end }}
 </div>
 {{ end }}

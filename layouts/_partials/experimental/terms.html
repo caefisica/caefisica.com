@@ -1,9 +1,9 @@
 {{- /* The terms of a taxonomy, most used first, each with its article count. Context: the taxonomy page. */ -}}
-<ul class="section-cards">
+<ul class="rows">
 	{{- range .Data.Terms.ByCount }}
 		<li class="group">
-			<a class="card-link" href="{{ .Page.RelPermalink }}">{{ .Page.Title | title }}</a>
-			<p>{{ .Count }} {{ cond (eq .Count 1) "artículo" "artículos" }}</p>
+			<div class="row-main"><a class="card-link" href="{{ .Page.RelPermalink }}">{{ .Page.Title | title }}</a></div>
+			<span class="row-meta">{{ .Count }} {{ cond (eq .Count 1) "artículo" "artículos" }}</span>
 			{{ partial "ui/chevron.html" . }}
 		</li>
 	{{- end }}

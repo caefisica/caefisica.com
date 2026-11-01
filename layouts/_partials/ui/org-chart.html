@@ -1,31 +1,49 @@
-{{- /* The organisation chart: areas as columns, each group a dashed box of member cards. Reads data/authors/areas.json. A member's photo and author page come from members.json by first name. */ -}}
+{{- /*
+The organisation chart from data/authors/areas.json. The first area is the leadership and shows portraits. The other areas list their groups as rows.
+A member's photo and author page come from members.json by first name.
+*/ -}}
 {{- $people := dict }}
 {{- range hugo.Data.authors.members }}{{ $people = merge $people (dict (lower .first_name) .) }}{{ end }}
-<div class="org">
-	{{- range hugo.Data.authors.areas }}
-		<section class="org-area">
-			<h3 class="org-title">{{ .name }}</h3>
-			<div class="org-groups">
-				{{- range .groups }}
-					<div class="org-group">
-						{{- with .label }}<p class="org-label">{{ . }}</p>{{ end }}
-						<ul class="org-list">
-							{{- range .members }}
-								{{- $p := index $people (lower .who) }}
-								<li class="org-card">
-									<img class="org-photo" src="{{ printf "/images/member/%s.webp" (lower $p.first_name) | relURL }}" width="40" height="40" loading="lazy" alt="" />
-									<div>
-										<p class="org-name">
-											{{- if $p.url -}}<a class="org-link" href="{{ $p.url | relURL }}">{{ $p.name }}</a>{{ else }}{{ $p.name }}{{ end -}}
-										</p>
-										<p class="org-role">{{ .role }}</p>
-									</div>
-								</li>
-							{{- end }}
-						</ul>
-					</div>
+{{- $areas := hugo.Data.authors.areas }}
+{{- with index $areas 0 }}
+	<section class="org-lead" aria-labelledby="area-0">
+		<h2 id="area-0" class="org-title">{{ .name }}</h2>
+		<ul class="org-faces">
+			{{- range .groups }}
+				{{- range .members }}
+					{{- $p := index $people (lower .who) }}
+					<li class="org-face">
+						<img src="{{ printf "/images/member/%s.webp" (lower $p.first_name) | relURL }}" width="200" height="200" alt="" />
+						<p class="org-name">
+							{{- if $p.url -}}<a class="card-link" href="{{ $p.url | relURL }}">{{ $p.name }}</a>{{ else }}{{ $p.name }}{{ end -}}
+						</p>
+						<p class="org-role">{{ .role }}</p>
+					</li>
 				{{- end }}
-			</div>
+			{{- end }}
+		</ul>
+	</section>
+{{- end }}
+<div class="org-areas">
+	{{- range $i, $area := after 1 $areas }}
+		<section aria-labelledby="area-{{ add $i 1 }}">
+			<h2 id="area-{{ add $i 1 }}" class="org-title">{{ .name }}</h2>
+			{{- range .groups }}
+				{{- with .label }}<h3 class="org-label">{{ . }}</h3>{{ end }}
+				<ul class="rows">
+					{{- range .members }}
+						{{- $p := index $people (lower .who) }}
+						<li class="group">
+							<img class="org-photo" src="{{ printf "/images/member/%s.webp" (lower $p.first_name) | relURL }}" width="32" height="32" loading="lazy" alt="" />
+							<div class="row-main">
+								{{- if $p.url -}}<a class="card-link" href="{{ $p.url | relURL }}">{{ $p.name }}</a>{{ else }}<span class="font-medium">{{ $p.name }}</span>{{ end -}}
+								<p>{{ .role }}</p>
+							</div>
+							{{- if $p.url }}{{ partial "ui/chevron.html" }}{{ end }}
+						</li>
+					{{- end }}
+				</ul>
+			{{- end }}
 		</section>
 	{{- end }}
 </div>
