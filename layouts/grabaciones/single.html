@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{- $data := hugo.Data.recordings -}}
+{{- $series := index (where $data.series "id" .Params.series) 0 -}}
+{{- $rows := where $data.recordings "series" $series.id -}}
+{{- $years := slice -}}
+{{- range $rows }}{{ $years = $years | append (substr .month 0 4) }}{{ end -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%s. %s, desde %s." $series.organiser (partial "grabaciones/count.html" $series) $series.first)) }}
+	{{- range $years | uniq }}
+		{{- $year := . }}
+		{{- $group := slice }}
+		{{- range $rows }}{{ if hasPrefix .month $year }}{{ $group = $group | append . }}{{ end }}{{ end }}
+		<section class="section-group band" id="{{ $year }}">
+			<h2>{{ $year }} <span class="count">{{ len $group }}</span></h2>
+			<ul class="rows">
+				{{- range $group }}{{ partial "grabaciones/row.html" (dict "recording" .) }}{{ end }}
+			</ul>
+		</section>
+	{{- end }}
+	{{ partial "grabaciones/sources.html" $data }}
+</div>
+{{ end }}

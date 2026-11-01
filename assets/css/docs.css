@@ -1608,7 +1608,6 @@
   .views:has([value="persona"]:checked) > [data-view="persona"],
   .views:has([value="anio"]:checked) > [data-view="anio"],
   .views:has([value="asesor"]:checked) > [data-view="asesor"],
-  .views:has([value="serie"]:checked) > [data-view="serie"],
   .views:has([value="sustentacion"]:checked) > [data-view="sustentacion"] {
     display: block;
   }
@@ -2037,6 +2036,11 @@
       margin-top: 0.375rem;
       line-height: 1.5;
     }
+  }
+
+  /* A row with nothing to play, such as a talk known only from its invitation: it stays in the list but recedes. */
+  .row-muted .card-link {
+    color: var(--muted);
   }
 
   .row-meta {

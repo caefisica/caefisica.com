@@ -2,15 +2,11 @@
 One page per thesis in data/theses.json, at its Cybertesis handle number. The page shows the abstract and links the full text on Cybertesis, which holds the PDF.
 docs/tesis.md says where the data comes from.
 */ -}}
-{{- $kinds := hugo.Data.theses.collections -}}
 {{- range hugo.Data.theses.theses -}}
-	{{- $authors := slice -}}
-	{{- range .authors }}{{ $authors = $authors | append .name }}{{ end -}}
-	{{- $description := printf "%s de %s, %d." (index $kinds .collection) (delimit $authors ", " " y ") .year -}}
 	{{- $.AddPage (dict
 		"path" .id
 		"title" .title
-		"params" (dict "thesis" .id "description" $description)
+		"params" (dict "thesis" .id)
 		"dates" (dict "lastmod" (time.AsTime hugo.Data.theses.fetched))
 		"content" (dict "mediaType" "text/markdown" "value" .abstract)
 	) -}}

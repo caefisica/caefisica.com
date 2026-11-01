@@ -38,7 +38,7 @@
 		"@id" .Permalink
 		"url" .Permalink
 		"name" .Title
-		"description" (.Description | default site.Params.description)
+		"description" (.Description | default .Params.description | default site.Params.description)
 		"isPartOf" (dict "@id" $site)
 		"datePublished" (.PublishDate.Format $date)
 		"dateModified" (.Lastmod.Format $date)

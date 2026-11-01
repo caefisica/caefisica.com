@@ -1,0 +1,14 @@
+{{- /*
+One page per series in data/recordings.json, at its id. A series is what recurs under one organiser; sustentaciones and divulgación have no organiser and are listed on the index instead.
+docs/grabaciones.md says where the data comes from.
+*/ -}}
+{{- range $s := hugo.Data.recordings.series -}}
+	{{- with $s.organiser -}}
+		{{- $.AddPage (dict
+			"path" $s.id
+			"title" $s.name
+			"params" (dict "series" $s.id "description" (printf "%s: %s, desde %s." $s.name (partial "grabaciones/count.html" $s) $s.first))
+			"dates" (dict "lastmod" (time.AsTime hugo.Data.recordings.fetched))
+		) -}}
+	{{- end -}}
+{{- end -}}
