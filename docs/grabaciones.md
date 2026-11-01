@@ -27,9 +27,9 @@ Hay tres orígenes:
   entra si un video de la misma serie ya tiene un ponente con el mismo primer
   nombre y otra palabra en común.
 
-La copia de Facebook no trae la fecha de cada publicación. Como en las
-sustentaciones (ver `docs/tesis.md`), el mes sale del número de la foto. `date`
-es el día que dice la invitación, si lo dice; si no, la fila muestra el mes.
+El mes sale de la fecha de la publicación o, si la copia no la tiene, del número
+de la foto, como en las sustentaciones (ver `docs/tesis.md`). `date` es el día
+que dice la invitación, si lo dice; si no, la fila muestra el mes.
 
 ## Ponentes y perfiles
 

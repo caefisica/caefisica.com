@@ -38,9 +38,10 @@ publicó en su página de Facebook. Tampoco se edita a mano: lo escribe
 página. Cada sustentación tiene candidato, grado, título, fecha, mes, jurado,
 tesis y enlace a la invitación.
 
-La copia no trae la fecha de cada publicación. El número de cada foto crece con
-el tiempo, así que el mes sale de interpolar entre las publicaciones que dicen
-su fecha completa. `date` es el día que dice la invitación, si lo dice.
+La copia se tomó año por año con el filtro de la página, y cada publicación
+guarda su fecha. Algunas de la primera copia no la tienen. Para ellas el mes
+sale del número de la foto, que crece con el tiempo: se interpola entre las
+publicaciones con fecha. `date` es el día que dice la invitación, si lo dice.
 
 `thesis` es el número de Cybertesis cuando un autor comparte con el candidato
 dos palabras del nombre, una de ellas un apellido. El grado elige la colección y
