@@ -317,11 +317,13 @@
     }
   }
 
+  /* A figcaption, so it drops the image caption's margin: the row's padding alone centres it in the border. */
   .doc-head {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem 0.75rem;
     align-items: center;
+    margin: 0;
     padding: 0.75rem 1rem;
   }
 
@@ -379,13 +381,10 @@
     transition: rotate 0.25s var(--ease-snap);
   }
 
-  .doc-view > .disclosure-body {
-    border-top: 1px solid var(--line);
-  }
-
-  /* Before the first page draws, the stage holds the page's shape (--page-ratio, set by media/document.html and corrected by pdf-viewer.ts; A4 without it) so the layout does not jump. */
+  /* Before the first page draws, the stage holds the page's shape (--page-ratio, set by media/document.html and corrected by pdf-viewer.ts; A4 without it) so the layout does not jump. The line under the row is the stage's, inside the clipped disclosure body: on the body it would keep 1px of the closed viewer open. */
   .doc-stage {
     display: grid;
+    border-top: 1px solid var(--line);
     background: var(--surface);
 
     & > * {
