@@ -1,0 +1,9 @@
+{{- /*
+The key of a playlist's data in data/playlists/: a YouTube list's id, or a shared Drive folder's id. Any other link has none. Context: the list's url. scripts/playlists.ts writes the data under the same keys.
+*/ -}}
+{{- $url := urls.Parse . -}}
+{{- $id := $url.Query.Get "list" -}}
+{{- if and (not $id) (eq $url.Host "drive.google.com") -}}
+	{{- with findRESubmatch `^/drive/folders/([\w-]+)` $url.Path 1 }}{{ $id = index . 0 1 }}{{ end -}}
+{{- end -}}
+{{- return $id -}}

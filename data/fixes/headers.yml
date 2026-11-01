@@ -10,12 +10,14 @@ framesrc:
   - "'self'"
   - https://www.youtube.com
   - https://www.youtube-nocookie.com
+  - https://drive.google.com
 
 imgsrc:
   - "'self'"
   - https://*.cloudinary.com
   - https://i.imgur.com
   - https://i.ytimg.com
+  - https://lh3.googleusercontent.com
   - "data:"
   - "blob:"
 

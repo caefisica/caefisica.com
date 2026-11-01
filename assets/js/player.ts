@@ -1,20 +1,34 @@
 // Plays a lesson in the page's player. Each link opens the lesson on YouTube
-// until this runs, and still does on a modified click.
+// or Drive until this runs, and still does on a modified click.
 const player = document.querySelector<HTMLElement>(".player");
 const lessons = [
   ...document.querySelectorAll<HTMLAnchorElement>(".lessons a[data-video]"),
 ];
 
-function play(id: string): void {
-  if (!player) return;
-  const frame = document.createElement("iframe");
+// Drive's player takes no autoplay or playlist parameters, so a Drive lesson
+// waits for a second click on its own play button.
+function source(player: HTMLElement, id: string): [string, string] {
+  if (player.dataset.host === "drive") {
+    return [
+      `https://drive.google.com/file/d/${id}/preview`,
+      "Reproductor de Google Drive",
+    ];
+  }
   const params = new URLSearchParams({
     list: player.dataset.playlist ?? "",
     autoplay: "1",
     rel: "0",
   });
-  frame.src = `https://www.youtube-nocookie.com/embed/${id}?${params}`;
-  frame.title = "Reproductor de YouTube";
+  return [
+    `https://www.youtube-nocookie.com/embed/${id}?${params}`,
+    "Reproductor de YouTube",
+  ];
+}
+
+function play(id: string): void {
+  if (!player) return;
+  const frame = document.createElement("iframe");
+  [frame.src, frame.title] = source(player, id);
   frame.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
   frame.allowFullscreen = true;
   player.replaceChildren(frame);

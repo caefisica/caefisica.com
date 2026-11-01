@@ -104,18 +104,37 @@ lista `links`; cada enlace lleva `url`, `edition` y `year`:
 ```
 
 Cada entrada aparece también en `/videos/`, agrupada por curso. Una lista de
-YouTube (una `url` con `list=`) tiene allí su propia página: un reproductor, sus
+YouTube (una `url` con `list=`) o una carpeta compartida de Google Drive (una
+`url` con `/drive/folders/`) tiene allí su propia página: un reproductor, sus
 clases con su duración y `description`, que se escribe en Markdown y dice qué
-cubre la lista, a qué nivel y en qué idioma. Una lista que varios cursos citan
-tiene una sola página, con el título y la descripción del primer curso.
-Cualquier otro enlace (Drive, un canal) se lista y abre donde está.
+cubre la lista, a qué nivel y en qué idioma. Las subcarpetas de una carpeta de
+Drive son secciones de la lista, en el orden de los números con que empiezan sus
+nombres. Si las carpetas de primer nivel no llevan número, `sections` las lista
+en el orden de la clase:
 
-Las clases salen de `data/playlists/<list>.json`, que escribe
-`bun run playlists` con [yt-dlp](https://github.com/yt-dlp/yt-dlp). El script
-omite los videos privados o eliminados. Una lista sin JSON se lista como enlace
-externo. Una lista que YouTube ya no sirve se borra del `playlists.yaml`.
-`videos` solo se muestra para los enlaces que no son listas de YouTube; para las
-demás cuenta el JSON.
+```yaml
+- title: Mecánica
+  url: https://drive.google.com/drive/folders/…
+  sections:
+    - Vectores
+    - Cinemática
+```
+
+Una carpeta que `sections` no nombra va después, por nombre. Una lista que
+varios cursos citan tiene una sola página, con el título y la descripción del
+primer curso. Cualquier otro enlace (un canal, una página con enlaces) se lista
+y abre donde está.
+
+Las clases salen de `data/playlists/<id>.json`, que escribe `bun run playlists`
+con [yt-dlp](https://github.com/yt-dlp/yt-dlp); el `<id>` es el de la lista o el
+de la carpeta. `bun run playlists <id>…` actualiza solo esas listas. En Drive,
+solo consulta los archivos que el JSON aún no tiene: la duración de un archivo
+no cambia, y Drive corta una ráfaga de consultas con un error 429. Ante ese
+error el script no escribe la lista. El script omite los videos privados o
+eliminados, y en Drive los archivos que no son video. Una lista sin JSON se
+lista como enlace externo. Una lista que YouTube o Drive ya no sirve se borra
+del `playlists.yaml`. `videos` solo se muestra para los enlaces sin página; para
+las demás cuenta el JSON.
 
 ## Sílabos
 

@@ -1,7 +1,7 @@
 {{- /*
 One page per playlist listed in a course's playlists.yaml. A playlist listed by several courses gets one page that names them all, with the title and description of the first course that lists it.
 Two playlists with the same title are told apart in the path by their lecturer.
-A YouTube playlist with data from bun run playlists gets its own page; any other link is listed on the index and opens where it lives.
+A YouTube playlist or shared Drive folder with data from bun run playlists gets its own page; any other link is listed on the index and opens where it lives.
 */ -}}
 {{- $root := "content/unmsm/pregrado/plan-2018" -}}
 {{- $lists := dict -}}
@@ -10,7 +10,7 @@ A YouTube playlist with data from bun run playlists gets its own page; any other
 	{{- if and .IsDir (os.FileExists $file) -}}
 		{{- $course := printf "/unmsm/pregrado/plan-2018/%s" (lower .Name) -}}
 		{{- range os.ReadFile $file | transform.Unmarshal -}}
-			{{- $id := ((urls.Parse .url).Query).Get "list" -}}
+			{{- $id := partial "videos/list-id.html" .url -}}
 			{{- $key := $id | default .url -}}
 			{{- $entry := merge . (dict "id" $id "courses" (slice $course)) -}}
 			{{- with index $lists $key }}{{ $entry = merge . (dict "courses" (.courses | append $course) "description" (.description | default $entry.description)) }}{{ end -}}
@@ -29,7 +29,7 @@ A YouTube playlist with data from bun run playlists gets its own page; any other
 	{{- $params := dict "lecturer" $list.lecturer "channel" $list.channel "url" $list.url "courses" $list.courses -}}
 	{{- $build := dict "render" "never" "list" "local" -}}
 	{{- with $data -}}
-		{{- $params = merge $params (dict "playlist" $list.id "channel" .channel "lessons" .lessons "updated" .updated "fetched" .fetched) -}}
+		{{- $params = merge $params (dict "playlist" $list.id "host" .host "channel" (.channel | default $list.channel) "lessons" .lessons "updated" .updated "fetched" .fetched) -}}
 		{{- $build = dict -}}
 	{{- end -}}
 	{{- $.AddPage (dict

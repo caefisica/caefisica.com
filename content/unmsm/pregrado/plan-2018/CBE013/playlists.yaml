@@ -11,8 +11,23 @@
 - title: Mecánica
   channel: ""
   lecturer: Cesar Antonio Izquierdo
-  videos: "61"
   url: https://drive.google.com/drive/folders/17VOpTb-uGIW3sRBZrvOMTxn6kQEm5768?usp=share_link
+  sections:
+    - Vectores
+    - Cinemática
+    - Dinámica
+    - Trabajo, Energía, Cantidad de Movimiento Lineal
+    - Cinemática y Dinámica Rotacional
+    - Equilibrio De Cuerpos Rígidos
+    - Elasticidad
+    - Oscilaciones
+    - Introducción a la Teoría de la Gravitación de Newton
+  description: >-
+    Un curso completo de mecánica en clases de pizarra, ordenado por temas:
+    vectores, cinemática, leyes de Newton, trabajo y energía, cantidad de
+    movimiento, rotación del cuerpo rígido, equilibrio, elasticidad,
+    oscilaciones y gravitación. Cada tema trae su teoría y problemas resueltos.
+    En español.
 - title: Clases de Física I
   channel: Canal USB
   lecturer: Gloria Buendia

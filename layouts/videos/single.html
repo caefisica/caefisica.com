@@ -1,34 +1,54 @@
 {{ define "main" }}
+{{- /*
+A playlist's page: a player and its lessons. A YouTube list plays in YouTube's player, a Drive folder in Drive's, one file at a time.
+A Drive folder's subfolders become sections of the lesson list, each numbered from 1 as the lecturer numbered them.
+*/ -}}
 {{- $list := .Params.playlist }}
+{{- $drive := eq .Params.host "drive" }}
 {{- $lessons := .Params.lessons }}
 {{- $first := index $lessons 0 }}
 {{- $total := 0 }}{{ range $lessons }}{{ $total = add $total .duration }}{{ end }}
+{{- $sections := slice }}{{ range $lessons }}{{ $sections = $sections | append (.section | default "") }}{{ end }}
 {{- .Store.Set "player" true }}
 <div class="py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<h1>{{ .Title }}</h1>
 	<p class="text-lead">{{ partial "videos/byline.html" . }}</p>
 	<div class="course">
-		<div class="player" data-playlist="{{ $list }}">
-			<a class="player-start" href="https://www.youtube.com/watch?v={{ $first.id }}&list={{ $list }}" data-video="{{ $first.id }}">
-				<img src="https://i.ytimg.com/vi/{{ $first.id }}/hqdefault.jpg" alt="" width="480" height="360"/>
+		<div class="player" data-host="{{ cond $drive "drive" "youtube" }}" data-playlist="{{ $list }}">
+			<a class="player-start" href="{{ partial "videos/lesson-url.html" (dict "drive" $drive "id" $first.id "list" $list) }}" data-video="{{ $first.id }}">
+				{{- if $drive }}
+					{{- /* Google refuses this image to a request that names another site as referrer. */}}
+					<img src="https://lh3.googleusercontent.com/d/{{ $first.id }}=w640" alt="" width="640" height="360" referrerpolicy="no-referrer"/>
+				{{- else }}
+					<img src="https://i.ytimg.com/vi/{{ $first.id }}/hqdefault.jpg" alt="" width="480" height="360"/>
+				{{- end }}
 				<span class="player-label">
 					{{ partial "ui/icon.html" (dict "name" "play" "size" 20) }}
 					<span>Clase 1 · {{ $first.title }}</span>
 				</span>
 			</a>
 		</div>
-		<ol class="lessons" aria-label="Clases">
-			{{- range $i, $lesson := $lessons }}
-				<li>
-					<a href="https://www.youtube.com/watch?v={{ .id }}&list={{ $list }}" data-video="{{ .id }}"{{ if eq $i 0 }} aria-current="true"{{ end }}>
-						<span class="lesson-n">{{ add $i 1 }}</span>
-						<span class="lesson-title">{{ .title }}</span>
-						<span class="lesson-time">{{ partial "ui/duration.html" (dict "seconds" .duration) }}</span>
-					</a>
-				</li>
+		<nav class="lessons" aria-label="Clases">
+			{{- range $s, $section := uniq $sections }}
+				{{- with $section }}<p class="lessons-head" id="seccion-{{ add $s 1 }}">{{ . }}</p>{{ end }}
+				<ol{{ if $section }} aria-labelledby="seccion-{{ add $s 1 }}"{{ end }}>
+					{{- $n := 0 }}
+					{{- range $lessons }}
+						{{- if eq (.section | default "") $section }}
+							{{- $n = add $n 1 }}
+							<li>
+								<a href="{{ partial "videos/lesson-url.html" (dict "drive" $drive "id" .id "list" $list) }}" data-video="{{ .id }}"{{ if eq .id $first.id }} aria-current="true"{{ end }}>
+									<span class="lesson-n">{{ $n }}</span>
+									<span class="lesson-title">{{ .title }}</span>
+									<span class="lesson-time">{{ partial "ui/duration.html" (dict "seconds" .duration) }}</span>
+								</a>
+							</li>
+						{{- end }}
+					{{- end }}
+				</ol>
 			{{- end }}
-		</ol>
+		</nav>
 	</div>
 	<div class="course-about">
 		{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
@@ -41,10 +61,17 @@
 						<dd>{{ . }}</dd>
 					</div>
 				{{- end }}
-				<div>
-					<dt>Canal</dt>
-					<dd><a href="https://www.youtube.com/playlist?list={{ $list }}">{{ .Params.channel }}</a></dd>
-				</div>
+				{{- if $drive }}
+					<div>
+						<dt>Carpeta</dt>
+						<dd><a href="{{ .Params.url }}">Google Drive</a></dd>
+					</div>
+				{{- else }}
+					<div>
+						<dt>Canal</dt>
+						<dd><a href="https://www.youtube.com/playlist?list={{ $list }}">{{ .Params.channel }}</a></dd>
+					</div>
+				{{- end }}
 				<div>
 					<dt>Clases</dt>
 					<dd>{{ len $lessons }}, {{ partial "ui/duration.html" (dict "seconds" $total "total" true) }} en total</dd>
@@ -65,7 +92,13 @@
 				{{- end }}
 			</dl>
 		</section>
-		<p class="text-muted text-sm">Datos de YouTube al {{ partial "ui/date.html" (time.AsTime .Params.fetched) }}. Los videos privados o eliminados no se listan.</p>
+		<p class="text-muted text-sm">
+			{{- if $drive -}}
+				Datos de Google Drive al {{ partial "ui/date.html" (time.AsTime .Params.fetched) }}. Los archivos que Drive no puede reproducir no se listan.
+			{{- else -}}
+				Datos de YouTube al {{ partial "ui/date.html" (time.AsTime .Params.fetched) }}. Los videos privados o eliminados no se listan.
+			{{- end -}}
+		</p>
 		{{ partial "article/page-footer.html" . }}
 	</div>
 </div>
