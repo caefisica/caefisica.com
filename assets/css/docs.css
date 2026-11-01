@@ -23,7 +23,7 @@
   th,
   td {
     padding: 0.5rem;
-    border-bottom: 1px dashed var(--line);
+    border-bottom: 1px dashed var(--dash);
     background-color: var(--bg);
     vertical-align: top;
   }
@@ -520,7 +520,7 @@
   }
 
   .docs-sidebar {
-    border-bottom: 1px dashed var(--line);
+    border-bottom: 1px dashed var(--dash);
 
     @media (width >= 62rem) {
       position: sticky;
@@ -619,7 +619,7 @@
     & .nav-tree {
       margin-left: 0.75rem;
       padding-left: 0.25rem;
-      border-left: 1px dashed var(--line);
+      border-left: 1px dashed var(--dash);
 
       & > :last-child {
         margin-bottom: 0.5rem;
@@ -873,7 +873,7 @@
   .article-head {
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
-    border-bottom: 1px dashed var(--line);
+    border-bottom: 1px dashed var(--dash);
 
     & h1 {
       margin-top: 0;
@@ -888,7 +888,7 @@
     gap: 0.5rem 2rem;
     margin-top: 3rem;
     padding-top: 1rem;
-    border-top: 1px dashed var(--line);
+    border-top: 1px dashed var(--dash);
     font-size: var(--text-sm);
 
     & ul {
@@ -955,7 +955,7 @@
     gap: 0.5rem 2rem;
     margin-top: 3rem;
     padding-top: 1rem;
-    border-top: 1px dashed var(--line);
+    border-top: 1px dashed var(--dash);
     font-size: var(--text-sm);
 
     & a {
@@ -1176,7 +1176,7 @@
   .markdown .timeline {
     margin: 1rem 0 2rem;
     padding: 0 0 0 1rem;
-    border-left: 1px dashed var(--line);
+    border-left: 1px dashed var(--dash);
     list-style: none;
 
     & li {
