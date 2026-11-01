@@ -1,4 +1,4 @@
-{{- /* The organisation chart: areas as columns, each group a dashed box of member cards. Reads data/authors/areas.json; a member's photo and author page come from members.json by first name. */ -}}
+{{- /* The organisation chart: areas as columns, each group a dashed box of member cards. Reads data/authors/areas.json. A member's photo and author page come from members.json by first name. */ -}}
 {{- $people := dict }}
 {{- range hugo.Data.authors.members }}{{ $people = merge $people (dict (lower .first_name) .) }}{{ end }}
 <div class="org">

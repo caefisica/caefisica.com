@@ -23,7 +23,7 @@
 {{- if .Params.mermaid -}}
 	{{- partial "site/script.html" (dict "src" "js/mermaid.ts") -}}
 {{- end -}}
-{{- /* media/document.html sets the mark while the main block renders, before this partial runs. */ -}}
+{{- /* The pdf and toc marks are set while the main block renders, before this partial runs. */ -}}
 {{- if .Store.Get "pdf" -}}
 	{{- $lib := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | fingerprint -}}
 	{{- $worker := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | fingerprint -}}

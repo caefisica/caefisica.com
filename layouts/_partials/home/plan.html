@@ -1,6 +1,6 @@
 {{- /*
-The study plan as the page's product, in the place Linear gives its app: a cycle picker and that cycle's courses, each with what its guide holds.
-The picker is a radio group, so it works without script; js/plan.ts only remembers the last cycle chosen.
+A cycle picker and that cycle's courses, each with what its guide holds.
+The picker is a radio group, so it works without script. The script only remembers the last cycle chosen.
 */ -}}
 {{- $courses := where (where site.Pages "Kind" "section") "Params.credits" "gt" 0 -}}
 {{- $plan := site.GetPage "/unmsm/pregrado/plan-2018" -}}

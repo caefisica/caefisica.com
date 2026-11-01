@@ -291,7 +291,7 @@
     }
   }
 
-  /* Books and playlists of a course (docs/resource-table.html): document rows joined into one bordered list. */
+  /* Books and playlists of a course: document rows joined into one bordered list. */
   .shelf {
     margin: 1rem 0 1.5rem;
     padding: 0;
@@ -490,7 +490,7 @@
     margin-bottom: 1.25rem;
   }
 
-  /* Small label over a group: menu sections, the contents column, share links. It names the group without competing with it. */
+  /* Small label over a group: menu sections, the contents column, share links. */
   :where(
     .docs-links h3,
     .toc h2,
@@ -512,7 +512,7 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr);
 
-    /* The frame keeps the header's column, so the menu starts under the logo. The menu has a fixed width so course titles fit; the article takes what is left. */
+    /* The menu has a fixed width so course titles fit. */
     @media (width >= 62rem) {
       grid-template-columns: 15rem minmax(0, 1fr);
       column-gap: 3rem;
@@ -595,7 +595,7 @@
 
   /* The space below the menu is a child's margin, not padding: padding would hold the closed disclosure row open by its own height. */
   .docs-links {
-    /* Below lg the rows' inset would push their text past the bar title; from lg the sidebar's own margin does this. */
+    /* The negative margin puts the rows' text, not their fill, under the bar title. From lg the sidebar's margin does this. */
     @media (width < 62rem) {
       margin-inline: -0.5rem;
     }
@@ -707,7 +707,7 @@
     }
   }
 
-  /* A branch with no page of its own (a semester) is a group label, smaller than the links it holds; the whole row is the toggle. */
+  /* A branch with no page of its own (a semester) is a group label. The whole row is its toggle. */
   .nav-branch-label {
     display: flex;
     justify-content: space-between;
@@ -741,7 +741,6 @@
     }
   }
 
-  /* The contents column: the page's headings, the one being read in the text colour. */
   .toc {
     display: none;
 
@@ -858,9 +857,16 @@
     color: var(--muted);
     font-size: var(--text-sm);
 
-    & > span + span::before {
-      margin-right: 0.5rem;
+    /* Each item's dot sits in the gap before it. The clip hides the dot of an item that starts a line. */
+    column-gap: 1rem;
+    clip-path: inset(-1rem -1rem -1rem 0);
+
+    & > span::before {
+      display: inline-block;
+      width: 1rem;
+      margin-left: -1rem;
       content: "·";
+      text-align: center;
     }
 
     .docs-article > & {
@@ -1032,14 +1038,11 @@
   .section-group {
     margin-top: 2.5rem;
 
-    /* The group title is a small uppercase label; the rows below are the content. */
     & > h2 {
       margin: 0 0 0.5rem;
       color: var(--muted);
-      font-size: var(--text-sm);
+      font-size: 0.8125rem;
       font-weight: 500;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
 
       & a {
         color: inherit;
@@ -1056,7 +1059,6 @@
     }
   }
 
-  /* A numbered text index: single-line rows, no boxes or rules, the whole row is the link. */
   .section-cards {
     counter-reset: entry;
     margin: 0.5rem 0 0;
@@ -1215,7 +1217,6 @@
     border-radius: 0.5rem;
   }
 
-  /* Contributors: the author list and the profile header. */
   .people {
     display: grid;
     gap: 0.25rem;
@@ -1228,7 +1229,6 @@
     }
   }
 
-  /* An author's publications: one line each, the date flush right. */
   .entries {
     margin: 0.5rem 0 1.5rem;
     padding: 0;
@@ -1263,7 +1263,6 @@
     }
   }
 
-  /* Links to the rows a line names (research-groups shortcode), flush right like a date. */
   .entries-tags {
     margin-left: auto;
     font-size: var(--text-sm);
@@ -1275,7 +1274,7 @@
     }
   }
 
-  /* Research groups (research-groups shortcode): shelf rows without an icon, so wrapped buttons start at the left edge. */
+  /* Research groups are shelf rows without an icon, so wrapped buttons start at the left edge. */
   .groups {
     & .doc-head {
       align-items: start;

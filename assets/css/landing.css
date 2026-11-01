@@ -1,4 +1,3 @@
-/* The home page follows Linear's: 48px section titles beside 24px descriptions, mono labels, a feature rail, a timeline and a large closing call. */
 @layer components {
   .sec {
     padding-block: 4rem;
@@ -119,7 +118,6 @@
     }
   }
 
-  /* The study plan under the hero, where Linear shows its app: a cycle picker over a table of that cycle's courses. */
   .plan-wrap {
     padding-bottom: 4rem;
 
@@ -230,7 +228,7 @@
     }
   }
 
-  /* Without :has, every cycle shows; with it, only the chosen one. */
+  /* A browser without :has shows every cycle. */
   .plan:has(input:checked) .plan-panel {
     display: none;
   }
@@ -290,7 +288,7 @@
     }
   }
 
-  /* A section's preview, as Linear's preview slot: real content of the product, fading out at the bottom to say there is more. */
+  /* A section's preview shows real site content and fades out at the bottom to say there is more. */
   .scene {
     display: grid;
     margin-bottom: 4rem;

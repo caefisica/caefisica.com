@@ -1,7 +1,7 @@
 {{- /*
 The research groups listed in the page's front matter `groups`: an index by research line, then one row per group, sorted by acronym.
 A group holds acronym, name, an optional url, head (email plus a name or the slug of a professor page) and optional lines.
-Each row's id is its lowercased acronym; the index links to it.
+Each row's id is its lowercased acronym, and the index links to it.
 */ -}}
 {{- $groups := .Page.Params.groups -}}
 {{- if not $groups -}}

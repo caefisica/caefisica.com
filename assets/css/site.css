@@ -83,7 +83,6 @@
   --color-sky-300: #9dc9d8;
   --color-beige: #eeeaf3;
 
-  /* The entire interface draws from these five sizes. */
   --text-sm: 0.875rem;
   --text-sm--line-height: 1.45;
   --text-base: 1rem;
@@ -256,9 +255,7 @@
     }
   }
 
-  /* 100cqw is the width without the scrollbar; 100vw would overflow by its width. */
   body {
-    container-type: inline-size;
     background-color: var(--bg);
     color: var(--fg);
     font-size: var(--text-base);
@@ -723,7 +720,6 @@
     }
   }
 
-  /* The hero reveal of Linear's home page: each part blurs in and rises 20% over one second. */
   @keyframes reveal {
     from {
       opacity: 0;
@@ -1021,7 +1017,6 @@
       font-weight: 500;
     }
 
-    /* From md the links are muted pills, as in Linear's header. */
     @media (width >= 48rem) {
       padding: 0.375rem 0.75rem;
       border-radius: 999px;
