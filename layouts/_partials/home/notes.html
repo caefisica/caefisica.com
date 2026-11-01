@@ -16,17 +16,42 @@ The rail lists every topic that has a published note.
 				<a class="sec-link lg:ml-8" href="{{ $notes.RelPermalink }}">Leer los apuntes<span class="text-fg" aria-hidden="true">→</span></a>
 			</div>
 		</div>
+		{{- $equations := div (len (findRE `\$\$` $body)) 2 }}
+		{{- $names := slice }}{{ range partial "data/contributors.html" $note.Params.contributors }}{{ $names = $names | append .Title }}{{ end }}
 		<a class="scene scene-note reveal" href="{{ $note.RelPermalink }}">
-			<p class="mono-label scene-head">{{ $note.Parent.Title }} · {{ $note.Title }}</p>
-			<div class="scene-body">
-				{{- range $i, $part := $parts }}
-					{{- if modBool $i 2 }}
-						{{- /* Headings become plain lines and their anchors go: this excerpt sits inside one link and adds nothing to the page outline. */ -}}
-						{{ $part | $note.RenderString (dict "display" "block") | replaceRE `<a [^>]*>.*?</a>` "" | replaceRE `<h[2-6][^>]*>` `<p class="scene-h">` | replaceRE `</h[2-6]>` "</p>" | safeHTML }}
-					{{- else }}
-						{{- /* The source escapes TeX line breaks for Markdown, so \\\\ in the file is \\ in TeX. */ -}}
-						<div class="scene-math">{{ transform.ToMath (replace (strings.TrimSpace $part) `\\\\` `\\`) (dict "output" "mathml" "displayMode" true) }}</div>
+			<p class="mono-label scene-head">{{ $notes.Title }} <span aria-hidden="true">›</span> {{ $note.Parent.Title }}</p>
+			<div class="note-doc">
+				<p class="note-title">{{ $note.Title }}</p>
+				<div class="scene-body">
+					{{- range $i, $part := $parts }}
+						{{- if modBool $i 2 }}
+							{{- /* Headings become plain lines and their anchors go: this excerpt sits inside one link and adds nothing to the page outline. */ -}}
+							{{ $part | $note.RenderString (dict "display" "block") | replaceRE `<a [^>]*>.*?</a>` "" | replaceRE `<h[2-6][^>]*>` `<p class="scene-h">` | replaceRE `</h[2-6]>` "</p>" | safeHTML }}
+						{{- else }}
+							{{- /* The source escapes TeX line breaks for Markdown, so \\\\ in the file is \\ in TeX. */ -}}
+							<div class="scene-math">{{ transform.ToMath (replace (strings.TrimSpace $part) `\\\\` `\\`) (dict "output" "mathml" "displayMode" true) }}</div>
+						{{- end }}
 					{{- end }}
+				</div>
+			</div>
+			{{- /* The note's facts, the way an issue view sets its properties beside the text. */}}
+			<div class="note-props">
+				<dl>
+					<div><dt>Curso</dt><dd>{{ $note.Parent.Title }}</dd></div>
+					{{- with $names }}<div><dt>Transcrito por</dt><dd>{{ delimit . ", " " y " }}</dd></div>{{ end }}
+					<div><dt>Ecuaciones</dt><dd>{{ $equations }}</dd></div>
+					<div><dt>Lectura</dt><dd>{{ $note.ReadingTime }} min</dd></div>
+				</dl>
+				{{- with $note.Fragments.Headings }}
+					<p class="note-props-head">En este apunte</p>
+					<ul class="note-outline">
+						{{- range . }}
+							{{ range .Headings }}
+								<li>{{ .Title | plainify }}</li>
+								{{- range .Headings }}<li class="pl-3">{{ .Title | plainify }}</li>{{ end }}
+							{{- end }}
+						{{ end }}
+					</ul>
 				{{- end }}
 			</div>
 		</a>
