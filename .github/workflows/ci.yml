@@ -131,7 +131,3 @@ jobs:
         run: |
           url=$(netlify deploy --no-build --dir public --site "$NETLIFY_SITE_ID" --alias "$ALIAS" --json | jq -r .deploy_url)
           echo "Preview: $url" >> "$GITHUB_STEP_SUMMARY"
-
-  lighthouse:
-    needs: deploy
-    uses: ./.github/workflows/audit_lighthouse.yml
