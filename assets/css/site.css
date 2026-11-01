@@ -554,6 +554,56 @@
     }
   }
 
+  /* A radio group drawn as pills, so a page switches views without script. */
+  .pill-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    & input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    & label > span {
+      display: block;
+      padding: 0.25rem 0.625rem;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: var(--text-sm);
+      cursor: pointer;
+    }
+
+    & label:hover > span {
+      color: var(--fg);
+    }
+
+    & input:checked + span {
+      border-color: var(--edge);
+      background: var(--surface);
+      color: var(--fg);
+    }
+
+    & input:focus-visible + span {
+      outline: 2px solid var(--link);
+      outline-offset: 1px;
+    }
+
+    /* A floated legend stops being the fieldset's border legend and becomes an ordinary flex item. */
+    & legend {
+      float: left;
+      margin-right: 0.25rem;
+      padding: 0.25rem 0;
+      color: var(--muted);
+      font-size: var(--text-sm);
+    }
+  }
+
   /* Disclosure that animates its height without measuring it: the row grows from 0fr to 1fr. A collapsed body is `visibility: hidden`, which keeps it out of the tab order and the accessibility tree; the discrete transition holds it visible until the collapse ends. */
   .disclosure {
     display: grid;

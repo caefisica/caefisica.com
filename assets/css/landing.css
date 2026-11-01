@@ -149,55 +149,6 @@
     font-weight: 500;
   }
 
-  .plan-tabs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem;
-    margin: 0;
-    padding: 0;
-    border: 0;
-
-    & input {
-      position: absolute;
-      opacity: 0;
-      pointer-events: none;
-    }
-
-    & label > span {
-      display: block;
-      padding: 0.25rem 0.625rem;
-      border: 1px solid transparent;
-      border-radius: 999px;
-      color: var(--muted);
-      font-size: var(--text-sm);
-      cursor: pointer;
-    }
-
-    & label:hover > span {
-      color: var(--fg);
-    }
-
-    & input:checked + span {
-      border-color: var(--edge);
-      background: var(--surface);
-      color: var(--fg);
-    }
-
-    & input:focus-visible + span {
-      outline: 2px solid var(--link);
-      outline-offset: 1px;
-    }
-  }
-
-  /* A floated legend stops being the fieldset's border legend and becomes an ordinary flex item. */
-  .plan-tabs legend {
-    float: left;
-    margin-right: 0.25rem;
-    padding: 0.25rem 0;
-    color: var(--muted);
-    font-size: var(--text-sm);
-  }
-
   .plan-panel {
     margin: 0;
     padding: 0;
