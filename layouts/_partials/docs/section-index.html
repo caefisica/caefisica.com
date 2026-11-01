@@ -7,5 +7,5 @@
 {{- end -}}
 {{- with $direct }}{{ partial "docs/section-group.html" (dict "pages" .) }}{{ end -}}
 {{- range $groups -}}
-	{{ partial "docs/section-group.html" (dict "title" .Title "link" .RelPermalink "description" .Description "pages" (partial "docs/children.html" .)) }}
+	{{ partial "docs/section-group.html" (dict "title" .Title "link" .RelPermalink "pages" (partial "docs/children.html" .)) }}
 {{- end -}}
