@@ -1042,8 +1042,22 @@
   .section-group {
     margin-top: 2.5rem;
 
+    /* The group title is a small uppercase label; the rows below are the content. */
     & > h2 {
       margin: 0 0 0.5rem;
+      color: var(--muted);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+
+      & a {
+        color: inherit;
+      }
+
+      & a:hover {
+        color: var(--link);
+      }
     }
 
     /* The term is an h2 when the group has no title, so it must outrank the rule above. */
@@ -1052,7 +1066,7 @@
     }
   }
 
-  /* A numbered text index: no boxes, one hairline between rows, the whole row is the link. */
+  /* A numbered text index: single-line rows, no boxes or rules, the whole row is the link. */
   .section-cards {
     counter-reset: entry;
     margin: 0.5rem 0 0;
@@ -1064,9 +1078,23 @@
       display: flex;
       align-items: baseline;
       gap: 1rem;
-      padding: 0.625rem 0;
-      border-top: 1px solid var(--line);
+      line-height: 1.75rem;
       counter-increment: entry;
+    }
+
+    & .card-link {
+      text-decoration: underline;
+      text-decoration-color: color-mix(in oklab, var(--fg) 25%, transparent);
+      text-underline-offset: 3px;
+    }
+
+    & > li:is(:hover, :focus-within) .card-link {
+      color: var(--link);
+      text-decoration-color: currentColor;
+    }
+
+    & > li > p {
+      margin-left: auto;
     }
 
     & > li::before {
