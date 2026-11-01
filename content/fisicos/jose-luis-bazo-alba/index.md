@@ -5,6 +5,7 @@ description:
   principal en la PUCP."
 date: 2026-10-31T00:00:00
 draft: false
+aliases: [/investigadores/jose-bazo/]
 role: "Profesor principal, Sección Física, PUCP"
 fields: ["Astropartículas", "Rayos cósmicos", "Neutrinos"]
 studied: ["PUCP", "Humboldt-Universität zu Berlin"]

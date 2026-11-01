@@ -1,8 +1,13 @@
-# Agregar un investigador
+# Físicos
 
-Cada investigador es una carpeta `content/investigadores/<slug>/` con un
-`index.md`. La página se lee como un artículo de enciclopedia: cada dato enlaza
-una fuente pública.
+Cada persona de `data/physicists.json` tiene un perfil en `/fisicos/<slug>/`
+(ver [Mapa de físicos](#mapa-de-físicos)). Para escribir el perfil de alguien,
+crea `content/fisicos/<slug>/index.md` con el mismo `slug` del JSON: esa página
+reemplaza a la generada y la misma plantilla le suma los datos del JSON. Se lee
+como un artículo de enciclopedia: cada dato enlaza una fuente pública.
+
+Si el perfil escrito tenía otra dirección, `aliases` la guarda; Cloudflare la
+redirige con `_redirects`.
 
 ## Fuentes
 
@@ -71,8 +76,9 @@ Las fichas cambian poco; actualízalo a lo sumo una vez al año y cambia
 `fetched`.
 
 Al elegir una institución, el globo traza la ruta (`path`) de cada persona que
-estudió o trabaja ahí. El botón «Ruta» de una fila, o la dirección
-`/fisicos/#ruta-<slug>`, traza la de una sola persona.
+estudió o trabaja ahí. Un nombre de esa lista, o la dirección
+`/fisicos/#ruta-<slug>`, abre en el panel la ficha de la persona y traza solo su
+ruta.
 
 `content/fisicos/_content.gotmpl` crea un perfil por persona en
 `/fisicos/<slug>/`, con lo que dice el JSON. Así los datos siguen a la vista

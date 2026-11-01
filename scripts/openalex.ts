@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const CONTENT_DIR = "content/investigadores";
+const CONTENT_DIR = "content/fisicos";
 const DATA_DIR = "data/researchers";
 const WORKS_API = "https://api.openalex.org/works";
 const AUTHORS_API = "https://api.openalex.org/authors";

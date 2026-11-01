@@ -12,7 +12,7 @@ content/
 │   └── facultad/                      información de la facultad
 ├── apuntes/<tema>/                    apuntes por tema
 ├── blog/<NNN-nombre>/index.md         entradas del blog
-├── investigadores/<slug>/index.md     físicos peruanos y sus trayectorias
+├── fisicos/<slug>/index.md            perfiles escritos de físicos peruanos
 ├── videos/_content.gotmpl             una página por lista de los playlists.yaml
 ├── professors/<slug>/index.md         docentes
 ├── contributors/<slug>/_index.md      colaboradores; el índice es /equipo/

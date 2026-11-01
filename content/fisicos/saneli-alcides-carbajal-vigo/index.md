@@ -5,6 +5,7 @@ description:
   TAMBO."
 date: 2026-10-31T00:00:00
 draft: false
+aliases: [/investigadores/saneli-carbajal/]
 role: "Docente, Universidad del Pacífico"
 fields: ["Neutrinos", "Física de partículas"]
 studied: ["UNMSM", "University of Edinburgh", "PUCP"]

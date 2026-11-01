@@ -1,6 +1,11 @@
 {{ define "main" }}
+{{- /* A profile is either a data page from the content adapter or a written article at content/fisicos/<slug>/index.md; both read the person's record in data/physicists.json. */ -}}
+{{- $slug := .Params.slug -}}
+{{- with .File }}{{ $slug = $slug | default .ContentBaseName }}{{ end -}}
 {{- $data := hugo.Data.physicists -}}
-{{- $p := index (where $data.people "slug" .Params.slug) 0 -}}
+{{- $p := index (where $data.people "slug" $slug) 0 -}}
+{{- if not $p }}{{ errorf "%s: no person with slug %q in data/physicists.json" .Path $slug }}{{ end -}}
+{{- $works := index hugo.Data.researchers $slug -}}
 {{- $places := dict -}}
 {{- range $data.places }}{{ $places = merge $places (dict .id .) }}{{ end -}}
 {{- $map := site.GetPage "/fisicos" -}}
@@ -26,10 +31,14 @@
 		<div>
 			<h1>{{ .Title }}</h1>
 			<p class="text-lead">
-				{{- with $p.works -}}
-					{{- $w := index . 0 }}{{ $w.role }}, {{ (index $places $w.place).name -}}
+				{{- with .Params.role -}}
+					{{ . }}
 				{{- else -}}
-					{{ $p.degree }} en física
+					{{- with $p.works -}}
+						{{- $w := index . 0 }}{{ $w.role }}, {{ (index $places $w.place).name -}}
+					{{- else -}}
+						{{ $p.degree }} en física
+					{{- end -}}
 				{{- end -}}
 			</p>
 		</div>
@@ -41,11 +50,20 @@
 				<dt>Grado más alto</dt>
 				<dd>{{ $p.degree }} en física</dd>
 			</div>
-			{{- with $p.area }}
+			{{- with .Params.fields }}
 				<div>
-					<dt>Área</dt>
-					<dd>{{ . }}</dd>
+					<dt>Campos</dt>
+					{{- /* Field names are common nouns, capitalised only to stand alone as tags. */}}
+					{{- $names := slice (index . 0) }}{{ range after 1 . }}{{ $names = $names | append (lower .) }}{{ end }}
+					<dd>{{ delimit $names ", " " y " }}</dd>
 				</div>
+			{{- else }}
+				{{- with $p.area }}
+					<div>
+						<dt>Área</dt>
+						<dd>{{ . }}</dd>
+					</div>
+				{{- end }}
 			{{- end }}
 			{{- with $p.works }}
 				<div>
@@ -53,11 +71,24 @@
 					<dd>{{ range $i, $w := . }}{{ if $i }}, {{ end }}{{ (index $places $w.place).name }}{{ end }}</dd>
 				</div>
 			{{- end }}
-			{{- with $p.works_count }}
+			{{- with .Params.collaborations }}
+				<div>
+					<dt>Colaboraciones</dt>
+					<dd>{{ delimit . ", " " y " }}</dd>
+				</div>
+			{{- end }}
+			{{- with $works }}
 				<div>
 					<dt>Obra</dt>
-					<dd>{{ lang.FormatNumber 0 . }} trabajos, {{ lang.FormatNumber 0 $p.cited_by }} citas</dd>
+					<dd>{{ lang.FormatNumber 0 .works }} trabajos, {{ lang.FormatNumber 0 .citations }} citas</dd>
 				</div>
+			{{- else }}
+				{{- with $p.works_count }}
+					<div>
+						<dt>Obra</dt>
+						<dd>{{ lang.FormatNumber 0 . }} trabajos, {{ lang.FormatNumber 0 $p.cited_by }} citas</dd>
+					</div>
+				{{- end }}
 			{{- end }}
 			<div>
 				<dt>Fichas</dt>
@@ -73,11 +104,7 @@
 	</section>
 	<div>
 		<div class="markdown">
-			{{- with $p.page }}
-				{{- with site.GetPage . }}
-					<p>Lee su <a href="{{ .RelPermalink }}">perfil completo</a>, con su investigación y sus publicaciones.</p>
-				{{- end }}
-			{{- end }}
+			{{ .Content }}
 			{{- with $p.path }}
 				<h2 id="ruta">Ruta</h2>
 				<ol class="route">
@@ -94,19 +121,61 @@
 			{{- end }}
 			<h2 id="cronologia">Cronología</h2>
 			<ol class="timeline">
-				{{- range $e := sort $timed "at" }}
-					<li>
-						<span class="timeline-years">{{ partial "fisicos/years.html" $e }}</span>
-						<span>
-							{{- $e.text }}
-							{{- with $e.place }}, <a href="{{ $map.RelPermalink }}#lugar-{{ .id }}">{{ .name }}</a>{{ else }}{{ with $e.name }}, {{ . }}{{ end }}{{ end -}}
-						</span>
-					</li>
+				{{- with .Params.timeline }}
+					{{- /* A written article's timeline cites a source for each line, so it replaces the one built from the record. */}}
+					{{- range . }}
+						<li>
+							<span class="timeline-years">{{ .years }}</span>
+							<span>{{ .text }}{{ with .cite }}{{ partial "data/cite-marks.html" (dict "page" $ "keys" .) }}{{ end }}</span>
+						</li>
+					{{- end }}
+				{{- else }}
+					{{- range $e := sort $timed "at" }}
+						<li>
+							<span class="timeline-years">{{ partial "fisicos/years.html" $e }}</span>
+							<span>
+								{{- $e.text }}
+								{{- with $e.place }}, <a href="{{ $map.RelPermalink }}#lugar-{{ .id }}">{{ .name }}</a>{{ else }}{{ with $e.name }}, {{ . }}{{ end }}{{ end -}}
+							</span>
+						</li>
+					{{- end }}
 				{{- end }}
 			</ol>
 		</div>
+		{{- with $works }}
+			<h2 id="publicaciones">Publicaciones seleccionadas</h2>
+			<p class="text-muted">
+				Los trabajos más citados con pocos autores. Los artículos de las grandes colaboraciones, firmados por cientos de personas, suman a la obra pero no se listan. Datos de OpenAlex al {{ partial "ui/date.html" (time.AsTime .fetched) }}.
+			</p>
+			<ul class="rows">
+				{{- range .selected }}
+					<li class="group">
+						<div class="row-main">
+							<a class="card-link" href="{{ .url }}">{{ .title }}</a>
+							<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
+						</div>
+						<span class="row-meta">{{ lang.FormatNumber 0 .citations }} citas</span>
+					</li>
+				{{- end }}
+			</ul>
+		{{- end }}
+		{{- with .Params.sources }}
+			<h2 id="referencias">Referencias</h2>
+			<ol class="sources">
+				{{- range . }}
+					<li id="fuente-{{ .key }}">
+						<a href="{{ .url }}">{{ .title }}</a>
+						<span class="sources-site">{{ strings.TrimPrefix "www." (urls.Parse .url).Host }}</span>
+					</li>
+				{{- end }}
+			</ol>
+		{{- end }}
 		<p class="person-note text-muted">
-			Copia de {{ if eq $p.source "ctivitae" }}su ficha de CTI Vitae, actualizada el {{ partial "ui/date.html" (time.AsTime (printf "%s-%s-%s" (index $updated 2) (index $updated 1) (index $updated 0))) }}, con grados de SUNEDU{{ else }}su registro de ORCID{{ end }}{{ with $p.openalex }}, y de OpenAlex para el área y la obra{{ end }}. Si eres {{ .Title }} y quieres corregir algo, enviar una foto o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+			{{- if .Params.sources -}}
+				Cada dato enlaza su fuente pública. La ruta y la obra vienen de
+			{{- else -}}
+				Copia de
+			{{- end }} {{ if eq $p.source "ctivitae" }}su ficha de CTI Vitae, actualizada el {{ partial "ui/date.html" (time.AsTime (printf "%s-%s-%s" (index $updated 2) (index $updated 1) (index $updated 0))) }}, con grados de SUNEDU{{ else }}su registro de ORCID{{ end }}{{ with $p.openalex }}, y de OpenAlex para el área y la obra{{ end }}. Si eres {{ .Title }} y quieres corregir algo, enviar una foto o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 		</p>
 		{{ partial "article/page-footer.html" . }}
 	</div>
