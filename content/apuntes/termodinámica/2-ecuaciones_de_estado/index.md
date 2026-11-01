@@ -1,12 +1,11 @@
 ---
 title: "Ecuaciones de estado"
 description:
-  "Explicación de las ecuaciones de estado en termodinámica, su relación con
-  diferentes procesos termodinámicos"
+  "Las ecuaciones de estado térmica y calórica, y los procesos isotérmico,
+  isobárico e isocórico."
 lead:
-  "Un análisis detallado de las ecuaciones de estado en termodinámica y su papel
-  en el modelado del comportamiento de sustancias en procesos isotérmicos,
-  isobáricos e isocóricos"
+  "Las ecuaciones de estado térmica y calórica, y los procesos isotérmico,
+  isobárico e isocórico."
 date: 2022-02-01T02:00:00
 draft: false
 weight: 20

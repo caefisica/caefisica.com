@@ -1,16 +1,14 @@
 ---
 title: "Energía interna"
 description:
-  "Descripción de la función de estado energía interna, su dependencia de la
-  temperatura y el volumen en sistemas cerrados y abiertos, y cómo calcular su
-  evolución energética"
+  "La energía interna como función de estado, en sistemas cerrados y abiertos, y
+  el trabajo elemental en coordenadas generalizadas."
 lead:
-  "Análisis de la función de estado energía interna en termodinámica, su
-  relación con la temperatura y el volumen, y su relevancia en el cálculo del
-  trabajo calorífico elemental en procesos termodinámicos"
+  "La energía interna como función de estado, en sistemas cerrados y abiertos, y
+  el trabajo elemental en coordenadas generalizadas."
 date: 2022-02-01T02:00:00
 draft: false
-weight: 20
+weight: 30
 contributors: ["richard"]
 types: ["matemática"]
 ---

@@ -1,16 +1,19 @@
 ---
 title: "Simetría rotacional"
-description: "Código — X créditos"
-lead: "Código — X créditos"
+description:
+  "Los operadores de posición y de momento lineal en tres dimensiones, en
+  coordenadas cartesianas y esféricas, y cómo se relacionan sus funciones de
+  onda."
+lead:
+  "Los operadores de posición y de momento lineal en tres dimensiones, en
+  coordenadas cartesianas y esféricas, y cómo se relacionan sus funciones de
+  onda."
 date: 2023-03-25T02:00:00
 draft: false
 weight: 10
 contributors: ["david"]
 types: ["física"]
 ---
-
-Objetivo: Establecer las herramientas para el análisis de la dinámica de un
-sistema de dos cuerpos.
 
 ## Los elementos de la mecánica ondulatoria en tres dimensiones
 

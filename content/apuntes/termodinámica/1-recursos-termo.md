@@ -1,7 +1,11 @@
 ---
 title: "Recurso de Termodinámica"
-description: "CFO604 — 4 créditos"
-lead: "CFO604 — 4 créditos"
+description:
+  "Los apuntes y el formulario del curso de 2022, y los exámenes parcial y final
+  de 2022-II, en PDF."
+lead:
+  "Los apuntes y el formulario del curso de 2022, y los exámenes parcial y final
+  de 2022-II, en PDF."
 date: 2022-02-01T02:00:00
 draft: false
 weight: 10
