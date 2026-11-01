@@ -1,0 +1,27 @@
+{{- /* The study plan as a table of contents: one row per cycle, its courses beside it. */ -}}
+{{- $courses := where (where site.Pages "Kind" "section") "Params.credits" "gt" 0 -}}
+<section class="sec" aria-labelledby="plan">
+	<div class="mx-auto w-full max-w-page px-gutter">
+		<div class="sec-copy">
+			<h2 id="plan" class="sec-title reveal">Plan de estudios de Física</h2>
+			<div class="reveal">
+				<p class="sec-desc">Guías, libros y listas de reproducción de cada curso, ordenados por ciclo.</p>
+				<a class="sec-link lg:ml-8" href="{{ "unmsm/pregrado/plan-2018/" | relURL }}">Ver el plan completo<span class="text-fg" aria-hidden="true">→</span></a>
+			</div>
+		</div>
+		{{- range seq 10 }}
+			{{- $cycle := . }}
+			{{- $pages := where $courses "Params.semester" $cycle }}
+			{{- with $pages }}
+				<div class="rail reveal">
+					<span class="mono-label">Ciclo {{ $cycle }}</span>
+					<ul>
+						{{- range sort . "Weight" }}
+							<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+						{{- end }}
+					</ul>
+				</div>
+			{{- end }}
+		{{- end }}
+	</div>
+</section>
