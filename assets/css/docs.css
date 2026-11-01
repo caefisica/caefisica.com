@@ -67,7 +67,7 @@
     scrollbar-color: transparent transparent;
 
     &:hover {
-      scrollbar-color: var(--color-gray-500) transparent;
+      scrollbar-color: var(--color-moon-faint) transparent;
     }
 
     @media (width < 36rem) {
