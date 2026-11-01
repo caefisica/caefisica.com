@@ -491,11 +491,12 @@
   }
 
   /* Small label over a group: menu sections, the contents column. */
-  :where(.docs-links h3, .toc h2, .section-group-term, .linktree h2) {
+  :where(.docs-links h3, .toc h2, .section-group-term) {
     margin: 0 0 0.5rem;
     color: var(--muted);
     font-size: 0.8125rem;
     font-weight: 500;
+    letter-spacing: normal;
   }
 
   /*
@@ -1095,6 +1096,7 @@
       color: var(--muted);
       font-size: 0.8125rem;
       font-weight: 500;
+      letter-spacing: normal;
 
       & a {
         color: inherit;
@@ -1190,7 +1192,6 @@
 
     & .text-lead {
       margin: 0;
-      color: var(--muted);
     }
   }
 
@@ -1705,7 +1706,6 @@
 
     & .text-lead {
       margin: 0;
-      color: var(--muted);
     }
   }
 
