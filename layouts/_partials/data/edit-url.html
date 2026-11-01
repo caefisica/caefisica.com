@@ -1,6 +1,9 @@
-{{- /* The URL that edits the page's source in the repository, or "" when editing is off. Context: the page. */ -}}
+{{- /* The URL that edits the page's source in the repository, or "" when editing is off. Context: the page.
+A page a content adapter builds from data has no source of its own to edit, so it gets "". */ -}}
 {{- $url := "" -}}
 {{- with and site.Params.editPage .File site.Params.docsRepo -}}
-	{{- $url = printf "%s/blob/%s/content/%s" site.Params.docsRepo site.Params.docsRepoBranch (replace $.File.Path "\\" "/") -}}
+	{{- if ne (path.Base $.File.Path) "_content.gotmpl" -}}
+		{{- $url = printf "%s/blob/%s/content/%s" site.Params.docsRepo site.Params.docsRepoBranch (replace $.File.Path "\\" "/") -}}
+	{{- end -}}
 {{- end -}}
 {{- return $url -}}
