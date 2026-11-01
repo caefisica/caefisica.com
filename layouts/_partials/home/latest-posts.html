@@ -1,20 +1,20 @@
-{{- /* The three newest blog posts. */ -}}
+{{- /* The three newest blog posts, as a changelog list. */ -}}
 <section class="py-section" aria-labelledby="blog">
-	<div class="mx-auto w-full max-w-page px-gutter">
-		<div class="mb-12 flex flex-wrap items-end justify-between gap-4">
-			<h2 id="blog" class="reveal m-0 text-title">Blog</h2>
+	<div class="mx-auto grid w-full max-w-page gap-6 border-t border-edge px-gutter pt-12 lg:grid-cols-[5fr_7fr] lg:gap-16">
+		<div>
+			<h2 id="blog" class="reveal mt-0 mb-4 text-title">Blog</h2>
 			<a class="learn font-medium" href="{{ "blog/" | relURL }}">Ver todas las entradas{{ partial "ui/chevron.html" }}</a>
 		</div>
-		<ul class="m-0 grid list-none gap-10 p-0 md:grid-cols-3">
+		<ul class="m-0 list-none p-0">
 			{{- range first 3 (where site.RegularPages.ByDate.Reverse "Section" "blog") }}
-				<li class="reveal group relative card card-hover home-card p-6">
-					<p class="mb-3 text-sm text-muted">{{ partial "ui/date.html" .Date }} &middot; {{ .ReadingTime }}&nbsp;min. de lectura</p>
-					<h3 class="mt-0 mb-3 text-h3 leading-tight tracking-tight">
+				<li class="reveal group relative border-b border-edge py-6 first:pt-0">
+					<p class="mb-2 text-sm text-muted">{{ partial "ui/date.html" .Date }} &middot; {{ .ReadingTime }}&nbsp;min. de lectura</p>
+					<h3 class="mt-0 mb-2 text-h5 font-medium">
 						<a class="text-fg before:absolute before:inset-0 group-hover:text-link" href="{{ .RelPermalink }}">
 							{{- .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end -}}
 						</a>
 					</h3>
-					{{- with .Params.lead }}<p class="mb-0 line-clamp-4 text-muted">{{ . | safeHTML }}</p>{{ end }}
+					{{- with .Params.lead }}<p class="m-0 line-clamp-3 text-muted">{{ . | safeHTML }}</p>{{ end }}
 				</li>
 			{{- end }}
 		</ul>

@@ -104,17 +104,15 @@
   --bg: #f4f1fa;
   --surface: #ebe7f1;
   --line: rgb(48 46 54 / 0.08);
-  --card: linear-gradient(135deg, #fcfbff, #e5e1ed 100%);
+  --card: var(--surface);
   --wash: radial-gradient(
-    48rem 26rem at 78% 30%,
+    64rem 30rem at 50% 0,
     rgb(91 95 199 / 0.12),
     transparent 70%
   );
   --link: var(--color-indigo-700);
   --muted: rgb(48 46 54 / 0.72);
   --accent: var(--color-indigo-600);
-  --bar: linear-gradient(135deg, #d8d4ea, #b9b8dc);
-  --grid: rgb(48 46 54 / 0.055);
   --edge: rgb(48 46 54 / 0.09);
   --hover: rgb(91 95 199 / 0.08);
   --glass: rgb(252 251 255 / 0.76);
@@ -129,17 +127,15 @@
   --bg: #212529;
   --surface: #272b32;
   --line: rgb(243 244 245 / 0.08);
-  --card: linear-gradient(135deg, #454c52, #272b32 100%);
+  --card: var(--surface);
   --wash: radial-gradient(
-    48rem 26rem at 78% 30%,
+    64rem 30rem at 50% 0,
     rgb(166 168 222 / 0.13),
     transparent 70%
   );
   --link: #b5b7ed;
   --muted: rgb(243 244 245 / 0.7);
   --accent: #a5a6de;
-  --bar: linear-gradient(135deg, #333744, #272b32);
-  --grid: rgb(243 244 245 / 0.045);
   --edge: rgb(243 244 245 / 0.09);
   --hover: rgb(181 183 237 / 0.1);
   --glass: rgb(39 43 50 / 0.76);
@@ -194,7 +190,7 @@
 }
 
 @utility bg-bar {
-  background-image: var(--bar);
+  background-color: var(--edge);
 }
 
 /* Side margin of every page container: 16px on a phone, growing with the viewport so content never runs to the edge of a wide screen. */
@@ -1149,64 +1145,16 @@
   }
 }
 
-/* The brand language of the Figma boards: a graphite ground with a faint grid and a soft glow, two-tone headings, glass cards and dashed groups. */
+/* The only light on the page: one soft glow from above, behind the hero. Every other surface is flat and separated by hairlines. */
 @layer components {
-  .grid-bg {
-    position: relative;
-    isolation: isolate;
-    background:
-      var(--wash),
-      linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 4rem 4rem,
-      linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 4rem 4rem,
-      var(--bg);
-
-    /* The grid fades out toward the bottom so the next section starts clean. */
-    &::after {
-      position: absolute;
-      inset: 0;
-      z-index: -1;
-      background: linear-gradient(transparent 30%, var(--bg));
-      content: "";
-      pointer-events: none;
-    }
+  .hero-glow {
+    background: var(--wash);
   }
 
   /* A heading in two tones: the span is the muted second line. */
   .tone > span {
     display: block;
-    background: linear-gradient(
-      180deg,
-      color-mix(in oklab, var(--fg) 70%, var(--bg)),
-      color-mix(in oklab, var(--fg) 38%, var(--bg))
-    );
-    background-clip: text;
-    color: transparent;
-    font-weight: 500;
-  }
-
-  /* The wash of the Figma frames behind a whole section: the grid plus a glow, no cards needed. */
-  .band {
-    background: var(--wash), linear-gradient(180deg, var(--surface), var(--bg));
-  }
-
-  .glass {
-    border: 1px solid var(--edge);
-    border-radius: 1.5rem;
-    background: var(--glass);
-    box-shadow: 0 1.5rem 3rem rgb(18 21 25 / 0.14);
-    backdrop-filter: blur(12px);
-  }
-
-  .pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.25rem 0.75rem;
-    border: 1px solid var(--edge);
-    border-radius: 999px;
-    background: color-mix(in oklab, var(--surface) 82%, transparent);
     color: var(--muted);
-    font-size: var(--text-sm);
   }
 
   /* The organisation chart: one column per area, dashed boxes for groups. */
@@ -1325,75 +1273,58 @@
   }
 
   .hero {
-    min-height: min(46rem, calc(100dvh - 3.5rem));
-    gap: 3rem;
-    padding-block: 4rem 5rem;
+    padding-block: 5rem 3rem;
 
-    @media (width >= 62rem) {
-      grid-template-columns: minmax(0, 1fr) minmax(22rem, 0.8fr);
-      gap: clamp(3rem, 7vw, 8rem);
-      padding-block: 5rem;
+    @media (width >= 48rem) {
+      padding-block: 7rem 4rem;
     }
   }
 
   .hero-copy {
-    max-width: 39rem;
-  }
-
-  .hero-copy > .pill {
-    margin: 0 0 1.5rem;
-  }
-
-  .hero-copy > .pill > span,
-  .hero-checks span {
-    color: var(--accent);
-    font-weight: 700;
+    max-width: 46rem;
   }
 
   .hero-title {
     margin: 0;
-    background: linear-gradient(
-      180deg,
-      color-mix(in oklab, var(--fg) 100%, white),
-      color-mix(in oklab, var(--fg) 52%, var(--bg))
-    );
-    background-clip: text;
-    color: transparent;
-    font-size: clamp(var(--text-2xl), 4.2vw, 3.5rem);
+    font-size: clamp(var(--text-2xl), 5vw, 4rem);
     font-weight: 500;
     letter-spacing: -0.025em;
-    line-height: 1.04;
+    line-height: 1;
     text-wrap: balance;
 
     & span {
       display: block;
-      color: inherit;
+      color: var(--muted);
     }
   }
 
   .hero-lead {
-    max-width: 33rem;
-    margin: 1.5rem 0;
+    max-width: 32rem;
+    margin: 1.5rem 0 2rem;
     color: var(--muted);
     font-size: var(--text-lg);
     text-wrap: pretty;
   }
 
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.5rem;
+  }
+
   .hero-search {
     display: flex;
-    width: 100%;
-    max-width: 29rem;
-    min-height: 3.5rem;
+    min-height: 2.5rem;
+    min-width: min(100%, 20rem);
     align-items: center;
     gap: 0.75rem;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 0.75rem;
     border: 1px solid var(--edge);
-    border-radius: 1rem;
-    background: var(--glass);
-    box-shadow:
-      0 1px 0 rgb(255 255 255 / 0.1) inset,
-      0 1rem 2.5rem rgb(18 21 25 / 0.1);
+    border-radius: 0.5rem;
+    background: var(--surface);
     color: var(--muted);
+    font-size: var(--text-sm);
     text-align: left;
 
     &:hover,
@@ -1403,91 +1334,44 @@
     }
   }
 
-  .hero-checks {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 1rem 0 0;
-    padding: 0;
-    list-style: none;
-
-    & li {
-      padding: 0.25rem 0.625rem;
-      border: 1px solid var(--edge);
-      border-radius: 999px;
-      background: var(--hover);
-      color: var(--muted);
-      font-size: var(--text-sm);
-    }
-  }
-
-  .hero-visual {
-    position: relative;
-  }
-
   .hero-media {
     position: relative;
-    max-width: 30rem;
-    margin-left: auto;
-    padding: 1rem;
+    aspect-ratio: 4 / 3;
     overflow: hidden;
     border: 1px solid var(--edge);
-    border-radius: 1.5rem;
-    background: var(--card);
-    box-shadow:
-      0 1px 0 rgb(255 255 255 / 0.1) inset,
-      0 1.5rem 3rem rgb(18 21 25 / 0.16);
+    border-radius: 0.75rem;
+    background: var(--surface);
 
-    &::after {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        135deg,
-        rgb(255 255 255 / 0.14),
-        transparent 42%
-      );
-      content: "";
-      pointer-events: none;
+    @media (width >= 48rem) {
+      aspect-ratio: 21 / 9;
     }
   }
 
   .hero-photo {
     display: block;
     width: 100%;
-    aspect-ratio: 4 / 5;
-    border-radius: 1rem;
+    height: 100%;
     filter: grayscale(1) contrast(0.92);
     object-fit: cover;
-    object-position: center;
+    object-position: center 20%;
   }
 
   .hero-video {
     position: absolute;
-    right: 2rem;
-    bottom: 2rem;
+    right: 1rem;
+    bottom: 1rem;
     z-index: 1;
   }
 
   .hero-video-frame {
     position: relative;
-    width: 13rem;
-    height: 8rem;
+    width: 11rem;
+    height: 6.5rem;
     overflow: hidden;
     border: 1px solid var(--edge);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background: var(--surface);
-    box-shadow: 0 1rem 2.5rem rgb(18 21 25 / 0.2);
-
-    &::after {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        135deg,
-        rgb(255 255 255 / 0.12),
-        rgb(18 21 25 / 0.35)
-      );
-      content: "";
-    }
+    box-shadow: 0 4px 12px rgb(18 21 25 / 0.3);
 
     & img {
       width: 100%;
@@ -1517,9 +1401,5 @@
       background: var(--accent);
       color: var(--bg);
     }
-  }
-
-  .home-card {
-    min-height: 100%;
   }
 }
