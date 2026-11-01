@@ -1,7 +1,6 @@
 {{ define "main" }}
 <article class="col-prose py-page">
-	<h1>{{ .Title }}</h1>
-	{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+	{{ partial "ui/page-head.html" (dict "page" .) }}
 	<div class="markdown">{{ .Content }}</div>
 </article>
 {{ end }}

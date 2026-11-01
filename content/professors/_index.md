@@ -3,6 +3,7 @@ title: "Profesores"
 description:
   "Docentes de los cursos de Física, con los semestres que dictaron y sus
   sílabos."
+headline: "Quién dicta cada curso"
 lead:
   "Docentes de los cursos que cubren las guías. Cada ficha lista los cursos que
   dictó y enlaza el sílabo de cada semestre."

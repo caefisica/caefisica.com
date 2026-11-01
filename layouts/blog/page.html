@@ -2,8 +2,7 @@
 <article class="col-prose py-page">
 	<header class="article-head">
 		{{ partial "article/breadcrumbs.html" . }}
-		<h1>{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
-		{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+		{{ partial "ui/page-head.html" (dict "page" .) }}
 		{{ partial "article/byline.html" (dict "page" .) }}
 	</header>
 	<div class="markdown">{{ .Content }}</div>

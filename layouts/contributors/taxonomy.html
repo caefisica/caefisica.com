@@ -8,8 +8,7 @@ An author who is a current member (members.json) is not listed again under "Tamb
 	{{- with .url }}{{ with site.GetPage . }}{{ $members = $members | append .RelPermalink }}{{ end }}{{ end }}
 {{- end }}
 <div class="py-page">
-	<h1>{{ .Title }}</h1>
-	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
+	{{ partial "ui/page-head.html" (dict "page" .) }}
 	<div class="mt-12">{{ partial "ui/org-chart.html" . }}</div>
 
 	<section class="team-band" aria-labelledby="also">

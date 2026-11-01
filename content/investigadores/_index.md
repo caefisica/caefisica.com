@@ -3,9 +3,10 @@ title: "Investigadores"
 description:
   "Físicos peruanos, sus trayectorias y sus publicaciones, con una fuente para
   cada dato."
+headline: "Físicos que estudiaron en el Perú"
 lead:
-  "Físicos que estudiaron en el Perú: dónde estudiaron, dónde trabajan y qué
-  investigan. Cada dato enlaza su fuente."
+  "Dónde estudiaron, dónde trabajan y qué investigan. Cada dato enlaza su
+  fuente."
 date: 2026-10-31T00:00:00
 draft: false
 aliases:

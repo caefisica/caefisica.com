@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="col-prose py-page">
-	<h1>{{ .Title }}</h1>
-	{{- with .Description }}<p class="text-lead">{{ . }}</p>{{ end }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" .Description) }}
 	<ul class="people">
 		{{- range .Pages }}
 			<li class="person">

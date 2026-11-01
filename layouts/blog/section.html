@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="col-prose py-page">
-	<h1>{{ .Title }}</h1>
-	{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+	{{ partial "ui/page-head.html" (dict "page" .) }}
 	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
 	<ul class="rows">
 		{{- range .Pages.ByDate.Reverse }}
