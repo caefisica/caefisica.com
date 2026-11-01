@@ -1052,10 +1052,6 @@
     }
   }
 
-  .section-group-lead {
-    color: var(--muted);
-  }
-
   /* A numbered text index: no boxes, one hairline between rows, the whole row is the link. */
   .section-cards {
     counter-reset: entry;

@@ -1,5 +1,5 @@
 {{- /*
-One group of section cards. Context: dict with pages, and optional title, link and description.
+One group of section cards. Context: dict with pages, and optional title and link.
 Courses carry a semester, so a group of courses splits into one grid per semester, the order of the curriculum.
 */ -}}
 {{- with .pages -}}
@@ -11,7 +11,6 @@ Courses carry a semester, so a group of courses splits into one grid per semeste
 				{{- with $.link }}<a class="learn" href="{{ . }}">{{ $.title }}{{ partial "ui/chevron.html" }}</a>{{ else }}{{ . }}{{ end -}}
 			</h2>
 		{{- end }}
-		{{- with $.description }}<p class="section-group-lead">{{ . }}</p>{{ end }}
 		{{- if $courses -}}
 			{{- /* Courses are section pages, and GroupByParam returns no groups for section pages, so the semesters are collected by hand. */ -}}
 			{{- $semesters := slice -}}
