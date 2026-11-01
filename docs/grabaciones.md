@@ -60,8 +60,12 @@ Hay cuatro orígenes:
   el mismo título y casi la misma duración son una sola; si las duraciones
   difieren, son partes y se numeran. Si un video corresponde a una invitación
   (el mismo ponente, con menos de tres meses de diferencia), toma su título y
-  ponentes, e `invitation` enlaza la invitación. Un video de LAFMAT en Facebook
-  que también está en YouTube no entra.
+  ponentes, e `invitation` enlaza la invitación. Un video sin ponente toma la
+  única invitación de su serie para el día anterior: cada transmisión del
+  coloquio de la UNT lleva la fecha del día siguiente a la charla. Las
+  invitaciones del coloquio salen de la página de Facebook del Club de Física
+  Teórica de la UNT. Un video de LAFMAT en Facebook que también está en YouTube
+  no entra.
 
 - **Educast PUCP**: el archivo de videos de la PUCP. El título enlaza el mp4,
   que el navegador reproduce sin la página de Educast, y «Educast PUCP» enlaza
