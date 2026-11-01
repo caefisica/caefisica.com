@@ -3,9 +3,10 @@ title: "Equipo"
 description:
   "Quiénes llevan el Centro de Apoyo al Estudiante de Física y quiénes
   escribieron sus guías."
+headline: "Las guías las escriben estudiantes"
 lead:
-  "Estudiantes de Física de San Marcos que escriben las guías, revisan el
-  material y llevan las redes del centro."
+  "Estudiamos Física en San Marcos. Escribimos las guías, revisamos el material
+  y llevamos las redes del centro."
 url: "/equipo/"
 aliases: ["/contributors/"]
 cascade:

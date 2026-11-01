@@ -11,8 +11,7 @@
 {{- $courses := slice }}
 {{- range uniq $paths }}{{ with site.GetPage . }}{{ $courses = $courses | append . }}{{ end }}{{ end }}
 <div class="py-page">
-	<h1>{{ .Title }}</h1>
-	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
+	{{ partial "ui/page-head.html" (dict "page" .) }}
 	<p class="text-muted">{{ $lists }} listas de YouTube, {{ lang.FormatNumber 0 $lessons }} clases y {{ partial "ui/duration.html" (dict "seconds" $seconds "total" true) }} de video.</p>
 	{{- range sort $courses "Weight" }}
 		{{- $course := . }}

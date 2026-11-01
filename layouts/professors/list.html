@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="py-page">
-	<h1>{{ .Title }}</h1>
-	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
+	{{ partial "ui/page-head.html" (dict "page" .) }}
 	{{- range .Pages.GroupByParam "institution" }}
 		{{- $u := partial "data/university.html" .Key }}
 		<section class="section-group" aria-labelledby="u-{{ .Key }}">
