@@ -3,28 +3,54 @@
   lecturer: David Jerison
   videos: "35"
   url: https://www.youtube.com/playlist?list=PL590CCC2BC5AF3BC1
+  description: >-
+    El curso de cálculo de una variable del MIT, clase por clase: derivadas y
+    sus aplicaciones, integrales, técnicas de integración y series. Las clases
+    8, 17, 27 y 34 fueron exámenes y no tienen video. En inglés.
 - title: Funciones
   channel: MateFácil
   lecturer: Félix E. López Jara
   videos: "39"
   url: https://www.youtube.com/playlist?list=PL9SnRnlzoyX05sjBvbujQWjRFjLUOuVxb
+  description: >-
+    Ejercicios cortos resueltos paso a paso: qué es una función, dominio y
+    rango, operaciones, composición, funciones inyectivas y suprayectivas, y
+    gráficas, incluidas las definidas a trozos. En español.
 - title: Límites
   channel: MateFácil
   lecturer: Félix E. López Jara
   videos: "172"
   url: https://www.youtube.com/playlist?list=PL9SnRnlzoyX0o0z-YWbg6P3Pz9I0xlklS
+  description: >-
+    Más de 150 límites resueltos uno por video: indeterminaciones 0/0 por
+    factorización y racionalización, límites al infinito, trigonométricos, con
+    la regla de L'Hôpital y algunos de varias variables. En español.
 - title: Curso completo de derivadas
   channel: Matefácil
   lecturer: Félix E. López Jara
   videos: "205"
   url: https://www.youtube.com/playlist?list=PL9SnRnlzoyX1kIbHdA7GN-6g-hvkyLbWp
+  description: >-
+    La derivada desde su significado hasta sus aplicaciones, con un ejercicio de
+    pocos minutos por video: reglas de derivación, regla de la cadena, funciones
+    trigonométricas, exponenciales y logarítmicas, aproximaciones y máximos y
+    mínimos. En español.
 - title: Integración
   channel: ""
   lecturer: INEIN 99900
   videos: "19"
   url: https://www.youtube.com/playlist?list=PLiXIj0Ruw0JWKrU91MJUtlbiKS4Li_Q62
+  description: >-
+    Cinco videos de integrales en la pizarra: desde lo más básico e integración
+    por partes hasta ejercicios del MIT y un concurso de integrales en Juliaca,
+    Puno. En español.
 - title: "Temas 'problemáticos' del Cálculo"
   channel: ""
   lecturer: Daniel Rubin
   videos: "8"
   url: https://www.youtube.com/playlist?list=PLw3pvR_YJeRcMaubDZvkjayqDJT4Tx47A
+  description: >-
+    Demostraciones cuidadosas de lo que un curso de cálculo suele dar por
+    sentado: la derivada del seno, el área del círculo según Arquímedes, cómo
+    definir la exponencial y el logaritmo, las funciones hiperbólicas y la
+    catenaria. Para quien quiere rigor. En inglés.

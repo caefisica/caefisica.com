@@ -1,0 +1,139 @@
+{
+  "fetched": "2026-11-01",
+  "title": "MIT 8.05 Quantum Physics II, Fall 2013",
+  "channel": "MIT OpenCourseWare",
+  "description": "View the complete course: http://ocw.mit.edu/8-05F13\nInstructor: Barton Zwiebach\n\nThe collection includes twenty six video lectures.\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+  "updated": "2014-07-02",
+  "lessons": [
+    {
+      "id": "QI13S04w8dM",
+      "title": "1. Wave Mechanics",
+      "duration": 4347
+    },
+    {
+      "id": "lnZR0TVNh2k",
+      "title": "2. Wave Mechanics (continued)",
+      "duration": 4978
+    },
+    {
+      "id": "AX9769eQV24",
+      "title": "3. Wave Mechanics (continued) and Stern-Gerlach Experiment",
+      "duration": 4938
+    },
+    {
+      "id": "BWM0RXg-uvI",
+      "title": "4. Spin One-half, Bras, Kets, and Operators",
+      "duration": 5072
+    },
+    {
+      "id": "eZzBK3oy-08",
+      "title": "5. Linear Algebra: Vector Spaces and Operators",
+      "duration": 4932
+    },
+    {
+      "id": "8yvmHBGcNbg",
+      "title": "6. Linear Algebra: Vector Spaces and Operators (continued)",
+      "duration": 4834
+    },
+    {
+      "id": "jjZM88ku-7k",
+      "title": "7. Linear Algebra: Vector Spaces and Operators (continued)",
+      "duration": 4889
+    },
+    {
+      "id": "a9FHHS6n-r4",
+      "title": "8. Linear Algebra: Vector Spaces and Operators (continued)",
+      "duration": 4952
+    },
+    {
+      "id": "r2NMWEsNcTs",
+      "title": "9. Dirac's Bra and Ket Notation",
+      "duration": 4853
+    },
+    {
+      "id": "8rAQBnhbjms",
+      "title": "10. Uncertainty Principle and Compatible Observables",
+      "duration": 5015
+    },
+    {
+      "id": "Oi-JCJePLlc",
+      "title": "11. Uncertainty Principle and Compatible Observables (continued)",
+      "duration": 5340
+    },
+    {
+      "id": "7Nrymx1ULis",
+      "title": "12. Quantum Dynamics",
+      "duration": 4911
+    },
+    {
+      "id": "zOZw3zCLzyE",
+      "title": "13. Quantum Dynamics (continued) | Heisenberg Picture",
+      "duration": 4882
+    },
+    {
+      "id": "4WsMeqCKpgI",
+      "title": "14. Quantum Dynamics (continued)",
+      "duration": 5269
+    },
+    {
+      "id": "NXgobnaBN7U",
+      "title": "15. Quantum Dynamics (continued)",
+      "duration": 5130
+    },
+    {
+      "id": "TUenwZezzdk",
+      "title": "16. Quantum Dynamics (continued) and Two State Systems",
+      "duration": 4822
+    },
+    {
+      "id": "t3r9j7YUFrs",
+      "title": "17. Two State Systems (continued)",
+      "duration": 5268
+    },
+    {
+      "id": "xieyFMfX-Ao",
+      "title": "18. Two State Systems (continued), Multiparticle States and Tensor Products",
+      "duration": 5292
+    },
+    {
+      "id": "RTKvGmiT-9Q",
+      "title": "19. Multiparticle States and Tensor Products (continued)",
+      "duration": 5309
+    },
+    {
+      "id": "LYXIUtVzPAM",
+      "title": "20. Multiparticle States and Tensor Products (continued) and Angular Momentum",
+      "duration": 5030
+    },
+    {
+      "id": "JjoqYkq4J6k",
+      "title": "21. Angular Momentum (continued)",
+      "duration": 5188
+    },
+    {
+      "id": "v3dkStu-tMc",
+      "title": "22. Angular Momentum (continued)",
+      "duration": 5136
+    },
+    {
+      "id": "YDRMLCuNteY",
+      "title": "23. Angular Momentum (continued)",
+      "duration": 5248
+    },
+    {
+      "id": "ZTNip78TUvA",
+      "title": "24. Addition of Angular Momentum",
+      "duration": 5343
+    },
+    {
+      "id": "65XkZ_SRxBk",
+      "title": "25. Addition of Angular Momentum (continued)",
+      "duration": 4985
+    },
+    {
+      "id": "WFQ-UcH4jMM",
+      "title": "26. Addition of Angular Momentum (continued)",
+      "duration": 4348
+    }
+  ]
+}

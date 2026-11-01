@@ -8,6 +8,11 @@
   lecturer: Brandon Leonard
   videos: "39"
   url: https://www.youtube.com/playlist?list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_
+  description: >-
+    Clases largas de pizarra sobre ecuaciones de primer orden: problemas de
+    valor inicial, campos de pendientes, ecuaciones separables, lineales,
+    homogéneas y exactas, sustituciones, modelos de población, estabilidad de
+    puntos críticos y el método de Euler. En inglés.
 - title: Differential Equations
   channel: I Lecture Online
   lecturer: Michel van Biezen

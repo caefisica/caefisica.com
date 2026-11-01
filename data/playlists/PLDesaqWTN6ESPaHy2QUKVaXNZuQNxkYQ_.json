@@ -1,0 +1,229 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Differential Equations",
+  "channel": "Professor Leonard",
+  "description": "An in-depth study of Differential Equations and how they are used in life.",
+  "updated": "2026-10-12",
+  "lessons": [
+    {
+      "id": "xf-3ATzFyKA",
+      "title": "The Plan for Differential Equations (Differential Equations 1)",
+      "duration": 197
+    },
+    {
+      "id": "EWVSxND_iWA",
+      "title": "Introduction to Differential Equations (Differential Equations 2)",
+      "duration": 596
+    },
+    {
+      "id": "5LkQEOPwqfk",
+      "title": "Checking Solutions in Differential Equations (Differential Equations 3)",
+      "duration": 1858
+    },
+    {
+      "id": "HjioXdmwze0",
+      "title": "Introduction to Initial Value Problems (Differential Equations 4)",
+      "duration": 1737
+    },
+    {
+      "id": "yhklHobbuyg",
+      "title": "Introduction to Time Rate of Change (Differential Equations 5)",
+      "duration": 1164
+    },
+    {
+      "id": "_4Bq6I68Yn4",
+      "title": "Solving Basic Differential Equations with Integration (Differential Equations 6)",
+      "duration": 2361
+    },
+    {
+      "id": "MlUDvnj4E1U",
+      "title": "Differential Equations with Velocity and Acceleration (Differential Equations 7)",
+      "duration": 2639
+    },
+    {
+      "id": "pH7oxUCSfQY",
+      "title": "Problem Solving with Velocity and Acceleration (Differential Equations 8)",
+      "duration": 5157
+    },
+    {
+      "id": "m9Y8U9f9_Bw",
+      "title": "Introduction to Slope Fields (Differential Equations 9)",
+      "duration": 2058
+    },
+    {
+      "id": "i_f6tC0BKxI",
+      "title": "Applications of Slope Fields (Differential Equations 10)",
+      "duration": 2322
+    },
+    {
+      "id": "QXGtkTIAT1w",
+      "title": "Watch Before Diff Eq 11",
+      "duration": 197
+    },
+    {
+      "id": "BVKyaEu1FWk",
+      "title": "Existence and Uniqueness of Solutions (Differential Equations 11)",
+      "duration": 2672
+    },
+    {
+      "id": "WfX20b-peDw",
+      "title": "Separable Differential Equations (Differential Equations 12)",
+      "duration": 5577
+    },
+    {
+      "id": "ZWXG3c7A_9s",
+      "title": "Separable Equations with Initial Values (Differential Equations 13)",
+      "duration": 2101
+    },
+    {
+      "id": "VZChL3Pqioo",
+      "title": "Applications with Separable Equations (Differential Equations 14)",
+      "duration": 6608
+    },
+    {
+      "id": "kATxKuVSc9I",
+      "title": "Introduction to Linear Differential Equations and Integrating Factors (Differential Equations 15)",
+      "duration": 4036
+    },
+    {
+      "id": "fpQoL5u5ihs",
+      "title": "Solving Linear Differential Equations with an Integrating Factor (Differential Equations 16)",
+      "duration": 4261
+    },
+    {
+      "id": "fDgupl86-7w",
+      "title": "Domain Restrictions In Differential Equations and Integrating Factors (Differential Equations 17)",
+      "duration": 667
+    },
+    {
+      "id": "TVgvqwHjHPc",
+      "title": "Special Integration in a Linear Differential Equation Problem (Differential Equations 18)",
+      "duration": 2321
+    },
+    {
+      "id": "rA3KEH3B-rM",
+      "title": "Mixture Problems in Linear Differential Equations (Differential Equations 19)",
+      "duration": 4256
+    },
+    {
+      "id": "IRNl1ynIgco",
+      "title": "Substitutions for Homogeneous First Order Differential Equations (Differential Equations 20)",
+      "duration": 3945
+    },
+    {
+      "id": "-hGuLw4YxIM",
+      "title": "Solving Homogeneous First Order Differential Equations (Differential Equations 21)",
+      "duration": 6911
+    },
+    {
+      "id": "C6gOaF4DLeE",
+      "title": "Solving Differential Equations with a Composition (Obvious) Substitution (Differential Equations 22)",
+      "duration": 2403
+    },
+    {
+      "id": "NjIMGAIPbzg",
+      "title": "How to Solve Bernoulli Differential Equations (Differential Equations 23)",
+      "duration": 6215
+    },
+    {
+      "id": "-HOjXnmbX0M",
+      "title": "Solving Differential Equations with Embedded Derivative Substitutions (Differential Equations 24)",
+      "duration": 2851
+    },
+    {
+      "id": "bIQZ6yahKJk",
+      "title": "Bernoulli Equations Made Easy (Differential Equations 24.5)",
+      "duration": 3935
+    },
+    {
+      "id": "vGLwdZY8i5o",
+      "title": "How Embedded Derivatives Can Make Differential Equations Easier (Differential Equations 25)",
+      "duration": 3176
+    },
+    {
+      "id": "SjVu03HHH7I",
+      "title": "Reducible Second Order Differential Equations, Missing Y (Differential Equations 26)",
+      "duration": 2834
+    },
+    {
+      "id": "-gi4GfbhrnI",
+      "title": "Reducible Second Order Differential Equations, Missing X (Differential Equations 27)",
+      "duration": 4789
+    },
+    {
+      "id": "_c3iEPReTVQ",
+      "title": "What are Exact Differential Equations (Differential Equations 28)",
+      "duration": 3274
+    },
+    {
+      "id": "7zOMnC-BAFY",
+      "title": "Solving Exact Differential Equations (Differential Equations 29)",
+      "duration": 3106
+    },
+    {
+      "id": "wQ0lwznTSvY",
+      "title": "Integrating Factor for Exact Differential Equations (Differential Equations 30)",
+      "duration": 4555
+    },
+    {
+      "id": "7SPEvSmfK0w",
+      "title": "Introduction to Population Models and Logistic Equation (Differential Equations 31)",
+      "duration": 3879
+    },
+    {
+      "id": "UlsybdSd8lU",
+      "title": "Basic Population Models in Differential Equations (Differential Equations 32)",
+      "duration": 1762
+    },
+    {
+      "id": "DKNV_e1keno",
+      "title": "Birth Rates and Death Rates in Differential Equations (Differential Equations 33)",
+      "duration": 3766
+    },
+    {
+      "id": "c4VJPKUgwdI",
+      "title": "Using Partial Fractions in Differential Equations (Differential Equations 34)",
+      "duration": 2411
+    },
+    {
+      "id": "iRfo9hDV5Ss",
+      "title": "Population Growth and Decline (Differential Equations 35)",
+      "duration": 4681
+    },
+    {
+      "id": "7q33RFkMMpY",
+      "title": "Equilibrium Solutions and Stability of Differential Equations (Differential Equations 36)",
+      "duration": 2667
+    },
+    {
+      "id": "yYVPI5Rto8g",
+      "title": "Stability of Critical Points (Differential Equations 37)",
+      "duration": 5059
+    },
+    {
+      "id": "KVai51ZM3Qs",
+      "title": "Harvesting Populations in Differential Equations (Differential Equations 38)",
+      "duration": 3744
+    },
+    {
+      "id": "Pj_nnWt44jo",
+      "title": "Acceleration and Velocity with Resistance (Differential Equations 39)",
+      "duration": 5379
+    },
+    {
+      "id": "9rVIV2PUUyo",
+      "title": "Acceleration and Velocity with Resistance, Part 2 (Differential Equations 40)",
+      "duration": 5224
+    },
+    {
+      "id": "LV619RQ5rp4",
+      "title": "Introduction to Euler's Method (Differential Equations 41)",
+      "duration": 3391
+    },
+    {
+      "id": "6iBJnrAmpe0",
+      "title": "Using Euler's Method (Differential Equations 42)",
+      "duration": 3577
+    }
+  ]
+}

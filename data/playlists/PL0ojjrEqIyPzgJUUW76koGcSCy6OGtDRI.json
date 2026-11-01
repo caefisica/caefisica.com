@@ -1,0 +1,109 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Physics 12c Statistical Mechanics",
+  "channel": "John Preskill",
+  "description": "",
+  "updated": "2021-02-22",
+  "lessons": [
+    {
+      "id": "s7chipjxBFk",
+      "title": "ph12c lecture01 counting",
+      "duration": 5160
+    },
+    {
+      "id": "1CWUDB1CX4Y",
+      "title": "ph12c lecture02 entropy",
+      "duration": 5258
+    },
+    {
+      "id": "LJb1kU_aX9s",
+      "title": "ph12c lecture03 Boltzman",
+      "duration": 5197
+    },
+    {
+      "id": "xzf2sk5tsd4",
+      "title": "ph12c lecture04 ideal gas",
+      "duration": 5289
+    },
+    {
+      "id": "rA7khPrJyfA",
+      "title": "ph12c lecture05 Planck",
+      "duration": 5331
+    },
+    {
+      "id": "oVSOEI0xcGY",
+      "title": "ph12c lecture06 Debye",
+      "duration": 5200
+    },
+    {
+      "id": "2ZZ-VUEPkGU",
+      "title": "ph12c lecture07 Gibbs",
+      "duration": 5098
+    },
+    {
+      "id": "Ci8kccVacno",
+      "title": "ph12c lecture08 indistinguishable",
+      "duration": 5136
+    },
+    {
+      "id": "PsHH7M0iZkg",
+      "title": "ph12c lecture09 Fermi",
+      "duration": 5423
+    },
+    {
+      "id": "i-kf09du4kw",
+      "title": "ph12c lecture10 Bose",
+      "duration": 5111
+    },
+    {
+      "id": "fY1pzQlna7M",
+      "title": "ph12c lecture11 BEC",
+      "duration": 5275
+    },
+    {
+      "id": "L-Cwn1b5TQU",
+      "title": "ph12c lecture12 thermo",
+      "duration": 5265
+    },
+    {
+      "id": "Gsr6_fMlWrs",
+      "title": "ph12c lecture13 Gibbs free energy",
+      "duration": 5108
+    },
+    {
+      "id": "cq3hnxUsy6Y",
+      "title": "ph12c lecture14 van der Waals",
+      "duration": 5083
+    },
+    {
+      "id": "7WGiH-AKUqI",
+      "title": "ph12c lecture15 phase transition",
+      "duration": 5342
+    },
+    {
+      "id": "Y2JIkmglxTo",
+      "title": "ph12c lecture16 ferromagnetism",
+      "duration": 5302
+    },
+    {
+      "id": "U0jBO3xeu6g",
+      "title": "ph12c lecture17 Landau",
+      "duration": 5531
+    },
+    {
+      "id": "FANeUyJb394",
+      "title": "ph12c lecture18 kinetic",
+      "duration": 5332
+    },
+    {
+      "id": "JdzOIuFDYLQ",
+      "title": "ph12c lecture19 diffusion",
+      "duration": 5073
+    },
+    {
+      "id": "IthKG-f2m60",
+      "title": "ph12c lecture20 demon",
+      "duration": 5184
+    }
+  ]
+}

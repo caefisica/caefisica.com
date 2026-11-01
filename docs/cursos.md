@@ -94,12 +94,28 @@ lista `links`; cada enlace lleva `url`, `edition` y `year`:
 `type="playlist"`:
 
 ```yaml
-- title: "Physics I: Classical Mechanics"
-  channel: MIT OpenCourseWare
+- title: "Physics I: Classical Mechanics (1999)"
+  channel: CosmoLearning
   lecturer: Walter Lewin
   videos: "35"
   url: https://www.youtube.com/playlist?list=…
+  description: >-
+    Las clases de 8.01 que Walter Lewin dictó en el MIT en 1999…
 ```
+
+Cada entrada aparece también en `/videos/`, agrupada por curso. Una lista de
+YouTube (una `url` con `list=`) tiene allí su propia página: un reproductor, sus
+clases con su duración y `description`, que se escribe en Markdown y dice qué
+cubre la lista, a qué nivel y en qué idioma. Una lista que varios cursos citan
+tiene una sola página, con el título y la descripción del primer curso.
+Cualquier otro enlace (Drive, un canal) se lista y abre donde está.
+
+Las clases salen de `data/playlists/<list>.json`, que escribe
+`bun run playlists` con [yt-dlp](https://github.com/yt-dlp/yt-dlp). El script
+omite los videos privados o eliminados. Una lista sin JSON se lista como enlace
+externo. Una lista que YouTube ya no sirve se borra del `playlists.yaml`.
+`videos` solo se muestra para los enlaces que no son listas de YouTube; para las
+demás cuenta el JSON.
 
 ## Sílabos
 

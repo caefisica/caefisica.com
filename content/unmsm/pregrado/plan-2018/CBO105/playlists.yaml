@@ -13,18 +13,26 @@
   lecturer: Policrom
   videos: "39"
   url: https://www.youtube.com/playlist?list=PLkLofDCDJhEdV1akjcGRMUpuO8oG5is11
+  description: >-
+    Precálculo y cálculo en episodios cortos: números reales, ecuaciones e
+    inecuaciones, axioma del supremo, funciones, trigonometría y límites y
+    continuidad, con ejercicios. En español.
 - title: Álgebra Superior I
   channel: Cal Math
   lecturer: Carlos Hernández
   videos: "25"
   url: https://www.youtube.com/playlist?list=PLmiZfHGcN67VNNRVujCvQqY907FNfsIL6
-- title: Curso de teoría de conjuntos 1
-  channel: Adrián GQ
-  lecturer: Adrián Gallardo Quiroz
-  videos: "55"
-  url: https://www.youtube.com/playlist?list=PLBCjeY_ED0LxwfCyB1oloNGRCbMdJH0F3
+  description: >-
+    Un curso con demostraciones: lógica, conjuntos, producto cartesiano,
+    funciones, relaciones de equivalencia y de orden, los números naturales y el
+    teorema de recursión, y cardinalidad hasta los teoremas de Cantor y de
+    Cantor-Schröder-Bernstein. En español.
 - title: Teoría de conjuntos
   channel: ""
   lecturer: Rodrigo Hernandez-Gutierrez
   videos: "3"
   url: https://www.youtube.com/playlist?list=PLx1OKAJ_nQJcA30VAxKJFcCvhCpVwKNwz
+  description: >-
+    Tres clases de una hora de un curso que se canceló: los axiomas de Peano, el
+    orden de los números naturales, y la equipotencia y los conjuntos
+    numerables. En español.

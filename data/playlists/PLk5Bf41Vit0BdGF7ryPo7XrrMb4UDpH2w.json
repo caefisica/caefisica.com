@@ -1,0 +1,64 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Minicurso de Mecánica Cuántica",
+  "channel": "Física en Directo",
+  "description": "Minicurso de Mecánica Cuántica basado en el libro \"A modern approach to quantum mechanics\" de John S. Townsend\".",
+  "updated": "2022-05-23",
+  "lessons": [
+    {
+      "id": "U9Ohh1KsYpk",
+      "title": "Minicurso de Mecánica Cuántica - 1.1 El experimento de Stern-Gerlach original",
+      "duration": 626
+    },
+    {
+      "id": "HZsP_cuo5mk",
+      "title": "Problema N° 1.1 (Solución) - A Modern Approach to Quantum Mechanics . Stern -Gerlach",
+      "duration": 998
+    },
+    {
+      "id": "8n2D0WiQ-PA",
+      "title": "Problema 1.2 (Solución ) - A Modern Approach to Quantum Mechanics",
+      "duration": 699
+    },
+    {
+      "id": "UTmbDhlaxT0",
+      "title": "Minicurso de Mecánica Cuántica - 1.2 Experimentos de Stern-Gerlach",
+      "duration": 873
+    },
+    {
+      "id": "n3demQaUkg4",
+      "title": "Minicurso de Mecánica Cuántica - 1.3 El vector de estado cuántico",
+      "duration": 811
+    },
+    {
+      "id": "F39z1Akawng",
+      "title": "Minicurso de Mecánica Cuántica - 1.4 Análisis del experimento 3",
+      "duration": 324
+    },
+    {
+      "id": "3uUIlEWKfKk",
+      "title": "Minicurso de Mecánica Cuántica - 1.5 Experimento 5",
+      "duration": 376
+    },
+    {
+      "id": "R-bX6dL13js",
+      "title": "Problema N°1.3 (Solución) - A Modern Approach to Quantum Mechanics",
+      "duration": 1444
+    },
+    {
+      "id": "gPiuaJn6t6U",
+      "title": "Minicurso de Mecánica Cuántica - 2.1 Los inicios de la Mecánica Matricial",
+      "duration": 664
+    },
+    {
+      "id": "BFd2t3K55ZM",
+      "title": "Un vistazo a la Notación de Dirac",
+      "duration": 1198
+    },
+    {
+      "id": "3JdelssLZwE",
+      "title": "Minicurso de Mecánica Cuántica - 2.2 Operador de rotación",
+      "duration": 1346
+    }
+  ]
+}

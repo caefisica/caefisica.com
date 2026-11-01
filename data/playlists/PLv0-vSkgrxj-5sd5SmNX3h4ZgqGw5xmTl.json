@@ -1,0 +1,154 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Clases IB en línea: Mecánica estadística",
+  "channel": "Instituto Balseiro - Académico",
+  "description": "",
+  "updated": "2023-01-26",
+  "lessons": [
+    {
+      "id": "PXQL2KiQSMs",
+      "title": "Mecánica estadística | Clase 1: Introducción. Hipótesis ergódica",
+      "duration": 6164
+    },
+    {
+      "id": "GXoSWttytd8",
+      "title": "Mecánica estadística | Clase 2: Maximización de la entropía y ensembles",
+      "duration": 4793
+    },
+    {
+      "id": "i9F18c5sUhY",
+      "title": "Mecánica estadística | Clase 3: Gas ideal en el ensemble microcanónico",
+      "duration": 6490
+    },
+    {
+      "id": "VdqEgAEwTm8",
+      "title": "Mecánica estadística | Clase 4: Espines en un campo magnético: tratamiento microcanónico.",
+      "duration": 5780
+    },
+    {
+      "id": "XlmTcksl3gc",
+      "title": "Mecánica estadística | Clase 5: Equilibrio entre sistemas. Ensemble canónico",
+      "duration": 5360
+    },
+    {
+      "id": "v8waw27zmNk",
+      "title": "Mecánica Estadística | Clase 6: Sistema de espines en el ensemble canónico",
+      "duration": 4809
+    },
+    {
+      "id": "earU4JSO7Kc",
+      "title": "Mecánica Estadística | Clase 7: Gas ideal en el ensemble canónico. Equivalencia de ensembles.",
+      "duration": 6769
+    },
+    {
+      "id": "VugSAByPbUc",
+      "title": "Mecánica Estadística | Clase 8: Sistemas que intercambian partículas. Transformación isomérica.",
+      "duration": 5344
+    },
+    {
+      "id": "Pe9dWnPYCg4",
+      "title": "Mecánica Estadística | Clase 9: Ensemble gran canónico",
+      "duration": 6571
+    },
+    {
+      "id": "Swv6KynOdvk",
+      "title": "Mecánica Estadística | Clase 10: Adsorción de partículas. Ludwig Boltzmann.",
+      "duration": 5595
+    },
+    {
+      "id": "n1SyevKkwe0",
+      "title": "Mecánica Estadística | Clase 11: Sistema de partículas en un campo de fuerzas",
+      "duration": 6480
+    },
+    {
+      "id": "wl12wK8JGFE",
+      "title": "Mecánica Estadística | Clase 12: Estadísticas cuánticas para partículas no interactuantes",
+      "duration": 6329
+    },
+    {
+      "id": "UffMtkV2m1M",
+      "title": "Mecánica estadística | Clase 13: Corrección cuántica al gas ideal. Fermiones a temperatura nula",
+      "duration": 8335
+    },
+    {
+      "id": "J_eEvAD5Yzk",
+      "title": "Mecánica estadística | Clase 14: Paramagnetismo de Pauli. Desarrollo de Sommerfeld",
+      "duration": 7634
+    },
+    {
+      "id": "d1uTMasgJMY",
+      "title": "Mecánica estadística | Clase 15: Un modelo para las estrellas enanas blancas",
+      "duration": 4824
+    },
+    {
+      "id": "eElzO2Swhd0",
+      "title": "Mecánica estadística | Clase 16: Bosones. Introducción a la condensación de Bose",
+      "duration": 6291
+    },
+    {
+      "id": "T20bXD8Ju6U",
+      "title": "Mecánica estadística | Clase 17: Condensación de Bose",
+      "duration": 5937
+    },
+    {
+      "id": "RnU-iHvBiGs",
+      "title": "Mecánica estadística | Clase 18: Mecánica estadística del campo electromagnético",
+      "duration": 7595
+    },
+    {
+      "id": "NHZsUye5dzc",
+      "title": "Mecánica estadística | Clase 19: Fonones",
+      "duration": 6374
+    },
+    {
+      "id": "rRlrVpilUnI",
+      "title": "Mecánica estadística | Clase 20: Sistemas de partículas interactuantes",
+      "duration": 4498
+    },
+    {
+      "id": "AGED-oxQn4E",
+      "title": "Mecánica Estadística | Clase 21: Desarrollo del virial. Ecuación de van der Waals",
+      "duration": 5059
+    },
+    {
+      "id": "epUGLF1ETu8",
+      "title": "Mecánica estadística | Clase 22: Modelo de Ising",
+      "duration": 4291
+    },
+    {
+      "id": "fh-uHl-E4iw",
+      "title": "Mecánica estadística | Clase 23: Teoría de campo medio para el modelo de Ising",
+      "duration": 5317
+    },
+    {
+      "id": "XFpZBDD5gzU",
+      "title": "Mecánica estadística | Clase 24: Adsorción de partículas interactuantes",
+      "duration": 3335
+    },
+    {
+      "id": "6jC7fYah2Dc",
+      "title": "Mecánica Estadística | Clase 25: Fenomenología y Termodinámica de transiciones de fase",
+      "duration": 6339
+    },
+    {
+      "id": "KbFE0HlPcOY",
+      "title": "Mecánica Estadística | Clase 26: Teoría Fenomenológica de Landau para transiciones de fase",
+      "duration": 5621
+    },
+    {
+      "id": "njDekzol-Ew",
+      "title": "Mecánica Estadística | Clase 27: Transiciones de fase en sistemas modelo",
+      "duration": 7283
+    },
+    {
+      "id": "fSuoR9dcvDQ",
+      "title": "Mecánica Estadística | Clase 28: Campo medio y la teoría de Landau de transiciones de fase.",
+      "duration": 6321
+    },
+    {
+      "id": "ph7tEbBwspk",
+      "title": "Mecánica Estadística | Clase 29: Superconductividad",
+      "duration": 4680
+    }
+  ]
+}

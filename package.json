@@ -31,6 +31,7 @@
     "publish:cloudflare": "wrangler deploy",
     "publish:netlify": "netlify deploy --prod --no-build --dir public --site \"$NETLIFY_SITE_ID\"",
     "researchers": "bun scripts/openalex.ts",
+    "playlists": "bun scripts/playlists.ts",
     "links": "lychee 'content/**/*.md'",
     "clean": "shx rm -rf public resources node_modules"
   },

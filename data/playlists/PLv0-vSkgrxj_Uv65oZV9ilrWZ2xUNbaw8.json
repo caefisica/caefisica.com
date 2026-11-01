@@ -1,0 +1,154 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Clases IB en línea: Mecánica clásica",
+  "channel": "Instituto Balseiro - Académico",
+  "description": "Clase 1: Coordenadas Generalizadas y Ecuaciones de Lagrange.\n\nClase 2: Principio de Hamilton y cálculo de variaciones. El problema de la braquistócrona.\n\nClase 3: El principio de Hamilton y las ecuaciones de la Mecánica.\n\nClase 4: Teoremas de Conservación. El hamiltoniano vs la energía.\n\nClase 5: Teorema de Noether.  Multiplicadores de Lagrange.\n\nClase 6: Propiedades de lagrangiano. Fuerzas Centrales: introducción.\n\nClase 7: Fuerzas Centrales: Reducción de un potencial efectivo.\n\nClase 8: Fuerzas Centrales: Ecuación de la órbita.\n\nClase 9: Ángulo de Scattering. Sección Eficaz.\n\nClase 10: Sección Eficaz Diferencial. Fórmula de Rutherford.\n\nClase 11: Oscilaciones. Oscilador armónico y dos osciladores acoplados.\n\nClase 12: Acoplamiento Débil. Péndulos acoplados. Teoría general de pequeñas oscilaciones.\n\nClase 13: Coordinadas Normales. Degeneración.\n\nClase 14: Oscilaciones de una cadena de N masas.\n\nClase 15: Cuerpo Rígido: campo de velocidades y energía cínetica.\n\nClase 16: Tensor de Inercia y Teorema de Steiner.\n\nClase 17: Momento angular de un cuerpo rígido. Precesión libre.\n\nClase 18: Dinámica del cuerpo rígido: Ecuaciones de Euler.\n\nClase 19: Ángulos de Euler.  Movimiento de un trompo apoyado.\n\nClase 20: Ecuaciones de Hamilton.\n\nClase 21: Transformaciones Canónicas.\n\nClase 22: Transformaciones Canónicas y Corchetes de Poisson - Teorema de Liouville.\n\nClase 23: Corchetes de Poisson y Leyes de conservación Variables ángulo-acción.\n\nClase 24: Invariancia Adiabática. Ecuación de Hamilton-Jacobi.\n\nClase 25: Relatividad especial (I).\n\nClase 26: Relatividad especial (II).\n\nClase 27: Relatividad especial (III).\n\nClase 28: Sistemas Dinámicos: Flujos de 1 y 2 dimensiones.\n\nClase 29: Sistemas Dinámicos: Caos.",
+  "updated": "2021-04-06",
+  "lessons": [
+    {
+      "id": "psms00DeX9o",
+      "title": "Mecánica clásica: Clase 1",
+      "duration": 7441
+    },
+    {
+      "id": "YbNRskKO7gc",
+      "title": "Mecánica clásica: Clase 2",
+      "duration": 7028
+    },
+    {
+      "id": "SpPWWCK_lcI",
+      "title": "Mecánica clásica: Clase 3",
+      "duration": 7667
+    },
+    {
+      "id": "lOHKB94x8Gk",
+      "title": "Mecánica clásica: Clase 4",
+      "duration": 7309
+    },
+    {
+      "id": "P4R9kH1eHvg",
+      "title": "Mecánica clásica: Clase 5",
+      "duration": 9136
+    },
+    {
+      "id": "bSAjoCm7TL0",
+      "title": "Mecánica clásica: Clase 6",
+      "duration": 7587
+    },
+    {
+      "id": "HkmfQgIfR88",
+      "title": "Mecánica clásica: Clase 7",
+      "duration": 7804
+    },
+    {
+      "id": "wx8zbNPbxjU",
+      "title": "Mecánica clásica: Clase 8",
+      "duration": 8370
+    },
+    {
+      "id": "t7RBzJaLLWs",
+      "title": "Mecánica clásica: Clase 9",
+      "duration": 7047
+    },
+    {
+      "id": "olgdnR0oqY4",
+      "title": "Mecánica clásica: Clase 10",
+      "duration": 8484
+    },
+    {
+      "id": "_8Px5rOvoUw",
+      "title": "Mecánica clásica: Clase 11",
+      "duration": 7858
+    },
+    {
+      "id": "N2oEC0JN5NY",
+      "title": "Mecánica clásica: Clase 12",
+      "duration": 8464
+    },
+    {
+      "id": "I0-vbzZRG54",
+      "title": "Mecánica clásica: Clase 13",
+      "duration": 6025
+    },
+    {
+      "id": "RY4blNwd7zw",
+      "title": "Mecánica clásica: Clase 14",
+      "duration": 7289
+    },
+    {
+      "id": "cOgOJGx_YXw",
+      "title": "Mecánica clásica: Clase 15",
+      "duration": 6925
+    },
+    {
+      "id": "rOK78WmDX64",
+      "title": "Mecánica clásica: Clase 16",
+      "duration": 6977
+    },
+    {
+      "id": "CqBDeccFzzE",
+      "title": "Mecánica clásica: Clase 17",
+      "duration": 7104
+    },
+    {
+      "id": "8LHHrxGmuUQ",
+      "title": "Mecánica clásica: Clase 18",
+      "duration": 7619
+    },
+    {
+      "id": "8yRqo_e2Iu0",
+      "title": "Mecánica clásica: Clase 19",
+      "duration": 7670
+    },
+    {
+      "id": "d54HvbwX9-0",
+      "title": "Mecánica clásica: Clase 20",
+      "duration": 7911
+    },
+    {
+      "id": "i-gkQpUvAAk",
+      "title": "Mecánica clásica: Clases 21",
+      "duration": 7530
+    },
+    {
+      "id": "1E9xkuhi0IU",
+      "title": "Mecánica clásica: Clase 22",
+      "duration": 8021
+    },
+    {
+      "id": "78ZE4h_mO2E",
+      "title": "Mecánica clásica: Clase 23",
+      "duration": 8143
+    },
+    {
+      "id": "1ptNaG7AW8Y",
+      "title": "Mecánica clásica: Clase 24",
+      "duration": 8909
+    },
+    {
+      "id": "5DwVMSoeaEo",
+      "title": "Mecánica clásica: Clase 25",
+      "duration": 8274
+    },
+    {
+      "id": "_ZNpeMdadt8",
+      "title": "Mecánica clásica: Clase 26",
+      "duration": 7540
+    },
+    {
+      "id": "raILn02Mj0g",
+      "title": "Mecánica clásica: Clase 27",
+      "duration": 7064
+    },
+    {
+      "id": "gYcl3AfIsN0",
+      "title": "Mecánica clásica: Clase 28",
+      "duration": 7343
+    },
+    {
+      "id": "1T9zCmnHhhU",
+      "title": "Mecánica clásica: Clase 29",
+      "duration": 5903
+    }
+  ]
+}

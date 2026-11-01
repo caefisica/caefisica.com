@@ -1,0 +1,239 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Quantum Mechanics II",
+  "channel": "James Freericks",
+  "description": "Lectures for the second semester graduate quantum mechanics course, Physic 506, from Georgetown University with videos from the Spring 2020 and Spring 2021 semesters. Instructor: Jim Freericks",
+  "updated": "2021-06-16",
+  "lessons": [
+    {
+      "id": "gvgUnXZwCP4",
+      "title": "Trailer for class, Quantum Mechanics II",
+      "duration": 200
+    },
+    {
+      "id": "SzPn_RhVFKY",
+      "title": "Lecture 1 Spin Matrix Identities",
+      "duration": 2403
+    },
+    {
+      "id": "hpR63zI8dns",
+      "title": "Lecture2 Five Critical Operator Identities for Quantum Mechanics",
+      "duration": 2337
+    },
+    {
+      "id": "9MDHjd6nNR8",
+      "title": "Lecture3 Simple Harmonic Oscillator",
+      "duration": 2435
+    },
+    {
+      "id": "y2zO9TaoxqE",
+      "title": "Lecture4 Coherent States",
+      "duration": 1865
+    },
+    {
+      "id": "Tf94enEAcr8",
+      "title": "Lecture5 Squeezed States",
+      "duration": 1945
+    },
+    {
+      "id": "VpM0rW106K4",
+      "title": "Lecture6 The Schroedinger Factorization Method",
+      "duration": 2182
+    },
+    {
+      "id": "dP8TPHZKvjI",
+      "title": "Lecture7 Rotation and its Relation to Angular Momentum",
+      "duration": 1777
+    },
+    {
+      "id": "A1TtjDnbid8",
+      "title": "Lecture8 Spherical Harmonics Done Right",
+      "duration": 1571
+    },
+    {
+      "id": "wXOJ4uw1krs",
+      "title": "Lecture9 Central Force Potentials, Separation of Variables and Radial Momentum",
+      "duration": 2034
+    },
+    {
+      "id": "ij_7tq_yFK4",
+      "title": "Lecture10 Hydrogen in Position Space Using Operator Methods",
+      "duration": 2316
+    },
+    {
+      "id": "ad5uEjou9WA",
+      "title": "Lecture11 Cartesian Factorization Method for Hydrogen and Momentum Space Wavefunctions",
+      "duration": 2713
+    },
+    {
+      "id": "KYbIrIi4e_I",
+      "title": "Lecture12 Combining Angular Momentum",
+      "duration": 1430
+    },
+    {
+      "id": "ScqnlWzzovg",
+      "title": "Lecture13 Combining Angular Momentum II",
+      "duration": 1546
+    },
+    {
+      "id": "6uvZrDxgjWI",
+      "title": "Lecture14 Nondegenerate Rayleigh-Schroedinger Perturbation Theory",
+      "duration": 1454
+    },
+    {
+      "id": "ueUs4S45pZ8",
+      "title": "Lecture15 Wigner-Brillouin Perturbation Theory",
+      "duration": 1176
+    },
+    {
+      "id": "FdLeqzCUhC0",
+      "title": "Lecture16 Degenerate Perturbation Theory",
+      "duration": 1538
+    },
+    {
+      "id": "XJJ5NRb5YZU",
+      "title": "Lecture17 Atomic Fine Structure of Hydrogen",
+      "duration": 1583
+    },
+    {
+      "id": "J6wf75xGYUo",
+      "title": "Lecture18 Hydrogen Atom in a Magnetic Field",
+      "duration": 1571
+    },
+    {
+      "id": "h0sMf1dNtF0",
+      "title": "Lecture19 Stark Effect and a Spin Perturbation Theory Example",
+      "duration": 1474
+    },
+    {
+      "id": "e-HPDaXBuoU",
+      "title": "Lecture20 Introduction to Scattering",
+      "duration": 1676
+    },
+    {
+      "id": "AiFwxXb1ThE",
+      "title": "Lecture21 Introduction to Scattering II",
+      "duration": 1130
+    },
+    {
+      "id": "d1ZoDou7pFg",
+      "title": "Lecture22 The Generalized Optical Theorem",
+      "duration": 2024
+    },
+    {
+      "id": "kv9Y9AqvNIk",
+      "title": "Lecture23 Partial Wave Scattering from Spherical Potentials",
+      "duration": 2292
+    },
+    {
+      "id": "gN_TnI1k8Ac",
+      "title": "Lecture24 Delta Shell Scattering and Scattering Resonances",
+      "duration": 1601
+    },
+    {
+      "id": "N1laRuYiO1s",
+      "title": "Lecture25 part 1 The Time-Dependent Schroedinger Equation",
+      "duration": 1462
+    },
+    {
+      "id": "dEaNpkwy37c",
+      "title": "Lecture25 part2 The Time-Evolution Operator",
+      "duration": 1049
+    },
+    {
+      "id": "DiPn7hElAAA",
+      "title": "Lecture26 part 1 The Interaction Representation",
+      "duration": 1132
+    },
+    {
+      "id": "bWZWxLiTrv8",
+      "title": "Lecture26 part 2 The Interaction Representation",
+      "duration": 768
+    },
+    {
+      "id": "C-gG4RD9-6Q",
+      "title": "Lecture27 Cyclotron Resonance",
+      "duration": 1441
+    },
+    {
+      "id": "0j1WfEX6Rx8",
+      "title": "Lecture28 part 1 Driven Simple Harmonic Oscillator",
+      "duration": 952
+    },
+    {
+      "id": "fI0K_66wpgA",
+      "title": "Lecture28 part 2 Driven Simple Harmonic Oscillator",
+      "duration": 1748
+    },
+    {
+      "id": "T3FjBDsIDFU",
+      "title": "Lecture29 Time-Dependent Perturbation Theory",
+      "duration": 1593
+    },
+    {
+      "id": "wA1RsgROWgE",
+      "title": "Lecture30 The Landau-Zener Problem",
+      "duration": 1574
+    },
+    {
+      "id": "rCXEp_jBmj8",
+      "title": "Lecture31 part 1 Ion Trap Quantum Computers",
+      "duration": 1234
+    },
+    {
+      "id": "mKvu_DTEALw",
+      "title": "Lecture31 part 2 Ion Trap Quantum Computer",
+      "duration": 1775
+    },
+    {
+      "id": "j3E7KvGhtFs",
+      "title": "Lecture32 Fermi's Golden Rule and the Sudden Approximation",
+      "duration": 1781
+    },
+    {
+      "id": "SJFWSBMOd80",
+      "title": "Lecture33 Photoproduction of Hydrogen",
+      "duration": 1846
+    },
+    {
+      "id": "DUxV-zCb__k",
+      "title": "Lecture34 What is a Photon?",
+      "duration": 3166
+    },
+    {
+      "id": "QampgBtK8FQ",
+      "title": "lecture35 How does LIGO work?",
+      "duration": 2786
+    },
+    {
+      "id": "E3XHO3OW0CA",
+      "title": "lecture36 Fermionic Creation and Annihilation Operators",
+      "duration": 1557
+    },
+    {
+      "id": "TESUPqntOOI",
+      "title": "lecture37 The Jellium Model",
+      "duration": 2004
+    },
+    {
+      "id": "8UDnfp6OEjA",
+      "title": "lecture38 The Hubbard Model",
+      "duration": 2093
+    },
+    {
+      "id": "TA3nzhQDyOQ",
+      "title": "lecture39 Exact Solution of the Two-Site Hubbard Model",
+      "duration": 1907
+    },
+    {
+      "id": "yGnwft9NcEs",
+      "title": "lecture40 Nagaoka's Theorem",
+      "duration": 1524
+    },
+    {
+      "id": "rkryeTWPW6g",
+      "title": "lecture41 Antiferromagnetism and Lieb's Theorem",
+      "duration": 1577
+    }
+  ]
+}

@@ -1,0 +1,1089 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Curso Completo de Derivadas",
+  "channel": "MateFacil",
+  "description": "Con estos videos aprenderás a derivar muchas funciones, entenderás el significado de derivada, podrás derivar funciones tales como: polinomios, funciones racionales, funciones irracionales, funciones trigonométricas, trigonométricas inversas, logaritmos, exponenciales, funciones hiperbólicas, además de derivación implícita de ecuaciones.",
+  "updated": "2026-02-16",
+  "lessons": [
+    {
+      "id": "ia8L26ub_pc",
+      "title": "¿Qué es la derivada? EXPLICACIÓN DESDE CERO",
+      "duration": 775
+    },
+    {
+      "id": "CVqVaV5h9nQ",
+      "title": "Lista de fórmulas de derivadas (DESCARGAR)",
+      "duration": 82
+    },
+    {
+      "id": "hwDyQGQqcjc",
+      "title": "Derivada de un polinomio con fracciones paso a paso",
+      "duration": 146
+    },
+    {
+      "id": "JwEM-Iyply8",
+      "title": "Ejemplos de derivadas (Parte 1): constantes (fracciones, raices, pi), constante por x",
+      "duration": 147
+    },
+    {
+      "id": "krv6HGejMxM",
+      "title": "Ejemplos de derivadas (Parte 2): Polinomios, potencias positivas, binomio al cuadrado",
+      "duration": 376
+    },
+    {
+      "id": "Hwrlicg3n78",
+      "title": "Derivada de función con fracciones y exponentes fraccionarios",
+      "duration": 436
+    },
+    {
+      "id": "ITb8y_XFfPI",
+      "title": "Derivada de una fracción con potencias de x (Simplificando algebraicamente)",
+      "duration": 431
+    },
+    {
+      "id": "cIlwbhBP4_A",
+      "title": "Derivada de 1 entre x por raíz de x (convirtiendo a exponente fraccionario negativo)",
+      "duration": 424
+    },
+    {
+      "id": "eXjfGkL4jvA",
+      "title": "Derivada de función con fracciones y radicales",
+      "duration": 621
+    },
+    {
+      "id": "za5QqCZw3Ws",
+      "title": "Ejemplos de derivadas (Parte 3): raices, exponentes negativos y fraccionarios",
+      "duration": 484
+    },
+    {
+      "id": "qA3wxoCHe5A",
+      "title": "Derivada de función con coeficientes a, b, c, y exponentes con m, r, p",
+      "duration": 258
+    },
+    {
+      "id": "ZyVS-lXG-zY",
+      "title": "Derivada de una división utilizando leyes de exponentes",
+      "duration": 672
+    },
+    {
+      "id": "4zQCUTqWb-A",
+      "title": "Derivada de a sen ax + b tan bx (funciones trigonométricas con constantes)",
+      "duration": 352
+    },
+    {
+      "id": "wDQop1DDsa4",
+      "title": "Derivadas de Funciones Trigonométricas inversas PASO A PASO",
+      "duration": 864
+    },
+    {
+      "id": "TH0xJFMHHkY",
+      "title": "Derivada de producto de binomios con potencias",
+      "duration": 495
+    },
+    {
+      "id": "p6q_I27TjX8",
+      "title": "Derivada de una sumas y restas de potencias de x (polinomios)",
+      "duration": 174
+    },
+    {
+      "id": "Csu_A2Gkf0M",
+      "title": "Derivada de un polinomio con fracciones, muy fácil y rápido",
+      "duration": 175
+    },
+    {
+      "id": "tb7wkOCFSZc",
+      "title": "Derivada de una función elevada a una potencia (algebraica)",
+      "duration": 193
+    },
+    {
+      "id": "01qaY1W6iDs",
+      "title": "Derivada de una función elevada a una potencia",
+      "duration": 126
+    },
+    {
+      "id": "wceG9ZFOHZs",
+      "title": "Derivada de una raíz cuadrada",
+      "duration": 309
+    },
+    {
+      "id": "NwmdkQ30rn8",
+      "title": "Derivada de una raíz cuadrada en denominador",
+      "duration": 363
+    },
+    {
+      "id": "GhjPqh9m-C4",
+      "title": "Derivada de raiz de x en una división (fracción)",
+      "duration": 189
+    },
+    {
+      "id": "3dns-Qo8I64",
+      "title": "Derivada de una raíz cuadrada de un polinomio",
+      "duration": 78
+    },
+    {
+      "id": "EpFO_jin1ZM",
+      "title": "Derivada de una raíz cuadrada de un polinomio",
+      "duration": 95
+    },
+    {
+      "id": "eDnvl1TWuqY",
+      "title": "Derivada de una raíz cuadrada de un polinomio",
+      "duration": 86
+    },
+    {
+      "id": "CNKxcDrjNkw",
+      "title": "Derivada de una raíz cuadrada de un polinomio",
+      "duration": 120
+    },
+    {
+      "id": "VSIFZFvqk3o",
+      "title": "Derivada de raíz cuadrada de función trigonométrica (seno)",
+      "duration": 67
+    },
+    {
+      "id": "MSzMhkEo2BU",
+      "title": "Derivada de raíz cuadrada de función trigonométrica (coseno)",
+      "duration": 66
+    },
+    {
+      "id": "wedYvtgIQAs",
+      "title": "Derivada de raíz cuadrada de función trigonométrica (tangente)",
+      "duration": 116
+    },
+    {
+      "id": "LnAAjXHSjm8",
+      "title": "Derivada de raíz cuadrada de función trigonométrica (cotangente)",
+      "duration": 131
+    },
+    {
+      "id": "tHM4UFbFGsk",
+      "title": "Derivada de raíz cuadrada de función trigonométrica (secante)",
+      "duration": 182
+    },
+    {
+      "id": "u451cJxDZi4",
+      "title": "Derivada de raíz cuadrada de función trigonométrica (cosecante)",
+      "duration": 209
+    },
+    {
+      "id": "00niOVLiIZc",
+      "title": "Derivada de raíz cuadrada de logaritmo natural",
+      "duration": 185
+    },
+    {
+      "id": "ehHozjJDJF4",
+      "title": "Derivada de raíz cuadrada de un logaritmo de base 2",
+      "duration": 215
+    },
+    {
+      "id": "OteFG9AOng0",
+      "title": "Derivada de raíz cuadrada de exponencial",
+      "duration": 146
+    },
+    {
+      "id": "22SqQ00G4Z8",
+      "title": "Derivada de raíz cuadrada de función trigonométrica inversa (arcsen)",
+      "duration": 145
+    },
+    {
+      "id": "NOz9ZS_mqF4",
+      "title": "Derivada de raíz cuadrada de función trigonométrica inversa (arctan)",
+      "duration": 189
+    },
+    {
+      "id": "fi0BVyKjxwM",
+      "title": "Derivada de raíz cuadrada de una raíz cuadrada",
+      "duration": 199
+    },
+    {
+      "id": "ZXv7Hmln0S8",
+      "title": "Derivada de raíz cúbica (n-ésima) (Fórmula)",
+      "duration": 123
+    },
+    {
+      "id": "O9uM5-Di26A",
+      "title": "Derivada de raíz cuarta (n-ésima)",
+      "duration": 113
+    },
+    {
+      "id": "YnKsVwSNIzY",
+      "title": "Derivada de raíz quinta (n-ésima)",
+      "duration": 120
+    },
+    {
+      "id": "z_S9F39SYXk",
+      "title": "Derivada de raíz cúbica de funciones trigonométricas",
+      "duration": 142
+    },
+    {
+      "id": "Se8mH2BFtZg",
+      "title": "Derivada de raíz quinta de funciones trigonométricas",
+      "duration": 179
+    },
+    {
+      "id": "IOfXoLcQwJE",
+      "title": "Derivada de raíz cúbica de logaritmo natural",
+      "duration": 185
+    },
+    {
+      "id": "TqS7tOa-WwI",
+      "title": "Derivada de función trigonométrica seno",
+      "duration": 98
+    },
+    {
+      "id": "rb8g9trYuQs",
+      "title": "Derivada del seno de un polinomio (función trigonométrica)",
+      "duration": 150
+    },
+    {
+      "id": "N7ZDBeGi6zE",
+      "title": "Derivada del seno de un seno (función trigonométrica de trigonométrica)",
+      "duration": 182
+    },
+    {
+      "id": "NCd2wAccVFo",
+      "title": "Derivada del seno de una exponencial (función trigonométrica)",
+      "duration": 172
+    },
+    {
+      "id": "YNENL99gP50",
+      "title": "Derivada de seno de logaritmo natural (función trigonométrica)",
+      "duration": 203
+    },
+    {
+      "id": "QugSs0H7OVY",
+      "title": "Derivada de coseno (función trigonométrica)",
+      "duration": 134
+    },
+    {
+      "id": "x749c9h_R-w",
+      "title": "Derivada del coseno de una raíz cuadrada ( función trigonométrica)",
+      "duration": 182
+    },
+    {
+      "id": "_HmhCXPf9I4",
+      "title": "Derivada del coseno de una exponencial (Función trigonométrica)",
+      "duration": 125
+    },
+    {
+      "id": "pd8HpLy2qns",
+      "title": "Derivada de tangente (Función trigonométrica)",
+      "duration": 108
+    },
+    {
+      "id": "gsRHhNkUBS4",
+      "title": "Derivada de tangente de un polinomio (Función trigonométrica)",
+      "duration": 128
+    },
+    {
+      "id": "RDLApqFSykk",
+      "title": "Derivada de la tangente de una exponencial (Función trigonométrica)",
+      "duration": 156
+    },
+    {
+      "id": "yIsZ24kvKpc",
+      "title": "Derivada de cotangente (Función trigonométrica)",
+      "duration": 108
+    },
+    {
+      "id": "mCp1K9VZCg4",
+      "title": "Derivada de cotangente de un polinomio (Función trigonométrica)",
+      "duration": 130
+    },
+    {
+      "id": "H05V9gcGsys",
+      "title": "Derivada de cotangente de seno (Funcón trigonométrica)",
+      "duration": 150
+    },
+    {
+      "id": "ltse8ev9-AA",
+      "title": "Derivada de cotangente de 5 elevado a 2x (Función trigonométrica)",
+      "duration": 154
+    },
+    {
+      "id": "wtaYmQJ6aEM",
+      "title": "Derivada de secante (Función trigonométrica)",
+      "duration": 101
+    },
+    {
+      "id": "iKNzWH_VHPs",
+      "title": "Derivada de secante de un polinomio (Función trigonométrica)",
+      "duration": 114
+    },
+    {
+      "id": "OU6I3VfTBIE",
+      "title": "Derivada de secante de un polinomio (Función trigonométrica)",
+      "duration": 118
+    },
+    {
+      "id": "On-ssxy9zvk",
+      "title": "Derivada de secante de una raíz cuadrada (Función trigonométrica)",
+      "duration": 167
+    },
+    {
+      "id": "lhRMXjw3IfY",
+      "title": "Derivada de secante de una exponencial (Función trigonométrica)",
+      "duration": 147
+    },
+    {
+      "id": "Zpuzxc7R1lk",
+      "title": "Derivada de cosecante de un polinomio (Función trigonométrica)",
+      "duration": 98
+    },
+    {
+      "id": "f3MRmAoR3Vw",
+      "title": "Derivada de cosecante de un polinomio (Función trigonométrica)",
+      "duration": 107
+    },
+    {
+      "id": "FI4lvqQxhS4",
+      "title": "Derivada de cosecante de un polinomio (Función trigonométrica)",
+      "duration": 128
+    },
+    {
+      "id": "x3G2nmjyTdU",
+      "title": "Derivada de cosecante de una raíz cuadrada (Función trigonométrica)",
+      "duration": 145
+    },
+    {
+      "id": "3QB2IwZQcx0",
+      "title": "Derivada de cosecante de un logaritmo natural (Función trigonométrica)",
+      "duration": 156
+    },
+    {
+      "id": "BkW2odVN5ME",
+      "title": "Derivadas trigonometricas (seno) (Por regla de cadena)",
+      "duration": 115
+    },
+    {
+      "id": "DjeXHcIjeE4",
+      "title": "Derivadas trigonometricas (coseno) (regla de cadena)",
+      "duration": 203
+    },
+    {
+      "id": "I9Z4PEAkRls",
+      "title": "Derivadas trigonometricas (Tangente) (regla de cadena)",
+      "duration": 126
+    },
+    {
+      "id": "MhZ5GyzAkgc",
+      "title": "Derivadas trigonometricas (secante) (regla de cadena)",
+      "duration": 107
+    },
+    {
+      "id": "swhVRBgiTdQ",
+      "title": "Derivadas trigonometricas inversas (arcotangente) (regla de cadena)",
+      "duration": 124
+    },
+    {
+      "id": "vPZK-YFoQ0s",
+      "title": "Derivadas trigonometricas con potencia (exponente)",
+      "duration": 148
+    },
+    {
+      "id": "5pbQr9fXjRg",
+      "title": "Derivadas exponenciales (regla de cadena)",
+      "duration": 86
+    },
+    {
+      "id": "z2HACDzyo8E",
+      "title": "Derivadas exponenciales (Con ejemplos y ejercicios)",
+      "duration": 123
+    },
+    {
+      "id": "wa2G1vTBNtw",
+      "title": "Derivadas exponenciales (Respuesta a los ejercicios)",
+      "duration": 183
+    },
+    {
+      "id": "E6eWnrvONw0",
+      "title": "Derivada de exponencial de función trigonométrica (seno)",
+      "duration": 75
+    },
+    {
+      "id": "U2-rjiN-vI8",
+      "title": "Derivada de exponencial de función trigonométrica (tangente)",
+      "duration": 145
+    },
+    {
+      "id": "VxBS7nBXW1w",
+      "title": "Derivada de exponencial de función trigonométrica (secante)",
+      "duration": 140
+    },
+    {
+      "id": "yJRyeUZigrk",
+      "title": "Derivada de exponencial de funciones trigonométricas",
+      "duration": 113
+    },
+    {
+      "id": "FCdkuXTzLIM",
+      "title": "Derivada de exponencial de raíz cuadrada",
+      "duration": 108
+    },
+    {
+      "id": "aW9XcJchDWE",
+      "title": "Derivada de exponencial de arcotangente (exponencial de trigonométrica inversa)",
+      "duration": 204
+    },
+    {
+      "id": "yKB7XTrauOs",
+      "title": "Derivada de raíz cuadrada de exponencial de x (escribiendo como exponente fraccionario)",
+      "duration": 172
+    },
+    {
+      "id": "HPCZZ1fa1E8",
+      "title": "Derivada de exponencial de x/5 (exponencial con fracción)",
+      "duration": 126
+    },
+    {
+      "id": "cx_4vp-KsEg",
+      "title": "Derivada de la exponencial de una fracción (exponente fraccionario)",
+      "duration": 153
+    },
+    {
+      "id": "ptScVVXWnrU",
+      "title": "Derivada de la exponencial de una fracción (exponente fraccionario)",
+      "duration": 152
+    },
+    {
+      "id": "FKEHCNNzY6o",
+      "title": "💎 Derivada de exponencial de seno al cuadrado, aplicando regla de la cadena",
+      "duration": 294
+    },
+    {
+      "id": "lFuopL74Kfw",
+      "title": "Derivada de la exponencial de la raíz cuadrada de un polinomio",
+      "duration": 215
+    },
+    {
+      "id": "DsoDoBJT5v8",
+      "title": "Derivada de la exponencial de la raíz cuadrada de seno",
+      "duration": 240
+    },
+    {
+      "id": "T7LGLCnZGy8",
+      "title": "Derivada de la exponencial de la raíz cuadrada de otra exponencial",
+      "duration": 180
+    },
+    {
+      "id": "an2pztdqtAo",
+      "title": "Derivada de una exponencial de base 5 (fórmula a^v)",
+      "duration": 156
+    },
+    {
+      "id": "K0OOPOTOxcA",
+      "title": "Derivada de una exponencial de base 10 (fórmula a^v)",
+      "duration": 140
+    },
+    {
+      "id": "l5AY5tBwQnY",
+      "title": "Derivada de una exponencial con base PI (fórmula a^v)",
+      "duration": 155
+    },
+    {
+      "id": "yerTevC-e7Y",
+      "title": "Derivada de 3 elevado a seno de x (exponencial trigonométrica)",
+      "duration": 167
+    },
+    {
+      "id": "-LvSCowomIQ",
+      "title": "Derivada de 5 elevado a tangente de polinomio (exponencial trigonométrica)",
+      "duration": 195
+    },
+    {
+      "id": "H8MbAnS2Cr0",
+      "title": "Derivadas exponenciales (base 2) (regla de cadena)",
+      "duration": 109
+    },
+    {
+      "id": "GAubWzyUqKE",
+      "title": "Derivadas de logaritmo natural de un polinomio (regla de cadena)",
+      "duration": 67
+    },
+    {
+      "id": "k9RW-8Vl7e8",
+      "title": "Derivadas de logaritmo natural de función trigonométrica (seno) (Regla de cadena)",
+      "duration": 184
+    },
+    {
+      "id": "2N9v_guiMIo",
+      "title": "Derivada de logaritmo natural de función trigonométrica (coseno) (Regla de cadena)",
+      "duration": 173
+    },
+    {
+      "id": "Isss-C6XNlY",
+      "title": "Derivada de logaritmo natural de función trigonométrica (tangente) (regla de cadena)",
+      "duration": 150
+    },
+    {
+      "id": "3e-SgjRmmzQ",
+      "title": "Derivada de logaritmo natural de función trigonométrica (cotangente) (regla de cadena)",
+      "duration": 148
+    },
+    {
+      "id": "VaPlCVi5wng",
+      "title": "Derivada de logaritmo natural de funcion trigonométrica (secante) (regla de cadena)",
+      "duration": 180
+    },
+    {
+      "id": "3-PX-TfH4RM",
+      "title": "Derivada de logaritmo natural de función trigonométrica (cosecante) (regla de cadena)",
+      "duration": 181
+    },
+    {
+      "id": "v0XBITMKzoU",
+      "title": "Derivada de logaritmo natural de raíz cuadrada de x",
+      "duration": 124
+    },
+    {
+      "id": "xbx6pYKmwxA",
+      "title": "Derivada de logaritmo natural de raíz cuadrada",
+      "duration": 192
+    },
+    {
+      "id": "X5cril8eqwY",
+      "title": "Derivada de logaritmo natural de raíz cúbica",
+      "duration": 191
+    },
+    {
+      "id": "XlRJPWttCuY",
+      "title": "Derivada de logaritmo de base 2",
+      "duration": 108
+    },
+    {
+      "id": "-7QCCHXty0k",
+      "title": "Derivada de logaritmo de base 3",
+      "duration": 109
+    },
+    {
+      "id": "DC_w8qAhTwk",
+      "title": "Derivada de logaritmo vulgar de raíz cuadrada de x",
+      "duration": 117
+    },
+    {
+      "id": "-l6lkNkZ17w",
+      "title": "Derivada de logaritmo natural con división (cociente)",
+      "duration": 282
+    },
+    {
+      "id": "WAwCf1xyy7c",
+      "title": "Derivada de logaritmo natural con división (cociente)",
+      "duration": 333
+    },
+    {
+      "id": "22rUfELMA38",
+      "title": "Derivada de logaritmo natural con división elevada a exponente",
+      "duration": 358
+    },
+    {
+      "id": "Ve9x4-7PVJs",
+      "title": "Derivada de logaritmo natural con división elevada a exponente",
+      "duration": 351
+    },
+    {
+      "id": "u3YEo5Krj8Y",
+      "title": "Derivada de logaritmo natural con raíz cuadrada",
+      "duration": 198
+    },
+    {
+      "id": "WPW04osnp-o",
+      "title": "Derivada de logaritmo natural de raíz cúbica",
+      "duration": 189
+    },
+    {
+      "id": "xLcC8L4K2DY",
+      "title": "Derivada de logaritmo natural con raiz cuadrada de una división",
+      "duration": 387
+    },
+    {
+      "id": "ZPIM1wj1mlU",
+      "title": "Derivada de logaritmo natural de raiz cúbica de una división",
+      "duration": 409
+    },
+    {
+      "id": "UBUBfw_Phhc",
+      "title": "Derivada de logaritmo natural de raiz cuadrada de una división elevada a una potencia",
+      "duration": 372
+    },
+    {
+      "id": "xYr48QioQnM",
+      "title": "Derivada de logaritmo natural con raiz cúbica de una división elevada a una potencia",
+      "duration": 365
+    },
+    {
+      "id": "AbNwEzvZHvw",
+      "title": "Derivada de logaritmo natural de una división de polinomios",
+      "duration": 154
+    },
+    {
+      "id": "t8c_DUALok4",
+      "title": "Derivada de logaritmo natural de una división de polinomios",
+      "duration": 146
+    },
+    {
+      "id": "wcxe9PdAGpQ",
+      "title": "Derivada regla de producto (algebraica por trigonometrica)",
+      "duration": 105
+    },
+    {
+      "id": "_czv0wGe4ps",
+      "title": "Derivada regla de producto (multiplicación exponencial algebraica)",
+      "duration": 103
+    },
+    {
+      "id": "Q-CmSIbBYSg",
+      "title": "Derivada de un producto de funciones trigonométricas (seno y coseno)",
+      "duration": 153
+    },
+    {
+      "id": "WFr6KhlN-_U",
+      "title": "Derivada de una división (cociente) de dos funciones (senx entre x)",
+      "duration": 118
+    },
+    {
+      "id": "z-AoASqQ--I",
+      "title": "Derivada de tangente cuadrada de una exponencial (Regla de cadena)",
+      "duration": 315
+    },
+    {
+      "id": "mjAqbzYXNeA",
+      "title": "Derivada de una raíz cuadrada con división (Método de logaritmos) (Derivación logarítmica)",
+      "duration": 883
+    },
+    {
+      "id": "2CwRjb6Iq7A",
+      "title": "Derivada de una división (cociente) de polinomios",
+      "duration": 253
+    },
+    {
+      "id": "L9I1PIpecCM",
+      "title": "Derivada de arco coseno (función trigonométrica inversa)",
+      "duration": 181
+    },
+    {
+      "id": "2o6Z9CQaa_U",
+      "title": "Derivada de arco coseno de una división (función trigonométrica inversa, regla de cadena)",
+      "duration": 579
+    },
+    {
+      "id": "o-wDY9fz5U0",
+      "title": "Derivada de un producto (multiplicación) de exponencial por polinomio",
+      "duration": 259
+    },
+    {
+      "id": "e2k3bIUkJEY",
+      "title": "Derivada de logaritmo de secante + tangente",
+      "duration": 258
+    },
+    {
+      "id": "iMSwstGrIPo",
+      "title": "Cómo Derivar un Logaritmo Natural con Raíz Cuadrada EJEMPLOS RESUELTOS PASO A PASO MUY FÁCIL",
+      "duration": 188
+    },
+    {
+      "id": "WeqZJQ_1vcg",
+      "title": "ESTA DERIVADA ES MÁS FÁCIL DE LO QUE PARECE!! - Derivada de división con exponenciales PASO A PASO",
+      "duration": 261
+    },
+    {
+      "id": "M0SgLSeYRI8",
+      "title": "Derivada aplicando REGLA DEL PRODUCTO explicada PASO A PASO",
+      "duration": 356
+    },
+    {
+      "id": "sQfzLT7q9Z4",
+      "title": "Derivada de logaritmo natural de un producto de binomios con exponenciales",
+      "duration": 290
+    },
+    {
+      "id": "YpwdACoIyY4",
+      "title": "Derivada de logaritmo natural de raíz cuarta de una división con potencias",
+      "duration": 438
+    },
+    {
+      "id": "Xmk9Dz3_5Nc",
+      "title": "Derivada de la raíz cúbica de una división EXPLICADA PASO A PASO MUY FÁCIL",
+      "duration": 507
+    },
+    {
+      "id": "gHiv6ZTOV2w",
+      "title": "Cómo derivar con raíz cuadrada, división y tangentes EXPLICADA PASO A PASO MUY FÁCIL",
+      "duration": 467
+    },
+    {
+      "id": "_RSAUXCfrHg",
+      "title": "Derivada de arco seno de raíz cuadrada EXPLICADA PASO A PASO",
+      "duration": 266
+    },
+    {
+      "id": "rcHBiLkcOsU",
+      "title": "Derivada de una potencia (polinomio elevado a exponente)",
+      "duration": 160
+    },
+    {
+      "id": "6XgKVsCuTXQ",
+      "title": "Derivada de una potencia (polinomio elevado a exponente)",
+      "duration": 221
+    },
+    {
+      "id": "L6hlPlRV038",
+      "title": "Derivada de una potencia en el denominador (polinomio elevado a exponente negativo)",
+      "duration": 263
+    },
+    {
+      "id": "kkK6Dpj6ieg",
+      "title": "Derivada de una potencia en el denominador (polinomio elevado a exponente negativo)",
+      "duration": 200
+    },
+    {
+      "id": "OEILYRJymTs",
+      "title": "Derivada de una potencia en el denominador (polinomio elevado a exponente negativo)",
+      "duration": 300
+    },
+    {
+      "id": "6A3tm6tNSKA",
+      "title": "Derivada de una raíz cúbica con exponente",
+      "duration": 245
+    },
+    {
+      "id": "3XdawkMd7dc",
+      "title": "Derivada de una raíz quinta con exponente",
+      "duration": 319
+    },
+    {
+      "id": "ktyuLrjY2Sk",
+      "title": "Derivada de una raíz cuadrada con exponente",
+      "duration": 319
+    },
+    {
+      "id": "_ni2QzhOBm0",
+      "title": "Derivada de logaritmo natural de raíz cuadrada con división y seno",
+      "duration": 412
+    },
+    {
+      "id": "CZbA2ckCjXA",
+      "title": "Aplicación de la derivada: Máximos y mínimos en 5 sencillos pasos",
+      "duration": 410
+    },
+    {
+      "id": "NmhvQT8nQEY",
+      "title": "Derivada de raiz cuadrada de secante en el denominador (exponente fraccionario negativo)",
+      "duration": 489
+    },
+    {
+      "id": "kscnS0agRfM",
+      "title": "Derivada de logaritmo natural de división con raíces cuadradas",
+      "duration": 640
+    },
+    {
+      "id": "pM2_iz1KmCU",
+      "title": "Derivada de raíz cuarta de coseno entre seno",
+      "duration": 329
+    },
+    {
+      "id": "4n_dIcG8b00",
+      "title": "Derivada de una división con funciones trigonométricas seno y coseno",
+      "duration": 452
+    },
+    {
+      "id": "jvEAFPV37xA",
+      "title": "Derivada de una resta de productos, con logaritmo natural y exponenciales",
+      "duration": 435
+    },
+    {
+      "id": "EElt06SjkZg",
+      "title": "Derivada de una división con funciones exponenciales, logaritmo y secante",
+      "duration": 512
+    },
+    {
+      "id": "d2sVITiv34s",
+      "title": "Derivada de una división de funciones trigonométricas: seno, tangente, cotangente y cosecante",
+      "duration": 184
+    },
+    {
+      "id": "ibAaxTuXtOc",
+      "title": "Derivada de un producto de exponenciales (con leyes de exponentes)",
+      "duration": 281
+    },
+    {
+      "id": "lTvFMb02dy8",
+      "title": "Derivada de un producto y división de polinomios",
+      "duration": 499
+    },
+    {
+      "id": "QkUBBFKYeKQ",
+      "title": "Derivada de división de polinomios (Regla del cociente)",
+      "duration": 173
+    },
+    {
+      "id": "jCg8ZGt5prc",
+      "title": "Derivada de una división de funciones, con exponente (Regla de cociente)",
+      "duration": 513
+    },
+    {
+      "id": "BKTnM6tl-78",
+      "title": "Derivada de la raíz cúbica de un binomio al cuadrado (exponente fraccionario)",
+      "duration": 233
+    },
+    {
+      "id": "4MfjxFfdMkM",
+      "title": "Derivada de una integral por Teorema Fundamental del Cálculo (TFC)",
+      "duration": 175
+    },
+    {
+      "id": "p6w4Zbw54tQ",
+      "title": "Derivada de 1 entre raíz cuadrada de x (convirtiendo a exponente fraccionario negativo)",
+      "duration": 369
+    },
+    {
+      "id": "IZiRb1tsUbQ",
+      "title": "Derivada de logaritmo natural de x mas raíz cuadrada de x cuadrada menos 1 (EJERCICIO RESUELTO)",
+      "duration": 422
+    },
+    {
+      "id": "encW-OMXjfg",
+      "title": "Derivada de tangente inversa de una fracción (arco tangente) EJERCICIO RESUELTO",
+      "duration": 416
+    },
+    {
+      "id": "Luo04sW3ebc",
+      "title": "Derivada de x por cosecante inversa (derivada de producto) EJERCICIO RESUELTO",
+      "duration": 343
+    },
+    {
+      "id": "3pSrrRZ6U98",
+      "title": "14. Demostración de la derivada de un producto de funciones ¿de dónde sale la fórmula?",
+      "duration": 482
+    },
+    {
+      "id": "btBe3sZG1sE",
+      "title": "Derivada de división (cociente) de funciones, con exponencial, EJERCICIO RESUELTO",
+      "duration": 219
+    },
+    {
+      "id": "XEh1DrmeTto",
+      "title": "Derivada de división (cociente) de funciones, con exponencial y ln, EJERCICIO RESUELTO",
+      "duration": 339
+    },
+    {
+      "id": "VO2SR8pMTSE",
+      "title": "Derivadas de orden superior, segunda y tercer derivada de logaritmo natural, EJERCICIO RESUELTO",
+      "duration": 333
+    },
+    {
+      "id": "AJS7qJUvwKk",
+      "title": "Derivada del logaritmo natural de la raíz cuadrada de una división con funciones trigonométricas",
+      "duration": 764
+    },
+    {
+      "id": "1vM-X_UHBAs",
+      "title": "Derivada de raíz cuadrada de cociente con seno y cosecante cuadrada, paso a paso",
+      "duration": 1006
+    },
+    {
+      "id": "nVMJnu3u0j8",
+      "title": "Derivación logarítmica : EJEMPLO 1 (EJERCICIO RESUELTO)",
+      "duration": 658
+    },
+    {
+      "id": "dt_ccl8faRk",
+      "title": "Derivación logarítmica : EJEMPLO 2 (EJERCICIO RESUELTO)",
+      "duration": 547
+    },
+    {
+      "id": "ONd6-H0Zng8",
+      "title": "Derivada de funciones implícitas (Ejemplo resuelto 1)",
+      "duration": 645
+    },
+    {
+      "id": "SXciHiLjjMo",
+      "title": "Derivada de funciones implícitas (Ejemplo resuelto 2)",
+      "duration": 360
+    },
+    {
+      "id": "zaREJCoBR5M",
+      "title": "Ecuación de recta tangente y de recta normal a una función, usando Derivada, CON GRÁFICA",
+      "duration": 700
+    },
+    {
+      "id": "sWm4l86WvPo",
+      "title": "Aproximar raíz cuadrada, usando DERIVADA, paso a paso (Ejemplo 1)",
+      "duration": 416
+    },
+    {
+      "id": "LEnET2YBirg",
+      "title": "Aproximar raíz cuadrada, usando DERIVADA, paso a paso (Ejemplo 2)",
+      "duration": 454
+    },
+    {
+      "id": "jUABWqpiuM0",
+      "title": "Aproximar raíz cúbica, usando DERIVADA, paso a paso (Ejemplo 3)",
+      "duration": 551
+    },
+    {
+      "id": "xBqY50oIuV0",
+      "title": "Aproximar potencia fraccionaria, usando DERIVADA, paso a paso (Ejemplo 4)",
+      "duration": 672
+    },
+    {
+      "id": "TIh-M95s14Y",
+      "title": "Aproximar función trigonométrica coseno, usando DERIVADA (Ejemplo 5)",
+      "duration": 514
+    },
+    {
+      "id": "1XTw5kOnz2U",
+      "title": "Derivada de una división de exponenciales, regla del cociente, MUY FÁCIL",
+      "duration": 399
+    },
+    {
+      "id": "P3V3zTzx_CQ",
+      "title": "Derivada de una función elevada a otra función (fórmula)",
+      "duration": 260
+    },
+    {
+      "id": "I0MWkAwmvcs",
+      "title": "Derivada Especial de x^x^x^x... infinitas veces",
+      "duration": 353
+    },
+    {
+      "id": "P8fnx9LYSAo",
+      "title": "Derivadas de potencias de x elevado a x (x^x , x^x^x , x^x^x^x)",
+      "duration": 520
+    },
+    {
+      "id": "diKAWAcHLf4",
+      "title": "Encontrar el valor de la derivada en un punto",
+      "duration": 254
+    },
+    {
+      "id": "gPyFkklKSJE",
+      "title": "Derivación implícita: Segunda derivada",
+      "duration": 602
+    },
+    {
+      "id": "bSmq8LrCq5k",
+      "title": "Recta tangente a parábola, paralela a otra recta (Usando derivadas)",
+      "duration": 622
+    },
+    {
+      "id": "XAlKRExXvkM",
+      "title": "Truco 4. ¿Cuándo podemos derivar una función?",
+      "duration": 595
+    },
+    {
+      "id": "keLtjF-8wLk",
+      "title": "01. Ejercicio de máximos y mínimos",
+      "duration": 645
+    },
+    {
+      "id": "iBmpmckUajo",
+      "title": "Derivada de función implícita, potencias",
+      "duration": 431
+    },
+    {
+      "id": "QdFudMaLMLo",
+      "title": "02. Problema de Máximos y mínimos usando derivadas (Optimización, cálculo diferencial)",
+      "duration": 376
+    },
+    {
+      "id": "SisGA2ySfcw",
+      "title": "03. Problema de Máximos y mínimos usando derivadas",
+      "duration": 507
+    },
+    {
+      "id": "jDCIkGqrPpc",
+      "title": "04. Calcular el mínimo, usando derivadas",
+      "duration": 443
+    },
+    {
+      "id": "ew1Ir-Dh1pw",
+      "title": "05. Distancia máxima entre parábola y recta, usando derivadas",
+      "duration": 510
+    },
+    {
+      "id": "zOp_kbPhtqs",
+      "title": "Teorema Fundamental del Cálculo, ejercicio resuelto",
+      "duration": 510
+    },
+    {
+      "id": "IkF4FF49-qg",
+      "title": "Razón de cambio, usando derivadas",
+      "duration": 681
+    },
+    {
+      "id": "wV1rGZUZBdA",
+      "title": "Determinar recta tangente a 45°, usando derivadas",
+      "duration": 249
+    },
+    {
+      "id": "Jmn8gx3eziI",
+      "title": "DERIVADA de una INTEGRAL, explicación y EJEMPLOS",
+      "duration": 430
+    },
+    {
+      "id": "xBzy7k5qWrE",
+      "title": "Volumen de Cilindro Máximo inscrito en una Esfera (Cálculo Diferencial)",
+      "duration": 606
+    },
+    {
+      "id": "GPEUbiYmqXU",
+      "title": "Area Máxima de Triángulos isósceles Bajo la Curva (Máximos y mínimos con Derivadas)",
+      "duration": 743
+    },
+    {
+      "id": "-GC1-m2nWvY",
+      "title": "¿Sabes Hacer esta Derivada? - Fracciones con Radicales (Exponentes fraccionarios)",
+      "duration": 392
+    },
+    {
+      "id": "JT8KNgZmZvM",
+      "title": "Razón de Cambio de Circunferencia usando DERIVADAS",
+      "duration": 452
+    },
+    {
+      "id": "ub3Yb5hYZRg",
+      "title": "Derivadas de funciones implícitas - EJEMPLOS RESUELTOS paso a paso",
+      "duration": 695
+    },
+    {
+      "id": "I3G2T9wGmi8",
+      "title": "Derivada de Cociente POR 3 MÉTODOS DIFERENTES",
+      "duration": 1253
+    },
+    {
+      "id": "vM-fL8WKjzQ",
+      "title": "Recta Tangente y Normal, con Derivada implícita: x^y+y^x",
+      "duration": 662
+    },
+    {
+      "id": "NFoM5Affs2I",
+      "title": "Segunda Derivada implícita con regla de la Cadena PASO A PASO",
+      "duration": 903
+    },
+    {
+      "id": "bEUFgavkZp4",
+      "title": "Derivada Parcial de una integral (Función de tres variables) ¿Cómo se resuelve?",
+      "duration": 355
+    },
+    {
+      "id": "fjWtH1i5Zok",
+      "title": "Ecuacion integral usando teorema fundamental del cálculo",
+      "duration": 506
+    },
+    {
+      "id": "_6VKmkBjrU8",
+      "title": "Derivada parcial USANDO DEFINICIÓN - Función de 3 Variables",
+      "duration": 340
+    },
+    {
+      "id": "TsmQowlvfTc",
+      "title": "Altura, Velocidad, Aceleración... usando derivadas (Problema de Física)",
+      "duration": 664
+    },
+    {
+      "id": "w2qDc_nlsUo",
+      "title": "💎 Derivada parcial USANDO DEFINICIÓN - Función de 3 Variables",
+      "duration": 267
+    }
+  ]
+}

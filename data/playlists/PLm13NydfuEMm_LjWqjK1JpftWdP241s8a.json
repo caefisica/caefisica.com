@@ -1,0 +1,339 @@
+{
+  "fetched": "2026-11-01",
+  "title": "PHYS 102 PHYSICS II Equilibrium, Universal Gravitation, Fluid Mechanics, Wave Mechanics and Thermodynamics",
+  "channel": "Özhan Özatay",
+  "description": "",
+  "updated": "2025-07-01",
+  "lessons": [
+    {
+      "id": "89sHGtETwIE",
+      "title": "Week 1-1 Rigid Object in Equilibrium - Center of Gravity",
+      "duration": 721
+    },
+    {
+      "id": "EH9XqWkOkn4",
+      "title": "Week 1-2 Examples on Static Equilibrium - 1",
+      "duration": 1744
+    },
+    {
+      "id": "SPpQeoH8e7A",
+      "title": "Week 1-3 Examples on Static Equilibrium - 2",
+      "duration": 1546
+    },
+    {
+      "id": "4FbygBx43tM",
+      "title": "Week 1-4 Elastic Properties of Solids",
+      "duration": 989
+    },
+    {
+      "id": "54dtgmS84DA",
+      "title": "Week 2-1 Newton’s Law of Universal Gravitation",
+      "duration": 834
+    },
+    {
+      "id": "nSwOElc-BUo",
+      "title": "Week 2-2 The Gravitational Acceleration",
+      "duration": 591
+    },
+    {
+      "id": "dbHlQTwe2RI",
+      "title": "Week 2-3 Gravitational Potential Energy",
+      "duration": 878
+    },
+    {
+      "id": "nv13cQLmi18",
+      "title": "Week 2-4 Energy Considerations - Escape Speed - Black Hole",
+      "duration": 1559
+    },
+    {
+      "id": "O3ZtquZhNv0",
+      "title": "Week 2-5 Kepler’s Laws of Planetary Motion - Gravitational Field",
+      "duration": 2096
+    },
+    {
+      "id": "v9VXO2ZrtyY",
+      "title": "Week 3-1 Pressure",
+      "duration": 919
+    },
+    {
+      "id": "wwhnCXKxc4g",
+      "title": "Week 3-2 Pascal’s Law",
+      "duration": 1320
+    },
+    {
+      "id": "NC9jeFR6Ovo",
+      "title": "Week 3-3 Buoyant Force and Archimedes’ Principle",
+      "duration": 1337
+    },
+    {
+      "id": "QsebQ91Pspg",
+      "title": "Week 3-4 Fluid Dynamics",
+      "duration": 849
+    },
+    {
+      "id": "awdN1m5OnHg",
+      "title": "Week 3-5 Bernoulli’s Equation",
+      "duration": 1299
+    },
+    {
+      "id": "aVFBUxFGBSo",
+      "title": "Week 4-1 Simple Harmonic Motion",
+      "duration": 1720
+    },
+    {
+      "id": "fqWZ8002-D4",
+      "title": "Week 4-2 Simple Pendulum",
+      "duration": 759
+    },
+    {
+      "id": "wEavtzf_XLI",
+      "title": "Week 4-3 Springs Connected in Parallel and in Series",
+      "duration": 931
+    },
+    {
+      "id": "_FVpGJ9Lolg",
+      "title": "Week 4-4 Energy of the Simple Harmonic Oscillator",
+      "duration": 773
+    },
+    {
+      "id": "pGhvm1-wdio",
+      "title": "Week 4-5 Comparing Simple Harmonic Motion with Uniform Circular Motion",
+      "duration": 536
+    },
+    {
+      "id": "cYI7Pb0Gk9w",
+      "title": "Week 4-6 Physical Pendulum",
+      "duration": 936
+    },
+    {
+      "id": "3o05ciEvCCg",
+      "title": "Week 4-7 Torsional Pendulum",
+      "duration": 343
+    },
+    {
+      "id": "e9-crZ2KJMA",
+      "title": "Week 4-8 Damped Oscillations",
+      "duration": 1781
+    },
+    {
+      "id": "vt4kpK7HYTo",
+      "title": "Week 4-9 Forced Oscillations",
+      "duration": 597
+    },
+    {
+      "id": "diymSv4l8qU",
+      "title": "Week 5-1 Pulse/Wave Propagation",
+      "duration": 1119
+    },
+    {
+      "id": "_wV301fSv8c",
+      "title": "Week 5-2 Traveling Sinusoidal Waves",
+      "duration": 1303
+    },
+    {
+      "id": "M4whdxm6AWg",
+      "title": "Week 5-3 Propagation Speed",
+      "duration": 884
+    },
+    {
+      "id": "Bx1Dp06sFUg",
+      "title": "Week 5-4 Examples For Wave Propagation on a String",
+      "duration": 563
+    },
+    {
+      "id": "Y47gnlhj_i8",
+      "title": "Week 5-5 Reflection and Transmission of Waves",
+      "duration": 534
+    },
+    {
+      "id": "WFBTIoA2NYU",
+      "title": "Week 5-6 Rate of Energy Transfer",
+      "duration": 967
+    },
+    {
+      "id": "MN9go9VG61s",
+      "title": "Week 5-7 Linear Wave Equation",
+      "duration": 765
+    },
+    {
+      "id": "P3ZkXgb2PKw",
+      "title": "Week 6-1 Pressure Variations in Sound Waves",
+      "duration": 1513
+    },
+    {
+      "id": "niPD2JuOrr0",
+      "title": "Week 6-2 Speed of Sound",
+      "duration": 985
+    },
+    {
+      "id": "ohaZ0CyhCqc",
+      "title": "Week 6-3 Sound Intensity",
+      "duration": 1374
+    },
+    {
+      "id": "_OxiUy_ktfo",
+      "title": "Week 6-4 Sound Level",
+      "duration": 476
+    },
+    {
+      "id": "BVahWZkWGN0",
+      "title": "Week 6-5 The Doppler Effect",
+      "duration": 1102
+    },
+    {
+      "id": "rNedRHeHeaA",
+      "title": "Week 6-6 The Doppler Effect Examples",
+      "duration": 552
+    },
+    {
+      "id": "UF2Eww90bao",
+      "title": "Week 6-7 Shock Waves",
+      "duration": 178
+    },
+    {
+      "id": "0NNtdNy3AAs",
+      "title": "Week 7-1 Interference",
+      "duration": 1382
+    },
+    {
+      "id": "-WMznc6Ry_Q",
+      "title": "Week 7-2 Standing Waves",
+      "duration": 824
+    },
+    {
+      "id": "cFa-kajhnJA",
+      "title": "Week 7-3 Boundary Conditions",
+      "duration": 1403
+    },
+    {
+      "id": "ZUpbKnfj_tI",
+      "title": "Week 7-4 Standing Waves in Air Columns",
+      "duration": 1679
+    },
+    {
+      "id": "R_yAkiLdn54",
+      "title": "Week 7-5 Beating",
+      "duration": 864
+    },
+    {
+      "id": "7FsjlEuZ4S0",
+      "title": "Week 7-6 Fourier Spectrum",
+      "duration": 494
+    },
+    {
+      "id": "2yBDtad2kAI",
+      "title": "Week 8-1 Zeroth Law of Thermodynamics",
+      "duration": 494
+    },
+    {
+      "id": "iTmAmskKxkw",
+      "title": "Week 8-2 Thermometers and Temperature Scales",
+      "duration": 1304
+    },
+    {
+      "id": "qeNxbWA9dN8",
+      "title": "Week 8-3 Thermal Expansion",
+      "duration": 1466
+    },
+    {
+      "id": "0jGLlRYT_u8",
+      "title": "Week 8-4 Ideal Gas Law",
+      "duration": 745
+    },
+    {
+      "id": "HRLT-uR1RBk",
+      "title": "Week 8-5 Heat and Internal Energy",
+      "duration": 502
+    },
+    {
+      "id": "Jz9gZjM6iJM",
+      "title": "Week 8-6 Heat Capacity, Specific Heat and Calorimetry",
+      "duration": 982
+    },
+    {
+      "id": "zVLr6pgcYoA",
+      "title": "Week 9-1 Latent Heat",
+      "duration": 1166
+    },
+    {
+      "id": "vZkRA4TCbw0",
+      "title": "Week 9-2 Heat and Work",
+      "duration": 1658
+    },
+    {
+      "id": "jLnWUqNVpNQ",
+      "title": "Week 9-3 The First Law of Thermodynamics",
+      "duration": 595
+    },
+    {
+      "id": "HN9_t6Lzn9U",
+      "title": "Week 9-4 The First Law of Thermodynamics Examples",
+      "duration": 959
+    },
+    {
+      "id": "on9UZMNeOUM",
+      "title": "Week 9-5 Thermal Conduction, Convection and Radiation",
+      "duration": 1676
+    },
+    {
+      "id": "Kh94Cx7l1Do",
+      "title": "Week 10-1 Kinetic Theory of Ideal Gases",
+      "duration": 2118
+    },
+    {
+      "id": "ZVU9mSJFRHg",
+      "title": "Week 10-2 Molar Specific Heat of an Ideal Gas",
+      "duration": 1042
+    },
+    {
+      "id": "AwSvH6tiGg8",
+      "title": "Week 10-3 The Equipartition of Energy",
+      "duration": 970
+    },
+    {
+      "id": "voHG48dclCw",
+      "title": "Week 10-4 Adiabatic Processes For An Ideal Gas",
+      "duration": 534
+    },
+    {
+      "id": "oMiAWfjeJFU",
+      "title": "Week 11-1 The Second Law of Thermodynamics (Kelvin-Planck and Clausius Forms)",
+      "duration": 1436
+    },
+    {
+      "id": "ae9xnQldIPY",
+      "title": "Week 11-2 Reversible and Irreversible Processes",
+      "duration": 553
+    },
+    {
+      "id": "51FiNWDvm3E",
+      "title": "Week 11-3 Carnot`s Theorem",
+      "duration": 711
+    },
+    {
+      "id": "UQpQAnsL580",
+      "title": "Week 11-4 Carnot Cycle",
+      "duration": 1481
+    },
+    {
+      "id": "kXZzDnUpVNU",
+      "title": "Week 12-1 Otto Cycle",
+      "duration": 841
+    },
+    {
+      "id": "JWTt64wOgDE",
+      "title": "Week 12-2 Entropy",
+      "duration": 1391
+    },
+    {
+      "id": "YeU4Xn6Kr5c",
+      "title": "Week 12-3 Entropy on a Microscopic Scale",
+      "duration": 1141
+    },
+    {
+      "id": "ST9EZ1VpoMo",
+      "title": "Week 12-4 Entropy Change Example",
+      "duration": 499
+    }
+  ]
+}

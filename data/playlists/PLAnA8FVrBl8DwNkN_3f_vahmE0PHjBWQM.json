@@ -1,0 +1,269 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Curso MECÁNICA CUÁNTICA (a lo Feynman)",
+  "channel": "Javier Garcia",
+  "description": "Extenso curso introductorio. Lo hice hace varios años pero sigue completamente vigente. Recomendado si no sabes nada de cuántica",
+  "updated": "2025-12-31",
+  "lessons": [
+    {
+      "id": "Ck0WwQiYTwo",
+      "title": "1.- Integración por partes",
+      "duration": 288
+    },
+    {
+      "id": "9BpLncx3J98",
+      "title": "2.- Funcional y Derivada funcional",
+      "duration": 2169
+    },
+    {
+      "id": "9taMOPHzrn4",
+      "title": "3.- Conexión EULER-LAGRANGE con la 2ª Ley de Newton",
+      "duration": 1621
+    },
+    {
+      "id": "Iue6XhSVHtU",
+      "title": "4.- PARTÍCULA LIBRE. Cálculo de la acción mínima",
+      "duration": 1091
+    },
+    {
+      "id": "mKsn5rQQ9kM",
+      "title": "5,- OSCILADOR ARMÓNICO: Cálculo de la acción mínima",
+      "duration": 2145
+    },
+    {
+      "id": "1pkdff2Lt58",
+      "title": "6.- Modelo simple de molécula diatómica. Desacoplamiento de variables.",
+      "duration": 3452
+    },
+    {
+      "id": "1a0zt3NWOQg",
+      "title": "7.- Coordenadas desacopladas del ejemplo del capítulo 6",
+      "duration": 24
+    },
+    {
+      "id": "noJJq71fxAU",
+      "title": "8.- Vectores y valores propios: qué significa y cómo se calcula",
+      "duration": 3952
+    },
+    {
+      "id": "bs9JCJXgpxs",
+      "title": "9.- Aplicación de los Valores Propios a 4 osciladores acoplados. MODOS NORMALES",
+      "duration": 2507
+    },
+    {
+      "id": "HuNJG5oBZes",
+      "title": "10.- Cómo entender los números complejos",
+      "duration": 2420
+    },
+    {
+      "id": "BV8ATj3ukyg",
+      "title": "11.- ¿De dónde sale la fórmula de Euler?",
+      "duration": 987
+    },
+    {
+      "id": "kOTzl_uLiWc",
+      "title": "12.- Ondas complejas",
+      "duration": 1695
+    },
+    {
+      "id": "qSOAoJagUAk",
+      "title": "13.- Ondas de materia (De Broglie)",
+      "duration": 1563
+    },
+    {
+      "id": "57DWB80Y3d4",
+      "title": "14.- Postulados de la Mecánica Cuántica",
+      "duration": 865
+    },
+    {
+      "id": "vGzYpzqU4CE",
+      "title": "15.- Construyendo la Integral de caminos (Path Integral)",
+      "duration": 1773
+    },
+    {
+      "id": "cP71bsakLu8",
+      "title": "16.- Integrales Gaussianas 1",
+      "duration": 904
+    },
+    {
+      "id": "3jW_qUCmvNQ",
+      "title": "17.- Integrales Gaussianas 2",
+      "duration": 336
+    },
+    {
+      "id": "Zg8UmGGImXQ",
+      "title": "18.- Integrales Gaussianas 3",
+      "duration": 2456
+    },
+    {
+      "id": "Wqgmi9pqHPQ",
+      "title": "19.- Expansión de la Acción a Segundo orden",
+      "duration": 1492
+    },
+    {
+      "id": "dmgqxr8koOI",
+      "title": "20.- Propagador de Feynman para una particula libre",
+      "duration": 1214
+    },
+    {
+      "id": "OTwZCGVSeMU",
+      "title": "21.- Deducción de la ecuación de Schrödinger a partir del propagador de Feynman",
+      "duration": 3078
+    },
+    {
+      "id": "WUnXDvSH0GQ",
+      "title": "22.- Expresión final del Propagador de la Partícula Libre",
+      "duration": 616
+    },
+    {
+      "id": "_e44X2jgL2k",
+      "title": "23.- Cálculo en detalle del Propagador del Oscilador Armónico",
+      "duration": 4247
+    },
+    {
+      "id": "r0Sl02_FqsM",
+      "title": "24.- Fórmula de Van Vleck Pauli Morette",
+      "duration": 321
+    },
+    {
+      "id": "eXAsNKKLM3Q",
+      "title": "25.- Fórmula de Gelfand - Yaglom",
+      "duration": 501
+    },
+    {
+      "id": "7CjC3g7oDwE",
+      "title": "26.- Deducción de la Ecuación de Schrödinger general",
+      "duration": 468
+    },
+    {
+      "id": "rDd-xH0ZFEs",
+      "title": "27.- La Naturaleza es un Espacio de Hilbert",
+      "duration": 990
+    },
+    {
+      "id": "YklW4WhD1UE",
+      "title": "28.- Ejemplo de Espacio de Hilbert: Química Cuántica (parte 1/2)",
+      "duration": 2454
+    },
+    {
+      "id": "PO_TbLCaMjg",
+      "title": "29.- Ejemplo de Espacio de Hilbert: Química Cuántica (parte 2/2)",
+      "duration": 6923
+    },
+    {
+      "id": "Trf1ihGPty4",
+      "title": "30.- Ecuaciones diferenciales con Deltas de Dirac y Heaviside",
+      "duration": 3674
+    },
+    {
+      "id": "Wkm_zo8-JJc",
+      "title": "31.- Observables, Operadores y Transformadas de Fourier",
+      "duration": 6660
+    },
+    {
+      "id": "aS6wS4q05L4",
+      "title": "32.- Partícula Cuántica en una Caja (Parte 1)",
+      "duration": 4074
+    },
+    {
+      "id": "hv_XUuSHAiU",
+      "title": "33.- Partícula Cuántica en una Caja (Parte 2)",
+      "duration": 1521
+    },
+    {
+      "id": "HIaQ-UPG7Ag",
+      "title": "34.- Rotaciones en Mecánica Cuántica (Parte 1)",
+      "duration": 2575
+    },
+    {
+      "id": "x5kyZLcAiS4",
+      "title": "35.- Rotaciones en Mecánica Cuántica (Parte 2)",
+      "duration": 2203
+    },
+    {
+      "id": "C9UDF-lJK4U",
+      "title": "36.- Deducción desde cero del Principio de Incertidumbre de Heisenberg",
+      "duration": 3584
+    },
+    {
+      "id": "4BXgMj5rHZU",
+      "title": "37.- Operador de Evolución Temporal en Mecánica Cuántica",
+      "duration": 3501
+    },
+    {
+      "id": "NAVn8KCVO0k",
+      "title": "38.- Operador de Evolución Temporal y el Propagador de Feynman",
+      "duration": 1888
+    },
+    {
+      "id": "JfllsCNC7tY",
+      "title": "39.- Trucos de álgebra para resolver el Oscilador Armónico (Parte 1/2)",
+      "duration": 4641
+    },
+    {
+      "id": "YWbHeqnVxFU",
+      "title": "40.- Trucos de álgebra para resolver el Oscilador Armónico (Parte 2/2)",
+      "duration": 3648
+    },
+    {
+      "id": "AkrCjsHel2Y",
+      "title": "41.- Relaciones de conmutación (Mecánica cuántica)",
+      "duration": 3550
+    },
+    {
+      "id": "Dctrfbj_Gzk",
+      "title": "42.- Deducción del Laplaciano en coordenadas esféricas",
+      "duration": 3583
+    },
+    {
+      "id": "ue9D9Pzcybk",
+      "title": "43 .- Momento angular y de Spin en Mecánica Cuántica (1/2)",
+      "duration": 3625
+    },
+    {
+      "id": "YX6zExG4KYM",
+      "title": "44 .- Momento angular y de Spin en Mecánica Cuántica (2/2)",
+      "duration": 5074
+    },
+    {
+      "id": "q9Lydoh1BRQ",
+      "title": "45 .- Producto directo de Espacios de Hilbert",
+      "duration": 2069
+    },
+    {
+      "id": "CWStw73pc94",
+      "title": "46 .- Representación Matricial del Momento Angular en Mecánica Cuántica",
+      "duration": 2181
+    },
+    {
+      "id": "G44kDb4D5Dw",
+      "title": "47 .- Suma de Momentos Angulares en Mecánica Cuántica (1/2)",
+      "duration": 3706
+    },
+    {
+      "id": "5vPQeD5_NVs",
+      "title": "48 .- Suma de Momentos Angulares en Mecánica Cuántica (2/2)",
+      "duration": 3984
+    },
+    {
+      "id": "jh1AP_aH_A8",
+      "title": "49.- Vectores propios del Momento Angular y de Spin",
+      "duration": 4305
+    },
+    {
+      "id": "tQr_YwE-jPs",
+      "title": "50.- Normalización de los Armónicos Esféricos",
+      "duration": 1525
+    },
+    {
+      "id": "n1uFMOD1JgU",
+      "title": "51.- Resolución exacta del Átomo de Hidrógeno (1/2)",
+      "duration": 2783
+    },
+    {
+      "id": "rcE_K2WlYxs",
+      "title": "52.- Resolución exacta del Átomo de Hidrógeno (2/2)",
+      "duration": 5469
+    }
+  ]
+}

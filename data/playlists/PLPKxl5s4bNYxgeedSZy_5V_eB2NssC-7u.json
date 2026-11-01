@@ -1,0 +1,364 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Métodos Numéricos I",
+  "channel": "TheMarcosVerissimo",
+  "description": "Vídeos de Métodos Numéricos I a serem assistidos pelos discentes do ICEx - UFF Volta Redonda inscritos na disciplina antes das aulas nos períodos remotos, mas abertos e disponibilizados para interessados em geral.\n\nEu falo devagar, e é um defeito que eu não consigo corrigir. Então, se for confortável, podem assistir os vídeos em 1.25x :)",
+  "updated": "2021-10-06",
+  "lessons": [
+    {
+      "id": "4OKmV7L9FoM",
+      "title": "01 - Estrutura de um programa em Fortran 90",
+      "duration": 346
+    },
+    {
+      "id": "GS_fY7-vJc8",
+      "title": "02 - Tipos de variáveis: integer (inteiros)",
+      "duration": 543
+    },
+    {
+      "id": "D0CgXt1Fh3k",
+      "title": "03 - Tipos de variáveis: real (reais)",
+      "duration": 791
+    },
+    {
+      "id": "D9LW9AwNHN0",
+      "title": "04 - Tipos de variáveis: character (cadeias de caracteres)",
+      "duration": 642
+    },
+    {
+      "id": "5qlym-7pc5s",
+      "title": "05 - Tipos de variáveis: logical (booleanas)",
+      "duration": 455
+    },
+    {
+      "id": "fHfWkBbCcFs",
+      "title": "06 - Tipos de variáveis: complex (números complexos)",
+      "duration": 472
+    },
+    {
+      "id": "OQjmtyWTVgk",
+      "title": "07 - O atributo parameter (constantes)",
+      "duration": 293
+    },
+    {
+      "id": "yJ6-9qIkDwk",
+      "title": "08 - Implicit none",
+      "duration": 534
+    },
+    {
+      "id": "KsNiU1tsE3I",
+      "title": "09 - Inicialização de variáveis na declaração",
+      "duration": 360
+    },
+    {
+      "id": "-cOmqb-tOeY",
+      "title": "10 - Operadores binários (operações matemáticas)",
+      "duration": 417
+    },
+    {
+      "id": "hvUEdvP1gUc",
+      "title": "11 - Operações aritméticas - cuidados com divisões",
+      "duration": 213
+    },
+    {
+      "id": "fW7d2Y1eUWo",
+      "title": "12 - Operadores relacionais; comparação entre valores",
+      "duration": 853
+    },
+    {
+      "id": "wMqqFR0kZ6U",
+      "title": "13 - Operadores lógicos, parte 1",
+      "duration": 458
+    },
+    {
+      "id": "5eyX70l55dY",
+      "title": "14 - Operadores lógicos, parte 2",
+      "duration": 428
+    },
+    {
+      "id": "j_F_hJGE4ns",
+      "title": "16 - Estruturas de controle: if - then - endif",
+      "duration": 237
+    },
+    {
+      "id": "y0Ao9qoFL0E",
+      "title": "17 - Estruturas de controle: if - then - else ; ifs aninhados",
+      "duration": 411
+    },
+    {
+      "id": "DCIGcp1mVOM",
+      "title": "18 - Estruturas de controle: if - then - elseif - endif",
+      "duration": 159
+    },
+    {
+      "id": "r_6Rp6ilMws",
+      "title": "19 - Estruturas de controle: select case",
+      "duration": 530
+    },
+    {
+      "id": "SIc4IfDYXVQ",
+      "title": "20 - Estruturas de repetição: laços com número fixo de iterações",
+      "duration": 391
+    },
+    {
+      "id": "bD8S4W5s92k",
+      "title": "21 - Estruturas de repetição: o passo",
+      "duration": 290
+    },
+    {
+      "id": "NKB-Q9D98HI",
+      "title": "22 - Estruturas de repetição: laços condicionais",
+      "duration": 370
+    },
+    {
+      "id": "D5Ob99h5eis",
+      "title": "23 - Estruturas de repetição: laços com cycle e exit",
+      "duration": 398
+    },
+    {
+      "id": "Cbs6iwfpbK0",
+      "title": "24 - Estruturas de repetição: laços aninhados",
+      "duration": 367
+    },
+    {
+      "id": "k72I9dzOmN0",
+      "title": "25 - Subprogramas: functions",
+      "duration": 418
+    },
+    {
+      "id": "0V0b0Uv-LJA",
+      "title": "26 - Subprogramas: escopo de variáveis",
+      "duration": 309
+    },
+    {
+      "id": "zFga5qSO88c",
+      "title": "27 - Subprogramas: subroutines",
+      "duration": 252
+    },
+    {
+      "id": "RkbN_vUh4EA",
+      "title": "28 - Entrada e saída, parte 01",
+      "duration": 185
+    },
+    {
+      "id": "KGi2VsBd1KM",
+      "title": "29 - Entrada e saída, parte 02: formatação de reais",
+      "duration": 469
+    },
+    {
+      "id": "sy_bQDHqyew",
+      "title": "30 - Entrada e saída, parte 03: formatação de inteiros",
+      "duration": 214
+    },
+    {
+      "id": "qDa-oCWOrT0",
+      "title": "31 - Entrada e saída, parte 04: formatação de cadeias de caracteres",
+      "duration": 398
+    },
+    {
+      "id": "Gx43zaPURhM",
+      "title": "32 - Arquivos: escrita de dados",
+      "duration": 701
+    },
+    {
+      "id": "lw6N1OBlYFQ",
+      "title": "33 - Arquivos: leitura de dados",
+      "duration": 567
+    },
+    {
+      "id": "cZH0YnFpjwU",
+      "title": "A brief history of numerical systems - Alessandra King",
+      "duration": 308
+    },
+    {
+      "id": "TnqE8mJgZ7Y",
+      "title": "34 - Representação numérica: Bases",
+      "duration": 584
+    },
+    {
+      "id": "rq81A3xS5BI",
+      "title": "35 - Representação numérica: Inteiros, conversão entre bases decimal e binária",
+      "duration": 251
+    },
+    {
+      "id": "m9AUXG_es1A",
+      "title": "36 - Representação numérica: Reais, conversão entre bases decimal e binária",
+      "duration": 528
+    },
+    {
+      "id": "rlESiuKyVgc",
+      "title": "37 - Representação numérica: Somas de números binários",
+      "duration": 528
+    },
+    {
+      "id": "pehu24sAnSU",
+      "title": "38 - Representação numérica: Subtração de números binários",
+      "duration": 553
+    },
+    {
+      "id": "5FedwFS1ynQ",
+      "title": "39 - Representação numérica: Multiplicação de números binários inteiros",
+      "duration": 1067
+    },
+    {
+      "id": "UHqWXAxifMk",
+      "title": "40 - Representação numérica: Inteiros com sinal em binário",
+      "duration": 698
+    },
+    {
+      "id": "ulc8ptFZdn8",
+      "title": "41 - Representação numérica: O complemento de dois",
+      "duration": 717
+    },
+    {
+      "id": "XcGDZrQ8CPE",
+      "title": "42 - Representação numérica: Números decimais em ponto flutuante",
+      "duration": 808
+    },
+    {
+      "id": "zIltHyodl2w",
+      "title": "43 - Representação numérica: Binários em ponto flutuante, parte 1 - Padrão IEEE, sinal e expoente",
+      "duration": 887
+    },
+    {
+      "id": "rx3wA1SkrGc",
+      "title": "44 - Representação numérica: Binários em ponto flutuante, parte 2 - Mantissa, números normal",
+      "duration": 409
+    },
+    {
+      "id": "v4dsm7WFCaI",
+      "title": "45 - Representação numérica: Binários em ponto flutuante, parte 3 - Fontes de erro",
+      "duration": 835
+    },
+    {
+      "id": "nvtsueP4Myk",
+      "title": "46 - Representação numérica: Binários em ponto flutuante, parte 4 - A catástrofe dos mísseis Patriot",
+      "duration": 786
+    },
+    {
+      "id": "xccMC7eqldk",
+      "title": "47 - Erros: Arredondamento",
+      "duration": 780
+    },
+    {
+      "id": "lnBropilvpc",
+      "title": "48 - Erros de truncamento: expansão em séries",
+      "duration": 404
+    },
+    {
+      "id": "d-yqUwg-7go",
+      "title": "49 - Erros de truncamento: derivadas",
+      "duration": 1056
+    },
+    {
+      "id": "2MYP9EFfbL4",
+      "title": "50 - Erros real e relativo",
+      "duration": 436
+    },
+    {
+      "id": "UpMcFFAUzaA",
+      "title": "51 - Erros aproximado e aproximado relativo",
+      "duration": 624
+    },
+    {
+      "id": "CDikwhrAzaI",
+      "title": "52 - Equações polinomiais, não lineares, transcendentais e suas raízes",
+      "duration": 519
+    },
+    {
+      "id": "pZ550ZmmigI",
+      "title": "53 - Raízes de equações não lineares: o método da bissecção",
+      "duration": 982
+    },
+    {
+      "id": "_zgcNWUM5yw",
+      "title": "54 - Raízes de equações não lineares: o método regula falsi",
+      "duration": 687
+    },
+    {
+      "id": "JysexBL06U4",
+      "title": "Fortran 90 - Arrays, parte 01",
+      "duration": 205
+    },
+    {
+      "id": "sGgjvmuQdvI",
+      "title": "Fortran 90 - Arrays, parte 02: declaração de arrays",
+      "duration": 453
+    },
+    {
+      "id": "fgcRk40d-LI",
+      "title": "Fortran 90 - Arrays, parte 03: inicialização de arrays",
+      "duration": 527
+    },
+    {
+      "id": "RcBpP7i27gs",
+      "title": "Fortran 90 - Arrays, parte 04: inicialização de arrays pelo teclado",
+      "duration": 213
+    },
+    {
+      "id": "HRf5I7D72Vw",
+      "title": "Fortran 90 - Arrays, parte 05: Array slicing",
+      "duration": 504
+    },
+    {
+      "id": "b_hmzDR8Hkc",
+      "title": "Fortran 90 - Arrays, parte 06: Aplicando funções em arrays",
+      "duration": 210
+    },
+    {
+      "id": "KGL2QLt_o0U",
+      "title": "Fortran 90 - Arrays, parte 07: Operações simples com arrays",
+      "duration": 578
+    },
+    {
+      "id": "N1yvC0WAHRY",
+      "title": "Fortran 90 - Arrays, parte 08: Algumas funções intrínsecas para operações matriciais",
+      "duration": 746
+    },
+    {
+      "id": "eof2LOA6Ofc",
+      "title": "Fortran 90 - Arrays, parte 09: Mais algumas funções intrínsecas para operações matriciais",
+      "duration": 536
+    },
+    {
+      "id": "42Gr5OmK4NY",
+      "title": "Fortran 90 - Módulos, parte 01- O que é um módulo",
+      "duration": 395
+    },
+    {
+      "id": "v3-FZD71McM",
+      "title": "Fortran 90 - Módulos, parte 02 - Código-fonte de módulo separado do programa principal",
+      "duration": 297
+    },
+    {
+      "id": "6CbhA5dDwAA",
+      "title": "Fortran 90 - Módulos, parte 03 - Código-fonte de módulo em diretório diferente do código principal",
+      "duration": 200
+    },
+    {
+      "id": "P_VUuYNdQFE",
+      "title": "Fortran 90 - Módulos, parte 04 - Usando módulo e programa principal separados no OnlineGDB",
+      "duration": 234
+    },
+    {
+      "id": "NH9Tt81Cbjo",
+      "title": "Eliminação de Gauss, parte 1: Entendendo o processo",
+      "duration": 1169
+    },
+    {
+      "id": "hyhO-MpjwVw",
+      "title": "Eliminação de Gauss, parte 2: Estruturas de controle e iteração envolvidas",
+      "duration": 632
+    },
+    {
+      "id": "BZ0UF2jz99o",
+      "title": "Eliminação de Gauss, parte 3: Índices dos elementos de matriz",
+      "duration": 747
+    },
+    {
+      "id": "w6Fzji2GZKA",
+      "title": "Eliminação de Gauss, parte 4: Índices para iteração sobre colunas",
+      "duration": 686
+    }
+  ]
+}

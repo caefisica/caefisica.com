@@ -1,0 +1,40 @@
+{{- /*
+One page per playlist listed in a course's playlists.yaml. A playlist listed by several courses gets one page that names them all, with the title and description of the first course that lists it.
+Two playlists with the same title are told apart in the path by their lecturer.
+A YouTube playlist with data from bun run playlists gets its own page; any other link is listed on the index and opens where it lives.
+*/ -}}
+{{- $root := "content/unmsm/pregrado/plan-2018" -}}
+{{- $lists := dict -}}
+{{- range os.ReadDir $root -}}
+	{{- $file := path.Join $root .Name "playlists.yaml" -}}
+	{{- if and .IsDir (os.FileExists $file) -}}
+		{{- $course := printf "/unmsm/pregrado/plan-2018/%s" (lower .Name) -}}
+		{{- range os.ReadFile $file | transform.Unmarshal -}}
+			{{- $id := ((urls.Parse .url).Query).Get "list" -}}
+			{{- $key := $id | default .url -}}
+			{{- $entry := merge . (dict "id" $id "courses" (slice $course)) -}}
+			{{- with index $lists $key }}{{ $entry = merge . (dict "courses" (.courses | append $course) "description" (.description | default $entry.description)) }}{{ end -}}
+			{{- $lists = merge $lists (dict $key $entry) -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- $paths := slice -}}
+{{- range $list := $lists -}}
+	{{- $path := urlize $list.title -}}
+	{{- if in $paths $path }}{{ $path = urlize (printf "%s %s" $list.title $list.lecturer) }}{{ end -}}
+	{{- $paths = $paths | append $path -}}
+	{{- $data := and $list.id (index hugo.Data.playlists $list.id) -}}
+	{{- $params := dict "lecturer" $list.lecturer "channel" $list.channel "url" $list.url "courses" $list.courses -}}
+	{{- $build := dict "render" "never" "list" "local" -}}
+	{{- with $data -}}
+		{{- $params = merge $params (dict "playlist" $list.id "channel" .channel "lessons" .lessons "updated" .updated "fetched" .fetched) -}}
+		{{- $build = dict -}}
+	{{- end -}}
+	{{- $.AddPage (dict
+		"path" $path
+		"title" $list.title
+		"params" $params
+		"build" $build
+		"content" (dict "mediaType" "text/markdown" "value" ($list.description | default ""))
+	) -}}
+{{- end -}}

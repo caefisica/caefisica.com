@@ -1,0 +1,844 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Límites",
+  "channel": "MateFacil",
+  "description": "En este curso aprenderás a calcular límites de diversas funciones, mediante diversas técnicas. Límites por factorización y simplificación de fracciones algebraicas. Límites mediante racionalización de raíces cuadradas, cúbicas, cuartas, quintas, sextas. Límites de funciones trigonométricas. Límites al infinito. Límites con funciones exponenciales y logartimicas. Límites de funciones trigonométricas inversas. Límites por cambio de variable. Límites empleando la regla de L'Hopital para diverso tipo de indeterminaciones (formas indeterminadas)",
+  "updated": "2025-09-26",
+  "lessons": [
+    {
+      "id": "8nCLVofOYJU",
+      "title": "01. Límite con indeterminación 0/0",
+      "duration": 345
+    },
+    {
+      "id": "Vgyu7MFVjYo",
+      "title": "02. Límite con indeterminación 0/0",
+      "duration": 283
+    },
+    {
+      "id": "kEdF2P43RTY",
+      "title": "03. Límite con indeterminación 0/0",
+      "duration": 211
+    },
+    {
+      "id": "2MqdoAWz_DA",
+      "title": "04. Límite con indeterminación 0/0",
+      "duration": 282
+    },
+    {
+      "id": "8ytGd33i-IE",
+      "title": "05. Límite con indeterminación 0/0",
+      "duration": 220
+    },
+    {
+      "id": "wUsTg3TjQOk",
+      "title": "06. Límite con indeterminación 0/0",
+      "duration": 241
+    },
+    {
+      "id": "P3InFkUgmZ0",
+      "title": "07. Límite con indeterminación 0/0",
+      "duration": 218
+    },
+    {
+      "id": "wD6rKUU_4Y0",
+      "title": "08. Límite con indeterminación 0/0",
+      "duration": 246
+    },
+    {
+      "id": "fEtKJPrkRfA",
+      "title": "09. Límite con indeterminación 0/0",
+      "duration": 257
+    },
+    {
+      "id": "odgYomz2OB8",
+      "title": "10. Límite con indeterminación 0/0",
+      "duration": 333
+    },
+    {
+      "id": "jJQ2WHzx9X4",
+      "title": "11. Límite con indeterminación 0/0",
+      "duration": 416
+    },
+    {
+      "id": "LDJ74IjxNNQ",
+      "title": "12. Límite con indeterminación 0/0 con fracción",
+      "duration": 199
+    },
+    {
+      "id": "DPKI4tlr-Hw",
+      "title": "13. Límite con indeterminación 0/0 con fracción",
+      "duration": 301
+    },
+    {
+      "id": "gXvFQcBsATw",
+      "title": "14. Límite con indeterminación 0/0 con fracción",
+      "duration": 460
+    },
+    {
+      "id": "StVyfk-HDNE",
+      "title": "15. Límite con indeterminación 0/0",
+      "duration": 148
+    },
+    {
+      "id": "XrxFwh7z-DI",
+      "title": "16. Límite con indeterminación 0/0",
+      "duration": 201
+    },
+    {
+      "id": "GuIwWM5B658",
+      "title": "17. Límite con indeterminación 0/0",
+      "duration": 169
+    },
+    {
+      "id": "-xBCuUm-2PE",
+      "title": "18. Límite con indeterminación 0/0 diferencia de cuadrados y de cubos",
+      "duration": 285
+    },
+    {
+      "id": "zZRQJN_x1LA",
+      "title": "19. Límite con indeterminación 0/0 diferencia de cubos y cuartas",
+      "duration": 359
+    },
+    {
+      "id": "X23bzmvnugI",
+      "title": "20. Límite con indeterminación 0/0 diferencia de potencias quintas y sextas",
+      "duration": 267
+    },
+    {
+      "id": "wwipKYQNLMY",
+      "title": "21. Límite con indeterminación 0/0 suma de cubos",
+      "duration": 173
+    },
+    {
+      "id": "GbJe-EzERNQ",
+      "title": "22. Límite con indeterminación 0/0 suma de cubos y trinomio",
+      "duration": 262
+    },
+    {
+      "id": "JWj4t1Fsz3E",
+      "title": "23. Límite con indeterminación 0/0 suma de potencias quintas y diferencia de cuartas",
+      "duration": 410
+    },
+    {
+      "id": "5fk2JWUlKBc",
+      "title": "24. Límite con indeterminación 0/0 con fracción y diferencia de cubos",
+      "duration": 285
+    },
+    {
+      "id": "doXVCe1Cl_Y",
+      "title": "25. Límite con indeterminación 0/0 con fracción y diferencia de cubos",
+      "duration": 273
+    },
+    {
+      "id": "zXQvLDMFkVY",
+      "title": "26. Límite con indeterminación 0/0 usando regla de Ruffini",
+      "duration": 392
+    },
+    {
+      "id": "LjptnvJNVqk",
+      "title": "27. Límite con indeterminación 0/0 usando regla de Ruffini",
+      "duration": 417
+    },
+    {
+      "id": "PhNs-jhr_LM",
+      "title": "28. Límite con indeterminación 0/0 usando regla de Ruffini",
+      "duration": 370
+    },
+    {
+      "id": "yf-G3vmruUE",
+      "title": "29. Límite con indeterminación 0/0 usando regla de Ruffini",
+      "duration": 597
+    },
+    {
+      "id": "d0357_KVyyI",
+      "title": "30. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 211
+    },
+    {
+      "id": "OqXJ9oAkHjE",
+      "title": "31. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 214
+    },
+    {
+      "id": "RA186bHAFiM",
+      "title": "32. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 228
+    },
+    {
+      "id": "Nz_Uy2AhqwE",
+      "title": "33. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 213
+    },
+    {
+      "id": "Ipg1CF8ZZF4",
+      "title": "34. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 192
+    },
+    {
+      "id": "ImA91Q9CXbQ",
+      "title": "35. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 207
+    },
+    {
+      "id": "ouMyDKCJr0k",
+      "title": "36. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 207
+    },
+    {
+      "id": "gf8ccMVm1QI",
+      "title": "37. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 270
+    },
+    {
+      "id": "DDrKRk77AI8",
+      "title": "38. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 236
+    },
+    {
+      "id": "Ki84_FTyYtQ",
+      "title": "39. Límite con indeterminación 0/0 con raíz cuadrada, racionalizando",
+      "duration": 359
+    },
+    {
+      "id": "A5MTtOPlGks",
+      "title": "40. Límite con indeterminación 0/0 con raíz cúbica, racionalizando",
+      "duration": 259
+    },
+    {
+      "id": "UzdKoeljFng",
+      "title": "41. Límite con raíz cúbica, mediante racionalización y factorización de diferencia de cuadrados",
+      "duration": 580
+    },
+    {
+      "id": "w1oOkzSlko4",
+      "title": "42. Límite con indeterminación 0/0 con raíz cúbica, racionalizando",
+      "duration": 374
+    },
+    {
+      "id": "mQ8OMKLhTfA",
+      "title": "43. Límite con indeterminación 0/0 con raíz cúbica, racionalizando",
+      "duration": 472
+    },
+    {
+      "id": "wwV439tX6MI",
+      "title": "44. Límite con indeterminación 0/0 doble racionalización",
+      "duration": 353
+    },
+    {
+      "id": "3uibXQJ3lB8",
+      "title": "45. Límite con indeterminación 0/0 doble racionalización de raíz cúbica",
+      "duration": 468
+    },
+    {
+      "id": "KzVjregTKtE",
+      "title": "46. Límite con indeterminación 0/0 racionalización de raíz cuarta",
+      "duration": 318
+    },
+    {
+      "id": "Ws7rR94bxco",
+      "title": "47. Límite con raíz cuarta y cuadrada, racionalizando el numerador | Límites",
+      "duration": 577
+    },
+    {
+      "id": "nX4Q-JEjJk4",
+      "title": "48. Límite con indeterminación 0/0 racionalización de raíz cuarta y cuadrada",
+      "duration": 777
+    },
+    {
+      "id": "YmD_7vfzPYA",
+      "title": "49. Límite por racionalización de raíz quinta",
+      "duration": 641
+    },
+    {
+      "id": "Z_D-RHwhaDU",
+      "title": "50. Límite por racionalización de raíz cúbica y cuadrada",
+      "duration": 442
+    },
+    {
+      "id": "wm-HUNf0y28",
+      "title": "51. Límite cuando x tiende a infinito y a menos infinito, explicación",
+      "duration": 960
+    },
+    {
+      "id": "4dmO8UG1z3I",
+      "title": "52. Límite cuando x tiende a infinito de división de polinomios del mismo grado",
+      "duration": 476
+    },
+    {
+      "id": "NuyTtrFr-Ew",
+      "title": "53. Límite cuando x tiende a infinito de división de polinomios",
+      "duration": 325
+    },
+    {
+      "id": "y8pzub2aYAY",
+      "title": "54. Límite cuando x tiende a infinito de división de polinomios",
+      "duration": 483
+    },
+    {
+      "id": "z825j-tMu1Y",
+      "title": "55. Límite cuando x tiende a menos infinito de división de polinomios",
+      "duration": 484
+    },
+    {
+      "id": "VluV3fxCySg",
+      "title": "56. Límite cuando x tiende a infinito de división de polinomios con raíz cuadrada",
+      "duration": 255
+    },
+    {
+      "id": "EKHenbTrer0",
+      "title": "57. Límite cuando x tiende a infinito de división de polinomios con raíz cúbica",
+      "duration": 264
+    },
+    {
+      "id": "YdEunJEwsoA",
+      "title": "58. Límite cuando x tiende a infinito de división de polinomios con raíz cuadrada",
+      "duration": 232
+    },
+    {
+      "id": "jILqifoOxeE",
+      "title": "59. Límite cuando x tiende a infinito de división de polinomios con raíz cuadrada",
+      "duration": 407
+    },
+    {
+      "id": "403jr0WxYNo",
+      "title": "60. Límite cuando x tiende a infinito de división de polinomios con raíz cúbica y cuadrada",
+      "duration": 466
+    },
+    {
+      "id": "sCzBpMfYT_0",
+      "title": "61. Límite cuando x tiende a infinito de división de raíces cuadradas",
+      "duration": 315
+    },
+    {
+      "id": "mLNWhDXveuE",
+      "title": "62. Límite cuando x tiende a infinito, por racionalización",
+      "duration": 340
+    },
+    {
+      "id": "LuqmcGbardg",
+      "title": "63. Límite cuando x tiende a infinito de resta con raíz cuadrada",
+      "duration": 345
+    },
+    {
+      "id": "m-N8Rx6Frl8",
+      "title": "¿Sabes resolver este límite al infinito? Truco de las potencias",
+      "duration": 492
+    },
+    {
+      "id": "DOfTgGxOCVk",
+      "title": "64. Demostración de límite trigonométrico básico: sen x entre x",
+      "duration": 853
+    },
+    {
+      "id": "kwJ4bIwvWvo",
+      "title": "65. Límite trigonométrico: seno cuadrado entre x | Límite",
+      "duration": 180
+    },
+    {
+      "id": "4cgaQWJ_vHY",
+      "title": "66. Límite trigonométrico sen 9x entre x | Límite",
+      "duration": 188
+    },
+    {
+      "id": "Kz9eYbgOKPk",
+      "title": "67. Límite trigonométrico: x entre sen 7x | Límite",
+      "duration": 190
+    },
+    {
+      "id": "7me7lA3kV78",
+      "title": "68. Cómo resolver un Límite trigonométrico PASO A PASO MUY FÁCIL",
+      "duration": 227
+    },
+    {
+      "id": "yWpPP03sCQk",
+      "title": "69. Límite trigonométrico: Multiplicación de senos entre x^2 | Límite",
+      "duration": 278
+    },
+    {
+      "id": "KY5AoiKCPDI",
+      "title": "70. Límite trigonométrico con seno cuadrado y secante | Límite",
+      "duration": 214
+    },
+    {
+      "id": "phTiLlC4YKw",
+      "title": "71. Límite trigonométrico: División de senos | Límite",
+      "duration": 316
+    },
+    {
+      "id": "0qReyJTZnm0",
+      "title": "72. Límite trigonométrico: 1 - cos x entre x, racionalizando | Límite",
+      "duration": 316
+    },
+    {
+      "id": "M-iaNPTAwdM",
+      "title": "73. Límite trigonométrico: 1 - cos 4x entre x | Límite",
+      "duration": 358
+    },
+    {
+      "id": "G3pvwUGL_0A",
+      "title": "74. Límite trigonométrico: tan x entre x | Límite",
+      "duration": 273
+    },
+    {
+      "id": "TxeaveTvE9I",
+      "title": "75. Límite trigonométrico: tan 5x entre x | Límite",
+      "duration": 317
+    },
+    {
+      "id": "ZdMjYuQLQXs",
+      "title": "76. Límite trigonométrico: 1/x sen x/3 | Límite EXPLICADO PASO A PASO MUY FÁCIL",
+      "duration": 283
+    },
+    {
+      "id": "Jvk2NFNSLRA",
+      "title": "77. Límite trigonométrico: 1 - cos x entre x^2, multiplicando por conjugado | Límite",
+      "duration": 396
+    },
+    {
+      "id": "RymZ4_Khwus",
+      "title": "78. Límite trigonométrico: 1-cos2x entre x^2 | Límite",
+      "duration": 333
+    },
+    {
+      "id": "dwSHXaDOzv8",
+      "title": "79. Límite trigonométrico con senos y cosenos: x sen x entre 1 - cos 2x | Límite",
+      "duration": 451
+    },
+    {
+      "id": "cJka6PamAX0",
+      "title": "80. Límite trigonométrico con seno y tangente, y FÓRMULAS de límites trigonométricos",
+      "duration": 441
+    },
+    {
+      "id": "gTMK_q1NByI",
+      "title": "81. Límite trigonométrico con seno coseno y tangente | Límite",
+      "duration": 219
+    },
+    {
+      "id": "bWRvoEP_s8E",
+      "title": "82. Límite trigonométrico con x^2 y tangente | Límite",
+      "duration": 283
+    },
+    {
+      "id": "asEABWPKe00",
+      "title": "83. Límite trigonométrico de división de tangentes | Límite",
+      "duration": 290
+    },
+    {
+      "id": "7tSGjO7FlGA",
+      "title": "84. Límite trigonométrico de coseno de una resta | Límite",
+      "duration": 250
+    },
+    {
+      "id": "uC7bvV96cWE",
+      "title": "85. Límite trigonométrico de seno de suma de ángulos (Identidad trigonométrica) | Límite",
+      "duration": 428
+    },
+    {
+      "id": "IABO90pEKso",
+      "title": "86. Límite trigonométrico con coseno de suma, y ángulo doble (Identidades trigonométricas) | Límite",
+      "duration": 844
+    },
+    {
+      "id": "igfZk6PTI7k",
+      "title": "87. Límite trigonométrico mediante el uso de un truco algebraico | Límite",
+      "duration": 222
+    },
+    {
+      "id": "ihLupU6FFFU",
+      "title": "88. Límite trigonométrico de división de sumas de senos, truco algebraico | Límite",
+      "duration": 199
+    },
+    {
+      "id": "p5vGb75F7GM",
+      "title": "89. Límite trigonométrico: división trigonométrica, truco algebraico",
+      "duration": 168
+    },
+    {
+      "id": "yzZc659qW2I",
+      "title": "90. Límite trigonométrico: 1 - cos x entre sen x | Límite",
+      "duration": 180
+    },
+    {
+      "id": "zZPBzEr_qrM",
+      "title": "91. Límite trigonométrico: x^3+x entre sen 3x. Dividiendo entre x, aplicando fórmula | Límite",
+      "duration": 144
+    },
+    {
+      "id": "ZjOjMUC2hQA",
+      "title": "92. Límite con funciones trigonométricas (seno y tangente) | Límite",
+      "duration": 478
+    },
+    {
+      "id": "N8vcxOjKXjI",
+      "title": "93. Límite trigonométrico con fórmula de ángulo doble | Límite",
+      "duration": 270
+    },
+    {
+      "id": "fnRTXaVeHf8",
+      "title": "94. Límite trigonométrico de cos x - cos 3x entre x^2 | Límite",
+      "duration": 568
+    },
+    {
+      "id": "ffTGEWzbenA",
+      "title": "95. Límite trigonométrico por cambio de variable (usando fórmulas trigonométricas) | Límite",
+      "duration": 1074
+    },
+    {
+      "id": "SPzWmVvDt5Y",
+      "title": "96. Límite trigonométrico mediante cambio de variable con pi sobre 2 | Límite",
+      "duration": 463
+    },
+    {
+      "id": "M7IlCqzI0wM",
+      "title": "97. Límite trigonométrico con cosecante y cotangente (cambio de variable) | Límite",
+      "duration": 809
+    },
+    {
+      "id": "iCVLt9VA-PI",
+      "title": "98. Límite trigonométrico por cambio de variable | Límite",
+      "duration": 536
+    },
+    {
+      "id": "bdJrsUdWIAg",
+      "title": "99. Límite trigonométrico, identidades trigonométricas, factorización, cambio de variable | Límite",
+      "duration": 426
+    },
+    {
+      "id": "HktNeCYOINM",
+      "title": "100. Límite trigonométrico mediante cambio de variable con senos y cosenos | Límite",
+      "duration": 663
+    },
+    {
+      "id": "_8MgobbzPWg",
+      "title": "101. Límite trigonométrico: x por secante por cosecante",
+      "duration": 170
+    },
+    {
+      "id": "wGN_sT6gwPY",
+      "title": "102. Límite trigonométrico: coseno dentro de coseno",
+      "duration": 812
+    },
+    {
+      "id": "rmPYEh67xo8",
+      "title": "103. Límite trigonométrico al infinito, MUY FÁCIL",
+      "duration": 164
+    },
+    {
+      "id": "G1uXeJ9M6K0",
+      "title": "104. Límite trigonométrico cuando x tiende a infinito, MUY FÁCIL",
+      "duration": 148
+    },
+    {
+      "id": "VeANHCFwEDk",
+      "title": "105. Límite trigonométrico cuando x tiende a infinito, EJERCICIO RESUELTO",
+      "duration": 103
+    },
+    {
+      "id": "DoaHu3kHH54",
+      "title": "106. Límite trigonométrico cuando x tiende a cero: sin(1/x)",
+      "duration": 282
+    },
+    {
+      "id": "BkG0lNB-HCc",
+      "title": "107. Límite trigonométrico cuando x tiende a infinito, POR DOS MÉTODOS",
+      "duration": 243
+    },
+    {
+      "id": "2Bcax99mvBw",
+      "title": "108. Límite trigonométrico de sin(1/x)",
+      "duration": 381
+    },
+    {
+      "id": "Yfj2uirTtEA",
+      "title": "109. Límite trigonométrico: división sin(1/x)",
+      "duration": 160
+    },
+    {
+      "id": "Me9oHaEIY8M",
+      "title": "110. Límite por Regla de L'Hopital, EXPLICACIÓN COMPLETA Y EJEMPLOS",
+      "duration": 227
+    },
+    {
+      "id": "vOM40noug5A",
+      "title": "111. Límite por Regla de L'Hopital: división de polinomios, forma 0/0",
+      "duration": 267
+    },
+    {
+      "id": "5y6MwR7-5sA",
+      "title": "112. Límite por Regla de L'Hopital: forma 0/0",
+      "duration": 208
+    },
+    {
+      "id": "FhbHZC3p0mc",
+      "title": "113. Límite por Regla de L'Hopital: exponencial y trigonométrica, forma 0/0",
+      "duration": 236
+    },
+    {
+      "id": "F01qvD6f7eE",
+      "title": "114. Límite por Regla de L'Hopital: funciones trigonométricas, forma 0/0",
+      "duration": 480
+    },
+    {
+      "id": "21jptae9Bmw",
+      "title": "115. Límite por Regla de L'Hopital: logaritmo y trigonométrica, forma 0/0",
+      "duration": 462
+    },
+    {
+      "id": "is6YylUwqB0",
+      "title": "116. Límite por Regla de L'Hopital: trigonométrico, forma 0/0",
+      "duration": 225
+    },
+    {
+      "id": "EctsX0ehWzs",
+      "title": "117. Límite por Regla de L'Hopital: logaritmo y exponencial, forma 0/0",
+      "duration": 282
+    },
+    {
+      "id": "_gqID4sEf0c",
+      "title": "118. Límite por Regla de L'Hopital: funciones exponenciales, forma 0/0",
+      "duration": 222
+    },
+    {
+      "id": "gJ7tKM-PcmA",
+      "title": "119. Límite por Regla de L'Hopital: trigonométricas inversas, forma 0/0",
+      "duration": 399
+    },
+    {
+      "id": "kGj5OAAZt7U",
+      "title": "120. Límite por Regla de L'Hopital: división de arcotangentes, forma 0/0",
+      "duration": 223
+    },
+    {
+      "id": "l6MvGg3CMCg",
+      "title": "121. Límite por Regla de L'Hopital: función exponencial, forma ∞/∞",
+      "duration": 283
+    },
+    {
+      "id": "qbVyC3Opp14",
+      "title": "122. Límite por Regla de L'Hopital: con logaritmo, forma ∞/∞",
+      "duration": 319
+    },
+    {
+      "id": "MhbJSxWrLYM",
+      "title": "123. Límite por Regla de L'Hopital: con logaritmos, forma ∞/∞",
+      "duration": 333
+    },
+    {
+      "id": "ZHGP6Hp17LU",
+      "title": "124. Límite por Regla de L'Hopital: con logaritmo, forma 0 por infinito",
+      "duration": 356
+    },
+    {
+      "id": "mqhi3EJkug8",
+      "title": "125. Límite por Regla de L'Hopital: funciones trigonométricas, forma 0 por infinito",
+      "duration": 405
+    },
+    {
+      "id": "ECHUUlbJclg",
+      "title": "126. Límite por Regla de L'Hopital: funciones trigonométricas, forma 0 por infinito",
+      "duration": 348
+    },
+    {
+      "id": "9_-oXLXRsIk",
+      "title": "127. Límite por Regla de L'Hopital: funciones trigonométricas, forma 0 por infinito",
+      "duration": 362
+    },
+    {
+      "id": "VXY0vxS8jmM",
+      "title": "128. Límite por Regla de L'Hopital: función exponencial y logarítmica, forma 0 por infinito",
+      "duration": 252
+    },
+    {
+      "id": "lqfPAPznvh4",
+      "title": "129. Límite por Regla de L'Hopital: con logaritmo, forma 0 por infinito",
+      "duration": 378
+    },
+    {
+      "id": "3ehbqWVPr60",
+      "title": "130. Límite por Regla de L'Hopital: con exponencial, forma 0 por infinito",
+      "duration": 280
+    },
+    {
+      "id": "9rv_2wo0SUY",
+      "title": "131. Límite por Regla de L'Hopital: forma infinito menos infinito",
+      "duration": 362
+    },
+    {
+      "id": "05jEM7MzRe8",
+      "title": "132. Límite por Regla de L'Hopital: forma infinito menos infinito",
+      "duration": 263
+    },
+    {
+      "id": "GAde8290x1c",
+      "title": "133. Límite por Regla de L'Hopital: indeterminación 1 elevado a infinito",
+      "duration": 429
+    },
+    {
+      "id": "w1Ik1hrKeoU",
+      "title": "134. Límite por Regla de L'Hopital: indeterminación 1 elevado a infinito",
+      "duration": 467
+    },
+    {
+      "id": "9DxYU8A1mow",
+      "title": "135. Límite por Regla de L'Hopital: indeterminación 0 elevado a 0",
+      "duration": 428
+    },
+    {
+      "id": "d_Ab8f1Ukcw",
+      "title": "136. Límite por Regla de L'Hopital: indeterminación 0 elevado a 0",
+      "duration": 205
+    },
+    {
+      "id": "pxOTbsLnzIM",
+      "title": "137. Límite por Regla de L'Hopital: indeterminación 0 elevado a 0",
+      "duration": 409
+    },
+    {
+      "id": "NQt_MdwGEr8",
+      "title": "138. Límite por Regla de L'Hopital: indeterminación infinito elevado a 0",
+      "duration": 310
+    },
+    {
+      "id": "yo5NMJq7W5Y",
+      "title": "139. Límite por Regla de L'Hopital: indeterminación 1 elevado a infinito",
+      "duration": 439
+    },
+    {
+      "id": "8eOymUGCsEo",
+      "title": "140. Límite por Regla de L'Hopital: indeterminación infinito elevado a 0",
+      "duration": 245
+    },
+    {
+      "id": "r0ITtE4i11Y",
+      "title": "Límite con funciones trigonométricas, por cambio de variable usando la fórmula de límite exponencial",
+      "duration": 349
+    },
+    {
+      "id": "DR9_LT9vBKU",
+      "title": "Límite con funciones exponenciales y trigonométricas (Límites especiales)",
+      "duration": 669
+    },
+    {
+      "id": "uJV5HMMJ4J0",
+      "title": "La división entre cero ¡NO ES INFINITO! ¿Por qué no se puede dividir por cero?",
+      "duration": 971
+    },
+    {
+      "id": "k4L-sBmPHXA",
+      "title": "Límite usando regla de L'Hopital varias veces",
+      "duration": 752
+    },
+    {
+      "id": "VcqEOmQ3aKs",
+      "title": "Límite con exponenciales al infinito y menos infinito",
+      "duration": 434
+    },
+    {
+      "id": "r-U8-JGhwm4",
+      "title": "Límite al infinito, por racionalización, PASO A PASO",
+      "duration": 348
+    },
+    {
+      "id": "KhS52rwd1hA",
+      "title": "Límite de Variable Compleja",
+      "duration": 267
+    },
+    {
+      "id": "BlIqLvpRpHo",
+      "title": "01. Límites de varias variables PASO A PASO",
+      "duration": 247
+    },
+    {
+      "id": "EPxAEQc_yoo",
+      "title": "02. Límites de varias variables, FACTORIZACIÓN Y RACIONALIZACIÓN",
+      "duration": 446
+    },
+    {
+      "id": "I_lwjELUn5E",
+      "title": "03. Límites de dos variables DEMOSTRAR QUE NO EXISTE",
+      "duration": 624
+    },
+    {
+      "id": "yXCoO0JrD28",
+      "title": "04. Límites de varias variables CAMBIO DE VARIABLES",
+      "duration": 675
+    },
+    {
+      "id": "NryAe3pGobA",
+      "title": "05. Límites de dos variables que NO EXISTEN, Analizando TRAYECTORIAS CURVAS",
+      "duration": 502
+    },
+    {
+      "id": "0bmtedklTLM",
+      "title": "06. Límites de dos variables COORDENADAS POLARES, ejemplos resueltos",
+      "duration": 536
+    },
+    {
+      "id": "x0lhUOOcKxw",
+      "title": "07. Límite de dos variables ¡CUIDADO AL USAR COORDENADAS POLARES!",
+      "duration": 421
+    },
+    {
+      "id": "y96Z1FSqS1M",
+      "title": "08. Límites de dos variables ANÁLISIS COMPLETO Y DEMOSTRACIÓN",
+      "duration": 683
+    },
+    {
+      "id": "xjELCVC3oxQ",
+      "title": "09. Límites de tres variables MEDIANTE SIMPLIFICACIÓN y sustitución",
+      "duration": 310
+    },
+    {
+      "id": "u2sVgsLET6U",
+      "title": "10. Límites de tres variables DEMOSTRAR QUE NO EXISTE usando rectas",
+      "duration": 330
+    },
+    {
+      "id": "GDIFsqkTsNA",
+      "title": "Límite por REGLA DE L'HOPITAL, forma indeterminada 0 por infinito",
+      "duration": 306
+    },
+    {
+      "id": "rqAPk4xRRds",
+      "title": "Límite con raíz cuadrada y cúbica CAMBIO DE VARIABLE y Ruffini",
+      "duration": 482
+    },
+    {
+      "id": "eZ47UVSu1Z8",
+      "title": "¿Sabes Resolverlo? Límite con Sumatoria (2 MÉTODOS)",
+      "duration": 431
+    },
+    {
+      "id": "QLTIrUN_FfQ",
+      "title": "¿Sabes resolver estos LÍMITES TRIGONOMÉTRICOS? (NO se usa L'Hopital)",
+      "duration": 577
+    },
+    {
+      "id": "EIPAW9wNzDE",
+      "title": "Límite de Variable Compleja, demostrar que NO EXISTE - Función exponencial",
+      "duration": 672
+    },
+    {
+      "id": "ZJaQi7FrrTw",
+      "title": "Límite exponencial (sin usar regla de L'Hopital)",
+      "duration": 434
+    },
+    {
+      "id": "3MsJDOVIkr8",
+      "title": "Límite Trigonométrico con secante, usando identidades trigonométricas",
+      "duration": 456
+    },
+    {
+      "id": "wlVqxRMoqy8",
+      "title": "Esta Fórmula es Sorprendente: Identidad de Viète (Vieta) Para el número 𝝅",
+      "duration": 837
+    },
+    {
+      "id": "eMzYeED7ZDM",
+      "title": "💎 ¿Cómo se CALCULA este LÍMITE?",
+      "duration": 745
+    }
+  ]
+}

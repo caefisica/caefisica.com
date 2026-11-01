@@ -1,0 +1,304 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Curso de Mecánica Cuántica",
+  "channel": "Ramon Carrillo Bastos",
+  "description": "",
+  "updated": "2025-11-11",
+  "lessons": [
+    {
+      "id": "DpqvkduaTT8",
+      "title": "Mecánica Cuántica 001 presentacion del contenido",
+      "duration": 355
+    },
+    {
+      "id": "QgeuzL1xYxA",
+      "title": "Mecánica Cuántica 002 Espacios Vectoriales Lineales I",
+      "duration": 3370
+    },
+    {
+      "id": "rSAg4ma16IQ",
+      "title": "Mecánica Cuántica 003 Espacios Vectoriales Lineales II",
+      "duration": 1096
+    },
+    {
+      "id": "xjISeXX6Nuo",
+      "title": "Mecánica Cuántica 004 Espacios con producto interno",
+      "duration": 1534
+    },
+    {
+      "id": "YuMOpMXpaA4",
+      "title": "Mecánica Cuántica 005 Espacios duales y notación de Dirac",
+      "duration": 2273
+    },
+    {
+      "id": "nFhyH0SCUYI",
+      "title": "Mecánica Cuántica 007 Subespacios Vectoriales",
+      "duration": 545
+    },
+    {
+      "id": "2eczU58hO24",
+      "title": "Mecánica Cuántica 006 Proceso de Gram-Schmidt",
+      "duration": 1093
+    },
+    {
+      "id": "6kzA-jjAb7Q",
+      "title": "Mecánica Cuántica 009 Elementos matriciales de operadores lineales",
+      "duration": 2321
+    },
+    {
+      "id": "mV4GCV5dltw",
+      "title": "Mecánica Cuántica 008 Operadores lineales",
+      "duration": 1560
+    },
+    {
+      "id": "AGD8f5_Ym0g",
+      "title": "Mecánica Cuantica 010 Elementos de matriz de los operadores lineales II",
+      "duration": 1012
+    },
+    {
+      "id": "qhksSA-bQ0Q",
+      "title": "Mecánica Cuántica 011 Elementos de matriz de los operadores lineales III",
+      "duration": 1054
+    },
+    {
+      "id": "sMBNuNDQmDg",
+      "title": "Mecánica Cuántica 012 Transformaciones activas y pasivas",
+      "duration": 461
+    },
+    {
+      "id": "MxkvnzrEbLE",
+      "title": "Mecánica Cuántica 013 El problema de eigenvalor",
+      "duration": 2465
+    },
+    {
+      "id": "-q2gXtNWe0I",
+      "title": "Mecánica Cuántica 014 El problema de eigenvalor (continuación)",
+      "duration": 2401
+    },
+    {
+      "id": "Rj-vYTp15o4",
+      "title": "Mecánica Cuántica 015 Diagonalización de matrices hermitianas",
+      "duration": 1820
+    },
+    {
+      "id": "hCchVf0_wfo",
+      "title": "Mecánica Cuántica 016 Funciones de operadores",
+      "duration": 1124
+    },
+    {
+      "id": "4OfUp4RGBkE",
+      "title": "Mecánica Cuántica 017 Ejemplo de modos normales en mecánica clásica",
+      "duration": 3802
+    },
+    {
+      "id": "uOYRdEkHzKg",
+      "title": "Mecánica Cuántica 018 Generalización a infinitas dimensiones",
+      "duration": 3234
+    },
+    {
+      "id": "cAUFeuqjy2Y",
+      "title": "Mecánica Cuántica 019 Operadores en espacio con inifnitas dimensiones",
+      "duration": 2569
+    },
+    {
+      "id": "RLcjjHqdnoc",
+      "title": "Mecánica Cuántica 020 El espacio de Hilbert",
+      "duration": 3178
+    },
+    {
+      "id": "0Fj0pOqluug",
+      "title": "Mecánica Cuántica 021 Ejemplo de modos normales en el espacio de Hilbert",
+      "duration": 3599
+    },
+    {
+      "id": "u6aoSozWHzg",
+      "title": "Mecánica Cuántica 022 Kets de estados, observables y calculo de probabilidades",
+      "duration": 1454
+    },
+    {
+      "id": "N80GhnORGO4",
+      "title": "Mecánica Cuántica 023 Valores esperados",
+      "duration": 1201
+    },
+    {
+      "id": "eynyu1579qM",
+      "title": "Mecánica Cuántica 024 La ecuación de Schrödinger",
+      "duration": 1648
+    },
+    {
+      "id": "YlSm-EEQqss",
+      "title": "Mecánica Cuántica 025 Ortogonalidad de las eigenfunciones de la Ecuación de Schrödinger",
+      "duration": 692
+    },
+    {
+      "id": "IufPUdXFCRE",
+      "title": "Mecánica Cuántica 026 El operador de momento y el espacio de momentos",
+      "duration": 1038
+    },
+    {
+      "id": "vAfyakWYYTc",
+      "title": "Mecánica Cuántica 027 Paquetes de onda e incertidumbres",
+      "duration": 3287
+    },
+    {
+      "id": "0cF4TPb3Y0g",
+      "title": "Mecánica Cuántica 028 Los postulados de la Mecánica Cuántica",
+      "duration": 827
+    },
+    {
+      "id": "s7ySLX4EqX8",
+      "title": "Mecánica Cuántica 029 El experimento de Stern-Gerlach",
+      "duration": 1393
+    },
+    {
+      "id": "kzestVuTXb0",
+      "title": "Mecánica Cuántica 030 Formulación Matemática para el Espín 1/2",
+      "duration": 1427
+    },
+    {
+      "id": "goHhVQDnTjo",
+      "title": "Mecánica Cuántica 031 Partícula libre",
+      "duration": 3929
+    },
+    {
+      "id": "vL3L2UqJK48",
+      "title": "Mecánica Cuántica 032 Propagador de partícula libre",
+      "duration": 1778
+    },
+    {
+      "id": "M2S62REoArc",
+      "title": "Mecánica Cuántica 033 Estados ligados y estados dispersivos de la Ecuación de Schrödinger",
+      "duration": 2197
+    },
+    {
+      "id": "i_A4fUISmkU",
+      "title": "Mecánica Cuántica 034 El potencial delta de Dirac [Estados ligados]",
+      "duration": 1187
+    },
+    {
+      "id": "7QI4cQlqLNw",
+      "title": "Mecánica Cuántica 035 Dispersión del potencial delta de Dirac",
+      "duration": 1548
+    },
+    {
+      "id": "Of29WivKXCw",
+      "title": "Mecánica Cuántica 036 Dinámica Cuántica: Evolución temporal de los kets",
+      "duration": 1419
+    },
+    {
+      "id": "UmD7PQnwmaA",
+      "title": "Mecánica Cuántica 037 Dinámica Cuántica: Evolución de los operadores (Schrödinger y Heisenberg).",
+      "duration": 872
+    },
+    {
+      "id": "BvGzbsv5qTc",
+      "title": "Mecánica Cuántica 038 Ejemplo de Dinámica Cuántica: La precesión de Espín",
+      "duration": 1655
+    },
+    {
+      "id": "uk6mYZu_Ehw",
+      "title": "Mecánica Cuántica 039 Dinámica Cuántica: El Teorema de Ehrenfest",
+      "duration": 1007
+    },
+    {
+      "id": "XkXjMNcKxH8",
+      "title": "Mecánica Cuántica 040 El operador de evolución temporal",
+      "duration": 909
+    },
+    {
+      "id": "IAIiMhuUISk",
+      "title": "Mecánica Cuántica 041 Simetrías y conservación en Mecánica Cuántica",
+      "duration": 395
+    },
+    {
+      "id": "9GvqE8kXQJY",
+      "title": "Mecánica Cuántica 042 El oscilador armónico cuántico (Método de operadores)",
+      "duration": 1718
+    },
+    {
+      "id": "-X3IedjV3Sc",
+      "title": "Mecánica Cuántica 043 Valores esperados y dinámica cuántica del oscilador armónico",
+      "duration": 659
+    },
+    {
+      "id": "cRaXJ5eBII8",
+      "title": "Mecánica Cuántica 044 Operador de momento angular",
+      "duration": 564
+    },
+    {
+      "id": "swNa_1LVMRQ",
+      "title": "Mecánica Cuántica 045 Relaciones de conmutación del operador de Momento angular",
+      "duration": 403
+    },
+    {
+      "id": "K7x3QFslNww",
+      "title": "Mecánica Cuántica 046 Eigenfunciones y eigenvalores del Operador de momento angular",
+      "duration": 2266
+    },
+    {
+      "id": "Bdp8iqbrCwI",
+      "title": "Mecánica Cuantica 047 Los armónicos esféricos",
+      "duration": 425
+    },
+    {
+      "id": "BkT9PygspJQ",
+      "title": "Mecánica Cuantica 048 Reducción del Hamiltoniano para problemas con simertría esférica",
+      "duration": 362
+    },
+    {
+      "id": "xHJAcQY93NA",
+      "title": "Mecánica Cuántica 049 Método de Operadores para el operador de momento angular",
+      "duration": 952
+    },
+    {
+      "id": "NXJwlI61L_s",
+      "title": "Mecánica Cuántica 050 Elementos de matriz de los operadores de momento angular",
+      "duration": 579
+    },
+    {
+      "id": "fR4_p1dUJho",
+      "title": "Mecánica Cuántica 051 Adición de momento angular y los coeficientes de Clebsch-Gordon",
+      "duration": 876
+    },
+    {
+      "id": "iVrKN5XpURQ",
+      "title": "Mecánica Cuántica 052 Átomo de Hidrogeno 1: Reducción del problema de dos cuerpos",
+      "duration": 1607
+    },
+    {
+      "id": "KGPoDZ8gFwo",
+      "title": "Mecánica Cuántica 053 Átomo de Hidrógeno 2: Solución de la ecuación radial",
+      "duration": 2110
+    },
+    {
+      "id": "BsQzbihEoyo",
+      "title": "Mecánica Cuántica 054 Espectro de Radiación del átomo de Hidrógeno",
+      "duration": 1155
+    },
+    {
+      "id": "XxQseZYsrhw",
+      "title": "Mecánica Cuántica 055 El efecto Zeeman: Estados atómicos en presencia de un campo magnético",
+      "duration": 511
+    },
+    {
+      "id": "pJ6TE_BSQSs",
+      "title": "Mecánica Cuántica 056 El Método Variacional",
+      "duration": 1250
+    },
+    {
+      "id": "QiBXu4STR64",
+      "title": "Mecánica Cuántica 057 Teoría de Perturbaciones independientes del tiempo caso no degenerado",
+      "duration": 1233
+    },
+    {
+      "id": "h8HCo7ACrXc",
+      "title": "Mecánica Cuántica 058 Ejemplo de teoría de Perturbaciones caso no degenerado",
+      "duration": 625
+    },
+    {
+      "id": "J_U7qjUMfrQ",
+      "title": "Mecánica Cuántica 059 Caso degenerado de Teoría de Perturbaciones Independientes del Tiempo",
+      "duration": 790
+    }
+  ]
+}

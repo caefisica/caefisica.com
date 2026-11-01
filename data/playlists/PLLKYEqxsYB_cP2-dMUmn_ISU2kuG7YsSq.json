@@ -1,0 +1,214 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Curso de Mecánica Cuántica",
+  "channel": "Físico del Mal",
+  "description": "Este es un curso de introducción a la mecánica cuántica para principiantes. Basta con las matemáticas de secundaria para comenzar!. Cubre más o menos los contenidos que se pueden encontrar en la carrera de física. Con el tiempo tengo intención de ir ampliando contenido, así que puede que llegue a niveles más avanzados.",
+  "updated": "2022-11-14",
+  "lessons": [
+    {
+      "id": "5aJD3g8ZIRo",
+      "title": "Curso de Mecánica Cuántica 1- ¿Qué diferencia un sistema cuántico de uno clásico?",
+      "duration": 1847
+    },
+    {
+      "id": "6S-5HcrcEL0",
+      "title": "Curso de Mecánica Cuántica 2 - Lógica Cuántica y Clásica",
+      "duration": 1672
+    },
+    {
+      "id": "PPORqtfdY4I",
+      "title": "Curso de Mecánica Cuántica 3 - Ondas clásicas y ondas cuánticas",
+      "duration": 1243
+    },
+    {
+      "id": "8ootzvp5Fqw",
+      "title": "Curso de Mecánica Cuántica 4 - Estados cuánticos: Espacios de Hilbert reales",
+      "duration": 1771
+    },
+    {
+      "id": "LZNRYVpa7No",
+      "title": "Curso de Mecánica Cuántica 5 - Medida del spin",
+      "duration": 2642
+    },
+    {
+      "id": "iHn0-0u-JUI",
+      "title": "Curso de Mecánica Cuántica 5.1 - Experimento del vídeo 1",
+      "duration": 761
+    },
+    {
+      "id": "LGVpvkkeD9w",
+      "title": "Curso de Mecánica Cuántica 6 - Números complejos",
+      "duration": 2005
+    },
+    {
+      "id": "rOJBJZKKMJ8",
+      "title": "Curso de Mecánica Cuántica 6.1- La ecuación de Euler",
+      "duration": 179
+    },
+    {
+      "id": "TrokyMpzbs0",
+      "title": "Curso de Mecánica Cuántica 7 - Espacios de Hilbert complejos",
+      "duration": 1873
+    },
+    {
+      "id": "-GeDGbU-GTw",
+      "title": "Curso de Mecánica Cuántica 8 - Operadores en Espacios de Hilbert complejos",
+      "duration": 1657
+    },
+    {
+      "id": "XRELo8UaJOc",
+      "title": "Curso de Mecánica Cuántica 9 - Matrices de Pauli",
+      "duration": 2180
+    },
+    {
+      "id": "C9KnltVD4fU",
+      "title": "Curso de Mecánica Cuántica 10 - Notación de Dirac y Operadores de Spin",
+      "duration": 1718
+    },
+    {
+      "id": "TvomFNjiAeg",
+      "title": "Curso de Mecánica Cuántica 11 - Principio de incertidumbre (Indeterminación)",
+      "duration": 2795
+    },
+    {
+      "id": "OYz6T8Td8-Q",
+      "title": "Curso de Mecánica Cuántica 12 - ¡¡ENTRELAZAMIENTO CUANTICO!!",
+      "duration": 2718
+    },
+    {
+      "id": "D06AeROInvE",
+      "title": "Curso de Mecánica Cuántica 13 - Introducción a los estados mezcla",
+      "duration": 747
+    },
+    {
+      "id": "19B2PcyxcQc",
+      "title": "Curso de Mecánica Cuántica 14 - ¿Qué es una matriz densidad? (estados mezcla)",
+      "duration": 1432
+    },
+    {
+      "id": "uP7aoa9xe5U",
+      "title": "Curso de Mecánica Cuántica 15 - Propiedades de la matriz densidad (Estados mezcla)",
+      "duration": 1408
+    },
+    {
+      "id": "SvKFuPfHDFw",
+      "title": "Curso de Mecánica Cuántica 16 - Matrices densidad y entrelazamiento",
+      "duration": 2649
+    },
+    {
+      "id": "wftgehe-eGM",
+      "title": "Curso de Mecánica Cuántica 17 - Operador Evolución Temporal",
+      "duration": 2765
+    },
+    {
+      "id": "gcbKjgZs2wQ",
+      "title": "Curso de Mecánica Cuántica 17.1 - Ejemplo del cálculo de autovalores y autovectores",
+      "duration": 1338
+    },
+    {
+      "id": "JY3F_fnEFgA",
+      "title": "Curso de Mecánica Cuántica 17.2 - Ejemplo de estados dependientes del tiempo",
+      "duration": 1510
+    },
+    {
+      "id": "R1jySvGEk6I",
+      "title": "Curso de Mecánica Cuántica 18 - Operador momento y Alguna cosita más",
+      "duration": 1234
+    },
+    {
+      "id": "LuvhpkMXfiw",
+      "title": "Curso de Mecánica Cuántica 19 - Operador posición",
+      "duration": 1559
+    },
+    {
+      "id": "gbVVxUTN1tw",
+      "title": "Curso de Mecánica Cuántica 20 - Deducción del Hamiltoniano de una partícula libre",
+      "duration": 1044
+    },
+    {
+      "id": "rMJ2GX1RV2U",
+      "title": "Curso de Mecánica Cuántica 21 - Partícula en una caja (Potencial cuadrado infinito)",
+      "duration": 1799
+    },
+    {
+      "id": "i5IGyE6Zf_Q",
+      "title": "Curso de Mecánica Cuántica 22 - FORMALISMO: Espacio de funciones",
+      "duration": 1767
+    },
+    {
+      "id": "aAoRTxcm9pw",
+      "title": "Curso de Mecánica Cuántica 24 - FORMALISMO: Estados determinados y Degeneración",
+      "duration": 1278
+    },
+    {
+      "id": "rM1hYfncAdM",
+      "title": "Curso de Mecánica Cuántica 24.1 - FORMALISMO: Estados Degenerados (partícula en un anillo)",
+      "duration": 942
+    },
+    {
+      "id": "OrczTbxCOxw",
+      "title": "Curso de Mecánica Cuántica 25.1 Partícula libre (1/3)",
+      "duration": 719
+    },
+    {
+      "id": "xsOJZ_N6sT4",
+      "title": "Curso de Mecánica Cuántica 25.2 Partícula libre (2/3)",
+      "duration": 1174
+    },
+    {
+      "id": "DpACOalkoDg",
+      "title": "Curso de Mecánica Cuántica 25 Ejemplo: Partícula libre",
+      "duration": 871
+    },
+    {
+      "id": "zDMUMU9zI-o",
+      "title": "Curso de Mecánica Cuántica 25.3 Partícula libre (3/3)",
+      "duration": 1058
+    },
+    {
+      "id": "Qq6KrldMH_E",
+      "title": "Curso de Mecánica Cuántica 26.1-Oscilador Armónico (Introducción)",
+      "duration": 1122
+    },
+    {
+      "id": "Hfjh0LoWHqw",
+      "title": "Curso de Mecánica Cuántica 26.2-Oscilador Armónico (Operadores creación/destrucción - Escalera)",
+      "duration": 1018
+    },
+    {
+      "id": "LZ2p_W3bO0M",
+      "title": "Curso de Mecánica Cuántica 26-3 O.A.Estado de minima energía",
+      "duration": 584
+    },
+    {
+      "id": "CduOLMkoRhU",
+      "title": "Curso de Mecánica Cuántica 26.4-O.A. Energía del Estado minimo",
+      "duration": 546
+    },
+    {
+      "id": "b6kJkhBx6pA",
+      "title": "Curso de Mecánica Cuántica 26.5-O.A. Operador N y estados de ocupación",
+      "duration": 1469
+    },
+    {
+      "id": "lP8w-eQ0NVU",
+      "title": "Curso de Mecánica Cuántica 27-Momento Angular 1/4",
+      "duration": 1530
+    },
+    {
+      "id": "Oibokx9yeh0",
+      "title": "Curso de Mecánica Cuántica 27.1-Op de Casimir y Op Escalera (2/4)",
+      "duration": 881
+    },
+    {
+      "id": "pyFaaNqGHYw",
+      "title": "Curso de Mecánica Cuántica 27.2 Momento angular (3/4): Autovalores del M angular y el M magnético",
+      "duration": 1691
+    },
+    {
+      "id": "Z2G0rG-mBFU",
+      "title": "Curso de Mecánica Cuántica 27.3-Acción de los operadores escalera (4/4) ¿FINAL DEL CURSO?",
+      "duration": 715
+    }
+  ]
+}

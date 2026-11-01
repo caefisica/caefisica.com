@@ -24,6 +24,12 @@ parent = "academico"
 weight = 20
 
 [[main]]
+name = "Videos"
+pageRef = "/videos"
+parent = "academico"
+weight = 25
+
+[[main]]
 name = "Facultad"
 pageRef = "/unmsm/facultad"
 parent = "academico"
@@ -74,6 +80,12 @@ pageRef = "/apuntes"
 weight = 20
 
 [[search]]
+name = "Videos"
+title = "Cursos completos en YouTube, clase por clase"
+pageRef = "/videos"
+weight = 25
+
+[[search]]
 name = "Blog"
 title = "Noticias y artículos de la escuela"
 pageRef = "/blog"
@@ -102,6 +114,12 @@ name = "Apuntes"
 pageRef = "/apuntes"
 parent = "estudiar"
 weight = 20
+
+[[footer]]
+name = "Videos"
+pageRef = "/videos"
+parent = "estudiar"
+weight = 25
 
 [[footer]]
 name = "Facultad"

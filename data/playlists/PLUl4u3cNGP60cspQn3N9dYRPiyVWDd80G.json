@@ -1,0 +1,584 @@
+{
+  "fetched": "2026-11-01",
+  "title": "MIT 8.04 Quantum Physics I, Spring 2016",
+  "channel": "MIT OpenCourseWare",
+  "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+  "updated": "2026-01-21",
+  "lessons": [
+    {
+      "id": "jANZxzetPaQ",
+      "title": "Quantum mechanics as a framework. Defining linearity",
+      "duration": 1069
+    },
+    {
+      "id": "kiuwtaprFjk",
+      "title": "Linearity and nonlinear theories. Schrödinger's equation",
+      "duration": 603
+    },
+    {
+      "id": "f079K1f2WQk",
+      "title": "Necessity of complex numbers",
+      "duration": 459
+    },
+    {
+      "id": "8OsUQ1yXCcI",
+      "title": "Photons and the loss of determinism",
+      "duration": 1041
+    },
+    {
+      "id": "CR-eOhdxbes",
+      "title": "The nature of superposition. Mach-Zehnder interferometer",
+      "duration": 871
+    },
+    {
+      "id": "0xNmc2tJ-YM",
+      "title": "More on superposition. General state of a photon and spin states",
+      "duration": 1031
+    },
+    {
+      "id": "G3HSP3qMgKI",
+      "title": "Entanglement",
+      "duration": 788
+    },
+    {
+      "id": "0USje5vTIKs",
+      "title": "Mach-Zehnder interferometers and beam splitters",
+      "duration": 932
+    },
+    {
+      "id": "37-GdFJGSXs",
+      "title": "Interferometer and interference",
+      "duration": 745
+    },
+    {
+      "id": "vFZeh8bMx58",
+      "title": "Elitzur-Vaidman bombs",
+      "duration": 630
+    },
+    {
+      "id": "byEaU9ILHmw",
+      "title": "The photoelectric effect",
+      "duration": 1375
+    },
+    {
+      "id": "S9RjSQro2e0",
+      "title": "Units of h and Compton wavelength of particles",
+      "duration": 761
+    },
+    {
+      "id": "WR88_Vzfcx4",
+      "title": "Compton Scattering",
+      "duration": 1357
+    },
+    {
+      "id": "dnuZx9fZHsU",
+      "title": "de Broglie’s proposal",
+      "duration": 637
+    },
+    {
+      "id": "8x94EgM2Mpg",
+      "title": "de Broglie wavelength in different frames",
+      "duration": 893
+    },
+    {
+      "id": "YdtHAIh-kas",
+      "title": "Galilean transformation of ordinary waves",
+      "duration": 736
+    },
+    {
+      "id": "3_qvO8bKGus",
+      "title": "The frequency of a matter wave",
+      "duration": 623
+    },
+    {
+      "id": "-UgQEHHXTRM",
+      "title": "Group velocity and stationary phase approximation",
+      "duration": 632
+    },
+    {
+      "id": "i81OpQJIH8U",
+      "title": "Motion of a wave-packet",
+      "duration": 539
+    },
+    {
+      "id": "T6TQHNXy5Wg",
+      "title": "The wave for a free particle",
+      "duration": 873
+    },
+    {
+      "id": "ELBh60GU5yE",
+      "title": "Momentum operator, energy operator, and a differential equation",
+      "duration": 1232
+    },
+    {
+      "id": "7euh_iwzSGo",
+      "title": "Free Schrödinger equation",
+      "duration": 596
+    },
+    {
+      "id": "rwzg8iEOc8s",
+      "title": "The general Schrödinger equation. x, p commutator",
+      "duration": 1078
+    },
+    {
+      "id": "m7UT2Hr465o",
+      "title": "Commutators, matrices, and 3-dimensional Schrödinger equation",
+      "duration": 973
+    },
+    {
+      "id": "R-5hjmV-bdY",
+      "title": "Interpretation of the wavefunction",
+      "duration": 477
+    },
+    {
+      "id": "d4skxu7MpFI",
+      "title": "Normalizable wavefunctions and the question of time evolution",
+      "duration": 1009
+    },
+    {
+      "id": "5L4QfjbK87M",
+      "title": "Is probability conserved? Hermiticity of the Hamiltonian",
+      "duration": 1240
+    },
+    {
+      "id": "J2ltXyByPJA",
+      "title": "Probability current and current conservation",
+      "duration": 920
+    },
+    {
+      "id": "Ex_fFlwZoM0",
+      "title": "Three dimensional current and conservation",
+      "duration": 1091
+    },
+    {
+      "id": "dzI5PddY6eE",
+      "title": "Wavepackets and Fourier representation",
+      "duration": 674
+    },
+    {
+      "id": "DvFb-D1zJTA",
+      "title": "Reality condition in Fourier transforms",
+      "duration": 549
+    },
+    {
+      "id": "vWGP5dogNm8",
+      "title": "Widths and uncertainties",
+      "duration": 1152
+    },
+    {
+      "id": "50Tla309i7o",
+      "title": "Shape changes in a wave",
+      "duration": 1016
+    },
+    {
+      "id": "ipXNYnO7yRk",
+      "title": "Time evolution of a free particle wavepacket",
+      "duration": 584
+    },
+    {
+      "id": "8abBLKEZLaI",
+      "title": "Fourier transforms and delta functions",
+      "duration": 837
+    },
+    {
+      "id": "i-bP2OkQxUI",
+      "title": "Parseval identity",
+      "duration": 949
+    },
+    {
+      "id": "MJM1AzpB6Y4",
+      "title": "Three-dimensional Fourier transforms",
+      "duration": 364
+    },
+    {
+      "id": "XQKV-hpsurs",
+      "title": "Expectation values of operators",
+      "duration": 1695
+    },
+    {
+      "id": "AnzhigYawy8",
+      "title": "Time dependence of expectation values",
+      "duration": 458
+    },
+    {
+      "id": "qP6y2edM6Ms",
+      "title": "Expectation value of Hermitian operators",
+      "duration": 1000
+    },
+    {
+      "id": "K3WI62VJqVo",
+      "title": "Eigenfunctions of a Hermitian operator",
+      "duration": 786
+    },
+    {
+      "id": "XF6FAEi_54I",
+      "title": "Completeness of eigenvectors and measurement postulate",
+      "duration": 1016
+    },
+    {
+      "id": "_jPVD45YYlk",
+      "title": "Consistency condition. Particle on a circle",
+      "duration": 1065
+    },
+    {
+      "id": "rCRH9CTThlo",
+      "title": "Defining uncertainty",
+      "duration": 631
+    },
+    {
+      "id": "1D4VPbhDy_A",
+      "title": "Uncertainty and eigenstates",
+      "duration": 952
+    },
+    {
+      "id": "8KQ-yK2xm60",
+      "title": "Stationary states: key equations",
+      "duration": 1122
+    },
+    {
+      "id": "M2i8R6kMXKA",
+      "title": "Expectation values on stationary states",
+      "duration": 540
+    },
+    {
+      "id": "gMnQ21-pjOA",
+      "title": "Comments on the spectrum and continuity conditions",
+      "duration": 790
+    },
+    {
+      "id": "2EV1vJAAo8M",
+      "title": "Solving particle on a circle",
+      "duration": 665
+    },
+    {
+      "id": "e0C1Bkcjrdc",
+      "title": "Energy eigenstates for particle on a circle",
+      "duration": 972
+    },
+    {
+      "id": "gMHkf-107Sw",
+      "title": "Infinite square well energy eigenstates",
+      "duration": 793
+    },
+    {
+      "id": "x_ngaeI00qU",
+      "title": "Nodes and symmetries of the infinite square well eigenstates",
+      "duration": 583
+    },
+    {
+      "id": "CdAKFagtXpQ",
+      "title": "Finite square well. Setting up the problem",
+      "duration": 1350
+    },
+    {
+      "id": "jd4es6Bo600",
+      "title": "Finite square well energy eigenstates",
+      "duration": 639
+    },
+    {
+      "id": "EdXaUfRynx8",
+      "title": "Nondegeneracy of bound states in 1D. Real solutions",
+      "duration": 755
+    },
+    {
+      "id": "AtjMKPzNIXQ",
+      "title": "Potentials that satisfy V(-x) = V(x)",
+      "duration": 858
+    },
+    {
+      "id": "QMeKIiufg5s",
+      "title": "Qualitative insights: Local de Broglie wavelength",
+      "duration": 951
+    },
+    {
+      "id": "79GY-hI_emE",
+      "title": "Correspondence principle: amplitude as a function of position",
+      "duration": 354
+    },
+    {
+      "id": "fWCGM2auQPs",
+      "title": "Local picture of the wavefunction",
+      "duration": 772
+    },
+    {
+      "id": "45M-BtYAcwg",
+      "title": "Energy eigenstates on a generic symmetric potential. Shooting method",
+      "duration": 926
+    },
+    {
+      "id": "vcuY46RwoV0",
+      "title": "Delta function potential I: Preliminaries",
+      "duration": 964
+    },
+    {
+      "id": "1dW_izzvfOk",
+      "title": "Delta function potential I: Solving for the bound state",
+      "duration": 921
+    },
+    {
+      "id": "NwPOhzDPHKc",
+      "title": "Node Theorem",
+      "duration": 781
+    },
+    {
+      "id": "sxzFpOsvfgU",
+      "title": "Harmonic oscillator: Differential equation",
+      "duration": 1002
+    },
+    {
+      "id": "eNf8nH1yEYc",
+      "title": "Behavior of the differential equation",
+      "duration": 631
+    },
+    {
+      "id": "RxWfrE3o-9k",
+      "title": "Recursion relation for the solution",
+      "duration": 746
+    },
+    {
+      "id": "Y6Ma-zn4Olk",
+      "title": "Quantization of the energy",
+      "duration": 1399
+    },
+    {
+      "id": "8CCFPgd_P1w",
+      "title": "Algebraic solution of the harmonic oscillator",
+      "duration": 1010
+    },
+    {
+      "id": "vnyxYtj0mfE",
+      "title": "Ground state wavefunction",
+      "duration": 957
+    },
+    {
+      "id": "kefsxztSX74",
+      "title": "Number operator and commutators",
+      "duration": 949
+    },
+    {
+      "id": "xmjvqbYvY9o",
+      "title": "Excited states of the harmonic oscillator",
+      "duration": 1099
+    },
+    {
+      "id": "BRFekCz4XQY",
+      "title": "Creation and annihilation operators acting on energy eigenstates",
+      "duration": 1264
+    },
+    {
+      "id": "0ABYYJSvkVk",
+      "title": "Scattering states and the step potential",
+      "duration": 635
+    },
+    {
+      "id": "z79v39lMR3k",
+      "title": "Step potential probability current",
+      "duration": 900
+    },
+    {
+      "id": "bX-k26w-tsU",
+      "title": "Reflection and transmission coefficients",
+      "duration": 492
+    },
+    {
+      "id": "EkpbxgEslE4",
+      "title": "Energy below the barrier and phase shift",
+      "duration": 1121
+    },
+    {
+      "id": "NXPvXI603RA",
+      "title": "Wavepackets",
+      "duration": 1252
+    },
+    {
+      "id": "yqrMAZkQOwI",
+      "title": "Wavepackets with energy below the barrier",
+      "duration": 355
+    },
+    {
+      "id": "lA8-N_ARHTw",
+      "title": "Particle on the forbidden region",
+      "duration": 410
+    },
+    {
+      "id": "EdRkQmmq7vk",
+      "title": "Waves on the finite square well",
+      "duration": 945
+    },
+    {
+      "id": "KkSr0SvXfNY",
+      "title": "Resonant transmission",
+      "duration": 1070
+    },
+    {
+      "id": "5u-9lFhCl5w",
+      "title": "Ramsauer-Townsend phenomenology",
+      "duration": 616
+    },
+    {
+      "id": "twdF0EIbFds",
+      "title": "Scattering in 1D. Incoming and outgoing waves",
+      "duration": 1086
+    },
+    {
+      "id": "w49WAat6ymk",
+      "title": "Scattered wave and phase shift",
+      "duration": 521
+    },
+    {
+      "id": "EJWG9-etPFw",
+      "title": "Incident packet and delay for reflection",
+      "duration": 1132
+    },
+    {
+      "id": "sWmY5KME7oo",
+      "title": "Phase shift for a potential well",
+      "duration": 553
+    },
+    {
+      "id": "Cb_3sOYLjUI",
+      "title": "Excursion of the phase shift",
+      "duration": 917
+    },
+    {
+      "id": "GyukKStk6Ls",
+      "title": "Levinson's theorem, part 1",
+      "duration": 886
+    },
+    {
+      "id": "yhI3jTX4dY4",
+      "title": "Levinson's theorem, part 2",
+      "duration": 570
+    },
+    {
+      "id": "mnvYIEbJXlM",
+      "title": "Time delay and resonances",
+      "duration": 1099
+    },
+    {
+      "id": "VY-_xLxHQbA",
+      "title": "Effects of resonance on phase shifts, wave amplitude and time delay",
+      "duration": 894
+    },
+    {
+      "id": "8Dxo4LPK_9w",
+      "title": "Modelling a resonance",
+      "duration": 938
+    },
+    {
+      "id": "OQMczXtDnpU",
+      "title": "Half-width and time delay",
+      "duration": 498
+    },
+    {
+      "id": "0T83-47Vi-M",
+      "title": "Resonances in the complex k plane",
+      "duration": 915
+    },
+    {
+      "id": "sPsDI0dICtc",
+      "title": "Translation operator. Central potentials",
+      "duration": 1154
+    },
+    {
+      "id": "xoCHe0mtxu0",
+      "title": "Angular momentum operators and their algebra",
+      "duration": 868
+    },
+    {
+      "id": "Mh8vUEStCQ8",
+      "title": "Commuting observables for angular momentum",
+      "duration": 1037
+    },
+    {
+      "id": "lWTUcojZ_gQ",
+      "title": "Simultaneous eigenstates and quantization of angular momentum",
+      "duration": 1476
+    },
+    {
+      "id": "Lt2Y6fLJ09Q",
+      "title": "Associated Legendre functions and spherical harmonics",
+      "duration": 1132
+    },
+    {
+      "id": "gKSRrTik1SA",
+      "title": "Orthonormality of spherical harmonics",
+      "duration": 1077
+    },
+    {
+      "id": "_XDm2cxC-UU",
+      "title": "Effective potential and boundary conditions at r=0",
+      "duration": 869
+    },
+    {
+      "id": "7q32Wnm4dEw",
+      "title": "Hydrogen atom two-body problem",
+      "duration": 1505
+    },
+    {
+      "id": "dVWKsiaAZ14",
+      "title": "Center of mass and relative motion wavefunctions",
+      "duration": 863
+    },
+    {
+      "id": "GWMeYKUvj7Y",
+      "title": "Scales of the hydrogen atom",
+      "duration": 597
+    },
+    {
+      "id": "KfbvrGt3MlI",
+      "title": "Schrödinger equation for hydrogen",
+      "duration": 1259
+    },
+    {
+      "id": "3VXLIF2DpHI",
+      "title": "Series solution and quantization of the energy",
+      "duration": 862
+    },
+    {
+      "id": "Z4CSAWrzguY",
+      "title": "Energy eigenstates of hydrogen",
+      "duration": 745
+    },
+    {
+      "id": "8cRnBhBaSOo",
+      "title": "Energy levels and diagram for hydrogen",
+      "duration": 822
+    },
+    {
+      "id": "Ot9OjT34gkA",
+      "title": "Degeneracy in the spectrum and features of the solution",
+      "duration": 861
+    },
+    {
+      "id": "avQ2XUzbsgk",
+      "title": "Rydberg atoms",
+      "duration": 1583
+    },
+    {
+      "id": "c5yzy1S3gPg",
+      "title": "Orbits in the hydrogen atom",
+      "duration": 645
+    },
+    {
+      "id": "fXlzY2l1-4w",
+      "title": "More on the hydrogen atom degeneracies and orbits",
+      "duration": 1402
+    },
+    {
+      "id": "-8mPXAsX3DY",
+      "title": "The simplest quantum system",
+      "duration": 835
+    },
+    {
+      "id": "8NKsBpjXRt0",
+      "title": "Hamiltonian and emerging spin angular momentum",
+      "duration": 943
+    },
+    {
+      "id": "3Cij8HYKXOk",
+      "title": "Eigenstates of the Hamiltonian",
+      "duration": 844
+    }
+  ]
+}

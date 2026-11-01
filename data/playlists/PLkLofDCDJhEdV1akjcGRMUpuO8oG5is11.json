@@ -1,0 +1,204 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Cálculo I",
+  "channel": "Policrom",
+  "description": "Serie de videos sobre cálculo I. Orientada tanto para estudiantes universitarios como para quienes quieran explorar cómo es este área de la matemática.",
+  "updated": "2022-09-11",
+  "lessons": [
+    {
+      "id": "T6vIpYJg0Wk",
+      "title": "Cálculo I - Ep1 - Introducción y Visión General",
+      "duration": 146
+    },
+    {
+      "id": "gAAUMWL5CpA",
+      "title": "Cálculo I - Ep2 - Axiomas de Cuerpo 1",
+      "duration": 385
+    },
+    {
+      "id": "zAb_qpbpca8",
+      "title": "Cálculo I - Ep3 - Axiomas de Cuerpo 2",
+      "duration": 409
+    },
+    {
+      "id": "ynCNaW07cwE",
+      "title": "Cálculo I - Ep4 - Resolución de Problemas",
+      "duration": 733
+    },
+    {
+      "id": "ibebRFe6eHY",
+      "title": "Cálculo I - Ep5 - Axiomas de Orden",
+      "duration": 558
+    },
+    {
+      "id": "TTC5N4MXT0Q",
+      "title": "Cálculo I - Ep6 - Exponentes y Raíces",
+      "duration": 358
+    },
+    {
+      "id": "06-dRDHh0jc",
+      "title": "Cálculo I - Ep7 - Ecuaciones Cuadráticas",
+      "duration": 494
+    },
+    {
+      "id": "QgMHE4i_2Yg",
+      "title": "Cálculo I - Ep8 - Valor Absoluto",
+      "duration": 296
+    },
+    {
+      "id": "Q5iMh4zx1iA",
+      "title": "Cálculo I - Ep9 - Inecuaciones Cuadráticas y Radicales",
+      "duration": 734
+    },
+    {
+      "id": "axc3Vp-tSS8",
+      "title": "Cálculo I - Ep10 - Inecuaciones Fraccionarias",
+      "duration": 376
+    },
+    {
+      "id": "V9htNO8dqjk",
+      "title": "Cálculo I - Ep11 - Inecuaciones con Valor Absoluto",
+      "duration": 535
+    },
+    {
+      "id": "W5iIU-Ui0RE",
+      "title": "Cálculo I - Ep12 - Introducción al Axioma del Supremo",
+      "duration": 390
+    },
+    {
+      "id": "W6TzJPo25X0",
+      "title": "Cálculo I - Ep13 - Axioma del Supremo",
+      "duration": 627
+    },
+    {
+      "id": "pyAIT1eZBas",
+      "title": "Cálculo I - Ep14 - Anexo: Propiedad Arquimediana y Sucesiones",
+      "duration": 652
+    },
+    {
+      "id": "qRU1P018UxM",
+      "title": "Cálculo I - Ep15 - Anexo: TICE y Sucesiones de Cauchy",
+      "duration": 544
+    },
+    {
+      "id": "486YqsvEkTo",
+      "title": "Cálculo I - Ep16 - Introducción a Funciones",
+      "duration": 235
+    },
+    {
+      "id": "oSavqYQlQgk",
+      "title": "Cálculo I - Ep17 - Gráficos y Traslaciones",
+      "duration": 371
+    },
+    {
+      "id": "be1emBWoEzg",
+      "title": "Cálculo I - Ep18 - Propiedades y Operaciones de Funciones",
+      "duration": 628
+    },
+    {
+      "id": "-hqit3l-ZbY",
+      "title": "Cálculo I - Ep19 - Funciones Afines",
+      "duration": 457
+    },
+    {
+      "id": "x1VwF4-_6PQ",
+      "title": "Cálculo I - Ep20 - Funciones Cuadráticas",
+      "duration": 891
+    },
+    {
+      "id": "57TyTODMc1c",
+      "title": "Cálculo I - Ep21 - Funciones Racionales",
+      "duration": 803
+    },
+    {
+      "id": "_VHFpqvFiII",
+      "title": "Cálculo I - Ep22 - Composición de Funciones",
+      "duration": 592
+    },
+    {
+      "id": "PYkwlYtcqGs",
+      "title": "Cálculo I - Ep23 - Funciones Inversas + Inyectividad, Sobreyectividad y Biyectividad",
+      "duration": 603
+    },
+    {
+      "id": "jqmovV-ur6w",
+      "title": "Trigonometría - Capítulo 1 - Razones Trigonométricas y Ángulos Notables",
+      "duration": 457
+    },
+    {
+      "id": "Fn-7BYhz460",
+      "title": "Trigonometría - Capítulo 2 - Radianes y Círculo Unitario",
+      "duration": 302
+    },
+    {
+      "id": "s6zpV_aGUzQ",
+      "title": "Trigonometría - Capítulo 3 - Identidades Trigonométricas 1",
+      "duration": 684
+    },
+    {
+      "id": "a6mlTV51g94",
+      "title": "Trigonometría - Capítulo 4 - Identidades Trigonométricas 2",
+      "duration": 506
+    },
+    {
+      "id": "mVqxLgz7X_A",
+      "title": "Trigonometría - Capítulo 5 - Funciones Trigonométricas 1",
+      "duration": 493
+    },
+    {
+      "id": "fu03ekT_D4g",
+      "title": "Límites y Continuidad - Capítulo 1 - Introducción a Límites",
+      "duration": 459
+    },
+    {
+      "id": "S5Wpc-Tyhhw",
+      "title": "Límites y Continuidad - Capítulo 2 - Definición Formal de Límites",
+      "duration": 744
+    },
+    {
+      "id": "MfKSg165GyU",
+      "title": "Límites y Continuidad - Capítulo 3 - Propiedades y Teorema del Sandwich",
+      "duration": 809
+    },
+    {
+      "id": "4JgFUgOVVcw",
+      "title": "Límites y Continuidad - Capítulo 4 - Aclaraciones Sobre el Álgebra de Límites",
+      "duration": 342
+    },
+    {
+      "id": "ntnnvGzc1OE",
+      "title": "Límites y Continuidad - Capítulo 5 - Cambios de Variable",
+      "duration": 339
+    },
+    {
+      "id": "l4pF_Vn2rIk",
+      "title": "Límites y Continuidad - Ejercicios - Límite notable sen(x)/x",
+      "duration": 426
+    },
+    {
+      "id": "Vqp4DQVe7FQ",
+      "title": "Límites y Continuidad - Capítulo 6 - Límites Laterales",
+      "duration": 395
+    },
+    {
+      "id": "2I7NjZRZQHY",
+      "title": "Límites y Continuidad - Capítulo 7 - Limites al Infinito",
+      "duration": 410
+    },
+    {
+      "id": "TJWsyX2d8Og",
+      "title": "Límites y Continuidad - Capítulo 8 - Limites Infinitos",
+      "duration": 587
+    },
+    {
+      "id": "ZMGV4jRHGCc",
+      "title": "Límites y Continuidad - Capítulo 9 - Continuidad",
+      "duration": 629
+    },
+    {
+      "id": "tZXBpenx2Rg",
+      "title": "Límites y Continuidad - Capítulo 10 - Propiedades de Continuidad",
+      "duration": 511
+    }
+  ]
+}

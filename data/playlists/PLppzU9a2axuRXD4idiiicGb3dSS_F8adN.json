@@ -1,0 +1,39 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Física Computaional / Fortran (Claudio Canales D.)",
+  "channel": "@caefisica",
+  "description": "",
+  "updated": "2023-05-08",
+  "lessons": [
+    {
+      "id": "TJatDk7d8oY",
+      "title": "Fortran en Windows - 2 Opciones 2021",
+      "duration": 476
+    },
+    {
+      "id": "CLAdCejEmnE",
+      "title": "Tutorial Terminal Ubuntu - Linux y Fortran para Principiantes.",
+      "duration": 1105
+    },
+    {
+      "id": "TzKw7hV74O4",
+      "title": "Programación Fortran 1 Tutorial",
+      "duration": 2642
+    },
+    {
+      "id": "9cY-RWwqtOA",
+      "title": "Fortran 2/3 Español (Tutorial)",
+      "duration": 2460
+    },
+    {
+      "id": "-m3adePHvY0",
+      "title": "Fortran 3/3 Español (Tutorial)",
+      "duration": 2905
+    },
+    {
+      "id": "Tp-Hp-cBuUk",
+      "title": "Fractal de Mandelbrot en Fortran (Tutorial).",
+      "duration": 1395
+    }
+  ]
+}

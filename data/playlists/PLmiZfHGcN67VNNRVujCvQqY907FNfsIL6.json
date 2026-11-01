@@ -1,0 +1,134 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Álgebra Superior I",
+  "channel": "Cal Math",
+  "description": "",
+  "updated": "2021-03-10",
+  "lessons": [
+    {
+      "id": "ItHwlDFAKFI",
+      "title": "Algo de Lógica - Álgebra Superior 1 (Parte 1)",
+      "duration": 1337
+    },
+    {
+      "id": "M71It1UhS94",
+      "title": "Algo de Conjuntos - Álgebra Superior I (Parte 2)",
+      "duration": 1271
+    },
+    {
+      "id": "LvVHW7_tbsA",
+      "title": "Fórmulas Conjuntistas - Álgebra Superior I (Parte 3)",
+      "duration": 1228
+    },
+    {
+      "id": "VD1ys0DVFj0",
+      "title": "Producto Cartesiano y Conjuntos Ordenados - Álgebra Superior I (Parte 4)",
+      "duration": 1241
+    },
+    {
+      "id": "h4fte61_EmU",
+      "title": "Propiedades Del Producto Cartesiano - Álgebra Superior I (Parte 5)",
+      "duration": 1162
+    },
+    {
+      "id": "wH-M5AHFlAo",
+      "title": "Relación Inversa, Imagen Directa y Preimagen - Álgebra Superior 1 (Parte 6)",
+      "duration": 1213
+    },
+    {
+      "id": "DmgLAjc9qNo",
+      "title": "Funciones: Definiciones y Ejemplos - Álgebra Superior I (Parte 7)",
+      "duration": 1021
+    },
+    {
+      "id": "spKrB7uRGB8",
+      "title": "La Composición De Funciones Es Función - Álgebra Superior I (Parte 8)",
+      "duration": 1072
+    },
+    {
+      "id": "Dd26OU-8aks",
+      "title": "Propiedades de la Composición, Imagen y Preimagen - Álgebra Superior 1 (Parte 9)",
+      "duration": 1285
+    },
+    {
+      "id": "Sgn3yPUWJmo",
+      "title": "Funciones Inyectivas, Suprayectivas y Biyectivas- Álgebra Superior I (Parte 10)",
+      "duration": 1056
+    },
+    {
+      "id": "aVjuCGxs5pk",
+      "title": "Inversas de Funciones y Equivalencias - Álgebra Superior I (Parte 11)",
+      "duration": 1210
+    },
+    {
+      "id": "tkqAEXPQZBI",
+      "title": "Funciones Cancelables, Mono, Epi y Equivalencias - Álgebra Superior I (Parte 12)",
+      "duration": 1129
+    },
+    {
+      "id": "RUOMr_XfY6o",
+      "title": "Relaciones de Equivalencia, Clases y Propiedades - Álgebra Superior I (Parte 13)",
+      "duration": 1150
+    },
+    {
+      "id": "D01BWEHGFi4",
+      "title": "Particiones Y Su Equivalencia Con Relaciones De Equivalencia - Álgebra Superior I (Parte 14)",
+      "duration": 1579
+    },
+    {
+      "id": "lAxZTwdDNYA",
+      "title": "Relaciones de Orden - Álgebra Superior I (Parte 15)",
+      "duration": 1770
+    },
+    {
+      "id": "iobDHAlhDUU",
+      "title": "Números Naturales y Principio de Inducción - Álgebra Superior 16",
+      "duration": 1699
+    },
+    {
+      "id": "HHuClRBeIAg",
+      "title": "Teorema de Recursión - Definición y Ejemplos - Álgebra Superior 17",
+      "duration": 1891
+    },
+    {
+      "id": "bQMt3QX_Xng",
+      "title": "Suma de Naturales y Pruebas por Inducción - Álgebra Superior 18",
+      "duration": 1970
+    },
+    {
+      "id": "VDDbG2qlnbs",
+      "title": "Multiplicación de los Naturales - Álgebra Superior 19",
+      "duration": 2333
+    },
+    {
+      "id": "M4p1q7-lACg",
+      "title": "Exponenciación de los Naturales - Álgebra Superior 20",
+      "duration": 1653
+    },
+    {
+      "id": "7_zLmrFPayE",
+      "title": "Buen Orden de los Números Naturales - Álgebra Superior 21",
+      "duration": 2225
+    },
+    {
+      "id": "A0NPc9X1UUk",
+      "title": "Inducción Fuerte - Definición, Ejemplos y Ejercicios - Álgebra Superior 22",
+      "duration": 1973
+    },
+    {
+      "id": "_zK9G75T8-o",
+      "title": "Teoría de La Comparación Básica 1 - Teorema de Cantor Schröder Bernstein - Álgebra Superior #23",
+      "duration": 2283
+    },
+    {
+      "id": "-vjH4V8e76k",
+      "title": "Teoría de La Comparación Básica 2 - Dominancia Estricta - Álgebra Superior #24",
+      "duration": 1133
+    },
+    {
+      "id": "XSGlwbg_0UA",
+      "title": "El Teorema de Cantor y Conjuntos Infinitos - Álgebra Superior #25",
+      "duration": 2259
+    }
+  ]
+}
