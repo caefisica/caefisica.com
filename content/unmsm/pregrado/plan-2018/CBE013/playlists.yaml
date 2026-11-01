@@ -1,8 +1,13 @@
-- title: "Physics I: Classical Mechanics"
-  channel: MIT OpenCourseWare
+- title: "Physics I: Classical Mechanics (1999)"
+  channel: CosmoLearning
   lecturer: Walter Lewin
   videos: "35"
   url: https://www.youtube.com/playlist?list=PLaLOVNqqD-2HUv0qoYzSj0SBOIO_pLtW4
+  description: >-
+    Las clases de 8.01 que Walter Lewin dictó en el MIT en 1999, grabadas en el
+    aula y famosas por sus demostraciones: vectores, movimiento circular,
+    trabajo y energía, gravitación, momento lineal, rotación de cuerpos rígidos,
+    oscilaciones y gases. En inglés.
 - title: Mecánica
   channel: ""
   lecturer: Cesar Antonio Izquierdo
@@ -13,18 +18,38 @@
   lecturer: Gloria Buendia
   videos: "117"
   url: https://www.youtube.com/playlist?list=PLCA5AED3D38F393C5
+  description: >-
+    El curso de Física I de la Universidad Simón Bolívar (Caracas), en clases de
+    pizarra partidas en tramos de veinte minutos: análisis dimensional,
+    cinemática, movimiento parabólico y circular, leyes de Newton, fricción,
+    trabajo, energía y colisiones, con muchos ejercicios resueltos. En español.
 - title: Clases de Física II
   channel: Canal USB
   lecturer: "Prof. José Calatroni"
   videos: "120"
   url: https://www.youtube.com/playlist?list=PLC11B12C9A476DA41
+  description: >-
+    El curso FS1112 de la Universidad Simón Bolívar (Caracas), en clases de
+    pizarra partidas en tramos de veinte minutos: rotación y cuerpo rígido,
+    rodadura, momento angular, equilibrio, gravitación, fluidos y termodinámica
+    hasta el ciclo de Carnot. En español.
 - title: Curso de Física Elemental o Preuniversitaria
   channel: Física sin trucos
   lecturer: Dr. Jhosep Beltrán
   videos: "37"
   url: https://www.youtube.com/playlist?list=PLpuCD1rv2i4oWFYKXsyn8WGpzsxGUqvFq
+  description: >-
+    Física de nivel preuniversitario explicada desde cero, con teoría y
+    ejercicios: análisis dimensional, vectores, cinemática, leyes de Newton,
+    movimiento circular, estática, trabajo y energía e impulso. Sirve para
+    llegar preparado a Física I. En español.
 - title: Physics Review
   channel: Crash Course
   lecturer: Shini Somara
   videos: "47"
   url: https://youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV
+  description: >-
+    Episodios de unos nueve minutos que recorren toda la física introductoria:
+    mecánica, fluidos, ondas y sonido, termodinámica, circuitos, magnetismo,
+    luz, relatividad especial y física nuclear. Sirve para repasar un tema o
+    verlo por primera vez antes de la clase. En inglés.

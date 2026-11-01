@@ -1,0 +1,334 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Curso \"Mecánica cuántica I\"",
+  "channel": "Diego Gallego Mahecha (Cursos Física)",
+  "description": "Curso introductorio al formalismo contemporáneo de la mecánica cuántica. Está basado en gran medida en el texto de la Profesora Maria Carolina Spinel, el cual pueden adquirir en este enlace https://www.uneditorial.com/bw-introduccion-al-formalismo-de-la-mecanica-cuantica-no-relativista-fisica.html, que sigue y amplia la filosofía de Modern Quantum Mechanics de Sakurai.\nUna primera parte sienta el formalismo matemático de los espacio vectoriales que representan los estados. Esto se hace utilizando la notación general de Dirac de kets. Esto con el objetivo de mostras que la mecánica matricial de Heisemberg y la ondulatoria de Schrödinger no corresponden a distintas interpretaciones sino a distintas representaciones. Paralelamente establecemos los tres postulados de la cuántica, sentando las bases que nos permitirán hacer predicciones ´más adelante.\nPosteriormente sí nos adentramos en la dinámica por medio de ejemplos básicos y comunes de fácil solución analítica. \nCerramos con una mirada somera a la teoría del momento angula y aplicando todo lo descubierto para solucionar los átomos hidrogeniodes.",
+  "updated": "2023-07-20",
+  "lessons": [
+    {
+      "id": "09wbYfDvZg0",
+      "title": "001 Introducción parte I: la vieja mecánica cuántica",
+      "duration": 3191
+    },
+    {
+      "id": "yh0uvdUT1O0",
+      "title": "002 Introducción parte II: la mecánica cuántica moderna",
+      "duration": 2996
+    },
+    {
+      "id": "1GOq6fcGTH4",
+      "title": "003 Experimento de Stern-Gerlach",
+      "duration": 990
+    },
+    {
+      "id": "NACTW6SORYc",
+      "title": "004 Superposición lineal de estados cuánticos",
+      "duration": 1819
+    },
+    {
+      "id": "_1aNo6jvzY0",
+      "title": "005 Espacio de Kets",
+      "duration": 2288
+    },
+    {
+      "id": "6F1jm_D1ea4",
+      "title": "006 Operadores y observables",
+      "duration": 1642
+    },
+    {
+      "id": "Jn-g3IPltuY",
+      "title": "007 Operadores hermíticos y observables físicos",
+      "duration": 1013
+    },
+    {
+      "id": "NjhQC4VdhJc",
+      "title": "008 Espectro discreto y el postulado de la medición",
+      "duration": 1312
+    },
+    {
+      "id": "nGwjpBFsW0Q",
+      "title": "009 Representación matricial: un primer acercamiento a la mecánica de Heisenberg",
+      "duration": 1454
+    },
+    {
+      "id": "NOECUGExqVU",
+      "title": "010 Acotaciones alrededor del 3er postulado y los ensambles físicos",
+      "duration": 1324
+    },
+    {
+      "id": "Ek-9BNwQDuI",
+      "title": "011 El valor esperado de un observable",
+      "duration": 648
+    },
+    {
+      "id": "ND9QC9weIRU",
+      "title": "012 Problema de valores propios en la representación matricial",
+      "duration": 645
+    },
+    {
+      "id": "4alAysuWh-0",
+      "title": "013 Método de ortonomalización de Gram-Schmidt",
+      "duration": 332
+    },
+    {
+      "id": "OSa671SFrP0",
+      "title": "014 Espectro degenerado y el 3er postulado",
+      "duration": 862
+    },
+    {
+      "id": "4D2z0MudXg8",
+      "title": "015 Varios grados de libertad y observables compatibles",
+      "duration": 993
+    },
+    {
+      "id": "SF26Z42l3Pk",
+      "title": "016 Representación matricial de observables compatibles",
+      "duration": 1834
+    },
+    {
+      "id": "otWTtO2M_v0",
+      "title": "017 Conjunto Completo de Observables Compatibles: las etiquetas del mundo cuántico",
+      "duration": 1986
+    },
+    {
+      "id": "0gPvXSd3vc4",
+      "title": "018 cambio representación: cambios de base, imágenes activa y pasiva",
+      "duration": 1481
+    },
+    {
+      "id": "a9gtin-ZREU",
+      "title": "019 Sistemas cuánticos de espectro continuo: bases más allá de los estados y la Delta de Dirac.",
+      "duration": 1828
+    },
+    {
+      "id": "zGDFC8JL8DA",
+      "title": "020 Funciones de onda: otra representación del espacio de estados. Schrödinger se va asomando.",
+      "duration": 1589
+    },
+    {
+      "id": "RZYZGpowkgc",
+      "title": "021 Cambio de representación: bases contínuas",
+      "duration": 393
+    },
+    {
+      "id": "UGOakpIKM0A",
+      "title": "022 El espacio de kets general",
+      "duration": 946
+    },
+    {
+      "id": "A6qLNbogbFk",
+      "title": "023 Un ejemplo de espacio de funciones",
+      "duration": 670
+    },
+    {
+      "id": "WeBhJgRiloY",
+      "title": "024 Funciones de operadores",
+      "duration": 1294
+    },
+    {
+      "id": "hG4EnchzoTA",
+      "title": "025 ¿Diferenciando operadores? pt.1",
+      "duration": 554
+    },
+    {
+      "id": "0d0K5DQ3TKc",
+      "title": "026 ¿Diferenciando operadores? pt.2",
+      "duration": 873
+    },
+    {
+      "id": "73xxVKD1qbM",
+      "title": "027 Respresentación en la base de posición: un breve repaso a los tres postulados de la cuántica.",
+      "duration": 944
+    },
+    {
+      "id": "_l_OM9bXIGs",
+      "title": "028 Operador de traslaciones: el momento lineal como generador de transformaciones",
+      "duration": 1328
+    },
+    {
+      "id": "rx_MLF-Bt6M",
+      "title": "029 Representación en la base de posición de los operadores momento y posición",
+      "duration": 834
+    },
+    {
+      "id": "HgnVtlXVzTE",
+      "title": "030 Problema de valores propios en el espacio de funciones: las ecuaciones diferenciales aparecen",
+      "duration": 621
+    },
+    {
+      "id": "crfKsOCPGaw",
+      "title": "031 Ordenamiento normal y la ecuación de Schrödinger para estados estacionarios",
+      "duration": 884
+    },
+    {
+      "id": "1DBsQLwSfmY",
+      "title": "032 El valor esperado en la representación de posición",
+      "duration": 662
+    },
+    {
+      "id": "OPBBXhkczYQ",
+      "title": "033 Producto tensorial de estados: formalizando estados de un sistema con varios grados de libertad",
+      "duration": 1260
+    },
+    {
+      "id": "yJTJ6Y4S9Ao",
+      "title": "034 Dos ejemplos del producto tensorial de estados",
+      "duration": 1057
+    },
+    {
+      "id": "kVJPrRXYVIw",
+      "title": "035 Representación en la base de momentum",
+      "duration": 1125
+    },
+    {
+      "id": "FLmbcryXoFo",
+      "title": "036 Rep. en posición v.s. rep. en la base de momentum. La partícula libre y la onda plana.",
+      "duration": 961
+    },
+    {
+      "id": "kfRsjDFpczg",
+      "title": "037 El operador evolucion parte 1: una primera aproximación a la evolución temporal",
+      "duration": 1216
+    },
+    {
+      "id": "F8OnJsCUgRI",
+      "title": "038 Operador evolucion parte 2: dos expresiones particulares y una general",
+      "duration": 952
+    },
+    {
+      "id": "g8-UuXdnm_s",
+      "title": "039 La ecuación de Schrödinger dependiente del tiempo: una ecuación para regirlos a todos.",
+      "duration": 572
+    },
+    {
+      "id": "hs1i4MwusS0",
+      "title": "040 La ecuación de Schrödinger en una representación de bases discretas y su solución",
+      "duration": 904
+    },
+    {
+      "id": "-Byza_62Y5c",
+      "title": "041 Precesión de espín: un ejemplo de sistema cuántico dinámico",
+      "duration": 1193
+    },
+    {
+      "id": "VK05RkQGSUg",
+      "title": "042 Ecuación de Schrödinger dependiente del tiempo en el espacio de funciones de onda",
+      "duration": 549
+    },
+    {
+      "id": "qVflMmlWHus",
+      "title": "043 Ecuación de Schrödinger, la conservación de la probabilidad y el límite clásico",
+      "duration": 752
+    },
+    {
+      "id": "YxK7_4IEhZQ",
+      "title": "044 Particula libre y los estados estacionarios",
+      "duration": 889
+    },
+    {
+      "id": "4tNzHU2l5gY",
+      "title": "045 Paquetes de onda y la partícula libre",
+      "duration": 1249
+    },
+    {
+      "id": "EGmv6olErpg",
+      "title": "046 La relación de incertidumbre de Heisenberg: el lado oculto de los estados cuánticos",
+      "duration": 1259
+    },
+    {
+      "id": "Fxa8OWfqX_4",
+      "title": "047 Un ejemplo de relación de incertidumbre: paquetes de onda gaussianos",
+      "duration": 678
+    },
+    {
+      "id": "r93o_JgTI38",
+      "title": "048 Potenciales discontínuos: el potencial escalón",
+      "duration": 1212
+    },
+    {
+      "id": "v6Cgn23BRAQ",
+      "title": "049 El efecto túnel: cuando el sentido común se resigna",
+      "duration": 1564
+    },
+    {
+      "id": "duR-6lRWhbE",
+      "title": "050 Pozo infinito de potencial: el paradigma de los estados ligados",
+      "duration": 1378
+    },
+    {
+      "id": "Dwr-OOAEbaw",
+      "title": "051 Oscilador armónico cuántico: un sistema para describirlos a todos",
+      "duration": 1344
+    },
+    {
+      "id": "CMVpeCBaD0I",
+      "title": "052 Oscilador armónico desde el espacio de kets: los operadores creación y destrucción",
+      "duration": 1650
+    },
+    {
+      "id": "6n5K_sZF92k",
+      "title": "053 Estados coherentes: el espacio de fase reaparece",
+      "duration": 1208
+    },
+    {
+      "id": "yd10Zxraw38",
+      "title": "054 Imagen de Heisenberg: la imagen pasiva de la dinámica cuántica",
+      "duration": 1306
+    },
+    {
+      "id": "Fhe2ALL2o7A",
+      "title": "055 Oscilador armónico en la imagen de Heisenberg",
+      "duration": 606
+    },
+    {
+      "id": "4qgO1CZCMg4",
+      "title": "056 Teorema de Ehrenfest: ¿hasta donde las ecuaciones de Hamilton describen el mundo cuántico?",
+      "duration": 686
+    },
+    {
+      "id": "ddBsy04asII",
+      "title": "057 Relación de incertidumbre en la energía: ¿se puede violar la conservación de la energía?",
+      "duration": 1387
+    },
+    {
+      "id": "3IMKXPzP1UE",
+      "title": "058 Álgebra del momento angular: sobre el cómo gira un estado cuántico",
+      "duration": 1533
+    },
+    {
+      "id": "C5fN4y1dAT0",
+      "title": "059 El problema de valores propios del momento angular:",
+      "duration": 1618
+    },
+    {
+      "id": "SQZzTYcKxUs",
+      "title": "060 Momento angular orbital",
+      "duration": 1370
+    },
+    {
+      "id": "OFgnrxWcTfA",
+      "title": "061 Adición de momento angular: aprendiendo a sumar en un sistema cuántico",
+      "duration": 1801
+    },
+    {
+      "id": "ZIGr_MD_4u0",
+      "title": "062 Par de particulas interactuantes: el sistema centro de masa reaparece",
+      "duration": 988
+    },
+    {
+      "id": "-CQglKv9tyw",
+      "title": "063 Problema de fuerzas centrales en sistemas cuánticos",
+      "duration": 829
+    },
+    {
+      "id": "-X52fpBotIo",
+      "title": "064 El átomo de hidrógeno: espectro de energía",
+      "duration": 1643
+    },
+    {
+      "id": "eCPnoFW25X0",
+      "title": "065 El átomo de hidrógeno parte 2: distribución de probabilidad",
+      "duration": 1687
+    }
+  ]
+}

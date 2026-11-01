@@ -1,0 +1,13 @@
+{{- /* Seconds as a clock, "4:05" or "1:02:03", or with "total" as a rounded length, "45 min" or "29 h". */ -}}
+{{- $s := int .seconds -}}
+{{- $h := div $s 3600 -}}
+{{- $m := div (mod $s 3600) 60 -}}
+{{- $out := "" -}}
+{{- if .total -}}
+	{{- $out = cond (ge $h 1) (printf "%s h" (lang.FormatNumber 0 (math.Round (div (float $s) 3600)))) (printf "%d min" (int (math.Round (div (float $s) 60)))) -}}
+{{- else if $h -}}
+	{{- $out = printf "%d:%02d:%02d" $h $m (mod $s 60) -}}
+{{- else -}}
+	{{- $out = printf "%d:%02d" $m (mod $s 60) -}}
+{{- end -}}
+{{- return $out -}}

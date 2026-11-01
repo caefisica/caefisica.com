@@ -1,0 +1,209 @@
+{
+  "fetched": "2026-11-01",
+  "title": "8.01x - MIT Physics I: Classical Mechanics",
+  "channel": "Lectures by Walter Lewin. They will make you ♥ Physics.",
+  "description": "Links to lecture notes, assignments/solutions and exams/solutions are available via links in the descriptions of the individual lecture videos.",
+  "updated": "2023-04-12",
+  "lessons": [
+    {
+      "id": "wWnfJ0-xXRE",
+      "title": "8.01x - Introduction",
+      "duration": 201
+    },
+    {
+      "id": "GtOGurrUPmQ",
+      "title": "8.01x - Lect 1 - Powers of 10, Units, Dimensions, Uncertainties, Scaling Arguments",
+      "duration": 2282
+    },
+    {
+      "id": "q9IWoQ199_o",
+      "title": "8.01x - Lect 2 - 1D Kinematics - Speed, Velocity, Acceleration",
+      "duration": 3042
+    },
+    {
+      "id": "0na1JdPE_JY",
+      "title": "8.01x - Lect 3 - Vectors - Dot Products - Cross Products - 3D Kinematics",
+      "duration": 2973
+    },
+    {
+      "id": "k6aJyOHTDYM",
+      "title": "8.01x - Lect 4 - 3D Kinematics, Free Falling Reference Frames",
+      "duration": 3123
+    },
+    {
+      "id": "mWj1ZEQTI8I",
+      "title": "8.01x - Lect 5 - Circular Motion, Centripetal Forces, Perceived Gravity",
+      "duration": 3051
+    },
+    {
+      "id": "oduZsA0Tk58",
+      "title": "8.01x - Lect 6 - Newton's Laws",
+      "duration": 2956
+    },
+    {
+      "id": "Z07tTuE1mwk",
+      "title": "8.01x - Lect 7 - Weight, Weightlessness in Free Fall, Weight in Orbit",
+      "duration": 3005
+    },
+    {
+      "id": "FWh-enOdXM4",
+      "title": "8.01x - Lect 8 - Friction",
+      "duration": 2878
+    },
+    {
+      "id": "pjsV9Ccqhi4",
+      "title": "8.01x - Lect 9 - First Exam Review",
+      "duration": 2956
+    },
+    {
+      "id": "tNpuTx7UQbw",
+      "title": "8.01x - Lect 10 - Hooke's Law, Springs, Pendulums, Simple Harmonic Motion",
+      "duration": 2862
+    },
+    {
+      "id": "9gUdDM6LZGo",
+      "title": "8.01x - Lect 11 - Work, Kinetic & Potential Energy, Gravitation, Conservative Forces",
+      "duration": 2946
+    },
+    {
+      "id": "djCCno4Cbcw",
+      "title": "8.01x - Lect 12 - Air Drag, Resistive Forces, Conservative Forces, Terminal Velocity",
+      "duration": 2983
+    },
+    {
+      "id": "9ta5ul9x6WE",
+      "title": "8.01x - Lect 13 - Potential Energy, Derive Simple Harmonic Motion using Energy",
+      "duration": 3090
+    },
+    {
+      "id": "3fTVn96gUSQ",
+      "title": "8.01x - Lect 14 - Escape Velocities, Circular Orbits, Bound and Unbound Orbits, Power",
+      "duration": 2934
+    },
+    {
+      "id": "aIhScO3_I50",
+      "title": "8.01x - Lect 15 - Momentum, Conservation of Momentum, Center of Mass",
+      "duration": 3138
+    },
+    {
+      "id": "-q-WiX-KVXo",
+      "title": "8.01x - Lect 16 - Elastic & Inelastic Collisions, Center of Mass Frame of Reference",
+      "duration": 2915
+    },
+    {
+      "id": "BBYLiF_R0Xs",
+      "title": "8.01x - Lect 17 - Impulse, Rockets",
+      "duration": 2919
+    },
+    {
+      "id": "DcblYQPTMj0",
+      "title": "8.01x - Lect 18 - 2nd Exam Review",
+      "duration": 2996
+    },
+    {
+      "id": "fDJeVR0o__w",
+      "title": "8.01x - Lect 19 - Rotating Objects, Moment of Inertia, Rotational KE, Neutron Stars",
+      "duration": 2460
+    },
+    {
+      "id": "sNaaL19opxw",
+      "title": "8.01x - Lect 20 - Angular Momentum, Torques, Conservation of Angular Momentum",
+      "duration": 3075
+    },
+    {
+      "id": "4Mw6oD1MnKg",
+      "title": "8.01x - Lect 21 - Torques, Oscillating Bodies, Physical Pendulums",
+      "duration": 2870
+    },
+    {
+      "id": "9wDAm-dlht4",
+      "title": "8.01x - Lect 22 - Kepler's Laws, Elliptical Orbits, Satellites, Orbital Changes",
+      "duration": 2949
+    },
+    {
+      "id": "313C1zo9pyE",
+      "title": "8.01x - Lect 23 - Doppler Effect, Binary Stars, Neutron Stars & Black Holes",
+      "duration": 3000
+    },
+    {
+      "id": "XPUuF_dECVI",
+      "title": "8.01x - Lect 24 - Rolling Motion, Gyroscopes, VERY NON-INTUITIVE",
+      "duration": 2953
+    },
+    {
+      "id": "0NegJkO_ZM4",
+      "title": "8.01x - Lect 25 - Static Equilibrium, Stability, Rope Warker",
+      "duration": 2894
+    },
+    {
+      "id": "ifri4c0luz8",
+      "title": "8.01x - Lect 26 - Elasticity, Young's Modulus",
+      "duration": 3012
+    },
+    {
+      "id": "O_HQklhIlwQ",
+      "title": "8.01x - Lect 27 - Fluid Mechanics, Hydrostatics, Pascal's Principle, Atmosph. Pressure",
+      "duration": 2989
+    },
+    {
+      "id": "JR-L2CS8DGc",
+      "title": "8.01x - Lect 28 - Hydrostatics, Archimedes' Principle, Bernoulli's Equation",
+      "duration": 2902
+    },
+    {
+      "id": "vNXBJLV4Ga4",
+      "title": "8.01x - Lect 29 - Third Exam Review",
+      "duration": 2941
+    },
+    {
+      "id": "hAYeA3Wwb4U",
+      "title": "8.01x - Lect 30 - Simple Harmonic Motion, Energy Considerations, Torsional Pendulum",
+      "duration": 2971
+    },
+    {
+      "id": "QwgDxQ9o1XQ",
+      "title": "8.01x - Lect 31 - Forced Oscillations, Normal Modes, Resonances, Musical Instruments",
+      "duration": 2888
+    },
+    {
+      "id": "mAAvp5YzWxk",
+      "title": "8.01x - Lect 32 - Heat, Thermal Expansion",
+      "duration": 2944
+    },
+    {
+      "id": "husWiBtkROQ",
+      "title": "8.01x - Lect 33 - Kinetic Gas Theory, Ideal Gas Law, Phase Transitions",
+      "duration": 3171
+    },
+    {
+      "id": "Eg13TQNgasE",
+      "title": "8.01x - Lect 34 - The Wonderful Quantum World, Breakdown of Classical Mechanics",
+      "duration": 2805
+    },
+    {
+      "id": "N8p36i2BNOE",
+      "title": "8.01x - Lect 35 - Farewell Special, My Early Days in Astrophysics, Huge Balloons",
+      "duration": 2598
+    },
+    {
+      "id": "77ZF50ve6rs",
+      "title": "When a physics teacher knows his stuff !!",
+      "duration": 199
+    },
+    {
+      "id": "OKp6CHgJaOQ",
+      "title": "KBTFÇG | Prof. Walter Lewin - Heisenberg Belirsizlik İlkesi",
+      "duration": 2897
+    },
+    {
+      "id": "0i8mYW6-vlU",
+      "title": "Fizik ders 28 ***Hidrostatik, Archimedes Prensibi ve Akışkanlar Dinamiği,kaldırmak kuvveti ****",
+      "duration": 2904
+    },
+    {
+      "id": "0DHNGtsmmH8",
+      "title": "Lagrangian and Hamiltonian Mechanics in Under 20 Minutes: Physics Mini Lesson",
+      "duration": 1113
+    }
+  ]
+}

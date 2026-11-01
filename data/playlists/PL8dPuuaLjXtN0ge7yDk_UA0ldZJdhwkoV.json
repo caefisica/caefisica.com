@@ -1,0 +1,244 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Physics",
+  "channel": "CrashCourse",
+  "description": "In 46 episodes, Dr. Shini Somara will help you find your place in the world -- literally! -- with physics. This course is based on introductory college-level material and the 2016 AP Physics I and II curriculum. By the end of this course, you will be able to:\n\n*Identify the fundamental forces describing the world and the core branches of physics\n*Pose, refine, and evaluate scientific questions\n*Connect phenomena and models across spatial and temporal scales\n*Use representations and models to communicate scientific phenomena and solve scientific problems\n*Apply mathematical equations that describe natural phenomena",
+  "updated": "2020-04-13",
+  "lessons": [
+    {
+      "id": "OoO5d5P0Jn4",
+      "title": "Crash Course Physics Preview",
+      "duration": 156
+    },
+    {
+      "id": "ZM8ECpBuQYE",
+      "title": "Motion in a Straight Line: Crash Course Physics #1",
+      "duration": 640
+    },
+    {
+      "id": "ObHJJYvu3RE",
+      "title": "Derivatives: Crash Course Physics #2",
+      "duration": 602
+    },
+    {
+      "id": "jLJLXka2wEM",
+      "title": "Integrals: Crash Course Physics #3",
+      "duration": 609
+    },
+    {
+      "id": "w3BhzYI6zXU",
+      "title": "Vectors and 2D Motion: Crash Course Physics #4",
+      "duration": 606
+    },
+    {
+      "id": "kKKM8Y-u7ds",
+      "title": "Newton's Laws: Crash Course Physics #5",
+      "duration": 664
+    },
+    {
+      "id": "fo_pmp5rtzo",
+      "title": "Friction: Crash Course Physics #6",
+      "duration": 659
+    },
+    {
+      "id": "bpFK2VCRHUs",
+      "title": "Uniform Circular Motion: Crash Course Physics #7",
+      "duration": 594
+    },
+    {
+      "id": "7gf6YpdvtE0",
+      "title": "Newtonian Gravity: Crash Course Physics #8",
+      "duration": 560
+    },
+    {
+      "id": "w4QFJb9a8vo",
+      "title": "Work, Energy, and Power: Crash Course Physics #9",
+      "duration": 595
+    },
+    {
+      "id": "Y-QOfc2XqOk",
+      "title": "Collisions: Crash Course Physics #10",
+      "duration": 561
+    },
+    {
+      "id": "fmXFWi-WfyU",
+      "title": "Rotational Motion: Crash Course Physics #11",
+      "duration": 535
+    },
+    {
+      "id": "b-HZ1SZPaQw",
+      "title": "Torque: Crash Course Physics #12",
+      "duration": 483
+    },
+    {
+      "id": "9cbF9A6eQNA",
+      "title": "Statics: Crash Course Physics #13",
+      "duration": 548
+    },
+    {
+      "id": "b5SqYuWT4-4",
+      "title": "Fluids at Rest: Crash Course Physics #14",
+      "duration": 599
+    },
+    {
+      "id": "fJefjG3xhW0",
+      "title": "Fluids in Motion: Crash Course Physics #15",
+      "duration": 587
+    },
+    {
+      "id": "jxstE6A_CYQ",
+      "title": "Simple Harmonic Motion: Crash Course Physics #16",
+      "duration": 551
+    },
+    {
+      "id": "TfYCnOvNnFU",
+      "title": "Traveling Waves: Crash Course Physics #17",
+      "duration": 465
+    },
+    {
+      "id": "qV4lR9EWGlY",
+      "title": "Sound: Crash Course Physics #18",
+      "duration": 579
+    },
+    {
+      "id": "XDsk6tZX55g",
+      "title": "The Physics of Music: Crash Course Physics #19",
+      "duration": 635
+    },
+    {
+      "id": "6BHbJ_gBOk0",
+      "title": "Temperature: Crash Course Physics #20",
+      "duration": 541
+    },
+    {
+      "id": "WOEvvHbc240",
+      "title": "Kinetic Theory and Phase Changes: Crash Course Physics #21",
+      "duration": 549
+    },
+    {
+      "id": "tuSC0ObB-qY",
+      "title": "The Physics of Heat: Crash Course Physics #22",
+      "duration": 556
+    },
+    {
+      "id": "4i1MUWJoI0U",
+      "title": "Thermodynamics: Crash Course Physics #23",
+      "duration": 604
+    },
+    {
+      "id": "p1woKh2mdVQ",
+      "title": "Engines: Crash Course Physics #24",
+      "duration": 621
+    },
+    {
+      "id": "TFlVWf8JX4A",
+      "title": "Electric Charge: Crash Course Physics #25",
+      "duration": 582
+    },
+    {
+      "id": "mdulzEfQXDE",
+      "title": "Electric Fields: Crash Course Physics #26",
+      "duration": 597
+    },
+    {
+      "id": "ZrMltpK6iAw",
+      "title": "Voltage, Electric Energy, and Capacitors: Crash Course Physics #27",
+      "duration": 614
+    },
+    {
+      "id": "HXOok3mfMLM",
+      "title": "Electric Current: Crash Course Physics #28",
+      "duration": 503
+    },
+    {
+      "id": "g-wjP1otQWI",
+      "title": "DC Resistors & Batteries: Crash Course Physics #29",
+      "duration": 648
+    },
+    {
+      "id": "-w-VTw0tQlE",
+      "title": "Circuit Analysis: Crash Course Physics #30",
+      "duration": 656
+    },
+    {
+      "id": "vuCJP_5KOlI",
+      "title": "Capacitors and Kirchhoff: Crash Course Physics #31",
+      "duration": 638
+    },
+    {
+      "id": "s94suB5uLWw",
+      "title": "Magnetism: Crash Course Physics #32",
+      "duration": 587
+    },
+    {
+      "id": "5fqwJyt4Lus",
+      "title": "Ampère's Law: Crash Course Physics #33",
+      "duration": 525
+    },
+    {
+      "id": "pQp6bmJPU_0",
+      "title": "Induction - An Introduction: Crash Course Physics #34",
+      "duration": 589
+    },
+    {
+      "id": "9kgzA0Vd8S8",
+      "title": "How Power Gets to Your Home: Crash Course Physics #35",
+      "duration": 513
+    },
+    {
+      "id": "Jveer7vhjGo",
+      "title": "AC Circuits: Crash Course Physics #36",
+      "duration": 607
+    },
+    {
+      "id": "K40lNL3KsJ4",
+      "title": "Maxwell's Equations: Crash Course Physics #37",
+      "duration": 649
+    },
+    {
+      "id": "Oh4m8Ees-3Q",
+      "title": "Geometric Optics: Crash Course Physics #38",
+      "duration": 580
+    },
+    {
+      "id": "IRBfpBPELmE",
+      "title": "Light Is Waves: Crash Course Physics #39",
+      "duration": 585
+    },
+    {
+      "id": "-ob7foUzXaY",
+      "title": "Spectra Interference: Crash Course Physics #40",
+      "duration": 505
+    },
+    {
+      "id": "SddBPTcmqOk",
+      "title": "Optical Instruments: Crash Course Physics #41",
+      "duration": 636
+    },
+    {
+      "id": "AInCqm5nCzw",
+      "title": "Special Relativity: Crash Course Physics #42",
+      "duration": 539
+    },
+    {
+      "id": "7kb1VT0J3DE",
+      "title": "Quantum Mechanics - Part 1: Crash Course Physics #43",
+      "duration": 525
+    },
+    {
+      "id": "qO_W70VegbQ",
+      "title": "Quantum Mechanics - Part 2: Crash Course Physics #44",
+      "duration": 548
+    },
+    {
+      "id": "lUhJL7o6_cA",
+      "title": "Nuclear Physics: Crash Course Physics #45",
+      "duration": 624
+    },
+    {
+      "id": "VYxYuaDvdM0",
+      "title": "Astrophysics and Cosmology: Crash Course Physics #46",
+      "duration": 561
+    }
+  ]
+}

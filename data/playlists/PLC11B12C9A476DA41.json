@@ -1,0 +1,609 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Clases de Física II",
+  "channel": "Canal USB",
+  "description": "FÍSICA II",
+  "updated": "2025-10-18",
+  "lessons": [
+    {
+      "id": "jAT3YsmWzLg",
+      "title": "Clase # 01 Introducción del curso FS1112. Movimiento de rotación de una partícula 1/5",
+      "duration": 1815
+    },
+    {
+      "id": "sdevECb-N_g",
+      "title": "Clase # 01 Movimiento de Rotación De Una partícula. Movimiento Rígido 2/5",
+      "duration": 1808
+    },
+    {
+      "id": "mSFIs58bFow",
+      "title": "Clase # 01 Movimiento de rotación de una partícula. Movimiento circular. 3/5",
+      "duration": 95
+    },
+    {
+      "id": "BF-YzFtTxm4",
+      "title": "Clase # 01 Rotación de una partícula con ecuación de la trayectoria. Movimiento Rígido. Ejemplo 4/5",
+      "duration": 1803
+    },
+    {
+      "id": "vTez08oimC0",
+      "title": "Clase # 01 Movimiento circular. Ejemplo. 5/5",
+      "duration": 1487
+    },
+    {
+      "id": "aMh-r-ArTDA",
+      "title": "Clase # 02 Movimiento Circular. Sistemas de Partículas. Centro de masa. Densidad de Masa 1/4",
+      "duration": 1807
+    },
+    {
+      "id": "4z-04xqUA_U",
+      "title": "Clase # 02 Sistemas de Partículas. Centro de Masa. Densidad de Masa. 2/4",
+      "duration": 1785
+    },
+    {
+      "id": "NV55kXPTXZ0",
+      "title": "Clase # 02 Sistemas de Partículas. Centro de Masa. Densidad de Masa. 3/4",
+      "duration": 1806
+    },
+    {
+      "id": "pFLhmre7hBM",
+      "title": "Clase # 02 Sistemas de Partículas. Centro de Masa. Densidad de Masa. 4/4",
+      "duration": 848
+    },
+    {
+      "id": "AicaqH-U5OU",
+      "title": "Clase # 03 Sistemas de Partículas (Repaso). Velocidad del Centro de Masa. Ejemplos. 1/5",
+      "duration": 1798
+    },
+    {
+      "id": "9610O7k3o5s",
+      "title": "Clase # 03 Sistemas de Partículas (Repaso). Velocidad del Centro de Masa. Ejemplos. 2/5",
+      "duration": 1807
+    },
+    {
+      "id": "lUPho_7Evjs",
+      "title": "Clase # 03 Sistemas de Partículas (Repaso). Velocidad del Centro de Masa. Ejemplos. 3/5",
+      "duration": 143
+    },
+    {
+      "id": "Bw45OX0VZjo",
+      "title": "Clase # 03 Sistemas de Partículas (Repaso). Velocidad del Centro de Masa. Ejemplos. 4/5",
+      "duration": 1797
+    },
+    {
+      "id": "Yyf-TSck_P4",
+      "title": "Clase # 03 Sistemas de Partículas (Repaso). Velocidad del Centro de Masa. Ejemplos. 5/5",
+      "duration": 839
+    },
+    {
+      "id": "-i_5RpTXqC8",
+      "title": "Clase # 04 Movimiento de Sistemas de Partículas. Movimiento Lineal. Ejemplos 1/5",
+      "duration": 1807
+    },
+    {
+      "id": "lMjRYRLVqq8",
+      "title": "Clase # 04 Movimiento de Sistemas de Partículas. Movimiento Lineal. Ejemplos 2/5",
+      "duration": 1800
+    },
+    {
+      "id": "aLqTyF6dyBs",
+      "title": "Clase # 04 Movimiento de Sistemas de Partículas. Movimiento Lineal. Ejemplos 3/5",
+      "duration": 92
+    },
+    {
+      "id": "0kjabsCdDGQ",
+      "title": "Clase # 04 Movimiento de Sistemas de Partículas. Movimiento Lineal. Ejemplos 4/5",
+      "duration": 1809
+    },
+    {
+      "id": "SW33sX_k7iU",
+      "title": "Clase # 04 Movimiento de Sistemas de Partículas. Movimiento Lineal. Ejemplos 5/5",
+      "duration": 1081
+    },
+    {
+      "id": "6sQ-hoL1qUs",
+      "title": "Clase # 05 Cuerpo Rígido. Rotación. Velocidad Angular y Tangencial. Aceleración. 1/5",
+      "duration": 1809
+    },
+    {
+      "id": "g6kSsRiseHs",
+      "title": "Clase # 05 Cuerpo Rígido. Rotación. Velocidad Angular y Tangencial. Aceleración. 2/5",
+      "duration": 1802
+    },
+    {
+      "id": "cDqjVKu1wyI",
+      "title": "Clase # 05 Cuerpo Rígido. Rotación. Velocidad Angular y Tangencial. Aceleración. 3/5",
+      "duration": 139
+    },
+    {
+      "id": "dIfsGLFvnGk",
+      "title": "Clase # 05 Cuerpo Rígido. Rotación. Velocidad Angular y Tangencial. Aceleración. 4/5",
+      "duration": 1806
+    },
+    {
+      "id": "21u88v2fV5s",
+      "title": "Clase # 05 Cuerpo Rígido. Rotación. Velocidad Angular y Tangencial. Aceleración. 5/5",
+      "duration": 504
+    },
+    {
+      "id": "ksCzTO3WJ-U",
+      "title": "Clase # 06 Energía del Movimiento Rotacional. Momento de Inercia. Teorema de lo Ejes. 1/5",
+      "duration": 1802
+    },
+    {
+      "id": "6oyM48zvnHI",
+      "title": "Clase # 06 Energía del Movimiento Rotacional. Momento de Inercia. Teorema de lo Ejes. 2/5",
+      "duration": 1804
+    },
+    {
+      "id": "QnQRbbLcM7E",
+      "title": "Clase # 06 Energía del Movimiento Rotacional. Momento de Inercia. Teorema de lo Ejes. 3/5",
+      "duration": 146
+    },
+    {
+      "id": "LC2-s5irhDQ",
+      "title": "Clase # 06 Energía del Movimiento Rotacional. Momento de Inercia. Teorema de lo Ejes. 4/5",
+      "duration": 1806
+    },
+    {
+      "id": "atu73W1Jg1A",
+      "title": "Clase # 06 Energía del Movimiento Rotacional. Momento de Inercia. Teorema de lo Ejes. 5/5",
+      "duration": 40
+    },
+    {
+      "id": "3uZUlTIpO0c",
+      "title": "Clase # 07 Energía Cinética de Rotación. Torque. Cuerpo Rígido en Rotación 1/5",
+      "duration": 1810
+    },
+    {
+      "id": "px7GOf4rFJ0",
+      "title": "Clase # 07 Energía Cinética de Rotación. Torque. Cuerpo Rígido en Rotación 2/5",
+      "duration": 1804
+    },
+    {
+      "id": "Gi-seLpIdAQ",
+      "title": "Clase # 07 Energía Cinética de Rotación. Torque. Cuerpo Rígido en Rotación 3/5",
+      "duration": 60
+    },
+    {
+      "id": "aFLNzrWvyi8",
+      "title": "Clase # 07 Energía Cinética de Rotación. Torque. Cuerpo Rígido en Rotación 4/5",
+      "duration": 1798
+    },
+    {
+      "id": "w_-Ukeu4pT4",
+      "title": "Clase # 07 Energía Cinética de Rotación. Torque. Cuerpo Rígido en Rotación 5/5",
+      "duration": 179
+    },
+    {
+      "id": "kNFOlE1pB_4",
+      "title": "Clase # 08 Movimiento Rígido (Repaso). Ejemplos. 1/5",
+      "duration": 1817
+    },
+    {
+      "id": "JxoyyKUJTKQ",
+      "title": "Clase # 08 Movimiento Rígido (Repaso). Ejemplos. 2/5",
+      "duration": 1800
+    },
+    {
+      "id": "k98c8eM0j_M",
+      "title": "Clase # 08 Movimiento Rígido (Repaso). Ejemplos. 3/5",
+      "duration": 74
+    },
+    {
+      "id": "SDK6RTrPeQo",
+      "title": "Clase # 08 Movimiento Rígido (Repaso). Ejemplos. 4/5",
+      "duration": 1804
+    },
+    {
+      "id": "UVDikMhbZS8",
+      "title": "Clase # 08 Movimiento Rígido (Repaso). Ejemplos. 5/5",
+      "duration": 356
+    },
+    {
+      "id": "ZyVUswtrJgI",
+      "title": "Clase # 09 Rodadura sin Deslizamiento. E Cinética Total. Momento Ang. Torque de una Partícula. 1/4",
+      "duration": 1811
+    },
+    {
+      "id": "0E9JKDXxJGM",
+      "title": "Clase # 09 Rodadura sin Deslizamiento. E Cinética Total. Momento Ang. Torque de una Partícula. 2/4",
+      "duration": 1808
+    },
+    {
+      "id": "uFjzyMe5z-c",
+      "title": "Clase # 09 Rodadura sin Deslizamiento. E Cinética Total. Momento Ang. Torque de una Partícula. 3/4",
+      "duration": 161
+    },
+    {
+      "id": "S2vth60Fc7Q",
+      "title": "Clase # 09 Rodadura sin Deslizamiento. E Cinética Total. Momento Ang. Torque de una Partícula. 4/4",
+      "duration": 1617
+    },
+    {
+      "id": "tyTRyrDZpnM",
+      "title": "Clase # 10 Momento Angular en Sistemas de Partículas Rígidas. Ejemplos. 1/5",
+      "duration": 1809
+    },
+    {
+      "id": "uU1Ch_18V0U",
+      "title": "Clase # 10 Momento Angular en Sistemas de Partículas Rígidas. Ejemplos. 2/5",
+      "duration": 1802
+    },
+    {
+      "id": "pS7kySNsSsk",
+      "title": "Clase # 10 Momento Angular en Sistemas de Partículas Rígidas. Ejemplos. 3/5",
+      "duration": 137
+    },
+    {
+      "id": "vPTMcJB4VHM",
+      "title": "Clase # 10 Momento Angular en Sistemas de Partículas Rígidas. Ejemplos. 4/5",
+      "duration": 1821
+    },
+    {
+      "id": "hdVl5ryjZvQ",
+      "title": "Clase # 10 Momento Angular en Sistemas de Partículas Rígidas. Ejemplos. 5/5",
+      "duration": 100
+    },
+    {
+      "id": "nlipxSP6kbw",
+      "title": "Clase # 11 Momento Angular de un Rígido. Ejemplo. Conservación del Momento. 1/5",
+      "duration": 1817
+    },
+    {
+      "id": "QJKM-fAJSGE",
+      "title": "Clase # 11 Momento Angular de un Rígido. Ejemplo. Conservación del Momento. 2/5",
+      "duration": 1804
+    },
+    {
+      "id": "1FlU6V8rCtY",
+      "title": "Clase # 11 Momento Angular de un Rígido. Ejemplo. Conservación del Momento. 3/5",
+      "duration": 88
+    },
+    {
+      "id": "VMPC84FUbn8",
+      "title": "Clase # 11 Momento Angular de un Rígido. Ejemplo. Conservación del Momento. 4/5",
+      "duration": 1825
+    },
+    {
+      "id": "KBQMcKh9bYc",
+      "title": "Clase # 11 Momento Angular de un Rígido. Ejemplo. Conservación del Momento. 5/5",
+      "duration": 472
+    },
+    {
+      "id": "plDo0yeNPL4",
+      "title": "Clase # 12 Momento Angular. Equilibrio (Estática). Problemas Planos. Ejemplos. 1/5",
+      "duration": 1812
+    },
+    {
+      "id": "rOBiNKHZuTk",
+      "title": "Clase # 12 Momento Angular. Equilibrio (Estática). Problemas Planos. Ejemplos. 2/5",
+      "duration": 1807
+    },
+    {
+      "id": "3X5Yu-O3fDg",
+      "title": "Clase # 12 Momento Angular. Equilibrio (Estática). Problemas Planos. Ejemplos.3/5",
+      "duration": 139
+    },
+    {
+      "id": "XLEZis3YK5o",
+      "title": "Clase # 12 Momento Angular. Equilibrio (Estática). Problemas Planos. Ejemplos. 4/5",
+      "duration": 1825
+    },
+    {
+      "id": "XCISewstc3E",
+      "title": "Clase # 12 Momento Angular. Equilibrio (Estática). Problemas Planos. Ejemplos. 5/5",
+      "duration": 280
+    },
+    {
+      "id": "TSKtfIks4Tc",
+      "title": "Clase # 13 Equilibrio (Caso Plano). Ejemplos. 1/5",
+      "duration": 1816
+    },
+    {
+      "id": "BA0KRjO69yQ",
+      "title": "Clase # 13 Equilibrio (Caso Plano). Ejemplos. 2/5",
+      "duration": 1814
+    },
+    {
+      "id": "H2nHa8Misqg",
+      "title": "Clase # 13 Equilibrio (Caso Plano). Ejemplos. 3/5",
+      "duration": 128
+    },
+    {
+      "id": "nGwaQBgrLvs",
+      "title": "Clase # 13 Equilibrio (Caso Plano). Ejemplos. 4/5",
+      "duration": 1802
+    },
+    {
+      "id": "Sgqf8PCFeAw",
+      "title": "Clase # 13 Equilibrio (Caso Plano). Ejemplos. 5/5",
+      "duration": 234
+    },
+    {
+      "id": "2m3ZI_yx_ss",
+      "title": "Clase # 14 Gravitación. Tipos de Interacciones. 1/4",
+      "duration": 1814
+    },
+    {
+      "id": "wWovxAFsFe4",
+      "title": "Clase # 14 Gravitación. Tipos de Interacciones. 2/4",
+      "duration": 1804
+    },
+    {
+      "id": "0c1XrxTgLHo",
+      "title": "Clase # 14 Gravitación. Tipos de Interacciones. 3/4",
+      "duration": 167
+    },
+    {
+      "id": "2ReOWERJ7XI",
+      "title": "Clase # 14 Gravitación. Tipos de Interacciones. 4/4",
+      "duration": 55
+    },
+    {
+      "id": "EkftZEX2ONw",
+      "title": "Clase # 15 Gravitación. Energía Potencial. Orbitas Elípticas. 1/5",
+      "duration": 1803
+    },
+    {
+      "id": "cN-tAEZYp7k",
+      "title": "Clase # 15 Gravitación. Energía Potencial. Orbitas Elípticas. 2/5",
+      "duration": 1804
+    },
+    {
+      "id": "lWd6Nj5Ppx0",
+      "title": "Clase # 15 Gravitación. Energía Potencial. Orbitas Elípticas. 3/5",
+      "duration": 130
+    },
+    {
+      "id": "69gT1AB8z8A",
+      "title": "Clase # 15 Gravitación. Energía Potencial. Orbitas Elípticas. 4/5",
+      "duration": 1806
+    },
+    {
+      "id": "0VaGrrK8mIY",
+      "title": "Clase # 15 Gravitación. Energía Potencial. Orbitas Elípticas. 5/5",
+      "duration": 424
+    },
+    {
+      "id": "beBGr1Zvg-g",
+      "title": "Clase # 16 Gravitación (Repaso). Potencial Eficaz. Tercera, Segunda y Primera Ley. 1/5",
+      "duration": 1805
+    },
+    {
+      "id": "Svzyw0-D2Fs",
+      "title": "Clase # 16 Gravitación (Repaso). Potencial Eficaz. Tercera, Segunda y Primera Ley. 2/5",
+      "duration": 1801
+    },
+    {
+      "id": "MRd332Mx6q0",
+      "title": "Clase # 16 Gravitación (Repaso). Potencial Eficaz. Tercera, Segunda y Primera Ley. 35",
+      "duration": 147
+    },
+    {
+      "id": "EC6zIMoeR04",
+      "title": "Clase # 16 Gravitación (Repaso). Potencial Eficaz. Tercera, Segunda y Primera Ley. 4/5",
+      "duration": 1812
+    },
+    {
+      "id": "vNjwq9ZPVmQ",
+      "title": "Clase # 16 Gravitación (Repaso). Potencial Eficaz. Tercera, Segunda y Primera Ley. 5/5",
+      "duration": 69
+    },
+    {
+      "id": "ZS0jOugnq_4",
+      "title": "Clase # 17 Gravitación. Ejemplos. 1/5",
+      "duration": 1810
+    },
+    {
+      "id": "w_NoFbcpbyk",
+      "title": "Clase # 17 Gravitación. Ejemplos. 2/5",
+      "duration": 1802
+    },
+    {
+      "id": "5konQ4UX_EA",
+      "title": "Clase # 17 Gravitación. Ejemplos. 3/5",
+      "duration": 133
+    },
+    {
+      "id": "0wUIZgGWqc8",
+      "title": "Clase # 17 Gravitación. Ejemplos. 4/5",
+      "duration": 1830
+    },
+    {
+      "id": "dsSbKEhFcfo",
+      "title": "Clase # 17 Gravitación. Ejemplos. 5/5",
+      "duration": 135
+    },
+    {
+      "id": "53pcFWQnq5g",
+      "title": "Clase # 18 Densidad. Hidrostática. Principio de Pascal. Principio de Arquímedes. 1/5",
+      "duration": 1803
+    },
+    {
+      "id": "27Y-z3osRhQ",
+      "title": "Clase # 18 Densidad. Hidrostática. Principio de Pascal. Principio de Arquímedes. 2/5",
+      "duration": 1814
+    },
+    {
+      "id": "jVGD8LU9ohA",
+      "title": "Clase # 18 Densidad. Hidrostática. Principio de Pascal. Principio de Arquímedes. 3/5",
+      "duration": 134
+    },
+    {
+      "id": "Xe5jKCR3y5c",
+      "title": "Clase # 18 Densidad. Hidrostática. Principio de Pascal. Principio de Arquímedes. 4/5",
+      "duration": 1817
+    },
+    {
+      "id": "JRl6R56IWN4",
+      "title": "Clase # 18 Densidad. Hidrostática. Principio de Pascal. Principio de Arquímedes. 5/5",
+      "duration": 123
+    },
+    {
+      "id": "6m0lW2qI1bU",
+      "title": "Clase # 19 Fluidos. Principio de Arquímedes. Flotación. Ejemplos. 1/5",
+      "duration": 1800
+    },
+    {
+      "id": "uwbC5XCwzho",
+      "title": "Clase # 19 Fluidos. Principio de Arquímedes. Flotación. Ejemplos. 2/5",
+      "duration": 1806
+    },
+    {
+      "id": "Gill5kVnqBg",
+      "title": "Clase # 19 Fluidos. Principio de Arquímedes. Flotación. Ejemplos. 3/5",
+      "duration": 41
+    },
+    {
+      "id": "8hEYXVX2wKE",
+      "title": "Clase # 19 Fluidos. Principio de Arquímedes. Flotación. Ejemplos. 4/5",
+      "duration": 1805
+    },
+    {
+      "id": "gw88Xvt4TCU",
+      "title": "Clase # 19 Fluidos. Principio de Arquímedes. Flotación. Ejemplos. 5/5",
+      "duration": 193
+    },
+    {
+      "id": "3Kmdc6bGeJU",
+      "title": "Clase # 20 Temperatura. Dilatación. Gases. Teoría Cinética del Gas. Gas Ideal.1/5",
+      "duration": 1813
+    },
+    {
+      "id": "oFp7vvhK0tk",
+      "title": "Clase # 20 Temperatura. Dilatación. Gases. Teoría Cinética del Gas. Gas Ideal. 2/5",
+      "duration": 1805
+    },
+    {
+      "id": "wuKpEqa1_dg",
+      "title": "Clase # 20 Temperatura. Dilatación. Gases. Teoría Cinética del Gas. Gas Ideal. 3/5",
+      "duration": 127
+    },
+    {
+      "id": "Jifip8xcG88",
+      "title": "Clase # 20 Temperatura. Dilatación. Gases. Teoría Cinética del Gas. Gas Ideal. 4/5",
+      "duration": 1828
+    },
+    {
+      "id": "ioYC25q2hFY",
+      "title": "Clase # 20 Temperatura. Dilatación. Gases. Teoría Cinética del Gas. Gas Ideal. 5/5",
+      "duration": 389
+    },
+    {
+      "id": "5ACMDGu_b7k",
+      "title": "Clase # 21 Temperatura. Sistemas Isotérmicos e Isobáricos. E Cinética Media. Cambios de Fase. 1/5",
+      "duration": 1803
+    },
+    {
+      "id": "Pom4WCH4LGs",
+      "title": "Clase # 21 Temperatura. Sistemas Isotérmicos e Isobáricos. E Cinética Media. Cambios de Fase. 2/5",
+      "duration": 1808
+    },
+    {
+      "id": "aunTeAHOekg",
+      "title": "Clase # 21 Temperatura. Sistemas Isotérmicos e Isobáricos. E Cinética Media. Cambios de Fase. 3/5",
+      "duration": 146
+    },
+    {
+      "id": "f0c_x9KP0ng",
+      "title": "Clase # 21 Temperatura. Sistemas Isotérmicos e Isobáricos. E Cinética Media. Cambios de Fase. 4/5",
+      "duration": 1816
+    },
+    {
+      "id": "R_jrmBTSlK4",
+      "title": "Clase # 21 Temperatura. Sistemas Isotérmicos e Isobáricos. E Cinética Media. Cambios de Fase. 5/5",
+      "duration": 96
+    },
+    {
+      "id": "dX8yJO3ySYI",
+      "title": "Clase # 22 Medida del Estado Térmico. Gas Ideal. Calor. Primer Principio de la Termodinámica. 1/5",
+      "duration": 1810
+    },
+    {
+      "id": "2ZUxWgl1yuU",
+      "title": "Clase # 22 Medida del Estado Térmico. Gas Ideal. Calor. Primer Principio de la Termodinámica. 2/5",
+      "duration": 1798
+    },
+    {
+      "id": "IAvvTAm-IEY",
+      "title": "Clase # 22 Medida del Estado Térmico. Gas Ideal. Calor. Primer Principio de la Termodinámica. 3/5",
+      "duration": 169
+    },
+    {
+      "id": "wNxbdohj65M",
+      "title": "Clase # 22 Medida del Estado Térmico. Gas Ideal. Calor. Primer Principio de la Termodinámica. 4/5",
+      "duration": 1820
+    },
+    {
+      "id": "yk9dRsYytGU",
+      "title": "Clase # 22 Medida del Estado Térmico. Gas Ideal. Calor. Primer Principio de la Termodinámica. 5/5",
+      "duration": 730
+    },
+    {
+      "id": "L1qtr1WczZs",
+      "title": "Clase # 23 Principios de la Termodinámica. Ciclo de Carnot. Eficiencia. Kelvin y Clausius. 1/5",
+      "duration": 1819
+    },
+    {
+      "id": "3uf3pwbxAFo",
+      "title": "Clase # 23 Principios de la Termodinámica. Ciclo de Carnot. Eficiencia. Kelvin y Clausius. 2/5",
+      "duration": 1809
+    },
+    {
+      "id": "ZfU32AshW60",
+      "title": "Clase # 23 Principios de la Termodinámica. Ciclo de Carnot. Eficiencia. Kelvin y Clausius. 3/5",
+      "duration": 124
+    },
+    {
+      "id": "CP3qkFmcL3M",
+      "title": "Clase # 23 Principios de la Termodinámica. Ciclo de Carnot. Eficiencia. Kelvin y Clausius. 4/5",
+      "duration": 1819
+    },
+    {
+      "id": "-AO8ZteQp_g",
+      "title": "Clase # 23 Principios de la Termodinámica. Ciclo de Carnot. Eficiencia. Kelvin y Clausius. 5/5",
+      "duration": 745
+    },
+    {
+      "id": "yqJ4y-KnQms",
+      "title": "Clase # 24 1er Principio de la Termodinámica. Kelvin y Clausius. Ciclo de Carnot. Entropía. 1/4",
+      "duration": 1832
+    },
+    {
+      "id": "pgnrPdirimI",
+      "title": "Clase # 24 1er Principio de la Termodinámica. Kelvin y Clausius. Ciclo de Carnot. Entropía. 2/4",
+      "duration": 1805
+    },
+    {
+      "id": "D_J8RJ3tP-Q",
+      "title": "Clase # 24 1er Principio de la Termodinámica. Kelvin y Clausius. Ciclo de Carnot. Entropía. 3/4",
+      "duration": 40
+    },
+    {
+      "id": "0FH7cGrWs-s",
+      "title": "Clase # 24 1er Principio de la Termodinámica. Kelvin y Clausius. Ciclo de Carnot. Entropía. 4/4",
+      "duration": 1824
+    },
+    {
+      "id": "V_hCFD-yr0M",
+      "title": "Clase # 25 Máquina Térmica. Ejemplos. 1/4",
+      "duration": 1808
+    },
+    {
+      "id": "611euyOB_NU",
+      "title": "Clase # 25 Máquina Térmica. Ejemplos. 2/4",
+      "duration": 1797
+    },
+    {
+      "id": "nf6yO4iNQiM",
+      "title": "Clase # 25 Máquina Térmica. Ejemplos. 3/4",
+      "duration": 143
+    },
+    {
+      "id": "HpmMt_jxrYc",
+      "title": "Clase # 25 Máquina Térmica. Ejemplos. 4/4",
+      "duration": 1546
+    }
+  ]
+}

@@ -3,48 +3,98 @@
   lecturer: Renzo Franco
   videos: "11"
   url: https://www.youtube.com/playlist?list=PLk5Bf41Vit0BdGF7ryPo7XrrMb4UDpH2w
+  description: >-
+    Un minicurso basado en *A Modern Approach to Quantum Mechanics* de Townsend:
+    empieza por los experimentos de Stern-Gerlach y sigue con el vector de
+    estado, la notación de Dirac y el operador de rotación. Incluye problemas
+    resueltos del libro. En español.
 - title: MIT 8.04 Quantum Physics I, Spring 2013
   channel: MIT OpenCourseWare
   lecturer: Allan Adams
   videos: "25"
   url: https://www.youtube.com/playlist?list=PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr
+  description: >-
+    El primer curso de mecánica cuántica del MIT en clases completas:
+    superposición, función de onda, ecuación de Schrödinger, oscilador armónico,
+    dispersión, momento angular, potenciales centrales, partículas idénticas,
+    redes periódicas y espín. En inglés.
 - title: MIT 8.04 Quantum Physics I, Spring 2016
   channel: MIT OpenCourseWare
   lecturer: Barton Zwiebach
   videos: "115"
   url: https://youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G
+  description: >-
+    El mismo curso del MIT en otra versión, partida en segmentos de un cuarto de
+    hora: linealidad y las bombas de Elitzur-Vaidman, paquetes de onda, estados
+    estacionarios y ligados, oscilador armónico, dispersión y resonancias, y
+    armónicos esféricos. En inglés.
 - title: Mecánica Cuántica
   channel: Entropía Negativa
   lecturer: Desconocido
   videos: "182"
   url: https://www.youtube.com/playlist?list=PLBMRQ0GOZVeVLYpDC7cBOjy_9g_mcnSZh
+  description: >-
+    Videos cortos que explican la mecánica cuántica concepto por concepto, desde
+    cero: postulados, probabilidades de la medida, operadores lineales y
+    unitarios, efecto túnel, paquetes de onda, oscilador armónico, operador
+    densidad y momento angular. En español.
 - title: "Curso 'Mecánica cuántica I'"
   channel: ""
   lecturer: Diego Gallego Mahecha
   videos: "65"
   url: https://www.youtube.com/playlist?list=PLDUN2fhgBC1_oLbWKwNw4tQlr5tpDGoU3
+  description: >-
+    Un curso universitario del formalismo moderno, basado en el libro de María
+    Carolina Spinel: de la vieja mecánica cuántica a operadores y observables,
+    representaciones de posición y momento, espín, incertidumbre, oscilador
+    armónico, teorema de Ehrenfest y suma de momentos angulares. En español.
 - title: Curso de Mecánica Cuántica
   channel: Fisico del Mal
   lecturer: Javier Díaz García
   videos: "42"
   url: https://youtube.com/playlist?list=PLLKYEqxsYB_cP2-dMUmn_ISU2kuG7YsSq
-- title: Mini curso de Mecánica Cuántica
+  description: >-
+    Una introducción para principiantes que solo pide matemática de secundaria y
+    llega al formalismo de espacios de Hilbert: estados y operadores,
+    incertidumbre, matriz densidad, evolución temporal, pozo infinito, oscilador
+    armónico con operadores y momento angular. En español.
+- title: Mecánica cuántica a lo Feynman
   channel: ""
   lecturer: Javier Garcia
   videos: "52"
   url: https://youtube.com/playlist?list=PLAnA8FVrBl8DwNkN_3f_vahmE0PHjBWQM
+  description: >-
+    Mecánica cuántica por el camino de Feynman, para quien no sabe nada de
+    cuántica: parte de la acción mínima y las integrales gaussianas, deduce la
+    ecuación de Schrödinger de la integral de camino y llega a espacios de
+    Hilbert, conmutadores y espín. En español.
 - title: Introducción a la Mecánica Cuántica
   channel: MathArg
   lecturer: Agustín Besteiro
   videos: "254"
   url: https://www.youtube.com/playlist?list=PLTef2OIG6VtJTyRqYxbhBPhbwuSiO1u1D
+  description: >-
+    Más de 250 videos que cubren un curso completo: sistemas y mediciones,
+    observables, estados estacionarios, interpretación estadística, átomo de
+    hidrógeno, sólidos, teoría de perturbaciones, aproximación WKB y
+    aproximación adiabática. En español.
 - title: Quantum Theory Lectures
   channel: ""
   lecturer: Alexander Maloney
   videos: "24"
   url: https://www.youtube.com/playlist?list=PLrbYZnU7vahIbplgN1YwOmpmlTh-cRJZ5
+  description: >-
+    Un curso de posgrado para después de un primer curso: simetrías y operadores
+    unitarios, integrales de camino y efecto Aharonov-Bohm, WKB,
+    entrelazamiento, inversión temporal, representaciones del grupo de Lorentz y
+    ecuación de Dirac. En inglés.
 - title: Curso de Mecánica Cuántica
   channel: ""
-  lecturer: Ramon Castillo Bastos
+  lecturer: Ramon Carrillo Bastos
   videos: "58"
   url: https://www.youtube.com/playlist?list=PL4i6Jlnz3GWUbvwKsCswdi7myRV8RjR8U
+  description: >-
+    Un curso universitario que empieza por el álgebra lineal (espacios duales,
+    notación de Dirac, operadores y valores propios) y sigue con Stern-Gerlach,
+    dinámica cuántica, simetrías, oscilador armónico, átomo de hidrógeno y
+    teoría de perturbaciones. En español.

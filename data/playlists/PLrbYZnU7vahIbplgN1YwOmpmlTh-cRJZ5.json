@@ -1,0 +1,129 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Quantum Theory Lectures",
+  "channel": "Alexander Maloney",
+  "description": "",
+  "updated": "2014-12-08",
+  "lessons": [
+    {
+      "id": "AoJ8NGImz2A",
+      "title": "Quantum Theory, Lecture 1: Introduction. Quantum Kinematics. Hilbert Spaces. Bras and Kets.",
+      "duration": 4902
+    },
+    {
+      "id": "uQ-Mma-PROw",
+      "title": "Quantum Theory, Lecture 2: Linear Algebra. Operators and Observables.",
+      "duration": 4737
+    },
+    {
+      "id": "WvP3QhwPMGk",
+      "title": "Quantum Theory, Lecture 3: Unitary Operators and Symmetries. The Problem of Quantization.",
+      "duration": 4515
+    },
+    {
+      "id": "hMdn4xn-zt0",
+      "title": "Quantum Theory, Lecture 4: Wave Functions, Uncertainty Relation.",
+      "duration": 4930
+    },
+    {
+      "id": "mMVgzmEeI94",
+      "title": "Quantum Theory, Lecture 4.5: Time Evolution Operator. Dyson Series. Time-Ordered Exponential.",
+      "duration": 4936
+    },
+    {
+      "id": "t0JqZ9IGYzY",
+      "title": "Quantum Theory, Lecture 5: Schrodinger Equation. Hamilton-Jacobi Equation. Path Integrals.",
+      "duration": 4873
+    },
+    {
+      "id": "2KQnhePXrhQ",
+      "title": "Quantum Theory, Lecture 6: Path Integrals. Propagators. Aharonov-Bohm Effect.",
+      "duration": 4950
+    },
+    {
+      "id": "PmYgaZTvQxg",
+      "title": "Quantum Theory, Lecture 7: Harmonic Oscillator. Raising and Lowering Operators. Coherent States.",
+      "duration": 4976
+    },
+    {
+      "id": "mlUu-YCYTVE",
+      "title": "Quantum Theory, Lecture 8: WKB Approximation. Bohr-Sommerfeld Quantization. Euclidean Time.",
+      "duration": 4887
+    },
+    {
+      "id": "Bt3ee7LkYxY",
+      "title": "Quantum Theory, Lecture 9: Quantum Statistical Mechanics. Density Matrices. Ensembles.",
+      "duration": 4725
+    },
+    {
+      "id": "yGoErWlZ_Tk",
+      "title": "Quantum Theory, Lecture 10: Entanglement. Tensor Products. Measurement.",
+      "duration": 5054
+    },
+    {
+      "id": "qn314CUUq44",
+      "title": "Quantum Theory, Lecture 11: Von Neumann Entropy. Canonical Ensemble. Bose-Einstein & Fermi-Dirac.",
+      "duration": 4774
+    },
+    {
+      "id": "5rBRI1SGvU8",
+      "title": "Quantum Theory, Lecture 12: Bose-Einstein Condensate. Euclidean Time Formalism.",
+      "duration": 4889
+    },
+    {
+      "id": "vdDC2cn3AlY",
+      "title": "Quantum Theory, Lecture 13: Symmetries. Groups & Representations. Parity. Identical Particles.",
+      "duration": 4845
+    },
+    {
+      "id": "3VE0FZdYGAc",
+      "title": "Quantum Theory, Lecture 14: Time Reversal. Anti-Unitary Operators. Lattice Symmetry. Band Structure.",
+      "duration": 4801
+    },
+    {
+      "id": "eX4O-ZWJm-Y",
+      "title": "Quantum Theory, Lecture 15: Continuous Symmetries. Lie Groups & Algebras. Angular Momentum.",
+      "duration": 4828
+    },
+    {
+      "id": "ibR7HNuLTMY",
+      "title": "Quantum Theory, Lecture 16: Angular Momentum. Spin. Representations of SU(2).",
+      "duration": 4975
+    },
+    {
+      "id": "xe-r9fwGhzU",
+      "title": "Quantum Theory, Lecture 17: Representations of SU(2). Galilean Boost Invariance.",
+      "duration": 4815
+    },
+    {
+      "id": "iMfO4BDgfM8",
+      "title": "Quantum Theory, Lecture 18: Representations of the Lorentz Group. Spinors.",
+      "duration": 4974
+    },
+    {
+      "id": "fYTpjwpv3l4",
+      "title": "Quantum Theory, Lecture 19: Spinors. Poincare Group. Time-Dependent Perturbation Theory.",
+      "duration": 4747
+    },
+    {
+      "id": "TyoSw6hvaVQ",
+      "title": "Quantum Theory, Lecture 20: Interaction Picture. Dyson Series. Fermi's Golden Rule.",
+      "duration": 4389
+    },
+    {
+      "id": "-yKwHvAWMT8",
+      "title": "Quantum Theory, Lecture 21: Relativistic Quantum Mechanics. The Need for Quantum Field Theory.",
+      "duration": 4795
+    },
+    {
+      "id": "zZ2975Ui26w",
+      "title": "Quantum Theory, Lecture 24: Dirac Equation. Dirac Sea. Magnetic Moment of the Electron.",
+      "duration": 4810
+    },
+    {
+      "id": "Ol95pLKOBJI",
+      "title": "Quantum Theory, Lecture 25: Quantum Computing. Quantum Cryptography. Deutsch's Algorithm.",
+      "duration": 4509
+    }
+  ]
+}

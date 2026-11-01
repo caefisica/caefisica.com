@@ -1,8 +1,15 @@
-- title: "Physics I: Classical Mechanics"
-  channel: MIT OpenCourseWare
+- title: "8.01x Physics I: Classical Mechanics"
+  channel: Lectures by Walter Lewin
   lecturer: Walter Lewin
   videos: "40"
   url: https://www.youtube.com/playlist?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e
+  description: >-
+    Las clases de mecánica de Walter Lewin en el MIT, en su versión 8.01x:
+    vectores, leyes de Newton, rozamiento, momento lineal, torque, rodadura y
+    giróscopos, fluidos, movimiento armónico simple y teoría cinética de los
+    gases, con repasos de examen. La descripción de cada clase enlaza notas y
+    problemas resueltos. Los últimos cuatro videos son de otros canales. En
+    inglés.
 - title: Mecánica
   channel: ""
   lecturer: Cesar Antonio Izquierdo

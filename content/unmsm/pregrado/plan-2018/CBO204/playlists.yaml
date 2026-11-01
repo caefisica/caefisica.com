@@ -8,6 +8,11 @@
   lecturer: Grant Sanderson
   videos: "12"
   url: https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr
+  description: >-
+    Doce videos animados que construyen la intuición del cálculo: qué es una
+    derivada, las reglas de derivación vistas geométricamente, el número e,
+    límites, el teorema fundamental y las series de Taylor. Acompañan el curso;
+    no reemplazan los ejercicios. En inglés.
 - title: Single Variable Calculus
   channel: MIT OpenCourseWare
   lecturer: Prof. David Jerison
@@ -18,8 +23,8 @@
   lecturer: Félix López
   videos: "603"
   url: https://youtube.com/playlist?list=PL9SnRnlzoyX39hvLuyYgFEIdCXFXI3xaU
-- title: Curso de Calculo Integral
-  channel: ""
-  lecturer: José Alejandro Lopez Rentería
-  videos: "119"
-  url: https://youtube.com/playlist?list=PLrRyf2WHbKIu6Vz3eAwXW7cWtLwCBSpMg
+  description: >-
+    Cientos de integrales resueltas paso a paso y ordenadas por técnica:
+    inmediatas, cambio de variable, por partes, trigonométricas, sustitución
+    trigonométrica, sustitución de Weierstrass, definidas e impropias. Empieza
+    con un formulario en PDF. En español.

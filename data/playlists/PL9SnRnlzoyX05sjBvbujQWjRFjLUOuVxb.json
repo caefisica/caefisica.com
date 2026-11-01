@@ -1,0 +1,319 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Funciones",
+  "channel": "MateFacil",
+  "description": "En esta lista agregaré lo referente a las funciones, temas tales como: suma, resta, multiplicación, división, composición, gráfica, dominio, rango, definición, inyectiva, suprayectiva, biyectiva, etc.",
+  "updated": "2025-06-11",
+  "lessons": [
+    {
+      "id": "B18YqdjSkO0",
+      "title": "01. ¿Qué es una Función? (Funciones, relaciones, producto cartesiano)",
+      "duration": 904
+    },
+    {
+      "id": "5p1lVIPAg4Y",
+      "title": "02. Determinar si el conjunto es una función o una relación",
+      "duration": 331
+    },
+    {
+      "id": "vnErR5Cfjd4",
+      "title": "03. Determinar si la gráfica representa una función o una relación",
+      "duration": 235
+    },
+    {
+      "id": "_VN91cSccGU",
+      "title": "04. Valor de una función polinomial",
+      "duration": 690
+    },
+    {
+      "id": "Ql2-I0BM-_c",
+      "title": "05. Valor de una función racional",
+      "duration": 401
+    },
+    {
+      "id": "brnvpK7Yo7c",
+      "title": "06. Valor de una función con raíz cuadrada",
+      "duration": 339
+    },
+    {
+      "id": "7MuGuKx8dwI",
+      "title": "07. Valor de una función con valor absoluto",
+      "duration": 361
+    },
+    {
+      "id": "5ETOVpzvedM",
+      "title": "FUNCIONES: Gráfica, Dominio, Imagen o Rango, ceros, intersecciones, crecimiento y decrecimiento",
+      "duration": 913
+    },
+    {
+      "id": "6aUZR7XSAKw",
+      "title": "12. FUNCIONES: Muchos ejercicios resueltos en UN VIDEO",
+      "duration": 6219
+    },
+    {
+      "id": "jP1mSfUqpxw",
+      "title": "Operaciones con funciones (Suma, resta, multiplicación y división) (Ejemplo 1)",
+      "duration": 422
+    },
+    {
+      "id": "gy8VcUxPu3g",
+      "title": "Operaciones con funciones (Suma, resta, multiplicación y división) (Ejemplo 2)",
+      "duration": 332
+    },
+    {
+      "id": "Qw9GTgSv_94",
+      "title": "Composición de funciones (Método fácil) (Ejemplo 1)",
+      "duration": 275
+    },
+    {
+      "id": "BO1QOMVTweM",
+      "title": "Composición de funciones (Método fácil) (Ejemplo 2)",
+      "duration": 287
+    },
+    {
+      "id": "XeluJDX1cZQ",
+      "title": "Composición de funciones (Método fácil) (Ejemplo 3)",
+      "duration": 622
+    },
+    {
+      "id": "5fKLyBiCpB4",
+      "title": "Composición de funciones (Método fácil) gof(5)",
+      "duration": 307
+    },
+    {
+      "id": "joMdfl6r_sA",
+      "title": "Ejercicio de razonamiento: Encontrar el valor de la función dada",
+      "duration": 312
+    },
+    {
+      "id": "-rk2FbM0eB8",
+      "title": "Composición de funciones (Método fácil) evaluada en un punto: fog(3), gof(0)",
+      "duration": 275
+    },
+    {
+      "id": "e3oDHA-rDwQ",
+      "title": "Composición de funciones (Método fácil) y sus dominios",
+      "duration": 265
+    },
+    {
+      "id": "MUON3VNjXX8",
+      "title": "Composición de funciones (Método fácil) Con logaritmo natural ln EJERCICIO RESUELTO",
+      "duration": 342
+    },
+    {
+      "id": "jPFsNI7i3w4",
+      "title": "Composición de funciones, elevada al cuadrado, ejemplo resuelto",
+      "duration": 117
+    },
+    {
+      "id": "9q7oMH0vTrI",
+      "title": "COMPOSICIÓN DE FUNCIONES, 2, 3, 4, funciones, MUY FÁCIL",
+      "duration": 500
+    },
+    {
+      "id": "TzVZI4DX_Sg",
+      "title": "Composición de funciones con raíz cuadrada, división y potencia, paso a paso",
+      "duration": 657
+    },
+    {
+      "id": "t9AGy_f1qjY",
+      "title": "Dominio de una función racional (cociente, division entre polinomios)",
+      "duration": 480
+    },
+    {
+      "id": "-0YodC-f28Y",
+      "title": "Cómo encontrar el Dominio de una función con raíz cuadrada EXPLICADO PASO A PASO DESDE CERO",
+      "duration": 346
+    },
+    {
+      "id": "3fVj_uJoXCQ",
+      "title": "Dominio de una función con división y raíz cuadrada",
+      "duration": 337
+    },
+    {
+      "id": "Ddrh7Fb2sew",
+      "title": "La composición de funciones suprayectivas es suprayectiva (demostración)",
+      "duration": 544
+    },
+    {
+      "id": "XRLR9iBRTps",
+      "title": "Función par e impar, definición, ejemplos, gráficas y simetrías.",
+      "duration": 1166
+    },
+    {
+      "id": "1IYvfD4_yfs",
+      "title": "Determinar si es función par, impar, o ninguna de las dos (CON GRÁFICAS)",
+      "duration": 1216
+    },
+    {
+      "id": "4rKpmKutwqs",
+      "title": "Determinar la función racional que pasa por un punto, y que tiene una indeterminación",
+      "duration": 244
+    },
+    {
+      "id": "aYveYqC24pk",
+      "title": "Resolver una función para x, dado un cierto valor",
+      "duration": 94
+    },
+    {
+      "id": "f121hzxnCVc",
+      "title": "Evaluar una expresión dentro de una función",
+      "duration": 194
+    },
+    {
+      "id": "_TmeDOESIkU",
+      "title": "Operaciones con funciones, encontrar h dadas f y g",
+      "duration": 171
+    },
+    {
+      "id": "lbBkrLqgs5Q",
+      "title": "Encontrar función exponencial a partir de valores de la función",
+      "duration": 389
+    },
+    {
+      "id": "UnnxJ12PE6Q",
+      "title": "Encontrar una función exponencial a partir de una gráfica",
+      "duration": 284
+    },
+    {
+      "id": "tiqYlYPxGas",
+      "title": "Calcular las constantes para que sea función continua, clase C^2",
+      "duration": 444
+    },
+    {
+      "id": "3IOH86jhrpc",
+      "title": "Demostración usando Teorema de Rolle, y teorema de valor intermedio",
+      "duration": 1045
+    },
+    {
+      "id": "SBSDL7JcE-0",
+      "title": "¿Cómo se Representan Las SOLUCIONES IMAGINARIAS? - Intersecciones de la parábola",
+      "duration": 666
+    },
+    {
+      "id": "3vCkDY4LnJk",
+      "title": "Máximos y mínimos, Locales y Absolutos, y Teorema de Valor Extremo EXPLICACIÓN COMPLETA",
+      "duration": 1654
+    },
+    {
+      "id": "zpVCw1Ulo6w",
+      "title": "Máximo y Mínimo absolutos de una Función en un intervalo Cerrado (Teorema de Valor Extremo)",
+      "duration": 370
+    },
+    {
+      "id": "K5j-t456V04",
+      "title": "Máximo y Mínimo absolutos de una Función con raíz cúbica (Teorema de Valor Extremo)",
+      "duration": 475
+    },
+    {
+      "id": "zz6jHQn2msg",
+      "title": "27. Encontrar los valores de una funcion a partir de su Gráfica, dominio y rango",
+      "duration": 389
+    },
+    {
+      "id": "pQwziXE_ytg",
+      "title": "28. Calcular las operaciones con Funciones (Cociente de diferencias) y simplificar",
+      "duration": 232
+    },
+    {
+      "id": "o0l59wSySeA",
+      "title": "29. Determinar el Dominio de las Funciones MUCHOS EJEMPLOS: raíz cuadrada, cúbica, división, etc",
+      "duration": 613
+    },
+    {
+      "id": "zARhSabxZBA",
+      "title": "30. Transformaciones de Gráfica de Función: Reflexión, desplazamiento, compresión, estiramiento",
+      "duration": 505
+    },
+    {
+      "id": "JWK099TC0aQ",
+      "title": "31. Realizar Gráfica de Funciones, usando transformaciones en el plano: Reflexión, traslación, etc",
+      "duration": 1107
+    },
+    {
+      "id": "2aO-Ch6c2B0",
+      "title": "32. Gráfica de Función definida a trozos (función definida por partes)",
+      "duration": 360
+    },
+    {
+      "id": "Q9KlhXeFTMk",
+      "title": "33. Composicion de Funciones, PASO A PASO",
+      "duration": 349
+    },
+    {
+      "id": "4TQ-kdNgZto",
+      "title": "01. ¿Son iguales estas funciones? CUIDADO AL SIMPLIFICAR!",
+      "duration": 499
+    },
+    {
+      "id": "ASLxd67kKRY",
+      "title": "02. DOMINIO Y RANGO a partir de Gráfica - Estudiar la gráfica de la función",
+      "duration": 462
+    },
+    {
+      "id": "sQu0Z2ew9e4",
+      "title": "💎 02. DOMINIO Y RANGO a partir de Gráfica - Estudiar la gráfica de la función",
+      "duration": 268
+    },
+    {
+      "id": "WLgHCvtPNKk",
+      "title": "03. Indicar si la gráfica representa una función",
+      "duration": 469
+    },
+    {
+      "id": "OBbdY4MFGGM",
+      "title": "04. Interpretar las Gráficas de Temperatura Global del Planeta y el tamaño de anillos de Árboles",
+      "duration": 656
+    },
+    {
+      "id": "jdrfJ03UezI",
+      "title": "💎 04. Interpretar las Gráficas para los corredores y el consumo de energía eléctrica",
+      "duration": 347
+    },
+    {
+      "id": "2LtFBAtlQds",
+      "title": "05. Calcular los valores de la función indicados",
+      "duration": 582
+    },
+    {
+      "id": "gK5o46Cp6XU",
+      "title": "06. Encontrar una Función que calcule la cantidad de Aire necesaria para inflar el globo",
+      "duration": 300
+    },
+    {
+      "id": "K_jzWTZ99EI",
+      "title": "07. Evaluar el Cociente de Diferencias y Simplificar",
+      "duration": 355
+    },
+    {
+      "id": "fKbngUgcCDY",
+      "title": "08. Dominio de Función, Cociente o división de Polinomios (Función racional)",
+      "duration": 342
+    },
+    {
+      "id": "QbLDxeGhSBg",
+      "title": "09. Dominio de Función con Raíz Cúbica (incluye caso con División)",
+      "duration": 321
+    },
+    {
+      "id": "ixIlLcdU6Z8",
+      "title": "10. Dominio de Raíz Cuadrada, Raíz Cuarta, etc",
+      "duration": 375
+    },
+    {
+      "id": "kTvXYuK5REU",
+      "title": "11. Dominio de Resta de Raíces Cuadradas",
+      "duration": 246
+    },
+    {
+      "id": "BZhN5OO0atg",
+      "title": "12. Dominio de función con Raíz cuadrada y división (Raíz en denominador)",
+      "duration": 520
+    },
+    {
+      "id": "z3MArKA-yBw",
+      "title": "Encontrar los Valores de a y b para sea Continua - Función a Trozos",
+      "duration": 476
+    }
+  ]
+}

@@ -13,6 +13,7 @@ content/
 ├── apuntes/<tema>/                    apuntes por tema
 ├── blog/<NNN-nombre>/index.md         entradas del blog
 ├── investigadores/<slug>/index.md     físicos peruanos y sus trayectorias
+├── videos/_content.gotmpl             una página por lista de los playlists.yaml
 ├── professors/<slug>/index.md         docentes
 ├── contributors/<slug>/_index.md      colaboradores; el índice es /equipo/
 ├── contacto/, privacidad/

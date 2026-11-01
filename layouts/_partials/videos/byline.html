@@ -1,0 +1,7 @@
+{{- /* A channel named after its lecturer ("Lectures by Walter Lewin") repeats the name, so it is left out. */ -}}
+{{- $by := slice -}}
+{{- with .Params.lecturer }}{{ $by = $by | append . }}{{ end -}}
+{{- with .Params.channel -}}
+	{{- if not (and $.Params.lecturer (strings.Contains (lower .) (lower $.Params.lecturer))) }}{{ $by = $by | append . }}{{ end -}}
+{{- end -}}
+{{- return delimit $by " · " -}}

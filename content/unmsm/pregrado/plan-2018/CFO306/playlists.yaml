@@ -3,28 +3,53 @@
   lecturer: Fernando Garzón
   videos: "20"
   url: https://www.youtube.com/playlist?list=PLrzzpUO1QeKqG-wbR1aEb9mkEFl6UyNji
+  description: >-
+    Fortran para ciencia en GNU/Linux, desde el entorno de trabajo: tipos,
+    arreglos, condicionales, bucles, funciones, subrutinas y archivos. Sigue con
+    prácticas como una simulación de covid-19 y temas avanzados como datos
+    estructurados, cálculo vectorial y ray casting. En español.
 - title: Fortran Video Tutorials
   channel: ""
   lecturer: Cyprien Rusu
   videos: "11"
   url: https://www.youtube.com/playlist?list=PLvkU6i2iQ2fprrVmmkNP_V36mh0BMnS5L
+  description: >-
+    Once tutoriales cortos para empezar con Fortran: variables, aritmética,
+    condicionales, bucles, archivos de texto, precisión, arreglos, formato de
+    salida y subrutinas. En inglés.
 - title: Fortran ejercicios
   channel: Eletorres
   lecturer: Luis Torres
   videos: "20"
   url: https://www.youtube.com/playlist?list=PLJCOP7K8-ts3GaYeAw-ynfoZxqdFqA797
-- title: Metodos númericos en Fortran
+  description: >-
+    Fortran 77 en Windows paso a paso: instalación, variables, operaciones,
+    bucles DO, matrices y lectura de archivos, con ejercicios como la sucesión
+    de Fibonacci y los números primos. En español.
+- title: Física computacional con Fortran
   channel: ""
   lecturer: Claudio Canales D.
   videos: "6"
   url: https://youtube.com/playlist?list=PLppzU9a2axuRXD4idiiicGb3dSS_F8adN
+  description: >-
+    Seis videos para empezar: instalar Fortran en Windows o usarlo desde la
+    terminal de Ubuntu, los primeros programas y un fractal de Mandelbrot. En
+    español.
 - title: Física Computacional I
   channel: ""
   lecturer: Prof. Francisco Moura
   videos: "40"
   url: https://www.youtube.com/playlist?list=PLCWOBtltrHovcMBoapQp7NfmsUyu0YRwc
-- title: Métodos númericos en Fortran
+  description: >-
+    Un curso de física computacional en Fortran: el mapa logístico, derivación e
+    integración numérica, números aleatorios y caminata aleatoria, histogramas,
+    interpolación y gráficos con xmgrace. En portugués.
+- title: Métodos numéricos I
   channel: ""
   lecturer: TheMarcosVerissimo
   videos: "71"
   url: https://youtube.com/playlist?list=PLPKxl5s4bNYxgeedSZy_5V_eB2NssC-7u
+  description: >-
+    El curso de Métodos Numéricos I de la UFF (Brasil) en videos cortos: Fortran
+    90 desde cero, representación de números en punto flotante, errores
+    numéricos, arreglos, módulos y eliminación de Gauss. En portugués.

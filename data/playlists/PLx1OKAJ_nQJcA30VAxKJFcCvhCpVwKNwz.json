@@ -1,0 +1,24 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Teoría de conjuntos",
+  "channel": "Rodrigo Hernandez-Gutierrez",
+  "description": "Desafortunadamente mi clase se canceló así que sólo tengo 3 videos.",
+  "updated": "2021-11-26",
+  "lessons": [
+    {
+      "id": "VHI_6cCubs4",
+      "title": "[Teoria de conjuntos] 01. Introducción y axiomas de Peano",
+      "duration": 5788
+    },
+    {
+      "id": "1cPTVDxQq08",
+      "title": "[Teoria de conjuntos] 02. Orden en los naturales, números naturales como conjuntos",
+      "duration": 3436
+    },
+    {
+      "id": "Se-5wzU4CNA",
+      "title": "[Teoria de conjuntos] 03. Equipotencia, conjuntos numerables",
+      "duration": 2645
+    }
+  ]
+}

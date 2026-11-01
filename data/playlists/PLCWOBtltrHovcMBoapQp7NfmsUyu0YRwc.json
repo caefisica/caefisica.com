@@ -1,0 +1,329 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Física Computacional 1",
+  "channel": "Prof. Francisco Moura",
+  "description": "",
+  "updated": "2025-02-01",
+  "lessons": [
+    {
+      "id": "6uDBCbq9V7M",
+      "title": "Física computacional 1 (V1)- Introdução básica para iniciantes (parte 1)",
+      "duration": 1272
+    },
+    {
+      "id": "1XMUeYQPRf0",
+      "title": "Física computacional 1 - Introdução (programa em C para realizar muitas tarefas matemáticas)",
+      "duration": 667
+    },
+    {
+      "id": "ccKMHkNNCWY",
+      "title": "Física computacional 1 (V2)-Introdução geral (p2)",
+      "duration": 612
+    },
+    {
+      "id": "xpCvK57hLc0",
+      "title": "Física Computacional 1 (V3)-Introdução geral : cálculo da função exponencial usando Taylor",
+      "duration": 668
+    },
+    {
+      "id": "Y3pRN_pqkRo",
+      "title": "Física computacional 1 - Introdução : cálculo da função exponencial usando Taylor (em fortran)",
+      "duration": 402
+    },
+    {
+      "id": "mFID_tv-y5g",
+      "title": "Física Computacional 1 (V4)- Introdução geral : o mapa logístico",
+      "duration": 866
+    },
+    {
+      "id": "sLNYoeY7-Q4",
+      "title": "Física Computacional 1 - Introdução Geral (p5)",
+      "duration": 959
+    },
+    {
+      "id": "RLBUa1dGOEg",
+      "title": "Física Computacional 1 - Introdução geral parte 6 - Calculando a curva média de tabela de dados",
+      "duration": 1067
+    },
+    {
+      "id": "8E8qNwoMQYg",
+      "title": "Física computacional 1 - Introdução aos mapas de Ricker e de Verhulst",
+      "duration": 612
+    },
+    {
+      "id": "o7VKRYhxN6k",
+      "title": "Física Computacional 1 - O caminhante aleatório clássico - Parte 2",
+      "duration": 440
+    },
+    {
+      "id": "hc4i9j1QSZA",
+      "title": "Física computacional 1 - Introdução geral (exemplos gerais para treinar programação em C)",
+      "duration": 825
+    },
+    {
+      "id": "gPuLyTYixhc",
+      "title": "Física computacional 1 - Exemplo de programa em fortran básico: achar máximo e mínimo de função",
+      "duration": 461
+    },
+    {
+      "id": "ghMXH2GRRZ4",
+      "title": "Física computacional 1 - Introdução (entendendo \"loops\")",
+      "duration": 622
+    },
+    {
+      "id": "Xo41RBWxuf0",
+      "title": "Física computacional 1 - informações gerais sobre programas em fortran (77 e 90)",
+      "duration": 223
+    },
+    {
+      "id": "v79S5g-QRzw",
+      "title": "Física Computacional 1 (V5)- Números complexos em C (introdução geral)",
+      "duration": 503
+    },
+    {
+      "id": "Kcfa0Pv9AA8",
+      "title": "Física Computacional 1 - Números complexos em Fortran(P1)",
+      "duration": 574
+    },
+    {
+      "id": "9YZoOfIspF4",
+      "title": "Física Computacional 1 - Números complexos em Fortran (P2)",
+      "duration": 546
+    },
+    {
+      "id": "FHcvjP_X5_k",
+      "title": "Física Computacional 1 (V6)-Derivada numérica",
+      "duration": 560
+    },
+    {
+      "id": "_Sfa4DX8cnM",
+      "title": "Física Computacional 1 (V7)-Derivada numérica (continuação).",
+      "duration": 439
+    },
+    {
+      "id": "jifsNK5c-cg",
+      "title": "Física Computacional 1 (V9) - derivada numérica de uma tabela dados (ATENÇÃO: olhar descrição)",
+      "duration": 691
+    },
+    {
+      "id": "dITtDk868Hk",
+      "title": "Física Computacional 1 (V8) - Integração numérica!",
+      "duration": 552
+    },
+    {
+      "id": "evFC8WnDCOA",
+      "title": "Física Computacional 1 - Integração numérica da função f(x)=x^2 de x=0 até 1 (respondendo alunos)",
+      "duration": 697
+    },
+    {
+      "id": "5O5FgP8OECc",
+      "title": "Física Computacional 1 (V10)- integração numérica de uma tabela de dados! (exemplo)",
+      "duration": 725
+    },
+    {
+      "id": "zFDBfBbw6Pg",
+      "title": "Física computacional 1 - Mais algumas informações sobre integração numérica em fortran",
+      "duration": 670
+    },
+    {
+      "id": "Vos2bEnpI1I",
+      "title": "Física computacional 1 - Integral dupla (solução numérica, programa em C)",
+      "duration": 657
+    },
+    {
+      "id": "mYKEX37L1yk",
+      "title": "Física computacional 1 (V11)-Introdução aos números aleatórios(em C e Fortran)",
+      "duration": 1350
+    },
+    {
+      "id": "MPIagsnFz4Y",
+      "title": "Física computacional 1 - Introdução aos números aleatórios (C e Fortran)- Sobre a semente do gerador",
+      "duration": 556
+    },
+    {
+      "id": "xAgESKuiJ-o",
+      "title": "Física computacional 1 - Gerando números aleatórios com distribuição P(x)=Cx^n",
+      "duration": 461
+    },
+    {
+      "id": "O2es-CKkLYw",
+      "title": "Física computacional 1 - Geradores congruentes lineares (números pseudoaleatórios) - Exemplo básico",
+      "duration": 466
+    },
+    {
+      "id": "NVdrQBaue1Q",
+      "title": "Física Computacional 1 (V12) - Número aleatórios com distribuição Gaussiana",
+      "duration": 737
+    },
+    {
+      "id": "fu6_6yAjqu4",
+      "title": "Física Computacional 1 (V14)- Números aleatórios : cálculo da função de autocorrelação",
+      "duration": 746
+    },
+    {
+      "id": "xlmLYG6xYS8",
+      "title": "Física computacional 1 - números aleatórios com distribuição Lorentziana",
+      "duration": 456
+    },
+    {
+      "id": "BCXzAQkTcIo",
+      "title": "Física computacional 1 - Exemplos de séries de números aleatórios normalizadas",
+      "duration": 1233
+    },
+    {
+      "id": "Em7kq7d9GcU",
+      "title": "Física Computacional 1 (V13) - Números aleatórios com distribuição Gaussiana : histograma",
+      "duration": 596
+    },
+    {
+      "id": "4iHxIxhr-48",
+      "title": "Física computacional 1 - o histograma normalizado (respondendo alunos(as))",
+      "duration": 759
+    },
+    {
+      "id": "NMZgWHF4oS0",
+      "title": "Física computacional 1 - histograma normalizado de séries de números aleatórios",
+      "duration": 1344
+    },
+    {
+      "id": "_bAzbBAQzL0",
+      "title": "Física Computacional 1 - O caminhante aleatório clássico - Parte 1",
+      "duration": 1356
+    },
+    {
+      "id": "8fR4vH-U3Ig",
+      "title": "Física computacional (1 e 2)- Números aleatórios com correlações de Longo Alcance",
+      "duration": 996
+    },
+    {
+      "id": "o5mHM4vAvRU",
+      "title": "Física Computacional 1 (V17)- Desordem correlacionada e o cálculo da função de autocorrelação C(r)",
+      "duration": 960
+    },
+    {
+      "id": "I6pEkfWsm_I",
+      "title": "Física Computacional - alguns estudos sobre desordem correlacionada 1d",
+      "duration": 1016
+    },
+    {
+      "id": "O9rXGIjX7wY",
+      "title": "Física computacional 1- Sobre a normalização de séries com desordem correlacionada",
+      "duration": 445
+    },
+    {
+      "id": "f-fuSpHgbOo",
+      "title": "Física computacional 1 - Decomposição de Cholesky para Gerar Séries com Desordem Correlacionada V1",
+      "duration": 544
+    },
+    {
+      "id": "b0mLJc9XQd4",
+      "title": "Física computacional 1 - Decomposição de Cholesky para Gerar Séries com Desordem Correlacionada V2",
+      "duration": 733
+    },
+    {
+      "id": "C7rQqTywo8g",
+      "title": "Física computacional 1 - Decomposição de Cholesky para Gerar Séries com Desordem Correlacionada V3",
+      "duration": 966
+    },
+    {
+      "id": "Bi7pDFBKoPI",
+      "title": "Física computacional 1 (V 16) - Regressão linear (introdução)",
+      "duration": 924
+    },
+    {
+      "id": "I9v18iyleq4",
+      "title": "Física Computacional 1 (V15) - Interpolação linear e quadrática",
+      "duration": 879
+    },
+    {
+      "id": "jjbTzp6fnk4",
+      "title": "Física computacional 1 - média de diversas tabelas de dados (mais algumas informações)",
+      "duration": 425
+    },
+    {
+      "id": "_D3SHQAoGFs",
+      "title": "Cálculo da média de diversas tabelas de dados (Fis. Comp. 1, 2 e métodos numéricos da PPG)",
+      "duration": 1002
+    },
+    {
+      "id": "FI91xqbURY0",
+      "title": "Física computacional 1 - calculando curtose e skewness",
+      "duration": 274
+    },
+    {
+      "id": "nOdFv2-mvKY",
+      "title": "Física computacional (1 e 2) - Dicas de xmgrace : analisando tabela de dados no xmgrace",
+      "duration": 621
+    },
+    {
+      "id": "5fcnjoldyvg",
+      "title": "Física Computacional (1 e 2) - Dicas de xmgrace: como normalizar uma função usando o xmgrace",
+      "duration": 305
+    },
+    {
+      "id": "RG3Dtn0_JAc",
+      "title": "Física computacional (1 e 2 ) - Médias de dados da participação em função de k (mais exemplos)",
+      "duration": 491
+    },
+    {
+      "id": "pCpkz5wTCGg",
+      "title": "Física computacional (1 e 2) - médias de tabelas de dados de correlação temporal e participação",
+      "duration": 623
+    },
+    {
+      "id": "A3rDaYlyfZU",
+      "title": "Física computacional (1 e 2 ) - análise de escala da função participação em função de \"k\"",
+      "duration": 286
+    },
+    {
+      "id": "m7wuvt8ba1o",
+      "title": "Física computacional 1 - média de tabela de dados com 2 colunas (programa em C)",
+      "duration": 1363
+    },
+    {
+      "id": "_rmWK6mFbeA",
+      "title": "Física computacional 1 - Atividade de avaliação !",
+      "duration": 602
+    },
+    {
+      "id": "cSblo3pXLBA",
+      "title": "Física computacional (1 e 2) - mais dicas sobre médias de diversas tabelas de dados",
+      "duration": 516
+    },
+    {
+      "id": "YE3LCE-QdvE",
+      "title": "Física computacional 1 - histograma de dados diversos (programa em C)",
+      "duration": 1279
+    },
+    {
+      "id": "dyIXJV7ZiJc",
+      "title": "Física computacional 1 - normalização de séries aleatórias!",
+      "duration": 578
+    },
+    {
+      "id": "NhpB5Q-Ysj0",
+      "title": "Física computacional 1 - Exemplo básico (em C)",
+      "duration": 455
+    },
+    {
+      "id": "xgjAFXhJCmM",
+      "title": "Física computacional 1 - Exemplo envolvendo números aleatórios inteiros (em C)",
+      "duration": 565
+    },
+    {
+      "id": "k6hbPej1vd0",
+      "title": "Física computacional 1 - Solução da equação transcendental x+1=tan(x)",
+      "duration": 783
+    },
+    {
+      "id": "2kt4vlUhUzo",
+      "title": "Física computacional 1 - Solução da equação transcendental xe^x=2",
+      "duration": 662
+    },
+    {
+      "id": "nkw-AWgNruY",
+      "title": "Física computacional 1 - Desordem correlacionada em sistemas Quase-1D (códigos em c e python) - P2",
+      "duration": 155
+    }
+  ]
+}

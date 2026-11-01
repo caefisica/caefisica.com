@@ -1,0 +1,1274 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Introducción a la Mecánica Cuántica",
+  "channel": "MathArg",
+  "description": "",
+  "updated": "2018-08-20",
+  "lessons": [
+    {
+      "id": "_BVEdYiAvQ0",
+      "title": "1 Introducción a la Mecánica Cuántica - Sistemas y mediciones",
+      "duration": 857
+    },
+    {
+      "id": "mv7TCSGLlOc",
+      "title": "2 Introducción a la Mecánica Cuántica - Mediciones y promedios",
+      "duration": 312
+    },
+    {
+      "id": "HYDGCBgRIz8",
+      "title": "3 Introducción a la Mecánica Cuántica - Lógica y proposiciones en física clásica",
+      "duration": 812
+    },
+    {
+      "id": "-7MS4ItdtzM",
+      "title": "4 Introducción a la Mecánica Cuántica - Lógica y proposiciones en física cuántica",
+      "duration": 594
+    },
+    {
+      "id": "Ww-zh0VdJPw",
+      "title": "5 Introducción a la Mecánica Cuántica - Números complejos",
+      "duration": 387
+    },
+    {
+      "id": "FSUgRuJJWdc",
+      "title": "6 Introducción a la Mecánica Cuántica - Espacios vectoriales",
+      "duration": 536
+    },
+    {
+      "id": "eXUiQX994M8",
+      "title": "7 Introducción a la Mecánica Cuántica - Vectores Bra Ket y producto interno",
+      "duration": 728
+    },
+    {
+      "id": "oF-yJL06wsg",
+      "title": "8 Introducción a la Mecánica Cuántica - Base Ortonormal",
+      "duration": 567
+    },
+    {
+      "id": "jMERD3ttFKQ",
+      "title": "9 Introducción a la Mecánica Cuántica - Estados y vectores en mecánica cuántica",
+      "duration": 882
+    },
+    {
+      "id": "iNGjOs5q40I",
+      "title": "10 Introducción a la Mecánica Cuántica - Estados y Bases ortonormales",
+      "duration": 899
+    },
+    {
+      "id": "YdjQ0MGMBV8",
+      "title": "11 Introducción a la Mecánica Cuántica - Estados del spin como vectores columna",
+      "duration": 522
+    },
+    {
+      "id": "UEmwkXJ49X8",
+      "title": "12 Introducción a la Mecánica Cuántica - Operadores lineales de vectores",
+      "duration": 724
+    },
+    {
+      "id": "NmSQq41c1xc",
+      "title": "13 Introducción a la Mecánica Cuántica - Autovalores y autovectores",
+      "duration": 416
+    },
+    {
+      "id": "1NATYTeM1IY",
+      "title": "14 Introducción a la Mecánica Cuántica - Conjugación Hermítica",
+      "duration": 441
+    },
+    {
+      "id": "3VWXiCU_nNQ",
+      "title": "15 Introducción a la Mecánica Cuántica - Operadores Hermíticos",
+      "duration": 330
+    },
+    {
+      "id": "mzaBe2Xm50o",
+      "title": "16 Introducción a la Mecánica Cuántica - Operadores Hermíticos y Bases",
+      "duration": 454
+    },
+    {
+      "id": "npcbQxuyb9E",
+      "title": "17 Introducción a la Mecánica Cuántica - Método de Gram-Schmidt",
+      "duration": 265
+    },
+    {
+      "id": "35sVbrPYkyQ",
+      "title": "18 Introducción a la Mecánica Cuántica - Principios de la mecánica cuántica",
+      "duration": 654
+    },
+    {
+      "id": "Dj-xIXYsRJ0",
+      "title": "19 Introducción a la Mecánica Cuántica - Matrices de Pauli",
+      "duration": 892
+    },
+    {
+      "id": "eCkIggER5RM",
+      "title": "20 Introducción a la Mecánica Cuántica - Medición del Spin en cualquier dirección",
+      "duration": 346
+    },
+    {
+      "id": "S6c3GqOyoYE",
+      "title": "21 Introducción a la Mecánica Cuántica - Operador del Spin en el plano",
+      "duration": 879
+    },
+    {
+      "id": "JdTlvPbFH34",
+      "title": "22 Introducción a la Mecánica Cuántica - Operador temporal unitario",
+      "duration": 424
+    },
+    {
+      "id": "wZ38Yj8KBQQ",
+      "title": "23 Introducción a la Mecánica Cuántica - Ecuación de Schroedinger dependiente del tiempo",
+      "duration": 443
+    },
+    {
+      "id": "e52fz62xb14",
+      "title": "24 Introducción a la Mecánica Cuántica - Ecuación de Schroedinger y constante de Planck",
+      "duration": 199
+    },
+    {
+      "id": "kykr4GKEm60",
+      "title": "25 Introducción a la Mecánica Cuántica - Valor esperado",
+      "duration": 375
+    },
+    {
+      "id": "hu-xu6E59sA",
+      "title": "26 Introducción a la Mecánica Cuántica - Factor de fase",
+      "duration": 237
+    },
+    {
+      "id": "9gwtR1ECmHs",
+      "title": "27 Introducción a la Mecánica Cuántica - Conmutador y limite clásico",
+      "duration": 617
+    },
+    {
+      "id": "MPYWfjEX_hE",
+      "title": "28 Introducción a la Mecánica Cuántica - Leyes de conservación",
+      "duration": 141
+    },
+    {
+      "id": "Ip2ea5hpV30",
+      "title": "29 Introducción a la Mecánica Cuántica - Spin en un campo magnético",
+      "duration": 567
+    },
+    {
+      "id": "H_BJhlyTqXo",
+      "title": "30 Introducción a la Mecánica Cuántica - Ecuación de Schroedinger independiente del tiempo",
+      "duration": 624
+    },
+    {
+      "id": "PYdDSMuhr-g",
+      "title": "31 Introducción a la Mecánica Cuántica - Vector de estado dependiente del tiempo",
+      "duration": 511
+    },
+    {
+      "id": "CEkd14CWIMI",
+      "title": "32 Introducción a la Mecánica Cuántica - Vector de estado dependiente del tiempo ejemplo",
+      "duration": 893
+    },
+    {
+      "id": "uzJI5yGZChE",
+      "title": "33 Introducción a la Mecánica Cuántica - Estados que dependen de mas de un observable",
+      "duration": 450
+    },
+    {
+      "id": "YiUPsiAA5nE",
+      "title": "34 Introducción a la Mecánica Cuántica - Función de onda",
+      "duration": 406
+    },
+    {
+      "id": "T_LAWsm3hDQ",
+      "title": "35 Introducción a la Mecánica Cuántica - Conmutadores y Mediciones",
+      "duration": 459
+    },
+    {
+      "id": "esZFp-2xuX0",
+      "title": "36 Introducción a la Mecánica Cuántica - Observables y desviación estándar",
+      "duration": 606
+    },
+    {
+      "id": "TxAgS1EicT4",
+      "title": "37 Introducción a la Mecánica Cuántica - Desigualdad de Cauchy Schwarz",
+      "duration": 590
+    },
+    {
+      "id": "Yru-HOYAGPQ",
+      "title": "38 Introducción a la Mecánica Cuántica - Principio de incertidumbre general",
+      "duration": 888
+    },
+    {
+      "id": "dDwqrf5CguA",
+      "title": "39 Introducción a la Mecánica Cuántica - Producto tensorial",
+      "duration": 435
+    },
+    {
+      "id": "S00NfonrlZk",
+      "title": "40 Introducción a la Mecánica Cuántica - Correlación clásica",
+      "duration": 616
+    },
+    {
+      "id": "Oprk12OsVFs",
+      "title": "41 Introducción a la Mecánica Cuántica - Estado producto",
+      "duration": 602
+    },
+    {
+      "id": "hA-a353A2BU",
+      "title": "42 Introducción a la Mecánica Cuántica - Entrelazamiento cuántico",
+      "duration": 365
+    },
+    {
+      "id": "HeMR1ZK1Xj4",
+      "title": "43 Introducción a la Mecánica Cuántica - Observables y producto tensorial",
+      "duration": 464
+    },
+    {
+      "id": "hYx7Lf_3_QU",
+      "title": "44 Introducción a la Mecánica Cuántica - Spin y estado singlete",
+      "duration": 482
+    },
+    {
+      "id": "jfE_yU91iQQ",
+      "title": "45 Introducción a la Mecánica Cuántica - Correlación y estado singlete",
+      "duration": 807
+    },
+    {
+      "id": "JWScOslES2k",
+      "title": "46 Introducción a la Mecánica Cuántica - Spin y estado triplete",
+      "duration": 632
+    },
+    {
+      "id": "e39XOAVIu88",
+      "title": "47 Introducción a la Mecánica Cuántica - Estado singlete triplete y Hamiltoniano",
+      "duration": 886
+    },
+    {
+      "id": "A138FI6-pRY",
+      "title": "48 Introducción a la Mecánica Cuántica - Producto tensorial y producto de Kronecker",
+      "duration": 591
+    },
+    {
+      "id": "QMnVfu09HM4",
+      "title": "49 Introducción a la Mecánica Cuántica - Producto tensorial y producto de Kronecker ejemplo",
+      "duration": 363
+    },
+    {
+      "id": "M7AMOWKFrwE",
+      "title": "50 Introducción a la Mecánica Cuántica - Producto exterior y Proyector",
+      "duration": 477
+    },
+    {
+      "id": "0ikv8PoPrUc",
+      "title": "51 Introducción a la Mecánica Cuántica - Matriz densidad",
+      "duration": 433
+    },
+    {
+      "id": "dIdlQZM8r2E",
+      "title": "52 Introducción a la Mecánica Cuántica - Estados puros y mixtos",
+      "duration": 401
+    },
+    {
+      "id": "sMIo7A_v3d4",
+      "title": "53 Introducción a la Mecánica Cuántica - Matriz densidad ejemplo",
+      "duration": 314
+    },
+    {
+      "id": "syCI57udCgc",
+      "title": "54 Introducción a la Mecánica Cuántica - Matriz densidad propiedades",
+      "duration": 891
+    },
+    {
+      "id": "UDyyWvs7uKg",
+      "title": "55 Introducción a la Mecánica Cuántica - Matriz densidad estados mixtos y puros ejemplo",
+      "duration": 815
+    },
+    {
+      "id": "TUtFT2QPJl0",
+      "title": "56 Introducción a la Mecánica Cuántica - Test de correlación para entrelazamiento",
+      "duration": 185
+    },
+    {
+      "id": "RJG_SKI6SEs",
+      "title": "57 Introducción a la Mecánica Cuántica - Test de la matriz densidad para entrelazamiento",
+      "duration": 743
+    },
+    {
+      "id": "GRDHsdIeu_A",
+      "title": "58 Introducción a la Mecánica Cuántica - Proceso de la medición",
+      "duration": 644
+    },
+    {
+      "id": "M1l0_YVFiGQ",
+      "title": "59 Introducción a la Mecánica Cuántica - Entrelazamiento y localidad",
+      "duration": 560
+    },
+    {
+      "id": "73YJhIj1naA",
+      "title": "60 Introducción a la Mecánica Cuántica - Funciones como vectores",
+      "duration": 887
+    },
+    {
+      "id": "z68ZOLB3tVg",
+      "title": "61 Introducción a la Mecánica Cuántica - Delta de Dirac",
+      "duration": 292
+    },
+    {
+      "id": "bLdoIhkTq1Q",
+      "title": "62 Introducción a la Mecánica Cuántica - Operadores lineales para funciones",
+      "duration": 498
+    },
+    {
+      "id": "SK6tiIX9sJQ",
+      "title": "63 Introducción a la Mecánica Cuántica - Posición, momento y estados de una partícula",
+      "duration": 267
+    },
+    {
+      "id": "9Rb2ELt07Ko",
+      "title": "64 Introducción a la Mecánica Cuántica - Autovalores y autovectores de la posición",
+      "duration": 388
+    },
+    {
+      "id": "hKNfC5jPlRs",
+      "title": "65 Introducción a la Mecánica Cuántica - Autovalores y autovectores del momento",
+      "duration": 542
+    },
+    {
+      "id": "7oSV0xakc8M",
+      "title": "66 Introducción a la Mecánica Cuántica - Cambio de base por transformada de Fourier",
+      "duration": 649
+    },
+    {
+      "id": "z3b3yDc4jIw",
+      "title": "67 Introducción a la Mecánica Cuántica - Principio de incertidumbre de Heisenberg",
+      "duration": 895
+    },
+    {
+      "id": "BRXn-nDEQSI",
+      "title": "68 Introducción a la Mecánica Cuántica - Paquete de onda",
+      "duration": 590
+    },
+    {
+      "id": "wJEO9yopkBs",
+      "title": "69 Introducción a la Mecánica Cuántica - Partícula libre no relativista",
+      "duration": 524
+    },
+    {
+      "id": "PFTFCcJCH_k",
+      "title": "70 Introducción a la Mecánica Cuántica - Velocidad y momento clásico y cuántico",
+      "duration": 318
+    },
+    {
+      "id": "G9T2qVEr1Ac",
+      "title": "71 Introducción a la Mecánica Cuántica - Fuerza y Energía potencial en mecánica cuántica",
+      "duration": 752
+    },
+    {
+      "id": "JL1Bg-fp9-4",
+      "title": "72 Introducción a la Mecánica Cuántica - Función de onda potencial y limite clásico",
+      "duration": 705
+    },
+    {
+      "id": "olgilfid_SQ",
+      "title": "73 Introducción a la Mecánica Cuántica - Interpretaciones de la mecánica cuántica",
+      "duration": 722
+    },
+    {
+      "id": "rCPRBxP80oU",
+      "title": "74 Introducción a la Mecánica Cuántica - Normalización",
+      "duration": 596
+    },
+    {
+      "id": "ZCTZ98Ghie4",
+      "title": "75 Introducción a la Mecánica Cuántica - Normalización ejemplo",
+      "duration": 281
+    },
+    {
+      "id": "WdBAczuWiHk",
+      "title": "76 Introducción a la Mecánica Cuántica - Valor esperado de observables",
+      "duration": 648
+    },
+    {
+      "id": "YdAmZ4NJia0",
+      "title": "77 Introducción a la Mecánica Cuántica - Sumar constantes a Potenciales",
+      "duration": 462
+    },
+    {
+      "id": "LJeyq-W92Ec",
+      "title": "78 Introducción a la Mecánica Cuántica - Potenciales y estados",
+      "duration": 708
+    },
+    {
+      "id": "41eQG1Y51Jc",
+      "title": "79 Introducción a la Mecánica Cuántica - Valores esperados de posición y momento ejemplo",
+      "duration": 578
+    },
+    {
+      "id": "SC7kexL1RbY",
+      "title": "80 Introducción a la Mecánica Cuántica - Principio de incertidumbre de Heisenberg ejemplo",
+      "duration": 461
+    },
+    {
+      "id": "LCeTk5ofjYU",
+      "title": "81 Introducción a la Mecánica Cuántica - Corriente de probabilidad",
+      "duration": 477
+    },
+    {
+      "id": "4jtQQoYbi0Q",
+      "title": "82 Introducción a la Mecánica Cuántica - Integral de dos soluciones de la ecuación de Schroedinger",
+      "duration": 347
+    },
+    {
+      "id": "dQQ08c-fdJY",
+      "title": "83 Introducción a la Mecánica Cuántica - Temperatura y limite clásico",
+      "duration": 467
+    },
+    {
+      "id": "J2lj0dyV-nE",
+      "title": "84 Introducción a la Mecánica Cuántica - Estados estacionarios",
+      "duration": 501
+    },
+    {
+      "id": "JJtxmRZiNVA",
+      "title": "85 Introducción a la Mecánica Cuántica - Estados estacionarios y soluciones generales",
+      "duration": 596
+    },
+    {
+      "id": "8RABUT4ofsI",
+      "title": "86 Introducción a la Mecánica Cuántica - Estados estacionarios y soluciones generales ejemplo",
+      "duration": 528
+    },
+    {
+      "id": "C-cKGt2rUtE",
+      "title": "87 Introducción a la Mecánica Cuántica - Propiedades de soluciones de estados estacionarios",
+      "duration": 767
+    },
+    {
+      "id": "ZYWAaY_7Tb0",
+      "title": "88 Introducción a la Mecánica Cuántica - Potenciales y estados pares e impares",
+      "duration": 259
+    },
+    {
+      "id": "SpxAOboFfT8",
+      "title": "89 Introducción a la Mecánica Cuántica - Valores admisibles de energía y potenciales",
+      "duration": 298
+    },
+    {
+      "id": "XQNojkJFtgM",
+      "title": "90 Introducción a la Mecánica Cuántica - Partícula en una caja unidimensional",
+      "duration": 738
+    },
+    {
+      "id": "onWAfW--Hus",
+      "title": "91 Introducción a la Mecánica Cuántica - Propiedades de las soluciones de partícula en una caja",
+      "duration": 354
+    },
+    {
+      "id": "lDgqAdt2yx0",
+      "title": "92 Introducción a la Mecánica Cuántica - Soluciones de partícula en una caja dependientes del tiempo",
+      "duration": 249
+    },
+    {
+      "id": "AdaP4AZueKY",
+      "title": "93 Introducción a la Mecánica Cuántica - Soluciones de partícula en una caja ejemplo",
+      "duration": 739
+    },
+    {
+      "id": "w46F7mXExg0",
+      "title": "94 Introducción a la Mecánica Cuántica - Coeficientes de las sumatorias probabilidades y estados",
+      "duration": 599
+    },
+    {
+      "id": "udZlUjQlcmM",
+      "title": "95 Introducción a la Mecánica Cuántica - Valores y Estados estacionarios de la partícula en una caja",
+      "duration": 877
+    },
+    {
+      "id": "qRSjIjfu3wU",
+      "title": "96 Introducción a la Mecánica Cuántica - Combinación lineal de estados de la partícula en una caja",
+      "duration": 886
+    },
+    {
+      "id": "X0ZRxgQgtlo",
+      "title": "97 Introducción a la Mecánica Cuántica - Oscilador armónico cuántico deducción método algebraico",
+      "duration": 897
+    },
+    {
+      "id": "vWO_1987iJQ",
+      "title": "98 Introducción a la Mecánica Cuántica - Niveles de energia del Oscilador armónico cuántico",
+      "duration": 488
+    },
+    {
+      "id": "8TA1U8o1LvM",
+      "title": "99 Introducción a la Mecánica Cuántica - Primer estado excitado del Oscilador armónico cuántico",
+      "duration": 637
+    },
+    {
+      "id": "YDjs7I1mrsw",
+      "title": "100 Introducción a la Mecánica Cuántica - Normalización de estados del Oscilador armónico cuántico",
+      "duration": 759
+    },
+    {
+      "id": "at7eDDajjv0",
+      "title": "101 Introducción a la Mecánica Cuántica - Ortonormalidad de estados del Oscilador armónico cuántico",
+      "duration": 222
+    },
+    {
+      "id": "Lz-oHeHjB1g",
+      "title": "102 Introducción a la Mecánica Cuántica - Estados del oscilador armónico y álgebra de conmutadores",
+      "duration": 449
+    },
+    {
+      "id": "KVl2a0Wnk6U",
+      "title": "103 Introducción a la Mecánica Cuántica - Potencial del oscilador armónico cuántico",
+      "duration": 443
+    },
+    {
+      "id": "_vnymOzxHVE",
+      "title": "104 Introducción a la Mecánica Cuántica - Segundo estado excitado del oscilador armónico cuántico",
+      "duration": 486
+    },
+    {
+      "id": "iIBwS1TKV8o",
+      "title": "105 Introducción a la Mecánica Cuántica - Comparación de estados del oscilador armónico cuántico",
+      "duration": 248
+    },
+    {
+      "id": "i0AFIOQ5coI",
+      "title": "106 Introducción a la Mecánica Cuántica - Valores esperados estados 0-1 oscilador armónico cuántico",
+      "duration": 898
+    },
+    {
+      "id": "nYaHUrUDCOk",
+      "title": "107 Introducción a la Mecánica Cuántica - Valores esperados n-estado del oscilador armónico cuántico",
+      "duration": 794
+    },
+    {
+      "id": "MfR1sE1PlmE",
+      "title": "108 Introducción a la Mecánica Cuántica - Oscilador armónico cuántico método analítico",
+      "duration": 887
+    },
+    {
+      "id": "qwu_Pgg2utU",
+      "title": "109 Introducción a la Mecánica Cuántica - Construcción de estados Oscilador armónico cuántico",
+      "duration": 763
+    },
+    {
+      "id": "3HB73zkNnkE",
+      "title": "110 Introducción a la Mecánica Cuántica - Solución para la partícula libre no relativista",
+      "duration": 634
+    },
+    {
+      "id": "aVuhCuImKGs",
+      "title": "111 Introducción a la Mecánica Cuántica - Solución para la partícula libre no relativista ejemplo",
+      "duration": 653
+    },
+    {
+      "id": "drGtaH6t49Q",
+      "title": "112 Introducción a la Mecánica Cuántica - Velocidad de grupo y de fase partícula libre N-R",
+      "duration": 730
+    },
+    {
+      "id": "hDlwvDLxm98",
+      "title": "113 Introducción a la Mecánica Cuántica - Paquete de onda gaussiano",
+      "duration": 900
+    },
+    {
+      "id": "31MOWCOAdkY",
+      "title": "114 Introducción a la Mecánica Cuántica - Estados ligados y estados de scattering",
+      "duration": 388
+    },
+    {
+      "id": "BozXV63tYCY",
+      "title": "115 Introducción a la Mecánica Cuántica - Potencial de tipo delta de Dirac",
+      "duration": 781
+    },
+    {
+      "id": "uw1-Yo07Bzg",
+      "title": "116 Introducción a la Mecánica Cuántica - Estados ligados y de scattering en Potencial delta",
+      "duration": 899
+    },
+    {
+      "id": "XFp_3ZUl6Tw",
+      "title": "117 Introducción a la Mecánica Cuántica - Funciones Delta de Dirac y escalón de Heaviside",
+      "duration": 690
+    },
+    {
+      "id": "dKP8cWhiauc",
+      "title": "119 Introducción a la Mecánica Cuántica - Pozo cuadrado finito y estados ligados",
+      "duration": 873
+    },
+    {
+      "id": "8s9WGH25chQ",
+      "title": "120 Introducción a la Mecánica Cuántica - Pozo cuadrado finito y estados de scattering",
+      "duration": 621
+    },
+    {
+      "id": "GSzTjvQHh3c",
+      "title": "121 Introducción a la Mecánica Cuántica - Potencial escalón",
+      "duration": 897
+    },
+    {
+      "id": "EJpChq43na0",
+      "title": "122 Introducción a la Mecánica Cuántica - Potencial escalón descendente",
+      "duration": 747
+    },
+    {
+      "id": "BlRfFXmRl08",
+      "title": "123 Introducción a la Mecánica Cuántica - Tiempo de retorno clásico y cuántico",
+      "duration": 619
+    },
+    {
+      "id": "WGCJZe9cVbU",
+      "title": "124 Introducción a la Mecánica Cuántica - Matriz de scattering",
+      "duration": 771
+    },
+    {
+      "id": "AZHmtyKPoN0",
+      "title": "125 Introducción a la Mecánica Cuántica - Operador derivada en polares",
+      "duration": 639
+    },
+    {
+      "id": "HUX4aNs4PdA",
+      "title": "126 Introducción a la Mecánica Cuántica - Espectro discreto y continuo",
+      "duration": 891
+    },
+    {
+      "id": "Cg2fDiH9Wmc",
+      "title": "127 Introducción a la Mecánica Cuántica - Espectro de la posición",
+      "duration": 488
+    },
+    {
+      "id": "snFWiv4kSjY",
+      "title": "128 Introducción a la Mecánica Cuántica - Interpretación estadística generalizada",
+      "duration": 901
+    },
+    {
+      "id": "-ZVDey9lXaw",
+      "title": "129 Introducción a la Mecánica Cuántica - Interpretación estadística generalizada ejemplo",
+      "duration": 622
+    },
+    {
+      "id": "Guvj3eKb_QE",
+      "title": "130 Introducción a la Mecánica Cuántica - Valor esperado de la posición en el espacio de momento",
+      "duration": 881
+    },
+    {
+      "id": "Q1oT5ALes7w",
+      "title": "131 Introducción a la Mecánica Cuántica - Principio de incertidumbre de posición y hamiltoniano",
+      "duration": 401
+    },
+    {
+      "id": "4kpsw5MH-lQ",
+      "title": "132 Introducción a la Mecánica Cuántica - Paquete de onda de mínima incertidumbre",
+      "duration": 631
+    },
+    {
+      "id": "KIbDM1fnRb0",
+      "title": "133 Introducción a la Mecánica Cuántica - Principio de incertidumbre de energía y tiempo",
+      "duration": 622
+    },
+    {
+      "id": "GbtuOpgkTWs",
+      "title": "134 Introducción a la Mecánica Cuántica - Principio de incertidumbre de energía y tiempo ejemplo",
+      "duration": 395
+    },
+    {
+      "id": "Yy0wq4jt1ww",
+      "title": "135 Introducción a la Mecánica Cuántica - Leyes de conservación y teorema de Ehrenfest",
+      "duration": 431
+    },
+    {
+      "id": "XUFrvhFlN1g",
+      "title": "136 Introducción a la Mecánica Cuántica - Teorema virial cuántico",
+      "duration": 473
+    },
+    {
+      "id": "-jezqi08jfY",
+      "title": "137 Introducción a la Mecánica Cuántica - Ecuación de Schroedinger en 3 dimensiones espaciales",
+      "duration": 371
+    },
+    {
+      "id": "Jz-gD_qi9hY",
+      "title": "138 Introducción a la Mecánica Cuántica - Relaciones de conmutación canónicas",
+      "duration": 463
+    },
+    {
+      "id": "YNoD46CE5MY",
+      "title": "139 Introducción a la Mecánica Cuántica - Teorema de Ehrenfest en 3 dimensiones",
+      "duration": 629
+    },
+    {
+      "id": "hViliZVSMjA",
+      "title": "140 Introducción a la Mecánica Cuántica - Partícula en una caja en 3 dimensiones",
+      "duration": 625
+    },
+    {
+      "id": "nT-DLaCfPkU",
+      "title": "141 Introducción a la Mecánica Cuántica - Oscilador armónico cuántico en 3 dimensiones",
+      "duration": 606
+    },
+    {
+      "id": "PbagPPhfqd4",
+      "title": "142 Introducción a la Mecánica Cuántica - Ecuación de Schroedinger en coordenadas esféricas",
+      "duration": 392
+    },
+    {
+      "id": "nIsWN9ei1lY",
+      "title": "143 Introducción a la Mecánica Cuántica - Ecuación angular",
+      "duration": 875
+    },
+    {
+      "id": "MFcmoS1M35U",
+      "title": "144 Introducción a la Mecánica Cuántica - Armónicos esféricos de la ecuación angular",
+      "duration": 495
+    },
+    {
+      "id": "JtSWp-wY3lk",
+      "title": "145 Introducción a la Mecánica Cuántica - Ecuación radial",
+      "duration": 605
+    },
+    {
+      "id": "XTSjMcvF1lU",
+      "title": "146 Introducción a la Mecánica Cuántica - Pozo esférico infinito",
+      "duration": 769
+    },
+    {
+      "id": "fCcUvBxsxDc",
+      "title": "147 Introducción a la Mecánica Cuántica - El átomo de Hidrógeno Parte 1",
+      "duration": 887
+    },
+    {
+      "id": "z4rMAQI2s1Y",
+      "title": "148 Introducción a la Mecánica Cuántica - El átomo de Hidrógeno Parte 2 - Formula de Bohr",
+      "duration": 261
+    },
+    {
+      "id": "DX20V-FTLQ8",
+      "title": "149 Introducción a la Mecánica Cuántica - El átomo de Hidrógeno Parte 3 - Estado fundamental",
+      "duration": 702
+    },
+    {
+      "id": "q3E7dqvWyxs",
+      "title": "150 Introducción a la Mecánica Cuántica - El átomo de Hidrógeno Parte 4 - Formula de Rydberg",
+      "duration": 376
+    },
+    {
+      "id": "saCxTNs48yU",
+      "title": "151 Introducción a la Mecánica Cuántica - Momento angular cuántico y relaciones de conmutación",
+      "duration": 410
+    },
+    {
+      "id": "oU76Oj8ufmc",
+      "title": "152 Introducción a la Mecánica Cuántica - Momento angular cuántico y autovalores",
+      "duration": 899
+    },
+    {
+      "id": "eTDNjsghpj4",
+      "title": "153 Introducción a la Mecánica Cuántica - Momento angular cuántico y autofunciones",
+      "duration": 769
+    },
+    {
+      "id": "KT8apnOBRFE",
+      "title": "154 Introducción a la Mecánica Cuántica - Formulación del Spin",
+      "duration": 535
+    },
+    {
+      "id": "C8kdh6FbaqI",
+      "title": "155 Introducción a la Mecánica Cuántica - Caso Spin 1",
+      "duration": 660
+    },
+    {
+      "id": "MHHVcUft-48",
+      "title": "156 Introducción a la Mecánica Cuántica - Caso Spin General",
+      "duration": 793
+    },
+    {
+      "id": "86Q-tAuE0S0",
+      "title": "157 Introducción a la Mecánica Cuántica - Ecuación de Schroedinger para dos partículas",
+      "duration": 901
+    },
+    {
+      "id": "3kf8sFleFb0",
+      "title": "158 Introducción a la Mecánica Cuántica - Partículas idénticas y Principio de exclusión de Pauli",
+      "duration": 519
+    },
+    {
+      "id": "l7DbmItf664",
+      "title": "159 Introducción a la Mecánica Cuántica - Partículas idénticas ejemplo",
+      "duration": 584
+    },
+    {
+      "id": "2omc71ugevs",
+      "title": "160 Introducción a la Mecánica Cuántica - Partículas idénticas - Fuerza de intercambio",
+      "duration": 766
+    },
+    {
+      "id": "-tb8otR0KFA",
+      "title": "161 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas",
+      "duration": 556
+    },
+    {
+      "id": "spei44Nx6wg",
+      "title": "162 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas - Simetrias y permutaciones",
+      "duration": 321
+    },
+    {
+      "id": "xE91lvhCRqI",
+      "title": "163 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas - Partículas distinguibles",
+      "duration": 898
+    },
+    {
+      "id": "3s7DriknSdY",
+      "title": "164 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas - Partículas indistinguibles",
+      "duration": 476
+    },
+    {
+      "id": "yRXdvt53nn4",
+      "title": "165 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas - Simetrias y Hamiltoniano",
+      "duration": 776
+    },
+    {
+      "id": "TGIuq-u_0lM",
+      "title": "166 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas - Postulado de simetrización",
+      "duration": 896
+    },
+    {
+      "id": "fgIbd4bzsUE",
+      "title": "167 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas - Función de onda con spin",
+      "duration": 618
+    },
+    {
+      "id": "mytR0O4FKcM",
+      "title": "168 Introducción a la Mecánica Cuántica - Sistemas de muchas partículas - Átomos",
+      "duration": 894
+    },
+    {
+      "id": "yxr862WFPnM",
+      "title": "169 Introducción a la Mecánica Cuántica - Tabla periódica y números cuánticos",
+      "duration": 667
+    },
+    {
+      "id": "suX9Djb21ws",
+      "title": "170 Introducción a la Mecánica Cuántica - Sólidos y presión de degeneración",
+      "duration": 897
+    },
+    {
+      "id": "BZIa3SLOErU",
+      "title": "171 Introducción a la Mecánica Cuántica - Sólidos conductores y estructura de bandas",
+      "duration": 890
+    },
+    {
+      "id": "mcXYl36bxrY",
+      "title": "172 Introducción a la Mecánica Cuántica - Mecánica estadística cuántica caso particular",
+      "duration": 887
+    },
+    {
+      "id": "3_jFgNUWIXI",
+      "title": "173 Introducción a la Mecánica Cuántica - Mecánica estadística cuántica caso general",
+      "duration": 890
+    },
+    {
+      "id": "TnufeQdwu4U",
+      "title": "174 Introducción a la Mecánica Cuántica - Mecánica estadística cuántica máximos de configuraciones",
+      "duration": 736
+    },
+    {
+      "id": "kDQiHCiOKkU",
+      "title": "175 Introducción a la Mecánica Cuántica - Mecánica estadística cuántica y distribuciones",
+      "duration": 894
+    },
+    {
+      "id": "-RDRXiPLDmk",
+      "title": "176 Introducción a la Mecánica Cuántica - Distribución Fermi-Dirac y gas de electrones libres",
+      "duration": 532
+    },
+    {
+      "id": "MYdFhCZ3V3k",
+      "title": "177 Introducción a la Mecánica Cuántica - Temperatura critica y Condensados Bose-Einstein",
+      "duration": 897
+    },
+    {
+      "id": "5qRpmnu6jkY",
+      "title": "178 Introducción a la Mecánica Cuántica - Fotones y espectro del cuerpo negro",
+      "duration": 557
+    },
+    {
+      "id": "iPRUM-RpJHA",
+      "title": "179 Introducción a la Mecánica Cuántica - Ley de desplazamiento de Wien",
+      "duration": 899
+    },
+    {
+      "id": "FvtWEWqduTc",
+      "title": "180 Introducción a la Mecánica Cuántica - Formula de Stefan-Boltzmann",
+      "duration": 894
+    },
+    {
+      "id": "DCZIi37eOjE",
+      "title": "181 Introducción a la Mecánica Cuántica - Presión de degeneración y estrellas enanas blancas",
+      "duration": 893
+    },
+    {
+      "id": "WA9QpcdUk-U",
+      "title": "182 Introducción a la Mecánica Cuántica - Presión de degeneración y limite de Chandrasekhar",
+      "duration": 900
+    },
+    {
+      "id": "sq0oenp0TS0",
+      "title": "183 Introducción a la Mecánica Cuántica - Teoría de perturbaciones independiente del tiempo",
+      "duration": 618
+    },
+    {
+      "id": "Pn8KIcTTttU",
+      "title": "184 Introducción a la Mecánica Cuántica - TPIT no degenerado aproximación a primer orden energía",
+      "duration": 615
+    },
+    {
+      "id": "GntMQThvHCY",
+      "title": "185 Introducción a la Mecánica Cuántica - TPIT no degenerado aprox. a primer orden función de onda",
+      "duration": 696
+    },
+    {
+      "id": "XT5MgoyLK-Q",
+      "title": "186 Introducción a la Mecánica Cuántica - TPIT no degenerado aproximación a primer orden ejemplo",
+      "duration": 888
+    },
+    {
+      "id": "_lNPaUZiOYA",
+      "title": "187 Introducción a la Mecánica Cuántica - TPIT no degenerado aproximación a segundo orden",
+      "duration": 892
+    },
+    {
+      "id": "VUEIRYAZ-4w",
+      "title": "188 Introducción a la Mecánica Cuántica - TPIT caso doble degenerado",
+      "duration": 901
+    },
+    {
+      "id": "5a57Fvk_9Yc",
+      "title": "189 Introducción a la Mecánica Cuántica - TPIT caso doble degenerado ejemplo",
+      "duration": 886
+    },
+    {
+      "id": "wifpnuu-1wE",
+      "title": "190 Introducción a la Mecánica Cuántica - TPIT caso degenerado general",
+      "duration": 654
+    },
+    {
+      "id": "0wyz09rS9OQ",
+      "title": "191 Introducción a la Mecánica Cuántica - TPIT caso degenerado general ejemplo",
+      "duration": 894
+    },
+    {
+      "id": "LUP6wuoqg1E",
+      "title": "192 Introducción a la Mecánica Cuántica - Estructura fina del hidrógeno - Corrección relativista",
+      "duration": 778
+    },
+    {
+      "id": "n9dD5NumwIE",
+      "title": "193 Introducción a la Mecánica Cuántica - Estructura fina del hidrógeno - Acoplamiento spin órbita",
+      "duration": 888
+    },
+    {
+      "id": "gG24g8rZ1gI",
+      "title": "194 Introducción a la Mecánica Cuántica - Efecto Zeeman - Caso débil",
+      "duration": 701
+    },
+    {
+      "id": "B60J2SBJs0o",
+      "title": "195 Introducción a la Mecánica Cuántica - Efecto Zeeman - Caso fuerte",
+      "duration": 777
+    },
+    {
+      "id": "h8DxfpTO0cs",
+      "title": "196 Introducción a la Mecánica Cuántica - Coeficientes de Clebsch-Gordan",
+      "duration": 893
+    },
+    {
+      "id": "L7gkSNEmY44",
+      "title": "197 Introducción a la Mecánica Cuántica - Efecto Zeeman - Caso intermedio",
+      "duration": 664
+    },
+    {
+      "id": "_q1VEaysSo4",
+      "title": "198 Introducción a la Mecánica Cuántica - Estructura hiperfina del hidrógeno",
+      "duration": 887
+    },
+    {
+      "id": "pPmFBhHCrY4",
+      "title": "199 Introducción a la Mecánica Cuántica - Efecto Stark",
+      "duration": 492
+    },
+    {
+      "id": "xO67ujdjFww",
+      "title": "200 Introducción a la Mecánica Cuántica - Método variacional",
+      "duration": 645
+    },
+    {
+      "id": "yEV5BTLe-X0",
+      "title": "201 Introducción a la Mecánica Cuántica - Método variacional ejemplo oscilador armónico cuántico",
+      "duration": 888
+    },
+    {
+      "id": "Zyz6iMTL8FE",
+      "title": "202 Introducción a la Mecánica Cuántica - Método variacional ejemplo potencial delta de Dirac",
+      "duration": 735
+    },
+    {
+      "id": "XO2D6pCK85M",
+      "title": "203 Introducción a la Mecánica Cuántica - Método variacional ejemplo pozo infinito cuadrado",
+      "duration": 664
+    },
+    {
+      "id": "1CoY4tijcqY",
+      "title": "204 Introducción a la Mecánica Cuántica - Método variacional para estados excitados y ejemplo",
+      "duration": 897
+    },
+    {
+      "id": "nK9zO5qaFlA",
+      "title": "205 Introducción a la Mecánica Cuántica - Método variacional aplicado al átomo de helio",
+      "duration": 901
+    },
+    {
+      "id": "zjwtQ94l6cQ",
+      "title": "206 Introducción a la Mecánica Cuántica - Aproximación WKB región clásica",
+      "duration": 884
+    },
+    {
+      "id": "9NJcqfaiLeY",
+      "title": "207 Introducción a la Mecánica Cuántica - Aproximación WKB región clásica ejemplo pozo infinito",
+      "duration": 427
+    },
+    {
+      "id": "yo83SpW6FTM",
+      "title": "208 Introducción a la Mecánica Cuántica - Aproximación WKB región clásica ejemplo potencial escalón",
+      "duration": 887
+    },
+    {
+      "id": "dEB_JnoJhyw",
+      "title": "209 Introducción a la Mecánica Cuántica - Aproximación WKB región no clásica ejemplo scattering",
+      "duration": 696
+    },
+    {
+      "id": "T0srWzNspaY",
+      "title": "210 Introducción a la Mecánica Cuántica - Aproximación WKB región no clásica ejemplo particulas alfa",
+      "duration": 640
+    },
+    {
+      "id": "0n9p8WIDoA4",
+      "title": "211 Introducción a la Mecánica Cuántica - Aproximación WKB funciones de conexión",
+      "duration": 896
+    },
+    {
+      "id": "apDTG74wO0w",
+      "title": "212 Introducción a la Mecánica Cuántica - Aproximación WKB potenciales sin paredes",
+      "duration": 624
+    },
+    {
+      "id": "ty4sRO85yc8",
+      "title": "213 Introducción a la Mecánica Cuántica - Aproximación WKB problema caída de una masa",
+      "duration": 886
+    },
+    {
+      "id": "gofheKqgEos",
+      "title": "214 Introducción a la Mecánica Cuántica - Aproximación WKB ejemplo oscilador armónico cuántico",
+      "duration": 481
+    },
+    {
+      "id": "Km5AXXPOh-c",
+      "title": "215 Introducción a la Mecánica Cuántica - Aproximación WKB funciones de conexión caso scattering",
+      "duration": 901
+    },
+    {
+      "id": "VHtJcqoPi_s",
+      "title": "216 Introducción a la Mecánica Cuántica - Aproximación WKB Energías del átomo de Hidrógeno",
+      "duration": 773
+    },
+    {
+      "id": "1npR7U2c0iU",
+      "title": "217 Introducción a la Mecánica Cuántica - Aproximación WKB Ejemplo caída lata de cerveza",
+      "duration": 685
+    },
+    {
+      "id": "V6xYnHg0PiI",
+      "title": "218 Introducción a la Mecánica Cuántica - Representación de Heisenberg",
+      "duration": 898
+    },
+    {
+      "id": "y6l4QiWGRng",
+      "title": "219 Introducción a la Mecánica Cuántica - Representación de Interacción",
+      "duration": 652
+    },
+    {
+      "id": "PAWGXI7X3Vc",
+      "title": "220 Introducción a la Mecánica Cuántica - Teoría de perturbaciones dependiente del tiempo",
+      "duration": 899
+    },
+    {
+      "id": "N48uxeFZDjo",
+      "title": "221 Introducción a la Mecánica Cuántica - TPDT Perturbaciones sinusoidales",
+      "duration": 593
+    },
+    {
+      "id": "1h17ECpPyaA",
+      "title": "222 Introducción a la Mecánica Cuántica - TPDT Frecuencia de Rabi",
+      "duration": 884
+    },
+    {
+      "id": "JA4seh0uDsM",
+      "title": "223 Introducción a la Mecánica Cuántica - TPDT Emisión y absorción de radiación",
+      "duration": 631
+    },
+    {
+      "id": "MU2twoXED4A",
+      "title": "224 Introducción a la Mecánica Cuántica - TPDT Emisión y absorción de radiación caso general",
+      "duration": 898
+    },
+    {
+      "id": "IQvZLZOZgSo",
+      "title": "225 Introducción a la Mecánica Cuántica - TPDT Emisión y absorción Coeficientes de Einstein",
+      "duration": 896
+    },
+    {
+      "id": "4u3GcfT75oI",
+      "title": "226 Introducción a la Mecánica Cuántica - TPDT Tiempo de vida de un estado excitado",
+      "duration": 899
+    },
+    {
+      "id": "uH2XjpysxDE",
+      "title": "227 Introducción a la Mecánica Cuántica - TPDT Tiempo de vida de estados excitados del hidrógeno",
+      "duration": 899
+    },
+    {
+      "id": "bfE2OzFVZLY",
+      "title": "228 Introducción a la Mecánica Cuántica - TPDT Transiciones y reglas de selección",
+      "duration": 900
+    },
+    {
+      "id": "_7T7q65Ai9w",
+      "title": "229 Introducción a la Mecánica Cuántica - TPDT Transiciones y reglas de selección ejemplo Hidrógeno",
+      "duration": 897
+    },
+    {
+      "id": "N76BsoPxpK4",
+      "title": "230 Introducción a la Mecánica Cuántica - TPDT Transiciones generalización sistemas multiniveles",
+      "duration": 894
+    },
+    {
+      "id": "uLE7P-Qn64w",
+      "title": "231 Introducción a la Mecánica Cuántica - TPDT Transiciones sistemas multiniveles ejemplo",
+      "duration": 765
+    },
+    {
+      "id": "IP4fyu-0dzU",
+      "title": "232 Introducción a la Mecánica Cuántica - Aproximación adiabática",
+      "duration": 900
+    },
+    {
+      "id": "rDhR5-OguXc",
+      "title": "233 Introducción a la Mecánica Cuántica - Aproximación adiabática ejemplo Spin con campo magnético",
+      "duration": 902
+    },
+    {
+      "id": "LgQ7EOi2W1I",
+      "title": "234 Introducción a la Mecánica Cuántica - Aproximación adiabática fase de Berry",
+      "duration": 893
+    },
+    {
+      "id": "hXZrFHvR8u0",
+      "title": "235 Introducción a la Mecánica Cuántica - Aproximación adiabática fase de Berry ejemplo",
+      "duration": 898
+    },
+    {
+      "id": "nCT8ifzkgwE",
+      "title": "236 Introducción a la Mecánica Cuántica - Aproximación adiabática fase de Berry campo magnético spin",
+      "duration": 898
+    },
+    {
+      "id": "tkGwS0QKi5A",
+      "title": "237 Introducción a la Mecánica Cuántica - Aproximación adiabática ejemplo efecto Aharonov Bohm",
+      "duration": 895
+    },
+    {
+      "id": "gLDGw903Hso",
+      "title": "238 Introducción a la Mecánica Cuántica - Scattering teoría clásica",
+      "duration": 898
+    },
+    {
+      "id": "P8DMgdQV5hY",
+      "title": "239 Introducción a la Mecánica Cuántica - Scattering de Rutherford",
+      "duration": 896
+    },
+    {
+      "id": "m5sD8LHN0p0",
+      "title": "240 Introducción a la Mecánica Cuántica - Scattering teoría cuántica",
+      "duration": 501
+    },
+    {
+      "id": "CqNPqfGixlM",
+      "title": "241 Introducción a la Mecánica Cuántica - Scattering análisis de onda parcial",
+      "duration": 893
+    },
+    {
+      "id": "eDc6VjmHYKo",
+      "title": "242 Introducción a la Mecánica Cuántica - Scattering por una esfera dura cuántico",
+      "duration": 714
+    },
+    {
+      "id": "lxkr-derWKs",
+      "title": "243 Introducción a la Mecánica Cuántica - Scattering análisis de onda parcial cambio de fase",
+      "duration": 893
+    },
+    {
+      "id": "F4itWaSB3c4",
+      "title": "244 Introducción a la Mecánica Cuántica - Scattering análisis de onda parcial cambio de fase ejemplo",
+      "duration": 743
+    },
+    {
+      "id": "VOKx6UIp3ro",
+      "title": "245 Introducción a la Mecánica Cuántica - Forma integral de la ecuación de Schroedinger",
+      "duration": 898
+    },
+    {
+      "id": "z-HI-gs2-T0",
+      "title": "246 Introducción a la Mecánica Cuántica - Forma integral de la ecuación de Schroedinger ejemplo",
+      "duration": 737
+    },
+    {
+      "id": "8VM4SUbAfCY",
+      "title": "247 Introducción a la Mecánica Cuántica - Scattering Aproximación de Born",
+      "duration": 886
+    },
+    {
+      "id": "PXRebyJDrYQ",
+      "title": "248 Introducción a la Mecánica Cuántica - Scattering Aproximación del impulso y serie de Born",
+      "duration": 887
+    },
+    {
+      "id": "XzUnRsBXtbY",
+      "title": "249 Introducción a la Mecánica Cuántica - Paradoja EPR",
+      "duration": 596
+    },
+    {
+      "id": "NNs0lijKdbc",
+      "title": "250 Introducción a la Mecánica Cuántica - Desigualdad de Bell",
+      "duration": 900
+    },
+    {
+      "id": "XCeJRv9aje4",
+      "title": "251 Introducción a la Mecánica Cuántica - Teorema de no clonado",
+      "duration": 437
+    },
+    {
+      "id": "iJ3qqzbyFRA",
+      "title": "252 Introducción a la Mecánica Cuántica - El gato de Schroedinger",
+      "duration": 493
+    },
+    {
+      "id": "fm2jzVSG9VU",
+      "title": "253 Introducción a la Mecánica Cuántica - Paradoja de Zenón cuántico",
+      "duration": 779
+    },
+    {
+      "id": "1YIePy33-gw",
+      "title": "118 Introducción a la Mecánica Cuántica - Estado ligado y principio de incertidumbre de Heisenberg",
+      "duration": 1043
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{- $paths := slice }}
+{{- $lists := 0 }}
+{{- $lessons := 0 }}
+{{- $seconds := 0 }}
+{{- range .Pages }}
+	{{- $paths = $paths | append .Params.courses }}
+	{{- with .Params.lessons }}{{ $lists = add $lists 1 }}{{ end }}
+	{{- range .Params.lessons }}{{ $lessons = add $lessons 1 }}{{ $seconds = add $seconds .duration }}{{ end }}
+{{- end }}
+{{- $courses := slice }}
+{{- range uniq $paths }}{{ with site.GetPage . }}{{ $courses = $courses | append . }}{{ end }}{{ end }}
+<div class="py-page">
+	<h1>{{ .Title }}</h1>
+	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
+	<p class="text-muted">{{ $lists }} listas de YouTube, {{ lang.FormatNumber 0 $lessons }} clases y {{ partial "ui/duration.html" (dict "seconds" $seconds "total" true) }} de video.</p>
+	{{- range sort $courses "Weight" }}
+		{{- $course := . }}
+		<section class="section-group">
+			<h2 id="{{ .Params.id | lower }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+			<ul class="rows">
+				{{- range where $.Pages "Params.courses" "intersect" (slice .Path) }}
+					{{- $count := len (.Params.lessons | default slice) }}
+					<li class="group">
+						<div class="row-main">
+							<a class="card-link" href="{{ cond (gt $count 0) .RelPermalink .Params.url }}">{{ .Title }}</a>
+							<p>{{ partial "videos/byline.html" . }}</p>
+							{{- with .Plain }}<p class="row-summary">{{ . }}</p>{{ end }}
+						</div>
+						<span class="row-meta max-md:hidden">
+							{{- if $count }}
+								{{- $total := 0 }}{{ range .Params.lessons }}{{ $total = add $total .duration }}{{ end }}
+								{{- $count }} clases · {{ partial "ui/duration.html" (dict "seconds" $total "total" true) }}
+							{{- else }}
+								{{- (urls.Parse .Params.url).Host | strings.TrimPrefix "www." }}
+							{{- end }}
+						</span>
+						{{ partial "ui/chevron.html" }}
+					</li>
+				{{- end }}
+			</ul>
+		</section>
+	{{- end }}
+</div>
+{{ end }}

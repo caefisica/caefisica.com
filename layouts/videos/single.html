@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{- $list := .Params.playlist }}
+{{- $lessons := .Params.lessons }}
+{{- $first := index $lessons 0 }}
+{{- $total := 0 }}{{ range $lessons }}{{ $total = add $total .duration }}{{ end }}
+{{- .Store.Set "player" true }}
+<div class="py-page">
+	{{ partial "article/breadcrumbs.html" . }}
+	<h1>{{ .Title }}</h1>
+	<p class="text-lead">{{ partial "videos/byline.html" . }}</p>
+	<div class="course">
+		<div class="player" data-playlist="{{ $list }}">
+			<a class="player-start" href="https://www.youtube.com/watch?v={{ $first.id }}&list={{ $list }}" data-video="{{ $first.id }}">
+				<img src="https://i.ytimg.com/vi/{{ $first.id }}/hqdefault.jpg" alt="" width="480" height="360"/>
+				<span class="player-label">
+					{{ partial "ui/icon.html" (dict "name" "play" "size" 20) }}
+					<span>Clase 1 · {{ $first.title }}</span>
+				</span>
+			</a>
+		</div>
+		<ol class="lessons" aria-label="Clases">
+			{{- range $i, $lesson := $lessons }}
+				<li>
+					<a href="https://www.youtube.com/watch?v={{ .id }}&list={{ $list }}" data-video="{{ .id }}"{{ if eq $i 0 }} aria-current="true"{{ end }}>
+						<span class="lesson-n">{{ add $i 1 }}</span>
+						<span class="lesson-title">{{ .title }}</span>
+						<span class="lesson-time">{{ partial "ui/duration.html" (dict "seconds" .duration) }}</span>
+					</a>
+				</li>
+			{{- end }}
+		</ol>
+	</div>
+	<div class="course-about">
+		{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
+		<section class="facts" aria-labelledby="list-info">
+			<h2 id="list-info">La lista</h2>
+			<dl>
+				{{- with .Params.lecturer }}
+					<div>
+						<dt>Dicta</dt>
+						<dd>{{ . }}</dd>
+					</div>
+				{{- end }}
+				<div>
+					<dt>Canal</dt>
+					<dd><a href="https://www.youtube.com/playlist?list={{ $list }}">{{ .Params.channel }}</a></dd>
+				</div>
+				<div>
+					<dt>Clases</dt>
+					<dd>{{ len $lessons }}, {{ partial "ui/duration.html" (dict "seconds" $total "total" true) }} en total</dd>
+				</div>
+				<div>
+					<dt>Sirve para</dt>
+					<dd>
+						{{- $links := slice }}
+						{{- range .Params.courses }}{{ with site.GetPage . }}{{ $links = $links | append (printf "<a href=%q>%s</a>" .RelPermalink .Title) }}{{ end }}{{ end }}
+						{{- delimit $links ", " " y " | safeHTML -}}
+					</dd>
+				</div>
+				{{- with .Params.updated }}
+					<div>
+						<dt>Actualizada</dt>
+						<dd>{{ partial "ui/date.html" (time.AsTime .) }}</dd>
+					</div>
+				{{- end }}
+			</dl>
+		</section>
+		<p class="text-muted text-sm">Datos de YouTube al {{ partial "ui/date.html" (time.AsTime .Params.fetched) }}. Los videos privados o eliminados no se listan.</p>
+		{{ partial "article/page-footer.html" . }}
+	</div>
+</div>
+{{ end }}

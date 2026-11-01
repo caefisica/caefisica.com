@@ -1,0 +1,49 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Tricky Parts of Calculus",
+  "channel": "Daniel Rubin",
+  "description": "This series of videos covers subtle, difficult parts of calculus that are usually glossed over in a calculus class.",
+  "updated": "2021-10-22",
+  "lessons": [
+    {
+      "id": "LPpgJGgCvWc",
+      "title": "Derivative of sin(x), CAREFUL PROOF | Tricky Parts of Calculus, Ep. 1",
+      "duration": 760
+    },
+    {
+      "id": "Qqfretq-18w",
+      "title": "Sin(x), x, tan(x) inequalities and Archimedes' axiom of convexity | Tricky Parts of Calculus, Ep. 2",
+      "duration": 846
+    },
+    {
+      "id": "R1HUtt2oo7A",
+      "title": "Area of a Circle, the BEST COMPLETE PROOF by Archimedes | Tricky Parts of Calculus, Part 3",
+      "duration": 1012
+    },
+    {
+      "id": "JOg9kQp7pig",
+      "title": "YOU CAN'T USE EULER'S IDENTITY TO PROVE THE ANGLE SUM IDENTITIES! | Tricky Parts of Calculus, Ep. 4",
+      "duration": 920
+    },
+    {
+      "id": "nCrRpHM6H1g",
+      "title": "5 Methods to Introduce the Exponential Function and Logarithm WITH PROOFS",
+      "duration": 1577
+    },
+    {
+      "id": "3B6FymMv8b4",
+      "title": "How people came up with the natural logarithm and the exponential function #SoME1",
+      "duration": 2005
+    },
+    {
+      "id": "q_W3vQJGufQ",
+      "title": "Hyperbolic Trig Functions THE HARD WAY",
+      "duration": 608
+    },
+    {
+      "id": "RAaFAbnUseQ",
+      "title": "The Catenary (hanging chain), how it was first solved.",
+      "duration": 1316
+    }
+  ]
+}

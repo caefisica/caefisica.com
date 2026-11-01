@@ -1,0 +1,594 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Clases de Física I",
+  "channel": "Canal USB",
+  "description": "Curso de Física I para la Universidad Simón Bolívar, Caracas - Venezuela",
+  "updated": "2026-02-11",
+  "lessons": [
+    {
+      "id": "Y5s-Au2pghc",
+      "title": "Física I. Clase # 01 Introducción a la Física. Análisis dimensional. 1/4",
+      "duration": 1596
+    },
+    {
+      "id": "PeEJ4rluVeU",
+      "title": "Física I. Clase # 01 Introducción a la Física. Análisis dimensional. 2/4",
+      "duration": 1596
+    },
+    {
+      "id": "-F5EIGZkX0k",
+      "title": "Clase # 02 Vectores. (Operaciones Geométricamente) 1/5",
+      "duration": 1595
+    },
+    {
+      "id": "IN3Vikbyny4",
+      "title": "Clase # 01 Cantidades físicas. Vectores (Introducción) 3/4",
+      "duration": 498
+    },
+    {
+      "id": "6T5FvVWMuU4",
+      "title": "Clase # 01 Cantidades físicas. Vectores 4/4",
+      "duration": 1480
+    },
+    {
+      "id": "XPky8p_p3hM",
+      "title": "Clase # 02 Vectores. (Algebra vectorial) 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "ew53OFDOufg",
+      "title": "Clase # 03 Vectores. (Sistema de coordenadas) 1/5",
+      "duration": 1597
+    },
+    {
+      "id": "Gy8Ec6wFEGo",
+      "title": "Clase # 02 Vectores. (Algebra vectorial) 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "XPqV1VDNAj4",
+      "title": "Clase # 02 Vectores. (Multiplicacion escalar) 3/5",
+      "duration": 519
+    },
+    {
+      "id": "3P9r_v3A1z4",
+      "title": "Clase # 05 Cinemática (conceptos de pocision velocidad y aceleración) 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "H1gW8o0hB4Q",
+      "title": "Clase # 02 Vectores. (Algebra vectorial) 5/5",
+      "duration": 1081
+    },
+    {
+      "id": "2uvKNQDZygA",
+      "title": "Clase# 12 Dinámica (Introducción) Leyes de Newton 1/5",
+      "duration": 1595
+    },
+    {
+      "id": "aZgKHFKlGdM",
+      "title": "Clase # 06 Cinemática, trayectoria, rapidez (ejercicios). 1/5",
+      "duration": 1594
+    },
+    {
+      "id": "BMGBcG-oMxg",
+      "title": "Clase # 03 Vectores. (Operaciones Geométricamente) 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "lU1wtfXxhgQ",
+      "title": "Clase # 09 Movimiento relativo. Ejercicios. 1/5",
+      "duration": 1597
+    },
+    {
+      "id": "05dTvtOOc7U",
+      "title": "Clase # 05 Vectores. (ejercicios) cinemática 1/5",
+      "duration": 1596
+    },
+    {
+      "id": "xLKVAMU3mYY",
+      "title": "Clase# 23 Curva de energía potencial. Energía total (sin fuerzas no-conservativas)1/4",
+      "duration": 1834
+    },
+    {
+      "id": "o_U3dAn4DNg",
+      "title": "Clase # 04 Vectores. (Operaciones en geometría analítica) 1/5",
+      "duration": 1596
+    },
+    {
+      "id": "T2scgQuJ-lk",
+      "title": "Clase # 07 Movimientos con aceleración constante (ejercicios). 1/5",
+      "duration": 1597
+    },
+    {
+      "id": "D_wvN4IYJYw",
+      "title": "Clase # 05 Cinemática (conceptos de pocision velocidad y aceleración) 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "bOGORgQ7cCQ",
+      "title": "Clase # 05 Cinemática (conceptos de pocision velocidad y aceleración) 3/5",
+      "duration": 299
+    },
+    {
+      "id": "ve9rrsW-rko",
+      "title": "Clase# 13 Polea simple. Fuerzas de contacto 1/2",
+      "duration": 1596
+    },
+    {
+      "id": "uXuRCa8ZQ_g",
+      "title": "Clase # 06 Movimientos con aceleración constante (ejercicios). 3/5",
+      "duration": 489
+    },
+    {
+      "id": "sshdZXLLgM0",
+      "title": "Clase # 03 Vectores. (Operaciones Geométricamente) 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "9i6YVssZW6E",
+      "title": "Clase # 06 Cinemática, trayectoria, rapidez (ejercicios). 2/5",
+      "duration": 1596
+    },
+    {
+      "id": "K3y6VtuWCys",
+      "title": "Clase # 03 Vectores. (Operaciones Geométricamente) 3/5",
+      "duration": 467
+    },
+    {
+      "id": "7Np6203W0dg",
+      "title": "Clase # 25 Momento lineal Ÿ colisiones. Conservación del Momento lineal e impulso 1/5",
+      "duration": 1818
+    },
+    {
+      "id": "phKBkaWJsOw",
+      "title": "Clase # 10 Movimiento circular general. Ejercicios. 1/4",
+      "duration": 1597
+    },
+    {
+      "id": "01CuT8ODwEk",
+      "title": "Clase # 27 Oscilaciones. Movimiento armónico simple (M.A.S). Sistema masa-resorte 1/5",
+      "duration": 1814
+    },
+    {
+      "id": "9W4WcPCumLg",
+      "title": "Clase # 05 Cinemática (conceptos de pocision velocidad y aceleración) 5/5",
+      "duration": 1390
+    },
+    {
+      "id": "z-N3mUeguf0",
+      "title": "Clase# 12 Dinámica (Introducción) Leyes de Newton 2/5",
+      "duration": 1596
+    },
+    {
+      "id": "8cm3BPVWVxc",
+      "title": "Clase # 04 Vectores. (Operaciones en geometría analítica) 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "SpVEzmNNzTY",
+      "title": "Clase # 03 Vectores. (Operaciones Geométricamente) 5/5",
+      "duration": 805
+    },
+    {
+      "id": "Bt0aL4DYPW0",
+      "title": "Clase # 04 Vectores. (ejercicios) 4/5",
+      "duration": 1597
+    },
+    {
+      "id": "DbY43ivWCXQ",
+      "title": "Clase# 20 Trabajo. (Introducción) 1/5",
+      "duration": 1597
+    },
+    {
+      "id": "Ge5gwM85cco",
+      "title": "Clase # 06 Movimientos con aceleración constante (ejercicios). 4/5",
+      "duration": 1595
+    },
+    {
+      "id": "c5oggwGOxak",
+      "title": "Clase # 26 Colisiones elásticas. Ejercicios 1/4",
+      "duration": 1817
+    },
+    {
+      "id": "igpZw4mgm6w",
+      "title": "Clase # 04 Vectores. (ejercicios) 5/5",
+      "duration": 1672
+    },
+    {
+      "id": "bW75ebF_Alk",
+      "title": "Clase # 09 Movimiento relativo. Ejercicios. 2/5",
+      "duration": 1598
+    },
+    {
+      "id": "6mzPJpOsgJI",
+      "title": "Clase # 28 Ejercicios MSA 1/3",
+      "duration": 1815
+    },
+    {
+      "id": "G6aypvPfN7Q",
+      "title": "Clase # 28 Ejercicios M.S.A 3/3",
+      "duration": 92
+    },
+    {
+      "id": "11HuxxBwuUA",
+      "title": "Clase# 24 Trabajo y energía. Ejercicios 1/3",
+      "duration": 1831
+    },
+    {
+      "id": "E4D6-6HkN8w",
+      "title": "Clase # 08 Movimiento parabólico. Ejercicios 1/5",
+      "duration": 1596
+    },
+    {
+      "id": "KoHfJRMOlvc",
+      "title": "Clase# 22 Fuerzas conservativas. Ejemplos 1/3",
+      "duration": 1597
+    },
+    {
+      "id": "UD7PijCYvO0",
+      "title": "Clase # 04 Vectores. (Operaciones en geometría analítica) 3/5",
+      "duration": 386
+    },
+    {
+      "id": "44Ev2ujVydM",
+      "title": "Clase # 08 Movimiento parabólico. Ejercicios 4/5",
+      "duration": 1597
+    },
+    {
+      "id": "LryDbImHw0U",
+      "title": "Clase# 23 Energía total (con fuerzas no-conservativas). Ejercicios 4/4",
+      "duration": 1832
+    },
+    {
+      "id": "1FvNRH--C-8",
+      "title": "Clase# 12 Tensión. Estática 3/5",
+      "duration": 316
+    },
+    {
+      "id": "APfNLuG2evU",
+      "title": "Clase # 28 Ejercicios M.S.A 2/3",
+      "duration": 1164
+    },
+    {
+      "id": "pdsDxIFeWms",
+      "title": "Clase # 07 Caida libre (ejercicios). 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "CQnRvdUiKko",
+      "title": "Clase # 25 Tipos de colisiones. Choques inelásticos 3/5",
+      "duration": 40
+    },
+    {
+      "id": "CQnRvdUiKko",
+      "title": "Clase # 25 Tipos de colisiones. Choques inelásticos 3/5",
+      "duration": 40
+    },
+    {
+      "id": "zmPmXfx14iA",
+      "title": "Clase# 20 Trabajo. Ejercicios 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "g2Quo4Pez2M",
+      "title": "Clase # 06 Movimientos con aceleración constante (ejercicios). 5/5",
+      "duration": 621
+    },
+    {
+      "id": "qT72Ar_NnTs",
+      "title": "Clase # 07 Movimientos con aceleración constante (ejercicios). 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "lAaQc4WTQmc",
+      "title": "Clase # 25 Momento lineal Ÿ colisiones. Conservación del Momento lineal e impulso 2/5",
+      "duration": 1799
+    },
+    {
+      "id": "Z3Z5Uf8Bu0Q",
+      "title": "Clase # 10 Movimiento circular general. Ejercicios. 2/4",
+      "duration": 1597
+    },
+    {
+      "id": "nUDi2gQCAPg",
+      "title": "Clase# 12 Tensión. Estática 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "JjCUuqB5PLI",
+      "title": "Clase # 27 Oscilaciones. Movimiento armónico simple (M.A.S). Sistema masa-resorte 2/5",
+      "duration": 1806
+    },
+    {
+      "id": "2MoU6AOOljg",
+      "title": "Clase# 23 Curva de energía potencial. Energía total (sin fuerzas no-conservativas) 2/4",
+      "duration": 1803
+    },
+    {
+      "id": "h5RUfAxqct8",
+      "title": "Clase # 26 Colisiones elásticas. Ejercicios 3/4",
+      "duration": 1835
+    },
+    {
+      "id": "JHcjVRNfjYw",
+      "title": "Clase # 09 Movimiento relativo. Ejercicios. 3/5",
+      "duration": 911
+    },
+    {
+      "id": "-vel2c6OABk",
+      "title": "Clase# 13 Polea simple. Fuerzas de contacto 2/2",
+      "duration": 485
+    },
+    {
+      "id": "_6zWsJOpEB8",
+      "title": "Clase# 15 Fuerza de fricción. Ejercicios 1/4",
+      "duration": 1598
+    },
+    {
+      "id": "I9uRQHIGqPQ",
+      "title": "Clase# 21 Trabajo.Fuerza elástica 1/5",
+      "duration": 1596
+    },
+    {
+      "id": "K2COIGHlYyU",
+      "title": "Clase # 08 Movimiento parabólico. Ejercicios 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "nGVcJoNlw6Q",
+      "title": "Clase# 16 Dinámica de movimiento circular 1/5",
+      "duration": 1596
+    },
+    {
+      "id": "mZkUynfPHXE",
+      "title": "Clase# 22 Fuerzas conservativas. Ejemplos 2/3",
+      "duration": 1597
+    },
+    {
+      "id": "tdrvHFrFeUs",
+      "title": "Clase# 21 Trabajo.Fuerza elástica 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "yqwmYuSNW68",
+      "title": "Clase # 07 Movimientos con aceleración constante (ejercicios). 3/5",
+      "duration": 569
+    },
+    {
+      "id": "A8xzLVQtZDE",
+      "title": "Clase # 09 Movimiento relativo. Ejercicios. 4/5",
+      "duration": 1597
+    },
+    {
+      "id": "ODgGr5XfS0A",
+      "title": "Clase # 10 Movimiento circular uniforme. Ejercicios. 4/4",
+      "duration": 1239
+    },
+    {
+      "id": "ztKda87rz54",
+      "title": "Clase# 20 Trabajo. Ejercicios 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "wvtEpJhX12k",
+      "title": "Clase # 07 Caida libre (ejercicios). 5/5",
+      "duration": 848
+    },
+    {
+      "id": "Bq7SnGDRcSI",
+      "title": "Clase# 12 Tensión. Estática 5/5",
+      "duration": 916
+    },
+    {
+      "id": "4cQHzG8UxW0",
+      "title": "FISICA I clase_ 25_ parte4",
+      "duration": 1818
+    },
+    {
+      "id": "Nqid6Zz9e1E",
+      "title": "Clase # 10 Movimiento circular uniforme. Ejercicios. 3/4",
+      "duration": 529
+    },
+    {
+      "id": "5_NjEtY2Fw4",
+      "title": "Clase # 27 Condiciones iniciales. Energia del M.S.A 4/5",
+      "duration": 1016
+    },
+    {
+      "id": "1NXeFUsCTng",
+      "title": "Clase# 20 Trabajo. Ejercicios 5/5",
+      "duration": 1320
+    },
+    {
+      "id": "8_Q5kNxwGVA",
+      "title": "Clase # 26 Colisiones elásticas. Ejercicios 2/4",
+      "duration": 1620
+    },
+    {
+      "id": "sYSj1yOdS9U",
+      "title": "Clase # 27 Condiciones iniciales. Energia del M.S.A 5/5",
+      "duration": 7
+    },
+    {
+      "id": "6sYu8E-EAwA",
+      "title": "Clase# 23 Energía total (con fuerzas no-conservativas). Ejercicios 3/4",
+      "duration": 105
+    },
+    {
+      "id": "Y6BPqLhpKZs",
+      "title": "Clase# 21 Trabajo.(Fuerza neta). Teorema de trabajo y energía 5/5",
+      "duration": 1339
+    },
+    {
+      "id": "PjKqZV0BZ3c",
+      "title": "Clase# 21 Trabajo.(Fuerza neta). Teorema de trabajo y energía 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "aE564348HRs",
+      "title": "Clase# 17 Repaso (Dinámica) 1/5",
+      "duration": 1595
+    },
+    {
+      "id": "CscC6GFfcV8",
+      "title": "Clase# 20 Trabajo. Ejercicios 3/5",
+      "duration": 250
+    },
+    {
+      "id": "ITZD8CG9FPI",
+      "title": "Clase# 24 Trabajo y energía. Ejercicios 2/3",
+      "duration": 1615
+    },
+    {
+      "id": "oVrY2m1jm5A",
+      "title": "Clase# 21 Trabajo.(Fuerza neta). Teorema de trabajo y energía 3/5",
+      "duration": 239
+    },
+    {
+      "id": "oLITJzELsG8",
+      "title": "Clase # 09 Movimiento relativo. Ejercicios. 5/5",
+      "duration": 885
+    },
+    {
+      "id": "2SLXMbOlpOk",
+      "title": "Clase # 08 Movimiento parabólico. Ejercicios 5/5",
+      "duration": 1287
+    },
+    {
+      "id": "gxrWu1tpwYo",
+      "title": "Clase # 08 Movimiento parabólico. Ejercicios 3/5",
+      "duration": 479
+    },
+    {
+      "id": "zLoVUkZ07PA",
+      "title": "Clase # 27 Oscilaciones. Movimiento armónico simple (M.A.S). Sistema masa-resorte 3/5",
+      "duration": 115
+    },
+    {
+      "id": "igD6aY0pcSI",
+      "title": "Clase# 24 Trabajo y energía. Ejercicios 3/3",
+      "duration": 1835
+    },
+    {
+      "id": "p0HSYjpa1ck",
+      "title": "Clase# 16 Dinámica de movimiento circular. Ejercicios 4/5",
+      "duration": 1596
+    },
+    {
+      "id": "MnS4RzxXg4o",
+      "title": "Clase # 25 Tipos de colisiones. Choques inelásticos 5/5",
+      "duration": 194
+    },
+    {
+      "id": "d64DjruKSqs",
+      "title": "Clase# 15 Fuerza de fricción. Ejercicios 2/4",
+      "duration": 1597
+    },
+    {
+      "id": "cJy-Y6Ke_Bs",
+      "title": "Clase# 16 Dinámica de movimiento circular 2/5",
+      "duration": 1597
+    },
+    {
+      "id": "Lo_qwH8TQPs",
+      "title": "Clase# 22 Fuerzas y energía potencial. Ejemplos 1/3",
+      "duration": 490
+    },
+    {
+      "id": "-puSpR30Yro",
+      "title": "Clase# 15 Fuerza de fricción. Ejercicios 4/4",
+      "duration": 1134
+    },
+    {
+      "id": "2YlPCFzhCd0",
+      "title": "Clase # 26 Colisiones elásticas. Ejercicios (inconclusa) 4/4",
+      "duration": 800
+    },
+    {
+      "id": "eKiqqTtUWIs",
+      "title": "Clase# 16 Dinámica de movimiento circular. Ejercicios 3/5",
+      "duration": 368
+    },
+    {
+      "id": "SupCs-wgNG4",
+      "title": "Clase# 15 Fuerza de fricción. Ejercicios 3/4",
+      "duration": 538
+    },
+    {
+      "id": "_bdzFQ3g-cQ",
+      "title": "Clase# 16 Dinámica de movimiento circular. Ejercicios 5/5",
+      "duration": 586
+    },
+    {
+      "id": "xG9Ka7MrMnI",
+      "title": "Clase# 17 Repaso (Dinámica) 2/5",
+      "duration": 1595
+    },
+    {
+      "id": "ciYW5rOLhsg",
+      "title": "Clase# 18 Repaso (Dinámica) 1/5",
+      "duration": 1595
+    },
+    {
+      "id": "MwlKlRO_g1Q",
+      "title": "Clase# 17 Repaso (Dinámica) 4/5",
+      "duration": 1595
+    },
+    {
+      "id": "KYpVQKTJd74",
+      "title": "Clase# 19 Repaso (Dinámica) 1/5",
+      "duration": 1597
+    },
+    {
+      "id": "42YhRA97boE",
+      "title": "Clase# 17 Repaso (Dinámica) 3/5",
+      "duration": 254
+    },
+    {
+      "id": "YYmXpgZxLmQ",
+      "title": "Clase# 19 Repaso (Dinámica) 2/5",
+      "duration": 1598
+    },
+    {
+      "id": "jZs_ObI2zpo",
+      "title": "Clase# 17 Repaso (Dinámica) 5/5",
+      "duration": 1317
+    },
+    {
+      "id": "GeGs29lo1mY",
+      "title": "Clase# 18 Repaso (Dinámica) 2/5",
+      "duration": 1595
+    },
+    {
+      "id": "yJJ-92oTPf8",
+      "title": "Clase# 18 Repaso (Dinámica) 4/5",
+      "duration": 1597
+    },
+    {
+      "id": "xuVWTLwws8M",
+      "title": "Clase# 19 Repaso (Dinámica) 5/5",
+      "duration": 840
+    },
+    {
+      "id": "67zCXGtfK9M",
+      "title": "Clase# 19 Repaso (Dinámica) 4/5",
+      "duration": 1597
+    },
+    {
+      "id": "3bmomj_o48Q",
+      "title": "Clase# 19 Repaso (Dinámica) 3/5",
+      "duration": 491
+    },
+    {
+      "id": "jlPreUDaOWg",
+      "title": "Clase# 18 Repaso (Dinámica) 3/5",
+      "duration": 252
+    },
+    {
+      "id": "xi1-873ZTxg",
+      "title": "Clase# 18 Repaso (Dinámica) 5/5",
+      "duration": 695
+    }
+  ]
+}

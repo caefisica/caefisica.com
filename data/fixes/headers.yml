@@ -9,11 +9,13 @@ fontsrc:
 framesrc:
   - "'self'"
   - https://www.youtube.com
+  - https://www.youtube-nocookie.com
 
 imgsrc:
   - "'self'"
   - https://*.cloudinary.com
   - https://i.imgur.com
+  - https://i.ytimg.com
   - "data:"
   - "blob:"
 

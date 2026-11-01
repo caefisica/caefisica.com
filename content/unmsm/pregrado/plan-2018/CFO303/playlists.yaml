@@ -3,11 +3,18 @@
   lecturer: Garin Janampa
   videos: "11"
   url: https://www.youtube.com/playlist?list=PLnpDi_CSqm3IoeI3vb_IRDZx3tR7Z1AD-
+  description: >-
+    Clases completas de Física Molecular, de hora y media cada una, ordenadas
+    por semana y sesión. Los títulos no dicen el tema de cada clase. En español.
 - title: Laboratorio Física III
   channel: Facultad de Ciencias Físicas UNMSM
   lecturer: A. Guillen y B. Miramira
   videos: "10"
   url: https://www.youtube.com/playlist?list=PLrqABKf9Pw3bFnqmI7M3ReO5DggHsnVeu
+  description: >-
+    Las diez experiencias del laboratorio de Física III de la Facultad de
+    Ciencias Físicas de la UNMSM, una por video, grabadas en 2020 con RTV San
+    Marcos. En español.
 - title: Varios
   channel: ""
   lecturer: Cesar A. Izquierdo Merlo
@@ -18,8 +25,13 @@
   lecturer: Rodolfo Fransó C.
   videos: "93"
   url: https://www.youtube.com/@rodolfofransocordon9537/playlists
-- title: "PHYS 102 PHYSICS II: Equilibrium..."
+- title: "PHYS 102: ondas, fluidos y termodinámica"
   channel: ""
   lecturer: Özhan Özatay
   videos: "66"
   url: https://www.youtube.com/playlist?list=PLm13NydfuEMm_LjWqjK1JpftWdP241s8a
+  description: >-
+    Un curso universitario de Física II organizado por semanas, en videos cortos
+    con ejemplos: equilibrio, gravitación, fluidos, oscilaciones, ondas y
+    sonido, temperatura, primera y segunda ley de la termodinámica y entropía.
+    En inglés.

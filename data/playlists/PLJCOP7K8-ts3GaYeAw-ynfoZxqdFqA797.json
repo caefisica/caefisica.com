@@ -1,0 +1,109 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Programación | FORTRAN77| TUTORIAL ESPAÑOL",
+  "channel": "Aula de Faraday",
+  "description": "La academia Aula de Faraday presenta su playlist de programación en Fortran 77 en español",
+  "updated": "2026-02-01",
+  "lessons": [
+    {
+      "id": "DSZfkeKw1hg",
+      "title": "Fortran 77 Tutorial 1 Español. Instalación en windows 7 64 bits",
+      "duration": 280
+    },
+    {
+      "id": "56XMheeH0GM",
+      "title": "Fortran 77 | Tutorial 2 | Español | Primer programa \" Hola mundo\"",
+      "duration": 603
+    },
+    {
+      "id": "D_oL0tCLVBY",
+      "title": "fortran 77 tutorial 3 Español . Declaración de variables",
+      "duration": 365
+    },
+    {
+      "id": "IubRh6L03k8",
+      "title": "Fortran 77 tutorial 4 Español. Suma y concatenación de variables",
+      "duration": 532
+    },
+    {
+      "id": "_zoNCBpT688",
+      "title": "fortran 77 tutorial 5 Español. Operaciones aritméticas.",
+      "duration": 656
+    },
+    {
+      "id": "oPqFaSh9Mns",
+      "title": "Fortran 77 | Tutorial 6 | Español | Trigonometría, pi, y otras cosas",
+      "duration": 556
+    },
+    {
+      "id": "fLBK97GTKeY",
+      "title": "Fortran 77 tutorial 7 Español ejercicios resueltos",
+      "duration": 574
+    },
+    {
+      "id": "HlxdiiFIa5o",
+      "title": "Fortran 77 Tutorial 8 Español De coordenadas polares a cartesianas",
+      "duration": 162
+    },
+    {
+      "id": "MxuZR6PJcbQ",
+      "title": "fortran 77 tutorial 9 Español . Bucles. DO",
+      "duration": 606
+    },
+    {
+      "id": "ugGMRL1a8-8",
+      "title": "Fortran 77 tutorial 10 Español Sucesión de Fibonacci",
+      "duration": 728
+    },
+    {
+      "id": "qao_yFZRCnY",
+      "title": "fortran 77 tutorial 11 Español Números primos parte1",
+      "duration": 456
+    },
+    {
+      "id": "Ov_ivISiNC8",
+      "title": "fortran 77 tutorial 12 Español Números primos parte 2",
+      "duration": 696
+    },
+    {
+      "id": "VrTrHkkPRiU",
+      "title": "Fortran 77 Tutorial 13 Español | Leer archivos externos",
+      "duration": 691
+    },
+    {
+      "id": "5v-uPHZd-88",
+      "title": "Fortran 77 Tutorial 14 Español Numeros primos en Fortran 77",
+      "duration": 247
+    },
+    {
+      "id": "ZEa5SBkil0Q",
+      "title": "Fortran 77 Tutorial 15 Español. Matrices",
+      "duration": 492
+    },
+    {
+      "id": "V3E3pdIV4p8",
+      "title": "Fortran 77 | Tutorial 16 | Español | Leer archivos",
+      "duration": 632
+    },
+    {
+      "id": "-aumb5rmn6c",
+      "title": "Fortran 77| Tutorial 17 | Español | Matrices en dos dimensiones",
+      "duration": 528
+    },
+    {
+      "id": "okitWbtAj3E",
+      "title": "Fortran 77 | Español | Ejercicios Resueltos | 1.1 Force 2.0",
+      "duration": 635
+    },
+    {
+      "id": "6vtLtYsefGg",
+      "title": "Fortran 77 | Español | Instalación Windows 10 | Programa \"Hola Mundo\" Force 2.0",
+      "duration": 125
+    },
+    {
+      "id": "46CbMu0jOAU",
+      "title": "Fortran 77 | Español | Ejercicios Resueltos 1.2 | Función MOD() Force 2.0",
+      "duration": 352
+    }
+  ]
+}

@@ -104,7 +104,7 @@ reproducción, con un botón por enlace.
   El paquete base reúne la navegación (`assets/js/navigation.ts`), instant.page
   según `params.toml`, y clipboard solo si el contenido tiene un `<pre>`;
   highlight.js, KaTeX y Mermaid se cargan solo donde se usan, y el reproductor
-  del video (`player.ts`) solo en la portada. El buscador
+  de video (`player.ts`) solo en las páginas de `/videos/`. El buscador
   (`assets/js/search.ts`, sobre la API de Pagefind) se carga en todas las
   páginas, con sus atajos Ctrl/⌘ K y `/`; su diálogo está en
   [`search/dialog.html`](../layouts/_partials/search/dialog.html). El paquete
@@ -138,19 +138,19 @@ página.
 
 ## Mapa del código
 
-| Ruta                            | Responsabilidad                                                               |
-| ------------------------------- | ----------------------------------------------------------------------------- |
-| `content/`                      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).   |
-| `layouts/`                      | Plantillas Go de Hugo, shortcodes y parciales.                                |
-| `assets/`                       | CSS, TypeScript, fuentes e iconos que Hugo compila.                           |
-| `static/`                       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                 |
-| `data/`                         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros. |
-| `config/`                       | Configuración de Hugo por entorno.                                            |
-| `archetypes/`                   | Moldes de `hugo new`.                                                         |
-| `scripts/`                      | `openalex.ts`, escribe las publicaciones de `data/researchers/`.              |
-| `.github/`                      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.             |
-| `wrangler.toml`, `netlify.toml` | Despliegue. Ver [despliegue](despliegue.md).                                  |
-| `.pages.yml`                    | Esquema de los campos de Pages CMS.                                           |
+| Ruta                            | Responsabilidad                                                                   |
+| ------------------------------- | --------------------------------------------------------------------------------- |
+| `content/`                      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).       |
+| `layouts/`                      | Plantillas Go de Hugo, shortcodes y parciales.                                    |
+| `assets/`                       | CSS, TypeScript, fuentes e iconos que Hugo compila.                               |
+| `static/`                       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                     |
+| `data/`                         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros.     |
+| `config/`                       | Configuración de Hugo por entorno.                                                |
+| `archetypes/`                   | Moldes de `hugo new`.                                                             |
+| `scripts/`                      | `openalex.ts` y `playlists.ts`, escriben `data/researchers/` y `data/playlists/`. |
+| `.github/`                      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                 |
+| `wrangler.toml`, `netlify.toml` | Despliegue. Ver [despliegue](despliegue.md).                                      |
+| `.pages.yml`                    | Esquema de los campos de Pages CMS.                                               |
 
 ## Configuración
 
@@ -175,4 +175,7 @@ Otras carpetas de `layouts/`: las secciones `blog`, `investigadores` y
 cursos con `data/professor-courses.html` y el nombre de su universidad con
 `data/university.html`; la de un investigador numera sus fuentes con
 `data/cite-marks.html`); la página de enlaces fija `type: links` y usa
-`layouts/links/page.html`.
+`layouts/links/page.html`. `videos` no tiene archivos de contenido: su adaptador
+`content/videos/_content.gotmpl` crea una página por lista de los
+`playlists.yaml` de los cursos (ver [cursos](cursos.md#listas-de-reproducción)),
+y `assets/js/player.ts` reproduce cada clase en la misma página.

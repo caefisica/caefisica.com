@@ -1,0 +1,114 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Curso de programación científica usando Fortran en Español, básico",
+  "channel": "Fernando Garzón",
+  "description": "Si quieres aprender a programar en un entorno libre y gratuito como GNU Linux, este curso es para ti. Hoy en día la computadora es una gran herramienta para los científicos. Además de aprender a programar, podrás conocer los principios de la computación científica básica como leer y escribir archivos de datos. Te muestro algunos ejemplos creados por mí mismo y te los comparto. ¡Adelante!",
+  "updated": "2024-09-12",
+  "lessons": [
+    {
+      "id": "LhZRDQn1y9g",
+      "title": "[Fortran] 1 Introducción, ¿Por qué Fortran y Linux?",
+      "duration": 98
+    },
+    {
+      "id": "wM-sesrXqWo",
+      "title": "[Fortran] 2 Entorno de trabajo",
+      "duration": 271
+    },
+    {
+      "id": "GbUmbRNlus8",
+      "title": "[Fortran] 3 Cadenas",
+      "duration": 619
+    },
+    {
+      "id": "qB3Et-T3ffI",
+      "title": "[Fortran] 4 Números enteros y reales",
+      "duration": 388
+    },
+    {
+      "id": "SqGtOaE2t7s",
+      "title": "[Fortran] 5 Arreglos, vectores y matrices",
+      "duration": 595
+    },
+    {
+      "id": "vBn38B9NOg8",
+      "title": "[Fortran] 6 Operaciones",
+      "duration": 738
+    },
+    {
+      "id": "wz1b7NG7Vx0",
+      "title": "[Fortran] 7 Compuertas lógicas",
+      "duration": 612
+    },
+    {
+      "id": "iMEOt8fDfpQ",
+      "title": "[Fortran] 8 Condicionales",
+      "duration": 576
+    },
+    {
+      "id": "JdL3-4rT8bA",
+      "title": "[Fortran] 9 Loops, bucles, ciclos",
+      "duration": 511
+    },
+    {
+      "id": "ZYRIV6Q9Qi8",
+      "title": "[Fortran] 10 Funciones",
+      "duration": 806
+    },
+    {
+      "id": "OXz14LyqNLk",
+      "title": "[Fortran] 11 Funciones part2",
+      "duration": 426
+    },
+    {
+      "id": "e3ltH8YnWL8",
+      "title": "[Fortran] 12 Subrutinas",
+      "duration": 684
+    },
+    {
+      "id": "PnOGdUeBzXs",
+      "title": "[Fortran] 13 Leer y escribir",
+      "duration": 1075
+    },
+    {
+      "id": "N4vlezgYVrg",
+      "title": "[Fortran] 14 Leer y escribir archivo",
+      "duration": 687
+    },
+    {
+      "id": "2LUIuZ5ENNM",
+      "title": "[Fortran] 15 Almacenamiento",
+      "duration": 772
+    },
+    {
+      "id": "C9mjUZg1ibU",
+      "title": "[Fortran] 16 Almacenamiento part2",
+      "duration": 887
+    },
+    {
+      "id": "UAZTcac1ZZY",
+      "title": "PRACTICE 1- Make your own covid19 simulation with Fortran and ParaView, real time coding",
+      "duration": 2258
+    },
+    {
+      "id": "3ctL9JVUbHc",
+      "title": "Leer datos separados por comas CSV en Fortran y por caracteres especiales",
+      "duration": 680
+    },
+    {
+      "id": "2KMgsVqRiPU",
+      "title": "[Fortran Avanzado] Datos estructurados",
+      "duration": 901
+    },
+    {
+      "id": "COGlOyX9osc",
+      "title": "[Fortran Avanzado] Cálculo Vectorial",
+      "duration": 955
+    },
+    {
+      "id": "MUDB9r_PVus",
+      "title": "[Fortran Avanzado] Ray Casting, paso por paso",
+      "duration": 2025
+    }
+  ]
+}

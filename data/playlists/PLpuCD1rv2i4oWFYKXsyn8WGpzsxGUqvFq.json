@@ -1,0 +1,209 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Curso de Física Elemental o Pre Universitaria",
+  "channel": "Physics Without Tricks",
+  "description": "Videoaulas sobre el curso de Física elemental que debe conocerse como cultura general por toda persona que termina su edad escolar.\nLos materiales usados están en el siguiente link \nhttps://drive.google.com/drive/folders/1FTQkCi13bK5EEOcMDRbf7mlpzhBoM309?usp=drive_link",
+  "updated": "2024-11-16",
+  "lessons": [
+    {
+      "id": "ZjVpdPeY9BA",
+      "title": "Intro y Análisis Dimensional",
+      "duration": 2277
+    },
+    {
+      "id": "X0S4mdA66X8",
+      "title": "Ejercicios de Analisis Dimensional",
+      "duration": 1801
+    },
+    {
+      "id": "pUd5Ryxegcs",
+      "title": "Siguientes videos: Vectores",
+      "duration": 33
+    },
+    {
+      "id": "rW7CwvnjBXI",
+      "title": "Vectores I, suma vectorial y producto de un vector y un número real",
+      "duration": 2817
+    },
+    {
+      "id": "uaaiECPFkGY",
+      "title": "Vectores II, Ejercicios de suma vectorial y producto de un número por un vector",
+      "duration": 2626
+    },
+    {
+      "id": "7BrI3gX88dY",
+      "title": "Vectores III, vectores unitarios y descomposición rectangular",
+      "duration": 3101
+    },
+    {
+      "id": "jElqmD08R9c",
+      "title": "Vectores IV, ejercicios de vectores unitarios y descomposición rectangular.",
+      "duration": 1793
+    },
+    {
+      "id": "_EhZeOyb5yE",
+      "title": "Cinemática I, Velocidad y Movimiento Rectilíneo Uniforme (MRU)",
+      "duration": 1951
+    },
+    {
+      "id": "Raw48PiU6zs",
+      "title": "Cinemática II, Ejercicios de MRU",
+      "duration": 1973
+    },
+    {
+      "id": "i6PAXYtdmhg",
+      "title": "Cinemática III, Aceleración y Movimiento Rectilineo Unifromemente Variado MRUV",
+      "duration": 2183
+    },
+    {
+      "id": "Rd7pYAFcyVE",
+      "title": "Cinemática IV Ejercicios de MRUV",
+      "duration": 3359
+    },
+    {
+      "id": "oSIVbkVJzCQ",
+      "title": "Corrigiendo problema de MRUV del examen UNI 2008-II",
+      "duration": 1302
+    },
+    {
+      "id": "t7U9bWPuXWA",
+      "title": "CINEMÁTICA V Movimiento Vertical de Caída Libre (Teoría y Ejercicios)",
+      "duration": 2644
+    },
+    {
+      "id": "03Mj8Gb8buk",
+      "title": "Cinemática VI Ecuaciones vectoriales del MRU y el MRUV",
+      "duration": 3904
+    },
+    {
+      "id": "uew0oRsg0bE",
+      "title": "Cinemática VII Movimiento Parabólico de Caída Libre",
+      "duration": 2141
+    },
+    {
+      "id": "nNM_2eRR8-Q",
+      "title": "Cinemática VIII Gráficas de MRU",
+      "duration": 2528
+    },
+    {
+      "id": "BxrS4J88rhc",
+      "title": "Cinemática IX Gráficas de MRUV",
+      "duration": 2814
+    },
+    {
+      "id": "nLr2wPCxrJs",
+      "title": "Dinámica I Concepto de Fuerza, Fuerzas usuales en Mecánica y Diagrama de Cuerpo Libre.",
+      "duration": 2099
+    },
+    {
+      "id": "tQmS00yun1c",
+      "title": "Dinamica II, Leyes de Newton y ejemplo ilustrativo",
+      "duration": 2280
+    },
+    {
+      "id": "96DDnll7yCA",
+      "title": "Dinámica III, Aplicaciones de las leyes de Newton en problemas de Dinámica rectilínea",
+      "duration": 2970
+    },
+    {
+      "id": "YCJMJkLRoNs",
+      "title": "Dinamica IV, Fuerza de Rozamiento",
+      "duration": 3293
+    },
+    {
+      "id": "02Hpl2VdK2g",
+      "title": "Movimiento Circular I, Movimiento circular Uniforme (MCU) y Aceleración Centrípeta",
+      "duration": 2013
+    },
+    {
+      "id": "7Hz6faN-e5A",
+      "title": "Movimiento Circular II, velocidad angular en el MCU",
+      "duration": 1774
+    },
+    {
+      "id": "KyIL3X71xFs",
+      "title": "Movimiento circular III, Relación entre la velocidad angular y la velocidad Tangencial",
+      "duration": 1286
+    },
+    {
+      "id": "Rimvnv-fC24",
+      "title": "Movimiento circular IV, Inercia de giro",
+      "duration": 1818
+    },
+    {
+      "id": "FNX_dLhf9A0",
+      "title": "Movimiento circular V, Movimiento Circular Uniformemende Variado MCUV",
+      "duration": 2279
+    },
+    {
+      "id": "-qTU-Y4gc0I",
+      "title": "Movimiento circular VI, Aceleración Centrípeta en el MCUV",
+      "duration": 1530
+    },
+    {
+      "id": "cxE_W44cd0o",
+      "title": "Vectores V, Producto escalar y Vectorial.",
+      "duration": 1870
+    },
+    {
+      "id": "D3L-L550O9Q",
+      "title": "Estática I, Primera condición de Equilibrio o Equilibrio de Traslación",
+      "duration": 1503
+    },
+    {
+      "id": "dbb1rRqAZ5w",
+      "title": "Estática II, Centro de Masas, Centro de Gravedad.",
+      "duration": 749
+    },
+    {
+      "id": "_8y2EDBIUxo",
+      "title": "Estática III, Torque o Momento",
+      "duration": 1481
+    },
+    {
+      "id": "gIgqYr13UP8",
+      "title": "Estática IV, Segunda Condición de Equilibrio",
+      "duration": 1366
+    },
+    {
+      "id": "WbjKHVy3u6Y",
+      "title": "Trabajo y energía I, Conceptos de Trabajo Mecánico y Energía cinética",
+      "duration": 2146
+    },
+    {
+      "id": "R8fggpaZjZA",
+      "title": "Trabajo y energía II, Casos en que el trabajo de una fuerza es nulo",
+      "duration": 1525
+    },
+    {
+      "id": "AzwxpVY1FEA",
+      "title": "Trabajo y energía III, Trabajo de una fuerza variable con la posición.",
+      "duration": 2084
+    },
+    {
+      "id": "V9UQJYcdkMY",
+      "title": "Trabajo y energía IV, Energía potencial gravitatoria",
+      "duration": 1906
+    },
+    {
+      "id": "FmpMXaq8C84",
+      "title": "Trabajo y energía V. Energía potencial elástica. Teorema del trabajo de las fuerzas no conservativas",
+      "duration": 2490
+    },
+    {
+      "id": "RacWIHQYK3k",
+      "title": "Impulso y Cantidad de movimiento 1. Conceptos Generales",
+      "duration": 2431
+    },
+    {
+      "id": "xjGiOIax4RQ",
+      "title": "impulso y cantidad de movimiento 2: Centro de Masas",
+      "duration": 1420
+    },
+    {
+      "id": "BBuAn0orKcE",
+      "title": "impulso y cantidad de movimiento 3: Conservación de la Cantidad de movimiento. Choques",
+      "duration": 3942
+    }
+  ]
+}

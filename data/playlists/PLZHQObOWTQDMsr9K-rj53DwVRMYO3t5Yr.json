@@ -1,0 +1,69 @@
+{
+  "fetched": "2026-11-01",
+  "title": "Essence of calculus",
+  "channel": "3Blue1Brown",
+  "description": "A free course offering the core concept of Calculus, with a visuals-first approach aimed at making you feel like you could have discovered the subject yourself.",
+  "updated": "2025-02-18",
+  "lessons": [
+    {
+      "id": "WUvTyaaNkzM",
+      "title": "The essence of calculus",
+      "duration": 1025
+    },
+    {
+      "id": "9vKqVkMQHKk",
+      "title": "The paradox of the derivative | Chapter 2, Essence of calculus",
+      "duration": 1010
+    },
+    {
+      "id": "S0_qX4VJhMQ",
+      "title": "Derivative formulas through geometry | Chapter 3, Essence of calculus",
+      "duration": 1054
+    },
+    {
+      "id": "YG15m2VwSjA",
+      "title": "Visualizing the chain rule and product rule | Chapter 4, Essence of calculus",
+      "duration": 956
+    },
+    {
+      "id": "m2MIpDrF7Es",
+      "title": "What's so special about Euler's number e? | Chapter 5, Essence of calculus",
+      "duration": 830
+    },
+    {
+      "id": "qb40J4N1fa4",
+      "title": "Implicit differentiation, what's going on here? | Chapter 6, Essence of calculus",
+      "duration": 934
+    },
+    {
+      "id": "kfF40MiS7zA",
+      "title": "Limits, L'Hôpital's rule, and epsilon delta definitions | Chapter 7, Essence of calculus",
+      "duration": 1107
+    },
+    {
+      "id": "rfG8ce4nNh0",
+      "title": "Integration and the fundamental theorem of calculus | Chapter 8, Essence of calculus",
+      "duration": 1246
+    },
+    {
+      "id": "FnJqaIESC2s",
+      "title": "What does area have to do with slope? | Chapter 9, Essence of calculus",
+      "duration": 759
+    },
+    {
+      "id": "BLkz5LGWihw",
+      "title": "Higher order derivatives | Chapter 10, Essence of calculus",
+      "duration": 339
+    },
+    {
+      "id": "3d6DsjIBzJ4",
+      "title": "Taylor series | Chapter 11, Essence of calculus",
+      "duration": 1340
+    },
+    {
+      "id": "CfW845LNObM",
+      "title": "The other way to visualize derivatives | Chapter 12, Essence of calculus",
+      "duration": 866
+    }
+  ]
+}
