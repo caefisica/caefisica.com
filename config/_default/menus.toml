@@ -53,6 +53,12 @@ parent = "recursos"
 weight = 15
 
 [[main]]
+name = "Grabaciones"
+pageRef = "/grabaciones"
+parent = "recursos"
+weight = 16
+
+[[main]]
 name = "Blog"
 pageRef = "/blog"
 parent = "recursos"

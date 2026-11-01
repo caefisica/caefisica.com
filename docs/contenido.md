@@ -15,6 +15,7 @@ content/
 ├── fisicos/<slug>/index.md            perfiles escritos de físicos peruanos
 ├── videos/_content.gotmpl             una página por lista de los playlists.yaml
 ├── tesis/_content.gotmpl              una página por tesis de data/theses.json
+├── grabaciones/_index.md              lista de data/recordings.json
 ├── professors/<slug>/index.md         docentes
 ├── contributors/<slug>/_index.md      colaboradores; el índice es /equipo/
 ├── contacto/, privacidad/

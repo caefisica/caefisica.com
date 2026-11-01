@@ -1,0 +1,821 @@
+{
+  "fetched": "2026-11-01",
+  "series": [
+    {
+      "id": "consejo",
+      "name": "Consejo de Facultad"
+    },
+    {
+      "id": "lafmat",
+      "name": "Seminario de la Red LAFMAT"
+    },
+    {
+      "id": "coloquio",
+      "name": "Coloquio de Física de la PUCP"
+    },
+    {
+      "id": "sustentacion",
+      "name": "Sustentaciones"
+    },
+    {
+      "id": "divulgacion",
+      "name": "Divulgación"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "fb-1432881601509839",
+      "date": "2026-10-19",
+      "minutes": 37,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/1432881601509839/",
+      "host": "Facebook",
+      "speakers": [],
+      "series": "consejo",
+      "title": "Sesión del Consejo de Facultad, parte 1"
+    },
+    {
+      "id": "fb-2051639445541047",
+      "date": "2026-10-19",
+      "minutes": 21,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/2051639445541047/",
+      "host": "Facebook",
+      "speakers": [],
+      "series": "consejo",
+      "title": "Sesión del Consejo de Facultad, parte 2"
+    },
+    {
+      "id": "fb-608138191887344",
+      "date": "2024-12-09",
+      "minutes": 80,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/608138191887344/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Roberta Pereira Dias",
+          "affiliation": "Universidade Federal de Pernambuco (UFPE), Brasil"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Explorando Novas Perspectivas para Entender a Membrana de LPS"
+    },
+    {
+      "id": "fb-585685620616098",
+      "date": "2024-12-03",
+      "minutes": 119,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/585685620616098/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Lucelma Pereira de Carvalho",
+          "affiliation": "Universidade Federal de Pernambuco (UFPE), Brasil"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Modelagem da emissão de luz branca contínua por conversão ascendente de energia em nanomateriais"
+    },
+    {
+      "id": "fb-7861153413987377",
+      "date": "2024-11-24",
+      "minutes": 90,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/7861153413987377/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "M. Cecilia Gimenez",
+          "affiliation": "Universidad Nacional de Córdoba (UNC), Argentina"
+        },
+        {
+          "name": "Luis Reinaudi",
+          "affiliation": "Universidad Nacional de Córdoba (UNC), Argentina"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Estudios computacionales de compuestos relacionados con electrodos de baterías de ion-litio"
+    },
+    {
+      "id": "fb-295394366566030",
+      "date": "2023-09-30",
+      "minutes": 110,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/295394366566030/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Lídice Vaillant Roca",
+          "affiliation": "Universidad de La Habana, Cuba"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Óxidos semiconductores nanoestructurados mediante técnicas de bajo costo para celdas solares emergentes"
+    },
+    {
+      "id": "fb-2503281699852732",
+      "date": "2023-07-08",
+      "minutes": 70,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/2503281699852732/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Konstantin Yu. Arutyunov",
+          "affiliation": "HSE University, Rusia"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Quantum fluctuations in quasi-1D superconductors"
+    },
+    {
+      "id": "fb-1695385684308991",
+      "date": "2023-07-01",
+      "minutes": 79,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/1695385684308991/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "David Chávez",
+          "affiliation": "Cinvestav-Saltillo, México"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Creación e implementación de una base de datos para el descubrimiento acelerado de materiales que combaten la bioincrustación mediante técnicas de visión por computadora"
+    },
+    {
+      "id": "fb-255009287159409",
+      "date": "2023-06-25",
+      "minutes": 87,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/255009287159409/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Shova Neupane",
+          "affiliation": "University of Southern Denmark, Dinamarca"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Localized corrosion initiation study and role of surface preparation on passivity enhancement"
+    },
+    {
+      "id": "fb-1020512815993021",
+      "date": "2023-06-17",
+      "minutes": 76,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/1020512815993021/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Eli Ramón Mora",
+          "affiliation": "Facultad de Ingeniería, Universidad Rafael Urdaneta, Venezuela"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Estudio y selección de materiales como nueva tendencia en ingeniería para inteligencia artificial"
+    },
+    {
+      "id": "fb-280171644477147",
+      "date": "2023-06-10",
+      "minutes": 54,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/280171644477147/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Chinna Kandula",
+          "affiliation": "University of Hyderabad, India"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Structural and Magnetic Properties of Lu Doped YbMnO3"
+    },
+    {
+      "id": "fb-957007725488244",
+      "date": "2023-06-03",
+      "minutes": 118,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/957007725488244/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Santiago J. A. Figueroa",
+          "affiliation": "Laboratório Nacional de Luz Síncrotron (LNLS), Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), Campinas, Brasil"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Sirius beamlines for materials research: Applications and related instrumentation"
+    },
+    {
+      "id": "fb-910788270032239",
+      "date": "2023-05-31",
+      "minutes": 123,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/910788270032239/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Edson Sardella",
+          "affiliation": "Unesp, Departamento de Física, Campus de Bauru-SP, Brasil"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Uma breve história da supercondutidade"
+    },
+    {
+      "id": "fb-772097997883563",
+      "date": "2023-05-20",
+      "minutes": 86,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/772097997883563/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Alifhers Mestra",
+          "affiliation": "Universidad Católica del Norte, Chile"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Supercondensador híbrido asimétrico en 3D basado en Co3O4/CdO/CdCO3 y carbón activado (CA) sobre un sustrato de espuma de níquel (NF)"
+    },
+    {
+      "id": "fb-202568319264606",
+      "date": "2023-05-15",
+      "minutes": 209,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/202568319264606/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Joel Rojas Acuña"
+        },
+        {
+          "name": "Fernando Márquez"
+        },
+        {
+          "name": "Douglas Sarango Julca"
+        }
+      ],
+      "series": "divulgacion",
+      "title": "Divulgación Científica de docentes 2023-I"
+    },
+    {
+      "id": "fb-2197474247309551",
+      "date": "2023-05-13",
+      "minutes": 88,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/2197474247309551/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Dulat Daurenbekov",
+          "affiliation": "L.N. Gumilyov Eurasian National University, Kazakhstan"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Luminescent converters based on semiconductor quantum dots"
+    },
+    {
+      "id": "fb-623623746351494",
+      "date": "2023-05-06",
+      "minutes": 102,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/623623746351494/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "José de Jesús Velázquez-García",
+          "affiliation": "Deutsches Elektronen-Synchrotron (DESY), Alemania"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Y sin embargo se mueven! foto-cristalografía de resolución temporal de materiales de transición de spin y estructuras metal orgánicas"
+    },
+    {
+      "id": "fb-757410282696792",
+      "date": "2023-04-29",
+      "minutes": 106,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/757410282696792/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Jorge Ignacio Villa Hernández",
+          "affiliation": "Grupo de Física de Nuevos Materiales, Universidad Nacional de Colombia, Colombia"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Estudio teórico-experimental de las propiedades estructurales, magnéticas y electrónicas de materiales con estructura perovskita"
+    },
+    {
+      "id": "fb-5836087633183563",
+      "date": "2023-04-22",
+      "minutes": 93,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/5836087633183563/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Gabriel García Zambrano",
+          "affiliation": "Cinvestav, México"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Transformando el Mundo a Escala Nanométrica: El Papel de la Inteligencia Artificial en la Nanociencia y Nanotecnología"
+    },
+    {
+      "id": "fb-789593316062830",
+      "date": "2023-04-15",
+      "minutes": 77,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/789593316062830/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Narsi Boya",
+          "affiliation": "University of Hyderabad, India"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Síntesis verde de los nanomateriales de óxido de metal su aplicación actividad fotocatalítica para la rehabilitación de contaminantes ambientales"
+    },
+    {
+      "id": "fb-1019302149031875",
+      "date": "2023-04-08",
+      "minutes": 78,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/1019302149031875/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Julio González",
+          "affiliation": "Shanghai Jiaotong University, China"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Hydrogen embrittlement in Beta titanium alloys - A review"
+    },
+    {
+      "id": "fb-935610264259669",
+      "date": "2023-04-02",
+      "minutes": 127,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/935610264259669/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Verónica González",
+          "affiliation": "Universidad de Oriente, Venezuela"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Síntesis de compuestos de metálicos de Mg-Ti por el método de aleación metálica"
+    },
+    {
+      "id": "fb-216299514406996",
+      "date": "2023-03-25",
+      "minutes": 93,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/216299514406996/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Marcio Assolin Correa",
+          "affiliation": "Departamento de Física, Universidade Federal do Rio Grande do Norte, Brasil"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Magnetization dynamics and thermoelectric effects on flexible nanostructures"
+    },
+    {
+      "id": "fb-6109081719154522",
+      "date": "2023-03-08",
+      "minutes": 83,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/6109081719154522/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Jonathan Acuña Huamani"
+        }
+      ],
+      "series": "sustentacion",
+      "title": "Maestría en Física con mención en Física Nuclear"
+    },
+    {
+      "id": "fb-518757630438033",
+      "date": "2023-03-04",
+      "minutes": 59,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/518757630438033/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Yutao Xing",
+          "affiliation": "Institute of Physics - Universidade Federal Fluminense (UFF), Brasil"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Superconductivity in Ni-Bi system: one example of applications of high-resolution electron microscopy in physics"
+    },
+    {
+      "id": "fb-203662465644714",
+      "date": "2023-02-25",
+      "minutes": 86,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/203662465644714/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Michelle Marie S. Villamayor",
+          "affiliation": "Central Mindanao University (CMU), Bukidnon, Filipinas"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Plasma Technology for Thin Film Deposition and Surface Modification"
+    },
+    {
+      "id": "fb-595053438693764",
+      "date": "2023-02-18",
+      "minutes": 97,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/595053438693764/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Hugo Andrés Cabrera Tinoco",
+          "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú",
+          "profile": "/fisicos/hugo-andres-cabrera-tinoco/"
+        }
+      ],
+      "series": "lafmat",
+      "title": "Modelo de acoplamiento efectivo para transporte electrónico y estudio de la adsorción de CO2 por grafeno co-dopado con Fe y N mediante DFT"
+    },
+    {
+      "id": "fb-676003416444697",
+      "date": "2020-12-01",
+      "minutes": 52,
+      "url": "https://www.facebook.com/FCFUNMSM/videos/676003416444697/",
+      "host": "Facebook",
+      "speakers": [
+        {
+          "name": "Alan Gerardo Llacza Rodríguez"
+        }
+      ],
+      "series": "sustentacion",
+      "title": "Aplicación de regionalización dinámica con el modelo atmosférico WRF en la generación de escenarios climáticos regionales para Perú”"
+    },
+    {
+      "id": "educast-12260",
+      "series": "divulgacion",
+      "title": "Acústica de Estudios de Grabación",
+      "date": "2019-12-11",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/12260",
+      "host": "Educast PUCP",
+      "speakers": [],
+      "summary": "Evento organizado por la Sección Física de la PUCP"
+    },
+    {
+      "id": "educast-12254",
+      "series": "coloquio",
+      "title": "Desarrollo de instrumentación científica de bajo costo",
+      "date": "2019-11-28",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/12254",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Óscar Baltuano",
+          "affiliation": "Instituto Peruano de Energía Nuclear",
+          "profile": "/professors/oscar-baltuano-elias/"
+        }
+      ],
+      "summary": "Los instrumentos científicos están asociados a costos elevados de adquisición y mantenimiento post-venta. En muchos casos, estos últimos superan a los primeros. Cuando no son considerados, llega un momento en que inevitablemente estos equipos quedan inoperativos. Esta realidad es muy común en los laboratorios de investigación y desarrollo en Perú. Contradictoriamente, los avances tecnológicos en electrónica, sensores, software y programación han permitido que formen parte de nuestro quehacer cotidiano dispositivos de altísima tecnología que, al ser de consumo masivo, son de muy bajo costo. Por ejemplo, un LED es un dispositivo muy avanzado, con un precio irrisorio, que normalmente usamos solo como indicador luminoso. Sin embargo, existen cientos de usos alternativos que incluyen instrumentos de medición como espectrofotómetros y colorímetros, medidores de absorbancia y transmitancia, entre otros. Esto constituye una oportunidad para el desarrollo de instrumentación científica de bajo costo con una razonable sostenibilidad en el tiempo."
+    },
+    {
+      "id": "educast-12132",
+      "series": "coloquio",
+      "title": "Microorganismos en ambientes espaciales: ¿cuál es su papel en la exploración espacial?",
+      "date": "2019-11-21",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/12132",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Adolfo Ubidia",
+          "affiliation": "The Mars Society - Peru Chapter"
+        }
+      ],
+      "summary": "El ser humano es un explorador por naturaleza, y el espacio es el principal objetivo de la exploración y colonización humana en las próximas décadas. Sin embargo, esta es una aventura que no se dará solamente por una especie: el ser humano siempre estará acompañado de otros organismos, para su alimentación y producción de recursos, y por otros que van como polizontes microscópicos fuera y dentro de los seres vivos que viajan al espacio. Estos microorganismos pueden representar diferentes peligros. Son ya conocidas sus molestas habilidades para crecer en superficies y dentro de algunos equipos a bordo, y su potencial para causar enfermedades bajo condiciones normales. Pero, además, el ambiente espacial afecta el desarrollo de los microorganismos: pueden crecer más rápidamente y bloquear más fácilmente las defensas naturales del ser humano. Sumado a esto, en el ambiente espacial los seres humanos se debilitan, y los microorganismos tienen incluso una mejor oportunidad de prosperar a costa de la salud de sus hospederos."
+    },
+    {
+      "id": "educast-12134",
+      "series": "coloquio",
+      "title": "Creando organismos nuevos: ¿qué es la biología sintética?",
+      "date": "2019-11-14",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/12134",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Walter Riofrío",
+          "affiliation": "Universidad Peruana Cayetano Heredia"
+        }
+      ],
+      "summary": "La biología sintética es una rama interdisciplinaria de la biología bastante nueva, que involucra la aplicación de los principios de la ingeniería a la biología. Su objetivo es el (re)diseño y fabricación de componentes y sistemas biológicos que aún no existen en el mundo natural. La biología sintética combina la síntesis química del ADN con el conocimiento de la genómica, permitiendo a los científicos diseñar y sintetizar cromosomas bacterianos modificados. Hoy, la biología sintética es cualquier forma de ingeniería biológica con tecnología de síntesis genética contemporánea o técnicas biotecnológicas avanzadas para manipular la vida, programando organismos para realizar cualquier tarea deseada, y que se pueden usar en la producción de biocombustibles avanzados, productos renovables, organismos que limpian el medioambiente y cualquier producto bio-amigable que pueda tener utilidad en la industria. Así, actualmente es una de las áreas de biotecnología comercial de más rápido crecimiento y más financiadas."
+    },
+    {
+      "id": "educast-12035",
+      "series": "coloquio",
+      "title": "Reforestación como mitigación del cambio climático,  impulsada por reactores nucleares de sal fundida",
+      "date": "2019-10-29",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/12035",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "László Sajó-Bohus",
+          "affiliation": "Universidad Simón Bolívar"
+        }
+      ],
+      "summary": "Durante más de cuarenta años, Venezuela ha mantenido un programa activo de reforestación de áreas áridas y semidesiertas, principalmente basado en el uso del pino Pinus Caribaea Var. Hondurencis, instrumentando más de 500 000 hectáreas de bosque de alto impacto climatológico. Este aspecto es relevante por reunir aproximadamente 1710 MW de energía solar, con una capacidad de captura de 113 millones de toneladas por año de CO2 atmosférico, favoreciendo así la liberación de 82.2 millones de toneladas de O2 por año, además de la formación de madera y biomasa. El programa depende de la lluvia natural, que no está disponible en amplias zonas del mundo. Describimos un proyecto de mitigación del cambio climático que utiliza un Reactor Nuclear de Sal Fundida (MSR), con combustible de torio, para suplir la energía necesaria para producir agua por medio de la desalinización y así proveer un suministro adecuado para un programa mundial de reforestación. Es una opinión difundida que, de los tipos de plantas de producción de energía existentes, la vía nuclear es la única opción a largo plazo. Debido a la disponibilidad de combustible como torio y uranio fértiles y de materiales fisionables como el plutonio, se estima que la tecnología nuclear genera los recursos energéticos necesarios para producir el agua requerida para la sostenibilidad del programa de reforestación, con una elevada capacidad de impactar el cambio climático. En la presentación se mencionan los programas de desarrollo actuales y los avances en prometedores diseños de producción de energía núcleo-termoeléctrica en MSR, incluyendo aspectos técnicos y los resultados de estudios realizados para la reforestación de un millón de hectáreas por año, siguiendo el modelo de la experiencia en Venezuela."
+    },
+    {
+      "id": "educast-11957",
+      "series": "coloquio",
+      "title": "Energía de fusión: aplicando los conocimientos de ciencia e ingeniería",
+      "date": "2019-10-10",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/11957",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Humberto Torreblanca",
+          "affiliation": "DIII-D National Fusion Facility"
+        }
+      ],
+      "summary": "Es conocido que debemos migrar de combustibles fósiles a fuentes de energías renovables; sin embargo, estas últimas no proveen una solución total e integral. En este coloquio se hablará del plasma y su rol en la fusión por confinación magnética, y cómo esta tecnología puede considerarse como una fuente ideal de energía. Asimismo, se hablará del principio básico del tokamak, de su tecnología y de los diversos experimentos internacionales. Además, se tratará de cómo puedes aplicar los conceptos adquiridos en ciencia e ingeniería para analizar y desarrollar un reactor por confinamiento magnético. Se mostrará el uso del software COMSOL Multiphysics para desarrollar simulaciones computacionales de una manera intuitiva, y de cómo éste se puede usar ya desde el pregrado para modelar un tokamak. Finalmente, se presentará a los científicos y estudiantes peruanos que ya trabajan en este tema, y sobre la posibilidad de crear un nicho para un futuro grupo de investigacion sobre plasma en el país."
+    },
+    {
+      "id": "educast-11887",
+      "series": "coloquio",
+      "title": "Sobre cómo las hormigas desarrollaron la ganadería de pulgones:  un modelo matemático de evolución en dinámica de poblaciones",
+      "date": "2019-10-03",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/11887",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Luciano Stucchi",
+          "affiliation": "Universidad del Pacífico"
+        }
+      ],
+      "summary": "En este coloquio mostraremos cómo incorporamos un modelo matemático evolutivo en un sistema dinámico de poblaciones para obtener transiciones entre interacciones ecológicas. Para ello, utilizamos un modelo general de dinámica poblacional con el que es posible representar cualquier tipo de régimen ecológico y un"
+    },
+    {
+      "id": "educast-12270",
+      "series": "coloquio",
+      "title": "Coherencia, dualidad y enmarañamiento:  aspectos comunes de la física clásica y la física cuántica",
+      "date": "2019-09-26",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/12270",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Francisco De Zela",
+          "affiliation": "Sección Física PUCP"
+        }
+      ],
+      "summary": "La superposición coherente de varios estados como parte de uno solo, la dualidad partícula-onda, y el enmarañamiento entre dos estados, fueron tres aspectos que por mucho tiempo se consideró como característicos de la física cuántica. Sin embargo, en años recientes se ha hecho claro que dichos aspectos pueden también manifestarse en fenómenos que pertenecen al campo de la física clásica. Esto tiene implicancias de tipo"
+    },
+    {
+      "id": "educast-11684",
+      "series": "coloquio",
+      "title": "Desarrollo, caracterización e ingeniería de materiales semiconductores novedosos",
+      "date": "2019-08-22",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/11684",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Andrés Guerra",
+          "affiliation": "Sección Física PUCP"
+        }
+      ],
+      "summary": "El desarrollo de materiales semiconductores con propiedades nuevas e interesantes es una actividad de interés en la comunidad científica. Esto se evidencia en áreas como conversión de energía, recubrimientos duros, sensores de luz, sensores de gases y dispositivos de emisión de luz. Los materiales con propiedades nuevas abren nuevas aplicaciones u optimizan aplicaciones existentes. En el Laboratorio de Ciencias de los Materiales de la Sección Física PUCP se produce materiales semiconductores que combinan propiedades como conductividad eléctrica, luminiscencia y transparencia óptica. Asimismo, se manipulan las propiedades opto-electrónicas de materiales semiconductores con el fin de optimizarlos en ciertas aplicaciones. En esta charla introduciremos las actividades de investigación del Laboratorio. Primero, presentaremos avances en el desarrollo, caracterización e ingeniería del ancho de banda de películas delgadas metal-orgánicas de perovskita. Segundo, comentaremos sobre el desarrollo de foto-cátodos de carburo de silicio amorfo para la producción de hidrógeno asistida por luz solar. Tercero, presentaremos los resultados más recientes sobre la ingeniería de las propiedades opto-electrónicas y los mecanismos de excitación para la emisión de luz de semiconductores degenerados dopados con tierras raras."
+    },
+    {
+      "id": "educast-11499",
+      "series": "coloquio",
+      "title": "Neutrinos: mensajeros de Física más allá del Modelo Estándar",
+      "date": "2019-06-27",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/11499",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Alberto Gago",
+          "affiliation": "Sección Física PUCP"
+        }
+      ],
+      "summary": "Desde hace dos décadas se ha acumulado abundante evidencia experimental que demuestra que los neutrinos pueden oscilar entre sus diferentes sabores. Si bien el mecanismo principal por medio del cual se explica este fenómeno de interferencia cuántica es la masa no nula de los neutrinos, esto no descarta la posibilidad de que coexistan otros fenómenos (subdominantes) de física nueva o más allá del Modelo Estándar. Simplemente, estos últimos no han sido observados aún experimentalmente. Una de estas posibilidades es la decoherencia cuántica, la cual podría hacer perder interferencia (información) a las oscilaciones de neutrinos, como producto de la interacción del sistema de neutrinos con su entorno. En este seminario discutiremos las diferentes implicancias de la existencia de la decoherencia cuántica en el contexto de las oscilaciones de neutrinos que serán medidas en experimentos futuros. Exploraremos también cómo algunos modelos de decoherencia cuántica podrían inducir efectos observables en la violación de la simetría CPT. De ser posible, exploraremos algunos otros fenómenos de física nueva."
+    },
+    {
+      "id": "educast-11470",
+      "series": "coloquio",
+      "title": "La naturaleza de la explicación en las ciencias",
+      "date": "2019-06-20",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/11470",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Pablo Quintanilla",
+          "affiliation": "Centro de Estudios Filosóficos PUCP"
+        }
+      ],
+      "summary": "No hay un concepto de explicación sino varios, tanto en el sentido que las diversas ciencias tienen metodologías y objetivos explicativos diferentes, como en el sentido que los científicos tienen distintas concepciones de lo que hacen cuando pretenden explicar algo. Una de las tareas principales de la filosofía de la ciencia, desde por lo menos el siglo XVIII, ha sido analizar y comparar estos diversos conceptos para ver si hay elementos comunes y si alguno de estos conceptos representa mejor lo que hacen los científicos o lo que deberían hacer. Esta ponencia se propone analizar los principales sentidos de explicación que se usan en la filosofía reciente, para las ciencias naturales y humanas, concentrándose principalmente en el rol que la causalidad juega en la explicación."
+    },
+    {
+      "id": "educast-11464",
+      "series": "coloquio",
+      "title": "Radiación ionizante para preservar alimentos",
+      "date": "2019-06-13",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/11464",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Susana Petrick",
+          "affiliation": "Universidad Nacional de Ingeniería"
+        }
+      ],
+      "summary": "Cuando se hace referencia a los usos pacíficos de la energía nuclear pensamos inmediatamente en aplicaciones médicas, o en la generación de energía eléctrica utilizando el calor de la fisión nuclear para mover los generadores eléctricos. La Organización de las Naciones Unidas enunció en el 2015 Objetivos de Desarrollo Sostenible (ODS) que resumen las necesidades más apremiantes de la humanidad. El segundo ODS se enuncia como “cero hambre”, tema fundamental en un mundo en el que 1 de 10 personas sufre de hambre y desnutrición. Existen muchas formas en las que la tecnología nuclear puede contribuir a evitar que millones de personas sufran o mueran de hambre. Entre ellas está la mejora de la producción agrícola mundial, del uso de los recursos de suelo y agua, y de la preservación de los alimentos. Éstas apuntan a revertir el escenario en el que globalmente un tercio de los alimentos producidos se pierde, cifra que es mucho mayor en el Perú."
+    },
+    {
+      "id": "educast-5024",
+      "series": "coloquio",
+      "title": "Dinámica no lineal en sistemas ópticos",
+      "date": "2015-04-16",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/5024",
+      "host": "Educast PUCP",
+      "speakers": [],
+      "summary": "Veremos que la generalización de la ecuación de Schrödinger, la versión No Lineal y Discretizada (DNLSE), es capaz de describir una gama de problemas físicos de actualidad. Asimismo, veremos posibles generalizaciones y métodos de solución basados en la teoría de sistemas dinámicos."
+    },
+    {
+      "id": "educast-4912",
+      "series": "coloquio",
+      "title": "Creando Legión: el sistema de computación científica distribuida de la PUCP",
+      "date": "2015-04-09",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4912",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Oscar Díaz",
+          "affiliation": "Dirección de Informática Académica PUCP"
+        }
+      ],
+      "summary": "Legión es el sistema de computación científica distribuida desarrollado en la PUCP cuyo objetivo es proporcionar a los investigadores el poder computacional necesario para atacar problemas particularmente desafiantes. Para ello hace uso de las cientos de computadoras ubicadas en los laboratorios ubicados del campus, con un poder equivalente al de 700 núcleos (cores) de 3 GHz. En esta charla veremos una introducción al estado actual de la supercomputación, incluyendo los diferentes tipos y algunas arquitecturas. Luego nos concentraremos en BOINC, el protocolo de computación distribuida sobre el que nuestro sistema está basado: veremos en qué consiste y los elementos que lo componen. Finalmente nos enfocaremos en Legión, los componentes que lo conforman, su evolución y consideraciones para su uso. Mencionaremos algunos ejemplos de proyectos que han sido ejecutados por Legión, incluyendo la exploración de modelos de regresión estadística, cadenas de Markov para simular la dependencia de la población estudiantil PUCP ante diversos cambios y la comparación de modelos de producción de neutrinos de alta energía en núcleos activos galácticos."
+    },
+    {
+      "id": "educast-4883",
+      "series": "coloquio",
+      "title": "Digital-analog quantum simulators",
+      "date": "2015-03-30",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4883",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Enrique Solano",
+          "affiliation": "Universidad del País Vasco, España"
+        }
+      ],
+      "summary": "I will introduce the concept of digital-analog quantum simulators as a new paradigm in quantum information and applications in quantum technologies. Along these lines, I will outline the differences between analog quantum simulations (AQS) and digital quantum simulations (DQS), as well as the newly discovered close relation between the latter and quantum computing methods. Finally, I will briefly describe the most recent achievements in experimental quantum simulations in trapped ions and superconducting circuits."
+    },
+    {
+      "id": "educast-4872",
+      "series": "coloquio",
+      "title": "Radón: impacto ambiental y su evaluación",
+      "date": "2015-03-27",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4872",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Lászlo Sajó-Bohus",
+          "affiliation": "Universidad Simón Bolívar, Venezuela"
+        }
+      ],
+      "summary": "La radiactividad natural a acompañado a mas de doscientas mil generaciones desde la aparición del genero Homo: desde que el hombre puebla el globo terráqueo, ha estado expuesto a radiaciones nucleares emanadas por rocas y suelos. Contribuyen también a la radiación ambiental los gases radiactivos, generados en procesos nucleares, tanto en los de ocurrencia natural como en los inducidos técnicamente por el hombre."
+    },
+    {
+      "id": "educast-5009",
+      "series": "coloquio",
+      "title": "Los experimentos ATLAS y NEXT",
+      "date": "2015-03-26",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/5009",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Marta Losada",
+          "affiliation": "Universidad Antonio Nariño, Colombia"
+        }
+      ],
+      "summary": "En esta charla describimos brevemente las motivaciones, el estatus y los resultados de los experimentos ATLAS y NEXT. El experimento ATLAS (A Toroidal LHC ApparatuS) ya ha realizado un descubrimiento importante durante la primera corrida ("
+    },
+    {
+      "id": "educast-4847",
+      "series": "coloquio",
+      "title": "Alan Turing y la formación de patrones",
+      "date": "2015-03-19",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4847",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Desiderio Vásquez",
+          "affiliation": "Sección Física PUCP",
+          "profile": "/fisicos/desiderio-augusto-vasquez-rodriguez/"
+        }
+      ],
+      "summary": "El nombre de Alan Turing está asociado a grandes avances en computación. En esta charla conversaremos acerca de algunos de sus logros, desde sus contribuciones al"
+    },
+    {
+      "id": "educast-4405",
+      "series": "coloquio",
+      "title": "Espectrometría de retardo de tiempo: una poderosa alternativa a la transformada de Fourier para la medida de la respuesta de frecuencia de altavoces sin el uso de una cámara anecoica",
+      "date": "2014-11-27",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4405",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Richard Rivera",
+          "affiliation": "Sección Física PUCP"
+        }
+      ],
+      "summary": "En esta charla describiremos los principios teóricos y los procedimientos seguidos en el desarrollo de una herramienta para la medida de la respuesta de frecuencia de altavoces utilizando la técnica de espectrometría de retardo de tiempo. Esta técnica constituye una poderosa alternativa para la realización de dichas mediciones en un recinto no anecoico, es decir, carente de eco, y sin la utilización de la transformada de Fourier."
+    },
+    {
+      "id": "educast-4403",
+      "series": "coloquio",
+      "title": "Nanocompuestos basados en nitruro de titanio: aplicaciones",
+      "date": "2014-11-20",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4403",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Arturo Talledo",
+          "affiliation": "Universidad Nacional de Ingeniería"
+        }
+      ],
+      "summary": "En esta charla describiremos las técnicas utilizadas para producir nanocompuestos basados en nitruro de titanio (TiN), que contienen también nitruro de cromo, de vanadio y de silicio. Trataremos sobre deposición de películas delgadas usando recubrimientos multicapas y co-sputtering, y sobre el análisis de las mismas a través de difracción de rayos X, microscopía electrónica de barrido (SEM) y espectroscopía de electrones Auger. Finalizaremos presentando el estudio vía SEM de las indentaciones Vickers, utilizadas como medida estándar de la dureza de un material."
+    },
+    {
+      "id": "educast-4401",
+      "series": "coloquio",
+      "title": "Oscilaciones acústicas de bariones: conociendo la historia del Universo",
+      "date": "2014-11-13",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4401",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Víctor Vera",
+          "affiliation": "Universidad Nacional Mayor de San Marcos"
+        }
+      ],
+      "summary": "Las oscilaciones acústicas de bariones son fluctuaciones en la densidad de la materia –a escalas de cientos de millones de años luz– que han quedado impresas en la distribución de las galaxias, a manera de huellas cosmológicas dejadas por las condiciones del Universo poco después del Big Bang. En años recientes, varios experimentos sofisticados de conteo de galaxias han logrado una medición precisa de las oscilaciones. Como consecuencia, se ha abierto una nueva ventana para comprender la historia y la formación de la estructura a gran escala que observamos en el Universo. En esta charla presentaremos una introducción a las oscilaciones acústicas de bariones, su importancia, y mencionaremos cómo su estudio nos puede llevar incluso a extender la teoría de la relatividad general, nuestra descripción actual de la gravedad."
+    },
+    {
+      "id": "educast-4402",
+      "series": "coloquio",
+      "title": "Un experimento de alta densidad para estudiar la interacción de neutrinos con la materia",
+      "date": "2014-11-06",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4402",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Javier Solano",
+          "affiliation": "Universidad Nacional de Ingeniería"
+        }
+      ],
+      "summary": "Minerva es un novedoso experimento construido para investigar la interacción de neutrinos con la materia, a través de la medición de las diferentes secciones eficaces que caracterizan las interacciones entre neutrinos y distintos materiales. Para lograr esto, Minerva usa un diseño de alta segmentación, que le permite detectar las partículas resultantes de los procesos de interacción con alta precisión espacial. Adicionalmente, para ayudar en la toma de datos, se diseñó un framework con una interfaz web.\r\nUno de los resultados espectaculares de este experimento ha sido la demostración de la posibilidad de comunicación a distancia usando neutrinos. Por otro lado, los resultados de análisis físicos incluyen las medidas de secciones eficaces de dispersión (scattering) para procesos cuasi-elásticos en interacciones tanto de neutrinos como de anti-neutrinos, y la determinación de los radios de secciones eficaces en interacciones de corriente cargada de neutrinos con C, Fe, Pb y CH, a energías de 2 a 20 GeV."
+    },
+    {
+      "id": "educast-4250",
+      "series": "coloquio",
+      "title": "Experiencias de un físico en el mundo de las finanzas: simulación de tasas de interés con el modelo de Cox-Ingersoll-Ross",
+      "date": "2014-10-30",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4250",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Juan Carlos Sihuincha",
+          "affiliation": "Sección Física PUCP y Banco de Crédito del Perú"
+        }
+      ],
+      "summary": "¿Qué hace un físico en un banco? ¿Qué tienen en común una partícula de polen y una acción en la bolsa de valores? ¿Se puede modelar el comportamiento de los inversionistas? ¿Cuánto puede llegar a ganar un PhD en el mundo de las finanzas? ¿Por qué somos los “lobos de Wall Street”? Responderé a estas y más interrogantes que quizá ya hayan pasado por su cabeza. Además les contaré acerca de mi trabajo modelando tasas de interés, corridas bancarias y probabilidades de default, variables de suma importancia al momento de calcular los riesgos a los cuales bancos, aseguradoras y todo el sistema financiero se enfrentan debido a las fluctuaciones del mercado."
+    },
+    {
+      "id": "educast-4182",
+      "series": "coloquio",
+      "title": "El bosón de Higgs: introducción y últimas noticias",
+      "date": "2014-10-23",
+      "minutes": null,
+      "url": "https://educast.pucp.edu.pe/video/4182",
+      "host": "Educast PUCP",
+      "speakers": [
+        {
+          "name": "Joel Jones",
+          "affiliation": "Sección Física PUCP"
+        }
+      ],
+      "summary": "El descubrimiento del bosón de Higgs ha sido el acontecimiento más grande dentro de la física de partículas en los últimos diez años. Encontrar dicha partícula ha requerido la construcción del Large Hadron Collider (LHC), el acelerador de partículas más energético en el mundo. En esta charla explicaremos la importancia del Higgs, describiremos los experimentos usados para descubrirlo dentro del LHC, y revisaremos aquellas propiedades que ya han sido medidas."
+    }
+  ]
+}
