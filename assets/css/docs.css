@@ -1181,6 +1181,47 @@
     }
   }
 
+  /* A profile reads in one column. From xl its facts move to a sticky column beside it, so they stay in view the way an infobox does. */
+  .person-page {
+    @apply col-prose;
+
+    @media (width >= 75rem) {
+      display: grid;
+      grid-template-columns: minmax(0, 36rem) 16rem;
+      grid-template-rows: auto auto 1fr;
+      justify-content: center;
+      column-gap: 4rem;
+      width: 100%;
+
+      & > * {
+        grid-column: 1;
+      }
+
+      & > .person-head {
+        margin-bottom: 2rem;
+      }
+
+      & > .facts {
+        grid-row: 1 / 4;
+        grid-column: 2;
+        position: sticky;
+        top: 4.5rem;
+        align-self: start;
+        margin: 0;
+
+        & dl {
+          grid-template-columns: 1fr;
+          gap: 0;
+        }
+
+        & dt {
+          margin-top: 0.75rem;
+          font-size: var(--text-sm);
+        }
+      }
+    }
+  }
+
   .person-head {
     display: flex;
     align-items: center;
