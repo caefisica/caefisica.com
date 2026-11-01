@@ -1,0 +1,1629 @@
+{
+  "fetched": "2026-11-01",
+  "defences": [
+    {
+      "id": "1276581344486040",
+      "candidate": {
+        "name": "Enrique Leoncio Tafur Gutierrez",
+        "slugs": [
+          "enrique-leoncio-tafur-gutierrez",
+          "enrique-tafur-gutierrez",
+          "enrique-leoncio-tafur",
+          "enrique-tafur",
+          "enrique-leoncio"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2025-11",
+      "jury": [
+        {
+          "name": "César Alejandro Quispe Gonzales",
+          "slugs": [
+            "cesar-alejandro-quispe-gonzales",
+            "cesar-quispe-gonzales",
+            "cesar-alejandro-quispe",
+            "cesar-quispe",
+            "cesar-alejandro"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Aristides Ramon Serruto Colque",
+          "slugs": [
+            "aristides-ramon-serruto-colque",
+            "aristides-serruto-colque",
+            "aristides-ramon-serruto",
+            "aristides-serruto",
+            "aristides-ramon"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Carmela Cristhy Ramos Orlandino",
+          "slugs": [
+            "carmela-cristhy-ramos-orlandino",
+            "carmela-ramos-orlandino",
+            "carmela-cristhy-ramos",
+            "carmela-ramos",
+            "carmela-cristhy"
+          ],
+          "honorific": null,
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Douglas Donal Sarango Julca",
+          "slugs": [
+            "douglas-donal-sarango-julca",
+            "douglas-sarango-julca",
+            "douglas-donal-sarango",
+            "douglas-sarango",
+            "douglas-donal"
+          ],
+          "honorific": null,
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "28265",
+      "url": "https://www.facebook.com/photo/?fbid=1276581344486040&set=a.463310019146514"
+    },
+    {
+      "id": "1227455486065293",
+      "candidate": {
+        "name": "Victor Edison Infante Lifoncio",
+        "slugs": [
+          "victor-edison-infante-lifoncio",
+          "victor-infante-lifoncio",
+          "victor-edison-infante",
+          "victor-infante",
+          "victor-edison"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2025-11",
+      "jury": [
+        {
+          "name": "Jesús Félix Sánchez Ortiz",
+          "slugs": [
+            "jesus-felix-sanchez-ortiz",
+            "jesus-sanchez-ortiz",
+            "jesus-felix-sanchez",
+            "jesus-sanchez",
+            "jesus-felix"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Carlos Javier Solano Salinas",
+          "slugs": [
+            "carlos-javier-solano-salinas",
+            "carlos-solano-salinas",
+            "carlos-javier-solano",
+            "carlos-solano",
+            "carlos-javier"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Eduardo Custodio Chung",
+          "slugs": [
+            "eduardo-custodio-chung",
+            "eduardo-custodio-custodio",
+            "eduardo-custodio"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Eduardo Gonzalo Villarreyes Peña",
+          "slugs": [
+            "eduardo-gonzalo-villarreyes-pena",
+            "eduardo-villarreyes-pena",
+            "eduardo-gonzalo-villarreyes",
+            "eduardo-villarreyes",
+            "eduardo-gonzalo"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Navor Enrique Figueroa Jamanca",
+          "slugs": [
+            "navor-enrique-figueroa-jamanca",
+            "navor-figueroa-jamanca",
+            "navor-enrique-figueroa",
+            "navor-figueroa",
+            "navor-enrique"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "27908",
+      "url": "https://www.facebook.com/photo/?fbid=1227455486065293&set=a.463310009146515"
+    },
+    {
+      "id": "1194191432725032",
+      "candidate": {
+        "name": "Diego Andre Orna Tiburcio",
+        "slugs": [
+          "diego-andre-orna-tiburcio",
+          "diego-orna-tiburcio",
+          "diego-andre-orna",
+          "diego-orna",
+          "diego-andre"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2025-08",
+      "jury": [
+        {
+          "name": "Angel Guillermo Bustamante Dominguez",
+          "slugs": [
+            "angel-guillermo-bustamante-dominguez",
+            "angel-bustamante-dominguez",
+            "angel-guillermo-bustamante",
+            "angel-bustamante",
+            "angel-guillermo"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Andres Nestor Diaz Sandoval",
+          "slugs": [
+            "andres-nestor-diaz-sandoval",
+            "andres-diaz-sandoval",
+            "andres-nestor-diaz",
+            "andres-diaz",
+            "andres-nestor"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Isias Gonzaga de Oliveira",
+          "slugs": [
+            "isias-gonzaga-de-oliveira",
+            "isias-de-oliveira",
+            "isias-gonzaga-de",
+            "isias-de",
+            "isias-gonzaga"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Jesus walter Flores Santibañez",
+          "slugs": [
+            "jesus-walter-flores-santibanez",
+            "jesus-flores-santibanez",
+            "jesus-walter-flores",
+            "jesus-flores",
+            "jesus-walter"
+          ],
+          "honorific": "Mg",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "28846",
+      "url": "https://www.facebook.com/photo/?fbid=1194191432725032&set=a.463310009146515"
+    },
+    {
+      "id": "1176337967843712",
+      "candidate": {
+        "name": "Manuel Gustavo Pinedo Cuba",
+        "slugs": [
+          "manuel-gustavo-pinedo-cuba",
+          "manuel-pinedo-cuba",
+          "manuel-gustavo-pinedo",
+          "manuel-pinedo",
+          "manuel-gustavo"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2025-07",
+      "jury": [
+        {
+          "name": "Justo Rojas Tapia",
+          "slugs": ["justo-rojas-tapia", "justo-rojas-rojas", "justo-rojas"],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Victor Antonio Peña Rodríguez",
+          "slugs": [
+            "victor-antonio-pena-rodriguez",
+            "victor-pena-rodriguez",
+            "victor-antonio-pena",
+            "victor-pena",
+            "victor-antonio"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Jorge Andrés Guerra Torres",
+          "slugs": [
+            "jorge-andres-guerra-torres",
+            "jorge-guerra-torres",
+            "jorge-andres-guerra",
+            "jorge-guerra",
+            "jorge-andres"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Justiniano Quispe Marcatoma",
+          "slugs": [
+            "justiniano-quispe-marcatoma",
+            "justiniano-quispe-quispe",
+            "justiniano-quispe"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "27048",
+      "url": "https://www.facebook.com/photo/?fbid=1176337967843712&set=a.463310009146515"
+    },
+    {
+      "id": "1154083300069179",
+      "candidate": {
+        "name": "Edward Alburqueque Salazar",
+        "slugs": [
+          "edward-alburqueque-salazar",
+          "edward-alburqueque-alburqueque",
+          "edward-alburqueque"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2025-06",
+      "jury": [
+        {
+          "name": "Cesar Omar Jimenez Tintaya",
+          "slugs": [
+            "cesar-omar-jimenez-tintaya",
+            "cesar-jimenez-tintaya",
+            "cesar-omar-jimenez",
+            "cesar-jimenez",
+            "cesar-omar"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Cesar Augusto Aguirre Cespedes",
+          "slugs": [
+            "cesar-augusto-aguirre-cespedes",
+            "cesar-aguirre-cespedes",
+            "cesar-augusto-aguirre",
+            "cesar-aguirre",
+            "cesar-augusto"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Wilmer Enrique Moncada Sosa",
+          "slugs": [
+            "wilmer-enrique-moncada-sosa",
+            "wilmer-moncada-sosa",
+            "wilmer-enrique-moncada",
+            "wilmer-moncada",
+            "wilmer-enrique"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Joel Rojas Acuña",
+          "slugs": ["joel-rojas-acuna", "joel-rojas-rojas", "joel-rojas"],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "26609",
+      "url": "https://www.facebook.com/photo/?fbid=1154083300069179&set=a.463310009146515"
+    },
+    {
+      "id": "1112906310853545",
+      "candidate": {
+        "name": "Mercedes Del Pilar Marcos Carrillo",
+        "slugs": [
+          "mercedes-del-pilar-marcos-carrillo",
+          "mercedes-marcos-carrillo",
+          "mercedes-del-marcos",
+          "mercedes-marcos",
+          "mercedes-del"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2025-05",
+      "jury": [
+        {
+          "name": "Whualkuer Enrique Lozano Bartra",
+          "slugs": [
+            "whualkuer-enrique-lozano-bartra",
+            "whualkuer-lozano-bartra",
+            "whualkuer-enrique-lozano",
+            "whualkuer-lozano",
+            "whualkuer-enrique"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Pablo Hector Rivera Riofano",
+          "slugs": [
+            "pablo-hector-rivera-riofano",
+            "pablo-rivera-riofano",
+            "pablo-hector-rivera",
+            "pablo-rivera",
+            "pablo-hector"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Chachi Rojas Ayala",
+          "slugs": ["chachi-rojas-ayala", "chachi-rojas-rojas", "chachi-rojas"],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Silvia Marisel Espinoza Suarez",
+          "slugs": [
+            "silvia-marisel-espinoza-suarez",
+            "silvia-espinoza-suarez",
+            "silvia-marisel-espinoza",
+            "silvia-espinoza",
+            "silvia-marisel"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Juan Adrián Ramos Guivar",
+          "slugs": [
+            "juan-adrian-ramos-guivar",
+            "juan-ramos-guivar",
+            "juan-adrian-ramos",
+            "juan-ramos",
+            "juan-adrian"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "26208",
+      "url": "https://www.facebook.com/photo/?fbid=1112906310853545&set=a.463310019146514"
+    },
+    {
+      "id": "1056034549874055",
+      "candidate": {
+        "name": "David Fernando Porlles López",
+        "slugs": [
+          "david-fernando-porlles-lopez",
+          "david-porlles-lopez",
+          "david-fernando-porlles",
+          "david-porlles",
+          "david-fernando"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2025-02",
+      "jury": [
+        {
+          "name": "Jesús Félix Sánchez Ortiz",
+          "slugs": [
+            "jesus-felix-sanchez-ortiz",
+            "jesus-sanchez-ortiz",
+            "jesus-felix-sanchez",
+            "jesus-sanchez",
+            "jesus-felix"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Justiniano Quispe Marcatoma",
+          "slugs": [
+            "justiniano-quispe-marcatoma",
+            "justiniano-quispe-quispe",
+            "justiniano-quispe"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Moisés Humberto García Santiváñez",
+          "slugs": [
+            "moises-humberto-garcia-santivanez",
+            "moises-garcia-santivanez",
+            "moises-humberto-garcia",
+            "moises-garcia",
+            "moises-humberto"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Silvia Marisel Espinoza Suarez",
+          "slugs": [
+            "silvia-marisel-espinoza-suarez",
+            "silvia-espinoza-suarez",
+            "silvia-marisel-espinoza",
+            "silvia-espinoza",
+            "silvia-marisel"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Carlos Vladimir Landauro Sáenz",
+          "slugs": [
+            "carlos-vladimir-landauro-saenz",
+            "carlos-landauro-saenz",
+            "carlos-vladimir-landauro",
+            "carlos-landauro",
+            "carlos-vladimir"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": null,
+      "url": "https://www.facebook.com/photo/?fbid=1056034549874055&set=a.463310019146514"
+    },
+    {
+      "id": "1043847144426129",
+      "candidate": {
+        "name": "Angel Alfonso Cobeñas Sánchez",
+        "slugs": [
+          "angel-alfonso-cobenas-sanchez",
+          "angel-cobenas-sanchez",
+          "angel-alfonso-cobenas",
+          "angel-cobenas",
+          "angel-alfonso"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2025-02",
+      "jury": [
+        {
+          "name": "Moises Humberto García Santivañez",
+          "slugs": [
+            "moises-humberto-garcia-santivanez",
+            "moises-garcia-santivanez",
+            "moises-humberto-garcia",
+            "moises-garcia",
+            "moises-humberto"
+          ],
+          "honorific": "Mg",
+          "role": "Presidente"
+        },
+        {
+          "name": "Luis Pablo Vilcapoma Lázaro",
+          "slugs": [
+            "luis-pablo-vilcapoma-lazaro",
+            "luis-vilcapoma-lazaro",
+            "luis-pablo-vilcapoma",
+            "luis-vilcapoma",
+            "luis-pablo"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Nick Jhonathan Moreno Moreno",
+          "slugs": [
+            "nick-jhonathan-moreno-moreno",
+            "nick-moreno-moreno",
+            "nick-jhonathan-moreno",
+            "nick-moreno",
+            "nick-jhonathan"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "César Omar Jimenez Tintaya",
+          "slugs": [
+            "cesar-omar-jimenez-tintaya",
+            "cesar-jimenez-tintaya",
+            "cesar-omar-jimenez",
+            "cesar-jimenez",
+            "cesar-omar"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "26029",
+      "url": "https://www.facebook.com/photo/?fbid=1043847144426129&set=a.463310019146514"
+    },
+    {
+      "id": "1043737451103765",
+      "candidate": {
+        "name": "José Gabriel Solano Canchaya",
+        "slugs": [
+          "jose-gabriel-solano-canchaya",
+          "jose-solano-canchaya",
+          "jose-gabriel-solano",
+          "jose-solano",
+          "jose-gabriel"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2025-02",
+      "jury": [
+        {
+          "name": "Chachi Rojas Ayala",
+          "slugs": ["chachi-rojas-ayala", "chachi-rojas-rojas", "chachi-rojas"],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Moisés Humberto García Santiváñez",
+          "slugs": [
+            "moises-humberto-garcia-santivanez",
+            "moises-garcia-santivanez",
+            "moises-humberto-garcia",
+            "moises-garcia",
+            "moises-humberto"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Justo Alcides Rojas Tapia",
+          "slugs": [
+            "justo-alcides-rojas-tapia",
+            "justo-rojas-tapia",
+            "justo-alcides-rojas",
+            "justo-rojas",
+            "justo-alcides"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "Robert Marino Espinoza Bernardo",
+          "slugs": [
+            "robert-marino-espinoza-bernardo",
+            "robert-espinoza-bernardo",
+            "robert-marino-espinoza",
+            "robert-espinoza",
+            "robert-marino"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": null,
+      "url": "https://www.facebook.com/photo/?fbid=1043737451103765&set=a.463310019146514"
+    },
+    {
+      "id": "1036577415153102",
+      "candidate": {
+        "name": "Elmer Antonio Ramírez Barreto",
+        "slugs": [
+          "elmer-antonio-ramirez-barreto",
+          "elmer-ramirez-barreto",
+          "elmer-antonio-ramirez",
+          "elmer-ramirez",
+          "elmer-antonio"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": "2025-01-27",
+      "month": "2025-01",
+      "jury": [
+        {
+          "name": "Teófilo Vargas Auccalla",
+          "slugs": [
+            "teofilo-vargas-auccalla",
+            "teofilo-vargas-vargas",
+            "teofilo-vargas"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Carlos Javier Solano Salinas",
+          "slugs": [
+            "carlos-javier-solano-salinas",
+            "carlos-solano-salinas",
+            "carlos-javier-solano",
+            "carlos-solano",
+            "carlos-javier"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Fulgencio Villegas Silva",
+          "slugs": [
+            "fulgencio-villegas-silva",
+            "fulgencio-villegas-villegas",
+            "fulgencio-villegas"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "José Domingo Arbañil Vela",
+          "slugs": [
+            "jose-domingo-arbanil-vela",
+            "jose-arbanil-vela",
+            "jose-domingo-arbanil",
+            "jose-arbanil",
+            "jose-domingo"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "26062",
+      "url": "https://www.facebook.com/photo/?fbid=1036577415153102&set=a.463310019146514"
+    },
+    {
+      "id": "1030869875723856",
+      "candidate": {
+        "name": "Miguel Angel Castillo Corzo",
+        "slugs": [
+          "miguel-angel-castillo-corzo",
+          "miguel-castillo-corzo",
+          "miguel-angel-castillo",
+          "miguel-castillo",
+          "miguel-angel"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2025-01",
+      "jury": [
+        {
+          "name": "Julio Andrés Fabián Salvador",
+          "slugs": [
+            "julio-andres-fabian-salvador",
+            "julio-fabian-salvador",
+            "julio-andres-fabian",
+            "julio-fabian",
+            "julio-andres"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Moises Humberto García Santivañez",
+          "slugs": [
+            "moises-humberto-garcia-santivanez",
+            "moises-garcia-santivanez",
+            "moises-humberto-garcia",
+            "moises-garcia",
+            "moises-humberto"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Enoc Efer Peña",
+          "slugs": ["enoc-efer-pena", "enoc-efer-efer", "enoc-efer"],
+          "honorific": "Dr",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Victor Antonio Peña Rodríguez",
+          "slugs": [
+            "victor-antonio-pena-rodriguez",
+            "victor-pena-rodriguez",
+            "victor-antonio-pena",
+            "victor-pena",
+            "victor-antonio"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "25316",
+      "url": "https://www.facebook.com/photo/?fbid=1030869875723856&set=a.463310009146515"
+    },
+    {
+      "id": "999665375510973",
+      "candidate": {
+        "name": "Luis Miguel Angel Lizarraga Matto",
+        "slugs": [
+          "luis-miguel-angel-lizarraga-matto",
+          "luis-lizarraga-matto",
+          "luis-miguel-lizarraga",
+          "luis-lizarraga",
+          "luis-miguel"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2024-12",
+      "jury": [
+        {
+          "name": "Silvia Marisel Espinoza Suárez",
+          "slugs": [
+            "silvia-marisel-espinoza-suarez",
+            "silvia-espinoza-suarez",
+            "silvia-marisel-espinoza",
+            "silvia-espinoza",
+            "silvia-marisel"
+          ],
+          "honorific": "Mg",
+          "role": "Presidente"
+        },
+        {
+          "name": "Robert Marino Espinoza Bernardo",
+          "slugs": [
+            "robert-marino-espinoza-bernardo",
+            "robert-espinoza-bernardo",
+            "robert-marino-espinoza",
+            "robert-espinoza",
+            "robert-marino"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Oscar Gabriel Prieto Burmester",
+          "slugs": [
+            "oscar-gabriel-prieto-burmester",
+            "oscar-prieto-burmester",
+            "oscar-gabriel-prieto",
+            "oscar-prieto",
+            "oscar-gabriel"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Elvira L. Zeballos Velásquez",
+          "slugs": [
+            "elvira-l-zeballos-velasquez",
+            "elvira-zeballos-velasquez",
+            "elvira-l-zeballos",
+            "elvira-zeballos",
+            "elvira-l"
+          ],
+          "honorific": "Dra",
+          "role": "Asesora"
+        }
+      ],
+      "thesis": "24558",
+      "url": "https://www.facebook.com/photo/?fbid=999665375510973&set=a.463310019146514"
+    },
+    {
+      "id": "1012107474266763",
+      "candidate": {
+        "name": "Gustavo Andrés Concha Valdez",
+        "slugs": [
+          "gustavo-andres-concha-valdez",
+          "gustavo-concha-valdez",
+          "gustavo-andres-concha",
+          "gustavo-concha",
+          "gustavo-andres"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-12",
+      "jury": [
+        {
+          "name": "Fulgencio Villegas Silva",
+          "slugs": [
+            "fulgencio-villegas-silva",
+            "fulgencio-villegas-villegas",
+            "fulgencio-villegas"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "José Domingo Arbañil Vela",
+          "slugs": [
+            "jose-domingo-arbanil-vela",
+            "jose-arbanil-vela",
+            "jose-domingo-arbanil",
+            "jose-arbanil",
+            "jose-domingo"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Teófilo Vargas Aucalla",
+          "slugs": [
+            "teofilo-vargas-aucalla",
+            "teofilo-vargas-vargas",
+            "teofilo-vargas"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "Rafael Eduardo Carlos Reyes",
+          "slugs": [
+            "rafael-eduardo-carlos-reyes",
+            "rafael-carlos-reyes",
+            "rafael-eduardo-carlos",
+            "rafael-carlos",
+            "rafael-eduardo"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "24860",
+      "url": "https://www.facebook.com/photo/?fbid=1012107474266763&set=a.463310019146514"
+    },
+    {
+      "id": "1012094170934760",
+      "candidate": {
+        "name": "Paolo Giovanni Tataje Bazalar",
+        "slugs": [
+          "paolo-giovanni-tataje-bazalar",
+          "paolo-tataje-bazalar",
+          "paolo-giovanni-tataje",
+          "paolo-tataje",
+          "paolo-giovanni"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-12",
+      "jury": [
+        {
+          "name": "Whualkuer Enrique Lozano Bartra",
+          "slugs": [
+            "whualkuer-enrique-lozano-bartra",
+            "whualkuer-lozano-bartra",
+            "whualkuer-enrique-lozano",
+            "whualkuer-lozano",
+            "whualkuer-enrique"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Moisés Humberto García Santiváñez",
+          "slugs": [
+            "moises-humberto-garcia-santivanez",
+            "moises-garcia-santivanez",
+            "moises-humberto-garcia",
+            "moises-garcia",
+            "moises-humberto"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Jorge Aurelio Bravo Cabrejos",
+          "slugs": [
+            "jorge-aurelio-bravo-cabrejos",
+            "jorge-bravo-cabrejos",
+            "jorge-aurelio-bravo",
+            "jorge-bravo",
+            "jorge-aurelio"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "Julio Mariano Chicana López",
+          "slugs": [
+            "julio-mariano-chicana-lopez",
+            "julio-chicana-lopez",
+            "julio-mariano-chicana",
+            "julio-chicana",
+            "julio-mariano"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "25789",
+      "url": "https://www.facebook.com/photo/?fbid=1012094170934760&set=a.463310019146514"
+    },
+    {
+      "id": "991869286290582",
+      "candidate": {
+        "name": "José Luís De la Cruz Marin",
+        "slugs": [
+          "jose-luis-de-la-cruz-marin",
+          "jose-cruz-marin",
+          "jose-luis-cruz",
+          "jose-cruz",
+          "jose-luis"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-11",
+      "jury": [
+        {
+          "name": "Galo Patiño Camargo",
+          "slugs": ["galo-patino-camargo", "galo-patino-patino", "galo-patino"],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Eduardo Custodio Chung",
+          "slugs": [
+            "eduardo-custodio-chung",
+            "eduardo-custodio-custodio",
+            "eduardo-custodio"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Rolando Wilder Adriano Peña",
+          "slugs": [
+            "rolando-wilder-adriano-pena",
+            "rolando-adriano-pena",
+            "rolando-wilder-adriano",
+            "rolando-adriano",
+            "rolando-wilder"
+          ],
+          "honorific": "Mg",
+          "role": "Asesor"
+        },
+        {
+          "name": "Oscar Rolando Baltuano Elías",
+          "slugs": [
+            "oscar-rolando-baltuano-elias",
+            "oscar-baltuano-elias",
+            "oscar-rolando-baltuano",
+            "oscar-baltuano",
+            "oscar-rolando"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "24428",
+      "url": "https://www.facebook.com/photo/?fbid=991869286290582&set=a.463310019146514"
+    },
+    {
+      "id": "953594626784715",
+      "candidate": {
+        "name": "Henry Daniel Lizana Segama",
+        "slugs": [
+          "henry-daniel-lizana-segama",
+          "henry-lizana-segama",
+          "henry-daniel-lizana",
+          "henry-lizana",
+          "henry-daniel"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-10",
+      "jury": [
+        {
+          "name": "Moisés Humberto García Santiváñez",
+          "slugs": [
+            "moises-humberto-garcia-santivanez",
+            "moises-garcia-santivanez",
+            "moises-humberto-garcia",
+            "moises-garcia",
+            "moises-humberto"
+          ],
+          "honorific": "Mg",
+          "role": "Presidente"
+        },
+        {
+          "name": "Ana Maria Osorio Anaya",
+          "slugs": [
+            "ana-maria-osorio-anaya",
+            "ana-osorio-anaya",
+            "ana-maria-osorio",
+            "ana-osorio",
+            "ana-maria"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Juan Adrián Ramos Guivar",
+          "slugs": [
+            "juan-adrian-ramos-guivar",
+            "juan-ramos-guivar",
+            "juan-adrian-ramos",
+            "juan-ramos",
+            "juan-adrian"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "Erich Victor Manrique Castillo",
+          "slugs": [
+            "erich-victor-manrique-castillo",
+            "erich-manrique-castillo",
+            "erich-victor-manrique",
+            "erich-manrique",
+            "erich-victor"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "23911",
+      "url": "https://www.facebook.com/photo/?fbid=953594626784715&set=a.463310019146514"
+    },
+    {
+      "id": "938195198324658",
+      "candidate": {
+        "name": "Rodirgo Mogollón Aburto",
+        "slugs": [
+          "rodirgo-mogollon-aburto",
+          "rodirgo-mogollon-mogollon",
+          "rodirgo-mogollon"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-09",
+      "jury": [
+        {
+          "name": "Octavio Fashé Raymundo",
+          "slugs": [
+            "octavio-fashe-raymundo",
+            "octavio-fashe-fashe",
+            "octavio-fashe"
+          ],
+          "honorific": "Mg",
+          "role": "Presidente"
+        },
+        {
+          "name": "David Pareja Quispe",
+          "slugs": [
+            "david-pareja-quispe",
+            "david-pareja-pareja",
+            "david-pareja"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Jorge Martín Quispe Sánchez",
+          "slugs": [
+            "jorge-martin-quispe-sanchez",
+            "jorge-quispe-sanchez",
+            "jorge-martin-quispe",
+            "jorge-quispe",
+            "jorge-martin"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "Fernando Mestanza Hernández",
+          "slugs": [
+            "fernando-mestanza-hernandez",
+            "fernando-mestanza-mestanza",
+            "fernando-mestanza"
+          ],
+          "honorific": "Ing",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "24227",
+      "url": "https://www.facebook.com/photo/?fbid=938195198324658&set=a.463310019146514"
+    },
+    {
+      "id": "932373585573486",
+      "candidate": {
+        "name": "Renzo Isaac Anchivilca Valentín",
+        "slugs": [
+          "renzo-isaac-anchivilca-valentin",
+          "renzo-anchivilca-valentin",
+          "renzo-isaac-anchivilca",
+          "renzo-anchivilca",
+          "renzo-isaac"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2024-08",
+      "jury": [
+        {
+          "name": "Joel Rojas Acuña",
+          "slugs": ["joel-rojas-acuna", "joel-rojas-rojas", "joel-rojas"],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Wilmer Enrique Moncada Sosa",
+          "slugs": [
+            "wilmer-enrique-moncada-sosa",
+            "wilmer-moncada-sosa",
+            "wilmer-enrique-moncada",
+            "wilmer-moncada",
+            "wilmer-enrique"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Jhon Brayan Guerrero Salinas",
+          "slugs": [
+            "jhon-brayan-guerrero-salinas",
+            "jhon-guerrero-salinas",
+            "jhon-brayan-guerrero",
+            "jhon-guerrero",
+            "jhon-brayan"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Juan Carlos Villegas Lanza",
+          "slugs": [
+            "juan-carlos-villegas-lanza",
+            "juan-villegas-lanza",
+            "juan-carlos-villegas",
+            "juan-villegas",
+            "juan-carlos"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "Cesar Omar Jimenez Tintaya",
+          "slugs": [
+            "cesar-omar-jimenez-tintaya",
+            "cesar-jimenez-tintaya",
+            "cesar-omar-jimenez",
+            "cesar-jimenez",
+            "cesar-omar"
+          ],
+          "honorific": "Dr",
+          "role": "Coasesor"
+        }
+      ],
+      "thesis": "26131",
+      "url": "https://www.facebook.com/photo/?fbid=932373585573486&set=a.463310019146514"
+    },
+    {
+      "id": "901893455288166",
+      "candidate": {
+        "name": "Silvia Marisel Espinoza Suarez",
+        "slugs": [
+          "silvia-marisel-espinoza-suarez",
+          "silvia-espinoza-suarez",
+          "silvia-marisel-espinoza",
+          "silvia-espinoza",
+          "silvia-marisel"
+        ]
+      },
+      "degree": "Doctorado en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-07",
+      "jury": [],
+      "thesis": null,
+      "url": "https://www.facebook.com/photo/?fbid=901893455288166&set=pcb.901893575288154"
+    },
+    {
+      "id": "896822275795284",
+      "candidate": {
+        "name": "Manuel Jesús Churampi Lavado",
+        "slugs": [
+          "manuel-jesus-churampi-lavado",
+          "manuel-churampi-lavado",
+          "manuel-jesus-churampi",
+          "manuel-churampi",
+          "manuel-jesus"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-07",
+      "jury": [
+        {
+          "name": "Rafael Edgardo Carlos Reyes",
+          "slugs": [
+            "rafael-edgardo-carlos-reyes",
+            "rafael-carlos-reyes",
+            "rafael-edgardo-carlos",
+            "rafael-carlos",
+            "rafael-edgardo"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Teófilo Vargas Auccalla",
+          "slugs": [
+            "teofilo-vargas-auccalla",
+            "teofilo-vargas-vargas",
+            "teofilo-vargas"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Fulgencio Villegas Silva",
+          "slugs": [
+            "fulgencio-villegas-silva",
+            "fulgencio-villegas-villegas",
+            "fulgencio-villegas"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        },
+        {
+          "name": "Carlos Javier Solano Salinas",
+          "slugs": [
+            "carlos-javier-solano-salinas",
+            "carlos-solano-salinas",
+            "carlos-javier-solano",
+            "carlos-solano",
+            "carlos-javier"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "23029",
+      "url": "https://www.facebook.com/photo/?fbid=896822275795284&set=a.463310019146514"
+    },
+    {
+      "id": "895381222606056",
+      "candidate": {
+        "name": "Jean Jaime Crespo Guillen",
+        "slugs": [
+          "jean-jaime-crespo-guillen",
+          "jean-crespo-guillen",
+          "jean-jaime-crespo",
+          "jean-crespo",
+          "jean-jaime"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-07",
+      "jury": [
+        {
+          "name": "David Pareja Quispe",
+          "slugs": [
+            "david-pareja-quispe",
+            "david-pareja-pareja",
+            "david-pareja"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Miguel Saavedra Juan de Dios",
+          "slugs": [
+            "miguel-saavedra-juan-de-dios",
+            "miguel-de-dios",
+            "miguel-saavedra-de",
+            "miguel-de",
+            "miguel-saavedra"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Jorge Martín Quispe Sánchez",
+          "slugs": [
+            "jorge-martin-quispe-sanchez",
+            "jorge-quispe-sanchez",
+            "jorge-martin-quispe",
+            "jorge-quispe",
+            "jorge-martin"
+          ],
+          "honorific": "Mg",
+          "role": "Asesor"
+        },
+        {
+          "name": "Fernando Mestanza Hernández",
+          "slugs": [
+            "fernando-mestanza-hernandez",
+            "fernando-mestanza-mestanza",
+            "fernando-mestanza"
+          ],
+          "honorific": "Ing",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "25883",
+      "url": "https://www.facebook.com/photo/?fbid=895381222606056&set=a.463310019146514"
+    },
+    {
+      "id": "828288135982032",
+      "candidate": {
+        "name": "Franco Villata Ribbeck",
+        "slugs": [
+          "franco-villata-ribbeck",
+          "franco-villata-villata",
+          "franco-villata"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2024-07",
+      "jury": [
+        {
+          "name": "Fulgencio Villegas Silva",
+          "slugs": [
+            "fulgencio-villegas-silva",
+            "fulgencio-villegas-villegas",
+            "fulgencio-villegas"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Rafael Carlos Reyes",
+          "slugs": [
+            "rafael-carlos-reyes",
+            "rafael-carlos-carlos",
+            "rafael-carlos"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Jorge Abel Espichan Carrillo",
+          "slugs": [
+            "jorge-abel-espichan-carrillo",
+            "jorge-espichan-carrillo",
+            "jorge-abel-espichan",
+            "jorge-espichan",
+            "jorge-abel"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Teofilo Vargas Auccalla",
+          "slugs": [
+            "teofilo-vargas-auccalla",
+            "teofilo-vargas-vargas",
+            "teofilo-vargas"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "24596",
+      "url": "https://www.facebook.com/photo/?fbid=828288135982032&set=a.463310019146514"
+    },
+    {
+      "id": "821883833289129",
+      "candidate": {
+        "name": "Peter Espinoza Saenz",
+        "slugs": [
+          "peter-espinoza-saenz",
+          "peter-espinoza-espinoza",
+          "peter-espinoza"
+        ]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2024-07",
+      "jury": [
+        {
+          "name": "Cesar Augusto Aguirre Cespedes",
+          "slugs": [
+            "cesar-augusto-aguirre-cespedes",
+            "cesar-aguirre-cespedes",
+            "cesar-augusto-aguirre",
+            "cesar-aguirre",
+            "cesar-augusto"
+          ],
+          "honorific": "Mg",
+          "role": "Presidente"
+        },
+        {
+          "name": "Luis Pablo Vilcapoma Lázaro",
+          "slugs": [
+            "luis-pablo-vilcapoma-lazaro",
+            "luis-vilcapoma-lazaro",
+            "luis-pablo-vilcapoma",
+            "luis-vilcapoma",
+            "luis-pablo"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Manuel Daniel Olcese Huerta",
+          "slugs": [
+            "manuel-daniel-olcese-huerta",
+            "manuel-olcese-huerta",
+            "manuel-daniel-olcese",
+            "manuel-olcese",
+            "manuel-daniel"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Cesar Omar Jimenez Tintaya",
+          "slugs": [
+            "cesar-omar-jimenez-tintaya",
+            "cesar-jimenez-tintaya",
+            "cesar-omar-jimenez",
+            "cesar-jimenez",
+            "cesar-omar"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "22530",
+      "url": "https://www.facebook.com/photo/?fbid=821883833289129&set=a.463310009146515"
+    },
+    {
+      "id": "820204263457086",
+      "candidate": {
+        "name": "Melissa Yactayo",
+        "slugs": ["melissa-yactayo"]
+      },
+      "degree": "Posgrado",
+      "title": null,
+      "date": null,
+      "month": "2024-07",
+      "jury": [
+        {
+          "name": "Carlos Vladimir Landauro Sáenz",
+          "slugs": [
+            "carlos-vladimir-landauro-saenz",
+            "carlos-landauro-saenz",
+            "carlos-vladimir-landauro",
+            "carlos-landauro",
+            "carlos-vladimir"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Maria Luísa Ceron Loayza",
+          "slugs": [
+            "maria-luisa-ceron-loayza",
+            "maria-ceron-loayza",
+            "maria-luisa-ceron",
+            "maria-ceron",
+            "maria-luisa"
+          ],
+          "honorific": "Mg",
+          "role": "Miembro"
+        },
+        {
+          "name": "Alejandro Cristians Ríos Cuadros",
+          "slugs": [
+            "alejandro-cristians-rios-cuadros",
+            "alejandro-rios-cuadros",
+            "alejandro-cristians-rios",
+            "alejandro-rios",
+            "alejandro-cristians"
+          ],
+          "honorific": "Dr",
+          "role": "Miembro externo"
+        },
+        {
+          "name": "Justiniano Quispe Marcatoma",
+          "slugs": [
+            "justiniano-quispe-marcatoma",
+            "justiniano-quispe-quispe",
+            "justiniano-quispe"
+          ],
+          "honorific": "Dr",
+          "role": "Asesor"
+        }
+      ],
+      "thesis": "22586",
+      "url": "https://www.facebook.com/photo/?fbid=820204263457086&set=a.463310019146514"
+    },
+    {
+      "id": "877048751105970",
+      "candidate": {
+        "name": "Erick Franco Montoya Calderón",
+        "slugs": [
+          "erick-franco-montoya-calderon",
+          "erick-montoya-calderon",
+          "erick-franco-montoya",
+          "erick-montoya",
+          "erick-franco"
+        ]
+      },
+      "degree": "Licenciatura en Física",
+      "title": null,
+      "date": null,
+      "month": "2024-06",
+      "jury": [
+        {
+          "name": "Rafael Edgardo Carlos Reyes",
+          "slugs": [
+            "rafael-edgardo-carlos-reyes",
+            "rafael-carlos-reyes",
+            "rafael-edgardo-carlos",
+            "rafael-carlos",
+            "rafael-edgardo"
+          ],
+          "honorific": "Dr",
+          "role": "Presidente"
+        },
+        {
+          "name": "Teofilo Vargas",
+          "slugs": ["teofilo-vargas"],
+          "honorific": "Dr",
+          "role": "Miembro"
+        },
+        {
+          "name": "Walter Robert Guevara Day",
+          "slugs": [
+            "walter-robert-guevara-day",
+            "walter-guevara-day",
+            "walter-robert-guevara",
+            "walter-guevara",
+            "walter-robert"
+          ],
+          "honorific": "Lic",
+          "role": "Asesor"
+        },
+        {
+          "name": "Jose Carlos Eche Llenque",
+          "slugs": [
+            "jose-carlos-eche-llenque",
+            "jose-eche-llenque",
+            "jose-carlos-eche",
+            "jose-eche",
+            "jose-carlos"
+          ],
+          "honorific": "Lic",
+          "role": "Miembro suplente"
+        }
+      ],
+      "thesis": "22696",
+      "url": "https://www.facebook.com/photo/?fbid=877048751105970&set=a.463310019146514"
+    }
+  ]
+}

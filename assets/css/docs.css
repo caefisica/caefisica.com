@@ -1609,7 +1609,8 @@
   .views:has([value="persona"]:checked) > [data-view="persona"],
   .views:has([value="anio"]:checked) > [data-view="anio"],
   .views:has([value="asesor"]:checked) > [data-view="asesor"],
-  .views:has([value="serie"]:checked) > [data-view="serie"] {
+  .views:has([value="serie"]:checked) > [data-view="serie"],
+  .views:has([value="sustentacion"]:checked) > [data-view="sustentacion"] {
     display: block;
   }
 
