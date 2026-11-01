@@ -1,0 +1,29 @@
+{{- /* The hero figure: the first five states of a particle in an infinite well, each wave function drawn on its energy level E_n = n² E_1. Hovering a state lights it. It is code, like Linear's illustrations, and needs no script. */ -}}
+{{- $left := 60.0 -}}
+{{- $width := 840.0 -}}
+{{- $floor := 290.0 -}}
+{{- $step := 10.0 -}}
+{{- $steps := 60 -}}
+<figure class="fig">
+	<svg class="fig-svg" viewBox="0 0 960 320" role="img" aria-label="Los cinco primeros estados de una partícula en un pozo de potencial infinito, cada función de onda sobre su nivel de energía">
+		<path class="fig-wall" d="M{{ $left }} 8V{{ $floor }}M{{ add $left $width }} 8V{{ $floor }}M{{ sub $left 24 }} {{ $floor }}H{{ add (add $left $width) 24 }}" />
+		{{- range seq 5 }}
+			{{- $n := . }}
+			{{- $level := sub $floor (mul $step (mul $n $n)) }}
+			{{- $d := "" }}
+			{{- range seq 0 $steps }}
+				{{- $t := div (float .) (float $steps) }}
+				{{- $x := add $left (mul $width $t) }}
+				{{- $y := sub $level (mul 12 (math.Sin (mul math.Pi (mul (float $n) $t)))) }}
+				{{- $d = printf "%s%s%.1f %.1f " $d (cond (eq . 0) "M" "L") $x $y }}
+			{{- end }}
+			<g class="fig-state">
+				<path class="fig-level" d="M{{ $left }} {{ $level }}H{{ add $left $width }}" />
+				<path class="fig-wave" d="{{ $d }}" />
+				<text class="fig-tag" x="{{ add (add $left $width) 16 }}" y="{{ add $level 4 }}">n={{ $n }}</text>
+				<rect class="fig-hit" x="{{ $left }}" y="{{ sub $level 14 }}" width="{{ $width }}" height="28" />
+			</g>
+		{{- end }}
+	</svg>
+	<figcaption class="mono-label"><span>Fig 0.1</span> Pozo de potencial infinito: niveles <i>E<sub>n</sub></i> = <i>n</i>² <i>E</i><sub>1</sub> y funciones <i>ψ<sub>n</sub></i>(<i>x</i>)</figcaption>
+</figure>
