@@ -29,6 +29,9 @@
 	{{- $worker := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | fingerprint -}}
 	{{- partial "site/script.html" (dict "src" "js/pdf-viewer.ts" "params" (dict "lib" $lib.RelPermalink "worker" $worker.RelPermalink)) -}}
 {{- end -}}
+{{- if .Store.Get "toc" -}}
+	{{- partial "site/script.html" (dict "src" "js/toc.ts") -}}
+{{- end -}}
 {{- if .IsHome -}}
 	{{- partial "site/script.html" (dict "src" "js/plan.ts") -}}
 {{- end -}}

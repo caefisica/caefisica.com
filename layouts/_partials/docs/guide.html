@@ -1,5 +1,5 @@
 {{- /* The body of a guide or section page: byline, course facts, its text and, for a section, cards for what it holds. Context: the page. */ -}}
-{{- with .Params.contributors }}{{ partial "article/byline.html" (dict "page" $ "compact" true) }}{{ end }}
+{{- with .Params.contributors }}{{ partial "article/byline.html" (dict "page" $) }}{{ end }}
 {{- if and .Params.showInformationBox .Params.id }}{{ partial "docs/course-info.html" . }}{{ end }}
 {{- if .Params.working }}{{ partial "docs/working-notice.html" . }}{{ end }}
 <div class="markdown">{{ .Content }}</div>
