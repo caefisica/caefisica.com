@@ -107,7 +107,7 @@
 	</div>
 
 	{{- /* A radio group, so the views switch without script. A browser without :has shows all three. */}}
-	<div class="map-views">
+	<div class="views">
 		<fieldset class="pill-tabs">
 			<legend>Ver por</legend>
 			<label><input type="radio" name="vista" value="lugar" checked /><span>Institución</span></label>
@@ -115,7 +115,7 @@
 			<label><input type="radio" name="vista" value="persona" /><span>Persona</span></label>
 		</fieldset>
 
-		<div class="map-list" data-view="lugar">
+		<div class="view map-list" data-view="lugar">
 			{{- range $places }}
 				{{- $p := .place }}
 				<section class="section-group band" id="lugar-{{ $p.id }}">
@@ -139,7 +139,7 @@
 			{{- end }}
 		</div>
 
-		<div class="map-list" data-view="area">
+		<div class="view" data-view="area">
 			{{- range $areas }}
 				<section class="section-group band">
 					<h2>{{ .name }} <span class="count">{{ .n }}</span></h2>
@@ -154,7 +154,7 @@
 			{{- end }}
 		</div>
 
-		<div class="map-list" data-view="persona">
+		<div class="view" data-view="persona">
 			<section class="section-group">
 				<ul class="rows">
 					{{- range $data.people }}
