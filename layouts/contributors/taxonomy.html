@@ -7,36 +7,36 @@ An author who is a current member (members.json) is not listed again under "Tamb
 {{- range hugo.Data.authors.members }}
 	{{- with .url }}{{ with site.GetPage . }}{{ $members = $members | append .RelPermalink }}{{ end }}{{ end }}
 {{- end }}
-<div>
-	<div class="mx-auto w-full max-w-page px-gutter py-page">
-		<h1 class="text-display">{{ .Title }}</h1>
-		{{- with .Params.lead }}<p class="max-w-[40rem] text-lead text-muted">{{ . }}</p>{{ end }}
-		<div class="mt-12">{{ partial "ui/org-chart.html" . }}</div>
-	</div>
-</div>
-<div class="col-prose py-page">
-	<h2>También escribieron</h2>
-	<ul class="people">
-		{{- range .Data.Terms.ByCount }}
-			{{- with .Page }}
-				{{- if not (in $members .RelPermalink) }}
-					<li class="person">
-						{{ partial "ui/avatar.html" (dict "page" . "size" 40) }}
-						<div>
-							<a class="card-link font-medium" href="{{ .RelPermalink }}">{{ .Title }}</a>
-							<p>{{ partial "data/publication-count.html" (len .Pages) }}</p>
-						</div>
-					</li>
+<div class="mx-auto w-full max-w-page px-gutter py-page">
+	<h1 class="text-display">{{ .Title }}</h1>
+	{{- with .Params.lead }}<p class="max-w-[40rem] text-lead text-muted">{{ . }}</p>{{ end }}
+	<div class="mt-12">{{ partial "ui/org-chart.html" . }}</div>
+
+	<section class="team-band" aria-labelledby="also">
+		<h2 id="also" class="org-title">También escribieron</h2>
+		<ul class="rows rows-2">
+			{{- range .Data.Terms.ByCount }}
+				{{- with .Page }}
+					{{- if not (in $members .RelPermalink) }}
+						<li class="group">
+							{{ partial "ui/avatar.html" (dict "page" . "size" 32) }}
+							<div class="row-main"><a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+							<span class="row-meta">{{ partial "data/publication-count.html" (len .Pages) }}</span>
+							{{ partial "ui/chevron.html" }}
+						</li>
+					{{- end }}
 				{{- end }}
 			{{- end }}
-		{{- end }}
-	</ul>
+		</ul>
+	</section>
 
-	<h2>Colabora</h2>
-	<p>¿Estudias Física? Escribe una guía, corrige un error o propón un tema. Abre una propuesta en el repositorio o escríbenos.</p>
-	<p class="flex flex-wrap gap-3">
-		<a class="btn btn-solid" href="{{ site.Params.docsRepo }}/issues/new">Propón un artículo</a>
-		<a class="btn btn-outline" href="{{ "contacto/" | relURL }}">Contáctanos</a>
-	</p>
+	<section class="team-band" aria-labelledby="join">
+		<h2 id="join" class="org-title">Colabora</h2>
+		<p class="max-w-[40rem] text-muted">¿Estudias Física? Escribe una guía, corrige un error o propón un tema. Abre una propuesta en el repositorio o escríbenos.</p>
+		<p class="mt-6 flex flex-wrap gap-3">
+			<a class="btn btn-solid" href="{{ site.Params.docsRepo }}/issues/new">Propón un artículo</a>
+			<a class="btn btn-outline" href="{{ "contacto/" | relURL }}">Contáctanos</a>
+		</p>
+	</section>
 </div>
 {{ end }}

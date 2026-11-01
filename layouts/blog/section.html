@@ -3,10 +3,17 @@
 	<h1>{{ .Title }}</h1>
 	{{- with .Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
 	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
-	<div class="card-list">
+	<ul class="rows">
 		{{- range .Pages.ByDate.Reverse }}
-			{{ partial "ui/card.html" (dict "title" .Title "url" .RelPermalink "emoji" .Params.emoji "lead" .Params.lead "page" .) }}
+			<li class="group">
+				<div class="row-main">
+					<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</a>
+					{{- with .Params.lead }}<p>{{ . | safeHTML }}</p>{{ end }}
+				</div>
+				<time class="row-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+				{{ partial "ui/chevron.html" }}
+			</li>
 		{{- end }}
-	</div>
+	</ul>
 </div>
 {{ end }}

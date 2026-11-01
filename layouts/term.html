@@ -14,11 +14,12 @@
 		{{- range .GroupBy "Section" }}
 			{{- $section := site.GetPage (printf "/%s" .Key) }}
 			<h3>{{ with $section }}{{ .LinkTitle }}{{ else }}{{ .Key }}{{ end }}</h3>
-			<ul class="entries">
+			<ul class="rows">
 				{{- range .Pages.ByDate.Reverse }}
-					<li>
-						<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-						<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+					<li class="group">
+						<div class="row-main"><a class="card-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+						<time class="row-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+						{{ partial "ui/chevron.html" }}
 					</li>
 				{{- end }}
 			</ul>
