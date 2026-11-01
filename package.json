@@ -41,7 +41,6 @@
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
     "@types/node": "^26.6.6",
-    "@types/youtube": "^0.3.0",
     "clipboard": "^2.0.11",
     "highlight.js": "^11.12.0",
     "instant.page": "^5.2.0",

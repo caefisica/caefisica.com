@@ -1,0 +1,44 @@
+{{- /*
+The class notes, shown with a real one: its opening up to the second displayed equation, rendered to MathML at build time so the home page loads no math library.
+The rail lists every topic that has a published note.
+*/ -}}
+{{- $notes := site.GetPage "/apuntes" -}}
+{{- $note := site.GetPage "/apuntes/cuántica/s1" -}}
+{{- $body := $note.RawContent | strings.TrimSpace -}}
+{{- /* Split on display-math fences: even parts are Markdown, odd parts are TeX. The excerpt stops after the second equation. */ -}}
+{{- $parts := first 5 (split $body "$$") -}}
+<section class="sec border-t border-edge" aria-labelledby="apuntes">
+	<div class="mx-auto w-full max-w-page px-gutter">
+		<div class="sec-copy">
+			<h2 id="apuntes" class="sec-title reveal">Apuntes<br/>de clase en LaTeX</h2>
+			<div class="reveal">
+				<p class="sec-desc">Las clases de los profesores de la facultad, transcritas por estudiantes con cada ecuación escrita.</p>
+				<a class="sec-link lg:ml-8" href="{{ $notes.RelPermalink }}">Leer los apuntes<span class="text-fg" aria-hidden="true">→</span></a>
+			</div>
+		</div>
+		<a class="scene scene-note reveal" href="{{ $note.RelPermalink }}">
+			<p class="mono-label scene-head">{{ $note.Parent.Title }} · {{ $note.Title }}</p>
+			<div class="scene-body">
+				{{- range $i, $part := $parts }}
+					{{- if modBool $i 2 }}
+						{{- /* Headings become plain lines and their anchors go: this excerpt sits inside one link and adds nothing to the page outline. */ -}}
+						{{ $part | $note.RenderString (dict "display" "block") | replaceRE `<a [^>]*>.*?</a>` "" | replaceRE `<h[2-6][^>]*>` `<p class="scene-h">` | replaceRE `</h[2-6]>` "</p>" | safeHTML }}
+					{{- else }}
+						{{- /* The source escapes TeX line breaks for Markdown, so \\\\ in the file is \\ in TeX. */ -}}
+						<div class="scene-math">{{ transform.ToMath (replace (strings.TrimSpace $part) `\\\\` `\\`) (dict "output" "mathml" "displayMode" true) }}</div>
+					{{- end }}
+				{{- end }}
+			</div>
+		</a>
+		<div class="rail reveal">
+			<span class="mono-label">Temas</span>
+			<ul>
+				{{- range $notes.Sections }}
+					{{- if .RegularPagesRecursive }}
+						<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+					{{- end }}
+				{{- end }}
+			</ul>
+		</div>
+	</div>
+</section>
