@@ -7,8 +7,21 @@
 		{{ partial "article/byline.html" (dict "page" .) }}
 	</header>
 	<div class="markdown">{{ .Content }}</div>
-	{{ partial "article/share.html" . }}
-	{{ partial "article/page-footer.html" . }}
+	{{ partial "article/post-footer.html" . }}
 	{{- if site.Params.giscus }}{{ partial "article/comments.html" . }}{{ end }}
+	{{- with first 3 (where .CurrentSection.RegularPages.ByDate.Reverse "RelPermalink" "ne" .RelPermalink) }}
+		<section class="post-more" aria-labelledby="more-title" data-pagefind-ignore="all">
+			<h2 id="more-title">Más del blog</h2>
+			<ul class="rows">
+				{{- range . }}
+					<li class="group">
+						<div class="row-main"><a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+						<time class="row-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+						{{ partial "ui/chevron.html" }}
+					</li>
+				{{- end }}
+			</ul>
+		</section>
+	{{- end }}
 </article>
 {{ end }}

@@ -1,4 +1,4 @@
-{{- /* Plain share links: each network's own share URL, opened in a new tab. Context: the page. */ -}}
+{{- /* The row that ends a post: copy its link, share it on a network, edit its source. Context: the page. */ -}}
 {{- $url := .Permalink -}}
 {{- $links := slice
 	(dict "name" "Facebook" "icon" "facebook" "href" (printf "https://www.facebook.com/sharer/sharer.php?u=%s" (urlquery $url)))
@@ -6,15 +6,30 @@
 	(dict "name" "LinkedIn" "icon" "linkedin" "href" (printf "https://www.linkedin.com/shareArticle?mini=true&url=%s" (urlquery $url)))
 	(dict "name" "correo" "icon" "mail" "href" (printf "mailto:?subject=%s&body=%s" (urlquery "Algo interesante que acabo de encontrar") (urlquery (printf "Buen día, quizá te interese leer este artículo: %s" $url))))
 -}}
-<section class="share" aria-labelledby="share-title" data-pagefind-ignore="all">
-	<h2 id="share-title">Comparte</h2>
-	<ul>
+{{- $copy := site.Params.options.clipBoard -}}
+{{- if $copy }}{{ .Store.Set "copy" true }}{{ end -}}
+<footer class="post-footer" data-pagefind-ignore="all">
+	<ul aria-label="Compartir">
+		{{- if $copy }}
+			<li>
+				<button class="copy-link" type="button" data-clipboard-text="{{ $url }}" data-copied="Enlace copiado">
+					<span class="swap">{{ partial "ui/icon.html" (dict "name" "link" "size" 16) }}{{ partial "ui/icon.html" (dict "name" "check" "size" 16) }}</span>
+					Copiar enlace
+				</button>
+			</li>
+		{{- end }}
 		{{- range $links }}
 			<li>
 				<a class="icon-btn" href="{{ .href }}"{{ if ne .icon "mail" }} target="_blank" rel="noopener"{{ end }} aria-label="Compartir por {{ .name }}">
-					{{ partial "ui/icon.html" .icon }}
+					{{ partial "ui/icon.html" (dict "name" .icon "size" 18) }}
 				</a>
 			</li>
 		{{- end }}
 	</ul>
-</section>
+	{{- with partial "data/edit-url.html" . }}
+		<a class="post-edit" href="{{ . }}">
+			{{ partial "ui/icon.html" (dict "name" "edit" "size" 16) }}
+			<span>Edita esta página</span>
+		</a>
+	{{- end }}
+</footer>

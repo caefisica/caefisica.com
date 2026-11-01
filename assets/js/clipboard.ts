@@ -13,6 +13,7 @@ for (const pre of Array.from(document.getElementsByTagName("pre"))) {
   btn.className = "copy-button";
   btn.type = "button";
   btn.setAttribute("aria-label", "Copiar el código");
+  btn.dataset.copied = "Código copiado";
   btn.innerHTML = `<span class="swap block">${copyIcon}${checkIcon}</span>`;
   pre.insertAdjacentElement("afterbegin", btn);
 }
@@ -35,7 +36,7 @@ function notify(trigger: Element): void {
     window.setTimeout(() => swap?.removeAttribute("data-on"), 2000),
   );
 
-  toast.textContent = "Código copiado";
+  toast.textContent = trigger.getAttribute("data-copied") ?? "";
   toast.classList.add("is-open");
   clearTimeout(toastTimer);
   toastTimer = window.setTimeout(() => {
@@ -45,7 +46,8 @@ function notify(trigger: Element): void {
   }, 2000);
 }
 
-const clipboard = new Clipboard(".copy-button", {
+// Un botón con data-clipboard-text copia ese texto y no usa el destino.
+const clipboard = new Clipboard(".copy-button, .copy-link", {
   target: (trigger) => trigger.nextElementSibling ?? trigger,
 });
 
