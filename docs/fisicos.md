@@ -52,6 +52,14 @@ perfiles en OpenAlex; `ids` los suma. `maxAuthors` deja fuera los artículos de
 las grandes colaboraciones, que firman cientos de personas. Vuelve a correrlo
 para actualizar los datos y confirma el JSON.
 
+## Prensa
+
+`data/press.yaml` lista los artículos de prensa escritos por una persona o sobre
+ella: `person` (la carpeta del perfil), medio, fecha, título, enlace y `author`
+si lo firmó ella. El perfil los muestra en «En la prensa», del más reciente al
+más antiguo. Un artículo entra solo si nombra a la persona con una institución
+que coincide con su perfil; un nombre igual no basta.
+
 ## Mapa de físicos
 
 `/fisicos/` dibuja un globo con las instituciones donde estudiaron o trabajan
