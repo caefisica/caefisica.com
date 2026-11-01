@@ -1,0 +1,214 @@
+/* The home page follows Linear's: 48px section titles beside 24px descriptions, mono labels, a feature rail, a timeline and a large closing call. */
+@layer components {
+  .sec {
+    padding-block: 4rem;
+
+    @media (width >= 48rem) {
+      padding-block: 8rem;
+    }
+  }
+
+  .sec-copy {
+    display: grid;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+
+    @media (width >= 62rem) {
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      padding-bottom: 6rem;
+    }
+  }
+
+  .sec-title {
+    max-width: 18ch;
+    margin: 0;
+    font-size: clamp(var(--text-2xl), 4vw, 3rem);
+    font-weight: 500;
+    letter-spacing: -0.022em;
+    line-height: 1;
+    text-wrap: balance;
+  }
+
+  .sec-desc {
+    max-width: 38ch;
+    margin: 0;
+    color: var(--muted);
+    font-size: clamp(var(--text-lg), 2vw, 1.5rem);
+    letter-spacing: -0.012em;
+    line-height: 1.33;
+
+    @media (width >= 62rem) {
+      padding-inline: 2rem;
+    }
+  }
+
+  .sec-link {
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-top: 3rem;
+    color: var(--muted);
+    font-size: var(--text-base);
+
+    &:hover {
+      color: var(--fg);
+    }
+  }
+
+  .mono-label {
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.09em;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  /* A label on the left and its entries in two columns on the right, split by hairlines. */
+  .rail {
+    display: grid;
+    gap: 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--edge);
+
+    @media (width >= 62rem) {
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+
+    & ul {
+      display: grid;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      @media (width >= 48rem) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    & li {
+      position: relative;
+      padding-block: 0.25rem;
+
+      @media (width >= 48rem) {
+        padding-left: 2rem;
+
+        &:nth-child(odd) {
+          padding-left: 0;
+        }
+
+        &:nth-child(even)::before {
+          position: absolute;
+          top: 0.25rem;
+          bottom: 0.25rem;
+          left: 0;
+          width: 1px;
+          background: var(--edge);
+          content: "";
+        }
+      }
+    }
+
+    & a {
+      color: var(--fg);
+
+      &:hover {
+        color: var(--link);
+      }
+    }
+  }
+
+  /* The window of the hero: a full-width visual between two hairlines. */
+  .bleed {
+    width: 100cqw;
+    margin-left: calc(50% - 50cqw);
+  }
+
+  .timeline {
+    position: relative;
+    display: grid;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4rem;
+
+      /* The line runs through the centre of each marker. */
+      &::before {
+        position: absolute;
+        top: 1rem;
+        right: 0;
+        left: 0;
+        height: 1px;
+        background: var(--edge);
+        content: "";
+      }
+    }
+
+    & li {
+      position: relative;
+    }
+
+    & .dot {
+      position: relative;
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      margin-bottom: 3rem;
+      background: var(--bg);
+
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0.375rem;
+        height: 0.375rem;
+        border-radius: 50%;
+        background: var(--muted);
+        content: "";
+        translate: -50% -50%;
+      }
+    }
+
+    & li:first-child .dot::before {
+      background: var(--accent);
+    }
+
+    & a {
+      color: var(--fg);
+    }
+
+    & li:hover h3 a {
+      color: var(--link);
+    }
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding-block: 8rem 10rem;
+    text-align: center;
+
+    & h2 {
+      max-width: 16ch;
+      margin: 0;
+      font-size: clamp(var(--text-2xl), 7vw, 4.5rem);
+      font-weight: 500;
+      letter-spacing: -0.022em;
+      line-height: 1;
+      text-wrap: balance;
+    }
+
+    & .btn {
+      min-height: 2.75rem;
+      padding-inline: 1.25rem;
+      border-radius: 999px;
+    }
+  }
+}

@@ -1,16 +1,10 @@
 {{- /* The call to join: open an issue on the site repository or write to us. */ -}}
-<section class="py-section" aria-labelledby="colaborar">
-	<div class="mx-auto grid w-full max-w-page gap-6 border-t border-edge px-gutter pt-12 lg:grid-cols-2 lg:gap-16">
-		<h2 id="colaborar" class="reveal m-0 text-title">¿Deseas colaborar?</h2>
-		<div>
-			<p class="reveal mt-0 mb-8 max-w-[38ch] text-lead text-muted">
-				Si estudias Física, puedes compartir una recomendación o ayudar a mejorar
-				una guía.
-			</p>
-			<p class="reveal m-0 flex flex-wrap gap-3">
-				<a class="btn btn-solid" href="{{ site.Params.docsRepo }}/issues/new">Quiero dar una recomendación</a>
-				<a class="btn btn-outline" href="{{ "contacto/" | relURL }}">Contáctanos</a>
-			</p>
-		</div>
+<section class="mx-auto w-full max-w-page px-gutter" aria-labelledby="colaborar">
+	<div class="cta">
+		<h2 id="colaborar" class="reveal">¿Deseas colaborar?</h2>
+		<p class="reveal m-0 flex flex-wrap justify-center gap-3">
+			<a class="btn btn-solid" href="{{ site.Params.docsRepo }}/issues/new">Dar una recomendación</a>
+			<a class="btn btn-outline" href="{{ "contacto/" | relURL }}">Contáctanos</a>
+		</p>
 	</div>
 </section>

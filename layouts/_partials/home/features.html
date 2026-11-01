@@ -1,21 +1,19 @@
-<section class="py-section" aria-labelledby="que-hacemos">
+<section class="sec" aria-labelledby="que-hacemos">
 	<div class="mx-auto w-full max-w-page px-gutter">
-		<div class="grid gap-6 border-t border-edge pt-12 lg:grid-cols-2 lg:gap-16">
-			<h2 id="que-hacemos" class="reveal m-0 text-title">Conoce más sobre lo que hacemos</h2>
-			<p class="reveal m-0 max-w-[38ch] text-lead text-muted">
-				¿Eres estudiante de primer semestre?
-				<a class="learn font-medium whitespace-nowrap" href="{{ "unmsm/pregrado/plan-2018/" | relURL }}">Comienza aquí{{ partial "ui/chevron.html" }}</a>
-			</p>
+		<div class="sec-copy">
+			<h2 id="que-hacemos" class="sec-title reveal">Conoce más sobre lo que hacemos</h2>
+			<div class="reveal">
+				<p class="sec-desc">¿Eres estudiante de primer semestre? Empieza por el plan de estudios.</p>
+				<a class="sec-link lg:ml-8" href="{{ "unmsm/pregrado/plan-2018/" | relURL }}">Comienza aquí<span class="text-fg" aria-hidden="true">→</span></a>
+			</div>
 		</div>
-		<ul class="m-0 mt-12 list-none border-b border-edge p-0">
-			{{ range hugo.Data.content.features -}}
-				<li class="reveal group relative grid gap-2 border-t border-edge py-6 lg:grid-cols-2 lg:gap-16">
-					<h3 class="m-0 text-h5 font-medium">
-						<a class="text-fg after:absolute after:inset-0 group-hover:text-link" href="{{ .link | relURL }}">{{ .title | markdownify }}</a>
-					</h3>
-					<p class="m-0 max-w-[48ch] text-muted">{{ .description | markdownify }}</p>
-				</li>
-			{{ end -}}
-		</ul>
+		<div class="rail reveal">
+			<span class="mono-label">Recursos</span>
+			<ul>
+				{{ range hugo.Data.content.features -}}
+					<li><a href="{{ .link | relURL }}">{{ .title | markdownify }}</a></li>
+				{{ end -}}
+			</ul>
+		</div>
 	</div>
 </section>
