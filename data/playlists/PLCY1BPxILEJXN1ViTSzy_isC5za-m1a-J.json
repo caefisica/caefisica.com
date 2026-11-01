@@ -1,0 +1,325 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 2. Determinantes",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2018-11-23",
+  "lessons": [
+    {
+      "id": "vvYaL0xf0Gk",
+      "title": "Determinante | Definición",
+      "duration": 869
+    },
+    {
+      "id": "wGBrc39NMpw",
+      "title": "Cálculo de un determinante",
+      "duration": 379
+    },
+    {
+      "id": "1D5BNYp35Aw",
+      "title": "Cálculo de un determinante por definición | Ejercicio 1",
+      "duration": 736
+    },
+    {
+      "id": "oEjbyIa4DrI",
+      "title": "Cálculo de un determinante por definición | Ejercicio 2",
+      "duration": 680
+    },
+    {
+      "id": "jEhEt9SSWc4",
+      "title": "Cálculo de un determinante por definición | Ejercicio 3",
+      "duration": 397
+    },
+    {
+      "id": "J1ELbLB2j2w",
+      "title": "Determinantes | Propiedad 1",
+      "duration": 363
+    },
+    {
+      "id": "egldFBQDcnA",
+      "title": "Determinantes | Propiedad 2",
+      "duration": 551
+    },
+    {
+      "id": "ANSwq15SnVM",
+      "title": "Determinantes | Propiedad 3",
+      "duration": 352
+    },
+    {
+      "id": "FO6lwdt2DLQ",
+      "title": "Determinantes | Propiedad 4",
+      "duration": 390
+    },
+    {
+      "id": "cbxGxcF53c8",
+      "title": "Determinantes | Propiedad 5",
+      "duration": 556
+    },
+    {
+      "id": "Mocf4GtnqoQ",
+      "title": "Determinantes | Propiedad 6",
+      "duration": 259
+    },
+    {
+      "id": "eV70IpEVa38",
+      "title": "Determinantes | Propiedad 7",
+      "duration": 558
+    },
+    {
+      "id": "CfZfDJnAhI4",
+      "title": "Determinantes | Propiedad 8",
+      "duration": 227
+    },
+    {
+      "id": "_pTq22Vf4Cc",
+      "title": "Determinantes | Propiedad 9",
+      "duration": 345
+    },
+    {
+      "id": "31pwB4kCxdg",
+      "title": "Determinantes | Propiedad 10",
+      "duration": 303
+    },
+    {
+      "id": "beFkAZOWtRM",
+      "title": "Determinantes | Propiedad 11",
+      "duration": 452
+    },
+    {
+      "id": "D0rLNvegjYc",
+      "title": "Cálculo de un determinante | Ley de signos 1",
+      "duration": 531
+    },
+    {
+      "id": "nNf5_IYo9JM",
+      "title": "Cálculo de un determinante | Ley de signos 2",
+      "duration": 907
+    },
+    {
+      "id": "8g7oWc5iK_o",
+      "title": "Cálculo de un determinante | Ley de signos 3",
+      "duration": 492
+    },
+    {
+      "id": "-vZVCwjkvmI",
+      "title": "Cálculo de determinantes | Ley de Sarrus",
+      "duration": 608
+    },
+    {
+      "id": "MJeJhUIkVBw",
+      "title": "Matriz adjunta | Definición",
+      "duration": 208
+    },
+    {
+      "id": "X2IWtJxyzv4",
+      "title": "Adjunta de una matriz",
+      "duration": 484
+    },
+    {
+      "id": "bwQMJkMiFMk",
+      "title": "Matriz inversa | Método de la adjunta",
+      "duration": 792
+    },
+    {
+      "id": "v4tmqHrkVj0",
+      "title": "Métodos para calcular la inversa de una matriz",
+      "duration": 996
+    },
+    {
+      "id": "Z2Oo7ZYosVg",
+      "title": "Inversa de una matriz de 3x3",
+      "duration": 450
+    },
+    {
+      "id": "KpDJ8hwTfy0",
+      "title": "Inversa de una matriz de 4x4",
+      "duration": 646
+    },
+    {
+      "id": "1NOxD6_bqyo",
+      "title": "Inversa de una matriz compleja",
+      "duration": 457
+    },
+    {
+      "id": "0L_rX0mDm3w",
+      "title": "Cálculo del valor de \"a\" para que la matriz tenga inversa | Ejemplo 1",
+      "duration": 168
+    },
+    {
+      "id": "By_wq1xOT7Q",
+      "title": "Cálculo del valor de \"a\" para que la matriz tenga inversa | Ejemplo 2",
+      "duration": 364
+    },
+    {
+      "id": "VFIfZ13zvzY",
+      "title": "Cálculo del valor de \"a\" para que la matriz tenga inversa | Ejemplo 3",
+      "duration": 276
+    },
+    {
+      "id": "4YhruG6Mrlw",
+      "title": "Cálculo del valor de \"a\" para que la matriz tenga inversa | Ejemplo 4",
+      "duration": 579
+    },
+    {
+      "id": "8y5h7iww9UA",
+      "title": "Cálculo del valor de \"a\" para que la matriz tenga inversa | Ejemplo 5",
+      "duration": 652
+    },
+    {
+      "id": "NP9zfh8wclU",
+      "title": "Cálculo del valor de \"a\" para que la matriz tenga inversa | Ejemplo 6",
+      "duration": 737
+    },
+    {
+      "id": "woVAeLeWf-o",
+      "title": "Cálculo del valor de \"a\" para que la matriz tenga inversa | Ejemplo 7",
+      "duration": 205
+    },
+    {
+      "id": "7Q1yNFk5qqo",
+      "title": "Cálculo del valor de \"a\" y \"x\" para que la matriz tenga inversa | Ejemplo 8",
+      "duration": 320
+    },
+    {
+      "id": "OkgdBsl3Ks0",
+      "title": "Determinante de una matriz involutiva e idempotente",
+      "duration": 231
+    },
+    {
+      "id": "Vl4KAvOdORE",
+      "title": "Determinante de una matriz ortogonal",
+      "duration": 415
+    },
+    {
+      "id": "PZNbcsvK11A",
+      "title": "Aplicación de las propiedades en determinantes | Ejercicio 1",
+      "duration": 438
+    },
+    {
+      "id": "oGh_p-QQllE",
+      "title": "Aplicación de las propiedades del determinante | Ejercicio 2",
+      "duration": 262
+    },
+    {
+      "id": "d_CTRnyXTUA",
+      "title": "Aplicación de las propiedades del determinante | Ejercicio 3",
+      "duration": 243
+    },
+    {
+      "id": "ORr1bC-POIY",
+      "title": "Aplicación de las propiedades del determinante | Ejercicio 4",
+      "duration": 492
+    },
+    {
+      "id": "8my84z9iKgc",
+      "title": "Aplicación de las propiedades del determinante | Ejercicio 5",
+      "duration": 279
+    },
+    {
+      "id": "SpkBGkyVFFk",
+      "title": "Aplicación de las propiedades del determinante | Ejercicio 6",
+      "duration": 193
+    },
+    {
+      "id": "rii53Y8ByZE",
+      "title": "Aplicación de las propiedades del determinante | Ejercicio 7",
+      "duration": 338
+    },
+    {
+      "id": "pZLiKjec6DI",
+      "title": "Aplicación de las propiedades del determinante | Ejercicio 8",
+      "duration": 201
+    },
+    {
+      "id": "JeyXEne1OAk",
+      "title": "Determinante de una matriz 4x4",
+      "duration": 422
+    },
+    {
+      "id": "HEh_kolowe8",
+      "title": "Determinante de una matriz 4x4",
+      "duration": 544
+    },
+    {
+      "id": "9Yv8WU3zyek",
+      "title": "Determinante de Vandermonde | Ejercicio 1",
+      "duration": 310
+    },
+    {
+      "id": "zFXc_IfplsY",
+      "title": "Determinante de Vandermonde | Ejercicio 2",
+      "duration": 1013
+    },
+    {
+      "id": "JPMy1ppwfAo",
+      "title": "Determinante de Vandermonte | Ejercicio 3",
+      "duration": 459
+    },
+    {
+      "id": "vr09XNHKgwA",
+      "title": "Determinante de Vandermonte | Ejercicio 4",
+      "duration": 371
+    },
+    {
+      "id": "skUzYGwBV_I",
+      "title": "Determinante de una matriz n x n | Ejercicio 1",
+      "duration": 744
+    },
+    {
+      "id": "EYSKv-F2yvA",
+      "title": "Determinante de una matriz n x n | Ejercicio 2",
+      "duration": 252
+    },
+    {
+      "id": "Dtp8QEt7tBE",
+      "title": "Determinante de una matriz nxn | Ejercicio 3",
+      "duration": 572
+    },
+    {
+      "id": "PMNqkIaVRfk",
+      "title": "Determinante de una matriz nxn | Ejercicio 4",
+      "duration": 629
+    },
+    {
+      "id": "GmPgwUDoBcU",
+      "title": "Matriz adjunta | Propiedades 1",
+      "duration": 228
+    },
+    {
+      "id": "G3V2KUgNFCk",
+      "title": "Matriz adjunta | Propiedades 2",
+      "duration": 333
+    },
+    {
+      "id": "bX2euqs29Qc",
+      "title": "Matriz adjunta | Propiedades 3",
+      "duration": 317
+    },
+    {
+      "id": "skzQJmbGdRU",
+      "title": "Matriz adjunta | Propiedades 4",
+      "duration": 605
+    },
+    {
+      "id": "7u_yBIPwsYE",
+      "title": "Matriz adjunta | Propiedades 5",
+      "duration": 332
+    },
+    {
+      "id": "Kb9cxiY0It4",
+      "title": "Matriz adjunta | Propiedades 6",
+      "duration": 322
+    },
+    {
+      "id": "dfpGvijmPY4",
+      "title": "Matriz adjunta | Propiedades 7",
+      "duration": 311
+    },
+    {
+      "id": "pG1Ifxpq98k",
+      "title": "Matriz adjunta | Propiedades 8",
+      "duration": 319
+    }
+  ]
+}

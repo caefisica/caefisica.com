@@ -1,0 +1,155 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra Lineal para Físicos I",
+  "channel": "rentov",
+  "description": "Clases de la asignatura álgebra Lineal para Físicos I",
+  "updated": "2020-09-18",
+  "lessons": [
+    {
+      "id": "gm0_r6OY2Rg",
+      "title": "Clase inaugural de la asignatura Álgebra lineal para físicos I",
+      "duration": 4952
+    },
+    {
+      "id": "ul9gjXRqzHg",
+      "title": "Clase 1: Grupos",
+      "duration": 3672
+    },
+    {
+      "id": "NmvF8ZsZurA",
+      "title": "Clase 2: Anillos y campos",
+      "duration": 5327
+    },
+    {
+      "id": "uRiSZWFRiIg",
+      "title": "Clase 3: Espacio lineal",
+      "duration": 5374
+    },
+    {
+      "id": "Bw5ik4xUYoY",
+      "title": "Clase 4: Dimensión y base de un espacio lineal",
+      "duration": 5437
+    },
+    {
+      "id": "CMQRH6k2mqM",
+      "title": "Clase 5: Subespacios lineales",
+      "duration": 5551
+    },
+    {
+      "id": "GWshO2raz8k",
+      "title": "Clase 6: Fórmula de Grassmann.",
+      "duration": 5301
+    },
+    {
+      "id": "N4IQeVXm6ZI",
+      "title": "Clase 7: Cambio de Base y transformación de coordenadas. (1/2)",
+      "duration": 4801
+    },
+    {
+      "id": "lRyx5uNFeWM",
+      "title": "Clase 9: Espacio Afín",
+      "duration": 5152
+    },
+    {
+      "id": "dug1vo0LGcs",
+      "title": "Clase 8: Cambio de base (2/2). Correspondencia entre campos reales y complejos",
+      "duration": 5333
+    },
+    {
+      "id": "UnzCDXK-jNA",
+      "title": "Clase 10: Formas lineales",
+      "duration": 5596
+    },
+    {
+      "id": "UnzCDXK-jNA",
+      "title": "Clase 10: Formas lineales",
+      "duration": 5596
+    },
+    {
+      "id": "cUMM866GvJA",
+      "title": "Clase 11: Espacio dual",
+      "duration": 5180
+    },
+    {
+      "id": "PfKYhmc9jZk",
+      "title": "Clase 12: Formas semilineales",
+      "duration": 5488
+    },
+    {
+      "id": "ZX7bqY_7i78",
+      "title": "Clase 13: Formas bilineales",
+      "duration": 5424
+    },
+    {
+      "id": "OkoBubNJ80Q",
+      "title": "Clase 14: Formas cuadráticas",
+      "duration": 5220
+    },
+    {
+      "id": "PgwFhS6swK4",
+      "title": "Clase 15: Forma canónica y forma normal",
+      "duration": 6168
+    },
+    {
+      "id": "t8ChHcS0uH4",
+      "title": "Clase 16: Forma canónica. Método de Jacobi",
+      "duration": 5976
+    },
+    {
+      "id": "A1m4Myc9axU",
+      "title": "Clase 17: Formas definidas positívamente",
+      "duration": 5345
+    },
+    {
+      "id": "Q5vxj_kkAsE",
+      "title": "Clase 18: Formas Sesquilineales y antisimétricas",
+      "duration": 5520
+    },
+    {
+      "id": "ANKAgOszsLc",
+      "title": "Clase 19: Formas simplécticas",
+      "duration": 5594
+    },
+    {
+      "id": "cFn-pmuiO1Y",
+      "title": "Clase 20: Forma canónica de la forma hermítica. Transformaciones lineales.",
+      "duration": 5540
+    },
+    {
+      "id": "eZPo2n9RvIQ",
+      "title": "Clase 21: Transformaciones lineales",
+      "duration": 5809
+    },
+    {
+      "id": "zl6FxipuJNY",
+      "title": "Clase 22: Operadores no degenerados",
+      "duration": 4815
+    },
+    {
+      "id": "76_fSM9d5O8",
+      "title": "Clase 23: Vectores y valores propios",
+      "duration": 5677
+    },
+    {
+      "id": "g6VGY531VCQ",
+      "title": "Clase 24: Forma diagonal de un operador lineal",
+      "duration": 5930
+    },
+    {
+      "id": "wpnUojhLX68",
+      "title": "Clase 25: Forma canónica de Jordan (1/2)",
+      "duration": 5351
+    },
+    {
+      "id": "0uJhBR1aHJ0",
+      "title": "Clase 26: Forma canónica de Jordan (2/2)",
+      "duration": 5869
+    },
+    {
+      "id": "Pgo2GDeYGPI",
+      "title": "Clase 27: Forma canonica de Jordan: ejemplos",
+      "duration": 5727
+    }
+  ]
+}

@@ -30,6 +30,4 @@ date: 2022-02-01T15:00:00
 
 ## Listas de reproducción
 
-| Nombre                  | Autor                 | Enlace                                                                          |
-| ----------------------- | --------------------- | ------------------------------------------------------------------------------- |
-| Curso de Física Moderna | Ramon Castillo Bastos | [spa](https://www.youtube.com/playlist?list=PL4i6Jlnz3GWUY1je5sOfwcQDvF4OWNSiR) |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}

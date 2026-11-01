@@ -1,0 +1,400 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Variable compleja 2. Forma polar, raices, y conjuntos en complejos",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-12-16",
+  "lessons": [
+    {
+      "id": "nQG1HUWBgY4",
+      "title": "Forma polar de un número complejo",
+      "duration": 879
+    },
+    {
+      "id": "gasLtDfiU6g",
+      "title": "Forma polar y argumento de un número complejo",
+      "duration": 546
+    },
+    {
+      "id": "JbuyGL1LP8k",
+      "title": "Cálculo del argumento principal 1",
+      "duration": 441
+    },
+    {
+      "id": "hbqSW9EMZVY",
+      "title": "Forma polar de un número complejo 1",
+      "duration": 585
+    },
+    {
+      "id": "fvK5JtyYKug",
+      "title": "Cálculo del argumento principal 2",
+      "duration": 384
+    },
+    {
+      "id": "_VzwOoUkkUA",
+      "title": "Forma polar de un número complejo 2",
+      "duration": 279
+    },
+    {
+      "id": "rOJnfjqv3bE",
+      "title": "Forma polar de un número complejo 3",
+      "duration": 495
+    },
+    {
+      "id": "8FSF6kS4UUA",
+      "title": "Forma polar de un número complejo 4",
+      "duration": 251
+    },
+    {
+      "id": "ANHZIok96FY",
+      "title": "Forma polar de un número complejo 5",
+      "duration": 495
+    },
+    {
+      "id": "78uE9L4zUM8",
+      "title": "Forma polar de un número complejo 6",
+      "duration": 212
+    },
+    {
+      "id": "IM3Rka7dzkU",
+      "title": "Forma polar de un número complejo 7",
+      "duration": 527
+    },
+    {
+      "id": "527W-aRKcnU",
+      "title": "Multiplicación de complejos en forma polar 1",
+      "duration": 435
+    },
+    {
+      "id": "kSG2FjN81oo",
+      "title": "Multiplicación de complejos en forma polar 2",
+      "duration": 377
+    },
+    {
+      "id": "NZ9Itp1OC5A",
+      "title": "Multiplicación de complejos en forma polar 3",
+      "duration": 410
+    },
+    {
+      "id": "NoX3ZkCuROk",
+      "title": "Multiplicación de complejos en forma polar 4",
+      "duration": 445
+    },
+    {
+      "id": "t3r8C81BeLg",
+      "title": "Multiplicación de complejos en forma polar 5",
+      "duration": 528
+    },
+    {
+      "id": "Djhhvc7qrtI",
+      "title": "Teorema de Moivre",
+      "duration": 734
+    },
+    {
+      "id": "VePUImYDm6A",
+      "title": "Aplicación del Teorema de Moivre 1",
+      "duration": 252
+    },
+    {
+      "id": "kU3FxgsjQac",
+      "title": "Aplicación del Teorema de Moivre 2",
+      "duration": 275
+    },
+    {
+      "id": "w3E8QZuW5qk",
+      "title": "Aplicación del Teorema de Moivre 3",
+      "duration": 309
+    },
+    {
+      "id": "bV_iiE5JLFE",
+      "title": "División de complejos en forma polar 1",
+      "duration": 487
+    },
+    {
+      "id": "MggtNuyMJwk",
+      "title": "División de complejos en forma polar 2",
+      "duration": 219
+    },
+    {
+      "id": "Lx08ry_x4SM",
+      "title": "División de complejos en forma polar 3",
+      "duration": 522
+    },
+    {
+      "id": "1-EA0dNBWeM",
+      "title": "División de complejos en forma polar 4",
+      "duration": 526
+    },
+    {
+      "id": "3vwFqQDMUss",
+      "title": "División de complejos en forma polar 5",
+      "duration": 761
+    },
+    {
+      "id": "BZ8l89F3wYE",
+      "title": "División de complejos en forma polar 6",
+      "duration": 473
+    },
+    {
+      "id": "M9EVrRtewns",
+      "title": "Aplicación del teorema de Moivre 4",
+      "duration": 406
+    },
+    {
+      "id": "zfWU4meqb08",
+      "title": "Aplicación teorema de Moivre 5",
+      "duration": 598
+    },
+    {
+      "id": "w8dyXzJfHqE",
+      "title": "Aplicación del teorema de Moivre 6",
+      "duration": 611
+    },
+    {
+      "id": "aNPNbit4zSU",
+      "title": "Aplicación del teorema de Moivre 7",
+      "duration": 457
+    },
+    {
+      "id": "hI3-ynxAPhs",
+      "title": "Aplicación del Teorema de Moivre 8",
+      "duration": 337
+    },
+    {
+      "id": "PTTdJjlCGJM",
+      "title": "División de complejos en forma polar 7",
+      "duration": 355
+    },
+    {
+      "id": "winlh7t-jbg",
+      "title": "Raices enésimas de un número complejo",
+      "duration": 575
+    },
+    {
+      "id": "980jbHk1tzg",
+      "title": "Raices cúbicas de 1",
+      "duration": 481
+    },
+    {
+      "id": "01Pl2EOKpwQ",
+      "title": "Raices cuartas de 1",
+      "duration": 307
+    },
+    {
+      "id": "2VBLWPldcT8",
+      "title": "Raices cuadradas de un número complejo",
+      "duration": 522
+    },
+    {
+      "id": "EMF1CADomTI",
+      "title": "Raices cuadradas de 1",
+      "duration": 230
+    },
+    {
+      "id": "E2VhxjhdBaA",
+      "title": "Raices cuartas de un número complejo",
+      "duration": 911
+    },
+    {
+      "id": "87t7tHoVlvM",
+      "title": "Raices cúbicas de un número complejo",
+      "duration": 460
+    },
+    {
+      "id": "j5xRgcreSx4",
+      "title": "Raices cuadradas de 1+i",
+      "duration": 459
+    },
+    {
+      "id": "YC15tEhBZeU",
+      "title": "Raices cuartas de i y enésimas de 1",
+      "duration": 244
+    },
+    {
+      "id": "oPm_5MqUDoY",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 1",
+      "duration": 310
+    },
+    {
+      "id": "0JQSknrLzT0",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 2",
+      "duration": 256
+    },
+    {
+      "id": "waJ-KLe2emI",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 3",
+      "duration": 392
+    },
+    {
+      "id": "ynvK43Vojfw",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 4",
+      "duration": 284
+    },
+    {
+      "id": "DGlBPfaT2Vs",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 5",
+      "duration": 395
+    },
+    {
+      "id": "36_EwFTAVh0",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 6",
+      "duration": 306
+    },
+    {
+      "id": "HcbflJY6yUA",
+      "title": "Lugar geométrico que representa un desigualdad en complejos 7",
+      "duration": 379
+    },
+    {
+      "id": "gsqDARns4Mo",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 8",
+      "duration": 320
+    },
+    {
+      "id": "NOBt2q3p6Mg",
+      "title": "Lugar geométrico que representa una desigualdad en complejos 9",
+      "duration": 699
+    },
+    {
+      "id": "l4iomeNJmWM",
+      "title": "Bola abierta I Definición",
+      "duration": 395
+    },
+    {
+      "id": "bcyg2EZ7WXg",
+      "title": "Punto interior de un conjunto I Definición",
+      "duration": 429
+    },
+    {
+      "id": "O2pwXWdkqEM",
+      "title": "Conjunto abierto I Definición",
+      "duration": 333
+    },
+    {
+      "id": "irq5iC77Dr8",
+      "title": "Punto frontera I Definición",
+      "duration": 486
+    },
+    {
+      "id": "VSPx6W6yw4M",
+      "title": "Punto de acumulación I Definición",
+      "duration": 469
+    },
+    {
+      "id": "BpvVEHGH748",
+      "title": "Conjunto cerrado I Definición",
+      "duration": 242
+    },
+    {
+      "id": "DqIiv2wu0l4",
+      "title": "Conjunto conexo I Definición",
+      "duration": 439
+    },
+    {
+      "id": "_VHednCCopg",
+      "title": "Dominio I Definición",
+      "duration": 357
+    },
+    {
+      "id": "nldY0orntYc",
+      "title": "Conjunto simplemente conexo",
+      "duration": 353
+    },
+    {
+      "id": "oOjb1bWotF4",
+      "title": "Vecindad de un punto I Definición",
+      "duration": 309
+    },
+    {
+      "id": "FzTfJzlXjwo",
+      "title": "Aplicación de la teoria 1",
+      "duration": 353
+    },
+    {
+      "id": "9tfW8pX4k6s",
+      "title": "Aplicación de la teoria 2",
+      "duration": 248
+    },
+    {
+      "id": "rgEzDzwvwqI",
+      "title": "Aplicación de la teoria 3",
+      "duration": 726
+    },
+    {
+      "id": "ks93WTaDDxU",
+      "title": "Aplicación de la teoria 4",
+      "duration": 403
+    },
+    {
+      "id": "8tlwdPFBAAc",
+      "title": "Aplicación de la teoria 5",
+      "duration": 528
+    },
+    {
+      "id": "xXFM1SRMGjc",
+      "title": "Aplicación de la teoria 6",
+      "duration": 273
+    },
+    {
+      "id": "pIDdLPm3Q6k",
+      "title": "Aplicación de la teoria 7",
+      "duration": 245
+    },
+    {
+      "id": "zP7sAr_870A",
+      "title": "Aplicación de la teoria 8",
+      "duration": 299
+    },
+    {
+      "id": "TwfnkfwlzvA",
+      "title": "Aplicación de la teoria 9",
+      "duration": 289
+    },
+    {
+      "id": "CEh1uLh2XSE",
+      "title": "Bola abierta I Definición",
+      "duration": 569
+    },
+    {
+      "id": "RnuvawDKbJM",
+      "title": "Aplicación de la teoria 10",
+      "duration": 428
+    },
+    {
+      "id": "sckICc21018",
+      "title": "Aplicación de la teoria 11",
+      "duration": 466
+    },
+    {
+      "id": "NQzaG0n1oPk",
+      "title": "Aplicación de la teoria 12",
+      "duration": 513
+    },
+    {
+      "id": "WqFvsSm33hA",
+      "title": "Aplicación de la teoria 13",
+      "duration": 350
+    },
+    {
+      "id": "HErTrXQzkb4",
+      "title": "Aplicación de la teoria 14",
+      "duration": 344
+    },
+    {
+      "id": "888Nt6oDots",
+      "title": "Lugar geométrico",
+      "duration": 600
+    },
+    {
+      "id": "JzxBz3cu0Bw",
+      "title": "Aplicación de la teoria 15",
+      "duration": 439
+    },
+    {
+      "id": "W0LEsGNJqg8",
+      "title": "Aplicación de la teoria 16",
+      "duration": 289
+    }
+  ]
+}

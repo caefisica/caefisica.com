@@ -1,0 +1,50 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Partial Differential Equations and Separation of Variables",
+  "channel": "Daniel An",
+  "description": "",
+  "updated": "2017-06-08",
+  "lessons": [
+    {
+      "id": "stmQTO2-zzI",
+      "title": "PDE introduction to heat equation",
+      "duration": 683
+    },
+    {
+      "id": "jmpCYr0HBm8",
+      "title": "PDE introduction to Wave equation",
+      "duration": 248
+    },
+    {
+      "id": "eYq2oKgHTtc",
+      "title": "Solution of heat equation part1",
+      "duration": 1466
+    },
+    {
+      "id": "oQH6BoCSp-8",
+      "title": "Solution of heat equation part2",
+      "duration": 387
+    },
+    {
+      "id": "XBG7-M8cA1E",
+      "title": "Solution of Heat equation plotted with Mathematica",
+      "duration": 398
+    },
+    {
+      "id": "m0c9vkta_zk",
+      "title": "Heat Equation Neuman bdry",
+      "duration": 1759
+    },
+    {
+      "id": "1aenGFz-iHo",
+      "title": "Heat eq No Fourier needed",
+      "duration": 1018
+    },
+    {
+      "id": "SbImfSM4CzA",
+      "title": "Solving Wave Equation Using Fourier Series",
+      "duration": 1605
+    }
+  ]
+}

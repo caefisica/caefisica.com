@@ -1,0 +1,175 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 5. Planos",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-02-21",
+  "lessons": [
+    {
+      "id": "ymkWtBSMxBk",
+      "title": "Plano | Definición",
+      "duration": 408
+    },
+    {
+      "id": "-VNZYoi6anc",
+      "title": "Ecuaciones que representan planos",
+      "duration": 483
+    },
+    {
+      "id": "0Pe_mr9HmXc",
+      "title": "Hallar un vector normal y un punto del plano | Ejemplo 1",
+      "duration": 482
+    },
+    {
+      "id": "574pR3Mzcpg",
+      "title": "Hallar un vector normal y un punto del plano | Ejemplo 2",
+      "duration": 580
+    },
+    {
+      "id": "HHXRx90nsNA",
+      "title": "Hallar la ecuación de plano dado vector normal y un punto",
+      "duration": 445
+    },
+    {
+      "id": "xo2GjRpW15s",
+      "title": "Hallar la ecuación del plano",
+      "duration": 186
+    },
+    {
+      "id": "EBGXq-9_ZMU",
+      "title": "Ecuación del plano que pasa por tres puntos | Ejemplo 1",
+      "duration": 495
+    },
+    {
+      "id": "WqnMKvM9cX8",
+      "title": "Ecuación del plano que pasa por tres puntos | Ejemplo 2",
+      "duration": 343
+    },
+    {
+      "id": "K2anUWbDeAc",
+      "title": "Ecuación del plano que pasa por tres puntos | Ejemplo 3",
+      "duration": 499
+    },
+    {
+      "id": "qz43NggCT6M",
+      "title": "Ecuación del plano que pasa por tres puntos | Ejemplo 4",
+      "duration": 657
+    },
+    {
+      "id": "WzrOSyhuxqM",
+      "title": "Gráfica del plano con tres variables",
+      "duration": 259
+    },
+    {
+      "id": "9ac0ioiBstc",
+      "title": "Gráfica de planos constantes 1",
+      "duration": 425
+    },
+    {
+      "id": "3UVUzPcbp4g",
+      "title": "Gráfica de planos constantes 2",
+      "duration": 234
+    },
+    {
+      "id": "AYE0taqgL2E",
+      "title": "Curvas de nivel",
+      "duration": 448
+    },
+    {
+      "id": "ZXfQ7G0fgaw",
+      "title": "Gráfica de planos 1",
+      "duration": 634
+    },
+    {
+      "id": "VroaJQcZsbU",
+      "title": "Gráfica de planos 2",
+      "duration": 393
+    },
+    {
+      "id": "Wov5bzhfGaI",
+      "title": "Ángulo entre planos",
+      "duration": 442
+    },
+    {
+      "id": "oY6oRRWabB8",
+      "title": "Planos paralelos | Definición",
+      "duration": 350
+    },
+    {
+      "id": "CkFY1j_9790",
+      "title": "Planos perpendiculares | Definición",
+      "duration": 377
+    },
+    {
+      "id": "QhSzowOlD8Q",
+      "title": "Ecuación del plano que pasa por un punto y es paralelo a otro plano",
+      "duration": 304
+    },
+    {
+      "id": "QQIsWvB0eNs",
+      "title": "Ecuación del plano que pasa por un punto y es perpendicular otro plano",
+      "duration": 271
+    },
+    {
+      "id": "KrPYYW_504U",
+      "title": "Ecuación del plano que pasa por un punto y es perpendicular otro plano",
+      "duration": 379
+    },
+    {
+      "id": "oNVFdEKFa7U",
+      "title": "Ecuación del plano que pasa por un punto y es paralelo a dos vectores",
+      "duration": 413
+    },
+    {
+      "id": "nIIi9Z_661k",
+      "title": "Ecuación del plano que pasa por un punto y es paralelo a un plano",
+      "duration": 247
+    },
+    {
+      "id": "pelL3Dnf8Ms",
+      "title": "Ecuación del plano que pasa por un punto y es paralelo a un plano",
+      "duration": 398
+    },
+    {
+      "id": "LiB1GISXNfg",
+      "title": "Ecuación del plano que pasa por un punto y es perpendicular a dos planos | Ejemplo 1",
+      "duration": 326
+    },
+    {
+      "id": "NSZ3BTqAf0c",
+      "title": "Ecuación del plano que pasa por un punto y es perpendicular a dos planos | Ejemplo 2",
+      "duration": 303
+    },
+    {
+      "id": "UBSljLgfOX0",
+      "title": "Ecuación del plano que pasa por un punto y es perpendicular a dos planos | Ejemplo 3",
+      "duration": 354
+    },
+    {
+      "id": "EUTh1jEcoBE",
+      "title": "Ecuación del plano que pasa por un punto y es perpendicular a dos planos | Ejemplo 4",
+      "duration": 352
+    },
+    {
+      "id": "wkxtXAH_0Q4",
+      "title": "Ecuación del plano que pasa por dos puntos y es perpendicular a un plano",
+      "duration": 511
+    },
+    {
+      "id": "oOmzB7ZKAHw",
+      "title": "Distancia de un punto a un plano",
+      "duration": 870
+    },
+    {
+      "id": "7xm-VvpouoM",
+      "title": "Distancia entre planos paralelos | Ejemplo 1",
+      "duration": 446
+    },
+    {
+      "id": "UeK1iP5wEcM",
+      "title": "Ejemplo de distancia entre planos paralelos | Ejemplo 2",
+      "duration": 217
+    }
+  ]
+}

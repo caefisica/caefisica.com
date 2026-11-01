@@ -1,0 +1,360 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 4. Vectores",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-02-16",
+  "lessons": [
+    {
+      "id": "ebrGGDMrGnU",
+      "title": "Definición de vector",
+      "duration": 230
+    },
+    {
+      "id": "QYMVwl8llJ0",
+      "title": "Vectores equivalentes 1",
+      "duration": 523
+    },
+    {
+      "id": "EX02Z4nyseM",
+      "title": "Vectores equivalentes 2",
+      "duration": 552
+    },
+    {
+      "id": "h3b_zN4MhTc",
+      "title": "Longitud o norma de un vector en el plano",
+      "duration": 1033
+    },
+    {
+      "id": "IF8p0FU6Gg0",
+      "title": "Longitud o norma de un vector en el espacio",
+      "duration": 774
+    },
+    {
+      "id": "O47KqifqPVY",
+      "title": "Orientación de un vector",
+      "duration": 568
+    },
+    {
+      "id": "9MYjptC1Svc",
+      "title": "Orientación de vectores especiales",
+      "duration": 279
+    },
+    {
+      "id": "Y9rLVC-VLnM",
+      "title": "Definición de paralelos",
+      "duration": 450
+    },
+    {
+      "id": "HDAfR9aGhQA",
+      "title": "Vectores canónicos",
+      "duration": 300
+    },
+    {
+      "id": "KLEC4I1h_D0",
+      "title": "Vectores unitarios",
+      "duration": 372
+    },
+    {
+      "id": "z-kTBGjaHik",
+      "title": "Suma de vectores | Método del triangulo 1",
+      "duration": 494
+    },
+    {
+      "id": "HYY0fSmgkVc",
+      "title": "Suma de vectores | Método del triangulo 2",
+      "duration": 207
+    },
+    {
+      "id": "XGvOZE-y3Dw",
+      "title": "Suma de vectores | Método del triangulo 3",
+      "duration": 497
+    },
+    {
+      "id": "50Swr-xA3zc",
+      "title": "Suma de vectores | Método del triangulo 4",
+      "duration": 320
+    },
+    {
+      "id": "yI5RYk0Ntvo",
+      "title": "Suma de vectores | Método del paralelogramo 1",
+      "duration": 319
+    },
+    {
+      "id": "eAqJW7cs-Vw",
+      "title": "Suma de vectores | Método del paralelogramo 2",
+      "duration": 259
+    },
+    {
+      "id": "9HjnIXA9pew",
+      "title": "Suma de vectores | Método del paralelogramo 3",
+      "duration": 461
+    },
+    {
+      "id": "ZdvgotQHkHA",
+      "title": "Suma de vectores | Método analítico",
+      "duration": 353
+    },
+    {
+      "id": "Cb9szEDlFvo",
+      "title": "Resta de vectores",
+      "duration": 606
+    },
+    {
+      "id": "IgSF6lPR6_4",
+      "title": "Multiplicación de un escalar por un vector",
+      "duration": 874
+    },
+    {
+      "id": "GZfpyenpw5s",
+      "title": "Propiedades de los vectores",
+      "duration": 476
+    },
+    {
+      "id": "rtZxwvXOxQo",
+      "title": "Definición de producto escalar o interior de vectores",
+      "duration": 328
+    },
+    {
+      "id": "CCxo2HpEGpo",
+      "title": "Producto interior de vectores",
+      "duration": 440
+    },
+    {
+      "id": "ElyX8muLGE8",
+      "title": "Propiedades del producto interior",
+      "duration": 424
+    },
+    {
+      "id": "XyxM1nMwjhc",
+      "title": "Definición de producto interior | Aplicación",
+      "duration": 223
+    },
+    {
+      "id": "1Yl6aHdjTMQ",
+      "title": "Propiedades de la norma de un vector",
+      "duration": 539
+    },
+    {
+      "id": "Uko5sdikL_k",
+      "title": "Propiedad del producto interior | Demostración",
+      "duration": 327
+    },
+    {
+      "id": "qywo7u-Ruhk",
+      "title": "Vectores perpendiculares",
+      "duration": 429
+    },
+    {
+      "id": "hQd06tCBfGo",
+      "title": "Desigualdad triangular de vectores | Demostración",
+      "duration": 311
+    },
+    {
+      "id": "4d2UHKxiphw",
+      "title": "Desigualdad de Cauchy | Demostración",
+      "duration": 601
+    },
+    {
+      "id": "2xeD7vHQdGw",
+      "title": "Ángulo entre vectores | Ejemplo 1",
+      "duration": 622
+    },
+    {
+      "id": "9G3Sx1R_lp4",
+      "title": "Ángulo entre vectores | Ejemplo 2",
+      "duration": 636
+    },
+    {
+      "id": "hGc6ZATiPPY",
+      "title": "Cálculo de los ángulos de un triángulo",
+      "duration": 814
+    },
+    {
+      "id": "pu-VQveM-Zc",
+      "title": "Ángulo director y coseno director",
+      "duration": 877
+    },
+    {
+      "id": "awct5hxOEDI",
+      "title": "Cálculo de cosenos directores y ángulos directores",
+      "duration": 209
+    },
+    {
+      "id": "sU-GcidpZU4",
+      "title": "Proyección de un vector",
+      "duration": 780
+    },
+    {
+      "id": "MOXQbPpx5p8",
+      "title": "Proyección de un vector | Ejemplo 1",
+      "duration": 364
+    },
+    {
+      "id": "9yG2yHWoHtE",
+      "title": "Proyección de un vector | Ejemplo 2",
+      "duration": 397
+    },
+    {
+      "id": "7SPhzw6UYdE",
+      "title": "Combinación lineal entre vectores | Ejemplo 1",
+      "duration": 275
+    },
+    {
+      "id": "y_WGhhk_7bk",
+      "title": "Combinación lineal entre vectores | Ejemplo 2",
+      "duration": 229
+    },
+    {
+      "id": "H84128V4RTg",
+      "title": "Definición del producto cruz",
+      "duration": 534
+    },
+    {
+      "id": "8QjvgZnKPyM",
+      "title": "Producto cruz | Ejemplo 1",
+      "duration": 517
+    },
+    {
+      "id": "bCeE2HXBfa4",
+      "title": "Producto cruz | Ejemplo 2",
+      "duration": 367
+    },
+    {
+      "id": "lJI9Dz5IWEY",
+      "title": "Producto cruz I Propiedades 1",
+      "duration": 291
+    },
+    {
+      "id": "kfxGfOw3_Hw",
+      "title": "Producto cruz I Propiedades 2",
+      "duration": 414
+    },
+    {
+      "id": "Gz7y4fJsV_E",
+      "title": "Producto vectorial de vectores canónicos",
+      "duration": 396
+    },
+    {
+      "id": "iteD-_eLBhY",
+      "title": "Vector perpendicular a dos vectores I Propiedades 3",
+      "duration": 510
+    },
+    {
+      "id": "uk6Pdg8cvJE",
+      "title": "Norma de vectores I Propiedades 4",
+      "duration": 268
+    },
+    {
+      "id": "1EG22qISCA0",
+      "title": "Vectores paralelos I Propiedades 5",
+      "duration": 295
+    },
+    {
+      "id": "sRsLmfPdoK8",
+      "title": "Área de un paralelogramo",
+      "duration": 509
+    },
+    {
+      "id": "Do4jPIiRYb8",
+      "title": "Área de un triángulo",
+      "duration": 385
+    },
+    {
+      "id": "gBKR6GZ_Kig",
+      "title": "Vectores I Ejercicio 1",
+      "duration": 384
+    },
+    {
+      "id": "85Tl64CQTK0",
+      "title": "Vectores I Ejercicio 2",
+      "duration": 288
+    },
+    {
+      "id": "zKQ6t65_EGg",
+      "title": "Vectores perpendiculares I Propiedades 6",
+      "duration": 564
+    },
+    {
+      "id": "CCaE0eGt7a0",
+      "title": "Identidad de Lagrange",
+      "duration": 362
+    },
+    {
+      "id": "zDxTZHe7mRA",
+      "title": "Producto mixto I Definición",
+      "duration": 237
+    },
+    {
+      "id": "sBERwdDAZbY",
+      "title": "Producto mixto I Propiedades",
+      "duration": 322
+    },
+    {
+      "id": "8lFv0a_YBr4",
+      "title": "Producto mixto I Ejercicio",
+      "duration": 620
+    },
+    {
+      "id": "lcUU4Pcww_o",
+      "title": "Volumen de un paralelepípedo",
+      "duration": 531
+    },
+    {
+      "id": "GsFWM_CBJu8",
+      "title": "Vectores I Ejercicio 3",
+      "duration": 366
+    },
+    {
+      "id": "Gz7y4fJsV_E",
+      "title": "Producto vectorial de vectores canónicos",
+      "duration": 396
+    },
+    {
+      "id": "g4zTkJIIC4E",
+      "title": "Vectores I Ejercicio 4",
+      "duration": 188
+    },
+    {
+      "id": "OwJtSglru-A",
+      "title": "Norma de un vector I Ejercicio",
+      "duration": 261
+    },
+    {
+      "id": "8zDdq4eLFdg",
+      "title": "Vectores I Ejercicio 5",
+      "duration": 218
+    },
+    {
+      "id": "QipYYFueTv4",
+      "title": "Vectores I Ejercicio 6",
+      "duration": 229
+    },
+    {
+      "id": "ow_LHHFeS1k",
+      "title": "Vectores I Ejercicio 7",
+      "duration": 832
+    },
+    {
+      "id": "JE9KL4TuQXg",
+      "title": "Vectores I Ejercicio 8",
+      "duration": 307
+    },
+    {
+      "id": "OSM2eVjrnNs",
+      "title": "Vectores I Ejercicio 9",
+      "duration": 859
+    },
+    {
+      "id": "utL1pToitv8",
+      "title": "Vectores I Ejercicio 10",
+      "duration": 523
+    },
+    {
+      "id": "A24VYLWdYVI",
+      "title": "Regla de Cramer I Demostración",
+      "duration": 1044
+    }
+  ]
+}

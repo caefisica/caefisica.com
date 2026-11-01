@@ -1,0 +1,675 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso de ÁLGEBRA LINEAL",
+  "channel": "MateFacil",
+  "description": "En este curso aprenderás diversos temas del área de Álgebra Lineal. Resolución de sistemas de ecuaciones algebraicas lineales con el método de Gauss y Gauss Jordan, forma escalonada de matrices, operaciones con matrices, clasificación de matrices, diagonalización, forma canónica de Jordan, transformaciones lineales, espacios vectoriales, etc.",
+  "updated": "2026-10-09",
+  "lessons": [
+    {
+      "id": "Kzq-05kQVgc",
+      "title": "01. Sistemas de ecuaciones lineales, 2 variables | Álgebra Lineal",
+      "duration": 1609
+    },
+    {
+      "id": "55mXrr827Iw",
+      "title": "01.1 Calcular 4 soluciones de la ecuación lineal de dos variables (Curso de Álgebra Lineal)",
+      "duration": 214
+    },
+    {
+      "id": "l5InUyeaA-0",
+      "title": "💎01.2 Calcular el valor del parámetro t para que el sistema 2x2 tenga solución (Álgebra Lineal)",
+      "duration": 323
+    },
+    {
+      "id": "JzOPtT1L7m0",
+      "title": "01.3 Calcular valor del parámetro para que el sistema sea compatible o incompatible (A. Lineal)",
+      "duration": 339
+    },
+    {
+      "id": "mErTZBdXQVI",
+      "title": "💎01.4 Sistemas 3x2: mas ecuaciones que variables (Curso de Álgebra Lineal)",
+      "duration": 365
+    },
+    {
+      "id": "1ZHcir8KkIc",
+      "title": "01.5 Demostrar que la solución del sistema 2x2 es única si y solo si se cumple esto (Álgebra Lineal)",
+      "duration": 644
+    },
+    {
+      "id": "XYElrnvm_C0",
+      "title": "💎01.6 Demostrar que el sistema homogéneo siempre tiene solución ¿cuándo hay infinitas? (A. Lineal)",
+      "duration": 190
+    },
+    {
+      "id": "K9HJgIjnKsw",
+      "title": "Resolver el sistema para todos los valores de \"a\"",
+      "duration": 549
+    },
+    {
+      "id": "W-uFmErN15o",
+      "title": "💎 Sistema de ecuaciones 2x2 con infinitas soluciones - Álgebra Lineal",
+      "duration": 305
+    },
+    {
+      "id": "zX3nj-QZ9gA",
+      "title": "02. Ecuaciones de 3 variables Análisis Completo (Sistemas 3x3) | Álgebra Lineal",
+      "duration": 2199
+    },
+    {
+      "id": "W-uFmErN15o",
+      "title": "💎 Sistema de ecuaciones 2x2 con infinitas soluciones - Álgebra Lineal",
+      "duration": 305
+    },
+    {
+      "id": "6mhn_DeHcrI",
+      "title": "02.1 Calcular 5 soluciones de la ecuación lineal de 3 variables | Álgebra Lineal",
+      "duration": 252
+    },
+    {
+      "id": "ZrTQimnuil4",
+      "title": "💎02.2 Sistemas 2x3, 2 ecuaciones de 3 variables (Método de Gauss Jordan) | Álgebra lineal",
+      "duration": 470
+    },
+    {
+      "id": "lV50w7SZDFY",
+      "title": "02.3 Sistema 3x3 por Método de Gauss Jordan (Usando fracciones) | Álgebra Lineal",
+      "duration": 600
+    },
+    {
+      "id": "ieX7lxsDe1M",
+      "title": "💎02.4 Sistema 3x3 por Método de Gauss Jordan | Álgebra Lineal",
+      "duration": 312
+    },
+    {
+      "id": "2WVt8OMCSwc",
+      "title": "02.5 Sistema 3x3 por Método de Gauss Jordan (Sin Solución) | Álgebra Lineal",
+      "duration": 317
+    },
+    {
+      "id": "u9qfhNfo4R8",
+      "title": "💎02.6 ¿Existe valor r para el cual es solución del sistema 3x3? | Álgebra Lineal",
+      "duration": 174
+    },
+    {
+      "id": "ouJ4D8i7fZ0",
+      "title": "02.7 Sistema 3x3 por Método de Gauss Jordan (Infinitas soluciones) | Álgebra Lineal",
+      "duration": 298
+    },
+    {
+      "id": "SocyOl4cMSU",
+      "title": "💎02.8 Sistema 3x3 con 3 parámetros ¿Cuándo es inconsistente? | Álgebra Lineal",
+      "duration": 397
+    },
+    {
+      "id": "qZ0JqzPriyw",
+      "title": "02.9 Sistema 3x3 con 3 parámetros ¿Cuándo es inconsistente? | Álgebra Lineal",
+      "duration": 302
+    },
+    {
+      "id": "jCxSaCHloZg",
+      "title": "💎02.10 Sistemas 3x3 resueltos de forma simultanea, con matrices | Álgebra Lineal",
+      "duration": 462
+    },
+    {
+      "id": "rz6V2sLDwss",
+      "title": "02.11 Sistema 3x3 con parámetro: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 1065
+    },
+    {
+      "id": "uD39BKNjd8Q",
+      "title": "💎02.12 Sistema 3x3 con parámetro: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 903
+    },
+    {
+      "id": "-8YLtIBY9qQ",
+      "title": "02.13 Sistema 3x3 con 2 parámetros: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 640
+    },
+    {
+      "id": "xzgoQ6HeYkA",
+      "title": "💎02.14 Sistema 3x3 con 2 parámetros: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 417
+    },
+    {
+      "id": "tmqqs48Hiqo",
+      "title": "02.15 Sistema 3x3 con 2 parámetros: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 709
+    },
+    {
+      "id": "MQ0-VfCpZcw",
+      "title": "💎02.16 Sistema 3x3 con 2 parámetros: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 827
+    },
+    {
+      "id": "A9doiwLXapw",
+      "title": "02.17 Sistema 3x3 con parámetro: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 404
+    },
+    {
+      "id": "xZlllRoMXR0",
+      "title": "💎02.18 Sistema 3x3 con parámetro: Compatible, incompatible, etc | Álgebra Lineal",
+      "duration": 446
+    },
+    {
+      "id": "cp-6QPcTZeA",
+      "title": "03. Álgebra lineal - Matrices Escalonadas y Reducidas, Características y Ejemplos",
+      "duration": 1104
+    },
+    {
+      "id": "FmDdGwutMbo",
+      "title": "💎03.1 Álgebra lineal - Ejercicio de Matrices Escalonadas y Reducidas",
+      "duration": 302
+    },
+    {
+      "id": "3cEKZ51TPc8",
+      "title": "💎03.2 Álgebra lineal - Ejercicio de Sistemas Escalonados y Reducidos",
+      "duration": 435
+    },
+    {
+      "id": "NsxvPsVJlIU",
+      "title": "💎 Encontrar el número de 3 cifras, a partir de las condiciones - Álgebra Lineal",
+      "duration": 540
+    },
+    {
+      "id": "7L9YojcJmz8",
+      "title": "04. Álgebra Lineal - Método de Gauss Jordan EXPLICACIÓN COMPLETA",
+      "duration": 2146
+    },
+    {
+      "id": "fxEc4oOhwng",
+      "title": "04.1 Álgebra Lineal - Convertir a Matriz Escalonada Reducida aplicando Gauss - Jordan",
+      "duration": 362
+    },
+    {
+      "id": "rZaHsLFWgYU",
+      "title": "💎04.2 Álgebra lineal - Convertir a Matriz Escalonada Reducida aplicando Gauss - Jordan",
+      "duration": 226
+    },
+    {
+      "id": "oB-4vWupQPQ",
+      "title": "💎 Determinar si el sistema 4x4 tiene solución, metodo de Gauss - Álgebra Lineal",
+      "duration": 439
+    },
+    {
+      "id": "SBfh9WS6q7Q",
+      "title": "04.3 Álgebra Lineal - Sistema de Ecuaciones 4 incógnitas por Gauss - Jordan (infinitas soluciones)",
+      "duration": 420
+    },
+    {
+      "id": "oB-4vWupQPQ",
+      "title": "💎 Determinar si el sistema 4x4 tiene solución, metodo de Gauss - Álgebra Lineal",
+      "duration": 439
+    },
+    {
+      "id": "w5-5oBpW5Bg",
+      "title": "04.4 Álgebra Lineal - Sistema de Ecuaciones 4x4 por Gauss - Jordan (sin solución)",
+      "duration": 266
+    },
+    {
+      "id": "SPWJAclsfqw",
+      "title": "💎04.5 Álgebra Lineal - Sistema de Ecuaciones 5 incógnitas por Gauss - Jordan (infinitas soluciones)",
+      "duration": 320
+    },
+    {
+      "id": "BWpziaepHN8",
+      "title": "💎04.6 Álgebra Lineal - Sistema de Ecuaciones 5 incógnitas por Gauss - Jordan (sin solución)",
+      "duration": 219
+    },
+    {
+      "id": "SPRH3hmqrCY",
+      "title": "05. Álgebra Lineal - Método de Gauss (eliminación gaussiana) EXPLICACIÓN COMPLETA",
+      "duration": 910
+    },
+    {
+      "id": "7A5UtO6hFTo",
+      "title": "05.1 Álgebra Lineal - Eliminación Gaussiana, llevar matriz a forma escalonada",
+      "duration": 498
+    },
+    {
+      "id": "tbrzvUNsoa0",
+      "title": "💎05.2 Álgebra Lineal - Cómo reducir una Matriz a su forma escalonada usando eliminación gaussiana",
+      "duration": 315
+    },
+    {
+      "id": "CMfcvsUR7FU",
+      "title": "05.3 Cómo resolver un Sistema con más incógnitas que ecuaciones MUY FACIL PASO A PASO",
+      "duration": 628
+    },
+    {
+      "id": "jeTncsPeb5Y",
+      "title": "05.4 Cómo resolver un Sistema con más ecuaciones que incógnitas MUY FACIL PASO A PASO",
+      "duration": 506
+    },
+    {
+      "id": "zeIvI9PxJ2Q",
+      "title": "💎05.5 MÉTODO DE GAUSS Sistema con más ecuaciones que incógnitas MUY FACIL PASO A PASO",
+      "duration": 386
+    },
+    {
+      "id": "bk4tnt5oplA",
+      "title": "💎05.6 MÉTODO DE GAUSS Sistema con más incógnitas que ecuaciones MUY FACIL PASO A PASO",
+      "duration": 366
+    },
+    {
+      "id": "4YX9YmRE62c",
+      "title": "06. ¿Qué es una matriz? ÁLGEBRA LINEAL",
+      "duration": 958
+    },
+    {
+      "id": "j0DyqvgE1J8",
+      "title": "06.1 Matrices a partir de sus términos generales aij bij EJERCICIO DE ÁLGEBRA LINEAL EXPLICADO",
+      "duration": 422
+    },
+    {
+      "id": "KyojuXOmnz0",
+      "title": "07. Matrices: Suma, resta y producto por escalar",
+      "duration": 436
+    },
+    {
+      "id": "aE2Tn52RYMs",
+      "title": "07.1 Matrices: Suma, resta, multiplicación y multiplicación por un escalar (número real) PASO A PASO",
+      "duration": 412
+    },
+    {
+      "id": "eKjcxEdFE7w",
+      "title": "07.2 Propiedades de suma de matrices y producto por escalar CON DEMOSTRACIONES",
+      "duration": 1102
+    },
+    {
+      "id": "vzHSpO3i0x8",
+      "title": "07.3 Álgebra Lineal - Escribir las matrices y realizar las operaciones",
+      "duration": 397
+    },
+    {
+      "id": "IAoVeLNa4IA",
+      "title": "07.4 Álgebra Lineal - Resolver la ecuación matricial, encontrar X",
+      "duration": 465
+    },
+    {
+      "id": "7qhyH6rxntE",
+      "title": "08. Producto punto, vector fila, renglón, columna, propiedades y DEMOSTRACIÓN",
+      "duration": 965
+    },
+    {
+      "id": "jyOmqlo9CNk",
+      "title": "09. Multiplicación de matrices, explicada paso a paso",
+      "duration": 1016
+    },
+    {
+      "id": "2Gdy1xRnqjk",
+      "title": "09.1 Multiplicación de matriz por vector, y de vectores",
+      "duration": 831
+    },
+    {
+      "id": "KTkNDuKRnTA",
+      "title": "09.2 La multiplicación de matrices NO es conmutativa",
+      "duration": 625
+    },
+    {
+      "id": "LVBNhWi3eDk",
+      "title": "09.3 Propiedades de la multiplicación de matrices",
+      "duration": 766
+    },
+    {
+      "id": "75mGlHVaBOo",
+      "title": "09.4 Multiplicación de matrices, usando notación sigma",
+      "duration": 812
+    },
+    {
+      "id": "L0ucVLDuFm8",
+      "title": "09.5 Demostración de la propiedad distributiva de la multiplicación de matrices",
+      "duration": 552
+    },
+    {
+      "id": "MI9ZTuGTzao",
+      "title": "09.6 Demostración de la propiedad asociativa de la multiplicación de matrices",
+      "duration": 621
+    },
+    {
+      "id": "9XpanJhJkCo",
+      "title": "09.7 Demostración de producto de matriz identidad",
+      "duration": 558
+    },
+    {
+      "id": "-dGPIGa9T_0",
+      "title": "09.8 Propiedades del producto de matrices, demostración",
+      "duration": 617
+    },
+    {
+      "id": "nY9VhV2Lcw0",
+      "title": "09.9 Cuatro Métodos para Multiplicar Matrices (PRODUCTO DE MATRICES)",
+      "duration": 1019
+    },
+    {
+      "id": "P4QLJZ48tM4",
+      "title": "09.10 Binomio cuadrado con matrices",
+      "duration": 448
+    },
+    {
+      "id": "ZaPo5NlOo4c",
+      "title": "09.11 Álgebra Lineal - Encontrar matriz A para que el producto sea igual a la identidad",
+      "duration": 462
+    },
+    {
+      "id": "VpJMXpdiR6o",
+      "title": "09.12 Álgebra Lineal - Qué condiciones deben cumplir a,b,c,d, para que AB=BA",
+      "duration": 347
+    },
+    {
+      "id": "OLblQ6zcHpQ",
+      "title": "09.13 Álgebra Lineal - 7 Ejercicios de Verdadero o Falso sobre productos y potencias",
+      "duration": 982
+    },
+    {
+      "id": "AorfmIQa2g0",
+      "title": "Evaluar el Polinomio en la Matriz, calcular Potencias (Función Matricial)",
+      "duration": 534
+    },
+    {
+      "id": "qu0R8bOKlI4",
+      "title": "09.14 Álgebra Lineal - Matrices idempotentes y nilpotentes y lista de propiedades y ejercicios",
+      "duration": 832
+    },
+    {
+      "id": "HAmsiBwqzKQ",
+      "title": "💎09.14 Álgebra Lineal - Matrices idempotentes y nilpotentes ejercicios resueltos",
+      "duration": 1184
+    },
+    {
+      "id": "NOXy6TQwGrg",
+      "title": "09.15 Álgebra Lineal - Si A tiene un renglón de ceros o B una columna de ceros entonces AB también",
+      "duration": 507
+    },
+    {
+      "id": "wBrTVAoPfXM",
+      "title": "09.16 Álgebra Lineal - Matrices estocásticas, el producto es una matriz estocástica",
+      "duration": 826
+    },
+    {
+      "id": "BTSFc7h_fkU",
+      "title": "09.17 Álgebra Lineal - Si A cumple AB=0 para toda B, entonces A=0",
+      "duration": 485
+    },
+    {
+      "id": "oE2sXky1f2s",
+      "title": "09.18 Suma y producto de matrices diagonales (triangulares) es también diagonal (triangular)",
+      "duration": 600
+    },
+    {
+      "id": "Q3cMxA9B_3E",
+      "title": "💎09.18M Álgebra Lineal - El producto de matrices triangulares es también triangular",
+      "duration": 422
+    },
+    {
+      "id": "8CQ6PtxnBBE",
+      "title": "09.19 Álgebra Lineal - Raíz Cuadrada de Matrices, raíces cuadradas de la matriz identidad",
+      "duration": 804
+    },
+    {
+      "id": "h8l4bp3jiV0",
+      "title": "09.20 Álgebra Lineal - El conmutador de dos matrices, ejemplos, propiedades y ejercicios",
+      "duration": 801
+    },
+    {
+      "id": "c7cbrr7Kc2E",
+      "title": "09.21 Álgebra Lineal - Calcular A^n de matriz 2x2 de rotaciones, con seno y coseno",
+      "duration": 416
+    },
+    {
+      "id": "31fw1PAOleY",
+      "title": "11. Álgebra lineal: productos, potencias, demostraciones",
+      "duration": 3351
+    },
+    {
+      "id": "YT0YS64J7oA",
+      "title": "Inversa de matriz 2x2 rápidamente (truco algebraico)",
+      "duration": 348
+    },
+    {
+      "id": "hvVDUf1SIzA",
+      "title": "Menores y cofactores de una Matriz ¿Qué son?",
+      "duration": 572
+    },
+    {
+      "id": "3tlS_KdDpGQ",
+      "title": "¿Qué es una Matriz adjunta y una matriz de cofactores?",
+      "duration": 788
+    },
+    {
+      "id": "JJ9MQMIt4NA",
+      "title": "Matriz inversa 3x3 usando fórmula con Adjunta",
+      "duration": 472
+    },
+    {
+      "id": "I-IkZ0zEf4w",
+      "title": "Determinante 3x3: Regla de Laplace o Método de cofactores",
+      "duration": 565
+    },
+    {
+      "id": "DsgwgGmGkMo",
+      "title": "Determinante 3x3: Regla de Sarrus EXPLICADA (Por renglones)",
+      "duration": 321
+    },
+    {
+      "id": "0xt6iZDKCWw",
+      "title": "Determinante 3x3: Regla de Sarrus EXPLICADA (Por columnas)",
+      "duration": 305
+    },
+    {
+      "id": "Mitg87-Us5Q",
+      "title": "Ecuación matricial, con adjunta, inversas, determinante, traza, transpuesta",
+      "duration": 802
+    },
+    {
+      "id": "MCzJAmKQ47E",
+      "title": "Si A^2=A entonces det(A)=1 ¿verdadero o falso?",
+      "duration": 189
+    },
+    {
+      "id": "-duROaTigUE",
+      "title": "Diagonalización de Matrices en 4 pasos: EXPLICACIÓN COMPLETA",
+      "duration": 1500
+    },
+    {
+      "id": "Go8jXL72poU",
+      "title": "Ejercicio de producto de matrices, y de matriz inversa",
+      "duration": 495
+    },
+    {
+      "id": "wNgJvUFUZhs",
+      "title": "Si una matriz es igual a su inversa ¿cuál es su determinante?",
+      "duration": 115
+    },
+    {
+      "id": "M6sxDXVRJXE",
+      "title": "Diagonalización de una Matriz 3x3",
+      "duration": 1512
+    },
+    {
+      "id": "j3xKfF2yHL4",
+      "title": "Valores y vectores propios de Transformación Lineal usando Matriz",
+      "duration": 671
+    },
+    {
+      "id": "NVHUDw5qqLs",
+      "title": "Valores y vectores propios de Transformación Lineal",
+      "duration": 705
+    },
+    {
+      "id": "fSmfTX0S4A4",
+      "title": "Matriz no singular y sistema homogéneo, Álgebra Lineal",
+      "duration": 259
+    },
+    {
+      "id": "Ahog6sAq2rE",
+      "title": "Calcular Determinante usando propiedades",
+      "duration": 467
+    },
+    {
+      "id": "bBSo9BEqptE",
+      "title": "¿Es subespacio Vectorial? Espacios de matrices, Álgebra Lineal",
+      "duration": 778
+    },
+    {
+      "id": "LAiA9CaYX08",
+      "title": "💎 Determinar si el conjunto cumple los axiomas de Espacio Vectorial - Álgebra Lineal",
+      "duration": 825
+    },
+    {
+      "id": "z8nZ4vHRKp8",
+      "title": "💎 Matriz de cambio de base - Álgebra Lineal",
+      "duration": 508
+    },
+    {
+      "id": "C09YodBy77g",
+      "title": "💎 Vector de coordenadas de un polinomio - Álgebra Lineal",
+      "duration": 283
+    },
+    {
+      "id": "962CezRpt-M",
+      "title": "💎 ¿Es el conjunto Linealmente dependiente o independiente? - Álgebra Lineal",
+      "duration": 232
+    },
+    {
+      "id": "_5pSLv2VD48",
+      "title": "💎 Matriz de Transformación lineal respecto de dos bases - Álgebra Lineal",
+      "duration": 552
+    },
+    {
+      "id": "99_iN5csfls",
+      "title": "💎 Determinar el valor de x para que la matriz sea invertible - Álgebra Lineal",
+      "duration": 165
+    },
+    {
+      "id": "LAiA9CaYX08",
+      "title": "💎 Determinar si el conjunto cumple los axiomas de Espacio Vectorial - Álgebra Lineal",
+      "duration": 825
+    },
+    {
+      "id": "C09YodBy77g",
+      "title": "💎 Vector de coordenadas de un polinomio - Álgebra Lineal",
+      "duration": 283
+    },
+    {
+      "id": "z8nZ4vHRKp8",
+      "title": "💎 Matriz de cambio de base - Álgebra Lineal",
+      "duration": 508
+    },
+    {
+      "id": "962CezRpt-M",
+      "title": "💎 ¿Es el conjunto Linealmente dependiente o independiente? - Álgebra Lineal",
+      "duration": 232
+    },
+    {
+      "id": "_5pSLv2VD48",
+      "title": "💎 Matriz de Transformación lineal respecto de dos bases - Álgebra Lineal",
+      "duration": 552
+    },
+    {
+      "id": "99_iN5csfls",
+      "title": "💎 Determinar el valor de x para que la matriz sea invertible - Álgebra Lineal",
+      "duration": 165
+    },
+    {
+      "id": "d5RqysHJ5EE",
+      "title": "Forma Canónica de Jordan 4x4: ¡Fácil y en 4 Pasos!",
+      "duration": 1234
+    },
+    {
+      "id": "ztZr1RBC3_g",
+      "title": "Forma canónica de Jordan (Parte 1) - Matrices 2x2 EXPLICACIÓN COMPLETA",
+      "duration": 1802
+    },
+    {
+      "id": "AYAoTpjS0dc",
+      "title": "💎 Matriz con valores propios repetidos y 2 vectores propios es diagonal",
+      "duration": 535
+    },
+    {
+      "id": "5YKPB_CLBNY",
+      "title": "💎 Si hay dos valores propios repetidos entonces el cuadrado es cero",
+      "duration": 297
+    },
+    {
+      "id": "SlN7MzY4Hwk",
+      "title": "💎 Demostrar por inducción, fórmula para potencia de matriz de Jordan",
+      "duration": 284
+    },
+    {
+      "id": "dmpcHdbHEiw",
+      "title": "💎 Calcular la potencia de la matriz usando forma de Jordan",
+      "duration": 428
+    },
+    {
+      "id": "V1Af_z32y_M",
+      "title": "💎 Calcular la exponencial de una matriz usando forma de Jordan",
+      "duration": 572
+    },
+    {
+      "id": "zJdqMCRpmmU",
+      "title": "Forma canónica de Jordan (Parte 2) - Matrices 3x3 EXPLICACIÓN COMPLETA",
+      "duration": 3135
+    },
+    {
+      "id": "5USIuaMvRI8",
+      "title": "💎 Demostrar por inducción Potencia de Matriz de Jordan 3x3",
+      "duration": 293
+    },
+    {
+      "id": "6wmB8FMR2h8",
+      "title": "💎 Deducir fórmula y Demostrar por inducción Potencia de Matriz de Jordan 3x3",
+      "duration": 578
+    },
+    {
+      "id": "Ua7eWxATsWY",
+      "title": "💎 Calcular las potencias de las Matrices 3x3 usando la Forma Canónica de Jordan",
+      "duration": 326
+    },
+    {
+      "id": "ww53p6dFqL8",
+      "title": "💎 Calcular la exponencial de la Matriz 3x3 empleando series infinitas y forma de Jordan",
+      "duration": 508
+    },
+    {
+      "id": "6zUVklVKLM0",
+      "title": "Trucos de Determinantes: Cómo resolver patrones difíciles rápidamente",
+      "duration": 1595
+    },
+    {
+      "id": "jmuSSA8C_Hs",
+      "title": "💎 Cómo Calcular este Determinante nxn",
+      "duration": 475
+    },
+    {
+      "id": "iV9bqoyIonw",
+      "title": "💎 ¿Puedes Calcular Este Determinante?",
+      "duration": 819
+    },
+    {
+      "id": "vxgZSgtb9d0",
+      "title": "💎 ¡Este determinante es Sorprendente!",
+      "duration": 715
+    },
+    {
+      "id": "t_iG1gDHf0U",
+      "title": "💎 Determinante MUY INTERESANTE!",
+      "duration": 1143
+    },
+    {
+      "id": "TTBvwVP8lrI",
+      "title": "💎 Determinante de Matriz Tridiagonal mediante Ecuación de Recurrencia",
+      "duration": 1239
+    },
+    {
+      "id": "cYrwA3GCrlc",
+      "title": "Matriz Asociada a Endomorfismo ¿Para qué valores del parámetro es diagonalizable?",
+      "duration": 1338
+    },
+    {
+      "id": "yPF9zHppFMk",
+      "title": "Forma canónica de Jordan (Parte 3) - Matrices 4x4 EXPLICACIÓN COMPLETA",
+      "duration": 2448
+    }
+  ]
+}

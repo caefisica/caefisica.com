@@ -1,0 +1,100 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Integrales de variable compleja",
+  "channel": "MateFacil",
+  "description": "",
+  "updated": "2026-10-12",
+  "lessons": [
+    {
+      "id": "Li0X2Mde6Bc",
+      "title": "Integral de variable compleja (de contorno)",
+      "duration": 348
+    },
+    {
+      "id": "dsKgFyTeJ-s",
+      "title": "Integral compleja, módulo de z, en un segmento",
+      "duration": 280
+    },
+    {
+      "id": "FOq6Rq4QsZA",
+      "title": "Integral de variable COMPLEJA en 3 PASOS (Parametrización)",
+      "duration": 397
+    },
+    {
+      "id": "OBVcqP5L-IM",
+      "title": "Integral impropia por Teorema del Residuo EXPLICADO PASO A PASO - Variable Compleja",
+      "duration": 1444
+    },
+    {
+      "id": "4NS1I2C_4ac",
+      "title": "Integral impropia trigonométrica por Teorema de Cauchy EXPLICADO PASO A PASO - Variable Compleja",
+      "duration": 1719
+    },
+    {
+      "id": "t15uCgA49a4",
+      "title": "Integral Trigonométrica con Teorema del Residuo EXPLICADO PASO A PASO - Variable Compleja",
+      "duration": 1110
+    },
+    {
+      "id": "jTQEBM1M__k",
+      "title": "Integral usando el Teorema de Cauchy (2 singularidades)",
+      "duration": 437
+    },
+    {
+      "id": "DH9dCtk1GTw",
+      "title": "Integral trigonométrica usando Fórmula Integral de Cauchy",
+      "duration": 1589
+    },
+    {
+      "id": "BHaeHhlufFM",
+      "title": "Así se resuelve una INTEGRAL COMPLEJA (Números imaginarios)",
+      "duration": 604
+    },
+    {
+      "id": "l9bSxVmxcss",
+      "title": "Integral de Variable Compleja, con FUNCIÓN A TROZOS",
+      "duration": 473
+    },
+    {
+      "id": "3Fp5A3tTK4I",
+      "title": "Integral compleja, teorema de residuo, ejemplos",
+      "duration": 303
+    },
+    {
+      "id": "_RLuduvO6Fk",
+      "title": "Integral compleja, teorema de residuo, ejemplos",
+      "duration": 281
+    },
+    {
+      "id": "5e_X6urBKWw",
+      "title": "Integral compleja, demostración de z^n",
+      "duration": 639
+    },
+    {
+      "id": "J6ZoGmX1fLA",
+      "title": "Serie de Laurent, ejemplos",
+      "duration": 317
+    },
+    {
+      "id": "tCS3z5wzQ4s",
+      "title": "Serie de Laurent, ejemplos",
+      "duration": 313
+    },
+    {
+      "id": "pfc_WmksUTc",
+      "title": "índice de una curva, variable compleja",
+      "duration": 491
+    },
+    {
+      "id": "FS1HrBDP7Js",
+      "title": "Polos y orden de una función compleja",
+      "duration": 1027
+    },
+    {
+      "id": "d5x-PTHuhB4",
+      "title": "Inversa de Laplace con TEOREMA DE RESIDUO (Variable Compleja, Fórmula de inversión compleja)",
+      "duration": 1334
+    }
+  ]
+}

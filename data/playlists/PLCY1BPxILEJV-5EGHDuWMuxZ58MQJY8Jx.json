@@ -1,0 +1,515 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Variable Compleja 7. Series y sucesiones",
+  "channel": "1a con Berni",
+  "description": "Link para libros: http://1aconberni.blogspot.com/p/libros.html\n\nEsta lista de reproducción corresponde al curso de Variable Compleja 7. Series y sucesiones; fue realizado por el matemático Bernardo Acevedo Frías ex docente de la Universidad Nacional de Colombia Sede Manizales, laborando allí durante 36 años. \nEspero te haya servido el video para aumentar tu conocimiento. \n\n*** NO OLVIDES SUSCRIBIRTE A MI CANAL*** \n\nY SI TE GUSTÓ REGALAME UN LIKE! \n\nHasta pronto y muchas gracias ❤",
+  "updated": "2022-06-01",
+  "lessons": [
+    {
+      "id": "YUBcuGsfIJE",
+      "title": "Sucesiones y series en complejos",
+      "duration": 194
+    },
+    {
+      "id": "wqotA5SJOXo",
+      "title": "Límites especiales",
+      "duration": 291
+    },
+    {
+      "id": "LSJCkujS-nc",
+      "title": "Símbolos",
+      "duration": 283
+    },
+    {
+      "id": "XHB-Ap8pdv8",
+      "title": "Algunas indeterminadas",
+      "duration": 175
+    },
+    {
+      "id": "Q0BSY5P6AuY",
+      "title": "Definición de sucesión y operaciones",
+      "duration": 281
+    },
+    {
+      "id": "9Pvc8_NtDBQ",
+      "title": "Límite de una sucesión compleja I Definición",
+      "duration": 570
+    },
+    {
+      "id": "lXKcE7TIATg",
+      "title": "Límite de una función compleja por definición 1",
+      "duration": 313
+    },
+    {
+      "id": "oqSOUk2OiBA",
+      "title": "Límite de una función compleja por definición 2",
+      "duration": 310
+    },
+    {
+      "id": "LejJNwOl2Y8",
+      "title": "Límite de una función compleja por definición 3",
+      "duration": 301
+    },
+    {
+      "id": "XexyI11ka1M",
+      "title": "Cálculo de un límite",
+      "duration": 705
+    },
+    {
+      "id": "5SQqu6IKWCo",
+      "title": "Propiedad 3 Límites equivalentes",
+      "duration": 521
+    },
+    {
+      "id": "gWyX0_mxcMs",
+      "title": "Propiedad 4 Límites de sucesiones",
+      "duration": 403
+    },
+    {
+      "id": "B3eF43yeG3A",
+      "title": "Límite de una sucesión por equivalentes 1",
+      "duration": 298
+    },
+    {
+      "id": "prQPUN6Cy_4",
+      "title": "Límite de una sucesión por equivalentes 2",
+      "duration": 434
+    },
+    {
+      "id": "6lhmrFZYG1k",
+      "title": "Límite de una sucesión por equivalentes 3",
+      "duration": 456
+    },
+    {
+      "id": "aNWJjggQzUc",
+      "title": "Sucesiones equivalentes",
+      "duration": 276
+    },
+    {
+      "id": "YgCZY9eky1Q",
+      "title": "Límite de una sucesión por equivalentes 4",
+      "duration": 309
+    },
+    {
+      "id": "SpPvPNOvkvA",
+      "title": "Límite de una sucesión por equivalentes 5",
+      "duration": 193
+    },
+    {
+      "id": "uL0SSCWHMg4",
+      "title": "Límite de una sucesión por equivalentes 6",
+      "duration": 425
+    },
+    {
+      "id": "zu0YJWZBCkU",
+      "title": "Límite de una sucesión por equivalentes 7",
+      "duration": 303
+    },
+    {
+      "id": "CiIRHOYWmag",
+      "title": "Límite de una sucesión por equivalentes 8",
+      "duration": 293
+    },
+    {
+      "id": "thQ2g8wHZWk",
+      "title": "Límite de una sucesión por equivalentes 9",
+      "duration": 318
+    },
+    {
+      "id": "QTm-CoTr4Fg",
+      "title": "Propiedad 5 Teorema del emparedado",
+      "duration": 561
+    },
+    {
+      "id": "IEp977kUdNY",
+      "title": "Propiedad 6 Límite de sucesiones complejas",
+      "duration": 274
+    },
+    {
+      "id": "A-HbqMAyodw",
+      "title": "Propiedad 7 Criterio de la raiz ene sima",
+      "duration": 344
+    },
+    {
+      "id": "s8g74C0y7Fg",
+      "title": "Aplicación del criterio de la raiz 1",
+      "duration": 210
+    },
+    {
+      "id": "8i_a2wNDYE8",
+      "title": "Aplicación del criterio de la raiz 2",
+      "duration": 299
+    },
+    {
+      "id": "1ww0m5LqYck",
+      "title": "Aplicación del criterio de la raiz 3",
+      "duration": 217
+    },
+    {
+      "id": "VB6A7Y_jrJo",
+      "title": "Aplicación del criterio de la raiz 4",
+      "duration": 262
+    },
+    {
+      "id": "cbjMJreY_Js",
+      "title": "Aplicación del criterio de la raiz 5",
+      "duration": 256
+    },
+    {
+      "id": "UjsVuxuyZGY",
+      "title": "Aplicación del criterio de la raiz 6",
+      "duration": 199
+    },
+    {
+      "id": "uE3ztJw9A2M",
+      "title": "Aplicación del criterio de la raiz 7",
+      "duration": 245
+    },
+    {
+      "id": "DglAmiAvA4Y",
+      "title": "Propiedad 8 Criterio del cociente",
+      "duration": 381
+    },
+    {
+      "id": "Jk7pBmcDUNA",
+      "title": "Aplicación del criterio del cociente 1",
+      "duration": 378
+    },
+    {
+      "id": "wx_CLULxLOw",
+      "title": "Aplicación del criterio del cociente 2",
+      "duration": 409
+    },
+    {
+      "id": "qs7v9PcgwSI",
+      "title": "Aplicación del criterio del cociente 3",
+      "duration": 353
+    },
+    {
+      "id": "sasjLn82mPE",
+      "title": "Aplicación del criterio del cociente 4",
+      "duration": 368
+    },
+    {
+      "id": "23b8pED1ufg",
+      "title": "Suma telescópica finita I Recorderis",
+      "duration": 554
+    },
+    {
+      "id": "VrDd2soNrx4",
+      "title": "Suma geométrica finita I Recorderis",
+      "duration": 287
+    },
+    {
+      "id": "7B6E0WAdLZA",
+      "title": "Límite que define la exponencial",
+      "duration": 416
+    },
+    {
+      "id": "4LHEtF55klQ",
+      "title": "Límite de la exponencial I Aplicación 1",
+      "duration": 220
+    },
+    {
+      "id": "GupcLhFHkRE",
+      "title": "Límite de la exponencial I Aplicación 2",
+      "duration": 315
+    },
+    {
+      "id": "jadp52Moc2Y",
+      "title": "Límite de la exponencial I Aplicación 3",
+      "duration": 417
+    },
+    {
+      "id": "wRFEz-hFbAI",
+      "title": "Límite de la exponencial I Aplicación 4",
+      "duration": 228
+    },
+    {
+      "id": "bClQeZW1eDU",
+      "title": "Límite de la exponencial I Aplicación 5",
+      "duration": 267
+    },
+    {
+      "id": "RuT9JqYXE-Y",
+      "title": "Límite de una sucesión 1",
+      "duration": 249
+    },
+    {
+      "id": "L7Qxshdeing",
+      "title": "Límite de una sucesión con suma telescópica y geométrica 1",
+      "duration": 481
+    },
+    {
+      "id": "AMrND8-UAvI",
+      "title": "Límite de una sucesión con suma telescópica y geométrica 2",
+      "duration": 243
+    },
+    {
+      "id": "-9k_BCZwJXY",
+      "title": "Límite de una sucesión 2",
+      "duration": 184
+    },
+    {
+      "id": "lEMzoAPU9dI",
+      "title": "Límite de una sucesión 3",
+      "duration": 245
+    },
+    {
+      "id": "268LTuqpqkk",
+      "title": "Serie en complejos I Definición",
+      "duration": 281
+    },
+    {
+      "id": "rz_ROu_ezR4",
+      "title": "Serie telescópica convergente 1",
+      "duration": 382
+    },
+    {
+      "id": "czCuCm_2cRw",
+      "title": "Serie telescópica convergente 2",
+      "duration": 429
+    },
+    {
+      "id": "igl7ypIwhC4",
+      "title": "Serie telescópica divergente",
+      "duration": 214
+    },
+    {
+      "id": "cE90OZoOrE4",
+      "title": "Serie geométrica",
+      "duration": 378
+    },
+    {
+      "id": "Sg8wcuATU9Y",
+      "title": "Serie geométrica I Aplicación 1",
+      "duration": 289
+    },
+    {
+      "id": "LYmFHw4qIPQ",
+      "title": "Serie geométrica I Aplicación 2",
+      "duration": 173
+    },
+    {
+      "id": "PitGvlp3210",
+      "title": "Serie geométrica I Aplicación 3",
+      "duration": 255
+    },
+    {
+      "id": "CRzHy5KpLxw",
+      "title": "Algunas propiedades de las series",
+      "duration": 298
+    },
+    {
+      "id": "cIHHIuhU1T4",
+      "title": "Criterio del resto",
+      "duration": 334
+    },
+    {
+      "id": "g2kYosoLA-0",
+      "title": "Criterio del resto I Aplicación 1",
+      "duration": 195
+    },
+    {
+      "id": "PovXhrcjTA4",
+      "title": "Criterio del termino enesimo",
+      "duration": 293
+    },
+    {
+      "id": "mb9adZafLHo",
+      "title": "Criterio del termino enesimo I Aplicación 1",
+      "duration": 218
+    },
+    {
+      "id": "fXXF6Bmkj2Q",
+      "title": "Criterio del termino enesimo I Aplicación 2",
+      "duration": 253
+    },
+    {
+      "id": "6SzdKgR8yeA",
+      "title": "Criterio del termino enesimo I Aplicación 3",
+      "duration": 216
+    },
+    {
+      "id": "iRpGPkHgMAI",
+      "title": "Criterio del termino enesimo I Aplicación 4",
+      "duration": 271
+    },
+    {
+      "id": "Kx71Vy_Egrw",
+      "title": "Tercer criterio de convergencia de series",
+      "duration": 502
+    },
+    {
+      "id": "MPSfN75Ii6A",
+      "title": "Tercer criterio de convergencia I Aplicación 1",
+      "duration": 256
+    },
+    {
+      "id": "SWg-Vt2OsuE",
+      "title": "Tercer criterio de convergencia I Aplicación 2",
+      "duration": 243
+    },
+    {
+      "id": "SpqR6kz7f64",
+      "title": "Criterio de Leibniz I Aplicación 3",
+      "duration": 462
+    },
+    {
+      "id": "3L3Z1II7MzE",
+      "title": "Criterio de Leibniz I Aplicación 4",
+      "duration": 308
+    },
+    {
+      "id": "pH1kJJys20A",
+      "title": "Tercer criterio de convergencia I Aplicación 5",
+      "duration": 526
+    },
+    {
+      "id": "k3Y_lK8S1oo",
+      "title": "Criterio de Leibniz I Aplicación 6",
+      "duration": 464
+    },
+    {
+      "id": "3VRkr8GaiCc",
+      "title": "Tercer criterio de convergencia I Aplicación 7",
+      "duration": 443
+    },
+    {
+      "id": "U_KhnJ3fU2o",
+      "title": "Tercer criterio de convergencia I Aplicación 8",
+      "duration": 345
+    },
+    {
+      "id": "qg8Fxxs9Zr8",
+      "title": "Criterio de Leibniz I Aplicación 9",
+      "duration": 445
+    },
+    {
+      "id": "6r9ljOqNe9M",
+      "title": "Criterio del módulo",
+      "duration": 460
+    },
+    {
+      "id": "PDlilsk73rI",
+      "title": "Criterio de comparación",
+      "duration": 488
+    },
+    {
+      "id": "X54VzMeFYaE",
+      "title": "Criterio de comparación I Aplicación 1",
+      "duration": 287
+    },
+    {
+      "id": "aIHgM7r1JHA",
+      "title": "Criterio de comparación I Aplicación 2",
+      "duration": 306
+    },
+    {
+      "id": "KyqifuIFmAE",
+      "title": "Criterio de comparación I Aplicación 3",
+      "duration": 421
+    },
+    {
+      "id": "-avL6w-YnQM",
+      "title": "Convergencia absoluta I Definición",
+      "duration": 155
+    },
+    {
+      "id": "7uBSq6ytUUc",
+      "title": "Series absolutamente convergentes",
+      "duration": 360
+    },
+    {
+      "id": "wKaOCimKeiA",
+      "title": "Series absolutamente convergentes 2",
+      "duration": 298
+    },
+    {
+      "id": "Eh69pPGiUAw",
+      "title": "Series absolutamente convergentes 3",
+      "duration": 291
+    },
+    {
+      "id": "RrmUR91wyqE",
+      "title": "Series absolutamente convergentes 4",
+      "duration": 243
+    },
+    {
+      "id": "GKGr8-2n3N4",
+      "title": "Series absolutamente convergentes 5",
+      "duration": 550
+    },
+    {
+      "id": "4KlwgxXdRYQ",
+      "title": "Series condicionalmente convergentes",
+      "duration": 310
+    },
+    {
+      "id": "Ha7M6TvJjMU",
+      "title": "Criterio de la raiz",
+      "duration": 249
+    },
+    {
+      "id": "k4syhAAWuTY",
+      "title": "Criterio de la raiz I Aplicación 1",
+      "duration": 272
+    },
+    {
+      "id": "pBZ5ETIyS_Q",
+      "title": "Criterio de la raiz I Aplicación 2",
+      "duration": 382
+    },
+    {
+      "id": "6E-eBujUnBo",
+      "title": "Criterio de la raiz I Aplicación 3",
+      "duration": 340
+    },
+    {
+      "id": "rpkfZtDobVs",
+      "title": "Criterio de la raiz I Aplicación 4",
+      "duration": 248
+    },
+    {
+      "id": "gvY4aLLx88g",
+      "title": "Falla en el criterio de la raiz",
+      "duration": 198
+    },
+    {
+      "id": "lZ-V51cdL08",
+      "title": "Criterio del cociente",
+      "duration": 271
+    },
+    {
+      "id": "3uEsRJSDjv0",
+      "title": "Criterio del cociente I Aplicación 1",
+      "duration": 263
+    },
+    {
+      "id": "jIDEJbM-PaQ",
+      "title": "Criterio del cociente I Aplicación 2",
+      "duration": 341
+    },
+    {
+      "id": "o7el9Oo7BPc",
+      "title": "Criterio del cociente I Aplicación 3",
+      "duration": 403
+    },
+    {
+      "id": "y7uQK56kYGo",
+      "title": "Criterio del cociente I Aplicación 4",
+      "duration": 212
+    },
+    {
+      "id": "HndPf8OMmXc",
+      "title": "Criterio del cociente I Aplicación 5",
+      "duration": 421
+    },
+    {
+      "id": "Xf3k9p0MlIQ",
+      "title": "Falla en el criterio del cociente",
+      "duration": 399
+    }
+  ]
+}

@@ -132,10 +132,12 @@ de la carpeta. `bun run playlists <id>…` actualiza solo esas listas. En Drive,
 solo consulta los archivos que el JSON aún no tiene: la duración de un archivo
 no cambia, y Drive corta una ráfaga de consultas con un error 429. Ante ese
 error el script no escribe la lista. El script omite los videos privados o
-eliminados, y en Drive los archivos que no son video. Una lista sin JSON se
-lista como enlace externo. Una lista que YouTube o Drive ya no sirve se borra
-del `playlists.yaml`. `videos` solo se muestra para los enlaces sin página; para
-las demás cuenta el JSON.
+eliminados, y en Drive los archivos que no son video. También omite los que
+`skip` nombra por su id: videos que el autor subió a la lista y no son del
+curso, porque la lista se descarga entera cada vez. Una lista sin JSON se lista
+como enlace externo. Una lista que YouTube o Drive ya no sirve se borra del
+`playlists.yaml`. `videos` solo se muestra para los enlaces sin página; para las
+demás cuenta el JSON.
 
 ## Sílabos
 

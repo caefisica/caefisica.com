@@ -54,14 +54,7 @@ sección de problemas:
 
 ## Listas de reproducción
 
-| Nombre                                | Autor              | Enlace                                                                          |
-| ------------------------------------- | ------------------ | ------------------------------------------------------------------------------- |
-| `30` Curso de Óptica y Física moderna | Isaias Rojas       | [spa](https://youtube.com/playlist?list=PL1Ztlverqb4rVFJQK_3ysBllIeW9iNqnx)     |
-| `23` Ondas y Óptica                   | Entropía Negativa  | [spa](https://www.youtube.com/playlist?list=PLBMRQ0GOZVeUBIv9Zr5auFnVcDXn3yDHh) |
-| `9` Curso de Óptica Geométrica        | Topos Uranos       | [spa](https://youtube.com/playlist?list=PL_C8rbeFjqAWf4vOMzs7reXie5fNKcGb0)     |
-| `6` Óptica - Física [Curso básico]    | Unicoos            | [spa](https://youtube.com/playlist?list=PLOa7j0qx0jgN25SjjO0CJ-NG0czFF_s4O)     |
-| `22` Optics Course                    | Abel Abdelshafik   | [eng](https://youtube.com/playlist?list=PL8OVtyCOyQr-hkzGW07wZHQg5KGcZDe8N)     |
-| `29` MIT 2.71 Optics, Spring 2009     | MIT OpenCourseWare | [eng](https://youtube.com/playlist?list=PLEA084AC2DD3CEC09)                     |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}
 
 Para una introducción más conceptual y dinámica a los temas de Óptica puedes ver
 una serie de videos que forman parte de la serie

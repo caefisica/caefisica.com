@@ -1,0 +1,450 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Variable compleja 6. Integración en funciones complejas",
+  "channel": "1a con Berni",
+  "description": "Link para libros: http://1aconberni.blogspot.com/p/libros.html\n\nEsta lista de reproducción corresponde al curso de Variable compleja 6. Integración en funciones complejas; fue realizado por el matemático Bernardo Acevedo Frías ex docente de la Universidad Nacional de Colombia Sede Manizales, laborando allí durante 36 años. \nEspero te haya servido el video para aumentar tu conocimiento. \n\n*** NO OLVIDES SUSCRIBIRTE A MI CANAL*** \n\nY SI TE GUSTÓ REGALAME UN LIKE! \n\nHasta pronto y muchas gracias ❤",
+  "updated": "2022-06-01",
+  "lessons": [
+    {
+      "id": "ie38dhMzUYA",
+      "title": "Introducción al capitulo de integrales en complejos",
+      "duration": 185
+    },
+    {
+      "id": "efi_m_YDD3E",
+      "title": "Integral en complejos I Definición",
+      "duration": 467
+    },
+    {
+      "id": "YuGLc2q9vSU",
+      "title": "Cálculo de una integral en complejos por definición",
+      "duration": 369
+    },
+    {
+      "id": "HXaQtZj5P8w",
+      "title": "Curva y ecuación paramétrica de una elipse I Definición",
+      "duration": 371
+    },
+    {
+      "id": "0WbRgLrqz0s",
+      "title": "Parametrización de segmentos de recta 1",
+      "duration": 543
+    },
+    {
+      "id": "r2qTcijcKps",
+      "title": "Parametrización de segmentos de recta 2",
+      "duration": 271
+    },
+    {
+      "id": "ApuVoG22X9k",
+      "title": "Parametrización de segmentos de recta 3",
+      "duration": 343
+    },
+    {
+      "id": "jJgIYrIazyc",
+      "title": "Parametrización de curvas 1",
+      "duration": 459
+    },
+    {
+      "id": "wBQpsne04UM",
+      "title": "Parametrización de curvas 2",
+      "duration": 334
+    },
+    {
+      "id": "E_A9Jtxu1M0",
+      "title": "Parametrización de curvas 3",
+      "duration": 595
+    },
+    {
+      "id": "ca6xg5NPNjA",
+      "title": "Propiedades de la integral",
+      "duration": 311
+    },
+    {
+      "id": "ZUB0EEpaet0",
+      "title": "Cálculo de integrales en complejos 1",
+      "duration": 651
+    },
+    {
+      "id": "gmwOtWlE9Po",
+      "title": "Cálculo de integrales en complejos 2",
+      "duration": 234
+    },
+    {
+      "id": "WT7RjXsyIpc",
+      "title": "Cálculo de integrales en complejos 3",
+      "duration": 278
+    },
+    {
+      "id": "VmzFUZ6lXEk",
+      "title": "Cálculo de integrales en complejos 4",
+      "duration": 395
+    },
+    {
+      "id": "SZChJQeUzhA",
+      "title": "Cálculo de integrales en complejos 5",
+      "duration": 521
+    },
+    {
+      "id": "bzJnqJlpKP0",
+      "title": "Cálculo de integrales en complejos 6",
+      "duration": 403
+    },
+    {
+      "id": "AME-fqUwhsM",
+      "title": "Ilustración de una propiedad",
+      "duration": 466
+    },
+    {
+      "id": "MuRiy9LN45k",
+      "title": "Formas para evaluar una integral general",
+      "duration": 440
+    },
+    {
+      "id": "oPMr1BoO7Ok",
+      "title": "Cálculo de una integral en complejos 7",
+      "duration": 478
+    },
+    {
+      "id": "S1q1g7O6TOE",
+      "title": "Cálculo de una integral en complejos 8",
+      "duration": 297
+    },
+    {
+      "id": "22-x9xebRRc",
+      "title": "Cálculo de una integral en complejos 9",
+      "duration": 611
+    },
+    {
+      "id": "FyA1bqd4yu0",
+      "title": "Teorema de Green para calcular una integral",
+      "duration": 426
+    },
+    {
+      "id": "8dIHjgCqaM4",
+      "title": "Cálculo de integrales en complejos 10",
+      "duration": 558
+    },
+    {
+      "id": "TvwjxbfN-a0",
+      "title": "Cálculo de integrales en complejos 11",
+      "duration": 826
+    },
+    {
+      "id": "oJYpuoELTak",
+      "title": "Cálculo de integrales en complejos 12",
+      "duration": 634
+    },
+    {
+      "id": "Gq0CFv6Uqtw",
+      "title": "Cálculo de integrales en complejos 13",
+      "duration": 451
+    },
+    {
+      "id": "vtW0eolW3zM",
+      "title": "Cálculo de una integral en complejos 14",
+      "duration": 361
+    },
+    {
+      "id": "6ue4KGDZVcc",
+      "title": "Cálculo de integrales en complejos 15",
+      "duration": 504
+    },
+    {
+      "id": "XZ-8TKX2x2U",
+      "title": "Cálculo de integrales en complejos 16",
+      "duration": 333
+    },
+    {
+      "id": "FgblpoheqB4",
+      "title": "Cálculo de una integral en complejos 17",
+      "duration": 432
+    },
+    {
+      "id": "aisFxIfVTo4",
+      "title": "Teorema de Barrow",
+      "duration": 554
+    },
+    {
+      "id": "NfFRFqgD3CQ",
+      "title": "Teorema de Barrow I Aplicación 1",
+      "duration": 338
+    },
+    {
+      "id": "BzuW9mo-wDI",
+      "title": "Teorema de la integral de Cauchy",
+      "duration": 582
+    },
+    {
+      "id": "HbkMoMaseKY",
+      "title": "Teorema de la integral de Cauchy I Aplicación 1",
+      "duration": 278
+    },
+    {
+      "id": "FIWojYZGBPo",
+      "title": "Teorema de la integral de Cauchy I Aplicación 2",
+      "duration": 238
+    },
+    {
+      "id": "1IAopjRJT4o",
+      "title": "Teorema de la integral de Cauchy I Aplicación 3",
+      "duration": 402
+    },
+    {
+      "id": "CNEOGpdQpPU",
+      "title": "Teorema de la integral de Cauchy I Aplicación 4",
+      "duration": 308
+    },
+    {
+      "id": "F8wyw2qUj4M",
+      "title": "Independencia en la trayectoria para calcular integrales en complejos 1",
+      "duration": 356
+    },
+    {
+      "id": "iN6C2dOil2A",
+      "title": "Independencia en la trayectoria para calcular integrales en complejos 2",
+      "duration": 475
+    },
+    {
+      "id": "6eND2D_YcgU",
+      "title": "Independencia en la trayectoria para calcular integrales en complejos 3",
+      "duration": 379
+    },
+    {
+      "id": "NgEAlNTeglY",
+      "title": "Independencia en la trayectoria para calcular integrales en complejos 4",
+      "duration": 307
+    },
+    {
+      "id": "Y49FIR2rcqY",
+      "title": "Teorema de la deformación 1",
+      "duration": 567
+    },
+    {
+      "id": "n8xRRTYS0Oo",
+      "title": "Teorema de la deformación 2",
+      "duration": 299
+    },
+    {
+      "id": "S9YIaSMFKws",
+      "title": "Teorema de la deformación 3",
+      "duration": 334
+    },
+    {
+      "id": "GtCvYZJXEAE",
+      "title": "Teorema de la deformación generalizada 1",
+      "duration": 270
+    },
+    {
+      "id": "pzvZPe8B2GM",
+      "title": "Teorema de la deformación generalizada 2",
+      "duration": 720
+    },
+    {
+      "id": "-HhMpjPNNkI",
+      "title": "Teorema de la deformación de Cauchy generalizada",
+      "duration": 606
+    },
+    {
+      "id": "CwwkNIy3zbY",
+      "title": "Teorema de la deformación generalizada 3",
+      "duration": 308
+    },
+    {
+      "id": "lQbtCx1avic",
+      "title": "Teorema de la deformación generalizada 4",
+      "duration": 339
+    },
+    {
+      "id": "4UiHSCu8faE",
+      "title": "Fórmula integral de Cauchy",
+      "duration": 464
+    },
+    {
+      "id": "i93QJJ4_QYY",
+      "title": "Fórmula integral de Cauchy I Aplicación 1",
+      "duration": 330
+    },
+    {
+      "id": "t4dRtT5aIfQ",
+      "title": "Fórmula integral de Cauchy I Aplicación 2",
+      "duration": 342
+    },
+    {
+      "id": "WFeb4ivIves",
+      "title": "Fórmula integral de Cauchy I Aplicación 3",
+      "duration": 293
+    },
+    {
+      "id": "XVe_bNuCSYw",
+      "title": "Fórmula integral de Cauchy I Aplicación 4",
+      "duration": 430
+    },
+    {
+      "id": "kO17z3j4m1k",
+      "title": "Fórmula integral de Cauchy I Aplicación 5",
+      "duration": 319
+    },
+    {
+      "id": "607MdYnMIvU",
+      "title": "Fórmula integral de Cauchy I Aplicación 6",
+      "duration": 416
+    },
+    {
+      "id": "qaT2W92ndbk",
+      "title": "Fórmula integral de Cauchy I Aplicación 7",
+      "duration": 495
+    },
+    {
+      "id": "lG07A8hzh_g",
+      "title": "Fórmula integral de Cauchy I Aplicación 8",
+      "duration": 442
+    },
+    {
+      "id": "xnfTsRPPCDg",
+      "title": "Fórmula integral de Cauchy I Aplicación 9",
+      "duration": 520
+    },
+    {
+      "id": "L-GnujZKrxg",
+      "title": "Formula integral de Cauchy I Aplicación 10",
+      "duration": 438
+    },
+    {
+      "id": "53gbA3tj_QA",
+      "title": "Formula integral de Cauchy I Aplicación 11",
+      "duration": 455
+    },
+    {
+      "id": "sQoTqwWfEN0",
+      "title": "Formula integral de Cauchy I Aplicación 12",
+      "duration": 623
+    },
+    {
+      "id": "9OMqUJKt1kw",
+      "title": "Formula integral de Cauchy I Aplicación 13",
+      "duration": 366
+    },
+    {
+      "id": "d28jAGVx8mw",
+      "title": "Formula integral de Cauchy I Aplicación 14",
+      "duration": 410
+    },
+    {
+      "id": "iy0-uqYq9XQ",
+      "title": "Formula integral de Cauchy I Aplicación 15",
+      "duration": 613
+    },
+    {
+      "id": "VfCKEUJ2ZUc",
+      "title": "Formula integral de Cauchy I Aplicación 16",
+      "duration": 535
+    },
+    {
+      "id": "NWQ-54NWKCs",
+      "title": "Formula integral de Cauchy I Aplicación 17",
+      "duration": 543
+    },
+    {
+      "id": "9AvY07rRKWE",
+      "title": "Formula integral de Cauchy generalizada 1",
+      "duration": 360
+    },
+    {
+      "id": "1pIYtrQaXxY",
+      "title": "Formula integral de Cauchy generalizada 2",
+      "duration": 571
+    },
+    {
+      "id": "G0jpL_73RUU",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 1",
+      "duration": 305
+    },
+    {
+      "id": "QQbC90dtqDs",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 2",
+      "duration": 441
+    },
+    {
+      "id": "Oe1qafvB4Jo",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 3",
+      "duration": 402
+    },
+    {
+      "id": "Fp4hN_asxTw",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 4",
+      "duration": 354
+    },
+    {
+      "id": "QBQvoB-3KCM",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 5",
+      "duration": 341
+    },
+    {
+      "id": "VgT2-0_8TJk",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 6",
+      "duration": 376
+    },
+    {
+      "id": "9lRxkdNiQDY",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 7",
+      "duration": 453
+    },
+    {
+      "id": "dTZRfbS5PUc",
+      "title": "Formula integral de Cauchy generalizada I Aplicación 8",
+      "duration": 522
+    },
+    {
+      "id": "sBHuTSntXfg",
+      "title": "Formula integral de Cauchy I Aplicación 17",
+      "duration": 354
+    },
+    {
+      "id": "9xDAonxC8fc",
+      "title": "Cálculo de integrales reales con integrales complejas 1",
+      "duration": 409
+    },
+    {
+      "id": "omLrouvtXs8",
+      "title": "Cálculo de integrales reales con integrales complejas",
+      "duration": 671
+    },
+    {
+      "id": "xFn1aQxvj68",
+      "title": "Integrales indefinidas",
+      "duration": 215
+    },
+    {
+      "id": "JGVbZloGnl4",
+      "title": "Cálculo de integrales de linea con integrales complejas",
+      "duration": 336
+    },
+    {
+      "id": "B5pp5mPep0I",
+      "title": "Área de regiones por integrales complejas",
+      "duration": 408
+    },
+    {
+      "id": "Mwx9ps7sY5U",
+      "title": "Cálculo de integrales de linea con integrales complejas",
+      "duration": 466
+    },
+    {
+      "id": "eeUPRO9XZHg",
+      "title": "Cálculo de integrales reales con integrales complejas 2",
+      "duration": 822
+    },
+    {
+      "id": "ffd2ccFMssw",
+      "title": "Cálculo de una integral",
+      "duration": 233
+    },
+    {
+      "id": "QWrF2RvpV0g",
+      "title": "Teorema de Morera",
+      "duration": 472
+    }
+  ]
+}

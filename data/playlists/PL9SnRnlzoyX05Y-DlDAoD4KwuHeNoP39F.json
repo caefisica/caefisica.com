@@ -1,0 +1,600 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso Completo de Ecuaciones en derivadas parciales (EDP)",
+  "channel": "MateFacil",
+  "description": "En este curso veremos cómo resolver las Ecuaciones diferenciales parciales más importantes, empezando por las más sencillas (primer orden lineales, ecuación de onda estacionaria, ecuación de transporte, transporte con decaimiento) y después las de segundo orden de mayor importancia (ecuación de calor, de onda, de Laplace) utilizando distintos métodos de solución, tales como: separación de variables, cambio de coordenadas, desarrollo en series de funciones ortogonales (series de Fourier, senos y cosenos), método de D'Alembert, transformadas integrales (Fourier, Laplace), etc.",
+  "updated": "2026-07-29",
+  "lessons": [
+    {
+      "id": "6YkDb2M0BdU",
+      "title": "01. ¿Qué son las ecuaciones diferenciales parciales?",
+      "duration": 630
+    },
+    {
+      "id": "QXw53Cnsi1Y",
+      "title": "02. Comprobar que una función es solución de una EDP",
+      "duration": 595
+    },
+    {
+      "id": "e99eUZujkGw",
+      "title": "Verificar ecuación diferencial parcial (usando regla de cadena)",
+      "duration": 679
+    },
+    {
+      "id": "wzMo3d7_hL0",
+      "title": "03. Ecuaciones lineales, homogéneas, no lineales, clasificación de EDP",
+      "duration": 581
+    },
+    {
+      "id": "mPnG1M2Jkyc",
+      "title": "💎 Ecuaciones Diferenciales Parciales, Operadores, Clasificación, EJEMPLOS",
+      "duration": 5267
+    },
+    {
+      "id": "l7IkgF2RoVk",
+      "title": "04. Operadores diferenciales lineales para representar EDP",
+      "duration": 863
+    },
+    {
+      "id": "j22MAvOojyk",
+      "title": "05. Principio de superposición de soluciones para EDP",
+      "duration": 958
+    },
+    {
+      "id": "aab-OlF-vWc",
+      "title": "06. La EDP más simple: ecuación de onda estacionaria",
+      "duration": 951
+    },
+    {
+      "id": "lgEeCsEpmM8",
+      "title": "07. Ecuación diferencial parcial de primer orden",
+      "duration": 423
+    },
+    {
+      "id": "q7WuvgqX_xA",
+      "title": "08. Ecuación diferencial parcial de primer orden",
+      "duration": 357
+    },
+    {
+      "id": "iyAF4BgYFxI",
+      "title": "09. Ecuación diferencial parcial de primer orden",
+      "duration": 261
+    },
+    {
+      "id": "4y86_79URwY",
+      "title": "10. Ecuación diferencial parcial de primer orden",
+      "duration": 301
+    },
+    {
+      "id": "E0oN_ChbpbY",
+      "title": "11. Ecuación diferencial parcial de segundo orden",
+      "duration": 304
+    },
+    {
+      "id": "YB8O_4zVrys",
+      "title": "12. Ecuación diferencial parcial de segundo orden",
+      "duration": 283
+    },
+    {
+      "id": "rEHX0_bmHX0",
+      "title": "💎 Cómo transformar EDP a EDO, EJEMPLOS RESUELTOS",
+      "duration": 5645
+    },
+    {
+      "id": "18tJBWIEcEI",
+      "title": "13. Ecuación diferencial parcial de segundo orden",
+      "duration": 499
+    },
+    {
+      "id": "1shEyGp5sbM",
+      "title": "14. EDP de segundo orden, con condiciones iniciales",
+      "duration": 448
+    },
+    {
+      "id": "AOjpWUodShA",
+      "title": "15. EDP de segundo orden, con condiciones iniciales",
+      "duration": 596
+    },
+    {
+      "id": "8DLi2MimcCg",
+      "title": "16. EDP lineal homogénea de primer orden con coeficientes constantes",
+      "duration": 532
+    },
+    {
+      "id": "7nnfXWqH1J4",
+      "title": "17. EDP de primer orden con coeficientes constantes y condición inicial",
+      "duration": 584
+    },
+    {
+      "id": "ctHDRRyKi_M",
+      "title": "18. EDP de transporte ¿Qué es? explicación con gráfica",
+      "duration": 426
+    },
+    {
+      "id": "d0WOBWqhuk8",
+      "title": "19. EDP de transporte, ejemplo resuelto con gráfica",
+      "duration": 287
+    },
+    {
+      "id": "tGirCWGfCKo",
+      "title": "20. EDP de transporte, ejemplo resuelto con gráfica",
+      "duration": 346
+    },
+    {
+      "id": "g9gd14zDT_k",
+      "title": "21. EDP de transporte con decaimiento, resuelta con cambio de coordenadas",
+      "duration": 504
+    },
+    {
+      "id": "eWj9J61EQ5A",
+      "title": "22. EDP de transporte con decaimiento, con GRÁFICA",
+      "duration": 587
+    },
+    {
+      "id": "7k_DYe3CGcE",
+      "title": "23. EDP resuelta haciendo cambio a coordenadas polares, mediante regla de cadena",
+      "duration": 1010
+    },
+    {
+      "id": "5lwNfzDBfwE",
+      "title": "24. EDP resuelta haciendo cambio a coordenadas polares, mediante regla de cadena",
+      "duration": 370
+    },
+    {
+      "id": "HxV8WPcPkqE",
+      "title": "25. EDP realizando cambio de coordenadas de tipo exponencial, y ecuación de transporte",
+      "duration": 432
+    },
+    {
+      "id": "oswvc12LSvM",
+      "title": "26. EDP realizando cambio de tipo exponencial, y ecuación de transporte con decaimiento",
+      "duration": 512
+    },
+    {
+      "id": "q4UG30TwDQw",
+      "title": "27. EDP: Método de las curvas características, EXPLICACIÓN COMPLETA",
+      "duration": 1304
+    },
+    {
+      "id": "KFiTzt_JW3E",
+      "title": "28. EDP Homogénea, método de curvas características",
+      "duration": 648
+    },
+    {
+      "id": "GeYmAPKcb4w",
+      "title": "29. EDP no homogénea, método de curvas características",
+      "duration": 709
+    },
+    {
+      "id": "Lfzr2HemsIQ",
+      "title": "💎 Curvas características EXPLICACIÓN COMPLETA",
+      "duration": 4478
+    },
+    {
+      "id": "yOu0fUrAyqw",
+      "title": "30. EDP homogénea, transporte con decaimiento",
+      "duration": 693
+    },
+    {
+      "id": "5TWgx3mg3Lw",
+      "title": "31. EDP homogénea, condición inicial, método de curvas características",
+      "duration": 678
+    },
+    {
+      "id": "Zp-zWe2CyKI",
+      "title": "32. EDP con condición inicial, método de curvas características",
+      "duration": 534
+    },
+    {
+      "id": "4NNgpH6MCvA",
+      "title": "33. EDP con condición inicial, método de curvas características",
+      "duration": 483
+    },
+    {
+      "id": "Dl9SZCL0__k",
+      "title": "34. Ecuación en Derivadas Parciales, método de curvas características",
+      "duration": 326
+    },
+    {
+      "id": "-dzc4kc7oio",
+      "title": "35. EDP método de curvas características",
+      "duration": 411
+    },
+    {
+      "id": "9lPTE5R1xk0",
+      "title": "Método de las características (Explicación adicional) - EDP",
+      "duration": 751
+    },
+    {
+      "id": "HNGTZJHfdAc",
+      "title": "36. EDP con condición inicial, método de curvas características",
+      "duration": 569
+    },
+    {
+      "id": "N3ixCKbEdgk",
+      "title": "37. EDP con condición inicial, método de curvas características",
+      "duration": 544
+    },
+    {
+      "id": "RM0Rh9B4Ipg",
+      "title": "38. EDP con condición inicial, método de curvas características",
+      "duration": 489
+    },
+    {
+      "id": "tbQPamUsaFw",
+      "title": "39. EDP con condición inicial, método de curvas características",
+      "duration": 614
+    },
+    {
+      "id": "iXg0x6A4aBE",
+      "title": "40. EDP con condición inicial, método de curvas características",
+      "duration": 640
+    },
+    {
+      "id": "ciGb5TNtwQM",
+      "title": "41. EDP resuelta mediante curvas características",
+      "duration": 578
+    },
+    {
+      "id": "6jB6C6VImec",
+      "title": "💎41.1 EDP resuelta mediante curvas características REGLA DE LA CADENA",
+      "duration": 365
+    },
+    {
+      "id": "p-wDhVKKSIg",
+      "title": "💎41.2 EDP resuelta mediante curvas características REGLA DE LA CADENA",
+      "duration": 323
+    },
+    {
+      "id": "Wtg9MZWOotw",
+      "title": "💎41.3 EDP resuelta mediante curvas características REGLA DE LA CADENA",
+      "duration": 538
+    },
+    {
+      "id": "2mkEa5YGrwI",
+      "title": "42. Método de curvas características - Ec Diferenciales Parciales",
+      "duration": 770
+    },
+    {
+      "id": "FaSjNM0SZPs",
+      "title": "💎42.1 EDP método de curvas características SOLUCIÓN PARAMÉTRICA",
+      "duration": 936
+    },
+    {
+      "id": "Fj8rDdaBHKo",
+      "title": "💎42.2 EDP método de curvas características SOLUCIÓN PARAMÉTRICA",
+      "duration": 781
+    },
+    {
+      "id": "RZcWKmqqqvQ",
+      "title": "43. Ecuación de Burgers, por parametrización y CURVAS CARACTERÍSTICAS - EDP",
+      "duration": 472
+    },
+    {
+      "id": "9KvI4hEbNaI",
+      "title": "💎43.1 EDP de Burgers EXCLUSIVO - Curvas caracteristicas y parametrización",
+      "duration": 284
+    },
+    {
+      "id": "GRjYkpc3RDA",
+      "title": "💎43.2 EDP de Burgers EXCLUSIVO - Curvas caracteristicas y parametrización",
+      "duration": 387
+    },
+    {
+      "id": "o7FwYf046NM",
+      "title": "💎43.3 EDP No Lineal EXCLUSIVO - Curvas caracteristicas y parametrización",
+      "duration": 357
+    },
+    {
+      "id": "xc4YH36WQdg",
+      "title": "💎 EDP Método de separación de variables EXPLICACIÓN COMPLETA",
+      "duration": 4553
+    },
+    {
+      "id": "HqQch0mPSr4",
+      "title": "01. ¿Qué son las Series de Fourier? ¿De dónde surgen? y Tipos de Series",
+      "duration": 1399
+    },
+    {
+      "id": "PNscWFvBRrc",
+      "title": "02. Coeficientes de la Serie de Fourier ¿De Dónde salen las Fórmulas? Y algunas observaciones...",
+      "duration": 1500
+    },
+    {
+      "id": "j8cR1AU6I1E",
+      "title": "03. Calcular las Series de Fourier, y GRAFICAR (Ejemplos resueltos paso a paso)",
+      "duration": 1161
+    },
+    {
+      "id": "HWgINipQ09Y",
+      "title": "04. Series de Fourier por el Método Tabular (o metodo DI) CON GRÁFICAS",
+      "duration": 1284
+    },
+    {
+      "id": "-Dzi85uQkK4",
+      "title": "05. Series de Fourier de Funciones a Trozos, CON GRÁFICA",
+      "duration": 899
+    },
+    {
+      "id": "QxYEQCRqSBg",
+      "title": "06. Serie de Fourier de Función Exponencial CON GRÁFICA",
+      "duration": 603
+    },
+    {
+      "id": "I40KDSrYFnU",
+      "title": "07. Serie de Fourier de Funciones Pares e impares",
+      "duration": 1138
+    },
+    {
+      "id": "p1O3gFabTuU",
+      "title": "08. Ejemplos de Series de Fourier PAR e IMPAR",
+      "duration": 1151
+    },
+    {
+      "id": "SzB0LQ5F9EU",
+      "title": "💎 EDP Cambios de coordenadas DEMOSTRACIÓN",
+      "duration": 1799
+    },
+    {
+      "id": "adAnuVyT_bc",
+      "title": "🔥 ECUACIÓN DE CALOR 🔥EDP Deducción COMPLETA, a partir de la Física (En una dimensión)",
+      "duration": 1657
+    },
+    {
+      "id": "HrT6jh9Y6a4",
+      "title": "💎 EDP de calor, EXPLICACIÓN COMPLETA mediante leyes Físicas",
+      "duration": 5551
+    },
+    {
+      "id": "JfrxhXSwgBY",
+      "title": "¿Qué son las series de Fourier? Ecuación de Calor, EXPLICACIÓN COMPLETA",
+      "duration": 2976
+    },
+    {
+      "id": "0GG79uRU1po",
+      "title": "ECUACIÓN de CALOR todo lo que NECESITAS SABER l Curso Ecuaciones Diferenciales Parciales 20/40",
+      "duration": 2283
+    },
+    {
+      "id": "r5OJq3zUW6Q",
+      "title": "💎 EDP - Clasificación en parabólicas, elípticas e hiperbólicas, discriminante",
+      "duration": 1278
+    },
+    {
+      "id": "DTiL6G_j9zk",
+      "title": "EDP de calor unidimensional, separación de variables, Método de Fourier",
+      "duration": 1699
+    },
+    {
+      "id": "D3wy-0ZwL9Y",
+      "title": "💎 EDP Parabólica: Forma canónica",
+      "duration": 1349
+    },
+    {
+      "id": "6mzqDRGDBBk",
+      "title": "💎 EDP Parabólica: mediante cambio de coordenadas EJEMPLO RESUELTO",
+      "duration": 360
+    },
+    {
+      "id": "vBbp3MB7KhA",
+      "title": "EDP de Calor 🔥- Comparando Coeficientes (Método de Separacion de Variables)",
+      "duration": 1489
+    },
+    {
+      "id": "Dsnj47mhL44",
+      "title": "💎 EDP - Forma canónica de las ecuaciones hiperbólicas",
+      "duration": 2137
+    },
+    {
+      "id": "Vss5e_8zq3o",
+      "title": "EDP DE ONDA - RESOLUCIÓN COMPLETA PASO A PASO",
+      "duration": 1711
+    },
+    {
+      "id": "vd88jUt_tiA",
+      "title": "Ecuación de Onda Homogénea, Método de Fourier, Condiciones Homogéneas (EDP)",
+      "duration": 2116
+    },
+    {
+      "id": "h32idFb_axA",
+      "title": "EDP de onda unidimensional, separación de variables, Método de Fourier",
+      "duration": 2033
+    },
+    {
+      "id": "gkhn0UFkW44",
+      "title": "Ecuación de Onda, Separación de Variables",
+      "duration": 1954
+    },
+    {
+      "id": "Y39CvSkSUNI",
+      "title": "EDP de onda unidimensional, separación de variables, Método de Fourier",
+      "duration": 1792
+    },
+    {
+      "id": "NiedzcAGUiw",
+      "title": "💎 EDP Hiperbólica, mediante cambio de coordenadas EJEMPLO RESUELTO",
+      "duration": 420
+    },
+    {
+      "id": "5YKr2NM51kY",
+      "title": "Ecuación de Laplace (EDP de Potencial) con condiciones en la frontera, coordenadas rectangulares",
+      "duration": 1578
+    },
+    {
+      "id": "vIUsg9fWQ5w",
+      "title": "Ecuación de Laplace, Separación de Variables",
+      "duration": 1894
+    },
+    {
+      "id": "15Ioj4sh7xM",
+      "title": "💎 EDP Elípticas: Forma canónica",
+      "duration": 1207
+    },
+    {
+      "id": "HFJ711jUtXI",
+      "title": "Ecuación de Laplace (EDP de Potencial) con condiciones en la frontera especiales",
+      "duration": 1573
+    },
+    {
+      "id": "OvulhAcBVA4",
+      "title": "Laplaciano en coordenadas polares: Demostración",
+      "duration": 1309
+    },
+    {
+      "id": "gjZE4LDl26U",
+      "title": "EDP de Laplace en coordenadas Polares, separación de variables",
+      "duration": 1844
+    },
+    {
+      "id": "Q5fEBz9vUdw",
+      "title": "💎 EDP Elíptica, mediante cambio de coordenadas EJERCICIO RESUELTO",
+      "duration": 719
+    },
+    {
+      "id": "ltYWsaplj4s",
+      "title": "Encontrar las Funciones Armónicas que cumplen la Condición dada (Ecuaciones Diferenciales)",
+      "duration": 1154
+    },
+    {
+      "id": "cOqDv4BDoqs",
+      "title": "💎 Encontrar las Funciones Armónicas que cumplen la Condición dada (Ecuaciones Diferenciales)",
+      "duration": 997
+    },
+    {
+      "id": "T0gLjmvWGMY",
+      "title": "Integral de Fourier, EXPLICACIÓN COMPLETA",
+      "duration": 1086
+    },
+    {
+      "id": "imMDHs7lNds",
+      "title": "Serie Compleja de Fourier",
+      "duration": 735
+    },
+    {
+      "id": "QAO1aSe9SJs",
+      "title": "Serie compleja de Fourier, función diente de sierra",
+      "duration": 884
+    },
+    {
+      "id": "bMAtkgveHlE",
+      "title": "Transformada de Fourier ¿Qué es? Explicación Completa",
+      "duration": 858
+    },
+    {
+      "id": "bDd3cLr88h0",
+      "title": "Transformada de Fourier, usando definición",
+      "duration": 285
+    },
+    {
+      "id": "CMKeByI-4Jo",
+      "title": "Transformada de Fourier, mediante integración",
+      "duration": 357
+    },
+    {
+      "id": "ToIj8je4eHE",
+      "title": "Función Pulso rectangular y su transformada de Fourier",
+      "duration": 352
+    },
+    {
+      "id": "TQB5GRZ-3Ro",
+      "title": "Integral de Dirichlet, demostración usando Fourier",
+      "duration": 242
+    },
+    {
+      "id": "ONHcvRd7iz0",
+      "title": "Integral impropia por transformada de Fourier",
+      "duration": 251
+    },
+    {
+      "id": "pfYug8kHnfU",
+      "title": "La Transformada de Fourier es una transformación lineal - Demostración",
+      "duration": 92
+    },
+    {
+      "id": "S-H_7ULnMuY",
+      "title": "Teorema de cambio de escala, T. de Fourier",
+      "duration": 134
+    },
+    {
+      "id": "jQSFfFYRmkU",
+      "title": "Teorema del corrimiento del tiempo, demostración",
+      "duration": 216
+    },
+    {
+      "id": "913n-Xv4w5w",
+      "title": "Transformada de Fourier con corrimiento del tiempo",
+      "duration": 104
+    },
+    {
+      "id": "jtLX19Zzjcc",
+      "title": "Transformada inversa de Fourier con corrimiento del tiempo",
+      "duration": 191
+    },
+    {
+      "id": "BJyu3TULM3g",
+      "title": "Teorema de corrimiento de frecuencia T. de Fourier",
+      "duration": 177
+    },
+    {
+      "id": "nnqKGnJ7WkE",
+      "title": "Transformada inversa de Fourier usando teorema de corrimiento",
+      "duration": 145
+    },
+    {
+      "id": "-jZz3IRkLks",
+      "title": "Propiedad de simetría para transformadas de Fourier",
+      "duration": 157
+    },
+    {
+      "id": "9cSZU52ZCxY",
+      "title": "EDP resuelta mediante transformada de Fourier",
+      "duration": 566
+    },
+    {
+      "id": "NtfircXWuTU",
+      "title": "EDP de onda, transformada de Fourier, Parte 1",
+      "duration": 976
+    },
+    {
+      "id": "H0-Kcm9ZBQs",
+      "title": "EDP de onda, transformada de Fourier, Parte 2: Solución de D'Alembert",
+      "duration": 823
+    },
+    {
+      "id": "NnHEXPMXo3A",
+      "title": "EDP de Onda No Homogénea, resuelta por Cambio de Variable, Paso a Paso",
+      "duration": 2036
+    },
+    {
+      "id": "Qvmv997LYZA",
+      "title": "Método Desarrollo en Funciones Propias (Autofunciones) - EDP de Onda No Homogénea",
+      "duration": 1352
+    },
+    {
+      "id": "Ktw6C0pcR9U",
+      "title": "Ecuación de Laplace, Condiciones de Neumann ¿Cuándo no hay solución?",
+      "duration": 2467
+    },
+    {
+      "id": "LsgjJSPhNw4",
+      "title": "Ecuación De Onda ¿Cómo se Obtiene? EXPLICACIÓN PASO A PASO MUY FÁCIL (Ecuación Diferencial Parcial)",
+      "duration": 1529
+    },
+    {
+      "id": "8QKYEPJKGLk",
+      "title": "💎 EDP de la Cuerda Colgante (Cadena colgante) DEDUCCIÓN PASO A PASO",
+      "duration": 586
+    },
+    {
+      "id": "R02C1XAIICo",
+      "title": "EDP de Calor condiciones de frontera No Homogéneas, dependen del tiempo Y COMPROBACIÓN EN WOLFRAM",
+      "duration": 2500
+    },
+    {
+      "id": "HyYawIdq2Qo",
+      "title": "Método de las Curvas Características y Ecuaciones de Lagrange",
+      "duration": 1556
+    }
+  ]
+}

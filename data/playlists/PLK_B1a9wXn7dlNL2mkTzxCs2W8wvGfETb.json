@@ -1,0 +1,555 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Fisica Matemática III - UNMSM",
+  "channel": "rentov",
+  "description": "",
+  "updated": "2022-12-18",
+  "lessons": [
+    {
+      "id": "EeVh4O8m_NA",
+      "title": "Física Matemática 3 - Clase 1: Ecuaciones de la Física Matemática",
+      "duration": 8439
+    },
+    {
+      "id": "u0EraQULhWU",
+      "title": "Física Matemática 3 - Clase2 : Problemas de la Física Matemática",
+      "duration": 6155
+    },
+    {
+      "id": "7u_54pMZ3SQ",
+      "title": "Física Matemática 3 - Clase 3: Ecuaciones diferenciales en derivadas parciales de 2do orden.",
+      "duration": 8743
+    },
+    {
+      "id": "GoUyVcnK6BE",
+      "title": "Física Matemática 3 - Clase 4: Clasificación de las ecuaciones de la física matemática.",
+      "duration": 6969
+    },
+    {
+      "id": "TX082N7b_KM",
+      "title": "Física Matemática 3 - Clase 5: Método de las características.",
+      "duration": 9203
+    },
+    {
+      "id": "w4F13AYZcg4",
+      "title": "Física Matemática 3 - Clase 6: Problemas de contorno de EDOs de 2do orden",
+      "duration": 6235
+    },
+    {
+      "id": "fzCpfMR3DAE",
+      "title": "Física Matemática 3 - Clase 7: Problema de Sturm-Liouville",
+      "duration": 8326
+    },
+    {
+      "id": "NT7tOU95rd0",
+      "title": "Física Matemática 3 - Clase 8: Función de Bessel. Polinomios de Legendre.",
+      "duration": 7476
+    },
+    {
+      "id": "xuF8jc0ELO4",
+      "title": "Física Matemática 3 - Clase 9: Polinomios ortogonales clásicos.",
+      "duration": 5606
+    },
+    {
+      "id": "LZqQy4hYtGI",
+      "title": "Física Matemática 3 - Clase 10: Series por sistemas de funciones ortogonales",
+      "duration": 10073
+    },
+    {
+      "id": "RZVIDE2Qz2w",
+      "title": "Física Matemática 3 - Clase 11: Series de Fourier.",
+      "duration": 3906
+    },
+    {
+      "id": "YXf3FoUAWwE",
+      "title": "Física Matemática 3 - Clase 12.3: Método de separación de variables: Ejemplos.",
+      "duration": 4512
+    },
+    {
+      "id": "EKG4H6t_LGI",
+      "title": "Física Matemática 3 - Clase 12.3: Método de separación de variables: Ejemplos.",
+      "duration": 1192
+    },
+    {
+      "id": "QhuEt3wzRQ4",
+      "title": "Física Matemática 3 - Clase 12-1: Series de Fourier Bessel y Fourier Legendre",
+      "duration": 2958
+    },
+    {
+      "id": "std8ofHelm0",
+      "title": "Física Matemática 3 - Clase 13: Separación de variables. Integral de Fourier.",
+      "duration": 5214
+    },
+    {
+      "id": "e1-MHQCREH8",
+      "title": "Física Matemática 3 - Clase 14: Integral de Fourier. Transformadas integrales",
+      "duration": 8240
+    },
+    {
+      "id": "3d3dSfw6fKU",
+      "title": "Física Matemática 3 - Clase 15: Transformada de Laplace. Transformada de Hankel",
+      "duration": 5718
+    },
+    {
+      "id": "rYcGNg8igxw",
+      "title": "Física Matemática 3 - Clase 16: Método de las ondas de propagación.",
+      "duration": 5502
+    },
+    {
+      "id": "PQRki00C1Cw",
+      "title": "Física Matemática 3 - Clase 17: Fórmulas de Green",
+      "duration": 5934
+    },
+    {
+      "id": "3R39TnF7Il0",
+      "title": "Física Matemática 3 - Clase 18: Función de Green",
+      "duration": 8189
+    },
+    {
+      "id": "rySP028D6DI",
+      "title": "Física Matemática 3 - Clase 19: Teoría de los potenciales",
+      "duration": 5086
+    },
+    {
+      "id": "ouuwKBCjFJs",
+      "title": "Física Matemática 3 - Clase 20: Aplicación de la Teoría de los potenciales",
+      "duration": 9120
+    },
+    {
+      "id": "KdZfUWB9WOk",
+      "title": "Física Matemática 3 - Clase 21: Ecuaciones integrales (1/2)",
+      "duration": 4749
+    },
+    {
+      "id": "E8tjt5JpQCg",
+      "title": "Física Matemática 3 - Clase 22: Ecuaciones integrales (2/2)",
+      "duration": 6611
+    },
+    {
+      "id": "NBuATPwnIZE",
+      "title": "Principales ecuaciones de la física matemática",
+      "duration": 2944
+    },
+    {
+      "id": "h9d7jFXuIyA",
+      "title": "Oscilaciones longitudinales en una barra",
+      "duration": 2207
+    },
+    {
+      "id": "dv3V1q1rOoc",
+      "title": "Problemas de la física matemática: problema de Cauchy",
+      "duration": 916
+    },
+    {
+      "id": "19tCBM6-gdE",
+      "title": "Tipos de condiciones de contorno",
+      "duration": 1398
+    },
+    {
+      "id": "eo3F-yoAgms",
+      "title": "Problemas de la física matemática: problema de Dirichlet para la ecuación estacionaria",
+      "duration": 644
+    },
+    {
+      "id": "0owoGkHa1QI",
+      "title": "Problemas de la física matemática: problema de Neumann para la ecuación estacionaria",
+      "duration": 506
+    },
+    {
+      "id": "2s5JRrinIsU",
+      "title": "Problemas de la física matemática: problema de Robin para la ecuación estacionaria",
+      "duration": 885
+    },
+    {
+      "id": "lKWKQA8eNCk",
+      "title": "Problemas de la física matemática: problemas mixtos (con condiciones de contorno e iniciales)",
+      "duration": 1279
+    },
+    {
+      "id": "UwBxnLepDKc",
+      "title": "Clasificación de las ecuaciones de la física matemática con dos variables independientes.",
+      "duration": 1421
+    },
+    {
+      "id": "JpQD6uOsiHs",
+      "title": "Reducción de una EDDP de 2do orden a su forma canónica",
+      "duration": 3374
+    },
+    {
+      "id": "OM2s95XlQGc",
+      "title": "Reducción a su forma canónica de EDDP de 2do orden con coeficientes constantes",
+      "duration": 2462
+    },
+    {
+      "id": "LywfanJ30qk",
+      "title": "Reducción de EDDP a su forma canónica y eliminación de las primeras derivadas",
+      "duration": 1520
+    },
+    {
+      "id": "6piFJggQa90",
+      "title": "Método de las características para EDDP de primer orden",
+      "duration": 2644
+    },
+    {
+      "id": "xqvn6GsZwL8",
+      "title": "Solución de EDDP por el método de las características",
+      "duration": 1742
+    },
+    {
+      "id": "Q3Co45Um0w4",
+      "title": "Solución de EDDP del tipo hiperbólico",
+      "duration": 473
+    },
+    {
+      "id": "dEYSxIKkKnQ",
+      "title": "Problema de Cauchy para la ecuación de onda",
+      "duration": 1123
+    },
+    {
+      "id": "7Cb580u7hZg",
+      "title": "Ondas de propagación (1/3)",
+      "duration": 1094
+    },
+    {
+      "id": "eKezrI5o3UE",
+      "title": "Ondas de propagación (2/3)",
+      "duration": 1299
+    },
+    {
+      "id": "r_24ETXdhlE",
+      "title": "Ondas de propagación (3/3)",
+      "duration": 984
+    },
+    {
+      "id": "gwaRSjmFBEY",
+      "title": "Problema de contorno para EDO de 2do orden",
+      "duration": 1082
+    },
+    {
+      "id": "LU3S5wUNvF4",
+      "title": "Función de Green para EDO de 2do orden",
+      "duration": 2647
+    },
+    {
+      "id": "1Y-xSLLNTqs",
+      "title": "Función de Green para EDO de 2do orden: Ejemplo (1/3)",
+      "duration": 604
+    },
+    {
+      "id": "MAwYXHYBpIc",
+      "title": "Función de Green para EDO de 2do orden: Ejemplo (2/3)",
+      "duration": 1246
+    },
+    {
+      "id": "jTsk02DRZPY",
+      "title": "Función de Green para EDO de 2do orden: Ejemplo (3/3)",
+      "duration": 1020
+    },
+    {
+      "id": "t7s3sS3NXWk",
+      "title": "Problema de Sturm-Liouville",
+      "duration": 2361
+    },
+    {
+      "id": "gDm9dJ0xtF0",
+      "title": "Problema de Sturm-Liouville: ejemplos",
+      "duration": 1414
+    },
+    {
+      "id": "xCZbIozG4fU",
+      "title": "Método de separación de variables",
+      "duration": 1707
+    },
+    {
+      "id": "u1E3Y_zIkE8",
+      "title": "Método de Fourier para ecuaciones homogéneas con condiciones de contorno homogéneas",
+      "duration": 2700
+    },
+    {
+      "id": "jKMZ1VFRb3A",
+      "title": "Método de Fourier para ecuaciones no homogéneas con condiciones de contorno homogéneas",
+      "duration": 3015
+    },
+    {
+      "id": "zlniZ7S2WSk",
+      "title": "Método de Fourier: reducción de condiciones de contorno no homogéneas a homogéneas.",
+      "duration": 1773
+    },
+    {
+      "id": "RNR--baY8-0",
+      "title": "Ecuación del tipo hipergeométrico",
+      "duration": 1590
+    },
+    {
+      "id": "rzdE3XUmfto",
+      "title": "Polinomios del tipo hipergeométrico",
+      "duration": 2166
+    },
+    {
+      "id": "tkP9vv0L9-c",
+      "title": "Algunas propiedades de los polinomios del tipo hipergeométrico",
+      "duration": 915
+    },
+    {
+      "id": "Wc62oBpdQEQ",
+      "title": "Ortogonalidad de los polinomios del tipo hipergeométrico",
+      "duration": 1125
+    },
+    {
+      "id": "cek8xkSl34Y",
+      "title": "Polinomios ortogonales clásicos",
+      "duration": 959
+    },
+    {
+      "id": "mUmtwLy5ohg",
+      "title": "Polinomios de Legendre: ecuación diferencial",
+      "duration": 1138
+    },
+    {
+      "id": "3nDAjRXdmMw",
+      "title": "Polinomios de Legendre: valores propios y funciones propias del problema de Sturm-Liouville",
+      "duration": 1338
+    },
+    {
+      "id": "wt74EZdRsGU",
+      "title": "Función generadora de polinomios ortogonales clásicos",
+      "duration": 980
+    },
+    {
+      "id": "AEmaIbs_ieg",
+      "title": "Función generadora de los polinomios de Legendre",
+      "duration": 1192
+    },
+    {
+      "id": "idambCUEK8Y",
+      "title": "Relaciones de recurrencia de los polinomios de Legendre",
+      "duration": 1339
+    },
+    {
+      "id": "OnH87rFoYlQ",
+      "title": "Aplicación de los polinomios de Legendre",
+      "duration": 419
+    },
+    {
+      "id": "OtFRpJ4aCtc",
+      "title": "Distribución estacionaria de la temperatura en un cilindro infinito",
+      "duration": 3132
+    },
+    {
+      "id": "2Bigcz_ZgPU",
+      "title": "Solución de la ecuación del fluido ideal continuo",
+      "duration": 1195
+    },
+    {
+      "id": "Rb7ZJxP3Vk4",
+      "title": "Función hipergeométrica de Gauss",
+      "duration": 1015
+    },
+    {
+      "id": "aqtm3WtHP8s",
+      "title": "Función hipergeométrica degenerada",
+      "duration": 1082
+    },
+    {
+      "id": "hDjSj4QJznU",
+      "title": "Integral de Fourier",
+      "duration": 1741
+    },
+    {
+      "id": "ARZabwaVFMc",
+      "title": "Aplicación de la integral de Fourier",
+      "duration": 1072
+    },
+    {
+      "id": "Gjqja7Ci8Bg",
+      "title": "Transformadas integrales: conceptos básicos",
+      "duration": 1610
+    },
+    {
+      "id": "zdrLnQP7DZw",
+      "title": "Polinomios ortogonales clásicos: repaso",
+      "duration": 2203
+    },
+    {
+      "id": "H-YwqjxrOdA",
+      "title": "Polinomios ortogonales clásicos: clasificación",
+      "duration": 1527
+    },
+    {
+      "id": "oNzjtqB0B9A",
+      "title": "Polinomios ortogonales clásicos: ejemplo, polinomios de Hermite",
+      "duration": 1371
+    },
+    {
+      "id": "hU8voDQQQ0Q",
+      "title": "Series por sistemas de funciones ortogonales",
+      "duration": 1806
+    },
+    {
+      "id": "Eky3J5MzGiM",
+      "title": "Método de Fourier: ejemplo",
+      "duration": 2943
+    },
+    {
+      "id": "azsVxsQ27Tk",
+      "title": "Método de Fourier: ejemplo",
+      "duration": 1669
+    },
+    {
+      "id": "At2IExiyBBY",
+      "title": "Transformada de Fourier",
+      "duration": 2087
+    },
+    {
+      "id": "85H_C_jh3PY",
+      "title": "Transformada de Fourier: ejemplo 1",
+      "duration": 1475
+    },
+    {
+      "id": "S0Qvdg8tpa8",
+      "title": "Transformada de Fourier: ejemplo 2",
+      "duration": 1403
+    },
+    {
+      "id": "6FQiOypVebM",
+      "title": "Transformada de Fourier: ejemplo 3",
+      "duration": 546
+    },
+    {
+      "id": "B-vsBGwcBlg",
+      "title": "Transformada de Laplace",
+      "duration": 1046
+    },
+    {
+      "id": "qzcem1yU-nI",
+      "title": "Transformada de Mellin",
+      "duration": 608
+    },
+    {
+      "id": "SVN-BCweLWU",
+      "title": "Transformada de Hankel",
+      "duration": 1058
+    },
+    {
+      "id": "tftwummhzUE",
+      "title": "Transformadas de Laguerre y Legendre",
+      "duration": 602
+    },
+    {
+      "id": "IarO_zUCzxU",
+      "title": "Uso de la transformada de Laplace para resolver el circuito eléctrico",
+      "duration": 733
+    },
+    {
+      "id": "csmxG2wRQ5o",
+      "title": "Oscialciones transversales en una membrana y la transformada de Hankel",
+      "duration": 843
+    },
+    {
+      "id": "D_nNO1NqHLk",
+      "title": "Problema de conducción térmica y transformada de Laplace",
+      "duration": 802
+    },
+    {
+      "id": "moYQ3jhD49Q",
+      "title": "Ecuaciones elípticas",
+      "duration": 925
+    },
+    {
+      "id": "wSNOsUuD0bQ",
+      "title": "Solución fundamental de la ecuación de Laplace",
+      "duration": 2067
+    },
+    {
+      "id": "FOHWczGb3y0",
+      "title": "Primera y segunda fórmulas de Green",
+      "duration": 982
+    },
+    {
+      "id": "LAcjxwaCPdI",
+      "title": "Tercera fórmula de Green",
+      "duration": 1713
+    },
+    {
+      "id": "CZHTkxVy9cs",
+      "title": "Función de Green para EDO",
+      "duration": 2613
+    },
+    {
+      "id": "oNZebF8qjSI",
+      "title": "Ejemplo de construcción de la función de Green para EDO",
+      "duration": 784
+    },
+    {
+      "id": "p2wV4o50C_U",
+      "title": "Función de Green para EDO de 2do orden",
+      "duration": 1065
+    },
+    {
+      "id": "xXsf9m6-6ow",
+      "title": "Función de Green para EDO de orden n",
+      "duration": 624
+    },
+    {
+      "id": "TeQlxDucYcY",
+      "title": "Ejemplo de construcción de la función de Green para EDO de orden n=3",
+      "duration": 942
+    },
+    {
+      "id": "zSlS-wt9cN4",
+      "title": "Función de Green para problemas de contorno",
+      "duration": 3512
+    },
+    {
+      "id": "BDn0doxyZrc",
+      "title": "Función delta de Dirac. Definición",
+      "duration": 976
+    },
+    {
+      "id": "dUtoUEBtRcs",
+      "title": "Función delta como límite de una función contínua",
+      "duration": 1670
+    },
+    {
+      "id": "Ef1asup7ZdI",
+      "title": "Función delta y sistemas de funciones ortogonales",
+      "duration": 747
+    },
+    {
+      "id": "Pd-REfx7Jx0",
+      "title": "Función delta y funciones sistema completo de funciones trigonométricas",
+      "duration": 1214
+    },
+    {
+      "id": "MX-5ekiYbW4",
+      "title": "Ecuaciones de la física matemática: ecuación de las ondas longitudinales en una barra",
+      "duration": 3190
+    },
+    {
+      "id": "Js4ENslRGaY",
+      "title": "Ecuaciones de la física matemática: ecuación de conducción térmica",
+      "duration": 3779
+    },
+    {
+      "id": "RJ7h30pNJI0",
+      "title": "Ecuaciones de la física matemática: ecuación de onda en una línea de corriente",
+      "duration": 1359
+    },
+    {
+      "id": "ycrdzYI1OXY",
+      "title": "Clasificación de las ecuaciones de la física matemática.",
+      "duration": 2463
+    },
+    {
+      "id": "OWXMm_lu0FM",
+      "title": "Clasificación de las ecuaciones de la física matemática: algoritmo",
+      "duration": 1054
+    },
+    {
+      "id": "RVSv1fElTkg",
+      "title": "Clasificación de las ecuaciones de la física matemática: ejemplo",
+      "duration": 1995
+    }
+  ]
+}

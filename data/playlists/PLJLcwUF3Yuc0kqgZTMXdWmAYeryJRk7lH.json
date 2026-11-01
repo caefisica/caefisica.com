@@ -1,0 +1,170 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Computational Physics MSc course",
+  "channel": "Be_a_Physicist",
+  "description": "",
+  "updated": "2021-12-04",
+  "lessons": [
+    {
+      "id": "ZH32Is58kj8",
+      "title": "Computational Physics -- Introduction M. Sc., physics -- SASTRA |Lecture-1|",
+      "duration": 1216
+    },
+    {
+      "id": "M7KfmhI-qjQ",
+      "title": "Computational Physics -- FORTRAN 90/95 introduction -- M. Sc., SASTRA |Lecture - 3|",
+      "duration": 2263
+    },
+    {
+      "id": "VrlrpZf-cu8",
+      "title": "Computational Physics -- Intro. to Computer programming -- M. Sc., SASTRA |Lecture-2|",
+      "duration": 1523
+    },
+    {
+      "id": "4YmxqHvahDo",
+      "title": "Computational Physics -- FORTRAN 90/95 Arithmetic and logical operations -- MSc., SASTRA |Lecture-4|",
+      "duration": 1806
+    },
+    {
+      "id": "LijlMn3c2xE",
+      "title": "Computational Physics -- FORTRAN 90/95 Intrinsic functions -- MSc., SASTRA |Lecture-5|",
+      "duration": 2041
+    },
+    {
+      "id": "KQRqswm-sW8",
+      "title": "Computational Physics -- FORTRAN 90/95 Control constructs - part-1 -- MSc., SASTRA |Lecture-6|",
+      "duration": 1681
+    },
+    {
+      "id": "usLI5nQj_J0",
+      "title": "Computational Physics -- FORTRAN 90/95 Control constructs - part-2 -- MSc., SASTRA |Lecture-7|",
+      "duration": 1690
+    },
+    {
+      "id": "R79iYSRQb98",
+      "title": "Computational Physics -- FORTRAN 90/95 Loops -- MSc., SASTRA |Lecture-8|",
+      "duration": 2020
+    },
+    {
+      "id": "oy79tZfK680",
+      "title": "Computational Physics -- FORTRAN 90/95 Nested DO Loops -- MSc., SASTRA |Lecture-9|",
+      "duration": 1062
+    },
+    {
+      "id": "yBI4zwVClrM",
+      "title": "Computational Physics -- FORTRAN 90/95 Arrays--Introduction-- MSc., SASTRA |Lecture-10|",
+      "duration": 1913
+    },
+    {
+      "id": "nGFZvwAr6v4",
+      "title": "Computational Physics -- FORTRAN 90/95 Arrays in Fortran -- MSc., SASTRA |Lecture-12|",
+      "duration": 1778
+    },
+    {
+      "id": "JZMSKzGnIYI",
+      "title": "Computational Physics -- FORTRAN 90/95 Arrays in Fortran -- MSc., SASTRA |Lecture-13|",
+      "duration": 870
+    },
+    {
+      "id": "BQxWZSwXltE",
+      "title": "Computational Physics -- FORTRAN 90/95 2-D arrays in Fortran -- MSc., SASTRA |Lecture-14|",
+      "duration": 2011
+    },
+    {
+      "id": "KLV4s-EFgf8",
+      "title": "Computational Physics -- FORTRAN 90/95 Subroutines used in Fortran90 -- MSc., SASTRA |Lecture-15|",
+      "duration": 2490
+    },
+    {
+      "id": "LpvLC5u_Vj8",
+      "title": "Computational Physics -- FORTRAN 90/95 Passing arrays to subroutines -- MSc., SASTRA |Lecture-16|",
+      "duration": 2003
+    },
+    {
+      "id": "gvfXHdbkz_E",
+      "title": "Computational Physics -- FORTRAN 90/95 User Defined Functions -- MSc., SASTRA |Lecture-17|",
+      "duration": 1621
+    },
+    {
+      "id": "rANSpGI_GME",
+      "title": "Computational Physics -- FORTRAN 90/95 Formatted Input and Output -- MSc., SASTRA |Lecture-18|",
+      "duration": 1616
+    },
+    {
+      "id": "ygSgoW6zegk",
+      "title": "Computational Physics -- FORTRAN 90/95 Random Number Generation-- MSc., SASTRA |Lecture-19|",
+      "duration": 1496
+    },
+    {
+      "id": "SNOLhu7suHI",
+      "title": "Computational Physics -- FORTRAN 90/95 Gnuplot: Introduction -- MSc., SASTRA |Lecture-20|",
+      "duration": 1708
+    },
+    {
+      "id": "dqnkd1koNaI",
+      "title": "Computational Physics -- FORTRAN 90/95 Gnuplot: Examples Part-2 -- MSc., SASTRA |Lecture-21|",
+      "duration": 1787
+    },
+    {
+      "id": "XtREq-2KMrY",
+      "title": "Computational Physics -- Taylor Series -- MSc., SASTRA |Lecture-22|",
+      "duration": 2207
+    },
+    {
+      "id": "C1krweNmBoM",
+      "title": "Computational Physics -- Euler's Method to Solve Differential equations -- Part 1 -- MSc., SASTRA",
+      "duration": 2566
+    },
+    {
+      "id": "7ofJF-96Tlc",
+      "title": "Computational Physics -- Euler's Method to Solve Differential equations -- Part 2 -- MSc., SASTRA",
+      "duration": 2203
+    },
+    {
+      "id": "jaJcMSvGFRQ",
+      "title": "Computational Physics -- Heun's Method to Solve Differential equations -- Part 1 -- MSc., SASTRA",
+      "duration": 1560
+    },
+    {
+      "id": "dPtj1g4B6jk",
+      "title": "Computational Physics -- Runge-Kutta Method to Solve Differential equations -- MSc., SASTRA",
+      "duration": 2392
+    },
+    {
+      "id": "9aeWnlfJ7xc",
+      "title": "Computational Physics -- Comparison of Euler, Heun & 4th order Runge-Kutta methods-- MSc., SASTRA",
+      "duration": 981
+    },
+    {
+      "id": "i2A_SptwtKc",
+      "title": "Computational Physics -- Finite difference method to solve BV problems -- MSc., SASTRA",
+      "duration": 2950
+    },
+    {
+      "id": "U-9MUeVW7cE",
+      "title": "Computational Physics -- Finite difference method to solve BV problems -- Examples -- MSc., SASTRA",
+      "duration": 1447
+    },
+    {
+      "id": "p8mU1T3xvF0",
+      "title": "Computational Physics -- Finite difference method to solve PDEs -- Examples -- MSc., SASTRA",
+      "duration": 2117
+    },
+    {
+      "id": "qjXtI6QnCnM",
+      "title": "Computational Physics -- Classification of partial differential equations -- MSc., SASTRA",
+      "duration": 1046
+    },
+    {
+      "id": "mEv8WcztjN8",
+      "title": "Computational Physics -- Finite difference method to solve Poisson Eqn -- Examples -- MSc., SASTRA",
+      "duration": 1326
+    },
+    {
+      "id": "BzI24A8nT0I",
+      "title": "Computational Physics -- Schmidt method to solve heat conduction eqn -- Examples -- MSc., SASTRA",
+      "duration": 2075
+    }
+  ]
+}

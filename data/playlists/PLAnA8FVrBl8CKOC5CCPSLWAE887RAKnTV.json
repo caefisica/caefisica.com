@@ -1,0 +1,25 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Termodinámica: cosas varias",
+  "channel": "Javier Garcia",
+  "description": "",
+  "updated": "2015-12-30",
+  "lessons": [
+    {
+      "id": "IccdE_W8pwk",
+      "title": "Termodinámica: Deducción de la Ecuación del Calor",
+      "duration": 805
+    },
+    {
+      "id": "NykOIWygpus",
+      "title": "Termodinámica: Ecuación de la Energía",
+      "duration": 123
+    },
+    {
+      "id": "t2tuARTMA5I",
+      "title": "Termodinámica: Ecuación del calor y la Energía (variables T y V)",
+      "duration": 290
+    }
+  ]
+}

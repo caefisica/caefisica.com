@@ -1,0 +1,185 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Complex Analysis",
+  "channel": "The Bright Side of Mathematics",
+  "description": "See https://tbsom.de/s/ca",
+  "updated": "2026-05-15",
+  "lessons": [
+    {
+      "id": "dEu5ie25U0Y",
+      "title": "Complex Analysis 1 | Introduction",
+      "duration": 587
+    },
+    {
+      "id": "Jk5hxibwW80",
+      "title": "Complex Analysis 2 | Complex Differentiability",
+      "duration": 437
+    },
+    {
+      "id": "_Q4pGe6GyR4",
+      "title": "Complex Analysis 3 | Complex Derivative and Examples",
+      "duration": 760
+    },
+    {
+      "id": "vluxJX7hgyo",
+      "title": "Complex Analysis 4 | Holomorphic and Entire Functions",
+      "duration": 508
+    },
+    {
+      "id": "iWqUSEqsplY",
+      "title": "Complex Analysis 5 | Totally Differentiability in ℝ²",
+      "duration": 844
+    },
+    {
+      "id": "nRTS6D8p0c4",
+      "title": "Complex Analysis 6 | Cauchy-Riemann Equations",
+      "duration": 760
+    },
+    {
+      "id": "iDODsasfmH8",
+      "title": "Complex Analysis 7 | Examples for Cauchy-Riemann Equations",
+      "duration": 533
+    },
+    {
+      "id": "BMdFOfm_nxI",
+      "title": "Complex Analysis 8 | Wirtinger Derivatives",
+      "duration": 587
+    },
+    {
+      "id": "mvM_vJEIYKg",
+      "title": "Complex Analysis 9 | Power Series",
+      "duration": 645
+    },
+    {
+      "id": "qSBdxI3rI04",
+      "title": "Complex Analysis 10 | Uniform Convergence",
+      "duration": 431
+    },
+    {
+      "id": "2_4W_XyADfQ",
+      "title": "Complex Analysis 11 | Power Series Are Holomorphic - Proof",
+      "duration": 1124
+    },
+    {
+      "id": "YP_htwpIB7Q",
+      "title": "Complex Analysis 12 | Exp, Cos and Sin as Power Series",
+      "duration": 632
+    },
+    {
+      "id": "VBX43M1VeoE",
+      "title": "Complex Analysis 13 | Complex Logarithm",
+      "duration": 758
+    },
+    {
+      "id": "qRccImZr_YE",
+      "title": "Complex Analysis 14 | Powers",
+      "duration": 543
+    },
+    {
+      "id": "JH9eRAb1x7I",
+      "title": "Complex Analysis 15 | Laurent Series",
+      "duration": 502
+    },
+    {
+      "id": "4LzhMll8O8U",
+      "title": "Complex Analysis 16 | Isolated Singularities",
+      "duration": 811
+    },
+    {
+      "id": "tJf1Vpl3_88",
+      "title": "Complex Analysis 17 | Complex Integration on Real Intervals",
+      "duration": 712
+    },
+    {
+      "id": "qk7gqhuFrj0",
+      "title": "Complex Analysis 18 | Complex Contour Integral",
+      "duration": 995
+    },
+    {
+      "id": "fcHxCHI-01s",
+      "title": "Complex Analysis 19 | Properties of the Complex Contour Integral",
+      "duration": 740
+    },
+    {
+      "id": "00ab7OTsl6s",
+      "title": "Complex Analysis 20 | Antiderivatives",
+      "duration": 648
+    },
+    {
+      "id": "824rFeRm_l4",
+      "title": "Complex Analysis 21 | Closed curves and antiderivatives",
+      "duration": 798
+    },
+    {
+      "id": "R_S0bnNzBkw",
+      "title": "Complex Analysis 22 | Goursat's Theorem",
+      "duration": 830
+    },
+    {
+      "id": "2yqtl0Sm8f4",
+      "title": "Complex Analysis 23 | Cauchy's theorem",
+      "duration": 592
+    },
+    {
+      "id": "FNvwQaKmQ2A",
+      "title": "Complex Analysis 24 | Winding Number",
+      "duration": 856
+    },
+    {
+      "id": "f3fNmR995ik",
+      "title": "Complex Analysis 25 | Cauchy's Theorem (general version)",
+      "duration": 684
+    },
+    {
+      "id": "dtNbpqxigtM",
+      "title": "Complex Analysis 26 | Keyhole contour",
+      "duration": 517
+    },
+    {
+      "id": "hll0DAilhoA",
+      "title": "Complex Analysis 27 | Cauchy's Integral Formula",
+      "duration": 655
+    },
+    {
+      "id": "X_g5d5_e7iQ",
+      "title": "Complex Analysis 28 | Holomorphic Functions are C-infinity Functions",
+      "duration": 684
+    },
+    {
+      "id": "RfJ2bOfsdgY",
+      "title": "Complex Analysis 29 | Liouville's Theorem",
+      "duration": 536
+    },
+    {
+      "id": "nFHEq7ljd0k",
+      "title": "Complex Analysis 30 | Identity Theorem",
+      "duration": 962
+    },
+    {
+      "id": "rsYF_OHo__8",
+      "title": "Complex Analysis 31 | Application of the Identity Theorem",
+      "duration": 371
+    },
+    {
+      "id": "BuEoOYbiH04",
+      "title": "Complex Analysis 32 | Residue",
+      "duration": 725
+    },
+    {
+      "id": "1kJJwFSgUng",
+      "title": "Complex Analysis 33 | Residue for Poles",
+      "duration": 874
+    },
+    {
+      "id": "UXMy5zEEEaU",
+      "title": "Complex Analysis 34 | Residue theorem",
+      "duration": 506
+    },
+    {
+      "id": "t0Pp3460hoE",
+      "title": "Complex Analysis 35 | Application of the Residue Theorem",
+      "duration": 655
+    }
+  ]
+}

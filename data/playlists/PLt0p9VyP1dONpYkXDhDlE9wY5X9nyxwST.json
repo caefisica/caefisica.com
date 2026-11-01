@@ -1,0 +1,280 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso abreviado de Física del estado sólido (IB 2021)",
+  "channel": "pablo sebastian cornaglia",
+  "description": "Material para la materia \"Introducción  la física del estado sólido\" que fue dictada de manera virtual en el Instituto Balseiro (Universidad Nacional de Cuyo, Argentina) en 2021",
+  "updated": "2022-02-04",
+  "lessons": [
+    {
+      "id": "rDwiXfcYBos",
+      "title": "1- Hamiltoniano de un Sólido",
+      "duration": 766
+    },
+    {
+      "id": "UIxkh_HdnVQ",
+      "title": "2- Aproximación de Born-Oppenheimer",
+      "duration": 624
+    },
+    {
+      "id": "WjpWnvfgR3M",
+      "title": "3 - Ejemplo de Born-Oppenheimer (Molécula H+)",
+      "duration": 1493
+    },
+    {
+      "id": "Qv1LdvnflRI",
+      "title": "4- Cristalografía (1ra parte)",
+      "duration": 920
+    },
+    {
+      "id": "tLZK03HRsCc",
+      "title": "5- Cristalografía (2da parte)",
+      "duration": 1749
+    },
+    {
+      "id": "bDa2W6HqtCg",
+      "title": "6- Cristalografía (3ra parte)",
+      "duration": 747
+    },
+    {
+      "id": "mWaNf0c8pxo",
+      "title": "7- Cohesión en los sólidos",
+      "duration": 1547
+    },
+    {
+      "id": "CPqwi4Ri5qE",
+      "title": "8- Difracción de Rayos X (1ra parte)",
+      "duration": 1233
+    },
+    {
+      "id": "urRI0eD-pUQ",
+      "title": "9- Difracción de rayos X (2da parte)",
+      "duration": 1459
+    },
+    {
+      "id": "Lg1zp1cuZKA",
+      "title": "10 - Difracción de Rayos X (3ra parte)",
+      "duration": 1059
+    },
+    {
+      "id": "vOQYhcuYHdY",
+      "title": "11- Fonones (1ra parte)",
+      "duration": 1519
+    },
+    {
+      "id": "1x8zjGxms3U",
+      "title": "12- Fonones (2da parte)",
+      "duration": 973
+    },
+    {
+      "id": "kWDyMOaH8vg",
+      "title": "13- fonones (3ra parte)",
+      "duration": 524
+    },
+    {
+      "id": "IjiPgaXy6B4",
+      "title": "14- Fonones (4ta parte)",
+      "duration": 610
+    },
+    {
+      "id": "m4OzuHgM9xc",
+      "title": "15- Fonones (5ta parte)",
+      "duration": 552
+    },
+    {
+      "id": "M_NH9qufW10",
+      "title": "16- Fonones (6ta parte)",
+      "duration": 400
+    },
+    {
+      "id": "AJwXZJaOe20",
+      "title": "17- Calor específico de fonones (1ra parte)",
+      "duration": 636
+    },
+    {
+      "id": "g34Y36mHYH8",
+      "title": "18- Calor específico de fonones (2ra parte)",
+      "duration": 480
+    },
+    {
+      "id": "qiZwb4q9O2o",
+      "title": "19- Calor específico de fonones (3ra parte)",
+      "duration": 860
+    },
+    {
+      "id": "6KvEuPCKCp0",
+      "title": "20- Calor específico de fonones (4ta parte)",
+      "duration": 326
+    },
+    {
+      "id": "8lZBt1Qnhdo",
+      "title": "21- Calor específico de fonones (5ta parte)",
+      "duration": 671
+    },
+    {
+      "id": "sNZtiFzCZZg",
+      "title": "22- Gas de Fermi (1ra parte)",
+      "duration": 874
+    },
+    {
+      "id": "4xznEnaDJ6w",
+      "title": "23- Gas de Fermi (2da parte)",
+      "duration": 323
+    },
+    {
+      "id": "AA7JboRiNB4",
+      "title": "24- Gas de Fermi (3ra parte)",
+      "duration": 644
+    },
+    {
+      "id": "KkPDOA-nLtk",
+      "title": "25- Electrones en un potencial periódico (1ra parte)",
+      "duration": 615
+    },
+    {
+      "id": "1lTDHWKSJMs",
+      "title": "26- Electrones en un potencial periódico (2da parte)",
+      "duration": 654
+    },
+    {
+      "id": "s_qZ2g6HJIE",
+      "title": "27- Electrones en un potencial periódico (3ra parte)",
+      "duration": 495
+    },
+    {
+      "id": "wFarTpA-yiw",
+      "title": "28- Electrones en un potencial periódico (4ta parte)",
+      "duration": 497
+    },
+    {
+      "id": "0x6FNqlomas",
+      "title": "29- Electrones en un potencial periódico (5ta parte)",
+      "duration": 766
+    },
+    {
+      "id": "Qm4SzGk4EZo",
+      "title": "30- Electrones en un potencial periódico (6ta parte)",
+      "duration": 810
+    },
+    {
+      "id": "xKsvS-iAK34",
+      "title": "31- Electrones fuertemente ligados (1ra parte)",
+      "duration": 599
+    },
+    {
+      "id": "DL5d2VJVNd0",
+      "title": "32- Electrones fuertemente ligados (2da parte)",
+      "duration": 615
+    },
+    {
+      "id": "z3TZ9Cj4vuA",
+      "title": "33- Electrones fuertemente ligados (3ra parte)",
+      "duration": 305
+    },
+    {
+      "id": "43gEsRmayBo",
+      "title": "34- Electrones fuertemente ligados (4ta parte)",
+      "duration": 578
+    },
+    {
+      "id": "TNn3W3mAr68",
+      "title": "35- Funciones de Wannier",
+      "duration": 591
+    },
+    {
+      "id": "FG6D1gTpFIg",
+      "title": "36- Electrones cuasilibres (1ra parte)",
+      "duration": 518
+    },
+    {
+      "id": "rELFhxoTXF4",
+      "title": "37- Electrones cuasilibres (2da parte)",
+      "duration": 772
+    },
+    {
+      "id": "-3KBvUEEwUQ",
+      "title": "38- Electrones cuasilibres en tres dimensiones (1ra parte)",
+      "duration": 536
+    },
+    {
+      "id": "NRRjBTBoxlE",
+      "title": "39- Electrones cuasilibres en tres dimensiones (2da parte)",
+      "duration": 514
+    },
+    {
+      "id": "drF9KMhpYyQ",
+      "title": "40- Electrones cuasilibres en tres dimensiones (3ra parte)",
+      "duration": 655
+    },
+    {
+      "id": "AOI4gYn_rQY",
+      "title": "41- Muchos electrones en un potencial periódico (1ra parte)",
+      "duration": 563
+    },
+    {
+      "id": "oStQP8G9Vpk",
+      "title": "42- Muchos electrones en un potencial periódico (2da parte)",
+      "duration": 847
+    },
+    {
+      "id": "DzV1arqRHnQ",
+      "title": "43- Propiedades termodinámicas de electrones en un potencial periódico (1ra parte)",
+      "duration": 712
+    },
+    {
+      "id": "6N5LUKlWsFY",
+      "title": "44- Propiedades termodinámicas de electrones en un potencial periódico (2da parte)",
+      "duration": 808
+    },
+    {
+      "id": "E4Jge6MbUxU",
+      "title": "45- Superficies de Fermi",
+      "duration": 934
+    },
+    {
+      "id": "PhABcf8Fc2Y",
+      "title": "46- Transporte electrónico (1ra parte)",
+      "duration": 623
+    },
+    {
+      "id": "yhYJ-_e0cUM",
+      "title": "47- Transporte electrónico (2da parte)",
+      "duration": 602
+    },
+    {
+      "id": "HMnS51os7ZU",
+      "title": "48- Transporte electrónico (3ra parte)",
+      "duration": 583
+    },
+    {
+      "id": "P4AQfWN7rZc",
+      "title": "49- Dinámica de electrones en un potencial periódico (1ra parte)",
+      "duration": 986
+    },
+    {
+      "id": "0sY1E1Kylus",
+      "title": "50- Dinámica de electrones en un potencial periódico (2da parte)",
+      "duration": 899
+    },
+    {
+      "id": "xng3JD2vkYQ",
+      "title": "51- Transporte electrónico en un sólido cristalino (1ra parte)",
+      "duration": 862
+    },
+    {
+      "id": "Y7IBjkiCg0w",
+      "title": "52- Transporte electrónico en un sólido cristalino (2da parte)",
+      "duration": 933
+    },
+    {
+      "id": "hARPhBujffE",
+      "title": "53- Semiconductores intrínsecos",
+      "duration": 800
+    },
+    {
+      "id": "llJ1v7sZEHA",
+      "title": "54- Semiconductores extrínsecos",
+      "duration": 1071
+    }
+  ]
+}

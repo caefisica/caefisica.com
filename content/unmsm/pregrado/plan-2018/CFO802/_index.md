@@ -21,10 +21,7 @@ date: 2022-11-11T16:00:00
 
 ### Listas de reproducción
 
-| Autor                | Nombre                                                | Año                                                                                  |
-| -------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| `54` Pablo Cornaglia | Curso abreviado de Física del Estado Sólido (IB 2021) | [2022, es](https://www.youtube.com/playlist?list=PLt0p9VyP1dONpYkXDhDlE9wY5X9nyxwST) |
-| `21` María Varela    | Física del Estado Sólido [UCM 20/21]                  | [2021, es](https://www.youtube.com/playlist?list=PLppzU9a2axuTsADX5nfh7rsk0htwdxuZe) |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}
 
 ### Software
 

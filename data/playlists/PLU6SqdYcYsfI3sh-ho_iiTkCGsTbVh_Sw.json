@@ -1,0 +1,110 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Complex Analysis (Differentiation & Integration)",
+  "channel": "Dr.Gajendra Purohit",
+  "description": "📌 Complex Analysis – Differentiation & Integration | Complete Course by Dr. Gajendra Purohit\nLearn Complex Analysis, one of the most important topics in higher mathematics, with this comprehensive playlist by GP Sir. This course focuses on Differentiation and Integration of Complex Functions with detailed explanations and solved problems, essential for CSIR-NET, GATE, IIT JAM, UPSC Mathematics Optional, and B.Sc./M.Sc. Mathematics courses.\n\n✅ Topics Covered:\n       i)Analytical function and cauchy riemann equation \n      ii)Short trick to find harmonic conjugate.\n      iii)Milne thomson method.\n      iv)Bilinear transformation, conformal mapping. \n       v)Complex and line integration.\n       vi)Cauchy integral formula for analytic function.\n     vii)Cauchy residue theorem.\n     viii)Contour integration,  application of residue theorem. \n      ix)Contour integration, evaluation of improper integrals\n       x)Taylor series for complex variable.\n       xi)Laurent series for complex number.\n\n🔥 Learn with Dr. Gajendra Purohit and master Complex Analysis step by step with clarity and depth!\n\n👉 Subscribe now for advanced mathematics tutorials and competitive exam preparation.",
+  "updated": "2026-02-03",
+  "lessons": [
+    {
+      "id": "t9xW7UaZwZ0",
+      "title": "Complex Analysis | Analytic Function | Cauchy Riemann Equation BY GP sir",
+      "duration": 730
+    },
+    {
+      "id": "OQQqbV32b78",
+      "title": "Complex Analysis - Short Trick To Find Harmonic Conjugate By GP Sir",
+      "duration": 935
+    },
+    {
+      "id": "ABNW9FcZ5zQ",
+      "title": "Complex Analysis - Analytic Function | Milne Thomson Method | Example & Solutions",
+      "duration": 1045
+    },
+    {
+      "id": "xgnQTqMc6A4",
+      "title": "Complex Analysis - Bilinear transformation | Conformal Mappings By GP",
+      "duration": 1403
+    },
+    {
+      "id": "ywQVarOaA60",
+      "title": "Complex Analysis - Complex Integration Line Integral Example & Solution",
+      "duration": 996
+    },
+    {
+      "id": "fSoQxuVdKIs",
+      "title": "Cauchy's Integral Formula For Analytic Function | Example & Solution",
+      "duration": 1241
+    },
+    {
+      "id": "4yC4IXcMKJg",
+      "title": "Complex Analysis - Cauchy's Residue Theorem & Its Application by GP",
+      "duration": 1245
+    },
+    {
+      "id": "xaKTNENeJdA",
+      "title": "Complex Analysis- Contour Integration | Application of Residue Theorem",
+      "duration": 1388
+    },
+    {
+      "id": "enF9OuOC9MA",
+      "title": "Complex Analysis - Contour integration | Evaluation of Improper Integrals",
+      "duration": 1217
+    },
+    {
+      "id": "xls_5Ly7VA4",
+      "title": "Complex Analysis - Taylor Series For Complex Variable | Problems By GP",
+      "duration": 1293
+    },
+    {
+      "id": "gUmIrJRXDSs",
+      "title": "Complex Analysis -Laurent Series For Complex Number | Problems By GP",
+      "duration": 1111
+    },
+    {
+      "id": "G1Wc5gGAZ8A",
+      "title": "Singularity - Types of Singularity | Isolated & Non-Isolated Singularity | Complex Analysis",
+      "duration": 920
+    },
+    {
+      "id": "SjKwEox2-W8",
+      "title": "Singularity | Removable Singularity - Concepts with Examples | Complex Analysis",
+      "duration": 726
+    },
+    {
+      "id": "aWY2xmUerys",
+      "title": "Singularity | Isolated Singularity - Pole and Order Of Pole | Complex Analysis",
+      "duration": 538
+    },
+    {
+      "id": "3qPuKs71ELc",
+      "title": "Singularity | Isolated Singularity - Isolated Essential Singularity | Complex Analysis",
+      "duration": 315
+    },
+    {
+      "id": "TVeANBkp6PM",
+      "title": "Singularity | Non-Isolated Singularity - Non-Isolated Essential Singularity | Complex Analysis",
+      "duration": 558
+    },
+    {
+      "id": "82N_QZ2vhYg",
+      "title": "Residue - Complex Analysis | Residue at Infinity | Short Trick With Examples",
+      "duration": 796
+    },
+    {
+      "id": "Bf6VFTA2ccE",
+      "title": "Residue - Complex Analysis | Residue at Essential Singularity | Short Trick With Examples",
+      "duration": 463
+    },
+    {
+      "id": "e7j_N7oMT1Y",
+      "title": "Singularity | Isolated Singularity at Infinity | Complex Analysis",
+      "duration": 363
+    },
+    {
+      "id": "L2ex8Irwr3M",
+      "title": "Radius of Convergence - Power Series | Complex Analysis",
+      "duration": 685
+    }
+  ]
+}

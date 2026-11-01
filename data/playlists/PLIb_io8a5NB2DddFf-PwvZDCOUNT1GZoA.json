@@ -1,0 +1,85 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Esencia del Álgebra Lineal",
+  "channel": "3Blue1Brown Español",
+  "description": "",
+  "updated": "2018-01-01",
+  "lessons": [
+    {
+      "id": "0Ndnzx6AyaA",
+      "title": "Fundamentos del Álgebra Lineal | Esencia del álgebra lineal, reseña",
+      "duration": 313
+    },
+    {
+      "id": "wiuEEkP_XuM",
+      "title": "Vectores, ¿qué son? | Esencia del álgebra lineal, capítulo 1",
+      "duration": 596
+    },
+    {
+      "id": "RqQqFx4xUjk",
+      "title": "Combinaciones lineales, subespacio generado y bases | Esencia del álgebra lineal, capítulo 2",
+      "duration": 623
+    },
+    {
+      "id": "YJfS4_m_0Z8",
+      "title": "Transformaciones lineales y matrices | Esencia del álgebra lineal, capítulo 3",
+      "duration": 677
+    },
+    {
+      "id": "8f7UUnbLqp0",
+      "title": "Multiplicación matricial como composición | Esencia del álgebra lineal, capítulo 4a",
+      "duration": 622
+    },
+    {
+      "id": "IvGS6aFkofg",
+      "title": "Transformaciones lineales en tres dimensiones | Esencia del álgebra lineal, capítulo 4b",
+      "duration": 298
+    },
+    {
+      "id": "yt3eoYvGel0",
+      "title": "El determinante | Esencia del álgebra lineal, capítulo 5",
+      "duration": 618
+    },
+    {
+      "id": "Xt_0OyLdQgI",
+      "title": "*Matriz inversa, rango y rango nulo | Esencia del álgebra lineal, capítulo 6a",
+      "duration": 750
+    },
+    {
+      "id": "VXJEsYgeXX0",
+      "title": "Matrices no cuadradas como transformaciones entre dimensiones | Álgebra lineal, capítulo 6b",
+      "duration": 275
+    },
+    {
+      "id": "quYTdFWTN1g",
+      "title": "Producto escalar y dualidad | Esencia del álgebra lineal, capítulo 7",
+      "duration": 869
+    },
+    {
+      "id": "2u1YeOyGuAc",
+      "title": "Producto vectorial | Esencia del álgebra lineal, capítulo 8a",
+      "duration": 538
+    },
+    {
+      "id": "k5MxuAVGTto",
+      "title": "Producto vectorial bajo la luz de las transformaciones lineales | Álgebra lineal, capítulo 8b",
+      "duration": 799
+    },
+    {
+      "id": "LYlaRDsi_T8",
+      "title": "Cambio de Bases | Esencia del álgebra lineal, capítulo 09",
+      "duration": 804
+    },
+    {
+      "id": "Gx0PaWI9eYo",
+      "title": "Vectores propios y valores propios | Esencia del álgebra lineal, capítulo 10",
+      "duration": 1054
+    },
+    {
+      "id": "dZ4oM9bGI1s",
+      "title": "Vectores en un espacio abstracto | Esencia del álgebra lineal, capítulo 11",
+      "duration": 1029
+    }
+  ]
+}

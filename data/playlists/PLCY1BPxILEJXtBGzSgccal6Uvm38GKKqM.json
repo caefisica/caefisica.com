@@ -1,0 +1,310 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Variable compleja 5. Derivadas de funciones complejas",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2020-04-02",
+  "lessons": [
+    {
+      "id": "BvaI0gCG2Ts",
+      "title": "Derivada de una función compleja I Definición",
+      "duration": 602
+    },
+    {
+      "id": "m6C4wgV0rIk",
+      "title": "Función no derivable en complejos 1",
+      "duration": 420
+    },
+    {
+      "id": "vEvXcgTV7sg",
+      "title": "Función no derivable en complejos 2",
+      "duration": 327
+    },
+    {
+      "id": "QAvSphrqigQ",
+      "title": "Función derivable en un solo punto en complejos 1",
+      "duration": 370
+    },
+    {
+      "id": "Njp74t9WXkM",
+      "title": "Teoremas básicos para la derivada",
+      "duration": 364
+    },
+    {
+      "id": "OExFVVn5Cm4",
+      "title": "Ecuaciones de Cauchy Riemann",
+      "duration": 776
+    },
+    {
+      "id": "jAGjrz208bo",
+      "title": "Ecuaciones de Cauchy Riemann I Aplicación 1",
+      "duration": 166
+    },
+    {
+      "id": "tCfo66V3cYw",
+      "title": "Ecuaciones de Cauchy Riemann I Aplicación 2",
+      "duration": 282
+    },
+    {
+      "id": "9xq6ywQTQMw",
+      "title": "Ecuaciones de Cauchy Riemann I Aplicación 3",
+      "duration": 452
+    },
+    {
+      "id": "jU4LxjZ4SL8",
+      "title": "Ecuaciones de Cauchy Riemann I Aplicación 4",
+      "duration": 247
+    },
+    {
+      "id": "lNIybu19BqI",
+      "title": "Función derivable en todo el plano 1",
+      "duration": 352
+    },
+    {
+      "id": "2AlB7V08gb4",
+      "title": "Función derivable en un solo punto en complejos 2",
+      "duration": 504
+    },
+    {
+      "id": "T3Nhr33rUS0",
+      "title": "Función derivable en un solo punto en complejos 3",
+      "duration": 572
+    },
+    {
+      "id": "4Ec0OCZBWdY",
+      "title": "Función no derivable en complejos 3",
+      "duration": 477
+    },
+    {
+      "id": "ayNy2rDpk4I",
+      "title": "Función derivable en todo el plano 2",
+      "duration": 209
+    },
+    {
+      "id": "qdTCcRbqej0",
+      "title": "Función derivable en un solo punto en complejos 4",
+      "duration": 476
+    },
+    {
+      "id": "RPD1cNc53lc",
+      "title": "Función derivable solo en 0,0",
+      "duration": 344
+    },
+    {
+      "id": "QeH39utftGA",
+      "title": "Derivada de sen(z) en complejos",
+      "duration": 519
+    },
+    {
+      "id": "8Icw_m9_izc",
+      "title": "Derivada de la función exponencial",
+      "duration": 366
+    },
+    {
+      "id": "3XufLwYBQHw",
+      "title": "Función derivable en complejos",
+      "duration": 483
+    },
+    {
+      "id": "REqz1jEeQV4",
+      "title": "Propiedades de las derivadas",
+      "duration": 475
+    },
+    {
+      "id": "H04PGoPXAf4",
+      "title": "Derivada de la función exponencial 2",
+      "duration": 271
+    },
+    {
+      "id": "BrZwnpVh2L8",
+      "title": "Derivada de la función exponencial I General",
+      "duration": 421
+    },
+    {
+      "id": "BfWuHu4vPRA",
+      "title": "Derivada de funciones trigonométricas",
+      "duration": 438
+    },
+    {
+      "id": "WRfOJoSjoxU",
+      "title": "Derivada de funciones trigonométricas I Ejemplos",
+      "duration": 322
+    },
+    {
+      "id": "LvTMBKFXzag",
+      "title": "Derivada sen(z) I General",
+      "duration": 439
+    },
+    {
+      "id": "ZafNj0BRL0k",
+      "title": "Derivada cos(g(z))",
+      "duration": 226
+    },
+    {
+      "id": "paNUigjbjPg",
+      "title": "Derivada tan(g(z))",
+      "duration": 228
+    },
+    {
+      "id": "Rsmm4yfFKBs",
+      "title": "Derivada tan(z) I General",
+      "duration": 511
+    },
+    {
+      "id": "L6q3nxXoh_w",
+      "title": "Derivada sec(z) General",
+      "duration": 409
+    },
+    {
+      "id": "D7FmTvb3qjM",
+      "title": "Derivadas de funciones trigonométricas 2",
+      "duration": 254
+    },
+    {
+      "id": "LzgzSV0W038",
+      "title": "Derivada de funciones hiperbólicas 1",
+      "duration": 557
+    },
+    {
+      "id": "bv0kWIkW25E",
+      "title": "Derivada de funciones hiperbólicas 2",
+      "duration": 331
+    },
+    {
+      "id": "DDybJ2QzG00",
+      "title": "Derivada senh(z) I General",
+      "duration": 420
+    },
+    {
+      "id": "2CSinM6f21U",
+      "title": "Derivada tanh(z) I General",
+      "duration": 423
+    },
+    {
+      "id": "oZKrH76TOwk",
+      "title": "Derivada ln(z) 1",
+      "duration": 264
+    },
+    {
+      "id": "0qo5hqOo9mM",
+      "title": "Derivada ln(z) 2",
+      "duration": 299
+    },
+    {
+      "id": "ppIWGf9UxKw",
+      "title": "Derivada de funciones especiales",
+      "duration": 347
+    },
+    {
+      "id": "dPV5FupGw7c",
+      "title": "Derivada de una función elevada a otra función",
+      "duration": 283
+    },
+    {
+      "id": "fLe7bvpbiAk",
+      "title": "Derivada de funciones especiales",
+      "duration": 285
+    },
+    {
+      "id": "yAYwrO50j10",
+      "title": "Regla de l'hopital 1",
+      "duration": 473
+    },
+    {
+      "id": "QPXwOZjpjRA",
+      "title": "Regla de l'hopital 2",
+      "duration": 338
+    },
+    {
+      "id": "c8IauVVXUD4",
+      "title": "Derivadas de funciones inversas, trigonométricas e hiperbólicas",
+      "duration": 169
+    },
+    {
+      "id": "XuEkKhGIX4o",
+      "title": "Derivada arcsen(z)",
+      "duration": 327
+    },
+    {
+      "id": "rpr5Cea-IUA",
+      "title": "Derivada arcsen(g(z))",
+      "duration": 251
+    },
+    {
+      "id": "d-AN_-rO1bQ",
+      "title": "Derivada arcsen(z) I General",
+      "duration": 357
+    },
+    {
+      "id": "mHN8Qh3ahrk",
+      "title": "Derivada arccos(z)",
+      "duration": 410
+    },
+    {
+      "id": "iSUsZx_cEIc",
+      "title": "Derivada arccos(g(z))",
+      "duration": 203
+    },
+    {
+      "id": "aT2ONkZdpxo",
+      "title": "Derivada arctan(z)",
+      "duration": 427
+    },
+    {
+      "id": "oCHvZQOX3sE",
+      "title": "Derivada arctan(z) I General",
+      "duration": 488
+    },
+    {
+      "id": "OWv4t_x33UQ",
+      "title": "Derivada arcsenh(z)",
+      "duration": 284
+    },
+    {
+      "id": "KzoNRhg6hgw",
+      "title": "Derivada arcsenh(z) I General",
+      "duration": 251
+    },
+    {
+      "id": "zAusRzW1XS4",
+      "title": "Derivada arccosh(z)",
+      "duration": 292
+    },
+    {
+      "id": "MsDiVVJ-TYA",
+      "title": "Derivada arccosh(g(z))",
+      "duration": 220
+    },
+    {
+      "id": "I_gz6T4OCRM",
+      "title": "Derivada arctanhz",
+      "duration": 254
+    },
+    {
+      "id": "vjhZ1Q55w2s",
+      "title": "Derivada arctanhz I General",
+      "duration": 377
+    },
+    {
+      "id": "6qnAEyoq90c",
+      "title": "Función analítica I Definición",
+      "duration": 420
+    },
+    {
+      "id": "1kOzACdn5Sk",
+      "title": "Funciones analíticas 1",
+      "duration": 323
+    },
+    {
+      "id": "apQb783xUgc",
+      "title": "Funciones analíticas 2",
+      "duration": 224
+    },
+    {
+      "id": "fXFFjwAiVYY",
+      "title": "Funciones analíticas 3",
+      "duration": 273
+    }
+  ]
+}

@@ -38,12 +38,7 @@ El plan de estudios incluye los siguientes temas:
 
 ## Listas de reproducción
 
-| Autor             | Nombre                                           | Año                                                                                     |
-| ----------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------- |
-| Welken Gonçalves  | Física Moderna                                   | [2022, pt.br](https://www.youtube.com/playlist?list=PLr2azQlj9GSwsnmFT_8mKO0GzzbAuISav) |
-| OK Modern Physics | Chapter 1 (Relativity) [Solucionario del Beiser] | [2020, eng](https://www.youtube.com/playlist?list=PLSeTceYsH4d0e9YfPhvP5qhu_qqPUantb)   |
-| Alberto Restrepo  | Quantum Bits                                     | [2020, pt.br](https://www.youtube.com/playlist?list=PLFh9vd_k9CCz-7x0Fq_ypCSShla4W-I0L) |
-| Frank Hoffman     | Fascination of Crystals and Symmetry - Chapter 2 | [2016, eng](https://www.youtube.com/playlist?list=PL6C90-24AMSOfGz-u6Xw5ZNX3JPm9fDbr)   |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}
 
 ## Páginas web
 

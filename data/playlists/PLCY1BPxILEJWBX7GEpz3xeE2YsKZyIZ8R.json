@@ -1,0 +1,210 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 9. Diagonalización de matrices",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-03-27",
+  "lessons": [
+    {
+      "id": "YrP-qUGLcZU",
+      "title": "Matriz diagonalizable I Definición",
+      "duration": 228
+    },
+    {
+      "id": "dsjNUkBTfRw",
+      "title": "Matriz diagonalizable I Ejemplo",
+      "duration": 324
+    },
+    {
+      "id": "5ym3vnFrWtY",
+      "title": "Vector propio y valor propio de una matriz I Definición",
+      "duration": 294
+    },
+    {
+      "id": "zgNPsI3KpQc",
+      "title": "Vector propio y valor propio de una matriz I Ejemplo 1",
+      "duration": 173
+    },
+    {
+      "id": "uT8dFxZiCKU",
+      "title": "Vector propio y valor propio de una matriz I Ejemplo 2",
+      "duration": 264
+    },
+    {
+      "id": "6gIrwzUq1XY",
+      "title": "Vector propio y valor propio de una matriz I Ejemplo 3",
+      "duration": 532
+    },
+    {
+      "id": "-9aMpGmgF8E",
+      "title": "Valores propios de una matriz I Ejemplo 1",
+      "duration": 578
+    },
+    {
+      "id": "AsQHHaRq1_k",
+      "title": "Valores propios de una matriz I Ejemplo 2",
+      "duration": 252
+    },
+    {
+      "id": "18XXEOAgxP8",
+      "title": "Valores propios de una matriz I Ejemplo 3",
+      "duration": 320
+    },
+    {
+      "id": "g1N2jE2Th88",
+      "title": "Valores propios de una matriz I Propiedades",
+      "duration": 190
+    },
+    {
+      "id": "RXrtB9HaI8Y",
+      "title": "Vectores propios I Definición",
+      "duration": 538
+    },
+    {
+      "id": "6A-jm4Qsrdo",
+      "title": "Matriz diagonalizable I Ejemplo",
+      "duration": 777
+    },
+    {
+      "id": "RIjL4s1iTjg",
+      "title": "Cuando una matriz es diagonalizable? I",
+      "duration": 174
+    },
+    {
+      "id": "oqloFb3fjqI",
+      "title": "Matriz diagonalizable I Procedimiento",
+      "duration": 174
+    },
+    {
+      "id": "7bzn6S7_x9o",
+      "title": "Matriz diagonalizable I Ejemplo 1",
+      "duration": 630
+    },
+    {
+      "id": "0ztcRRYQNj0",
+      "title": "Matriz diagonalizable I Ejemplo 2",
+      "duration": 379
+    },
+    {
+      "id": "IKcVobn8oZU",
+      "title": "Matriz diagonalizable I Ejemplo 3",
+      "duration": 838
+    },
+    {
+      "id": "1KzX-4yshzk",
+      "title": "Matriz no diagonalizable I Ejemplo 1",
+      "duration": 367
+    },
+    {
+      "id": "7cPNNS-NWaQ",
+      "title": "Matriz diagonalizable I Ejemplo 4",
+      "duration": 1050
+    },
+    {
+      "id": "XvCCABE2M7E",
+      "title": "Matriz compleja diagonalizable I Ejemplo 5",
+      "duration": 690
+    },
+    {
+      "id": "DE55ojP5S70",
+      "title": "Matriz no diagonalizable I Ejemplo 2",
+      "duration": 662
+    },
+    {
+      "id": "amaH4Z0IURk",
+      "title": "Cuando una matriz es diagonalizable? II",
+      "duration": 307
+    },
+    {
+      "id": "8Pm1ldmYUJQ",
+      "title": "Ecuaciones para eliminar el producto xy en una ecuación cuadrática",
+      "duration": 612
+    },
+    {
+      "id": "UgWBZZLos7w",
+      "title": "Eliminar el producto xy en una ecuación cuadratica I Ejemplo 1",
+      "duration": 726
+    },
+    {
+      "id": "lEez_iZJNgE",
+      "title": "Eliminar el producto xy en una ecuación cuadrática I Ejemplo 2",
+      "duration": 565
+    },
+    {
+      "id": "V6W_aq0Ow34",
+      "title": "Transformar una ecuación del plano rotado al plano sin rotar",
+      "duration": 311
+    },
+    {
+      "id": "a0rJsTvTN1I",
+      "title": "Pasar puntos del plano rotado al plano sin rotar y viceversa",
+      "duration": 351
+    },
+    {
+      "id": "WGs4KzlPwaY",
+      "title": "Diagonalización ortogonal de una matriz",
+      "duration": 164
+    },
+    {
+      "id": "OcFDl82nzNU",
+      "title": "Eliminar el producto xy en una ecuación cuadrática I Ejemplo 3",
+      "duration": 352
+    },
+    {
+      "id": "IpdELSJzCmA",
+      "title": "Eliminar producto xy en una ecuación cuadrática I Ejemplo 4",
+      "duration": 1015
+    },
+    {
+      "id": "ZpJe7URGLDg",
+      "title": "Eliminar producto xy en una ecuación cuadrática I Ejemplo 5",
+      "duration": 623
+    },
+    {
+      "id": "DsxCE0rhl-w",
+      "title": "Eliminar producto xy en una ecuación cuadrática I Ejemplo 6",
+      "duration": 899
+    },
+    {
+      "id": "LjqUUDzFHiA",
+      "title": "Eliminar producto xy en una ecuación cuadrática I Ejemplo 7",
+      "duration": 590
+    },
+    {
+      "id": "jwnFiqNMcPE",
+      "title": "Eliminar el producto xy en una ecuación cuadrática I Ejemplo 8",
+      "duration": 877
+    },
+    {
+      "id": "0QiJaHrEUyY",
+      "title": "Eliminar el producto xy en una ecuación cuadrática I Ejemplo 9",
+      "duration": 818
+    },
+    {
+      "id": "CxU8v2TxMv4",
+      "title": "Eliminar el producto xy en una ecuación cuadrática I Ejemplo 10",
+      "duration": 720
+    },
+    {
+      "id": "0qCapmtARi0",
+      "title": "Eliminar el producto xy, xz, yz en una ecuación cuadrática I Ejemplo 1",
+      "duration": 393
+    },
+    {
+      "id": "oNkfc35fsiA",
+      "title": "Eliminar el producto xz en una ecuación cuadrática I Ejemplo 1",
+      "duration": 1004
+    },
+    {
+      "id": "i1KOaz95Ho8",
+      "title": "Eliminar el producto xz en una ecuación cuadrática I Ejemplo 2",
+      "duration": 798
+    },
+    {
+      "id": "-9LzffPDroY",
+      "title": "Eliminar el producto xy, xz, yz en una ecuación cuadrática I Ejemplo 2",
+      "duration": 1330
+    }
+  ]
+}

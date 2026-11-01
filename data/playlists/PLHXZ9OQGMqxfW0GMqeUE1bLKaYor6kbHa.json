@@ -1,0 +1,205 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Calculus IV: Vector Calculus (Line Integrals, Surface Integrals, Vector Fields, Greens' Thm, Divergence Thm, Stokes Thm, etc) **Full Course**",
+  "channel": "Dr. Trefor Bazett",
+  "description": "This playlist on vector calculus covers approximately six weeks of my Calculus IV course. It follows my full semester multivariable calculus course here: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc_CvEy7xBKRQr6I214QJcd \n\nThe major topics are line integrals, surface integrals, vector fields, conservative fields, Green's theorem, divergence theorem and Stokes' Theorem",
+  "updated": "2025-10-18",
+  "lessons": [
+    {
+      "id": "AIxiYG-gZ00",
+      "title": "What is VECTOR CALCULUS?? **Full Course Introduction**",
+      "duration": 405
+    },
+    {
+      "id": "rLsmajsyaEg",
+      "title": "Curves, Parameterizations, and the Arclength Parameterization",
+      "duration": 604
+    },
+    {
+      "id": "WA5_a3C2iqY",
+      "title": "What is a LINE INTEGRAL? // Big Idea, Derivation & Formula",
+      "duration": 842
+    },
+    {
+      "id": "fqVEuFldFuA",
+      "title": "Line Integrals: Full Example",
+      "duration": 340
+    },
+    {
+      "id": "NzepwkVoYMY",
+      "title": "Line Integrals in 3D // Formula & Three Applications",
+      "duration": 349
+    },
+    {
+      "id": "0QTDisIl9bo",
+      "title": "Intro to VECTOR FIELDS // Sketching by hand & with computers",
+      "duration": 729
+    },
+    {
+      "id": "DG9NUPaPVbE",
+      "title": "The Gradient Vector Field",
+      "duration": 138
+    },
+    {
+      "id": "059LjQ2oLBM",
+      "title": "Line Integrals of Vector Fields // Big Idea, Definition & Formula",
+      "duration": 520
+    },
+    {
+      "id": "oCgBCR2ELzY",
+      "title": "Example: Computing the Line Integral of a Vector Field (i.e. Work Done)",
+      "duration": 415
+    },
+    {
+      "id": "2fcT5X5tUvM",
+      "title": "Line Integrals with respect to x or y // Vector Calculus",
+      "duration": 688
+    },
+    {
+      "id": "iXQpDrWrizc",
+      "title": "Flow Integrals and Circulation // Big Idea, Formula & Examples // Vector Calculus",
+      "duration": 523
+    },
+    {
+      "id": "sX9s0JiWATM",
+      "title": "Flux Integrals // Big Idea, Formula & Examples // Vector Calculus",
+      "duration": 696
+    },
+    {
+      "id": "76nzOtupeRc",
+      "title": "Conservative Vector Fields // Vector Calculus",
+      "duration": 377
+    },
+    {
+      "id": "we88mTXj6Yc",
+      "title": "The Fundamental Theorem of Line Integrals // Big Idea & Proof // Vector Calculus",
+      "duration": 398
+    },
+    {
+      "id": "ZGUvyGeNT44",
+      "title": "How to Test if a Vector Field is Conservative // Vector Calculus",
+      "duration": 330
+    },
+    {
+      "id": "jlza4rEFXKM",
+      "title": "Finding the scalar potential function for a conservative vector field // Vector Calculus",
+      "duration": 726
+    },
+    {
+      "id": "gWbfdPUynz0",
+      "title": "Curl or Circulation Density of a Vector Field // Vector Calculus",
+      "duration": 628
+    },
+    {
+      "id": "JB99RbQAilI",
+      "title": "Curl, Circulation, and Green's Theorem // Vector Calculus",
+      "duration": 475
+    },
+    {
+      "id": "GsjJs71SBec",
+      "title": "Divergence, Flux, and Green's Theorem // Vector Calculus",
+      "duration": 633
+    },
+    {
+      "id": "ig62HfJLCG0",
+      "title": "Example: Using Green's Theorem to Compute Circulation & Flux // Vector Calculus",
+      "duration": 516
+    },
+    {
+      "id": "jZRqCfi5_Uo",
+      "title": "Describing Surfaces Explicitly, Implicitly & Parametrically // Vector Calculus",
+      "duration": 665
+    },
+    {
+      "id": "hnjfY9hRIXk",
+      "title": "The Surface Area formula for Parametric Surfaces // Vector Calculus",
+      "duration": 566
+    },
+    {
+      "id": "iTkdDnC0seQ",
+      "title": "Why is the surface area of a Sphere 4pi times radius squared???",
+      "duration": 388
+    },
+    {
+      "id": "e7-nwb_ncbk",
+      "title": "Computing the Surface Area of a surface parametrically // Example 1 // Vector Calculus",
+      "duration": 502
+    },
+    {
+      "id": "qyw2q9xSQW0",
+      "title": "Computing the Surface Area of a surface parametrically // Example 2 // Vector Calculus",
+      "duration": 487
+    },
+    {
+      "id": "k13kwLzoTpo",
+      "title": "Surface Area for Implicit & Explicit Surfaces // Vector Calculus",
+      "duration": 493
+    },
+    {
+      "id": "810yT1zQtxA",
+      "title": "Computing the Surface Area of an Implicitly Defined Surface",
+      "duration": 433
+    },
+    {
+      "id": "0VNhvwnqoTo",
+      "title": "Surface Integrals // Formulas & Applications // Vector Calculus",
+      "duration": 498
+    },
+    {
+      "id": "S48JsV-pCBo",
+      "title": "Orientable vs Non-Orientable Surfaces and the Mobius Strip",
+      "duration": 382
+    },
+    {
+      "id": "eYhUm2KJnM4",
+      "title": "Flux of a Vector Field Across a Surface // Vector Calculus",
+      "duration": 393
+    },
+    {
+      "id": "XiFu9GfTakw",
+      "title": "Computing the Flux Across a Surface // Vector Calculus",
+      "duration": 489
+    },
+    {
+      "id": "aDNyyTtaJdY",
+      "title": "The CURL of a 3D vector field // Vector Calculus",
+      "duration": 506
+    },
+    {
+      "id": "0UvNF_cfBJ4",
+      "title": "Stokes' Theorem // Geometric Intuition & Statement // Vector Calculus",
+      "duration": 512
+    },
+    {
+      "id": "ms4JjH0BANU",
+      "title": "Stokes' Theorem Example // Verifying both Sides // Vector Calculus",
+      "duration": 823
+    },
+    {
+      "id": "pY4t-ikhzhU",
+      "title": "The Divergence Theorem // Geometric Intuition & Statement // Vector Calculus",
+      "duration": 455
+    },
+    {
+      "id": "E7RUu1K8UDM",
+      "title": "Divergence Theorem example: Flux across unit cube // Vector Calculus",
+      "duration": 338
+    },
+    {
+      "id": "RZE7iB71X7o",
+      "title": "Divergence Theorem for regions bounded by two surfaces // Vector Calculus",
+      "duration": 306
+    },
+    {
+      "id": "8PmIarVZmc8",
+      "title": "Deriving Gauss's Law for Electric Flux via the Divergence Theorem from Vector Calculus",
+      "duration": 610
+    },
+    {
+      "id": "PIoqMNL7tV0",
+      "title": "A unified view of Vector Calculus (Stoke's Theorem, Divergence Theorem & Green's Theorem)",
+      "duration": 498
+    }
+  ]
+}

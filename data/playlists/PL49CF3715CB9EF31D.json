@@ -1,0 +1,185 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Gilbert Strang lectures on Linear Algebra (MIT)",
+  "channel": "Robert Talbert",
+  "description": "Lecture videos from Gilbert Strang's course on Linear Algebra at MIT.",
+  "updated": "2014-07-02",
+  "lessons": [
+    {
+      "id": "ZK3O402wf1c",
+      "title": "Lec 1 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 2389
+    },
+    {
+      "id": "QVKj3LADCnA",
+      "title": "2. Elimination with Matrices.",
+      "duration": 2862
+    },
+    {
+      "id": "FX4C-JpTFgY",
+      "title": "3. Multiplication and Inverse Matrices",
+      "duration": 2809
+    },
+    {
+      "id": "5hO3MrzPa0A",
+      "title": "Lec 4 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 3021
+    },
+    {
+      "id": "JibVXBElKL0",
+      "title": "5. Transposes, Permutations, Spaces R^n",
+      "duration": 2862
+    },
+    {
+      "id": "8o5Cmfpeo6g",
+      "title": "6. Column Space and Nullspace",
+      "duration": 2761
+    },
+    {
+      "id": "VqP2tREMvt0",
+      "title": "7. Solving Ax = 0: Pivot Variables, Special Solutions",
+      "duration": 2600
+    },
+    {
+      "id": "9Q1q7s1jTzU",
+      "title": "8. Solving Ax = b: Row Reduced Form R",
+      "duration": 2840
+    },
+    {
+      "id": "yjBerM5jWsc",
+      "title": "9. Independence, Basis, and Dimension",
+      "duration": 3014
+    },
+    {
+      "id": "nHlE7EgJFds",
+      "title": "10. The Four Fundamental Subspaces",
+      "duration": 2960
+    },
+    {
+      "id": "2IdtqGM6KWU",
+      "title": "11. Matrix Spaces; Rank 1; Small World Graphs",
+      "duration": 2756
+    },
+    {
+      "id": "6-wh6yvk6uc",
+      "title": "12. Graphs, Networks, Incidence Matrices",
+      "duration": 2877
+    },
+    {
+      "id": "l88D4r74gtM",
+      "title": "13. Quiz 1 Review",
+      "duration": 2860
+    },
+    {
+      "id": "YzZUIYRCE38",
+      "title": "14. Orthogonal Vectors and Subspaces",
+      "duration": 2988
+    },
+    {
+      "id": "Y_Ac6KiQ1t0",
+      "title": "15. Projections onto Subspaces",
+      "duration": 2931
+    },
+    {
+      "id": "osh80YCg_GM",
+      "title": "16. Projection Matrices and Least Squares",
+      "duration": 2885
+    },
+    {
+      "id": "uNsCkP9mgRk",
+      "title": "Lec 17 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 2965
+    },
+    {
+      "id": "srxexLishgY",
+      "title": "18. Properties of Determinants",
+      "duration": 2952
+    },
+    {
+      "id": "23LLB9mNJvc",
+      "title": "19. Determinant Formulas and Cofactors",
+      "duration": 3197
+    },
+    {
+      "id": "QNpj-gOXW9M",
+      "title": "20. Cramer's Rule, Inverse Matrix, and Volume",
+      "duration": 3061
+    },
+    {
+      "id": "lXNXrLcoerU",
+      "title": "Lec 21 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 3083
+    },
+    {
+      "id": "13r9QY6cmjc",
+      "title": "22. Diagonalization and Powers of A",
+      "duration": 3110
+    },
+    {
+      "id": "IZqwi0wJovM",
+      "title": "23. Differential Equations and exp(At)",
+      "duration": 3063
+    },
+    {
+      "id": "8MF3pz-oYHo",
+      "title": "Lec 24 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 3072
+    },
+    {
+      "id": "sFxA8eIS6tA",
+      "title": "Lec 24b | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 2900
+    },
+    {
+      "id": "umt6BB1nJ4w",
+      "title": "Lec 25 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 2632
+    },
+    {
+      "id": "M0Sa8fLOajA",
+      "title": "26. Complex Matrices; Fast Fourier Transform",
+      "duration": 2872
+    },
+    {
+      "id": "vF7eyJ2g3kU",
+      "title": "27. Positive Definite Matrices and Minima",
+      "duration": 3040
+    },
+    {
+      "id": "z_zYQHmrh08",
+      "title": "Lec 28 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 2756
+    },
+    {
+      "id": "Nx0lRBaXoz4",
+      "title": "Lec 29 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 2495
+    },
+    {
+      "id": "Ts3o2I8_Mxc",
+      "title": "30. Linear Transformations and Their Matrices",
+      "duration": 2967
+    },
+    {
+      "id": "vGkn-3NFGck",
+      "title": "Lec 31 | MIT 18.06 Linear Algebra, Spring 2005",
+      "duration": 3014
+    },
+    {
+      "id": "HgC1l_6ySkc",
+      "title": "32. Quiz 3 Review",
+      "duration": 2826
+    },
+    {
+      "id": "Go2aLo7ZOlU",
+      "title": "33. Left and Right Inverses; Pseudoinverse",
+      "duration": 2513
+    },
+    {
+      "id": "RWvi4Vx4CDc",
+      "title": "34. Final Course Review",
+      "duration": 2606
+    }
+  ]
+}

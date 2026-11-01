@@ -1,0 +1,445 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso de Mecánica Clásica",
+  "channel": "Ramon Carrillo Bastos",
+  "description": "",
+  "updated": "2026-05-14",
+  "lessons": [
+    {
+      "id": "iGcL63gkxPs",
+      "title": "Mec001 Presentacion del curso",
+      "duration": 279
+    },
+    {
+      "id": "g_rnAjpcx-U",
+      "title": "Mec002 El espacio y su descripción",
+      "duration": 3022
+    },
+    {
+      "id": "YXLV-NOzxcc",
+      "title": "Mec003 Cinemática",
+      "duration": 559
+    },
+    {
+      "id": "HsoGhuUwr0U",
+      "title": "Mec004 Sistemas coordenados",
+      "duration": 2082
+    },
+    {
+      "id": "OkHGTkr4zoQ",
+      "title": "Mec005 Leyes de Newton: los dos principios",
+      "duration": 2152
+    },
+    {
+      "id": "7gUJOUxxw9o",
+      "title": "Mec006 Consecuencias de las leyes de Newton",
+      "duration": 1548
+    },
+    {
+      "id": "vlUgMiYGbf0",
+      "title": "Mec007 Energía y trabajo",
+      "duration": 2020
+    },
+    {
+      "id": "z-xKMuFLurc",
+      "title": "Mec008 Fuerzas dependientes de las velocidad",
+      "duration": 534
+    },
+    {
+      "id": "AYSSWcGALmg",
+      "title": "Mec009 Fuerzas conservativas en problemas 1D",
+      "duration": 1799
+    },
+    {
+      "id": "kycMpg0M2zg",
+      "title": "Mec010 Leyes de Newton para sistemas de N partículas",
+      "duration": 2289
+    },
+    {
+      "id": "5ilYdyvxips",
+      "title": "Mec011 Formalismo Lagrangiano. 1 Coordenadas generalizadas",
+      "duration": 2135
+    },
+    {
+      "id": "EZnOq6mkDb8",
+      "title": "Mec012 Formalismo Lagrangiano. 2. El principio de mínima acción",
+      "duration": 2127
+    },
+    {
+      "id": "5kj1Blkav0Y",
+      "title": "Mec013 Formalismo Lagrangiano: 3. La lagrangiana para partículas libres",
+      "duration": 1885
+    },
+    {
+      "id": "AAwI6koyiEs",
+      "title": "Mec014 Formalismo Lagrangiano. 4 Lagrangiana para partícula bajo la acción de un potencial",
+      "duration": 645
+    },
+    {
+      "id": "Pa3OfpY5K48",
+      "title": "Mec015 Formalismo Lagrangiano: Ejemplo 1 Maquina de Atwood",
+      "duration": 1730
+    },
+    {
+      "id": "8NRIIGYS4CM",
+      "title": "Mec016 Formalismo Lagrangiano: Ejemplo 2 partícula en varilla inclinada",
+      "duration": 985
+    },
+    {
+      "id": "deMcxnofdaI",
+      "title": "Mec017 Formalismo Lagrangiano: Ejemplo 3 partícula en un círculo que rota",
+      "duration": 1123
+    },
+    {
+      "id": "Cpvv7XcpbkA",
+      "title": "Mec018 Formalismo Lagrangiano: El principio de D’Alembert",
+      "duration": 1884
+    },
+    {
+      "id": "S-MUP4AlDok",
+      "title": "Mec019 Formalismo Lagrangiano: Ejemplo 4 partícula en parábola",
+      "duration": 1171
+    },
+    {
+      "id": "UkMpHQqGXTc",
+      "title": "Mec020 Formalismo Lagrangiano: Fuerzas de restricción",
+      "duration": 1165
+    },
+    {
+      "id": "TFvpgCsLc4s",
+      "title": "Mec021 Formalismo Lagrangiano: Movimiento en un marco de referencia no inercial",
+      "duration": 1728
+    },
+    {
+      "id": "a0WCY4ivmCI",
+      "title": "Mec022 Formalismo Lagrangiano: Energia en marco de referencia no inercial",
+      "duration": 951
+    },
+    {
+      "id": "lly_d2JdRJQ",
+      "title": "Mec023 Formalismo Lagrangiano: Ecuacion de movimiento marco de referencia no inercial",
+      "duration": 890
+    },
+    {
+      "id": "X5J2lXAYplE",
+      "title": "Mec024 Formalismo Lagrangiano: Movimiento respecto a la Tierra",
+      "duration": 502
+    },
+    {
+      "id": "2dTzPRaT2qU",
+      "title": "Mec025 Formalismo Lagrangiano: Movimiento respecto a la Tierra, aceleración centrifuga",
+      "duration": 904
+    },
+    {
+      "id": "p7m_wIkNb6Q",
+      "title": "Mec026 Movimiento respecto a la tierra, aceleracion de coriolis",
+      "duration": 616
+    },
+    {
+      "id": "BpqqUSBojxY",
+      "title": "Mec027 Formalismo Lagrangiano: Lagrangiana Electromagnética",
+      "duration": 1349
+    },
+    {
+      "id": "T_BPCJxLABI",
+      "title": "Mec028 Formalismo Lagrangiano: Leyes de conservación",
+      "duration": 1242
+    },
+    {
+      "id": "OjAaRma7ENc",
+      "title": "Mec029 Formalismo Lagrangiano: Potenciales dependientes de la velocidad y función de disipación",
+      "duration": 653
+    },
+    {
+      "id": "IopuK5_dKlA",
+      "title": "Mec030 Fuerzas Centrales: Masa reducida",
+      "duration": 1363
+    },
+    {
+      "id": "l5Jq44V_Lvs",
+      "title": "Mec031 Fuerzas Centrales: Movimiento en un campo central",
+      "duration": 1502
+    },
+    {
+      "id": "kqVlCU1G52I",
+      "title": "Mec032 Fuerzas Centrales: El Péndulo Esférico",
+      "duration": 337
+    },
+    {
+      "id": "euRXp-Gt4mI",
+      "title": "Mec033 Fuerzas Centrales: Ley de gravitación universal",
+      "duration": 600
+    },
+    {
+      "id": "wJRmdGENeHE",
+      "title": "Mec034 Fuerzas Centrales: Potencial gravitacional de un esfera hueca",
+      "duration": 1079
+    },
+    {
+      "id": "gWCQrwPCwJo",
+      "title": "Mec035 Fuerzas Centrales: El problema de Kepler",
+      "duration": 2867
+    },
+    {
+      "id": "cbuyhGeW0Sc",
+      "title": "Mec036 Fuerzas Centrales: La primera Ley de Kepler",
+      "duration": 1249
+    },
+    {
+      "id": "fAQq0UATZaA",
+      "title": "Mec037 Fuerzas Centrales: Segunda y tercera ley de Kepler",
+      "duration": 336
+    },
+    {
+      "id": "5sb9jQSokfI",
+      "title": "Mec038 Fuerzas Centrales: Leyes de Keppler (recordatorio resumen)",
+      "duration": 636
+    },
+    {
+      "id": "Tx6tJtJDahg",
+      "title": "Mec039 Fuerzas Centrales: Dispersión I",
+      "duration": 1548
+    },
+    {
+      "id": "m8eR7HEPZbo",
+      "title": "Mec040 Fuerzas Centrales: Dispersión II",
+      "duration": 1068
+    },
+    {
+      "id": "FSbhBLV1l4Y",
+      "title": "Mec041 Fuerzas Centrales: Dispersion III",
+      "duration": 561
+    },
+    {
+      "id": "lfx7UAbo0oU",
+      "title": "Mec042 Fuerzas Centrales: Dispersion IV",
+      "duration": 1986
+    },
+    {
+      "id": "GnPEHkUm5dM",
+      "title": "Mec043 Fuerzas Centrales: Dispersion V",
+      "duration": 1022
+    },
+    {
+      "id": "6aJTgBKcoLI",
+      "title": "Mec044 Fuerzas Centrales: Dispersion VI",
+      "duration": 1823
+    },
+    {
+      "id": "kdFbDlKXqm8",
+      "title": "Mec045 Fuerzas Centrales: Dispersion VII",
+      "duration": 719
+    },
+    {
+      "id": "uwQfIDESJok",
+      "title": "Mec045-1 Ejercicio: Dispersión por una esfera rígida",
+      "duration": 328
+    },
+    {
+      "id": "6mm5Ge3IvE0",
+      "title": "Mec046 Oscilaciones I: Introducción",
+      "duration": 1333
+    },
+    {
+      "id": "kSFBvd4_ahw",
+      "title": "Mec047 Oscilaciones II: oscilaciones en dos dimensiones.",
+      "duration": 1344
+    },
+    {
+      "id": "LKzLLU8Khas",
+      "title": "Mec048 Oscilaciones III: Oscilaciones Amortiguadas 01",
+      "duration": 446
+    },
+    {
+      "id": "m56VucSEIFs",
+      "title": "Mec049 Oscilaciones IV: Soluciones del Oscilador amortiguado",
+      "duration": 1443
+    },
+    {
+      "id": "UnTAm-wDWG8",
+      "title": "Mec050 Oscilaciones V",
+      "duration": 715
+    },
+    {
+      "id": "nkU1z7AnnQo",
+      "title": "Mec051 Oscilaciones VI: Oscilaciones Forzadas",
+      "duration": 2174
+    },
+    {
+      "id": "oU3zKFYL8qA",
+      "title": "Mec052 Oscilaciones VII: Respuesta de un oscilador a una fuerza impulsiva",
+      "duration": 1704
+    },
+    {
+      "id": "84dzB32oaiQ",
+      "title": "Mec053 Oscilaciones VIII: Respuesta a una función impulso cuadrado I",
+      "duration": 829
+    },
+    {
+      "id": "FP4gGzr_qpc",
+      "title": "Mec054 Oscilaciones IX: Respuesta a una función impulso cuadrado II",
+      "duration": 1069
+    },
+    {
+      "id": "3-z4eKLg76s",
+      "title": "Mec055 Oscilaciones X: Respuesta a una función impulso cuadrado III",
+      "duration": 1094
+    },
+    {
+      "id": "f_BOWOVt7BQ",
+      "title": "Mec056 Oscilaciones XI: Respuesta a una función impulso cuadrado IV",
+      "duration": 554
+    },
+    {
+      "id": "G6BGppXdU4A",
+      "title": "Mec057 Oscilaciones XII: Respuesta a una fuerza arbitraria",
+      "duration": 1454
+    },
+    {
+      "id": "i0pNoVgxrlI",
+      "title": "Mec058 Oscilaciones Acopladas I: La lagrangiana",
+      "duration": 2586
+    },
+    {
+      "id": "ke5mi5SdoM4",
+      "title": "Mec059 Oscilaciones Acopladas II: Ejemplo 1 grado de libertad",
+      "duration": 532
+    },
+    {
+      "id": "mQ1rT2HVFTM",
+      "title": "Mec060 Oscilaciones Acopladas III: Modos normales",
+      "duration": 2300
+    },
+    {
+      "id": "ZH-GFNJ31Eg",
+      "title": "Mec061 Oscilaciones Acopladas IV",
+      "duration": 2256
+    },
+    {
+      "id": "XTSvNN_K94U",
+      "title": "Mec062 Oscilaciones Acopladas V",
+      "duration": 1326
+    },
+    {
+      "id": "XM-nAez5qbs",
+      "title": "Mec063 Oscilaciones Acopladas VI",
+      "duration": 1174
+    },
+    {
+      "id": "g8v_cTkIvOw",
+      "title": "Mec064 Oscilaciones Acopladas VII",
+      "duration": 1169
+    },
+    {
+      "id": "rM24Gh6V4Oc",
+      "title": "Mec065 Oscilaciones Acopladas VIII",
+      "duration": 1011
+    },
+    {
+      "id": "2jFL6V4JkZQ",
+      "title": "Mec066 Cuerpo Rigido I: Definición del problema",
+      "duration": 1843
+    },
+    {
+      "id": "vIxe40wPoS0",
+      "title": "Mec067 Cuerpo Rigido II: El tensor de inercia",
+      "duration": 2220
+    },
+    {
+      "id": "0Xt1kDPaXxQ",
+      "title": "Mec068 Cuerpo Rigido III: Propiedades del Tensor de Inercia",
+      "duration": 1033
+    },
+    {
+      "id": "vVml1QAQLUc",
+      "title": "Mec069 Cuerpo Rigido IV: El teorema de ejes paralelos",
+      "duration": 1378
+    },
+    {
+      "id": "G8KacnbuWQY",
+      "title": "Mec070 Cuerpo rígido V: Tensor de inercia de un cubo",
+      "duration": 1158
+    },
+    {
+      "id": "TgbIodqeY2Y",
+      "title": "Mec071 Cuerpo rígido VI: Ejes principales de inercia",
+      "duration": 978
+    },
+    {
+      "id": "mCC72cdYDs4",
+      "title": "Mec072 Cuerpo Rigido VII: Vector de momento angular",
+      "duration": 945
+    },
+    {
+      "id": "t-v6RLV9sh8",
+      "title": "Mec073 Cuerpo Rigido VIII: Movimiento libre de fuerzas",
+      "duration": 1744
+    },
+    {
+      "id": "beE_WfBc8v4",
+      "title": "Mec074 Cuerpo Rigido IX: Ecuaciones de movimiento",
+      "duration": 1148
+    },
+    {
+      "id": "Kzsh-IpQgtQ",
+      "title": "Mec075 Cuerpo Rígido X: Ángulos de Euler",
+      "duration": 2857
+    },
+    {
+      "id": "MNqYNb4H2bw",
+      "title": "Mec076 Cuerpo Rígido XI: Solución del trompo simétrico pesado",
+      "duration": 2854
+    },
+    {
+      "id": "-zyaDdeRybU",
+      "title": "Mec077 Cuerpo Rígido XII: Ecuaciones de Euler",
+      "duration": 1342
+    },
+    {
+      "id": "GLXKQEYkVUw",
+      "title": "Mec078 Cuerpo Rígido XIII: movimiento libre de un trompo asimétrico",
+      "duration": 475
+    },
+    {
+      "id": "4XQ-CzQ2Uq4",
+      "title": "Mec079 Formalismo de Hamilton I: Introducción",
+      "duration": 665
+    },
+    {
+      "id": "PMLSLxs1_cg",
+      "title": "Mec080 Formalismo de Hamilton II: Transformaciones de Legendre",
+      "duration": 981
+    },
+    {
+      "id": "ChVCIsvbRx0",
+      "title": "Mec081 Formalismo Hamiltoniano III: Definición",
+      "duration": 1008
+    },
+    {
+      "id": "_LL2sxLGYXs",
+      "title": "Mec082 Formalismo Hamiltoniano IV: Sistemas Conservativos",
+      "duration": 566
+    },
+    {
+      "id": "YFp73EQ2mH8",
+      "title": "Mec083 Formalismo Hamiltoniano VI: El hamiltoniano de una particula cargada",
+      "duration": 1360
+    },
+    {
+      "id": "WIDj-jByHR8",
+      "title": "Mec084 Formalismo Hamiltoniano V: Coordenadas cíclicas y Brackets de Poisson",
+      "duration": 884
+    },
+    {
+      "id": "qhHDoOuj9HQ",
+      "title": "Mec085 El principio de Maupertuis",
+      "duration": 1076
+    },
+    {
+      "id": "WpQa1cVMhwM",
+      "title": "Mec086 Transformaciones Canónicas",
+      "duration": 533
+    }
+  ]
+}

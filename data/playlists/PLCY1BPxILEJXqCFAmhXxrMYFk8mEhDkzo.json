@@ -1,0 +1,510 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 1. Matrices",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-03-27",
+  "lessons": [
+    {
+      "id": "K8PnLXt40ao",
+      "title": "Curso de álgebra lineal | Introducción",
+      "duration": 162
+    },
+    {
+      "id": "D1nSy06buSY",
+      "title": "Definición de matriz",
+      "duration": 473
+    },
+    {
+      "id": "lWXUJPxNvf8",
+      "title": "Matriz | Ejemplo",
+      "duration": 254
+    },
+    {
+      "id": "qklcvGovUvk",
+      "title": "Igualdad de matrices | Ejercicio 1",
+      "duration": 486
+    },
+    {
+      "id": "yyu8sFNd-5o",
+      "title": "Igualdad de matrices | Ejercicio 2",
+      "duration": 282
+    },
+    {
+      "id": "Up8YgUkKSgQ",
+      "title": "Suma de matrices",
+      "duration": 622
+    },
+    {
+      "id": "QEt5kto3CoA",
+      "title": "Propiedades de la suma de matrices",
+      "duration": 507
+    },
+    {
+      "id": "1HrG86nFzc8",
+      "title": "Propiedad conmutativa de la suma de matrices",
+      "duration": 375
+    },
+    {
+      "id": "D68YVEhtyiI",
+      "title": "Multiplicación de una matriz por un escalar",
+      "duration": 544
+    },
+    {
+      "id": "8UKO9-3XvH0",
+      "title": "Propiedades de la multiplicación de una matriz por un escalar",
+      "duration": 232
+    },
+    {
+      "id": "7BMb4WuJx3U",
+      "title": "Demostración propiedad distributiva de un escalar por una matriz",
+      "duration": 737
+    },
+    {
+      "id": "g7gi5wc-QKY",
+      "title": "Demostración propiedad distributiva de escalares por una matriz",
+      "duration": 511
+    },
+    {
+      "id": "KABGo8ggjPY",
+      "title": "Restas de matrices",
+      "duration": 449
+    },
+    {
+      "id": "IhCjpEZf-7Y",
+      "title": "Multiplicación de matrices | Ejercicio 1",
+      "duration": 868
+    },
+    {
+      "id": "RE0WBImzs9E",
+      "title": "Multiplicación de matrices | Ejercicio 2",
+      "duration": 425
+    },
+    {
+      "id": "W7e2xez_ZPQ",
+      "title": "Multiplicación de matrices | Ejercicio 3",
+      "duration": 223
+    },
+    {
+      "id": "NKgRN2EO5qI",
+      "title": "Multiplicación de matrices | Ejercicio 4",
+      "duration": 389
+    },
+    {
+      "id": "c69bXj8ucpQ",
+      "title": "Tamaño de las matrices para efectuar operaciones",
+      "duration": 304
+    },
+    {
+      "id": "fJx_KKeTJ6k",
+      "title": "Propiedades del producto de matrices",
+      "duration": 264
+    },
+    {
+      "id": "v_Z_kbIUNBo",
+      "title": "Demostración propiedad modulativa de matrices",
+      "duration": 656
+    },
+    {
+      "id": "dFINtE_qNow",
+      "title": "Demostración propiedad distributiva de matrices",
+      "duration": 348
+    },
+    {
+      "id": "ywaGjHXLJkE",
+      "title": "Demostración propiedad asociativa de matrices",
+      "duration": 706
+    },
+    {
+      "id": "MJTdLhu9uMY",
+      "title": "Demostración propiedad conmutativa de matrices",
+      "duration": 279
+    },
+    {
+      "id": "hlQA8ItsKXA",
+      "title": "Potencia de una matriz | Ejemplo 1",
+      "duration": 461
+    },
+    {
+      "id": "USdaqo11uD0",
+      "title": "Potencia de una matriz | Ejemplo 2",
+      "duration": 457
+    },
+    {
+      "id": "WNxD7shImzU",
+      "title": "Potencia de una matriz | Ejemplo 3",
+      "duration": 323
+    },
+    {
+      "id": "ZLZfWphAHNU",
+      "title": "Potencia de una matriz | Ejemplo 4",
+      "duration": 801
+    },
+    {
+      "id": "X1x5YBvC2yo",
+      "title": "Potencia de una matriz | Ejemplo 5",
+      "duration": 632
+    },
+    {
+      "id": "9LWSo0SSY5s",
+      "title": "Potencia de una matriz | Ejemplo 6",
+      "duration": 530
+    },
+    {
+      "id": "9CaioDz_t8Y",
+      "title": "Potencia de una matriz | Ejemplo 7",
+      "duration": 718
+    },
+    {
+      "id": "HtoiD4vQLiU",
+      "title": "Matriz cíclica | Ejemplo 1",
+      "duration": 676
+    },
+    {
+      "id": "NiHx0lzXf0Y",
+      "title": "Matriz cíclica | Ejemplo 2",
+      "duration": 500
+    },
+    {
+      "id": "pdE_euUh3cg",
+      "title": "Matriz cíclica | Ejemplo 3",
+      "duration": 627
+    },
+    {
+      "id": "VoBTzbFV_90",
+      "title": "Aplicación de matrices | Ejemplo 1",
+      "duration": 327
+    },
+    {
+      "id": "lyk4-kcPO4o",
+      "title": "Aplicación de matrices | Ejemplo 2",
+      "duration": 459
+    },
+    {
+      "id": "BxLaVoeFjq8",
+      "title": "Aplicación de matrices | Ejemplo 3",
+      "duration": 606
+    },
+    {
+      "id": "jNB9ZFcRwMc",
+      "title": "Aplicación de matrices | Ejemplo 4",
+      "duration": 815
+    },
+    {
+      "id": "k3ER8HZZx58",
+      "title": "Aplicación de la propiedad distributiva",
+      "duration": 425
+    },
+    {
+      "id": "Lrx5k6iUT-k",
+      "title": "Solución de una ecuación matricial",
+      "duration": 310
+    },
+    {
+      "id": "USwCOdz1zt0",
+      "title": "Sistema de ecuaciones matriciales",
+      "duration": 236
+    },
+    {
+      "id": "Y79DmsUOSxI",
+      "title": "Tipos de matrices y traza de una matriz",
+      "duration": 776
+    },
+    {
+      "id": "cVH58XBSYHo",
+      "title": "Matriz identica",
+      "duration": 282
+    },
+    {
+      "id": "5eQzqInDwek",
+      "title": "Matriz diagonal",
+      "duration": 303
+    },
+    {
+      "id": "b-6T1j41ak8",
+      "title": "Matrices escalares",
+      "duration": 237
+    },
+    {
+      "id": "rKj7f05UhGI",
+      "title": "Matriz inversa y sus propiedades",
+      "duration": 512
+    },
+    {
+      "id": "u_ok5u-ZNfQ",
+      "title": "Demostración de propiedades de la matriz inversa",
+      "duration": 266
+    },
+    {
+      "id": "lL0Aokayb-Y",
+      "title": "Unicidad de la matriz inversa",
+      "duration": 152
+    },
+    {
+      "id": "FERp8rTd2G8",
+      "title": "Matrices conmutativas",
+      "duration": 616
+    },
+    {
+      "id": "YlCrYlH0Ik0",
+      "title": "Matriz transpuesta",
+      "duration": 565
+    },
+    {
+      "id": "GbeZcd7Zrqo",
+      "title": "Propiedades de la matriz transpuesta",
+      "duration": 354
+    },
+    {
+      "id": "hal0LJb1syM",
+      "title": "Demostración de propiedad de la matriz transpuesta",
+      "duration": 409
+    },
+    {
+      "id": "Vx4u9mMl1_k",
+      "title": "Matriz simétrica | Ejemplo 1",
+      "duration": 756
+    },
+    {
+      "id": "D9hBFiZiZjI",
+      "title": "Matriz simétrica | Ejemplo 2",
+      "duration": 234
+    },
+    {
+      "id": "Rmahv7O-EHo",
+      "title": "Matriz simétrica | Ejemplo 3",
+      "duration": 191
+    },
+    {
+      "id": "Q5wnjcmcNCg",
+      "title": "Matriz simétrica | Ejemplo 4",
+      "duration": 311
+    },
+    {
+      "id": "AF8vWT-Y7hs",
+      "title": "Propiedades de la matriz simétrica",
+      "duration": 287
+    },
+    {
+      "id": "76S9AqwOjZQ",
+      "title": "Matriz simétrica | Ejemplo 5",
+      "duration": 417
+    },
+    {
+      "id": "WYO59M0BZho",
+      "title": "Matriz simétrica | Ejemplo 6",
+      "duration": 300
+    },
+    {
+      "id": "eTjA-a-zBo8",
+      "title": "Matrices de varios tipos",
+      "duration": 219
+    },
+    {
+      "id": "Jn1q04hKerI",
+      "title": "Matriz simétrica de 3x3",
+      "duration": 191
+    },
+    {
+      "id": "zh_sUCNp-eY",
+      "title": "Matriz antisimétrica | Ejemplo 1",
+      "duration": 404
+    },
+    {
+      "id": "4deihN5wWRs",
+      "title": "Matriz antisimétrica | Ejemplo 2",
+      "duration": 363
+    },
+    {
+      "id": "k8dqWwrUiDI",
+      "title": "Matriz antisimétrica | Ejemplo 3",
+      "duration": 316
+    },
+    {
+      "id": "6-2V57zE10M",
+      "title": "Matriz antisimétrica | Ejemplo 4",
+      "duration": 168
+    },
+    {
+      "id": "Ykl8YxQykjY",
+      "title": "Propiedad de la matriz antisimétrica",
+      "duration": 166
+    },
+    {
+      "id": "AFdTrcwSwUg",
+      "title": "Propiedad de la matriz simétrica y antisimétrica",
+      "duration": 610
+    },
+    {
+      "id": "X8oWGTmLo_g",
+      "title": "Matriz involutiva | Ejercicio 1",
+      "duration": 300
+    },
+    {
+      "id": "FUTDNSyrKB8",
+      "title": "Matriz involutiva | Ejercicio 2",
+      "duration": 296
+    },
+    {
+      "id": "45uvnhlsQh4",
+      "title": "Propiedad de la matriz involutiva",
+      "duration": 313
+    },
+    {
+      "id": "W1fU3TWs9Cs",
+      "title": "Matriz idempotente",
+      "duration": 160
+    },
+    {
+      "id": "C1D7BSIc9uo",
+      "title": "Propiedad de la matriz idempotente",
+      "duration": 293
+    },
+    {
+      "id": "Nhw0kIJwEvs",
+      "title": "Matriz idempotente",
+      "duration": 375
+    },
+    {
+      "id": "t1Ga7-Wp_mM",
+      "title": "Matriz ortogonal",
+      "duration": 278
+    },
+    {
+      "id": "IdNgor3x3xo",
+      "title": "Producto de matrices ortogonales",
+      "duration": 241
+    },
+    {
+      "id": "2EmRBrsJsnA",
+      "title": "Propiedad matrices ortogonales e involutivas",
+      "duration": 457
+    },
+    {
+      "id": "VZt3GxnZxzE",
+      "title": "Matriz triangular inferior",
+      "duration": 272
+    },
+    {
+      "id": "imZMLyDWCY0",
+      "title": "Matriz triangular superior",
+      "duration": 298
+    },
+    {
+      "id": "ilVob1n6PA4",
+      "title": "Matriz triangular",
+      "duration": 239
+    },
+    {
+      "id": "w4SYkLpytSs",
+      "title": "Matriz conjugada",
+      "duration": 373
+    },
+    {
+      "id": "w3CpsYnM7C4",
+      "title": "Propiedades de la matriz conjugada",
+      "duration": 371
+    },
+    {
+      "id": "iWinDyjHH9w",
+      "title": "Matriz real",
+      "duration": 268
+    },
+    {
+      "id": "6YRiq_NVapw",
+      "title": "Matriz hermítica | Ejemplo 1",
+      "duration": 1146
+    },
+    {
+      "id": "Hd3cooYa0v4",
+      "title": "Matriz hermítica | Ejemplo 2",
+      "duration": 512
+    },
+    {
+      "id": "ASc6vyjLC0o",
+      "title": "Matriz hermítica | Ejemplo 3",
+      "duration": 185
+    },
+    {
+      "id": "R08LhTCPXzo",
+      "title": "Matriz hermítica | Ejemplo 4",
+      "duration": 271
+    },
+    {
+      "id": "Mcp4n1RfZKs",
+      "title": "Matriz antihermitica | Ejemplo 1",
+      "duration": 815
+    },
+    {
+      "id": "TtXiPeK76_E",
+      "title": "Matriz antihermitica | Ejemplo 2",
+      "duration": 489
+    },
+    {
+      "id": "a9S1E4L1Tto",
+      "title": "Operaciones elementales en filas o columnas",
+      "duration": 279
+    },
+    {
+      "id": "5AVXwjFunkM",
+      "title": "Matriz elemental",
+      "duration": 336
+    },
+    {
+      "id": "I9tLKzVjaPc",
+      "title": "Matriz semejante",
+      "duration": 314
+    },
+    {
+      "id": "Kjkn1uOJvRo",
+      "title": "Semejanza de matrices",
+      "duration": 545
+    },
+    {
+      "id": "F2ZZcc_tdaw",
+      "title": "Matriz semejante",
+      "duration": 381
+    },
+    {
+      "id": "Xuz-kBQ2TCQ",
+      "title": "Matriz escalonada",
+      "duration": 497
+    },
+    {
+      "id": "4VYdtrqgHVU",
+      "title": "Matriz escalonada reducida",
+      "duration": 806
+    },
+    {
+      "id": "P1smsvqp57I",
+      "title": "Matrices escalonadas y reducidas",
+      "duration": 324
+    },
+    {
+      "id": "WtAixF2ZaEA",
+      "title": "Matriz semejante a una escalonada",
+      "duration": 515
+    },
+    {
+      "id": "8rLL-8dxCGg",
+      "title": "Matriz semejante a una escalonada reducida",
+      "duration": 388
+    },
+    {
+      "id": "flJDv1F3zME",
+      "title": "Matriz semejante a una escalonada y escalonada reducida",
+      "duration": 252
+    },
+    {
+      "id": "6g23rJ-RJdY",
+      "title": "Suma y resta de cubos en matrices",
+      "duration": 249
+    },
+    {
+      "id": "DkNiRdJ8Ht8",
+      "title": "Propiedad cancelativa de matrices",
+      "duration": 249
+    }
+  ]
+}

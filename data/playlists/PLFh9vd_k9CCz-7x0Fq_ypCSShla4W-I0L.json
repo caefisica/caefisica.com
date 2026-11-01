@@ -1,0 +1,60 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "quantum bits",
+  "channel": "Albeiro Restrepo",
+  "description": "",
+  "updated": "2020-06-15",
+  "lessons": [
+    {
+      "id": "3ajnyICS_Js",
+      "title": "Teorema variacional",
+      "duration": 554
+    },
+    {
+      "id": "ywrZoeKc44c",
+      "title": "El Hamiltoniano molecular",
+      "duration": 527
+    },
+    {
+      "id": "IQ3LUmsC9jw",
+      "title": "Aproximación de Born-Oppenheimer",
+      "duration": 934
+    },
+    {
+      "id": "fACdCjZTVk8",
+      "title": "Simetría y Teoría de Grupos 3: Estructura de los grupos de simetría molecular",
+      "duration": 1554
+    },
+    {
+      "id": "2jSLmHNPD1g",
+      "title": "Simetría y Teoría de Grupos 4: Representaciones de los grupos de simetría molecular",
+      "duration": 1428
+    },
+    {
+      "id": "PEVM-YcnE-A",
+      "title": "Simetría y Teoría de Grupos 5: Representaciones matriciales de los grupos de simetría molecular",
+      "duration": 1642
+    },
+    {
+      "id": "ntlZI_pgMHA",
+      "title": "Simetría y Teoría de Grupos 6: Reducción de las dimensiones de las representaciones matriciales",
+      "duration": 1561
+    },
+    {
+      "id": "Itn8dWs2Nn8",
+      "title": "Simetría y Teoría de Grupos 7: Gran teorema de la ortogonalidad y consecuencias",
+      "duration": 2489
+    },
+    {
+      "id": "EKcd9FGyP4Y",
+      "title": "Simetría y Teoría de Grupos 8: Construcción de las tablas de caracteres",
+      "duration": 2356
+    },
+    {
+      "id": "ZyTPZ9ff8iY",
+      "title": "Simetría y Teoría de Grupos 9: Orbitales moleculares del BF3",
+      "duration": 2457
+    }
+  ]
+}

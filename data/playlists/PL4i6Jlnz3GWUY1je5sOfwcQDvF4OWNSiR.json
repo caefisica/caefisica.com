@@ -1,0 +1,115 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso de Física Moderna",
+  "channel": "Ramon Carrillo Bastos",
+  "description": "",
+  "updated": "2026-09-29",
+  "lessons": [
+    {
+      "id": "B8L7vDLn82Y",
+      "title": "Fisica Moderna 01 - El descubrimiento de Maxwell",
+      "duration": 796
+    },
+    {
+      "id": "4OKyBO5Hnys",
+      "title": "Física Moderna 02 - Radiación térmica y el cuerpo negro",
+      "duration": 576
+    },
+    {
+      "id": "IB2pKrDwh8g",
+      "title": "Física Moderna 03 - Teoría clásica de la cavidad radiante (cuerpo negro)",
+      "duration": 1149
+    },
+    {
+      "id": "Rm8iMjmaemg",
+      "title": "Física Moderna 04 - La distribución de Maxwell-Boltzmann",
+      "duration": 1330
+    },
+    {
+      "id": "OW1feKkN7B0",
+      "title": "Física Moderna 05 - Teoría de Planck de la cavidad radiante",
+      "duration": 937
+    },
+    {
+      "id": "L9opHqIpesY",
+      "title": "Física Moderna 06 - Efecto fotoeléctrico y Einstein: La cuantización como fenómeno universal",
+      "duration": 1440
+    },
+    {
+      "id": "MrqqkwNlkBM",
+      "title": "Física Moderna 07 - Movimiento relativo: Transformaciones de Galileo",
+      "duration": 872
+    },
+    {
+      "id": "G4MXgNltdBA",
+      "title": "Fisica Moderna 08 - Efecto Doppler",
+      "duration": 686
+    },
+    {
+      "id": "wQZGpA81eiA",
+      "title": "Física Moderna 09 - El eter y el experimento de Michelson y Morley",
+      "duration": 1437
+    },
+    {
+      "id": "aDA13m8yUaw",
+      "title": "Física Moderna 10 - Las transformaciones de Lorentz",
+      "duration": 1385
+    },
+    {
+      "id": "zXfuVOX9Hfk",
+      "title": "Fisica Moderna 11 - Relatividad Especial de Einstein",
+      "duration": 1625
+    },
+    {
+      "id": "IHd93mY3IG0",
+      "title": "Fisica Moderna 12 - Consecuencias de la Relatividad: Dilatación del tiempo y contracción del espacio",
+      "duration": 893
+    },
+    {
+      "id": "dJNH19RtEms",
+      "title": "Fisica Moderna 13 - Transformación de Lorentz para velocidades",
+      "duration": 437
+    },
+    {
+      "id": "Xn5SF_M9ACs",
+      "title": "Fisica Moderna 14 - Efecto Doppler Relativista",
+      "duration": 461
+    },
+    {
+      "id": "d2LaW-mRuVc",
+      "title": "Fisica Moderna 15 - Momentum y masa relativista, E=mc2",
+      "duration": 1028
+    },
+    {
+      "id": "HpSrcgUXHXM",
+      "title": "Fisica Moderna 16 - Diffracción de Rayos X y la Ley de Bragg",
+      "duration": 744
+    },
+    {
+      "id": "NIhxY5X9Bts",
+      "title": "Fisica Moderna 17 - El efecto Compton",
+      "duration": 909
+    },
+    {
+      "id": "Bg03HAO2Z64",
+      "title": "Fisica Moderna 18 - Espectros atómicos",
+      "duration": 445
+    },
+    {
+      "id": "K4sKRJJEohI",
+      "title": "Física Moderna 19 - Modelo Atómico de Thomson: El modelo de panqué con pasas",
+      "duration": 543
+    },
+    {
+      "id": "Z5D7FVtAnII",
+      "title": "Física Moderna 20 - Modelo Atómico de Rutherford",
+      "duration": 863
+    },
+    {
+      "id": "DUh85iP2nMc",
+      "title": "Física Moderna 21 - Modelo atómico de Bohr",
+      "duration": 897
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Carga Eléctrica y Campo Eléctrico",
+  "channel": "Cesar Antonio Izquierdo Merlo",
+  "description": "",
+  "updated": "2014-07-01",
+  "lessons": [
+    {
+      "id": "cFaf1_P2Y8c",
+      "title": "Clase 1: Introducción a la teoría Electromagnética Clásica y modelos atómicos.",
+      "duration": 1782
+    },
+    {
+      "id": "Wiu2zznG4sM",
+      "title": "Clase 2: Continuación de modelos atómicos.",
+      "duration": 1173
+    },
+    {
+      "id": "YLkQ6cjaOtE",
+      "title": "Clase 3: El átomo, su núcleo y los electrones.",
+      "duration": 1925
+    },
+    {
+      "id": "UURQl2Ew-9I",
+      "title": "Clase 4: Experimentos demostrativos.",
+      "duration": 1638
+    },
+    {
+      "id": "rqSD9pq7PsI",
+      "title": "clase 5: La ley de Coulomb mas problema.",
+      "duration": 2227
+    },
+    {
+      "id": "cF1uEd9wrO4",
+      "title": "Clase 6: Problema 1; Transferencia de carga de dos esferas conductoras idénticas.",
+      "duration": 1341
+    },
+    {
+      "id": "xdmTT0Q9hWg",
+      "title": "Clase 7: Problema 2; Interacción entre dos pequeñas esferas cargadas.",
+      "duration": 1592
+    },
+    {
+      "id": "ig0uXC-F8jA",
+      "title": "Clase 8: Fuerza neta sobre una carga, más problema.",
+      "duration": 1684
+    },
+    {
+      "id": "dZgpUYZC860",
+      "title": "clase 9: problema 3; Sistema de tres cargas puntuales,interaccionando.",
+      "duration": 1576
+    },
+    {
+      "id": "DKJXvSf1iLM",
+      "title": "Clase 10: Cálculo de la fuerza neta que experimenta una carga debido a otras dos.",
+      "duration": 1040
+    },
+    {
+      "id": "EIXooch5s8Q",
+      "title": "Clase 11: Concepto del Campo Eléctrico para una carga puntual y un conjunto discreto.",
+      "duration": 1442
+    },
+    {
+      "id": "3kiqUB2whAM",
+      "title": "Clase 12: Problema 5; Cálculo de la magnitud del campo eléctrico debido a dos cargas.",
+      "duration": 1458
+    },
+    {
+      "id": "C2ea6k3_9Og",
+      "title": "Clase 13: problema 6; Cálculo del campo eléctrico en el centro de un cuadrado.",
+      "duration": 1665
+    },
+    {
+      "id": "TzLmQEtcO0M",
+      "title": "Clase 14: Cálculo del Campo eléctrico, distribución continua de carga.",
+      "duration": 1752
+    },
+    {
+      "id": "ExXTqTRqsSA",
+      "title": "Clase 15: Problema 7 y 8 dos ejemplos de examen.",
+      "duration": 1520
+    },
+    {
+      "id": "nvtYMk3CEGs",
+      "title": "Clase 16: Problema 9, Segmento circular",
+      "duration": 1789
+    },
+    {
+      "id": "mlVoFkIkM9w",
+      "title": "Clase 17: Problema 10; Cálculo del Campo Eléctrico debido a una varilla lineal.",
+      "duration": 1968
+    },
+    {
+      "id": "CujVY20TSek",
+      "title": "Clase 18: Problema 11; Cálculo del Campo Eléctrico debido a un aro como de un disco.",
+      "duration": 2010
+    },
+    {
+      "id": "OT_dRuHztvI",
+      "title": "Clase 19: Problema 12; Se calcula el campo eléctrico debido a una corona circular.",
+      "duration": 1933
+    },
+    {
+      "id": "LZe-mgFxU0w",
+      "title": "Clase 20: Carga en una región de Campo eléctrico constante. Teoría y un problema.",
+      "duration": 1520
+    },
+    {
+      "id": "EayhGm0pwTM",
+      "title": "Clase 21: Dos problemas en una dimensión de cargas dentro de un campo eléctrico constante.",
+      "duration": 1218
+    },
+    {
+      "id": "tipPO7oZfXw",
+      "title": "Clase 22: Se lanza un electrón dentro de una región de campo eléctrico constante.",
+      "duration": 2235
+    },
+    {
+      "id": "0LX1R3TH4vY",
+      "title": "Clase 23: Se lanza un electrón y luego un protón en una región de campo eléctrico constante.",
+      "duration": 1098
+    },
+    {
+      "id": "PbpWy7TAnPU",
+      "title": "Clase 24: Se lanzan protones a una región de campo eléctrico constante.",
+      "duration": 1186
+    },
+    {
+      "id": "ojvXGebnEUA",
+      "title": "Clase 25: Dipolo Eléctrico dentro de una región de Campo Eléctrico.",
+      "duration": 1367
+    },
+    {
+      "id": "eN1k6gvrkac",
+      "title": "Clase 26: Energía potencial de un dipolo en un campo eléctrico, más problema.",
+      "duration": 1505
+    },
+    {
+      "id": "jndzYmj1Mrc",
+      "title": "Clase 27: Dos problemas de dipolo eléctrico.",
+      "duration": 996
+    },
+    {
+      "id": "3p5vlDTHm78",
+      "title": "Clase 28: Problema de dipolo eléctrico con énfasis en su carácter vectorial.",
+      "duration": 1210
+    },
+    {
+      "id": "sWsY5EuOW-Q",
+      "title": "Clase 29: La ley de Gauss, Teoría.",
+      "duration": 1966
+    },
+    {
+      "id": "EeeuOZa-5BQ",
+      "title": "Clase 30: Cinco problemas sencillos sobre el flujo eléctrico y ley de Gauss.",
+      "duration": 1783
+    },
+    {
+      "id": "3FuKloOwWsU",
+      "title": "Clase 31: Flujo a través de un cubo y cálculo del campo eléctrico en una esfera.",
+      "duration": 1464
+    },
+    {
+      "id": "-LHg5DNzppg",
+      "title": "Clase 32: Campo eléctrico de una línea de carga y de un cilindro no conductor.",
+      "duration": 1991
+    },
+    {
+      "id": "_51QRpieG7o",
+      "title": "Clase 33: Interacción entre una Lámina no conductora y partícula cargada.",
+      "duration": 1042
+    },
+    {
+      "id": "4HoISumpHl8",
+      "title": "Clase 34: Propiedades de los conductores más problema.",
+      "duration": 1819
+    },
+    {
+      "id": "9r6LYyUM40k",
+      "title": "Clase 35: Definición de la diferencia de potencial eléctrico.",
+      "duration": 2041
+    },
+    {
+      "id": "AtyMQrcuuxk",
+      "title": "Clase 36: Potencial eléctrico, Energía potencial, Trabajo realizado por el campo.",
+      "duration": 1441
+    },
+    {
+      "id": "NRZpv66_HX0",
+      "title": "Clase 37: Potencial eléctrico para una distribución discreta de cargas.",
+      "duration": 988
+    },
+    {
+      "id": "WGDW3vk-PdE",
+      "title": "Clase 38: Problema; trabajo de formación y energía potencial mutua.",
+      "duration": 1547
+    },
+    {
+      "id": "ctA96TCA1Iw",
+      "title": "Clase 39: Dos problemas sobre trabajo para transportar cargas puntuales.",
+      "duration": 1586
+    },
+    {
+      "id": "Nj3HORBRW80",
+      "title": "Clase 40: Cálculo del potencial eléctrico dentro de una esfera.",
+      "duration": 1187
+    },
+    {
+      "id": "KOOpFzVPxRw",
+      "title": "Clase 41: Cálculo del potencial eléctrico para una distribución continúa de carga.",
+      "duration": 1517
+    },
+    {
+      "id": "tVAcEHcClXM",
+      "title": "Clase 42: Dos problemas, en los cuales se pide calcular el potencial eléctrico.",
+      "duration": 1097
+    },
+    {
+      "id": "6-a8MNgRpAk",
+      "title": "Clase 43: Teoría el campo eléctrico como el negativo del gradiente del potencial.",
+      "duration": 1577
+    },
+    {
+      "id": "OkTycIByb60",
+      "title": "Clase 44: Superficies equipotenciales y problemas de interés.",
+      "duration": 2193
+    },
+    {
+      "id": "cyGOM0V-p-Q",
+      "title": "Clase 45: Capacitores; Capacitancia y dieléctricos",
+      "duration": 2483
+    },
+    {
+      "id": "HuJ0-YpBM-M",
+      "title": "Clase 46: Capacitores en serie y paralelo mas ejemplo.",
+      "duration": 1469
+    },
+    {
+      "id": "DqPq8M8Yo4o",
+      "title": "Clase 47: Se realizan la solución de tres problemas.",
+      "duration": 1589
+    },
+    {
+      "id": "ez5jmZgKgbg",
+      "title": "Clase 48: Se realizan la solución de tres problemas",
+      "duration": 2458
+    },
+    {
+      "id": "dM-l02IXHZg",
+      "title": "Clase 49: Se realizan la solución de tres problemas, serie paralelo.",
+      "duration": 2303
+    },
+    {
+      "id": "2p4gk1S8KgY",
+      "title": "Clase 50: teoría; Capacitores con dieléctricos.",
+      "duration": 2243
+    },
+    {
+      "id": "Pa8DClgoos0",
+      "title": "Clase 51: 4 problemas de dieléctricos con un material dieléctrico.",
+      "duration": 3482
+    },
+    {
+      "id": "hnPCGl8JYAc",
+      "title": "Clase 52: Capacitores cilíndricos y esféricos.",
+      "duration": 1963
+    },
+    {
+      "id": "0NCS0YxeP0M",
+      "title": "Clase 53: Teoría y problemas sobre la Ruptura del Dieléctrico.",
+      "duration": 985
+    },
+    {
+      "id": "Hpa9FShYrQ4",
+      "title": "Clase 54: Corriente eléctrica, teoría.",
+      "duration": 1690
+    },
+    {
+      "id": "8yrKMhhDW3E",
+      "title": "Clase 55: Corriente, densidad de corriente y resistencia.",
+      "duration": 2425
+    },
+    {
+      "id": "I900ZNqNFyY",
+      "title": "Clase 56: Resistividad y Temperatura, y definición de la potencia eléctrica.",
+      "duration": 1579
+    },
+    {
+      "id": "6ztdZuC7Et8",
+      "title": "Clase 57: Se desarrollan 5 problemas diversos de resistencia y temperatura.",
+      "duration": 1543
+    },
+    {
+      "id": "MLiywV1vwLo",
+      "title": "Clase 58: Se desarrollan 4 problemas diversos sobre potencia eléctrica.",
+      "duration": 1650
+    },
+    {
+      "id": "QDRNuf8PvWk",
+      "title": "Clase 59: Introducción a la Teoría de circuitos de corriente directa.",
+      "duration": 1947
+    },
+    {
+      "id": "1QWjeIda7Mg",
+      "title": "Clase 60: Estudio de un circuito resistivo serie y paralelo.",
+      "duration": 2392
+    },
+    {
+      "id": "_LIHv-kydiA",
+      "title": "Clase 61: Problemas varios de circuitos serie paralelo resistivos.",
+      "duration": 2016
+    },
+    {
+      "id": "wiYKrBZoDm4",
+      "title": "Clase 62: Teoría sobre las leyes de Kirchhoff, más un problema.",
+      "duration": 2648
+    },
+    {
+      "id": "-eTiur5_zgo",
+      "title": "Clase 63: Se resuelven tres circuitos por medio de las leyes de Kirchhoff.",
+      "duration": 2926
+    },
+    {
+      "id": "UQVGFrj74vY",
+      "title": "Clase 64: Teoría sobre el proceso de descarga de un circuito simple RC.",
+      "duration": 1903
+    },
+    {
+      "id": "-VypDZGfr2k",
+      "title": "Clase 65: Se resuelven 4 problemas diversos sobre circuitos RC.",
+      "duration": 1851
+    },
+    {
+      "id": "DdcSdVApa9w",
+      "title": "Clase 66: Se resuelven 3 problemas diversos de circuitos RC.",
+      "duration": 1441
+    },
+    {
+      "id": "DqokJuF2aBE",
+      "title": "Clase 67: Instalaciones eléctricas, doméstica o comercial.",
+      "duration": 1662
+    },
+    {
+      "id": "MZVKEZsUVpo",
+      "title": "Clase 68: Introducción al Campo Magnético, fuerza sobre una carga.",
+      "duration": 2666
+    },
+    {
+      "id": "5D_R6-sdL8Y",
+      "title": "Clase 69: Se realizan 4 problemas estudiando la fuerza F=qv x B",
+      "duration": 2248
+    },
+    {
+      "id": "pAC_i59UQdk",
+      "title": "Clase 70: Movimiento de una carga puntual dentro de un Campo Magnético.",
+      "duration": 2789
+    },
+    {
+      "id": "5HK-1rlh4RE",
+      "title": "Clase 71: Movimiento en forma de Hélice de una partícula cargada.",
+      "duration": 1004
+    },
+    {
+      "id": "TZFKNFO4mYY",
+      "title": "Clase 72: Teoría y problemas de un alambre de corriente dentro de un campo magnético.",
+      "duration": 1793
+    },
+    {
+      "id": "9SPswVlIOVo",
+      "title": "Clase 73: Tres problemas sobre F=iLxB",
+      "duration": 1777
+    },
+    {
+      "id": "VXKJ1jbphAU",
+      "title": "Clase 74: Torque sobre una espira de corriente mas un problema.",
+      "duration": 2061
+    },
+    {
+      "id": "Q79HJTyEkaI",
+      "title": "Clase 75: Se realizan dos problemas con espiras rectangulares t=uxB",
+      "duration": 1615
+    },
+    {
+      "id": "sEDum83jtMQ",
+      "title": "Clase 76: Se realizan otros dos problemas con espiras circulares t=uxB.",
+      "duration": 1514
+    },
+    {
+      "id": "8Og4R_Nwdg0",
+      "title": "Clase 77: Energía Potencial debido a un dipolo dentro de un campo magnético.",
+      "duration": 1160
+    },
+    {
+      "id": "8q9WoZFyYOw",
+      "title": "Clase 78: Fuentes de campo magnético; Biot y Savart.",
+      "duration": 2496
+    },
+    {
+      "id": "ymrUA_mS29U",
+      "title": "Clase 79: Ley de Ampere y fuerza entre alambres.",
+      "duration": 1753
+    },
+    {
+      "id": "tzL2R3Akocc",
+      "title": "Clase 80: Se realizan tres problemas de la ley de Ampere.",
+      "duration": 2152
+    },
+    {
+      "id": "LExZZPh12xs",
+      "title": "Clase 81: Fuerza magnética entre alambres y Flujo de Campo Magnético.",
+      "duration": 2652
+    },
+    {
+      "id": "TXT4vqEiWdI",
+      "title": "Clase 82: Teoría y problemas sobre el Solenoide y el Toroide.",
+      "duration": 2692
+    },
+    {
+      "id": "NVAcTSFbxog",
+      "title": "Clase 83: Ley de Inducción de Faraday, Teoría y dos problemas.",
+      "duration": 2159
+    },
+    {
+      "id": "KadBn-4tFbg",
+      "title": "Clase 84: Se realizan cuatro problemas sobre la Ley de Inducción de Faraday.",
+      "duration": 2088
+    },
+    {
+      "id": "cR8hCvAw4pI",
+      "title": "Clase 85: Se realizan cuatro problemas sobre la Ley de Inducción de Faraday.",
+      "duration": 2360
+    },
+    {
+      "id": "yb2NNis7TXM",
+      "title": "Clase 86: Inductancia, su definición y medida de la energía almacenada.",
+      "duration": 1459
+    }
+  ]
+}

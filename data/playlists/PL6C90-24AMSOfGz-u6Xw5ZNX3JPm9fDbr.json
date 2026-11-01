@@ -1,0 +1,60 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Fascination of Crystals and Symmetry - Chapter 2",
+  "channel": "Frank Hoffmann",
+  "description": "Crystal Systems, Fractional Coordinates, and Morphology of Crystals",
+  "updated": "2016-07-12",
+  "lessons": [
+    {
+      "id": "ctfjB6uc6ts",
+      "title": "Unit 2.1 - Visiting the Mineralogical Museum",
+      "duration": 248
+    },
+    {
+      "id": "pfE1PG9vmV0",
+      "title": "Unit 2.2 - Morphology of Crystals",
+      "duration": 529
+    },
+    {
+      "id": "5eVSg4j_Pm8",
+      "title": "Unit 2.3 - Miller Indices",
+      "duration": 545
+    },
+    {
+      "id": "s4rRMmToGBQ",
+      "title": "Unit 2.4 - Bravais Lattices (I)",
+      "duration": 394
+    },
+    {
+      "id": "o6qKr_OZ1vw",
+      "title": "Unit 2.5 - Bravais Lattices (II)",
+      "duration": 526
+    },
+    {
+      "id": "V_g8-Op5Qlg",
+      "title": "Unit 2.6 - Fractional Coordinates",
+      "duration": 389
+    },
+    {
+      "id": "mGbEL1NNg7g",
+      "title": "Unit 2.7 - The Software VESTA",
+      "duration": 560
+    },
+    {
+      "id": "U5p7nekUgTQ",
+      "title": "Unit 2.7b - Crystal Shapes with VESTA",
+      "duration": 267
+    },
+    {
+      "id": "lxE4tesNNK8",
+      "title": "Unit 2.8 - Three Aspects of the Hexagonal Crystal System",
+      "duration": 488
+    },
+    {
+      "id": "Ks1TNkG6tXY",
+      "title": "Unit 2.9 - Trigonal - Rhombohedral - Hexagonal-R",
+      "duration": 530
+    }
+  ]
+}
