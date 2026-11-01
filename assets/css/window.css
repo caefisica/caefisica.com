@@ -1,0 +1,121 @@
+/* The hero window: the library drawn as an app, in the way Linear draws its product. It fades out at the bottom. */
+@layer components {
+  .window {
+    margin-top: 4rem;
+    overflow: hidden;
+    border: 1px solid var(--edge);
+    border-bottom: 0;
+    border-radius: 0.75rem 0.75rem 0 0;
+    background: var(--surface);
+    mask-image: linear-gradient(to bottom, #000 60%, transparent);
+  }
+
+  .window-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--edge);
+
+    & i {
+      width: 0.625rem;
+      height: 0.625rem;
+      border-radius: 999px;
+      background: var(--edge);
+    }
+
+    & span {
+      margin-left: 0.75rem;
+    }
+  }
+
+  .window-body {
+    display: grid;
+
+    @media (width >= 48rem) {
+      grid-template-columns: 13rem 1fr;
+    }
+  }
+
+  .window-side {
+    display: none;
+    margin: 0;
+    padding: 0.75rem;
+    border-right: 1px solid var(--edge);
+    list-style: none;
+
+    @media (width >= 48rem) {
+      display: block;
+    }
+
+    & li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.375rem 0.5rem;
+      border-radius: 0.375rem;
+      color: var(--muted);
+      font-size: var(--text-sm);
+    }
+  }
+
+  .window-main {
+    min-width: 0;
+
+    & ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    & a {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--edge);
+      color: var(--fg);
+      font-size: var(--text-sm);
+
+      @media (width >= 48rem) {
+        grid-template-columns: auto 1fr 12rem 4rem;
+      }
+
+      &:hover {
+        background: var(--hover);
+      }
+    }
+  }
+
+  .window-head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--edge);
+  }
+
+  .window-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 999px;
+    background: var(--accent);
+  }
+
+  .window-meta {
+    display: none;
+    color: var(--muted);
+
+    @media (width >= 48rem) {
+      display: block;
+    }
+  }
+
+  .window-date {
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
