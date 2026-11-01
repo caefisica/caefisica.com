@@ -1,0 +1,5 @@
+{{- /* Where a lesson plays without the page's script. Context: dict with drive (bool), id (the video's) and list (the YouTube list's). */ -}}
+{{- if .drive -}}
+	{{- return printf "https://drive.google.com/file/d/%s/view" .id -}}
+{{- end -}}
+{{- return printf "https://www.youtube.com/watch?v=%s&list=%s" .id .list -}}

@@ -1,0 +1,972 @@
+{
+  "fetched": "2026-11-01",
+  "host": "drive",
+  "lessons": [
+    {
+      "id": "169pAnHc-dylMy_JnF6VE3CDJNVo_UIte",
+      "title": "Vectores y su Representación",
+      "duration": 743,
+      "section": "Vectores"
+    },
+    {
+      "id": "1CMgYYsSTUvqB1nRVRGYmyrWMAXhQArHG",
+      "title": "Suma y Resta de Vectores",
+      "duration": 590,
+      "section": "Vectores"
+    },
+    {
+      "id": "1H_xh5GfXp1gxwvs568hlDVKaflVjqeen",
+      "title": "Multiplicación Por Un Escalar y Vector Unitario",
+      "duration": 748,
+      "section": "Vectores"
+    },
+    {
+      "id": "1Dam1ei4Kh9uyo7l16LAIHHiC1Dak6b5j",
+      "title": "Vectores en 3D",
+      "duration": 747,
+      "section": "Vectores"
+    },
+    {
+      "id": "1ryoIKX0eY8UtIv9SoiIjtY80x1aqoQ5e",
+      "title": "Operación Producto Punto Entre Vectores, Proyección De Un Vector Sobre Otro Vector",
+      "duration": 825,
+      "section": "Vectores"
+    },
+    {
+      "id": "1gOoxTjtwEvGU0Z_sYNgqGL0ckOqT-Gzo",
+      "title": "Producto Cruz Entre Vectores",
+      "duration": 404,
+      "section": "Vectores"
+    },
+    {
+      "id": "1ahfyoYkC9dRnCWs9aEXa7mGgYTNhxYSQ",
+      "title": "Problema 1 - Pasar de Forma Polar a Componentes Rectanculares",
+      "duration": 794,
+      "section": "Vectores"
+    },
+    {
+      "id": "1z_j92hgamTrmLbTu7Q3cRS3LeZTHylsm",
+      "title": "Problema 2 - Pasar De Componentes Cartesianas a Forma Polar",
+      "duration": 853,
+      "section": "Vectores"
+    },
+    {
+      "id": "1cAFwXeOYTwmtabl96PPYyd9oUvv2cgIt",
+      "title": "Problema 3 - Suma de Vectores",
+      "duration": 637,
+      "section": "Vectores"
+    },
+    {
+      "id": "1M6LE8uzZZRATbH3nx-RJFVHUuZSg0OGH",
+      "title": "Problema 4 - Suma Vectorial y Método Analítico en la Suma",
+      "duration": 853,
+      "section": "Vectores"
+    },
+    {
+      "id": "1OLP3lcGsqjEr4dtZzIclnUKHMHsAMZh_",
+      "title": "Problema 5 - Ángulos Directores y Vector Unitario",
+      "duration": 406,
+      "section": "Vectores"
+    },
+    {
+      "id": "1vNKVGcvroiiRFbC1MjzHuxMm_3A7tTcs",
+      "title": "Problema 6 - Encontrar Los Ángulos Directores",
+      "duration": 429,
+      "section": "Vectores"
+    },
+    {
+      "id": "1cIc8nc_WOnBIRFWZKNWwfhki5Sc1TSQU",
+      "title": "Problema 7 - Producto Punto",
+      "duration": 888,
+      "section": "Vectores"
+    },
+    {
+      "id": "12BQ4paaJzK662T2QtiYYamnKNCWAAS6K",
+      "title": "Problema 8 - Ley de Cosenos",
+      "duration": 289,
+      "section": "Vectores"
+    },
+    {
+      "id": "1G-lf-8G9U0-mr99ndfn2gZ5-GDDL_PKJ",
+      "title": "Problema 9 - Producto Cruz",
+      "duration": 759,
+      "section": "Vectores"
+    },
+    {
+      "id": "1SR-ZQldyQ9bfM1-l_LdhbNpP-0K2j6jy",
+      "title": "Definiciones Básicas y Posición",
+      "duration": 893,
+      "section": "Cinemática · Cantidades Cinemáticas"
+    },
+    {
+      "id": "1mhFl9ZK5rji1JKuJMuGNLUzPM1O_ACXz",
+      "title": "El Desplazamiento",
+      "duration": 890,
+      "section": "Cinemática · Cantidades Cinemáticas"
+    },
+    {
+      "id": "1Y68k214M1y8LSCoKX8RBHhzj8yVvKijw",
+      "title": "Velocidad Media y Rapidez Media",
+      "duration": 794,
+      "section": "Cinemática · Cantidades Cinemáticas"
+    },
+    {
+      "id": "13jy-zDbgqK7pcY4oK_u82WebURCMH2Af",
+      "title": "Velocidad Instantánea",
+      "duration": 830,
+      "section": "Cinemática · Cantidades Cinemáticas"
+    },
+    {
+      "id": "178Ynv8FWT76F9YwBw-5hIjYj8sPKVjw9",
+      "title": "Aceleración Media e Instantánea",
+      "duration": 832,
+      "section": "Cinemática · Cantidades Cinemáticas"
+    },
+    {
+      "id": "1o0_eLBMpSfDA_kEM62pYEMnAkQJKtB4b",
+      "title": "Cálculo De Aceleración Instantánea y Resumen de Cantidades Cinemáticas",
+      "duration": 769,
+      "section": "Cinemática · Cantidades Cinemáticas"
+    },
+    {
+      "id": "1uv4bUPkoC7DygEX0lNhqgrzSfTcNSSBu",
+      "title": "Movimiento Uniforme Práctica Demostrativa y Teoria",
+      "duration": 679,
+      "section": "Cinemática · Movimiento Uniforme"
+    },
+    {
+      "id": "1ruKjo4M5niwT4hnh3KL7Ck0ClO4sRq8c",
+      "title": "Movimiento Uniforme Estudio Gráfico",
+      "duration": 875,
+      "section": "Cinemática · Movimiento Uniforme"
+    },
+    {
+      "id": "1LxU5lubVRFEgFc9yKoGAguh_0Osee1UP",
+      "title": "Movimiento Uniforme Gráfico y Ciclistas",
+      "duration": 776,
+      "section": "Cinemática · Movimiento Uniforme"
+    },
+    {
+      "id": "1Mm-QeKeMWLSTwVc6lv0ma_UDl8NewlKk",
+      "title": "Figura Activa Movimiento Uniforme Gráficos",
+      "duration": 606,
+      "section": "Cinemática · Movimiento Uniforme"
+    },
+    {
+      "id": "1Fnr-yYaQBPWujdqFJvhjQfOLfZxaBk3H",
+      "title": "Problema De Un Gráfico Posición Tiempo",
+      "duration": 1583,
+      "section": "Cinemática · Movimiento Uniforme"
+    },
+    {
+      "id": "1DjC5JPGfwZ-_SaZQJGqvbskffCbjG8pw",
+      "title": "MUV Descripción Del Movimiento, Parte 1",
+      "duration": 730,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "1kyt89Rl7p0yMPcu0hzkL5dzKCQc1nQn2",
+      "title": "MUV Velocidad y Posición, parte 2",
+      "duration": 879,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "1r2qnQC8G-TghKG_YI2ah_z00QPbEhcCo",
+      "title": "Gráfico Velocidad Tiempo MUV",
+      "duration": 1615,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "1YGYVfoA2YnZRPJeXl4l1agYG9zqrTDqw",
+      "title": "Problema 1 MU y MUV",
+      "duration": 1020,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "1d7RcCytV2VpLLDsTk2-VpUTacVpf8Bge",
+      "title": "MUV, Problema 2",
+      "duration": 961,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "17zDCvAcnsRVcBgNixODqsXzwZEesgDiX",
+      "title": "MUV Problema 3",
+      "duration": 1015,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "1ov_dPIsQT-W2pEdzSPMIPEOuJG06HVCI",
+      "title": "MUV Problema 4",
+      "duration": 1149,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "1rCpj1qGgVFTEzfurP4kbR1xKbRNknt1X",
+      "title": "MU y MUV Con Cálculo",
+      "duration": 862,
+      "section": "Cinemática · Movimiento Uniformemente Variado"
+    },
+    {
+      "id": "1wwlD2dsmhm5pfMvV7Gjj-9JkmN5n9KWz",
+      "title": "Caída Libre Teoría",
+      "duration": 876,
+      "section": "Cinemática · Caida Libre"
+    },
+    {
+      "id": "1PPnCX47F4awvedVOiVAgj3Xa7IqFFxYa",
+      "title": "Problema 1, Caída Libre",
+      "duration": 890,
+      "section": "Cinemática · Caida Libre"
+    },
+    {
+      "id": "1kAgJmN-sczm7Cf32QNqKMjbwxFwfwVMJ",
+      "title": "Problema 2, Caída Libre",
+      "duration": 894,
+      "section": "Cinemática · Caida Libre"
+    },
+    {
+      "id": "1YyulHyEThkLfPvl8qGogf3ePbMUmGHLY",
+      "title": "Problema 3, Caída Libre",
+      "duration": 900,
+      "section": "Cinemática · Caida Libre"
+    },
+    {
+      "id": "1bMSKgGxnwShgb-MswlkiD6WxJoauHKFg",
+      "title": "Problema 4 - Parte I, Caída Libre",
+      "duration": 724,
+      "section": "Cinemática · Caida Libre"
+    },
+    {
+      "id": "1SLLB5bwicFi04ED40WnxDNV0Iyv8F0VP",
+      "title": "Problema 4 - Parte 2,Caída Libre",
+      "duration": 897,
+      "section": "Cinemática · Caida Libre"
+    },
+    {
+      "id": "1rAc-Tnx1Ntn-XnBOhN4vuKbsaQU6Gn5E",
+      "title": "Problema 5, Caída Libre",
+      "duration": 723,
+      "section": "Cinemática · Caida Libre"
+    },
+    {
+      "id": "1cBiAB85XiaZYp2-Ugt3xISp1y7L1z3UA",
+      "title": "Tiro Parabólico - Clase Teórica",
+      "duration": 2371,
+      "section": "Cinemática · Tiro Parabólico"
+    },
+    {
+      "id": "1rRr40ySyFbqaq_xQm83PRWi_tput_v57",
+      "title": "Figura Activa - Recorridos En Tiro Parabólico",
+      "duration": 470,
+      "section": "Cinemática · Tiro Parabólico"
+    },
+    {
+      "id": "1YmhiTYc0ZcBR0W3-5s3YzM3lY4VNhGMy",
+      "title": "Problema1 Tiro Parabólico",
+      "duration": 1215,
+      "section": "Cinemática · Tiro Parabólico"
+    },
+    {
+      "id": "1mRl2LM_oJvvgf7OQcgB7pAbXPp5-RVW7",
+      "title": "Movimiento Circular Uniforme",
+      "duration": 1598,
+      "section": "Cinemática · Movimiento Circular"
+    },
+    {
+      "id": "1bM0AS9ZdyzcMZigXyJ-K9bJkMcOkWwiT",
+      "title": "Movimiento Circular Uniforme",
+      "duration": 1439,
+      "section": "Cinemática · Movimiento Circular"
+    },
+    {
+      "id": "1Z951X0ywe47tTRakn7QCdRUfWr2ynJuD",
+      "title": "Movimiento Circular Uniforme",
+      "duration": 855,
+      "section": "Cinemática · Movimiento Circular"
+    },
+    {
+      "id": "1YJxtnZ6IwPSPQHtW54f5zKTmGoRXCFmh",
+      "title": "Problema 1 - Movimientos de la tierra",
+      "duration": 1839,
+      "section": "Cinemática · Movimiento Circular"
+    },
+    {
+      "id": "1Xn79-N2lPG6cXWzWXA9ab1KwJnLDV1iP",
+      "title": "Partícula En Una Trayectoria Circular",
+      "duration": 2040,
+      "section": "Cinemática · Movimiento Circular"
+    },
+    {
+      "id": "1NJdiAdGOTX4vmvlZVWxs16oR4Dcel5Cg",
+      "title": "Teoría Movimiento Relativo - problema 1",
+      "duration": 1577,
+      "section": "Cinemática · Movimiento Relativo"
+    },
+    {
+      "id": "1lk9dstvVWIob9BZLC07y1OnkofPWjpXD",
+      "title": "Problema 2 - Bote Navegando En Un Río",
+      "duration": 1634,
+      "section": "Cinemática · Movimiento Relativo"
+    },
+    {
+      "id": "1BSJXfgSpjWd-2wqcMXYr_qGxeriKfNzO",
+      "title": "Introducción: Isaac Newton",
+      "duration": 1282,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1T_FRiTPePtiYofYQj_GSbZ8YZrxg7hqi",
+      "title": "Leyes de Newton",
+      "duration": 1890,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1A-xKuSASx5ug-BiK1TTU4MummwEtKFG3",
+      "title": "Tipos de Fuerza 1 - Peso, Normal y Tensión",
+      "duration": 1383,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1spTYuK9II6-GlsSWjCKWCGteMrrz4Lzj",
+      "title": "Tipos de fuerza 2 - Fuerza de Fricción",
+      "duration": 1091,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1PLlTuBAXhTZOYFF7k1FZ5ixE9hrguI55",
+      "title": "Ideas Previas a La Solución De Problemas",
+      "duration": 1827,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1-Psdc-QMmMfqL498cgt9WLG9wy-6THv7",
+      "title": "Problema 1 - Bloque Jalado Por Una Cuerda",
+      "duration": 1718,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "156fr2--OdKocRe6gNwJH2aquskOSQHO4",
+      "title": "Problema 2 - Lanzamiento De Un Bloque En Un Plano Inclinado",
+      "duration": 2078,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1Ynd0JkoOBVe7_9BVlW9LOyImiI9nuDt0",
+      "title": "Problema 3 - Máquina De Atwood Simple",
+      "duration": 1311,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1DFU3sSYcTUyw_cAR5nBl9-q-Oy9a2mNW",
+      "title": ": Problema 4 - Cual Es La Masa Mínima Para Que El Sistema No Se Mueva",
+      "duration": 1673,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1Lxa18zN4vkGHJYdCqGVVfYhD81KEo1Dl",
+      "title": "Problema 5 - Dos Masas Unidas Por Una Fuerza",
+      "duration": 1730,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1PHmjyM6Vn3VQo7nkaoJUCQyriXCsBxM7",
+      "title": "Problema 6 - Determinación Del Coeficiente De Fricción",
+      "duration": 1303,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1GQWGBFRIy1Wtj5WcFk5zTCCzN4kIwJwq",
+      "title": ": Aplicación - Polipasto, Ganancia 2",
+      "duration": 1468,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1pR88Zyshr_Eefee_MQ0U8c1qBlxYwjiG",
+      "title": "Polipasto 2, Ganancia 4",
+      "duration": 1769,
+      "section": "Dinámica · Leyes de Movimiento de Newton y Aplicaciones"
+    },
+    {
+      "id": "1U_v8ebj04-JW6WRvjVs2RWMkgfJo53A6",
+      "title": "Dinámica Circular, Problema 1",
+      "duration": 2198,
+      "section": "Dinámica · Dinámica Circular"
+    },
+    {
+      "id": "1XiFbyvordhz8HO9KStRf-rEmJy0pd0Tf",
+      "title": "Dinámica Circular Problema 2",
+      "duration": 2023,
+      "section": "Dinámica · Dinámica Circular"
+    },
+    {
+      "id": "1HJAQMI67OvAWNM0_IkVDTxAoSZnQBaRt",
+      "title": "Trabajo y Energía",
+      "duration": 2338,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1KZD65bhfiM03XkDj4mMSIJjw97Bi_Bzq",
+      "title": "Problema 1, trabajo y Energía",
+      "duration": 1991,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1Q6e1D93JLUAa_hOirNW99b-i8sRDzBZS",
+      "title": "Problema 2, Trabajo y Energía Cinética",
+      "duration": 2103,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1AE1WzQSQTvs1k-irVT2_uzDArvpdm-6h",
+      "title": "Trabajo Con Fuerza Variable",
+      "duration": 1956,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1THZvOkeKNwZVwQ3syLXieXnzjZ_cRIlx",
+      "title": "Ley de Hooke Más Problema",
+      "duration": 2268,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1eKcwRckvG-dUvIOMrrJNUF1MW7rkQFWk",
+      "title": "Potencia y Problema 1 Ascensor",
+      "duration": 1175,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1ZWVeb3dECHIXfsutQ_tWwnLW3lPdMVqC",
+      "title": "Potencia, Problema 2",
+      "duration": 655,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1tTuDBHk_Chf3kWGmOAWJkX_UFCQekayj",
+      "title": "Potencia; Problema 3, Esquiador Jalado Por Una Cuerda",
+      "duration": 670,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1O-DGEmwlmr65bBXoGy_PUy76OHnKXwxC",
+      "title": "Problema 4 y 5 De Potencia",
+      "duration": 793,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Trabajo y Energía"
+    },
+    {
+      "id": "1I76kF3tdwzOC4KFzrJP-9K4N4pGxbdr9",
+      "title": "Fuerzas Conservativas",
+      "duration": 1859,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Fuerzas Conservativas"
+    },
+    {
+      "id": "1KwvSNq475tknThpbLh3NTvrwFYDQdnNd",
+      "title": "Conservación De La Energía, Diagramas De Energía",
+      "duration": 1304,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Fuerzas Conservativas"
+    },
+    {
+      "id": "1euzJ7Kq1Hu7wFMyNY5WiO0v7b8vd6cDV",
+      "title": "Problema 1 y 2, Tiro Parabólico y Péndulo Conservacion De La Energia",
+      "duration": 2119,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Fuerzas Conservativas"
+    },
+    {
+      "id": "1Ewym6hefcH71O4JkQ6IZx44PpOAbX8Db",
+      "title": "Problema 3, Plano Inclinado Con Resorte",
+      "duration": 2738,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Fuerzas Conservativas"
+    },
+    {
+      "id": "1RVBudz1D-gj4Abg03cT5moBX3LITMirG",
+      "title": "Problema 4, Pista Con Un Resorte Al Final y Zona Con Fricción",
+      "duration": 2867,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Fuerzas Conservativas"
+    },
+    {
+      "id": "1fmRiqo0Ma7R-tc-bELdWMh1hgd1AbIXB",
+      "title": "Problema 5, Pendulo Que Encuentra Una Clavija En El Punto Más Bajo",
+      "duration": 1300,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Fuerzas Conservativas"
+    },
+    {
+      "id": "1xffeES3SB6iLGySquTiE9Qt0-BswPsSt",
+      "title": "Problema 6, Masa En Una Pista En Rizo",
+      "duration": 2625,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Fuerzas Conservativas"
+    },
+    {
+      "id": "1T2ps6kk8shqWrd-Qqq0FsPYNjTfwu7Mn",
+      "title": "Clase Teórica de la Cantidad de Movimiento Lineal y Primer Problema",
+      "duration": 2252,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1HIzCR32I3hgouh6jOhHD1DOB-fIUC42Y",
+      "title": "Impulso; Problemas 2 y 3",
+      "duration": 1821,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1XeS_RhGBX4cfnzTxRwyhDmiOlIgbNA3l",
+      "title": "Impulso Problema 4, Pelota Choca En La Pared",
+      "duration": 1238,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1tvwHeJOO0FPqIAVGAB3qcT2Ls1-PZyHE",
+      "title": "Clase Sobre La Conservación De La Cantidad De Movimiento Lineal",
+      "duration": 1755,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1KSBF1aKAT2HrYU5ReIsoyUexBdU6CsuH",
+      "title": "Teoría de Choques",
+      "duration": 2011,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1cBbv_yPJBzHAd51VfBmzG2JJwQeNjpPp",
+      "title": "Choques, problema 1 y 2",
+      "duration": 1499,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1cOX7YvJb2Ee7-bNyAL8kkvSxfSB1VQ-t",
+      "title": "Choques Problema 3, Choques De Tres Partículas",
+      "duration": 1300,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1u3TbJ9HAfjvrShP0r2_s0K11SXQN-9Bs",
+      "title": "Problemas 4 y 5, Choques En Dos Dimensiones",
+      "duration": 1752,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1-DOSE0OibZ1Y25EPcFb0CskzszLABjqv",
+      "title": "Choques problema 6 y 7",
+      "duration": 1813,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "16PZi1jt4Vmc9to2JHlt7FwmlhMOs3jr1",
+      "title": "Clase Teórica Del Centro De Masa",
+      "duration": 2422,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1uN4R7mhKSSTA5SX4NJimRh-9axTbrxPR",
+      "title": "Problema 1, CM De Dos Partículas",
+      "duration": 1074,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1Nx71vNOGWM36NPYiWfX9Si3ji7i84Vpf",
+      "title": "Problema 2, Mujer En Una Canoa",
+      "duration": 862,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1Xsroym-aZlmf0NeA2keNYtqLym7jFQu8",
+      "title": "Problema 3 Proyectil Que Explota",
+      "duration": 1328,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1Bv3jVJPZ868J9FtemrmsZQCi-R8ejjiK",
+      "title": "CM Para Un Sistema Continuo De Partículas",
+      "duration": 2018,
+      "section": "Trabajo, Energía, Cantidad de Movimiento Lineal · Cantidad de Movimiento Lineal y Colisiones"
+    },
+    {
+      "id": "1vfUC6_Al9Fws_nr7ql_3aKYFJ0NQ9ujK",
+      "title": "Teoria Cinemática Rotacional 1",
+      "duration": 1913,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1FPzlruB298J5bd1BbBvDrOSmvKswy7hw",
+      "title": "Teoria Cinemática Rotacional 2",
+      "duration": 2050,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1fF22pvRJ_biMJZcpSBeIx51nDTd3Cxzw",
+      "title": "Cinemática Rotacional, 3 Problemas De Discos Giratorios",
+      "duration": 1979,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1y4JKM-hB67JcLNKeeyTw0pbWj33tLWOY",
+      "title": "Problemas 4 y 5, Gráfico Y Barra Enroscada",
+      "duration": 2445,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1L3FXAd3N5y8X-iJ8aHjjY3_Nz1gX2bP3",
+      "title": "Problema 6, Dos Discos Unidos Por Una Cinta, y 7, Una Partícula Girando En El Espacio",
+      "duration": 1809,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1D_7OJlszhysPro82UbnTPwqOMdbtEd3I",
+      "title": "Definición de Torque",
+      "duration": 2100,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1KvwsBHfmwOczLtI_rDQpUmEfJlSSsCXL",
+      "title": "Cálculo De Un Torque Como De Un Torque Neto",
+      "duration": 2984,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1ZaFH3-Na8FjD95PyDMGl_K0NAtzquhbh",
+      "title": "Dinámica Rotacional 1",
+      "duration": 2400,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1vaNx7aoeZ9NdlM0HVl_UsiO2lkP7ZYRW",
+      "title": "Dinámica Rotacional 2",
+      "duration": 1935,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1YwYOkg2vl9zzra3wbHzeLvZDBTX9Ss-v",
+      "title": "Momento de Inercia 1, Sistema De Partículas",
+      "duration": 1603,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "18YYEzCsA-J6C4QEc9Cdipi9R37LI19y4",
+      "title": "Momento de Inercia 2, Sistema Continuo De Particulas",
+      "duration": 2465,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1Jx7g9C1VeLd6i-qe-ojH93Ha9OmuzczI",
+      "title": "Problema Polea y Masa",
+      "duration": 1654,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1i0t2TtpoQPI6tcnZZu5cWQuvE9tFcKEq",
+      "title": "Problema, Máquina de Atwood Simple",
+      "duration": 2031,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "14zLqSxnd4D6U-4fgd8IHib7mHONiZ1IL",
+      "title": "Sistema Cilindro Polea y Masa",
+      "duration": 1758,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1g0etoDEb0spoNV69PpzKdRdsDBuH4J-I",
+      "title": "Problema Masa 1 Polea y Masa 2",
+      "duration": 1846,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1lutbttiHUT_uEr2MKa1qJTpwMmn81Xi4",
+      "title": "Problema Con Una Polea Compuesta",
+      "duration": 2065,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1_kZPuLe6pmlzGE5UKWPz-pYVeFa-1lC1",
+      "title": "Teoría; trabajo, Potencia y Teorema Trabajo y Energía",
+      "duration": 1724,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1oIih5XpIpBSYyoQ6o_TFQ_AbBU-tpR5j",
+      "title": "Problemas, Niño y Tiovivo y Torque Aplicado a Un Disco",
+      "duration": 1403,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1I2DvAzit0Uf9SFGL_ukLYN_iVVzYPl9B",
+      "title": "Problemas; Hélice De Un Avión y Motor Eléctrico",
+      "duration": 1701,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1rGWOEsTlgFCfrirzO1wZ4jQYzKMypk5J",
+      "title": "Problema De La Varilla Pivoteado",
+      "duration": 1787,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1Kat56OpWNTxAtkpWTv_eHgHL6jTLOjYU",
+      "title": "Traslación y Rotación De Un Cuerpo Rígido",
+      "duration": 2002,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1Njp3yD1bGcpcPFNc3jCPg1axR79uIpBC",
+      "title": "Cilindro Rodando Por Un Plano Inclinado",
+      "duration": 1782,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1oy2FdxlnpejSO3S8w2MWgl9a8Jp1xnhB",
+      "title": "Bloque y Aro Moviendose Juntos En Un Plano Inclinado",
+      "duration": 1303,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1qzigazcek4XC6gy7JScoWqL8a8RUY20G",
+      "title": "Carrete Polea y Masa En Movimiento",
+      "duration": 1408,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1z207h_s4EXxMAEoIHl5tniF7emAgm97V",
+      "title": "Esfera Rueda Sin Resbalar En Un Rizo",
+      "duration": 2002,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1L4Nstc1Fx9nzQFDQ7CmN5wfmaPxfiKGa",
+      "title": "Problema De La Esfera Polea y Masa, Primera Parte; Dinámica",
+      "duration": 1560,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1wFudUJUI82htm7qYxQD2I2y1cABDNxCa",
+      "title": "Problema De La Esfera Polea y Masa, Parte 2; Energía",
+      "duration": 1274,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1fHmQLB7FysTowcfh-7XG_6m7ZO4W6tha",
+      "title": "Teoría; Conservación De La Cantidad De Movimiento Angular",
+      "duration": 1337,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1-ecX4BYqTxsXrItwyTcNTSiKbHH-oVHF",
+      "title": "Niña Corre Hacia Un Tiovivo",
+      "duration": 1155,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1l96CLUIRezdwgQ3QFUz1EeQBasGXrabb",
+      "title": "Dos Patinadores Uno De Ellos Con Una Barra Ligera",
+      "duration": 1334,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "16S5N82yeN4iEsgOgwGuMr5GhGzhJVUv7",
+      "title": "Bola De Arcilla Pega Contra Una Barra",
+      "duration": 1141,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1no8sy-76TenSfmcaXDs6SZ78lCDRpwTZ",
+      "title": "Barra Pivoteada y Bola De Arcilla",
+      "duration": 1159,
+      "section": "Cinemática y Dinámica Rotacional"
+    },
+    {
+      "id": "1p2UuaaVL6mwc6sFCyjjXe8pB8MRfw9UO",
+      "title": "Teoría 1, Equilibrio De Cuerpos Rígidos",
+      "duration": 1784,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "1qqIOXAIwBYHNdV5gUlC9GU8jibJsZMIV",
+      "title": "Teoría 2, Equilibrio De Cuerpos Rígidos y Problema 1",
+      "duration": 1743,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "1hkbdfvVW2OSqlSDkl53uXtL-ZPQW7yRV",
+      "title": "Problema 2, Determinación Del Peso De Una Barra",
+      "duration": 932,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "1kmhcp4peNB4ES-lzPR7Q9IYfHAzGXA_s",
+      "title": "Problema 3, Barra Pivoteada En Equilibrio Con Una Cuerda",
+      "duration": 891,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "1elINgSTA3HEm0E2QiyeY_k_vruU0lCEA",
+      "title": "Problema 4, Barra Pivoteada, Cuerda Inclinada Y Peso",
+      "duration": 1957,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "1Uwvx7GHopqD0x7cCcT1HGVG3CZOXFCRX",
+      "title": "Problema 5, Viga Sujeta Al Techo Y Apoyada En El Suelo",
+      "duration": 1236,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "17VL2oWk8tXCcFMlIgHs8LXwAdpv6lMIC",
+      "title": "Problema 6, Letrero Sostenido En Una Viga",
+      "duration": 1515,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "1P4GN8zvdQTdhcowDSxjGLqSzQwxdKQYs",
+      "title": "Problema 7, Persona Subida En Una Escalera",
+      "duration": 2564,
+      "section": "Equilibrio De Cuerpos Rígidos"
+    },
+    {
+      "id": "1NTnHCzPckQ28LAlI9HMnV6uvuo6shCIk",
+      "title": "Introducción a la Elasticidad",
+      "duration": 1662,
+      "section": "Elasticidad"
+    },
+    {
+      "id": "1uxJanCmnvZcEppxFly44tb9k5AJjGYGH",
+      "title": "Se define el Módulo de Young",
+      "duration": 485,
+      "section": "Elasticidad"
+    },
+    {
+      "id": "18T0yqB_wnr9RaMPh1bUAAqI-KAXeHQFE",
+      "title": "Problema 1, Lámpara Colgada",
+      "duration": 966,
+      "section": "Elasticidad"
+    },
+    {
+      "id": "1mxjc8CbIkvH80QEISIdlyRk89L0mIe5N",
+      "title": "Problema 2, Alámbre y Masa Rotando",
+      "duration": 1302,
+      "section": "Elasticidad"
+    },
+    {
+      "id": "1yPX3WCCyCaMR7gBuiKG-TssTz22Icyjt",
+      "title": "Problema 3, Barra Sostenida Por Dos Alambres",
+      "duration": 932,
+      "section": "Elasticidad"
+    },
+    {
+      "id": "1m-sL2PnFuZ8hUxdNBPuJdmhAkUO0e4S5",
+      "title": "Definición Del Movimiento Armónico Simple",
+      "duration": 1529,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "186q5_C5ACqg9G_5nJOSqLcL2AlXA6OwQ",
+      "title": "Condiciones Iniciales y Estudio De Gráficos",
+      "duration": 1571,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1s-3OoZza8zaLHtq7Hra66B2w30HluiGu",
+      "title": "Estudio Energético Del M.A.S. y Resumen",
+      "duration": 1582,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1JG4_VMYDlFSyeI3n_5IVClBdztzQeRFC",
+      "title": "Particula En M.A.S, Problema 1 y 2",
+      "duration": 2121,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1Po-T_7uOy3UvP8239WDxQj45ZzxkJDBk",
+      "title": "Sistema Masa Resorte, Problema 3 y 4",
+      "duration": 2039,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1bvf9XHR_3gA8bsaJsTwkHToea9JzbCO8",
+      "title": "Sistema Serie, Paralelo De Resortes",
+      "duration": 1879,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1MrWM2wax0KBbVmjhkgRZhv30IUrHgeBe",
+      "title": "Teoría Del Péndulo Simple",
+      "duration": 1770,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "18C-cAkL5HPbDrr41d1PHZE8F1zN7mIy9",
+      "title": "Dos Problemas De Péndulo Simple",
+      "duration": 772,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1a8taoaGf0f6D4yerzUtB8AeEtLmMXMDo",
+      "title": "Teoría De Un Péndulo Físico",
+      "duration": 920,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1VzryL7VeTfw0S9P4zSxyvcDa1YBWzLIl",
+      "title": "Problema De Péndulo Físico Con Una Barra",
+      "duration": 771,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "17s2Uvr373F0ety7lNCjC3AbR2lOoygW1",
+      "title": "Problema De Péndulo Físico Con Un Disco",
+      "duration": 758,
+      "section": "Oscilaciones"
+    },
+    {
+      "id": "1_ZSNhB_XsJnNUR5bIwA8hCdAc5vY-YBu",
+      "title": "Ley de Gravitación Universal de Isaac Newton",
+      "duration": 1425,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "1As1DMi1AFeYJK4NHMmvhO9mhjIRcku0r",
+      "title": "Gravitación, Principio De Superposición, Problema 1",
+      "duration": 1709,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "1hBRs7Nm8ajWBaEr8FZVSGUrA4-KbpVto",
+      "title": "Campo Gravitacional y Principio de Superposición",
+      "duration": 1468,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "1dC_ZTyIQy50uiWcH8EVs88hks-DKeCLn",
+      "title": "Superposición de Campos Gravitacionales, Problema 2",
+      "duration": 1347,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "10fW9vdhE_t8rIcthkODrSGf4rqS8qV4b",
+      "title": "Energía Potencial Gravitacional",
+      "duration": 1966,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "18EBrcetRpbbrDxJyRIM8obHY4nN5jKeC",
+      "title": "Leyes de Kepler",
+      "duration": 2217,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "16RMJNfG1vXTiVIoCtCaOybaAiZ_3pEwD",
+      "title": "Problema 3, Martillo Cae Desde Una Altura Muy Grande",
+      "duration": 479,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "1B72FEsMu7C7JjQc7G322tvJnGeH5xiWR",
+      "title": "Problema 4, Tierra y Satélite",
+      "duration": 595,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    },
+    {
+      "id": "1OdTv4Y4Gs0SG_BsqfnA4AmB0uVIc9aLW",
+      "title": "Problema 5, Planeta y Satélite",
+      "duration": 1919,
+      "section": "Introducción a la Teoría de la Gravitación de Newton"
+    }
+  ]
+}

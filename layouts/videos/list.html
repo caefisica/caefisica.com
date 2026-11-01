@@ -12,7 +12,7 @@
 {{- range uniq $paths }}{{ with site.GetPage . }}{{ $courses = $courses | append . }}{{ end }}{{ end }}
 <div class="py-page">
 	{{ partial "ui/page-head.html" (dict "page" .) }}
-	<p class="text-muted">{{ $lists }} listas de YouTube, {{ lang.FormatNumber 0 $lessons }} clases y {{ partial "ui/duration.html" (dict "seconds" $seconds "total" true) }} de video.</p>
+	<p class="text-muted">{{ $lists }} listas,{{ lang.FormatNumber 0 $lessons }} clases y {{ partial "ui/duration.html" (dict "seconds" $seconds "total" true) }} de video.</p>
 	{{- range sort $courses "Weight" }}
 		{{- $course := . }}
 		<section class="section-group band">
