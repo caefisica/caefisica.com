@@ -1,4 +1,4 @@
-{{- /* One talk or session on /grabaciones/: title linking the video, or the invitation when there is no video; speakers and where it plays under it; day or month on the right. On a phone the date joins the byline and the affiliation drops, so the host and minutes fit its two lines. A Facebook video links its public Drive copy, with the post beside it; a YouTube video that matched an invitation links the invitation beside it. A talk without video is muted, so the rows that play stand out. Context: dict with recording and optional note, which goes before the host. */ -}}
+{{- /* One talk or session on /grabaciones/: title linking the video, or the invitation when there is no video; speakers and where it plays under it; day or month on the right. On a phone the date joins the byline and the affiliation drops, so the host and minutes fit its two lines. A Facebook video links its public Drive copy, with the post beside it; an Educast video links its mp4, with its Educast page beside it; a YouTube video that matched an invitation links the invitation beside it. A talk without video is muted, so the rows that play stand out. Context: dict with recording and optional note, which goes before the host. */ -}}
 {{- $r := .recording -}}
 {{- $video := ne $r.host "Invitación" -}}
 <li class="group{{ if not $video }} row-muted{{ end }}">
@@ -10,6 +10,7 @@
 			{{- with .note }}{{ . }} · {{ end }}
 			{{- if $r.post }}Copia en Drive · <a href="{{ $r.post }}">Facebook</a>
 			{{- else if not $video }}Invitación, sin video
+			{{- else if $r.page }}<a href="{{ $r.page }}">{{ $r.host }}</a>
 			{{- else }}{{ $r.host }}{{ with $r.invitation }} · <a href="{{ . }}">Invitación</a>{{ end }}
 			{{- end }}
 			{{- with $r.minutes }} · {{ . }} min{{ end -}}
