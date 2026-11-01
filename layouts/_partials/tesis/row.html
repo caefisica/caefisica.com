@@ -1,0 +1,13 @@
+{{- /* One thesis in a list on /tesis/: title linking its page, authors and type under it, year on the right. Context: dict with thesis and optional note, which replaces the type. */ -}}
+{{- $t := .thesis -}}
+{{- $short := dict "licenciatura" "Licenciatura" "maestria" "Maestría" "trabajo" "Suficiencia profesional" -}}
+{{- $authors := slice -}}
+{{- range $t.authors }}{{ $authors = $authors | append .name }}{{ end -}}
+<li class="group">
+	<div class="row-main">
+		<a class="card-link" href="{{ (site.GetPage (printf "/tesis/%s" $t.id)).RelPermalink }}">{{ $t.title }}</a>
+		<p>{{ delimit $authors ", " }} · {{ .note | default (index $short $t.collection) }}</p>
+	</div>
+	<span class="row-meta">{{ $t.year }}</span>
+</li>
+{{- /**/ -}}

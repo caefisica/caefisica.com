@@ -1,0 +1,20 @@
+{{- /* The theses a person wrote and advised, on their profile. Context: the profile slug, matched against each name's candidate slugs in data/theses.json. */ -}}
+{{- $slug := . -}}
+{{- $own := slice -}}
+{{- $advised := slice -}}
+{{- range $t := hugo.Data.theses.theses -}}
+	{{- range $t.authors }}{{ if in .slugs $slug }}{{ $own = $own | append $t }}{{ end }}{{ end -}}
+	{{- range $t.advisors }}{{ if in .slugs $slug }}{{ $advised = $advised | append $t }}{{ end }}{{ end -}}
+{{- end -}}
+{{- with $own }}
+	<h2 id="tesis">{{ cond (gt (len .) 1) "Sus tesis" "Su tesis" }}</h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
+	</ul>
+{{- end }}
+{{- with $advised }}
+	<h2 id="tesis-asesoradas">Tesis asesoradas <span class="count">{{ len . }}</span></h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
+	</ul>
+{{- end }}

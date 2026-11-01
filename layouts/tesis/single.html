@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{- $data := hugo.Data.theses -}}
+{{- $t := index (where $data.theses "id" .Params.thesis) 0 -}}
+{{- $section := .Parent -}}
+<article class="person-page py-page">
+	{{ partial "article/breadcrumbs.html" . }}
+	<header class="person-head">
+		<div>
+			<h1>{{ .Title }}</h1>
+			<p class="text-lead">
+				{{- range $i, $a := $t.authors }}{{ if $i }}, {{ end }}{{ partial "tesis/name.html" $a }}{{ end }} · {{ $t.year -}}
+			</p>
+		</div>
+	</header>
+	<section class="facts" aria-labelledby="thesis-info">
+		<h2 id="thesis-info">En breve</h2>
+		<dl>
+			<div>
+				<dt>Tipo</dt>
+				<dd>{{ index $data.collections $t.collection }}</dd>
+			</div>
+			{{- with $t.degree }}
+				<div>
+					<dt>Grado</dt>
+					<dd>{{ . }}</dd>
+				</div>
+			{{- end }}
+			{{- with $t.area }}
+				<div>
+					<dt>Área</dt>
+					<dd><a href="{{ $section.RelPermalink }}#area-{{ replace . "." "-" }}">{{ index $data.areas . }}</a></dd>
+				</div>
+			{{- end }}
+			{{- with $t.advisors }}
+				<div>
+					<dt>{{ cond (gt (len .) 1) "Asesores" "Asesor" }}</dt>
+					<dd>{{ range $i, $a := . }}{{ if $i }}, {{ end }}{{ partial "tesis/name.html" $a }}{{ end }}</dd>
+				</div>
+			{{- end }}
+			{{- with $t.jurors }}
+				<div>
+					<dt>Jurado</dt>
+					<dd>{{ delimit . ", " }}</dd>
+				</div>
+			{{- end }}
+			<div>
+				<dt>Texto completo</dt>
+				<dd><a href="{{ $t.handle }}">Cybertesis</a></dd>
+			</div>
+		</dl>
+	</section>
+	<div>
+		{{- with .Content }}
+			<h2 id="resumen">Resumen</h2>
+			<div class="markdown">{{ . }}</div>
+		{{- end }}
+		{{- with $t.subjects }}
+			<h2 id="temas">Temas</h2>
+			<p>{{ delimit . " · " }}</p>
+		{{- end }}
+		<p class="person-note text-muted">
+			Copia de su registro en Cybertesis, el repositorio de San Marcos, al {{ partial "ui/date.html" (time.AsTime $data.fetched) }}. El PDF y su licencia están ahí.
+		</p>
+		{{ partial "article/page-footer.html" . }}
+	</div>
+</article>
+{{ end }}

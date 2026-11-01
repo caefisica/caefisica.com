@@ -47,6 +47,12 @@ parent = "recursos"
 weight = 10
 
 [[main]]
+name = "Tesis"
+pageRef = "/tesis"
+parent = "recursos"
+weight = 15
+
+[[main]]
 name = "Blog"
 pageRef = "/blog"
 parent = "recursos"

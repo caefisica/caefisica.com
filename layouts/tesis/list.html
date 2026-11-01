@@ -1,0 +1,88 @@
+{{ define "main" }}
+{{- $data := hugo.Data.theses -}}
+{{- $theses := $data.theses -}}
+{{- /* An área with fewer theses than this joins "Otras áreas", where each row names its área. */ -}}
+{{- $least := 8 -}}
+{{- $areas := slice -}}
+{{- $rest := slice -}}
+{{- range $code, $name := $data.areas -}}
+	{{- $rows := where $theses "area" $code -}}
+	{{- if ge (len $rows) $least }}{{ $areas = $areas | append (dict "code" $code "name" $name "rows" $rows "n" (len $rows)) }}{{ else }}{{ $rest = $rest | append $rows }}{{ end -}}
+{{- end -}}
+{{- $areas = sort (sort $areas "name") "n" "desc" -}}
+{{- $rest = $rest | append (where $theses "area" nil) -}}
+{{- $years := slice -}}
+{{- range $theses }}{{ $years = $years | append .year }}{{ end -}}
+{{- $years = $years | uniq -}}
+{{- /* Advisors keyed by name, with three or more theses, most first. */ -}}
+{{- $counts := dict -}}
+{{- range $theses }}{{ range .advisors }}{{ $counts = merge $counts (dict .name (add 1 (index $counts .name | default 0))) }}{{ end }}{{ end -}}
+{{- $advisors := slice -}}
+{{- range $name, $n := $counts -}}
+	{{- if ge $n 3 -}}
+		{{- $rows := slice -}}
+		{{- $person := dict -}}
+		{{- range $t := $theses }}{{ range .advisors }}{{ if eq .name $name }}{{ $person = . }}{{ $rows = $rows | append $t }}{{ end }}{{ end }}{{ end -}}
+		{{- $advisors = $advisors | append (dict "person" $person "rows" $rows "n" $n) -}}
+	{{- end -}}
+{{- end -}}
+{{- $advisors = sort (sort $advisors "person.name") "n" "desc" -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d trabajos de la Facultad de Ciencias Físicas, de %d a %d, copiados de Cybertesis con su resumen, su asesor y su jurado. El texto completo está en el repositorio." (len $theses) (int (index (last 1 $years) 0)) (int (index $years 0)))) }}
+
+	<div class="views">
+		<fieldset class="pill-tabs">
+			<legend>Ver por</legend>
+			<label><input type="radio" name="vista" value="area" checked /><span>Área</span></label>
+			<label><input type="radio" name="vista" value="anio" /><span>Año</span></label>
+			<label><input type="radio" name="vista" value="asesor" /><span>Asesor</span></label>
+		</fieldset>
+
+		<div class="view" data-view="area">
+			{{- range $areas }}
+				<section class="section-group band" id="area-{{ replace .code "." "-" }}">
+					<h2>{{ .name }} <span class="count">{{ .n }}</span></h2>
+					<ul class="rows">
+						{{- range .rows }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			{{- with $rest }}
+				<section class="section-group band">
+					<h2>Otras áreas <span class="count">{{ len . }}</span></h2>
+					<ul class="rows">
+						{{- range sort . "year" "desc" }}
+							{{- $note := "Sin área" }}{{ with .area }}{{ $note = index $data.areas . }}{{ end }}
+							{{- partial "tesis/row.html" (dict "thesis" . "note" $note) }}
+						{{- end }}
+					</ul>
+				</section>
+			{{- end }}
+		</div>
+
+		<div class="view" data-view="anio">
+			{{- range $years }}
+				{{- $rows := where $theses "year" . }}
+				<section class="section-group band">
+					<h2>{{ . }} <span class="count">{{ len $rows }}</span></h2>
+					<ul class="rows">
+						{{- range $rows }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+		</div>
+
+		<div class="view" data-view="asesor">
+			{{- range $advisors }}
+				<section class="section-group band">
+					<h2>{{ partial "tesis/name.html" .person }} <span class="count">{{ .n }}</span></h2>
+					<ul class="rows">
+						{{- range .rows }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			<p class="text-muted">Asesores con tres trabajos o más. Los demás están en la página de cada tesis.</p>
+		</div>
+	</div>
+</div>
+{{ end }}
