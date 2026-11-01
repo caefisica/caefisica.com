@@ -1,0 +1,3 @@
+{{- /* A group heading's size with its noun, "26 charlas" or "1 charla", for a heading that is itself a number, such as a year, where a bare count would read as part of it. The nouns ride on data attributes so list-filter.ts can recount; html/template reads a data-on* name as an event handler and quotes its value, hence "singular". Context: dict with n, one and many. */ -}}
+<span class="count" data-singular="{{ .one }}" data-plural="{{ .many }}">{{ .n }} {{ cond (eq .n 1) .one .many }}</span>
+{{- /**/ -}}
