@@ -379,8 +379,7 @@
 
   hr {
     margin: 1rem 0;
-    border-top: 1px solid;
-    opacity: 0.25;
+    border-top: 1px dashed var(--line);
   }
 
   blockquote {
@@ -1214,7 +1213,7 @@
   .team-band {
     margin-top: 4rem;
     padding-top: 4rem;
-    border-top: 1px solid var(--line);
+    border-top: 1px dashed var(--line);
   }
 
   .org-label {
