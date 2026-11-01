@@ -10,7 +10,7 @@
 			</li>
 			{{ range hugo.Data.content.features -}}
 				<li class="reveal card card-hover home-card p-6 md:p-8">
-					<h3 class="mt-0 mb-3 text-h3">
+					<h3 class="mt-0 mb-3 text-h3 font-medium">
 						<a class="text-fg after:absolute after:inset-0 hover:text-fg" href="{{ .link | relURL }}">{{ .title | markdownify }}</a>
 					</h3>
 					<p class="m-0 text-muted">{{ .description | markdownify }}</p>
