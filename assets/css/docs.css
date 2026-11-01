@@ -1582,7 +1582,7 @@
   }
 
   /* The view tabs stick under the header, so a band's sticky label and a jump to a place stop below the tabs. */
-  .map-views {
+  .views {
     --band-top: 6.75rem;
 
     & .band {
@@ -1590,7 +1590,7 @@
     }
   }
 
-  .map-views > .pill-tabs {
+  .views > .pill-tabs {
     position: sticky;
     z-index: 2;
     top: 3.5rem;
@@ -1599,14 +1599,16 @@
     background: var(--bg);
   }
 
-  /* A browser without :has shows every view. */
-  .map-views:has(input:checked) > .map-list {
+  /* A browser without :has shows every view. Each radio value needs its own line. */
+  .views:has(input:checked) > .view {
     display: none;
   }
 
-  .map-views:has([value="lugar"]:checked) > [data-view="lugar"],
-  .map-views:has([value="area"]:checked) > [data-view="area"],
-  .map-views:has([value="persona"]:checked) > [data-view="persona"] {
+  .views:has([value="lugar"]:checked) > [data-view="lugar"],
+  .views:has([value="area"]:checked) > [data-view="area"],
+  .views:has([value="persona"]:checked) > [data-view="persona"],
+  .views:has([value="anio"]:checked) > [data-view="anio"],
+  .views:has([value="asesor"]:checked) > [data-view="asesor"] {
     display: block;
   }
 
