@@ -20,8 +20,10 @@ A YouTube playlist with data from bun run playlists gets its own page; any other
 {{- end -}}
 {{- $paths := slice -}}
 {{- range $list := $lists -}}
-	{{- $path := urlize $list.title -}}
-	{{- if in $paths $path }}{{ $path = urlize (printf "%s %s" $list.title $list.lecturer) }}{{ end -}}
+	{{- /* Not urlize: it percent-encodes "á", the server decodes the request, and the page is never found. */ -}}
+	{{- $slug := `[^\p{L}\p{N}.]+` -}}
+	{{- $path := strings.Trim ($list.title | lower | replaceRE $slug "-") "-" -}}
+	{{- if in $paths $path }}{{ $path = strings.Trim (printf "%s %s" $list.title $list.lecturer | lower | replaceRE $slug "-") "-" }}{{ end -}}
 	{{- $paths = $paths | append $path -}}
 	{{- $data := and $list.id (index hugo.Data.playlists $list.id) -}}
 	{{- $params := dict "lecturer" $list.lecturer "channel" $list.channel "url" $list.url "courses" $list.courses -}}
