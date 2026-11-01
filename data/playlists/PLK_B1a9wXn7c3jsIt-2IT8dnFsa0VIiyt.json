@@ -1,0 +1,415 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Mecánica Cuántica 1",
+  "channel": "rentov",
+  "description": "",
+  "updated": "2021-12-09",
+  "lessons": [
+    {
+      "id": "i0B3pBDPED4",
+      "title": "Propiedades ondulatorias de las partículas",
+      "duration": 1419
+    },
+    {
+      "id": "uOXdY10euac",
+      "title": "naturaleza cuántica de la luz",
+      "duration": 2964
+    },
+    {
+      "id": "uljpNhJZ1eQ",
+      "title": "Comportamiento corpuscular de la luz",
+      "duration": 1115
+    },
+    {
+      "id": "sQEFi6ooyOc",
+      "title": "Interpretación probabilista de la función de onda",
+      "duration": 1922
+    },
+    {
+      "id": "mXtb5bKnQNI",
+      "title": "Tratamiento formal de la función de onda",
+      "duration": 1724
+    },
+    {
+      "id": "t4RxY2yDQSA",
+      "title": "Representación de momentos y de coordenadas",
+      "duration": 1604
+    },
+    {
+      "id": "uZvoqH6nqW8",
+      "title": "Aparato matemático de la mecánica cuántica: amplitud de probabilidad",
+      "duration": 3459
+    },
+    {
+      "id": "ld-7btma2Lg",
+      "title": "Aparato matemático de la mecánica cuántica: vector de estado",
+      "duration": 1573
+    },
+    {
+      "id": "e2W-QV0hbfM",
+      "title": "Cambio de base y normalización de los vectores de estado",
+      "duration": 982
+    },
+    {
+      "id": "1QBXVpdozFg",
+      "title": "Operadores lineales en mecánica cuántica",
+      "duration": 1915
+    },
+    {
+      "id": "TIAx1ZjxBto",
+      "title": "Representación matricial de los operadores lineales",
+      "duration": 1320
+    },
+    {
+      "id": "-wn0ER36n9Q",
+      "title": "Operadores de magnitudes físicas: Transformaciones de simetría",
+      "duration": 3068
+    },
+    {
+      "id": "OANYZyJX37M",
+      "title": "Operadores de magnitudes físicas: Relación con los operadores de simetría.",
+      "duration": 3065
+    },
+    {
+      "id": "HJyHO8wn12g",
+      "title": "Conjugación hermítica de los operadores de magnitudes físicas",
+      "duration": 1419
+    },
+    {
+      "id": "AVK1wOGTAek",
+      "title": "Forma diagonal de la matriz de un operador de magnitud física",
+      "duration": 856
+    },
+    {
+      "id": "9uSN05VTo8o",
+      "title": "Conmutador de operadores de magnitudes físicas y principio de incertidumbre.",
+      "duration": 1563
+    },
+    {
+      "id": "kvqVog78WjU",
+      "title": "Función de onda de una partícula: Representación de coordenadas",
+      "duration": 2204
+    },
+    {
+      "id": "5s9nhU_kvrI",
+      "title": "Función de onda de una partícula: funciones propias",
+      "duration": 1078
+    },
+    {
+      "id": "y_rmblPfhH0",
+      "title": "Función de onda de una partícula: Acción de un operador sobre la función de onda",
+      "duration": 1121
+    },
+    {
+      "id": "HHKV5vWlObs",
+      "title": "Momento de una partícula",
+      "duration": 1064
+    },
+    {
+      "id": "BFZwmmOE2tQ",
+      "title": "Estado con un momento dado",
+      "duration": 4147
+    },
+    {
+      "id": "3CVDr-uDkIw",
+      "title": "Distribución de probabilidad por momentos",
+      "duration": 1060
+    },
+    {
+      "id": "21PekNNzNc4",
+      "title": "Evolución temporal de los estados y operador energía",
+      "duration": 665
+    },
+    {
+      "id": "IGH_YJ7-nmw",
+      "title": "Estados estacionarios",
+      "duration": 866
+    },
+    {
+      "id": "M9PlERM6Z0k",
+      "title": "Variación temporal de los valores medios",
+      "duration": 1662
+    },
+    {
+      "id": "O4WPZJh-lnQ",
+      "title": "Representación de Heisenberg",
+      "duration": 381
+    },
+    {
+      "id": "OdExCKY2ORQ",
+      "title": "Ecuación de Schrödinger para la función de onda de una partícula.",
+      "duration": 2608
+    },
+    {
+      "id": "UvumI9WH4B0",
+      "title": "Estados estacionarios: Ejercicio 1",
+      "duration": 1470
+    },
+    {
+      "id": "e97NgT7DLKM",
+      "title": "Estados estacionarios: Ejercicio 2",
+      "duration": 929
+    },
+    {
+      "id": "4WPciqBhGNw",
+      "title": "Partícula libre",
+      "duration": 2735
+    },
+    {
+      "id": "SZvpaTjJLwY",
+      "title": "Barrera de potencial y efecto tunel",
+      "duration": 5357
+    },
+    {
+      "id": "Crq7toDA5sc",
+      "title": "Partícula en un pozo de potencial infinito",
+      "duration": 1205
+    },
+    {
+      "id": "62pmwV1mtpI",
+      "title": "Oscilador armónico cuántico",
+      "duration": 2716
+    },
+    {
+      "id": "b2Nq_VSjS7o",
+      "title": "Propiedades generales de los estados estacionarios unidimensionales.",
+      "duration": 1495
+    },
+    {
+      "id": "2XFOfv9P6mc",
+      "title": "Ecuación de Schrödinger tridimensional",
+      "duration": 1065
+    },
+    {
+      "id": "iVMqMFYPI8Q",
+      "title": "Partícula en una caja de potencial",
+      "duration": 1336
+    },
+    {
+      "id": "M-_SLNebCRg",
+      "title": "Oscilador armónico tridimensional",
+      "duration": 973
+    },
+    {
+      "id": "A6ZJkv5TeFY",
+      "title": "Momento de la cantidad de movimiento",
+      "duration": 1869
+    },
+    {
+      "id": "4hV8X3ZBoG0",
+      "title": "Relaciones de conmutación del operador momento de la cantidad de movimiento",
+      "duration": 1921
+    },
+    {
+      "id": "UE3bfOLnVHE",
+      "title": "Estados con momento definido",
+      "duration": 3512
+    },
+    {
+      "id": "Nzo0vhQF3Is",
+      "title": "Multipletes de momentos",
+      "duration": 1733
+    },
+    {
+      "id": "feERIcO3rOM",
+      "title": "Matrices de los operadores momento",
+      "duration": 1641
+    },
+    {
+      "id": "m4BNW7VShPM",
+      "title": "Operador momento orbital",
+      "duration": 1454
+    },
+    {
+      "id": "gI04kGDErk0",
+      "title": "Partícula en un campo central: sistema de ecuaciones para la función de onda",
+      "duration": 1559
+    },
+    {
+      "id": "FjNdtqc14Ok",
+      "title": "Partícula en un campo central: parte angular de la función de onda",
+      "duration": 2004
+    },
+    {
+      "id": "5FipDEJsTcA",
+      "title": "Partícula en un campo central: parte radial de la función de onda",
+      "duration": 1868
+    },
+    {
+      "id": "oOIzRlPJVpo",
+      "title": "Partícula en un campo central: ondas esféricas",
+      "duration": 2582
+    },
+    {
+      "id": "jKE2hOGA3aI",
+      "title": "Desarrollo de una onda plana en ondas esféricas",
+      "duration": 1151
+    },
+    {
+      "id": "ZAWMJC0DmCc",
+      "title": "Rotador",
+      "duration": 802
+    },
+    {
+      "id": "fRIFeeqTJJg",
+      "title": "El átomo de hidrógeno",
+      "duration": 2660
+    },
+    {
+      "id": "1qcf_xI_tIY",
+      "title": "Átomo de hidrógeno: funciones de onda de los estados estacionarios.",
+      "duration": 1057
+    },
+    {
+      "id": "tv8fP4Izq10",
+      "title": "Problema de dos cuerpos",
+      "duration": 1141
+    },
+    {
+      "id": "Q9f0yxDBQu0",
+      "title": "Oscilador armónico: operadores de creación y aniquilación",
+      "duration": 3201
+    },
+    {
+      "id": "apieFowXnOQ",
+      "title": "Oscilador armónico: funciones propias del hamiltoniano",
+      "duration": 1606
+    },
+    {
+      "id": "uWQVRx2DFdk",
+      "title": "Oscilador armónico: comparación entre osciladores clásicos y cuánticos",
+      "duration": 1238
+    },
+    {
+      "id": "yoFdfRLddj8",
+      "title": "Partícula en un campo homogéneo: planteamiento del problema",
+      "duration": 671
+    },
+    {
+      "id": "0x1VNXGouCo",
+      "title": "Partícula en un campo homogéneo: solución en el espacio de momentos",
+      "duration": 920
+    },
+    {
+      "id": "MD7dDwnJfx4",
+      "title": "Partícula en un campo homogéneo: comparación entre la clásica y la cuántica.",
+      "duration": 956
+    },
+    {
+      "id": "DKBrKMYTlhA",
+      "title": "Oscilador armónico en un campo homogéneo: planteamiento del problema y solución.",
+      "duration": 893
+    },
+    {
+      "id": "7rb2arerI_E",
+      "title": "Oscilador armónico en un campo homogéneo: solución con los operadores de creación y aniquilación",
+      "duration": 2045
+    },
+    {
+      "id": "qn4whgFJdU8",
+      "title": "Oscilador armónico en un campo homogéneo: algunas propiedades de la solución.",
+      "duration": 866
+    },
+    {
+      "id": "bVWXbzVmF3M",
+      "title": "Espacio de Hilbert",
+      "duration": 1706
+    },
+    {
+      "id": "95LLldMkM_g",
+      "title": "Formalismo de Dirac",
+      "duration": 749
+    },
+    {
+      "id": "DXxMarnknHY",
+      "title": "Fundamentos de la teoría de representaciones",
+      "duration": 1528
+    },
+    {
+      "id": "KBu0fwLUsE4",
+      "title": "Representación de operadores",
+      "duration": 2307
+    },
+    {
+      "id": "h_D1LBDIUQc",
+      "title": "Representaciones y cantidades observables",
+      "duration": 1152
+    },
+    {
+      "id": "DlVgzktwre4",
+      "title": "Representaciones de energía y de momentos",
+      "duration": 1670
+    },
+    {
+      "id": "yMTHO4vkxf0",
+      "title": "Evolución temporal de operadores y funciones de onda",
+      "duration": 2841
+    },
+    {
+      "id": "pa1rMSYu4W8",
+      "title": "Función de Green para la ecuación de Schrödinger",
+      "duration": 2024
+    },
+    {
+      "id": "LLqQEAYH9UQ",
+      "title": "Estados de espín del electrón",
+      "duration": 2189
+    },
+    {
+      "id": "JcKX_BHKPfk",
+      "title": "Operador espín",
+      "duration": 1551
+    },
+    {
+      "id": "2LT_VfXawqQ",
+      "title": "Rotación de los espinores",
+      "duration": 1184
+    },
+    {
+      "id": "1fuX3R_w-bM",
+      "title": "Suma de momentos",
+      "duration": 1360
+    },
+    {
+      "id": "p8fw1Z7rw_8",
+      "title": "Suma de espines",
+      "duration": 1672
+    },
+    {
+      "id": "1GDnFSsMjtA",
+      "title": "Acople de momentos",
+      "duration": 2368
+    },
+    {
+      "id": "Pvfh_kt8T4U",
+      "title": "Paridad",
+      "duration": 2417
+    },
+    {
+      "id": "RyQ6LjCzdHo",
+      "title": "Momento total",
+      "duration": 1956
+    },
+    {
+      "id": "JO8jBc03gdo",
+      "title": "Suma de momentos: ejemplo",
+      "duration": 830
+    },
+    {
+      "id": "8a9TkvJFuOU",
+      "title": "Partículas idénticas",
+      "duration": 1360
+    },
+    {
+      "id": "qf4UtBLgOZ8",
+      "title": "Degeneración de intercambio",
+      "duration": 2145
+    },
+    {
+      "id": "zd9X6VI8rhI",
+      "title": "Principio de Pauli",
+      "duration": 1682
+    }
+  ]
+}

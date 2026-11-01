@@ -1,0 +1,370 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Mecánica cuántica 2",
+  "channel": "rentov",
+  "description": "",
+  "updated": "2023-07-05",
+  "lessons": [
+    {
+      "id": "ePF2qTLyZdk",
+      "title": "Teoría de perturbaciones: planteamiento del problema",
+      "duration": 732
+    },
+    {
+      "id": "iKfztZREsuE",
+      "title": "Teoria de perturbaciones: caso no degenerado",
+      "duration": 2891
+    },
+    {
+      "id": "ehiUZLRRQlg",
+      "title": "Teoría de perturbaciones: oscilador anarmónico",
+      "duration": 2198
+    },
+    {
+      "id": "dxMiwJLHHFY",
+      "title": "Teoría de perturbaciones: caso de niveles cercanos",
+      "duration": 2063
+    },
+    {
+      "id": "AgJe61dsExU",
+      "title": "Teoría de perturbaciones: caso degenerado",
+      "duration": 953
+    },
+    {
+      "id": "YcJaD_aw3sY",
+      "title": "Teoría de perturbaciones: ejemplo 1",
+      "duration": 1765
+    },
+    {
+      "id": "QxsARXyLqLU",
+      "title": "Teoría de perturbaciones: ejemplo 2",
+      "duration": 649
+    },
+    {
+      "id": "UTIfz_i0FfQ",
+      "title": "Teoría de perturbaciones: ejemplo 2",
+      "duration": 1141
+    },
+    {
+      "id": "Ag3BhLjhgQk",
+      "title": "Teoría de perturbaciones: ejemplo 3",
+      "duration": 1342
+    },
+    {
+      "id": "_ZL7vjZQskU",
+      "title": "Teoría de perturbaciones: ejemplo 4",
+      "duration": 851
+    },
+    {
+      "id": "_nlhoS9Dg84",
+      "title": "Teoría de perturbaciones: ejemplo 5",
+      "duration": 1346
+    },
+    {
+      "id": "LGHZThJMYlk",
+      "title": "Método variacional: principio variacional para el estado fundamental",
+      "duration": 1152
+    },
+    {
+      "id": "qVXvZ_-y5e4",
+      "title": "Método variacional: principio variacional para estados excitados",
+      "duration": 808
+    },
+    {
+      "id": "C5S1427BEOE",
+      "title": "Método variacional: Método variacional de Ritz",
+      "duration": 849
+    },
+    {
+      "id": "GoimBW4EMxY",
+      "title": "Método variacional: ejemplo 1",
+      "duration": 658
+    },
+    {
+      "id": "TJGvzid8fSM",
+      "title": "Método variacional: ejemplo 1 (con sagemath)",
+      "duration": 489
+    },
+    {
+      "id": "3d7KO31f-HU",
+      "title": "Método variacional: ejemplo 2",
+      "duration": 617
+    },
+    {
+      "id": "YBjWUosZX28",
+      "title": "Método variacional: ejemplo 2 (con sagemath)",
+      "duration": 590
+    },
+    {
+      "id": "Ic0feEm1ub8",
+      "title": "Aproximación semiclásica: Relación entre la mecánica cuántica y la mecánica clásica",
+      "duration": 2148
+    },
+    {
+      "id": "kgLrhsCJ_8Y",
+      "title": "Aproximación semiclásica: conceptos generales",
+      "duration": 1279
+    },
+    {
+      "id": "G546SPLv2uI",
+      "title": "Aproximación semiclásica: aproximación WKB",
+      "duration": 1473
+    },
+    {
+      "id": "U50BZyqy8OA",
+      "title": "Aproximación semiclásica: condiciones de contorno en la aproximación WKB.",
+      "duration": 1543
+    },
+    {
+      "id": "rRnqgtDJlp4",
+      "title": "Aproximación semiclásica: Fórmula de cuantización de Bohr-Sommerfeld: oscilador armónico",
+      "duration": 454
+    },
+    {
+      "id": "QP_3JxXcuV0",
+      "title": "Aproximación semiclásica: Fórmula de cuantización de Bohr-Sommerfeld.",
+      "duration": 1296
+    },
+    {
+      "id": "bfOmD8Gg7XA",
+      "title": "Aproximación semiclásica: Fórmula de cuantización de Bohr-Sommerfeld: consecuencias importantes",
+      "duration": 872
+    },
+    {
+      "id": "CJspKgIBoGs",
+      "title": "Aproximación semiclásica: Fórmula de cuantización de Bohr-Sommerfeld: sobre los niveles energéticos",
+      "duration": 1112
+    },
+    {
+      "id": "pgn9TU7jgJ8",
+      "title": "Aproximación semiclásica: Paso a través de una barrera de potencial",
+      "duration": 1210
+    },
+    {
+      "id": "Pk4zlONwAYI",
+      "title": "Metodo WKB: ejemplo 1",
+      "duration": 2168
+    },
+    {
+      "id": "tGy2y_4NVRY",
+      "title": "Metodo WKB: ejemplo 2",
+      "duration": 880
+    },
+    {
+      "id": "Q3WGjpdZvjk",
+      "title": "Metodo WKB: ejemplo 3",
+      "duration": 415
+    },
+    {
+      "id": "i6jxzL2H40Q",
+      "title": "Metodo WKB: ejemplo 4",
+      "duration": 526
+    },
+    {
+      "id": "fWpudDJam6c",
+      "title": "Metodo WKB: ejemplo 5",
+      "duration": 298
+    },
+    {
+      "id": "iJr2xXk6K-M",
+      "title": "Teoría de las transiciones cuánticas: Transiciones cuánticas",
+      "duration": 2115
+    },
+    {
+      "id": "yLg0xEjQ5Ho",
+      "title": "Teoría de las transiciones cuánticas: perturbaciones no estacionarias",
+      "duration": 750
+    },
+    {
+      "id": "LBvWkvsegxM",
+      "title": "Teoría de las transiciones cuánticas: perturbaciones adiabáticas y súbitas",
+      "duration": 1185
+    },
+    {
+      "id": "dTeiHcgY7-0",
+      "title": "Teoría de las transiciones cuánticas: perturbaciones armónicas",
+      "duration": 961
+    },
+    {
+      "id": "cTaIciWulnQ",
+      "title": "Teoría de las transiciones cuánticas: perturbaciones armónicas.",
+      "duration": 2050
+    },
+    {
+      "id": "nJC8TQyR7jg",
+      "title": "Teoría de las transciones cuánticas: ejemplo 1",
+      "duration": 819
+    },
+    {
+      "id": "LQ7wtgLVElo",
+      "title": "Teoría de las transciones cuánticas: ejemplo 2",
+      "duration": 1194
+    },
+    {
+      "id": "rTiXu_I-Hj4",
+      "title": "Emision y absorcion de la luz: Hamiltoniano de interacción con radiación electromagnética",
+      "duration": 1526
+    },
+    {
+      "id": "75I-JAFSjo4",
+      "title": "Emision y absorcion de la luz: Aproximación dipolar",
+      "duration": 960
+    },
+    {
+      "id": "YHy4lRVLL0g",
+      "title": "Emision y absorcion de la luz: Regla de selección para las transiciones dipolares",
+      "duration": 1387
+    },
+    {
+      "id": "JXMGOzPHvc4",
+      "title": "Emisión y absorción de luz: emisión y absorción forzada",
+      "duration": 1892
+    },
+    {
+      "id": "9RRqlNSZ3ZY",
+      "title": "Emisión y absorción de luz: Emisión espontánea",
+      "duration": 2216
+    },
+    {
+      "id": "d1ImWWkc08I",
+      "title": "Emisión y absorción de luz: efecto fotoeléctrico",
+      "duration": 1571
+    },
+    {
+      "id": "Qs2RybxCNiU",
+      "title": "Elementos de la teoría de la dispersión: dispersión como transición con perturbación de 1er orden",
+      "duration": 1511
+    },
+    {
+      "id": "KOOnixb4ubs",
+      "title": "Elementos de la teoría de la dispersión: problema y condiciones de contorno para espectro discreto",
+      "duration": 2395
+    },
+    {
+      "id": "wNt4lJMgN9M",
+      "title": "Elementos de la teoría de la dispersión: expresión exacta para la amplitud de probabilidad",
+      "duration": 986
+    },
+    {
+      "id": "PI_OAUpD5I8",
+      "title": "Elementos de la teoría de la dispersión: función de Green del movimiento libre",
+      "duration": 1051
+    },
+    {
+      "id": "ajV1g65A4uI",
+      "title": "Elementos de la teoría de la dispersión: primera aproximación de Born",
+      "duration": 1631
+    },
+    {
+      "id": "pRvRnQyiyqw",
+      "title": "Elementos de la teoría de la dispersión: Primera aproximación de Born para campos centrales",
+      "duration": 890
+    },
+    {
+      "id": "m4n9UVxKsyA",
+      "title": "Teoría no relativista del espín: Momento mecánico propio del electrón (espín)",
+      "duration": 1504
+    },
+    {
+      "id": "Kwn1J_-dyPE",
+      "title": "Teoría no relativista del espín: Dependencia espinorial de las funciones de onda",
+      "duration": 1193
+    },
+    {
+      "id": "6cqZwc0yJ4o",
+      "title": "Teoría no relativista del espín: Ecuación de Pauli",
+      "duration": 1576
+    },
+    {
+      "id": "CczG5juSZSo",
+      "title": "Teoría no relativista del espín: Efecto Zeeman (1/2)",
+      "duration": 1252
+    },
+    {
+      "id": "lxu9E2UcX8o",
+      "title": "Teoría no relativista del espín: efecto Zeeman (2/2)",
+      "duration": 1207
+    },
+    {
+      "id": "vrO44XPLyKk",
+      "title": "Teoría no relativista del espín: Elementos de la teoría del momento angular",
+      "duration": 1633
+    },
+    {
+      "id": "whxdgO85_tU",
+      "title": "Teoría no relativista del espínElementos de la teoría del momento angular - ejemplos",
+      "duration": 713
+    },
+    {
+      "id": "n6U_5U-9H-0",
+      "title": "Teoría no relativista del espín: Interacción espín - orbital",
+      "duration": 1815
+    },
+    {
+      "id": "t2fEcXk-2DQ",
+      "title": "Teoría no relativista del espín: Efecto Zeeman anómalo",
+      "duration": 218
+    },
+    {
+      "id": "Q3Di_xqfpBQ",
+      "title": "IMCR: Ecuación de Klein Gordon",
+      "duration": 2237
+    },
+    {
+      "id": "x9cBS1I47Qg",
+      "title": "IMCR: movimiento de una partícula libre sin espín",
+      "duration": 1055
+    },
+    {
+      "id": "ueDWxNdB0BU",
+      "title": "IMCR: ecuación de Dirac",
+      "duration": 2056
+    },
+    {
+      "id": "4gOTSIpPGEg",
+      "title": "IMCR: matrices de dirac",
+      "duration": 1126
+    },
+    {
+      "id": "NBoI_55lfJ8",
+      "title": "IMCR: movimiento libre en la teoría de Dirac",
+      "duration": 2715
+    },
+    {
+      "id": "bluqKEbgAeY",
+      "title": "IMCR: espín del electrón en la teoría de Dirac",
+      "duration": 845
+    },
+    {
+      "id": "20XAwBOQvsQ",
+      "title": "IMCR: momento angular total del electrón relativista",
+      "duration": 715
+    },
+    {
+      "id": "axB3qgHElqQ",
+      "title": "IMCR: correcciones relativistas a la ecuación de Schrödinger",
+      "duration": 1047
+    },
+    {
+      "id": "XabKgegaX1A",
+      "title": "IMCR: Interacción espín orbital en la teoría de Dirac",
+      "duration": 2508
+    },
+    {
+      "id": "WyrUOrW4KhU",
+      "title": "Matriz de densidad: Estados mixtos",
+      "duration": 1784
+    },
+    {
+      "id": "3bqG3RADalc",
+      "title": "Teoría cuántica de la radiación (3/3)",
+      "duration": 1189
+    },
+    {
+      "id": "Lv0p7hmh8fs",
+      "title": "Teoría cuántica de la radiación: ejemplo",
+      "duration": 3404
+    }
+  ]
+}
