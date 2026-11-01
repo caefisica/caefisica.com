@@ -51,11 +51,34 @@ para actualizar los datos y confirma el JSON.
 
 `/fisicos/` dibuja un globo con las instituciones donde estudiaron o trabajan
 las personas de `data/physicists.json`, y debajo la misma información como
-lista. El JSON sale de las fichas públicas de CTI Vitae: `places` lista las
-instituciones con sus coordenadas (`lat` y `lon` nulos si no tienen ubicación) y
-`people` lista a cada persona con sus grados (`studied`) y sus puestos
-(`works`). Las fichas cambian poco; actualízalo a lo sumo una vez al año y
-cambia `fetched`.
+lista, que se ve por institución, por área o por persona.
+
+El JSON sale de las fichas públicas de CTI Vitae y, para quien no tiene ficha,
+de su registro de ORCID (`source` dice cuál). OpenAlex da el área, a partir de
+los temas de sus publicaciones, y la obra (`works_count` y `cited_by`). `places`
+lista las instituciones con sus coordenadas (`lat` y `lon` nulos si no tienen
+ubicación). `people` lista a cada persona con:
+
+| Campo     | Uso                                                               |
+| --------- | ----------------------------------------------------------------- |
+| `studied` | Sus grados, con institución, nivel y años.                        |
+| `works`   | Sus puestos actuales.                                             |
+| `jobs`    | Todos sus puestos, para la cronología del perfil.                 |
+| `path`    | Las instituciones de sus grados y luego las de sus puestos.       |
+| `area`    | El área según OpenAlex, o nulo con pocas publicaciones indexadas. |
+
+Las fichas cambian poco; actualízalo a lo sumo una vez al año y cambia
+`fetched`.
+
+Al elegir una institución, el globo traza la ruta (`path`) de cada persona que
+estudió o trabaja ahí. El botón «Ruta» de una fila, o la dirección
+`/fisicos/#ruta-<slug>`, traza la de una sola persona.
+
+`content/fisicos/_content.gotmpl` crea un perfil por persona en
+`/fisicos/<slug>/`, con lo que dice el JSON. Así los datos siguen a la vista
+cuando CTI Vitae no responde. El perfil usa la foto
+`static/images/fisicos/<slug>.jpg` si existe; la regla de la sección Foto vale
+también aquí. Sin foto, muestra las iniciales del nombre y del primer apellido.
 
 Cuando el JSON gana una institución fuera del Perú, corre `bun run landmask`.
 Reescribe `assets/maps/land.bin` con la costa detallada alrededor de cada

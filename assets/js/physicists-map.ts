@@ -12,6 +12,16 @@ interface Place {
   n: number;
 }
 
+// A person and the mapped places of their path, degrees first, then work.
+interface Person {
+  slug: string;
+  name: string;
+  area: string | null;
+  degree: string;
+  path: string[];
+  url: string;
+}
+
 interface Mask {
   south: number;
   west: number;
@@ -40,6 +50,9 @@ const MAX_LEVEL = 7;
 const MAX_ZOOM = 512;
 const MIN_ZOOM = 0.8;
 const CLUSTER_PX = 26;
+// An arc rises to this share of the radius for every radian it spans.
+const LIFT = 0.12;
+const DRAW_MS = 900;
 // Peru runs about 18.5° north to south; the span leaves a margin.
 const PERU = { lon: -75, lat: -9.3, span: 21 };
 
@@ -127,6 +140,28 @@ function clamp(v: number, lo: number, hi: number): number {
   return Math.min(hi, Math.max(lo, v));
 }
 
+type Vec = [number, number, number];
+
+function vec(lat: number, lon: number): Vec {
+  const p = lat * RAD;
+  const l = lon * RAD;
+  return [Math.cos(p) * Math.cos(l), Math.cos(p) * Math.sin(l), Math.sin(p)];
+}
+
+// The great circle from a to b, as unit vectors at t = 0 … 1.
+function slerp(a: Vec, b: Vec, t: number, omega: number): Vec {
+  if (omega < 1e-9) return a;
+  const s = Math.sin(omega);
+  const ka = Math.sin((1 - t) * omega) / s;
+  const kb = Math.sin(t * omega) / s;
+  return [ka * a[0] + kb * b[0], ka * a[1] + kb * b[1], ka * a[2] + kb * b[2]];
+}
+
+function between(a: Vec, b: Vec): number {
+  const dot = a[0] * b[0] + a[1] * b[1] + a[2] * b[2];
+  return Math.acos(clamp(dot, -1, 1));
+}
+
 class Globe {
   private readonly ctx: CanvasRenderingContext2D;
   private readonly reduced = matchMedia("(prefers-reduced-motion: reduce)");
@@ -141,6 +176,12 @@ class Globe {
   private clusters: Cluster[] = [];
   private hover?: Cluster;
   private selected = new Set<string>();
+  private readonly byId: Map<string, Place>;
+  // The paths drawn, and the one drawn on top when a person is focused.
+  private routes: Person[] = [];
+  private focus?: string;
+  private drawStart = 0;
+  private pending?: Person;
   private colors = {
     fg: "",
     bg: "",
@@ -157,9 +198,11 @@ class Globe {
     private readonly canvas: HTMLCanvasElement,
     private readonly masks: Masks,
     private readonly places: Place[],
+    private readonly people: Person[],
     private readonly onPick: (places: Place[]) => void,
   ) {
     this.ctx = canvas.getContext("2d")!;
+    this.byId = new Map(places.map((p) => [p.id, p]));
     this.readColors();
     new ResizeObserver(() => this.resize()).observe(canvas);
     new MutationObserver(() => {
@@ -202,8 +245,41 @@ class Globe {
     this.zoomAt(this.width / 2, this.height / 2, this.zoom * factor, true);
   }
 
+  // Mark places and draw the path of everyone who studied or works at one.
   select(ids: string[]): void {
     this.selected = new Set(ids);
+    this.routes = this.people.filter(
+      (p) => p.path.length > 1 && p.path.some((id) => this.selected.has(id)),
+    );
+    this.focus = undefined;
+    this.drawStart = performance.now();
+    this.draw();
+  }
+
+  // Draw one person's path and fly to show all of it.
+  follow(person: Person): void {
+    this.selected = new Set(person.path);
+    this.routes = [person];
+    this.focus = person.slug;
+    this.drawStart = performance.now();
+    // Before the first layout there is no size to fit the path to.
+    if (!this.width) {
+      this.pending = person;
+      return;
+    }
+    const stops = person.path
+      .map((id) => this.byId.get(id))
+      .filter((p): p is Place => p !== undefined);
+    if (!stops.length) return this.draw();
+    const { lat, lon, arc } = this.centre(stops);
+    // Loose enough that the stops clear the panel on the right.
+    this.flyTo(lon, lat, this.fitZoom(Math.max(arc * 2.6, 10)));
+  }
+
+  // Bring one drawn path to the front, or none.
+  highlight(slug: string | undefined): void {
+    if (slug === this.focus) return;
+    this.focus = slug;
     this.draw();
   }
 
@@ -235,6 +311,8 @@ class Globe {
     this.canvas.height = Math.round(rect.height * this.dpr);
     if (first) this.zoom = this.fitZoom(PERU.span);
     this.paint();
+    if (this.pending) this.follow(this.pending);
+    this.pending = undefined;
   }
 
   // Screen offset from the centre, and whether the point faces the viewer.
@@ -293,8 +371,108 @@ class Globe {
     ctx.lineWidth = 1;
     ctx.stroke();
     this.paintDots();
+    this.paintRoutes();
     this.clusters = this.cluster();
     this.paintMarkers();
+  }
+
+  // Each leg of a path is a great circle lifted off the ground in proportion
+  // to its length, so a long one reads as a flight. The legs draw in order
+  // when the selection changes.
+  private paintRoutes(): void {
+    if (!this.routes.length) return;
+    const { ctx, colors } = this;
+    const R = this.radius;
+    const cx = this.width / 2;
+    const cy = this.height / 2;
+    const cl = Math.cos(this.lon * RAD);
+    const sl = Math.sin(this.lon * RAD);
+    const cp = Math.cos(this.lat * RAD);
+    const sp = Math.sin(this.lat * RAD);
+    // A lifted point behind the globe still shows where it clears the disc.
+    const screen = (v: Vec, lift: number): [number, number, boolean] => {
+      const front = v[0] * cl + v[1] * sl;
+      const x = v[1] * cl - v[0] * sl;
+      const y = cp * v[2] - sp * front;
+      const z = sp * v[2] + cp * front;
+      const k = 1 + lift;
+      return [
+        cx + R * x * k,
+        cy - R * y * k,
+        z > 0 || Math.hypot(x, y) * k > 1,
+      ];
+    };
+    const t = this.reduced.matches
+      ? 1
+      : clamp((performance.now() - this.drawStart) / DRAW_MS, 0, 1);
+    if (t < 1) this.draw();
+    const eased = 1 - (1 - t) ** 3;
+    const single = this.routes.length === 1;
+    const order = [...this.routes].sort(
+      (a, b) => Number(a.slug === this.focus) - Number(b.slug === this.focus),
+    );
+    ctx.strokeStyle = colors.accent;
+    ctx.fillStyle = colors.accent;
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+    for (const person of order) {
+      const on = single || person.slug === this.focus;
+      ctx.globalAlpha = on ? 1 : this.focus ? 0.12 : 0.4;
+      ctx.lineWidth = on ? 2 : 1.25;
+      const stops = person.path
+        .map((id) => this.byId.get(id))
+        .filter((p): p is Place => p !== undefined);
+      const reach = eased * (stops.length - 1);
+      for (let i = 0; i < stops.length - 1 && i < reach; i++) {
+        const a = vec(stops[i].lat, stops[i].lon);
+        const b = vec(stops[i + 1].lat, stops[i + 1].lon);
+        const omega = between(a, b);
+        const share = Math.min(1, reach - i);
+        const n = clamp(Math.ceil(omega / RAD), 12, 120);
+        let pen = false;
+        let tip: [number, number] | undefined;
+        let back: [number, number] | undefined;
+        ctx.beginPath();
+        for (let s = 0; s <= n; s++) {
+          const u = (share * s) / n;
+          const [x, y, seen] = screen(
+            slerp(a, b, u, omega),
+            LIFT * omega * Math.sin(Math.PI * u),
+          );
+          if (!seen) {
+            pen = false;
+            continue;
+          }
+          if (pen) ctx.lineTo(x, y);
+          else ctx.moveTo(x, y);
+          pen = true;
+          back = tip;
+          tip = [x, y];
+        }
+        ctx.stroke();
+        if (on && tip && back) this.arrow(back, tip);
+      }
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // A small head on a leg's end shows which way the person went.
+  private arrow([x0, y0]: [number, number], [x1, y1]: [number, number]): void {
+    const angle = Math.atan2(y1 - y0, x1 - x0);
+    const size = 7;
+    const { ctx } = this;
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+    ctx.lineTo(
+      x1 - size * Math.cos(angle - 0.45),
+      y1 - size * Math.sin(angle - 0.45),
+    );
+    ctx.lineTo(
+      x1 - size * Math.cos(angle + 0.45),
+      y1 - size * Math.sin(angle + 0.45),
+    );
+    ctx.closePath();
+    ctx.fill();
   }
 
   // The dots of level L sit on rows i·s and, in each row, columns k·360/n.
@@ -551,10 +729,19 @@ class Globe {
       this.onPick(c.places);
       return;
     }
+    const { lat, lon, arc } = this.centre(c.places);
+    const zoom = this.fitZoom(arc * 2.2);
+    if (arc < 1e-4 || this.zoom >= MAX_ZOOM * 0.99) this.onPick(c.places);
+    else this.flyTo(lon, lat, Math.max(zoom, this.zoom * 1.5));
+  }
+
+  // The mean point of some places, and the widest span, in degrees, they
+  // cover around it.
+  private centre(places: Place[]): { lat: number; lon: number; arc: number } {
     let x = 0;
     let y = 0;
     let z = 0;
-    for (const p of c.places) {
+    for (const p of places) {
       x += Math.cos(p.lat * RAD) * Math.cos(p.lon * RAD);
       y += Math.cos(p.lat * RAD) * Math.sin(p.lon * RAD);
       z += Math.sin(p.lat * RAD);
@@ -562,11 +749,9 @@ class Globe {
     const lat = Math.atan2(z, Math.hypot(x, y)) / RAD;
     const lon = Math.atan2(y, x) / RAD;
     let arc = 0;
-    for (const p of c.places)
+    for (const p of places)
       arc = Math.max(arc, 2 * this.angle(lat, lon, p.lat, p.lon));
-    const zoom = this.fitZoom(arc * 2.2);
-    if (arc < 1e-4 || this.zoom >= MAX_ZOOM * 0.99) this.onPick(c.places);
-    else this.flyTo(lon, lat, Math.max(zoom, this.zoom * 1.5));
+    return { lat, lon, arc };
   }
 
   private angle(
@@ -664,6 +849,8 @@ class Globe {
 function panel(
   root: HTMLElement,
   list: HTMLElement,
+  byId: Map<string, Place>,
+  people: Map<string, Person>,
   globe: () => Globe | undefined,
 ) {
   const box = root.querySelector<HTMLElement>(".map-panel")!;
@@ -672,12 +859,61 @@ function panel(
     box.hidden = true;
     body.replaceChildren();
     globe()?.select([]);
+    if (location.hash.startsWith("#ruta-"))
+      history.replaceState(null, "", location.pathname + location.search);
   };
   box.querySelector(".map-panel-close")!.addEventListener("click", close);
   root.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && !box.hidden) close();
   });
-  return (places: Place[]) => {
+  // A row brings its person's path to the front while it has the pointer
+  // or focus.
+  const lit = (e: Event) => {
+    const row = (e.target as Element).closest<HTMLElement>("[data-person]");
+    globe()?.highlight(row?.dataset.person);
+  };
+  body.addEventListener("pointerover", lit);
+  body.addEventListener("focusin", lit);
+  body.addEventListener("pointerleave", () => globe()?.highlight(undefined));
+  body.addEventListener("click", (e) => {
+    const button = (e.target as Element).closest<HTMLElement>("[data-route]");
+    const person = button && people.get(button.dataset.route!);
+    if (person) show(person);
+  });
+
+  const open = (nodes: HTMLElement[]) => {
+    body.replaceChildren(...nodes);
+    box.hidden = false;
+    body.scrollTop = 0;
+  };
+
+  const show = (person: Person) => {
+    const section = document.createElement("section");
+    section.className = "map-place";
+    const head = document.createElement("h2");
+    const where = document.createElement("span");
+    where.className = "map-where";
+    where.textContent = [`${person.degree} en física`, person.area]
+      .filter(Boolean)
+      .join(" · ");
+    head.append(person.name, " ", where);
+    const route = document.createElement("ol");
+    route.className = "route";
+    for (const id of person.path) {
+      const item = document.createElement("li");
+      item.textContent = byId.get(id)?.short ?? id;
+      route.append(item);
+    }
+    const link = document.createElement("a");
+    link.className = "map-route-btn";
+    link.href = person.url;
+    link.textContent = "Ver perfil";
+    section.append(head, route, link);
+    open([section]);
+    globe()?.follow(person);
+  };
+
+  const pick = (places: Place[]) => {
     const sections = places
       .map((p) => list.querySelector<HTMLElement>(`#lugar-${CSS.escape(p.id)}`))
       .filter((s): s is HTMLElement => s !== null)
@@ -685,13 +921,24 @@ function panel(
         const copy = s.cloneNode(true) as HTMLElement;
         copy.removeAttribute("id");
         copy.className = "map-place";
+        for (const row of copy.querySelectorAll<HTMLElement>("[data-person]")) {
+          const person = people.get(row.dataset.person!);
+          if (!person || person.path.length < 2) continue;
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "map-route-btn";
+          button.dataset.route = person.slug;
+          button.textContent = "Ruta";
+          button.setAttribute("aria-label", `Ruta de ${person.name}`);
+          row.append(button);
+        }
         return copy;
       });
-    body.replaceChildren(...sections);
-    box.hidden = false;
-    body.scrollTop = 0;
+    open(sections);
     globe()?.select(places.map((p) => p.id));
   };
+
+  return { pick, show };
 }
 
 async function start(root: HTMLElement): Promise<void> {
@@ -703,10 +950,23 @@ async function start(root: HTMLElement): Promise<void> {
   const response = await fetch(params.land);
   if (!response.ok) throw new Error(`land.bin: ${response.status}`);
   const masks = readMasks(await response.arrayBuffer());
+  const people = JSON.parse(params.people) as Person[];
+  const bySlug = new Map(people.map((p) => [p.slug, p]));
+  const byId = new Map(places.map((p) => [p.id, p]));
   let globe: Globe | undefined;
-  const pick = panel(root, list, () => globe);
+  const { pick, show } = panel(root, list, byId, bySlug, () => globe);
   root.hidden = false;
-  globe = new Globe(canvas, masks, places, pick);
+  globe = new Globe(canvas, masks, places, people, pick);
+  // A profile's "Ver la ruta en el mapa" lands here with #ruta-<slug>.
+  const route = () => {
+    const slug = location.hash.match(/^#ruta-(.+)$/)?.[1];
+    const person = slug && bySlug.get(decodeURIComponent(slug));
+    if (!person) return;
+    show(person);
+    root.scrollIntoView({ block: "start" });
+  };
+  addEventListener("hashchange", route);
+  route();
   const actions: Record<string, () => void> = {
     in: () => globe.zoomBy(2),
     out: () => globe.zoomBy(0.5),
