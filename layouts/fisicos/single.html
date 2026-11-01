@@ -95,6 +95,7 @@
 				<dd>
 					{{- $links := slice -}}
 					{{- if eq $p.source "ctivitae" }}{{ $links = $links | append (dict "url" $p.url "title" "CTI Vitae") }}{{ end -}}
+					{{- if eq $p.source "pucp" }}{{ $links = $links | append (dict "url" $p.url "title" "PUCP") }}{{ end -}}
 					{{- with $p.orcid }}{{ $links = $links | append (dict "url" (printf "https://orcid.org/%s" .) "title" "ORCID") }}{{ end -}}
 					{{- with $p.openalex }}{{ $links = $links | append (dict "url" (printf "https://openalex.org/authors/%s" .) "title" "OpenAlex") }}{{ end -}}
 					{{- range $i, $l := $links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end -}}
@@ -176,7 +177,7 @@
 				Cada dato enlaza su fuente pública. La ruta y la obra vienen de
 			{{- else -}}
 				Copia de
-			{{- end }} {{ if eq $p.source "ctivitae" }}su ficha de CTI Vitae, actualizada el {{ partial "ui/date.html" (time.AsTime (printf "%s-%s-%s" (index $updated 2) (index $updated 1) (index $updated 0))) }}, con grados de SUNEDU{{ else }}su registro de ORCID{{ end }}{{ with $p.openalex }}, y de OpenAlex para el área y la obra{{ end }}. Si eres {{ .Title }} y quieres corregir algo, enviar una foto o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+			{{- end }} {{ if eq $p.source "ctivitae" }}su ficha de CTI Vitae, actualizada el {{ partial "ui/date.html" (time.AsTime (printf "%s-%s-%s" (index $updated 2) (index $updated 1) (index $updated 0))) }}, con grados de SUNEDU{{ else if eq $p.source "pucp" }}su página en el Portal del Profesorado de la PUCP, que no da los años{{ else }}su registro de ORCID{{ end }}{{ with $p.openalex }}, y de OpenAlex para el área y la obra{{ end }}. Si eres {{ .Title }} y quieres corregir algo, enviar una foto o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 		</p>
 		{{ partial "article/page-footer.html" . }}
 	</div>

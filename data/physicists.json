@@ -1,5 +1,5 @@
 {
-  "source": "CTI Vitae (Concytec), con grados de SUNEDU; ORCID; OpenAlex",
+  "source": "CTI Vitae (Concytec), con grados de SUNEDU; ORCID; Portal del Profesorado de la PUCP; OpenAlex",
   "fetched": "2026-11-01",
   "places": [
     {
@@ -801,6 +801,70 @@
       "country": "GB",
       "lat": 55.94739,
       "lon": -3.18719
+    },
+    {
+      "id": "puc-chile",
+      "name": "Pontificia Universidad Católica de Chile",
+      "short": "PUC Chile",
+      "country": "CL",
+      "lat": -33.44115,
+      "lon": -70.64069
+    },
+    {
+      "id": "tu-berlin",
+      "name": "Technische Universität Berlin",
+      "short": "TU Berlin",
+      "country": "DE",
+      "lat": 52.51194,
+      "lon": 13.32639
+    },
+    {
+      "id": "bonn",
+      "name": "Universität Bonn",
+      "short": "Bonn",
+      "country": "DE",
+      "lat": 50.73389,
+      "lon": 7.10222
+    },
+    {
+      "id": "cambridge",
+      "name": "University of Cambridge",
+      "short": "Cambridge",
+      "country": "GB",
+      "lat": 52.20536,
+      "lon": 0.11316
+    },
+    {
+      "id": "valencia",
+      "name": "Universitat de València",
+      "short": "Valencia",
+      "country": "ES",
+      "lat": 39.47905,
+      "lon": -0.35909
+    },
+    {
+      "id": "upm",
+      "name": "Universidad Politécnica de Madrid",
+      "short": "UPM",
+      "country": "ES",
+      "lat": 40.44917,
+      "lon": -3.72806
+    },
+    {
+      "id": "obs-paris",
+      "name": "Observatoire de Paris",
+      "short": "Obs. de París",
+      "country": "FR",
+      "lat": 48.8051,
+      "lon": 2.23337
+    },
+    {
+      "id": "upr",
+      "name": "Universidad de Puerto Rico",
+      "short": "UPR",
+      "country": "PR",
+      "lat": 18.40306,
+      "lon": -66.05056
     }
   ],
   "people": [
@@ -3279,6 +3343,48 @@
       "path": ["unmsm", "unac"]
     },
     {
+      "slug": "jhosep-victorino-beltran-ramirez",
+      "name": "Jhosep Victorino Beltran Ramirez",
+      "initials": "JB",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jhosep-beltran-ramirez/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unesp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["unesp", "pucp"]
+    },
+    {
       "slug": "jhonny-antonio-benavente-castillo",
       "name": "Jhonny Antonio Benavente Castillo",
       "initials": "JB",
@@ -3857,6 +3963,41 @@
       "path": ["unp", "uni", "pucp", "utp"]
     },
     {
+      "slug": "juan-enrique-calderon-krejci",
+      "name": "Juan Enrique Calderon Krejci",
+      "initials": "JC",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/juan-calderon-krejci/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "yefry-giancarlo-calla-zapana",
       "name": "Yefry Giancarlo Calla Zapana",
       "initials": "YC",
@@ -3984,6 +4125,45 @@
       "path": ["unsa", "uc"]
     },
     {
+      "slug": "ernesto-calvo-villar",
+      "name": "Ernesto Calvo Villar",
+      "initials": "EC",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/ernesto-calvo-villar/resumen/",
+      "orcid": "0000-0002-5269-9779",
+      "updated": "",
+      "degree": "Maestría",
+      "openalex": "A5107838620",
+      "area": "Partículas y física nuclear",
+      "works_count": 446,
+      "cited_by": 31595,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "enriqueta-victoria-campos-falcon",
       "name": "Enriqueta Victoria Campos Falcon",
       "initials": "EC",
@@ -4042,6 +4222,41 @@
         }
       ],
       "path": ["unsa"]
+    },
+    {
+      "slug": "victor-oliver-canchos-lopez",
+      "name": "Victor Oliver Canchos Lopez",
+      "initials": "VC",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/victor-canchos-lopez/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "gisell-indira-carbajal-dominguez",
@@ -4525,6 +4740,59 @@
       "works": [],
       "jobs": [],
       "path": ["unac", "uni"]
+    },
+    {
+      "slug": "hernan-alfredo-castillo-egoavil",
+      "name": "Hernan Alfredo Castillo Egoavil",
+      "initials": "HC",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/hernan-castillo-egoavil/resumen/",
+      "orcid": "0000-0003-1208-7353",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5006917978",
+      "area": "Óptica y física atómica",
+      "works_count": 11,
+      "cited_by": 87,
+      "studied": [
+        {
+          "place": "puc-chile",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "puc-chile",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["puc-chile", "pucp", "puc-chile", "pucp"]
     },
     {
       "slug": "jorge-luis-casusol-cumpa",
@@ -5478,6 +5746,52 @@
       "path": ["unac", "unfv"]
     },
     {
+      "slug": "francisco-antonio-de-zela-martinez",
+      "name": "Francisco Antonio De Zela Martinez",
+      "initials": "FD",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/francisco-de-zela-martinez/resumen/",
+      "orcid": "0000-0002-3757-1769",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5034313623",
+      "area": "Óptica y física atómica",
+      "works_count": 97,
+      "cited_by": 532,
+      "studied": [
+        {
+          "place": "bonn",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["bonn", "pucp"]
+    },
+    {
       "slug": "roberto-augusto-del-carpio-minaya",
       "name": "Roberto Augusto Del Carpio Minaya",
       "initials": "RD",
@@ -5973,6 +6287,52 @@
       "path": ["uni", "pucp", "fau", "pucp", "utec"]
     },
     {
+      "slug": "alberto-martin-gago-medina",
+      "name": "Alberto Martin Gago Medina",
+      "initials": "AG",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/alberto-gago-medina/resumen/",
+      "orcid": "0000-0002-0019-9692",
+      "updated": "",
+      "degree": "Maestría",
+      "openalex": "A5021133676",
+      "area": "Partículas y física nuclear",
+      "works_count": 1049,
+      "cited_by": 43963,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Doutor em ciéncias",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp", "usp", "pucp"]
+    },
+    {
       "slug": "eladio-cesar-gallardo-bazan",
       "name": "Eladio Cesar Gallardo Bazan",
       "initials": "EG",
@@ -6024,6 +6384,76 @@
         }
       ],
       "path": ["unitru", "unjfsc"]
+    },
+    {
+      "slug": "gonzalo-alvaro-francisco-javier-galvez-de-la-puente",
+      "name": "Gonzalo Alvaro Francisco Javier Galvez de la Puente",
+      "initials": "GG",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/gonzalo-galvez-de-la-puente/resumen/",
+      "orcid": "0009-0006-2234-4244",
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor asociado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor asociado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "leandro-dino-garcia-calderon-palomino",
+      "name": "Leandro Dino Garcia Calderon Palomino",
+      "initials": "LG",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/leandro-garcia-calderon-palomino/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "amador-jorge-gonsalez-vasquez",
@@ -6266,6 +6696,41 @@
       "path": ["unfv", "uni", "oncocare"]
     },
     {
+      "slug": "franco-alejandro-gonzales-nino",
+      "name": "Franco Alejandro Gonzales Niño",
+      "initials": "FG",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/franco-gonzales-nino/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor auxiliar"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor auxiliar",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "pablo-guillermo-gonzales-ormeno",
       "name": "Pablo Guillermo Gonzales Ormeño",
       "initials": "PG",
@@ -6495,8 +6960,8 @@
           "end": 2011
         },
         {
-          "place": null,
-          "name": "Universidad de Cambridge",
+          "place": "cambridge",
+          "name": "University of Cambridge",
           "role": "Profesor visitante",
           "start": 2010,
           "end": 2010
@@ -6509,8 +6974,8 @@
           "end": 2009
         },
         {
-          "place": null,
-          "name": "Universidad de Cambridge",
+          "place": "cambridge",
+          "name": "University of Cambridge",
           "role": "Investigador visitante",
           "start": 2008,
           "end": 2008
@@ -6573,6 +7038,83 @@
         }
       ],
       "path": ["unmsm", "uab", "unmsm"]
+    },
+    {
+      "slug": "cesar-augusto-guerra-gutierrez",
+      "name": "Cesar Augusto Guerra Gutierrez",
+      "initials": "CG",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/cesar-guerra-gutierrez/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor auxiliar"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor auxiliar",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "jorge-andres-guerra-torres",
+      "name": "Jorge Andres Guerra Torres",
+      "initials": "JG",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jorge-guerra-torres/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "walter-robert-guevara-day",
@@ -6802,6 +7344,52 @@
       ]
     },
     {
+      "slug": "roberto-antonio-guzman-ramirez",
+      "name": "Roberto Antonio Guzman Ramirez",
+      "initials": "RG",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/roberto-guzman-ramirez/resumen/",
+      "orcid": "0009-0006-1295-9608",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5076313231",
+      "area": "Ingeniería y energía",
+      "works_count": 7,
+      "cited_by": 18,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "hermelinda-hanampa-roque",
       "name": "Hermelinda Hanampa Roque",
       "initials": "HH",
@@ -6870,6 +7458,52 @@
         }
       ],
       "path": ["unsaac"]
+    },
+    {
+      "slug": "fermin-fidel-herrera-aragon",
+      "name": "Fermin Fidel Herrera Aragon",
+      "initials": "FH",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/fermin-herrera-aragon/resumen/",
+      "orcid": "0000-0001-5336-1131",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5026377816",
+      "area": "Materia condensada y materiales",
+      "works_count": 91,
+      "cited_by": 1616,
+      "studied": [
+        {
+          "place": "unb",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unb",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["unb", "pucp"]
     },
     {
       "slug": "jesus-alberto-holguin-maron",
@@ -7276,6 +7910,59 @@
       "path": ["unac", "ufma", "utp"]
     },
     {
+      "slug": "joel-jones-perez",
+      "name": "Joel Jones Perez",
+      "initials": "JJ",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/joel-jones-perez/resumen/",
+      "orcid": "0000-0002-2037-6369",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5040888720",
+      "area": "Partículas y física nuclear",
+      "works_count": 46,
+      "cited_by": 846,
+      "studied": [
+        {
+          "place": "cambridge",
+          "level": "Maestría",
+          "field": "Master of advanced study",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "valencia",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["cambridge", "pucp", "valencia", "pucp"]
+    },
+    {
       "slug": "carlos-eduardo-joo-garcia",
       "name": "Carlos Eduardo Joo Garcia",
       "initials": "CJ",
@@ -7463,6 +8150,41 @@
         }
       ],
       "path": ["unjbg"]
+    },
+    {
+      "slug": "enrique-javier-lay-mesones",
+      "name": "Enrique Javier Lay Mesones",
+      "initials": "EL",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/enrique-lay-mesones/resumen/",
+      "orcid": "0009-0002-4123-8130",
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "luis-alberto-leon-andonayre",
@@ -7773,6 +8495,52 @@
       "path": ["unmsm", "upch", "cca"]
     },
     {
+      "slug": "kevin-angello-lizarraga-olivares",
+      "name": "Kevin Angello Lizarraga Olivares",
+      "initials": "KL",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/kevin-lizarraga-olivares/resumen/",
+      "orcid": "0000-0002-2388-4297",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5092007913",
+      "area": "Materia condensada y materiales",
+      "works_count": 12,
+      "cited_by": 48,
+      "studied": [
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["unesp", "pucp"]
+    },
+    {
       "slug": "flavio-abad-llamccaya-ramirez",
       "name": "Flavio Abad Llamccaya Ramirez",
       "initials": "FL",
@@ -7896,6 +8664,48 @@
         }
       ],
       "path": ["uni", "pucp"]
+    },
+    {
+      "slug": "celso-edgar-llimpe-quintanilla",
+      "name": "Celso Edgar Llimpe Quintanilla",
+      "initials": "CL",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/celso-llimpe-quintanilla/resumen/",
+      "orcid": "0000-0001-9039-5234",
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "upm",
+          "level": "Doctorado",
+          "field": "Doctor en ingeniería acústica",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp", "upm", "pucp"]
     },
     {
       "slug": "whualkuer-enrique-lozano-bartra",
@@ -8297,6 +9107,59 @@
       "path": ["unsa", "puc-rio", "uff"]
     },
     {
+      "slug": "eduardo-ruben-massoni-kamimoto",
+      "name": "Eduardo Ruben Massoni Kamimoto",
+      "initials": "EM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/eduardo-massoni-kamimoto/resumen/",
+      "orcid": "0000-0002-8333-6954",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5018732800",
+      "area": "Óptica y física atómica",
+      "works_count": 18,
+      "cited_by": 169,
+      "studied": [
+        {
+          "place": "puc-chile",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "puc-chile",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["puc-chile", "pucp", "puc-chile", "pucp"]
+    },
+    {
       "slug": "jose-julian-medina-medina",
       "name": "Jose Julian Medina Medina",
       "initials": "JM",
@@ -8452,6 +9315,41 @@
       "path": ["unmsm", "cfaed"]
     },
     {
+      "slug": "bernabe-alonso-mejia-cordero",
+      "name": "Bernabe Alonso Mejia Cordero",
+      "initials": "BM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/bernabe-mejia-cordero/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "juan-neil-mendoza-nolorbe",
       "name": "Juan Neil Mendoza Nolorbe",
       "initials": "JM",
@@ -8545,6 +9443,76 @@
       "path": ["unmsm"]
     },
     {
+      "slug": "oscar-lennon-miculicich-egoavil",
+      "name": "Oscar Lennon Miculicich Egoavil",
+      "initials": "OM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/oscar-miculicich-egoavil/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "josue-alfonzo-miranda-fernandez",
+      "name": "Josue Alfonzo Miranda Fernandez",
+      "initials": "JM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/josue-miranda-fernandez/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "nabilt-jill-moggiano-aburto",
       "name": "Nabilt Jill Moggiano Aburto",
       "initials": "NM",
@@ -8624,6 +9592,76 @@
         }
       ],
       "path": ["unmsm", "uc", "unmsm", "uc", "grips", "uc"]
+    },
+    {
+      "slug": "hernan-montes-corazao",
+      "name": "Hernan Montes Corazao",
+      "initials": "HM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/hernan-montes-corazao/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor auxiliar"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor auxiliar",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "alejandro-manuel-montoya-janampa",
+      "name": "Alejandro Manuel Montoya Janampa",
+      "initials": "AM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/alejandro-montoya-janampa/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "israel-roger-montoya-matos",
@@ -8825,6 +9863,48 @@
       "path": ["unac", "ufes"]
     },
     {
+      "slug": "jorge-nestor-moreno-ruiz",
+      "name": "Jorge Nestor Moreno Ruiz",
+      "initials": "JM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jorge-moreno-ruiz/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "tu-berlin",
+          "level": "Doctorado",
+          "field": "Doctor en ingeniería",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp", "tu-berlin", "pucp"]
+    },
+    {
       "slug": "carlos-alberto-morgan-cruz",
       "name": "Carlos Alberto Morgan Cruz",
       "initials": "CM",
@@ -8890,6 +9970,80 @@
         }
       ],
       "path": ["unitru"]
+    },
+    {
+      "slug": "richard-alfredo-moscoso-bullon",
+      "name": "Richard Alfredo Moscoso Bullon",
+      "initials": "RM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/richard-moscoso-bullon/resumen/",
+      "orcid": "0000-0002-4343-0620",
+      "updated": "",
+      "degree": "Maestría",
+      "openalex": "A5022343921",
+      "area": "Física computacional y matemática",
+      "works_count": 9,
+      "cited_by": 8,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor asociado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor asociado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "daniel-alonso-munoz-gambini",
+      "name": "Daniel Alonso Muñoz Gambini",
+      "initials": "DM",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/daniel-munoz-gambini/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "shigueru-emilio-antonio-nagata-tejada",
@@ -9063,6 +10217,52 @@
         }
       ],
       "path": ["unmsm", "usp", "unmsm", "ucsur"]
+    },
+    {
+      "slug": "myriam-virginia-pajuelo-cubillas",
+      "name": "Myriam Virginia Pajuelo Cubillas",
+      "initials": "MP",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/myriam-pajuelo-cubillas/resumen/",
+      "orcid": "0000-0002-0905-9223",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5036300106",
+      "area": "Astronomía y astrofísica",
+      "works_count": 53,
+      "cited_by": 781,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "obs-paris",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor asociado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor asociado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp", "obs-paris", "pucp"]
     },
     {
       "slug": "juan-ernesto-palo-tejada",
@@ -9331,6 +10531,52 @@
       "path": ["unsa"]
     },
     {
+      "slug": "patrizia-edel-pereyra-anaya",
+      "name": "Patrizia Edel Pereyra Anaya",
+      "initials": "PP",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/patrizia-pereyra-anaya/resumen/",
+      "orcid": "0000-0003-0435-4693",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5020316377",
+      "area": "Física médica y radiaciones",
+      "works_count": 29,
+      "cited_by": 140,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "cesar-enrique-perez-villegas",
       "name": "Cesar Enrique Perez Villegas",
       "initials": "CP",
@@ -9517,6 +10763,41 @@
       "path": ["unmsm", "lmu"]
     },
     {
+      "slug": "carlos-arturo-pizarro-ortiz",
+      "name": "Carlos Arturo Pizarro Ortiz",
+      "initials": "CP",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/carlos-pizarro-ortiz/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "upr",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor principal",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["upr", "pucp"]
+    },
+    {
       "slug": "mario-luis-pumacallahui-pineda",
       "name": "Mario Luis Pumacallahui Pineda",
       "initials": "MP",
@@ -9645,6 +10926,76 @@
         }
       ],
       "path": ["unjbg", "usp-chimbote", "unam-moquegua"]
+    },
+    {
+      "slug": "aransselly-jesus-quiroz-chang",
+      "name": "Aransselly Jesus Quiroz Chang",
+      "initials": "AQ",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/aransselly-quiroz-chang/resumen/",
+      "orcid": "0000-0002-5516-5609",
+      "updated": "",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "jorge-luis-martin-quiroz-gonzalez",
+      "name": "Jorge Luis Martin Quiroz Gonzalez",
+      "initials": "JQ",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jorge-quiroz-gonzalez/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor asociado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor asociado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "fredi-quispe-huaynasi",
@@ -10035,6 +11386,45 @@
       "path": ["unac", "unesp", "inpe"]
     },
     {
+      "slug": "richard-alberto-rivera-campos",
+      "name": "Richard Alberto Rivera Campos",
+      "initials": "RR",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/richard-rivera-campos/resumen/",
+      "orcid": "0000-0003-3368-6419",
+      "updated": "",
+      "degree": "Maestría",
+      "openalex": "A5089975665",
+      "area": "Ingeniería y energía",
+      "works_count": 4,
+      "cited_by": 9,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "chachi-rojas-ayala",
       "name": "Chachi Rojas Ayala",
       "initials": "CR",
@@ -10205,6 +11595,52 @@
         }
       ],
       "path": ["unmsm", "usp"]
+    },
+    {
+      "slug": "jhonny-jonnatan-rojas-hancco",
+      "name": "Jhonny Jonnatan Rojas Hancco",
+      "initials": "JR",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jhonny-rojas-hancco/resumen/",
+      "orcid": "0000-0002-3643-3399",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5009214577",
+      "area": "Física médica y radiaciones",
+      "works_count": 15,
+      "cited_by": 44,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "enrique-luis-alfonso-rojas-villalba",
@@ -10462,6 +11898,83 @@
       "path": ["uni", "imarpe"]
     },
     {
+      "slug": "jimmy-leonardo-rosales-ventocilla",
+      "name": "Jimmy Leonardo Rosales Ventocilla",
+      "initials": "JR",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jimmy-rosales-ventocilla/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "david-reinaldo-alejandro-ruelas-paredes",
+      "name": "David Reinaldo Alejandro Ruelas Paredes",
+      "initials": "DR",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/david-ruelas-paredes/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "miguel-saavedra-huanca",
       "name": "Miguel Saavedra Huanca",
       "initials": "MS",
@@ -10633,6 +12146,41 @@
       "path": ["unjbg"]
     },
     {
+      "slug": "jorge-francisco-salazar-simoni",
+      "name": "Jorge Francisco Salazar Simoni",
+      "initials": "JS",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jorge-salazar-simoni/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "edwin-sallica-leva",
       "name": "Edwin Sallica Leva",
       "initials": "ES",
@@ -10678,6 +12226,41 @@
       "works": [],
       "jobs": [],
       "path": ["unmsm", "unicamp"]
+    },
+    {
+      "slug": "eder-ruben-sanchez-alcantara",
+      "name": "Eder Ruben Sanchez Alcantara",
+      "initials": "ES",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/eder-sanchez-alcantara/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor auxiliar"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor auxiliar",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "jose-renato-sanchez-romero",
@@ -10761,6 +12344,87 @@
       "works": [],
       "jobs": [],
       "path": ["unprg", "untrm"]
+    },
+    {
+      "slug": "jordy-guilbert-santiago-condori",
+      "name": "Jordy Guilbert Santiago Condori",
+      "initials": "JS",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/jordy-santiago-condori/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
+      "slug": "erick-stalin-serquen-infante",
+      "name": "Erick Stalin Serquen Infante",
+      "initials": "ES",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/erick-serquen-infante/resumen/",
+      "orcid": "0000-0003-2773-4170",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5017528275",
+      "area": "Materia condensada y materiales",
+      "works_count": 11,
+      "cited_by": 45,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "betzabel-noemi-silva-carrera",
@@ -10934,6 +12598,41 @@
       "path": ["unp", "pucp", "ucsur"]
     },
     {
+      "slug": "elmer-eduardo-suarez-yana",
+      "name": "Elmer Eduardo Suarez Yana",
+      "initials": "ES",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/elmer-suarez-yana/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "patricia-kelly-taipe-torres",
       "name": "Patricia Kelly Taipe Torres",
       "initials": "PT",
@@ -10976,6 +12675,48 @@
         }
       ],
       "path": ["unmsm", "ufrj"]
+    },
+    {
+      "slug": "alvaro-tejada-esteves",
+      "name": "Alvaro Tejada Esteves",
+      "initials": "AT",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/alvaro-tejada-esteves/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "marco-antonio-tito-patricio",
@@ -11133,6 +12874,41 @@
         }
       ],
       "path": ["uni", "ufabc", "ufsc"]
+    },
+    {
+      "slug": "karem-yoli-tucto-salinas",
+      "name": "Karem Yoli Tucto Salinas",
+      "initials": "KT",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/karem-tucto-salinas/resumen/",
+      "orcid": null,
+      "updated": "",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "justo-vladimir-tunoque-gutierrez",
@@ -11792,6 +13568,41 @@
       "path": ["unsa"]
     },
     {
+      "slug": "luis-pablo-vilcapoma-lazaro",
+      "name": "Luis Pablo Vilcapoma Lazaro",
+      "initials": "LV",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/luis-vilcapoma-lazaro/resumen/",
+      "orcid": "0000-0001-7208-8302",
+      "updated": "",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "heyner-leoncio-vilchez-rojas",
       "name": "Heyner Leoncio Vilchez Rojas",
       "initials": "HV",
@@ -11857,6 +13668,52 @@
         }
       ],
       "path": ["unprg", "pucp", "cio", "pucp"]
+    },
+    {
+      "slug": "pablo-martin-vilela-proano",
+      "name": "Pablo Martin Vilela Proaño",
+      "initials": "PV",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/pablo-vilela-proano/resumen/",
+      "orcid": "0000-0001-6634-1199",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5011707863",
+      "area": "Física computacional y matemática",
+      "works_count": 10,
+      "cited_by": 34,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor asociado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor asociado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "cristofher-victor-vivas-palomares",
@@ -12129,6 +13986,52 @@
         }
       ],
       "path": ["unmsm", "ufabc", "uab", "unfv"]
+    },
+    {
+      "slug": "yonny-daniel-yugra-carcasi",
+      "name": "Yonny Daniel Yugra Carcasi",
+      "initials": "YY",
+      "source": "pucp",
+      "url": "https://www.pucp.edu.pe/profesor/yonny-yugra-carcasi/resumen/",
+      "orcid": "0000-0002-5706-9004",
+      "updated": "",
+      "degree": "Doctorado",
+      "openalex": "A5083082331",
+      "area": "Óptica y física atómica",
+      "works_count": 8,
+      "cited_by": 27,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor contratado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor contratado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": ["pucp"]
     },
     {
       "slug": "alan-zamalloa-puma",
