@@ -354,10 +354,14 @@
     font-size: var(--text-sm);
   }
 
+  /* A note shown as a document view: a breadcrumb bar, the text, and its facts in a side panel. */
   .scene-note {
-    display: block;
-    padding: 0.75rem 1rem 3rem;
+    grid-template-columns: minmax(0, 1fr);
     color: var(--fg);
+
+    @media (width >= 62rem) {
+      grid-template-columns: minmax(0, 1fr) 18rem;
+    }
 
     &:hover {
       border-color: color-mix(in oklab, var(--accent) 50%, var(--edge));
@@ -365,8 +369,68 @@
     }
 
     & .scene-head {
-      padding: 0 0 1.5rem;
+      grid-column: 1 / -1;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
     }
+  }
+
+  .note-doc {
+    padding: 2rem 1.5rem 4rem;
+
+    @media (width >= 48rem) {
+      padding-inline: 3rem;
+    }
+  }
+
+  .note-title {
+    margin: 0 0 1.25rem;
+    font-size: var(--text-xl);
+    font-weight: 500;
+    line-height: var(--text-xl--line-height);
+    letter-spacing: -0.01em;
+  }
+
+  .note-props {
+    padding: 1.25rem 1rem;
+    border-left: 1px solid var(--line);
+    font-size: var(--text-sm);
+
+    @media (width < 62rem) {
+      display: none;
+    }
+
+    & dl {
+      display: grid;
+      gap: 0.625rem;
+      margin: 0 0 1.75rem;
+    }
+
+    & dl > div {
+      display: grid;
+      grid-template-columns: 6.5rem 1fr;
+      gap: 0.5rem;
+    }
+
+    & dt {
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    & dd {
+      margin: 0;
+    }
+  }
+
+  .note-props-head {
+    margin: 0 0 0.625rem;
+    color: var(--muted);
+  }
+
+  .note-outline {
+    display: grid;
+    gap: 0.5rem;
+    color: var(--muted);
   }
 
   .scene-body {
