@@ -816,10 +816,14 @@
     font-weight: 600;
   }
 
+  .breadcrumbs {
+    margin-bottom: 0.45rem;
+  }
+
   /* One line. A long section title truncates; below md only the parent shows, as a back link. */
   .breadcrumbs ol {
     display: flex;
-    margin: 0 0 1rem;
+    margin: 0;
     padding: 0;
     color: var(--muted);
     font-size: var(--text-sm);
