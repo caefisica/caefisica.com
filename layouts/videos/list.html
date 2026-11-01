@@ -15,7 +15,7 @@
 	<p class="text-muted">{{ $lists }} listas de YouTube, {{ lang.FormatNumber 0 $lessons }} clases y {{ partial "ui/duration.html" (dict "seconds" $seconds "total" true) }} de video.</p>
 	{{- range sort $courses "Weight" }}
 		{{- $course := . }}
-		<section class="section-group">
+		<section class="section-group band">
 			<h2 id="{{ .Params.id | lower }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 			<ul class="rows">
 				{{- range where $.Pages "Params.courses" "intersect" (slice .Path) }}

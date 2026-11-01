@@ -3,7 +3,7 @@
 	{{ partial "ui/page-head.html" (dict "page" .) }}
 	{{- range .Pages.GroupByParam "institution" }}
 		{{- $u := partial "data/university.html" .Key }}
-		<section class="section-group" aria-labelledby="u-{{ .Key }}">
+		<section class="section-group band" aria-labelledby="u-{{ .Key }}">
 			<h2 id="u-{{ .Key }}">{{ $u.name }}</h2>
 			<ul class="rows rows-2">
 				{{- range .Pages.ByTitle }}
