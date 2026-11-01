@@ -51,7 +51,7 @@
 				{{- end }}
 				<div>
 					<dt>Sustentación</dt>
-					<dd>{{ partial "tesis/defence-date.html" . }} · <a href="{{ .url }}">invitación</a></dd>
+					<dd>{{ partial "ui/day-or-month.html" . }} · <a href="{{ .url }}">invitación</a></dd>
 				</div>
 			{{- else }}
 				{{- with $t.jurors }}

@@ -4,9 +4,10 @@
 {{- $names := dict -}}
 {{- range $data.series }}{{ $names = merge $names (dict .id .name) }}{{ end -}}
 {{- $years := slice -}}
-{{- range $all }}{{ $years = $years | append (substr .date 0 4) }}{{ end -}}
+{{- range $all }}{{ $years = $years | append (substr .month 0 4) }}{{ end -}}
+{{- $videos := len (where $all "host" "ne" "Invitación") -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d grabaciones de la Facultad de Ciencias Físicas y de la Sección Física de la PUCP. Cada título abre el video original." (len $all))) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d charlas, sesiones y sustentaciones de la Facultad de Ciencias Físicas y de la Sección Física de la PUCP, %d de ellas con video. Cada título abre el video, o la invitación si no hay video." (len $all) $videos)) }}
 
 	<div class="views">
 		<fieldset class="pill-tabs">
@@ -33,7 +34,7 @@
 			{{- range $years | uniq }}
 				{{- $year := . }}
 				{{- $rows := slice }}
-				{{- range $all }}{{ if hasPrefix .date $year }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
+				{{- range $all }}{{ if hasPrefix .month $year }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
 				<section class="section-group band">
 					<h2>{{ $year }} <span class="count">{{ len $rows }}</span></h2>
 					<ul class="rows">
@@ -45,7 +46,7 @@
 	</div>
 
 	<p class="text-muted">
-		Copiadas de la página de Facebook de la facultad y de Educast, el archivo de videos de la PUCP, el {{ partial "ui/date.html" (time.AsTime $data.fetched) }}. Los videos de pocos minutos y los avisos no se listan.
+		Copiadas de la página de Facebook de la facultad y de Educast, el archivo de videos de la PUCP, el {{ partial "ui/date.html" (time.AsTime $data.fetched) }}. Las charlas sin video salen de las invitaciones que la facultad publicó. Los videos de pocos minutos y los avisos no se listan.
 	</p>
 </div>
 {{ end }}

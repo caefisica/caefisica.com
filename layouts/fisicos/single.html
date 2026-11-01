@@ -176,6 +176,7 @@
 			</ul>
 		{{- end }}
 		{{ partial "tesis/person.html" $slug }}
+		{{ partial "grabaciones/person.html" (printf "/fisicos/%s/" $slug) }}
 		{{- with .Params.sources }}
 			<h2 id="referencias">Referencias</h2>
 			<ol class="sources">
