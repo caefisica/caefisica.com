@@ -107,10 +107,11 @@ Cada entrada aparece también en `/videos/`, agrupada por curso. Una lista de
 YouTube (una `url` con `list=`) o una carpeta compartida de Google Drive (una
 `url` con `/drive/folders/`) tiene allí su propia página: un reproductor, sus
 clases con su duración y `description`, que se escribe en Markdown y dice qué
-cubre la lista, a qué nivel y en qué idioma. Las subcarpetas de una carpeta de
-Drive son secciones de la lista, en el orden de los números con que empiezan sus
-nombres. Si las carpetas de primer nivel no llevan número, `sections` las lista
-en el orden de la clase:
+cubre la lista, a qué nivel y en qué idioma. Si `lecturer` coincide con el
+nombre de un perfil de `/fisicos/`, la página enlaza el perfil y el perfil lista
+la clase. Las subcarpetas de una carpeta de Drive son secciones de la lista, en
+el orden de los números con que empiezan sus nombres. Si las carpetas de primer
+nivel no llevan número, `sections` las lista en el orden de la clase:
 
 ```yaml
 - title: Mecánica
