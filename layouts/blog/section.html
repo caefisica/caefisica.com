@@ -1,18 +1,23 @@
 {{ define "main" }}
-<div class="col-prose py-page">
+<div class="py-page">
 	{{ partial "ui/page-head.html" (dict "page" .) }}
 	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
-	<ul class="rows">
-		{{- range .Pages.ByDate.Reverse }}
-			<li class="group">
-				<div class="row-main">
-					<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</a>
-					{{- with .Params.lead }}<p>{{ . | safeHTML }}</p>{{ end }}
-				</div>
-				<time class="row-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
-				{{ partial "ui/chevron.html" }}
-			</li>
-		{{- end }}
-	</ul>
+	{{- range .Pages.GroupByDate "2006" }}
+		<section class="section-group band" aria-labelledby="y-{{ .Key }}">
+			<h2 id="y-{{ .Key }}">{{ .Key }}</h2>
+			<ul class="rows">
+				{{- range .Pages }}
+					<li class="group">
+						<div class="row-main">
+							<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</a>
+							{{- with .Params.lead }}<p>{{ . | safeHTML }}</p>{{ end }}
+						</div>
+						<time class="row-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 Jan" }}</time>
+						{{ partial "ui/chevron.html" }}
+					</li>
+				{{- end }}
+			</ul>
+		</section>
+	{{- end }}
 </div>
 {{ end }}

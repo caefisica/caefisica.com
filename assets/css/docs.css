@@ -1111,6 +1111,28 @@
     }
   }
 
+  /* From lg an index page's group puts its label in a sticky column beside the rows, the way a changelog dates its entries. */
+  .band {
+    @media (width >= 62rem) {
+      display: grid;
+      grid-template-columns: 12rem minmax(0, 1fr);
+      align-items: start;
+      column-gap: 3rem;
+      margin-top: 3rem;
+
+      & > :is(h2, h3) {
+        position: sticky;
+        top: 4.5rem;
+        margin: 0;
+        padding-top: 1.0625rem;
+      }
+
+      & > .rows {
+        margin: 0;
+      }
+    }
+  }
+
   .section-cards {
     counter-reset: entry;
     margin: 0.5rem 0 0;
