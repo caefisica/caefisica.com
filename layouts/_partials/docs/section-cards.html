@@ -1,8 +1,15 @@
-{{- /* Numbered index of pages. Context: pages. Each row is a title. A course adds its code and credits on the right. */ -}}
+{{- /* Numbered index of pages. Context: pages. Each row is a title. A course adds its code and credits on the right; any other page adds its description under the title. Few courses have a description, so a course row never shows one. */ -}}
 <ul class="section-cards">
-	{{- range . }}
+	{{- range $page := . }}
 		<li class="group">
-			<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+			{{- with and (not .Params.credits) .Description }}
+				<div class="section-card-text">
+					<a class="card-link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+					<p>{{ . }}</p>
+				</div>
+			{{- else }}
+				<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+			{{- end }}
 			{{- if .Params.credits }}
 				<p>{{ .Params.id }} · {{ .Params.credits }} créditos</p>
 			{{- end }}

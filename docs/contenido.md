@@ -39,6 +39,14 @@ campo `professor` de un sílabo y las carpetas de `content/professors/`.
 Hugo pone las direcciones en minúsculas: `CBE013` se publica en
 `/unmsm/pregrado/plan-2018/cbe013/`.
 
+## Descripción
+
+`description` dice en una frase qué contiene la página, como «Las ecuaciones de
+estado térmica y calórica, y los procesos isotérmico, isobárico e isocórico».
+Los buscadores la muestran, y el índice de una sección la pone bajo el título de
+la página. Un curso no la muestra ahí: su fila lleva el código y los créditos.
+Sin una frase así, deja el campo vacío.
+
 `unmsm/pregrado/_index.md` no se publica (`build.render: never`):
 `/unmsm/pregrado/` redirige a `plan-2018/`, el único plan.
 

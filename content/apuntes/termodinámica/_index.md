@@ -1,8 +1,8 @@
 ---
 title: "Termodinámica"
 description:
-  "Ecuaciones de estado, energía interna, primera ley y termodinámica
-  estadística."
+  "Ecuaciones de estado, energía interna y primera ley, con los apuntes y los
+  exámenes del curso."
 cascade:
   - params:
       math: true
