@@ -12631,6 +12631,44 @@
       "path": ["pucp"]
     },
     {
+      "slug": "juan-carlos-sihuincha",
+      "name": "Juan Carlos Sihuincha",
+      "initials": "JS",
+      "source": "web",
+      "url": "https://puntoedu.pucp.edu.pe/archivo/fisicos-de-la-banca/",
+      "orcid": "",
+      "site": "PuntoEdu PUCP",
+      "updated": "01-11-2026",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Banco de Credito del Peru",
+          "role": "Riesgo de mercado y tesorería",
+          "start": 2013,
+          "end": null
+        },
+        {
+          "place": null,
+          "name": "Interbank",
+          "role": "Asociado de gestión de balance y capital",
+          "start": null,
+          "end": 2019
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "betzabel-noemi-silva-carrera",
       "name": "Betzabel Noemi Silva Carrera",
       "initials": "BS",
@@ -12884,6 +12922,67 @@
         }
       ],
       "path": ["unmsm", "ufrj"]
+    },
+    {
+      "slug": "arturo-fernando-talledo-coronado",
+      "name": "Arturo Fernando Talledo Coronado",
+      "initials": "AT",
+      "source": "ctivitae",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=13406",
+      "orcid": "0000-0002-6456-0862",
+      "site": null,
+      "updated": "16-12-2024",
+      "degree": "Doctorado",
+      "openalex": "A5048852996",
+      "area": "Materia condensada y materiales",
+      "works_count": 25,
+      "cited_by": 580,
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "uni",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Profesor principal",
+          "start": 1977,
+          "end": "now"
+        },
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Profesor principal",
+          "start": 1977,
+          "end": 2013
+        }
+      ],
+      "path": ["uni"]
     },
     {
       "slug": "alvaro-tejada-esteves",
