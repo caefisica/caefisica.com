@@ -3,6 +3,7 @@ title: "Carlos Argüelles"
 description: "Físico de neutrinos. Estudió en la PUCP y es profesor en Harvard."
 date: 2026-10-31T00:00:00
 draft: false
+aliases: [/investigadores/carlos-arguelles/]
 role: "Profesor asistente de Física, Harvard University"
 fields: ["Neutrinos", "Astropartículas"]
 studied: ["PUCP", "University of Wisconsin–Madison"]

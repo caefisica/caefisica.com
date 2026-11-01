@@ -21,5 +21,6 @@ so a page alias also gets a line with the slash, and an alias with an accent als
 {{ delimit $lines "\n" }}
 {{- /* The library moved to its own site; this keeps old links working. */}}
 /biblioteca/ https://216.empirical.workers.dev/ 301
-{{- /* The section alias covers /experimental/ itself; this catches its removed item pages. */}}
-/experimental/* /investigadores/ 301
+{{- /* The section aliases cover /experimental/ and /investigadores/ themselves; these catch their removed item pages after the page aliases above. */}}
+/experimental/* /fisicos/ 301
+/investigadores/* /fisicos/ 301
