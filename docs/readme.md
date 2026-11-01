@@ -13,5 +13,7 @@
   publicaciones de OpenAlex y el mapa de físicos.
 - [Tesis](tesis.md): la copia de Cybertesis, sus vistas y cómo un nombre enlaza
   su perfil.
+- [Grabaciones](grabaciones.md): las grabaciones de Facebook y de Educast, sus
+  series y la copia de respaldo.
 - [Despliegue](despliegue.md): Cloudflare, Netlify, búsqueda, cabeceras y flujos
   de GitHub.
