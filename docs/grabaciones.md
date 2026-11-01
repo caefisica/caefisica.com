@@ -70,7 +70,11 @@ Hay cuatro orígenes:
 - **Invitación**: las charlas que la facultad anunció en Facebook y que no
   tienen video. Una invitación entra cuando nombra un título y un ponente. No
   entra si un video de la misma serie ya tiene un ponente con el mismo primer
-  nombre y otra palabra en común.
+  nombre y otra palabra en común. Las charlas del Centro de Estudiantes de
+  Física de la UNT (`cefunt`) también son invitaciones: sus transmisiones en
+  vivo ya no están en Facebook. `recordings.py` las lee de una lista hecha a
+  mano con cada publicación y su afiche, porque la página no da el año; el año
+  sale del día de la semana y del orden de las publicaciones.
 
 El mes sale de la fecha de la publicación o, si la copia no la tiene, del número
 de la foto, como en las sustentaciones (ver `docs/tesis.md`). `date` es el día
