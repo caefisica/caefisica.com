@@ -12,13 +12,20 @@ interface Place {
   n: number;
 }
 
-// A person and the mapped places of their path, degrees first, then work.
+// A person, the mapped places of their path (degrees first, then work) for
+// the globe, and every stop of the path with what they did there for the panel.
 interface Person {
   slug: string;
   name: string;
+  initials: string;
+  image: string;
+  role: string;
   area: string | null;
   degree: string;
+  works: number | null;
+  cited: number | null;
   path: string[];
+  stops: { name: string; note: string }[];
   url: string;
 }
 
@@ -846,6 +853,17 @@ class Globe {
   }
 }
 
+function el<K extends keyof HTMLElementTagNameMap>(
+  tag: K,
+  className: string,
+  ...children: (Node | string)[]
+): HTMLElementTagNameMap[K] {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  node.append(...children);
+  return node;
+}
+
 function panel(
   root: HTMLElement,
   list: HTMLElement,
@@ -855,9 +873,18 @@ function panel(
 ) {
   const box = root.querySelector<HTMLElement>(".map-panel")!;
   const body = box.querySelector<HTMLElement>(".map-panel-body")!;
+  const footer = box.querySelector<HTMLElement>(".map-panel-foot")!;
+  const icons = box.querySelector<HTMLTemplateElement>(".map-icons")!.content;
+  const icon = (name: string) =>
+    icons.querySelector(`[data-icon="${name}"] svg`)!.cloneNode(true);
+  // Matches Hugo's lang.FormatNumber on the profile, which groups every
+  // thousand with a point: 1.234 and 26.040.
+  const count = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   const close = () => {
     box.hidden = true;
     body.replaceChildren();
+    footer.replaceChildren();
+    footer.hidden = true;
     globe()?.select([]);
     if (location.hash.startsWith("#ruta-"))
       history.replaceState(null, "", location.pathname + location.search);
@@ -875,45 +902,95 @@ function panel(
   body.addEventListener("pointerover", lit);
   body.addEventListener("focusin", lit);
   body.addEventListener("pointerleave", () => globe()?.highlight(undefined));
+  // A name in a place's list opens that person here, with a way back to the
+  // place; a modified click still follows the link to the profile.
+  let picked: Place[] = [];
   body.addEventListener("click", (e) => {
-    const button = (e.target as Element).closest<HTMLElement>("[data-route]");
-    const person = button && people.get(button.dataset.route!);
-    if (person) show(person);
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const link = (e.target as Element).closest<HTMLAnchorElement>(
+      "[data-person] .card-link",
+    );
+    const row = link?.closest<HTMLElement>("[data-person]");
+    const person = row && people.get(row.dataset.person!);
+    if (!person) return;
+    e.preventDefault();
+    const places = picked;
+    const label =
+      places.length === 1
+        ? (byId.get(places[0].id)?.short ?? "")
+        : "Instituciones";
+    show(person, { label, go: () => pick(places) });
   });
 
-  const open = (nodes: HTMLElement[]) => {
+  const open = (nodes: Node[], foot?: Node) => {
     body.replaceChildren(...nodes);
+    footer.replaceChildren(...(foot ? [foot] : []));
+    footer.hidden = !foot;
     box.hidden = false;
     body.scrollTop = 0;
   };
 
-  const show = (person: Person) => {
-    const section = document.createElement("section");
-    section.className = "map-place";
-    const head = document.createElement("h2");
-    const where = document.createElement("span");
-    where.className = "map-where";
-    where.textContent = [`${person.degree} en física`, person.area]
-      .filter(Boolean)
-      .join(" · ");
-    head.append(person.name, " ", where);
-    const route = document.createElement("ol");
-    route.className = "route";
-    for (const id of person.path) {
-      const item = document.createElement("li");
-      item.textContent = byId.get(id)?.short ?? id;
-      route.append(item);
+  const show = (person: Person, back?: { label: string; go: () => void }) => {
+    const nodes: Node[] = [];
+    if (back) {
+      const button = el("button", "map-back", icon("chevron-left"), back.label);
+      button.type = "button";
+      button.addEventListener("click", back.go);
+      nodes.push(button);
     }
-    const link = document.createElement("a");
-    link.className = "map-route-btn";
+    let avatar: HTMLElement;
+    if (person.image) {
+      const img = el("img", "avatar");
+      img.src = person.image;
+      img.width = img.height = 40;
+      img.alt = "";
+      avatar = img;
+    } else {
+      avatar = el("span", "avatar avatar-initial", person.initials);
+      avatar.style.setProperty("--avatar-size", "40px");
+      avatar.setAttribute("aria-hidden", "true");
+    }
+    const heading = el("div", "", el("h2", "", person.name));
+    if (person.role) heading.append(el("p", "map-where", person.role));
+    const facts = el("dl", "map-facts");
+    const fact = (label: string, value: string) =>
+      facts.append(el("div", "", el("dt", "", label), el("dd", "", value)));
+    fact("Grado", `${person.degree} en física`);
+    if (person.area) fact("Área", person.area);
+    if (person.works)
+      fact(
+        "Obra",
+        `${count(person.works)} trabajos · ${count(person.cited ?? 0)} citas`,
+      );
+    const stops = el("ol", "map-stops");
+    for (const stop of person.stops) {
+      const item = el("li", "", el("span", "map-stop-name", stop.name));
+      if (stop.note) item.append(el("span", "map-stop-note", stop.note));
+      stops.append(item);
+    }
+    nodes.push(
+      el(
+        "section",
+        "map-person",
+        el("header", "map-person-head", avatar, heading),
+        facts,
+        el("h3", "map-label", "Ruta"),
+        stops,
+      ),
+    );
+    const link = el(
+      "a",
+      "map-profile-link",
+      "Ver perfil",
+      icon("chevron-right"),
+    );
     link.href = person.url;
-    link.textContent = "Ver perfil";
-    section.append(head, route, link);
-    open([section]);
+    open(nodes, link);
     globe()?.follow(person);
   };
 
   const pick = (places: Place[]) => {
+    picked = places;
     const sections = places
       .map((p) => list.querySelector<HTMLElement>(`#lugar-${CSS.escape(p.id)}`))
       .filter((s): s is HTMLElement => s !== null)
@@ -921,17 +998,6 @@ function panel(
         const copy = s.cloneNode(true) as HTMLElement;
         copy.removeAttribute("id");
         copy.className = "map-place";
-        for (const row of copy.querySelectorAll<HTMLElement>("[data-person]")) {
-          const person = people.get(row.dataset.person!);
-          if (!person || person.path.length < 2) continue;
-          const button = document.createElement("button");
-          button.type = "button";
-          button.className = "map-route-btn";
-          button.dataset.route = person.slug;
-          button.textContent = "Ruta";
-          button.setAttribute("aria-label", `Ruta de ${person.name}`);
-          row.append(button);
-        }
         return copy;
       });
     open(sections);

@@ -469,7 +469,7 @@
 
   .markdown {
     /* A prose link is underlined at rest, since colour alone does not mark it (WCAG 1.4.1). On hover a full-strength line sweeps in from the left over the faint one. */
-    & :is(p, li, td, dd) a:not(.doc-btn, .cite a, .doc-meta a) {
+    & :is(p, li, td, dd) a:not(.doc-btn, .cite a, .doc-meta a, .route a) {
       padding-bottom: 0.2rem;
       background:
         linear-gradient(currentColor, currentColor) 0 100% / 0 0.1em no-repeat,
@@ -1027,34 +1027,38 @@
   }
 
   /* Course and offering facts. */
+  /* A quiet property list: a small label over label and value rows split by hairlines, with no box, so the facts read as reference beside the prose. */
   .facts {
     margin: 2rem 0;
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--edge);
-    border-radius: 0.5rem;
-    background: var(--surface);
 
     & h2 {
-      margin: 0 0 0.75rem;
-      font-size: var(--text-lg);
+      margin: 0 0 0.5rem;
+      color: var(--muted);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      letter-spacing: normal;
     }
 
     & dl {
       display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 0.375rem 1.5rem;
+      grid-template-columns: 8rem minmax(0, 1fr);
       margin: 0;
-      font-size: var(--text-base);
+      border-top: 1px solid var(--line);
+      font-size: var(--text-sm);
     }
 
-    /* Each pair sits in a div so the search index separates the values; the grid ignores it. */
+    /* Each pair sits in a div so the search index separates the values; the subgrid keeps the columns aligned across rows. */
     & dl > div {
-      display: contents;
+      display: grid;
+      grid-column: 1 / -1;
+      grid-template-columns: subgrid;
+      column-gap: 1rem;
+      padding-block: 0.5rem;
+      border-bottom: 1px solid var(--line);
     }
 
     & dt {
       color: var(--muted);
-      font-weight: 500;
     }
 
     & dd {
@@ -1145,7 +1149,7 @@
 
       & > :is(h2, h3) {
         position: sticky;
-        top: 4.5rem;
+        top: var(--band-top, 4.5rem);
         margin: 0;
         padding-top: 1.0625rem;
       }
@@ -1231,13 +1235,8 @@
         margin: 0;
 
         & dl {
-          grid-template-columns: 1fr;
-          gap: 0;
-        }
-
-        & dt {
-          margin-top: 0.75rem;
-          font-size: var(--text-sm);
+          grid-template-columns: 6.5rem minmax(0, 1fr);
+          column-gap: 0.75rem;
         }
       }
     }
@@ -1285,32 +1284,125 @@
     line-height: 1.75;
   }
 
+  /* A footnote mark is a small round number on the text's baseline; its card opens above it on hover or focus. */
   .cite {
-    margin-left: 0.125rem;
-    font-size: 0.7em;
-    line-height: 0;
+    display: inline-flex;
+    gap: 0.125rem;
+    margin-left: 0.25rem;
+    vertical-align: 0.125em;
     white-space: nowrap;
+  }
 
-    & a {
-      text-decoration: none;
+  .cite-mark {
+    position: relative;
+    display: inline-grid;
+    place-items: center;
+    min-width: 1.125rem;
+    height: 1.125rem;
+    padding-inline: 0.25rem;
+    border-radius: 999px;
+    background: var(--hover);
+    color: var(--muted);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--link);
+      color: var(--bg);
     }
 
-    & a:hover {
-      text-decoration: underline;
+    &:focus-visible {
+      outline: 2px solid var(--link);
+      outline-offset: 2px;
     }
   }
 
-  .sources {
-    padding-left: 1.5rem;
-    color: var(--muted);
+  .cite-card {
+    position: absolute;
+    z-index: 3;
+    bottom: calc(100% + 0.5rem);
+    left: 50%;
+    /* Hidden cards leave the layout, so one near the edge cannot widen a narrow page. */
+    display: none;
+    gap: 0.125rem;
+    width: max-content;
+    max-width: min(18rem, 80vw);
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--edge);
+    border-radius: 0.5rem;
+    background: var(--bg);
+    box-shadow: var(--shadow-high);
+    color: var(--fg);
     font-size: var(--text-sm);
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
+    white-space: normal;
+    opacity: 0;
+    transform: translate(-50%, 0.25rem);
+    transition:
+      opacity 0.15s var(--ease-snap),
+      transform 0.15s var(--ease-snap),
+      display 0.15s allow-discrete;
+    pointer-events: none;
+
+    .cite-mark:is(:hover, :focus-visible) & {
+      display: grid;
+      opacity: 1;
+      transform: translate(-50%, 0);
+
+      @starting-style {
+        opacity: 0;
+        transform: translate(-50%, 0.25rem);
+      }
+    }
+  }
+
+  .cite-card-site,
+  .sources-site {
+    color: var(--muted);
+    font-size: 0.8125rem;
+  }
+
+  /* The reference list: a number column, the source's title and its site. The entry a mark jumps to is highlighted. */
+  .sources {
+    margin: 0.5rem 0 2rem;
+    padding: 0;
+    border-top: 1px solid var(--line);
+    font-size: var(--text-sm);
+    list-style: none;
+    counter-reset: source;
 
     & li {
-      margin-bottom: 0.25rem;
+      display: grid;
+      grid-template-columns: 1.75rem minmax(0, 1fr);
+      padding-block: 0.5rem;
+      border-bottom: 1px solid var(--line);
+      counter-increment: source;
+      scroll-margin-top: 5rem;
+
+      &::before {
+        content: counter(source);
+        grid-row: 1 / 3;
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+      }
+    }
+
+    & a {
+      color: var(--fg);
+    }
+
+    & a:hover {
+      color: var(--link);
     }
 
     & li:target {
-      color: var(--fg);
+      background: color-mix(in oklab, var(--link) 8%, transparent);
     }
   }
 
@@ -1475,6 +1567,15 @@
     }
   }
 
+  /* The view tabs stick under the header, so a band's sticky label and a jump to a place stop below the tabs. */
+  .map-views {
+    --band-top: 6.75rem;
+
+    & .band {
+      scroll-margin-top: 6.75rem;
+    }
+  }
+
   .map-views > .pill-tabs {
     position: sticky;
     z-index: 2;
@@ -1495,13 +1596,12 @@
     display: block;
   }
 
-  /* The places of a person's path in order, on one wrapping line. It sits in profiles' markdown and in the map panel, so it outranks the markdown list rules. */
-  .route,
+  /* A profile's path: the places in order on one wrapping line, joined by muted chevrons. It sits in the markdown, so it outranks the markdown list rules. */
   .markdown .route {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.375rem 0;
-    margin: 0.75rem 0 1rem;
+    gap: 0.25rem 0;
+    margin: 0.75rem 0 0.5rem;
     padding: 0;
     list-style: none;
 
@@ -1513,42 +1613,167 @@
     }
 
     & li + li::before {
-      content: "→";
-      margin-inline: 0.5rem;
+      content: "›";
+      margin-inline: 0.625rem;
       color: var(--muted);
     }
 
-    & a,
-    & span {
-      padding: 0.125rem 0.625rem;
-      border: 1px solid var(--edge);
-      border-radius: 999px;
-      background: var(--surface);
+    & a {
       color: var(--fg);
-      font-size: var(--text-sm);
+      font-weight: 500;
       text-decoration: none;
     }
 
     & a:hover {
-      border-color: var(--link);
       color: var(--link);
     }
   }
 
-  .map-route-btn {
-    flex: none;
-    align-self: center;
-    padding: 0.125rem 0.5rem;
-    border: 1px solid var(--edge);
-    border-radius: 999px;
-    background: none;
+  /* The panel's person view: a header, a property list, the path as a vertical stepper and a link to the profile pinned under the scroll. */
+  .map-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.125rem;
+    margin: -0.25rem 0 0.75rem -0.375rem;
+    padding: 0.125rem 0.5rem 0.125rem 0.25rem;
+    border-radius: 0.375rem;
     color: var(--muted);
-    font: inherit;
     font-size: var(--text-sm);
-    cursor: pointer;
 
     &:hover {
+      background: var(--hover);
       color: var(--fg);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--link);
+    }
+  }
+
+  .map-person-head {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-right: 2rem;
+
+    & h2 {
+      margin: 0;
+      font-size: var(--text-lg);
+      line-height: var(--text-lg--line-height);
+    }
+
+    & .map-where {
+      margin: 0;
+    }
+  }
+
+  .map-facts {
+    display: grid;
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+    margin: 1rem 0 0;
+    border-top: 1px solid var(--line);
+    font-size: var(--text-sm);
+
+    & > div {
+      display: grid;
+      grid-column: 1 / -1;
+      grid-template-columns: subgrid;
+      padding-block: 0.4375rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    & dt {
+      color: var(--muted);
+    }
+
+    & dd {
+      margin: 0;
+    }
+  }
+
+  .map-label {
+    margin: 1.25rem 0 0.5rem;
+    color: var(--muted);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: normal;
+  }
+
+  /* Each stop is a dot on a line that runs to the next stop. */
+  .map-stops {
+    margin: 0 0 0.75rem;
+    padding: 0;
+    list-style: none;
+    font-size: var(--text-sm);
+
+    & li {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 0.875rem 1.25rem;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0.4375rem;
+        left: 0.125rem;
+        width: 0.4375rem;
+        height: 0.4375rem;
+        border: 1.5px solid var(--muted);
+        border-radius: 50%;
+        background: var(--bg);
+      }
+
+      &:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 1rem;
+        bottom: 0.0625rem;
+        left: 0.3125rem;
+        width: 1px;
+        background: var(--line);
+      }
+
+      &:last-child::before {
+        border-color: var(--link);
+        background: var(--link);
+      }
+    }
+  }
+
+  .map-stop-name {
+    font-weight: 500;
+  }
+
+  .map-stop-note {
+    color: var(--muted);
+  }
+
+  .map-panel-foot {
+    padding: 0.75rem 1.25rem 1rem;
+    border-top: 1px solid var(--line);
+
+    &[hidden] {
+      display: none;
+    }
+  }
+
+  .map-profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    height: 2.25rem;
+    border: 1px solid var(--edge);
+    border-radius: 0.5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    box-shadow: var(--shadow-low);
+
+    &:hover {
+      background: var(--hover);
       text-decoration: none;
     }
   }
