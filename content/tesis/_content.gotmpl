@@ -11,6 +11,7 @@ docs/tesis.md says where the data comes from.
 		"path" .id
 		"title" .title
 		"params" (dict "thesis" .id "description" $description)
+		"dates" (dict "lastmod" (time.AsTime hugo.Data.theses.fetched))
 		"content" (dict "mediaType" "text/markdown" "value" .abstract)
 	) -}}
 {{- end -}}

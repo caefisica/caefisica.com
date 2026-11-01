@@ -12,6 +12,7 @@ A person with a written article at content/fisicos/<slug>/index.md gets that pag
 		"path" .slug
 		"title" .name
 		"params" $params
+		"dates" (dict "lastmod" (time.AsTime hugo.Data.physicists.fetched))
 		"content" (dict "mediaType" "text/markdown" "value" "")
 	) -}}
 {{- end -}}
