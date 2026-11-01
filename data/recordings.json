@@ -112,6 +112,17 @@
       "last": "2026"
     },
     {
+      "id": "cefunt",
+      "name": "Charlas del CEFUNT",
+      "organiser": "Centro de Estudiantes de Física de la UNT",
+      "one": "charla",
+      "unit": "charlas",
+      "talks": 15,
+      "videos": 0,
+      "first": "2023",
+      "last": "2024"
+    },
+    {
       "id": "conferencias",
       "name": "Conferencias",
       "organiser": "Facultad de Ciencias Físicas",
@@ -2774,6 +2785,22 @@
       ]
     },
     {
+      "id": "cefunt-15",
+      "series": "cefunt",
+      "title": "Laboratorio de didáctica de la física DFIS-UPLA: un espacio de investigación, docencia y vinculación con el medio",
+      "date": "2024-06-19",
+      "month": "2024-06",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=438690229058051",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Nicolás Fernández Astudillo",
+          "affiliation": "Universidad de Playa Ancha"
+        }
+      ]
+    },
+    {
       "id": "fb-post-890772273066951",
       "series": "lafmat",
       "title": "Síntesis de carbón activado en atmósfera de CO/CO2 para aplicaciones en supercapacitores",
@@ -2898,6 +2925,82 @@
         {
           "name": "Antonio Moreira dos Santos",
           "affiliation": "Oak Ridge National Laboratory, Estados Unidos"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-13",
+      "series": "cefunt",
+      "title": "El mundo de los resonadores superconductores",
+      "date": "2024-04-12",
+      "month": "2024-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=394201450173596",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Kelvin Ramos"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-14",
+      "series": "cefunt",
+      "title": "Campos no electromagnéticos que satisfacen las ecuaciones de Maxwell",
+      "date": "2024-04-12",
+      "month": "2024-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=394201450173596",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Francisco de Zela",
+          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-10",
+      "series": "cefunt",
+      "title": "Evolución histórica de la física cuántica: desde el fotón hasta la comunicación cuántica",
+      "date": "2024-04-11",
+      "month": "2024-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=394201390173602",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Kelman Marín"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-11",
+      "series": "cefunt",
+      "title": "Ecuaciones hidrodinámicas de un condensado de Bose-Einstein",
+      "date": "2024-04-11",
+      "month": "2024-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=394201390173602",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Javier Bellido"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-12",
+      "series": "cefunt",
+      "title": "Principio de acción cuántica de Schwinger",
+      "date": "2024-04-11",
+      "month": "2024-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=394201390173602",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Alexander Trigoso"
         }
       ]
     },
@@ -3030,6 +3133,22 @@
       ]
     },
     {
+      "id": "cefunt-9",
+      "series": "cefunt",
+      "title": "Análisis y fenomenología de extensiones de modelos con multipletes de Higgs complementados con simetrías discretas",
+      "date": "2024-02-24",
+      "month": "2024-02",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=365409653052776",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Juan Marchant González",
+          "affiliation": "Universidad de Playa Ancha"
+        }
+      ]
+    },
+    {
       "id": "fb-post-814081037402742",
       "series": "lafmat",
       "title": "Basic and advanced investigation of solar cells",
@@ -3078,6 +3197,38 @@
       ]
     },
     {
+      "id": "cefunt-8",
+      "series": "cefunt",
+      "title": "Óptica no lineal y sus aplicaciones en fotónica y comunicaciones",
+      "date": "2024-01-20",
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=343793755214366",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Lucas Gutierrez",
+          "affiliation": "Instituto Balseiro"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-7",
+      "series": "cefunt",
+      "title": "Generación y control de energía mediante recolectores-absorbedores",
+      "date": "2024-01-06",
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=337296319197443",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Aaron Gelves",
+          "affiliation": "Universidad Nacional del Sur"
+        }
+      ]
+    },
+    {
       "id": "fb-post-799095465567966",
       "series": "lafmat",
       "title": "Looking for Multifunctional devices using interfacial effects in heterostructures",
@@ -3090,6 +3241,54 @@
         {
           "name": "Jiwon Seo",
           "affiliation": "Yonsei University, South Korea"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-6",
+      "series": "cefunt",
+      "title": "Información cuántica en teoría de campos y el grupo de renormalización",
+      "date": "2023-12-23",
+      "month": "2023-12",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=327815003478908",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Nicolás Abate",
+          "affiliation": "Instituto Balseiro"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-4",
+      "series": "cefunt",
+      "title": "Nanopartículas de compuestos a transición espín: modelos y aplicaciones",
+      "date": "2023-12-01",
+      "month": "2023-12",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=313734258220316",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Jorge Linares",
+          "affiliation": "Universidad de Versalles"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-5",
+      "series": "cefunt",
+      "title": "Estudios de doctorado en Francia",
+      "date": "2023-12-01",
+      "month": "2023-12",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=313742191552856",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Jorge Linares",
+          "affiliation": "Universidad de Versalles"
         }
       ]
     },
@@ -3145,6 +3344,22 @@
       "month": "2023-11"
     },
     {
+      "id": "cefunt-3",
+      "series": "cefunt",
+      "title": "Neutrinos cosmogénicos en EEV: un nuevo horizonte para la física de partículas",
+      "date": "2023-11-18",
+      "month": "2023-11",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=306697942257281",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Víctor Valera",
+          "affiliation": "Instituto Niels Bohr, Universidad de Copenhague"
+        }
+      ]
+    },
+    {
       "id": "fb-post-762168695927310",
       "series": "lafmat",
       "title": "Theoretical and experimental approach of crystal and electronic structure of Perovskites nano and meso structured for Energy Conversion",
@@ -3174,6 +3389,22 @@
           "name": "Robert Guzman",
           "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú",
           "profile": "/professors/robert-mikhail-guzman-arellano/"
+        }
+      ]
+    },
+    {
+      "id": "cefunt-2",
+      "series": "cefunt",
+      "title": "Estudio de la ionósfera en el Perú",
+      "date": "2023-10-20",
+      "month": "2023-10",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=291638763763199",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Percy Cóndor",
+          "affiliation": "Instituto Geofísico del Perú"
         }
       ]
     },
@@ -3612,6 +3843,22 @@
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=624934609650720&set=a.463310019146514",
       "month": "2023-04"
+    },
+    {
+      "id": "cefunt-1",
+      "series": "cefunt",
+      "title": "De los Andes al Sena: un viaje cuántico de la UNI al CEA Paris-Saclay. Cómo fue mi trayectoria y mis perspectivas en física cuántica",
+      "date": "2023-04-13",
+      "month": "2023-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=174392328821177",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Joan Cáceres",
+          "affiliation": "CEA Paris-Saclay"
+        }
+      ]
     },
     {
       "id": "yt-bBHrIdDIISc",
