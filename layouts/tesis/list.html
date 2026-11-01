@@ -65,7 +65,7 @@
 			{{- range $years }}
 				{{- $rows := where $theses "year" . }}
 				<section class="section-group band">
-					<h2>{{ . }} <span class="count">{{ len $rows }}</span></h2>
+					<h2>{{ . }} {{ partial "ui/count.html" (dict "n" (len $rows) "one" "trabajo" "many" "trabajos") }}</h2>
 					<ul class="rows">
 						{{- range $rows }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
 					</ul>
@@ -94,7 +94,7 @@
 				{{- $rows := slice }}
 				{{- range $defences }}{{ if eq (substr .month 0 4) $year }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
 				<section class="section-group band">
-					<h2>{{ $year }} <span class="count">{{ len $rows }}</span></h2>
+					<h2>{{ $year }} {{ partial "ui/count.html" (dict "n" (len $rows) "one" "sustentación" "many" "sustentaciones") }}</h2>
 					<ul class="rows">
 						{{- range $rows }}{{ partial "tesis/defence-row.html" (dict "defence" .) }}{{ end }}
 					</ul>
