@@ -1,7 +1,6 @@
 ---
 title: "Electromagnetismo"
 description: "Electrostática, electrodinámica, relatividad y superconductores."
-lead: "Electrostática, electrodinámica, relatividad y superconductores."
 cascade:
   - params:
       math: true

@@ -7,7 +7,7 @@
 		</div>
 		<ul class="m-0 grid list-none gap-10 p-0 md:grid-cols-3">
 			{{- range first 3 (where site.RegularPages.ByDate.Reverse "Section" "blog") }}
-				<li class="reveal group relative border-t border-edge pt-5">
+				<li class="reveal group relative card card-hover home-card p-6">
 					<p class="mb-3 text-sm text-muted">{{ partial "ui/date.html" .Date }} &middot; {{ .ReadingTime }}&nbsp;min. de lectura</p>
 					<h3 class="mt-0 mb-3 text-h3 leading-tight tracking-tight">
 						<a class="text-fg before:absolute before:inset-0 group-hover:text-link" href="{{ .RelPermalink }}">

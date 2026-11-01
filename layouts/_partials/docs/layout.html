@@ -11,7 +11,7 @@ Front matter `toc: false` drops the contents column. List pages of a taxonomy ge
 {{- if ne $root $page }}{{ $sidebar = merge $sidebar (dict "link" $root.RelPermalink) }}{{ end -}}
 {{- $sidebar = merge $sidebar (.sidebar | default dict) -}}
 {{- $toc := and (ne $page.Params.toc false) (or $page.Fragments.Headings $page.Params.contributors) -}}
-<div class="docs-layout{{ if $toc }} has-toc{{ end }}">
+<div class="docs-layout{{ if $toc }} has-toc{{ end }}{{ if eq $root.Section "apuntes" }} notes-layout{{ end }}">
 	{{ partial "docs/sidebar.html" (merge $sidebar (dict "page" $page)) }}
 	<article class="docs-article">
 		{{ partial "article/breadcrumbs.html" (dict "page" $page "root" $root) }}
