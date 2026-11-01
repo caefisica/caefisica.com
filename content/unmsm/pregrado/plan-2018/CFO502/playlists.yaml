@@ -1,0 +1,25 @@
+- title: Computational Physics Using Fortran
+  channel: ""
+  lecturer: Mohan Giri
+  url: https://www.youtube.com/playlist?list=PL7p7K-N4TmQsI7KgdyKyh19sXWTd8UC28
+  description: >-
+    Once tutoriales en Fortran según el programa de maestría en física de la
+    Universidad Tribhuvan: los métodos de Euler, bisección, Newton-Raphson,
+    Simpson, trapecio y Runge-Kutta, la integración de Monte Carlo y la
+    interpolación de Lagrange. En inglés.
+- title: Computational Physics
+  channel: NPTEL-NOC IITM
+  lecturer: ""
+  url: https://www.youtube.com/playlist?list=PLyqSpQzTE6M8Lg4pPC2KKutByiFCR9kV0
+  description: >-
+    Un curso de NPTEL: integración numérica, ecuaciones diferenciales con
+    condiciones de frontera, la ecuación de Schrödinger, simulaciones de Monte
+    Carlo con el cumulante de Binder y dinámica molecular. En inglés.
+- title: Computational Physics MSc course
+  channel: Be_a_Physicist
+  lecturer: ""
+  url: https://www.youtube.com/playlist?list=PLJLcwUF3Yuc0kqgZTMXdWmAYeryJRk7lH
+  description: >-
+    Un curso de maestría que enseña Fortran 90/95 desde la aritmética, el
+    control y los arreglos hasta Gnuplot, y luego los métodos de Euler,
+    Runge-Kutta y diferencias finitas. En hindi, con las diapositivas en inglés.

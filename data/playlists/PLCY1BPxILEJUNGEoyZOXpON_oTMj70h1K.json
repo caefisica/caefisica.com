@@ -1,0 +1,370 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 7. Espacios Vectoriales II",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-06-18",
+  "lessons": [
+    {
+      "id": "zT5mx5GVqOY",
+      "title": "Combinación lineal I Definición 1",
+      "duration": 373
+    },
+    {
+      "id": "YmVywFtVtn4",
+      "title": "Combinación lineal I Definición 2",
+      "duration": 575
+    },
+    {
+      "id": "Ufy_O_3vYrE",
+      "title": "Combinación lineal con elementos del plano | Ejemplo 1",
+      "duration": 239
+    },
+    {
+      "id": "2mTOjNLL6hk",
+      "title": "Combinación lineal con elementos del plano | Ejemplo 2",
+      "duration": 159
+    },
+    {
+      "id": "EkNmDCEPot4",
+      "title": "Combinación lineal con elementos del espacio",
+      "duration": 332
+    },
+    {
+      "id": "N0a7w7SH03U",
+      "title": "Combinación lineal entre polinomios I Ejemplo",
+      "duration": 317
+    },
+    {
+      "id": "uu82RPCYhtE",
+      "title": "Combinación lineal entre polinomios I Ejemplo 2",
+      "duration": 184
+    },
+    {
+      "id": "VeEIw6UWRIM",
+      "title": "Combinación lineal I Ejemplo 1",
+      "duration": 475
+    },
+    {
+      "id": "MJEx06p6dUs",
+      "title": "Combinación lineal I Ejemplo 2",
+      "duration": 344
+    },
+    {
+      "id": "q5VHaDqia6c",
+      "title": "Combinación lineal I Ejemplo 3",
+      "duration": 488
+    },
+    {
+      "id": "KXf6_v7A7vY",
+      "title": "Combinación lineal en matrices",
+      "duration": 230
+    },
+    {
+      "id": "Js3GxVJl5xE",
+      "title": "Conjunto dependiente e independiente I Definición",
+      "duration": 382
+    },
+    {
+      "id": "tIukVYCVhho",
+      "title": "Conjunto linealmente dependiente I Ejemplo 1",
+      "duration": 364
+    },
+    {
+      "id": "HMBnE20vEVg",
+      "title": "Conjuntos linealmente dependientes e independientes I Ejemplo 1",
+      "duration": 321
+    },
+    {
+      "id": "Ej9fVPzqLL8",
+      "title": "Conjunto linealmente independiente I Ejemplo 1",
+      "duration": 184
+    },
+    {
+      "id": "ZqRaY0xjreo",
+      "title": "Conjunto linealmente dependiente I Ejemplo 2",
+      "duration": 277
+    },
+    {
+      "id": "13EOW9K7ocw",
+      "title": "Conjunto linealmente independiente I Ejemplo 2",
+      "duration": 195
+    },
+    {
+      "id": "48PQB3MzDLk",
+      "title": "Conjunto linealmente independiente I Ejemplo 3",
+      "duration": 222
+    },
+    {
+      "id": "D5UjrsJs99w",
+      "title": "Conjunto linealmente dependiente I Ejemplo 3",
+      "duration": 309
+    },
+    {
+      "id": "e3T6u3UbGrU",
+      "title": "Conjunto linealmente independiente I Ejemplo 4",
+      "duration": 234
+    },
+    {
+      "id": "zFKt-rTOr7E",
+      "title": "Conjuntos linealmente dependientes e independientes I Ejemplo 2",
+      "duration": 329
+    },
+    {
+      "id": "umsDLnaSays",
+      "title": "Conjunto linealmente independiente I Ejemplo 5",
+      "duration": 285
+    },
+    {
+      "id": "ac2Zbyz6ouc",
+      "title": "Conjunto linealmente dependiente I Ejemplo 4",
+      "duration": 250
+    },
+    {
+      "id": "zi8ZRAlR1PY",
+      "title": "Conjunto linealmente independiente I Ejemplo 6",
+      "duration": 357
+    },
+    {
+      "id": "_nWUMNvmJQc",
+      "title": "Conjunto linealmente independiente I Ejemplo 7",
+      "duration": 276
+    },
+    {
+      "id": "7cp-9PwMXpk",
+      "title": "Conjunto linealmente independiente I Ejemplo 8",
+      "duration": 450
+    },
+    {
+      "id": "zhJhWdlQawU",
+      "title": "Definición de Wronskiano",
+      "duration": 193
+    },
+    {
+      "id": "yt2LaWyP_Io",
+      "title": "Conjunto linealmente independiente I Ejemplo 9",
+      "duration": 443
+    },
+    {
+      "id": "udzQDAg1vfs",
+      "title": "Conjunto linealmente independiente I Ejemplo 10",
+      "duration": 307
+    },
+    {
+      "id": "VS_d_P2VDIA",
+      "title": "Conjunto linealmente independiente I Ejemplo 10",
+      "duration": 307
+    },
+    {
+      "id": "EC56yVWoYTw",
+      "title": "Conjunto linealmente independiente I Ejemplo 11",
+      "duration": 276
+    },
+    {
+      "id": "lHqHRm7Aj1M",
+      "title": "Conjunto linealmente dependiente I Propiedad 1",
+      "duration": 344
+    },
+    {
+      "id": "CW5RDPqiywE",
+      "title": "Conjunto linealmente dependiente I Propiedad 2",
+      "duration": 441
+    },
+    {
+      "id": "AKwWZqjnn5s",
+      "title": "Conjunto linealmente independiente I Propiedad 1",
+      "duration": 404
+    },
+    {
+      "id": "BJemZvMurHA",
+      "title": "Conjunto linealmente dependiente I Propiedad 3",
+      "duration": 201
+    },
+    {
+      "id": "tdgq1vdn6P0",
+      "title": "El conjunto de combinaciones lineales",
+      "duration": 311
+    },
+    {
+      "id": "RxvMTzUL9QA",
+      "title": "Generador I Definición",
+      "duration": 284
+    },
+    {
+      "id": "_m4J-Fondu4",
+      "title": "Conjuntos generadores I Ejemplos",
+      "duration": 360
+    },
+    {
+      "id": "UIvhpMn2Dkc",
+      "title": "Conjuntos generadores en el plano I Ejemplos",
+      "duration": 443
+    },
+    {
+      "id": "T5XoQK43Tpk",
+      "title": "Conjunto generador I Ejemplo 1",
+      "duration": 196
+    },
+    {
+      "id": "8ftrhg4PCsg",
+      "title": "Conjunto generador I Ejemplo 2",
+      "duration": 449
+    },
+    {
+      "id": "NPqJk2lK114",
+      "title": "Conjunto generador I Ejemplo 3",
+      "duration": 228
+    },
+    {
+      "id": "dld52RTMy0Y",
+      "title": "Conjunto generador I Ejemplo 4",
+      "duration": 167
+    },
+    {
+      "id": "nPFZ38ZAtyw",
+      "title": "Conjunto generador I Ejemplo 5",
+      "duration": 219
+    },
+    {
+      "id": "I40h30uqStE",
+      "title": "Conjunto generador I Ejemplo 6",
+      "duration": 301
+    },
+    {
+      "id": "7pvHHz-QQ_c",
+      "title": "Conjunto generador I Ejemplo 7",
+      "duration": 382
+    },
+    {
+      "id": "Aa8Agc3C_j8",
+      "title": "Conjunto generador I Ejemplo 8.",
+      "duration": 195
+    },
+    {
+      "id": "i2fzS1VzSrk",
+      "title": "Conjunto generador I Ejemplo 9",
+      "duration": 224
+    },
+    {
+      "id": "RUNuXLH-PXY",
+      "title": "Base de un espacio vectorial I Definición",
+      "duration": 457
+    },
+    {
+      "id": "s0T4-4d3VCE",
+      "title": "Base y dimensión de un subespacio I Ejemplo 1",
+      "duration": 81
+    },
+    {
+      "id": "jUbPrwtUDDw",
+      "title": "Base y dimensión de un subespacio I Ejemplo 2",
+      "duration": 122
+    },
+    {
+      "id": "28nqGy_K39A",
+      "title": "Base y dimensión de un subespacio I Ejemplo 3.",
+      "duration": 136
+    },
+    {
+      "id": "6l3PCcO5ie0",
+      "title": "Base y dimensión de un subespacio I Ejemplo 4",
+      "duration": 240
+    },
+    {
+      "id": "nUyqguqBwPk",
+      "title": "Base y dimensión de un subespacio I Ejemplo 5",
+      "duration": 286
+    },
+    {
+      "id": "XCRHph2RqlM",
+      "title": "Base y dimensión de un subespacio I Ejemplo 6",
+      "duration": 753
+    },
+    {
+      "id": "4WetPX7eUnU",
+      "title": "Base y dimensión de un subespacio I Ejemplo 7",
+      "duration": 256
+    },
+    {
+      "id": "_uzeG7SBRYA",
+      "title": "Base del subespacio generado por tres elementos I Ejemplo",
+      "duration": 160
+    },
+    {
+      "id": "pzoPPZgOpAQ",
+      "title": "Propiedades de las bases 1",
+      "duration": 397
+    },
+    {
+      "id": "x-Fmqn71R5Y",
+      "title": "Propiedades de las bases 2",
+      "duration": 219
+    },
+    {
+      "id": "hyslrWIyrmA",
+      "title": "Propiedades de las bases 3",
+      "duration": 243
+    },
+    {
+      "id": "gpQsV8J6V3M",
+      "title": "Propiedades de las bases 4",
+      "duration": 393
+    },
+    {
+      "id": "aelE1DaPJ2Q",
+      "title": "Propiedades de las bases 5",
+      "duration": 217
+    },
+    {
+      "id": "kxvyzrOdrGI",
+      "title": "Teorema de la dimensión I Ejemplo 1",
+      "duration": 247
+    },
+    {
+      "id": "BDy4gN4fu7s",
+      "title": "Teorema de la dimensión I Ejemplo 2",
+      "duration": 173
+    },
+    {
+      "id": "1PJ510kFzro",
+      "title": "Matriz de coordenadas I Ejemplo 1",
+      "duration": 597
+    },
+    {
+      "id": "0LdRHwIGPto",
+      "title": "Matriz de coordenadas I Ejemplo 2",
+      "duration": 322
+    },
+    {
+      "id": "FsrLSYn5Oyk",
+      "title": "Matriz de cordenadas I Ejemplo 3",
+      "duration": 183
+    },
+    {
+      "id": "zdusCtxZsds",
+      "title": "Matriz de coordenadas I Ejemplo 4",
+      "duration": 291
+    },
+    {
+      "id": "fWWccAf_x5M",
+      "title": "Matriz de cambio de base I Ejemplo 1.",
+      "duration": 719
+    },
+    {
+      "id": "usuTgEwIKnU",
+      "title": "Matriz de cambio de base I Ejemplo 2",
+      "duration": 556
+    },
+    {
+      "id": "KkR8qD9WbAI",
+      "title": "Matriz de cambio de base I Ejemplo 3",
+      "duration": 466
+    },
+    {
+      "id": "tP_gWHfQQQQ",
+      "title": "Relación entre las matrices coordenadas 1",
+      "duration": 138
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Optica Física",
+  "channel": "rentov",
+  "description": "",
+  "updated": "2023-07-04",
+  "lessons": [
+    {
+      "id": "4XLOghn6Y0k",
+      "title": "Óptica geométrica",
+      "duration": 2866
+    },
+    {
+      "id": "WPMupVWC6lM",
+      "title": "Óptica Física: Descripción de la asignatura.",
+      "duration": 1808
+    },
+    {
+      "id": "cOZHlSPndr0",
+      "title": "Óptica ondulatoria",
+      "duration": 3006
+    },
+    {
+      "id": "TIpwy9H6DVQ",
+      "title": "Onda armónica plana",
+      "duration": 1222
+    },
+    {
+      "id": "bbPePkkGGaA",
+      "title": "Representación compleja de las funciones de onda",
+      "duration": 762
+    },
+    {
+      "id": "bI8HoAApFnU",
+      "title": "Intensidad. energía. Potencia.",
+      "duration": 1102
+    },
+    {
+      "id": "E4Cc0kNsrNI",
+      "title": "Onda esférica",
+      "duration": 2070
+    },
+    {
+      "id": "t4uvrPsYJK4",
+      "title": "Ondas cuasiplanas",
+      "duration": 3047
+    },
+    {
+      "id": "RpadJodNN_I",
+      "title": "Velocidad de grupo",
+      "duration": 2173
+    },
+    {
+      "id": "8fsGsH_SZjc",
+      "title": "Pulso en un medio dispersivo",
+      "duration": 846
+    },
+    {
+      "id": "FfyGjs-C5LQ",
+      "title": "Interferencia",
+      "duration": 1192
+    },
+    {
+      "id": "bNMPwyA2LUU",
+      "title": "Ondas cuasi monocromáticas",
+      "duration": 1087
+    },
+    {
+      "id": "QsiMT5L4QMU",
+      "title": "Interferencia de ondas con la misma amplitud y desfase.",
+      "duration": 1183
+    },
+    {
+      "id": "aY73IWvgOUk",
+      "title": "Interferencia de ondas con amplitudes decrecientes",
+      "duration": 1801
+    },
+    {
+      "id": "Aeift3NOlg8",
+      "title": "Interferómetros",
+      "duration": 1903
+    },
+    {
+      "id": "hzmnfOJd-Ow",
+      "title": "Interferómetro de Michelson",
+      "duration": 3533
+    },
+    {
+      "id": "4WEDcoaGbjs",
+      "title": "Condiciones de coherencia",
+      "duration": 2846
+    },
+    {
+      "id": "R9oU5OH9rkk",
+      "title": "Definición de coherencia",
+      "duration": 1113
+    },
+    {
+      "id": "4ApJZIajNiw",
+      "title": "Principio fundamental para obtener patrones de interferencia.,",
+      "duration": 1315
+    },
+    {
+      "id": "A7zXbEWu9Hw",
+      "title": "Características de un patrón de interferencia",
+      "duration": 1084
+    },
+    {
+      "id": "7WzL-ykuzB0",
+      "title": "Biespejo de Fresnel",
+      "duration": 638
+    },
+    {
+      "id": "HpMdlCk_ZtM",
+      "title": "Bilente de Billet",
+      "duration": 1522
+    },
+    {
+      "id": "-G7lyBHwcos",
+      "title": "Interferencia en placas delgadas",
+      "duration": 960
+    },
+    {
+      "id": "BFRFieaK6VI",
+      "title": "Biprisma de Fresnel",
+      "duration": 2285
+    },
+    {
+      "id": "Q6xmugw-o-o",
+      "title": "Interferencia en placas inclinadas",
+      "duration": 1163
+    },
+    {
+      "id": "vx6yWgIegEo",
+      "title": "Aplicaciones de las zonas de Fresnel",
+      "duration": 1494
+    },
+    {
+      "id": "Vuu1HpcwcXE",
+      "title": "Método de las zonas de Fresnel",
+      "duration": 1921
+    },
+    {
+      "id": "miLzTxuo85s",
+      "title": "Parámetros de la difracción",
+      "duration": 679
+    },
+    {
+      "id": "6jnHAtET9cQ",
+      "title": "Difraccion",
+      "duration": 2276
+    },
+    {
+      "id": "pxbj0R7yusc",
+      "title": "Ejemplo de difracción de Fresnel",
+      "duration": 1443
+    },
+    {
+      "id": "VWeIFK5ESnc",
+      "title": "Difracción de Fresnel en un disco",
+      "duration": 540
+    },
+    {
+      "id": "L1MJnJPR5AA",
+      "title": "Difración de Fresnel en un agujero circular",
+      "duration": 2306
+    },
+    {
+      "id": "YbGsuqbLYz4",
+      "title": "Ejercicios de interferencia",
+      "duration": 5589
+    },
+    {
+      "id": "3C_MycazApk",
+      "title": "Problemas asociados a la coherencia",
+      "duration": 3093
+    },
+    {
+      "id": "ZkLvWWioaMI",
+      "title": "Problemas asociados al cálculo de patrones de interferencia",
+      "duration": 1454
+    },
+    {
+      "id": "4IZoCQD5i5A",
+      "title": "Interferencias múltiples",
+      "duration": 1533
+    },
+    {
+      "id": "qXkP7Raoyok",
+      "title": "Ondas electromagnéticas",
+      "duration": 893
+    },
+    {
+      "id": "yh0jKhmvPDY",
+      "title": "Onda electromagnética plana",
+      "duration": 1658
+    },
+    {
+      "id": "MTKpBjUsMCI",
+      "title": "Onda electromagnética estacionaria",
+      "duration": 1361
+    },
+    {
+      "id": "eeFLaart2Gs",
+      "title": "Energía de las ondas electromagnéticas",
+      "duration": 1171
+    },
+    {
+      "id": "ykukG2Cl6xw",
+      "title": "Momento de la onda electromagnética",
+      "duration": 1104
+    },
+    {
+      "id": "bQO_w46lvSs",
+      "title": "Radiación del dipolo",
+      "duration": 1496
+    },
+    {
+      "id": "B3qlgOgJshk",
+      "title": "Problemas de ondas electromagnéticas",
+      "duration": 1486
+    },
+    {
+      "id": "2ZolL3RRVXo",
+      "title": "Análisis espectral",
+      "duration": 867
+    },
+    {
+      "id": "9w12peRDEpE",
+      "title": "Espectros de amplitud y de fase",
+      "duration": 1143
+    },
+    {
+      "id": "VXhn04_cRIQ",
+      "title": "Espectro de pulsos rectangulares",
+      "duration": 727
+    },
+    {
+      "id": "0Q9U_iBiiyo",
+      "title": "Espectro de pulsos triangulares",
+      "duration": 338
+    },
+    {
+      "id": "8KuWHkheypI",
+      "title": "Espectros contínuos",
+      "duration": 531
+    },
+    {
+      "id": "L35ap1GIAfU",
+      "title": "Duración del pulso y ancho del espectro",
+      "duration": 1223
+    },
+    {
+      "id": "Kit0qaEsZk8",
+      "title": "Traslación temporal",
+      "duration": 750
+    },
+    {
+      "id": "v5zbDmmrnJ8",
+      "title": "Relaciones importantes",
+      "duration": 468
+    },
+    {
+      "id": "1Tqy6owIlk0",
+      "title": "Modelo clásico de la radiación",
+      "duration": 976
+    },
+    {
+      "id": "4IgZbM5588g",
+      "title": "Composición espectral de la radiación clásica",
+      "duration": 1650
+    },
+    {
+      "id": "MQjYjYGrQr0",
+      "title": "Características de la emisión",
+      "duration": 1273
+    },
+    {
+      "id": "H6NbWEaVA4A",
+      "title": "Forma de la línea de absorción",
+      "duration": 1077
+    },
+    {
+      "id": "ir8BlixCQzc",
+      "title": "Interpretación cuántica de la línea de emisión",
+      "duration": 605
+    },
+    {
+      "id": "PvlevbhByt4",
+      "title": "Engrosamiento de las líneas espectrales",
+      "duration": 2075
+    },
+    {
+      "id": "91FAoHVFvhE",
+      "title": "Engrosamiento de Lorentz",
+      "duration": 1847
+    },
+    {
+      "id": "fOn5Ri_yQjI",
+      "title": "Modulación de onda: Amplitud modulada",
+      "duration": 1814
+    },
+    {
+      "id": "irqVlKSdBjk",
+      "title": "Modulación de frecuencia y de fase",
+      "duration": 2129
+    },
+    {
+      "id": "DMlld5bGsu4",
+      "title": "Paquetes de onda",
+      "duration": 2151
+    },
+    {
+      "id": "1bRKqszr4k4",
+      "title": "Repaso de los fundamentos electromagnéticos de la óptica",
+      "duration": 5724
+    },
+    {
+      "id": "dlUn1kFsUyQ",
+      "title": "Energía y momento de las ondas electromagnéticas",
+      "duration": 5645
+    },
+    {
+      "id": "G5SY_7IdluA",
+      "title": "Análisis espectral",
+      "duration": 2376
+    },
+    {
+      "id": "HXoYh2etoX4",
+      "title": "Densidad espectral de la intensidad de la luz",
+      "duration": 1050
+    },
+    {
+      "id": "kprliQ9eww0",
+      "title": "Densidad espectral: contorno y ancho.",
+      "duration": 824
+    },
+    {
+      "id": "Z6ajNAuTt-U",
+      "title": "Engrosamiento de la línea espectral",
+      "duration": 1821
+    },
+    {
+      "id": "hFd8vw1FpVQ",
+      "title": "Naturaleza cuántica de la radiación",
+      "duration": 2386
+    },
+    {
+      "id": "1hpybWpawdU",
+      "title": "Polarización de la luz",
+      "duration": 1836
+    },
+    {
+      "id": "eLHmEh41cnU",
+      "title": "Intensidad de la luz polarizada",
+      "duration": 1057
+    },
+    {
+      "id": "LABpu7mf7lA",
+      "title": "Problemas de polarización",
+      "duration": 1214
+    },
+    {
+      "id": "Jeg1WB4A0vc",
+      "title": "Fórmulas de Fresnel",
+      "duration": 3645
+    },
+    {
+      "id": "hRw-Kbp4_eQ",
+      "title": "Ejemplos de las fórmulas de Fresnel",
+      "duration": 1247
+    },
+    {
+      "id": "FxlYvpnJ2AM",
+      "title": "Ondas electromagnéticas: diapasón óptico de las ondas electromagnéticas",
+      "duration": 1115
+    },
+    {
+      "id": "5NRe9vrtcNM",
+      "title": "Propiedades de las ondas electromagnéticas",
+      "duration": 633
+    },
+    {
+      "id": "9EBtkElKfSY",
+      "title": "Ondas planas",
+      "duration": 1422
+    },
+    {
+      "id": "1vUZQKxtL1Q",
+      "title": "Ondas planas",
+      "duration": 2291
+    },
+    {
+      "id": "AwHasQqxe4w",
+      "title": "Ondas esféricas",
+      "duration": 815
+    },
+    {
+      "id": "HmROJtEEWKw",
+      "title": "Carácter transversal de las ondas electromagnéticas",
+      "duration": 826
+    },
+    {
+      "id": "-fN0q6gi6I8",
+      "title": "Flujo de energía de las ondas electromagnéticas",
+      "duration": 796
+    },
+    {
+      "id": "LIvC7YjQyAA",
+      "title": "Polarización de la luz",
+      "duration": 1067
+    },
+    {
+      "id": "drxIig3WmXE",
+      "title": "Polarización plana y circular",
+      "duration": 1492
+    },
+    {
+      "id": "s92oGFHPq5E",
+      "title": "Luz polarizada naturalmente",
+      "duration": 1720
+    },
+    {
+      "id": "S3r-LRLFblw",
+      "title": "Flujo de energía de las ondas electromagnéticas",
+      "duration": 1228
+    },
+    {
+      "id": "JCVUf9K9qRw",
+      "title": "Intensidad de las ondas electromagnéticas",
+      "duration": 696
+    },
+    {
+      "id": "nss-HaKqkzU",
+      "title": "Potencia de los haces de luz",
+      "duration": 551
+    },
+    {
+      "id": "ZrxX8fUFkyE",
+      "title": "Energía del pulso de luz",
+      "duration": 702
+    },
+    {
+      "id": "Mh6N3uVZFuQ",
+      "title": "Concepción cuántica del flujo de energía",
+      "duration": 478
+    },
+    {
+      "id": "Dw9iftPfw6I",
+      "title": "Presión de la luz",
+      "duration": 1598
+    },
+    {
+      "id": "VmHfGUh1KS0",
+      "title": "Momento del fotón",
+      "duration": 1325
+    },
+    {
+      "id": "6j5jJj2dH4A",
+      "title": "Presión de la radiación térmica",
+      "duration": 1036
+    },
+    {
+      "id": "-WL3JmK1sMU",
+      "title": "Emisión de ondas electromagnéticas: Radiación del dipolo eléctrico",
+      "duration": 1366
+    },
+    {
+      "id": "1QeUKIwhGvI",
+      "title": "Óptica física: radiación del oscilador clásico (átomo)",
+      "duration": 1831
+    },
+    {
+      "id": "5Tp0YNmAJcg",
+      "title": "Óptica física: radiación de un conjunto de átomos (1/2)",
+      "duration": 1760
+    },
+    {
+      "id": "LdKyv51lhz0",
+      "title": "Óptica física: radiación de un conjunto de átomos (2/2)",
+      "duration": 1307
+    },
+    {
+      "id": "8-J7ZqtHHhA",
+      "title": "Óptica física: Tiempo de correlación",
+      "duration": 902
+    },
+    {
+      "id": "v4wSkKPIIQ0",
+      "title": "Óptica física: Análisis espectral- Integral de Fourier",
+      "duration": 1406
+    },
+    {
+      "id": "kV8BHU2renQ",
+      "title": "Óptica física: análisis espectral - Integral de Fourier - ejemplo 1",
+      "duration": 456
+    },
+    {
+      "id": "Nsk1WbaNgMY",
+      "title": "Óptica física: análisis espectral - Integral de Fourier - ejemplo 2",
+      "duration": 827
+    },
+    {
+      "id": "OstEdVi8Iuw",
+      "title": "Óptica física: Análisis espectral - Densidad espectral de intensidad",
+      "duration": 1167
+    },
+    {
+      "id": "72vKhbTAYuU",
+      "title": "Óptica física: análisis espectral - Densidad espectral: características",
+      "duration": 1114
+    },
+    {
+      "id": "SUnQKvvgQ2s",
+      "title": "Óptica física: análisis espectral - Engrosamiento por impacto de la linea espectral",
+      "duration": 3037
+    },
+    {
+      "id": "8TMJevGtlHE",
+      "title": "Análisis espectral: engrosamiento Doppler de la línea espectral",
+      "duration": 1248
+    },
+    {
+      "id": "aOfvH2qJoR8",
+      "title": "Análisis espectral: engrosamiento total de la línea espectral",
+      "duration": 574
+    },
+    {
+      "id": "57XrTjE6ZH0",
+      "title": "Análisis espectral: modulación de fase y engrosamiento del espectro",
+      "duration": 573
+    },
+    {
+      "id": "kgi0cShMDdg",
+      "title": "Análisis espectral: segundo tipo de problemas",
+      "duration": 1242
+    },
+    {
+      "id": "jveU-mvcopQ",
+      "title": "Análisis espectral: primer tipo de problemas",
+      "duration": 1503
+    },
+    {
+      "id": "afEQUAQfXLg",
+      "title": "Análisis espectral: tercer tipo de problemas",
+      "duration": 642
+    },
+    {
+      "id": "SLJEIL_dZUM",
+      "title": "Óptica física: ejemplo 1 de aplicación de ondas electromagnéticas",
+      "duration": 450
+    },
+    {
+      "id": "1pMo9eHQb68",
+      "title": "Óptica física: ejemplo 2 de aplicación de ondas electromagnéticas",
+      "duration": 477
+    },
+    {
+      "id": "b7u94ExJ0yI",
+      "title": "Óptica física: ejemplo 3 de aplicación de ondas electromagnéticas",
+      "duration": 1937
+    },
+    {
+      "id": "LG0E0nemPl4",
+      "title": "Óptica física: ejemplo 4 de aplicación de ondas electromagnéticas",
+      "duration": 2180
+    },
+    {
+      "id": "NFj_iVxOj4Y",
+      "title": "Óptica ondulatoria. principio de superposición",
+      "duration": 906
+    },
+    {
+      "id": "9lLY_MlZp5c",
+      "title": "Óptica ondulatoria: composición de oscilaciones armónicas - método algebraico",
+      "duration": 1511
+    },
+    {
+      "id": "ZQmWlERT5mc",
+      "title": "Óptica ondulatoria: composición de oscilaciones armónicas - método vectorial",
+      "duration": 891
+    },
+    {
+      "id": "yZNyE7JPgN4",
+      "title": "Óptica ondulatoria: composición de oscilaciones armónicas - amplitudes complejas",
+      "duration": 619
+    },
+    {
+      "id": "x5qdFRZevvE",
+      "title": "Óptica ondulatoria: principio de Huygens",
+      "duration": 602
+    },
+    {
+      "id": "8NW6sUU2pqM",
+      "title": "Reflexión y refracción: incidencia normal",
+      "duration": 2513
+    },
+    {
+      "id": "1V5aG4bIaAc",
+      "title": "Reflexión y refracción: coeficientes de reflexión y trasmisión",
+      "duration": 706
+    },
+    {
+      "id": "zJZ-dq6KjZo",
+      "title": "Reflexión y refracción: Leyes de reflexión y refracción de las ondas electromagnéticas",
+      "duration": 1634
+    },
+    {
+      "id": "D4JPXHs5-UA",
+      "title": "Reflexión y refracción: componentes transversales y paralelas de las ondas no polarizadas",
+      "duration": 565
+    },
+    {
+      "id": "J93xHL-ukIk",
+      "title": "Reflexión y refracción: Fórmulas de Fresnel para el campo con E paralelo al plano de incidencia",
+      "duration": 1272
+    },
+    {
+      "id": "Q3yoQrvAvw4",
+      "title": "Reflexión y refracción: Fórmulas de Fresnel para el campo con E perpendicular al plano de incidencia",
+      "duration": 627
+    },
+    {
+      "id": "dZGBFF2CIQY",
+      "title": "Reflexión y refracción: ángulo de Brewster",
+      "duration": 1056
+    },
+    {
+      "id": "1usXVcm6Ydo",
+      "title": "Reflexión y refracción: relación entre intensidades",
+      "duration": 950
+    },
+    {
+      "id": "ohtflm5_Em8",
+      "title": "Reflexión y refracción_ Fórmulas de Fresnel - análisis de las fases",
+      "duration": 1705
+    },
+    {
+      "id": "kQDMzgkmk5Y",
+      "title": "Reflexión y refracción: Reflexión total interna - análisis de la onda refractada",
+      "duration": 1555
+    },
+    {
+      "id": "ObjAbUPXv74",
+      "title": "Reflexión y refracción: Reflexión total interna - análisis de la onda reflejada",
+      "duration": 607
+    },
+    {
+      "id": "-sTK5OnFI2k",
+      "title": "Reflexión y refracción: Reflexión total interna: relaciones de fase",
+      "duration": 1241
+    },
+    {
+      "id": "fz6EmV1o4_k",
+      "title": "Reflexión y refracción: ejemplos 1",
+      "duration": 2337
+    },
+    {
+      "id": "3nERquxoSKw",
+      "title": "Reflexión y refracción: ejemplos 2",
+      "duration": 3012
+    },
+    {
+      "id": "c8-JFLKnY3c",
+      "title": "Reflexión y refracción: ejemplo 4",
+      "duration": 2930
+    },
+    {
+      "id": "DZoJ8A0gzzY",
+      "title": "Reflexión y refracción: problemas del tercer tipo",
+      "duration": 1974
+    },
+    {
+      "id": "UofccGMlGN4",
+      "title": "Propagación de la luz en conductores: permitividad eléctrica compleja",
+      "duration": 1049
+    },
+    {
+      "id": "HVQYYYDOXYI",
+      "title": "Propagación de la luz en conductores: profundidad de penetración en el conductor",
+      "duration": 932
+    },
+    {
+      "id": "2Xrsjave9-g",
+      "title": "Propagación de la luz en conductores: Características de la luz en los conductores",
+      "duration": 1387
+    },
+    {
+      "id": "6QF3o0FSw_E",
+      "title": "Propagación de la luz en conductores: medios con conductividad pequeña y grande",
+      "duration": 1877
+    },
+    {
+      "id": "XAk3--kmrgo",
+      "title": "Reflexión en conductores: condiciones de frontera",
+      "duration": 1159
+    },
+    {
+      "id": "GSczfWp4QQ4",
+      "title": "Reflexión en conductores: relaciónes entre amplitudes",
+      "duration": 951
+    },
+    {
+      "id": "ydkKvDn9lpM",
+      "title": "Óptica geométrica: Aproximación de la óptica geométrica",
+      "duration": 1535
+    },
+    {
+      "id": "bYPzS3kUAUs",
+      "title": "Óptica geométrica: principio de Fermat",
+      "duration": 896
+    },
+    {
+      "id": "1CQMC3E376E",
+      "title": "Óptica física: Difracción (1/2)",
+      "duration": 4579
+    },
+    {
+      "id": "xL-zadc5Bxw",
+      "title": "Óptica física: Difracción (2/2)",
+      "duration": 3445
+    }
+  ]
+}

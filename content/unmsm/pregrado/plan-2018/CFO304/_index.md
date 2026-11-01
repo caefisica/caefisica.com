@@ -50,13 +50,6 @@ un propuesta muy interesante.
 
 ## Listas de reproducción
 
-| Autor                                       | Nombre                                    | Año                                                                                                                                                                             |
-| ------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `694` Bernardo Acevedo Frías (1a con Berni) | Curso de Álgebra Lineal                   | [2019](https://www.youtube.com/c/1aconBerni/playlists?view=50&sort=dd&shelf_id=4)                                                                                               |
-| `133` Renato Tovar Landeo (rentov)          | Álgebra lineal para físicos I             | [2021](https://www.youtube.com/playlist?list=PLK_B1a9wXn7fjl1duGeOh5IszyE_4JPAH); [2020](https://www.youtube.com/playlist?list=PLK_B1a9wXn7ePjQZvIA0C_FeOn4WrW6U5)              |
-| `48` Juan Diego Velez                       | Álgebra Lineal UNAL                       | [2018](https://www.youtube.com/playlist?list=PL0a2jooj1ivBd7OuFlaVzXwl4Xfi2uarN)                                                                                                |
-| `62` Félix López (MateFácil)                | Curso de ÁLGEBRA LINEAL                   | [2022](https://www.youtube.com/playlist?list=PL9SnRnlzoyX32lX7zNawatnGQP7IPLIi5)                                                                                                |
-| `35` Gilbert Strang                         | Gilbert Strang lectures on Linear Algebra | [2005](https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D)                                                                                                                |
-| `38` Grant Sanderson (3blue1brown)          | Esencia del Álgebra Lineal                | [2018, Trad.](https://www.youtube.com/playlist?list=PLIb_io8a5NB2DddFf-PwvZDCOUNT1GZoA), [2016, 2021](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}
 
 ## Recursos adicionales

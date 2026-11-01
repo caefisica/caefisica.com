@@ -1,0 +1,125 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Complex Analysis",
+  "channel": "MathMajor ",
+  "description": "",
+  "updated": "2022-06-01",
+  "lessons": [
+    {
+      "id": "OAahmA7lr8Q",
+      "title": "The basics of complex numbers -- Complex Analysis 1",
+      "duration": 1938
+    },
+    {
+      "id": "RoOwz1gUPCE",
+      "title": "The polar form of a complex number -- Complex Analysis 2",
+      "duration": 2021
+    },
+    {
+      "id": "5PfvpWx2Rdk",
+      "title": "Visualizing simple complex functions -- Complex Analysis 3",
+      "duration": 2140
+    },
+    {
+      "id": "2OnxF25jkjI",
+      "title": "The beauty of the complex exponential -- Complex Analysis 4",
+      "duration": 1788
+    },
+    {
+      "id": "VnuHQHfrlkQ",
+      "title": "i^i and other complex powers -- Complex Analysis 5",
+      "duration": 1429
+    },
+    {
+      "id": "QKfmlDewHHU",
+      "title": "Sequences of complex numbers -- Complex Analysis 6",
+      "duration": 1736
+    },
+    {
+      "id": "pAMkbHBRkoM",
+      "title": "Complex limits and derivatives -- Complex Analysis 7",
+      "duration": 1458
+    },
+    {
+      "id": "4HW0dCove68",
+      "title": "The Cauchy-Riemann Equations -- Complex Analysis 8",
+      "duration": 2111
+    },
+    {
+      "id": "rZk4zcao21g",
+      "title": "Harmonic Functions -- Complex Analysis 9",
+      "duration": 2064
+    },
+    {
+      "id": "M4noAceElZ4",
+      "title": "Conformal Mappings and Möbius Transformations -- Complex Analysis 10",
+      "duration": 2311
+    },
+    {
+      "id": "Q_PRmeOFODw",
+      "title": "Gauss' Mean Value Property and the Maximum Modulus -- Complex Analysis 11",
+      "duration": 1862
+    },
+    {
+      "id": "pEaZ3A7ctKU",
+      "title": "Introduction to Complex Integration -- Complex Analysis 12",
+      "duration": 2197
+    },
+    {
+      "id": "1orYyXsvlZI",
+      "title": "Cauchy's Integral Formula and Liouville's Theorem -- Complex Analysis 13",
+      "duration": 1892
+    },
+    {
+      "id": "dEN5mVXYZfg",
+      "title": "Morera's Theorem and Corollaries -- Complex Analysis 14",
+      "duration": 1289
+    },
+    {
+      "id": "zvxU5txWwrM",
+      "title": "The Complex Green's Theorem -- Complex Analysis 15",
+      "duration": 2478
+    },
+    {
+      "id": "-mFrP2EWR1g",
+      "title": "Sequences of Complex Functions -- Complex Analysis 16",
+      "duration": 2207
+    },
+    {
+      "id": "NBX2UXbqTAo",
+      "title": "Taylor Series for Complex Valued Functions -- Complex Analysis 17",
+      "duration": 1415
+    },
+    {
+      "id": "gB3jxCHuaT8",
+      "title": "Series at ∞ -- Complex Analysis 18",
+      "duration": 1445
+    },
+    {
+      "id": "qUByrD3Th_s",
+      "title": "Laurent Decomposition -- Complex Analysis 19",
+      "duration": 1796
+    },
+    {
+      "id": "UBpDEsVEuh4",
+      "title": "Singularities of Analytic Functions -- Complex Analysis 20",
+      "duration": 2527
+    },
+    {
+      "id": "-wBPKFGfKOk",
+      "title": "Residues of Complex Functions -- Complex Analysis 21",
+      "duration": 1846
+    },
+    {
+      "id": "MJ1h9uCEKiU",
+      "title": "The residue theorem -- Complex Analysis 22",
+      "duration": 2219
+    },
+    {
+      "id": "IbyDlBSUN0o",
+      "title": "Applying contour integration to real integrals -- Complex Analysis 23",
+      "duration": 2350
+    }
+  ]
+}

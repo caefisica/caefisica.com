@@ -70,8 +70,4 @@ solucionarios para algunos libros seleccionados.
 
 ## Listas de reproducción
 
-| Nombre                                   | Autor          | Enlace                                                                          |
-| ---------------------------------------- | -------------- | ------------------------------------------------------------------------------- |
-| `11` Computational Physics using Fortran | Mohan Giri     | [eng](https://www.youtube.com/playlist?list=PL7p7K-N4TmQsI7KgdyKyh19sXWTd8UC28) |
-| `58` Computational Physics               | NPTEL-NOC IITM | [eng](https://www.youtube.com/playlist?list=PLyqSpQzTE6M8Lg4pPC2KKutByiFCR9kV0) |
-| `32` Computational Physics MSc course    | Be_a_Physicist | [eng](https://www.youtube.com/playlist?list=PLJLcwUF3Yuc0kqgZTMXdWmAYeryJRk7lH) |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}

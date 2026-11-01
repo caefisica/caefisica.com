@@ -1,0 +1,165 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso de óptica y física moderna",
+  "channel": "Profe Isaias Rojas",
+  "description": "En esta lista, he dejado los videos de clase de la asignatura Física General IV que imparto en la Universidad técnica Federico Santa María (Valparaíso, Chile). La asignatura contempla temas de óptica y física moderna.",
+  "updated": "2026-05-27",
+  "lessons": [
+    {
+      "id": "svnVBEEAq_Y",
+      "title": "Ecuaciones de Maxwell: leyes de Gauss para E y B en forma integral",
+      "duration": 1304
+    },
+    {
+      "id": "LK_DE-fNMNY",
+      "title": "Ecuaciones de Maxwell: ley de Ampère en forma integral",
+      "duration": 2391
+    },
+    {
+      "id": "mTsG8qXpdaM",
+      "title": "Ecuaciones de Maxwell: ley de faraday-Lenz en forma integral",
+      "duration": 1586
+    },
+    {
+      "id": "DbbuQt3ypEc",
+      "title": "Clase demostrativa: Tubo de Lenz",
+      "duration": 1911
+    },
+    {
+      "id": "bXs8prLLYrM",
+      "title": "Ecuaciones de Maxwell en forma diferencial y modificación de Maxwell a la ley de Ampère",
+      "duration": 4036
+    },
+    {
+      "id": "0_VKzymx0Ik",
+      "title": "Oscilaciones",
+      "duration": 3230
+    },
+    {
+      "id": "5wU4EJH5oSM",
+      "title": "Ecuaciones diferenciales de onda",
+      "duration": 2782
+    },
+    {
+      "id": "ZQ3u4t6Cp9g",
+      "title": "Repaso de ondas mecánicas",
+      "duration": 4494
+    },
+    {
+      "id": "UZFHvOUokTo",
+      "title": "Ondas electromagnéticas",
+      "duration": 4465
+    },
+    {
+      "id": "G8shaOTdXGw",
+      "title": "Reflexión, refracción y polarización de ondas electromagnéticas",
+      "duration": 4140
+    },
+    {
+      "id": "1VNvo5r4NRk",
+      "title": "Polarización de ondas electromagnéticas y ley de Malus.",
+      "duration": 2592
+    },
+    {
+      "id": "MFFJm62-hKE",
+      "title": "Interferencia de ondas electromagnéticas",
+      "duration": 4677
+    },
+    {
+      "id": "c8nxP1GDMAY",
+      "title": "Difracción de ondas electromagnéticas",
+      "duration": 3185
+    },
+    {
+      "id": "q02ItsR1-ZQ",
+      "title": "Cinemática relativista (parte 1)",
+      "duration": 4393
+    },
+    {
+      "id": "8M1aXr3xDRc",
+      "title": "Cinemática relativista (parte 2)",
+      "duration": 4814
+    },
+    {
+      "id": "MWJbNgI2djs",
+      "title": "Dinámica relativista (parte 1)",
+      "duration": 4263
+    },
+    {
+      "id": "M-_F92inwY4",
+      "title": "Dinámica relativista (parte 2)",
+      "duration": 2444
+    },
+    {
+      "id": "17aSuGeVbDo",
+      "title": "Electrones y fotones (parte 1)",
+      "duration": 3899
+    },
+    {
+      "id": "2Puw5J8OoAA",
+      "title": "Electrones y fotones (parte 2)",
+      "duration": 3512
+    },
+    {
+      "id": "gWv1HEB2-tA",
+      "title": "Naturaleza ondulatoria de las partículas",
+      "duration": 3646
+    },
+    {
+      "id": "_5gHec9OQao",
+      "title": "Ecuación de Schrödinger: aplicaciones",
+      "duration": 4821
+    },
+    {
+      "id": "0KQdc325h8w",
+      "title": "Modelos atómicos de Rutherford y Bohr",
+      "duration": 4982
+    },
+    {
+      "id": "ddvEXV2_32A",
+      "title": "Modelo cuántico de átomo",
+      "duration": 4946
+    },
+    {
+      "id": "yPtXoockHUk",
+      "title": "Cuantización del momentum angular",
+      "duration": 5261
+    },
+    {
+      "id": "GTu7mfy2UAc",
+      "title": "El espín del electrón y átomos multielectrónicos",
+      "duration": 4902
+    },
+    {
+      "id": "-T3Jf5TREaM",
+      "title": "Enlaces moleculares",
+      "duration": 3641
+    },
+    {
+      "id": "qKGfWwIPFg8",
+      "title": "Fundamentos de mecánica estadística",
+      "duration": 5092
+    },
+    {
+      "id": "lJFNpc6R5GY",
+      "title": "Radiación de cuerpo negro",
+      "duration": 3838
+    },
+    {
+      "id": "_5R8HiVP3q4",
+      "title": "Física del sólido",
+      "duration": 4737
+    },
+    {
+      "id": "QdovHz2V1x4",
+      "title": "Dispositivos semiconductores",
+      "duration": 2914
+    },
+    {
+      "id": "RWD2wrIILRM",
+      "title": "Clase 30 - astrofísica",
+      "duration": 5434
+    }
+  ]
+}

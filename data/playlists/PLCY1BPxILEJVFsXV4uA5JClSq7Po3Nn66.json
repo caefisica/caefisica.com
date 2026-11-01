@@ -1,0 +1,25 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 10. Aplicaciones del álgebra lineal para solucionar sistemas de ecuaciones diferenciales",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-03-28",
+  "lessons": [
+    {
+      "id": "ENavVoZsJlk",
+      "title": "Solución de un sistema de ecuaciones lineales I Ejemplo 1",
+      "duration": 284
+    },
+    {
+      "id": "Ppygm6WDXd4",
+      "title": "Solución de un sistema de ecuaciones lineales I Ejemplo 2",
+      "duration": 920
+    },
+    {
+      "id": "jrJAS1t3-UM",
+      "title": "Solución de un sistema de ecuaciones lineales I Ejemplo 3",
+      "duration": 1164
+    }
+  ]
+}

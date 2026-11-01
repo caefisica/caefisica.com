@@ -1,0 +1,90 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Essence of linear algebra",
+  "channel": "3Blue1Brown",
+  "description": "A free course offering the core concept of linear algebra with a visuals-first approach.",
+  "updated": "2025-02-18",
+  "lessons": [
+    {
+      "id": "fNk_zzaMoSs",
+      "title": "Vectors | Chapter 1, Essence of linear algebra",
+      "duration": 592
+    },
+    {
+      "id": "k7RM-ot2NWY",
+      "title": "Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra",
+      "duration": 599
+    },
+    {
+      "id": "kYB8IZa5AuE",
+      "title": "Linear transformations and matrices | Chapter 3, Essence of linear algebra",
+      "duration": 659
+    },
+    {
+      "id": "XkY2DOUCWMU",
+      "title": "Matrix multiplication as composition | Chapter 4, Essence of linear algebra",
+      "duration": 604
+    },
+    {
+      "id": "rHLEWRxRGiM",
+      "title": "Three-dimensional linear transformations | Chapter 5, Essence of linear algebra",
+      "duration": 286
+    },
+    {
+      "id": "Ip3X9LOh2dk",
+      "title": "The determinant | Chapter 6, Essence of linear algebra",
+      "duration": 603
+    },
+    {
+      "id": "uQhTuRlWMxw",
+      "title": "Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra",
+      "duration": 729
+    },
+    {
+      "id": "v8VSDg_WQlA",
+      "title": "Nonsquare matrices as transformations between dimensions | Chapter 8, Essence of linear algebra",
+      "duration": 267
+    },
+    {
+      "id": "LyGKycYT2v0",
+      "title": "Dot products and duality | Chapter 9, Essence of linear algebra",
+      "duration": 852
+    },
+    {
+      "id": "eu6i7WJeinw",
+      "title": "Cross products | Chapter 10, Essence of linear algebra",
+      "duration": 534
+    },
+    {
+      "id": "BaM7OCEm3G0",
+      "title": "Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra",
+      "duration": 790
+    },
+    {
+      "id": "jBsC34PxzoM",
+      "title": "Cramer's rule, explained geometrically | Chapter 12, Essence of linear algebra",
+      "duration": 732
+    },
+    {
+      "id": "P2LTAUO1TdA",
+      "title": "Change of basis | Chapter 13, Essence of linear algebra",
+      "duration": 771
+    },
+    {
+      "id": "PFDu9oVAE-g",
+      "title": "Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra",
+      "duration": 1036
+    },
+    {
+      "id": "e50Bj7jn9IQ",
+      "title": "A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra",
+      "duration": 793
+    },
+    {
+      "id": "TgKwz5Ikpc8",
+      "title": "Abstract vector spaces | Chapter 16, Essence of linear algebra",
+      "duration": 1006
+    }
+  ]
+}

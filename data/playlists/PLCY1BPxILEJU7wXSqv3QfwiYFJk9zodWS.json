@@ -1,0 +1,435 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 7. Espacios Vectoriales I",
+  "channel": "1a con Berni",
+  "description": "Link para libros: http://1aconberni.blogspot.com/p/libros.html\n\nEsta lista de reproducción corresponde al curso de Álgebra lineal 7. Espacios Vectoriales I; fue realizado por el matemático Bernardo Acevedo Frías ex docente de la Universidad Nacional de Colombia Sede Manizales, laborando allí durante 36 años. \nEspero te haya servido el video para aumentar tu conocimiento. \n\n*** NO OLVIDES SUSCRIBIRTE A MI CANAL*** \n\nY SI TE GUSTÓ REGALAME UN LIKE! \n\nHasta pronto y muchas gracias ❤",
+  "updated": "2022-06-01",
+  "lessons": [
+    {
+      "id": "FX3othaR-Oo",
+      "title": "Espacios Vectoriales I Introducción",
+      "duration": 157
+    },
+    {
+      "id": "F3P1j9NXHpc",
+      "title": "Espacios Vectoriales I Definición",
+      "duration": 281
+    },
+    {
+      "id": "-VeqJt8DsEw",
+      "title": "Espacios Vectoriales I Propiedades",
+      "duration": 434
+    },
+    {
+      "id": "lvRfSlSjpVI",
+      "title": "Espacios vectoriales I Números reales",
+      "duration": 673
+    },
+    {
+      "id": "WtnMNnIjUUk",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 1",
+      "duration": 647
+    },
+    {
+      "id": "0qlAt98DVCs",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 2",
+      "duration": 580
+    },
+    {
+      "id": "gxiaVvtfGsw",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 3",
+      "duration": 283
+    },
+    {
+      "id": "E9qdSDOBKLg",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 4",
+      "duration": 335
+    },
+    {
+      "id": "HwgP17-ndFI",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 5",
+      "duration": 415
+    },
+    {
+      "id": "DT_T5trB32Q",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 6",
+      "duration": 455
+    },
+    {
+      "id": "04ILVbqLvic",
+      "title": "Conjunto que es un espacio vectorial I Ejemplo",
+      "duration": 594
+    },
+    {
+      "id": "P0KDC1sr_SI",
+      "title": "Conjunto que es un espacio vectorial Ejemplo 1",
+      "duration": 563
+    },
+    {
+      "id": "Oz5u1ulAk4U",
+      "title": "El plano R2, El espacio R3 y Matrices I Conjuntos",
+      "duration": 510
+    },
+    {
+      "id": "fLCCjjZI2F8",
+      "title": "Conjunto que es un espacio vectorial Ejemplo 2",
+      "duration": 1104
+    },
+    {
+      "id": "-4RpsaZJ3DM",
+      "title": "Conjunto que es un espacio vectorial Ejemplo 3",
+      "duration": 1127
+    },
+    {
+      "id": "2VpR5PaTlPE",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 7",
+      "duration": 267
+    },
+    {
+      "id": "JrkZyqiFwcg",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 8",
+      "duration": 374
+    },
+    {
+      "id": "ULLXv8EMKAA",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 9",
+      "duration": 497
+    },
+    {
+      "id": "YlnUp2GfROA",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 10",
+      "duration": 272
+    },
+    {
+      "id": "vXOEi4kO9zE",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 11",
+      "duration": 305
+    },
+    {
+      "id": "xaTC1gDF6wQ",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 12",
+      "duration": 991
+    },
+    {
+      "id": "EHxuuishJ6E",
+      "title": "Conjunto que es un espacio vectorial de las matrices I Ejemplo 4",
+      "duration": 898
+    },
+    {
+      "id": "u1xjhiyarSY",
+      "title": "Conjunto Matrices I Espacio Vectorial",
+      "duration": 868
+    },
+    {
+      "id": "FGt5lURpLms",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 13",
+      "duration": 495
+    },
+    {
+      "id": "PK_eGqKV4EM",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 14",
+      "duration": 168
+    },
+    {
+      "id": "IKLUbEtvMBU",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 15",
+      "duration": 354
+    },
+    {
+      "id": "vm2rOyVJA8M",
+      "title": "Ejemplos de espacios vectoriales",
+      "duration": 229
+    },
+    {
+      "id": "Gm-o64PjJjc",
+      "title": "Polinomios de grado menor o igual a 1 I Espacio vectorial",
+      "duration": 842
+    },
+    {
+      "id": "QkcdxX43aL8",
+      "title": "Conjunto que no es un espacio vectorial I Ejemplo 16",
+      "duration": 372
+    },
+    {
+      "id": "bbAwHg7pnws",
+      "title": "Polinomios de grado menor o igual a n I Espacio Vectorial",
+      "duration": 304
+    },
+    {
+      "id": "UZPaWq2h0to",
+      "title": "Funciones I Espacio Vectorial",
+      "duration": 662
+    },
+    {
+      "id": "gXZSDqQJejs",
+      "title": "Espacios vectoriales generales",
+      "duration": 295
+    },
+    {
+      "id": "PYjghaxm6UY",
+      "title": "Subespacio de un espacio vectorial I Definición",
+      "duration": 242
+    },
+    {
+      "id": "gMGqZeT8FNA",
+      "title": "El conjunto de los números naturales no es un subespacio",
+      "duration": 379
+    },
+    {
+      "id": "hwj1c7irQx4",
+      "title": "El conjunto de los números enteros no es un espacio vectorial",
+      "duration": 128
+    },
+    {
+      "id": "hzjX4boV7Pc",
+      "title": "El conjunto de los números racionales no es un subespacio",
+      "duration": 151
+    },
+    {
+      "id": "c0rvRTZ_1mM",
+      "title": "El conjunto de los números irracionales no es un espacio vectorial",
+      "duration": 174
+    },
+    {
+      "id": "TzKaG6CQI7E",
+      "title": "El conjunto de los números primos no es un espacio vectorial",
+      "duration": 158
+    },
+    {
+      "id": "XL9CPBQzpxw",
+      "title": "El conjunto de los números pares no es un espacio vectorial",
+      "duration": 153
+    },
+    {
+      "id": "F5f9IK7zUso",
+      "title": "El conjunto de los números impares no es un espacio vectorial",
+      "duration": 204
+    },
+    {
+      "id": "wnUpqmUHBZg",
+      "title": "El conjunto de los reales positivos no es un subespacio",
+      "duration": 167
+    },
+    {
+      "id": "H2z-ylTj_vM",
+      "title": "Conjunto del plano que es un subespacio I Ejemplo 1",
+      "duration": 231
+    },
+    {
+      "id": "ajWusXgKCAU",
+      "title": "Conjunto del plano que no es un subespacio I Ejemplo 1",
+      "duration": 200
+    },
+    {
+      "id": "YPyNjDpujlo",
+      "title": "Conjunto del plano que no es un subespacio I Ejemplo 2",
+      "duration": 192
+    },
+    {
+      "id": "rvzIW10yeWI",
+      "title": "Conjunto del plano que no es un subespacio I Ejemplo 3",
+      "duration": 198
+    },
+    {
+      "id": "Q9d003CPjXs",
+      "title": "Conjunto del plano que no es un subespacio I Ejemplo 4",
+      "duration": 214
+    },
+    {
+      "id": "Z3Vt22S-LjU",
+      "title": "Conjunto del plano que no es un subespacio I Ejemplo 5",
+      "duration": 146
+    },
+    {
+      "id": "ZbaRHkMPwTY",
+      "title": "Conjunto del plano que es un subespacio I Ejemplo 2",
+      "duration": 199
+    },
+    {
+      "id": "ZtlTBK2TlZs",
+      "title": "Conjunto del plano que no es un subespacio I Ejemplo 6",
+      "duration": 204
+    },
+    {
+      "id": "02xXAIxQnsg",
+      "title": "Conjunto del plano que no es un subespacio I Ejemplo 7",
+      "duration": 230
+    },
+    {
+      "id": "mffnY3tqUHY",
+      "title": "Conjunto del plano que es un subespacio I Ejemplo 3",
+      "duration": 157
+    },
+    {
+      "id": "fluI8w57OKU",
+      "title": "Conjunto del espacio que es un subespacio I Ejemplo 1",
+      "duration": 294
+    },
+    {
+      "id": "LyicddfsJUA",
+      "title": "Subespacios triviales",
+      "duration": 160
+    },
+    {
+      "id": "bM-_gs3bgAI",
+      "title": "Conjunto del espacio que es un subespacio I Ejemplo 2",
+      "duration": 286
+    },
+    {
+      "id": "A4G96ZwcgFM",
+      "title": "El plano x,y como subespacio",
+      "duration": 227
+    },
+    {
+      "id": "SHj1Yhh7goM",
+      "title": "Conjunto del espacio que no es un subespacio I Ejemplo 1",
+      "duration": 235
+    },
+    {
+      "id": "y58-K9taUHE",
+      "title": "Conjunto del espacio que no es un subespacio I Ejemplo 2",
+      "duration": 249
+    },
+    {
+      "id": "yPKPd_Oyhjk",
+      "title": "Conjunto del espacio que no es un subespacio I Ejemplo 3",
+      "duration": 202
+    },
+    {
+      "id": "63e0ReibUSE",
+      "title": "Conjunto del espacio que es un subespacio I Ejemplo 3",
+      "duration": 197
+    },
+    {
+      "id": "S8DJ3F9JUzI",
+      "title": "Conjunto del n espacio que es un subespacio",
+      "duration": 184
+    },
+    {
+      "id": "sfpxur_BVuI",
+      "title": "Conjunto de matrices que no es un subespacio",
+      "duration": 184
+    },
+    {
+      "id": "6gnmu1Xkc2c",
+      "title": "Subespacio de matrices con traza=0",
+      "duration": 475
+    },
+    {
+      "id": "Z9J1h1pIuhs",
+      "title": "El conjunto de las matrices involutivas no es un subespacio",
+      "duration": 225
+    },
+    {
+      "id": "7tBy0Lq5C7o",
+      "title": "Conjunto de matrices que es un subespacio I Ejemplo 1",
+      "duration": 228
+    },
+    {
+      "id": "7hHqHH_xhFs",
+      "title": "Conjunto de matrices que es un subespacio I Ejemplo 2",
+      "duration": 287
+    },
+    {
+      "id": "poU_d2bqFeY",
+      "title": "El subespacio de las matrices diagonales",
+      "duration": 283
+    },
+    {
+      "id": "uRXE8V72UqQ",
+      "title": "El subespacio de las matrices triangulares",
+      "duration": 535
+    },
+    {
+      "id": "QLgXxIKG0II",
+      "title": "El subespacio de las matrices simétricas",
+      "duration": 153
+    },
+    {
+      "id": "JLMUL2txrKI",
+      "title": "El subespacio de las matrices antisimétricas",
+      "duration": 176
+    },
+    {
+      "id": "5fm5hM9zqzA",
+      "title": "Conjunto de las funciones que es un subespacio I Ejemplo 1",
+      "duration": 210
+    },
+    {
+      "id": "dXn7x91aKgU",
+      "title": "Conjunto de las funciones que es un subespacio I Ejemplo 2",
+      "duration": 188
+    },
+    {
+      "id": "d0yIR1sRyIU",
+      "title": "Conjunto de las funciones que es un subespacio I Ejemplo 3",
+      "duration": 188
+    },
+    {
+      "id": "AsbG1ej4vNw",
+      "title": "Conjunto de las funciones que no es un subespacio I Ejemplo 1",
+      "duration": 186
+    },
+    {
+      "id": "vhjMFuuAlGc",
+      "title": "El subespacio de las funciones pares",
+      "duration": 205
+    },
+    {
+      "id": "HHYYNBJ-0XE",
+      "title": "El subespacio de las funciones impares",
+      "duration": 253
+    },
+    {
+      "id": "31tbVRZIVnM",
+      "title": "El subespacio de las soluciones de una ecuación diferencial",
+      "duration": 236
+    },
+    {
+      "id": "ytBuL5xAiFs",
+      "title": "El subespacio de las funciones derivables",
+      "duration": 145
+    },
+    {
+      "id": "hGcRYn-ctF0",
+      "title": "El subespacio de las funciones continuas y derivables",
+      "duration": 250
+    },
+    {
+      "id": "8SfeCnVqiRc",
+      "title": "Conjunto de las funciones que es un subespacio I Ejemplo 4",
+      "duration": 177
+    },
+    {
+      "id": "T0ekbq4LYGY",
+      "title": "Conjunto de las funciones que no es un subespacio I Ejemplo 2",
+      "duration": 152
+    },
+    {
+      "id": "1LXE1a1Uui4",
+      "title": "El subespacio de las funciones escalonadas y racionales",
+      "duration": 246
+    },
+    {
+      "id": "1HgeY7ZxMy4",
+      "title": "Las funciones irracionales no son un subespacio",
+      "duration": 204
+    },
+    {
+      "id": "Zmv2e1Cj-I0",
+      "title": "Conjunto de funciones que no es subespacio I Ejemplo 3",
+      "duration": 191
+    },
+    {
+      "id": "XIvv1xxAMpQ",
+      "title": "Conjunto de funciones que es un subespacio I Ejemplo 5",
+      "duration": 197
+    },
+    {
+      "id": "6yHj1V-R_Hk",
+      "title": "El subespacio de soluciones de AX=0",
+      "duration": 495
+    }
+  ]
+}

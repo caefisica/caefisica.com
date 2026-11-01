@@ -107,7 +107,4 @@ poco contenido teórico.
 
 ### Listas de reproducción
 
-| Nombre                                 | Autor                    | Enlace                                                                          |
-| -------------------------------------- | ------------------------ | ------------------------------------------------------------------------------- |
-| `86` Carga Eléctrica y Campo Eléctrico | Cesar A. Izquierdo Merlo | [spa](https://www.youtube.com/playlist?list=PLgeh_RfSoZhK6FbqP33mXtI7gV2zvhGne) |
-| `32` Curso Electricidad y Magnetismo   | Diego Gallego Mahecha    | [spa](https://www.youtube.com/playlist?list=PLDUN2fhgBC195McyOxzy7bN3DyWF4iZo1) |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}

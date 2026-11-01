@@ -1,0 +1,300 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Computational Physics",
+  "channel": "NPTEL-NOC IITM",
+  "description": "",
+  "updated": "2026-02-01",
+  "lessons": [
+    {
+      "id": "axnFylcoP5Y",
+      "title": "Numerical Integration Part 05",
+      "duration": 730
+    },
+    {
+      "id": "y4HUEnyNAEI",
+      "title": "Numerical Integration Part 02",
+      "duration": 1806
+    },
+    {
+      "id": "zdD_RKuDc_o",
+      "title": "Introduction to Fortran - Part 5",
+      "duration": 2195
+    },
+    {
+      "id": "OYXlvxqnCtM",
+      "title": "Numerical Integration Part 04",
+      "duration": 2378
+    },
+    {
+      "id": "W199JV7HyN4",
+      "title": "Numerical Integration Part 03",
+      "duration": 1522
+    },
+    {
+      "id": "UXTWnUjkVhc",
+      "title": "Numerical Integration Part 01",
+      "duration": 1301
+    },
+    {
+      "id": "zaLJFdn4P7I",
+      "title": "Introduction to Fortran - Part 2",
+      "duration": 1149
+    },
+    {
+      "id": "Nuz9UR53B84",
+      "title": "Introduction to Fortran - Part 1",
+      "duration": 1977
+    },
+    {
+      "id": "qPLc0NphbNQ",
+      "title": "Introduction to Fortran - Part 4",
+      "duration": 1707
+    },
+    {
+      "id": "CVltjsGIPh4",
+      "title": "Introduction to Fortran - Part 3",
+      "duration": 1466
+    },
+    {
+      "id": "Dj1Yj1Hhie0",
+      "title": "Numerical Integration Part 10",
+      "duration": 1932
+    },
+    {
+      "id": "DcvujIGQtJI",
+      "title": "Numerical Integration Part 09",
+      "duration": 1111
+    },
+    {
+      "id": "1JQ0BF4MwOs",
+      "title": "Numerical Integration Part 08",
+      "duration": 1722
+    },
+    {
+      "id": "Qwq3mEaDJHI",
+      "title": "Numerical Integration Part 06",
+      "duration": 1644
+    },
+    {
+      "id": "_yt8TWnhvPc",
+      "title": "Numerical Integration Part 07",
+      "duration": 1795
+    },
+    {
+      "id": "4Fs4JRI2CxQ",
+      "title": "Testing the simulation and relaxation to equilibrium, finte size effects",
+      "duration": 1862
+    },
+    {
+      "id": "TaYFexlby-0",
+      "title": "Periodic Boundary conditions and the Metropolis scheme",
+      "duration": 2231
+    },
+    {
+      "id": "klk-ISU1kTE",
+      "title": "Implementing the Ising model on computer",
+      "duration": 1986
+    },
+    {
+      "id": "rdB38L5LU9w",
+      "title": "Monte Carlo Simulation Introduction - Part 02",
+      "duration": 1791
+    },
+    {
+      "id": "JHmHQ8lfBac",
+      "title": "Monte Carlo Simulation Introduction - Part 01",
+      "duration": 2026
+    },
+    {
+      "id": "2rNx5e2i9q4",
+      "title": "Calculating T_c using Binders cumulant; Principle of detailed balance.",
+      "duration": 1485
+    },
+    {
+      "id": "NUS-cyDCehA",
+      "title": "MONTE CARLO SIMULATION ANALYSIS - PART 02",
+      "duration": 1926
+    },
+    {
+      "id": "ZSZEq0hbeqY",
+      "title": "MONTE CARLO SIMULATION ANALYSIS : THERMODYNAMIC QUANTITIES - PART 02",
+      "duration": 767
+    },
+    {
+      "id": "14lwXBjIrgg",
+      "title": "MONTE CARLO SIMULATION ANALYSIS : THERMODYNAMIC QUANTITIES - PART 01",
+      "duration": 1559
+    },
+    {
+      "id": "p1XFczHimNw",
+      "title": "MONTE CARLO SIMULATION ANALYSIS - PART 01",
+      "duration": 1764
+    },
+    {
+      "id": "sO3DtTl8Ysc",
+      "title": "COUPLED DIFFERENTIAL EQN. VISUALISATION & MAKING MOVIE",
+      "duration": 2666
+    },
+    {
+      "id": "R3f3CnX1OpY",
+      "title": "DIFF. COUPLED EQUATION NON LINEAR EQUATION PART 02",
+      "duration": 2160
+    },
+    {
+      "id": "iVAIJrmvFXU",
+      "title": "DIFF. COUPLED EQUATION NON LINEAR EQUATION PART 01",
+      "duration": 1658
+    },
+    {
+      "id": "DL6ApzLE5CU",
+      "title": "DIFFERENTIAL EQNS. EULER AND RUNGE KUTTA PART 02",
+      "duration": 1592
+    },
+    {
+      "id": "6A44kxVrnIU",
+      "title": "DIFFERENTIAL EQNS. EULER AND RUNGE KUTTA PART 01",
+      "duration": 1958
+    },
+    {
+      "id": "BVCTwqjYadc",
+      "title": "DIFFERENTIAL EQUATIONS WITH SPECIFIED BOUNDARY CONDITIONS PART 01",
+      "duration": 1879
+    },
+    {
+      "id": "KB3uDotJz9A",
+      "title": "DIFFERENTIAL EQUATIONS WITH SPECIFIED BOUNDARY CONDITIONS PART 02",
+      "duration": 1597
+    },
+    {
+      "id": "UKEu2hxQHM4",
+      "title": "Partial Differential equations 03",
+      "duration": 2721
+    },
+    {
+      "id": "4Pmgp0qcyWI",
+      "title": "Partial Differential equations 02",
+      "duration": 1832
+    },
+    {
+      "id": "Nonfmx0-LQQ",
+      "title": "Partial Differential equations 01",
+      "duration": 2037
+    },
+    {
+      "id": "wBDGpAWsXoA",
+      "title": "Differential Equation for Quantum Mechanical Problems: Numerov Algorithm 05",
+      "duration": 999
+    },
+    {
+      "id": "BIzu1HweMvM",
+      "title": "Differential Equation for Quantum Mechanical Problems: Numerov Algorithm 02",
+      "duration": 1470
+    },
+    {
+      "id": "QnUe9UwLV6I",
+      "title": "Differential Equation for Quantum Mechanical Problems: Numerov Algorithm 01",
+      "duration": 1370
+    },
+    {
+      "id": "KJSljMmeKxI",
+      "title": "Differential Equation for Quantum Mechanical Problems: Numerov Algorithm 03",
+      "duration": 1682
+    },
+    {
+      "id": "KgkPqVXN5vQ",
+      "title": "Differential Equation for Quantum Mechanical Problems: Numerov Algorithm 04",
+      "duration": 1942
+    },
+    {
+      "id": "RZBIoWMOx70",
+      "title": "mod10lec45-Differential Equation for Quantum Mechanical Problems: Variational principle 05",
+      "duration": 1365
+    },
+    {
+      "id": "P6T9LEfHkAA",
+      "title": "mod10lec44-Differential Equation for Quantum Mechanical Problems: Variational principle 04",
+      "duration": 1700
+    },
+    {
+      "id": "nOKxDv6AXs0",
+      "title": "mod10lec43-Differential Equation for Quantum Mechanical Problems: Variational principle 03",
+      "duration": 1208
+    },
+    {
+      "id": "MiZQ0121M04",
+      "title": "mod10lec42-Differential Equation for Quantum Mechanical Problems: Variational principle 02",
+      "duration": 1128
+    },
+    {
+      "id": "eOb3HjxF1g8",
+      "title": "mod10lec41-Differential Equation for Quantum Mechanical Problems: Variational principle 01",
+      "duration": 1974
+    },
+    {
+      "id": "YzdicZtSHrs",
+      "title": "mod11lec52-MOLECULAR DYNAMICS ANALYSIS - PART 02",
+      "duration": 2045
+    },
+    {
+      "id": "ynryM1n5tIk",
+      "title": "mod11lec51-MOLECULAR DYNAMICS ANALYSIS - PART 01",
+      "duration": 1761
+    },
+    {
+      "id": "y_Dxd-54S5w",
+      "title": "mod11lec50-MOLECULAR DYNAMICS DETAILS AND ALGORITHM PART 03",
+      "duration": 1321
+    },
+    {
+      "id": "nX8eqloYiss",
+      "title": "mod11lec48-MOLECULAR DYNAMICS DETAILS AND ALGORITHM PART 01",
+      "duration": 1907
+    },
+    {
+      "id": "Lw18_BK_drk",
+      "title": "mod11lec46-MOLECULAR DYNAMICS INTRODUCTION - PART 01",
+      "duration": 2348
+    },
+    {
+      "id": "HI_k6Bm5xug",
+      "title": "mod11lec49-MOLECULAR DYNAMICS DETAILS AND ALGORITHM PART 02",
+      "duration": 1883
+    },
+    {
+      "id": "HvB5zcRfw-4",
+      "title": "mod11lec47-MOLECULAR DYNAMICS INTRODUCTION - PART 02",
+      "duration": 1516
+    },
+    {
+      "id": "hwrXf5HDwaQ",
+      "title": "mod12lec58-MOLECULAR DYNAMICS DIFFUSION CONSTANT CALCULATION PART 03",
+      "duration": 1352
+    },
+    {
+      "id": "k-vzqUBYF8k",
+      "title": "mod12lec56-MOLECULAR DYNAMICS DIFFUSION CONSTANT CALCULATION PART 01",
+      "duration": 1458
+    },
+    {
+      "id": "MKMVmaK73EM",
+      "title": "mod12lec55-MOLECULAR DYNAMICS : CALCULATION OF THEMODYNAMICS QUANTITIES",
+      "duration": 2588
+    },
+    {
+      "id": "FjMcYQUNW2s",
+      "title": "mod12lec54-MOLECULAR DYNAMICS NEIGHBOURS LISTS - PART 02",
+      "duration": 1585
+    },
+    {
+      "id": "nNVXq0oMc4E",
+      "title": "mod12lec53-MOLECULAR DYNAMICS NEIGHBOURS LISTS - PART 01",
+      "duration": 1818
+    },
+    {
+      "id": "m8CU3TizEyk",
+      "title": "mod12lec57-MOLECULAR DYNAMICS DIFFUSION CONSTANT CALCULATION PART 02",
+      "duration": 1523
+    }
+  ]
+}

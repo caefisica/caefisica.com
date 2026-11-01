@@ -78,23 +78,7 @@ Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 
 ## Listas de reproducción
 
-| Nombre                                                             | Autor                          | Enlace                                                                              | Idioma  |
-| ------------------------------------------------------------------ | ------------------------------ | ----------------------------------------------------------------------------------- | ------- |
-| Integrales de variable compleja                                    | MateFacil                      | [Youtube](https://www.youtube.com/playlist?list=PL9SnRnlzoyX1bzVYbTPjgc79cxHw1F9g0) | Español |
-| Variable compleja 1, Introducción                                  | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJWWD2m3tyUIaxdgQWq1ijrE) | Español |
-| Variable compleja 2. Forma polar, raices, y conjuntos en complejos | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJWBUZHdOs0xxE4Mv9x6suCB) | Español |
-| Variable compleja 3. Funciones                                     | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJXjB7dDe72neh1_g6-ijbTq) | Español |
-| Variable compleja 4. Límites de funciones                          | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJVfjM-V2J_IwlzDCzlOY0Qo) | Español |
-| Variable compleja 5. Derivadas de funciones complejas              | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJXtBGzSgccal6Uvm38GKKqM) | Español |
-| Variable compleja 6. Integración en funciones complejas            | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJXhIKeD_Hy5ez9umQl4ep6T) | Español |
-| Variable compleja 7. Series y sucesiones                           | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJV-5EGHDuWMuxZ58MQJY8Jx) | Español |
-| Variable compleja 8. Series de potencia                            | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJW1DPJo-BuAmcTER2UuLAdn) | Español |
-| Variable compleja 9. Serie de Laurent                              | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJXxmpzbUnu_9Jl83mN3YhND) | Español |
-| Variable Compleja 10. Teorema de residuo para integrales complejas | 1a Con Berni                   | [Youtube](https://www.youtube.com/playlist?list=PLCY1BPxILEJUuNy_OrVJzBEErbh21ZKjU) | Español |
-| Curso Variable Compleja 1                                          | Ciencias TV                    | [Youtube](https://www.youtube.com/playlist?list=PLiD-IJzweXR866cm6CJdhhJuCAeSKGGmN) | Español |
-| Complex Analysis                                                   | MathMajor                      | [Youtube](https://www.youtube.com/playlist?list=PLVMgvCDIRy1wzJcFNGw7t4tehgzhFtBpm) | Inglés  |
-| Complex Analysis                                                   | The Bright Side of Mathematics | [Youtube](https://www.youtube.com/playlist?list=PLBh2i93oe2qtIc75sLYaVEBt0QNqVbdmZ) | Inglés  |
-| Complex Analysis Differentiation & Integration                     | Dr.Gajendra Purohit            | [Youtube](https://www.youtube.com/playlist?list=PLU6SqdYcYsfI3sh-ho_iiTkCGsTbVh_Sw) | Inglés  |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}
 
 ## Páginas web
 

@@ -1,0 +1,65 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Computational Physics Using Fortran",
+  "channel": "by Mohan Giri",
+  "description": "These are the series of tutorial video regarding computational physics according to syllabus of tribhuwan university for master's level of physics. I am glad to have  Narayan Prasad Adhikari and Gopi Chandra kaphle as my professors. These series are completely based on their lectures. Being not a professional, i ask apologize for the point at which you find error during your watching. And yes, I am sorry for my accent and knowledge of English.",
+  "updated": "2019-01-18",
+  "lessons": [
+    {
+      "id": "f1Vn6x1-6rI",
+      "title": "Solution of differential equation using Euler method in fortran",
+      "duration": 1543
+    },
+    {
+      "id": "R_GF0jJ4s60",
+      "title": "Root of the equation using bisection method in fortran 90",
+      "duration": 1317
+    },
+    {
+      "id": "33OE_UrEPlk",
+      "title": "Newton Raphson Method to find the root of equation using Fortran 90",
+      "duration": 1408
+    },
+    {
+      "id": "P_ifOJu6Hp4",
+      "title": "simspon's 1/3 rule in fortran (From Central Department of physics, Nepal)",
+      "duration": 1781
+    },
+    {
+      "id": "oIdcpEZgnuo",
+      "title": "Solution of differential equation using Runge kutta 2nd order method",
+      "duration": 676
+    },
+    {
+      "id": "B96pI3oDkNw",
+      "title": "Solution of differential equation using Runge Kutta Fourth order",
+      "duration": 571
+    },
+    {
+      "id": "ud3RQymhk0g",
+      "title": "Integration of any Function using Trapezoidal rule in fortran",
+      "duration": 1554
+    },
+    {
+      "id": "Yv0ZDn4v0DA",
+      "title": "Monte Carlo integration using Fortran",
+      "duration": 2310
+    },
+    {
+      "id": "lwCeDo5pi7U",
+      "title": "monte-carlo two dimensional integration in fortran",
+      "duration": 1125
+    },
+    {
+      "id": "fOcMlaeRMkY",
+      "title": "Estimating Value of pi using Monte-carlo method in Fortran",
+      "duration": 1392
+    },
+    {
+      "id": "s_8qyjTszIE",
+      "title": "lagrange interpolation in Fortran",
+      "duration": 1886
+    }
+  ]
+}

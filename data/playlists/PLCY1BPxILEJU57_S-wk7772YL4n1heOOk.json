@@ -1,0 +1,360 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 3. Sistemas de ecuaciones lineales",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-07-10",
+  "lessons": [
+    {
+      "id": "-BiOGSynZDc",
+      "title": "Sistema de ecuaciones lineales | Definición",
+      "duration": 487
+    },
+    {
+      "id": "SZLhxDTH_N4",
+      "title": "Sistema de ecuaciones lineales | Forma matricial",
+      "duration": 610
+    },
+    {
+      "id": "ADwStlzqPT0",
+      "title": "Solución de un sistema de ecuaciones lineales",
+      "duration": 611
+    },
+    {
+      "id": "mgL_bUwvlOE",
+      "title": "Tipos de sistemas de ecuaciones lineales",
+      "duration": 340
+    },
+    {
+      "id": "ChqjYsxfZ9o",
+      "title": "Matriz ampliada y sistemas de ecuaciones equivalentes",
+      "duration": 783
+    },
+    {
+      "id": "iPMo-P65tUE",
+      "title": "Métodos para solucionar un sistema de ecuaciones lineales",
+      "duration": 401
+    },
+    {
+      "id": "aPBM6h9BDew",
+      "title": "Sistema de ecuaciones lineales | Método de eliminación",
+      "duration": 409
+    },
+    {
+      "id": "uGC9NwiSq8w",
+      "title": "Sistema de ecuaciones lineales | Método de eliminación",
+      "duration": 171
+    },
+    {
+      "id": "FbyG9-ImfDU",
+      "title": "Sistema de ecuaciones lineales | Método de eliminación",
+      "duration": 549
+    },
+    {
+      "id": "hIt6WBDxGMk",
+      "title": "Sistema de ecuaciones lineales | Método de eliminación",
+      "duration": 656
+    },
+    {
+      "id": "qMP3NpsnO_U",
+      "title": "Sistema de ecuaciones lineales | Método de eliminación",
+      "duration": 570
+    },
+    {
+      "id": "3AhB1q_GdTo",
+      "title": "Sistema de ecuaciones lineales | Solución gráfica y analítica",
+      "duration": 834
+    },
+    {
+      "id": "T0V3AvZDMKA",
+      "title": "Sistema de ecuaciones lineales | Solución gráfica",
+      "duration": 553
+    },
+    {
+      "id": "9oZsz8VW5Mo",
+      "title": "Sistema de ecuaciones lineales | Teoremas básicos",
+      "duration": 229
+    },
+    {
+      "id": "CzseibqyV20",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 1",
+      "duration": 288
+    },
+    {
+      "id": "L34FkNwnawI",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 2",
+      "duration": 514
+    },
+    {
+      "id": "a_Qb7CoekHI",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 3",
+      "duration": 427
+    },
+    {
+      "id": "B4gqkpdFCXU",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 4",
+      "duration": 326
+    },
+    {
+      "id": "SejnzU-553I",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 5",
+      "duration": 455
+    },
+    {
+      "id": "qPZpla2Y3YM",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 6",
+      "duration": 666
+    },
+    {
+      "id": "6UYqKGER-Wo",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 7",
+      "duration": 759
+    },
+    {
+      "id": "mLacYgV-VTo",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss 8",
+      "duration": 771
+    },
+    {
+      "id": "dUBHckKM0Go",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss Jordan 1",
+      "duration": 312
+    },
+    {
+      "id": "EUHVdov5Cbk",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss Jordan 2",
+      "duration": 340
+    },
+    {
+      "id": "pM7nY1pTdGM",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss Jordan 3",
+      "duration": 421
+    },
+    {
+      "id": "XlTBEGhDrV0",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss Jordan 4",
+      "duration": 295
+    },
+    {
+      "id": "cVGO7nBN5bs",
+      "title": "Sistema de ecuaciones lineales | Método de Gauss Jordan 5",
+      "duration": 901
+    },
+    {
+      "id": "v_4QmlFFpIM",
+      "title": "Sistema de ecuaciones lineales | Regla de Cramer 1",
+      "duration": 890
+    },
+    {
+      "id": "WtM6z7p0fi0",
+      "title": "Sistema de ecuaciones lineales | Regla de Cramer 2",
+      "duration": 463
+    },
+    {
+      "id": "glRkO3EUF7M",
+      "title": "Sistema de ecuaciones lineales | Regla de Cramer 3",
+      "duration": 263
+    },
+    {
+      "id": "Ia2cV97JIbc",
+      "title": "Sistema de ecuaciones lineales | Regla de Cramer 4",
+      "duration": 269
+    },
+    {
+      "id": "oh3LSN9HViU",
+      "title": "Sistema de ecuaciones lineales | Regla de Cramer 5",
+      "duration": 465
+    },
+    {
+      "id": "B339vYPKJXU",
+      "title": "Sistema de ecuaciones lineales | Regla de Cramer 6",
+      "duration": 540
+    },
+    {
+      "id": "AmTFgeOisjo",
+      "title": "Sistemas de ecuaciones lineales | Regla de Cramer 7",
+      "duration": 505
+    },
+    {
+      "id": "2qBTqZo4Q2E",
+      "title": "Sistema de ecuaciones lineales | Método de la inversa 1",
+      "duration": 617
+    },
+    {
+      "id": "EvkAurivSmU",
+      "title": "Sistema de ecuaciones lineales | Método de la inversa 2",
+      "duration": 607
+    },
+    {
+      "id": "ij4Z6x_rsaQ",
+      "title": "Sistema de ecuaciones lineales | Método de la inversa 3",
+      "duration": 413
+    },
+    {
+      "id": "Z4rVoTya-cM",
+      "title": "Sistemas de ecuaciones lineales | Método de la inversa 4",
+      "duration": 522
+    },
+    {
+      "id": "8WGDZDh0_X8",
+      "title": "Sistema de ecuaciones lineales | Método de la inversa 5",
+      "duration": 481
+    },
+    {
+      "id": "jAXmVQKR2BM",
+      "title": "Sistema de ecuaciones lineales | Método de la inversa 6",
+      "duration": 911
+    },
+    {
+      "id": "96G_VoQPK-0",
+      "title": "Formas de solucionar un sistema de ecuaciones lineales 1",
+      "duration": 772
+    },
+    {
+      "id": "UEC7X4dI_tA",
+      "title": "Formas de solucionar un sistema de ecuaciones lineales 2",
+      "duration": 877
+    },
+    {
+      "id": "W_cO57XezOA",
+      "title": "Formas de solucionar un sistema de ecuaciones lineales 3",
+      "duration": 844
+    },
+    {
+      "id": "WwWIKumI5Yg",
+      "title": "Formas de solucionar un sistema de ecuaciones lineales 4",
+      "duration": 695
+    },
+    {
+      "id": "JEQjdbHQRs0",
+      "title": "Formas de solucionar un sistema de ecuaciones lineales 5",
+      "duration": 952
+    },
+    {
+      "id": "SgtlKRUrpKQ",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones I Ejercicio 1",
+      "duration": 800
+    },
+    {
+      "id": "ROh1uhbbvno",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones | Ejercicio 2",
+      "duration": 277
+    },
+    {
+      "id": "Ftm2wtfj7DM",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones | Ejercicio 3",
+      "duration": 851
+    },
+    {
+      "id": "0dbXxPwq5lA",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones | Ejercicio 4",
+      "duration": 730
+    },
+    {
+      "id": "TZs18F7M_GI",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones | Ejercicio 5",
+      "duration": 296
+    },
+    {
+      "id": "V4cE9AQXRiY",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones | Ejercicio 6",
+      "duration": 323
+    },
+    {
+      "id": "DE1tGuea9Cs",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones | Ejercicio 7",
+      "duration": 537
+    },
+    {
+      "id": "fD3ZIXFRyrk",
+      "title": "Sistema de ecuaciones lineales con infinitas soluciones | Ejercicio 8",
+      "duration": 530
+    },
+    {
+      "id": "bS1pvWeerOY",
+      "title": "Sistema de ecuaciones lineales que no tienen solución | Ejercicio 1",
+      "duration": 299
+    },
+    {
+      "id": "24ovYutLmfc",
+      "title": "Sistema de ecuaciones lineales que no tienen solución | Ejercicio 2",
+      "duration": 273
+    },
+    {
+      "id": "76z2Xi89x4c",
+      "title": "Sistemas de ecuaciones lineales que no tienen solución | Ejercicio 3",
+      "duration": 637
+    },
+    {
+      "id": "0gQDfcvg2Uk",
+      "title": "Sistema de ecuaciones lineales que no tienen solución | Ejercicio 4",
+      "duration": 260
+    },
+    {
+      "id": "_2bVfM3lPT0",
+      "title": "Sistema de ecuaciones lineales que no tienen solución | Ejercicio 5",
+      "duration": 731
+    },
+    {
+      "id": "3x8QZMHnF-s",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 1",
+      "duration": 306
+    },
+    {
+      "id": "308r_OlAaS4",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 2",
+      "duration": 269
+    },
+    {
+      "id": "BINB0hfvpgk",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 3",
+      "duration": 237
+    },
+    {
+      "id": "8GsLXX41uiM",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 4",
+      "duration": 204
+    },
+    {
+      "id": "j36pN4n0TPc",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 5",
+      "duration": 455
+    },
+    {
+      "id": "J86VZVVhp2Q",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 6",
+      "duration": 445
+    },
+    {
+      "id": "2lXEbwhRE_I",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 7",
+      "duration": 363
+    },
+    {
+      "id": "ItFupfcXPvk",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 8",
+      "duration": 279
+    },
+    {
+      "id": "xNnJt7eRomE",
+      "title": "Hallar la constante para que el sistema tenga solución | Ejercicio 9",
+      "duration": 636
+    },
+    {
+      "id": "RUo_PjFBSKg",
+      "title": "Condiciones de constantes para que el sistema tenga solución 1",
+      "duration": 402
+    },
+    {
+      "id": "EcdxEviPGPQ",
+      "title": "Condiciones de constantes para que el sistema tenga solución 2",
+      "duration": 332
+    },
+    {
+      "id": "z_XyLk58ti4",
+      "title": "Hallar la constante para una solución del sistema definida",
+      "duration": 222
+    }
+  ]
+}

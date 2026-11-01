@@ -1,0 +1,255 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Thermal Physics",
+  "channel": "Tonya Coffey",
+  "description": "",
+  "updated": "2024-05-17",
+  "lessons": [
+    {
+      "id": "JZfftQJvKl0",
+      "title": "Test 3 review PHY3230 Fall 2021",
+      "duration": 2195
+    },
+    {
+      "id": "7xVeMRgxyBU",
+      "title": "White Dwarfs: An example of a degenerate fermi gas",
+      "duration": 1855
+    },
+    {
+      "id": "J_WM4WnLdUI",
+      "title": "Fermi energy applications",
+      "duration": 990
+    },
+    {
+      "id": "hBz_QiEbXbA",
+      "title": "Deriving the Fermi energy",
+      "duration": 719
+    },
+    {
+      "id": "kUa2WM-hPv8",
+      "title": "Intro to the distribution function for bosons and fermions",
+      "duration": 1165
+    },
+    {
+      "id": "KPrytR-VSkI",
+      "title": "Finding the average number of particles for a system in diffusive and thermal equilibrium",
+      "duration": 306
+    },
+    {
+      "id": "jvUXIlY6E8g",
+      "title": "Intro to Gibbs factors",
+      "duration": 1482
+    },
+    {
+      "id": "YMej8-jnAZQ",
+      "title": "The partition function for an ideal gas--part 2",
+      "duration": 963
+    },
+    {
+      "id": "0HnX-3mmz-4",
+      "title": "The partition function of the ideal gas--part 1",
+      "duration": 1124
+    },
+    {
+      "id": "xNuYwpQXtL0",
+      "title": "Deriving the Maxwell Speed Distribution Function using Boltzmann Factors and Partition Functions",
+      "duration": 1021
+    },
+    {
+      "id": "_nPe177Fvpw",
+      "title": "Proving Equipartition of Energy is True--Using Boltzmann Factors and Partition Functions",
+      "duration": 533
+    },
+    {
+      "id": "XRluIqhsASI",
+      "title": "Finding the partition function for rotational energy states",
+      "duration": 933
+    },
+    {
+      "id": "8_qWfyhsYnM",
+      "title": "An example of the power of Boltmann factors: The two state paramagnet",
+      "duration": 452
+    },
+    {
+      "id": "xcEeqVfdIQ4",
+      "title": "The Partition Function",
+      "duration": 952
+    },
+    {
+      "id": "ZWABaAV0RV0",
+      "title": "Boltzmann Factors",
+      "duration": 641
+    },
+    {
+      "id": "fNU8QitXR3o",
+      "title": "Review of Atomic Structure",
+      "duration": 1353
+    },
+    {
+      "id": "6qo_VpPfv20",
+      "title": "Phase diagrams",
+      "duration": 1540
+    },
+    {
+      "id": "zzvO1vYHkHY",
+      "title": "Test 2 Review Thermal Physics Fall 2021",
+      "duration": 2114
+    },
+    {
+      "id": "xxh5ZUrhubI",
+      "title": "Free Energy as a Force Towards Equilibrium",
+      "duration": 988
+    },
+    {
+      "id": "FpeoLVUjtMo",
+      "title": "Thermodynamic Identities and Maxwell Relations",
+      "duration": 1420
+    },
+    {
+      "id": "_qwkHXRxK3Q",
+      "title": "Introduction to the thermodynamic potentials",
+      "duration": 1596
+    },
+    {
+      "id": "WsOmGyTCM7o",
+      "title": "Diffusive equilibrium and chemical potential",
+      "duration": 1731
+    },
+    {
+      "id": "pvosyZs7YN0",
+      "title": "Mechanical equilibrium and pressure",
+      "duration": 1406
+    },
+    {
+      "id": "xc92D64oPV8",
+      "title": "The entropy and internal energy of the two state paramagnet: Negative Kelvin Temperatures",
+      "duration": 1676
+    },
+    {
+      "id": "Riq_Q_fFQ0g",
+      "title": "The Third Law of Thermodynamics",
+      "duration": 560
+    },
+    {
+      "id": "NqI0xFyLISo",
+      "title": "Entropy formulas for everyday processes",
+      "duration": 748
+    },
+    {
+      "id": "0nXPsaiH5yw",
+      "title": "True Definition of Temperature",
+      "duration": 1697
+    },
+    {
+      "id": "_wbdq9-wV2k",
+      "title": "Entropy of Black Hole",
+      "duration": 645
+    },
+    {
+      "id": "fpNjWifa4Sw",
+      "title": "Intro to Entropy",
+      "duration": 1492
+    },
+    {
+      "id": "L4RhI0iufNU",
+      "title": "Multiplicity of an Ideal Gas, Take 1",
+      "duration": 1178
+    },
+    {
+      "id": "JD78O0tIrSs",
+      "title": "Test 1 review thermal physics (PHY3230)",
+      "duration": 1691
+    },
+    {
+      "id": "AOhGOBWQMN0",
+      "title": "Sharpness of the multiplicity function",
+      "duration": 1188
+    },
+    {
+      "id": "MN2g3T6Ei7I",
+      "title": "Einstein solid low temperature approximate expression",
+      "duration": 552
+    },
+    {
+      "id": "vlYv9jwfaPQ",
+      "title": "Small numbers, large numbers, very large numbers, and Stirling's Approximation",
+      "duration": 559
+    },
+    {
+      "id": "fOTBBEhPi4g",
+      "title": "The Multiplicity of an Einstein Solid",
+      "duration": 1763
+    },
+    {
+      "id": "J7_SVGcYmhg",
+      "title": "Macrostates, Microstates, Multiplicity, and Combinatorics",
+      "duration": 1504
+    },
+    {
+      "id": "OtizNHQdb6E",
+      "title": "Heat capacities for ideal gases",
+      "duration": 1220
+    },
+    {
+      "id": "Xhf2d361OAY",
+      "title": "Latent Heat and Calorimetry Problems",
+      "duration": 996
+    },
+    {
+      "id": "97XeBI2nbb4",
+      "title": "Heat Capacities of Solids and Liquids",
+      "duration": 577
+    },
+    {
+      "id": "q-yYMkv6j_Y",
+      "title": "Final exam review phy3230",
+      "duration": 2370
+    },
+    {
+      "id": "pYPf0_ULo0M",
+      "title": "Bosons and Fermions",
+      "duration": 1134
+    },
+    {
+      "id": "qKbd0QUfuyo",
+      "title": "Real Engines",
+      "duration": 882
+    },
+    {
+      "id": "piQEJH2e3io",
+      "title": "Carnot engines",
+      "duration": 1022
+    },
+    {
+      "id": "GG5WdUN2moA",
+      "title": "Heat engines and heat pumps",
+      "duration": 842
+    },
+    {
+      "id": "yJV9z6R5tdI",
+      "title": "Enthalpy",
+      "duration": 848
+    },
+    {
+      "id": "a1dTTB3YY3o",
+      "title": "The First Law of Thermodynamics & Compressive Work",
+      "duration": 2169
+    },
+    {
+      "id": "VUaAzxFTXLo",
+      "title": "Thermal Expansion, Moles and Mass",
+      "duration": 1029
+    },
+    {
+      "id": "2WsCA3KKASM",
+      "title": "Intro to Ideal Gases",
+      "duration": 742
+    },
+    {
+      "id": "PlZxxo0j9J0",
+      "title": "Temperature, a beginning definition",
+      "duration": 1267
+    }
+  ]
+}

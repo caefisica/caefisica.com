@@ -1,0 +1,95 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Cálculo Vectorial. 3. Derivadas",
+  "channel": "1a con Berni",
+  "description": "Link para libros: http://1aconberni.blogspot.com/p/libros.html\n\nEsta lista de reproducción corresponde al curso de Cálculo Vectorial, 3. Derivadas; fue realizado por el matemático Bernardo Acevedo Frías ex docente de la Universidad Nacional de Colombia Sede Manizales, laborando allí durante 36 años. \nEspero te haya servido el video para aumentar tu conocimiento. \n\n*** NO OLVIDES SUSCRIBIRTE A MI CANAL*** \n\nY SI TE GUSTÓ REGALAME UN LIKE! \n\nHasta pronto y muchas gracias ❤",
+  "updated": "2022-01-20",
+  "lessons": [
+    {
+      "id": "eM9cVAwcWHo",
+      "title": "Definición de derivadas en varias variables",
+      "duration": 341
+    },
+    {
+      "id": "CR50e_Zzsss",
+      "title": "Derivadas Parciales",
+      "duration": 884
+    },
+    {
+      "id": "fP9lttumnd4",
+      "title": "Cálculo de la derivada",
+      "duration": 557
+    },
+    {
+      "id": "5oHgpxYdPJA",
+      "title": "Propiedades de la derivada",
+      "duration": 288
+    },
+    {
+      "id": "jZ7VLJXxeAY",
+      "title": "Derivada de una función compuesta",
+      "duration": 407
+    },
+    {
+      "id": "dSIgaOoTDaQ",
+      "title": "Derivada de un producto",
+      "duration": 286
+    },
+    {
+      "id": "PsHiGpNI01k",
+      "title": "Derivada de un cociente",
+      "duration": 294
+    },
+    {
+      "id": "vMGDmeW4tLI",
+      "title": "Derivada de una integral 1",
+      "duration": 346
+    },
+    {
+      "id": "1hVOQFse_zo",
+      "title": "Derivada de una integral 2",
+      "duration": 216
+    },
+    {
+      "id": "pF_hXaA5uHc",
+      "title": "Derivada de funciones especiales",
+      "duration": 343
+    },
+    {
+      "id": "GDYVrpXs2g4",
+      "title": "Derivada en el punto problema",
+      "duration": 443
+    },
+    {
+      "id": "60i6wGoVRwc",
+      "title": "Gradiente de una función",
+      "duration": 428
+    },
+    {
+      "id": "27trHFRvjIY",
+      "title": "Gradiente de una función. Ejemplo.",
+      "duration": 348
+    },
+    {
+      "id": "jXLwmanC5Cg",
+      "title": "Propiedades del gradiente",
+      "duration": 697
+    },
+    {
+      "id": "YNUq_-hoiCM",
+      "title": "Derivada de orden superior",
+      "duration": 540
+    },
+    {
+      "id": "DfF-LYIwgfQ",
+      "title": "Derivada de orden superior en el punto problema",
+      "duration": 474
+    },
+    {
+      "id": "P_GUdcbMuME",
+      "title": "Derivada mixta en un punto. Ejemplo.",
+      "duration": 447
+    }
+  ]
+}

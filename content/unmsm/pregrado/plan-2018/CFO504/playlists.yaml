@@ -1,0 +1,35 @@
+- title: Física Matemática III - UNMSM
+  channel: rentov
+  lecturer: Renato Tovar Landeo
+  url: https://www.youtube.com/playlist?list=PLK_B1a9wXn7dlNL2mkTzxCs2W8wvGfETb
+  skip: [9X57UCTGObU]
+  description: >-
+    Más de cien videos del curso en San Marcos: clasificación y forma canónica
+    de las ecuaciones en derivadas parciales, separación de variables y método
+    de Fourier, funciones de Green, la delta de Dirac, polinomios de tipo
+    hipergeométrico, conducción del calor y transformadas integrales. En
+    español.
+- title: Curso completo de ecuaciones diferenciales parciales
+  channel: MateFácil
+  lecturer: Félix E. López Jara
+  url: https://www.youtube.com/playlist?list=PL9SnRnlzoyX05Y-DlDAoD4KwuHeNoP39F
+  description: >-
+    Ejercicios resueltos paso a paso: ecuaciones lineales de primer orden y de
+    transporte, método de las características, ecuaciones no lineales, la
+    deducción de la ecuación del calor, la ecuación de onda por Fourier y por
+    D'Alembert, ecuaciones elípticas y la transformada de Fourier. En español.
+- title: Cálculo Variacional
+  channel: JG Walneko
+  lecturer: ""
+  url: https://www.youtube.com/playlist?list=PLCQC2nnvRCg3_iB9sedj2FikmQdRlZx_N
+  description: >-
+    Siete videos que van de los funcionales y la ecuación de Euler hasta el
+    problema de la braquistócrona. En español.
+- title: Partial Differential Equations and Separation of Variables
+  channel: ""
+  lecturer: Daniel An
+  url: https://www.youtube.com/playlist?list=PLP1OdTlavJNvcONsgPope4qBJ7fdSYWtY
+  description: >-
+    Ocho videos sobre las ecuaciones del calor y de onda resueltas por
+    separación de variables, con condiciones de frontera de Neumann y series de
+    Fourier. En inglés.

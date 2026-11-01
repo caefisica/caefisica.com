@@ -1,0 +1,155 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "MIT 2.71 Optics, Spring 2009",
+  "channel": "MIT OpenCourseWare",
+  "description": "Instructor: Aditya Bhakta, Danny Codd\n\nView the complete course: http://ocw.mit.edu/2-71S09\n\nThis course provides an introduction to optical science with elementary engineering applications. Topics covered in geometrical optics include: ray-tracing, aberrations, lens design, apertures and stops, radiometry and photometry. Topics covered in wave optics include: basic electrodynamics, polarization, interference, wave-guiding, Fresnel and Fraunhofer diffraction, image formation, resolution, space-bandwidth product. Analytical and numerical tools used in optical design are emphasized. Graduate students are required to complete assignments with stronger analytical content, and an advanced design project.\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+  "updated": "2014-07-01",
+  "lessons": [
+    {
+      "id": "IYBYmOVmICg",
+      "title": "Lec 1 | MIT 2.71 Optics, Spring 2009",
+      "duration": 5804
+    },
+    {
+      "id": "Q84-DIyl5wQ",
+      "title": "Lec 2 | MIT 2.71 Optics, Spring 2009",
+      "duration": 2935
+    },
+    {
+      "id": "X6cea7dAhBc",
+      "title": "Lec 3 | MIT 2.71 Optics, Spring 2009",
+      "duration": 5639
+    },
+    {
+      "id": "gAL5fCEBfac",
+      "title": "Lec 4 | MIT 2.71 Optics, Spring 2009",
+      "duration": 3137
+    },
+    {
+      "id": "JmK0vSLULP8",
+      "title": "Lec 5 | MIT 2.71 Optics, Spring 2009",
+      "duration": 6351
+    },
+    {
+      "id": "_jKHejk45Sg",
+      "title": "Lec 6 | MIT 2.71 Optics, Spring 2009",
+      "duration": 3211
+    },
+    {
+      "id": "VHIJPHqwV_0",
+      "title": "Lec 7 | MIT 2.71 Optics, Spring 2009",
+      "duration": 6025
+    },
+    {
+      "id": "jNSvbmc_ecM",
+      "title": "Lec 8 | MIT 2.71 Optics, Spring 2009",
+      "duration": 2888
+    },
+    {
+      "id": "8WXUYdXNFy8",
+      "title": "Lec 9 | MIT 2.71 Optics, Spring 2009",
+      "duration": 6012
+    },
+    {
+      "id": "8u0Mfs1m_r8",
+      "title": "Lec 11 | MIT 2.71 Optics, Spring 2009",
+      "duration": 6094
+    },
+    {
+      "id": "roATER6-1yI",
+      "title": "Lec 12 | MIT 2.71 Optics, Spring 2009",
+      "duration": 3709
+    },
+    {
+      "id": "MK5uZttfWfM",
+      "title": "Lec 13 | MIT 2.71 Optics, Spring 2009",
+      "duration": 6292
+    },
+    {
+      "id": "LDlGKU0ryQ8",
+      "title": "Lec 14 | MIT 2.71 Optics, Spring 2009",
+      "duration": 3552
+    },
+    {
+      "id": "933cBlGFDcs",
+      "title": "Lec 15 | MIT 2.71 Optics, Spring 2009",
+      "duration": 5777
+    },
+    {
+      "id": "JmWguqCZRxk",
+      "title": "Lec 16 | MIT 2.71 Optics, Spring 2009",
+      "duration": 4484
+    },
+    {
+      "id": "Xke7rX3QO-k",
+      "title": "Lec 17 | MIT 2.71 Optics, Spring 2009",
+      "duration": 5953
+    },
+    {
+      "id": "u6GbFCWIH_0",
+      "title": "Lec 18 | MIT 2.71 Optics, Spring 2009",
+      "duration": 3529
+    },
+    {
+      "id": "ML5yVI18uaI",
+      "title": "Lec 19 | MIT 2.71 Optics, Spring 2009",
+      "duration": 6324
+    },
+    {
+      "id": "OWgogzEUC5E",
+      "title": "Lec 20 | MIT 2.71 Optics, Spring 2009",
+      "duration": 7024
+    },
+    {
+      "id": "W-7gI87IG1A",
+      "title": "Lec 22 | MIT 2.71 Optics, Spring 2009",
+      "duration": 5660
+    },
+    {
+      "id": "vcqPRPkyWPU",
+      "title": "Lec 23 | MIT 2.71 Optics, Spring 2009",
+      "duration": 3309
+    },
+    {
+      "id": "IpFIp68ODNI",
+      "title": "Lec 25 | MIT 2.71 Optics, Spring 2009",
+      "duration": 3163
+    },
+    {
+      "id": "s8XKzciLgak",
+      "title": "Lec 26 | MIT 2.71 Optics, Spring 2009",
+      "duration": 5304
+    },
+    {
+      "id": "vRhpH8siTNk",
+      "title": "Design of a Cooke Triplet | MIT 2.71 Optics, Spring 2009",
+      "duration": 1328
+    },
+    {
+      "id": "lazME0LEUzA",
+      "title": "Holographic Particle Image Velocimetry | MIT 2.71 Optics, Spring 2009",
+      "duration": 911
+    },
+    {
+      "id": "RizM3cD3XSA",
+      "title": "Holographic Tomography | MIT 2.71 Optics, Spring 2009",
+      "duration": 844
+    },
+    {
+      "id": "dWK25XcqFL4",
+      "title": "Wigner Distribution Function and Integral Imaging | MIT 2.71 Optics, Spring 2009",
+      "duration": 1285
+    },
+    {
+      "id": "_8TPfNfgH0I",
+      "title": "Light Propagation in Sub-wavelength Modulated Media | MIT 2.71 Optics, Spring 2009",
+      "duration": 968
+    },
+    {
+      "id": "WCw7gzz5RZY",
+      "title": "Accuracy Requirements in the Mechanical Assessment of Photonic Crystals | MIT 2.71 Optics",
+      "duration": 1115
+    }
+  ]
+}

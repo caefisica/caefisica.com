@@ -1,0 +1,112 @@
+- title: Integrales de variable compleja
+  channel: MateFácil
+  lecturer: Félix E. López Jara
+  url: https://www.youtube.com/playlist?list=PL9SnRnlzoyX1bzVYbTPjgc79cxHw1F9g0
+  skip: [jutn2JxnmMA, 1Spn-5l-PZU, 9aNYWVzUgKI]
+  description: >-
+    Ejercicios resueltos paso a paso: integrales sobre caminos parametrizados,
+    el teorema y la fórmula integral de Cauchy, el teorema del residuo para
+    integrales impropias y trigonométricas, series de Laurent, polos y la
+    inversa de Laplace por residuos. En español.
+- title: Variable compleja 1. Introducción
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWWD2m3tyUIaxdgQWq1ijrE
+  description: >-
+    La primera parte del curso de variable compleja de 1a con Berni: las
+    operaciones con números complejos, las potencias de i, la parte real e
+    imaginaria, el conjugado, el módulo y ecuaciones en complejos. En español.
+- title: Variable compleja 2. Forma polar, raíces y conjuntos en complejos
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWBUZHdOs0xxE4Mv9x6suCB
+  description: >-
+    La forma polar, la multiplicación y división en forma polar, el teorema de
+    De Moivre, las raíces, los lugares geométricos de desigualdades y los
+    conjuntos conexos. En español.
+- title: Variable compleja 3. Funciones
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXjB7dDe72neh1_g6-ijbTq
+  description: >-
+    Funciones complejas como transformaciones, y las funciones exponencial,
+    logaritmo, trigonométricas, hiperbólicas y sus inversas. En español.
+- title: Variable compleja 4. Límites de funciones
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVfjM-V2J_IwlzDCzlOY0Qo
+  description: >-
+    El límite de una función compleja por definición, su cálculo, sus
+    propiedades y la continuidad. En español.
+- title: Variable compleja 5. Derivadas de funciones complejas
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXtBGzSgccal6Uvm38GKKqM
+  description: >-
+    La derivada de una función compleja, las ecuaciones de Cauchy-Riemann y las
+    derivadas de las funciones exponencial, logaritmo, trigonométricas e
+    inversas. En español.
+- title: Variable compleja 6. Integración en funciones complejas
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXhIKeD_Hy5ez9umQl4ep6T
+  description: >-
+    Integrales sobre curvas parametrizadas, la regla de Barrow, la independencia
+    del camino, el teorema de deformación, la fórmula integral de Cauchy y su
+    uso para integrales reales. En español.
+- title: Variable compleja 7. Series y sucesiones
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJV-5EGHDuWMuxZ58MQJY8Jx
+  description: >-
+    Sucesiones y series de números complejos, sus límites y los criterios de
+    convergencia: del resto, de Leibniz, de comparación, de la raíz y del
+    cociente. En español.
+- title: Variable compleja 8. Series de potencia
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJW1DPJo-BuAmcTER2UuLAdn
+  description: >-
+    Series de potencias, su radio de convergencia, el producto de series, las
+    series de Maclaurin de funciones complejas y la serie binomial. En español.
+- title: Variable compleja 9. Serie de Laurent
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXxmpzbUnu_9Jl83mN3YhND
+  description: >-
+    La serie de Laurent, el cálculo de sus coeficientes, los polos de varios
+    órdenes, las singularidades esenciales y el residuo de una función. En
+    español.
+- title: Variable compleja 10. Teorema del residuo para integrales complejas
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJUuNy_OrVJzBEErbh21ZKjU
+  description: >-
+    El teorema del residuo aplicado a decenas de integrales, y la inversa de una
+    transformada con variable compleja. En español.
+- title: Complex Analysis
+  channel: MathMajor
+  lecturer: Michael Penn
+  url: https://www.youtube.com/playlist?list=PLVMgvCDIRy1wzJcFNGw7t4tehgzhFtBpm
+  description: >-
+    Un curso de análisis complejo: números y funciones complejas, potencias
+    complejas, límites y derivadas, funciones armónicas, la fórmula integral de
+    Cauchy, el teorema de Liouville, las series de Taylor y Laurent, los
+    residuos y su uso en integrales reales. En inglés.
+- title: Complex Analysis
+  channel: The Bright Side of Mathematics
+  lecturer: Julian Großmann
+  url: https://www.youtube.com/playlist?list=PLBh2i93oe2qtIc75sLYaVEBt0QNqVbdmZ
+  description: >-
+    Un curso de análisis complejo en 35 videos: funciones holomorfas y enteras,
+    las ecuaciones de Cauchy-Riemann, la convergencia uniforme, el logaritmo
+    complejo, las singularidades aisladas, los teoremas de Goursat y de Cauchy y
+    el teorema del residuo. En inglés.
+- title: Complex Analysis (Differentiation & Integration)
+  channel: ""
+  lecturer: Dr. Gajendra Purohit
+  url: https://www.youtube.com/playlist?list=PLU6SqdYcYsfI3sh-ho_iiTkCGsTbVh_Sw
+  description: >-
+    20 videos de teoría y ejercicios: funciones analíticas y Cauchy-Riemann, el
+    método de Milne-Thomson, integrales de línea, series de Laurent,
+    singularidades, residuos e integración por contornos. En inglés.

@@ -1,0 +1,270 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Introducción a la Mecánica Clásica",
+  "channel": "MathArg",
+  "description": "",
+  "updated": "2015-12-30",
+  "lessons": [
+    {
+      "id": "qn7N2jmp5F0",
+      "title": "1 Introducción a la Mecánica Clásica - Física clásica",
+      "duration": 894
+    },
+    {
+      "id": "A6Wnyfmok6M",
+      "title": "2 Introducción a la Mecánica Clásica - Leyes dinamicas Deterministas",
+      "duration": 892
+    },
+    {
+      "id": "HcaPlG1rEbo",
+      "title": "3 Introducción a la Mecánica Clásica - Sistemas de coordenadas",
+      "duration": 527
+    },
+    {
+      "id": "Tj1s1ZDGyQQ",
+      "title": "4 Introducción a la Mecánica Clásica - Observaciones matemáticas",
+      "duration": 480
+    },
+    {
+      "id": "E71-jRcjnBc",
+      "title": "5 Introducción a la Mecánica Clásica - Movimiento de una partícula",
+      "duration": 700
+    },
+    {
+      "id": "ETzVZ1pOfsw",
+      "title": "6 Introducción a la Mecánica Clásica - Ejemplo de movimiento de una partícula",
+      "duration": 388
+    },
+    {
+      "id": "WGrFPwtV9e0",
+      "title": "7 Introducción a la Mecánica Clásica - Movimiento oscilatorio y circular",
+      "duration": 870
+    },
+    {
+      "id": "D04DnqCVQLM",
+      "title": "8 Introducción a la Mecánica Clásica - Dinámica - Ley de movimiento de Aristoteles",
+      "duration": 797
+    },
+    {
+      "id": "zcP8FCcQjWg",
+      "title": "9 Introducción a la Mecánica Clásica - Dinámica - Fuerza masa y aceleración",
+      "duration": 892
+    },
+    {
+      "id": "hDD3Yw8UsTk",
+      "title": "10 Introducción a la Mecánica Clásica - Dinámica - Ley de Newton ejemplos",
+      "duration": 885
+    },
+    {
+      "id": "BJch8sbOPxo",
+      "title": "11 Introducción a la Mecánica Clásica - Derivadas parciales",
+      "duration": 533
+    },
+    {
+      "id": "7pojSWS5qqI",
+      "title": "12 Introducción a la Mecánica Clásica - Máximos y mínimos en una dimensión",
+      "duration": 281
+    },
+    {
+      "id": "XD05qZXhLUc",
+      "title": "13 Introducción a la Mecánica Clásica - Máximos y mínimos en dos dimensiones",
+      "duration": 891
+    },
+    {
+      "id": "0PcDqvOdpeQ",
+      "title": "14 Introducción a la Mecánica Clásica - Sistemas de partículas",
+      "duration": 390
+    },
+    {
+      "id": "audm4bgYSbA",
+      "title": "15 Introducción a la Mecánica Clásica - Espacio de estados de Sistemas de partículas",
+      "duration": 553
+    },
+    {
+      "id": "U5byTCHxRvQ",
+      "title": "16 Introducción a la Mecánica Clásica - Momento y espacio de fase",
+      "duration": 363
+    },
+    {
+      "id": "dxAgsUof-X8",
+      "title": "17 Introducción a la Mecánica Clásica - Conservación del momento",
+      "duration": 551
+    },
+    {
+      "id": "bma2c_p9u9g",
+      "title": "18 Introducción a la Mecánica Clásica - Conservación de la energía en una dimensión",
+      "duration": 667
+    },
+    {
+      "id": "KroEuCAIlCM",
+      "title": "19 Introducción a la Mecánica Clásica - Conservación de la energía en varias dimensiones",
+      "duration": 894
+    },
+    {
+      "id": "1L7kYace1UY",
+      "title": "20 Introducción a la Mecánica Clásica - Principio de mínima acción",
+      "duration": 858
+    },
+    {
+      "id": "kNMzMc0_-cY",
+      "title": "21 Introducción a la Mecánica Clásica - Derivación de la ecuación de Euler-Lagrange",
+      "duration": 886
+    },
+    {
+      "id": "08GI4etT59g",
+      "title": "22 Introducción a la Mecánica Clásica - Principio de mínima acción en varias variables",
+      "duration": 238
+    },
+    {
+      "id": "iCXLhbSzo8o",
+      "title": "23 Introducción a la Mecánica Clásica - Lagrangiano y cambio de coordenadas",
+      "duration": 523
+    },
+    {
+      "id": "Rk0v4cywV2k",
+      "title": "24 Introducción a la Mecánica Clásica - Lagrangiano y cambio de coordenadas ejemplo",
+      "duration": 711
+    },
+    {
+      "id": "usVRA6dn2Tg",
+      "title": "25 Introducción a la Mecánica Clásica - Coordenadas generalizadas",
+      "duration": 700
+    },
+    {
+      "id": "-_MrzME2sRs",
+      "title": "26 Introducción a la Mecánica Clásica - Momento conjugado generalizado",
+      "duration": 634
+    },
+    {
+      "id": "R11G4ERRQj4",
+      "title": "27 Introducción a la Mecánica Clásica - Coordenadas cíclicas",
+      "duration": 563
+    },
+    {
+      "id": "GPqxFWkoGsQ",
+      "title": "28 Introducción a la Mecánica Clásica - Simetrías y leyes de conservación",
+      "duration": 387
+    },
+    {
+      "id": "1L-MitTaDT4",
+      "title": "29 Introducción a la Mecánica Clásica - Simetrías y Lagrangianos invariantes",
+      "duration": 898
+    },
+    {
+      "id": "xJ28R3wD8bs",
+      "title": "30 Introducción a la Mecánica Clásica - Teorema de Noether",
+      "duration": 896
+    },
+    {
+      "id": "Yr51bJfwqB4",
+      "title": "31 Introducción a la Mecánica Clásica - Lagrangiano ejemplo péndulo doble",
+      "duration": 899
+    },
+    {
+      "id": "bos-qKJ4a8I",
+      "title": "32 Introducción a la Mecánica Clásica - Derivación del Hamiltoniano",
+      "duration": 756
+    },
+    {
+      "id": "ANFbwP8yeDo",
+      "title": "33 Introducción a la Mecánica Clásica - Hamiltoniano y energía total",
+      "duration": 597
+    },
+    {
+      "id": "9f9FKxo_2Gk",
+      "title": "34 Introducción a la Mecánica Clásica - Hamiltoniano y espacio de fase",
+      "duration": 636
+    },
+    {
+      "id": "Eaz_HuvtJbM",
+      "title": "35 Introducción a la Mecánica Clásica - Hamiltoniano del oscilador armónico clásico",
+      "duration": 886
+    },
+    {
+      "id": "AR62_bSW9lQ",
+      "title": "36 Introducción a la Mecánica Clásica - Derivación de las ecuaciones de Hamilton",
+      "duration": 360
+    },
+    {
+      "id": "wV7_KZn2V-s",
+      "title": "37 Introducción a la Mecánica Clásica - Espacio de fase y energía",
+      "duration": 370
+    },
+    {
+      "id": "qYEovcIBie8",
+      "title": "38 Introducción a la Mecánica Clásica - Flujo y divergencia en Mecánica clásica",
+      "duration": 890
+    },
+    {
+      "id": "rUxCIIU0TU0",
+      "title": "39 Introducción a la Mecánica Clásica - Teorema de Gibbs-Liouville",
+      "duration": 552
+    },
+    {
+      "id": "evtKPhhM8eU",
+      "title": "40 Introducción a la Mecánica Clásica - Corchete de Poisson",
+      "duration": 566
+    },
+    {
+      "id": "tACvuFxfB8I",
+      "title": "41 Introducción a la Mecánica Clásica - Propiedades del Corchete de Poisson",
+      "duration": 725
+    },
+    {
+      "id": "lMzS9WvgXtQ",
+      "title": "42 Introducción a la Mecánica Clásica - Deducción de la ecuación de Newton por corchete de Poisson",
+      "duration": 182
+    },
+    {
+      "id": "ZwP_K8hLHUs",
+      "title": "43 Introducción a la Mecánica Clásica - Momento angular y Corchete de Poisson",
+      "duration": 708
+    },
+    {
+      "id": "MDIVR2wWvuM",
+      "title": "44 Introducción a la Mecánica Clásica - Momento angular y Símbolo de Levi Civita",
+      "duration": 575
+    },
+    {
+      "id": "jwOPHUvYWUw",
+      "title": "45 Introducción a la Mecánica Clásica - Momento angular y Corchete de Poisson ejemplo",
+      "duration": 491
+    },
+    {
+      "id": "szMAZiTN2b4",
+      "title": "46 Introducción a la Mecánica Clásica - Hamiltoniano y simetrías",
+      "duration": 397
+    },
+    {
+      "id": "HTFLeGgZjyM",
+      "title": "47 Introducción a la Mecánica Clásica - Gradiente divergencia y rotor",
+      "duration": 893
+    },
+    {
+      "id": "mOEPDnuCqn8",
+      "title": "48 Introducción a la Mecánica Clásica - Campo magnético y transformaciones de Gauge",
+      "duration": 526
+    },
+    {
+      "id": "uFOQuQ99-nE",
+      "title": "49 Introducción a la Mecánica Clásica - Acción y Lagrangiano de la fuerza de Lorentz",
+      "duration": 780
+    },
+    {
+      "id": "IibGLIpkWe0",
+      "title": "50 Introducción a la Mecánica Clásica - Ecuaciones de movimiento de la fuerza de Lorentz",
+      "duration": 427
+    },
+    {
+      "id": "--FjPY3EniQ",
+      "title": "51 Introducción a la Mecánica Clásica - Hamiltoniano de la fuerza de Lorentz",
+      "duration": 413
+    },
+    {
+      "id": "ZKOYpT1aHEY",
+      "title": "52 Introducción a la Mecánica Clásica - Campo magnético uniforme e invariancia de Gauge",
+      "duration": 771
+    }
+  ]
+}

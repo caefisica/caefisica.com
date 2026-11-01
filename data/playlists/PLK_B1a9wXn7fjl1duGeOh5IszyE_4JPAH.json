@@ -1,0 +1,530 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra Lineal para físicos 1",
+  "channel": "rentov",
+  "description": "",
+  "updated": "2021-07-20",
+  "lessons": [
+    {
+      "id": "KQsAfg_XenE",
+      "title": "Álgebra Lineal 1 - Clase 1: conjuntos",
+      "duration": 4242
+    },
+    {
+      "id": "WGcUHtgBtaw",
+      "title": "Álgebra Lineal 1 - Clase 2: Grupos. Anillos y Campos.",
+      "duration": 5919
+    },
+    {
+      "id": "WQ0qdYUPGtQ",
+      "title": "Álgebra Lineal 1 - Clase 3: Campos numéricos.",
+      "duration": 5074
+    },
+    {
+      "id": "aHl-3HS4VuY",
+      "title": "Álgebra Lineal 1 - Clase 4: Espacio lineal",
+      "duration": 5941
+    },
+    {
+      "id": "kRYvRKMdV_w",
+      "title": "Álgebra Lineal 1 - Clase 5: Dimensión y base",
+      "duration": 5208
+    },
+    {
+      "id": "F68HTMK6KxM",
+      "title": "Álgebra Lineal 1 - Clase 6: Subespacios lineales",
+      "duration": 6083
+    },
+    {
+      "id": "JxqEWgRcGb8",
+      "title": "Álgebra Lineal 1 - Clase 7: Cambio de base",
+      "duration": 5840
+    },
+    {
+      "id": "iOnDo-c7CJE",
+      "title": "Álgebra Lineal 1 - Clase 8: Aplicación lineal",
+      "duration": 5040
+    },
+    {
+      "id": "8O_Qfle4CMM",
+      "title": "Álgebra Lineal 1 - Clase 9: Operaciones con aplicaciones lineales",
+      "duration": 6053
+    },
+    {
+      "id": "TCJ5wCH_BYU",
+      "title": "Álgebra Lineal 1 - Clase 10: Imagen y núcleo de aplicaciones lineales.",
+      "duration": 5030
+    },
+    {
+      "id": "LtOnl8cABTM",
+      "title": "Álgebra Lineal 1 - Clase 11: Espacio dual",
+      "duration": 5385
+    },
+    {
+      "id": "_GORYjRhvJA",
+      "title": "Álgebra Lineal 1 - Clase 12: Formas semilineales. Notación de Dirac",
+      "duration": 6168
+    },
+    {
+      "id": "FB6SOCH0dN0",
+      "title": "Álgebra Lineal 1 - Clase 13: Formas simétricas y antisimétricas. Formas sesquilineales.",
+      "duration": 5728
+    },
+    {
+      "id": "t5n6VMDMouQ",
+      "title": "Álgebra Lineal 1 - Clase 14: Método de Lagrange: Reducción de forma cuadrática a forma canónica.",
+      "duration": 4403
+    },
+    {
+      "id": "NXcgmNiP_nM",
+      "title": "Álgebra Lineal 1 - Clase 15: Forma normal. Método de Jacobi.",
+      "duration": 5414
+    },
+    {
+      "id": "ZNnUXTzliqA",
+      "title": "Álgebra Lineal 1 - Clase 16: Clasificación de las formas cuadráticas. Formas hermíticas.",
+      "duration": 6012
+    },
+    {
+      "id": "OhBg1cPBn5w",
+      "title": "Álgebra Lineal 1 - Clase 17: Formas simplécticas",
+      "duration": 6043
+    },
+    {
+      "id": "NWOpMg2Ryfc",
+      "title": "Álgebra Lineal 1 - Clase 18: Operadores lineales",
+      "duration": 4660
+    },
+    {
+      "id": "Oq1n336cIt8",
+      "title": "Álgebra Lineal 1 - Clase 19: Núcleo e imagen de operadores lineales. Álgebra de operadores.",
+      "duration": 5891
+    },
+    {
+      "id": "ilawDF1FRaY",
+      "title": "Álgebra Lineal 1 - Clase 20: Valores propios y vectores propios",
+      "duration": 5419
+    },
+    {
+      "id": "5Rd2qXAGHj0",
+      "title": "álgebra Lineal 1 - Clase 21: Diagonalización de la matriz de un operador lineal",
+      "duration": 6007
+    },
+    {
+      "id": "ke0kFu9V_TA",
+      "title": "Álgebra Lineal 1 - Clase 21: Forma canónica de Jordan (1/3)",
+      "duration": 6134
+    },
+    {
+      "id": "14AWp6fB67Y",
+      "title": "Álgebra Lineal 1 - Clase 21: Forma canónica de Jordan (2/3)",
+      "duration": 6303
+    },
+    {
+      "id": "JRbtROlw0Lo",
+      "title": "Álgebra Lineal 1 - Clase 22: Forma canónica de Jordan (3/3)",
+      "duration": 5579
+    },
+    {
+      "id": "UpgTexurpk8",
+      "title": "Operaciones aritméticas",
+      "duration": 2972
+    },
+    {
+      "id": "uCHm3OZ6XzQ",
+      "title": "Operaciones algebraicas",
+      "duration": 2629
+    },
+    {
+      "id": "EYAdZ894kEw",
+      "title": "Estructuras algebraicas: Grupo.",
+      "duration": 2372
+    },
+    {
+      "id": "Fxup_Hpq65E",
+      "title": "Estructuras algebraicas: Anillos y cuerpos.",
+      "duration": 1826
+    },
+    {
+      "id": "Ei1aqRpsskc",
+      "title": "Base y dimensión de un espacio vectorial",
+      "duration": 1411
+    },
+    {
+      "id": "eHtwnTFfV_A",
+      "title": "Espacio Vectorial",
+      "duration": 2714
+    },
+    {
+      "id": "rC283jRl-AQ",
+      "title": "Campo de los números complejos",
+      "duration": 2871
+    },
+    {
+      "id": "yta2EydlhaM",
+      "title": "Método de las transformaciones elementales.",
+      "duration": 2478
+    },
+    {
+      "id": "4nsr81t6vdE",
+      "title": "Ejemplos de espacios lineales",
+      "duration": 3391
+    },
+    {
+      "id": "C4Xvfm_Evvw",
+      "title": "Definición de isomorfismo",
+      "duration": 490
+    },
+    {
+      "id": "JcjUgUgiA8w",
+      "title": "Subespacio lineal",
+      "duration": 3008
+    },
+    {
+      "id": "FkSSeRkMhy8",
+      "title": "Suma e intersección de subespacios",
+      "duration": 2161
+    },
+    {
+      "id": "Wj7nBQLK6UI",
+      "title": "Isomorfismo entre espacios lineales",
+      "duration": 2962
+    },
+    {
+      "id": "reLL9v15dHU",
+      "title": "Correspondencia entre espacios reales y complejos",
+      "duration": 1280
+    },
+    {
+      "id": "JWGS45AMBqY",
+      "title": "Notación simplificada",
+      "duration": 1187
+    },
+    {
+      "id": "pYPjCNRhWrs",
+      "title": "Ejemplos de cambio de base y transfomación de coordenadas",
+      "duration": 1634
+    },
+    {
+      "id": "jSescAl5jis",
+      "title": "Cambio de base",
+      "duration": 2584
+    },
+    {
+      "id": "tvPQrInIDW8",
+      "title": "Transformación de coordenadas",
+      "duration": 1441
+    },
+    {
+      "id": "P3uMkb-Gt04",
+      "title": "Ejemplos: Cambio de base",
+      "duration": 2735
+    },
+    {
+      "id": "_2jRApmZCXM",
+      "title": "Aplicaciones lineales",
+      "duration": 2762
+    },
+    {
+      "id": "UZu2bvI5VNg",
+      "title": "Endomorfismos",
+      "duration": 1106
+    },
+    {
+      "id": "agi5DQxdvYc",
+      "title": "Espacio adjunto",
+      "duration": 2983
+    },
+    {
+      "id": "qo5C74iJAn0",
+      "title": "Espacio dual",
+      "duration": 2179
+    },
+    {
+      "id": "psq8yeAwis4",
+      "title": "Espacio dual: Ejemplos",
+      "duration": 1629
+    },
+    {
+      "id": "LEgR7Hi5LHA",
+      "title": "Anulador de un subespacio lineal",
+      "duration": 1719
+    },
+    {
+      "id": "P0K-n8rEjDM",
+      "title": "Criterios de independencia lineal",
+      "duration": 1286
+    },
+    {
+      "id": "VEgnBMV7z80",
+      "title": "Formas bilineales: Definición de forma multilineal",
+      "duration": 1167
+    },
+    {
+      "id": "f5h6ulfomM8",
+      "title": "Formas bilineales",
+      "duration": 2773
+    },
+    {
+      "id": "D_Z1hUeLbP0",
+      "title": "Transformación de la matriz de una forma bilineal",
+      "duration": 1369
+    },
+    {
+      "id": "Un-HL92ntBk",
+      "title": "Formas bilineales simétricas y antisimétricas",
+      "duration": 1393
+    },
+    {
+      "id": "RR6eGXRPZGc",
+      "title": "Formas semilineales",
+      "duration": 1102
+    },
+    {
+      "id": "iMiwE5Qyr7E",
+      "title": "Formas sesquilineales",
+      "duration": 795
+    },
+    {
+      "id": "ScmMzejgSYQ",
+      "title": "Formas hermiticas",
+      "duration": 1421
+    },
+    {
+      "id": "JOzyNXnCOlQ",
+      "title": "Matriz de una forma sesquilineal",
+      "duration": 1141
+    },
+    {
+      "id": "0D8D1PItzi8",
+      "title": "Ejemplos: Método de Lagrange",
+      "duration": 2091
+    },
+    {
+      "id": "mS3QMKu_NI8",
+      "title": "Formas cuadráticas",
+      "duration": 1165
+    },
+    {
+      "id": "3AfhShkuBm8",
+      "title": "Forma normal de la forma cuadrática",
+      "duration": 595
+    },
+    {
+      "id": "ukYDDRv2PhA",
+      "title": "Ley de inercia de las formas cuadráticas",
+      "duration": 1812
+    },
+    {
+      "id": "9RvaquIb-Sw",
+      "title": "Reducción a la forma canónica: Método de Jacobi",
+      "duration": 2646
+    },
+    {
+      "id": "ZOY35U3fgig",
+      "title": "Forma definida positivamente",
+      "duration": 1306
+    },
+    {
+      "id": "tEm55kFC5-A",
+      "title": "Formas con signo definido",
+      "duration": 1413
+    },
+    {
+      "id": "ZhP9_2o00Yk",
+      "title": "Criterio de Sylvester",
+      "duration": 911
+    },
+    {
+      "id": "3fceLlbfZ4c",
+      "title": "Determinante de Gram",
+      "duration": 1644
+    },
+    {
+      "id": "2vdNzNogSRk",
+      "title": "Formas definidas positivamente: ejemplos",
+      "duration": 2014
+    },
+    {
+      "id": "TAgRpujFubI",
+      "title": "Forma bilineal antisimétrica",
+      "duration": 1141
+    },
+    {
+      "id": "EKUKBuUmC9M",
+      "title": "Forma canónica de la forma antisimétrica",
+      "duration": 2085
+    },
+    {
+      "id": "KI9f7QxHgg0",
+      "title": "Producto externo y formas antisimétricas",
+      "duration": 1317
+    },
+    {
+      "id": "oSuRHPwW8jo",
+      "title": "Forma canónica de forma bilineal antisimétrica",
+      "duration": 1640
+    },
+    {
+      "id": "otBdJDG7gMw",
+      "title": "Forma canónica de forma hermítica",
+      "duration": 1529
+    },
+    {
+      "id": "1JYpOkI3i58",
+      "title": "Operadores lineales",
+      "duration": 855
+    },
+    {
+      "id": "tIeZsNw7Wuc",
+      "title": "Matriz de un operador lineal",
+      "duration": 1436
+    },
+    {
+      "id": "Z8atBEc3pOo",
+      "title": "Coordenadas de la imagen de un vector",
+      "duration": 909
+    },
+    {
+      "id": "0ADLlXNPuzI",
+      "title": "Transformación de la matriz de un operador",
+      "duration": 958
+    },
+    {
+      "id": "H5A4U4cNjgI",
+      "title": "Imagen y núcleo de un operador lineal",
+      "duration": 544
+    },
+    {
+      "id": "YAeN9z3o94A",
+      "title": "Álgebra de operadores",
+      "duration": 637
+    },
+    {
+      "id": "HWnhIPZQod8",
+      "title": "Subespacios invariantes",
+      "duration": 967
+    },
+    {
+      "id": "auZhQ2iIwLA",
+      "title": "Invarianza de la ecuación característica de un operador",
+      "duration": 663
+    },
+    {
+      "id": "ejWFF7BX4Ec",
+      "title": "Vectores y valores propios",
+      "duration": 1200
+    },
+    {
+      "id": "hRsEgAZUI30",
+      "title": "Cálculo de vectores y valores propios",
+      "duration": 773
+    },
+    {
+      "id": "uuyHXIvUN_k",
+      "title": "Ejemplo de cálculo de valores y vectores propios",
+      "duration": 826
+    },
+    {
+      "id": "2YOquIno7cI",
+      "title": "Ecuación característica",
+      "duration": 1080
+    },
+    {
+      "id": "OlOdokmRjZw",
+      "title": "Problemas de valor propio",
+      "duration": 2033
+    },
+    {
+      "id": "SWhjOatR-sg",
+      "title": "Estudio de la ecuación y''+y=0, desde el álgebra lineal",
+      "duration": 2604
+    },
+    {
+      "id": "YOZrh-MtjkA",
+      "title": "Forma diagonal de la matriz de un operador: criterio de diagonalización.",
+      "duration": 716
+    },
+    {
+      "id": "s16VnGVOgGw",
+      "title": "Forma diagonal de la matriz de un operador: existencia de la base compuesta de vectores propios.",
+      "duration": 2311
+    },
+    {
+      "id": "KveIuYBBRZU",
+      "title": "Números caracteristicos complejos en espacios reales.",
+      "duration": 1734
+    },
+    {
+      "id": "_TM3cgQ5rCw",
+      "title": "Necesidad de la forma canónica de Jordan",
+      "duration": 1992
+    },
+    {
+      "id": "DPh5vb1hRb4",
+      "title": "Vectores característicos",
+      "duration": 1608
+    },
+    {
+      "id": "cBnJbrIlcSU",
+      "title": "Propiedades de los subespacios invariantes",
+      "duration": 1354
+    },
+    {
+      "id": "mxQVQDyEEjw",
+      "title": "Independencia lineal fuerte",
+      "duration": 811
+    },
+    {
+      "id": "ELbduc0A5M0",
+      "title": "Descomposición de un espacio en subespacios invariantes",
+      "duration": 1117
+    },
+    {
+      "id": "IePcqLhx6Bs",
+      "title": "Construcción de la forma canónica de Jordan",
+      "duration": 1426
+    },
+    {
+      "id": "-wmw943SwnQ",
+      "title": "Forma canónica de Jordan: ejemplos.",
+      "duration": 4708
+    },
+    {
+      "id": "gOgB8ndiO5o",
+      "title": "Matrices de polinomios",
+      "duration": 1059
+    },
+    {
+      "id": "557Gmg4svkM",
+      "title": "Operaciones con las matrices λ",
+      "duration": 1429
+    },
+    {
+      "id": "QU2F15pULEA",
+      "title": "Teorema de Hamilton - Cayley",
+      "duration": 1547
+    },
+    {
+      "id": "6vZTJ6NEt1w",
+      "title": "Polinomios de matrices",
+      "duration": 1095
+    },
+    {
+      "id": "9H7AHpVEqlg",
+      "title": "Inversión de matrices - λ",
+      "duration": 744
+    },
+    {
+      "id": "-H1n152Wqo0",
+      "title": "Derivación de marices",
+      "duration": 3021
+    },
+    {
+      "id": "-IF5oPaJMVs",
+      "title": "Solución de sistemas lineales de ecuaciones diferenciales homogéneas con coeficientes constantes",
+      "duration": 2476
+    }
+  ]
+}

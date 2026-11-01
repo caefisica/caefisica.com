@@ -1,0 +1,110 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Variable compleja 4. Límites de funciones",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2020-03-14",
+  "lessons": [
+    {
+      "id": "JOqTFvJDfjU",
+      "title": "Límite I Definición",
+      "duration": 429
+    },
+    {
+      "id": "ZiWLy3dpmfQ",
+      "title": "Prueba de un límite por definición 1",
+      "duration": 246
+    },
+    {
+      "id": "kd1h3dTZ6kg",
+      "title": "Prueba de un límite por definición 2",
+      "duration": 367
+    },
+    {
+      "id": "dMR3HbE0_sY",
+      "title": "Algunas propiedades de límites",
+      "duration": 355
+    },
+    {
+      "id": "B-ri4B3sFBE",
+      "title": "Cálculo de un límite en complejos 1",
+      "duration": 214
+    },
+    {
+      "id": "fIl_R3Scfjw",
+      "title": "Cálculo de límites en complejos 2",
+      "duration": 339
+    },
+    {
+      "id": "G2b8LSVTzcQ",
+      "title": "Cálculo de límites en complejos 3",
+      "duration": 337
+    },
+    {
+      "id": "UAWiL-fFvUA",
+      "title": "Cálculo de límites en complejos 4",
+      "duration": 563
+    },
+    {
+      "id": "v_es8xnOo9Q",
+      "title": "Cálculo de límites en complejos 5",
+      "duration": 299
+    },
+    {
+      "id": "OTU9og5G86s",
+      "title": "Cálculo de límites en complejos 6",
+      "duration": 393
+    },
+    {
+      "id": "FmMvt8E_Fd4",
+      "title": "Límites en complejos I Propiedad",
+      "duration": 511
+    },
+    {
+      "id": "RuGLzCdm7w8",
+      "title": "Cálculo de límites en complejos 7",
+      "duration": 385
+    },
+    {
+      "id": "ZdgcNsPGMM0",
+      "title": "Cálculo de límites en complejos 8",
+      "duration": 317
+    },
+    {
+      "id": "1bHOW2WD_mE",
+      "title": "Cálculo de límites en complejos 9",
+      "duration": 288
+    },
+    {
+      "id": "5G1QdZL_RsU",
+      "title": "Cálculo de límites en complejos 10",
+      "duration": 757
+    },
+    {
+      "id": "h8egKARcsoc",
+      "title": "Función continua I Definición",
+      "duration": 643
+    },
+    {
+      "id": "o6CuqB0vvYU",
+      "title": "Funciones continuas 1",
+      "duration": 334
+    },
+    {
+      "id": "dmwuxIJbCac",
+      "title": "Funciones continuas 2",
+      "duration": 508
+    },
+    {
+      "id": "m2cZmBv6QjM",
+      "title": "Definiciones de límites en complejos",
+      "duration": 601
+    },
+    {
+      "id": "I5rm9Aonfeo",
+      "title": "Límite en complejos cuando z tiende a infinito",
+      "duration": 221
+    }
+  ]
+}

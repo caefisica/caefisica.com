@@ -1,0 +1,1475 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso Completo de Cálculo de varias variables (Cálculo Vectorial, Cálculo Multivariable)",
+  "channel": "MateFacil",
+  "description": "Cálculo vectorial o cálculo en varias variables, o cálculo multivariable. Veremos desde las definiciones básicas y propiedades de vectores, algebraica y geométricamente, y desarrollaremos los conceptos de funciones, gráficas, límites, trayectorias, curvas y superficies paramétricas, derivadas, integrales, áreas, volúmenes, entre varios conceptos mas.",
+  "updated": "2026-10-12",
+  "lessons": [
+    {
+      "id": "aYlICOhaO1g",
+      "title": "01. Cálculo vectorial - Introducción al curso: ¿Qué es un vector? CON GRÁFICA",
+      "duration": 808
+    },
+    {
+      "id": "MEscwXX82Ig",
+      "title": "02. Suma y resta de vectores geométricamente CON EJEMPLOS | Cálculo vectorial",
+      "duration": 1006
+    },
+    {
+      "id": "aevLlQfs9hY",
+      "title": "03. Vectores y puntos en tres dimensiones (Coordenadas tridimensionales)",
+      "duration": 1008
+    },
+    {
+      "id": "zQ-GiHU_ckw",
+      "title": "04. Suma y resta de vectores gráficamente en 3 dimensiones | Cálculo vectorial",
+      "duration": 819
+    },
+    {
+      "id": "z_3UHBmg2xs",
+      "title": "05. Vector que une dos puntos del plano. EJERCICIO RESUELTO | Cálculo vectorial",
+      "duration": 503
+    },
+    {
+      "id": "334uweT3y8c",
+      "title": "06. Vector que une dos puntos (dos dimensiones) EJERCICIO RESUELTO | Cálculo vectorial",
+      "duration": 233
+    },
+    {
+      "id": "YAC8bBOl-84",
+      "title": "07. Vector que une dos puntos (tres dimensiones) EJERCICIO RESUELTO | Cálculo vectorial",
+      "duration": 249
+    },
+    {
+      "id": "3BtLxQeU7NM",
+      "title": "Demostrar que MN es paralelo a AB en un Trapecio usando vectores",
+      "duration": 807
+    },
+    {
+      "id": "OQ0mmEVw4hI",
+      "title": "08. Módulo de un vector (norma, magnitud, longitud) gráficamente | Cálculo vectorial",
+      "duration": 379
+    },
+    {
+      "id": "KcF8v9c8m0s",
+      "title": "09. Módulo (Norma) de un vector en 3 dimensiones gráficamente | Cálculo vectorial",
+      "duration": 405
+    },
+    {
+      "id": "cfe-IS-gNoU",
+      "title": "10. Vectores unitarios, ¿qué son y cómo calcularlos? Con gráfica | Cálculo vectorial",
+      "duration": 586
+    },
+    {
+      "id": "dsu_XNm8xWM",
+      "title": "11. Vectores unitarios i,j,k (Base canónica), con gráficas | Cálculo vectorial",
+      "duration": 590
+    },
+    {
+      "id": "RtCm7oRrtGk",
+      "title": "12. Combinación lineal de vectores, vectores paralelos | Cálculo vectorial",
+      "duration": 1234
+    },
+    {
+      "id": "vQKPYqzc2ds",
+      "title": "13. Cálculo vectorial: Lista de ejercicios, con sugerencias (Lista 1) | Cálculo vectorial",
+      "duration": 1185
+    },
+    {
+      "id": "1-3acARG0q0",
+      "title": "14. Vector que une dos puntos en el plano y el espacio EJERCICIO RESUELTO | Cálculo vectorial",
+      "duration": 276
+    },
+    {
+      "id": "i5FNkdPGPV0",
+      "title": "15. Suma de vectores en el plano y el espacio, con gráfica | Cálculo vectorial",
+      "duration": 297
+    },
+    {
+      "id": "Rmx9LqcFLO8",
+      "title": "16. Norma del vector diferencia, EJERCICIOS RESUELTOS | Cálculo vectorial",
+      "duration": 386
+    },
+    {
+      "id": "wPdLfatQB3o",
+      "title": "17. Vectores paralelos, cómo saber si lo son. EJERCICIOS RESUELTOS | Cálculo vectorial",
+      "duration": 345
+    },
+    {
+      "id": "rc-REP24_aI",
+      "title": "18. Vector que pertenece al plano formado por otros dos vectores | Cálculo vectorial",
+      "duration": 424
+    },
+    {
+      "id": "gBVx0J8WI_M",
+      "title": "19. Puntos colineales, demostración con vectores EJERCICIO RESUELTO | Cálculo vectorial",
+      "duration": 263
+    },
+    {
+      "id": "dgb2MnOrIUc",
+      "title": "20. Calcular la suma de AB+BC+CA, donde A,B,C, forman un triángulo | Cálculo vectorial",
+      "duration": 394
+    },
+    {
+      "id": "3WlaGnxLHfc",
+      "title": "21. Puntos sobre los ejes, o sobre los planos coordenados. GRAFICA | Cálculo vectorial",
+      "duration": 509
+    },
+    {
+      "id": "ULSVQ7AIaJc",
+      "title": "22. Calcular vector unitario en 2 y 3 dimensiones. EJERCICIO RESUELTO | Cálculo vectorial",
+      "duration": 243
+    },
+    {
+      "id": "nJpnkm3SktA",
+      "title": "23. Vector de longitud 6, en la dirección de otro vector | Cálculo vectorial",
+      "duration": 349
+    },
+    {
+      "id": "vkbhSfRXmgo",
+      "title": "24. Vector tangente a la gráfica de una función | Cálculo vectorial",
+      "duration": 579
+    },
+    {
+      "id": "zCOKIzglLpA",
+      "title": "25. Punto ubicado en el segmento determinado por otros dos | Cálculo vectorial",
+      "duration": 434
+    },
+    {
+      "id": "1Ja74Kn8Bn8",
+      "title": "26. Escribir un vector como combinación lineal de otros dos | Cálculo vectorial",
+      "duration": 470
+    },
+    {
+      "id": "3QqrQ26YHvI",
+      "title": "27. Demostración geométrica y analítica, de que dos vectores generan plano | Cálculo vectorial",
+      "duration": 1102
+    },
+    {
+      "id": "PFe7i5pkRy0",
+      "title": "28. Vector que une puntos medios de lados de triángulo. DEMOSTRACION | Cálculo vectorial",
+      "duration": 459
+    },
+    {
+      "id": "JcxUGq3WG90",
+      "title": "29. Diagonales de paralelogramo se cortan en punto medio. DEMOSTRACION | Cálculo vectorial",
+      "duration": 622
+    },
+    {
+      "id": "1OYJnUGLmd0",
+      "title": "30. Ecuación vectorial de una esfera GRAFICAMENTE | Cálculo vectorial",
+      "duration": 754
+    },
+    {
+      "id": "N5f7pYTNcFM",
+      "title": "31. Producto punto, ¿qué es y cómo se calcula? | Cálculo vectorial",
+      "duration": 444
+    },
+    {
+      "id": "v13fgi4lDpQ",
+      "title": "32. Propiedades del producto punto. Con demostración | Cálculo vectorial",
+      "duration": 536
+    },
+    {
+      "id": "ipJXKAsNE5U",
+      "title": "Calcular u.v+v.w+w.u a partir de u+v+w=0",
+      "duration": 336
+    },
+    {
+      "id": "5oUBDSi1q5k",
+      "title": "33. Ángulo entre vectores, demostración de fórmula | Cálculo vectorial",
+      "duration": 435
+    },
+    {
+      "id": "AlM4AzD2oA8",
+      "title": "34. Ángulo entre vectores, ejemplos (dos y tres dimensiones) | Cálculo vectorial",
+      "duration": 364
+    },
+    {
+      "id": "wZT76JBC64A",
+      "title": "35. Vectores ortogonales (perpendiculares) ¿Cómo se determinan? | Cálculo vectorial",
+      "duration": 465
+    },
+    {
+      "id": "BSH4bo97WVY",
+      "title": "Demostrar que los vectores son perpendiculares",
+      "duration": 327
+    },
+    {
+      "id": "homORPSxBds",
+      "title": "36. Ángulos y cosenos directores. CON GRÁFICA | Cálculo vectorial",
+      "duration": 619
+    },
+    {
+      "id": "99ToTe0fGUs",
+      "title": "37. Proyecciones y componentes de vectores. Con gráfica | Cálculo vectorial",
+      "duration": 935
+    },
+    {
+      "id": "AZqw4yKfFp8",
+      "title": "Operaciones con VECTORES UNITARIOS, Calcular producto PUNTO",
+      "duration": 318
+    },
+    {
+      "id": "ESnMZ1Wq42w",
+      "title": "VECTOR que forma ÁNGULOS IGUALES con los EJES, en 2 y 3 dimensiones",
+      "duration": 388
+    },
+    {
+      "id": "7RpFjPEuybM",
+      "title": "38. Producto cruz, ¿de dónde sale la fórmula? con Gráfica | Cálculo vectorial",
+      "duration": 854
+    },
+    {
+      "id": "ey9jPBB3OV8",
+      "title": "39. Producto cruz como determinante 3x3. EJEMPLO RESUELTO | Cálculo vectorial",
+      "duration": 815
+    },
+    {
+      "id": "BGREgYbp7nI",
+      "title": "40. Producto cruz mediante el uso de vectores unitarios i,j,k | Cálculo vectorial",
+      "duration": 840
+    },
+    {
+      "id": "3JT_Fc29Piw",
+      "title": "41. Propiedades del producto cruz, con demostraciones | Cálculo vectorial",
+      "duration": 1331
+    },
+    {
+      "id": "_Cl1bg29whw",
+      "title": "42. Norma del producto cruz, seno del angulo, demostración de fórmula | Cálculo vectorial",
+      "duration": 435
+    },
+    {
+      "id": "qWoEeo9kWFE",
+      "title": "43. Área de paralelogramo determinado por dos vectores | Cálculo vectorial",
+      "duration": 514
+    },
+    {
+      "id": "6OjaBT6xOgY",
+      "title": "44. Regla de la mano derecha, dirección del producto cruz | Cálculo vectorial",
+      "duration": 244
+    },
+    {
+      "id": "kDxjj43CqI0",
+      "title": "Demostrar que los vectores son paralelos, producto cruz",
+      "duration": 277
+    },
+    {
+      "id": "k2jhbu6jfGo",
+      "title": "45. Triple producto escalar (Producto mixto), fórmula, ejemplos, demostración | Cálculo vectorial",
+      "duration": 520
+    },
+    {
+      "id": "Gzd7RFXkF3A",
+      "title": "46. Volumen de paralelepípedo, demostración de fórmula | Cálculo vectorial",
+      "duration": 655
+    },
+    {
+      "id": "pHcOyHmfAhU",
+      "title": "Volumen del paralelepípedo determinado por 3 vectores EJERCICIO RESUELTO (producto mixto)",
+      "duration": 380
+    },
+    {
+      "id": "jBoNqb6auhQ",
+      "title": "Cómo calcular el ángulo entre dos vectores, muy fácil | Cálculo vectorial",
+      "duration": 336
+    },
+    {
+      "id": "DqZzDyEhUOE",
+      "title": "Producto triple (Producto mixto) de 3 vectores (producto punto y producto cruz) | Cálculo",
+      "duration": 339
+    },
+    {
+      "id": "Lo5eDffXfz0",
+      "title": "47. Lista de ejercicios, con sugerencias (Lista 2)",
+      "duration": 845
+    },
+    {
+      "id": "yEwXQm9GKtQ",
+      "title": "48. Producto punto de vectores, MUY FÁCIL",
+      "duration": 202
+    },
+    {
+      "id": "SE0DI8kPBHQ",
+      "title": "49. Ángulo entre vectores, MUY FÁCIL",
+      "duration": 363
+    },
+    {
+      "id": "XLfzg0apEvw",
+      "title": "Ángulo entre vectores (de 4 dimensiones) EJERCICIO RESUELTO ¿son ortogonales u ortonormales?",
+      "duration": 481
+    },
+    {
+      "id": "L39NC2w4wyE",
+      "title": "50. Calcular los ángulos de un triángulo en tres dimensiones",
+      "duration": 529
+    },
+    {
+      "id": "TKujiQa1zeM",
+      "title": "51. Encontrar dos vectores que formen un ángulo de 60° con otro dado",
+      "duration": 910
+    },
+    {
+      "id": "GtWxYhdaKYo",
+      "title": "52. Cosenos y ángulos DIRECTORES de un vector, MUY FÁCIL",
+      "duration": 243
+    },
+    {
+      "id": "kMuszttgXnQ",
+      "title": "53. COSENOS DIRECTORES: Demostración y ejercicio",
+      "duration": 391
+    },
+    {
+      "id": "-AVi-oxqjdg",
+      "title": "54. Proyecciones de vectores, con gráfica, MUY FÁCIL",
+      "duration": 573
+    },
+    {
+      "id": "roc7lRDsROw",
+      "title": "55. Desigualdad de Cauchy - Schwarz DEMOSTRACIÓN usando vectores",
+      "duration": 217
+    },
+    {
+      "id": "VcESLUFF3F4",
+      "title": "56. Desigualdad del triángulo DEMOSTRACIÓN ¿Qué significa geométricamente?",
+      "duration": 468
+    },
+    {
+      "id": "XFNJMh9QbSU",
+      "title": "57. Ley del paralelogramo DEMOSTRACIÓN y explicación geométrica",
+      "duration": 318
+    },
+    {
+      "id": "Y0zX3j_TN4w",
+      "title": "58. Demostración sobre vector suma y vector resta ortogonales",
+      "duration": 184
+    },
+    {
+      "id": "SfjpGS4yK8Q",
+      "title": "59. Calcular el producto vectorial (Producto cruz), MUY FÁCIL",
+      "duration": 451
+    },
+    {
+      "id": "8FsgYYgdH5M",
+      "title": "Calcular A^B (producto vectorial AXB)",
+      "duration": 349
+    },
+    {
+      "id": "dUNEv00bRcA",
+      "title": "60. Encontrar dos vectores unitarios ortogonales a dos dados",
+      "duration": 315
+    },
+    {
+      "id": "2VI4C5IFVSA",
+      "title": "61. Encontrar vector ortogonal al plano que pasa por 3 puntos",
+      "duration": 570
+    },
+    {
+      "id": "SB8KPb7loCo",
+      "title": "Calcular vector perpendicular unitario a dos vectores dados",
+      "duration": 505
+    },
+    {
+      "id": "Ttb0-45BkUo",
+      "title": "62. Área del paralelogramo por 4 puntos, CON VECTORES",
+      "duration": 465
+    },
+    {
+      "id": "8_L_LhFYN40",
+      "title": "Área de paralelogramo determinado por dos vectores EJERCICIO RESUELTO (Producto cruz)",
+      "duration": 475
+    },
+    {
+      "id": "JVFt_b05fUM",
+      "title": "63. Área de un triángulo determinado por tres puntos, usando vectores",
+      "duration": 582
+    },
+    {
+      "id": "G2fJcH0BKBg",
+      "title": "64. Volumen del paralelepípedo formado por tres vectores",
+      "duration": 288
+    },
+    {
+      "id": "oeG-FCIOyWs",
+      "title": "65. Vectores paralelos y producto vectorial, demostración",
+      "duration": 421
+    },
+    {
+      "id": "teAzThgvTKg",
+      "title": "66. Demostrar que tres vectores son coplanares",
+      "duration": 356
+    },
+    {
+      "id": "G9mPIj7savY",
+      "title": "67. Identidad de Jacobi, DEMOSTRACIÓN",
+      "duration": 231
+    },
+    {
+      "id": "XrRag-PGkPQ",
+      "title": "68. Producto punto y cruz, regla de eliminación, ¿Es válida?",
+      "duration": 411
+    },
+    {
+      "id": "bwH8Y8xs12Y",
+      "title": "69. Demostración con producto vectorial y suma de vectores",
+      "duration": 277
+    },
+    {
+      "id": "RV3TFyVrYBs",
+      "title": "70. Ecuación vectorial de una recta en el plano y el espacio EXPLICACION",
+      "duration": 891
+    },
+    {
+      "id": "Q7uQbnCrtT4",
+      "title": "71. Ecuación vectorial de una recta en el plano cartesiano, y cómo transformarla",
+      "duration": 467
+    },
+    {
+      "id": "1N8Ls1opAws",
+      "title": "72. Ecuación vectorial, paramétricas y simétricas de una recta en el espacio R^3",
+      "duration": 846
+    },
+    {
+      "id": "JC7ApTvQvcU",
+      "title": "73. Ecuación vectorial de la recta que pasa por dos puntos, en el plano R^2",
+      "duration": 809
+    },
+    {
+      "id": "aMCO3sgbOD8",
+      "title": "74. Ecuación vectorial de la recta que pasa por dos puntos, en el espacio R^3",
+      "duration": 882
+    },
+    {
+      "id": "QdYh4lBbvfQ",
+      "title": "75. Ecuación vectorial de la recta paralela a otra, dada en su forma paramétrica",
+      "duration": 362
+    },
+    {
+      "id": "eHGdGT3Jhl4",
+      "title": "Recta paralela a otra en el espacio",
+      "duration": 519
+    },
+    {
+      "id": "q6zrucAkBpk",
+      "title": "76. Ecuación vectorial de una recta perpendicular a dos vectores",
+      "duration": 340
+    },
+    {
+      "id": "nW747J2Tw40",
+      "title": "77. Ecuación vectorial de recta, ¿son paralelas?",
+      "duration": 399
+    },
+    {
+      "id": "upQ087bT2zo",
+      "title": "78. Ecuación de recta paralela a los ejes coordenados en el espacio R^3",
+      "duration": 504
+    },
+    {
+      "id": "O8dxLWG5oW0",
+      "title": "79. Distancia de un punto a una recta en el espacio, DEMOSTRACIÓN",
+      "duration": 307
+    },
+    {
+      "id": "ut1Qsc8asSU",
+      "title": "80. Distancia de un punto a una recta en el espacio R^3",
+      "duration": 627
+    },
+    {
+      "id": "8HNDTpQd6Dc",
+      "title": "Calcular el área del triángulo formada por dos rectas y el eje X",
+      "duration": 590
+    },
+    {
+      "id": "CTohzh62JGM",
+      "title": "Calcular el área del triángulo formada por una recta y los ejes coordenados",
+      "duration": 291
+    },
+    {
+      "id": "hMyJSyMqACU",
+      "title": "81. Posición relativa de dos rectas en el espacio",
+      "duration": 1137
+    },
+    {
+      "id": "eX7e1OMq4IM",
+      "title": "82. Determinar si las rectas son paralelas, coincidentes, oblicuas o se intersectan",
+      "duration": 792
+    },
+    {
+      "id": "CYzWjCFzBq8",
+      "title": "83. Determinar si las rectas son paralelas, coincidentes, oblicuas o se intersectan",
+      "duration": 806
+    },
+    {
+      "id": "s8mwXKJL4Ko",
+      "title": "84. Determinar si las rectas son paralelas, coincidentes, oblicuas o se intersectan",
+      "duration": 816
+    },
+    {
+      "id": "agQVrkgutaM",
+      "title": "85. Rectas perpendiculares en el plano, usando vectores",
+      "duration": 719
+    },
+    {
+      "id": "V_qqUCYJuPo",
+      "title": "86. Ángulo que forman dos rectas en R^2 y R^3, a partir de vector director",
+      "duration": 745
+    },
+    {
+      "id": "s5O0Vdvioh8",
+      "title": "87. Calcular recta perpendicular en R^3, que corta a la recta dada",
+      "duration": 1141
+    },
+    {
+      "id": "0IN_eCjxQ4c",
+      "title": "88. Cómo parametrizar un segmento de recta",
+      "duration": 1072
+    },
+    {
+      "id": "RxAenxyCtTQ",
+      "title": "89. Ecuación Vectorial y General del plano EXPLICACIÓN COMPLETA",
+      "duration": 499
+    },
+    {
+      "id": "_3cqVS6KWpA",
+      "title": "90. Ecuación del plano, dado punto y vector normal",
+      "duration": 762
+    },
+    {
+      "id": "1m8wY5tdkj8",
+      "title": "91. Ecuación del plano, dado punto y recta perpendicular",
+      "duration": 443
+    },
+    {
+      "id": "EVK0cMHmAP8",
+      "title": "92. Ecuación del plano PARALELO a otro plano",
+      "duration": 547
+    },
+    {
+      "id": "DeKqq0RA-v8",
+      "title": "93. Ecuación del plano que contiene dos vectores y un punto",
+      "duration": 662
+    },
+    {
+      "id": "ErRti6SRu3g",
+      "title": "94. Ecuación del plano que contiene TRES PUNTOS",
+      "duration": 684
+    },
+    {
+      "id": "pATadlTktuA",
+      "title": "95. Ecuación del plano: MÉTODO DE SUSTITUCIÓN",
+      "duration": 1187
+    },
+    {
+      "id": "WdDIUnd33CE",
+      "title": "Plano que pasa por tres puntos",
+      "duration": 410
+    },
+    {
+      "id": "pGXmULCBQdI",
+      "title": "96. Ecuación del plano que contiene una recta",
+      "duration": 675
+    },
+    {
+      "id": "qT13gjxieT0",
+      "title": "Plano que contiene a una recta y es perpendicular a otro plano",
+      "duration": 596
+    },
+    {
+      "id": "v8O0xuC2uyk",
+      "title": "Plano que contiene a una recta y es paralelo a otra",
+      "duration": 452
+    },
+    {
+      "id": "0EJ1x46bxd4",
+      "title": "97. Intersección de plano y recta",
+      "duration": 365
+    },
+    {
+      "id": "Ar-Ybdc1N4I",
+      "title": "98. Intersección de planos (Planos paralelos, coincidentes y oblicuos)",
+      "duration": 1244
+    },
+    {
+      "id": "j_cV-TKFm-E",
+      "title": "99. Ecuación de recta expresada como intersección de dos planos",
+      "duration": 306
+    },
+    {
+      "id": "qEVrSjLyOdU",
+      "title": "100. Ángulo entre dos planos, MUY FÁCIL",
+      "duration": 944
+    },
+    {
+      "id": "7S6ouCWUorU",
+      "title": "101. Distancia de un punto a un plano, DEMOSTRACIÓN de fórmula",
+      "duration": 442
+    },
+    {
+      "id": "RGpMaa3ZJ9g",
+      "title": "102. DISTANCIA de un punto a un PLANO, MUY FÁCIL",
+      "duration": 390
+    },
+    {
+      "id": "T1RZ5SjNH8Q",
+      "title": "103. Distancia entre dos planos paralelos",
+      "duration": 565
+    },
+    {
+      "id": "YK_AI7USNwY",
+      "title": "104. Posición relativa de 3 planos, TODOS LOS CASOS",
+      "duration": 1220
+    },
+    {
+      "id": "flt55sC7wDE",
+      "title": "105. Interseccion de tres planos oblicuos",
+      "duration": 583
+    },
+    {
+      "id": "KQ5Uoqvh2xw",
+      "title": "106. Cómo parametrizar un Plano, EXPLICACIÓN COMPLETA",
+      "duration": 1614
+    },
+    {
+      "id": "cSs9gEmMZKk",
+      "title": "💎106. Ecuaciones paramétricas del plano EJERCICIOS RESUELTOS",
+      "duration": 447
+    },
+    {
+      "id": "BuAeDL_F8OE",
+      "title": "Ecuación de una esfera EXPLICACIÓN COMPLETA",
+      "duration": 1380
+    },
+    {
+      "id": "ghAnqRky_Z4",
+      "title": "💎 Ecuación de la Esfera EJERCICIOS RESUELTOS",
+      "duration": 675
+    },
+    {
+      "id": "KlQOyuPZ6po",
+      "title": "Superficies cuádricas y cilindros EXPLICACIÓN COMPLETA",
+      "duration": 3702
+    },
+    {
+      "id": "3i3DzpqZ8-4",
+      "title": "💎 Superficies cuádricas: Solución de los Ejercicios",
+      "duration": 891
+    },
+    {
+      "id": "74jviHXFfIs",
+      "title": "¿Qué es una función de VARIAS VARIABLES? (Ejemplos, gráficas y aplicaciones) (Parte 1)",
+      "duration": 1859
+    },
+    {
+      "id": "k3m5R8g281c",
+      "title": "DOMINIO, RANGO, CURVAS DE NIVEL de una FUNCIÓN de VARIAS VARIABLES",
+      "duration": 663
+    },
+    {
+      "id": "YstXyGV5j2g",
+      "title": "Operaciones con FUNCIONES de 3 VARIABLES, y su DOMINIO",
+      "duration": 336
+    },
+    {
+      "id": "Qn2p1b1HB38",
+      "title": "Dominio de función de dos variables, con raíz cuadrada",
+      "duration": 699
+    },
+    {
+      "id": "eVArR2OHXNI",
+      "title": "💎 Dominio de función de dos variables, con raíz cuadrada, regiones mas complicadas",
+      "duration": 456
+    },
+    {
+      "id": "k9Ierxuawho",
+      "title": "Dominio de función de dos variables",
+      "duration": 523
+    },
+    {
+      "id": "lI2OFWDORx4",
+      "title": "💎 Dominio de función de dos variables, con raíz cuadrada y división, regiones mas complicadas",
+      "duration": 433
+    },
+    {
+      "id": "mPR3NcSPytk",
+      "title": "Dominio de función de dos variables",
+      "duration": 826
+    },
+    {
+      "id": "SD0esojLxtw",
+      "title": "💎 Dominio de función de dos variables, con logaritmo y división, regiones mas complicadas",
+      "duration": 376
+    },
+    {
+      "id": "gutYqtDLJIg",
+      "title": "Cómo Parametrizar una Curva - Ecuaciones Paramétricas EXPLICACIÓN COMPLETA",
+      "duration": 2127
+    },
+    {
+      "id": "PrHvV2itZcI",
+      "title": "01. Curvas paramétricas - Graficar, eliminar parámetro, obtener ecuación cartesiana",
+      "duration": 450
+    },
+    {
+      "id": "c71bfeJzx8s",
+      "title": "02. Curvas paramétricas - Graficar, eliminar parámetro, obtener ecuación cartesiana, parábola",
+      "duration": 426
+    },
+    {
+      "id": "gXDLc1gTfGM",
+      "title": "03. Curvas paramétricas - Graficar, eliminar parámetro",
+      "duration": 480
+    },
+    {
+      "id": "m-R5pWWs2mE",
+      "title": "04. Curvas paramétricas - Graficar, eliminar parámetro, parábola diagonal",
+      "duration": 793
+    },
+    {
+      "id": "WeLVp_i5V6E",
+      "title": "05. Curvas paramétricas - Graficar, eliminar parámetro, circunferencia",
+      "duration": 499
+    },
+    {
+      "id": "NwsVMTU4Ums",
+      "title": "06. Curvas paramétricas - Graficar, eliminar parámetro, elipse",
+      "duration": 475
+    },
+    {
+      "id": "HtfiDP0jI_o",
+      "title": "07. Curvas paramétricas - Graficar y eliminar parámetro",
+      "duration": 584
+    },
+    {
+      "id": "kK0mFdwhuT8",
+      "title": "Coordenadas Cilíndricas ¿Qué son? EXPLICACIÓN COMPLETA",
+      "duration": 2095
+    },
+    {
+      "id": "W5GGePKn9Ck",
+      "title": "💎 Coordenadas Cilíndricas EJERCICIOS RESUELTOS",
+      "duration": 935
+    },
+    {
+      "id": "MDHwVtEq7Do",
+      "title": "Coordenadas Esféricas ¿Qué son? EXPLICACIÓN COMPLETA",
+      "duration": 2376
+    },
+    {
+      "id": "BlIqLvpRpHo",
+      "title": "01. Límites de varias variables PASO A PASO",
+      "duration": 247
+    },
+    {
+      "id": "EPxAEQc_yoo",
+      "title": "02. Límites de varias variables, FACTORIZACIÓN Y RACIONALIZACIÓN",
+      "duration": 446
+    },
+    {
+      "id": "I_lwjELUn5E",
+      "title": "03. Límites de dos variables DEMOSTRAR QUE NO EXISTE",
+      "duration": 624
+    },
+    {
+      "id": "yXCoO0JrD28",
+      "title": "04. Límites de varias variables CAMBIO DE VARIABLES",
+      "duration": 675
+    },
+    {
+      "id": "NryAe3pGobA",
+      "title": "05. Límites de dos variables que NO EXISTEN, Analizando TRAYECTORIAS CURVAS",
+      "duration": 502
+    },
+    {
+      "id": "0bmtedklTLM",
+      "title": "06. Límites de dos variables COORDENADAS POLARES, ejemplos resueltos",
+      "duration": 536
+    },
+    {
+      "id": "x0lhUOOcKxw",
+      "title": "07. Límite de dos variables ¡CUIDADO AL USAR COORDENADAS POLARES!",
+      "duration": 421
+    },
+    {
+      "id": "y96Z1FSqS1M",
+      "title": "08. Límites de dos variables ANÁLISIS COMPLETO Y DEMOSTRACIÓN",
+      "duration": 683
+    },
+    {
+      "id": "xjELCVC3oxQ",
+      "title": "09. Límites de tres variables MEDIANTE SIMPLIFICACIÓN y sustitución",
+      "duration": 310
+    },
+    {
+      "id": "u2sVgsLET6U",
+      "title": "10. Límites de tres variables DEMOSTRAR QUE NO EXISTE usando rectas",
+      "duration": 330
+    },
+    {
+      "id": "z0jr5d4YmvI",
+      "title": "11. Límite de 3 variables con COORDENADAS ESFÉRICAS",
+      "duration": 208
+    },
+    {
+      "id": "XKgfHOaXhqs",
+      "title": "Derivadas parciales, EJEMPLOS RESUELTOS, MUY FÁCIL",
+      "duration": 633
+    },
+    {
+      "id": "uVQsgBzZj48",
+      "title": "Derivadas Parciales de FUNCIÓN IMPLÍCITA (Incluye GRÁFICA)",
+      "duration": 668
+    },
+    {
+      "id": "DFn9wUEBnbU",
+      "title": "Calcular las derivadas parciales aplicando regla de la cadena (varias variables)",
+      "duration": 516
+    },
+    {
+      "id": "Uon6ru_sJQo",
+      "title": "REGLA DE LA CADENA, VARIAS VARIABLES, ejemplo resuelto",
+      "duration": 843
+    },
+    {
+      "id": "OvulhAcBVA4",
+      "title": "Laplaciano en coordenadas polares: Demostración",
+      "duration": 1309
+    },
+    {
+      "id": "e99eUZujkGw",
+      "title": "Verificar ecuación diferencial parcial (usando regla de cadena)",
+      "duration": 679
+    },
+    {
+      "id": "LO7Fe4rxf00",
+      "title": "Máximos, Mínimos y Puntos Silla EN 3 PASOS (Función de 2 variables)",
+      "duration": 511
+    },
+    {
+      "id": "vxcr75A72t0",
+      "title": "08. Ejercicios de Máximos y mínimos de funciones de varias variables",
+      "duration": 5314
+    },
+    {
+      "id": "BjalS0fvxL0",
+      "title": "01. Integral doble, usando teorema de Fubini",
+      "duration": 969
+    },
+    {
+      "id": "F3jfy0OY_E4",
+      "title": "02. Integral doble, Teorema de Fubini",
+      "duration": 823
+    },
+    {
+      "id": "tYCayJg2lBU",
+      "title": "¿Qué es una integral Doble? - Volumen bajo Superficie",
+      "duration": 281
+    },
+    {
+      "id": "AFcrR7DWVbY",
+      "title": "03. Integral doble, teorema de Fubini",
+      "duration": 583
+    },
+    {
+      "id": "wGiEPGQ4fEE",
+      "title": "Teorema de Fubini, explicación y demostración",
+      "duration": 599
+    },
+    {
+      "id": "DOT0AxTy0jc",
+      "title": "04. Integral doble, con función trigonométrica seno",
+      "duration": 578
+    },
+    {
+      "id": "aPbtM-Yw9Ro",
+      "title": "04. En vivo - Integrales dobles y triples",
+      "duration": 7635
+    },
+    {
+      "id": "34mdJudRBQA",
+      "title": "05. Integral doble, con función exponencial",
+      "duration": 497
+    },
+    {
+      "id": "LJY59ErdTDU",
+      "title": "INTEGRAL DOBLE usando teorema de Fubini, separando como producto",
+      "duration": 269
+    },
+    {
+      "id": "T4vNOJudtS4",
+      "title": "06. Integral doble, con binomio a la cuarta",
+      "duration": 596
+    },
+    {
+      "id": "L0dNypzxrow",
+      "title": "07. Cómo calcular volumen Debajo de un PLANO con integral doble (Y Gráfica)",
+      "duration": 434
+    },
+    {
+      "id": "IoXK38OaWOY",
+      "title": "08. Cómo calcular volumen con integral doble (Con Gráfica)",
+      "duration": 522
+    },
+    {
+      "id": "oJHZhOAEWqg",
+      "title": "09. Integral doble con un polinomio de dos variables",
+      "duration": 304
+    },
+    {
+      "id": "4rS5x37Ochc",
+      "title": "10. Integral doble con función exponencial",
+      "duration": 134
+    },
+    {
+      "id": "g88l94MdNlk",
+      "title": "INTEGRAL DOBLE de división de polinomios, Teorema de Fubini, separando como producto",
+      "duration": 240
+    },
+    {
+      "id": "XnnBNjtSjTo",
+      "title": "11. Cómo hacer una integral doble mediante Integración por Partes",
+      "duration": 460
+    },
+    {
+      "id": "NMXmqaN8jN0",
+      "title": "INTEGRAL DOBLE usando TRUCO de SIMETRÍA",
+      "duration": 272
+    },
+    {
+      "id": "yDsOINCXmeE",
+      "title": "💎 INTEGRAL DOBLE usando TRUCO de SIMETRÍA",
+      "duration": 116
+    },
+    {
+      "id": "m68ph0MSTUo",
+      "title": "💎 INTEGRAL DOBLE usando TRUCO de SIMETRÍA",
+      "duration": 104
+    },
+    {
+      "id": "pNrO94b2jGs",
+      "title": "VOLUMEN usando INTEGRALES, Paraboloide Hiperbólico",
+      "duration": 371
+    },
+    {
+      "id": "iDM-rjUC5Ys",
+      "title": "💎 VOLUMEN usando INTEGRALES, debajo de un Plano",
+      "duration": 263
+    },
+    {
+      "id": "GOqIsS5kPAk",
+      "title": "💎 VOLUMEN usando INTEGRALES, debajo de Paraboloide Elíptico",
+      "duration": 312
+    },
+    {
+      "id": "2PwHTo_jXT8",
+      "title": "VOLUMEN debajo de CILINDRO en PRIMER OCTANTE con INTEGRAL DOBLE",
+      "duration": 383
+    },
+    {
+      "id": "-oihKiblE2I",
+      "title": "💎 Volumen entre PARABOLOIDE y PLANO, usando INTEGRAL DOBLE",
+      "duration": 315
+    },
+    {
+      "id": "PXn42OHl7ak",
+      "title": "12. Integral triple con polinomio de tres variables",
+      "duration": 261
+    },
+    {
+      "id": "Hg_u4uBakzw",
+      "title": "Integral Doble, definición como Suma de Riemann",
+      "duration": 600
+    },
+    {
+      "id": "aMBzxo0OFXY",
+      "title": "13. Integral doble con variables en los límites de integración",
+      "duration": 140
+    },
+    {
+      "id": "tntZk7u5Bvo",
+      "title": "Integral Triple, definición como Suma de Riemann",
+      "duration": 103
+    },
+    {
+      "id": "IYcNCi3qEXE",
+      "title": "02. Integrales dobles en regiones generales, cálculo de varias variables de Stewart",
+      "duration": 8755
+    },
+    {
+      "id": "Edco4PeO7WQ",
+      "title": "Regiones tipo 1 y tipo 2, EXPLICACIÓN COMPLETA para integrales iteradas (varias variables)",
+      "duration": 1113
+    },
+    {
+      "id": "64eOuekRU4k",
+      "title": "Integral doble en regiones generales, explicación",
+      "duration": 568
+    },
+    {
+      "id": "VzK7qd73j18",
+      "title": "💎 Expresar como región Tipo 1 y Tipo 2: Región formada por 2 parábolas",
+      "duration": 451
+    },
+    {
+      "id": "kLyIPoon1Ug",
+      "title": "💎 Expresar como región Tipo 1 y Tipo 2: Región triangular",
+      "duration": 409
+    },
+    {
+      "id": "6GlJ-m5c3Ak",
+      "title": "💎 Expresar como región Tipo 1 y Tipo 2: Región formada por exponencial",
+      "duration": 306
+    },
+    {
+      "id": "2loUJJ0cgHA",
+      "title": "Integral doble, cambiando orden de integración",
+      "duration": 443
+    },
+    {
+      "id": "jgUn7ifniwk",
+      "title": "Integral doble mediante CAMBIO EN ORDEN DE INTEGRACIÓN",
+      "duration": 494
+    },
+    {
+      "id": "aWFBjPrC45c",
+      "title": "14. Integral doble mediante cambio de orden de integración",
+      "duration": 290
+    },
+    {
+      "id": "9fZVhAmy_kA",
+      "title": "15. Integral doble raíz cuadrada de exponencial",
+      "duration": 414
+    },
+    {
+      "id": "v8S-QNt8n8c",
+      "title": "16. Integral doble sobre una región tipo 2",
+      "duration": 441
+    },
+    {
+      "id": "QNJVbbsOZNQ",
+      "title": "17. Integral doble sobre una región tipo 1, división de polinomios",
+      "duration": 398
+    },
+    {
+      "id": "wy4f1g_dL-A",
+      "title": "18. Integral doble, con integración por partes",
+      "duration": 469
+    },
+    {
+      "id": "ZNKu8iD_LZA",
+      "title": "19. Integral doble (Iterada), CAMBIANDO EL ORDEN de integración (Región General)",
+      "duration": 532
+    },
+    {
+      "id": "OOgGcNvGUPU",
+      "title": "20. Integral doble (Iterada), CAMBIANDO EL ORDEN de integración (Región General)",
+      "duration": 843
+    },
+    {
+      "id": "1Wzxb04V3ac",
+      "title": "21. Integral doble (Iterada) en REGIÓN TRIANGULAR (2 FORMAS)",
+      "duration": 709
+    },
+    {
+      "id": "8Ya7-_j26cU",
+      "title": "22. Integral DOBLE (Iterada) Cambiando EL ORDEN de INTEGRACIÓN",
+      "duration": 464
+    },
+    {
+      "id": "ELs2dAXb8_M",
+      "title": "23. Integral DOBLE (Iterada) Cambiando EL ORDEN de INTEGRACIÓN",
+      "duration": 340
+    },
+    {
+      "id": "TSgnUIPpVQk",
+      "title": "24. Integral DOBLE (Iterada) Cambiando EL ORDEN de INTEGRACIÓN",
+      "duration": 430
+    },
+    {
+      "id": "fcTsksRqgyA",
+      "title": "25. Calcular el ÁREA de una REGIÓN, usando INTEGRALES DOBLES",
+      "duration": 469
+    },
+    {
+      "id": "ms8fM1XFFB8",
+      "title": "13. Integrales dobles y triples, MUCHOS ejercicios resueltos en UN VIDEO",
+      "duration": 4661
+    },
+    {
+      "id": "0dBO6acUEH4",
+      "title": "Área bajo la curva, por dos métodos, cálculo integral",
+      "duration": 243
+    },
+    {
+      "id": "y5hPKFu4_VY",
+      "title": "Integral doble en coordenadas polares",
+      "duration": 541
+    },
+    {
+      "id": "V8HGzJtBaXY",
+      "title": "Integrales de línea (Campos Escalares) EXPLICACIÓN COMPLETA",
+      "duration": 2420
+    },
+    {
+      "id": "GPP9i1UeAqw",
+      "title": "💎 Integrales de línea en campos escalares EJERCICIOS RESUELTOS",
+      "duration": 1081
+    },
+    {
+      "id": "Ov9kpGAjMUI",
+      "title": "Valor PROMEDIO de una FUNCIÓN de DOS VARIABLES (Integral Doble)",
+      "duration": 305
+    },
+    {
+      "id": "ophSDY7mv_Y",
+      "title": "Cómo Graficar Funciones Polares MUY FÁCIL (5 Métodos Incluyendo GeoGebra y desmos)",
+      "duration": 2368
+    },
+    {
+      "id": "PVL5evSkfSw",
+      "title": "Integral de línea 3 dimensiones, intersección de superficies",
+      "duration": 570
+    },
+    {
+      "id": "KwaquV-hECs",
+      "title": "Integral de línea por TEOREMA DE GREEN, explicada paso a paso",
+      "duration": 1030
+    },
+    {
+      "id": "4qdW6sqTbyA",
+      "title": "Integral de línea, por teorema fundamental en CAMPO CONSERVATIVO",
+      "duration": 782
+    },
+    {
+      "id": "AGUHyRIPbKI",
+      "title": "Geometría Vectorial - Ejercicios Resueltos: Ecuación de recta, plano, área de triángulo, etc",
+      "duration": 693
+    },
+    {
+      "id": "AOkCkjP0nWI",
+      "title": "Integral de línea de un CAMPO CONSERVATIVO, calcular la FUNCIÓN POTENCIAL",
+      "duration": 951
+    },
+    {
+      "id": "1DJLyPQtUqQ",
+      "title": "Derivadas parciales usando la DEFINICIÓN de límite (Cálculo de varias variables)",
+      "duration": 417
+    },
+    {
+      "id": "tQ8Wn8-mR54",
+      "title": "Ejercicio de vectores y módulos (Norma, Longitud, Producto Punto, etc)",
+      "duration": 476
+    },
+    {
+      "id": "2MZSLTgcAj0",
+      "title": "Multiplicadores de Lagrange: EJEMPLO RESUELTO",
+      "duration": 389
+    },
+    {
+      "id": "77m4S3Ri92I",
+      "title": "Calcular la Masa del Alambre, INTEGRAL DE LÍNEA",
+      "duration": 589
+    },
+    {
+      "id": "lrO3hAdl_2A",
+      "title": "Integral de línea en circulo unitario, Derivadas Parciales iguales pero Campo NO Conservativo",
+      "duration": 638
+    },
+    {
+      "id": "UhAhm3mVYoM",
+      "title": "Integral doble, usando Jacobiano, EXPLICADO PASO A PASO (Cambio de Variable, Transformación)",
+      "duration": 1577
+    },
+    {
+      "id": "HaSeSKqFV8c",
+      "title": "Teorema de la divergencia (o Teorema de Gauss) EJEMPLO RESUELTO",
+      "duration": 647
+    },
+    {
+      "id": "bEUFgavkZp4",
+      "title": "Derivada Parcial de una integral (Función de tres variables) ¿Cómo se resuelve?",
+      "duration": 355
+    },
+    {
+      "id": "_6VKmkBjrU8",
+      "title": "Derivada parcial USANDO DEFINICIÓN - Función de 3 Variables",
+      "duration": 340
+    },
+    {
+      "id": "w2qDc_nlsUo",
+      "title": "💎 Derivada parcial USANDO DEFINICIÓN - Función de 3 Variables",
+      "duration": 267
+    },
+    {
+      "id": "EqcfIC_t6L4",
+      "title": "Segunda derivada con Regla de la Cadena, FUNCIÓN DE 2 VARIABLES (Usando Diagrama)",
+      "duration": 650
+    },
+    {
+      "id": "q0KyTo_Nmkg",
+      "title": "Integrales Dobles en Coordenadas Polares EXPLICACIÓN COMPLETA - Parte 1: Regiones Simples",
+      "duration": 1804
+    },
+    {
+      "id": "eNm0m2dwhrc",
+      "title": "💎 Integrales Dobles en Coordenadas Polares EXPLICACIÓN COMPLETA - Parte 1: Regiones Simples",
+      "duration": 563
+    },
+    {
+      "id": "wuK92oz7O7U",
+      "title": "Integrales Dobles en Coordenadas Polares - Parte 2: Regiones Generales PASO A PASO MUY FÁCIL",
+      "duration": 1561
+    },
+    {
+      "id": "IVZ_pHl2FDQ",
+      "title": "Demostración con producto cruz (axb)x(cxd)=0 si los vectores son coplanares (2 métodos)",
+      "duration": 364
+    },
+    {
+      "id": "a-_kc3r9MV4",
+      "title": "Integral de Superficie de Campo Escalar (Paraboloide con Coordenadas Polares)",
+      "duration": 1003
+    },
+    {
+      "id": "re5f5HXCwjg",
+      "title": "Teorema de Divergencia, Integral de Superficie (Cilindro y condiciones especiales para campo)",
+      "duration": 1295
+    },
+    {
+      "id": "P8CLgkRH8kk",
+      "title": "Integral triple en Coordenadas Esféricas (Calcular Volumen limitado por superficies)",
+      "duration": 852
+    },
+    {
+      "id": "zlpNzs5RfY0",
+      "title": "Integral triple en Coordenadas Cilíndricas (Calcular Volumen limitado por superficies)",
+      "duration": 723
+    },
+    {
+      "id": "a2OiBybGqt0",
+      "title": "Multiplicadores de Lagrange: Caja de Volumen Máximo (Optimización)",
+      "duration": 571
+    },
+    {
+      "id": "BeQ6OAQ3Y64",
+      "title": "Volumen usando integrales Dobles en Coordenadas Polares",
+      "duration": 844
+    },
+    {
+      "id": "3VI_1AuVnqc",
+      "title": "Centro de Masa de Lámina, usando Integral Doble en Coordenadas Polares",
+      "duration": 800
+    },
+    {
+      "id": "zPU5mXwCdeQ",
+      "title": "Momento de Inercia, usando integral Doble en Coordenadas Polares",
+      "duration": 503
+    },
+    {
+      "id": "aiUwcRclEXM",
+      "title": "💎 Momento de Inercia, usando integral Doble en Coordenadas Polares",
+      "duration": 264
+    },
+    {
+      "id": "1G85MZPSqUw",
+      "title": "💎INTEGRAL DOBLE usando Teorema de Fubini, con raíz cuadrada",
+      "duration": 283
+    },
+    {
+      "id": "2wxf65ZYt_U",
+      "title": "💎INTEGRAL DOBLE usando Teorema de Fubini, con raíz cuadrada",
+      "duration": 394
+    },
+    {
+      "id": "ru6zWPf3sKw",
+      "title": "💎 INTEGRAL DOBLE de división de polinomios, Teorema de Fubini, separando como producto",
+      "duration": 200
+    },
+    {
+      "id": "dFmtRqvp-o8",
+      "title": "💎 INTEGRAL DOBLE de división de polinomios, Teorema de Fubini, separando como producto",
+      "duration": 141
+    },
+    {
+      "id": "mpwb6qDlYYU",
+      "title": "💎 INTEGRAL DOBLE de división de polinomios, Teorema de Fubini",
+      "duration": 378
+    },
+    {
+      "id": "2fTTK95M608",
+      "title": "💎23.1 Integral DOBLE (Iterada) Cambiando EL ORDEN de INTEGRACIÓN",
+      "duration": 291
+    },
+    {
+      "id": "vy38OerOTvk",
+      "title": "💎23.2 Integral DOBLE (Iterada) Cambiando EL ORDEN de INTEGRACIÓN",
+      "duration": 315
+    },
+    {
+      "id": "Gt4rUZMicb8",
+      "title": "💎24. Integral DOBLE (Iterada) Cambiando EL ORDEN de INTEGRACIÓN",
+      "duration": 250
+    },
+    {
+      "id": "3jdHp-Pfk6M",
+      "title": "💎25.1 Calcular el ÁREA de una REGIÓN, usando INTEGRALES DOBLES",
+      "duration": 188
+    },
+    {
+      "id": "RYkJhjH8PTM",
+      "title": "💎25.2 Calcular el ÁREA de una REGIÓN, usando INTEGRALES DOBLES",
+      "duration": 169
+    },
+    {
+      "id": "mauSh_4g33A",
+      "title": "💎 Valor PROMEDIO de una FUNCIÓN de DOS VARIABLES (Integral Doble)",
+      "duration": 297
+    },
+    {
+      "id": "HckviYx0u5s",
+      "title": "💎19. Integral doble (Iterada), CAMBIANDO EL ORDEN de integración (Región General)",
+      "duration": 368
+    },
+    {
+      "id": "NPEUCYWm0iM",
+      "title": "💎20.2 Integral doble (Iterada), CAMBIANDO EL ORDEN de integración (Región General)",
+      "duration": 431
+    },
+    {
+      "id": "V6UNBrYH_HA",
+      "title": "💎20.1 Integral doble (Iterada), CAMBIANDO EL ORDEN de integración (Región General)",
+      "duration": 493
+    },
+    {
+      "id": "cBWWxMugY5s",
+      "title": "💎21. Integral doble (Iterada) en REGIÓN TRIANGULAR (2 FORMAS)",
+      "duration": 565
+    },
+    {
+      "id": "q1uv2SoWPfM",
+      "title": "💎22. Integral DOBLE (Iterada) Cambiando EL ORDEN de INTEGRACIÓN",
+      "duration": 456
+    },
+    {
+      "id": "NO3jQeYDt8c",
+      "title": "💎 Integrales dobles en Coordenadas Polares: Área de un pétalo de la Rosa de 3 Pétalos",
+      "duration": 375
+    },
+    {
+      "id": "UCcHgENyCrY",
+      "title": "💎 Integrales dobles en Coordenadas Polares: Área de la intersección de las cardioides",
+      "duration": 361
+    },
+    {
+      "id": "au-umDJOmZ0",
+      "title": "G4. Integral Gaussiana: Coordenadas Polares (Demostración)",
+      "duration": 588
+    },
+    {
+      "id": "_DX1iUXb7OY",
+      "title": "💎G4. Integral Gaussiana: Ejercicio 1",
+      "duration": 261
+    },
+    {
+      "id": "5D39E0mIq6Y",
+      "title": "💎G4. Integral Gaussiana: Ejercicio 2",
+      "duration": 306
+    },
+    {
+      "id": "TgbemK5Qmag",
+      "title": "💎G4. Integral Gaussiana: Ejercicio 3",
+      "duration": 385
+    },
+    {
+      "id": "N6DAB49hS7Q",
+      "title": "01. Cómo Resolver Integrales Dobles en Coordenadas Polares (Ejercicio 1)",
+      "duration": 403
+    },
+    {
+      "id": "3i6I639cfwA",
+      "title": "💎01. Cómo Resolver Integrales Dobles en Coordenadas Polares (Ejercicio 2)",
+      "duration": 344
+    },
+    {
+      "id": "vQrPAK0RWmw",
+      "title": "02. Cómo Resolver Integrales Dobles en Coordenadas Polares (Ejercicio 3)",
+      "duration": 335
+    },
+    {
+      "id": "JvXWbc_JPVw",
+      "title": "💎02. Cómo Resolver Integrales Dobles en Coordenadas Polares (Ejercicio 4)",
+      "duration": 313
+    },
+    {
+      "id": "fGEiX7tC0A8",
+      "title": "03. Cómo Resolver Integrales Dobles en Coordenadas Polares (Ejercicio 5)",
+      "duration": 355
+    },
+    {
+      "id": "4BJYQRR3tOU",
+      "title": "💎03. Cómo Resolver Integrales Dobles en Coordenadas Polares (Ejercicio 6)",
+      "duration": 295
+    },
+    {
+      "id": "QNLXWiHJE4s",
+      "title": "04. Cómo Resolver Integrales Dobles en Coordenadas Polares (Ejercicio 7)",
+      "duration": 407
+    },
+    {
+      "id": "WbF-nv61ZSY",
+      "title": "Integral Triple en Coordenadas Esféricas PASO A PASO (Con gráficas explicadas)",
+      "duration": 734
+    },
+    {
+      "id": "J3LLo4MPucU",
+      "title": "Cómo parametrizar - EJERCICIOS RESUELTOS - Parametrizar las curvas y graficar",
+      "duration": 891
+    },
+    {
+      "id": "WOPsQJAJoLE",
+      "title": "💎Cómo parametrizar - EJERCICIOS RESUELTOS - Parametrizar las curvas y graficar",
+      "duration": 633
+    },
+    {
+      "id": "9M_VfY1blm8",
+      "title": "💎Cómo parametrizar en 2 dimensiones - Graficar, eliminar parámetro y obtener ecuacion cartesiana",
+      "duration": 1031
+    },
+    {
+      "id": "j1GT8Dvf5ZI",
+      "title": "Cómo Parametrizar Curvas en 3 Dimensiones EXPLICACIÓN COMPLETA Paso a Paso",
+      "duration": 2260
+    },
+    {
+      "id": "jvs5F2XZzXQ",
+      "title": "💎Cómo parametrizar en 3 dimensiones - intersección de dos esferas",
+      "duration": 304
+    },
+    {
+      "id": "1lZFl1CTJlI",
+      "title": "💎Cómo parametrizar en 3 dimensiones - Intersección de esfera y cilindro",
+      "duration": 410
+    },
+    {
+      "id": "bOGRFsc9LjQ",
+      "title": "💎Cómo parametrizar en 3 dimensiones - Intersección de paraboloide hiperbólico y cilindro",
+      "duration": 258
+    },
+    {
+      "id": "8VM4ulK3D84",
+      "title": "💎Cómo parametrizar en 3 dimensiones - Intersección de cono y plano",
+      "duration": 271
+    },
+    {
+      "id": "Q3ePafKUHrs",
+      "title": "💎Cómo parametrizar en 3 dimensiones - Describir y gráficar la curva, ejercicios 1 y 2",
+      "duration": 467
+    },
+    {
+      "id": "Bys-QOsgLPw",
+      "title": "💎Cómo parametrizar en 3 dimensiones - Describir y gráficar la curva, ejercicios 3 y 4",
+      "duration": 670
+    }
+  ]
+}

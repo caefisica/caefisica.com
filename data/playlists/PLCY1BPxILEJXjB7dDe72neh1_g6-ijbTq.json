@@ -1,0 +1,400 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Variable compleja 3. Funciones",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2020-03-12",
+  "lessons": [
+    {
+      "id": "1vgDc0dc6Ns",
+      "title": "Contenido del capitulo de Funciones",
+      "duration": 222
+    },
+    {
+      "id": "7zA7RRjpScs",
+      "title": "Función Compleja I Definición",
+      "duration": 361
+    },
+    {
+      "id": "eP0ohV6w-cc",
+      "title": "Mapeo en funciones complejas I Ejemplo 1",
+      "duration": 318
+    },
+    {
+      "id": "mohQbFBVwAY",
+      "title": "Mapeo de funciones complejas I Ejemplo 2",
+      "duration": 490
+    },
+    {
+      "id": "hgk6uPDG8PY",
+      "title": "Mapeo en funciones complejas I Ejemplo 3",
+      "duration": 273
+    },
+    {
+      "id": "Tchwc2vfsPM",
+      "title": "Mapeo en funciones complejas I Ejemplo 4",
+      "duration": 373
+    },
+    {
+      "id": "3OOHnaBh-dI",
+      "title": "Mapeo en funciones complejas I Ejemplo 5",
+      "duration": 356
+    },
+    {
+      "id": "Jm_OiNMGinE",
+      "title": "Mapeo en funciones complejas I Ejemplo 6",
+      "duration": 635
+    },
+    {
+      "id": "GSLhzYjvrJg",
+      "title": "Mapeo en funciones complejas I Ejemplo 7",
+      "duration": 646
+    },
+    {
+      "id": "EBrxGAa1n8Q",
+      "title": "Mapeo en funciones complejas I Ejemplo 8",
+      "duration": 240
+    },
+    {
+      "id": "CxgLbUOEI30",
+      "title": "Mapeo en funciones complejas I Ejemplo 9",
+      "duration": 243
+    },
+    {
+      "id": "8oLRbFD4HKo",
+      "title": "Mapeo en funciones complejas I Ejemplo 10",
+      "duration": 759
+    },
+    {
+      "id": "mgBKdfbcwHE",
+      "title": "Función Racional",
+      "duration": 133
+    },
+    {
+      "id": "ftPf-_9i4A8",
+      "title": "Mapeo en funciones complejas I Ejemplo 11",
+      "duration": 406
+    },
+    {
+      "id": "T24joZ3vfRE",
+      "title": "Mapeo en funciones complejas I Ejemplo 12",
+      "duration": 270
+    },
+    {
+      "id": "My-8kjshRtw",
+      "title": "Mapeo en funciones complejas I Ejemplo 13",
+      "duration": 299
+    },
+    {
+      "id": "OqANCqtVHXs",
+      "title": "Mapeo en funciones complejas I Ejemplo 14",
+      "duration": 300
+    },
+    {
+      "id": "2RuQyvYYnu4",
+      "title": "Mapeo en funciones complejas I Ejemplo 15",
+      "duration": 130
+    },
+    {
+      "id": "XptcDQdrr1w",
+      "title": "Función exponencial compleja I Definición",
+      "duration": 331
+    },
+    {
+      "id": "48wbgueMI84",
+      "title": "Función exponencial I Aplicación 1",
+      "duration": 271
+    },
+    {
+      "id": "cS61MsRx_4A",
+      "title": "Función exponencial I Aplicación 2",
+      "duration": 213
+    },
+    {
+      "id": "q0DA91eiJZM",
+      "title": "Función exponencial I Propiedades 1",
+      "duration": 175
+    },
+    {
+      "id": "IgMb2XObAv4",
+      "title": "Función exponencial I Propiedades 2",
+      "duration": 193
+    },
+    {
+      "id": "bwD6nljY0bc",
+      "title": "Función exponencial I Propiedades 3",
+      "duration": 215
+    },
+    {
+      "id": "Y6LIvvB3l8A",
+      "title": "Función exponencial I Propiedades 4",
+      "duration": 430
+    },
+    {
+      "id": "-w2VRBK8Lhs",
+      "title": "Función exponencial I Propiedades 5",
+      "duration": 539
+    },
+    {
+      "id": "rq9hrnV806k",
+      "title": "Función exponencial I Propiedades 6",
+      "duration": 198
+    },
+    {
+      "id": "ON41F7d0yCU",
+      "title": "Ecuación exponencial 1",
+      "duration": 328
+    },
+    {
+      "id": "weT59Ajbbpw",
+      "title": "Ecuación exponencial 2",
+      "duration": 366
+    },
+    {
+      "id": "3oiJaPpWgPE",
+      "title": "Ecuación exponencial 3",
+      "duration": 315
+    },
+    {
+      "id": "XtGhwojChK4",
+      "title": "Ecuación exponencial 4",
+      "duration": 275
+    },
+    {
+      "id": "0EIQZTJYJZE",
+      "title": "Mapeo en funciones complejas I Ejemplo 16",
+      "duration": 348
+    },
+    {
+      "id": "ibqwzCXRGKo",
+      "title": "Mapeo en funciones complejas I Ejemplo 17",
+      "duration": 564
+    },
+    {
+      "id": "O9NAwiYluek",
+      "title": "Función logaritmo complejo I Definición",
+      "duration": 528
+    },
+    {
+      "id": "TMM9282pr84",
+      "title": "Logaritmo de un número complejo I Ejemplo 1",
+      "duration": 252
+    },
+    {
+      "id": "D0hlGQTWN6s",
+      "title": "Logaritmo de un número complejo I Ejemplo 2",
+      "duration": 305
+    },
+    {
+      "id": "KTf3B18sy3I",
+      "title": "Logaritmo de un número complejo I Ejemplo 3",
+      "duration": 382
+    },
+    {
+      "id": "wZ3NOkVzmmQ",
+      "title": "Logaritmo de un número complejo I Ejemplo 4",
+      "duration": 230
+    },
+    {
+      "id": "CLyKf6y5YdM",
+      "title": "Logaritmo Principal",
+      "duration": 235
+    },
+    {
+      "id": "3tUokQ9wJ_s",
+      "title": "Propiedad 1 y 2 lnz",
+      "duration": 302
+    },
+    {
+      "id": "YeMZhSuUizo",
+      "title": "Propiedad 3 y 4 lnz",
+      "duration": 298
+    },
+    {
+      "id": "pXtRfMjDmtY",
+      "title": "Propiedad 5 lnz",
+      "duration": 278
+    },
+    {
+      "id": "0lAzsRaPAPE",
+      "title": "Logaritmo de un número complejo I Ejemplo 5",
+      "duration": 387
+    },
+    {
+      "id": "fJbt3we3e-A",
+      "title": "Potencias en complejos 1",
+      "duration": 220
+    },
+    {
+      "id": "VS3ig4tvOJ8",
+      "title": "Potencias en complejos 2",
+      "duration": 345
+    },
+    {
+      "id": "_hnTo_56ez8",
+      "title": "Potencias en complejos I Propiedades",
+      "duration": 118
+    },
+    {
+      "id": "7pWi6uNOeEw",
+      "title": "Funciones trigonométricas complejas I Definición",
+      "duration": 331
+    },
+    {
+      "id": "H35A_TXPAB8",
+      "title": "Evaluación cos(i) sen(i)",
+      "duration": 289
+    },
+    {
+      "id": "kod01PgjC5U",
+      "title": "Funciones trigonométricas en complejos I Propiedades 1",
+      "duration": 476
+    },
+    {
+      "id": "kQtsr2Tbp4c",
+      "title": "Funciones trigonométricas en complejos I Propiedades 2",
+      "duration": 239
+    },
+    {
+      "id": "wQl3h7856uw",
+      "title": "Funciones trigonométricas en complejos I Propiedades 3",
+      "duration": 223
+    },
+    {
+      "id": "BynW4KYS38s",
+      "title": "Funciones trigonométricas en complejos I Propiedades 4",
+      "duration": 522
+    },
+    {
+      "id": "9LXtRGc-5ls",
+      "title": "Funciones trigonométricas en complejos I Propiedades 5",
+      "duration": 425
+    },
+    {
+      "id": "Qw5TaIltylg",
+      "title": "Funciones trigonométricas en complejos I Propiedades 6",
+      "duration": 519
+    },
+    {
+      "id": "hucyVL76Ch0",
+      "title": "Funciones trigonométricas en complejos I Propiedades 7",
+      "duration": 474
+    },
+    {
+      "id": "qE_QmHq3Fyo",
+      "title": "Funciones trigonométricas en complejos I Propiedades 8",
+      "duration": 390
+    },
+    {
+      "id": "tEN581JNvjI",
+      "title": "Funciones trigonométricas en complejos I Propiedades 9",
+      "duration": 421
+    },
+    {
+      "id": "IJbTrpIHCfs",
+      "title": "Funciones trigonométricas en complejos I Periocidad",
+      "duration": 247
+    },
+    {
+      "id": "EpXpf1EPuZY",
+      "title": "Funciones hiperbólicas I Definición",
+      "duration": 231
+    },
+    {
+      "id": "ZZD88xsMVQ0",
+      "title": "Funciones hiperbólicas complejas I Propiedades 1",
+      "duration": 365
+    },
+    {
+      "id": "r2LmnjPA3VE",
+      "title": "Funciones hiperbólicas complejas I Propiedades 2",
+      "duration": 414
+    },
+    {
+      "id": "-eAiacM9Cg8",
+      "title": "Funciones hiperbólicas complejas I Propiedades 3",
+      "duration": 333
+    },
+    {
+      "id": "iq636gIu9GA",
+      "title": "Funciones hiperbólicas complejas I Propiedades 4",
+      "duration": 250
+    },
+    {
+      "id": "GktHi1xlIKU",
+      "title": "Funciones hiperbólicas complejas I Propiedades 5",
+      "duration": 334
+    },
+    {
+      "id": "C3OfQ0ST5KM",
+      "title": "Solución de la ecuación sen(z)=0",
+      "duration": 680
+    },
+    {
+      "id": "s_tNCsTkaaY",
+      "title": "Solución de la ecuación cos(z)=0",
+      "duration": 507
+    },
+    {
+      "id": "71wqCN-3nGI",
+      "title": "Solución de la ecuación cos(z)=i",
+      "duration": 592
+    },
+    {
+      "id": "oOPcY4vZO5M",
+      "title": "Solución de la ecuación sen(z)=i",
+      "duration": 424
+    },
+    {
+      "id": "-8rbQjArbJ0",
+      "title": "Solución de la ecuación sen(z)=i",
+      "duration": 421
+    },
+    {
+      "id": "nDWzIkIhifM",
+      "title": "Solución de la ecuación cos(z)=2",
+      "duration": 321
+    },
+    {
+      "id": "png942wWJjU",
+      "title": "Inversa sen(z)",
+      "duration": 523
+    },
+    {
+      "id": "5MIMdd5CBgY",
+      "title": "Inversa cos(z)",
+      "duration": 390
+    },
+    {
+      "id": "osO8AK2qDew",
+      "title": "Inversa tan(z)",
+      "duration": 384
+    },
+    {
+      "id": "0ZyJcY0DWm0",
+      "title": "Inversa senh(z)",
+      "duration": 339
+    },
+    {
+      "id": "1eBoIVX0wvU",
+      "title": "Inversa cosh(z)",
+      "duration": 302
+    },
+    {
+      "id": "vrIKH6HJg8U",
+      "title": "Inversa tanh(z)",
+      "duration": 309
+    },
+    {
+      "id": "6uwrKtAx0_M",
+      "title": "Evaluación arccos(i)",
+      "duration": 239
+    },
+    {
+      "id": "-RzRd8Sz0m8",
+      "title": "Evaluación arccosh(i)",
+      "duration": 173
+    }
+  ]
+}

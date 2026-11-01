@@ -25,11 +25,6 @@ suelen contener temas sobre física estadística. {{< /details >}}
 
 {{< resource-table resource="books.yaml" type="book" >}}
 
-### Listas reproducción
+### Listas de reproducción
 
-| Nombre                                      | Autor             | Enlace                                                                          |
-| ------------------------------------------- | ----------------- | ------------------------------------------------------------------------------- |
-| `21` Thermodynamics and Statistical Physics | Pazzy Boardman    | [eng](https://www.youtube.com/playlist?list=PLVjZPwRzdu40ZWkRxvwjan9ZyIbVexzOK) |
-| `32` Termodinámica                          | Entropía Negativa | [spa](https://www.youtube.com/playlist?list=PLBMRQ0GOZVeUupx-NE0HJBwNaa1shUHR3) |
-| `3` Termodinámica                           | Javier García     | [spa](https://www.youtube.com/playlist?list=PLAnA8FVrBl8CKOC5CCPSLWAE887RAKnTV) |
-| `49` Thermal Physics                        | Tonya Coffey      | [eng](https://www.youtube.com/playlist?list=PLm2F3BtpcrEguyXo7mWlF47-YFB3vBvbY) |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}

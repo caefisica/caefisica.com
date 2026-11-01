@@ -1,0 +1,198 @@
+- title: MIT 18.02 Multivariable Calculus (2007)
+  channel: Robert McPherson
+  lecturer: Denis Auroux
+  url: https://www.youtube.com/playlist?list=PLYzxBBT5iehMCyHxKZOg9EMETK3nLBbfC
+  description: >-
+    Las 35 clases de 18.02 que Denis Auroux dictó en el MIT en otoño de 2007:
+    producto punto, planos, derivadas parciales, multiplicadores de Lagrange,
+    integrales dobles y triples, campos vectoriales e integrales de línea, y los
+    teoremas de Green, de la divergencia y de Stokes. En inglés.
+- title: "Calculus IV: Vector Calculus"
+  channel: ""
+  lecturer: Trefor Bazett
+  url: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfW0GMqeUE1bLKaYor6kbHa
+  description: >-
+    Un curso completo de cálculo vectorial en 39 videos: integrales de línea,
+    campos vectoriales conservativos y función potencial, flujo y teorema de
+    Green, superficies paramétricas e integrales de superficie, y los teoremas
+    de Stokes y de la divergencia. En inglés.
+- title: Curso completo de cálculo de varias variables
+  channel: MateFácil
+  lecturer: Félix E. López Jara
+  url: https://www.youtube.com/playlist?list=PL9SnRnlzoyX2-qH2lY3o5Lhv9f6za9o9A
+  description: >-
+    Ejercicios resueltos paso a paso, de los vectores, rectas y planos a las
+    curvas paramétricas, las integrales dobles con cambio de orden y las
+    integrales de línea. En español.
+- title: Cálculo Vectorial (2020-2021)
+  channel: Cursos Héctor Facultad de Ingeniería UNAM
+  lecturer: ""
+  url: https://www.youtube.com/playlist?list=PLrkGrLgBpVbQh0o8MSgbUxRg6ujNUET-H
+  description: >-
+    Las 34 sesiones en línea de un curso de cálculo vectorial de la Facultad de
+    Ingeniería de la UNAM, de septiembre de 2020 a enero de 2021, con sesiones
+    adicionales de ejercicios. En español.
+- title: Cálculo vectorial 1. Superficies
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVx_OZ9rpzWCUxS9oeGYWIT
+  description: >-
+    La primera parte del curso de cálculo vectorial de 1a con Berni: los tipos
+    de superficies, del elipsoide y los cilindros a los hiperboloides, el cono y
+    los paraboloides. En español.
+- title: Cálculo vectorial 2. Funciones y límites
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJUysFgeB1fEvrsXxNET_sKQ
+  description: >-
+    Funciones de varias variables, su dominio, y límites: cómo probarlos y cómo
+    mostrar que no existen. En español.
+- title: Cálculo vectorial 3. Derivadas
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVExACUEIqFaVJ3kIyj_rp6
+  description: >-
+    Derivadas parciales en varias variables, el gradiente, las derivadas de
+    orden superior y las derivadas mixtas, con ejemplos. En español.
+- title: Cálculo vectorial 4. Derivada direccional y la diferencial
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXdmiaLCoklQOlKVPTEL3gI
+  description: >-
+    La derivada direccional y la diferencial de una función, sus propiedades y
+    ejercicios resueltos. En español.
+- title: Cálculo vectorial 5. Regla de la cadena
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVd5052RfTClQf7mP6TPU9H
+  description: >-
+    La regla de la cadena en varias variables y en forma matricial, las segundas
+    derivadas y la ecuación de Laplace. En español.
+- title: Cálculo vectorial 6. Función implícita
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVWHcyrKrtH_M4Ldhk5Z1Oc
+  description: >-
+    Funciones implícitas en varias variables y el cálculo de sus derivadas, con
+    ejemplos. En español.
+- title: Cálculo vectorial 7. Máximos y mínimos
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWJT9rnFmQ3ykS4xHuanjRO
+  description: >-
+    Puntos críticos, el criterio de la matriz hessiana y los extremos de una
+    función, con ejemplos. En español.
+- title: Cálculo vectorial 8. Multiplicadores de Lagrange
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXDZceQfSRAnWImHICUCaQu
+  description: >-
+    El método de los multiplicadores de Lagrange y ejemplos de extremos con
+    restricciones. En español.
+- title: Cálculo vectorial 9. Integral doble
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXLNxwhaif2FTXJyS2MhpML
+  description: >-
+    La integral doble desde las particiones de una región, cómo colocar los
+    límites, el cambio del orden de integración e integrandos con valor absoluto
+    o parte entera. En español.
+- title: Cálculo vectorial 10. Integral triple
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXNYN9JpV1dmSV3NaPfJBDg
+  description: >-
+    La integral triple sobre sólidos limitados por planos, esferas, cilindros,
+    paraboloides y conos. En español.
+- title: Cálculo vectorial 11. Cambio de variable en polares
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJW8sLPJQ_jY_BCSdDK7DTpm
+  description: >-
+    El teorema del cambio de variable, las curvas en coordenadas polares y el
+    cálculo de integrales dobles en polares. En español.
+- title: Cálculo vectorial 12. Cambio de variable en triples
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJUj3xivdGZdRFJXroj21zWH
+  description: >-
+    Integrales triples en coordenadas cartesianas, cilíndricas y esféricas. En
+    español.
+- title: Cálculo vectorial 13. Aplicaciones de las integrales dobles
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXEHYUzkPVyqP459BEhllXc
+  description: >-
+    El cálculo de áreas, masas y centroides con integrales dobles. En español.
+- title: Cálculo vectorial 14. Aplicaciones de las integrales triples
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWiXUcFYOhUGT9DJJWJ4vxm
+  description: >-
+    El cálculo de volúmenes y centroides con integrales triples. En español.
+- title: Cálculo vectorial 15. Parametrización de curvas
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWGoVftoa7l4L31k3DtuNV5
+  description: >-
+    La parametrización de curvas, su definición y ejemplos. En español.
+- title: Cálculo vectorial 16. Integral de línea de campos escalares
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXqyGVrxLBoPJ_lwq_16u35
+  description: >-
+    La integral de línea de un campo escalar, su definición y ejemplos. En
+    español.
+- title: Cálculo vectorial 17. Integral de línea de campos vectoriales
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWFGpQhX3wRRFx5S4jgdgbA
+  description: >-
+    La integral de línea de un campo vectorial, su definición y ejemplos. En
+    español.
+- title: Cálculo vectorial 18. Teorema de Green
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJW77WA-H6P-544mF5qzxNrc
+  description: >-
+    El teorema de Green y sus aplicaciones, los campos conservativos, la función
+    potencial y la independencia de caminos. En español.
+- title: Cálculo vectorial 19. Parametrización de superficies
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWWYVjza-R4RvpGpUTHGWy9
+  description: >-
+    La parametrización de superficies, su definición y ejemplos. En español.
+- title: Cálculo vectorial 20. Integral de superficie de campos escalares
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXGh6ALDGKkwuG1Iu39DWEe
+  description: >-
+    La integral de superficie de un campo escalar, su definición y ejemplos. En
+    español.
+- title: Cálculo vectorial 21. Área de superficie con integrales de superficie
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXyLcbFsyp6iwt4LXtYJINZ
+  description: >-
+    El cálculo del área de una superficie con integrales de superficie, en
+    ejemplos. En español.
+- title: Cálculo vectorial 22. Integral de superficie de campos vectoriales
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWG3FVSBEa3A8DUJsr_2iYd
+  description: >-
+    La integral de superficie de un campo vectorial, su definición y ejemplos.
+    En español.
+- title: Cálculo vectorial 23. Teorema de la divergencia
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJU_kKE64K74pE-TUJk8dPnU
+  description: >-
+    El teorema de la divergencia y su verificación en ejemplos. En español.
+- title: Cálculo vectorial 24. Teorema de Stokes
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWgvLOVIHp0tHmX0rL0LzPV
+  description: >-
+    El teorema de Stokes y su verificación en ejemplos. En español.

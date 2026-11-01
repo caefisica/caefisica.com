@@ -67,9 +67,4 @@ Libros enfocados en la resolución de problemas.
 
 ## Listas de reproducción
 
-| Nombre                                                         | Autor     | Enlace                                                                      |
-| -------------------------------------------------------------- | --------- | --------------------------------------------------------------------------- |
-| `7` Cálculo Variacional                                        | JG Walrus | [spa](https://youtube.com/playlist?list=PLCQC2nnvRCg3_iB9sedj2FikmQdRlZx_N) |
-| `109` Física Matemática III - UNMSM                            | Rentov    | [spa](https://youtube.com/playlist?list=PLK_B1a9wXn7dlNL2mkTzxCs2W8wvGfETb) |
-| `101` Curso Completo EDP                                       | MateFacil | [spa](https://youtube.com/playlist?list=PL9SnRnlzoyX05Y-DlDAoD4KwuHeNoP39F) |
-| `8` Partial Differential Equations and Separation of Variables | Daniel An | [Eng](https://youtube.com/playlist?list=PLP1OdTlavJNvcONsgPope4qBJ7fdSYWtY) |
+{{< resource-table resource="playlists.yaml" type="playlist" >}}

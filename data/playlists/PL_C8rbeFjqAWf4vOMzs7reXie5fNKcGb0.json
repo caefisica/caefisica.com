@@ -1,0 +1,55 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso de Óptica Geométrica",
+  "channel": "Topos Uranos",
+  "description": "",
+  "updated": "2021-12-18",
+  "lessons": [
+    {
+      "id": "Ze0lpO0gDys",
+      "title": "Cómo calcular la Reflexión en espejos planos y esféricos?",
+      "duration": 2828
+    },
+    {
+      "id": "sX--0tertWI",
+      "title": "Espejos planos unidos por una bisagra",
+      "duration": 1486
+    },
+    {
+      "id": "gYkF1a0nqs8",
+      "title": "3 problemas resueltos de óptica geométrica con Espejos Esféricos",
+      "duration": 1829
+    },
+    {
+      "id": "rX7fSD0jp4c",
+      "title": "Problemas Resueltos: Movimiento frente espejos esféricos",
+      "duration": 2492
+    },
+    {
+      "id": "LxhWbErujpo",
+      "title": "Refracción de la Luz, Principio de Fermat, Ley de Snell",
+      "duration": 2299
+    },
+    {
+      "id": "13kntUA9n-I",
+      "title": "Refracción en Interfaces Esféricas",
+      "duration": 2122
+    },
+    {
+      "id": "bwGJYhN3Gv8",
+      "title": "Problemas Resueltos sobre Refracción en Interfaces Esféricas",
+      "duration": 1506
+    },
+    {
+      "id": "QLn3Ml-Mrng",
+      "title": "Lentes delgadas: Todo lo que necesitas saber sobre sus propiedades y deducciones",
+      "duration": 2100
+    },
+    {
+      "id": "tUQxvRPZo_A",
+      "title": "2 Ejercicios que te ayudarán a entender las Lentes Delgadas",
+      "duration": 1376
+    }
+  ]
+}

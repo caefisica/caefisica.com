@@ -1,0 +1,157 @@
+- title: Álgebra Lineal para físicos I (2021)
+  channel: rentov
+  lecturer: Renato Tovar Landeo
+  url: https://www.youtube.com/playlist?list=PLK_B1a9wXn7fjl1duGeOh5IszyE_4JPAH
+  description: >-
+    Las clases del curso que Renato Tovar Landeo dictó en la UNMSM en 2021, con
+    videos cortos de teoría y ejemplos: espacios lineales, base y dimensión,
+    espacio dual, formas bilineales, cuadráticas, hermíticas y simplécticas,
+    operadores, valores propios y forma canónica de Jordan. En español.
+- title: Álgebra Lineal para físicos I (2020)
+  channel: rentov
+  lecturer: Renato Tovar Landeo
+  url: https://www.youtube.com/playlist?list=PLK_B1a9wXn7ePjQZvIA0C_FeOn4WrW6U5
+  description: >-
+    La versión de 2020 del mismo curso, en clases completas: grupos, anillos y
+    cuerpos, espacios lineales y afines, formas lineales y bilineales, formas
+    cuadráticas, transformaciones lineales y forma canónica de Jordan. En
+    español.
+- title: Álgebra Lineal UNAL
+  channel: ""
+  lecturer: Juan Diego Vélez
+  url: https://www.youtube.com/playlist?list=PL0a2jooj1ivBd7OuFlaVzXwl4Xfi2uarN
+  description: >-
+    Un curso de álgebra lineal de la Universidad Nacional de Colombia en 48
+    clases, ordenadas en cinco unidades. En español.
+- title: Curso de Álgebra Lineal
+  channel: MateFácil
+  lecturer: Félix E. López Jara
+  url: https://www.youtube.com/playlist?list=PL9SnRnlzoyX32lX7zNawatnGQP7IPLIi5
+  description: >-
+    Ejercicios resueltos paso a paso: sistemas de ecuaciones por Gauss y
+    Gauss-Jordan, matrices, determinantes, inversa y adjunta, subespacios,
+    dependencia lineal, transformaciones lineales, diagonalización y forma
+    canónica de Jordan. En español.
+- title: Álgebra lineal 1. Matrices
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXqCFAmhXxrMYFk8mEhDkzo
+  description: >-
+    La primera parte del curso de álgebra lineal de 1a con Berni, en videos
+    cortos de definiciones y ejemplos: operaciones con matrices, potencias,
+    traspuesta y matrices simétricas, antisimétricas, ortogonales y hermíticas.
+    En español.
+- title: Álgebra lineal 2. Determinantes
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJXN1ViTSzy_isC5za-m1a-J
+  description: >-
+    La segunda parte del curso de 1a con Berni: determinantes, sus propiedades,
+    la matriz adjunta y el determinante de Vandermonde, en videos cortos de
+    teoría y ejemplos. En español.
+- title: Álgebra lineal 3. Sistemas de ecuaciones lineales
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJU57_S-wk7772YL4n1heOOk
+  description: >-
+    La tercera parte del curso de 1a con Berni: sistemas de ecuaciones lineales
+    por eliminación, Gauss y la regla de Cramer, y sistemas con infinitas
+    soluciones o sin solución. En español.
+- title: Álgebra lineal 4. Vectores
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJX3KctViulvkZTIe2uWkgvX
+  description: >-
+    La cuarta parte del curso de 1a con Berni: vectores, su suma, el producto
+    interior, el producto cruz y el producto mixto, con ejemplos resueltos. En
+    español.
+- title: Álgebra lineal 5. Planos
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJUIKJStDoQ-X3VvjMg-Fgij
+  description: >-
+    La quinta parte del curso de 1a con Berni: la ecuación del plano, el ángulo
+    entre planos y la distancia entre planos paralelos, con ejemplos resueltos.
+    En español.
+- title: Álgebra lineal 6. Rectas
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVuQ4WN0_jOOf42LoUjPLUQ
+  description: >-
+    La sexta parte del curso de 1a con Berni: ecuaciones de la recta en el
+    espacio y problemas con rectas y planos, con ejemplos resueltos. En español.
+- title: Álgebra lineal 7. Espacios vectoriales I
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJU7wXSqv3QfwiYFJk9zodWS
+  description: >-
+    La séptima parte del curso de 1a con Berni, primera mitad: espacios
+    vectoriales y subespacios de vectores, matrices y funciones, con ejemplos de
+    conjuntos que lo son y que no lo son. En español.
+- title: Álgebra lineal 7. Espacios vectoriales II
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJUNGEoyZOXpON_oTMj70h1K
+  description: >-
+    La segunda mitad de la séptima parte del curso de 1a con Berni: combinación
+    lineal, dependencia lineal, conjuntos generadores, base, dimensión y el
+    teorema de la dimensión. En español.
+- title: Álgebra lineal 8. Transformaciones lineales
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVTaBE15xA6mzmeS0QLBZI_
+  description: >-
+    La octava parte del curso de 1a con Berni: transformaciones lineales, sus
+    propiedades, el teorema de la dimensión y la matriz de una transformación,
+    con ejemplos. En español.
+- title: Álgebra lineal 9. Diagonalización de matrices
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWBX7GEpz3xeE2YsKZyIZ8R
+  description: >-
+    La novena parte del curso de 1a con Berni: valores y vectores propios,
+    matrices diagonalizables y no diagonalizables, y su uso para eliminar el
+    término xy de una cónica. En español.
+- title: >-
+    Álgebra lineal 10. Aplicaciones del álgebra lineal para solucionar sistemas
+    de ecuaciones diferenciales
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJVFsXV4uA5JClSq7Po3Nn66
+  description: >-
+    La décima parte del curso de 1a con Berni: la diagonalización aplicada a
+    sistemas de ecuaciones diferenciales lineales. En español.
+- title:
+    Álgebra lineal 11. Aplicaciones del álgebra lineal para calcular integrales
+  channel: 1a con Berni
+  lecturer: Bernardo Acevedo Frías
+  url: https://www.youtube.com/playlist?list=PLCY1BPxILEJWcsJRPwo_PB7bWBi6o1tgT
+  description: >-
+    La última parte del curso de 1a con Berni: el álgebra lineal aplicada al
+    cálculo de integrales. En español.
+- title: Gilbert Strang lectures on Linear Algebra (MIT 18.06, 2005)
+  channel: Robert Talbert
+  lecturer: Gilbert Strang
+  url: https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D
+  description: >-
+    Las 35 clases de 18.06 que Gilbert Strang dictó en el MIT en 2005:
+    eliminación, los cuatro subespacios fundamentales, proyecciones y mínimos
+    cuadrados, determinantes, valores propios, matrices definidas positivas,
+    transformaciones lineales y pseudoinversa. En inglés.
+- title: Esencia del Álgebra Lineal
+  channel: 3Blue1Brown Español
+  lecturer: Grant Sanderson
+  url: https://www.youtube.com/playlist?list=PLIb_io8a5NB2DddFf-PwvZDCOUNT1GZoA
+  description: >-
+    La serie animada de 3Blue1Brown doblada al español: vectores, combinaciones
+    lineales, transformaciones lineales y matrices, determinante, matriz inversa
+    y rango, producto punto y cruz, cambio de base y valores propios, vistos de
+    forma geométrica. En español.
+- title: Essence of linear algebra
+  channel: 3Blue1Brown
+  lecturer: Grant Sanderson
+  url: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+  description: >-
+    La serie original de 3Blue1Brown, que da una imagen geométrica de cada idea
+    del álgebra lineal, de los vectores a los espacios vectoriales abstractos.
+    En inglés.

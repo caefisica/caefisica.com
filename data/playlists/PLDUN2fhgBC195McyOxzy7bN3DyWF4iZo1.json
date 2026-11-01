@@ -1,0 +1,170 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Curso Electricidad y Magnetismo",
+  "channel": "Diego Gallego Mahecha (Cursos Física)",
+  "description": "Videos preparados para el curso en electricidad y magnetismo de la Universidad Pedagógica y Tecnológica de Colombia.\nhttps://github.com/dfarkagallego/Curso-electromagnetismo/blob/main/Apuntes%20electromagnetismo.pdf",
+  "updated": "2024-01-12",
+  "lessons": [
+    {
+      "id": "9iNz5L4VC5U",
+      "title": "001 Electromagnetismo: una invitación a las interacciones... fundamentales",
+      "duration": 524
+    },
+    {
+      "id": "R3zk5z5T6ZM",
+      "title": "002 Historia I: los inicios...de la brújula a la pila de Volta",
+      "duration": 789
+    },
+    {
+      "id": "SZBdxi4wOdY",
+      "title": "003 Historia II: siglo XIX... el siglo de las leyes",
+      "duration": 950
+    },
+    {
+      "id": "xoOdMm0Kd9Y",
+      "title": "004 Historia III: siglo XX... ah, tiempos locos",
+      "duration": 806
+    },
+    {
+      "id": "0DKZLaqhrdA",
+      "title": "005 Los campos: una salida de campo. ¿Qué tiene que ver el campo y los campos electromagnéticos?",
+      "duration": 507
+    },
+    {
+      "id": "hFSrslUvjEs",
+      "title": "006 ¿Qué estudiaremos y lograremos?",
+      "duration": 1012
+    },
+    {
+      "id": "cf-dm4yj_2U",
+      "title": "007 La carga eléctrica: una nueva propiedad de la materia",
+      "duration": 564
+    },
+    {
+      "id": "9v8DQVcbOJo",
+      "title": "008 La ley de Coulomb I: el dialogo entre cargas estáticas",
+      "duration": 635
+    },
+    {
+      "id": "kDkGVCqK4kk",
+      "title": "009 La Ley de Coulomb II: superposición lineal y otras acotaciones",
+      "duration": 452
+    },
+    {
+      "id": "SyDMzxKSMu8",
+      "title": "0009a Ejemplos con la ley de Coulomb: jugando con una nueva fuerza",
+      "duration": 1314
+    },
+    {
+      "id": "qEyTd_Utaks",
+      "title": "010 Energía electrostática: la energía de los sistemas de cargas",
+      "duration": 1064
+    },
+    {
+      "id": "dK44-4mL2DQ",
+      "title": "010a Ejemplo de energia electrostática: redes cristalinas ionicas",
+      "duration": 1303
+    },
+    {
+      "id": "OelgVfg--tk",
+      "title": "011 Definiendo el campo eléctrico: el transfondo de la fuerza electrostática",
+      "duration": 571
+    },
+    {
+      "id": "stItDeFCUFM",
+      "title": "011a Ejemplos campos y fuerzas: el experimento de Millikan",
+      "duration": 547
+    },
+    {
+      "id": "Q2YGEEEongA",
+      "title": "012 Campos eléctricos de distribuciones discretas: superponiendo campos",
+      "duration": 784
+    },
+    {
+      "id": "3kQycrsOLZA",
+      "title": "012a Ejemplo de campo con cargas puntuales: sumando vectores como como",
+      "duration": 976
+    },
+    {
+      "id": "2R4OAn3sYjc",
+      "title": "013 Campos de distribuciones continuas de carga: una fórmula para evaluarlos a todos.",
+      "duration": 711
+    },
+    {
+      "id": "Vk83Btjc-_Y",
+      "title": "013a Campo eléctrico en el eje de un anillo delgado: un primer intento de cálculo de campos reales.",
+      "duration": 594
+    },
+    {
+      "id": "gQ6zGCVkSlQ",
+      "title": "013b La placa infinita uniforme: un primer campo realista...¿o no?",
+      "duration": 884
+    },
+    {
+      "id": "vaAvS_0r1Xg",
+      "title": "014 Flujo de un campo vectorial: superficies y campos",
+      "duration": 639
+    },
+    {
+      "id": "XpDRynRUFDA",
+      "title": "015 Ley Gauss I: una primera mirada al flujo del campo eléctrico",
+      "duration": 989
+    },
+    {
+      "id": "e9iuEsu7zpM",
+      "title": "016 Evaluación de campos por el método de Gauss: flujos determinando campos",
+      "duration": 1751
+    },
+    {
+      "id": "crCTFUY_WBk",
+      "title": "017 La ley de Gauss II: el teorema de la Divergencia, la expresión diferencial y la física detrás.",
+      "duration": 1203
+    },
+    {
+      "id": "e7Vyf5fK2Ys",
+      "title": "017b Densidades de carga a partir de los campos: hacemos la pregunta al vésre",
+      "duration": 754
+    },
+    {
+      "id": "_Ge6nW7UIN0",
+      "title": "018 La energía asociada a los campos eléctricos: los campos como almacén de energía",
+      "duration": 1098
+    },
+    {
+      "id": "wPMKVFNS37w",
+      "title": "019 Potencial eléctrico: el trabajo electrostático por unidad de carga",
+      "duration": 812
+    },
+    {
+      "id": "J4vd3x6OKfg",
+      "title": "019a Evaluación de potenciales a partir de campos: integrales de línea del campo eléctrico",
+      "duration": 982
+    },
+    {
+      "id": "8r526P1KJac",
+      "title": "019b Evaluando potenciales desde las densidades de carga: integrando, pero sólo una vez.",
+      "duration": 1029
+    },
+    {
+      "id": "r6URTpimPXo",
+      "title": "020 El gradiente y el campo como gradiente del potencial: de los campos escalares a los vectoriales.",
+      "duration": 1016
+    },
+    {
+      "id": "PR9TIQ0B2Og",
+      "title": "021 La ecuación de Poisson: una ecuación para regirlos a todos",
+      "duration": 483
+    },
+    {
+      "id": "1VxTMCVvOdI",
+      "title": "022 Energía de un sistema eléctrico ver 2.0: dos expresiones que son sólo una",
+      "duration": 330
+    },
+    {
+      "id": "c2hHo43rqsg",
+      "title": "023 El rotacional, el teorema de Stokes y la segunda ecuación Maxwell para la electrostática",
+      "duration": 1205
+    }
+  ]
+}

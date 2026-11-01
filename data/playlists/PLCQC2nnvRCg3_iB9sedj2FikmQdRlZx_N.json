@@ -1,0 +1,45 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Càlculo Variacional",
+  "channel": "JG Walneko",
+  "description": "",
+  "updated": "2016-09-13",
+  "lessons": [
+    {
+      "id": "w89sOlljPgw",
+      "title": "Cálculo Variacional I: Funcionales",
+      "duration": 534
+    },
+    {
+      "id": "b6jSdGK3Zdo",
+      "title": "Cálculo Variacional II: Cercanía entre funciones",
+      "duration": 1446
+    },
+    {
+      "id": "pwZYSOmsMUk",
+      "title": "Cálculo Variacional III: Lemas 2 y 3",
+      "duration": 1385
+    },
+    {
+      "id": "J8ww63B0QB4",
+      "title": "Cálculo Variacional IV: Variación de una funcional",
+      "duration": 632
+    },
+    {
+      "id": "pNCAHFyK9Os",
+      "title": "Cálculo Variacional V: Extremales",
+      "duration": 1254
+    },
+    {
+      "id": "160hZtqFHVQ",
+      "title": "Cálculo Variacional VI: Ecuación de Euler",
+      "duration": 1158
+    },
+    {
+      "id": "M4suHwFFWSA",
+      "title": "Cálculo Variacional VII: Braquistócrona",
+      "duration": 1007
+    }
+  ]
+}

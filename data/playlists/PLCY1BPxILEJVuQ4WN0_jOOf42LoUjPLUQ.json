@@ -1,0 +1,295 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 6. Rectas",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-03-05",
+  "lessons": [
+    {
+      "id": "MZHfqqqt5Qg",
+      "title": "Ecuaciones de una recta I Deducción",
+      "duration": 632
+    },
+    {
+      "id": "mR-BCbxPzwY",
+      "title": "Ecuaciones que representan una recta I Ejempo 1",
+      "duration": 502
+    },
+    {
+      "id": "rJjjw4_O9JM",
+      "title": "Ecuaciones que representan una recta I Ejemplo 2",
+      "duration": 337
+    },
+    {
+      "id": "Vlq7tJNUI_4",
+      "title": "Ecuaciones que representan una recta I Ejemplo 3",
+      "duration": 262
+    },
+    {
+      "id": "Rx115qA_UZg",
+      "title": "Ecuaciones que representan una recta I Ejemplo 4",
+      "duration": 240
+    },
+    {
+      "id": "UzZ31sAL4_k",
+      "title": "Ecuaciones que representan una recta I Ejemplo 5",
+      "duration": 367
+    },
+    {
+      "id": "B3jb1EN3jyU",
+      "title": "Ecuaciones que representan una recta I Ejemplo 6",
+      "duration": 330
+    },
+    {
+      "id": "_tCgz-m_Q3s",
+      "title": "Hallar punto y vector director de la recta I Ejemplo 1",
+      "duration": 279
+    },
+    {
+      "id": "dMb3iGPsaG8",
+      "title": "Ecuaciones de una recta que pasa por dos puntos I Ejemplo 1",
+      "duration": 255
+    },
+    {
+      "id": "T6_maHoHsdI",
+      "title": "Ecuaciones de una recta que pasa por dos puntos I Ejemplo 2",
+      "duration": 270
+    },
+    {
+      "id": "wMeT7FEPEtc",
+      "title": "Ecuaciones de una recta en el plano I Ejemplo 1",
+      "duration": 319
+    },
+    {
+      "id": "3IdDytVjcqM",
+      "title": "Ecuaciones de una recta en el plano I Ejemplo 2",
+      "duration": 309
+    },
+    {
+      "id": "7f5-JK4xIO4",
+      "title": "Hallar puntos de una recta",
+      "duration": 242
+    },
+    {
+      "id": "Q6HlEGeKB9Y",
+      "title": "Hallar vector director de una recta I Ejemplo 1",
+      "duration": 253
+    },
+    {
+      "id": "xAdaF7_ptU4",
+      "title": "Hallar vector director de una recta I Ejemplo 2",
+      "duration": 426
+    },
+    {
+      "id": "y1-xK5ea-zw",
+      "title": "Gráfico de una recta I Ejemplo 1",
+      "duration": 277
+    },
+    {
+      "id": "he0lWDN4o-E",
+      "title": "Gráfico de una recta I Ejemplo 2",
+      "duration": 196
+    },
+    {
+      "id": "j-zgyEMIyaE",
+      "title": "Gráfico de una recta I Ejemplo 3",
+      "duration": 193
+    },
+    {
+      "id": "jntwoJsp7s4",
+      "title": "Ecuación de la recta que resulta de la intersección de dos planos 1",
+      "duration": 324
+    },
+    {
+      "id": "6FeT2MjQ7-c",
+      "title": "Ecuación de la recta que resulta de la intersección de dos planos 2",
+      "duration": 364
+    },
+    {
+      "id": "JAOAYjsOznM",
+      "title": "Ecuación de la recta que resulta de la intersección de dos planos 3",
+      "duration": 635
+    },
+    {
+      "id": "sIg5QpZg2AU",
+      "title": "Ecuación de la recta que resulta de la intersección de dos planos 4",
+      "duration": 517
+    },
+    {
+      "id": "SVxAoqTSReU",
+      "title": "Ecuación de la recta que resulta de la intersección de dos planos 5",
+      "duration": 375
+    },
+    {
+      "id": "6OwBGQPtI2w",
+      "title": "Punto de intersección de dos rectas I Ejemplo 1",
+      "duration": 528
+    },
+    {
+      "id": "2ekjN1IY7ns",
+      "title": "Punto de intersección de dos rectas I Ejemplo 2",
+      "duration": 353
+    },
+    {
+      "id": "IUxV2WwRANM",
+      "title": "Punto de intersección de dos rectas I Ejemplo 3",
+      "duration": 694
+    },
+    {
+      "id": "aE9Je_RA5Gg",
+      "title": "Rectas Paralelas",
+      "duration": 211
+    },
+    {
+      "id": "I4ZDhK4vwwI",
+      "title": "Rectas Perpendiculares",
+      "duration": 174
+    },
+    {
+      "id": "x503AznThNg",
+      "title": "Recta paralela a un plano I Ejemplo 1",
+      "duration": 243
+    },
+    {
+      "id": "ZCsETudr7sM",
+      "title": "Recta paralela a un plano I Ejemplo 2",
+      "duration": 194
+    },
+    {
+      "id": "V1Iw5QpFVhA",
+      "title": "Recta que pasa por punto y es perpendicular a dos rectas",
+      "duration": 581
+    },
+    {
+      "id": "IU0WmIMa_3M",
+      "title": "Recta que pasa por un punto y es paralela a otra recta",
+      "duration": 197
+    },
+    {
+      "id": "jOgKUmRd96s",
+      "title": "Constantes para que el plano sea perpendicular a una recta",
+      "duration": 342
+    },
+    {
+      "id": "zQJXuw3Ds2M",
+      "title": "Constante para que recta sea paralela a un plano",
+      "duration": 170
+    },
+    {
+      "id": "QSR3X0QLZL4",
+      "title": "Punto de intersección entre una recta y un plano",
+      "duration": 312
+    },
+    {
+      "id": "CX5rAc0Da3w",
+      "title": "Recta que pasa por un punto y se conoce vector director",
+      "duration": 210
+    },
+    {
+      "id": "zLuuVIO32Pw",
+      "title": "Plano que contiene una recta y un punto",
+      "duration": 361
+    },
+    {
+      "id": "yJU2ftcWesU",
+      "title": "Plano que contiene dos rectas",
+      "duration": 424
+    },
+    {
+      "id": "3Vqu6V0VeVs",
+      "title": "Plano que contiene una recta y es paralelo a otro plano",
+      "duration": 234
+    },
+    {
+      "id": "k3rNdd8vNgc",
+      "title": "Recta que pasa por un punto y es paralela a otra recta",
+      "duration": 265
+    },
+    {
+      "id": "wzFvPUEvaZQ",
+      "title": "Constantes para que la recta sea perpendicular a un plano",
+      "duration": 310
+    },
+    {
+      "id": "BiFKkVI3Yts",
+      "title": "Plano que pasa por un punto, es perpendicular a un plano y paralelo a una recta",
+      "duration": 524
+    },
+    {
+      "id": "zJXVn9DeeSc",
+      "title": "Plano que pasa por un punto y contiene una recta",
+      "duration": 637
+    },
+    {
+      "id": "W7XErZ2CG04",
+      "title": "Plano que pasa por un punto y es perpendicular a una recta",
+      "duration": 222
+    },
+    {
+      "id": "HC2SFqSH8Xs",
+      "title": "Punto de intersección de una recta con un plano",
+      "duration": 236
+    },
+    {
+      "id": "X-jqG1HPcls",
+      "title": "Constantes para que la recta este sobre un plano",
+      "duration": 240
+    },
+    {
+      "id": "Qcc052feIZY",
+      "title": "Verificar que una recta esta sobre un plano",
+      "duration": 159
+    },
+    {
+      "id": "LLLXhj4Bo-I",
+      "title": "Plano que contiene una recta y es perpendicular a otro plano",
+      "duration": 367
+    },
+    {
+      "id": "di6Q6S65cbk",
+      "title": "Recta paralela a otra recta y que pasa por el punto de intersección entre una recta y un plano",
+      "duration": 473
+    },
+    {
+      "id": "3v9BDZbgp68",
+      "title": "Plano que pasa por dos puntos y es paralelo a una recta",
+      "duration": 558
+    },
+    {
+      "id": "dSJog6nP6IE",
+      "title": "Verificar que dos puntos pertenecen a una recta",
+      "duration": 356
+    },
+    {
+      "id": "hoKhzUT2134",
+      "title": "Verificar que una recta esta sobre un plano",
+      "duration": 197
+    },
+    {
+      "id": "6RBERQZ8oYY",
+      "title": "Recta que pasa por un punto, es perpendicular a una recta y paralela a un plano",
+      "duration": 435
+    },
+    {
+      "id": "YPB92EuxZK0",
+      "title": "Rectas Oblicuas I Definición",
+      "duration": 246
+    },
+    {
+      "id": "cRHA16w0wTY",
+      "title": "Ángulo entre dos rectas",
+      "duration": 210
+    },
+    {
+      "id": "9KsOtfCmaUY",
+      "title": "Distancia de un punto a una recta 1",
+      "duration": 478
+    },
+    {
+      "id": "aNLQ7ans7Sg",
+      "title": "Distancia de un punto a una recta 2",
+      "duration": 528
+    }
+  ]
+}

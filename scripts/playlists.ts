@@ -45,6 +45,7 @@ interface Playlist {
 interface Listed {
   url: URL;
   sections: string[];
+  skip: Set<string>;
 }
 
 async function listed(): Promise<Listed[]> {
@@ -53,11 +54,13 @@ async function listed(): Promise<Listed[]> {
     const items = Bun.YAML.parse(await Bun.file(path).text()) as {
       url: string;
       sections?: string[];
+      skip?: string[];
     }[];
     for (const item of items)
       lists.set(item.url, {
         url: new URL(item.url),
         sections: item.sections ?? [],
+        skip: new Set(item.skip ?? []),
       });
   }
   return [...lists.values()];
@@ -280,7 +283,7 @@ async function drive(folder: string, sections: string[]): Promise<Data> {
 // `bun run playlists ID…` refreshes only those lists.
 const only = new Set(Bun.argv.slice(2));
 await mkdir(DATA_DIR, { recursive: true });
-for (const { url, sections } of await listed()) {
+for (const { url, sections, skip } of await listed()) {
   const list = YOUTUBE_LIST(url);
   const folder = DRIVE_FOLDER(url);
   const id = list ?? folder;
@@ -292,6 +295,7 @@ for (const { url, sections } of await listed()) {
     console.error(`${id}: ${String(error)}`);
     continue;
   }
+  data.lessons = data.lessons.filter((l) => !skip.has(l.id));
   await writeFile(
     join(DATA_DIR, `${id}.json`),
     `${JSON.stringify({ fetched: new Date().toISOString().slice(0, 10), ...data }, null, 2)}\n`,

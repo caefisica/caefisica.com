@@ -1,0 +1,105 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Física del Estado Sólido [UCM 20/21]",
+  "channel": "@caefisica",
+  "description": "Faltan las clases #6, #17",
+  "updated": "2022-11-11",
+  "lessons": [
+    {
+      "id": "msJudx4tRqA",
+      "title": "Clase #1: La red cristalina",
+      "duration": 2882
+    },
+    {
+      "id": "Jt0PkL1V8iE",
+      "title": "Clase 2: Elementos de simetría",
+      "duration": 3035
+    },
+    {
+      "id": "eB53hWbKdtU",
+      "title": "Clase #3: Simetrías (2)",
+      "duration": 2352
+    },
+    {
+      "id": "-a3RZRVyPP4",
+      "title": "Clase #4: Redes de Bravais 2D",
+      "duration": 2844
+    },
+    {
+      "id": "Kxp1PInNZ38",
+      "title": "Clase #5: Redes de Bravais en 3D",
+      "duration": 2836
+    },
+    {
+      "id": "3KlW_1zowfI",
+      "title": "Clase #7: Difracción",
+      "duration": 2029
+    },
+    {
+      "id": "vmaTdjGBIJQ",
+      "title": "Clase #: La 8 red recíproca",
+      "duration": 2734
+    },
+    {
+      "id": "8_Cdc5FF4sA",
+      "title": "Clase #9: Condicion de Laue y ejemplos",
+      "duration": 2474
+    },
+    {
+      "id": "D-fDKhDbuKw",
+      "title": "Clase #10: Factor de dispersion atómico",
+      "duration": 2751
+    },
+    {
+      "id": "Qr-YUjH8tFg",
+      "title": "Clase #11: Factor de estructura",
+      "duration": 2629
+    },
+    {
+      "id": "PGel4Tvqx_Y",
+      "title": "Clase #12: Factor de estructura - ejemplos",
+      "duration": 4462
+    },
+    {
+      "id": "dCUmtEqAzec",
+      "title": "Clase #13: Energia de cohesion",
+      "duration": 3023
+    },
+    {
+      "id": "CPie8NwJJZg",
+      "title": "Clase #14: Cristales de Van der Waals",
+      "duration": 2545
+    },
+    {
+      "id": "suJ1Ae3saxU",
+      "title": "Clase #15: El enlace ionico",
+      "duration": 3185
+    },
+    {
+      "id": "2OUiPwCH0hI",
+      "title": "Clase #16: El enlace covalente",
+      "duration": 2906
+    },
+    {
+      "id": "uJz1Ipoe9U4",
+      "title": "Clase #18: Aproximación adiabática",
+      "duration": 4043
+    },
+    {
+      "id": "f0bUSiz8L6I",
+      "title": "Clase #19: El potencial armónico",
+      "duration": 2710
+    },
+    {
+      "id": "v-8vRCSd3lI",
+      "title": "Clase #20: vibraciones de la cadena lineal",
+      "duration": 2967
+    },
+    {
+      "id": "PUAqxj82dS4",
+      "title": "Clase #21: Cadena lineal monoatómica",
+      "duration": 2635
+    }
+  ]
+}

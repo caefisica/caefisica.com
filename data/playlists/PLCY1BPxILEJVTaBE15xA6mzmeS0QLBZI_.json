@@ -1,0 +1,480 @@
+{
+  "fetched": "2026-11-01",
+  "host": "youtube",
+  "title": "Álgebra lineal 8. Transformaciones lineales",
+  "channel": "1a con Berni",
+  "description": "",
+  "updated": "2019-03-27",
+  "lessons": [
+    {
+      "id": "lrsdZ5yCCxs",
+      "title": "Transformaciones lineales I Introducción",
+      "duration": 64
+    },
+    {
+      "id": "7s4ZxDnMFmY",
+      "title": "Definición de transformación",
+      "duration": 276
+    },
+    {
+      "id": "A77dles5SS4",
+      "title": "Transformación I Ejemplo 1",
+      "duration": 312
+    },
+    {
+      "id": "Z5_2qCuVP-4",
+      "title": "Transformación I Ejemplo 2",
+      "duration": 276
+    },
+    {
+      "id": "3nEfr3XQYZM",
+      "title": "TransformaciónI Ejemplo 3",
+      "duration": 285
+    },
+    {
+      "id": "ef3u9kly7d0",
+      "title": "Transformación I Ejemplo 4",
+      "duration": 332
+    },
+    {
+      "id": "hoKx5nHBE9c",
+      "title": "Transformación I Ejemplo 5",
+      "duration": 311
+    },
+    {
+      "id": "R4mwtKadHk8",
+      "title": "Transformación lineal I Definición",
+      "duration": 259
+    },
+    {
+      "id": "R_rPWetjcn0",
+      "title": "Transformación lineal I Ejemplo 1",
+      "duration": 207
+    },
+    {
+      "id": "-IgYXSDwQXM",
+      "title": "Transformación lineal I Ejemplo 2",
+      "duration": 203
+    },
+    {
+      "id": "Qd1Zb9YIRjc",
+      "title": "Transformación lineal I Ejemplo 3",
+      "duration": 258
+    },
+    {
+      "id": "vnDOzRvNY5A",
+      "title": "Transformación lineal I Ejemplo 4",
+      "duration": 385
+    },
+    {
+      "id": "fdFvCfzUnng",
+      "title": "Transformación lineal I Ejemplo 5",
+      "duration": 318
+    },
+    {
+      "id": "14w326QUpUw",
+      "title": "Transformación lineal I Ejemplo 6",
+      "duration": 438
+    },
+    {
+      "id": "YS8j_9cAnRw",
+      "title": "Transformación lineal I Ejemplo 7",
+      "duration": 314
+    },
+    {
+      "id": "F4eOlYemVc0",
+      "title": "Transformación lineal I Ejemplo 8",
+      "duration": 350
+    },
+    {
+      "id": "R4w41ESZF-4",
+      "title": "Transformación lineal I Ejemplo 9",
+      "duration": 296
+    },
+    {
+      "id": "NrKoG_MalHU",
+      "title": "Transformación no lineal I Ejemplo 1",
+      "duration": 234
+    },
+    {
+      "id": "LCn_Mb-roc4",
+      "title": "Transformación no lineal I Ejemplo 2",
+      "duration": 242
+    },
+    {
+      "id": "4KqR1v2MtOI",
+      "title": "Transformación lineal I Ejemplo 10",
+      "duration": 609
+    },
+    {
+      "id": "feVjXQ906g8",
+      "title": "Transformación lineal I Aplicación 1",
+      "duration": 267
+    },
+    {
+      "id": "BtYxewVKP_M",
+      "title": "Transformación lineal I Aplicación 2",
+      "duration": 236
+    },
+    {
+      "id": "klVoA_0rltc",
+      "title": "Transformación lineal I Propiedades",
+      "duration": 483
+    },
+    {
+      "id": "MDS-uTw4A44",
+      "title": "Transformación no lineal I Ejemplo 3",
+      "duration": 586
+    },
+    {
+      "id": "gVWUD0qZGS0",
+      "title": "Transformación no lineal I Ejemplo 4",
+      "duration": 285
+    },
+    {
+      "id": "d1s1HI1Pq-g",
+      "title": "Transformación no lineal I Ejemplo 5",
+      "duration": 421
+    },
+    {
+      "id": "WI9Hw6vvEpk",
+      "title": "Núcleo de una transformación lineal I Definición",
+      "duration": 341
+    },
+    {
+      "id": "_Z_9BUbVISs",
+      "title": "Núcleo de una transformación lineal I Ejemplo 1",
+      "duration": 279
+    },
+    {
+      "id": "SqEs8eI4iWM",
+      "title": "Núcleo de una transformación lineal I Ejemplo 2",
+      "duration": 436
+    },
+    {
+      "id": "3Uey2DEDm0I",
+      "title": "Núcleo de una transformación lineal I Ejemplo 3",
+      "duration": 163
+    },
+    {
+      "id": "CqxlWgqR6BI",
+      "title": "El núcleo como espacio vectorial",
+      "duration": 190
+    },
+    {
+      "id": "t2HcWBwKqPY",
+      "title": "Recorrido de una transformación lineal I Definición",
+      "duration": 213
+    },
+    {
+      "id": "owYJadhLLsM",
+      "title": "El recorrido de una transformación lineal es un espacio vectorial",
+      "duration": 243
+    },
+    {
+      "id": "Uizb0LL9s8o",
+      "title": "Transformaciones lineales I Teorema de la dimensión",
+      "duration": 244
+    },
+    {
+      "id": "1Wrs2sI--6c",
+      "title": "Teorema de la dimensión I Ejemplo 1",
+      "duration": 229
+    },
+    {
+      "id": "dAh5VMYsqyE",
+      "title": "Teorema de la dimensión I Ejemplo 2",
+      "duration": 403
+    },
+    {
+      "id": "rH6peXmRS94",
+      "title": "Teorema de la dimensión I Ejemplo 3",
+      "duration": 284
+    },
+    {
+      "id": "qMVIpwpsbyI",
+      "title": "Teorema de la dimensión I Ejemplo 4",
+      "duration": 337
+    },
+    {
+      "id": "mKSjGfMCtco",
+      "title": "Teorema de la dimensión I Ejemplo 5",
+      "duration": 412
+    },
+    {
+      "id": "5EsGaphwyyI",
+      "title": "Teorema de la dimensión I Ejemplo 6",
+      "duration": 167
+    },
+    {
+      "id": "VI7w1rVXRk0",
+      "title": "Teorema de la dimensión I Ejemplo 7",
+      "duration": 492
+    },
+    {
+      "id": "EHHg282DjZ4",
+      "title": "Teorema de la dimensión I Ejemplo 8",
+      "duration": 249
+    },
+    {
+      "id": "QrPx9T7wrj0",
+      "title": "Teorema de la dimensión I Ejemplo 9",
+      "duration": 305
+    },
+    {
+      "id": "JlYc9prBNTM",
+      "title": "Teorema de la dimensión I Ejemplo 10",
+      "duration": 362
+    },
+    {
+      "id": "am1OE6bHAVw",
+      "title": "Matriz de una transformación lineal I Ejemplo 1",
+      "duration": 349
+    },
+    {
+      "id": "SmcPLlxCees",
+      "title": "Matriz de una transformación lineal I Ejemplo 2",
+      "duration": 566
+    },
+    {
+      "id": "tZY9YtuwDLg",
+      "title": "Matriz de una transformación lineal I Ejemplo 3",
+      "duration": 540
+    },
+    {
+      "id": "2ah2M1YcnKo",
+      "title": "Matriz de una transformación lineal I Ejemplo 4",
+      "duration": 460
+    },
+    {
+      "id": "LTMvhy8AoGo",
+      "title": "Matriz de una transformación lineal I Ejemplo 5",
+      "duration": 164
+    },
+    {
+      "id": "ge652fPwV4U",
+      "title": "Hallar transformación dada matriz de transformación lineal I Ejemplo 1",
+      "duration": 182
+    },
+    {
+      "id": "wq5sSqrhqok",
+      "title": "Hallar transformación dada matriz de transformación lineal I Ejemplo 2",
+      "duration": 291
+    },
+    {
+      "id": "OP6c2Gaw6SI",
+      "title": "Hallar transformación dada matriz de transformación lineal I Ejemplo 3",
+      "duration": 160
+    },
+    {
+      "id": "aDazIz5j-pw",
+      "title": "Hallar transformación dada matriz de transformación lineal I Ejemplo 4",
+      "duration": 134
+    },
+    {
+      "id": "D2fWMVOXdqM",
+      "title": "Hallar transformación dada matriz de transformación lineal I Ejemplo 5",
+      "duration": 135
+    },
+    {
+      "id": "BZFI6GCQJVs",
+      "title": "Hallar transformación dada matriz de transformación lineal I Ejemplo 6",
+      "duration": 194
+    },
+    {
+      "id": "BvC0wm-IBdw",
+      "title": "Hallar transformación dada matriz de transformación lineal I Ejemplo 7",
+      "duration": 427
+    },
+    {
+      "id": "9fT2mqno9Yo",
+      "title": "Transformación lineal 1 a 1 I Definición",
+      "duration": 241
+    },
+    {
+      "id": "gzXvlDzuYE4",
+      "title": "Transformación lineal 1 a 1 I Ejemplo 1",
+      "duration": 202
+    },
+    {
+      "id": "ns_gn6GjQhM",
+      "title": "Transformación lineal 1 a 1 I Ejemplo 2",
+      "duration": 223
+    },
+    {
+      "id": "qTdbIi7vQno",
+      "title": "Transformación lineal sobre I Definición",
+      "duration": 176
+    },
+    {
+      "id": "uH75-8CRCyk",
+      "title": "Transformación lineal no sobre I Ejemplo",
+      "duration": 137
+    },
+    {
+      "id": "pw_apZt0tcg",
+      "title": "Transformación lineal no sobre I Ejemplo 2",
+      "duration": 194
+    },
+    {
+      "id": "4MxUXkd-sD4",
+      "title": "Inversa de una transformación lineal",
+      "duration": 273
+    },
+    {
+      "id": "cVmEFeZ9jI4",
+      "title": "Transformación lineal uno a uno y sobre I Ejemplo 1",
+      "duration": 266
+    },
+    {
+      "id": "BeOKiKCkQ5Q",
+      "title": "Transformación lineal uno a uno y sobre I Ejemplo 2",
+      "duration": 291
+    },
+    {
+      "id": "oWq-jmcDwh4",
+      "title": "Transformación lineal uno a uno y sobre I Ejemplo 3",
+      "duration": 275
+    },
+    {
+      "id": "enNWIKC9rbY",
+      "title": "Transformación lineal I Ejemplo A",
+      "duration": 581
+    },
+    {
+      "id": "hyTiCH301gU",
+      "title": "Transformación lineal uno a uno y sobre I Ejemplo A",
+      "duration": 321
+    },
+    {
+      "id": "b5oLZ1L75LQ",
+      "title": "Transformación lineal I Ejemplo B",
+      "duration": 507
+    },
+    {
+      "id": "5CChVGyL9EQ",
+      "title": "Matriz de una transformación lineal I Ejemplo B",
+      "duration": 386
+    },
+    {
+      "id": "bat6A4glXDE",
+      "title": "Transformación lineal inversa I Ejemplo B",
+      "duration": 525
+    },
+    {
+      "id": "M0AN-cJX38o",
+      "title": "Matriz de una transformación lineal I Ejemplo C",
+      "duration": 240
+    },
+    {
+      "id": "GMAA6Cn11w0",
+      "title": "Transformación lineal inversa I Ejemplo C",
+      "duration": 506
+    },
+    {
+      "id": "o4N1m5EzSgA",
+      "title": "Transformación lineal I Ejemplo D",
+      "duration": 516
+    },
+    {
+      "id": "ptFshhuo5JU",
+      "title": "Matriz de una transformación lineal I Ejemplo D",
+      "duration": 519
+    },
+    {
+      "id": "cVy3uYWwFhY",
+      "title": "Transformación lineal inversa I Ejemplo D",
+      "duration": 357
+    },
+    {
+      "id": "FbZDnt1wbg8",
+      "title": "Transformación lineal I Ejemplo E",
+      "duration": 465
+    },
+    {
+      "id": "gwh-RVdgG9Y",
+      "title": "Matriz de una transformación lineal I Ejemplo E",
+      "duration": 241
+    },
+    {
+      "id": "tyENF5O-PY4",
+      "title": "Transformación lineal inversa I Ejemplo E",
+      "duration": 555
+    },
+    {
+      "id": "oksWPJnsL8M",
+      "title": "Transformación lineal I Ejemplo F",
+      "duration": 367
+    },
+    {
+      "id": "2KipUvIPf4o",
+      "title": "Matriz de una transformación lineal I Ejemplo F",
+      "duration": 242
+    },
+    {
+      "id": "3X4NxQiOlpg",
+      "title": "Transformación lineal inversa I Ejemplo F",
+      "duration": 560
+    },
+    {
+      "id": "hQ7DRYBoOoI",
+      "title": "Transformación lineal I Ejemplo G",
+      "duration": 360
+    },
+    {
+      "id": "glSocZJMdZQ",
+      "title": "Transformación lineal que no tiene inversa I Ejemplo G",
+      "duration": 452
+    },
+    {
+      "id": "a1N943nH2uw",
+      "title": "Transformación lineal I Ejemplo H",
+      "duration": 427
+    },
+    {
+      "id": "VROa56m15pA",
+      "title": "Transformación lineal I Ejemplo I",
+      "duration": 328
+    },
+    {
+      "id": "tE_HHLkHY44",
+      "title": "Matriz de una transformación lineal I Ejemplo I",
+      "duration": 265
+    },
+    {
+      "id": "gcX1Hj6rNP0",
+      "title": "Transformación lineal inversa I Ejemplo I",
+      "duration": 398
+    },
+    {
+      "id": "QyaG7f5mzCA",
+      "title": "Transformación lineal I Ejemplo J",
+      "duration": 444
+    },
+    {
+      "id": "LcjINSV3aIs",
+      "title": "Matriz de una transformación lineal I Ejemplo J",
+      "duration": 233
+    },
+    {
+      "id": "gat8kmKTutY",
+      "title": "Transformación lineal inversa I Ejemplo J",
+      "duration": 630
+    },
+    {
+      "id": "tg83e-swwqY",
+      "title": "Transformación lineal I Ejemplo K",
+      "duration": 428
+    },
+    {
+      "id": "G1Ial0-y38s",
+      "title": "Matriz de una transformación lineal I Ejemplo K",
+      "duration": 393
+    },
+    {
+      "id": "a9b9eQ_bdAw",
+      "title": "Transformación lineal inversa I Ejemplo K",
+      "duration": 476
+    }
+  ]
+}
