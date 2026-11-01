@@ -490,7 +490,7 @@
     margin-bottom: 1.25rem;
   }
 
-  /* Small uppercase label over a group: menu sections, the contents column, share links. */
+  /* Small label over a group: menu sections, the contents column, share links. It names the group without competing with it. */
   :where(
     .docs-links h3,
     .toc h2,
@@ -500,10 +500,8 @@
   ) {
     margin: 0 0 0.5rem;
     color: var(--muted);
-    font-size: var(--text-sm);
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    font-size: 0.8125rem;
+    font-weight: 500;
   }
 
   /*
@@ -514,26 +512,15 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr);
 
+    /* The frame keeps the header's column, so the menu starts under the logo. The menu has a fixed width so course titles fit; the article takes what is left. */
     @media (width >= 62rem) {
-      grid-template-columns: minmax(12rem, 1fr) minmax(0, 42rem);
-      column-gap: clamp(2rem, 5vw, 5rem);
-      width: 100cqw;
-      margin-left: calc(50% - 50cqw);
-      padding-inline: max(2rem, 5vw);
+      grid-template-columns: 15rem minmax(0, 1fr);
+      column-gap: 3rem;
     }
 
     @media (width >= 75rem) {
-      grid-template-columns: minmax(12rem, 1fr) minmax(0, 42rem) minmax(
-          12rem,
-          1fr
-        );
-      column-gap: clamp(2rem, 4vw, 5rem);
-
       &.has-toc {
-        grid-template-columns: minmax(12rem, 1fr) minmax(0, 42rem) minmax(
-            12rem,
-            1fr
-          );
+        grid-template-columns: 15rem minmax(0, 1fr) 13rem;
       }
     }
   }
@@ -546,9 +533,10 @@
       top: 3.5rem;
       align-self: start;
       height: calc(100dvh - 3.5rem);
-      padding: 2rem 1rem 4rem 0;
-      overflow-y: auto;
-      border-right: 1px solid var(--line);
+      /* Rows carry their own inset, so the negative margin puts their text, not their fill, on the logo's edge. */
+      margin-left: -0.5rem;
+      padding: 1.5rem 0 4rem;
+      overflow: hidden auto;
       border-bottom: 0;
       scrollbar-width: thin;
       scrollbar-color: transparent transparent;
@@ -579,8 +567,9 @@
       flex-wrap: wrap;
       gap: 0.25rem;
       min-height: 0;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       padding-left: 0.5rem;
+      font-size: var(--text-sm);
 
       & > p {
         flex-basis: 100%;
@@ -606,6 +595,11 @@
 
   /* The space below the menu is a child's margin, not padding: padding would hold the closed disclosure row open by its own height. */
   .docs-links {
+    /* Below lg the rows' inset would push their text past the bar title; from lg the sidebar's own margin does this. */
+    @media (width < 62rem) {
+      margin-inline: -0.5rem;
+    }
+
     & > :last-child {
       margin-bottom: 1rem;
     }
@@ -624,32 +618,43 @@
     padding: 0;
     list-style: none;
 
+    display: grid;
+    gap: 1px;
+
+    /* The space under an open branch is its last row's margin: a margin on the list itself would hold the closed disclosure open. */
     & .nav-tree {
-      margin: 0.125rem 0 0.25rem 0.75rem;
-      padding-left: 0.5rem;
-      border-left: 1px dashed var(--line);
+      padding-left: 0.75rem;
+
+      & > :last-child {
+        margin-bottom: 0.5rem;
+      }
     }
   }
 
+  /* Navigation recedes: muted rows, the open path in the text colour, and only the page being read on a fill. */
   .docs-link {
     display: block;
     padding: 0.3125rem 0.5rem;
+    overflow: hidden;
     border-radius: 0.375rem;
-    color: var(--fg);
-    font-size: var(--text-base);
-    line-height: 1.35;
+    color: var(--muted);
+    font-size: var(--text-sm);
+    line-height: 1.25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     &:hover {
-      background: var(--hover);
-      color: var(--link);
+      background: color-mix(in oklab, var(--fg) 4%, transparent);
+      color: var(--fg);
+      text-decoration: none;
     }
 
     &[data-active] {
-      color: var(--link);
+      color: var(--fg);
     }
 
     &[aria-current="page"] {
-      background: color-mix(in oklab, var(--link) 9%, transparent);
+      background: color-mix(in oklab, var(--fg) 7%, transparent);
       font-weight: 500;
     }
   }
@@ -681,17 +686,18 @@
     display: inline-grid;
     flex: none;
     place-items: center;
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 0.375rem;
     color: var(--muted);
 
     &:hover {
-      background: var(--hover);
-      color: var(--link);
+      background: color-mix(in oklab, var(--fg) 4%, transparent);
+      color: var(--fg);
     }
 
     & svg {
+      opacity: 0.7;
       rotate: -90deg;
       transition: rotate 0.25s var(--ease-snap);
     }
@@ -701,17 +707,23 @@
     }
   }
 
-  /* A branch with no page of its own (a semester): the whole row is the toggle. */
+  /* A branch with no page of its own (a semester) is a group label, smaller than the links it holds; the whole row is the toggle. */
   .nav-branch-label {
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: auto;
-    padding: 0.3125rem 0.5rem;
-    color: var(--fg);
-    font-size: var(--text-base);
-    line-height: 1.35;
+    /* The narrower right inset puts this chevron in line with the 1.5rem toggles of linked branches. */
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
     text-align: left;
+  }
+
+  /* A semester's courses sit under its label, not indented: the label already groups them. */
+  .nav-branch-row:has(> .nav-branch-label) + .disclosure > .nav-tree {
+    padding-left: 0;
   }
 
   .docs-article {
@@ -729,72 +741,46 @@
     }
   }
 
-  /* The contents column: who wrote the page, its headings and the share links. */
+  /* The contents column: the page's headings, the one being read in the text colour. */
   .toc {
     display: none;
 
     @media (width >= 75rem) {
       position: sticky;
       top: 3.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
+      display: block;
       align-self: start;
       max-height: calc(100dvh - 3.5rem);
       padding-block: 2rem;
       overflow-y: auto;
-      font-size: var(--text-sm);
+      font-size: 0.8125rem;
       scrollbar-width: thin;
     }
 
-    & section > ul {
+    & ul {
       margin: 0;
       padding: 0;
       list-style: none;
     }
 
     & ul ul {
-      margin: 0;
       padding-left: 0.75rem;
-      list-style: none;
     }
 
     & #TableOfContents a {
       display: block;
-      padding: 0.25rem 0;
+      padding-block: 0.25rem;
       color: var(--muted);
       line-height: 1.35;
+      transition: color 0.15s;
 
       &:hover {
-        color: var(--link);
+        color: var(--fg);
+        text-decoration: none;
       }
-    }
 
-    & #TableOfContents > ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    & .share {
-      margin: 0;
-      padding: 0;
-      border: 0;
-    }
-  }
-
-  .toc-authors {
-    display: grid;
-    gap: 0.5rem;
-
-    & a {
-      display: flex;
-      align-items: center;
-      gap: 0.625rem;
-      color: var(--fg);
-
-      &:hover {
-        color: var(--link);
+      &[aria-current] {
+        color: var(--fg);
       }
     }
   }
@@ -875,6 +861,10 @@
     & > span + span::before {
       margin-right: 0.5rem;
       content: "·";
+    }
+
+    .docs-article > & {
+      margin-bottom: 1.5rem;
     }
   }
 
