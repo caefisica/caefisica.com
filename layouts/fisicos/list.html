@@ -52,11 +52,32 @@
 {{- range where $places "mapped" true -}}
 	{{- $pins = $pins | append (dict "id" .place.id "short" (.place.short | default .place.name) "lat" .place.lat "lon" .place.lon "n" .n) -}}
 {{- end -}}
+{{- /* The panel's person view also gets every stop of the path, mapped or not, with what the person did there. */ -}}
 {{- $routes := slice -}}
 {{- range $data.people -}}
+	{{- $person := . -}}
+	{{- $mapped := slice -}}
 	{{- $stops := slice -}}
-	{{- range .path }}{{ if ne (index $byId .).lat nil }}{{ $stops = $stops | append . }}{{ end }}{{ end -}}
-	{{- $routes = $routes | append (dict "slug" .slug "name" .name "area" .area "degree" .degree "path" $stops "url" (printf "%s%s/" $.RelPermalink .slug)) -}}
+	{{- range .path -}}
+		{{- $id := . -}}
+		{{- $place := index $byId $id -}}
+		{{- if ne $place.lat nil }}{{ $mapped = $mapped | append $id }}{{ end -}}
+		{{- $did := slice -}}
+		{{- range where $person.studied "place" $id }}{{ $did = $did | append .level }}{{ end -}}
+		{{- range where $person.works "place" $id }}{{ $did = $did | append .role }}{{ end -}}
+		{{- $stops = $stops | append (dict "name" ($place.short | default $place.name) "note" (delimit $did " · ")) -}}
+	{{- end -}}
+	{{- $profile := site.GetPage (printf "/fisicos/%s" .slug) -}}
+	{{- $role := "" -}}
+	{{- with .works }}{{ $w := index . 0 }}{{ $role = printf "%s, %s" $w.role (index $byId $w.place).name }}{{ end -}}
+	{{- $image := "" -}}
+	{{- with $profile.Params.images }}{{ $image = index . 0 | relURL }}{{ end -}}
+	{{- $routes = $routes | append (dict
+		"slug" .slug "name" .name "initials" .initials "image" $image "role" $role
+		"area" .area "degree" .degree "works" .works_count "cited" .cited_by
+		"path" $mapped "stops" $stops "url" $profile.RelPermalink
+	)
+	-}}
 {{- end -}}
 {{- $land := resources.Get "maps/land.bin" | fingerprint -}}
 {{- .Store.Set "physicistsMap" (dict "land" $land.RelPermalink "places" ($pins | jsonify) "people" ($routes | jsonify)) -}}
@@ -75,6 +96,13 @@
 		<aside class="map-panel" hidden aria-live="polite">
 			<button class="map-btn map-panel-close" type="button" aria-label="Cerrar">{{ partial "ui/icon.html" (dict "name" "close" "size" 16) }}</button>
 			<div class="map-panel-body"></div>
+			<div class="map-panel-foot" hidden></div>
+			{{- /* Icons the script copies into the person view. */}}
+			<template class="map-icons">
+				{{- range slice "chevron-left" "chevron-right" }}
+					<span data-icon="{{ . }}">{{ partial "ui/icon.html" (dict "name" . "size" 16) }}</span>
+				{{- end }}
+			</template>
 		</aside>
 	</div>
 
@@ -138,6 +166,27 @@
 			</section>
 		</div>
 	</div>
+
+	{{- with .Params.opportunities }}
+		<h2 id="oportunidades">Oportunidades</h2>
+		<p class="text-muted">Directorios, becas y buscadores para seguir esos pasos.</p>
+		{{- range . }}
+			<section class="section-group band">
+				<h3>{{ .group }}</h3>
+				<ul class="rows">
+					{{- range .links }}
+						<li class="group">
+							<div class="row-main">
+								<a class="card-link" href="{{ .url }}">{{ .title }}</a>
+								{{- with .note }}<p>{{ . }}</p>{{ end }}
+							</div>
+							{{ partial "ui/chevron.html" }}
+						</li>
+					{{- end }}
+				</ul>
+			</section>
+		{{- end }}
+	{{- end }}
 
 	<p class="person-note text-muted">
 		Los datos vienen de las fichas públicas de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a> (Concytec), cuyos grados registra SUNEDU, y de ORCID para quien no tiene ficha, consultadas el {{ time.AsTime $data.fetched | time.Format ":date_long" }}. El área sale de los temas que OpenAlex asigna a sus publicaciones; quien tiene pocas publicaciones indexadas queda sin área. Cada nombre enlaza su perfil, que copia esos datos. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.

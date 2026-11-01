@@ -1,12 +1,22 @@
-{{- /* Renders footnote marks for a list of source keys. Context: dict with page and keys. */ -}}
+{{- /*
+Renders footnote marks for a list of source keys. Context: dict with page and keys.
+Each mark links its entry in the page's reference list. The link holds a card with the source's title and site, shown on hover and focus, so a reader checks a source without leaving the line; the card's text also names the link for a screen reader.
+*/ -}}
 {{- $sources := .page.Params.sources -}}
-<sup class="cite">
+<span class="cite">
 	{{- range .keys }}
 		{{- $key := . }}
 		{{- $n := 0 }}
-		{{- range $i, $s := $sources }}{{ if eq $s.key $key }}{{ $n = add $i 1 }}{{ end }}{{ end }}
+		{{- $source := dict }}
+		{{- range $i, $s := $sources }}{{ if eq $s.key $key }}{{ $n = add $i 1 }}{{ $source = $s }}{{ end }}{{ end }}
 		{{- if not $n }}{{ errorf "%s: no source with key %q" $.page.File.Path $key }}{{ end -}}
-		<a href="#fuente-{{ $key }}">[{{ $n }}]</a>
+		<a class="cite-mark" href="#fuente-{{ $key }}">
+			{{- $n -}}
+			<span class="cite-card">
+				<span class="cite-card-title">{{ $source.title }}</span>
+				<span class="cite-card-site">{{ strings.TrimPrefix "www." (urls.Parse $source.url).Host }}</span>
+			</span>
+		</a>
 	{{- end -}}
-</sup>
+</span>
 {{- /**/ -}}
