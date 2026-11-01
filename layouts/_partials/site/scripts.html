@@ -1,3 +1,4 @@
+{{- /* The copy, pdf and toc marks are set while the main block renders, before this partial runs. */ -}}
 {{- $hasCode := strings.Contains .Content "<pre" -}}
 {{- $build := dict "target" "es2020" "minify" hugo.IsProduction "sourceMap" (cond hugo.IsProduction "none" "inline") -}}
 
@@ -5,7 +6,7 @@
 
 {{- /* navigation.ts and its companions ship as one file. Hugo caches resources.Concat by target name, so each combination needs its own name. The parts join with "-": Cloudflare answers a "+" in a path with a 307 to "%2B", an extra round trip. */ -}}
 {{- $parts := slice "navigation" -}}
-{{- if and site.Params.options.clipBoard $hasCode }}{{ $parts = $parts | append "clipboard" }}{{ end -}}
+{{- if and site.Params.options.clipBoard (or $hasCode (.Store.Get "copy")) }}{{ $parts = $parts | append "clipboard" }}{{ end -}}
 {{- if site.Params.options.instantPage }}{{ $parts = $parts | append "instant-page" }}{{ end -}}
 {{- $bundle := slice -}}
 {{- range $parts }}{{ $bundle = $bundle | append (resources.Get (printf "js/%s.ts" .) | js.Build $build) }}{{ end -}}
@@ -23,7 +24,6 @@
 {{- if .Params.mermaid -}}
 	{{- partial "site/script.html" (dict "src" "js/mermaid.ts") -}}
 {{- end -}}
-{{- /* The pdf and toc marks are set while the main block renders, before this partial runs. */ -}}
 {{- if .Store.Get "pdf" -}}
 	{{- $lib := resources.Get "js/vendor/pdfjs/build/pdf.min.mjs" | fingerprint -}}
 	{{- $worker := resources.Get "js/vendor/pdfjs/build/pdf.worker.min.mjs" | fingerprint -}}
