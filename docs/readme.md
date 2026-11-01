@@ -9,6 +9,7 @@
 - [Agregar una entrada de blog](blog.md): front matter, imágenes y publicación.
 - [Shortcodes](shortcodes.md): libros, grupos de investigación, avisos,
   imágenes, PDF y diagramas.
-- [Regenerar las capturas](capturas.md): screenshots de `content/experimental`.
+- [Agregar un investigador](investigadores.md): fuentes, cronología, foto y
+  publicaciones de OpenAlex.
 - [Despliegue](despliegue.md): Cloudflare, Netlify, búsqueda, cabeceras y flujos
   de GitHub.

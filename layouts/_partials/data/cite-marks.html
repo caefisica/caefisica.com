@@ -1,0 +1,12 @@
+{{- /* Renders footnote marks for a list of source keys. Context: dict with page and keys. */ -}}
+{{- $sources := .page.Params.sources -}}
+<sup class="cite">
+	{{- range .keys }}
+		{{- $key := . }}
+		{{- $n := 0 }}
+		{{- range $i, $s := $sources }}{{ if eq $s.key $key }}{{ $n = add $i 1 }}{{ end }}{{ end }}
+		{{- if not $n }}{{ errorf "%s: no source with key %q" $.page.File.Path $key }}{{ end -}}
+		<a href="#fuente-{{ $key }}">[{{ $n }}]</a>
+	{{- end -}}
+</sup>
+{{- /**/ -}}

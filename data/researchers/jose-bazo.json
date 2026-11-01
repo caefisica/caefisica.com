@@ -1,0 +1,55 @@
+{
+  "fetched": "2026-11-01",
+  "works": 657,
+  "citations": 21466,
+  "selected": [
+    {
+      "title": "Laser spot measurement using simple devices",
+      "year": 2021,
+      "venue": "AIP Advances",
+      "url": "https://doi.org/10.1063/5.0046287",
+      "citations": 25,
+      "authors": 5
+    },
+    {
+      "title": "HIGH ENERGY ASTROPHYSICAL NEUTRINO FLUX AND MODIFIED DISPERSION RELATIONS",
+      "year": 2009,
+      "venue": "International Journal of Modern Physics A",
+      "url": "https://doi.org/10.1142/s0217751x09047429",
+      "citations": 16,
+      "authors": 4
+    },
+    {
+      "title": "TAMBO: Searching for Tau Neutrinos in the Peruvian Andes",
+      "year": 2023,
+      "venue": "International Cosmic Ray Conference",
+      "url": "https://doi.org/10.22323/1.444.1109",
+      "citations": 11,
+      "authors": 21
+    },
+    {
+      "title": "AMS-02 Track Reconstruction and Rigidity Measurement",
+      "year": 2013,
+      "venue": "International Cosmic Ray Conference",
+      "url": "https://ui.adsabs.harvard.edu/abs/2013ICRC...33.2306A/abstract",
+      "citations": 5,
+      "authors": 29
+    },
+    {
+      "title": "Alignment of the AMS-02 Silicon Tracker",
+      "year": 2013,
+      "venue": "",
+      "url": "http://hdl.handle.net/11388/179725",
+      "citations": 5,
+      "authors": 28
+    },
+    {
+      "title": "Search for neutrino point sources with IceCube 22-strings",
+      "year": 2009,
+      "venue": "Nuclear Physics B - Proceedings Supplements",
+      "url": "https://doi.org/10.1016/j.nuclphysbps.2009.02.061",
+      "citations": 5,
+      "authors": 1
+    }
+  ]
+}

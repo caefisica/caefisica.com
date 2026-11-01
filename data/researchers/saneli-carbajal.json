@@ -1,0 +1,55 @@
+{
+  "fetched": "2026-11-01",
+  "works": 9,
+  "citations": 177,
+  "selected": [
+    {
+      "title": "The present and future status of heavy neutral leptons",
+      "year": 2023,
+      "venue": "Journal of Physics G Nuclear and Particle Physics",
+      "url": "https://doi.org/10.1088/1361-6471/ac98f9",
+      "citations": 174,
+      "authors": 49
+    },
+    {
+      "title": "Indirect search of heavy neutral leptons using the DUNE near detector",
+      "year": 2024,
+      "venue": "Frontiers in Physics",
+      "url": "https://doi.org/10.3389/fphy.2024.1398070",
+      "citations": 2,
+      "authors": 2
+    },
+    {
+      "title": "Measuring the high-energy neutrino sky using the deep-valley neutrino observatory TAMBO",
+      "year": 2026,
+      "venue": "Nature Astronomy",
+      "url": "https://doi.org/10.1038/s41550-026-02916-4",
+      "citations": 0,
+      "authors": 32
+    },
+    {
+      "title": "Tracing Out The Neutrino Sky With TAMBO",
+      "year": 2025,
+      "venue": "International Cosmic Ray Conference",
+      "url": "https://doi.org/10.22323/1.501.0981",
+      "citations": 0,
+      "authors": 29
+    },
+    {
+      "title": "Current Status of TAMBO: Realizing PeV Neutrino Astronomy with a Cost-Effective Observatory",
+      "year": 2025,
+      "venue": "International Cosmic Ray Conference",
+      "url": "https://doi.org/10.22323/1.501.1194",
+      "citations": 0,
+      "authors": 30
+    },
+    {
+      "title": "Setting limits on heavy neutral leptons using the neutrino CC events at the DUNE near detector",
+      "year": 2021,
+      "venue": "Journal of Physics Conference Series",
+      "url": "https://doi.org/10.1088/1742-6596/2156/1/012237",
+      "citations": 0,
+      "authors": 2
+    }
+  ]
+}

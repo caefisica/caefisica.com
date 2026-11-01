@@ -56,7 +56,7 @@
 	)
 -}}
 
-{{- if and .IsPage (in (slice "blog" "unmsm" "apuntes" "experimental") .Section) -}}
+{{- if and .IsPage (in (slice "blog" "unmsm" "apuntes") .Section) -}}
 	{{- $graph = $graph | append (dict
 		"@type" "Article"
 		"headline" .Title

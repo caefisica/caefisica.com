@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="py-page">
+	<h1>{{ .Title }}</h1>
+	{{- with .Params.lead }}<p class="text-lead">{{ . }}</p>{{ end }}
+	<ul class="rows">
+		{{- range .Pages.ByTitle }}
+			<li class="group">
+				{{ partial "ui/avatar.html" (dict "page" . "size" 40) }}
+				<div class="row-main">
+					<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					<p>{{ .Params.role }}</p>
+				</div>
+				{{- with .Params.fields }}<span class="row-meta max-md:hidden">{{ delimit (first 2 .) " · " }}</span>{{ end }}
+				{{ partial "ui/chevron.html" }}
+			</li>
+		{{- end }}
+	</ul>
+	{{- with .Params.opportunities }}
+		<h2 id="oportunidades">Oportunidades</h2>
+		<p class="text-muted">Directorios, becas y buscadores para seguir esos pasos.</p>
+		{{- range . }}
+			<section class="section-group">
+				<h3>{{ .group }}</h3>
+				<ul class="rows">
+					{{- range .links }}
+						<li class="group">
+							<div class="row-main">
+								<a class="card-link" href="{{ .url }}">{{ .title }}</a>
+								{{- with .note }}<p>{{ . }}</p>{{ end }}
+							</div>
+							{{ partial "ui/chevron.html" }}
+						</li>
+					{{- end }}
+				</ul>
+			</section>
+		{{- end }}
+	{{- end }}
+</div>
+{{ end }}
