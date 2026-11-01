@@ -1,0 +1,15 @@
+{{- /* A profile's "Clases en video": the course playlists whose lecturer is the profile's title. Context: the profile page. */ -}}
+{{- with where (where (site.GetPage "/videos").RegularPages "Params.lecturer" .Title) "Params.playlist" "!=" nil }}
+	<h2 id="clases">Clases en video</h2>
+	<ul class="rows">
+		{{- range . }}
+			<li class="group">
+				<div class="row-main">
+					<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					<p>{{ partial "videos/byline.html" . }}</p>
+				</div>
+				<span class="row-meta">{{ len .Params.lessons }} clases</span>
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}

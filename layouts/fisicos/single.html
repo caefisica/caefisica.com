@@ -161,22 +161,10 @@
 				{{- end }}
 			</ul>
 		{{- end }}
-		{{- with where (where (site.GetPage "/videos").RegularPages "Params.lecturer" .Title) "Params.playlist" "!=" nil }}
-			<h2 id="clases">Clases en video</h2>
-			<ul class="rows">
-				{{- range . }}
-					<li class="group">
-						<div class="row-main">
-							<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-							<p>{{ partial "videos/byline.html" . }}</p>
-						</div>
-						<span class="row-meta">{{ len .Params.lessons }} clases</span>
-					</li>
-				{{- end }}
-			</ul>
-		{{- end }}
+		{{ partial "videos/person.html" . }}
 		{{ partial "tesis/person.html" $slug }}
 		{{ partial "grabaciones/person.html" (printf "/fisicos/%s/" $slug) }}
+		{{ partial "fisicos/press.html" $slug }}
 		{{- with .Params.sources }}
 			<h2 id="referencias">Referencias</h2>
 			<ol class="sources">
