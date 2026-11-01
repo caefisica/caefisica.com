@@ -1,4 +1,4 @@
-{{- /* One talk or session on /grabaciones/: title linking the video, or the invitation when there is no video; speakers and where it is under it; day or month on the right. Context: dict with recording and optional note, which goes before the host. */ -}}
+{{- /* One talk or session on /grabaciones/: title linking the video (a Facebook video's public Drive copy, with the post linked beside it), or the invitation when there is no video; speakers and where it is under it; day or month on the right. Context: dict with recording and optional note, which goes before the host. */ -}}
 {{- $r := .recording -}}
 <li class="group">
 	<div class="row-main">
@@ -6,7 +6,7 @@
 		<p>
 			{{- range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ end }}
 			{{- with $r.speakers }}{{ with (index . 0).affiliation }} ({{ . }}){{ end }} · {{ end }}
-			{{- with .note }}{{ . }} · {{ end }}{{ cond (eq $r.host "Invitación") "Invitación, sin video" $r.host }}{{ with $r.minutes }} · {{ . }} min{{ end -}}
+			{{- with .note }}{{ . }} · {{ end }}{{ with $r.post }}Copia en Drive · <a href="{{ . }}">Facebook</a>{{ else }}{{ cond (eq $r.host "Invitación") "Invitación, sin video" $r.host }}{{ end }}{{ with $r.minutes }} · {{ . }} min{{ end -}}
 		</p>
 	</div>
 	<span class="row-meta">{{ partial "ui/day-or-month.html" $r }}</span>

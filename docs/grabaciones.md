@@ -17,8 +17,9 @@ Hay tres orígenes:
 
 - **Facebook**: los videos de la página de la facultad de quince minutos o más.
   Los más cortos son clips, reels o avisos. Los avisos de admisión tampoco
-  entran. Los videos tienen una copia de respaldo privada en Google Drive; la
-  página enlaza siempre el video público.
+  entran. Cada video tiene una copia pública en Google Drive (`post` guarda el
+  enlace a Facebook). El título abre el reproductor de Drive, para que la página
+  no cargue el de Facebook, y «Facebook» enlaza la publicación.
 - **Educast PUCP**: el archivo de videos de la PUCP. No da la duración, así que
   esas filas no muestran minutos.
 - **Invitación**: las charlas que la facultad anunció en Facebook y que no
