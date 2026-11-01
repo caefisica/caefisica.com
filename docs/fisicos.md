@@ -58,11 +58,15 @@ para actualizar los datos y confirma el JSON.
 las personas de `data/physicists.json`, y debajo la misma información como
 lista, que se ve por institución, por área o por persona.
 
-El JSON sale de las fichas públicas de CTI Vitae y, para quien no tiene ficha,
-de su registro de ORCID (`source` dice cuál). OpenAlex da el área, a partir de
-los temas de sus publicaciones, y la obra (`works_count` y `cited_by`). `places`
-lista las instituciones con sus coordenadas (`lat` y `lon` nulos si no tienen
-ubicación). `people` lista a cada persona con:
+El JSON sale de las fichas públicas de CTI Vitae, del Portal del Profesorado de
+la PUCP para su Sección Física y, para quien no está en ninguno, de su registro
+de ORCID (`source` dice cuál: `ctivitae`, `pucp` u `orcid`). Quien está en CTI
+Vitae y en la PUCP queda con la ficha de CTI Vitae, que tiene años. El portal de
+la PUCP da el grado y la institución pero no los años, así que esos perfiles
+ordenan los grados por nivel. OpenAlex da el área, a partir de los temas de sus
+publicaciones, y la obra (`works_count` y `cited_by`). `places` lista las
+instituciones con sus coordenadas (`lat` y `lon` nulos si no tienen ubicación).
+`people` lista a cada persona con:
 
 | Campo     | Uso                                                               |
 | --------- | ----------------------------------------------------------------- |
