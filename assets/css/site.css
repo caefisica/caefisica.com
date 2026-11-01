@@ -59,29 +59,26 @@
     sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New",
     monospace;
 
+  /* From the Figma design system (Elementos › Colores). Only the steps a token uses are kept. */
   --color-*: initial;
-  --color-white: #fcfbff;
-  --color-gray-100: #f4f1fa;
-  --color-gray-200: #e5e1ed;
-  --color-gray-300: #d1ccd9;
-  --color-gray-400: #aca7b4;
-  --color-gray-500: #827d8b;
-  --color-gray-600: #605b68;
-  --color-gray-700: #45414b;
-  --color-gray-800: #302e36;
-  --color-gray-900: #212529;
-  --color-indigo-100: #e7e7f9;
-  --color-indigo-200: #c9c9ed;
-  --color-indigo-300: #a5a6de;
-  --color-indigo-400: #8184cf;
-  --color-indigo-500: #696cc2;
-  --color-indigo-600: #5b5fc7;
-  --color-indigo-700: #484caa;
-  --color-indigo-800: #373a83;
-  --color-indigo-900: #292d63;
+  --color-white: #ffffff;
+  --color-ink: #1f2130;
+  --color-mist: #f4f5f8;
+  --color-night: #0f1017;
+  --color-night-raised: #191a23;
+  --color-moon: #e3e4f4;
+  --color-moon-faint: #adaebb;
+  --color-indigo-300: #b5b7ed;
+  --color-indigo-500: #5e6ad2;
+  --color-indigo-600: #4e59c4;
   --color-pink-500: #d692b7;
   --color-sky-300: #9dc9d8;
-  --color-beige: #eeeaf3;
+
+  /* Figma elevation, drawn at 2.3× on the board and scaled back to CSS pixels. */
+  --shadow-*: initial;
+  --shadow-low: 0 1px 2px rgb(0 0 0 / 0.1);
+  --shadow-high: 0 2px 12px rgb(0 0 0 / 0.2);
+  --shadow-float: 0 8px 40px rgb(0 0 0 / 0.25);
 
   --text-sm: 0.875rem;
   --text-sm--line-height: 1.45;
@@ -99,48 +96,51 @@
 
 /* Cada token cambia de valor en modo oscuro. Las utilidades usan el nombre. */
 :root {
-  --fg: #302e36;
-  --bg: #f4f1fa;
-  --surface: #ebe7f1;
-  --line: rgb(48 46 54 / 0.08);
-  --dash: rgb(48 46 54 / 0.07);
+  --fg: var(--color-ink);
+  --bg: var(--color-white);
+  --surface: var(--color-mist);
+  --line: rgb(31 33 48 / 0.08);
+  --dash: rgb(31 33 48 / 0.07);
   --card: var(--surface);
   --wash: radial-gradient(
     64rem 30rem at 50% 0,
-    rgb(91 95 199 / 0.12),
+    rgb(94 106 210 / 0.12),
     transparent 70%
   );
-  --link: var(--color-indigo-700);
-  --muted: rgb(48 46 54 / 0.72);
-  --accent: var(--color-indigo-600);
-  --edge: rgb(48 46 54 / 0.09);
-  --hover: rgb(91 95 199 / 0.08);
-  --glass: rgb(252 251 255 / 0.76);
-  --code-bg: var(--color-beige);
+  /* Darker than the accent: #5e6ad2 is under 4.5:1 on the surface. */
+  --link: var(--color-indigo-600);
+  /* Figma's labelMuted (#ababab) is 2.3:1 on white, too faint for text. */
+  --muted: rgb(31 33 48 / 0.68);
+  --accent: var(--color-indigo-500);
+  --edge: rgb(31 33 48 / 0.09);
+  --hover: rgb(94 106 210 / 0.08);
+  --glass: rgb(255 255 255 / 0.76);
+  --code-bg: var(--surface);
   --string: var(--color-pink-500);
   --icon-chevron: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
   color-scheme: light;
 }
 
 [data-dark-mode] {
-  --fg: #f3f4f5;
-  --bg: #212529;
-  --surface: #272b32;
-  --line: rgb(243 244 245 / 0.08);
-  --dash: rgb(243 244 245 / 0.06);
+  --fg: var(--color-moon);
+  --bg: var(--color-night);
+  --surface: var(--color-night-raised);
+  --line: rgb(227 228 244 / 0.08);
+  --dash: rgb(227 228 244 / 0.06);
   --card: var(--surface);
   --wash: radial-gradient(
     64rem 30rem at 50% 0,
-    rgb(166 168 222 / 0.13),
+    rgb(94 106 210 / 0.18),
     transparent 70%
   );
-  --link: #b5b7ed;
-  --muted: rgb(243 244 245 / 0.7);
-  --accent: #a5a6de;
-  --edge: rgb(243 244 245 / 0.09);
+  /* #5e6ad2 is 4:1 on the night ground, so links use a lighter step. */
+  --link: var(--color-indigo-300);
+  --muted: var(--color-moon-faint);
+  --accent: var(--color-indigo-500);
+  --edge: rgb(227 228 244 / 0.09);
   --hover: rgb(181 183 237 / 0.1);
-  --glass: rgb(39 43 50 / 0.76);
-  --code-bg: #272b32;
+  --glass: rgb(15 16 23 / 0.76);
+  --code-bg: var(--surface);
   --string: var(--color-sky-300);
   color-scheme: dark;
 }
@@ -433,10 +433,7 @@
     border: 1px solid var(--edge);
     border-radius: 0.75rem;
     background: var(--card);
-    box-shadow:
-      0 1px 0 rgb(255 255 255 / 0.06) inset,
-      0 1px 2px rgb(18 21 25 / 0.12),
-      0 4px 8px rgb(18 21 25 / 0.06);
+    box-shadow: var(--shadow-low);
   }
 
   .card-hover {
@@ -451,9 +448,7 @@
     @media (hover: hover) and (pointer: fine) {
       &:hover {
         border-color: var(--link);
-        box-shadow:
-          0 1px 0 rgb(255 255 255 / 0.1) inset,
-          0 1.25rem 2.75rem rgb(18 21 25 / 0.14);
+        box-shadow: var(--shadow-high);
       }
     }
   }
@@ -471,14 +466,14 @@
   }
 
   .btn-solid {
-    background: var(--link);
-    color: var(--bg);
+    background: var(--accent);
+    color: var(--color-white);
 
     &:hover,
     &:focus-visible {
-      border-color: color-mix(in oklab, var(--link), var(--fg) 25%);
-      background: color-mix(in oklab, var(--link), var(--fg) 25%);
-      color: var(--bg);
+      border-color: color-mix(in oklab, var(--accent), black 12%);
+      background: color-mix(in oklab, var(--accent), black 12%);
+      color: var(--color-white);
     }
   }
 
@@ -581,7 +576,7 @@
 
   /* Backdrops do not inherit custom properties in every browser, so the colour is a literal. */
   dialog::backdrop {
-    background: rgb(33 37 41 / 0.8);
+    background: rgb(15 16 23 / 0.8);
   }
 
   /* A modal scales in over 250ms and leaves faster. `allow-discrete` keeps it displayed while it plays out. */
@@ -618,7 +613,7 @@
   }
 
   #main-menu::backdrop {
-    background: rgb(18 21 25 / 0.5);
+    background: rgb(15 16 23 / 0.5);
     opacity: 0;
     transition:
       opacity 0.3s ease-out,
@@ -803,9 +798,7 @@
     border-radius: 0.75rem;
     background: var(--bg);
     color: var(--fg);
-    box-shadow:
-      0 1.5rem 3rem -0.5rem rgb(18 21 25 / 0.3),
-      0 0 0 1px rgb(18 21 25 / 0.04);
+    box-shadow: var(--shadow-float);
     transform-origin: 50% 0;
 
     &[open] {
@@ -814,7 +807,7 @@
     }
 
     &::backdrop {
-      background: rgb(18 21 25 / 0.35);
+      background: rgb(15 16 23 / 0.35);
       backdrop-filter: blur(4px);
     }
 
@@ -1044,7 +1037,7 @@
       border: 1px solid var(--edge);
       border-radius: 0.5rem;
       background: var(--bg);
-      box-shadow: 0 0.5rem 1.5rem rgb(18 21 25 / 0.12);
+      box-shadow: var(--shadow-high);
 
       [data-dark-mode] & {
         background: var(--surface);
@@ -1093,18 +1086,13 @@
     align-items: center;
     gap: 1rem;
     padding: 0.75rem 1rem;
-    background: var(--color-indigo-800);
-    color: white;
+    background: var(--accent);
+    color: var(--color-white);
     font-family: var(--font-mono);
     font-size: var(--text-sm);
 
     @media (width >= 48rem) {
       padding-inline: 2rem;
-    }
-
-    [data-dark-mode] & {
-      background: var(--color-indigo-300);
-      color: var(--color-gray-900);
     }
 
     & p {
