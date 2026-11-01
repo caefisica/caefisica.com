@@ -35,8 +35,8 @@ identifier = "recursos"
 weight = 30
 
 [[main]]
-name = "Artículos"
-pageRef = "/experimental"
+name = "Investigadores"
+pageRef = "/investigadores"
 parent = "recursos"
 weight = 10
 
@@ -127,8 +127,8 @@ parent = "leer"
 weight = 10
 
 [[footer]]
-name = "Artículos"
-pageRef = "/experimental"
+name = "Investigadores"
+pageRef = "/investigadores"
 parent = "leer"
 weight = 20
 

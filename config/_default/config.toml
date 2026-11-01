@@ -41,13 +41,9 @@ lastmod = [":git", "lastmod", "date", "publishDate"]
 
 [taxonomies]
 contributor = "contributors"
-type = "types"
-functionality = "functionalities"
 
 [permalinks]
 blog = "/blog/:title/"
-types = "/experimental/types/:title/"
-functionalities = "/experimental/functionalities/:title/"
 
 [build.buildStats]
 enable = true

@@ -1,0 +1,55 @@
+{
+  "fetched": "2026-11-01",
+  "works": 958,
+  "citations": 26040,
+  "selected": [
+    {
+      "title": "Where are we with light sterile neutrinos?",
+      "year": 2020,
+      "venue": "",
+      "url": "https://hdl.handle.net/1721.1/132202",
+      "citations": 140,
+      "authors": 5
+    },
+    {
+      "title": "Dark matter annihilation to neutrinos",
+      "year": 2021,
+      "venue": "Reviews of Modern Physics",
+      "url": "https://doi.org/10.1103/revmodphys.93.035007",
+      "citations": 132,
+      "authors": 6
+    },
+    {
+      "title": "Effect of New Physics in Astrophysical Neutrino Flavor",
+      "year": 2015,
+      "venue": "Physical Review Letters",
+      "url": "https://doi.org/10.1103/physrevlett.115.161303",
+      "citations": 130,
+      "authors": 3
+    },
+    {
+      "title": "The future of high-energy astrophysical neutrino flavor measurements",
+      "year": 2021,
+      "venue": "Journal of Cosmology and Astroparticle Physics",
+      "url": "https://doi.org/10.1088/1475-7516/2021/04/054",
+      "citations": 86,
+      "authors": 5
+    },
+    {
+      "title": "Imaging Galactic Dark Matter with High-Energy Cosmic Neutrinos",
+      "year": 2017,
+      "venue": "Physical Review Letters",
+      "url": "https://doi.org/10.1103/physrevlett.119.201801",
+      "citations": 85,
+      "authors": 3
+    },
+    {
+      "title": "First Constraints on the Complete Neutrino Mixing Matrix with a Sterile Neutrino",
+      "year": 2016,
+      "venue": "Physical Review Letters",
+      "url": "https://doi.org/10.1103/physrevlett.117.221801",
+      "citations": 79,
+      "authors": 4
+    }
+  ]
+}

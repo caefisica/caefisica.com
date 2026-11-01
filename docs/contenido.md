@@ -12,10 +12,9 @@ content/
 │   └── facultad/                      información de la facultad
 ├── apuntes/<tema>/                    apuntes por tema
 ├── blog/<NNN-nombre>/index.md         entradas del blog
-├── experimental/<dominio>/index.md    artículos de otros sitios
+├── investigadores/<slug>/index.md     físicos peruanos y sus trayectorias
 ├── professors/<slug>/index.md         docentes
 ├── contributors/<slug>/_index.md      colaboradores; el índice es /equipo/
-├── types/, functionalities/           índices de las taxonomías de experimental
 ├── contacto/, privacidad/
 ├── redes.md
 └── _index.md                          portada
@@ -75,23 +74,21 @@ archivo.
 `hugo new content` copia un molde de [`archetypes/`](../archetypes). Hugo elige
 el molde por la primera carpeta del destino; para otros, indícalo con `--kind`:
 
-| Molde             | Cómo se elige                           |
-| ----------------- | --------------------------------------- |
-| `blog.md`         | Automático en `content/blog/`.          |
-| `experimental.md` | Automático en `content/experimental/`.  |
-| `pregrado.md`     | `--kind pregrado`, para guías de curso. |
-| `offering.md`     | `--kind offering`, para sílabos.        |
-| `professor.md`    | `--kind professor`, para docentes.      |
-| `default.md`      | Cualquier otra carpeta.                 |
+| Molde          | Cómo se elige                           |
+| -------------- | --------------------------------------- |
+| `blog.md`      | Automático en `content/blog/`.          |
+| `pregrado.md`  | `--kind pregrado`, para guías de curso. |
+| `offering.md`  | `--kind offering`, para sílabos.        |
+| `professor.md` | `--kind professor`, para docentes.      |
+| `default.md`   | Cualquier otra carpeta.                 |
 
 ```bash
 hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
 ```
 
-Los moldes `blog`, `experimental`, `pregrado` y `default` crean la página con
-`draft: true`; `offering` y `professor`, con `draft: false`. `bun run dev`
-muestra los borradores; la compilación del sitio (`bun run build`) no los
-publica.
+Los moldes `blog`, `pregrado` y `default` crean la página con `draft: true`;
+`offering` y `professor`, con `draft: false`. `bun run dev` muestra los
+borradores; la compilación del sitio (`bun run build`) no los publica.
 
 ## Formato del texto
 

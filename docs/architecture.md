@@ -36,7 +36,7 @@ que define el bloque `main` de [`layouts/baseof.html`](../layouts/baseof.html).
 se agrupan por función: `site/` (cabecera, pie, `<head>`, scripts), `docs/`
 (guías y sílabos), `article/` (piezas de cualquier artículo), `data/` (búsquedas
 en el contenido), `media/` (imágenes y PDF), `ui/` (iconos, fechas, avatares), y
-`home/`, `search/` y `experimental/` para sus páginas. `single.html` llama a
+`home/` y `search/` para sus páginas. `single.html` llama a
 [`docs/layout.html`](../layouts/_partials/docs/layout.html) con el cuerpo de
 [`docs/guide.html`](../layouts/_partials/docs/guide.html):
 
@@ -147,7 +147,7 @@ página.
 | `data/`                         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros. |
 | `config/`                       | Configuración de Hugo por entorno.                                            |
 | `archetypes/`                   | Moldes de `hugo new`.                                                         |
-| `scripts/`                      | `screenshots.ts`, genera las capturas de `content/experimental`.              |
+| `scripts/`                      | `openalex.ts`, escribe las publicaciones de `data/researchers/`.              |
 | `.github/`                      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.             |
 | `wrangler.toml`, `netlify.toml` | Despliegue. Ver [despliegue](despliegue.md).                                  |
 | `.pages.yml`                    | Esquema de los campos de Pages CMS.                                           |
@@ -157,8 +157,7 @@ página.
 `config/_default/` tiene `config.toml` (salidas, taxonomías, permalinks),
 `markup.toml`, `menus.toml`, `module.toml` y `params.toml`.
 
-- Taxonomías: `contributors`, `types` y `functionalities`. Los permalinks de
-  `blog`, `types` y `functionalities` están en `[permalinks]`.
+- Taxonomía: `contributors`. El permalink de `blog` está en `[permalinks]`.
 - `home` produce además `_redirects` y `_headers` (formatos de salida
   `REDIRECTS` y `HEADERS`), generados por `layouts/index.redirects` y
   `layouts/index.headers`. La política CSP sale de `data/fixes/headers.yml`.
@@ -171,9 +170,9 @@ página.
   arma el `srcset` con los anchos de `params.toml` y usa la carga diferida del
   navegador (`loading="lazy"`).
 
-Otras carpetas de `layouts/`: las secciones `blog`, `experimental` y
+Otras carpetas de `layouts/`: las secciones `blog`, `investigadores` y
 `professors` usan la carpeta con su nombre (la página de un docente reúne sus
 cursos con `data/professor-courses.html` y el nombre de su universidad con
-`data/university.html`); `experimental/taxonomy.html` y `experimental/term.html`
-dibujan sus taxonomías `types` y `functionalities`; la página de enlaces fija
-`type: links` y usa `layouts/links/page.html`.
+`data/university.html`; la de un investigador numera sus fuentes con
+`data/cite-marks.html`); la página de enlaces fija `type: links` y usa
+`layouts/links/page.html`.

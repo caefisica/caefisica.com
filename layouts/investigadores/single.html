@@ -1,0 +1,87 @@
+{{ define "main" }}
+{{- $works := index hugo.Data.researchers .File.ContentBaseName }}
+<article class="col-prose py-page">
+	{{ partial "article/breadcrumbs.html" . }}
+	<header class="person-head">
+		{{ partial "ui/avatar.html" (dict "page" . "size" 72 "eager" true) }}
+		<div>
+			<h1>{{ .Title }}</h1>
+			{{- with .Params.role }}<p class="text-lead">{{ . }}</p>{{ end }}
+		</div>
+	</header>
+	<section class="facts" aria-labelledby="person-info">
+		<h2 id="person-info">En breve</h2>
+		<dl>
+			{{- with .Params.fields }}
+				<div>
+					<dt>Campos</dt>
+					{{- /* Field names are common nouns, capitalised only to stand alone as tags. */}}
+					{{- $names := slice (index . 0) }}{{ range after 1 . }}{{ $names = $names | append (lower .) }}{{ end }}
+					<dd>{{ delimit $names ", " " y " }}</dd>
+				</div>
+			{{- end }}
+			{{- with .Params.studied }}
+				<div>
+					<dt>Estudió en</dt>
+					<dd>{{ delimit . ", " " y " }}</dd>
+				</div>
+			{{- end }}
+			{{- with .Params.collaborations }}
+				<div>
+					<dt>Colaboraciones</dt>
+					<dd>{{ delimit . ", " " y " }}</dd>
+				</div>
+			{{- end }}
+			{{- with $works }}
+				<div>
+					<dt>Obra</dt>
+					<dd>{{ lang.FormatNumber 0 .works }} trabajos, {{ lang.FormatNumber 0 .citations }} citas</dd>
+				</div>
+			{{- end }}
+		</dl>
+	</section>
+	<div class="markdown">
+		{{ .Content }}
+		{{- with .Params.timeline }}
+			<h2 id="cronologia">Cronología</h2>
+			<ol class="timeline">
+				{{- range . }}
+					<li>
+						<span class="timeline-years">{{ .years }}</span>
+						<span>{{ .text }}{{ with .cite }}{{ partial "data/cite-marks.html" (dict "page" $ "keys" .) }}{{ end }}</span>
+					</li>
+				{{- end }}
+			</ol>
+		{{- end }}
+	</div>
+	{{- with $works }}
+		<h2 id="publicaciones">Publicaciones seleccionadas</h2>
+		<p class="text-muted">
+			Los trabajos más citados con pocos autores. Los artículos de las grandes colaboraciones, firmados por cientos de personas, suman a la obra pero no se listan. Datos de OpenAlex al {{ partial "ui/date.html" (time.AsTime .fetched) }}.
+		</p>
+		<ul class="rows">
+			{{- range .selected }}
+				<li class="group">
+					<div class="row-main">
+						<a class="card-link" href="{{ .url }}">{{ .title }}</a>
+						<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
+					</div>
+					<span class="row-meta">{{ lang.FormatNumber 0 .citations }} citas</span>
+				</li>
+			{{- end }}
+		</ul>
+	{{- end }}
+	{{- with .Params.sources }}
+		<h2 id="referencias">Referencias</h2>
+		<ol class="sources">
+			{{- range . }}
+				<li id="fuente-{{ .key }}"><a href="{{ .url }}">{{ .title }}</a></li>
+			{{- end }}
+		</ol>
+	{{- end }}
+	<p class="person-note text-muted">
+		Cada dato enlaza su fuente pública. Si eres {{ .Title }} y quieres corregir algo o enviar una foto, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+	</p>
+	{{ partial "article/page-footer.html" . }}
+</article>
+{{ end }}

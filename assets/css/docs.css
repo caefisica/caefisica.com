@@ -452,7 +452,7 @@
 
   .markdown {
     /* A prose link is underlined at rest, since colour alone does not mark it (WCAG 1.4.1). On hover a full-strength line sweeps in from the left over the faint one. */
-    & :is(p, li, td, dd) a:not(.doc-btn) {
+    & :is(p, li, td, dd) a:not(.doc-btn, .cite a) {
       padding-bottom: 0.2rem;
       background:
         linear-gradient(currentColor, currentColor) 0 100% / 0 0.1em no-repeat,
@@ -1090,7 +1090,7 @@
   .section-group {
     margin-top: 2.5rem;
 
-    & > h2 {
+    & > :is(h2, h3) {
       margin: 0 0 0.5rem;
       color: var(--muted);
       font-size: 0.8125rem;
@@ -1161,6 +1161,83 @@
    * A list of links as open rows between hairlines. The hover fill reaches past the column edges,
    * and the hairlines on either side of the hovered row hide so the fill reads as one shape.
    */
+  .person-head {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+    & h1 {
+      margin-bottom: 0.25rem;
+    }
+
+    & .text-lead {
+      margin: 0;
+      color: var(--muted);
+    }
+  }
+
+  /* Years in a fixed column so the entries align, with a dashed guide like the docs tree. */
+  .markdown .timeline {
+    margin: 1rem 0 2rem;
+    padding: 0 0 0 1rem;
+    border-left: 1px dashed var(--line);
+    list-style: none;
+
+    & li {
+      display: grid;
+      grid-template-columns: 7rem 1fr;
+      gap: 1rem;
+      margin: 0 0 0.75rem;
+      padding: 0;
+
+      @media (width < 30rem) {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+    }
+  }
+
+  .timeline-years {
+    color: var(--muted);
+    font-size: var(--text-sm);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.75;
+  }
+
+  .cite {
+    margin-left: 0.125rem;
+    font-size: 0.7em;
+    line-height: 0;
+    white-space: nowrap;
+
+    & a {
+      text-decoration: none;
+    }
+
+    & a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .sources {
+    padding-left: 1.5rem;
+    color: var(--muted);
+    font-size: var(--text-sm);
+
+    & li {
+      margin-bottom: 0.25rem;
+    }
+
+    & li:target {
+      color: var(--fg);
+    }
+  }
+
+  .person-note {
+    margin-top: 2.5rem;
+    font-size: var(--text-sm);
+  }
+
   .rows {
     isolation: isolate;
     margin: 1.5rem 0 2rem;
