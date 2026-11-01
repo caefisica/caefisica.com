@@ -9,7 +9,7 @@
 - [Agregar una entrada de blog](blog.md): front matter, imágenes y publicación.
 - [Shortcodes](shortcodes.md): libros, grupos de investigación, avisos,
   imágenes, PDF y diagramas.
-- [Agregar un investigador](investigadores.md): fuentes, cronología, foto y
-  publicaciones de OpenAlex.
+- [Agregar un investigador](investigadores.md): fuentes, cronología, foto,
+  publicaciones de OpenAlex y el mapa de físicos.
 - [Despliegue](despliegue.md): Cloudflare, Netlify, búsqueda, cabeceras y flujos
   de GitHub.
