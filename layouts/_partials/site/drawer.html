@@ -5,7 +5,10 @@
 	aria-labelledby="main-menu-title"
 	class="inset-y-0 right-0 left-auto m-0 h-dvh max-h-none w-3/4 max-w-80 translate-x-full overflow-y-auto border-0 bg-bg p-0 text-fg shadow-xl transition-[translate,display,overlay] transition-discrete duration-300 ease-snap open:translate-x-0 starting:open:translate-x-full md:static md:flex md:h-auto md:w-auto md:max-w-none md:grow md:justify-end md:translate-x-0 md:overflow-visible md:bg-transparent md:shadow-none">
 	<div class="flex h-14 items-center justify-between border-b border-line pr-2 pl-6 md:hidden">
-		<p id="main-menu-title" class="m-0 font-semibold text-accent">{{ site.Params.title }}</p>
+		<p id="main-menu-title" class="m-0 flex items-center gap-2 font-semibold">
+			{{- partial "ui/logo.html" (dict "class" "size-5 shrink-0") }}
+			{{- site.Params.title -}}
+		</p>
 		<button class="icon-btn" type="button" popovertarget="main-menu" popovertargetaction="hide" aria-label="Cerrar menú principal">
 			{{ partial "ui/icon.html" (dict "name" "close" "size" 24) }}
 		</button>
@@ -15,7 +18,7 @@
 			<h2 id="drawer-pages" class="drawer-heading">Secciones</h2>
 			{{ partial "site/main-nav.html" . }}
 		</section>
-		<span class="nav-divider hidden md:block"aria-hidden="true"></span>
+		<span class="nav-divider hidden md:block" aria-hidden="true"></span>
 		{{ partial "site/search-button.html" (dict "class" "icon-btn hidden md:inline-flex") }}
 		<section aria-labelledby="drawer-social" class="md:contents">
 			<h2 id="drawer-social" class="drawer-heading">Redes sociales</h2>
