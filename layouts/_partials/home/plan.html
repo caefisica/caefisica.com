@@ -8,7 +8,7 @@ The picker is a radio group, so it works without script. The script only remembe
 	<div class="plan hero-fade" style="--i: 3">
 		<div class="plan-bar">
 			<h2 id="plan" class="plan-name">{{ $plan.Title }}</h2>
-			<fieldset class="plan-tabs">
+			<fieldset class="pill-tabs">
 				<legend>Ciclo</legend>
 				{{- range seq 10 }}
 					{{- if where $courses "Params.semester" . }}
