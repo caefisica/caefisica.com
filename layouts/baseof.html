@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="{{ site.Language.Locale | default "es" }}">
 	{{ partial "site/head.html" . }}
-	<body>
+	{{- /* main grows so that a short page still puts the footer at the bottom of the window. */}}
+	<body class="flex min-h-dvh flex-col">
 		<a class="skip-link" href="#main">Saltar al contenido</a>
 		{{ partial "site/header.html" . }}
 		{{- /* The home page lays out full-width bands, so it brings its own containers. Search indexes every page but the home page and the 404. */}}
-		<main id="main"{{ if not .IsHome }} class="mx-auto w-full max-w-page px-gutter"{{ end }}{{ if not (in (slice "home" "404") .Kind) }} data-pagefind-body{{ end }}>
+		<main id="main" class="flex-1{{ if not .IsHome }} mx-auto w-full max-w-page px-gutter{{ end }}"{{ if not (in (slice "home" "404") .Kind) }} data-pagefind-body{{ end }}>
 			{{- /* The trail a search result shows above its title. */}}
 			{{- $trail := slice }}
 			{{- range .Ancestors.Reverse }}{{ if not .IsHome }}{{ $trail = $trail | append .LinkTitle }}{{ end }}{{ end }}

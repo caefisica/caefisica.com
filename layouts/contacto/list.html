@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" .) }}
+	<ul class="rows">
+		{{- range .Params.channels }}
+			<li class="group">
+				<div class="row-main">
+					<a class="card-link" href="{{ .url }}">{{ .name }}</a>
+					<p>{{ .note }}</p>
+				</div>
+				<span class="row-meta max-md:hidden">{{ .handle }}</span>
+				{{ partial "ui/chevron.html" }}
+			</li>
+		{{- end }}
+	</ul>
+</div>
+{{ end }}
