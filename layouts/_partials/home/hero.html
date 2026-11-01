@@ -5,52 +5,16 @@
 			<h1 class="hero-title hero-fade" style="--i: 0">Una guía para el estudio <span>de las Ciencias Físicas</span></h1>
 			<p class="hero-lead hero-fade" style="--i: 1">{{ or .Params.Lead .Description | safeHTML -}}</p>
 			<div class="hero-actions hero-fade" style="--i: 2">
+				<a class="btn btn-solid" href="{{ "unmsm/pregrado/plan-2018/" | relURL }}">Comienza aquí</a>
 				<button class="hero-search" type="button" data-search-open aria-haspopup="dialog" aria-keyshortcuts="Control+K /">
 					{{ partial "ui/icon.html" "search" }}
 					<span class="grow">Buscar cursos, apuntes…</span>
 					<span class="hidden gap-1 sm:inline-flex" aria-hidden="true"><kbd class="kbd" data-kbd-mod>Ctrl</kbd><kbd class="kbd">K</kbd></span>
 				</button>
-				<a class="learn font-medium" href="{{ "unmsm/pregrado/plan-2018/" | relURL }}">Comienza aquí{{ partial "ui/chevron.html" }}</a>
 			</div>
 		</div>
-		{{ with hugo.Data.fixes.frontpage -}}
-			<div class="hero-media bleed hero-fade mt-16" style="--i: 3">
-				{{- /* Lazy: the photo sits below the title, which is the LCP element. */}}
-				{{- $photo := resources.Get .image }}
-				{{- $widths := slice 768 1280 $photo.Width }}
-				<picture>
-					{{- range slice "avif" "webp" }}
-						{{- $format := . }}
-						{{- $srcset := slice }}
-						{{- range $widths }}
-							{{- $srcset = $srcset | append (printf "%s %dw" ($photo.Process (printf "resize %dx %s" . $format)).RelPermalink .) }}
-						{{- end }}
-						<source type="image/{{ $format }}" srcset="{{ delimit $srcset ", " }}" sizes="(min-width: 80rem) 76rem, 100vw"/>
-					{{- end }}
-					<img class="hero-photo" src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" loading="lazy" alt="{{ .image_alt | markdownify -}}" title="{{ .image_title | markdownify -}}"/>
-				</picture>
-
-				{{ if .videoURL -}}
-					<div class="group hero-video">
-						<div class="hero-video-frame">
-							<img class="h-full w-full object-cover" src="{{ .videoThumb -}}" loading="lazy" alt="{{ .videoThumb_alt | markdownify -}}" title="{{ .videoThumb_title | markdownify -}}"/>
-						</div>
-						<button
-							id="play-video"
-							type="button"
-							data-video-id="{{ .videoURL -}}"
-							class="hero-play"
-							aria-haspopup="dialog"
-							aria-label="Mirar video de Youtube">
-							<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24" aria-hidden="true">
-								<path d="M17.961 10.264a2 2 0 010 3.473L2.992 22.29A2 2 0 010 20.554V3.446A2 2 0 012.992 1.71z"
-									data-name="Polygon 4" />
-							</svg>
-						</button>
-					</div>
-				{{ end -}}
-			</div>
-		{{ end -}}
 	</section>
+	<div class="mx-auto w-full max-w-page px-gutter hero-fade" style="--i: 3">
+		{{ partial "home/library.html" . }}
+	</div>
 </div>
-{{- with hugo.Data.fixes.frontpage.videoURL }}{{ partial "home/video-dialog.html" }}{{ end -}}
