@@ -88,8 +88,8 @@
   --text-lg--line-height: 1.45;
   --text-xl: 1.5rem;
   --text-xl--line-height: 1.2;
-  --text-2xl: 2.25rem;
-  --text-2xl--line-height: 1.1;
+  --text-2xl: 2rem;
+  --text-2xl--line-height: 1.125;
 
   --ease-snap: cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -173,8 +173,10 @@
 }
 
 @utility text-lead {
-  font-size: var(--text-lg);
+  color: var(--muted);
+  font-size: 1.0625rem;
   font-weight: 400;
+  line-height: 1.6;
 }
 
 /* Centered reading column: 10/16 of the row from lg, 8/16 from xl. */
@@ -313,19 +315,25 @@
     }
   }
 
+  /* Tracking tightens with size, the way Linear sets its titles. Text sizes stay untracked. */
   h1 {
     font-size: var(--text-2xl);
+    font-weight: 500;
+    line-height: var(--text-2xl--line-height);
+    letter-spacing: -0.022em;
   }
 
   h2,
   h3 {
     font-size: var(--text-xl);
+    letter-spacing: -0.012em;
   }
 
   h4,
   h5,
   h6 {
     font-size: var(--text-lg);
+    letter-spacing: -0.008em;
   }
 
   p {
