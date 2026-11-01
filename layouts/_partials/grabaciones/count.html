@@ -1,0 +1,2 @@
+{{- /* A series' size and how much of it plays: "179 charlas, 123 con video". Context: a series of data/recordings.json. */ -}}
+{{- .talks }} {{ .unit }}, {{ if eq .videos 0 }}sin video{{ else if eq .videos .talks }}todas con video{{ else }}{{ .videos }} con video{{ end -}}

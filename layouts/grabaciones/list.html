@@ -1,52 +1,37 @@
 {{ define "main" }}
 {{- $data := hugo.Data.recordings -}}
 {{- $all := $data.recordings -}}
-{{- $names := dict -}}
-{{- range $data.series }}{{ $names = merge $names (dict .id .name) }}{{ end -}}
-{{- $years := slice -}}
-{{- range $all }}{{ $years = $years | append (substr .month 0 4) }}{{ end -}}
 {{- $videos := len (where $all "host" "ne" "Invitación") -}}
+{{- $series := where $data.series "organiser" "ne" nil -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d charlas, sesiones y sustentaciones de la Facultad de Ciencias Físicas y de la Sección Física de la PUCP, %d de ellas con video. Cada título abre el video, o la invitación si no hay video." (len $all) $videos)) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d charlas, sesiones y sustentaciones de la Facultad de Ciencias Físicas y de la Sección Física de la PUCP, %d de ellas con video." (len $all) $videos)) }}
 
-	<div class="views">
-		<fieldset class="pill-tabs">
-			<legend>Ver por</legend>
-			<label><input type="radio" name="vista" value="serie" checked /><span>Serie</span></label>
-			<label><input type="radio" name="vista" value="anio" /><span>Año</span></label>
-		</fieldset>
-
-		<div class="view" data-view="serie">
-			{{- range $data.series }}
-				{{- $rows := where $all "series" .id }}
-				{{- if $rows }}
-					<section class="section-group band" id="serie-{{ .id }}">
-						<h2>{{ .name }} <span class="count">{{ len $rows }}</span></h2>
-						<ul class="rows">
-							{{- range $rows }}{{ partial "grabaciones/row.html" (dict "recording" .) }}{{ end }}
-						</ul>
-					</section>
-				{{- end }}
+	<section class="section-group band">
+		<h2>Series <span class="count">{{ len $series }}</span></h2>
+		<ul class="rows">
+			{{- range $series }}
+				<li class="group">
+					<div class="row-main">
+						<a class="card-link" href="{{ (site.GetPage (printf "/grabaciones/%s" .id)).RelPermalink }}">{{ .name }}</a>
+						<p>{{ .organiser }} · {{ .first }}{{ if ne .first .last }}–{{ .last }}{{ end }}<span class="md:hidden"> · {{ partial "grabaciones/count.html" . }}</span></p>
+					</div>
+					<span class="row-meta max-md:hidden">{{ partial "grabaciones/count.html" . }}</span>
+					{{ partial "ui/chevron.html" }}
+				</li>
 			{{- end }}
-		</div>
+		</ul>
+	</section>
 
-		<div class="view" data-view="anio">
-			{{- range $years | uniq }}
-				{{- $year := . }}
-				{{- $rows := slice }}
-				{{- range $all }}{{ if hasPrefix .month $year }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
-				<section class="section-group band">
-					<h2>{{ $year }} <span class="count">{{ len $rows }}</span></h2>
-					<ul class="rows">
-						{{- range $rows }}{{ partial "grabaciones/row.html" (dict "recording" . "note" (index $names .series)) }}{{ end }}
-					</ul>
-				</section>
-			{{- end }}
-		</div>
-	</div>
+	{{- range where $data.series "organiser" nil }}
+		{{- $rows := where $all "series" .id }}
+		<section class="section-group band" id="{{ .id }}">
+			<h2>{{ .name }} <span class="count">{{ len $rows }}</span></h2>
+			<ul class="rows">
+				{{- range $rows }}{{ partial "grabaciones/row.html" (dict "recording" .) }}{{ end }}
+			</ul>
+		</section>
+	{{- end }}
 
-	<p class="text-muted">
-		Copiadas de la página de Facebook de la facultad y de Educast, el archivo de videos de la PUCP, el {{ partial "ui/date.html" (time.AsTime $data.fetched) }}. Las charlas sin video salen de las invitaciones que la facultad publicó. Los videos de pocos minutos y los avisos no se listan.
-	</p>
+	{{ partial "grabaciones/sources.html" $data }}
 </div>
 {{ end }}

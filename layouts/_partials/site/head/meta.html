@@ -1,5 +1,6 @@
 {{- $title := cond .IsHome site.Params.titleHome .Title -}}
-{{- $description := .Description | default (cond .IsPage .Summary site.Params.description) | plainify -}}
+{{- /* A content adapter cannot set .Description, so its pages pass one in params. */ -}}
+{{- $description := .Description | default .Params.description | default (cond .IsPage .Summary site.Params.description) | plainify -}}
 {{- $image := partial "site/social-image.html" . -}}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 
