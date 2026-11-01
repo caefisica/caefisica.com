@@ -1,0 +1,5745 @@
+{
+  "source": "CTI Vitae (Concytec); grados de SUNEDU",
+  "fetched": "2026-11-01",
+  "places": [
+    {
+      "id": "unmsm",
+      "name": "Universidad Nacional Mayor de San Marcos",
+      "short": "UNMSM",
+      "country": "PE",
+      "lat": -12.05833,
+      "lon": -77.08333
+    },
+    {
+      "id": "unsa",
+      "name": "Universidad Nacional de San Agustín de Arequipa",
+      "short": "UNSA",
+      "country": "PE",
+      "lat": -16.40446,
+      "lon": -71.52454
+    },
+    {
+      "id": "unprg",
+      "name": "Universidad Nacional Pedro Ruiz Gallo",
+      "short": "UNPRG",
+      "country": "PE",
+      "lat": -6.70721,
+      "lon": -79.90792
+    },
+    {
+      "id": "unac",
+      "name": "Universidad Nacional del Callao",
+      "short": "UNAC",
+      "country": "PE",
+      "lat": -12.06114,
+      "lon": -77.11731
+    },
+    {
+      "id": "uni",
+      "name": "Universidad Nacional de Ingeniería",
+      "short": "UNI",
+      "country": "PE",
+      "lat": -12.01972,
+      "lon": -77.04861
+    },
+    {
+      "id": "unitru",
+      "name": "Universidad Nacional de Trujillo",
+      "short": "UNT",
+      "country": "PE",
+      "lat": -8.11466,
+      "lon": -79.0386
+    },
+    {
+      "id": "unp",
+      "name": "Universidad Nacional de Piura",
+      "short": "UNP",
+      "country": "PE",
+      "lat": -5.18197,
+      "lon": -80.61902
+    },
+    {
+      "id": "unsaac",
+      "name": "Universidad Nacional de San Antonio Abad del Cusco",
+      "short": "UNSAAC",
+      "country": "PE",
+      "lat": -13.52167,
+      "lon": -71.95861
+    },
+    {
+      "id": "unjbg",
+      "name": "Universidad Nacional Jorge Basadre Grohmann",
+      "short": "UNJBG",
+      "country": "PE",
+      "lat": -18.02502,
+      "lon": -70.24959
+    },
+    {
+      "id": "unfv",
+      "name": "Universidad Nacional Federico Villarreal",
+      "short": "UNFV",
+      "country": "PE",
+      "lat": -12.07538,
+      "lon": -77.09194
+    },
+    {
+      "id": "pucp",
+      "name": "Pontificia Universidad Católica del Perú",
+      "short": "PUCP",
+      "country": "PE",
+      "lat": -12.06944,
+      "lon": -77.07944
+    },
+    {
+      "id": "unjfsc",
+      "name": "Universidad Nacional José Faustino Sánchez Carrión",
+      "short": "UNJFSC",
+      "country": "PE",
+      "lat": -11.12389,
+      "lon": -77.60889
+    },
+    {
+      "id": "uap",
+      "name": "Universidad Alas Peruanas",
+      "short": "UAP",
+      "country": "PE",
+      "lat": -12.06935,
+      "lon": -77.05133
+    },
+    {
+      "id": "uarm",
+      "name": "Universidad Antonio Ruiz de Montoya",
+      "short": "UARM",
+      "country": "PE",
+      "lat": -12.07012,
+      "lon": -77.0587
+    },
+    {
+      "id": "uai",
+      "name": "Universidad Autónoma de Ica",
+      "short": "UAI",
+      "country": "PE",
+      "lat": -14.1075,
+      "lon": -75.7304
+    },
+    {
+      "id": "ucsm",
+      "name": "Universidad Católica de Santa María",
+      "short": "UCSM",
+      "country": "PE",
+      "lat": -16.40618,
+      "lon": -71.54763
+    },
+    {
+      "id": "ucsp",
+      "name": "Universidad Católica San Pablo",
+      "short": "UCSP",
+      "country": "PE",
+      "lat": -16.38975,
+      "lon": -71.53567
+    },
+    {
+      "id": "usat",
+      "name": "Universidad Católica Santo Toribio de Mogrovejo",
+      "short": "USAT",
+      "country": "PE",
+      "lat": -6.76046,
+      "lon": -79.8632
+    },
+    {
+      "id": "ucv",
+      "name": "Universidad César Vallejo",
+      "short": "UCV",
+      "country": "PE",
+      "lat": -8.12945,
+      "lon": -79.04364
+    },
+    {
+      "id": "ucsur",
+      "name": "Universidad Científica del Sur",
+      "short": "Científica",
+      "country": "PE",
+      "lat": -12.2208,
+      "lon": -76.9784
+    },
+    {
+      "id": "uc",
+      "name": "Universidad Continental",
+      "short": "Continental",
+      "country": "PE",
+      "lat": -12.04743,
+      "lon": -75.19865
+    },
+    {
+      "id": "utec",
+      "name": "Universidad de Ingeniería y Tecnología",
+      "short": "UTEC",
+      "country": "PE",
+      "lat": -12.13493,
+      "lon": -77.02172
+    },
+    {
+      "id": "ulima",
+      "name": "Universidad de Lima",
+      "short": "ULima",
+      "country": "PE",
+      "lat": -12.08476,
+      "lon": -76.97082
+    },
+    {
+      "id": "une",
+      "name": "Universidad Nacional de Educación Enrique Guzmán y Valle",
+      "short": "UNE",
+      "country": "PE",
+      "lat": -11.94741,
+      "lon": -76.70142
+    },
+    {
+      "id": "unf",
+      "name": "Universidad Nacional de Frontera",
+      "short": "UNF",
+      "country": "PE",
+      "lat": -4.91184,
+      "lon": -80.72921
+    },
+    {
+      "id": "unam-moquegua",
+      "name": "Universidad Nacional de Moquegua",
+      "short": "UNAM",
+      "country": "PE",
+      "lat": -17.18975,
+      "lon": -70.9354
+    },
+    {
+      "id": "unu",
+      "name": "Universidad Nacional de Ucayali",
+      "short": "UNU",
+      "country": "PE",
+      "lat": -8.41667,
+      "lon": -74.57145
+    },
+    {
+      "id": "unap",
+      "name": "Universidad Nacional del Altiplano",
+      "short": "UNA Puno",
+      "country": "PE",
+      "lat": -15.82428,
+      "lon": -70.01613
+    },
+    {
+      "id": "uncp",
+      "name": "Universidad Nacional del Centro del Perú",
+      "short": "UNCP",
+      "country": "PE",
+      "lat": -12.03305,
+      "lon": -75.23733
+    },
+    {
+      "id": "unia",
+      "name": "Universidad Nacional Intercultural de la Amazonía",
+      "short": "UNIA",
+      "country": "PE",
+      "lat": -8.34696,
+      "lon": -74.59014
+    },
+    {
+      "id": "unica",
+      "name": "Universidad Nacional San Luis Gonzaga",
+      "short": "UNICA",
+      "country": "PE",
+      "lat": -14.087,
+      "lon": -75.733
+    },
+    {
+      "id": "unasam",
+      "name": "Universidad Nacional Santiago Antúnez de Mayolo",
+      "short": "UNASAM",
+      "country": "PE",
+      "lat": -9.52124,
+      "lon": -77.52859
+    },
+    {
+      "id": "untels",
+      "name": "Universidad Nacional Tecnológica de Lima Sur",
+      "short": "UNTELS",
+      "country": "PE",
+      "lat": -12.21342,
+      "lon": -76.93242
+    },
+    {
+      "id": "untrm",
+      "name": "Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas",
+      "short": "UNTRM",
+      "country": "PE",
+      "lat": -6.23297,
+      "lon": -77.85316
+    },
+    {
+      "id": "upch",
+      "name": "Universidad Peruana Cayetano Heredia",
+      "short": "UPCH",
+      "country": "PE",
+      "lat": -12.02355,
+      "lon": -77.05637
+    },
+    {
+      "id": "upig",
+      "name": "Universidad Peruana de Integración Global",
+      "short": "UPIG",
+      "country": "PE",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "upla",
+      "name": "Universidad Peruana Los Andes",
+      "short": "UPLA",
+      "country": "PE",
+      "lat": -12.04128,
+      "lon": -75.19149
+    },
+    {
+      "id": "upn",
+      "name": "Universidad Privada del Norte",
+      "short": "UPN",
+      "country": "PE",
+      "lat": -12.05842,
+      "lon": -77.05881
+    },
+    {
+      "id": "uwiener",
+      "name": "Universidad Privada Norbert Wiener",
+      "short": "Wiener",
+      "country": "PE",
+      "lat": -12.06859,
+      "lon": -77.03765
+    },
+    {
+      "id": "usp-chimbote",
+      "name": "Universidad San Pedro",
+      "short": "USP",
+      "country": "PE",
+      "lat": -9.05305,
+      "lon": -78.5905
+    },
+    {
+      "id": "uss",
+      "name": "Universidad Señor de Sipán",
+      "short": "USS",
+      "country": "PE",
+      "lat": -6.79488,
+      "lon": -79.88533
+    },
+    {
+      "id": "utp",
+      "name": "Universidad Tecnológica del Perú",
+      "short": "UTP",
+      "country": "PE",
+      "lat": -12.0648,
+      "lon": -77.03663
+    },
+    {
+      "id": "igp",
+      "name": "Instituto Geofísico del Perú",
+      "short": "IGP",
+      "country": "PE",
+      "lat": -12.06956,
+      "lon": -76.96651
+    },
+    {
+      "id": "imarpe",
+      "name": "Instituto del Mar del Perú",
+      "short": "IMARPE",
+      "country": "PE",
+      "lat": -12.067,
+      "lon": -77.15789
+    },
+    {
+      "id": "ingemmet",
+      "name": "Instituto Geológico, Minero y Metalúrgico",
+      "short": "INGEMMET",
+      "country": "PE",
+      "lat": -12.08539,
+      "lon": -77.00905
+    },
+    {
+      "id": "iren-sur",
+      "name": "Instituto Regional de Enfermedades Neoplásicas del Sur",
+      "short": "IREN Sur",
+      "country": "PE",
+      "lat": -16.41492,
+      "lon": -71.53049
+    },
+    {
+      "id": "iren-centro",
+      "name": "Instituto Regional de Enfermedades Neoplásicas del Centro",
+      "short": "IREN Centro",
+      "country": "PE",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "citbm",
+      "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
+      "short": "CITBM",
+      "country": "PE",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "iberotec",
+      "name": "Iberotec",
+      "short": "Iberotec",
+      "country": "PE",
+      "lat": -12.08033,
+      "lon": -77.03595
+    },
+    {
+      "id": "ugel-lambayeque",
+      "name": "UGEL Lambayeque",
+      "short": "UGEL Lambayeque",
+      "country": "PE",
+      "lat": -6.76426,
+      "lon": -79.86078
+    },
+    {
+      "id": "oncocare",
+      "name": "Oncocare",
+      "short": "Oncocare",
+      "country": "PE",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "oncologia-sac",
+      "name": "Oncología S.A.C.",
+      "short": "Oncología",
+      "country": "PE",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "vibro",
+      "name": "Vibro Technology",
+      "short": "Vibro",
+      "country": "PE",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "cca",
+      "name": "Centro de Competencias del Agua",
+      "short": "CCA",
+      "country": "PE",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "usp",
+      "name": "Universidade de São Paulo",
+      "short": "USP",
+      "country": "BR",
+      "lat": -23.5614,
+      "lon": -46.73079
+    },
+    {
+      "id": "ifsc-usp",
+      "name": "Instituto de Física de São Carlos (USP)",
+      "short": "IFSC-USP",
+      "country": "BR",
+      "lat": -22.00884,
+      "lon": -47.89787
+    },
+    {
+      "id": "cbpf",
+      "name": "Centro Brasileiro de Pesquisas Físicas",
+      "short": "CBPF",
+      "country": "BR",
+      "lat": -22.95399,
+      "lon": -43.17371
+    },
+    {
+      "id": "cdtn",
+      "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
+      "short": "CDTN",
+      "country": "BR",
+      "lat": -19.87336,
+      "lon": -43.96778
+    },
+    {
+      "id": "unicamp",
+      "name": "Universidade Estadual de Campinas",
+      "short": "Unicamp",
+      "country": "BR",
+      "lat": -22.81722,
+      "lon": -47.06944
+    },
+    {
+      "id": "ufabc",
+      "name": "Universidade Federal do ABC",
+      "short": "UFABC",
+      "country": "BR",
+      "lat": -23.645,
+      "lon": -46.528
+    },
+    {
+      "id": "ipen",
+      "name": "Instituto de Pesquisas Energéticas e Nucleares",
+      "short": "IPEN",
+      "country": "BR",
+      "lat": -23.56396,
+      "lon": -46.73621
+    },
+    {
+      "id": "inpe",
+      "name": "Instituto Nacional de Pesquisas Espaciais",
+      "short": "INPE",
+      "country": "BR",
+      "lat": -23.20919,
+      "lon": -45.85996
+    },
+    {
+      "id": "on",
+      "name": "Observatório Nacional",
+      "short": "ON",
+      "country": "BR",
+      "lat": -22.89588,
+      "lon": -43.22498
+    },
+    {
+      "id": "puc-rio",
+      "name": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "short": "PUC-Rio",
+      "country": "BR",
+      "lat": -22.97868,
+      "lon": -43.23282
+    },
+    {
+      "id": "unb",
+      "name": "Universidade de Brasília",
+      "short": "UnB",
+      "country": "BR",
+      "lat": -15.76139,
+      "lon": -47.86639
+    },
+    {
+      "id": "uerj",
+      "name": "Universidade do Estado do Rio de Janeiro",
+      "short": "UERJ",
+      "country": "BR",
+      "lat": -22.91111,
+      "lon": -43.23611
+    },
+    {
+      "id": "uem",
+      "name": "Universidade Estadual de Maringá",
+      "short": "UEM",
+      "country": "BR",
+      "lat": -23.40472,
+      "lon": -51.93999
+    },
+    {
+      "id": "uesc",
+      "name": "Universidade Estadual de Santa Cruz",
+      "short": "UESC",
+      "country": "BR",
+      "lat": -14.79677,
+      "lon": -39.17338
+    },
+    {
+      "id": "unesp",
+      "name": "Universidade Estadual Paulista",
+      "short": "Unesp",
+      "country": "BR",
+      "lat": -23.54353,
+      "lon": -46.64686
+    },
+    {
+      "id": "ufal",
+      "name": "Universidade Federal de Alagoas",
+      "short": "UFAL",
+      "country": "BR",
+      "lat": -9.55667,
+      "lon": -35.77875
+    },
+    {
+      "id": "ufmg",
+      "name": "Universidade Federal de Minas Gerais",
+      "short": "UFMG",
+      "country": "BR",
+      "lat": -19.86909,
+      "lon": -43.96638
+    },
+    {
+      "id": "ufpe",
+      "name": "Universidade Federal de Pernambuco",
+      "short": "UFPE",
+      "country": "BR",
+      "lat": -8.05173,
+      "lon": -34.95072
+    },
+    {
+      "id": "ufsc",
+      "name": "Universidade Federal de Santa Catarina",
+      "short": "UFSC",
+      "country": "BR",
+      "lat": -27.6011,
+      "lon": -48.52
+    },
+    {
+      "id": "ufscar",
+      "name": "Universidade Federal de São Carlos",
+      "short": "UFSCar",
+      "country": "BR",
+      "lat": 21.98525,
+      "lon": 47.87996
+    },
+    {
+      "id": "ufes",
+      "name": "Universidade Federal do Espírito Santo",
+      "short": "UFES",
+      "country": "BR",
+      "lat": -20.27663,
+      "lon": -40.30368
+    },
+    {
+      "id": "ufma",
+      "name": "Universidade Federal do Maranhão",
+      "short": "UFMA",
+      "country": "BR",
+      "lat": -2.55837,
+      "lon": -44.30904
+    },
+    {
+      "id": "ufrj",
+      "name": "Universidade Federal do Rio de Janeiro",
+      "short": "UFRJ",
+      "country": "BR",
+      "lat": -22.8625,
+      "lon": -43.22389
+    },
+    {
+      "id": "ufrgs",
+      "name": "Universidade Federal do Rio Grande do Sul",
+      "short": "UFRGS",
+      "country": "BR",
+      "lat": -30.03361,
+      "lon": -51.21917
+    },
+    {
+      "id": "uff",
+      "name": "Universidade Federal Fluminense",
+      "short": "UFF",
+      "country": "BR",
+      "lat": -22.90323,
+      "lon": -43.11658
+    },
+    {
+      "id": "mackenzie",
+      "name": "Universidade Presbiteriana Mackenzie",
+      "short": "Mackenzie",
+      "country": "BR",
+      "lat": -23.547,
+      "lon": -46.652
+    },
+    {
+      "id": "cinvestav",
+      "name": "Centro de Investigación y de Estudios Avanzados del IPN",
+      "short": "Cinvestav",
+      "country": "MX",
+      "lat": 19.50917,
+      "lon": -99.12944
+    },
+    {
+      "id": "cio",
+      "name": "Centro de Investigaciones en Óptica",
+      "short": "CIO",
+      "country": "MX",
+      "lat": 21.15347,
+      "lon": -101.70433
+    },
+    {
+      "id": "cornell",
+      "name": "Cornell University",
+      "short": "Cornell",
+      "country": "US",
+      "lat": 42.44917,
+      "lon": -76.48389
+    },
+    {
+      "id": "cfaed",
+      "name": "Center for Advancing Electronics Dresden",
+      "short": "cfaed",
+      "country": "DE",
+      "lat": 51.02828,
+      "lon": 13.73598
+    },
+    {
+      "id": "fau",
+      "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "short": "FAU",
+      "country": "DE",
+      "lat": 49.60072,
+      "lon": 11.00472
+    },
+    {
+      "id": "lmu",
+      "name": "Ludwig-Maximilians-Universität München",
+      "short": "LMU",
+      "country": "DE",
+      "lat": 48.15083,
+      "lon": 11.58028
+    },
+    {
+      "id": "grips",
+      "name": "National Graduate Institute for Policy Studies",
+      "short": "GRIPS",
+      "country": "JP",
+      "lat": 35.6638,
+      "lon": 139.72716
+    },
+    {
+      "id": "unab",
+      "name": "Universidad Andrés Bello",
+      "short": "UNAB",
+      "country": "CL",
+      "lat": -33.45156,
+      "lon": -70.66791
+    },
+    {
+      "id": "utfsm",
+      "name": "Universidad Técnica Federico Santa María",
+      "short": "USM",
+      "country": "CL",
+      "lat": -33.03502,
+      "lon": -71.59508
+    },
+    {
+      "id": "uncuyo",
+      "name": "Universidad Nacional de Cuyo",
+      "short": "UNCuyo",
+      "country": "AR",
+      "lat": -32.88043,
+      "lon": -68.87773
+    },
+    {
+      "id": "unizar",
+      "name": "Universidad de Zaragoza",
+      "short": "Unizar",
+      "country": "ES",
+      "lat": 41.6425,
+      "lon": -0.9
+    },
+    {
+      "id": "uab",
+      "name": "Universitat Autònoma de Barcelona",
+      "short": "UAB",
+      "country": "ES",
+      "lat": 41.50028,
+      "lon": 2.10778
+    },
+    {
+      "id": "units",
+      "name": "Università degli Studi di Trieste",
+      "short": "UniTS",
+      "country": "IT",
+      "lat": 45.6585,
+      "lon": 13.79318
+    },
+    {
+      "id": "amu",
+      "name": "Aix-Marseille Université",
+      "short": "AMU",
+      "country": "FR",
+      "lat": 43.29349,
+      "lon": 5.35784
+    },
+    {
+      "id": "hi",
+      "name": "University of Iceland",
+      "short": "HÍ",
+      "country": "IS",
+      "lat": 64.14056,
+      "lon": -21.94944
+    }
+  ],
+  "people": [
+    {
+      "name": "Jaime Abanto Castillo",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=91832",
+      "orcid": "0000-0001-9849-0578",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Maestría",
+          "field": "Maestro en ciencias con mencion en docencia universitaria e investigacion educativa"
+        },
+        {
+          "place": "unprg",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias de la ingeniería mecánica y eléctrica con mención en energía"
+        }
+      ],
+      "works": [
+        {
+          "place": "unprg",
+          "role": "Docente ordinario"
+        }
+      ]
+    },
+    {
+      "name": "Felix Julian Acevedo Poma",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=43934",
+      "orcid": "0000-0003-4185-9148",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Jorge Marcial Agüero Andrade",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16835",
+      "orcid": "0000-0002-5929-2605",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "puc-rio",
+          "level": "Maestría",
+          "field": "Grado de magíster en metrología"
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Tecnico de laboratorio"
+        },
+        {
+          "place": "citbm",
+          "role": "Especialista en instrumentación física"
+        }
+      ]
+    },
+    {
+      "name": "Wilder Maximo Aguilar Castro",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=487",
+      "orcid": "0000-0001-7919-2014",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unitru",
+          "role": "Jefe del laboratorio de física de materiales"
+        }
+      ]
+    },
+    {
+      "name": "Cesar Augusto Aguirre Cespedes",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15618",
+      "orcid": "0000-0002-0730-1995",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente nombrado"
+        }
+      ]
+    },
+    {
+      "name": "Juan Abel Alania Ramos",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=72417",
+      "orcid": null,
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Investigador"
+        }
+      ]
+    },
+    {
+      "name": "Edward Steve Alburqueque Salazar",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21057",
+      "orcid": "0000-0003-3061-3003",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "imarpe",
+          "role": "Analista en procesamiento de imágenes satelitales"
+        }
+      ]
+    },
+    {
+      "name": "Juan Antonio Alcantara Nuñez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=81316",
+      "orcid": "0000-0002-7561-3448",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente investigador"
+        }
+      ]
+    },
+    {
+      "name": "Naira Azucena Aldana Cotrina",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=128004",
+      "orcid": null,
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "William Celestino Algoner Jorge",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=52694",
+      "orcid": "0000-0001-5740-1620",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufes",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufes",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uc",
+          "role": "Especialista en investigación y grados"
+        }
+      ]
+    },
+    {
+      "name": "Douglas Fidel Alvarado Paiva",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=84214",
+      "orcid": "0000-0003-2099-4498",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Maestría",
+          "field": "Magister en ciencias, especialidad: matematica aplicada"
+        },
+        {
+          "place": "unitru",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unp",
+          "role": "Director de departamento de física"
+        }
+      ]
+    },
+    {
+      "name": "Lucas Arnaldo Alvarado Pinedo",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=12434",
+      "orcid": "0000-0003-1983-960X",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Director del departamento academico"
+        }
+      ]
+    },
+    {
+      "name": "Alberto Andre Alvarez Oliveira",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=236331",
+      "orcid": "0000-0002-1243-7141",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utec",
+          "role": "Asistente de enseñanza tc"
+        }
+      ]
+    },
+    {
+      "name": "Maria del Carmen Alvarez Solis",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=123901",
+      "orcid": "0009-0005-0683-4844",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uap",
+          "level": "Bachillerato",
+          "field": "Bachiller en educacion"
+        },
+        {
+          "place": "uap",
+          "level": "Licenciatura",
+          "field": "Licenciada en educación secundaria con la especialidad en: matemática"
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ucsm",
+          "level": "Maestría",
+          "field": "Maestro en educación superior"
+        }
+      ],
+      "works": [
+        {
+          "place": "ucsm",
+          "role": "Docente contratado"
+        }
+      ]
+    },
+    {
+      "name": "Manuel Luis Amaya Checa",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=32429",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Maestría",
+          "field": "Maestro en ciencias de la ingenieria mecanica y electrica , especialidad: con mencion en energia"
+        }
+      ],
+      "works": [
+        {
+          "place": "uss",
+          "role": "Docente - jefe de laboratorio de física y electronica"
+        }
+      ]
+    },
+    {
+      "name": "Josue Gabriel Anca Ccopa",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=151818",
+      "orcid": "0000-0002-8947-0548",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "mackenzie",
+          "level": "Maestría",
+          "field": "Grado de maestría en ciencias y aplicaciones geoespaciales (grado de maestro)"
+        }
+      ],
+      "works": [
+        {
+          "place": "uarm",
+          "role": "Docente de física"
+        }
+      ]
+    },
+    {
+      "name": "Roberto Julio Angeles Vasquez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=47170",
+      "orcid": "0000-0002-7248-912X",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uap",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingenieria civil"
+        },
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": "Bachiller en matematicas"
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uncp",
+          "level": "Maestría",
+          "field": "Maestro en ingeniería ambiental"
+        },
+        {
+          "place": "uncp",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias ambientales y desarrollo sostenible"
+        }
+      ],
+      "works": [
+        {
+          "place": "uncp",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Bill Darwin Aparicio Huacarpuma",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=158083",
+      "orcid": "0000-0001-5048-0696",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unb",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Danny Giancarlo Apaza Veliz",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=28952",
+      "orcid": "0000-0001-7645-2626",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        },
+        {
+          "place": "iren-sur",
+          "role": "Físico médico"
+        }
+      ]
+    },
+    {
+      "name": "Felipe Fernando Arancel Llerena",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=125168",
+      "orcid": "0000-0002-1473-7439",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uai",
+          "level": "Maestría",
+          "field": "Maestro en investigación y docencia universitaria"
+        }
+      ],
+      "works": [
+        {
+          "place": "vibro",
+          "role": "Analista de vibraciones cat ii"
+        }
+      ]
+    },
+    {
+      "name": "Jose Domingo Arbañil Vela",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=47030",
+      "orcid": "0000-0002-2623-4900",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "upn",
+          "role": "Jefe del área de investigación"
+        },
+        {
+          "place": "unmsm",
+          "role": "Docente tiempo parcial"
+        }
+      ]
+    },
+    {
+      "name": "Odon Arestegui Sierra",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=92435",
+      "orcid": "0000-0002-5505-8635",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uem",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufal",
+          "level": "Doctorado",
+          "field": "Diploma de doctor del programa de posgrado en ciencias de los materiales, especialidad: materiales"
+        }
+      ],
+      "works": [
+        {
+          "place": "ucv",
+          "role": "Docente"
+        },
+        {
+          "place": "utp",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Enrique John Arias Chinga",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=111037",
+      "orcid": "0000-0001-5064-8401",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "cbpf",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uerj",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Karen Katherine Armas Llontop",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=45745",
+      "orcid": null,
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Raul Arotaipe Ala",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=66965",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Martin Dionisio Arteaga Tupia",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=88304",
+      "orcid": "0000-0002-2167-0295",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": "Maestro en ciencias (revalidado por sunedu)"
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias (revalidado por sunedu)"
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Docente"
+        },
+        {
+          "place": "ulima",
+          "role": "Docente"
+        },
+        {
+          "place": "upn",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Junior David Asencios Rojas",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=34904",
+      "orcid": "0000-0002-5913-6389",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unjfsc",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unjfsc",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Esteban Elvis Asto Ramos",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=51702",
+      "orcid": "0000-0003-4366-6091",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ingemmet",
+          "role": "Practicante profesional"
+        },
+        {
+          "place": "unmsm",
+          "role": "Asistente de laboratorio"
+        }
+      ]
+    },
+    {
+      "name": "Oswaldo Avalos Quispe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16437",
+      "orcid": "0000-0002-8242-2586",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Fredy Filomeno Avendaño Joaquin",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=102867",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Maestría",
+          "field": "Maestro en ciencias: educacion con mencion en educacion superior"
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Profesor"
+        }
+      ]
+    },
+    {
+      "name": "Jorge Sabino Ayala Arenas",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=3450",
+      "orcid": "0000-0001-6790-2445",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente investigador"
+        }
+      ]
+    },
+    {
+      "name": "Alejandra Ayulo Cumpalli",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=173578",
+      "orcid": "0000-0001-6615-9143",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": "Investigador"
+        }
+      ]
+    },
+    {
+      "name": "Miguel Angel Bances Tuñoque",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=106339",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ucv",
+          "level": "Maestría",
+          "field": "Magister en educacion"
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        },
+        {
+          "place": "ucv",
+          "role": "Docente"
+        },
+        {
+          "place": "uss",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Diego Eduardo Barberena Helfer",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=30449",
+      "orcid": null,
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Franklin Paul Barrientos Porras",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=26874",
+      "orcid": null,
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Richard Bellido Quispe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=63676",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unac",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Jhonny Antonio Benavente Castillo",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=91337",
+      "orcid": "0000-0002-9815-9321",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "cdtn",
+          "level": "Maestría",
+          "field": "Grado académico de maestro en ciencia y tecnología de las radiaciones, minerales y materiales (grado de maestro)"
+        },
+        {
+          "place": "ufmg",
+          "level": "Doctorado",
+          "field": "Grado académico de doctor en ciencias y técnicas nucleares con mención en ciencias de las radiaciones (grado de doctor)"
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": "Researcher position"
+        }
+      ]
+    },
+    {
+      "name": "Maria Giselle Bernui de Vivanco",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=124110",
+      "orcid": null,
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Luis Alberto Bolarte Canals",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=91874",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ucv",
+          "level": "Maestría",
+          "field": "Magister en docencia universitaria, especialidad: -"
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Luis Enrique Borja Castro",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=130775",
+      "orcid": "0000-0001-9958-8075",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Rafael Eduardo Caballero Nolte",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=46512",
+      "orcid": null,
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Cesar Cabrera Arista",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=63674",
+      "orcid": "0000-0003-2612-6560",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unac",
+          "role": "Docente"
+        },
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Hugo Andres Cabrera Tinoco",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=160445",
+      "orcid": "0000-0002-3760-4006",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ufpe",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufpe",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uc",
+          "role": "Docente tiempo completo"
+        }
+      ]
+    },
+    {
+      "name": "Dane Bruce Cachi Eugenio",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=11881",
+      "orcid": "0000-0003-0345-7535",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uarm",
+          "level": "Maestría",
+          "field": "Maestro en educación con mención en docencia universitaria"
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": "Docente tc40h"
+        },
+        {
+          "place": "iberotec",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Noely Zully Calderon Ipanaque",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=86122",
+      "orcid": "0000-0002-4073-6616",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Investigadora"
+        },
+        {
+          "place": "utp",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Yefry Giancarlo Calla Zapana",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=180846",
+      "orcid": "0009-0002-7806-5421",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente de física ceprunsa"
+        }
+      ]
+    },
+    {
+      "name": "Darwin Javier Callo Escobar",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=81055",
+      "orcid": "0000-0001-8037-3867",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "&#61656; tecnico de laboratorios especializados de física"
+        },
+        {
+          "place": "uc",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Enriqueta Victoria Campos Falcon",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=57483",
+      "orcid": "0000-0002-8365-7969",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Maestría",
+          "field": "Maestra en ciencias, con mención en gerencia, auditoría y gestión ambiental"
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Gisell Indira Carbajal Dominguez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21577",
+      "orcid": "0009-0005-5906-3617",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Andres Richard Cardeña Rojas",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=35026",
+      "orcid": "0000-0003-2886-2748",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Nilton Cardenas Falcon",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=123262",
+      "orcid": "0000-0002-2133-2966",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Antony Fredy Carlos Chilo",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=113204",
+      "orcid": "0000-0002-0076-0507",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Rafael Edgardo Carlos Reyes",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=2954",
+      "orcid": "0000-0002-1486-0154",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Diploma de doctor en ciencias especialidad astronomía"
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Josue Isac Carrillo Espinoza",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=90376",
+      "orcid": "0000-0002-4241-2834",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "upig",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingenieria civil"
+        },
+        {
+          "place": "upig",
+          "level": "Licenciatura",
+          "field": "Ingeniero civil"
+        },
+        {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": "Magister en desarrollo ambiental"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Salinova Carrillo Segura",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=53326",
+      "orcid": "0000-0002-8462-0615",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": "Fisico"
+        },
+        {
+          "place": "unsaac",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Doctorado",
+          "field": "Doctora en ciencias y tecnologías medioambientales"
+        }
+      ],
+      "works": [
+        {
+          "place": "uc",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Carlos Gilmer Castillo Correa",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=12480",
+      "orcid": "0000-0001-7539-9712",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias con mencion en energetica"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Jorge Luis Casusol Cumpa",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=85747",
+      "orcid": "0000-0002-6754-1851",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uss",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingeniería económica"
+        },
+        {
+          "place": "uss",
+          "level": "Licenciatura",
+          "field": "Ingeniero economista"
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ucv",
+          "level": "Maestría",
+          "field": "Magister en educacion"
+        },
+        {
+          "place": "ucv",
+          "level": "Doctorado",
+          "field": "Doctor en educacion"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Nhell Heder Cerna Velazco",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10177",
+      "orcid": "0000-0003-0414-0628",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": "Candidato a doctor"
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente investigador"
+        },
+        {
+          "place": "pucp",
+          "role": "Asistente de profesor"
+        },
+        {
+          "place": "ucsur",
+          "role": "Docente"
+        },
+        {
+          "place": "uwiener",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "José Yitzhak Aarón Chacaliaza Ricaldi",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=120700",
+      "orcid": "0000-0001-7262-3774",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "usp",
+          "role": "Phd fellow"
+        }
+      ]
+    },
+    {
+      "name": "Julio Cesar Chapoñan Sandoval",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=89468",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "David Choque Quispe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=47020",
+      "orcid": "0000-0003-3213-2000",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": "Fisico"
+        },
+        {
+          "place": "utfsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "utfsm",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor a tiempo completo"
+        }
+      ]
+    },
+    {
+      "name": "Sara Luz Chunga Palomino",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=251530",
+      "orcid": "0000-0002-9314-4964",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "units",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias de la educacion"
+        }
+      ],
+      "works": [
+        {
+          "place": "unp",
+          "role": "Docente universitario en la categoria de auxiliar a tiempo completo"
+        },
+        {
+          "place": "utp",
+          "role": "Docente universitario"
+        }
+      ]
+    },
+    {
+      "name": "Niko Churata Mamani",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=86801",
+      "orcid": "0000-0001-9380-4830",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Cynthia Paola Contreras Medrano",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=126792",
+      "orcid": "0000-0002-2565-0304",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uff",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Carlos Hugo Coronado Villalobos",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=202211",
+      "orcid": "0000-0002-8188-8974",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unesp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Gustavo Cuba Supanta",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=52462",
+      "orcid": "0000-0003-3763-435X",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": "Físico"
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Luis Alberto Curo Maquen",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=77377",
+      "orcid": "0000-0001-5646-3264",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Maestría",
+          "field": "Maestro en ciencias, especialidad: docencia universitaria e investigacion educativa"
+        },
+        {
+          "place": "unprg",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias de la educacion"
+        }
+      ],
+      "works": [
+        {
+          "place": "unprg",
+          "role": "Profesor ordinario"
+        }
+      ]
+    },
+    {
+      "name": "Marco Antonio Cuyubamba Espinoza",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=47123",
+      "orcid": "0000-0003-4172-1675",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utec",
+          "role": "Docente tiempo parcial"
+        }
+      ]
+    },
+    {
+      "name": "Percy Davila Gonzalez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=94846",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "uss",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingenieria agroindustrial y comercio exterior"
+        },
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uss",
+          "level": "Licenciatura",
+          "field": "Ingeniero agroindustrial y comercio exterior"
+        },
+        {
+          "place": "ucv",
+          "level": "Maestría",
+          "field": "Maestro en administración de negocios"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Miguel Angel De la Cruz Cruz",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=102938",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Maestría",
+          "field": "Maestro en ingeniería ambiental"
+        },
+        {
+          "place": "unfv",
+          "level": "Doctorado",
+          "field": "Doctor en ingeniería ambiental"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Roberto Augusto Del Carpio Minaya",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=68446",
+      "orcid": "0000-0002-7494-8190",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unap",
+          "level": "Maestría",
+          "field": "Magíster scientiae en informática mención en: matemática y simulación computacional"
+        }
+      ],
+      "works": [
+        {
+          "place": "unap",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Martin Augusto Delgado Wong",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=67459",
+      "orcid": "0009-0002-0869-4978",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Maestría",
+          "field": "Maestro en ciencias"
+        },
+        {
+          "place": "unprg",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias de la educación"
+        }
+      ],
+      "works": [
+        {
+          "place": "unprg",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Luz Alexandra Diaz Pareja",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=185309",
+      "orcid": "0000-0002-5211-286X",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Doris Maribel Escriba Villanueva",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=127939",
+      "orcid": "0000-0002-3304-9092",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Diploma de doctor en ingeniería. área de concentración: ingeniería metalúrgica y de materiales."
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Silvia Espinoza Suarez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=5088",
+      "orcid": "0000-0001-5333-4045",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Investigador"
+        },
+        {
+          "place": "upn",
+          "role": "Investigador"
+        }
+      ]
+    },
+    {
+      "name": "Sonia Elizabeth Fernandez Huaycho",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=37349",
+      "orcid": "0009-0006-3160-8926",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ucsm",
+          "level": "Maestría",
+          "field": "Maestro en educación superior"
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        },
+        {
+          "place": "ucsm",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Loreleyn Flor Flores Escalante",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=14398",
+      "orcid": "0000-0003-3009-1997",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null
+        },
+        {
+          "place": "fau",
+          "level": "Doctorado",
+          "field": "Doktorin der ingenieurwissenschaften"
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Tiempo parcial por asignaturas"
+        },
+        {
+          "place": "utec",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Eladio Cesar Gallardo Bazan",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=26618",
+      "orcid": "0000-0001-6745-7601",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unjfsc",
+          "level": "Maestría",
+          "field": "Maestro en docencia superior e investigacion universitaria"
+        }
+      ],
+      "works": [
+        {
+          "place": "unjfsc",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Amador Jorge Gonsalez Vasquez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=59887",
+      "orcid": "0009-0003-4496-3511",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias y tecnologías medioambientales"
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Alberto Edmundo Gonzales Ccoscco",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=154200",
+      "orcid": "0000-0001-5207-6515",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uc",
+          "role": "Docente"
+        },
+        {
+          "place": "utp",
+          "role": "Docente"
+        },
+        {
+          "place": "upla",
+          "role": "Docente"
+        },
+        {
+          "place": "iren-centro",
+          "role": "Físico médico"
+        }
+      ]
+    },
+    {
+      "name": "Andres Miguel Gonzales Galvez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=80038",
+      "orcid": "0000-0002-3519-0786",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "oncocare",
+          "role": "Físico médico"
+        }
+      ]
+    },
+    {
+      "name": "Pablo Guillermo Gonzales Ormeño",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=226",
+      "orcid": "0000-0002-7736-7789",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "untels",
+          "role": "Profesor"
+        }
+      ]
+    },
+    {
+      "name": "Juan Carlos Gonzalez Gonzalez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=12314",
+      "orcid": "0000-0002-9375-1430",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "uab",
+          "level": "Maestría",
+          "field": "Master en ciencia de materiales"
+        },
+        {
+          "place": "uab",
+          "level": "Doctorado",
+          "field": "Título de doctor dentro del programa de ciencias de los materiales"
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Profesor auxiliar"
+        }
+      ]
+    },
+    {
+      "name": "Walter Robert Guevara Day",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=3585",
+      "orcid": "0000-0002-9361-1104",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente física espacial"
+        }
+      ]
+    },
+    {
+      "name": "Karina Silvana Gutierrez Valverde",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=63402",
+      "orcid": "0000-0001-8079-8371",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "usp-chimbote",
+          "level": "Bachillerato",
+          "field": "Bachiller en educacion"
+        },
+        {
+          "place": "unp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp-chimbote",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Maestría",
+          "field": "Magister en matematica aplicada"
+        },
+        {
+          "place": "unitru",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias ambientales"
+        }
+      ],
+      "works": [
+        {
+          "place": "unf",
+          "role": "Docente"
+        },
+        {
+          "place": "unitru",
+          "role": "Miembro de grupo investigación en grafeno"
+        }
+      ]
+    },
+    {
+      "name": "Hermelinda Hanampa Roque",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=64755",
+      "orcid": "0000-0001-5995-5029",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": "Fisico"
+        },
+        {
+          "place": "unsaac",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsaac",
+          "role": "Docente ordinaria auxilar a tiempo exclusivo"
+        }
+      ]
+    },
+    {
+      "name": "Jesus Alberto Holguin Maron",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=183660",
+      "orcid": "0009-0003-4357-5859",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Jorge Luis Huamani Correa",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=146597",
+      "orcid": "0000-0003-0667-229X",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unb",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "uff",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente de investigación"
+        }
+      ]
+    },
+    {
+      "name": "Fabiola Jara Caytuiro",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=31332",
+      "orcid": "0000-0001-5920-6036",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "name": "Henry Sixto Javier Ccallata",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=26332",
+      "orcid": "0000-0001-5888-1662",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Título de: doctor en ciencias"
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Profesor auxiliar"
+        },
+        {
+          "place": "ucsp",
+          "role": "Profesor contratado"
+        }
+      ]
+    },
+    {
+      "name": "Cesar Omar Jimenez Tintaya",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=17677",
+      "orcid": "0000-0002-3671-4748",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Andres Guiseppe Jiron Vicente",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=32112",
+      "orcid": "0000-0001-8208-8656",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufma",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docencia"
+        }
+      ]
+    },
+    {
+      "name": "Carlos Eduardo Joo Garcia",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=64086",
+      "orcid": "0000-0002-4381-2565",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unjbg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unjbg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uap",
+          "level": "Maestría",
+          "field": "Maestro en docencia universitaria y gestión educativa"
+        }
+      ],
+      "works": [
+        {
+          "place": "unam-moquegua",
+          "role": "Docente asociado"
+        }
+      ]
+    },
+    {
+      "name": "Jose Luis La Rosa Navarro",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=170270",
+      "orcid": "0000-0002-4998-6013",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": "Mestre em ciencias"
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Wilson Orlando Lanchipa Ramos",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=91620",
+      "orcid": "0000-0001-7540-4366",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unjbg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unjbg",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unjbg",
+          "role": "Asistente de investigacion"
+        }
+      ]
+    },
+    {
+      "name": "Luis Alberto León Andonayre",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=204100",
+      "orcid": "0000-0003-4912-5675",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "hi",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Lizbet León Félix",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=12306",
+      "orcid": null,
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unb",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unb",
+          "level": "Doctorado",
+          "field": null
+        },
+        {
+          "place": "unizar",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ulima",
+          "role": "Profesor"
+        }
+      ]
+    },
+    {
+      "name": "Gustavo Leyva Espezua",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=89939",
+      "orcid": "0009-0009-5343-3823",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unjbg",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Walter Martin Leyva Molina",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15318",
+      "orcid": "0000-0002-1796-9198",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "upch",
+          "role": "Docente"
+        },
+        {
+          "place": "cca",
+          "role": "Investigador asociado"
+        }
+      ]
+    },
+    {
+      "name": "Flavio Abad Llamccaya Ramirez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=100069",
+      "orcid": "0000-0003-3666-336X",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "une",
+          "level": "Maestría",
+          "field": "Maestro en ciencias de la educación con mención en docencia universitaria"
+        }
+      ],
+      "works": [
+        {
+          "place": "unica",
+          "role": "Jefe de laboratorio de fisica de la facultad de ciencias"
+        }
+      ]
+    },
+    {
+      "name": "Johan Alexander Llamoza Rafael",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21921",
+      "orcid": "0000-0002-4967-0537",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Whualkuer Enrique Lozano Bartra",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=4093",
+      "orcid": "0000-0002-4564-9319",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ufpe",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "puc-rio",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Profesor principal"
+        },
+        {
+          "place": "unac",
+          "role": "Profesor principal tp-20h"
+        }
+      ]
+    },
+    {
+      "name": "Gaston Lozano Calderón",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=58242",
+      "orcid": "0000-0002-1738-8334",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": "Mestre em ciências"
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "usp",
+          "role": "Post-doctorado"
+        }
+      ]
+    },
+    {
+      "name": "Elmer Fidel Luque Canaza",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=174445",
+      "orcid": "0000-0003-2192-1995",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uesc",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufrgs",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Wilson Arcenio Maco Vasquez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=908",
+      "orcid": "0000-0002-0557-819X",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": "Licenciado en matematicas"
+        },
+        {
+          "place": "unitru",
+          "level": "Maestría",
+          "field": "Maestro en ciencias mención: matemática"
+        },
+        {
+          "place": "unitru",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias e ingenieria"
+        }
+      ],
+      "works": [
+        {
+          "place": "unitru",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Jose Antonio Manco Chavez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=78509",
+      "orcid": "0000-0001-9659-6037",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ucv",
+          "level": "Maestría",
+          "field": "Maestro en docencia universitaria"
+        },
+        {
+          "place": "ucv",
+          "level": "Doctorado",
+          "field": "Doctor en educación"
+        }
+      ],
+      "works": [
+        {
+          "place": "untels",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Marco Antonio Manya Suni",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=255321",
+      "orcid": "0000-0002-2203-7061",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "puc-rio",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "uff",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Jose Julian Medina Medina",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=13704",
+      "orcid": "0000-0001-8449-5386",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Profesor"
+        }
+      ]
+    },
+    {
+      "name": "Leonardo Rafael Medrano Sandonas",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=11857",
+      "orcid": "0000-0002-7673-3142",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "cfaed",
+          "role": "Research assistant"
+        }
+      ]
+    },
+    {
+      "name": "Juan Neil Mendoza Nolorbe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21922",
+      "orcid": "0000-0001-6714-5640",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unac",
+          "role": "Responsable de capacitacion en investigación"
+        }
+      ]
+    },
+    {
+      "name": "Marco Antonio Merma Jara",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10883",
+      "orcid": "0000-0002-9805-1935",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Nabilt Jill Moggiano Aburto",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=32593",
+      "orcid": "0000-0002-5642-3833",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uc",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingeniería civil"
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uc",
+          "level": "Licenciatura",
+          "field": "Ingeniera civil"
+        },
+        {
+          "place": "grips",
+          "level": "Maestría",
+          "field": "Grado de magíster en gestión de desastres"
+        }
+      ],
+      "works": [
+        {
+          "place": "uc",
+          "role": "Directora del programa de ingeniería civil"
+        }
+      ]
+    },
+    {
+      "name": "Israel Roger Montoya Matos",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=33038",
+      "orcid": "0000-0001-7148-9593",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufal",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufrgs",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ulima",
+          "role": "Coordinador de investigación carrerra de ingeniería civil"
+        }
+      ]
+    },
+    {
+      "name": "Luis Alberto Montoya Portugal",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=39648",
+      "orcid": "0000-0001-5912-2692",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Luis Ivan Morales Bautista",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=55539",
+      "orcid": "0000-0003-1096-3946",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufes",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufes",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Carlos Alberto Morgan Cruz",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=141932",
+      "orcid": "0000-0003-0592-4416",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unitru",
+          "role": "Docente investigador unt"
+        }
+      ]
+    },
+    {
+      "name": "Shigueru Emilio Antonio Nagata Tejada",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=22405",
+      "orcid": "0000-0002-5488-349X",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unab",
+          "role": "Phd researcher"
+        }
+      ]
+    },
+    {
+      "name": "Erick Oscar Natividad Zevallos",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=350516",
+      "orcid": "0000-0002-4933-5157",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente auxiliar"
+        },
+        {
+          "place": "ucsur",
+          "role": "Docente contratado"
+        }
+      ]
+    },
+    {
+      "name": "Juan Ernesto Palo Tejada",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=39901",
+      "orcid": "0000-0003-1412-586X",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias ambientales y energias renovables"
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Alejandro Daniel Paredes Cabrel",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=34005",
+      "orcid": "0000-0003-0120-5211",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "amu",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "amu",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": "Docente investigador"
+        }
+      ]
+    },
+    {
+      "name": "David Pareja Quispe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=51847",
+      "orcid": "0000-0001-6904-3736",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "inpe",
+          "level": "Maestría",
+          "field": "Grado académico de magíster en meteorología"
+        },
+        {
+          "place": "inpe",
+          "level": "Doctorado",
+          "field": "Grado académico de doctor en meteorología (grado de doctor)"
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente ordinario"
+        }
+      ]
+    },
+    {
+      "name": "Evangelina Pasca Supanta",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=284046",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Cesar Enrique Perez Villegas",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=45905",
+      "orcid": "0000-0003-2675-1331",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "upn",
+          "role": "Docente investigador"
+        }
+      ]
+    },
+    {
+      "name": "Edgar Luis Pfuturi Huisa",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=103133",
+      "orcid": "0000-0002-6523-839X",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Mirtha Pillaca Quispe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=18830",
+      "orcid": null,
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "lmu",
+          "role": "Estudiante de doctorado"
+        }
+      ]
+    },
+    {
+      "name": "Mario Luis Pumacallahui Pineda",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=103098",
+      "orcid": "0000-0002-1494-0250",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Grovert Quino Villanueva",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=109128",
+      "orcid": "0000-0002-3020-750X",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unjbg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unjbg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp-chimbote",
+          "level": "Maestría",
+          "field": "Maestro en docencia universitaria e investigación pedagógica"
+        }
+      ],
+      "works": [
+        {
+          "place": "unam-moquegua",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Fredi Quispe Huaynasi",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=30941",
+      "orcid": "0000-0001-8741-8642",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": "Fisico"
+        }
+      ],
+      "works": [
+        {
+          "place": "on",
+          "role": "Posdoctorado"
+        }
+      ]
+    },
+    {
+      "name": "Justiniano Quispe Marcatoma",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10636",
+      "orcid": "0000-0001-5832-1403",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        },
+        {
+          "place": "citbm",
+          "role": "Investigador"
+        }
+      ]
+    },
+    {
+      "name": "Juan Pablo Quispe Orihuela",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10720",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": "Estudiante de maestria en energias renovables"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Laura Raquel Rado Diaz",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=347316",
+      "orcid": "0000-0002-9841-1427",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Elmer Antonio Ramirez Barreto",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=170240",
+      "orcid": "0000-0002-0921-6698",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufrj",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufrj",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "upch",
+          "role": "Docente e investigador"
+        }
+      ]
+    },
+    {
+      "name": "Carlos Antonio Reyes Pareja",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=72080",
+      "orcid": null,
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unasam",
+          "level": "Licenciatura",
+          "field": "Maestro en ciencias e ingenieria"
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unasam",
+          "level": "Maestría",
+          "field": "Maestro en ciencias e ingeniería con mención en computación e informática"
+        },
+        {
+          "place": "usp-chimbote",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Alonso Hernan Ricci Castro",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=17836",
+      "orcid": "0000-0001-7203-0530",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unesp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "inpe",
+          "role": "Investigador"
+        }
+      ]
+    },
+    {
+      "name": "Chachi Rojas Ayala",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=19243",
+      "orcid": null,
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Noelia Rojas Benavente",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21867",
+      "orcid": "0000-0001-8431-6528",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Doctora en ciencias atmosféricas"
+        }
+      ],
+      "works": [
+        {
+          "place": "usp",
+          "role": "Investeigadora de postdoc"
+        }
+      ]
+    },
+    {
+      "name": "Enrique Luis Alfonso Rojas Villalba",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15764",
+      "orcid": "0000-0002-4986-7655",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": "Fisico"
+        },
+        {
+          "place": "cornell",
+          "level": "Maestría",
+          "field": "Master of science"
+        },
+        {
+          "place": "cornell",
+          "level": "Doctorado",
+          "field": "Atmospheric and meteorological sciences"
+        }
+      ],
+      "works": [
+        {
+          "place": "cornell",
+          "role": "Investigador postdoctoral"
+        }
+      ]
+    },
+    {
+      "name": "Juan Carlos Romero Aquino",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=172018",
+      "orcid": "0000-0003-0332-7917",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unb",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unb",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unb",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": "Docente investigador"
+        }
+      ]
+    },
+    {
+      "name": "Ruben Mauricio Romero Ramirez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=158598",
+      "orcid": "0000-0001-8818-4876",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unica",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Carlos Yvan Romero Tadeo",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=1879",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": "Egresado"
+        }
+      ],
+      "works": [
+        {
+          "place": "imarpe",
+          "role": "Investigador cientifico"
+        }
+      ]
+    },
+    {
+      "name": "Miguel Saavedra Huanca",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10206",
+      "orcid": "0000-0002-4773-0647",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Agregado de investigación"
+        }
+      ]
+    },
+    {
+      "name": "Elisban Juani Sacari Sacari",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16744",
+      "orcid": "0000-0001-7918-3265",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unjbg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unjbg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unjbg",
+          "level": "Maestría",
+          "field": "Maestro en ciencias (magister scientiae) con mención en gestión ambiental y desarrollo sostenible"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Edwin Sallica Leva",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=87338",
+      "orcid": "0000-0001-9645-0046",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unicamp",
+          "level": "Maestría",
+          "field": "Magister en ingenieria mecánica"
+        },
+        {
+          "place": "unicamp",
+          "level": "Doctorado",
+          "field": "Doctor en ingenieria mecánica"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Jose Renato Sanchez Romero",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=214956",
+      "orcid": "0000-0003-0567-8622",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Nemesio Santamaría Baldera",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=87939",
+      "orcid": null,
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "untrm",
+          "level": "Maestría",
+          "field": "Maestro en administración educativa y desarrollo sostenible"
+        },
+        {
+          "place": "untrm",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias para el desarrollo sustentable con mención en gestión de los recursos naturales y medio ambiente"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Betzabel Noemi Silva Carrera",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=34845",
+      "orcid": "0000-0003-2380-3677",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ipen",
+          "level": "Doctorado",
+          "field": "Doctora en ciencias"
+        }
+      ],
+      "works": [
+        {
+          "place": "usp",
+          "role": "Posdoctorado"
+        }
+      ]
+    },
+    {
+      "name": "Mario Florencio Solis Benites",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=69746",
+      "orcid": "0000-0001-6139-075X",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uncuyo",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Omar Giancarlo Suarez Navarro",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=18686",
+      "orcid": "0000-0002-7110-7265",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ucsur",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Patricia Kelly Taipe Torres",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=204097",
+      "orcid": "0000-0001-8663-5645",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufrj",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufrj",
+          "level": "Doctorado",
+          "field": "Grado académico de doctora en ciencias, en ingeniería nuclear (grado de doctor)"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Marco Antonio Tito Patricio",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=168900",
+      "orcid": "0000-0003-4187-1825",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufscar",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ifsc-usp",
+          "level": "Doctorado",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ifsc-usp",
+          "role": "Investigador"
+        }
+      ]
+    },
+    {
+      "name": "Luis Alberto Torres Quispe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=28352",
+      "orcid": "0000-0003-0824-4184",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufsc",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Justo Vladimir Tuñoque Gutierrez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=63648",
+      "orcid": "0000-0003-0076-4257",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Maestría",
+          "field": "Maestro en ciencias con mencion en docencia universitaria e investigacion educativa"
+        },
+        {
+          "place": "unprg",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias ambientales"
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        },
+        {
+          "place": "unprg",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Edilberto Valencia Salazar",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=4540",
+      "orcid": "0000-0001-8512-7040",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unu",
+          "level": "Maestría",
+          "field": "Maestro en educación con mención en docencia y pedagogía universitaria"
+        }
+      ],
+      "works": [
+        {
+          "place": "unia",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Marlon Ivan Valerio Cuadros",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=80572",
+      "orcid": "0000-0001-7895-0151",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufal",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "ufscar",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uem",
+          "role": "Profesor"
+        }
+      ]
+    },
+    {
+      "name": "Marcial Vicente Vasquez Arteaga",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=1211",
+      "orcid": "0000-0003-1310-6384",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": "Fisico"
+        },
+        {
+          "place": "unitru",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "unitru",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uss",
+          "role": "Docente investigador"
+        }
+      ]
+    },
+    {
+      "name": "Desiderio Augusto Vasquez Rodriguez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10888",
+      "orcid": "0000-0003-2436-7221",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Docente tiempo completo - principal"
+        }
+      ]
+    },
+    {
+      "name": "Jose Luis Javier Vega Ramirez",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15486",
+      "orcid": "0000-0002-5562-8378",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ucsp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Título de: doctor en ciencias"
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente-pricipal-investigador"
+        }
+      ]
+    },
+    {
+      "name": "Lidia Narda Vilca Quispe",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=204631",
+      "orcid": "0000-0002-0707-1798",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unjbg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unjbg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "cinvestav",
+          "level": "Maestría",
+          "field": "Grado de maestra en ciencias en fisicoquímica"
+        },
+        {
+          "place": "cinvestav",
+          "level": "Doctorado",
+          "field": "Grado de doctora en ciencias en fisicoquímica"
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Zaida Vilca Vilca",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=140772",
+      "orcid": "0000-0002-2502-5998",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Especialista de laboratorio especializado"
+        }
+      ]
+    },
+    {
+      "name": "Heyner Leoncio Vilchez Rojas",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=52972",
+      "orcid": "0000-0001-7114-7470",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "cio",
+          "level": "Doctorado",
+          "field": "Grado de doctor en ciencias - óptica (grado de doctor)"
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Docente contratado"
+        }
+      ]
+    },
+    {
+      "name": "Cristofher Victor Vivas Palomares",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=376957",
+      "orcid": "0000-0002-8995-9730",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        },
+        {
+          "place": "usp",
+          "role": "Investigador principal"
+        }
+      ]
+    },
+    {
+      "name": "Cynthia Ahiezer Vizcarra Ventura",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=77597",
+      "orcid": "0000-0002-9261-424X",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ufrj",
+          "level": "Maestría",
+          "field": "Título de maestra en ciencias, en astronomía (grado de maestro)"
+        },
+        {
+          "place": "ufrj",
+          "level": "Doctorado",
+          "field": "Título de doctora en ciencias, en astronomía (grado de doctor)"
+        }
+      ],
+      "works": [
+        {
+          "place": "uc",
+          "role": "Docente investigador"
+        }
+      ]
+    },
+    {
+      "name": "Han Xu",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=48796",
+      "orcid": "0000-0001-7263-9645",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "imarpe",
+          "role": "Especialista en procesamiento de imágenes satelitales"
+        }
+      ]
+    },
+    {
+      "name": "Simeon Moises Yaro Medina",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=27946",
+      "orcid": "0000-0002-5889-9173",
+      "degree": "Maestría",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "uab",
+          "level": "Doctorado",
+          "field": "Título universitario oficial de doctor dentro del programa de doctorado en ingeniería electrónica (grado de doctor)"
+        }
+      ],
+      "works": [
+        {
+          "place": "unfv",
+          "role": "Docente contratado"
+        }
+      ]
+    },
+    {
+      "name": "Alan Zamalloa Puma",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=93798",
+      "orcid": "0000-0003-0741-7151",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": "Fisico"
+        },
+        {
+          "place": "usp-chimbote",
+          "level": "Maestría",
+          "field": "Magister en docencia universitaria e investigacion pedagogica"
+        },
+        {
+          "place": "usp-chimbote",
+          "level": "Doctorado",
+          "field": "Doctor en gestion y ciencias de la educacion"
+        }
+      ],
+      "works": [
+        {
+          "place": "uc",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Sandra del Pilar Zambrano Alva",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=47199",
+      "orcid": "0000-0003-4871-0397",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null
+        }
+      ],
+      "works": []
+    },
+    {
+      "name": "Jonathan Joas Zapata Campos",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=295171",
+      "orcid": "0000-0002-8577-3226",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unp",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "unp",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "uff",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "uff",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente de física"
+        },
+        {
+          "place": "ucsur",
+          "role": "Docente de física"
+        }
+      ]
+    },
+    {
+      "name": "Marilyn Ruth Zapata Requena",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=167206",
+      "orcid": "0000-0002-6777-0902",
+      "degree": "Bachillerato",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "oncologia-sac",
+          "role": "Asistente de física médica"
+        }
+      ]
+    },
+    {
+      "name": "Jose Fortunato Zuloaga Cachay",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=23615",
+      "orcid": "0000-0003-2363-0817",
+      "degree": "Licenciatura",
+      "studied": [
+        {
+          "place": "unprg",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "usat",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingenieria de sistemas y computacion"
+        },
+        {
+          "place": "unprg",
+          "level": "Licenciatura",
+          "field": null
+        },
+        {
+          "place": "usat",
+          "level": "Licenciatura",
+          "field": "Ingeniero de sistemas y computacion"
+        },
+        {
+          "place": "ucv",
+          "level": "Maestría",
+          "field": "Maestro en educacion, especialidad: docencia y gestion educativa"
+        },
+        {
+          "place": "uss",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias de la computación y sistemas"
+        }
+      ],
+      "works": [
+        {
+          "place": "usat",
+          "role": "Docente"
+        },
+        {
+          "place": "ugel-lambayeque",
+          "role": "Docente"
+        }
+      ]
+    },
+    {
+      "name": "Cristofher Zuñiga Vargas",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=111232",
+      "orcid": "0000-0002-5493-2204",
+      "degree": "Doctorado",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null
+        },
+        {
+          "place": "ufes",
+          "level": "Maestría",
+          "field": null
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Director de investigación"
+        }
+      ]
+    }
+  ]
+}
