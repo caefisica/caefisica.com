@@ -1637,7 +1637,8 @@
       "speakers": [
         {
           "name": "Humberto Torreblanca",
-          "affiliation": "DIII-D National Fusion Facility"
+          "affiliation": "DIII-D National Fusion Facility",
+          "profile": "/fisicos/humberto-torreblanca/"
         }
       ],
       "summary": "Es conocido que debemos migrar de combustibles fósiles a fuentes de energías renovables; sin embargo, estas últimas no proveen una solución total e integral. En este coloquio se hablará del plasma y su rol en la fusión por confinación magnética, y cómo esta tecnología puede considerarse como una fuente ideal de energía. Asimismo, se hablará del principio básico del tokamak, de su tecnología y de los diversos experimentos internacionales. Además, se tratará de cómo puedes aplicar los conceptos adquiridos en ciencia e ingeniería para analizar y desarrollar un reactor por confinamiento magnético. Se mostrará el uso del software COMSOL Multiphysics para desarrollar simulaciones computacionales de una manera intuitiva, y de cómo éste se puede usar ya desde el pregrado para modelar un tokamak. Finalmente, se presentará a los científicos y estudiantes peruanos que ya trabajan en este tema, y sobre la posibilidad de crear un nicho para un futuro grupo de investigacion sobre plasma en el país.",

@@ -13004,6 +13004,41 @@
       "path": ["unac", "ufscar", "ifsc-usp", "usp", "ifsc-usp"]
     },
     {
+      "slug": "humberto-torreblanca",
+      "name": "Humberto Torreblanca",
+      "initials": "HT",
+      "source": "web",
+      "url": "https://facultad-ciencias-ingenieria.pucp.edu.pe/?p=15414",
+      "orcid": "0000-0002-1322-1545",
+      "site": "PUCP",
+      "updated": "01-11-2026",
+      "degree": "Bachillerato",
+      "openalex": "A5040890291",
+      "area": "Ingeniería y energía",
+      "works_count": 45,
+      "cited_by": 457,
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "General Atomics",
+          "role": "Científico de radiofrecuencia",
+          "start": 2017,
+          "end": null
+        }
+      ],
+      "path": ["pucp"]
+    },
+    {
       "slug": "luis-alberto-torres-quispe",
       "name": "Luis Alberto Torres Quispe",
       "initials": "LT",
