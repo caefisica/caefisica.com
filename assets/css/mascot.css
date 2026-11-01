@@ -10,8 +10,8 @@
   left: 25%;
   width: 50%;
   height: 53.4%;
-  background: #ededed;
-  border: 1px solid #bfc0c0;
+  background: var(--surface);
+  border: 1px solid var(--edge);
   border-bottom: none;
   border-radius: 50% 50% 0 0;
   animation: mascot-float 2s ease-out infinite;
@@ -30,7 +30,7 @@
   top: 40%;
   width: 13px;
   height: 13px;
-  background: #585959;
+  background: var(--fg);
   border-radius: 50%;
 }
 
@@ -49,7 +49,7 @@
   width: 10px;
   height: 10px;
   border: 3px solid;
-  border-color: transparent #585959 #585959 transparent;
+  border-color: transparent var(--fg) var(--fg) transparent;
   border-radius: 50%;
   transform: rotate(225deg);
 }
@@ -61,8 +61,8 @@
   left: 25%;
   width: 50%;
   height: 53%;
-  background: #ededed;
-  border: 1px solid #bfc0c0;
+  background: var(--surface);
+  border: 1px solid var(--edge);
   border-bottom: none;
   border-radius: 50% 50% 0 0;
   animation: mascot-float 2s ease-out infinite;
@@ -77,8 +77,8 @@
   top: 90%;
   width: 26.5%;
   height: 23%;
-  background: #ededed;
-  border: 1px solid #bfc0c0;
+  background: var(--surface);
+  border: 1px solid var(--edge);
 }
 
 .mascot .ghost-legs .one {
@@ -107,7 +107,7 @@
   left: 35%;
   width: 30%;
   height: 7%;
-  background: #bfc0c0;
+  background: var(--edge);
   border-radius: 50%;
   animation: mascot-scale 2s infinite;
 }
