@@ -188,12 +188,14 @@
       "minutes": 112,
       "url": "https://www.youtube.com/watch?v=cO-bhlQWMXU",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Love Numbers y la estructura analítica de las perturbaciones en agujeros negros",
       "speakers": [
         {
-          "name": "Fernando Temoche"
+          "name": "Fernando Temoche",
+          "affiliation": "Utah State University"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=1049617614769137",
       "month": "2026-10"
     },
     {
@@ -337,12 +339,14 @@
       "minutes": 66,
       "url": "https://www.youtube.com/watch?v=Nd_XY1fZDxA",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Estrellas de neutrones en la era de las ondas gravitacionales",
       "speakers": [
         {
-          "name": "Cesar Vasquez"
+          "name": "César Oswaldo Vásquez Flores",
+          "affiliation": "UEMASUL"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=1024613763936189",
       "month": "2026-09"
     },
     {
@@ -368,8 +372,14 @@
       "minutes": 102,
       "url": "https://www.youtube.com/watch?v=_vGaYlMHVgQ",
       "host": "YouTube",
-      "title": "Coloquio de Física",
-      "speakers": [],
+      "title": "Dinámica cosmológica y restricciones observacionales en un modelo gravitacional f(Q, Φ)",
+      "speakers": [
+        {
+          "name": "Johan Gustavo Casimiro Valencia",
+          "affiliation": "Pontificia Universidad Católica del Perú"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=1018268784570687",
       "month": "2026-09"
     },
     {
@@ -379,8 +389,15 @@
       "minutes": 79,
       "url": "https://www.youtube.com/watch?v=4IcDNA_FJUc",
       "host": "YouTube",
-      "title": "Coloquio de Física",
-      "speakers": [],
+      "title": "¿Qué podemos aprender del interior de una estrella compacta?",
+      "speakers": [
+        {
+          "name": "José Domingo Arbañil Vela",
+          "affiliation": "Universidad Privada del Norte y Universidad Nacional Mayor de San Marcos",
+          "profile": "/fisicos/jose-domingo-arbanil-vela/"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=1012095461854686",
       "month": "2026-09"
     },
     {
@@ -390,8 +407,14 @@
       "minutes": 96,
       "url": "https://www.youtube.com/watch?v=DKnuaWKt6BI",
       "host": "YouTube",
-      "title": "Coloquio de Física",
-      "speakers": [],
+      "title": "Mesones vectoriales a partir de un modelo holográfico de QCD en gravedad f(R)-dilatón",
+      "speakers": [
+        {
+          "name": "Adão Satério da Silva Junior",
+          "affiliation": "Universidad Federal de Río de Janeiro"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=1005679162496316",
       "month": "2026-09"
     },
     {
@@ -417,12 +440,14 @@
       "minutes": 88,
       "url": "https://www.youtube.com/watch?v=O7C156TmNgY",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Qubits basados en circuitos superconductores",
       "speakers": [
         {
-          "name": "Kelvin Ramos"
+          "name": "Kelvin Julinio Ramos Villalobos",
+          "affiliation": "Instituto Balseiro"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=1000258853038347",
       "month": "2026-08"
     },
     {
@@ -475,8 +500,15 @@
       "minutes": 81,
       "url": "https://www.youtube.com/watch?v=-mmklEQlv8I",
       "host": "YouTube",
-      "title": "Coloquio de Física",
-      "speakers": [],
+      "title": "Cosmic-Collider Particle Production from Runaway Bubble Collisions and Its Gravitational-Wave Imprints",
+      "speakers": [
+        {
+          "name": "Martín Dionisio Arteaga Tupia",
+          "affiliation": "Pontificia Universidad Católica del Perú y Universidad de Lima",
+          "profile": "/fisicos/martin-dionisio-arteaga-tupia/"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=993390060391893",
       "month": "2026-08"
     },
     {
@@ -486,12 +518,14 @@
       "minutes": 125,
       "url": "https://www.youtube.com/watch?v=M7hzkMYls2E",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Diseño de láser aleatorio basado en ZnO y plata",
       "speakers": [
         {
-          "name": "Frank Sanchez"
+          "name": "Frank Rafael Sánchez Monteza",
+          "affiliation": "Universidad de Puerto Rico en Mayagüez"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=987600004304232",
       "month": "2026-08"
     },
     {
@@ -551,12 +585,13 @@
       "minutes": 110,
       "url": "https://www.youtube.com/watch?v=RJaKyB9cNQw",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Estrellas compactas en relatividad general y en gravedad f(R,T,Lm)",
       "speakers": [
         {
-          "name": "Juan Zarate"
+          "name": "Juan Zárate"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=970740865990146",
       "month": "2026-08"
     },
     {
@@ -625,12 +660,13 @@
       "minutes": 140,
       "url": "https://www.youtube.com/watch?v=0lCyM51Isek",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Fundamentos y aplicaciones de la teoría doble de campos",
       "speakers": [
         {
           "name": "Eric Lescano"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=957738847290348",
       "month": "2026-07"
     },
     {
@@ -672,12 +708,13 @@
       "minutes": 67,
       "url": "https://www.youtube.com/watch?v=jurEaiu9gFk",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Spectral Analysis of Equilibration: Information Leakage in Isolated Quantum Systems",
       "speakers": [
         {
-          "name": "Andre Tanus"
+          "name": "André Tanus"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=949034218160811",
       "month": "2026-07"
     },
     {
@@ -783,8 +820,13 @@
       "minutes": 66,
       "url": "https://www.youtube.com/watch?v=3uZwJ1Ud-YY",
       "host": "YouTube",
-      "title": "Coloquio de Física",
-      "speakers": [],
+      "title": "Coalescencia de agujeros negros para teorías de gravedad modificada en el límite de razones de masas extremas",
+      "speakers": [
+        {
+          "name": "Tomás Gálvez"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=928301693567397",
       "month": "2026-06"
     },
     {
@@ -826,12 +868,13 @@
       "minutes": 91,
       "url": "https://www.youtube.com/watch?v=m9Fb5ux9Z_c",
       "host": "YouTube",
-      "title": "Coloquio de Física",
+      "title": "Cosmología de tiempos tardíos en la era DESI: energía oscura, tensiones observacionales y dinámica del sector oscuro",
       "speakers": [
         {
-          "name": "Manuel Gonzalez"
+          "name": "Manuel González"
         }
       ],
+      "invitation": "https://www.facebook.com/photo/?fbid=922190020845231",
       "month": "2026-05"
     },
     {
@@ -883,8 +926,13 @@
       "minutes": 83,
       "url": "https://www.youtube.com/watch?v=MoQX5QTlVRU",
       "host": "YouTube",
-      "title": "Coloquio de Física",
-      "speakers": [],
+      "title": "Termodinámica cuasi-homogénea y estructura microscópica de un universo FLRW corregido cuánticamente",
+      "speakers": [
+        {
+          "name": "Carlos Romero Figueroa"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=914730111591222",
       "month": "2026-05"
     },
     {
@@ -921,8 +969,14 @@
       "minutes": 111,
       "url": "https://www.youtube.com/watch?v=AvN3xueHZos",
       "host": "YouTube",
-      "title": "Coloquio de Física, ponencia 3",
-      "speakers": [],
+      "title": "Gravedad modificada basada en torsión e inflación primordial",
+      "speakers": [
+        {
+          "name": "Giovanni Otálora",
+          "affiliation": "Universidad de Tarapacá"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=906554625742104",
       "month": "2026-05"
     },
     {
@@ -980,8 +1034,13 @@
       "minutes": 91,
       "url": "https://www.youtube.com/watch?v=4MZPsdZlIyg",
       "host": "YouTube",
-      "title": "Coloquio de Física, sesión 2",
-      "speakers": [],
+      "title": "Campaña Antártica de noviembre de 2025 de la USACH",
+      "speakers": [
+        {
+          "name": "Cristian Ortiz"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=891707823893451",
       "month": "2026-04"
     },
     {
@@ -1007,8 +1066,13 @@
       "minutes": 52,
       "url": "https://www.youtube.com/watch?v=cB6fTtuP4Qo",
       "host": "YouTube",
-      "title": "Coloquio de Física, sesión 1",
-      "speakers": [],
+      "title": "La mecánica no está muerta",
+      "speakers": [
+        {
+          "name": "Angelo Ledezma"
+        }
+      ],
+      "invitation": "https://www.facebook.com/photo/?fbid=891707237226843",
       "month": "2026-04"
     },
     {
