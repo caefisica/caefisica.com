@@ -1,0 +1,103 @@
+{{ define "main" }}
+{{- $data := hugo.Data.physicists -}}
+{{- $countries := dict "PE" "Perú" "BR" "Brasil" "MX" "México" "US" "Estados Unidos" "DE" "Alemania" "JP" "Japón" "CL" "Chile" "AR" "Argentina" "ES" "España" "IT" "Italia" "FR" "Francia" "IS" "Islandia" -}}
+{{- /* One entry per place: who studied there (all their degrees at it in one row) and who works there now. People keep the data's order, by surname. */ -}}
+{{- $places := slice -}}
+{{- range $data.places -}}
+	{{- $place := . -}}
+	{{- $studied := slice -}}
+	{{- $works := slice -}}
+	{{- $names := slice -}}
+	{{- range $data.people -}}
+		{{- $person := . -}}
+		{{- $levels := slice -}}
+		{{- $fields := slice -}}
+		{{- range .studied -}}
+			{{- if eq .place $place.id -}}
+				{{- $levels = $levels | append .level -}}
+				{{- with .field }}{{ $fields = $fields | append . }}{{ end -}}
+			{{- end -}}
+		{{- end -}}
+		{{- with $levels -}}
+			{{- $studied = $studied | append (dict "person" $person "levels" $levels "fields" $fields) -}}
+			{{- $names = $names | append $person.name -}}
+		{{- end -}}
+		{{- range .works -}}
+			{{- if eq .place $place.id -}}
+				{{- $works = $works | append (dict "person" $person "role" .role) -}}
+				{{- $names = $names | append $person.name -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+	{{- $places = $places | append (dict "place" $place "studied" $studied "works" $works "n" ($names | uniq | len) "mapped" (ne $place.lat nil)) -}}
+{{- end -}}
+{{- $places = sort (sort $places "place.name") "n" "desc" -}}
+{{- $pins := slice -}}
+{{- range where $places "mapped" true -}}
+	{{- $pins = $pins | append (dict "id" .place.id "short" (.place.short | default .place.name) "lat" .place.lat "lon" .place.lon "n" .n) -}}
+{{- end -}}
+{{- $land := resources.Get "maps/land.bin" | fingerprint -}}
+{{- .Store.Set "physicistsMap" (dict "land" $land.RelPermalink "places" ($pins | jsonify)) -}}
+
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d personas con un grado en física, en %d instituciones del Perú y del extranjero. Elige una institución para ver quién estudió o trabaja ahí; acerca el mapa para separar las de una misma ciudad." (len $data.people) (len $places))) }}
+
+	<div class="map" hidden>
+		<canvas tabindex="0" role="img" aria-label="Globo con las instituciones donde estudiaron o trabajan. La lista de abajo tiene los mismos datos."></canvas>
+		<div class="map-controls">
+			<button class="map-btn" type="button" data-map="in" aria-label="Acercar">{{ partial "ui/icon.html" (dict "name" "plus" "size" 16) }}</button>
+			<button class="map-btn" type="button" data-map="out" aria-label="Alejar">{{ partial "ui/icon.html" (dict "name" "minus" "size" 16) }}</button>
+			<button class="map-btn map-btn-text" type="button" data-map="peru">Perú</button>
+			<button class="map-btn map-btn-text" type="button" data-map="world">Mundo</button>
+		</div>
+		<aside class="map-panel" hidden aria-live="polite">
+			<button class="map-btn map-panel-close" type="button" aria-label="Cerrar">{{ partial "ui/icon.html" (dict "name" "close" "size" 16) }}</button>
+			<div class="map-panel-body"></div>
+		</aside>
+	</div>
+
+	<div class="map-list">
+		{{- range $places }}
+			{{- $p := .place }}
+			<section class="section-group band" id="lugar-{{ $p.id }}">
+				<h2>
+					{{ $p.name }}
+					<span class="map-where">{{ index $countries $p.country | default $p.country }}{{ if not .mapped }} · sin ubicación en el mapa{{ end }}</span>
+				</h2>
+				<div class="map-groups">
+					{{- with .studied }}
+						<h3>Estudiaron <span class="count">{{ len . }}</span></h3>
+						<ul class="rows">
+							{{- range . }}
+								<li class="group">
+									<div class="row-main">
+										<a class="card-link" href="{{ .person.url }}">{{ .person.name }}</a>
+										<p>{{ delimit .levels " · " }}{{ with .fields }}. {{ delimit . "; " }}{{ end }}</p>
+									</div>
+								</li>
+							{{- end }}
+						</ul>
+					{{- end }}
+					{{- with .works }}
+						<h3>Trabajan <span class="count">{{ len . }}</span></h3>
+						<ul class="rows">
+							{{- range . }}
+								<li class="group">
+									<div class="row-main">
+										<a class="card-link" href="{{ .person.url }}">{{ .person.name }}</a>
+										<p>{{ .role }}</p>
+									</div>
+								</li>
+							{{- end }}
+						</ul>
+					{{- end }}
+				</div>
+			</section>
+		{{- end }}
+	</div>
+
+	<p class="person-note text-muted">
+		Los datos vienen de las fichas públicas de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a> (Concytec), cuyos grados registra SUNEDU, consultadas el {{ time.AsTime $data.fetched | time.Format ":date_long" }}. Cada nombre enlaza su ficha. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+	</p>
+</div>
+{{ end }}

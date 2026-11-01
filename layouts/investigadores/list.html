@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="py-page">
 	{{ partial "ui/page-head.html" (dict "page" .) }}
+	{{- with site.GetPage "/fisicos" }}
+		<p><a href="{{ .RelPermalink }}">Ver en un mapa dónde estudiaron y trabajan {{ len hugo.Data.physicists.people }} físicos</a></p>
+	{{- end }}
 	<ul class="rows">
 		{{- range .Pages.ByTitle }}
 			<li class="group">

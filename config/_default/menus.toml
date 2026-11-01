@@ -47,6 +47,12 @@ parent = "recursos"
 weight = 10
 
 [[main]]
+name = "Mapa de físicos"
+pageRef = "/fisicos"
+parent = "recursos"
+weight = 15
+
+[[main]]
 name = "Blog"
 pageRef = "/blog"
 parent = "recursos"
@@ -149,6 +155,12 @@ name = "Investigadores"
 pageRef = "/investigadores"
 parent = "leer"
 weight = 20
+
+[[footer]]
+name = "Mapa de físicos"
+pageRef = "/fisicos"
+parent = "leer"
+weight = 25
 
 [[footer]]
 name = "YouTube"
