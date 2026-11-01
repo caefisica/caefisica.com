@@ -9,7 +9,7 @@
 			<ul class="section-cards">
 				{{- range .Pages.ByTitle }}
 					{{- $courses := partial "data/professor-courses.html" . }}
-					<li class="card card-hover group">
+					<li class="group">
 						<div class="min-w-0">
 							<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
 							<p class="truncate">

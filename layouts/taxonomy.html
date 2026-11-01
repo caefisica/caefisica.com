@@ -7,7 +7,7 @@
 			<li class="person">
 				{{ partial "ui/avatar.html" (dict "page" . "size" 64) }}
 				<div>
-					<a class="card-link font-bold" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					<a class="card-link font-medium" href="{{ .RelPermalink }}">{{ .Title }}</a>
 					{{- with .Description }}<p>{{ . }}</p>{{ end }}
 				</div>
 			</li>

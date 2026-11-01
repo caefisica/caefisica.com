@@ -14,7 +14,7 @@
 		</div>
 
 		<div>
-			<h3 class="reveal mt-0 mb-4 text-sm font-bold text-muted">Guías actualizadas</h3>
+			<h3 class="reveal mt-0 mb-4 text-sm font-medium text-muted">Guías actualizadas</h3>
 			<ul class="m-0 list-none border-t border-edge p-0">
 				{{ $courses := where (where .Site.Pages "Kind" "section") "Params.credits" "gt" 0 }}
 				{{ range first 5 (sort $courses "Lastmod" "desc") }}
@@ -32,7 +32,7 @@
 					</li>
 				{{ end }}
 			</ul>
-			<a class="learn reveal mt-6 inline-flex items-center font-bold" href="{{ "/unmsm/pregrado/plan-2018/" | relURL }}">Ver todas las guías{{ partial "ui/chevron.html" }}</a>
+			<a class="learn reveal mt-6 inline-flex items-center font-medium" href="{{ "/unmsm/pregrado/plan-2018/" | relURL }}">Ver todas las guías{{ partial "ui/chevron.html" }}</a>
 		</div>
 	</div>
 </section>
