@@ -383,7 +383,7 @@
     border-top: 1px solid var(--line);
   }
 
-  /* Before the first page draws, the stage holds an A4 page's height so the layout does not jump. */
+  /* Before the first page draws, the stage holds the page's shape (--page-ratio, set by media/document.html and corrected by pdf-viewer.ts; A4 without it) so the layout does not jump. */
   .doc-stage {
     display: grid;
     background: var(--surface);
@@ -399,7 +399,7 @@
     }
 
     .doc:not([data-state="ready"]) & {
-      aspect-ratio: 210 / 297;
+      aspect-ratio: var(--page-ratio, 210 / 297);
       max-height: 70vh;
 
       & canvas {
@@ -408,15 +408,32 @@
     }
   }
 
+  /* A cached document draws in a fraction of a second, so the loading text waits before it shows and never flashes. An error shows at once. */
   .doc-status {
     place-self: center;
     max-width: 24rem;
     margin: 1rem;
     color: var(--muted);
     text-align: center;
+    opacity: 0;
+
+    .doc[data-state="loading"] & {
+      animation: doc-status-in 0.2s 0.8s forwards;
+    }
 
     .doc[data-state="ready"] & {
       display: none;
+    }
+
+    .doc[data-state="error"] & {
+      opacity: 1;
+      animation: none;
+    }
+  }
+
+  @keyframes doc-status-in {
+    to {
+      opacity: 1;
     }
   }
 

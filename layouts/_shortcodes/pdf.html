@@ -7,7 +7,7 @@ A PDF from the page's folder, shown as a document. Usage: {{< pdf file="plan.pdf
 {{- $file := .Get "file" -}}
 {{- with or (.Page.Resources.Get $file) (.Page.Parent.Resources.Get $file) -}}
 	{{- $title := $.Get "title" | default (path.BaseName $file | replaceRE `[_-]+` " ") -}}
-	{{- partial "media/document.html" (dict "page" $.Page "url" .RelPermalink "title" $title "size" (len .Content) "open" ($.Get "open")) -}}
+	{{- partial "media/document.html" (dict "page" $.Page "pdf" . "title" $title "open" ($.Get "open")) -}}
 {{- else -}}
 	{{- errorf "pdf: %q is not a resource of %s or its section" $file .Page.File.Path -}}
 {{- end -}}
