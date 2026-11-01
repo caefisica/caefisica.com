@@ -1,0 +1,7 @@
+{{- /* The years of a degree or job: "2012–2015", "2022–hoy", "2015", or "Hoy" for a current job with no start. Context: dict with start and end, each a year, nil or, for end, "now". */ -}}
+{{- $end := cond (eq .end "now") "hoy" .end -}}
+{{- if and .start $end (ne .start $end) -}}
+	{{ .start }}–{{ $end }}
+{{- else if or .start $end -}}
+	{{ (or .start $end) | string | strings.FirstUpper }}
+{{- end -}}

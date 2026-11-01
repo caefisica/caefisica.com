@@ -1,0 +1,11 @@
+{{- /* One person in a list on /fisicos/: initials, name linking their profile, and a note. Context: dict with person, note and optional meta. */ -}}
+{{- $profile := site.GetPage (printf "/fisicos/%s" .person.slug) -}}
+<li class="group" data-person="{{ .person.slug }}">
+	{{ partial "ui/avatar.html" (dict "page" $profile "size" 32 "initials" .person.initials) }}
+	<div class="row-main">
+		<a class="card-link" href="{{ $profile.RelPermalink }}">{{ .person.name }}</a>
+		{{- with .note }}<p>{{ . }}</p>{{ end }}
+	</div>
+	{{- with .meta }}<span class="row-meta max-md:hidden">{{ . }}</span>{{ end }}
+</li>
+{{- /**/ -}}

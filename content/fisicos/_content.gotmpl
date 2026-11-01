@@ -1,0 +1,15 @@
+{{- /*
+One profile per person in data/physicists.json, at the person's slug. The profile copies what the sources say, so it stays up when CTI Vitae is down.
+A photo is used only when static/images/fisicos/<slug>.jpg exists; docs/investigadores.md says which photos may go there.
+*/ -}}
+{{- range hugo.Data.physicists.people -}}
+	{{- $params := dict "slug" .slug "description" (printf "Dónde estudió y dónde trabaja %s, según sus fichas públicas." .name) -}}
+	{{- $photo := printf "images/fisicos/%s.jpg" .slug -}}
+	{{- if os.FileExists (path.Join "static" $photo) }}{{ $params = merge $params (dict "images" (slice (printf "/%s" $photo))) }}{{ end -}}
+	{{- $.AddPage (dict
+		"path" .slug
+		"title" .name
+		"params" $params
+		"content" (dict "mediaType" "text/markdown" "value" "")
+	) -}}
+{{- end -}}

@@ -1326,6 +1326,7 @@
     overflow: hidden;
     border: 1px solid var(--edge);
     border-radius: 1rem;
+    scroll-margin-top: 4.5rem;
     background: var(--bg);
 
     &[hidden] {
@@ -1471,6 +1472,84 @@
       & > li {
         padding-block: 0.625rem;
       }
+    }
+  }
+
+  .map-views > .pill-tabs {
+    position: sticky;
+    z-index: 2;
+    top: 3.5rem;
+    padding-block: 0.625rem;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+
+  /* A browser without :has shows every view. */
+  .map-views:has(input:checked) > .map-list {
+    display: none;
+  }
+
+  .map-views:has([value="lugar"]:checked) > [data-view="lugar"],
+  .map-views:has([value="area"]:checked) > [data-view="area"],
+  .map-views:has([value="persona"]:checked) > [data-view="persona"] {
+    display: block;
+  }
+
+  /* The places of a person's path in order, on one wrapping line. It sits in profiles' markdown and in the map panel, so it outranks the markdown list rules. */
+  .route,
+  .markdown .route {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem 0;
+    margin: 0.75rem 0 1rem;
+    padding: 0;
+    list-style: none;
+
+    & li {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    & li + li::before {
+      content: "→";
+      margin-inline: 0.5rem;
+      color: var(--muted);
+    }
+
+    & a,
+    & span {
+      padding: 0.125rem 0.625rem;
+      border: 1px solid var(--edge);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--fg);
+      font-size: var(--text-sm);
+      text-decoration: none;
+    }
+
+    & a:hover {
+      border-color: var(--link);
+      color: var(--link);
+    }
+  }
+
+  .map-route-btn {
+    flex: none;
+    align-self: center;
+    padding: 0.125rem 0.5rem;
+    border: 1px solid var(--edge);
+    border-radius: 999px;
+    background: none;
+    color: var(--muted);
+    font: inherit;
+    font-size: var(--text-sm);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--fg);
+      text-decoration: none;
     }
   }
 
