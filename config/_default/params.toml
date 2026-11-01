@@ -1,4 +1,4 @@
-title = "@caefisica"
+title = "caefísica"
 titleSeparator = "-"
 titleAddition = "Centro de Apoyo al Estudiante de Física"
 description = "Facilitando recursos para el estudio de la física."
@@ -15,7 +15,7 @@ titleHome = "Centro de Apoyo al Estudiante de Física"
 twitterSite = "@caefisica"
 twitterCreator = "@totallynotdavid"
 
-schemaName = "@caefisica"
+schemaName = "caefísica"
 schemaAuthor = "David"
 schemaAuthorTwitter = "https://twitter.com/totallynotdavid"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/amosduran/"
@@ -38,7 +38,7 @@ smallLimit = "600"
 
 footer = "Un proyecto del Centro de Apoyo al Estudiante de Física"
 
-copyRight = "Copyright (c) 2023 @caefisica"
+copyRight = "Copyright (c) 2023 caefísica"
 
 alert = false
 alertDismissable = true
