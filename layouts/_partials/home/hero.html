@@ -1,17 +1,14 @@
 {{- /* The first screen keeps the title visible for LCP; motion begins only after it. */ -}}
-<div class="hero-glow">
-	<section class="hero mx-auto w-full max-w-page px-gutter">
-		<div class="hero-copy">
-			<h1 class="hero-title hero-fade" style="--i: 0">Una guía para el estudio <span>de las Ciencias Físicas</span></h1>
-			<p class="hero-lead hero-fade" style="--i: 1">{{ or .Params.Lead .Description | safeHTML -}}</p>
-			<div class="hero-actions hero-fade" style="--i: 2">
-				<a class="btn btn-solid" href="{{ "unmsm/pregrado/plan-2018/" | relURL }}">Comienza aquí</a>
-				<button class="hero-search" type="button" data-search-open aria-haspopup="dialog" aria-keyshortcuts="Control+K /">
-					{{ partial "ui/icon.html" "search" }}
-					<span class="grow">Buscar cursos, apuntes…</span>
-					<span class="hidden gap-1 sm:inline-flex" aria-hidden="true"><kbd class="kbd" data-kbd-mod>Ctrl</kbd><kbd class="kbd">K</kbd></span>
-				</button>
-			</div>
+<section class="hero mx-auto w-full max-w-page px-gutter">
+	<div class="hero-copy">
+		<h1 class="hero-title hero-fade" style="--i: 0">Una guía para el estudio <span>de las Ciencias Físicas</span></h1>
+		<p class="hero-lead hero-fade" style="--i: 1">{{ or .Params.Lead .Description | safeHTML -}}</p>
+		<div class="hero-actions hero-fade" style="--i: 2">
+			<button class="hero-search" type="button" data-search-open aria-haspopup="dialog" aria-keyshortcuts="Control+K /">
+				{{ partial "ui/icon.html" "search" }}
+				<span class="grow">Buscar cursos, libros, apuntes…</span>
+				<span class="hidden gap-1 sm:inline-flex" aria-hidden="true"><kbd class="kbd" data-kbd-mod>Ctrl</kbd><kbd class="kbd">K</kbd></span>
+			</button>
 		</div>
-	</section>
-</div>
+	</div>
+</section>

@@ -119,10 +119,286 @@
     }
   }
 
-  /* The window of the hero: a full-width visual between two hairlines. */
-  .bleed {
-    width: 100cqw;
-    margin-left: calc(50% - 50cqw);
+  /* The study plan under the hero, where Linear shows its app: a cycle picker over a table of that cycle's courses. */
+  .plan-wrap {
+    padding-bottom: 4rem;
+
+    @media (width >= 48rem) {
+      padding-bottom: 8rem;
+    }
+  }
+
+  .plan {
+    overflow: hidden;
+    border: 1px solid var(--edge);
+    border-radius: 0.75rem;
+    background: var(--bg);
+  }
+
+  .plan-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--edge);
+  }
+
+  .plan-name {
+    margin: 0;
+    font-size: var(--text-sm);
+    font-weight: 500;
+  }
+
+  .plan-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    & input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    & label > span {
+      display: block;
+      padding: 0.25rem 0.625rem;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: var(--text-sm);
+      cursor: pointer;
+    }
+
+    & label:hover > span {
+      color: var(--fg);
+    }
+
+    & input:checked + span {
+      border-color: var(--edge);
+      background: var(--surface);
+      color: var(--fg);
+    }
+
+    & input:focus-visible + span {
+      outline: 2px solid var(--link);
+      outline-offset: 1px;
+    }
+  }
+
+  /* A floated legend stops being the fieldset's border legend and becomes an ordinary flex item. */
+  .plan-tabs legend {
+    float: left;
+    margin-right: 0.25rem;
+    padding: 0.25rem 0;
+    color: var(--muted);
+    font-size: var(--text-sm);
+  }
+
+  .plan-panel {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    & li + li {
+      border-top: 1px solid var(--line);
+    }
+
+    & a {
+      display: grid;
+      grid-template-areas: "code credits" "title title" "meta meta";
+      grid-template-columns: 1fr auto;
+      gap: 0.125rem 1rem;
+      padding: 0.75rem 1rem;
+      color: var(--fg);
+
+      @media (width >= 48rem) {
+        grid-template-areas: "code title meta credits";
+        grid-template-columns: 6rem 1fr auto 3.5rem;
+        align-items: baseline;
+      }
+
+      &:hover {
+        background: var(--hover);
+        text-decoration: none;
+      }
+    }
+  }
+
+  /* Without :has, every cycle shows; with it, only the chosen one. */
+  .plan:has(input:checked) .plan-panel {
+    display: none;
+  }
+
+  .plan:has([value="1"]:checked) [data-cycle="1"],
+  .plan:has([value="2"]:checked) [data-cycle="2"],
+  .plan:has([value="3"]:checked) [data-cycle="3"],
+  .plan:has([value="4"]:checked) [data-cycle="4"],
+  .plan:has([value="5"]:checked) [data-cycle="5"],
+  .plan:has([value="6"]:checked) [data-cycle="6"],
+  .plan:has([value="7"]:checked) [data-cycle="7"],
+  .plan:has([value="8"]:checked) [data-cycle="8"],
+  .plan:has([value="9"]:checked) [data-cycle="9"],
+  .plan:has([value="10"]:checked) [data-cycle="10"] {
+    display: block;
+  }
+
+  .plan-code {
+    grid-area: code;
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+  }
+
+  .plan-title {
+    grid-area: title;
+  }
+
+  .plan-meta {
+    grid-area: meta;
+    color: var(--muted);
+    font-size: var(--text-sm);
+  }
+
+  .plan-empty {
+    opacity: 0.7;
+  }
+
+  .plan-credits {
+    grid-area: credits;
+    color: var(--muted);
+    font-size: var(--text-sm);
+    text-align: right;
+  }
+
+  .plan-all {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--edge);
+    color: var(--muted);
+    font-size: var(--text-sm);
+
+    &:hover {
+      color: var(--fg);
+      text-decoration: none;
+    }
+  }
+
+  /* A section's preview, as Linear's preview slot: real content of the product, fading out at the bottom to say there is more. */
+  .scene {
+    display: grid;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    border: 1px solid var(--edge);
+    border-radius: 0.75rem;
+    mask-image: linear-gradient(to bottom, #000 65%, transparent);
+
+    @media (width >= 62rem) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    & ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    & li a {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      column-gap: 0.75rem;
+      padding: 0.625rem 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--fg);
+
+      &:hover {
+        background: var(--hover);
+        text-decoration: none;
+      }
+
+      & svg {
+        grid-row: span 2;
+        margin-top: 0.2rem;
+        color: var(--muted);
+      }
+    }
+  }
+
+  .scene-col + .scene-col {
+    border-top: 1px solid var(--edge);
+
+    @media (width >= 62rem) {
+      border-top: 0;
+      border-left: 1px solid var(--edge);
+    }
+  }
+
+  .scene-head {
+    margin: 0;
+    padding: 0.75rem 1rem;
+  }
+
+  .scene-title,
+  .scene-meta {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .scene-meta {
+    color: var(--muted);
+    font-size: var(--text-sm);
+  }
+
+  .scene-note {
+    display: block;
+    padding: 0.75rem 1rem 3rem;
+    color: var(--fg);
+
+    &:hover {
+      border-color: color-mix(in oklab, var(--accent) 50%, var(--edge));
+      text-decoration: none;
+    }
+
+    & .scene-head {
+      padding: 0 0 1.5rem;
+    }
+  }
+
+  .scene-body {
+    max-width: 65ch;
+
+    & p {
+      margin: 0 0 1rem;
+    }
+  }
+
+  .scene-body .scene-h {
+    margin: 1.5rem 0 0.5rem;
+    font-weight: 500;
+  }
+
+  .scene-math {
+    margin: 0 0 1rem;
+    padding-block: 0.25rem;
+    overflow: hidden;
+    font-size: 1.15rem;
+
+    /* The card is a link to the note, so a wide equation fades at the edge instead of scrolling. */
+    @media (width < 48rem) {
+      mask-image: linear-gradient(to right, #000 80%, transparent);
+    }
+
+    /* MathML Core browsers ignore mathvariant other than normal, so \boldsymbol vectors would render plain. */
+    & [mathvariant^="bold"] {
+      font-weight: 700;
+    }
   }
 
   .timeline {
