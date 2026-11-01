@@ -51,10 +51,18 @@ class Viewer {
   }
 
   private async open(): Promise<void> {
+    this.root.dataset.state = "loading";
     try {
       const lib = await loadLibrary();
       this.document = await lib.getDocument({ url: this.root.dataset.pdf! })
         .promise;
+      // The template reads the page size from the file's first /MediaBox, which can be absent or
+      // ignore /Rotate; the real first page settles the stage before it draws.
+      const first = (await this.document.getPage(1)).getViewport({ scale: 1 });
+      this.root.style.setProperty(
+        "--page-ratio",
+        `${first.width} / ${first.height}`,
+      );
       await this.render();
       this.root.dataset.state = "ready";
     } catch {

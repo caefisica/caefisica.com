@@ -4,7 +4,7 @@
 {{- range $i, $pdf := .Resources.Match "silabo*.pdf" }}
 	{{- $who := path.BaseName .Name | strings.TrimPrefix "silabo" | strings.TrimPrefix "_" -}}
 	{{- $title := cond (eq $who "") "Sílabo" (printf "Sílabo de %s" (title $who)) -}}
-	{{ partial "media/document.html" (dict "page" $ "url" .RelPermalink "title" $title "size" (len .Content) "open" (eq $i 0)) }}
+	{{ partial "media/document.html" (dict "page" $ "pdf" . "title" $title "open" (eq $i 0)) }}
 {{- else }}
 	<p class="text-muted">No hay sílabo disponible para este semestre.</p>
 {{- end -}}
