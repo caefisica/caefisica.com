@@ -103,6 +103,7 @@
   --bg: #f4f1fa;
   --surface: #ebe7f1;
   --line: rgb(48 46 54 / 0.08);
+  --dash: rgb(48 46 54 / 0.07);
   --card: var(--surface);
   --wash: radial-gradient(
     64rem 30rem at 50% 0,
@@ -126,6 +127,7 @@
   --bg: #212529;
   --surface: #272b32;
   --line: rgb(243 244 245 / 0.08);
+  --dash: rgb(243 244 245 / 0.06);
   --card: var(--surface);
   --wash: radial-gradient(
     64rem 30rem at 50% 0,
@@ -148,6 +150,7 @@
   --color-bg: var(--bg);
   --color-surface: var(--surface);
   --color-line: var(--line);
+  --color-dash: var(--dash);
   --color-edge: var(--edge);
   --color-hover: var(--hover);
   --color-link: var(--link);
@@ -225,15 +228,6 @@
   @media (width >= 48rem) {
     padding-block: 6rem;
   }
-}
-
-/* Editorial headings of the home page: tight tracking, balanced lines. */
-@utility text-display {
-  font-size: var(--text-2xl);
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: -0.025em;
-  text-wrap: balance;
 }
 
 @utility text-title {
@@ -379,7 +373,7 @@
 
   hr {
     margin: 1rem 0;
-    border-top: 1px dashed var(--line);
+    border-top: 1px dashed var(--dash);
   }
 
   blockquote {
@@ -1213,7 +1207,7 @@
   .team-band {
     margin-top: 4rem;
     padding-top: 4rem;
-    border-top: 1px dashed var(--line);
+    border-top: 1px dashed var(--dash);
   }
 
   .org-label {
