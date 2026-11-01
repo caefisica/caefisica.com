@@ -28,15 +28,18 @@ A YouTube playlist or shared Drive folder with data from bun run playlists gets 
 	{{- $data := and $list.id (index hugo.Data.playlists $list.id) -}}
 	{{- $params := dict "lecturer" $list.lecturer "channel" $list.channel "url" $list.url "courses" $list.courses -}}
 	{{- $build := dict "render" "never" "list" "local" -}}
+	{{- $dates := dict -}}
 	{{- with $data -}}
 		{{- $params = merge $params (dict "playlist" $list.id "host" .host "channel" (.channel | default $list.channel) "lessons" .lessons "updated" .updated "fetched" .fetched) -}}
 		{{- $build = dict -}}
+		{{- $dates = dict "lastmod" (time.AsTime .fetched) -}}
 	{{- end -}}
 	{{- $.AddPage (dict
 		"path" $path
 		"title" $list.title
 		"params" $params
 		"build" $build
+		"dates" $dates
 		"content" (dict "mediaType" "text/markdown" "value" ($list.description | default ""))
 	) -}}
 {{- end -}}

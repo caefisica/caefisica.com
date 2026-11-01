@@ -1,6 +1,7 @@
 {{- /* The commit that last changed the page and a link to edit its source. Context: the page. */ -}}
 {{- $repo := site.Params.docsRepo -}}
-{{- $modified := and site.Params.lastMod .GitInfo $repo -}}
+{{- /* A page from a content adapter has a zero Lastmod unless the adapter sets one. */ -}}
+{{- $modified := and site.Params.lastMod .GitInfo $repo (not .Lastmod.IsZero) -}}
 {{- $edit := partial "data/edit-url.html" . -}}
 {{- if or $modified $edit -}}
 	<footer class="page-footer" data-pagefind-ignore="all">
