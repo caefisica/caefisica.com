@@ -198,7 +198,8 @@
       "title": "Limpieza de Datos en mapas CMB de la misión de Planck",
       "speakers": [
         {
-          "name": "Stefano Gonzales"
+          "name": "Stefano Gonzales",
+          "profile": "/fisicos/stefano-gonzales/"
         }
       ],
       "month": "2026-10"
@@ -432,7 +433,8 @@
       "speakers": [
         {
           "name": "Johan Gustavo Casimiro Valencia",
-          "affiliation": "Pontificia Universidad Católica del Perú"
+          "affiliation": "Pontificia Universidad Católica del Perú",
+          "profile": "/fisicos/johan-gustavo-casimiro-valencia/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1018268784570687",
@@ -610,7 +612,8 @@
       "speakers": [
         {
           "name": "Carlos Rodríguez-Benites",
-          "affiliation": "Universidad Nacional de Trujillo"
+          "affiliation": "Universidad Nacional de Trujillo",
+          "profile": "/fisicos/carlos-rodriguez-benites/"
         }
       ]
     },
@@ -625,7 +628,8 @@
       "speakers": [
         {
           "name": "Frank Rafael Sánchez Monteza",
-          "affiliation": "Universidad de Puerto Rico en Mayagüez"
+          "affiliation": "Universidad de Puerto Rico en Mayagüez",
+          "profile": "/fisicos/frank-rafael-sanchez-monteza/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=987600004304232",
@@ -691,7 +695,8 @@
       "title": "Estrellas compactas en relatividad general y en gravedad f(R,T,Lm)",
       "speakers": [
         {
-          "name": "Juan Zárate"
+          "name": "Juan Zárate",
+          "profile": "/fisicos/juan-zarate-pretel/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=970740865990146",
@@ -992,7 +997,8 @@
       "speakers": [
         {
           "name": "Juan Zárate",
-          "affiliation": "Centro Brasileiro de Pesquisas Físicas, Brasil"
+          "affiliation": "Centro Brasileiro de Pesquisas Físicas, Brasil",
+          "profile": "/fisicos/juan-zarate-pretel/"
         }
       ]
     },
@@ -1022,7 +1028,8 @@
       "title": "Computación Cuántica con Cirq",
       "speakers": [
         {
-          "name": "Stefano Gonzáles"
+          "name": "Stefano Gonzáles",
+          "profile": "/fisicos/stefano-gonzales/"
         }
       ],
       "month": "2026-05"
@@ -1361,7 +1368,8 @@
       "speakers": [
         {
           "name": "Alexander Trigoso Sulca",
-          "affiliation": "IFT-UNESP"
+          "affiliation": "IFT-UNESP",
+          "profile": "/fisicos/alexander-antonio-trigoso-sulca/"
         }
       ]
     },
@@ -2157,7 +2165,8 @@
       "title": "Simulaciones de N cuerpos en cosmología y en 3D",
       "speakers": [
         {
-          "name": "Stefano Gonzales"
+          "name": "Stefano Gonzales",
+          "profile": "/fisicos/stefano-gonzales/"
         }
       ],
       "month": "2025-10"
@@ -2416,7 +2425,8 @@
       "host": "Invitación",
       "speakers": [
         {
-          "name": "Ana Champi"
+          "name": "Ana Champi",
+          "profile": "/fisicos/ana-champi/"
         }
       ]
     },
@@ -2616,7 +2626,8 @@
       "speakers": [
         {
           "name": "David Asmat",
-          "affiliation": "Universidad Privada del Norte (UPN), Perú"
+          "affiliation": "Universidad Privada del Norte (UPN), Perú",
+          "profile": "/fisicos/david-angel-asmat-campos/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1095130992631077&set=a.463310019146514",
@@ -2698,7 +2709,8 @@
       "speakers": [
         {
           "name": "Kelvin Ramos",
-          "affiliation": "Instituto Balseiro"
+          "affiliation": "Instituto Balseiro",
+          "profile": "/fisicos/kelvin-ramos-villalobos/"
         }
       ]
     },
@@ -2714,7 +2726,8 @@
       "speakers": [
         {
           "name": "Hans Narro",
-          "affiliation": "IFLP, Argentina"
+          "affiliation": "IFLP, Argentina",
+          "profile": "/fisicos/hans-kevin-narro-arias/"
         }
       ]
     },
@@ -2826,7 +2839,8 @@
       "speakers": [
         {
           "name": "Frank Sánchez",
-          "affiliation": "Universidad de Puerto Rico en Mayagüez"
+          "affiliation": "Universidad de Puerto Rico en Mayagüez",
+          "profile": "/fisicos/frank-rafael-sanchez-monteza/"
         }
       ]
     },
@@ -2842,7 +2856,8 @@
       "speakers": [
         {
           "name": "Sergio Santa María",
-          "affiliation": "GRACOCC, UNT"
+          "affiliation": "GRACOCC, UNT",
+          "profile": "/fisicos/sergio-santa-maria/"
         }
       ]
     },
@@ -2991,7 +3006,8 @@
       "host": "Invitación",
       "speakers": [
         {
-          "name": "Julio Larrea"
+          "name": "Julio Larrea",
+          "profile": "/fisicos/julio-antonio-larrea-jimenez/"
         }
       ]
     },
@@ -3375,7 +3391,8 @@
       "speakers": [
         {
           "name": "Rolando Ramírez",
-          "affiliation": "Universidad de California en San Diego"
+          "affiliation": "Universidad de California en San Diego",
+          "profile": "/fisicos/rolando-ramirez-camasca/"
         }
       ]
     },
@@ -3391,7 +3408,8 @@
       "speakers": [
         {
           "name": "Henry Moncada",
-          "affiliation": "Oak Ridge National Laboratory, USA"
+          "affiliation": "Oak Ridge National Laboratory, USA",
+          "profile": "/fisicos/henry-r-moncada/"
         }
       ]
     },
@@ -3903,7 +3921,8 @@
       "host": "Invitación",
       "speakers": [
         {
-          "name": "Kelvin Ramos"
+          "name": "Kelvin Ramos",
+          "profile": "/fisicos/kelvin-ramos-villalobos/"
         }
       ]
     },
@@ -3934,7 +3953,8 @@
       "host": "Invitación",
       "speakers": [
         {
-          "name": "Kelman Marín"
+          "name": "Kelman Marín",
+          "profile": "/fisicos/kelman-widman-marin-rengifo/"
         }
       ]
     },
@@ -3964,7 +3984,8 @@
       "host": "Invitación",
       "speakers": [
         {
-          "name": "Alexander Trigoso"
+          "name": "Alexander Trigoso",
+          "profile": "/fisicos/alexander-antonio-trigoso-sulca/"
         }
       ]
     },
@@ -4743,7 +4764,8 @@
       "host": "Facebook",
       "speakers": [
         {
-          "name": "Joel Rojas Acuña"
+          "name": "Joel Rojas Acuña",
+          "profile": "/fisicos/joel-rojas-acuna/"
         },
         {
           "name": "Fernando Márquez"
@@ -5351,7 +5373,8 @@
       "title": "Teoría cuántica de gravedad, unificación y Teoría de cuerdas",
       "speakers": [
         {
-          "name": "Aldo Arroyo"
+          "name": "Aldo Arroyo",
+          "profile": "/fisicos/aldo-arroyo-herrera/"
         }
       ],
       "month": "2022-02"
@@ -5659,10 +5682,12 @@
       "title": "XX Encuentro de Física: segunda sesión vespertina",
       "speakers": [
         {
-          "name": "Carlos Rodriguez Benites"
+          "name": "Carlos Rodriguez Benites",
+          "profile": "/fisicos/carlos-rodriguez-benites/"
         },
         {
-          "name": "Ener Salinas"
+          "name": "Ener Salinas",
+          "profile": "/fisicos/ener-salinas/"
         }
       ],
       "month": "2021-08"
@@ -5763,7 +5788,8 @@
           "profile": "/fisicos/julio-jose-balbin-arias/"
         },
         {
-          "name": "Franz Machado"
+          "name": "Franz Machado",
+          "profile": "/fisicos/franz-machado/"
         },
         {
           "name": "Carlos Enrrique Soto Nicoll"
@@ -5948,7 +5974,8 @@
       "title": "Minicurso: Teória de Supercuerdas, Formalismos y Aplicaciones, parte 3",
       "speakers": [
         {
-          "name": "Max Guillen"
+          "name": "Max Guillen",
+          "profile": "/fisicos/max-guillen/"
         }
       ],
       "month": "2021-03"
@@ -5974,7 +6001,8 @@
       "title": "Teoría de Cuerdas en Espacios Target no Ordinarios",
       "speakers": [
         {
-          "name": "Max Guillen"
+          "name": "Max Guillen",
+          "profile": "/fisicos/max-guillen/"
         }
       ],
       "month": "2021-03"
@@ -6004,7 +6032,8 @@
       "title": "Minicurso: Teória de Supercuerdas, Formalismos y Aplicaciones, parte 2",
       "speakers": [
         {
-          "name": "Max Guillen"
+          "name": "Max Guillen",
+          "profile": "/fisicos/max-guillen/"
         }
       ],
       "month": "2021-03"
@@ -6065,7 +6094,8 @@
       "title": "Minicurso: Teória de Supercuerdas, Formalismos y Aplicaciones, parte 1",
       "speakers": [
         {
-          "name": "Max Guillen"
+          "name": "Max Guillen",
+          "profile": "/fisicos/max-guillen/"
         }
       ],
       "month": "2021-03"
@@ -6307,7 +6337,8 @@
           "profile": "/fisicos/joel-jones-perez/"
         },
         {
-          "name": "Julio Montoya"
+          "name": "Julio Montoya",
+          "profile": "/fisicos/julio-manuel-montoya-janampa/"
         },
         {
           "name": "Betty Galarreta"
@@ -6372,7 +6403,8 @@
         },
         {
           "name": "Ener Salinas",
-          "affiliation": "Hitachi ABB Power Grids"
+          "affiliation": "Hitachi ABB Power Grids",
+          "profile": "/fisicos/ener-salinas/"
         },
         {
           "name": "Piere Rodriguez Aliaga",
@@ -6409,7 +6441,8 @@
         },
         {
           "name": "Max Guillen",
-          "affiliation": "Uppsala University"
+          "affiliation": "Uppsala University",
+          "profile": "/fisicos/max-guillen/"
         }
       ],
       "month": "2020-09"
@@ -6530,7 +6563,8 @@
       "title": "Descripción de la teoría de super Yang-Mills en D=10 dimensiones",
       "speakers": [
         {
-          "name": "Max Guillen"
+          "name": "Max Guillen",
+          "profile": "/fisicos/max-guillen/"
         }
       ],
       "month": "2020-02"
@@ -6576,7 +6610,8 @@
       "title": "Cosmología y Holografía",
       "speakers": [
         {
-          "name": "Carlos Rodriguez Benites"
+          "name": "Carlos Rodriguez Benites",
+          "profile": "/fisicos/carlos-rodriguez-benites/"
         }
       ],
       "month": "2020-01"
@@ -6637,7 +6672,8 @@
       "title": "Superpartículas en D=10 y D=11 dimensiones",
       "speakers": [
         {
-          "name": "Max Guillen"
+          "name": "Max Guillen",
+          "profile": "/fisicos/max-guillen/"
         }
       ],
       "month": "2020-01"
@@ -6888,7 +6924,8 @@
       "speakers": [
         {
           "name": "Luciano Stucchi",
-          "affiliation": "Universidad del Pacífico"
+          "affiliation": "Universidad del Pacífico",
+          "profile": "/fisicos/luciano-stucchi/"
         }
       ],
       "summary": "En este coloquio mostraremos cómo incorporamos un modelo matemático evolutivo en un sistema dinámico de poblaciones para obtener transiciones entre interacciones ecológicas. Para ello, utilizamos un modelo general de dinámica poblacional con el que es posible representar cualquier tipo de régimen ecológico y un",
@@ -7012,7 +7049,8 @@
       "title": "Señal de dimensión extra en la onda gravitacional",
       "speakers": [
         {
-          "name": "Claudio Lazarte"
+          "name": "Claudio Lazarte",
+          "profile": "/fisicos/claudio-cesar-lazarte-melgar/"
         }
       ],
       "month": "2019-06"
@@ -7065,7 +7103,8 @@
       "speakers": [
         {
           "name": "Víctor Peña",
-          "affiliation": "Universidad Nacional Mayor de San Marcos"
+          "affiliation": "Universidad Nacional Mayor de San Marcos",
+          "profile": "/fisicos/victor-antonio-pena-rodriguez/"
         }
       ],
       "summary": "La tetrataenita natural es una inusual aleación producida en el impacto de meteoritos de hierro con la corteza terrestre. En el impacto, el mineral taenita contenido en los meteoritos, compuesto de hierro y níquel, sufre una severa deformación plástica con baja tasa de enfriamiento y alta presión. El impacto distorsiona la configuración cristalina cúbica de la taenita y la convierte en tetrataenita. La tetrataenita es un magneto permanente atípico, sin elementos de tierras raras. En esta charla reportaremos nuestros resultados sobre la síntesis de tetrataenita en el laboratorio, usando un proceso de mecano-síntesis sobre una mezcla de polvos elementales de Fe y Ni. La característica principal de la mecano-síntesis es la direccionalidad de energía mecánica hacia la microestructura granular a través de reacciones sólidas, sin necesidad de fundir los elementos metálicos. Hablaremos acerca de la caracterización de las fases de la tetrataenita usando tres técnicas - difracción de rayos X, Extended X-Ray Absorption Fine Structure (EXAFS) y espectroscopía Mössbauer - cada una de las cuales ofrece una visión distinta de la microestructura.",
@@ -7249,7 +7288,8 @@
       "speakers": [
         {
           "name": "Cristian Ferradas",
-          "affiliation": "New Mexico Consortium"
+          "affiliation": "New Mexico Consortium",
+          "profile": "/fisicos/cristian-ferradas/"
         }
       ],
       "summary": "Al contrario de lo que la mayoría de la gente piensa, los 150 millones de kilómetros de espacio que separan a la Tierra del Sol no están vacíos. El Sistema Solar es testigo del constante flujo de radiación y partículas altamente energéticas provenientes del Sol, conocido como el viento solar. Esto representa una amenaza a la sostenibilidad de la vida en nuestro planeta. Afortunadamente, la Tierra tiene su propio escudo natural en la forma de una cavidad que envuelve al planeta y a su atmósfera, protegiéndolos y proveyendo las condiciones para el desarrollo de la vida. Esta cavidad, la magnetósfera, se genera como producto de la interacción entre el viento solar y el campo magnético terrestre. Esta presentación servirá como una introducción a la física de la magnetósfera terrestre. Se tratará el origen de la magnetósfera y varios aspectos de la misma: las fuentes del plasma que se encuentra en ella, los procesos que la convierten en un ambiente altamente dinámico y el rol que cumple en el clima espacial",
@@ -8651,7 +8691,8 @@
       "speakers": [
         {
           "name": "Luciano Stucchi",
-          "affiliation": "Universidad del Pacífico / Universidad Politécnica de Madrid, España"
+          "affiliation": "Universidad del Pacífico / Universidad Politécnica de Madrid, España",
+          "profile": "/fisicos/luciano-stucchi/"
         }
       ],
       "summary": "Las relaciones entre especies biológicas despliegan estrategias que van desde la competencia más dura hasta el mutualismo más generoso. Pero, además, estas relaciones pueden transitar de un tipo a otro cuando el entorno las somete a presiones extremas. De hecho, estas transiciones son las que permiten un mecanismo evolutivo distinto al darwiniano: el de la simbiogénesis de Margulis. En este coloquio haremos una revisión crítica de los modelos matemáticos que describen las diferentes relaciones entre especies y mostraremos un mecanisno que permita describir las transiciones entre estas relaciones.",
@@ -9031,7 +9072,8 @@
       "speakers": [
         {
           "name": "Julio Chanamé",
-          "affiliation": "Pontificia Universidad Católica de Chile"
+          "affiliation": "Pontificia Universidad Católica de Chile",
+          "profile": "/fisicos/julio-chaname/"
         }
       ],
       "summary": "Las galaxias enanas ocupan al día de hoy una posición central en problemas de interés para la cosmología y la física fundamental de frontera. Por un lado, las estrellas que componen sus poblaciones estelares parecen ser reliquias de épocas tempranas del universo a las que no es posible tener acceso a través de observaciones astronómicas estándar. A la vez, estas mismas galaxias son los sistemas con mayor cantidad de materia oscura conocidos en el universo, por lo que ofrecen quizás la mejor oportunidad en la actualidad para aprender sobre las propiedades fundamentales de esta elusiva componente del universo. En esta charla discutiré cómo la búsqueda y caracterización de estrellas binarias con separaciones muy anchas, recientemente descubiertos por primera vez en una galaxia diferente a la Vía Láctea, tienen un impacto directo en nuestro entendimiento de las condiciones de formación estelar temprana en el universo y en las propiedades fundamentales de la materia oscura",
@@ -9982,7 +10024,8 @@
       "speakers": [
         {
           "name": "Joel Rojas",
-          "affiliation": "Laboratorio de Teledetección, Universidad Nacional Mayor de San Marcos"
+          "affiliation": "Laboratorio de Teledetección, Universidad Nacional Mayor de San Marcos",
+          "profile": "/fisicos/joel-rojas-acuna/"
         }
       ],
       "summary": "Estudiamos la dinámica de los aerosoles en Perú y América del Sur a partir de las imágenes del Espesor Óptico de los Aerosoles (AOT) procedentes del sensor MODIS transportado por los satélites TERRA y AQUA entre el 2000 y el 2013. Se usó además datos de AOT de seis de las estaciones de fotómetros solares AERONET (AErosol RObotic NETwork) , en Brasil, Bolivia y Chile, para validar los datos AOT–MODIS. Resaltaremos la importancia de la dispersión de aerosoles en el estudio de la contaminación atmosférica en ciudades y bosques.",
@@ -11112,7 +11155,8 @@
       "speakers": [
         {
           "name": "Julio Chanamé",
-          "affiliation": "Pontificia Universidad Católica de Chile"
+          "affiliation": "Pontificia Universidad Católica de Chile",
+          "profile": "/fisicos/julio-chaname/"
         }
       ],
       "summary": "En el contexto del modelo jerárquico de formación de estructura en el universo, galaxias como la nuestra crecieron por la acumulación de entidades pequeñas formadas en épocas más tempranas. La evidencia observacional que soporta este escenario es amplia tanto en la Vía Láctea como en sistemas extragalácticos (por ejemplo, en forma de galaxias y cúmulos estelares en proceso de canibalización por sistemas mayores, usualmente mostrando largas corrientes organizadas de estrellas escapando de progenitores en plena destrucción), pero los detalles a pequeña escala y la progresión temporal de los mecanismos involucrados aún necesitan ser determinados y ordenados según su importancia relativa. En esta charla se entregará un panorama de lo aprendido en esta área, así como de algunos de los esfuerzos actuales para identificar vestigios de la época de formación galáctica en las cercanías del Sol.",
