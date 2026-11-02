@@ -19529,6 +19529,150 @@
       "lat": 54.08813,
       "lon": 12.13337,
       "kind": "universidad"
+    },
+    {
+      "id": "adelaide",
+      "name": "University of Adelaide",
+      "short": "U. de Adelaida",
+      "country": "AU",
+      "lat": -34.92067,
+      "lon": 138.60536,
+      "kind": "universidad"
+    },
+    {
+      "id": "utah",
+      "name": "University of Utah",
+      "short": "U. de Utah",
+      "country": "US",
+      "lat": 40.76417,
+      "lon": -111.84639,
+      "kind": "universidad"
+    },
+    {
+      "id": "stonybrook",
+      "name": "Stony Brook University",
+      "short": "Stony Brook",
+      "country": "US",
+      "lat": 40.91732,
+      "lon": -73.12455,
+      "kind": "universidad"
+    },
+    {
+      "id": "iit",
+      "name": "Illinois Institute of Technology",
+      "short": "IIT",
+      "country": "US",
+      "lat": 41.835,
+      "lon": -87.6275,
+      "kind": "universidad"
+    },
+    {
+      "id": "uta",
+      "name": "University of Texas at Arlington",
+      "short": "UT Arlington",
+      "country": "US",
+      "lat": 32.73067,
+      "lon": -97.11458,
+      "kind": "universidad"
+    },
+    {
+      "id": "perimeter",
+      "name": "Perimeter Institute for Theoretical Physics",
+      "short": "Perimeter",
+      "country": "CA",
+      "lat": 43.4654,
+      "lon": -80.528,
+      "kind": "instituto"
+    },
+    {
+      "id": "ncu-tw",
+      "name": "National Central University",
+      "short": "NCU",
+      "country": "TW",
+      "lat": 24.96828,
+      "lon": 121.19289,
+      "kind": "universidad"
+    },
+    {
+      "id": "ku-dk",
+      "name": "Universidad de Copenhague",
+      "short": "U. de Copenhague",
+      "country": "DK",
+      "lat": 55.67972,
+      "lon": 12.5725,
+      "kind": "universidad"
+    },
+    {
+      "id": "uporto",
+      "name": "Universidade do Porto",
+      "short": "U. do Porto",
+      "country": "PT",
+      "lat": 41.14667,
+      "lon": -8.61556,
+      "kind": "universidad"
+    },
+    {
+      "id": "anu",
+      "name": "Australian National University",
+      "short": "ANU",
+      "country": "AU",
+      "lat": -35.2778,
+      "lon": 149.1205,
+      "kind": "universidad"
+    },
+    {
+      "id": "ifms",
+      "name": "Instituto Federal de Mato Grosso do Sul",
+      "short": "IFMS",
+      "country": "BR",
+      "lat": -20.45523,
+      "lon": -54.64953,
+      "kind": "instituto"
+    },
+    {
+      "id": "utaustin",
+      "name": "University of Texas at Austin",
+      "short": "UT Austin",
+      "country": "US",
+      "lat": 30.28614,
+      "lon": -97.73942,
+      "kind": "universidad"
+    },
+    {
+      "id": "ucsc",
+      "name": "University of California, Santa Cruz",
+      "short": "UC Santa Cruz",
+      "country": "US",
+      "lat": 36.99139,
+      "lon": -122.06083,
+      "kind": "universidad"
+    },
+    {
+      "id": "fisk",
+      "name": "Fisk University",
+      "short": "Fisk",
+      "country": "US",
+      "lat": 36.1688,
+      "lon": -86.8047,
+      "kind": "universidad"
+    },
+    {
+      "id": "usra",
+      "name": "Universities Space Research Association",
+      "short": "USRA",
+      "country": "US",
+      "lat": 29.58797,
+      "lon": -95.10092,
+      "kind": "universidad"
+    },
+    {
+      "id": "siu",
+      "name": "Southern Illinois University",
+      "short": "SIU",
+      "country": "US",
+      "lat": 37.71645,
+      "lon": -89.22033,
+      "kind": "universidad"
     }
   ],
   "people": [
@@ -22045,6 +22189,64 @@
       ]
     },
     {
+      "slug": "leonidas-aliaga-soplin",
+      "name": "Leonidas Aliaga Soplin",
+      "initials": "LA",
+      "source": "web",
+      "url": "https://orcid.org/0000-0002-8252-8778",
+      "orcid": "0000-0002-8252-8778",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "wm",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2009,
+          "end": 2016
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "uta",
+          "name": "University of Texas at Arlington",
+          "role": "Investigador asociado, departamento de física",
+          "start": 2022,
+          "end": 2023
+        },
+        {
+          "place": "fermilab",
+          "name": "Fermilab",
+          "role": "Investigador asociado, división de computación científica",
+          "start": 2016,
+          "end": 2022
+        }
+      ],
+      "path": [
+        {
+          "place": "wm",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "fermilab",
+          "did": ["Investigador asociado, división de computación científica"]
+        },
+        {
+          "place": "uta",
+          "did": ["Investigador asociado, departamento de física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1233173"
+        }
+      ]
+    },
+    {
       "slug": "gonzalo-armando-allasi-apaza",
       "name": "Gonzalo Armando Allasi Apaza",
       "initials": "GA",
@@ -22182,6 +22384,99 @@
         {
           "kind": "inspire",
           "url": "https://inspirehep.net/authors/2719316"
+        }
+      ]
+    },
+    {
+      "slug": "roy-daniel-alva-navarro",
+      "name": "Roy Daniel Alva Navarro",
+      "initials": "RA",
+      "source": "web",
+      "url": "https://bv.fapesp.br/pt/pesquisador/171670/",
+      "orcid": "0000-0003-3912-1726",
+      "site": "BV FAPESP",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2003,
+          "end": 2008
+        },
+        {
+          "place": "ufabc",
+          "level": "Maestría",
+          "field": null,
+          "start": 2009,
+          "end": null
+        },
+        {
+          "place": "ufabc",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": 2015
+        }
+      ],
+      "works": [
+        {
+          "place": "ifms",
+          "role": "Profesor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ifms",
+          "name": "Instituto Federal de Mato Grosso do Sul",
+          "role": "Profesor",
+          "start": null,
+          "end": "now"
+        },
+        {
+          "place": "usp",
+          "name": "Universidade de São Paulo",
+          "role": "Investigador posdoctoral",
+          "start": null,
+          "end": null
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ifms",
+          "did": ["Profesor"]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador posdoctoral"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4469457Z8"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=cAdtOZkAAAAJ"
+        },
+        {
+          "kind": "wos",
+          "url": "https://www.webofscience.com/wos/author/rid/K-6719-2015"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1333351"
         }
       ]
     },
@@ -28671,6 +28966,109 @@
       ]
     },
     {
+      "slug": "jose-alfredo-bellido-caceres",
+      "name": "Jose Alfredo Bellido Caceres",
+      "initials": "JB",
+      "source": "web",
+      "url": "https://www.adelaide.edu.au/directory/jose.bellidocaceres",
+      "orcid": "0000-0002-0833-9194",
+      "site": "University of Adelaide",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 1991,
+          "end": 1995
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": null,
+          "start": 1996,
+          "end": 1998
+        },
+        {
+          "place": "adelaide",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1999,
+          "end": 2003
+        }
+      ],
+      "works": [
+        {
+          "place": "adelaide",
+          "role": "Investigador asociado sénior, física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "adelaide",
+          "name": "University of Adelaide",
+          "role": "Investigador asociado sénior, física",
+          "start": 2008,
+          "end": "now"
+        },
+        {
+          "place": "penn-state",
+          "name": "Pennsylvania State University",
+          "role": "Investigador posdoctoral, física",
+          "start": 2007,
+          "end": 2008
+        },
+        {
+          "place": "utah",
+          "name": "University of Utah",
+          "role": "Investigador posdoctoral, física",
+          "start": 2006,
+          "end": 2007
+        },
+        {
+          "place": "adelaide",
+          "name": "University of Adelaide",
+          "role": "Australian postdoctoral fellow, física",
+          "start": 2003,
+          "end": 2006
+        }
+      ],
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "adelaide",
+          "did": ["Doctorado", "Australian postdoctoral fellow, física"]
+        },
+        {
+          "place": "utah",
+          "did": ["Investigador posdoctoral, física"]
+        },
+        {
+          "place": "penn-state",
+          "did": ["Investigador posdoctoral, física"]
+        },
+        {
+          "place": "adelaide",
+          "did": ["Investigador asociado sénior, física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1016856"
+        }
+      ]
+    },
+    {
       "slug": "richard-bellido-quispe",
       "name": "Richard Bellido Quispe",
       "initials": "RB",
@@ -29991,6 +30389,95 @@
         {
           "kind": "inspire",
           "url": "https://inspirehep.net/authors/1065481"
+        }
+      ]
+    },
+    {
+      "slug": "maria-jose-bustamante-rosell",
+      "name": "Maria Jose Bustamante Rosell",
+      "initials": "MB",
+      "source": "web",
+      "url": "https://majoburo.github.io/cv.pdf",
+      "orcid": "0000-0003-0416-9818",
+      "site": "Sitio personal",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2008,
+          "end": 2012
+        },
+        {
+          "place": "utaustin",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2014,
+          "end": 2021
+        }
+      ],
+      "works": [
+        {
+          "place": "usra",
+          "role": "Científica"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "usra",
+          "name": "Universities Space Research Association",
+          "role": "Científica",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": "fisk",
+          "name": "Fisk University",
+          "role": "Emit postdoctoral fellow, fisk y vanderbilt",
+          "start": 2024,
+          "end": 2026
+        },
+        {
+          "place": "ucsc",
+          "name": "University of California, Santa Cruz",
+          "role": "Investigadora posdoctoral",
+          "start": 2021,
+          "end": 2024
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "utaustin",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "ucsc",
+          "did": ["Investigadora posdoctoral"]
+        },
+        {
+          "place": "fisk",
+          "did": ["Emit postdoctoral fellow, fisk y vanderbilt"]
+        },
+        {
+          "place": "usra",
+          "did": ["Científica"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://majoburo.github.io"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1246585"
         }
       ]
     },
@@ -33303,6 +33790,105 @@
       ]
     },
     {
+      "slug": "rodolfo-casana",
+      "name": "Rodolfo Casana",
+      "initials": "RC",
+      "source": "web",
+      "url": "http://lattes.cnpq.br/6508618435773438",
+      "orcid": "0000-0003-1461-3038",
+      "site": "Lattes",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 1986,
+          "end": 1992
+        },
+        {
+          "place": "cbpf",
+          "level": "Maestría",
+          "field": null,
+          "start": 1994,
+          "end": 1997
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1997,
+          "end": 2000
+        }
+      ],
+      "works": [
+        {
+          "place": "ufma",
+          "role": "Profesor, curso de física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ufma",
+          "name": "Universidade Federal do Maranhão",
+          "role": "Profesor, curso de física",
+          "start": 2008,
+          "end": "now"
+        },
+        {
+          "place": "ufma",
+          "name": "Universidade Federal do Maranhão",
+          "role": "Profesor visitante, departamento de física",
+          "start": 2007,
+          "end": 2008
+        },
+        {
+          "place": "unesp",
+          "name": "Universidade Estadual Paulista",
+          "role": "Investigador posdoctoral, instituto de física teórica",
+          "start": 2001,
+          "end": 2007
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Investigador posdoctoral, instituto de física teórica"]
+        },
+        {
+          "place": "ufma",
+          "did": [
+            "Profesor visitante, departamento de física",
+            "Profesor, curso de física"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=6kH2u5wAAAAJ"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a%20R.Casana.1&ui-citation-summary=true"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1056622"
+        }
+      ]
+    },
+    {
       "slug": "edgar-jesus-casapia-andrade",
       "name": "Edgar Jesus Casapia Andrade",
       "initials": "EC",
@@ -35575,7 +36161,7 @@
         {
           "place": null,
           "name": "Agp",
-          "role": "Ingeniero de r&d",
+          "role": "Ingeniero de R&D",
           "start": 2020,
           "end": 2023
         },
@@ -42868,6 +43454,53 @@
       ]
     },
     {
+      "slug": "eric-endress",
+      "name": "Eric Endress",
+      "initials": "EE",
+      "source": "web",
+      "url": "https://educast.pucp.edu.pe/speaker/1713/eric_endress",
+      "orcid": null,
+      "site": "Educast PUCP",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uam",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": 2013
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Investigador, sección física",
+          "start": 2014,
+          "end": 2020
+        }
+      ],
+      "path": [
+        {
+          "place": "uam",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Investigador, sección física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1408420"
+        }
+      ]
+    },
+    {
       "slug": "luis-alonso-enrique-moran",
       "name": "Luis Alonso Enrique Moran",
       "initials": "LE",
@@ -43789,7 +44422,7 @@
         },
         {
           "place": null,
-          "name": "H&v Soluciones Integrales En Ingenieria",
+          "name": "H&V Soluciones Integrales En Ingenieria",
           "role": "Supervisor de seguridad y salud ocupacional",
           "start": 2013,
           "end": 2014
@@ -45222,6 +45855,65 @@
         {
           "place": "unsa",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "diego-fiorentini",
+      "name": "Diego Fiorentini",
+      "initials": "DF",
+      "source": "web",
+      "url": "https://orcid.org/0000-0002-9610-8934",
+      "orcid": "0000-0002-9610-8934",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uerj",
+          "level": "Maestría",
+          "field": null,
+          "start": 2012,
+          "end": 2014
+        },
+        {
+          "place": "uerj",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2014,
+          "end": 2018
+        }
+      ],
+      "works": [
+        {
+          "place": "uff",
+          "role": "Investigador posdoctoral, instituto de física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "uff",
+          "name": "Universidade Federal Fluminense",
+          "role": "Investigador posdoctoral, instituto de física",
+          "start": 2018,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uerj",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "uff",
+          "did": ["Investigador posdoctoral, instituto de física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1376072"
         }
       ]
     },
@@ -50821,7 +51513,7 @@
         {
           "place": "agp",
           "name": "AGP Perú",
-          "role": "Consultor r&d",
+          "role": "Consultor R&D",
           "start": 2020,
           "end": 2020
         },
@@ -50847,7 +51539,7 @@
         },
         {
           "place": "agp",
-          "did": ["Consultor r&d"]
+          "did": ["Consultor R&D"]
         },
         {
           "place": "pucp",
@@ -62466,6 +63158,149 @@
       ]
     },
     {
+      "slug": "jorge-melendez",
+      "name": "Jorge Melendez",
+      "initials": "JM",
+      "source": "web",
+      "url": "http://www.astro.iag.usp.br/~jorge/cv_short2p_2019_01.pdf",
+      "orcid": null,
+      "site": "IAG-USP",
+      "updated": "01-01-2019",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": 1994
+        },
+        {
+          "place": "inpe",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 1997
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Doctorado en astronomía",
+          "start": null,
+          "end": 2001
+        }
+      ],
+      "works": [
+        {
+          "place": "usp",
+          "role": "Profesor permanente, departamento de astronomía"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "usp",
+          "name": "Universidade de São Paulo",
+          "role": "Profesor permanente, departamento de astronomía",
+          "start": 2010,
+          "end": "now"
+        },
+        {
+          "place": "uporto",
+          "name": "Universidade do Porto",
+          "role": "Investigador asociado",
+          "start": 2008,
+          "end": 2010
+        },
+        {
+          "place": "anu",
+          "name": "Australian National University",
+          "role": "Research fellow, rsaa",
+          "start": 2005,
+          "end": 2008
+        },
+        {
+          "place": "caltech",
+          "name": "California Institute of Technology",
+          "role": "Investigador posdoctoral, departamento de astronomía",
+          "start": 2003,
+          "end": 2005
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor visitante",
+          "start": 2002,
+          "end": 2003
+        },
+        {
+          "place": "usp",
+          "name": "Universidade de São Paulo",
+          "role": "Investigador visitante, departamento de astronomía",
+          "start": 2002,
+          "end": 2003
+        },
+        {
+          "place": "usp",
+          "name": "Universidade de São Paulo",
+          "role": "Investigador posdoctoral, departamento de astronomía",
+          "start": 2001,
+          "end": 2002
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "inpe",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "usp",
+          "did": [
+            "Doctorado",
+            "Investigador posdoctoral, departamento de astronomía"
+          ]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor visitante"]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador visitante, departamento de astronomía"]
+        },
+        {
+          "place": "caltech",
+          "did": ["Investigador posdoctoral, departamento de astronomía"]
+        },
+        {
+          "place": "anu",
+          "did": ["Research fellow, rsaa"]
+        },
+        {
+          "place": "uporto",
+          "did": ["Investigador asociado"]
+        },
+        {
+          "place": "usp",
+          "did": ["Profesor permanente, departamento de astronomía"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://www.astro.iag.usp.br/~jorge/"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1031718"
+        }
+      ]
+    },
+    {
       "slug": "patricia-carola-melero-sandoval",
       "name": "Patricia Carola Melero Sandoval",
       "initials": "PM",
@@ -70266,6 +71101,69 @@
         {
           "place": "unsa",
           "did": ["Doctorado", "Docente", "Director"]
+        }
+      ]
+    },
+    {
+      "slug": "jose-luis-palomino-gallo",
+      "name": "Jose Luis Palomino Gallo",
+      "initials": "JP",
+      "source": "web",
+      "url": "https://orcid.org/0000-0003-2250-611X",
+      "orcid": "0000-0003-2250-611X",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2008,
+          "end": 2012
+        }
+      ],
+      "works": [
+        {
+          "place": "iit",
+          "role": "Investigador posdoctoral, física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "iit",
+          "name": "Illinois Institute of Technology",
+          "role": "Investigador posdoctoral, física",
+          "start": 2018,
+          "end": "now"
+        },
+        {
+          "place": "stonybrook",
+          "name": "Stony Brook University",
+          "role": "Investigador posdoctoral, física",
+          "start": 2013,
+          "end": 2018
+        }
+      ],
+      "path": [
+        {
+          "place": "cbpf",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "stonybrook",
+          "did": ["Investigador posdoctoral, física"]
+        },
+        {
+          "place": "iit",
+          "did": ["Investigador posdoctoral, física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1037907"
         }
       ]
     },
@@ -79607,6 +80505,58 @@
       ]
     },
     {
+      "slug": "cristian-andres-rivera-medina",
+      "name": "Cristian Andres Rivera Medina",
+      "initials": "CR",
+      "source": "web",
+      "url": "https://orcid.org/0009-0002-1947-5770",
+      "orcid": "0009-0002-1947-5770",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Bachillerato en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ncu-tw",
+          "role": "Estudiante de doctorado en física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ncu-tw",
+          "name": "National Central University",
+          "role": "Estudiante de doctorado en física",
+          "start": 2023,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ncu-tw",
+          "did": ["Estudiante de doctorado en física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2767583"
+        }
+      ]
+    },
+    {
       "slug": "jorge-luis-rivera-navincopa",
       "name": "Jorge Luis Rivera Navincopa",
       "initials": "JR",
@@ -81199,6 +82149,80 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ]
+    },
+    {
+      "slug": "jairo-martin-rojas-huamani",
+      "name": "Jairo Martin Rojas Huamani",
+      "initials": "JR",
+      "source": "web",
+      "url": "http://jairomrojas.com",
+      "orcid": "0000-0001-5017-9983",
+      "site": "Sitio personal",
+      "updated": "02-11-2026",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "perimeter",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "uiuc",
+          "role": "Estudiante de doctorado en física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "uiuc",
+          "name": "Universidad de Illinois en Urbana-Champaign",
+          "role": "Estudiante de doctorado en física",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "perimeter",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uiuc",
+          "did": ["Estudiante de doctorado en física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1774804"
         }
       ]
     },
@@ -84762,7 +85786,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "B&f Consulting",
+          "name": "B&F Consulting",
           "role": "Asistente de oficina tecnica",
           "start": 2019,
           "end": 2024
@@ -85092,6 +86116,82 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "jorge-m-seminario",
+      "name": "Jorge M. Seminario",
+      "initials": "JS",
+      "source": "web",
+      "url": "https://engineering.tamu.edu/chemical/profiles/jseminario.html",
+      "orcid": null,
+      "site": "Texas A&M",
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": null,
+          "end": 1975
+        },
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": "Ingeniero",
+          "start": null,
+          "end": 1980
+        },
+        {
+          "place": "siu",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": null,
+          "end": 1984
+        },
+        {
+          "place": "siu",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": null,
+          "end": 1988
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Texas A&M University",
+          "role": "Profesor, ingeniería química (lanatter & herbert fox professor)",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "siu",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=4XwcnnsAAAAJ"
+        },
+        {
+          "kind": "web",
+          "url": "http://chenseminario.wpengine.com/index-1.html"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/989346"
         }
       ]
     },
@@ -91896,6 +92996,62 @@
       ]
     },
     {
+      "slug": "victor-branco-valera-baca",
+      "name": "Victor Branco Valera Baca",
+      "initials": "VV",
+      "source": "web",
+      "url": "https://nbia.nbi.ku.dk/members/nbia_victorvalera/",
+      "orcid": "0000-0002-0532-5766",
+      "site": "Niels Bohr Institute",
+      "updated": "02-11-2026",
+      "degree": "Bachillerato en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2014,
+          "end": 2019
+        }
+      ],
+      "works": [
+        {
+          "place": "ku-dk",
+          "role": "Estudiante de doctorado en física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ku-dk",
+          "name": "Universidad de Copenhague",
+          "role": "Estudiante de doctorado en física",
+          "start": 2020,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ku-dk",
+          "did": ["Estudiante de doctorado en física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://valerabaca.github.io/"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1871001"
+        }
+      ]
+    },
+    {
       "slug": "juan-enrique-valerin-reyes",
       "name": "Juan Enrique Valerin Reyes",
       "initials": "JV",
@@ -93102,6 +94258,58 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "juan-santiago-vega-martinez",
+      "name": "Juan Santiago Vega Martinez",
+      "initials": "JV",
+      "source": "web",
+      "url": "https://orcid.org/0000-0002-8576-6907",
+      "orcid": "0000-0002-8576-6907",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Licenciatura en ingeniería",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "utp",
+          "level": "Licenciatura",
+          "field": "Ingeniero electrónico",
+          "start": null,
+          "end": 2010
+        }
+      ],
+      "works": [
+        {
+          "place": "conida",
+          "role": "Asistente de investigación, diace"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
+          "role": "Asistente de investigación, diace",
+          "start": 2018,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "utp",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "conida",
+          "did": ["Asistente de investigación, diace"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1934666"
         }
       ]
     },
