@@ -11041,6 +11041,15 @@
       "kind": "universidad"
     },
     {
+      "id": "ku-leuven",
+      "name": "KU Leuven",
+      "short": "KU Leuven",
+      "country": "BE",
+      "lat": 50.87796,
+      "lon": 4.70029,
+      "kind": "instituto"
+    },
+    {
       "id": "ifsc-usp",
       "name": "Instituto de Física de São Carlos (USP)",
       "short": "IFSC-USP",
@@ -44219,6 +44228,124 @@
         {
           "place": "uc",
           "did": ["Docente investigador"]
+        }
+      ]
+    },
+    {
+      "slug": "bram-leo-willems",
+      "name": "Bram Leo Willems",
+      "initials": "BW",
+      "source": "ctivitae",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=1612",
+      "orcid": null,
+      "site": null,
+      "updated": "28-09-2026",
+      "degree": "Doctorado en física",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "ku-leuven",
+          "level": "Doctorado",
+          "field": "Phd sciences (physics)",
+          "start": 2004,
+          "end": 2009
+        }
+      ],
+      "works": [
+        {
+          "place": "upch",
+          "role": "Investigador y gestor"
+        },
+        {
+          "place": "cca",
+          "role": "Presidente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "upch",
+          "name": "Universidad Peruana Cayetano Heredia",
+          "role": "Investigador y gestor",
+          "start": 2022,
+          "end": "now"
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Presidente ejecutivo",
+          "start": 2021,
+          "end": 2022
+        },
+        {
+          "place": "cca",
+          "name": "Centro de Competencias del Agua",
+          "role": "Presidente",
+          "start": 2015,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor auxiliar",
+          "start": 2009,
+          "end": 2015
+        },
+        {
+          "place": "ku-leuven",
+          "name": "KU Leuven",
+          "role": "Investigador doctoral",
+          "start": 2004,
+          "end": 2008
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "ku-leuven",
+          "did": ["Doctorado", "Investigador doctoral"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor auxiliar"]
+        },
+        {
+          "place": "cca",
+          "did": ["Presidente"]
+        },
+        {
+          "place": "inaigem",
+          "did": ["Presidente ejecutivo"]
+        },
+        {
+          "place": "upch",
+          "did": ["Investigador y gestor"]
         }
       ]
     },
