@@ -23,8 +23,13 @@ partículas; dos palabras no bastan.
 | `projects`    | Título, código y año de convocatoria de cada proyecto registrado (UNMSM).                         |
 | `research`    | `count`: trabajos desde `works_from` de sus integrantes con OpenAlex; `works`: los más recientes. |
 
-El código de un proyecto de la UNMSM empieza por la letra del programa y los dos
-dígitos del año de la convocatoria.
+El código de un proyecto de la UNMSM empieza por la letra del área (A salud, B
+ciencias básicas, C ingenierías, D empresariales, E humanidades y ciencias
+sociales), sigue con los dos dígitos del año de la convocatoria y los dos de la
+facultad (13 es Ciencias Físicas), y termina con un sufijo que indica el
+programa. `programme` guarda la sigla de ese programa y `programmes`, en la raíz
+del archivo, su nombre. Un código sin sufijo no tiene `programme`: puede ser
+PCONFIGI o un proyecto sin financiamiento.
 
 No se guardan correos, teléfonos ni oficinas: solo datos profesionales públicos.
 
