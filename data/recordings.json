@@ -79,6 +79,17 @@
       "last": "2023"
     },
     {
+      "id": "tps",
+      "name": "Peruvian Theoretical Physics Seminars",
+      "organiser": "Físicos teóricos peruanos de la UNMSM, la UNT, la PUCP y el extranjero",
+      "one": "charla",
+      "unit": "charlas",
+      "talks": 8,
+      "videos": 3,
+      "first": "2026",
+      "last": "2026"
+    },
+    {
       "id": "consejo",
       "name": "Consejo de Facultad",
       "organiser": "Facultad de Ciencias Físicas",
@@ -313,6 +324,23 @@
       "month": "2026-10"
     },
     {
+      "id": "tps-2026-10-13",
+      "series": "tps",
+      "title": "Relatividad general como una teoría de campos efectiva: una breve introducción",
+      "date": "2026-10-13",
+      "minutes": 95,
+      "url": "https://drive.google.com/file/d/1-3tI0MpGrlmHJVTkh61pJOrHaQ0dOrVt/preview",
+      "host": "Drive",
+      "page": "https://sites.google.com/view/peruviantps2026/recordings",
+      "speakers": [
+        {
+          "name": "Eduardo Vinicius da Silva Ribeiro",
+          "affiliation": "Universidade Estadual de Campinas, Brasil"
+        }
+      ],
+      "month": "2026-10"
+    },
+    {
       "id": "yt-1lHkNgLl1Zw",
       "series": "lafmat",
       "date": "2026-10-10",
@@ -477,6 +505,22 @@
       "month": "2026-09"
     },
     {
+      "id": "tps-2026-09-02",
+      "series": "tps",
+      "title": "Análisis de la interacción de CDM y energía oscura en modelos ωCDM",
+      "date": "2026-09-02",
+      "month": "2026-09",
+      "minutes": null,
+      "url": "https://sites.google.com/view/peruviantps2026/seminars-2026-ii",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Nelson Mechán",
+          "affiliation": "Universidad Nacional de Trujillo"
+        }
+      ]
+    },
+    {
       "id": "yt-O7C156TmNgY",
       "series": "unt",
       "date": "2026-08-30",
@@ -553,6 +597,22 @@
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=993390060391893",
       "month": "2026-08"
+    },
+    {
+      "id": "tps-2026-08-18",
+      "series": "tps",
+      "title": "Interacción del sector oscuro en gravedad de Rastall generalizada",
+      "date": "2026-08-18",
+      "month": "2026-08",
+      "minutes": null,
+      "url": "https://sites.google.com/view/peruviantps2026/seminars-2026-ii",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Carlos Rodríguez-Benites",
+          "affiliation": "Universidad Nacional de Trujillo"
+        }
+      ]
     },
     {
       "id": "yt-M7hzkMYls2E",
@@ -819,6 +879,22 @@
       "month": "2026-06"
     },
     {
+      "id": "tps-2026-06-16",
+      "series": "tps",
+      "title": "Deformaciones integrables en teoría de cuerdas y AdS/CFT",
+      "date": "2026-06-16",
+      "month": "2026-06",
+      "minutes": null,
+      "url": "https://sites.google.com/view/peruviantps2026/seminars-2026-i",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Renato Sánchez",
+          "affiliation": "UTEC"
+        }
+      ]
+    },
+    {
       "id": "yt-TE3Z5ZYd-cY",
       "series": "lafmat",
       "date": "2026-06-14",
@@ -905,6 +981,22 @@
       "month": "2026-06"
     },
     {
+      "id": "tps-2026-06-02",
+      "series": "tps",
+      "title": "Compact stars in f(R,T,L_m) gravity",
+      "date": "2026-06-02",
+      "month": "2026-06",
+      "minutes": null,
+      "url": "https://sites.google.com/view/peruviantps2026/seminars-2026-i",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Juan Zárate",
+          "affiliation": "Centro Brasileiro de Pesquisas Físicas, Brasil"
+        }
+      ]
+    },
+    {
       "id": "yt-m9Fb5ux9Z_c",
       "series": "unt",
       "date": "2026-05-31",
@@ -945,6 +1037,23 @@
       "title": "Ciclos de Carnot, Otto y Stirling en un sistema de dos espines con acoplamiento asimétrico",
       "speakers": [],
       "month": "2026-05"
+    },
+    {
+      "id": "tps-2026-05-26",
+      "series": "tps",
+      "title": "Transiciones de fase cosmológicas como fábricas de materia oscura: producción de partículas y ondas gravitacionales",
+      "date": "2026-05-26",
+      "month": "2026-05",
+      "minutes": null,
+      "url": "https://sites.google.com/view/peruviantps2026/seminars-2026-i",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Martín Arteaga",
+          "affiliation": "PUCP y Universidad de Lima",
+          "profile": "/fisicos/martin-dionisio-arteaga-tupia/"
+        }
+      ]
     },
     {
       "id": "yt-G6wzROtqzyk",
@@ -989,7 +1098,8 @@
       "speakers": [
         {
           "name": "Alejandro Trujillo Quinde",
-          "affiliation": "Universidad Nacional Mayor de San Marcos, Perú"
+          "affiliation": "Universidad Nacional Mayor de San Marcos, Perú",
+          "profile": "/fisicos/alejandro-ladislao-trujillo-quinde/"
         }
       ],
       "month": "2026-05"
@@ -1039,6 +1149,23 @@
       "month": "2026-05"
     },
     {
+      "id": "tps-2026-05-05",
+      "series": "tps",
+      "title": "From cosmological puzzles to inflationary reconstruction: an e-fold approach in Rastall gravity",
+      "date": "2026-05-05",
+      "minutes": 92,
+      "url": "https://drive.google.com/file/d/1phIChMUWJ2K5scdfmfYGO2kLEl5BzGzn/preview",
+      "host": "Drive",
+      "page": "https://sites.google.com/view/peruviantps2026/recordings",
+      "speakers": [
+        {
+          "name": "Carlos Ríos",
+          "affiliation": "Universidad Católica del Norte, Chile"
+        }
+      ],
+      "month": "2026-05"
+    },
+    {
       "id": "yt-oSBB3mh4fdk",
       "series": "lafmat",
       "date": "2026-04-26",
@@ -1049,10 +1176,28 @@
       "speakers": [
         {
           "name": "Frank Moya Bonifacio",
-          "affiliation": "Universidad Nacional Mayor de San Marcos, Perú"
+          "affiliation": "Universidad Nacional Mayor de San Marcos, Perú",
+          "profile": "/fisicos/frank-silvester-moya-bonifacio/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1399436212200552&set=a.463310019146514",
+      "month": "2026-04"
+    },
+    {
+      "id": "tps-2026-04-21",
+      "series": "tps",
+      "title": "QED actions for (anti-)de Sitter in 2D",
+      "date": "2026-04-21",
+      "minutes": 85,
+      "url": "https://drive.google.com/file/d/1F41QwtqtYl5XwmWpYKLVnPUgdyEOgaZZ/preview",
+      "host": "Drive",
+      "page": "https://sites.google.com/view/peruviantps2026/recordings",
+      "speakers": [
+        {
+          "name": "Cristian Rivera",
+          "affiliation": "National Central University, Taiwán"
+        }
+      ],
       "month": "2026-04"
     },
     {
@@ -1717,7 +1862,8 @@
       "speakers": [
         {
           "name": "Daniel Reyes Lopez",
-          "affiliation": "Instituto Militar de Ingeniería (IME), Rio de Janeiro, Brasil"
+          "affiliation": "Instituto Militar de Ingeniería (IME), Rio de Janeiro, Brasil",
+          "profile": "/fisicos/daniel-lorenzo-reyes-lopez/"
         }
       ],
       "month": "2025-11"
@@ -2188,7 +2334,8 @@
       "speakers": [
         {
           "name": "José Alberto Castañeda",
-          "affiliation": "Facultad de Ciencias Físicas, Universidad Nacional Mayor de San Marcos, Perú"
+          "affiliation": "Facultad de Ciencias Físicas, Universidad Nacional Mayor de San Marcos, Perú",
+          "profile": "/fisicos/jose-alberto-castaneda-via/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1169797038497805&set=a.463310019146514",
@@ -2368,7 +2515,8 @@
       "speakers": [
         {
           "name": "Alejandro Trujillo Quinde",
-          "affiliation": "Universidad Nacional Mayor de San Marcos, Perú"
+          "affiliation": "Universidad Nacional Mayor de San Marcos, Perú",
+          "profile": "/fisicos/alejandro-ladislao-trujillo-quinde/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1132238148920361&set=a.463310019146514",
@@ -4185,7 +4333,8 @@
       "speakers": [
         {
           "name": "Eduardo Villarreyes Peña",
-          "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú"
+          "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú",
+          "profile": "/fisicos/eduardo-gonzalo-villarreyes-pena/"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=757029226441257&set=a.463310019146514",
@@ -4236,7 +4385,7 @@
         {
           "name": "Robert Guzman",
           "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú",
-          "profile": "/professors/robert-mikhail-guzman-arellano/"
+          "profile": "/fisicos/robert-mikhail-guzman-arellano/"
         }
       ]
     },
@@ -5610,7 +5759,8 @@
           "profile": "/fisicos/enrique-john-arias-chinga/"
         },
         {
-          "name": "Julio Balbin Arias"
+          "name": "Julio Balbin Arias",
+          "profile": "/fisicos/julio-jose-balbin-arias/"
         },
         {
           "name": "Franz Machado"
@@ -6502,7 +6652,8 @@
       "title": "Análisis e Interpretación de la Ecuación de Lindblad y Decoherencia",
       "speakers": [
         {
-          "name": "Eduardo Sotelo"
+          "name": "Eduardo Sotelo",
+          "profile": "/fisicos/eduardo-franco-sotelo-bazan/"
         }
       ],
       "month": "2020-01"
@@ -6879,7 +7030,8 @@
       "speakers": [
         {
           "name": "Susana Petrick",
-          "affiliation": "Universidad Nacional de Ingeniería"
+          "affiliation": "Universidad Nacional de Ingeniería",
+          "profile": "/fisicos/susana-margarita-petrick-casagrande/"
         }
       ],
       "summary": "Cuando se hace referencia a los usos pacíficos de la energía nuclear pensamos inmediatamente en aplicaciones médicas, o en la generación de energía eléctrica utilizando el calor de la fisión nuclear para mover los generadores eléctricos. La Organización de las Naciones Unidas enunció en el 2015 Objetivos de Desarrollo Sostenible (ODS) que resumen las necesidades más apremiantes de la humanidad. El segundo ODS se enuncia como “cero hambre”, tema fundamental en un mundo en el que 1 de 10 personas sufre de hambre y desnutrición. Existen muchas formas en las que la tecnología nuclear puede contribuir a evitar que millones de personas sufran o mueran de hambre. Entre ellas está la mejora de la producción agrícola mundial, del uso de los recursos de suelo y agua, y de la preservación de los alimentos. Éstas apuntan a revertir el escenario en el que globalmente un tercio de los alimentos producidos se pierde, cifra que es mucho mayor en el Perú.",
@@ -7000,7 +7152,8 @@
       "speakers": [
         {
           "name": "Isabel Bernal",
-          "affiliation": "Instituto Geofísico del Perú"
+          "affiliation": "Instituto Geofísico del Perú",
+          "profile": "/fisicos/isabel-bernal-esquia/"
         }
       ],
       "summary": "El nivel de sacudimiento del suelo percibido en la superficie debido a la ocurrencia de un sismo depende principalmente de la proximidad a la fuente del sismo y de las características físicas del suelo por donde se propagan las ondas sísmicas. Los estudios sísmicos y geofísicos permiten determinar propiedades del suelo: su espectro de respuesta, valores de la frecuencia predominante, periodo dominante y velocidad de las ondas de corte. También permiten identificar la presencia de medios saturados y el nivel freático. Toda esta información ayuda a determinar las características físicas y el comportamiento dinámico del suelo ante la ocurrencia de sismos. Las construcciones deben adecuarse a las condiciones físicas de cada tipo de suelo. Instituciones científicas como el Instituto Geofísico del Perú (IGP) ponen a disposición de la población su experiencia y conocimiento para el estudio de suelos, contribuyendo a la gestión de riesgo de desastres, siguiendo el lema del IGP:",
@@ -7551,7 +7704,8 @@
       "speakers": [
         {
           "name": "César Castromonte",
-          "affiliation": "Universidad Nacional de Ingeniería"
+          "affiliation": "Universidad Nacional de Ingeniería",
+          "profile": "/fisicos/cesar-manuel-castromonte-flores/"
         }
       ],
       "summary": "La muongrafía, o tomografía de muones, es una técnica no destructiva que permite visualizar el interior de objetos y estructuras de gran tamaño. La técnica usa el flujo natural de muones de alta energía, producidos en la interacción de rayos cósmicos con la atmósfera. Los muones son absorbidos parcialmente al atravesar el objeto: entre más material atraviesan, más de ellos son absorbidos. El presente proyecto propone el diseño y construcción de una cámara prototipo para la medición del flujo direccional de muones. El objetivo primario de la cámara es obtener perfiles de distribución de densidad --- imágenes radiográficas --- de objetos geofísicos, como montañas, volcanes, etc. Conociendo la potencialidad de la tecnología desarrollada, evaluaremos otras posibles aplicaciones para desarrollos nucleares y/o de salvaguarda. El estudio pretende combinar trabajos experimentales, simulaciones y cálculos analíticos para obtener un diseño de cámara que mejore la relación señal/ruido respecto a las cámaras existentes.",
@@ -7891,7 +8045,8 @@
       "speakers": [
         {
           "name": "Kobi Mosquera",
-          "affiliation": "Instituto Geofísico del Perú"
+          "affiliation": "Instituto Geofísico del Perú",
+          "profile": "/fisicos/kobi-alberto-mosquera-vasquez/"
         }
       ],
       "summary": "El movimiento complejo del océano puede interpretarse como la suma de muchas oscilaciones de distintas escalas espaciales y temporales. Una de estas oscilaciones, que tiene una longitud de onda larga y una frecuencia baja, es la onda Kelvin oceánica ecuatorial. Esta última, por su naturaleza, se desplaza siempre hacia el este en la franja ecuatorial, y además, en el océano Pacífico, está relacionada a los eventos El Niño y La Niña. Su presencia puede producir cambios en el nivel del mar, profundidad de la termoclina, las corrientes oceánicas y, principalmente, la temperatura del mar. Estos impactos no solo se dan en la franja ecuatorial sino también a lo largo de la costa americana, y es por este motivo que es de suma importancia estudiarla y monitorizarla. El objetivo de esta presentación es describir la física de las ondas Kelvin oceánicas ecuatoriales y cómo se puede modelar numéricamente. Se aprovechará la exposición para mostrar los productos que son útiles para monitorizar estas ondas en tiempo real.",
@@ -10452,7 +10607,8 @@
       "speakers": [
         {
           "name": "Abel Gutarra",
-          "affiliation": "Laboratorio de Materiales Nanoestructurados, Universidad Nacional de Ingeniería"
+          "affiliation": "Laboratorio de Materiales Nanoestructurados, Universidad Nacional de Ingeniería",
+          "profile": "/fisicos/abel-aurelio-gutarra-espinoza/"
         }
       ],
       "summary": "En esta charla se expondrán algunos resultados obtenidos por el Laboratorio de Materiales Nanoestructurados de la Universidad Nacional de Ingeniería, y por grupos asociados, en la fabricación y aplicaciones de nanomateriales para el aprovechamiento de la energía solar. En particular, nos enfocaremos en la fabricación de películas delgadas electrocrómicas para regular la transmitancia solar al interior de edificios, en el empleo de nanopartículas de dióxido de titanio como elementos de celdas solares fotoelectroquímicas y en el uso de arcillas naturales como materiales acumuladores de calor por cambio de fase. Finalmente, se propondrán posibles temas de colaboración con otros grupos de investigación.",
@@ -10528,7 +10684,8 @@
       "speakers": [
         {
           "name": "Ronald Woodman",
-          "affiliation": "Instituto Geofísico del Perú"
+          "affiliation": "Instituto Geofísico del Perú",
+          "profile": "/fisicos/ronald-francisco-woodman-pollitt/"
         }
       ],
       "summary": "La técnica de dispersión incoherente, usada por el radar del Radio Observatorio de Jicamarca del Instituto Geofísico del Perú, se basa en la estrecha relación que existe entre la dinámica de los ecos de radar recibidos desde la ionosfera y las fluctuaciones de la densidad de electrones en ésta. Ambos son procesos aleatorios y sus características estadísticas se pueden predecir matemáticamente con mucha precisión, así como también es posible inferir, en forma remota y en función de la altura y la hora del día, los valores de los parámetros de estado que caracterizan la ionosfera, tales como la densidad y temperatura de los electrones, la composición, densidad y temperatura de los iones, los campos eléctricos y vientos. En esta charla presentaremos, a grandes rasgos, la teoría detrás de la técnica y algunos ejemplos de aplicación de ésta.",
@@ -10857,7 +11014,8 @@
       "speakers": [
         {
           "name": "Alcides López",
-          "affiliation": "Instituto Peruano de Energía Nuclear"
+          "affiliation": "Instituto Peruano de Energía Nuclear",
+          "profile": "/fisicos/alcides-agustin-lopez-milla/"
         }
       ],
       "summary": "El Centro Nuclear Oscar Miroquesada de la Guerra (RACSO) cuenta con los reactores nucleares RP-0 y RP-10 donde se produce, mantiene y controla una reacción nuclear en cadena, de la cual se utiliza la radiación de neutrones en la producción de radioisótopos, análisis por activación neutrónica, y en la investigación y desarrollo en ciencias nucleares y de materiales. Algunas de las investigaciones desarrolladas incluyen la medición de Radón-222 en el ambiente, la elaboración de compuestos a base de residuos de madera capirona y polietileno, aplicaciones de procesamiento con radiación gamma, distribución de la producción de cerámicos en el campo de la arqueometría y radiografía neutrónica. En el área de los materiales que responden a un estímulo externo se investigan sensores de gas, fotocatalizadores, bactericidas, electrocrómicos, películas delgadas de Zn-Sn-O, nanopartículas de CuO, entre otros.",
@@ -11048,7 +11206,8 @@
       "speakers": [
         {
           "name": "Susana Petrick",
-          "affiliation": "Laboratorio de Datación, Universidad Nacional de Ingeniería"
+          "affiliation": "Laboratorio de Datación, Universidad Nacional de Ingeniería",
+          "profile": "/fisicos/susana-margarita-petrick-casagrande/"
         }
       ],
       "summary": "La aplicación de las herramientas de análisis y la caracterización de materiales nos dan una visión diferente de los objetos que son parte del patrimonio cultural. El conocimiento de los materiales y técnicas de fabricación de las obras nos permite, además de preservarlas mejor, reconocer el ingenio y rescatar al menos en parte los conocimientos de nuestros antecesores.",
@@ -11087,7 +11246,8 @@
       "speakers": [
         {
           "name": "Hernando Tavera",
-          "affiliation": "Dirección de Sismología, Instituto Geofísico del Perú"
+          "affiliation": "Dirección de Sismología, Instituto Geofísico del Perú",
+          "profile": "/fisicos/hernando-jhonny-tavera-huarache/"
         }
       ],
       "summary": "La génesis de los grandes terremotos ocurridos en el borde occidental de América del Sur viene siendo cada vez mejor entendida. Con base en la aplicación de nuevos métodos y tipos de datos, se han propuesto escenarios sísmicos para los futuros terremotos que podrían afectar al borde occidental del Perú, principalmente para las regiones centro y sur.",
