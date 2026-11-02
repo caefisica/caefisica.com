@@ -19376,6 +19376,141 @@
       "lat": null,
       "lon": null,
       "kind": "universidad"
+    },
+    {
+      "id": "acc-cuba",
+      "name": "Academia de Ciencias de Cuba",
+      "short": "ACC",
+      "country": "CU",
+      "lat": 23.13525,
+      "lon": -82.35965,
+      "kind": "instituto"
+    },
+    {
+      "id": "buap",
+      "name": "Benemérita Universidad Autónoma de Puebla",
+      "short": "BUAP",
+      "country": "MX",
+      "lat": 19.00074,
+      "lon": -98.20051,
+      "kind": "universidad"
+    },
+    {
+      "id": "karazin",
+      "name": "Universidad Nacional de Járkov",
+      "short": "U. de Járkov",
+      "country": "UA",
+      "lat": 50.00444,
+      "lon": 36.22833,
+      "kind": "universidad"
+    },
+    {
+      "id": "lady-brabourne",
+      "name": "Lady Brabourne College",
+      "short": "Lady Brabourne College",
+      "country": "IN",
+      "lat": 22.54549,
+      "lon": 88.36954,
+      "kind": "universidad"
+    },
+    {
+      "id": "michigan-state",
+      "name": "Michigan State University",
+      "short": "Michigan State",
+      "country": "US",
+      "lat": 42.70186,
+      "lon": -84.48216,
+      "kind": "universidad"
+    },
+    {
+      "id": "utd",
+      "name": "University of Texas at Dallas",
+      "short": "UT Dallas",
+      "country": "US",
+      "lat": 32.985,
+      "lon": -96.75,
+      "kind": "universidad"
+    },
+    {
+      "id": "camaguey",
+      "name": "Universidad de Camagüey",
+      "short": "U. de Camagüey",
+      "country": "CU",
+      "lat": 21.38877,
+      "lon": -77.8825,
+      "kind": "universidad"
+    },
+    {
+      "id": "uh",
+      "name": "Universidad de La Habana",
+      "short": "U. de La Habana",
+      "country": "CU",
+      "lat": 23.1343,
+      "lon": -82.38203,
+      "kind": "universidad"
+    },
+    {
+      "id": "unia-andalucia",
+      "name": "Universidad Internacional de Andalucía",
+      "short": "UNIA",
+      "country": "ES",
+      "lat": 37.39892,
+      "lon": -6.0088,
+      "kind": "universidad"
+    },
+    {
+      "id": "rudn",
+      "name": "Universidad Rusa de la Amistad de los Pueblos",
+      "short": "RUDN",
+      "country": "RU",
+      "lat": 55.65111,
+      "lon": 37.505,
+      "kind": "universidad"
+    },
+    {
+      "id": "uga",
+      "name": "Université Grenoble Alpes",
+      "short": "UGA",
+      "country": "FR",
+      "lat": 45.19306,
+      "lon": 5.76694,
+      "kind": "universidad"
+    },
+    {
+      "id": "uantwerpen",
+      "name": "Universiteit Antwerpen",
+      "short": "U. de Amberes",
+      "country": "BE",
+      "lat": 51.22278,
+      "lon": 4.41,
+      "kind": "universidad"
+    },
+    {
+      "id": "unsw",
+      "name": "University of New South Wales",
+      "short": "UNSW",
+      "country": "AU",
+      "lat": -33.91692,
+      "lon": 151.23251,
+      "kind": "universidad"
+    },
+    {
+      "id": "reading",
+      "name": "University of Reading",
+      "short": "U. de Reading",
+      "country": "GB",
+      "lat": 51.44194,
+      "lon": -0.94556,
+      "kind": "universidad"
+    },
+    {
+      "id": "rostock",
+      "name": "Universität Rostock",
+      "short": "U. de Rostock",
+      "country": "DE",
+      "lat": 54.08813,
+      "lon": 12.13337,
+      "kind": "universidad"
     }
   ],
   "people": [
@@ -19936,9 +20071,16 @@
           "end": 2014
         },
         {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2016
+        },
+        {
           "place": "ku-leuven",
           "level": "Maestría",
-          "field": "Msc.",
+          "field": "Maestría",
           "start": 2015,
           "end": 2017
         }
@@ -19953,6 +20095,10 @@
         {
           "place": "ku-leuven",
           "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
         }
       ]
     },
@@ -20416,6 +20562,66 @@
       ]
     },
     {
+      "slug": "pablo-aguilar-marin",
+      "name": "Pablo Aguilar Marin",
+      "initials": "PA",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0001-6096-4010",
+      "orcid": "0000-0001-6096-4010",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 1967,
+          "end": 1973
+        },
+        {
+          "place": "liu",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": 1983,
+          "end": 1986
+        },
+        {
+          "place": "liu",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 1988,
+          "end": 1991
+        }
+      ],
+      "works": [
+        {
+          "place": "unitru",
+          "role": "Lecturer-researcher"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unitru",
+          "name": "Universidad Nacional de Trujillo",
+          "role": "Lecturer-researcher",
+          "start": 1973,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unitru",
+          "did": ["Bachillerato", "Lecturer-researcher"]
+        },
+        {
+          "place": "liu",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
+    },
+    {
       "slug": "cesar-augusto-aguirre-cespedes",
       "name": "Cesar Augusto Aguirre Cespedes",
       "initials": "CA",
@@ -20615,6 +20821,13 @@
         },
         {
           "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2008
+        },
+        {
+          "place": "uni",
           "level": "Maestría",
           "field": "Maestro en ciencias, mencion en energia nuclear",
           "start": 2005,
@@ -20670,7 +20883,7 @@
         },
         {
           "place": "uni",
-          "did": ["Doctorado"]
+          "did": ["Licenciatura", "Doctorado"]
         }
       ]
     },
@@ -20770,11 +20983,16 @@
           "end": 2015
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "usp",
+          "role": "Postdoctoral research"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "University of Sao Paulo",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Postdoctoral research",
           "start": 2025,
           "end": "now"
@@ -20829,8 +21047,8 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "University of Sao Paulo",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Teaching assistant",
           "start": 2012,
           "end": 2013
@@ -20847,7 +21065,7 @@
         },
         {
           "place": "usp",
-          "did": ["Doctorado"]
+          "did": ["Doctorado", "Teaching assistant", "Postdoctoral research"]
         }
       ]
     },
@@ -20924,7 +21142,7 @@
       "orcid": "0000-0002-2473-2658",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5058422022",
       "area": "Física médica y radiaciones",
@@ -20937,6 +21155,20 @@
           "field": null,
           "start": 2012,
           "end": 2021
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2022
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2025
         }
       ],
       "works": [
@@ -20957,7 +21189,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato", "Colaborador"]
+          "did": ["Bachillerato", "Colaborador", "Licenciatura", "Maestría"]
         }
       ]
     },
@@ -21643,6 +21875,106 @@
       ]
     },
     {
+      "slug": "vannia-jaqueline-aliaga-nestares",
+      "name": "Vannia Jaqueline Aliaga Nestares",
+      "initials": "VA",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-4385-4546",
+      "orcid": "0000-0002-4385-4546",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 2008,
+          "end": 2012
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": 2015,
+          "end": 2017
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Directora",
+          "start": 2024,
+          "end": 2024
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Subdirectora de gestion de datos",
+          "start": 2022,
+          "end": 2024
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Especialista en investigacion meteorologica",
+          "start": 2018,
+          "end": 2022
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Pronosticadora del tiempo",
+          "start": 2018,
+          "end": 2018
+        },
+        {
+          "place": "unalm",
+          "name": "Universidad Nacional Agraria La Molina",
+          "role": "Jefe de practicas de meteorologia",
+          "start": 2017,
+          "end": 2017
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Pronosticadora del tiempo",
+          "start": 2011,
+          "end": 2015
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Pronosticadora del tiempo"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unalm",
+          "did": ["Jefe de practicas de meteorologia"]
+        },
+        {
+          "place": "senamhi",
+          "did": [
+            "Especialista en investigacion meteorologica",
+            "Pronosticadora del tiempo",
+            "Subdirectora de gestion de datos",
+            "Directora"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gonzalo-armando-allasi-apaza",
       "name": "Gonzalo Armando Allasi Apaza",
       "initials": "GA",
@@ -21746,7 +22078,7 @@
       "orcid": "0000-0001-8925-6042",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5093226832",
       "area": "Astronomía y astrofísica",
@@ -21759,6 +22091,13 @@
           "field": null,
           "start": 2019,
           "end": 2024
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -21766,7 +22105,7 @@
       "path": [
         {
           "place": "unitru",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -22896,7 +23235,7 @@
       "orcid": "0000-0001-5248-2919",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en geofísica",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5031503289",
       "area": "Tierra, clima y ambiente",
@@ -22912,10 +23251,17 @@
         },
         {
           "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2022
+        },
+        {
+          "place": "unmsm",
           "level": "Maestría",
-          "field": "Maestría en geofísica",
-          "start": 2021,
-          "end": 2023
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -22923,7 +23269,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato", "Maestría"]
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
         }
       ]
     },
@@ -23431,7 +23777,7 @@
       "orcid": "0000-0002-3587-1098",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -23440,6 +23786,13 @@
           "field": null,
           "start": 2016,
           "end": 2021
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2023
         }
       ],
       "works": [],
@@ -23447,7 +23800,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -24439,9 +24792,16 @@
         {
           "place": "pucp",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": 2004,
           "end": 2008
+        },
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2011
         },
         {
           "place": "pucp",
@@ -24483,7 +24843,7 @@
       "path": [
         {
           "place": "pucp",
-          "did": ["Bachillerato", "Maestría"]
+          "did": ["Bachillerato", "Maestría", "Licenciatura"]
         },
         {
           "place": "uw-madison",
@@ -26050,14 +26410,14 @@
         {
           "place": "ufac",
           "level": "Maestría",
-          "field": "Master",
+          "field": "Maestría",
           "start": 2012,
           "end": 2014
         },
         {
           "place": "unb",
           "level": "Doctorado",
-          "field": "Doctor",
+          "field": "Doctorado",
           "start": 2014,
           "end": 2018
         }
@@ -26437,7 +26797,7 @@
       "orcid": "0000-0002-9997-9348",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5116440176",
       "area": "Materia condensada y materiales",
@@ -26450,6 +26810,13 @@
           "field": null,
           "start": 2019,
           "end": 2023
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -26457,7 +26824,7 @@
       "path": [
         {
           "place": "unitru",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ],
       "linkedin": "https://www.linkedin.com/in/sergio-avila-concepci%C3%B3n"
@@ -27407,7 +27774,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 2008,
           "end": 2014
         },
@@ -27687,7 +28054,7 @@
       "orcid": "0009-0001-3285-513X",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -27696,6 +28063,13 @@
           "field": null,
           "start": 2001,
           "end": 2009
+        },
+        {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -27711,7 +28085,7 @@
       "path": [
         {
           "place": "unac",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -28047,7 +28421,7 @@
       "orcid": "0000-0001-7585-5888",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en geofísica",
+      "degree": "Licenciatura en geofísica",
       "track": "Geofísica",
       "studied": [
         {
@@ -28056,6 +28430,13 @@
           "field": "Bachillerato en geofísica",
           "start": 2001,
           "end": 2008
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": "Ingeniero geofísico",
+          "start": null,
+          "end": 2016
         }
       ],
       "works": [
@@ -28108,8 +28489,15 @@
         },
         {
           "place": "igp",
+          "did": ["Asistente de investigacion"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "igp",
           "did": [
-            "Asistente de investigacion",
             "Analista de investigacion",
             "Prestacion de servicios-servicio especializado de apoyo en la investigacion cientifica"
           ]
@@ -28668,14 +29056,14 @@
         {
           "place": "usp",
           "level": "Maestría",
-          "field": "Master",
+          "field": "Maestría",
           "start": 2011,
           "end": 2013
         },
         {
           "place": "usp",
           "level": "Doctorado",
-          "field": "Doctor",
+          "field": "Doctorado",
           "start": 2014,
           "end": 2018
         }
@@ -29161,6 +29549,63 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "miguel-reinaldo-bonnett-del-alamo",
+      "name": "Miguel Reinaldo Bonnett del Alamo",
+      "initials": "MB",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-1011-8411",
+      "orcid": "0000-0002-1011-8411",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Bachillerato",
+          "field": "Bachiller en fisico matematicas",
+          "start": 1989,
+          "end": 1995
+        },
+        {
+          "place": "uprm",
+          "level": "Maestría",
+          "field": null,
+          "start": 2006,
+          "end": 2008
+        }
+      ],
+      "works": [
+        {
+          "place": "unsaac",
+          "role": "Auxiliar a tiempo completo"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unsaac",
+          "name": "Universidad Nacional de San Antonio Abad del Cusco",
+          "role": "Auxiliar a tiempo completo",
+          "start": 2025,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uprm",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unsaac",
+          "did": ["Auxiliar a tiempo completo"]
         }
       ]
     },
@@ -31038,6 +31483,13 @@
         },
         {
           "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2015
+        },
+        {
+          "place": "unmsm",
           "level": "Maestría",
           "field": null,
           "start": 2014,
@@ -31069,7 +31521,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato", "Maestría", "Adherente"]
+          "did": ["Bachillerato", "Maestría", "Licenciatura", "Adherente"]
         }
       ]
     },
@@ -31230,7 +31682,7 @@
       "orcid": "0009-0003-3939-1221",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -31239,6 +31691,13 @@
           "field": null,
           "start": null,
           "end": 2012
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2018
         }
       ],
       "works": [],
@@ -31268,7 +31727,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ],
       "linkedin": "https://www.linkedin.com/in/daniel-c-2b329012a"
@@ -32146,7 +32605,7 @@
       "orcid": "0000-0001-6274-6789",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5133353025",
       "area": "Física médica y radiaciones",
@@ -32161,11 +32620,18 @@
           "end": 2007
         },
         {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2012
+        },
+        {
           "place": "uni",
           "level": "Maestría",
-          "field": "Maestro",
-          "start": 2015,
-          "end": 2018
+          "field": null,
+          "start": null,
+          "end": 2017
         }
       ],
       "works": [
@@ -32218,6 +32684,10 @@
           "did": ["Fisico medico"]
         },
         {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
+        },
+        {
           "place": "uni",
           "did": ["Maestría"]
         },
@@ -32236,7 +32706,7 @@
       "orcid": "0009-0007-9828-8733",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5120689987",
       "area": null,
@@ -32249,6 +32719,13 @@
           "field": null,
           "start": null,
           "end": 2022
+        },
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2025
         }
       ],
       "works": [],
@@ -32256,7 +32733,7 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -32813,7 +33290,7 @@
       "orcid": "0009-0008-4759-5685",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -32821,6 +33298,13 @@
           "level": "Bachillerato",
           "field": null,
           "start": 2020,
+          "end": 2025
+        },
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
           "end": 2025
         }
       ],
@@ -32842,7 +33326,7 @@
       "path": [
         {
           "place": "pucp",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -33504,7 +33988,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -33631,7 +34115,7 @@
         {
           "place": "unalm",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -33838,7 +34322,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -34213,7 +34697,7 @@
       "orcid": "0000-0002-2853-3672",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -34222,6 +34706,13 @@
           "field": null,
           "start": 2014,
           "end": 2018
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2022
         }
       ],
       "works": [],
@@ -34229,7 +34720,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -34277,7 +34768,7 @@
         {
           "place": "pucp",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -35284,7 +35775,7 @@
         {
           "place": "osu",
           "level": "Doctorado",
-          "field": "Phd",
+          "field": "Doctorado",
           "start": 2000,
           "end": 2005
         }
@@ -35505,11 +35996,16 @@
           "end": 1998
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "rostock",
+          "role": "Profesor, instituto de física"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "University of Rostock",
+          "place": "rostock",
+          "name": "Universität Rostock",
           "role": "Profesor, instituto de física",
           "start": 2023,
           "end": "now"
@@ -35544,6 +36040,10 @@
         {
           "place": "jicamarca",
           "did": ["Investigador posdoctoral", "Director"]
+        },
+        {
+          "place": "rostock",
+          "did": ["Profesor, instituto de física"]
         }
       ]
     },
@@ -35682,7 +36182,7 @@
         {
           "place": "pucp",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -37224,6 +37724,88 @@
       ]
     },
     {
+      "slug": "yves-coello",
+      "name": "Yves Coello",
+      "initials": "YC",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0001-6243-5403",
+      "orcid": "0000-0001-6243-5403",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": null,
+          "end": 2005
+        },
+        {
+          "place": "michigan-state",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 2005,
+          "end": 2010
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Full professor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Full professor",
+          "start": 2021,
+          "end": "now"
+        },
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Associate professor",
+          "start": 2015,
+          "end": "now"
+        },
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Assistant professor",
+          "start": 2013,
+          "end": 2015
+        },
+        {
+          "place": null,
+          "name": "University of California Berkeley",
+          "role": "Postdoctoral researcher",
+          "start": 2010,
+          "end": 2013
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "michigan-state",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": [
+            "Assistant professor",
+            "Associate professor",
+            "Full professor"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "jorge-martin-colan-napan",
       "name": "Jorge Martin Colan Napan",
       "initials": "JC",
@@ -38338,8 +38920,8 @@
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Servicio Nacional de Meteorologia de Hidrologia del Peru",
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
           "role": "Profesional en hidrologia",
           "start": 2010,
           "end": 2012
@@ -38359,10 +38941,15 @@
         },
         {
           "place": "imarpe",
-          "did": [
-            "Profesional en modelamiento numerico",
-            "Profesional en oceanografia"
-          ]
+          "did": ["Profesional en modelamiento numerico"]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Profesional en hidrologia"]
+        },
+        {
+          "place": "imarpe",
+          "did": ["Profesional en oceanografia"]
         },
         {
           "place": "unprg",
@@ -38611,7 +39198,7 @@
       "orcid": "0000-0003-4176-7497",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en geofísica",
+      "degree": "Licenciatura en geofísica",
       "track": "Geofísica",
       "openalex": "A5030937116",
       "area": "Tierra, clima y ambiente",
@@ -38624,6 +39211,13 @@
           "field": "Bachillerato en geofísica",
           "start": 2012,
           "end": 2016
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": "Ingeniero geofísico",
+          "start": null,
+          "end": 2019
         }
       ],
       "works": [
@@ -38659,6 +39253,10 @@
             "Practicante profesional",
             "Especialista en estudio y monitoreo de deformacion cortical de volcanes"
           ]
+        },
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
         }
       ]
     },
@@ -39718,14 +40316,14 @@
         {
           "place": "on",
           "level": "Maestría",
-          "field": "Master",
+          "field": "Maestría",
           "start": 2009,
           "end": 2011
         },
         {
           "place": "on",
           "level": "Doctorado",
-          "field": "Phd",
+          "field": "Doctorado",
           "start": 2011,
           "end": 2016
         }
@@ -39752,8 +40350,8 @@
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Reserach assistant",
           "start": 2008,
           "end": 2009
@@ -39763,6 +40361,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "conida",
+          "did": ["Reserach assistant"]
         },
         {
           "place": "on",
@@ -40912,7 +41514,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -41332,7 +41934,7 @@
         {
           "place": "unmsm",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 2012,
           "end": 2017
         },
@@ -41408,7 +42010,7 @@
         {
           "place": "uib",
           "level": "Maestría",
-          "field": "Master",
+          "field": "Maestría",
           "start": 2008,
           "end": 2010
         }
@@ -42944,6 +43546,81 @@
       ]
     },
     {
+      "slug": "rene-estevan",
+      "name": "Rene Estevan",
+      "initials": "RE",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-0170-3616",
+      "orcid": "0000-0003-0170-3616",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "camaguey",
+          "level": "Licenciatura",
+          "field": "Licenciatura",
+          "start": 1996,
+          "end": 2003
+        },
+        {
+          "place": "insmet",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias meteorologicas",
+          "start": 2006,
+          "end": 2010
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Investigador"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador",
+          "start": 2017,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Centro Meteorologico Provincial de Camaguey",
+          "role": "Investigador agregado",
+          "start": 1989,
+          "end": 2017
+        },
+        {
+          "place": "uc",
+          "name": "Universidad Continental",
+          "role": "Post-doctorante",
+          "start": 2015,
+          "end": 2016
+        }
+      ],
+      "path": [
+        {
+          "place": "camaguey",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "insmet",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "uc",
+          "did": ["Post-doctorante"]
+        },
+        {
+          "place": "igp",
+          "did": ["Investigador"]
+        }
+      ]
+    },
+    {
       "slug": "maria-del-carmen-esteves-ostolaza",
       "name": "Maria del Carmen Esteves Ostolaza",
       "initials": "ME",
@@ -43793,8 +44470,8 @@
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Research assistant",
           "start": 2010,
           "end": 2012
@@ -43804,6 +44481,10 @@
         {
           "place": "pucp",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "conida",
+          "did": ["Research assistant"]
         },
         {
           "place": "unh",
@@ -43991,6 +44672,61 @@
         {
           "place": "unsa",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "nishat-fiza",
+      "name": "Nishat Fiza",
+      "initials": "NF",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0001-8846-5344",
+      "orcid": "0000-0001-8846-5344",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "lady-brabourne",
+          "level": "Maestría",
+          "field": null,
+          "start": 2013,
+          "end": 2015
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Postdoc",
+          "start": 2026,
+          "end": 2028
+        },
+        {
+          "place": null,
+          "name": "Chung-ang University",
+          "role": "Postdoctoral researcher",
+          "start": 2025,
+          "end": 2025
+        },
+        {
+          "place": null,
+          "name": "Indian Institute of Science Education and Research Mohali",
+          "role": "Ph.d. student",
+          "start": 2016,
+          "end": 2023
+        }
+      ],
+      "path": [
+        {
+          "place": "lady-brabourne",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Postdoc"]
         }
       ]
     },
@@ -44194,6 +44930,13 @@
           "end": 2004
         },
         {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2015
+        },
+        {
           "place": "pucp",
           "level": "Maestría",
           "field": null,
@@ -44263,6 +45006,10 @@
         {
           "place": "igp",
           "did": ["Researcher"]
+        },
+        {
+          "place": "unac",
+          "did": ["Licenciatura"]
         },
         {
           "place": "unmsm",
@@ -44532,14 +45279,14 @@
         {
           "place": "ufrj",
           "level": "Maestría",
-          "field": "Master",
+          "field": "Maestría",
           "start": 2011,
           "end": 2012
         },
         {
           "place": "usp",
           "level": "Doctorado",
-          "field": "Doctor",
+          "field": "Doctorado",
           "start": 2013,
           "end": 2016
         }
@@ -45668,7 +46415,7 @@
         {
           "place": "unsa",
           "level": "Doctorado",
-          "field": "Doctor",
+          "field": "Doctorado",
           "start": 2002,
           "end": 2003
         }
@@ -45843,6 +46590,13 @@
           "end": 2021
         },
         {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2023
+        },
+        {
           "place": "pucp",
           "level": "Maestría",
           "field": null,
@@ -45873,9 +46627,16 @@
         {
           "place": "pucp",
           "did": [
-            "Asistente de investigacion en laboratorio de materiales y energias renovables (mater-pucp))",
-            "Maestría"
+            "Asistente de investigacion en laboratorio de materiales y energias renovables (mater-pucp))"
           ]
+        },
+        {
+          "place": "uni",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
         }
       ]
     },
@@ -46085,6 +46846,77 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "daniel-martin-gaslac-gallardo",
+      "name": "Daniel Martin Gaslac Gallardo",
+      "initials": "DG",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-4358-9305",
+      "orcid": "0000-0003-4358-9305",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null,
+          "start": 2014,
+          "end": 2016
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Coordinador de investigacion"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "utp",
+          "name": "Universidad Tecnológica del Perú",
+          "role": "Coordinador de investigacion",
+          "start": 2023,
+          "end": "now"
+        },
+        {
+          "place": "utp",
+          "name": "Universidad Tecnológica del Perú",
+          "role": "Profesor tiempo completo",
+          "start": 2022,
+          "end": 2023
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor",
+          "start": 2021,
+          "end": 2022
+        },
+        {
+          "place": null,
+          "name": "Sg Nortec S.r.l.",
+          "role": "Metrologo",
+          "start": 2013,
+          "end": 2014
+        }
+      ],
+      "path": [
+        {
+          "place": "unesp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor"]
+        },
+        {
+          "place": "utp",
+          "did": ["Profesor tiempo completo", "Coordinador de investigacion"]
         }
       ]
     },
@@ -47400,7 +48232,7 @@
         {
           "place": "uni",
           "level": "Maestría",
-          "field": "Magister",
+          "field": "Maestría",
           "start": 2000,
           "end": 2002
         }
@@ -49297,7 +50129,7 @@
         {
           "place": "pucp",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -50018,8 +50850,8 @@
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Research assistant",
           "start": 2012,
           "end": 2015
@@ -50036,6 +50868,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "conida",
+          "did": ["Research assistant"]
         },
         {
           "place": "mackenzie",
@@ -50348,6 +51184,13 @@
       "studied": [
         {
           "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 1997
+        },
+        {
+          "place": "uni",
           "level": "Maestría",
           "field": null,
           "start": 2017,
@@ -50372,7 +51215,7 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Maestría", "Investigador"]
+          "did": ["Licenciatura", "Maestría", "Investigador"]
         }
       ]
     },
@@ -50528,6 +51371,70 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "mariela-huaman-espinoza",
+      "name": "Mariela Huaman Espinoza",
+      "initials": "MH",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-3094-2755",
+      "orcid": "0000-0003-3094-2755",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2002,
+          "end": 2007
+        },
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null,
+          "start": 2011,
+          "end": 2013
+        },
+        {
+          "place": "unesp",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2013,
+          "end": 2017
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "utp",
+          "name": "Universidad Tecnológica del Perú",
+          "role": "Docente",
+          "start": 2019,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
         }
       ]
     },
@@ -51727,6 +52634,63 @@
       ]
     },
     {
+      "slug": "alexis-nicolas-ibanez-blancas",
+      "name": "Alexis Nicolas Ibanez Blancas",
+      "initials": "AI",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-5444-5975",
+      "orcid": "0000-0002-5444-5975",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Licenciatura",
+          "field": "Licenciatura",
+          "start": 1989,
+          "end": 1994
+        },
+        {
+          "place": "unia-andalucia",
+          "level": "Doctorado",
+          "field": "Phd technology environment",
+          "start": 2008,
+          "end": 2015
+        }
+      ],
+      "works": [
+        {
+          "place": "unalm",
+          "role": "Docente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unalm",
+          "name": "Universidad Nacional Agraria La Molina",
+          "role": "Docente",
+          "start": 2019,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unia-andalucia",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unalm",
+          "did": ["Docente"]
+        }
+      ]
+    },
+    {
       "slug": "aaron-ilizarbe",
       "name": "Aaron Ilizarbe",
       "initials": "AI",
@@ -51877,6 +52841,74 @@
       ]
     },
     {
+      "slug": "adolfo-inza",
+      "name": "Adolfo Inza",
+      "initials": "AI",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0001-5381-9042",
+      "orcid": "0000-0001-5381-9042",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": "Bach in electronic engeneering",
+          "start": 1987,
+          "end": 1992
+        },
+        {
+          "place": "grenoble-inp",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": 2008,
+          "end": 2009
+        },
+        {
+          "place": "uga",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 2010,
+          "end": 2013
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Research"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Research",
+          "start": 2013,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "grenoble-inp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uga",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": ["Research"]
+        }
+      ]
+    },
+    {
       "slug": "jose-kaname-ishitsuka-iba",
       "name": "Jose Kaname Ishitsuka Iba",
       "initials": "JI",
@@ -51891,7 +52923,7 @@
         {
           "place": "uvg",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": 1991,
           "end": 1995
         },
@@ -53122,7 +54154,7 @@
         {
           "place": "penn-state",
           "level": "Maestría",
-          "field": "Maestría en ciencias",
+          "field": "Maestría",
           "start": 2012,
           "end": 2015
         }
@@ -53801,11 +54833,16 @@
           "end": 2023
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "valencia",
+          "role": "Phd student"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universitat de Valencia",
+          "place": "valencia",
+          "name": "Universitat de València",
           "role": "Phd student",
           "start": 2023,
           "end": "now"
@@ -53819,6 +54856,10 @@
         {
           "place": "unam",
           "did": ["Maestría"]
+        },
+        {
+          "place": "valencia",
+          "did": ["Phd student"]
         }
       ]
     },
@@ -53860,7 +54901,7 @@
       "orcid": "0000-0001-9120-548X",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en geofísica",
+      "degree": "Licenciatura en geofísica",
       "track": "Geofísica",
       "openalex": "A5076401955",
       "area": "Tierra, clima y ambiente",
@@ -53873,6 +54914,13 @@
           "field": "Bachillerato en geofísica",
           "start": null,
           "end": 2013
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": "Ingeniero geofísico",
+          "start": null,
+          "end": 2018
         }
       ],
       "works": [
@@ -53912,6 +54960,10 @@
         {
           "place": "ingemmet",
           "did": ["Geofisico junior para monitoreo de volcanes"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
         },
         {
           "place": "igp",
@@ -54394,7 +55446,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -54965,6 +56017,52 @@
       ]
     },
     {
+      "slug": "rafael-nery-linan-abanto",
+      "name": "Rafael Nery Linan Abanto",
+      "initials": "RL",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-0879-7467",
+      "orcid": "0000-0003-0879-7467",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unam",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 2014,
+          "end": 2017
+        }
+      ],
+      "works": [
+        {
+          "place": "unjbg",
+          "role": "Director y profesor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unjbg",
+          "name": "Universidad Nacional Jorge Basadre Grohmann",
+          "role": "Director y profesor",
+          "start": 1993,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unjbg",
+          "did": ["Director y profesor"]
+        },
+        {
+          "place": "unam",
+          "did": ["Doctorado"]
+        }
+      ]
+    },
+    {
       "slug": "juan-antonio-lira-cacho",
       "name": "Juan Antonio Lira Cacho",
       "initials": "JL",
@@ -55094,7 +56192,7 @@
       "orcid": "0000-0002-3168-6565",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5128755399",
       "area": null,
@@ -55107,6 +56205,13 @@
           "field": null,
           "start": 2016,
           "end": 2023
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -55114,7 +56219,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -55127,7 +56232,7 @@
       "orcid": "0000-0002-7049-2018",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5032328996",
       "area": null,
@@ -55147,6 +56252,13 @@
           "field": null,
           "start": 2006,
           "end": 2012
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -55163,6 +56275,10 @@
         {
           "place": "unac",
           "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Maestría"]
         }
       ]
     },
@@ -56165,14 +57281,14 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
         {
           "place": "uni",
           "level": "Licenciatura",
-          "field": "Licenciado",
+          "field": "Licenciatura",
           "start": null,
           "end": null
         },
@@ -56675,6 +57791,13 @@
           "end": 2008
         },
         {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2013
+        },
+        {
           "place": "unesp",
           "level": "Maestría",
           "field": null,
@@ -56703,7 +57826,7 @@
         },
         {
           "place": "unac",
-          "did": ["Docente"]
+          "did": ["Licenciatura", "Docente"]
         }
       ]
     },
@@ -56965,7 +58088,7 @@
       "orcid": "0009-0005-1161-3288",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -56974,6 +58097,13 @@
           "field": null,
           "start": 2017,
           "end": 2023
+        },
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [
@@ -56994,7 +58124,7 @@
       "path": [
         {
           "place": "pucp",
-          "did": ["Bachillerato", "Teacher assistant"]
+          "did": ["Bachillerato", "Teacher assistant", "Licenciatura"]
         }
       ]
     },
@@ -57469,6 +58599,13 @@
         },
         {
           "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
+        },
+        {
+          "place": "uni",
           "level": "Maestría",
           "field": null,
           "start": 2024,
@@ -57507,7 +58644,7 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Bachillerato", "Maestría", "Investigacion"]
+          "did": ["Bachillerato", "Licenciatura", "Maestría", "Investigacion"]
         },
         {
           "place": "utp",
@@ -57705,7 +58842,7 @@
       "orcid": "0000-0002-8537-1390",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5052945926",
       "area": "Ingeniería y energía",
@@ -57724,6 +58861,13 @@
           "level": "Bachillerato",
           "field": null,
           "start": 2010,
+          "end": 2014
+        },
+        {
+          "place": "upr",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
           "end": 2014
         }
       ],
@@ -57745,6 +58889,10 @@
         {
           "place": "uprm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "upr",
+          "did": ["Maestría"]
         }
       ]
     },
@@ -57912,7 +59060,7 @@
         {
           "place": "unap",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 2011,
           "end": 2015
         },
@@ -58665,7 +59813,7 @@
       "orcid": "0000-0003-4704-8282",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5085442484",
       "area": "Física médica y radiaciones",
@@ -58689,9 +59837,9 @@
         {
           "place": "uni",
           "level": "Maestría",
-          "field": "Maestro en ciencias",
-          "start": 2004,
-          "end": 2009
+          "field": null,
+          "start": null,
+          "end": 2015
         }
       ],
       "works": [
@@ -58826,6 +59974,99 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        }
+      ]
+    },
+    {
+      "slug": "daniel-martinez-castro",
+      "name": "Daniel Martinez-castro",
+      "initials": "DM",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-5957-4637",
+      "orcid": "0000-0002-5957-4637",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uh",
+          "level": "Licenciatura",
+          "field": null,
+          "start": 1971,
+          "end": 1976
+        },
+        {
+          "place": "acc-cuba",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1991,
+          "end": 1996
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Associate researcher"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Associate researcher",
+          "start": 2023,
+          "end": "now"
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Vice-director of knowledge management and capacity building",
+          "start": 2020,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "Instituto de Meteorologia",
+          "role": "Senior researcher",
+          "start": 1981,
+          "end": 2020
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Senior researcher in the magnet-igp project",
+          "start": 2017,
+          "end": 2020
+        },
+        {
+          "place": null,
+          "name": "Instituto Superior Politecnico Jose Antonio Echeverria",
+          "role": "Instructor",
+          "start": 1980,
+          "end": 1981
+        }
+      ],
+      "path": [
+        {
+          "place": "uh",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "acc-cuba",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": ["Senior researcher in the magnet-igp project"]
+        },
+        {
+          "place": "inaigem",
+          "did": ["Vice-director of knowledge management and capacity building"]
+        },
+        {
+          "place": "igp",
+          "did": ["Associate researcher"]
         }
       ]
     },
@@ -59122,7 +60363,7 @@
         {
           "place": "hbni",
           "level": "Maestría",
-          "field": "Master of science",
+          "field": "Maestría",
           "start": null,
           "end": null
         },
@@ -59657,7 +60898,7 @@
         {
           "place": "unalm",
           "level": "Maestría",
-          "field": "Maestria",
+          "field": "Maestría",
           "start": 2016,
           "end": 2018
         }
@@ -60999,6 +62240,59 @@
       ]
     },
     {
+      "slug": "diego-milanes",
+      "name": "Diego Milanes",
+      "initials": "DM",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0001-7450-1121",
+      "orcid": "0000-0001-7450-1121",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "valencia",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2010,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utec",
+          "role": ""
+        }
+      ],
+      "jobs": [
+        {
+          "place": "utec",
+          "name": "Universidad de Ingeniería y Tecnología",
+          "role": "",
+          "start": 2024,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Universidad Nacional de Colombia",
+          "role": "",
+          "start": 2014,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "valencia",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "utec",
+          "did": []
+        }
+      ]
+    },
+    {
       "slug": "marco-antonio-milla-bravo",
       "name": "Marco Antonio Milla Bravo",
       "initials": "MM",
@@ -61020,7 +62314,7 @@
         {
           "place": "uiuc",
           "level": "Maestría",
-          "field": "Master of science",
+          "field": "Maestría",
           "start": 2004,
           "end": 2006
         },
@@ -61701,7 +62995,7 @@
       "orcid": "0000-0002-8049-9520",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5080175033",
       "area": "Tierra, clima y ambiente",
@@ -61714,6 +63008,13 @@
           "field": null,
           "start": 2005,
           "end": 2011
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -61734,6 +63035,10 @@
         {
           "place": "imarpe",
           "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
         }
       ]
     },
@@ -61992,7 +63297,7 @@
       "orcid": "0000-0002-3857-1373",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5000834787",
       "area": "Física médica y radiaciones",
@@ -62005,6 +63310,13 @@
           "field": null,
           "start": 2003,
           "end": 2008
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2018
         }
       ],
       "works": [],
@@ -62027,7 +63339,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -62210,6 +63522,52 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Profesor auxiliar"]
+        }
+      ]
+    },
+    {
+      "slug": "ivonne-montes",
+      "name": "Ivonne Montes",
+      "initials": "IM",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-4262-1804",
+      "orcid": "0000-0002-4262-1804",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "udec",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 2005,
+          "end": 2010
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Researcher"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Researcher",
+          "start": 2014,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "udec",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": ["Researcher"]
         }
       ]
     },
@@ -62535,6 +63893,47 @@
       ]
     },
     {
+      "slug": "eduardo-h-montoya-rossi",
+      "name": "Eduardo H Montoya Rossi",
+      "initials": "EM",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-3792-0228",
+      "orcid": "0000-0002-3792-0228",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "uantwerpen",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 2004,
+          "end": 2007
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Director de investigacion y desarrollo",
+          "start": 1987,
+          "end": 2017
+        }
+      ],
+      "path": [
+        {
+          "place": "ipen-pe",
+          "did": ["Director de investigacion y desarrollo"]
+        },
+        {
+          "place": "uantwerpen",
+          "did": ["Doctorado"]
+        }
+      ]
+    },
+    {
       "slug": "modesto-e-montoya-zavaleta",
       "name": "Modesto E. Montoya Zavaleta",
       "initials": "MM",
@@ -62781,7 +64180,7 @@
         {
           "place": "ucv",
           "level": "Maestría",
-          "field": "Maestria",
+          "field": "Maestría",
           "start": 2010,
           "end": 2012
         },
@@ -62865,7 +64264,7 @@
         {
           "place": "usp-chimbote",
           "level": "Maestría",
-          "field": "Maestria",
+          "field": "Maestría",
           "start": 2017,
           "end": 2019
         },
@@ -62920,7 +64319,7 @@
       "orcid": "0000-0002-6740-1293",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -62929,6 +64328,13 @@
           "field": null,
           "start": 2017,
           "end": 2023
+        },
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2026
         }
       ],
       "works": [],
@@ -62936,7 +64342,7 @@
       "path": [
         {
           "place": "pucp",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ],
       "linkedin": "https://www.linkedin.com/in/luis-fernando-mr"
@@ -65135,6 +66541,72 @@
       ]
     },
     {
+      "slug": "rene-negron-huaman",
+      "name": "Rene Negron Huaman",
+      "initials": "RN",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-3447-1498",
+      "orcid": "0000-0002-3447-1498",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 2005,
+          "end": 2009
+        },
+        {
+          "place": "usp",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": 2011,
+          "end": 2013
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 2013,
+          "end": 2018
+        }
+      ],
+      "works": [
+        {
+          "place": "ulima",
+          "role": "Encargado de los laboratorios de fisica e ingenieria electrica"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ulima",
+          "name": "Universidad de Lima",
+          "role": "Encargado de los laboratorios de fisica e ingenieria electrica",
+          "start": 2025,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ulima",
+          "did": [
+            "Encargado de los laboratorios de fisica e ingenieria electrica"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "noelia-erika-neyra-chama",
       "name": "Noelia Erika Neyra Chama",
       "initials": "NN",
@@ -65736,6 +67208,13 @@
           "end": 2022
         },
         {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
+        },
+        {
           "place": "pucp",
           "level": "Maestría",
           "field": null,
@@ -65768,6 +67247,10 @@
         {
           "place": "pucp",
           "did": ["Maestría"]
+        },
+        {
+          "place": "uni",
+          "did": ["Licenciatura"]
         }
       ]
     },
@@ -66005,6 +67488,84 @@
       ]
     },
     {
+      "slug": "guillermo-ontiveros-gonzalez",
+      "name": "Guillermo Ontiveros-gonzalez",
+      "initials": "GO",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0001-8286-6737",
+      "orcid": "0000-0001-8286-6737",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "buap",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 1998,
+          "end": 2003
+        },
+        {
+          "place": "unam",
+          "level": "Doctorado",
+          "field": "Phd. in earth sciences.",
+          "start": 2012,
+          "end": 2017
+        }
+      ],
+      "works": [
+        {
+          "place": "inaigem",
+          "role": ""
+        }
+      ],
+      "jobs": [
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "",
+          "start": null,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Instituto Politecnico Nacional Escuela Superior de Ingenieria y Arquitectura Zacatenco",
+          "role": "Professor of mathematics and physics.",
+          "start": 2010,
+          "end": 2012
+        },
+        {
+          "place": null,
+          "name": "Instituto Politecnico Nacional Unidad Zacatenco",
+          "role": "201PROFESSOR of higher mathematics and heat transfer.",
+          "start": 2010,
+          "end": 2012
+        },
+        {
+          "place": null,
+          "name": "Instituto Tecnologico y de Estudios Superiores de Monterrey",
+          "role": "Teaching integral calculus.",
+          "start": 2009,
+          "end": 2009
+        }
+      ],
+      "path": [
+        {
+          "place": "buap",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unam",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "inaigem",
+          "did": []
+        }
+      ]
+    },
+    {
       "slug": "carlos-jose-orbegoso-pandal",
       "name": "Carlos Jose Orbegoso Pandal",
       "initials": "CO",
@@ -66093,6 +67654,66 @@
           "did": ["Docente de fisica"]
         }
       ]
+    },
+    {
+      "slug": "bryam-orihuela-pinto",
+      "name": "Bryam Orihuela-pinto",
+      "initials": "BO",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-3873-9401",
+      "orcid": "0000-0003-3873-9401",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Licenciatura",
+          "field": "Licenciatura",
+          "start": 2010,
+          "end": 2015
+        },
+        {
+          "place": "reading",
+          "level": "Maestría",
+          "field": "Msc. atmosphere, oceans and climate",
+          "start": 2016,
+          "end": 2017
+        },
+        {
+          "place": "unsw",
+          "level": "Doctorado",
+          "field": "Phd. climate science",
+          "start": 2018,
+          "end": 2022
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Colorado State University",
+          "role": "Postdoctoral fellow",
+          "start": 2023,
+          "end": 2025
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "reading",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unsw",
+          "did": ["Doctorado"]
+        }
+      ],
+      "linkedin": "https://www.linkedin.com/in/bryam-orihuela-pinto"
     },
     {
       "slug": "gustavo-henry-orihuela-sandoval",
@@ -66211,7 +67832,7 @@
         {
           "place": "pucp",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -66499,6 +68120,154 @@
       ]
     },
     {
+      "slug": "luis-otiniano",
+      "name": "Luis Otiniano",
+      "initials": "LO",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-1453-5789",
+      "orcid": "0000-0003-1453-5789",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Bachillerato",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 1999,
+          "end": 2005
+        }
+      ],
+      "works": [
+        {
+          "place": "conida",
+          "role": "Researcher"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
+          "role": "Researcher",
+          "start": 2010,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "conida",
+          "did": ["Researcher"]
+        }
+      ]
+    },
+    {
+      "slug": "laura-paccini",
+      "name": "Laura Paccini",
+      "initials": "LP",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-0693-4141",
+      "orcid": "0000-0002-0693-4141",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 2010,
+          "end": 2015
+        },
+        {
+          "place": "upmc",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": 2016,
+          "end": 2017
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Pacific Northwest National Laboratory",
+          "role": "Postdoctoral researcher",
+          "start": 2024,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "University of Virginia",
+          "role": "Postdoctoral researcher",
+          "start": 2022,
+          "end": 2024
+        },
+        {
+          "place": null,
+          "name": "Max Planck Institute for Meteorology",
+          "role": "Postdoctoral research",
+          "start": 2021,
+          "end": 2022
+        },
+        {
+          "place": null,
+          "name": "Max Planck Institute for Meteorology",
+          "role": "Phd student",
+          "start": 2018,
+          "end": 2021
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Research assistant",
+          "start": 2017,
+          "end": 2018
+        },
+        {
+          "place": "upmc",
+          "name": "Universidad Pierre y Marie Curie",
+          "role": "Intern",
+          "start": 2017,
+          "end": 2017
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "",
+          "start": 2015,
+          "end": 2016
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "igp",
+          "did": []
+        },
+        {
+          "place": "upmc",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "igp",
+          "did": ["Research assistant"]
+        },
+        {
+          "place": "upmc",
+          "did": ["Intern"]
+        }
+      ]
+    },
+    {
       "slug": "javier-alejandro-pachas-clemente",
       "name": "Javier Alejandro Pachas Clemente",
       "initials": "JP",
@@ -66608,6 +68377,84 @@
         {
           "place": "uprm",
           "did": ["Teaching assistant", "Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "edgardo-pacheco",
+      "name": "Edgardo Pacheco",
+      "initials": "EP",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-2131-4872",
+      "orcid": "0000-0002-2131-4872",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "utd",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2004,
+          "end": 2009
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Investigador cientifico principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador cientifico principal",
+          "start": 2013,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Institute for Scientific Research, Boston College",
+          "role": "Postdoctoral research associate",
+          "start": 2011,
+          "end": 2013
+        },
+        {
+          "place": "usu",
+          "name": "Utah State University",
+          "role": "Postdoctoral fellowship",
+          "start": 2010,
+          "end": 2011
+        },
+        {
+          "place": "utd",
+          "name": "University of Texas at Dallas",
+          "role": "Research assistant",
+          "start": 2005,
+          "end": 2009
+        },
+        {
+          "place": "utd",
+          "name": "University of Texas at Dallas",
+          "role": "Teaching assistant",
+          "start": 2004,
+          "end": 2005
+        }
+      ],
+      "path": [
+        {
+          "place": "utd",
+          "did": ["Doctorado", "Teaching assistant", "Research assistant"]
+        },
+        {
+          "place": "usu",
+          "did": ["Postdoctoral fellowship"]
+        },
+        {
+          "place": "igp",
+          "did": ["Investigador cientifico principal"]
         }
       ]
     },
@@ -67817,6 +69664,63 @@
       "linkedin": "https://www.linkedin.com/in/carlos-pastrana-445aa566"
     },
     {
+      "slug": "galo-patino-camargo",
+      "name": "Galo Patino Camargo",
+      "initials": "GP",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-4626-1743",
+      "orcid": "0000-0003-4626-1743",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "valencia",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2013,
+          "end": 2016
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Docente",
+          "start": 2020,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "University lecturer",
+          "start": 2002,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["University lecturer"]
+        },
+        {
+          "place": "valencia",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        }
+      ]
+    },
+    {
       "slug": "manuel-gerardo-paucar-acosta",
       "name": "Manuel Gerardo Paucar Acosta",
       "initials": "MP",
@@ -68044,7 +69948,7 @@
         {
           "place": "unsa",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": 2014,
           "end": 2019
         },
@@ -68542,6 +70446,59 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor principal"]
+        }
+      ]
+    },
+    {
+      "slug": "orlando-pereyra-ravinez",
+      "name": "Orlando Pereyra Ravinez",
+      "initials": "OP",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-4143-8813",
+      "orcid": "0000-0002-4143-8813",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": 1975,
+          "end": 1982
+        },
+        {
+          "place": "unesp",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1994,
+          "end": 1998
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": "Principal professor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Principal professor",
+          "start": 1985,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Licenciatura", "Principal professor"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Doctorado"]
         }
       ]
     },
@@ -70255,8 +72212,8 @@
           "end": 2016
         },
         {
-          "place": null,
-          "name": "Servicio Nacional de Meteorologia de Hidrologia del Peru",
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
           "role": "Especialista en meteorologia",
           "start": 2012,
           "end": 2015
@@ -70273,6 +72230,10 @@
         {
           "place": "uni",
           "did": ["Bachillerato", "Docente"]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Especialista en meteorologia"]
         },
         {
           "place": "ub",
@@ -70714,6 +72675,13 @@
           "end": 2017
         },
         {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2019
+        },
+        {
           "place": "csuohio",
           "level": "Maestría",
           "field": null,
@@ -70733,7 +72701,7 @@
       "path": [
         {
           "place": "pucp",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         },
         {
           "place": "csuohio",
@@ -70761,7 +72729,7 @@
         {
           "place": "pucp",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -72417,6 +74385,96 @@
       ]
     },
     {
+      "slug": "nelson-quispe-gutierrez",
+      "name": "Nelson Quispe Gutierrez",
+      "initials": "NQ",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0001-7337-9208",
+      "orcid": "0000-0001-7337-9208",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Licenciatura",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 1992,
+          "end": 2000
+        },
+        {
+          "place": "unalm",
+          "level": "Licenciatura",
+          "field": "Licenciatura",
+          "start": null,
+          "end": 2006
+        }
+      ],
+      "works": [
+        {
+          "place": "unsaac",
+          "role": ""
+        },
+        {
+          "place": "unalm",
+          "role": ""
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unsaac",
+          "name": "Universidad Nacional de San Antonio Abad del Cusco",
+          "role": "",
+          "start": 2015,
+          "end": "now"
+        },
+        {
+          "place": "unalm",
+          "name": "Universidad Nacional Agraria La Molina",
+          "role": "",
+          "start": 2011,
+          "end": "now"
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Director forecast",
+          "start": 2000,
+          "end": 2021
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "",
+          "start": 2017,
+          "end": 2019
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Director forecast"]
+        },
+        {
+          "place": "unalm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unsaac",
+          "did": []
+        },
+        {
+          "place": "unmsm",
+          "did": []
+        }
+      ]
+    },
+    {
       "slug": "david-quispe-huaycho",
       "name": "David Quispe Huaycho",
       "initials": "DQ",
@@ -72892,7 +74950,7 @@
         {
           "place": "unica",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 1999,
           "end": 2004
         },
@@ -73084,8 +75142,8 @@
       "orcid": "0000-0002-9488-8615",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en geofísica",
-      "track": "Geofísica",
+      "degree": "Maestría en física",
+      "track": "Física",
       "openalex": "A5059302237",
       "area": "Tierra, clima y ambiente",
       "works_count": 7,
@@ -73094,9 +75152,9 @@
         {
           "place": "unmsm",
           "level": "Maestría",
-          "field": "Maestría en geofísica",
-          "start": 2007,
-          "end": 2009
+          "field": null,
+          "start": null,
+          "end": 2007
         }
       ],
       "works": [
@@ -73180,7 +75238,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 2007,
           "end": 2012
         },
@@ -74545,14 +76603,14 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 1993,
           "end": 1998
         },
         {
           "place": "uni",
           "level": "Licenciatura",
-          "field": "Licenciado",
+          "field": "Licenciatura",
           "start": 1999,
           "end": 2000
         },
@@ -74643,12 +76701,12 @@
       "slug": "felipe-americo-reyes-navarro",
       "name": "Felipe Americo Reyes Navarro",
       "initials": "FR",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=reyes+navarro%2C+felipe+americo",
-      "orcid": null,
-      "site": "RENATI",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-2485-4935",
+      "orcid": "0000-0003-2485-4935",
+      "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado en física",
       "track": "Física",
       "studied": [
         {
@@ -74657,14 +76715,49 @@
           "field": null,
           "start": null,
           "end": 2008
+        },
+        {
+          "place": "uerj",
+          "level": "Maestría",
+          "field": null,
+          "start": 1998,
+          "end": 2000
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
         }
       ],
-      "works": [],
-      "jobs": [],
-      "path": [
+      "works": [
         {
           "place": "unmsm",
-          "did": ["Licenciatura"]
+          "role": "Professor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Professor",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uerj",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Professor", "Licenciatura"]
         }
       ]
     },
@@ -75498,6 +77591,52 @@
       ]
     },
     {
+      "slug": "antonio-rivasplata-mendoza",
+      "name": "Antonio Rivasplata Mendoza",
+      "initials": "AR",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-4957-2013",
+      "orcid": "0000-0002-4957-2013",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "rudn",
+          "level": "Doctorado",
+          "field": "Phd in physics and mathematics",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unitru",
+          "role": "Profesor principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unitru",
+          "name": "Universidad Nacional de Trujillo",
+          "role": "Profesor principal",
+          "start": 1984,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "rudn",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Profesor principal"]
+        }
+      ]
+    },
+    {
       "slug": "atonio-isaias-rivasplata-mendoza",
       "name": "Atonio Isaias Rivasplata Mendoza",
       "initials": "AR",
@@ -75649,7 +77788,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -75735,6 +77874,59 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "pablo-rivera",
+      "name": "Pablo Rivera",
+      "initials": "PR",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-3609-3889",
+      "orcid": "0000-0003-3609-3889",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unicamp",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1994,
+          "end": 1998
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Docente",
+          "start": 2004,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Associate professor",
+          "start": 2002,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unicamp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Associate professor", "Docente"]
         }
       ]
     },
@@ -77242,6 +79434,70 @@
       "linkedin": "https://www.linkedin.com/in/michael97179"
     },
     {
+      "slug": "justo-rojas-tapia",
+      "name": "Justo Rojas Tapia",
+      "initials": "JR",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-9695-5746",
+      "orcid": "0000-0002-9695-5746",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "karazin",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": 1985
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Professor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Professor",
+          "start": 1997,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Docente",
+          "start": 1985,
+          "end": "now"
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Investigador",
+          "start": 2002,
+          "end": 2011
+        }
+      ],
+      "path": [
+        {
+          "place": "karazin",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente", "Professor"]
+        },
+        {
+          "place": "ipen-pe",
+          "did": ["Investigador"]
+        }
+      ]
+    },
+    {
       "slug": "enrique-luis-alfonso-rojas-villalba",
       "name": "Enrique Luis Alfonso Rojas Villalba",
       "initials": "ER",
@@ -77270,7 +79526,7 @@
         {
           "place": "cornell",
           "level": "Maestría",
-          "field": "Master of science",
+          "field": "Maestría",
           "start": 2014,
           "end": 2017
         },
@@ -77350,7 +79606,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -78155,6 +80411,13 @@
           "end": 2003
         },
         {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2021
+        },
+        {
           "place": "upch",
           "level": "Doctorado",
           "field": "Doctor in life sciences",
@@ -78188,7 +80451,7 @@
         },
         {
           "place": "uni",
-          "did": []
+          "did": ["Licenciatura"]
         }
       ]
     },
@@ -78236,7 +80499,7 @@
         {
           "place": "ufrj",
           "level": "Maestría",
-          "field": "Magister en ciencia",
+          "field": "Maestría",
           "start": null,
           "end": null
         },
@@ -78854,6 +81117,13 @@
           "end": 2022
         },
         {
+          "place": "unac",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
+        },
+        {
           "place": "uni",
           "level": "Maestría",
           "field": null,
@@ -78871,6 +81141,10 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        },
+        {
+          "place": "unac",
+          "did": ["Licenciatura"]
         }
       ]
     },
@@ -79325,7 +81599,7 @@
         {
           "place": "chalmers",
           "level": "Doctorado",
-          "field": "Phd",
+          "field": "Doctorado",
           "start": 1999,
           "end": 2001
         }
@@ -79660,6 +81934,52 @@
       ]
     },
     {
+      "slug": "odon-roman-sanchez-ccoyllo",
+      "name": "Odon Roman Sanchez Ccoyllo",
+      "initials": "OS",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-1202-8516",
+      "orcid": "0000-0002-1202-8516",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 1998,
+          "end": 2002
+        }
+      ],
+      "works": [
+        {
+          "place": "untels",
+          "role": "Professor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "untels",
+          "name": "Universidad Nacional Tecnológica de Lima Sur",
+          "role": "Professor",
+          "start": 2017,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "untels",
+          "did": ["Professor"]
+        }
+      ]
+    },
+    {
       "slug": "henry-elias-sanchez-cornejo",
       "name": "Henry Elias Sanchez Cornejo",
       "initials": "HS",
@@ -79842,7 +82162,7 @@
       "orcid": "0000-0002-4278-1103",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -79850,6 +82170,13 @@
           "level": "Bachillerato",
           "field": null,
           "start": 2018,
+          "end": 2023
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
           "end": 2023
         }
       ],
@@ -79888,6 +82215,7 @@
           "did": [
             "Bachillerato",
             "Practicante preprofesional",
+            "Licenciatura",
             "Practicante profesional"
           ]
         },
@@ -80188,7 +82516,7 @@
         {
           "place": "unmsm",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 2010,
           "end": 2015
         },
@@ -80826,7 +83154,7 @@
         {
           "place": "uas",
           "level": "Maestría",
-          "field": "Maestria",
+          "field": "Maestría",
           "start": 2022,
           "end": 2024
         }
@@ -80881,6 +83209,13 @@
           "field": null,
           "start": 1999,
           "end": 2003
+        },
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2011
         },
         {
           "place": "balseiro",
@@ -80943,6 +83278,10 @@
         {
           "place": "balseiro",
           "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Licenciatura"]
         },
         {
           "place": "unam",
@@ -81622,7 +83961,7 @@
       "orcid": "0000-0002-5432-6052",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5079909733",
       "area": "Tierra, clima y ambiente",
@@ -81635,6 +83974,13 @@
           "field": null,
           "start": 1969,
           "end": 1974
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2008
         }
       ],
       "works": [
@@ -81660,6 +84006,10 @@
         {
           "place": "unsch",
           "did": ["Profesor principal de fisica"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
         }
       ]
     },
@@ -82310,7 +84660,7 @@
       "orcid": "0000-0002-0643-2600",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -82319,6 +84669,13 @@
           "field": null,
           "start": 1987,
           "end": 2005
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2007
         }
       ],
       "works": [],
@@ -82341,7 +84698,7 @@
       "path": [
         {
           "place": "unsaac",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -83126,7 +85483,7 @@
         {
           "place": "mackenzie",
           "level": "Doctorado",
-          "field": "Phd",
+          "field": "Doctorado",
           "start": 2015,
           "end": 2019
         }
@@ -83252,6 +85609,63 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        }
+      ]
+    },
+    {
+      "slug": "edu-taipe",
+      "name": "Edu Taipe",
+      "initials": "ET",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-3546-3374",
+      "orcid": "0000-0003-3546-3374",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": "Licenciatura",
+          "start": 1998,
+          "end": 2002
+        },
+        {
+          "place": "univ-cote-azur",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": 2011,
+          "end": 2012
+        }
+      ],
+      "works": [
+        {
+          "place": "ingemmet",
+          "role": "Project manager"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ingemmet",
+          "name": "Instituto Geológico, Minero y Metalúrgico",
+          "role": "Project manager",
+          "start": 2010,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ingemmet",
+          "did": ["Project manager"]
+        },
+        {
+          "place": "univ-cote-azur",
+          "did": ["Maestría"]
         }
       ]
     },
@@ -84476,7 +86890,7 @@
         {
           "place": "cinvestav",
           "level": "Doctorado",
-          "field": "Doctor en ciencias",
+          "field": "Doctorado",
           "start": 2010,
           "end": 2014
         }
@@ -85407,7 +87821,7 @@
       "orcid": "0000-0002-6429-5827",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5103135217",
       "area": null,
@@ -85420,6 +87834,13 @@
           "field": null,
           "start": 2014,
           "end": 2020
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2023
         }
       ],
       "works": [],
@@ -85442,7 +87863,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -85786,6 +88207,69 @@
         {
           "place": "igp",
           "did": ["Agregada de investigación"]
+        }
+      ]
+    },
+    {
+      "slug": "grace-trasmonte",
+      "name": "Grace Trasmonte",
+      "initials": "GT",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-4927-0493",
+      "orcid": "0000-0003-4927-0493",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 1978,
+          "end": 1985
+        },
+        {
+          "place": "urp",
+          "level": "Maestría",
+          "field": "Maestra en ecologia y gestion ambiental",
+          "start": 1999,
+          "end": 2000
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Consultora",
+          "start": 2014,
+          "end": 2015
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigadora",
+          "start": 1988,
+          "end": 2014
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "igp",
+          "did": ["Investigadora"]
+        },
+        {
+          "place": "urp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "igp",
+          "did": ["Consultora"]
         }
       ]
     },
@@ -86527,6 +89011,81 @@
       ]
     },
     {
+      "slug": "juan-miguel-urco-cordero",
+      "name": "Juan Miguel Urco Cordero",
+      "initials": "JU",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-8894-3294",
+      "orcid": "0000-0002-8894-3294",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": 2001,
+          "end": 2005
+        },
+        {
+          "place": "rostock",
+          "level": "Doctorado",
+          "field": "Doctorado",
+          "start": 2016,
+          "end": 2020
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Professor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Professor",
+          "start": 2025,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Leibniz-institut Fur Atmospharenphysik",
+          "role": "",
+          "start": 2022,
+          "end": 2025
+        },
+        {
+          "place": "uiuc",
+          "name": "Universidad de Illinois en Urbana-Champaign",
+          "role": "",
+          "start": 2020,
+          "end": 2022
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "rostock",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "uiuc",
+          "did": []
+        },
+        {
+          "place": "pucp",
+          "did": ["Professor"]
+        }
+      ]
+    },
+    {
       "slug": "estefany-almendra-urday-escobar",
       "name": "Estefany Almendra Urday Escobar",
       "initials": "EU",
@@ -86574,7 +89133,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachelor",
+          "field": "Bachillerato",
           "start": 2011,
           "end": 2016
         },
@@ -86625,6 +89184,70 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "ausberto-wilson-urquiaga-vasquez",
+      "name": "Ausberto Wilson Urquiaga Vasquez",
+      "initials": "AU",
+      "source": "orcid",
+      "url": "https://orcid.org/0009-0002-0337-0624",
+      "orcid": "0009-0002-0337-0624",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en ingeniería",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unitru",
+          "level": "Maestría",
+          "field": "Maestria en ciencias - mencion en didactica de las ciencias experimentales",
+          "start": 2016,
+          "end": 2018
+        },
+        {
+          "place": "unitru",
+          "level": "Doctorado",
+          "field": "Doctorado en ciencias e ingenieria",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unasam",
+          "role": "Docente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unasam",
+          "name": "Universidad Nacional Santiago Antúnez de Mayolo",
+          "role": "Docente",
+          "start": 2003,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unitru",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unasam",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Maestría", "Doctorado"]
         }
       ]
     },
@@ -87167,7 +89790,7 @@
       "orcid": "0000-0001-5110-588X",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "studied": [
         {
@@ -87176,6 +89799,13 @@
           "field": null,
           "start": 2015,
           "end": 2020
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2021
         }
       ],
       "works": [],
@@ -87183,7 +89813,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -88479,16 +91109,23 @@
           "end": 2014
         },
         {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2014
+        },
+        {
           "place": "ufmg",
           "level": "Maestría",
-          "field": "Master",
+          "field": "Maestría",
           "start": 2011,
           "end": 2013
         },
         {
           "place": "ufmg",
           "level": "Doctorado",
-          "field": "Phd",
+          "field": "Doctorado",
           "start": 2013,
           "end": 2015
         }
@@ -88522,7 +91159,15 @@
         },
         {
           "place": "ufmg",
-          "did": ["Maestría", "Doctorado", "Postdoctoral", "Professor"]
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ufmg",
+          "did": ["Postdoctoral", "Professor"]
         }
       ]
     },
@@ -88564,7 +91209,7 @@
       "orcid": "0000-0002-2350-1487",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5093929777",
       "area": "Ingeniería y energía",
@@ -88577,6 +91222,13 @@
           "field": null,
           "start": 2022,
           "end": 2023
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -88584,7 +91236,7 @@
       "path": [
         {
           "place": "unsa",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         }
       ]
     },
@@ -88729,7 +91381,7 @@
         {
           "place": "unsa",
           "level": "Bachillerato",
-          "field": "Bachiller",
+          "field": "Bachillerato",
           "start": 1991,
           "end": 1999
         },
@@ -89829,8 +92481,8 @@
           "end": 2011
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Practicas pre-profesionales",
           "start": 2009,
           "end": 2010
@@ -89840,6 +92492,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "conida",
+          "did": ["Practicas pre-profesionales"]
         },
         {
           "place": "ceresis",
@@ -90157,7 +92813,7 @@
       "orcid": "0000-0002-5109-8082",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría en física",
       "track": "Física",
       "studied": [
         {
@@ -90166,6 +92822,13 @@
           "field": null,
           "start": 2005,
           "end": 2014
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -90174,6 +92837,10 @@
         {
           "place": "unac",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Maestría"]
         }
       ]
     },
@@ -90835,7 +93502,7 @@
       "orcid": "0000-0002-0985-1579",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Licenciatura en física",
       "track": "Física",
       "openalex": "A5029850047",
       "area": "Tierra, clima y ambiente",
@@ -90848,6 +93515,13 @@
           "field": null,
           "start": 2016,
           "end": 2023
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [
@@ -90868,7 +93542,7 @@
       "path": [
         {
           "place": "unsaac",
-          "did": ["Bachillerato", "Professor"]
+          "did": ["Bachillerato", "Licenciatura", "Professor"]
         }
       ]
     },
@@ -91013,7 +93687,7 @@
         {
           "place": "harvard",
           "level": "Maestría",
-          "field": "Maestria en ciencias",
+          "field": "Maestría",
           "start": 1955,
           "end": 1957
         },
@@ -91220,7 +93894,7 @@
       "orcid": "0000-0002-4786-0206",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5091385886",
       "area": "Óptica y física atómica",
@@ -91233,6 +93907,20 @@
           "field": null,
           "start": 2009,
           "end": 2015
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2018
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2024
         }
       ],
       "works": [],
@@ -91248,7 +93936,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
         }
       ]
     },
@@ -91305,6 +93993,13 @@
           "end": 2012
         },
         {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2013
+        },
+        {
           "place": "usp",
           "level": "Maestría",
           "field": null,
@@ -91339,7 +94034,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Licenciatura"]
         },
         {
           "place": "usp",
@@ -91377,6 +94072,110 @@
         {
           "place": "unmsm",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "christian-yarleque",
+      "name": "Christian Yarleque",
+      "initials": "CY",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0003-1798-6526",
+      "orcid": "0000-0003-1798-6526",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": "Master in applied mathematics",
+          "start": 2005,
+          "end": 2006
+        },
+        {
+          "place": "albany",
+          "level": "Doctorado",
+          "field": "Phd in atmospheric science",
+          "start": 2013,
+          "end": 2018
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor tiempo parcial"
+        }
+      ],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Caritaz de Huaraz",
+          "role": "Director of research",
+          "start": 2023,
+          "end": "now"
+        },
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor tiempo parcial",
+          "start": 2022,
+          "end": "now"
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Jefe de oficina",
+          "start": 2022,
+          "end": 2023
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Director",
+          "start": 2022,
+          "end": 2022
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Subdirector de informacion y analisis",
+          "start": 2019,
+          "end": 2022
+        },
+        {
+          "place": "albany",
+          "name": "University at Albany, SUNY",
+          "role": "Research assistant",
+          "start": 2013,
+          "end": 2018
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "albany",
+          "did": ["Doctorado", "Research assistant"]
+        },
+        {
+          "place": "inaigem",
+          "did": ["Subdirector de informacion y analisis"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor tiempo parcial"]
+        },
+        {
+          "place": "inaigem",
+          "did": ["Jefe de oficina"]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Director"]
         }
       ]
     },
@@ -92166,6 +94965,61 @@
       ]
     },
     {
+      "slug": "gabriel-damian-zapata",
+      "name": "Gabriel Damian Zapata",
+      "initials": "GZ",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-2419-8424",
+      "orcid": "0000-0002-2419-8424",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unmdp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": 2012,
+          "end": 2017
+        },
+        {
+          "place": "unmdp",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2017,
+          "end": 2023
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Postdoctoral researcher",
+          "start": 2024,
+          "end": 2026
+        },
+        {
+          "place": "unmdp",
+          "name": "Universidad Nacional de Mar del Plata",
+          "role": "Licenciado en fisica",
+          "start": 2017,
+          "end": 2022
+        }
+      ],
+      "path": [
+        {
+          "place": "unmdp",
+          "did": ["Licenciatura", "Doctorado", "Licenciado en fisica"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Postdoctoral researcher"]
+        }
+      ]
+    },
+    {
       "slug": "marilyn-ruth-zapata-requena",
       "name": "Marilyn Ruth Zapata Requena",
       "initials": "MZ",
@@ -92530,7 +95384,7 @@
         {
           "place": "uni",
           "level": "Bachillerato",
-          "field": "Bachiller en ciencias",
+          "field": "Bachillerato",
           "start": null,
           "end": null
         },
@@ -92646,7 +95500,7 @@
       "orcid": "0009-0008-9002-4669",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría en física",
       "track": "Física",
       "studied": [
         {
@@ -92655,6 +95509,13 @@
           "field": null,
           "start": 2018,
           "end": 2023
+        },
+        {
+          "place": "pucp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2026
         }
       ],
       "works": [
@@ -92675,7 +95536,7 @@
       "path": [
         {
           "place": "pucp",
-          "did": ["Bachillerato", "Research assistant"]
+          "did": ["Bachillerato", "Research assistant", "Maestría"]
         }
       ]
     },
@@ -92755,8 +95616,8 @@
       "orcid": "0000-0003-0033-2083",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en geofísica",
-      "track": "Geofísica",
+      "degree": "Maestría en física",
+      "track": "Física",
       "openalex": "A5024748089",
       "area": "Tierra, clima y ambiente",
       "works_count": 8,
@@ -92764,10 +95625,17 @@
       "studied": [
         {
           "place": "unmsm",
-          "level": "Maestría",
-          "field": "Maestría en geofísica",
-          "start": 2015,
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
           "end": 2016
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2020
         }
       ],
       "works": [],
@@ -92783,7 +95651,7 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Maestría"]
+          "did": ["Licenciatura", "Maestría"]
         }
       ]
     },
@@ -92908,6 +95776,70 @@
             "Asistente de investigación",
             "Miembro de grupo de investigación"
           ]
+        }
+      ]
+    },
+    {
+      "slug": "maria-isela-zevallos-herencia",
+      "name": "Maria Isela Zevallos Herencia",
+      "initials": "MZ",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-2694-5657",
+      "orcid": "0000-0002-2694-5657",
+      "site": null,
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "on",
+          "level": "Maestría",
+          "field": "Maestria en astronomia",
+          "start": 2005,
+          "end": 2007
+        },
+        {
+          "place": "on",
+          "level": "Doctorado",
+          "field": "Doctorado en astronomia",
+          "start": 2007,
+          "end": 2011
+        }
+      ],
+      "works": [
+        {
+          "place": "uni",
+          "role": ""
+        }
+      ],
+      "jobs": [
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "",
+          "start": 2014,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "on",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "uni",
+          "did": []
         }
       ]
     },

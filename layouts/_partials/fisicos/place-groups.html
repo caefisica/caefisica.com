@@ -15,7 +15,7 @@ Returns who studied or worked at one place of data/physicists.json: Pregrado, Po
 	{{- range .studied -}}
 		{{- if eq .place $place.id -}}
 			{{- $text := .level -}}
-			{{- with .field }}{{ $text = printf "%s (%s)" $text (lower .) }}{{ end -}}
+			{{- with .field }}{{ if ne . $text }}{{ $text = printf "%s (%s)" $text (lower .) }}{{ end }}{{ end -}}
 			{{- if in $undergrad .level }}{{ $u = $u | append $text }}{{ else }}{{ $g = $g | append $text }}{{ end -}}
 		{{- end -}}
 	{{- end -}}
