@@ -19198,6 +19198,51 @@
       "kind": "universidad"
     },
     {
+      "id": "montpellier",
+      "name": "Université de Montpellier",
+      "short": "U. Montpellier",
+      "country": "FR",
+      "lat": 43.6145,
+      "lon": 3.87206,
+      "kind": "universidad"
+    },
+    {
+      "id": "le-havre",
+      "name": "Université Le Havre Normandie",
+      "short": "U. Le Havre",
+      "country": "FR",
+      "lat": 49.49583,
+      "lon": 0.12944,
+      "kind": "universidad"
+    },
+    {
+      "id": "esiee",
+      "name": "ESIEE Paris",
+      "short": "ESIEE Paris",
+      "country": "FR",
+      "lat": 48.83799,
+      "lon": 2.58313,
+      "kind": "instituto"
+    },
+    {
+      "id": "uminho",
+      "name": "Universidade do Minho",
+      "short": "U. do Minho",
+      "country": "PT",
+      "lat": 41.45164,
+      "lon": -8.29179,
+      "kind": "universidad"
+    },
+    {
+      "id": "unir",
+      "name": "Universidad Internacional de La Rioja",
+      "short": "UNIR",
+      "country": "ES",
+      "lat": 42.46228,
+      "lon": -2.42414,
+      "kind": "universidad"
+    },
+    {
       "id": "tu-san-petersburgo",
       "name": "Universidad Técnica de San Petersburgo",
       "short": "U. Técnica de San Petersburgo",
@@ -24395,6 +24440,74 @@
       ]
     },
     {
+      "slug": "carla-lili-arias-salazar",
+      "name": "Carla Lili Arias Salazar",
+      "initials": "CA",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/carla-lili-arias-salazar-aab6a517b/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "unap",
+          "level": "Licenciatura",
+          "field": "Ingeniera geóloga",
+          "start": 2015,
+          "end": 2019
+        },
+        {
+          "place": "uminho",
+          "level": "Maestría",
+          "field": "Máster en geociencias",
+          "start": 2022,
+          "end": 2024
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Vulcanóloga"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Vulcanóloga",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": "ingemmet",
+          "name": "Instituto Geológico, Minero y Metalúrgico",
+          "role": "Ingeniera geóloga",
+          "start": 2019,
+          "end": 2022
+        }
+      ],
+      "path": [
+        {
+          "place": "unap",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ingemmet",
+          "did": ["Ingeniera geóloga"]
+        },
+        {
+          "place": "uminho",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "igp",
+          "did": ["Vulcanóloga"]
+        }
+      ]
+    },
+    {
       "slug": "karen-katherine-armas-llontop",
       "name": "Karen Katherine Armas Llontop",
       "initials": "KA",
@@ -25420,14 +25533,14 @@
         {
           "place": null,
           "name": "Laboratorio de Investigacion Multidisciplinaria (labinm)-universidad Privada Antenor Orrego",
-          "role": "Co-investigador proyecto 106-cienciactiva/concytec",
+          "role": "Co-investigador proyecto 106-CIENCIACTIVA/CONCYTEC",
           "start": 2016,
           "end": 2017
         },
         {
           "place": null,
           "name": "Laboratorio de Investigacion Multidisciplinaria (labinm)-universidad Privada Antenor Orrego",
-          "role": "Co-investigador proyecto fincyt 411-pnicp-piap-2014",
+          "role": "Co-investigador proyecto fincyt 411-PNICP-PIAP-2014",
           "start": 2014,
           "end": 2016
         },
@@ -27122,6 +27235,124 @@
         },
         {
           "place": "uni",
+          "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "ronal-barrientos-deza",
+      "name": "Ronal Barrientos Deza",
+      "initials": "RB",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/ronalbarrientos/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "fields": [
+        "Física espacial",
+        "Aseguramiento de calidad satelital",
+        "Transferencia tecnológica"
+      ],
+      "studied": [
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": "Ingeniero electricista",
+          "start": 1987,
+          "end": 1993
+        },
+        {
+          "place": "montpellier",
+          "level": "Maestría",
+          "field": null,
+          "start": 1994,
+          "end": 1995
+        },
+        {
+          "place": "le-havre",
+          "level": "Maestría",
+          "field": "Magister en electrónica de potencia",
+          "start": 1995,
+          "end": 1996
+        },
+        {
+          "place": "esiee",
+          "level": "Maestría",
+          "field": "Magister en telecomunicaciones y redes",
+          "start": 1997,
+          "end": 1998
+        },
+        {
+          "place": "unir",
+          "level": "Maestría",
+          "field": "Máster en diseño y gestión de proyectos tecnológicos i+d+i",
+          "start": 2023,
+          "end": 2024
+        }
+      ],
+      "works": [
+        {
+          "place": "conida",
+          "role": "Responsable de aseguramiento de producto y calidad del satélite PERUSAT-1"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
+          "role": "Responsable de aseguramiento de producto y calidad del satélite PERUSAT-1",
+          "start": 2015,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Concytec",
+          "role": "Responsable nacional de transferencia tecnológica",
+          "start": 2013,
+          "end": 2015
+        },
+        {
+          "place": null,
+          "name": "Presidencia del Consejo de Ministros",
+          "role": "Jefe de la oficina nacional de gobierno electrónico e informática",
+          "start": 2011,
+          "end": 2013
+        },
+        {
+          "place": null,
+          "name": "Alcatel-lucent",
+          "role": "Ingeniero de integración de radio lte",
+          "start": 2000,
+          "end": 2010
+        }
+      ],
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "montpellier",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "le-havre",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "esiee",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "conida",
+          "did": [
+            "Responsable de aseguramiento de producto y calidad del satélite PERUSAT-1"
+          ]
+        },
+        {
+          "place": "unir",
           "did": ["Maestría"]
         }
       ]
@@ -29300,7 +29531,7 @@
       "works": [
         {
           "place": "uni",
-          "role": "Docente tc40h"
+          "role": "Docente TC40H"
         },
         {
           "place": "iberotec",
@@ -29311,7 +29542,7 @@
         {
           "place": "uni",
           "name": "Universidad Nacional de Ingeniería",
-          "role": "Docente tc40h",
+          "role": "Docente TC40H",
           "start": 2014,
           "end": "now"
         },
@@ -29325,7 +29556,7 @@
         {
           "place": "unfv",
           "name": "Universidad Nacional Federico Villarreal",
-          "role": "Docente asociado tp20h",
+          "role": "Docente asociado TP20H",
           "start": 2011,
           "end": 2013
         },
@@ -29363,7 +29594,7 @@
         },
         {
           "place": "unfv",
-          "did": ["Docente asociado tp20h"]
+          "did": ["Docente asociado TP20H"]
         },
         {
           "place": "iberotec",
@@ -29371,7 +29602,7 @@
         },
         {
           "place": "uni",
-          "did": ["Docente tc40h"]
+          "did": ["Docente TC40H"]
         }
       ]
     },
@@ -35917,7 +36148,7 @@
         {
           "place": "unjbg",
           "name": "Universidad Nacional Jorge Basadre Grohmann",
-          "role": "Docente contratado dc-b1",
+          "role": "Docente contratado DC-B1",
           "start": 2021,
           "end": 2024
         },
@@ -35938,7 +36169,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Docente contratado dc-b1",
+          "role": "Docente contratado DC-B1",
           "start": 2022,
           "end": 2022
         },
@@ -35998,11 +36229,11 @@
         },
         {
           "place": "unjbg",
-          "did": ["Docente contratado dc-b1"]
+          "did": ["Docente contratado DC-B1"]
         },
         {
           "place": "unmsm",
-          "did": ["Docente contratado dc-b1"]
+          "did": ["Docente contratado DC-B1"]
         },
         {
           "place": "unjbg",
@@ -37068,7 +37299,7 @@
       "works": [
         {
           "place": "atamostec",
-          "role": "Asesor wp5"
+          "role": "Asesor WP5"
         },
         {
           "place": "uantof",
@@ -37079,7 +37310,7 @@
         {
           "place": "atamostec",
           "name": "Atamostec",
-          "role": "Asesor wp5",
+          "role": "Asesor WP5",
           "start": 2023,
           "end": "now"
         },
@@ -37143,11 +37374,120 @@
         },
         {
           "place": "atamostec",
-          "did": ["Asesor wp5"]
+          "did": ["Asesor WP5"]
         },
         {
           "place": "uantof",
           "did": ["Post doctoral researcher"]
+        }
+      ]
+    },
+    {
+      "slug": "jorge-condori",
+      "name": "Jorge Condori",
+      "initials": "JC",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/jorge-condori-b6026057/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": "Ingeniero metalurgista",
+          "start": 1977,
+          "end": 1981
+        },
+        {
+          "place": "usmp",
+          "level": "Maestría",
+          "field": "Maestro en administración",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ipen-pe",
+          "role": "Especialista tecnológico nuclear, garantía de calidad del reactor RP-10"
+        },
+        {
+          "place": "uni",
+          "role": "Docente de la maestría en física médica"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Especialista tecnológico nuclear, garantía de calidad del reactor RP-10",
+          "start": 2020,
+          "end": "now"
+        },
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Docente de la maestría en física médica",
+          "start": 2022,
+          "end": "now"
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Director de la oficina técnica de la autoridad nacional",
+          "start": 2022,
+          "end": 2025
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Director de servicios",
+          "start": 2016,
+          "end": 2020
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Director de aplicaciones",
+          "start": 2001,
+          "end": 2009
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Especialista en radioisótopos",
+          "start": 1992,
+          "end": 2001
+        }
+      ],
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "usmp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ipen-pe",
+          "did": [
+            "Especialista en radioisótopos",
+            "Director de aplicaciones",
+            "Director de servicios",
+            "Especialista tecnológico nuclear, garantía de calidad del reactor RP-10"
+          ]
+        },
+        {
+          "place": "uni",
+          "did": ["Docente de la maestría en física médica"]
+        },
+        {
+          "place": "ipen-pe",
+          "did": ["Director de la oficina técnica de la autoridad nacional"]
         }
       ]
     },
@@ -46319,6 +46659,90 @@
       ]
     },
     {
+      "slug": "katherine-gonzales",
+      "name": "Katherine Gonzales",
+      "initials": "KG",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/katherine-gonzales-517a823a/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Licenciatura en geofísica",
+      "track": "Geofísica",
+      "fields": [
+        "Interferometría radar (InSAR)",
+        "Teledetección",
+        "Sistemas de información geográfica",
+        "Espectroscopía"
+      ],
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": "Ingeniera geofísica",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "blaise-pascal",
+          "level": "Maestría",
+          "field": "Máster en vulcanología",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ingemmet",
+          "role": "Responsable del laboratorio de teledetección"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ingemmet",
+          "name": "Instituto Geológico, Minero y Metalúrgico",
+          "role": "Responsable del laboratorio de teledetección",
+          "start": 2009,
+          "end": "now"
+        },
+        {
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
+          "role": "Responsable de la actividad geomática",
+          "start": 2006,
+          "end": 2008
+        },
+        {
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
+          "role": "Especialista en teledetección",
+          "start": 2004,
+          "end": 2006
+        }
+      ],
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "blaise-pascal",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "conida",
+          "did": [
+            "Especialista en teledetección",
+            "Responsable de la actividad geomática"
+          ]
+        },
+        {
+          "place": "ingemmet",
+          "did": ["Responsable del laboratorio de teledetección"]
+        }
+      ]
+    },
+    {
       "slug": "carlos-david-gonzales-lorenzo",
       "name": "Carlos David Gonzales Lorenzo",
       "initials": "CG",
@@ -46458,7 +46882,7 @@
         {
           "place": "untels",
           "name": "Universidad Nacional Tecnológica de Lima Sur",
-          "role": "Presidente de la comisión de admisión- 2013-ii",
+          "role": "Presidente de la comisión de admisión- 2013-II",
           "start": 2013,
           "end": 2013
         },
@@ -46472,7 +46896,7 @@
         {
           "place": "untels",
           "name": "Universidad Nacional Tecnológica de Lima Sur",
-          "role": "Presidente de la comisión de admisión- 2011-i",
+          "role": "Presidente de la comisión de admisión- 2011-I",
           "start": 2010,
           "end": 2011
         },
@@ -46505,9 +46929,9 @@
           "did": [
             "Profesor",
             "Director del instituto general de investigación y prospectiva tecnológica (igipt)",
-            "Presidente de la comisión de admisión- 2011-i",
+            "Presidente de la comisión de admisión- 2011-I",
             "Jefe de ogsa",
-            "Presidente de la comisión de admisión- 2013-ii",
+            "Presidente de la comisión de admisión- 2013-II",
             "Jefe de la oficina central de estado-empresa-sociedad civil"
           ]
         }
@@ -49104,7 +49528,7 @@
         {
           "place": null,
           "name": "Ministerio de Energia y Minas",
-          "role": "Consultor del proyecto per/98/g31, ministerio de energia y minas – programa de las naciones unidas para el desarrollo. supervision de sistemas fotovoltaicos domesticos instalados en 25 localidades de los distritos de namballe, san ignacio, huarango y san jose de lourdes de la provincia de san ignacio - cajamarca.",
+          "role": "Consultor del proyecto PER/98/G31, ministerio de energia y minas – programa de las naciones unidas para el desarrollo. supervision de sistemas fotovoltaicos domesticos instalados en 25 localidades de los distritos de namballe, san ignacio, huarango y san jose de lourdes de la provincia de san ignacio - cajamarca.",
           "start": 2007,
           "end": 2007
         }
@@ -55099,7 +55523,7 @@
         {
           "place": null,
           "name": "Instituto de Microelectronica de Madrid",
-          "role": "Technology transfer: training, assembly and diagnose of a dc plasma of a hybrid system of dc magnetron sputtering and pulsed evaporation for production of thermoelectric films of ag2-xse and cu2-xse",
+          "role": "Technology transfer: training, assembly and diagnose of a dc plasma of a hybrid system of dc magnetron sputtering and pulsed evaporation for production of thermoelectric films of AG2-XSE and CU2-XSE",
           "start": 2015,
           "end": 2015
         }
@@ -55448,7 +55872,7 @@
         },
         {
           "place": "unac",
-          "role": "Profesor principal tp-20h"
+          "role": "Profesor principal TP-20H"
         }
       ],
       "jobs": [
@@ -55469,7 +55893,7 @@
         {
           "place": "unac",
           "name": "Universidad Nacional del Callao",
-          "role": "Profesor principal tp-20h",
+          "role": "Profesor principal TP-20H",
           "start": 2009,
           "end": "now"
         }
@@ -55493,7 +55917,7 @@
         },
         {
           "place": "unac",
-          "did": ["Profesor principal tp-20h"]
+          "did": ["Profesor principal TP-20H"]
         },
         {
           "place": "unmsm",
@@ -60071,6 +60495,89 @@
       ]
     },
     {
+      "slug": "andrea-ximena-miranda-corzo",
+      "name": "Andrea Ximena Miranda Corzo",
+      "initials": "AM",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/andrea-ximena-miranda-corzo-6a4850170/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Licenciatura en ingeniería",
+      "track": "Ingeniería",
+      "fields": [
+        "Meteorología",
+        "Ciencias de la criósfera",
+        "Interacción criósfera-atmósfera"
+      ],
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Licenciatura",
+          "field": "Ingeniera meteoróloga",
+          "start": 2015,
+          "end": 2021
+        }
+      ],
+      "works": [
+        {
+          "place": "senamhi",
+          "role": "Analista avanzada en modelamiento numérico a largo plazo"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Analista avanzada en modelamiento numérico a largo plazo",
+          "start": 2025,
+          "end": "now"
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Asistente de investigación",
+          "start": 2023,
+          "end": 2025
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Practicante profesional en hidrometeorología",
+          "start": 2022,
+          "end": 2022
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Auxiliar en meteorología",
+          "start": 2021,
+          "end": 2022
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Auxiliar en meteorología"]
+        },
+        {
+          "place": "inaigem",
+          "did": [
+            "Practicante profesional en hidrometeorología",
+            "Asistente de investigación"
+          ]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Analista avanzada en modelamiento numérico a largo plazo"]
+        }
+      ]
+    },
+    {
       "slug": "josue-alfonzo-miranda-fernandez",
       "name": "Josue Alfonzo Miranda Fernandez",
       "initials": "JM",
@@ -62295,35 +62802,35 @@
       "works": [
         {
           "place": "igp",
-          "role": "Investigador científico superior (c4)"
+          "role": "Investigador científico superior (C4)"
         }
       ],
       "jobs": [
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Investigador científico superior (c4)",
+          "role": "Investigador científico superior (C4)",
           "start": 2013,
           "end": "now"
         },
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Agregado de investigación (p5)",
+          "role": "Agregado de investigación (P5)",
           "start": 2011,
           "end": 2013
         },
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Adjunto de investigación (p4)",
+          "role": "Adjunto de investigación (P4)",
           "start": 2009,
           "end": 2011
         },
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Asistente de investigación (p3)",
+          "role": "Asistente de investigación (P3)",
           "start": 2001,
           "end": 2009
         }
@@ -62340,10 +62847,10 @@
         {
           "place": "igp",
           "did": [
-            "Asistente de investigación (p3)",
-            "Adjunto de investigación (p4)",
-            "Agregado de investigación (p5)",
-            "Investigador científico superior (c4)"
+            "Asistente de investigación (P3)",
+            "Adjunto de investigación (P4)",
+            "Agregado de investigación (P5)",
+            "Investigador científico superior (C4)"
           ]
         }
       ]
@@ -63084,7 +63591,7 @@
         {
           "place": "unalm",
           "name": "Universidad Nacional Agraria La Molina",
-          "role": "Docente a1",
+          "role": "Docente A1",
           "start": 2024,
           "end": 2024
         },
@@ -63147,7 +63654,7 @@
         },
         {
           "place": "unalm",
-          "did": ["Docente a1"]
+          "did": ["Docente A1"]
         },
         {
           "place": "unmsm",
@@ -68245,7 +68752,7 @@
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Agregado de investigación p5-igp en el radio observatorio de jicamarca",
+          "role": "Agregado de investigación P5-IGP en el radio observatorio de jicamarca",
           "start": 2003,
           "end": 2006
         },
@@ -68337,7 +68844,7 @@
         {
           "place": "igp",
           "did": [
-            "Agregado de investigación p5-igp en el radio observatorio de jicamarca"
+            "Agregado de investigación P5-IGP en el radio observatorio de jicamarca"
           ]
         },
         {
@@ -72198,7 +72705,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Organizador al \"taller de técnica de fisisorción de n2: principios básicos, instrumentación y aplicaciones en ciencia de materiales y nanotecnología\"",
+          "role": "Organizador al \"taller de técnica de fisisorción de N2: principios básicos, instrumentación y aplicaciones en ciencia de materiales y nanotecnología\"",
           "start": 2025,
           "end": 2025
         },
@@ -72399,7 +72906,7 @@
           "did": [
             "Organizador al \"curso de nanopartículas magnéticas: fundamentos y aplicaciones\"",
             "Organizador al \"curso de especialización en espectroscopía de infrarrojo por transformada de fourier\"",
-            "Organizador al \"taller de técnica de fisisorción de n2: principios básicos, instrumentación y aplicaciones en ciencia de materiales y nanotecnología\""
+            "Organizador al \"taller de técnica de fisisorción de N2: principios básicos, instrumentación y aplicaciones en ciencia de materiales y nanotecnología\""
           ]
         }
       ]
@@ -80715,6 +81222,78 @@
       ]
     },
     {
+      "slug": "juan-suica",
+      "name": "Juan Suica",
+      "initials": "JS",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/juan-suica-692b66a3/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Maestría en ingeniería",
+      "track": "Ingeniería",
+      "fields": [
+        "Instrumentación nuclear",
+        "Reactores de investigación",
+        "Metrología"
+      ],
+      "studied": [
+        {
+          "place": "balseiro",
+          "level": "Maestría",
+          "field": "Magíster en ingeniería",
+          "start": 2019,
+          "end": 2022
+        }
+      ],
+      "works": [
+        {
+          "place": "ipen-pe",
+          "role": "Asistente técnico en gestión de procesos de laboratorio"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Asistente técnico en gestión de procesos de laboratorio",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Especialista en electrónica para física experimental de reactores",
+          "start": 2023,
+          "end": 2024
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Especialista en electrónica",
+          "start": 2017,
+          "end": 2019
+        }
+      ],
+      "path": [
+        {
+          "place": "ipen-pe",
+          "did": ["Especialista en electrónica"]
+        },
+        {
+          "place": "balseiro",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ipen-pe",
+          "did": [
+            "Especialista en electrónica para física experimental de reactores",
+            "Asistente técnico en gestión de procesos de laboratorio"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "juan-carlos-sulca-jota",
       "name": "Juan Carlos Sulca Jota",
       "initials": "JS",
@@ -85766,6 +86345,63 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "luis-vasquez",
+      "name": "Luis Vasquez",
+      "initials": "LV",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/luis-vasquez-63402a3b/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Licenciatura en ingeniería",
+      "track": "Ingeniería",
+      "fields": ["Oceanografía física", "Cambio climático"],
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": "Ingeniero mecánico de fluidos",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "imarpe",
+          "role": "Director general de investigaciones en oceanografía y cambio climático"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "imarpe",
+          "name": "Instituto del Mar del Perú",
+          "role": "Director general de investigaciones en oceanografía y cambio climático",
+          "start": 2023,
+          "end": "now"
+        },
+        {
+          "place": "imarpe",
+          "name": "Instituto del Mar del Perú",
+          "role": "Investigador oceanógrafo",
+          "start": 1990,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "imarpe",
+          "did": [
+            "Investigador oceanógrafo",
+            "Director general de investigaciones en oceanografía y cambio climático"
+          ]
         }
       ]
     },
