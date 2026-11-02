@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{- $data := hugo.Data.journal -}}
+{{- $n := 0 -}}
+{{- $years := slice -}}
+{{- range $data.issues }}{{ $n = add $n (len .articles) }}{{ with .year }}{{ $years = $years | append . }}{{ end }}{{ end -}}
+{{- $years = sort $years -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "Los %d artículos de los %d números que la Facultad de Ciencias Físicas de la UNMSM publicó de %d a %d. El título abre el texto completo; el nombre de un autor abre su perfil cuando está en el <a href=\"%s\">mapa de físicos</a>." $n (len $data.issues) (int (index $years 0)) (int (index (last 1 $years) 0)) ((site.GetPage "/fisicos").RelPermalink))) }}
+
+	{{- range $i := $data.issues }}
+		<section class="section-group band" id="v{{ $i.volume }}-n{{ $i.number }}">
+			<h2>Vol. {{ $i.volume }}, n.º {{ $i.number }}{{ with $i.year }} · {{ . }}{{ end }} <span class="count">{{ len $i.articles }}</span></h2>
+			<ul class="rows">
+				{{- range $i.articles }}{{ partial "revista/row.html" (dict "article" . "issue" $i) }}{{ end }}
+			</ul>
+		</section>
+	{{- end }}
+
+	<p class="person-note text-muted">
+		Los artículos vienen de <a href="https://www.crossref.org/">Crossref</a>, donde la revista registra un DOI por artículo, copiados el {{ partial "ui/date.html" (time.AsTime $data.fetched.crossref) }}. Los de 1998 a 2011 sin DOI vienen del <a href="https://sisbib.unmsm.edu.pe/BibVirtual/publicaciones/fisica/anteriores.htm">archivo de la biblioteca de San Marcos</a> y llevan la firma tal como se imprimió. La revista publica en su <a href="https://revistasinvestigacion.unmsm.edu.pe/index.php/fisica">sitio oficial</a>. Si un autor no enlaza su perfil o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+	</p>
+</div>
+{{ end }}

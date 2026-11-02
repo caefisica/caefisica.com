@@ -162,6 +162,7 @@
 			</ul>
 		{{- end }}
 		{{ partial "grupos/person-groups.html" $slug }}
+		{{ partial "revista/person.html" $slug }}
 		{{ partial "videos/person.html" . }}
 		{{ partial "tesis/person.html" $slug }}
 		{{ partial "grabaciones/person.html" (printf "/fisicos/%s/" $slug) }}
