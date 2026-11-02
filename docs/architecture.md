@@ -181,4 +181,6 @@ usan la carpeta con su nombre (la página de un docente reúne sus cursos con
 `playlists.yaml` de los cursos (ver [cursos](cursos.md#listas-de-reproducción)),
 y `assets/js/player.ts` reproduce cada clase en la misma página. `grabaciones`
 tampoco: su adaptador crea una página por serie y una por charla a partir de
-`data/recordings.json` (ver [charlas](grabaciones.md)).
+`data/recordings.json` (ver [charlas](grabaciones.md)). `organizaciones` crea
+una página por lugar de `data/physicists.json` (ver
+[organizaciones](organizaciones.md)).

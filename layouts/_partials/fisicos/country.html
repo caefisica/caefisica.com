@@ -1,0 +1,3 @@
+{{- /* Returns the Spanish name of a place's country code in data/physicists.json; a code not listed here returns itself. Context: the code. */ -}}
+{{- $countries := dict "PE" "Perú" "BR" "Brasil" "MX" "México" "US" "Estados Unidos" "DE" "Alemania" "JP" "Japón" "CL" "Chile" "AR" "Argentina" "ES" "España" "IT" "Italia" "FR" "Francia" "IS" "Islandia" "GB" "Reino Unido" "PR" "Puerto Rico" "CA" "Canadá" "CH" "Suiza" "PL" "Polonia" "PT" "Portugal" "SI" "Eslovenia" "SE" "Suecia" "NO" "Noruega" "AU" "Australia" -}}
+{{- return (index $countries . | default .) -}}

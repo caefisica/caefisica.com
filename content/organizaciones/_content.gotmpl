@@ -1,0 +1,15 @@
+{{- /*
+One page per place in data/physicists.json, at its id: who studied or worked there and, for a Peruvian place OpenAlex knows, its recent physics works. docs/organizaciones.md says where the data comes from.
+*/ -}}
+{{- $data := hugo.Data.physicists -}}
+{{- range $data.places -}}
+	{{- $about := printf "Quiénes estudiaron o trabajan en %s" .name -}}
+	{{- with .research }}{{ $about = printf "%s, y qué publica en física" $about }}{{ end -}}
+	{{- $.AddPage (dict
+		"path" .id
+		"title" .name
+		"params" (dict "place" .id "description" (printf "%s, según sus fichas públicas." $about))
+		"dates" (dict "lastmod" (time.AsTime $data.fetched))
+		"content" (dict "mediaType" "text/markdown" "value" "")
+	) -}}
+{{- end -}}

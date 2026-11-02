@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{- $data := hugo.Data.physicists -}}
+{{- $kinds := partial "organizaciones/kinds.html" -}}
+{{- $from := time.AsTime $data.research_from -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d organizaciones del Perú y del extranjero donde estudiaron o trabajan las personas del <a href=\"%s\">mapa de físicos</a>. Las del Perú que OpenAlex registra muestran sus publicaciones de física desde %d." (len $data.places) ((site.GetPage "/fisicos").RelPermalink) $from.Year)) }}
+
+	{{- range $kinds }}
+		{{- $rows := slice }}
+		{{- range where $data.places "kind" .id }}
+			{{- $who := partialCached "fisicos/place-groups.html" . .id }}
+			{{- $rows = $rows | append (dict "place" . "n" $who.n "peru" (eq .country "PE")) }}
+		{{- end }}
+		{{- /* Peru first, then by people; a name breaks the tie. */}}
+		{{- $rows = sort (sort (sort $rows "place.name") "n" "desc") "peru" "desc" }}
+		<section class="section-group band" id="{{ .id }}">
+			<h2>{{ .many }} <span class="count">{{ len $rows }}</span></h2>
+			<ul class="rows">
+				{{- range $rows }}
+					{{- $p := .place }}
+					{{- $note := printf "%s · %d %s" (partial "fisicos/country.html" $p.country) .n (cond (eq .n 1) "persona" "personas") }}
+					<li class="group">
+						<div class="row-main">
+							<a class="card-link" href="{{ (site.GetPage (printf "/organizaciones/%s" $p.id)).RelPermalink }}">{{ $p.name }}</a>
+							<p>{{ $note }}</p>
+						</div>
+						{{- with $p.research }}
+							<span class="row-meta max-md:hidden">{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }} de física</span>
+						{{- end }}
+						{{ partial "ui/chevron.html" }}
+					</li>
+				{{- end }}
+			</ul>
+		</section>
+	{{- end }}
+
+	<p class="person-note text-muted">
+		Las personas y sus puestos vienen de las mismas fichas que el <a href="{{ (site.GetPage "/fisicos").RelPermalink }}">mapa de físicos</a>. Las publicaciones vienen de <a href="https://openalex.org/">OpenAlex</a>, consultado el {{ time.AsTime $data.fetched | time.Format ":date_long" }}: los trabajos desde {{ $from.Year }} con al menos un autor de la organización cuyo tema principal es física, astronomía, geofísica, ciencias de la atmósfera o física médica. Si falta una organización o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+	</p>
+</div>
+{{ end }}

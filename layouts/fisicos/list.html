@@ -1,50 +1,11 @@
 {{ define "main" }}
 {{- $data := hugo.Data.physicists -}}
-{{- $countries := dict "PE" "Perú" "BR" "Brasil" "MX" "México" "US" "Estados Unidos" "DE" "Alemania" "JP" "Japón" "CL" "Chile" "AR" "Argentina" "ES" "España" "IT" "Italia" "FR" "Francia" "IS" "Islandia" "GB" "Reino Unido" "PR" "Puerto Rico" "CA" "Canadá" "CH" "Suiza" "PL" "Polonia" "PT" "Portugal" -}}
-{{- $undergrad := slice "Bachillerato" "Licenciatura" -}}
 {{- $byId := dict -}}
 {{- range $data.places }}{{ $byId = merge $byId (dict .id .) }}{{ end -}}
-{{- /* One entry per place: who studied there, split into undergraduate and graduate degrees, who works there now and who worked there before. People keep the data's order, by surname. */ -}}
 {{- $places := slice -}}
 {{- range $data.places -}}
-	{{- $place := . -}}
-	{{- $under := slice -}}
-	{{- $grad := slice -}}
-	{{- $works := slice -}}
-	{{- $worked := slice -}}
-	{{- $names := slice -}}
-	{{- range $data.people -}}
-		{{- $person := . -}}
-		{{- $u := slice -}}
-		{{- $g := slice -}}
-		{{- range .studied -}}
-			{{- if eq .place $place.id -}}
-				{{- $text := .level -}}
-				{{- with .field }}{{ $text = printf "%s (%s)" $text (lower .) }}{{ end -}}
-				{{- if in $undergrad .level }}{{ $u = $u | append $text }}{{ else }}{{ $g = $g | append $text }}{{ end -}}
-			{{- end -}}
-		{{- end -}}
-		{{- with $u }}{{ $under = $under | append (dict "person" $person "note" (delimit . " · ")) }}{{ end -}}
-		{{- with $g }}{{ $grad = $grad | append (dict "person" $person "note" (delimit . " · ")) }}{{ end -}}
-		{{- if or $u $g }}{{ $names = $names | append $person.slug }}{{ end -}}
-		{{- range .works -}}
-			{{- if eq .place $place.id -}}
-				{{- $works = $works | append (dict "person" $person "note" .role) -}}
-				{{- $names = $names | append $person.slug -}}
-			{{- end -}}
-		{{- end -}}
-		{{- /* Someone who works there now is under Trabajan, so their earlier posts there are not repeated. */ -}}
-		{{- if not (where .works "place" $place.id) -}}
-			{{- $roles := slice -}}
-			{{- range where .jobs "place" $place.id }}{{ $roles = $roles | append .role }}{{ end -}}
-			{{- with $roles }}
-				{{- $worked = $worked | append (dict "person" $person "note" (delimit (uniq .) " · ")) -}}
-				{{- $names = $names | append $person.slug -}}
-			{{- end -}}
-		{{- end -}}
-	{{- end -}}
-	{{- $groups := slice (dict "title" "Pregrado" "rows" $under) (dict "title" "Posgrado" "rows" $grad) (dict "title" "Trabajan" "rows" $works) (dict "title" "Trabajaron" "rows" $worked) -}}
-	{{- $places = $places | append (dict "place" $place "groups" $groups "n" ($names | uniq | len) "mapped" (ne $place.lat nil)) -}}
+	{{- $who := partialCached "fisicos/place-groups.html" . .id -}}
+	{{- $places = $places | append (dict "place" . "groups" $who.groups "n" $who.n "mapped" (ne .lat nil)) -}}
 {{- end -}}
 {{- $places = sort (sort $places "place.name") "n" "desc" -}}
 {{- /* One entry per área, largest first; people OpenAlex names no área for come last. */ -}}
@@ -126,21 +87,10 @@
 				{{- $p := .place }}
 				<section class="section-group band" id="lugar-{{ $p.id }}">
 					<h2>
-						{{ $p.name }}
-						<span class="map-where">{{ index $countries $p.country | default $p.country }}{{ if not .mapped }} · sin ubicación en el mapa{{ end }}</span>
+						<a href="{{ (site.GetPage (printf "/organizaciones/%s" $p.id)).RelPermalink }}">{{ $p.name }}</a>
+						<span class="map-where">{{ partial "fisicos/country.html" $p.country }}{{ if not .mapped }} · sin ubicación en el mapa{{ end }}</span>
 					</h2>
-					<div class="map-groups">
-						{{- range .groups }}
-							{{- if .rows }}
-								<h3>{{ .title }} <span class="count">{{ len .rows }}</span></h3>
-								<ul class="rows">
-									{{- range .rows }}
-										{{ partial "fisicos/row.html" . }}
-									{{- end }}
-								</ul>
-							{{- end }}
-						{{- end }}
-					</div>
+					{{ partial "fisicos/place-people.html" .groups }}
 				</section>
 			{{- end }}
 		</div>
