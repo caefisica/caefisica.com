@@ -104,9 +104,10 @@ reproducción, con un botón por enlace.
   El paquete base reúne la navegación (`assets/js/navigation.ts`), instant.page
   según `params.toml`, y clipboard solo si el contenido tiene un `<pre>`;
   highlight.js, KaTeX y Mermaid se cargan solo donde se usan, y el reproductor
-  de video (`player.ts`) solo en las páginas de `/videos/`. El buscador
-  (`assets/js/search.ts`, sobre la API de Pagefind) se carga en todas las
-  páginas, con sus atajos Ctrl/⌘ K y `/`; su diálogo está en
+  de video (`player.ts`) solo en las páginas de `/videos/` y en las charlas de
+  YouTube o Facebook, y el de mp4 (`video.ts`) solo en las de Educast. El
+  buscador (`assets/js/search.ts`, sobre la API de Pagefind) se carga en todas
+  las páginas, con sus atajos Ctrl/⌘ K y `/`; su diálogo está en
   [`search/dialog.html`](../layouts/_partials/search/dialog.html). El paquete
   base y el buscador se piden después de `load` y del primer pintado
   (`site/load-after.html`).
@@ -178,4 +179,6 @@ usan la carpeta con su nombre (la página de un docente reúne sus cursos con
 `layouts/links/page.html`. `videos` no tiene archivos de contenido: su adaptador
 `content/videos/_content.gotmpl` crea una página por lista de los
 `playlists.yaml` de los cursos (ver [cursos](cursos.md#listas-de-reproducción)),
-y `assets/js/player.ts` reproduce cada clase en la misma página.
+y `assets/js/player.ts` reproduce cada clase en la misma página. `grabaciones`
+tampoco: su adaptador crea una página por serie y una por charla a partir de
+`data/recordings.json` (ver [charlas](grabaciones.md)).

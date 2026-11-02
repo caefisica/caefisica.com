@@ -1,33 +1,108 @@
 {{ define "main" }}
+{{- /*
+One talk of data/recordings.json, found by .Params.recording. A YouTube video and a Facebook video's Drive copy play in their host's player behind a still; an Educast mp4 plays in the site's own player (assets/js/video.ts), which falls back to the browser's controls without JavaScript. A talk without video shows its invitation instead.
+*/ -}}
 {{- $data := hugo.Data.recordings -}}
-{{- $series := index (where $data.series "id" .Params.series) 0 -}}
-{{- $rows := where $data.recordings "series" $series.id -}}
-{{- $years := slice -}}
-{{- range $rows }}{{ $years = $years | append (substr .month 0 4) }}{{ end -}}
-{{- $years = $years | uniq -}}
-{{- .Store.Set "filter" true -}}
+{{- $r := index (where $data.recordings "id" .Params.recording) 0 -}}
+{{- $series := index (where $data.series "id" $r.series) 0 -}}
+{{- $seriesPage := site.GetPage (printf "/grabaciones/%s" $series.id) -}}
+{{- $invitation := cond (eq $r.host "Invitación") $r.url ($r.invitation | default "") -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%s. %s, desde %s." $series.organiser (partial "grabaciones/count.html" $series) $series.first)) }}
-	<div class="filtered">
-		<div class="list-tools">
-			<input class="list-filter" type="search" placeholder="Filtrar por título o ponente" aria-label="Filtrar por título o ponente" hidden />
-			<nav class="list-jump" aria-label="Años">
-				{{- range $years }}<a href="#{{ . }}">{{ . }}</a>{{ end -}}
-			</nav>
+	{{ partial "article/breadcrumbs.html" . }}
+	<h1>{{ .Title }}</h1>
+	<p class="text-lead">
+		{{- range $i, $s := $r.speakers }}{{ if $i }}{{ if eq $i (sub (len $r.speakers) 1) }} y {{ else }}, {{ end }}{{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ with $s.affiliation }} ({{ . }}){{ end }}{{ end }}
+		{{- with $r.speakers }}. {{ end }}{{ partial "ui/day-or-month.html" $r }}, en {{ with $seriesPage }}<a href="{{ .RelPermalink }}">{{ $series.name }}</a>{{ else }}{{ $series.name }}{{ end }}.
+	</p>
+	{{- if eq $r.host "YouTube" }}
+		{{- $id := strings.TrimPrefix "yt-" $r.id }}
+		{{- .Store.Set "player" true }}
+		<div class="player talk-player" data-host="youtube">
+			<a class="player-start" href="{{ $r.url }}" data-video="{{ $id }}">
+				<img src="https://i.ytimg.com/vi/{{ $id }}/hqdefault.jpg" alt="" width="480" height="360"/>
+				<span class="player-label">
+					{{ partial "ui/icon.html" (dict "name" "play" "size" 20) }}
+					<span>Ver{{ with $r.minutes }} · {{ . }} min{{ end }}</span>
+				</span>
+			</a>
 		</div>
-		<p class="list-empty text-muted" hidden>Ninguna {{ $series.one }} coincide.</p>
-		{{- range $years }}
-			{{- $year := . }}
-			{{- $group := slice }}
-			{{- range $rows }}{{ if hasPrefix .month $year }}{{ $group = $group | append . }}{{ end }}{{ end }}
-			<section class="section-group band" id="{{ $year }}">
-				<h2>{{ $year }} {{ partial "ui/count.html" (dict "n" (len $group) "one" $series.one "many" $series.unit) }}</h2>
-				<ul class="rows">
-					{{- range $group }}{{ partial "grabaciones/row.html" (dict "recording" .) }}{{ end }}
-				</ul>
-			</section>
-		{{- end }}
+	{{- else if eq $r.host "Facebook" }}
+		{{- $id := replaceRE `^.*/file/d/([^/]+)/.*$` "$1" $r.url }}
+		{{- .Store.Set "player" true }}
+		<div class="player talk-player" data-host="drive">
+			<a class="player-start" href="{{ $r.url }}" data-video="{{ $id }}">
+				{{- /* Google refuses this image to a request that names another site as referrer. */}}
+				<img src="https://lh3.googleusercontent.com/d/{{ $id }}=w640" alt="" width="640" height="360" referrerpolicy="no-referrer"/>
+				<span class="player-label">
+					{{ partial "ui/icon.html" (dict "name" "play" "size" 20) }}
+					<span>Ver{{ with $r.minutes }} · {{ . }} min{{ end }}</span>
+				</span>
+			</a>
+		</div>
+	{{- else if $r.page }}
+		{{- .Store.Set "video" true }}
+		<div class="video talk-player" data-key="{{ $r.id }}">
+			<video src="{{ $r.url }}"{{ with $r.poster }} poster="{{ . }}"{{ end }} controls preload="metadata" playsinline aria-label="{{ .Title }}"></video>
+		</div>
+	{{- else }}
+		<aside class="callout">
+			<span class="callout-icon" aria-hidden="true">{{ partial "ui/icon.html" "info" }}</span>
+			<p>Esta {{ $series.one }} no tiene video. {{ with $invitation }}<a href="{{ . }}">Ver la invitación</a>.{{ end }}</p>
+		</aside>
+	{{- end }}
+	<div class="course-about">
+		<section class="facts" aria-labelledby="talk-info">
+			<h2 id="talk-info">La {{ $series.one }}</h2>
+			<dl>
+				{{- with $r.speakers }}
+					<div>
+						<dt>{{ cond (eq (len .) 1) "Ponente" "Ponentes" }}</dt>
+						<dd>
+							{{- range $i, $s := . }}{{ if $i }}<br/>{{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ with $s.affiliation }}, {{ . }}{{ end }}{{ end -}}
+						</dd>
+					</div>
+				{{- end }}
+				<div>
+					<dt>Serie</dt>
+					<dd>{{ with $seriesPage }}<a href="{{ .RelPermalink }}">{{ $series.name }}</a>{{ else }}{{ $series.name }}{{ end }}{{ with $series.organiser }}, {{ . }}{{ end }}</dd>
+				</div>
+				<div>
+					<dt>Fecha</dt>
+					<dd>{{ partial "ui/day-or-month.html" $r }}</dd>
+				</div>
+				{{- with $r.minutes }}
+					<div>
+						<dt>Duración</dt>
+						<dd>{{ . }} min</dd>
+					</div>
+				{{- end }}
+				{{- if ne $r.host "Invitación" }}
+					<div>
+						<dt>Original</dt>
+						<dd>
+							{{- if $r.post }}<a href="{{ $r.post }}">Facebook</a>, con una copia en Google Drive
+							{{- else if $r.page }}<a href="{{ $r.page }}">Educast PUCP</a>
+							{{- else }}<a href="{{ $r.url }}">YouTube</a>
+							{{- end -}}
+						</dd>
+					</div>
+				{{- end }}
+				{{- with $invitation }}
+					<div>
+						<dt>Invitación</dt>
+						<dd><a href="{{ . }}">{{ cond (strings.Contains . "instagram.com") "Instagram" "Facebook" }}</a></dd>
+					</div>
+				{{- end }}
+				{{- with $r.summary }}
+					<div>
+						<dt>Resumen</dt>
+						<dd>{{ . }}</dd>
+					</div>
+				{{- end }}
+			</dl>
+		</section>
+		<p class="text-muted text-sm">Datos al {{ partial "ui/date.html" (time.AsTime $data.fetched) }}.{{ if ne $r.host "Invitación" }} El video se reproduce desde su sitio original.{{ end }}</p>
+		{{ partial "article/page-footer.html" . }}
 	</div>
-	{{ partial "grabaciones/sources.html" $data }}
 </div>
 {{ end }}

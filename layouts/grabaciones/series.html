@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{- $data := hugo.Data.recordings -}}
+{{- $series := index (where $data.series "id" .Params.series) 0 -}}
+{{- $rows := where $data.recordings "series" $series.id -}}
+{{- $years := slice -}}
+{{- range $rows }}{{ $years = $years | append (substr .month 0 4) }}{{ end -}}
+{{- $years = $years | uniq -}}
+{{- .Store.Set "filter" true -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%s. %s, desde %s." $series.organiser (partial "grabaciones/count.html" $series) $series.first)) }}
+	<div class="filtered">
+		<div class="list-tools">
+			<input class="list-filter" type="search" placeholder="Filtrar por título o ponente" aria-label="Filtrar por título o ponente" hidden />
+			<nav class="list-jump" aria-label="Años">
+				{{- range $years }}<a href="#{{ . }}">{{ . }}</a>{{ end -}}
+			</nav>
+		</div>
+		<p class="list-empty text-muted" hidden>Ninguna {{ $series.one }} coincide.</p>
+		{{- range $years }}
+			{{- $year := . }}
+			{{- $group := slice }}
+			{{- range $rows }}{{ if hasPrefix .month $year }}{{ $group = $group | append . }}{{ end }}{{ end }}
+			<section class="section-group band" id="{{ $year }}">
+				<h2>{{ $year }} {{ partial "ui/count.html" (dict "n" (len $group) "one" $series.one "many" $series.unit) }}</h2>
+				<ul class="rows">
+					{{- range $group }}{{ partial "grabaciones/row.html" (dict "recording" .) }}{{ end }}
+				</ul>
+			</section>
+		{{- end }}
+	</div>
+	{{ partial "grabaciones/sources.html" $data }}
+</div>
+{{ end }}

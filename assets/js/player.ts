@@ -14,11 +14,8 @@ function source(player: HTMLElement, id: string): [string, string] {
       "Reproductor de Google Drive",
     ];
   }
-  const params = new URLSearchParams({
-    list: player.dataset.playlist ?? "",
-    autoplay: "1",
-    rel: "0",
-  });
+  const params = new URLSearchParams({ autoplay: "1", rel: "0" });
+  if (player.dataset.playlist) params.set("list", player.dataset.playlist);
   return [
     `https://www.youtube-nocookie.com/embed/${id}?${params}`,
     "Reproductor de YouTube",

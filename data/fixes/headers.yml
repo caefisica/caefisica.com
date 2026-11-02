@@ -18,8 +18,13 @@ imgsrc:
   - https://i.imgur.com
   - https://i.ytimg.com
   - https://lh3.googleusercontent.com
+  - https://educast.pucp.edu.pe
   - "data:"
   - "blob:"
+
+mediasrc:
+  - "'self'"
+  - https://educast.pucp.edu.pe
 
 manifestsrc:
   - "'self'"
