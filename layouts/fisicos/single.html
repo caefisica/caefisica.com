@@ -101,6 +101,7 @@
 					{{- if eq $p.source "web" }}{{ $links = $links | append (dict "url" $p.url "title" $p.site) }}{{ end -}}
 					{{- with $p.orcid }}{{ $links = $links | append (dict "url" (printf "https://orcid.org/%s" .) "title" "ORCID") }}{{ end -}}
 					{{- with $p.linkedin }}{{ $links = $links | append (dict "url" . "title" "LinkedIn") }}{{ end -}}
+					{{- with $p.wikipedia }}{{ $links = $links | append (dict "url" . "title" "Wikipedia") }}{{ end -}}
 					{{- with $p.openalex }}{{ $links = $links | append (dict "url" (printf "https://openalex.org/authors/%s" .) "title" "OpenAlex") }}{{ end -}}
 					{{- range $i, $l := $links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end -}}
 				</dd>

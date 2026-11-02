@@ -47505,7 +47505,8 @@
           "place": "uni",
           "did": ["Doctorado"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/M%C3%B3nica_G%C3%B3mez_Le%C3%B3n"
     },
     {
       "slug": "manuel-gomez-mendoza",
@@ -54530,7 +54531,8 @@
           "place": "unmsm",
           "did": ["Profesor principal"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Pablo_Lagos_Enr%C3%ADquez"
     },
     {
       "slug": "gracia-susana-laiza-rebaza",
@@ -63855,7 +63857,8 @@
           "place": "igp",
           "did": ["Researcher"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Ivonne_Montes_Torres"
     },
     {
       "slug": "erick-franco-montoya-calderon",
@@ -64246,7 +64249,8 @@
           "place": "uni",
           "did": ["Maestría"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Modesto_Montoya"
     },
     {
       "slug": "cristian-gerardo-monzon-coello",
@@ -70957,7 +70961,8 @@
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor principal"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Patrizia_Pereyra"
     },
     {
       "slug": "antonio-armstrong-pereyra-quiros",
@@ -72925,7 +72930,8 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Adolfo_Poma_Bernaola"
     },
     {
       "slug": "liz-gabriela-poma-huaman",
@@ -74175,7 +74181,8 @@
           "place": "imarpe",
           "did": ["Investigador", "Coordinador"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Sara_Purca"
     },
     {
       "slug": "erick-xavier-purizaca-leon",
@@ -84675,7 +84682,8 @@
             "Investigadora, ciencias de la atmósfera, hidrósfera y cambio climático"
           ]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Yamina_Silva"
     },
     {
       "slug": "galo-emilio-sisniegas-charcape",
@@ -94527,7 +94535,8 @@
           "place": "igp",
           "did": ["Presidente"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Ronald_Woodman"
     },
     {
       "slug": "han-xu",
@@ -97135,7 +97144,8 @@
           "place": "mit",
           "did": ["Profesor de física"]
         }
-      ]
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Barton_Zwiebach"
     }
   ]
 }
