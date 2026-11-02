@@ -6,7 +6,7 @@
 			<li class="group">
 				<div class="row-main">
 					<a class="card-link" href="{{ .url }}">{{ .title }}</a>
-					<p>{{ .outlet }}{{ if .author }} · Artículo suyo{{ end }}</p>
+					<p>{{ .outlet }}{{ if .video }} · Video{{ end }}{{ if .author }} · Artículo suyo{{ end }}</p>
 				</div>
 				<span class="row-meta">{{ partial "ui/date.html" (time.AsTime .date) }}</span>
 			</li>
