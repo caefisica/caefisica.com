@@ -59,6 +59,12 @@ parent = "recursos"
 weight = 13
 
 [[main]]
+name = "Revista de Investigación de Física"
+pageRef = "/revista"
+parent = "recursos"
+weight = 14
+
+[[main]]
 name = "Tesis"
 pageRef = "/tesis"
 parent = "recursos"
@@ -185,6 +191,12 @@ name = "Grupos de investigación"
 pageRef = "/grupos"
 parent = "leer"
 weight = 27
+
+[[footer]]
+name = "Revista de Investigación de Física"
+pageRef = "/revista"
+parent = "leer"
+weight = 28
 
 [[footer]]
 name = "YouTube"

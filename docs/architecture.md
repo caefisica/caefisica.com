@@ -184,4 +184,5 @@ tampoco: su adaptador crea una página por serie y una por charla a partir de
 `data/recordings.json` (ver [charlas](grabaciones.md)). `organizaciones` crea
 una página por lugar de `data/physicists.json` (ver
 [organizaciones](organizaciones.md)), y `grupos`, una por grupo de
-`data/groups.json` (ver [grupos de investigación](grupos.md)).
+`data/groups.json` (ver [grupos de investigación](grupos.md)). `revista` es una
+sola página que lista `data/journal.json` (ver [revista](revista.md)).

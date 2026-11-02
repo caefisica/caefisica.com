@@ -1,0 +1,21 @@
+{{- /* One article as a row. Context: dict "article" from data/journal.json, "issue" its issue, and "issueNote" true to name the issue under the authors. */ -}}
+{{- $a := .article -}}
+{{- $i := .issue -}}
+{{- $names := slice -}}
+{{- range $a.authors -}}
+	{{- $name := .name | htmlEscape -}}
+	{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/fisicos/%s" .)).RelPermalink $name }}{{ end -}}
+	{{- $names = $names | append $name -}}
+{{- end -}}
+<li class="group">
+	<div class="row-main">
+		<a class="card-link" href="{{ $a.url }}">{{ $a.title }}</a>
+		<p>{{ with $names }}{{ delimit . ", " | safeHTML }}{{ else }}{{ $a.byline }}{{ end }}</p>
+		{{- if .issueNote }}
+			<p>Vol. {{ $i.volume }}, n.º {{ $i.number }}{{ with $i.year }} · {{ . }}{{ end }}</p>
+		{{- end }}
+	</div>
+	{{- with $a.pages }}
+		<span class="row-meta max-md:hidden">pp. {{ . }}</span>
+	{{- end }}
+</li>
