@@ -75,8 +75,14 @@ PUCP para su Sección Física y, para quien no está en ninguno, de su registro 
 ORCID o, si ORCID no lista sus grados, de la página de su universidad (`source`
 dice cuál: `ctivitae`, `pucp`, `orcid` o `web`; con `web`, `site` nombra el
 sitio de `url`). Quien está en CTI Vitae y en la PUCP queda con la ficha de CTI
-Vitae, que tiene años. El portal de la PUCP da el grado y la institución pero no
-los años, así que esos perfiles ordenan los grados por nivel. OpenAlex da el
+Vitae, que tiene años. Además entran quienes aparecen al buscar en ORCID las
+universidades peruanas junto con la física y tienen un grado de física terminado
+en una universidad del Perú. Así entran estudiantes y egresados recientes que no
+están en CTI Vitae. Un grado en curso no cuenta, ni uno de educación física,
+terapia física o docencia. Si un registro de ORCID da a una persona con un
+nombre más corto que otro perfil y comparten una institución de estudios, es la
+misma persona y no entra. El portal de la PUCP da el grado y la institución pero
+no los años, así que esos perfiles ordenan los grados por nivel. OpenAlex da el
 área, a partir de los temas de sus publicaciones, y la obra (`works_count` y
 `cited_by`). `places` lista las instituciones con sus coordenadas (`lat` y `lon`
 nulos si no tienen ubicación). `people` lista a cada persona con:
