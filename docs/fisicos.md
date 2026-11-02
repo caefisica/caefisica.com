@@ -105,16 +105,17 @@ no los años, así que esos perfiles ordenan los grados por nivel. OpenAlex da e
 `cited_by`). `places` lista las instituciones con sus coordenadas (`lat` y `lon`
 nulos si no tienen ubicación). `people` lista a cada persona con:
 
-| Campo     | Uso                                                               |
-| --------- | ----------------------------------------------------------------- |
-| `degree`  | Su grado más alto, «Doctorado en física», o nulo sin grado.       |
-| `track`   | Su formación: física, geofísica, ingeniería u otra.               |
-| `studied` | Sus grados, con institución, nivel y años.                        |
-| `works`   | Sus puestos actuales.                                             |
-| `jobs`    | Todos sus puestos, para la cronología del perfil.                 |
-| `path`    | Su ruta: cada parada con su institución y lo que hizo ahí.        |
-| `area`    | El área según OpenAlex, o nulo con pocas publicaciones indexadas. |
-| `fields`  | Opcional: los campos que nombra su «Acerca de» de LinkedIn.       |
+| Campo      | Uso                                                                                                                 |
+| ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| `degree`   | Su grado más alto, «Doctorado en física», o nulo sin grado.                                                         |
+| `track`    | Su formación: física, geofísica, ingeniería u otra.                                                                 |
+| `studied`  | Sus grados, con institución, nivel y años.                                                                          |
+| `works`    | Sus puestos actuales.                                                                                               |
+| `jobs`     | Todos sus puestos, para la cronología del perfil.                                                                   |
+| `path`     | Su ruta: cada parada con su institución y lo que hizo ahí.                                                          |
+| `area`     | El área según OpenAlex, o nulo con pocas publicaciones indexadas.                                                   |
+| `fields`   | Opcional: los campos que nombra su «Acerca de» de LinkedIn.                                                         |
+| `linkedin` | Opcional: el perfil de LinkedIn que la persona publica en su ORCID o su ficha de CTI Vitae, o que revisamos a mano. |
 
 Las fichas cambian poco; actualízalo a lo sumo una vez al año y cambia
 `fetched`.
