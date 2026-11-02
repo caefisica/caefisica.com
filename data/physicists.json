@@ -19153,15 +19153,6 @@
       "kind": "instituto"
     },
     {
-      "id": "upc",
-      "name": "Universitat Politècnica de Catalunya",
-      "short": "UPC",
-      "country": "ES",
-      "lat": 41.38927,
-      "lon": 2.11317,
-      "kind": "universidad"
-    },
-    {
       "id": "hbni",
       "name": "Homi Bhabha National Institute",
       "short": "HBNI",
@@ -19231,6 +19222,60 @@
       "country": "PT",
       "lat": 41.45164,
       "lon": -8.29179,
+      "kind": "universidad"
+    },
+    {
+      "id": "cu-boulder",
+      "name": "University of Colorado Boulder",
+      "short": "CU Boulder",
+      "country": "US",
+      "lat": 40.00667,
+      "lon": -105.26722,
+      "kind": "universidad"
+    },
+    {
+      "id": "penn-state",
+      "name": "Pennsylvania State University",
+      "short": "Penn State",
+      "country": "US",
+      "lat": 40.79611,
+      "lon": -77.86278,
+      "kind": "universidad"
+    },
+    {
+      "id": "insmet",
+      "name": "Instituto de Meteorología de Cuba",
+      "short": "INSMET",
+      "country": "CU",
+      "lat": 23.14427,
+      "lon": -82.34213,
+      "kind": "instituto"
+    },
+    {
+      "id": "odesa-ecologica",
+      "name": "Universidad Estatal Ecológica de Odesa",
+      "short": "U. Ecológica de Odesa",
+      "country": "UA",
+      "lat": 46.39999,
+      "lon": 30.74159,
+      "kind": "universidad"
+    },
+    {
+      "id": "rshu",
+      "name": "Universidad Estatal Hidrometeorológica de Rusia",
+      "short": "RSHU",
+      "country": "RU",
+      "lat": 59.92167,
+      "lon": 30.40778,
+      "kind": "universidad"
+    },
+    {
+      "id": "uiuc",
+      "name": "Universidad de Illinois en Urbana-Champaign",
+      "short": "UIUC",
+      "country": "US",
+      "lat": 40.11054,
+      "lon": -88.22841,
       "kind": "universidad"
     },
     {
@@ -26563,6 +26608,81 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "daryl-ayala-saavedra",
+      "name": "Daryl Ayala Saavedra",
+      "initials": "DA",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/daryl-ayala/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Licenciatura en ingeniería",
+      "track": "Ingeniería",
+      "fields": [
+        "Teledetección",
+        "Balance de masa de glaciares",
+        "Fotogrametría y geodesia"
+      ],
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Licenciatura",
+          "field": "Ingeniero ambiental",
+          "start": 2016,
+          "end": 2021
+        }
+      ],
+      "works": [
+        {
+          "place": "inaigem",
+          "role": "Consultor de datos geoespaciales"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Consultor de datos geoespaciales",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Consultor en análisis y procesamiento de datos geoespaciales",
+          "start": 2025,
+          "end": 2025
+        },
+        {
+          "place": null,
+          "name": "Fronterra",
+          "role": "Consultor junior en geomática y medio ambiente",
+          "start": 2024,
+          "end": 2025
+        },
+        {
+          "place": null,
+          "name": "Universitat Politecnica de Valencia",
+          "role": "Asistente de investigación, laboratorio de procesado de imágenes",
+          "start": 2023,
+          "end": 2023
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "inaigem",
+          "did": [
+            "Consultor en análisis y procesamiento de datos geoespaciales",
+            "Consultor de datos geoespaciales"
+          ]
         }
       ]
     },
@@ -35264,6 +35384,75 @@
         {
           "place": "unprg",
           "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "jorge-chau",
+      "name": "Jorge Chau",
+      "initials": "JC",
+      "source": "web",
+      "url": "https://orcid.org/0000-0002-2364-8892",
+      "orcid": "0000-0002-2364-8892",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en ingeniería",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "cu-boulder",
+          "level": "Maestría",
+          "field": "Master of science en ingeniería eléctrica y de computadoras",
+          "start": 1993,
+          "end": 1995
+        },
+        {
+          "place": "cu-boulder",
+          "level": "Doctorado",
+          "field": "Ph.d. en ingeniería eléctrica y de computadoras",
+          "start": 1993,
+          "end": 1998
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "University of Rostock",
+          "role": "Profesor, instituto de física",
+          "start": 2023,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Leibniz Institute of Atmospheric Physics",
+          "role": "Jefe del departamento de teledetección por radar",
+          "start": 2013,
+          "end": "now"
+        },
+        {
+          "place": "jicamarca",
+          "name": "Radio Observatorio de Jicamarca",
+          "role": "Director",
+          "start": 2000,
+          "end": 2013
+        },
+        {
+          "place": "jicamarca",
+          "name": "Radio Observatorio de Jicamarca",
+          "role": "Investigador posdoctoral",
+          "start": 1998,
+          "end": 2000
+        }
+      ],
+      "path": [
+        {
+          "place": "cu-boulder",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "jicamarca",
+          "did": ["Investigador posdoctoral", "Director"]
         }
       ]
     },
@@ -52573,6 +52762,81 @@
       ]
     },
     {
+      "slug": "karim-milagros-kuyeng-ruiz",
+      "name": "Karim Milagros Kuyeng Ruiz",
+      "initials": "KK",
+      "source": "web",
+      "url": "https://orcid.org/0000-0002-1371-282X",
+      "orcid": "0000-0002-1371-282X",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingeniería electrónica",
+          "start": 1995,
+          "end": 2001
+        },
+        {
+          "place": "penn-state",
+          "level": "Maestría",
+          "field": "Maestría en ciencias",
+          "start": 2012,
+          "end": 2015
+        }
+      ],
+      "works": [
+        {
+          "place": "jicamarca",
+          "role": "Experta en operaciones de radar"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "jicamarca",
+          "name": "Radio Observatorio de Jicamarca",
+          "role": "Experta en operaciones de radar",
+          "start": 2015,
+          "end": "now"
+        },
+        {
+          "place": "penn-state",
+          "name": "Pennsylvania State University",
+          "role": "Asistente de investigación",
+          "start": 2012,
+          "end": 2015
+        },
+        {
+          "place": "jicamarca",
+          "name": "Radio Observatorio de Jicamarca",
+          "role": "Jefa de operaciones de radar",
+          "start": 2009,
+          "end": 2012
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "jicamarca",
+          "did": ["Jefa de operaciones de radar"]
+        },
+        {
+          "place": "penn-state",
+          "did": ["Maestría", "Asistente de investigación"]
+        },
+        {
+          "place": "jicamarca",
+          "did": ["Experta en operaciones de radar"]
+        }
+      ]
+    },
+    {
       "slug": "jose-luis-la-rosa-navarro",
       "name": "Jose Luis La Rosa Navarro",
       "initials": "JL",
@@ -56454,6 +56718,149 @@
       ]
     },
     {
+      "slug": "luisa-diomira-macedo-franco",
+      "name": "Luisa Diomira Macedo Franco",
+      "initials": "LM",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=52730",
+      "orcid": "0000-0002-0080-5381",
+      "site": "CTI Vitae",
+      "updated": "18-01-2026",
+      "degree": "Maestría",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "unsa",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingenieria geologica",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": "Ingeniero geologo",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "ucsm",
+          "level": "Maestría",
+          "field": "Maestro en gestión de riesgo y desarrollo sostenible",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Docente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "utp",
+          "name": "Universidad Tecnológica del Perú",
+          "role": "Docente",
+          "start": 2016,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Gobierno Regional de Arequipa",
+          "role": "Consultor",
+          "start": 2023,
+          "end": 2023
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Directora del observatorio vulcanológico del sur",
+          "start": 2021,
+          "end": 2023
+        },
+        {
+          "place": "ingemmet",
+          "name": "Instituto Geológico, Minero y Metalúrgico",
+          "role": "Coordinadora de investigación",
+          "start": 2005,
+          "end": 2018
+        },
+        {
+          "place": null,
+          "name": "Servicios Construccion y Consultoria Rosas S.r.l. - Secconsar S.r.l.",
+          "role": "Jefe del área de geología",
+          "start": 2005,
+          "end": 2006
+        },
+        {
+          "place": null,
+          "name": "Gobierno Regional de Arequipa",
+          "role": "Proyectista",
+          "start": 2005,
+          "end": 2006
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Asistente de investigación",
+          "start": 1998,
+          "end": 2002
+        },
+        {
+          "place": null,
+          "name": "United Nations Environmental Programme",
+          "role": "Asistente de investigación",
+          "start": 1992,
+          "end": 2001
+        },
+        {
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
+          "role": "Investigador",
+          "start": 1992,
+          "end": 2001
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Asistente de investigación",
+          "start": 1995,
+          "end": 1995
+        }
+      ],
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ucsm",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "igp",
+          "did": ["Asistente de investigación"]
+        },
+        {
+          "place": "ingemmet",
+          "did": ["Coordinadora de investigación"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        },
+        {
+          "place": "igp",
+          "did": ["Directora del observatorio vulcanológico del sur"]
+        }
+      ]
+    },
+    {
       "slug": "orlando-efrain-macedo-sanchez",
       "name": "Orlando Efrain Macedo Sanchez",
       "initials": "OM",
@@ -60250,6 +60657,117 @@
       ]
     },
     {
+      "slug": "marco-antonio-milla-bravo",
+      "name": "Marco Antonio Milla Bravo",
+      "initials": "MM",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10261",
+      "orcid": "0000-0001-9067-863X",
+      "site": "CTI Vitae",
+      "updated": "21-11-2025",
+      "degree": "Doctorado en ingeniería",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": "Bachiller en ciencias con mencion en ingenieria electronica",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "uiuc",
+          "level": "Maestría",
+          "field": "Master of science",
+          "start": 2004,
+          "end": 2006
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": "Doctor en ingenieria",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "uiuc",
+          "level": "Doctorado",
+          "field": "Doctor of philosophy",
+          "start": 2007,
+          "end": 2010
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Profesor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor",
+          "start": 2021,
+          "end": "now"
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Director del radio observatorio de jicamarca",
+          "start": 2012,
+          "end": 2021
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador post-doctoral",
+          "start": 2009,
+          "end": 2012
+        },
+        {
+          "place": "ciencia-internacional",
+          "name": "Ciencia Internacional",
+          "role": "Ingeniero de desarrollo",
+          "start": 1998,
+          "end": 2004
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ciencia-internacional",
+          "did": ["Ingeniero de desarrollo"]
+        },
+        {
+          "place": "uiuc",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "uiuc",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Investigador post-doctoral",
+            "Director del radio observatorio de jicamarca"
+          ]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor"]
+        }
+      ]
+    },
+    {
       "slug": "pierina-mayte-milla-velasquez",
       "name": "Pierina Mayte Milla Velasquez",
       "initials": "PM",
@@ -63006,6 +63524,75 @@
         {
           "place": "pucp",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "aldo-moya",
+      "name": "Aldo Moya",
+      "initials": "AM",
+      "source": "web",
+      "url": "https://orcid.org/0000-0001-6048-6290",
+      "orcid": "0000-0001-6048-6290",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "odesa-ecologica",
+          "level": "Licenciatura",
+          "field": "Ingeniero meteorólogo",
+          "start": 1987,
+          "end": 1992
+        },
+        {
+          "place": "insmet",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1999,
+          "end": 2003
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Investigador, subdirección de ciencias de la atmósfera e hidrósfera"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador, subdirección de ciencias de la atmósfera e hidrósfera",
+          "start": 2017,
+          "end": "now"
+        },
+        {
+          "place": "insmet",
+          "name": "Instituto de Meteorología de Cuba",
+          "role": "Director e investigador, pronóstico meteorológico",
+          "start": 1997,
+          "end": 2017
+        }
+      ],
+      "path": [
+        {
+          "place": "odesa-ecologica",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "insmet",
+          "did": [
+            "Director e investigador, pronóstico meteorológico",
+            "Doctorado"
+          ]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Investigador, subdirección de ciencias de la atmósfera e hidrósfera"
+          ]
         }
       ]
     },
@@ -67982,6 +68569,72 @@
         {
           "place": "pucp",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "maria-de-los-angeles-perez-tello",
+      "name": "María de los Ángeles Pérez Tello",
+      "initials": "MP",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/she-her-mar%C3%ADa-de-los-%C3%A1ngeles-p%C3%A9rez-tello-6204b3281/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Bachillerato en ingeniería",
+      "track": "Ingeniería",
+      "fields": [
+        "Microfísica de la atmósfera",
+        "Instrumentación meteorológica",
+        "Clima de alta montaña"
+      ],
+      "studied": [
+        {
+          "place": "uc",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingeniería ambiental",
+          "start": 2014,
+          "end": 2019
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Asistente de investigación, observatorio de huayao"
+        },
+        {
+          "place": "inaigem",
+          "role": "Técnica de campo, cemgem"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Asistente de investigación, observatorio de huayao",
+          "start": 2023,
+          "end": "now"
+        },
+        {
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+          "role": "Técnica de campo, cemgem",
+          "start": 2024,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uc",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "igp",
+          "did": ["Asistente de investigación, observatorio de huayao"]
+        },
+        {
+          "place": "inaigem",
+          "did": ["Técnica de campo, cemgem"]
         }
       ]
     },
@@ -74732,6 +75385,95 @@
       ]
     },
     {
+      "slug": "marco-antonio-rivera-porras",
+      "name": "Marco Antonio Rivera Porras",
+      "initials": "MR",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=36109",
+      "orcid": "0000-0003-4339-9296",
+      "site": "CTI Vitae",
+      "updated": "02-09-2026",
+      "degree": "Doctorado",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": "Bachiller en geologia",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": "Geologo",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "blaise-pascal",
+          "level": "Maestría",
+          "field": "Diploma de estudios avanzados procesos magmáticos y metamórficos - vulcanología (máster)",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "blaise-pascal",
+          "level": "Doctorado",
+          "field": "Grado de doctor en ciencias de la tierra",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Investigador científico principal"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador científico principal",
+          "start": 2019,
+          "end": "now"
+        },
+        {
+          "place": "ingemmet",
+          "name": "Instituto Geológico, Minero y Metalúrgico",
+          "role": "Ingeniero iv",
+          "start": 2001,
+          "end": 2019
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Geólogo",
+          "start": null,
+          "end": null
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "blaise-pascal",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ingemmet",
+          "did": ["Ingeniero iv"]
+        },
+        {
+          "place": "igp",
+          "did": ["Geólogo", "Investigador científico principal"]
+        }
+      ]
+    },
+    {
       "slug": "gerardo-rivera-tello",
       "name": "Gerardo Rivera Tello",
       "initials": "GR",
@@ -80197,6 +80939,54 @@
       ]
     },
     {
+      "slug": "yamina-silva-vidal",
+      "name": "Yamina Silva Vidal",
+      "initials": "YS",
+      "source": "web",
+      "url": "https://web.archive.org/web/20120118025327/http://www.met.igp.gob.pe/personal/ysilva/",
+      "orcid": "0000-0003-0653-0224",
+      "site": "IGP",
+      "updated": "02-11-2026",
+      "degree": "Doctorado",
+      "track": "Otra formación",
+      "studied": [
+        {
+          "place": "rshu",
+          "level": "Doctorado",
+          "field": "Doctorado en ciencias físico-matemáticas",
+          "start": 1986,
+          "end": 1996
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Investigadora, ciencias de la atmósfera, hidrósfera y cambio climático"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigadora, ciencias de la atmósfera, hidrósfera y cambio climático",
+          "start": 1998,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "rshu",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Investigadora, ciencias de la atmósfera, hidrósfera y cambio climático"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "galo-emilio-sisniegas-charcape",
       "name": "Galo Emilio Sisniegas Charcape",
       "initials": "GS",
@@ -81034,6 +81824,125 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "luis-fernando-suarez-salas",
+      "name": "Luis Fernando Suarez Salas",
+      "initials": "LS",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=2310",
+      "orcid": "0000-0003-1857-8399",
+      "site": "CTI Vitae",
+      "updated": "09-12-2025",
+      "degree": "Licenciatura en ingeniería",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "uncp",
+          "level": "Licenciatura",
+          "field": "Ingeniero quimico",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Agregado de investigación"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Agregado de investigación",
+          "start": 2013,
+          "end": "now"
+        },
+        {
+          "place": "uc",
+          "name": "Universidad Continental",
+          "role": "Investigador",
+          "start": 2013,
+          "end": 2013
+        },
+        {
+          "place": "uap",
+          "name": "Universidad Alas Peruanas",
+          "role": "Director",
+          "start": 2009,
+          "end": 2013
+        },
+        {
+          "place": "uncp",
+          "name": "Universidad Nacional del Centro del Perú",
+          "role": "Investigador",
+          "start": 2001,
+          "end": 2009
+        },
+        {
+          "place": "concytec",
+          "name": "Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica",
+          "role": "Investigador",
+          "start": 2001,
+          "end": 2008
+        },
+        {
+          "place": "inanpe",
+          "name": "Instituto Antártico Peruano",
+          "role": "Consultor",
+          "start": 2007,
+          "end": 2008
+        },
+        {
+          "place": null,
+          "name": "Consejo Nacional del Ambiente",
+          "role": "Consultor",
+          "start": 2006,
+          "end": 2007
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Practicante",
+          "start": 1999,
+          "end": 1999
+        }
+      ],
+      "path": [
+        {
+          "place": "uncp",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "igp",
+          "did": ["Practicante"]
+        },
+        {
+          "place": "uncp",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "concytec",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "inanpe",
+          "did": ["Consultor"]
+        },
+        {
+          "place": "uap",
+          "did": ["Director"]
+        },
+        {
+          "place": "igp",
+          "did": ["Agregado de investigación"]
+        },
+        {
+          "place": "uc",
+          "did": ["Investigador"]
         }
       ]
     },
