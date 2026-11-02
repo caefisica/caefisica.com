@@ -1101,7 +1101,7 @@
           },
           {
             "name": "José Fernando Márquez Pachas",
-            "slug": null,
+            "slug": "jose-fernando-marquez-pachas",
             "works": 6
           },
           {
@@ -1285,6 +1285,10 @@
               {
                 "name": "Heriberto Sánchez",
                 "slug": null
+              },
+              {
+                "name": "Celeste Gutarra",
+                "slug": "celeste-jackelin-gutarra-huaman"
               }
             ],
             "n": 7
@@ -1584,7 +1588,7 @@
         "authors": [
           {
             "name": "Carlos Rodriguez‐Benites",
-            "slug": null,
+            "slug": "carlos-rodriguez-benites",
             "works": 8
           },
           {
@@ -1711,6 +1715,10 @@
               {
                 "name": "René Rojas Rocca",
                 "slug": null
+              },
+              {
+                "name": "Edy E. Cuevas-Arizaca",
+                "slug": "edy-elar-cuevas-arizaca"
               }
             ],
             "n": 9
@@ -3726,6 +3734,10 @@
               {
                 "name": "René Rojas Rocca",
                 "slug": null
+              },
+              {
+                "name": "Edy E. Cuevas-Arizaca",
+                "slug": "edy-elar-cuevas-arizaca"
               }
             ],
             "n": 9
@@ -3761,7 +3773,7 @@
             "authors": [
               {
                 "name": "Edy E. Cuevas-Arizaca",
-                "slug": null
+                "slug": "edy-elar-cuevas-arizaca"
               },
               {
                 "name": "Carlos D. Gonzales-Lorenzo",
@@ -3968,7 +3980,7 @@
           },
           {
             "name": "Edy E. Cuevas-Arizaca",
-            "slug": null,
+            "slug": "edy-elar-cuevas-arizaca",
             "works": 2
           },
           {
@@ -4372,7 +4384,7 @@
           },
           {
             "name": "Carlos Rodriguez‐Benites",
-            "slug": null,
+            "slug": "carlos-rodriguez-benites",
             "works": 3
           },
           {
@@ -4458,6 +4470,10 @@
               {
                 "name": "JORGE ARIGONY NETO",
                 "slug": null
+              },
+              {
+                "name": "Viankcor Cashpa",
+                "slug": "viankcor-henry-cashpa-carrion"
               }
             ],
             "n": 26
@@ -4637,7 +4653,7 @@
               },
               {
                 "name": "Viankcor Cashpa",
-                "slug": null
+                "slug": "viankcor-henry-cashpa-carrion"
               },
               {
                 "name": "Luz Anghela Flores Vilca",
@@ -4767,6 +4783,10 @@
               {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Luciano Stucchi",
+                "slug": "luciano-stucchi"
               }
             ],
             "n": 32
@@ -4854,7 +4874,7 @@
             "authors": [
               {
                 "name": "J. A. G. Davalos",
-                "slug": null
+                "slug": "jorge-davalos"
               }
             ],
             "n": 1
@@ -5436,7 +5456,7 @@
             "authors": [
               {
                 "name": "Héctor A. Benítez",
-                "slug": null
+                "slug": "hector-a-benitez"
               },
               {
                 "name": "René Negrón Huamán",
@@ -5454,7 +5474,7 @@
             "authors": [
               {
                 "name": "Eduardo Carrasco-S",
-                "slug": null
+                "slug": "eduardo-becquer-carrasco-solis"
               },
               {
                 "name": "Felipe Canovas",
@@ -5462,7 +5482,7 @@
               },
               {
                 "name": "José Fernando Márquez Pachas",
-                "slug": null
+                "slug": "jose-fernando-marquez-pachas"
               }
             ],
             "n": 12
@@ -6979,6 +6999,10 @@
               {
                 "name": "Y. Buleje",
                 "slug": null
+              },
+              {
+                "name": "J. Tacza",
+                "slug": "jose-carlos-tacza-anaya"
               }
             ],
             "n": 7
@@ -6996,7 +7020,7 @@
               },
               {
                 "name": "J. Tacza",
-                "slug": null
+                "slug": "jose-carlos-tacza-anaya"
               },
               {
                 "name": "Joseph Arroyo",
@@ -7053,7 +7077,7 @@
         "authors": [
           {
             "name": "J. Tacza",
-            "slug": null,
+            "slug": "jose-carlos-tacza-anaya",
             "works": 2
           },
           {
@@ -7232,6 +7256,10 @@
               {
                 "name": "JORGE ARIGONY NETO",
                 "slug": null
+              },
+              {
+                "name": "Viankcor Cashpa",
+                "slug": "viankcor-henry-cashpa-carrion"
               }
             ],
             "n": 26
@@ -8700,6 +8728,10 @@
               {
                 "name": "Victor B.T. Alves",
                 "slug": null
+              },
+              {
+                "name": "Juan M. Z. Pretel",
+                "slug": "juan-zarate-pretel"
               }
             ],
             "n": 6
@@ -8740,7 +8772,7 @@
           },
           {
             "name": "Juan M. Z. Pretel",
-            "slug": null,
+            "slug": "juan-zarate-pretel",
             "works": 10
           },
           {
@@ -9534,7 +9566,7 @@
           },
           {
             "name": "Carlos Rodriguez‐Benites",
-            "slug": null,
+            "slug": "carlos-rodriguez-benites",
             "works": 3
           },
           {
@@ -9705,7 +9737,7 @@
               },
               {
                 "name": "José C. Jiménez",
-                "slug": null
+                "slug": "jose-carlos-jimenez-apaza"
               },
               {
                 "name": "Ignacio Francisco Ranea-Sandoval",
@@ -9914,7 +9946,7 @@
             "authors": [
               {
                 "name": "Ivan Herrera-Casas",
-                "slug": null
+                "slug": "ivan-herrera-casas"
               },
               {
                 "name": "Rodolfo Rodríguez",
@@ -11483,7 +11515,7 @@
               },
               {
                 "name": "Luciano Stucchi",
-                "slug": null
+                "slug": "luciano-stucchi"
               }
             ],
             "n": 5
@@ -11510,6 +11542,10 @@
               {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Luciano Stucchi",
+                "slug": "luciano-stucchi"
               }
             ],
             "n": 32
@@ -11531,7 +11567,7 @@
               },
               {
                 "name": "Luciano Stucchi",
-                "slug": null
+                "slug": "luciano-stucchi"
               }
             ],
             "n": 5
@@ -11580,6 +11616,10 @@
               {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Luciano Stucchi",
+                "slug": "luciano-stucchi"
               }
             ],
             "n": 29
@@ -11606,6 +11646,10 @@
               {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Luciano Stucchi",
+                "slug": "luciano-stucchi"
               }
             ],
             "n": 30
@@ -11698,7 +11742,7 @@
         "authors": [
           {
             "name": "Luciano Stucchi",
-            "slug": null,
+            "slug": "luciano-stucchi",
             "works": 5
           },
           {
@@ -12370,7 +12414,7 @@
             "authors": [
               {
                 "name": "Eduardo Carrasco-S",
-                "slug": null
+                "slug": "eduardo-becquer-carrasco-solis"
               },
               {
                 "name": "Felipe Canovas",
@@ -12378,7 +12422,7 @@
               },
               {
                 "name": "José Fernando Márquez Pachas",
-                "slug": null
+                "slug": "jose-fernando-marquez-pachas"
               }
             ],
             "n": 12
@@ -12518,6 +12562,10 @@
               {
                 "name": "Heriberto Sánchez",
                 "slug": null
+              },
+              {
+                "name": "Celeste Gutarra",
+                "slug": "celeste-jackelin-gutarra-huaman"
               }
             ],
             "n": 7
@@ -12535,7 +12583,7 @@
               },
               {
                 "name": "Cecilia Querebalú-García",
-                "slug": null
+                "slug": "cecilia-querebalu"
               },
               {
                 "name": "Eduardo Garnique-Millones",
@@ -12609,7 +12657,7 @@
               },
               {
                 "name": "A. Arroyo",
-                "slug": null
+                "slug": "aldo-arroyo-herrera"
               }
             ],
             "n": 4
@@ -12964,7 +13012,7 @@
               },
               {
                 "name": "José Fernando Márquez Pachas",
-                "slug": null
+                "slug": "jose-fernando-marquez-pachas"
               },
               {
                 "name": "A. Gonzales",
@@ -13008,7 +13056,7 @@
             "authors": [
               {
                 "name": "Eduardo Carrasco-S",
-                "slug": null
+                "slug": "eduardo-becquer-carrasco-solis"
               },
               {
                 "name": "Felipe Canovas",
@@ -13016,7 +13064,7 @@
               },
               {
                 "name": "José Fernando Márquez Pachas",
-                "slug": null
+                "slug": "jose-fernando-marquez-pachas"
               }
             ],
             "n": 12
@@ -13040,7 +13088,7 @@
           },
           {
             "name": "José Fernando Márquez Pachas",
-            "slug": null,
+            "slug": "jose-fernando-marquez-pachas",
             "works": 6
           },
           {
@@ -13305,12 +13353,12 @@
           },
           {
             "name": "Emzon Enrique Murga-Torres",
-            "slug": null,
+            "slug": "emzon-enrique-murga-torres",
             "works": 1
           },
           {
             "name": "Renny Nazario-Naveda",
-            "slug": null,
+            "slug": "renny-nazario",
             "works": 1
           },
           {
@@ -14435,6 +14483,10 @@
               {
                 "name": "JORGE ARIGONY NETO",
                 "slug": null
+              },
+              {
+                "name": "Viankcor Cashpa",
+                "slug": "viankcor-henry-cashpa-carrion"
               }
             ],
             "n": 26
@@ -14989,7 +15041,7 @@
               },
               {
                 "name": "Walter Mario Solano Reynoso",
-                "slug": null
+                "slug": "walter-mario-solano-reynoso"
               }
             ],
             "n": 3
@@ -15046,7 +15098,7 @@
           },
           {
             "name": "Walter Mario Solano Reynoso",
-            "slug": null,
+            "slug": "walter-mario-solano-reynoso",
             "works": 1
           },
           {
@@ -15341,7 +15393,7 @@
             "authors": [
               {
                 "name": "Ivan Herrera-Casas",
-                "slug": null
+                "slug": "ivan-herrera-casas"
               },
               {
                 "name": "Rodolfo Rodríguez",
@@ -15455,7 +15507,7 @@
               },
               {
                 "name": "José Suclupe",
-                "slug": null
+                "slug": "jose-suclupe"
               }
             ],
             "n": 11
@@ -15473,7 +15525,7 @@
               },
               {
                 "name": "José Suclupe",
-                "slug": null
+                "slug": "jose-suclupe"
               },
               {
                 "name": "Marco A. Milla",
@@ -15491,7 +15543,7 @@
             "authors": [
               {
                 "name": "José Suclupe",
-                "slug": null
+                "slug": "jose-suclupe"
               },
               {
                 "name": "Jorge Luis Chau",
@@ -15544,6 +15596,10 @@
               {
                 "name": "Erdal Yiğit",
                 "slug": null
+              },
+              {
+                "name": "José Suclupe",
+                "slug": "jose-suclupe"
               }
             ],
             "n": 5
@@ -15557,7 +15613,7 @@
           },
           {
             "name": "José Suclupe",
-            "slug": null,
+            "slug": "jose-suclupe",
             "works": 7
           },
           {
@@ -16134,6 +16190,10 @@
               {
                 "name": "Leonardo Pessoa da Silva",
                 "slug": null
+              },
+              {
+                "name": "José Fernando Márquez Pachas",
+                "slug": "jose-fernando-marquez-pachas"
               }
             ],
             "n": 11
@@ -16162,7 +16222,7 @@
           },
           {
             "name": "José Fernando Márquez Pachas",
-            "slug": null,
+            "slug": "jose-fernando-marquez-pachas",
             "works": 6
           },
           {
@@ -17623,7 +17683,15 @@
               },
               {
                 "name": "Hector Chinchay-Espino",
-                "slug": null
+                "slug": "hector-almanzor-chinchay-espino"
+              },
+              {
+                "name": "Emzon Enrique Murga-Torres",
+                "slug": "emzon-enrique-murga-torres"
+              },
+              {
+                "name": "Renny Nazario-Naveda",
+                "slug": "renny-nazario"
               }
             ],
             "n": 6
@@ -17725,7 +17793,7 @@
           },
           {
             "name": "Emzon Enrique Murga-Torres",
-            "slug": null,
+            "slug": "emzon-enrique-murga-torres",
             "works": 1
           },
           {
@@ -17750,7 +17818,7 @@
           },
           {
             "name": "Renny Nazario-Naveda",
-            "slug": null,
+            "slug": "renny-nazario",
             "works": 1
           },
           {
@@ -18364,7 +18432,7 @@
               },
               {
                 "name": "Cecilia Querebalú-García",
-                "slug": null
+                "slug": "cecilia-querebalu"
               },
               {
                 "name": "Eduardo Garnique-Millones",
@@ -19380,6 +19448,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5059651134",
+      "area": "Partículas y física nuclear",
+      "works_count": 15,
+      "cited_by": 37,
       "studied": [
         {
           "place": "uni",
@@ -19566,6 +19638,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5053176173",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 3,
       "studied": [
         {
           "place": "unmsm",
@@ -19633,6 +19709,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5077900646",
+      "area": "Materia condensada y materiales",
+      "works_count": 15,
+      "cited_by": 19,
       "studied": [
         {
           "place": "unitru",
@@ -20363,6 +20443,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5015131308",
+      "area": "Partículas y física nuclear",
+      "works_count": 8,
+      "cited_by": 37,
       "studied": [
         {
           "place": "unac",
@@ -20540,6 +20624,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5058422022",
+      "area": "Física médica y radiaciones",
+      "works_count": 6,
+      "cited_by": 12,
       "studied": [
         {
           "place": "unmsm",
@@ -21339,6 +21427,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5093226832",
+      "area": "Astronomía y astrofísica",
+      "works_count": 2,
+      "cited_by": 26,
       "studied": [
         {
           "place": "unitru",
@@ -22466,6 +22558,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en geofísica",
+      "openalex": "A5031503289",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 5,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unmsm",
@@ -23017,6 +23113,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5029612752",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 13,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unmsm",
@@ -23203,6 +23303,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5109517078",
+      "area": "Ingeniería y energía",
+      "works_count": 4,
+      "cited_by": 6,
       "studied": [
         {
           "place": "uni",
@@ -23811,6 +23915,10 @@
       "site": "INSPIRE",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5071504944",
+      "area": "Partículas y física nuclear",
+      "works_count": 4,
+      "cited_by": 15,
       "studied": [
         {
           "place": "unap-cl",
@@ -24330,6 +24438,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5146928933",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 3,
       "studied": [
         {
           "place": "unmsm",
@@ -24929,6 +25041,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5065475231",
+      "area": "Materia condensada y materiales",
+      "works_count": 56,
+      "cited_by": 454,
       "studied": [
         {
           "place": "unitru",
@@ -25058,6 +25174,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5075798857",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 6,
+      "cited_by": 7,
       "studied": [
         {
           "place": "unmsm",
@@ -25269,6 +25389,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5093830738",
+      "area": "Ingeniería y energía",
+      "works_count": 4,
+      "cited_by": 33,
       "studied": [
         {
           "place": "unica",
@@ -25480,6 +25604,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5019540874",
+      "area": "Óptica y física atómica",
+      "works_count": 8,
+      "cited_by": 16,
       "studied": [
         {
           "place": "uni",
@@ -25749,6 +25877,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5116440176",
+      "area": "Materia condensada y materiales",
+      "works_count": 2,
+      "cited_by": 7,
       "studied": [
         {
           "place": "unitru",
@@ -26735,6 +26867,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5127749626",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unprg",
@@ -26866,6 +27002,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en geofísica",
+      "openalex": "A5103154450",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 3,
       "studied": [
         {
           "place": "unsa",
@@ -27317,6 +27457,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5055216936",
+      "area": "Materia condensada y materiales",
+      "works_count": 44,
+      "cited_by": 1212,
       "studied": [
         {
           "place": "unitru",
@@ -27712,6 +27856,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5030883890",
+      "area": "Física computacional y matemática",
+      "works_count": 5,
+      "cited_by": 19,
       "studied": [
         {
           "place": "unmsm",
@@ -28699,6 +28847,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5077576222",
+      "area": "Física computacional y matemática",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unitru",
@@ -28935,6 +29087,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5010384080",
+      "area": "Partículas y física nuclear",
+      "works_count": 5,
+      "cited_by": 47,
       "studied": [
         {
           "place": "uni",
@@ -29010,6 +29166,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5006634517",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unitru",
@@ -30016,6 +30176,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5106928727",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -30729,6 +30893,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5135755105",
+      "area": "Física médica y radiaciones",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unitru",
@@ -31105,6 +31273,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5133353025",
+      "area": "Física médica y radiaciones",
+      "works_count": 4,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -31190,6 +31362,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5120689987",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -31218,6 +31394,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5057924994",
+      "area": "Materia condensada y materiales",
+      "works_count": 313,
+      "cited_by": 4528,
       "studied": [
         {
           "place": "uni",
@@ -31661,6 +31841,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5120963308",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unmsm",
@@ -31856,6 +32040,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5065165565",
+      "area": "Ingeniería y energía",
+      "works_count": 36,
+      "cited_by": 248,
       "studied": [
         {
           "place": "unmsm",
@@ -32626,6 +32814,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5055514542",
+      "area": "Materia condensada y materiales",
+      "works_count": 24,
+      "cited_by": 235,
       "studied": [
         {
           "place": "unac",
@@ -33610,6 +33802,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5138498074",
+      "area": "Óptica y física atómica",
+      "works_count": 7,
+      "cited_by": 130,
       "studied": [
         {
           "place": "uni",
@@ -33834,6 +34030,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5029786449",
+      "area": "Materia condensada y materiales",
+      "works_count": 11,
+      "cited_by": 70,
       "studied": [
         {
           "place": "unitru",
@@ -34008,6 +34208,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5034169678",
+      "area": "Materia condensada y materiales",
+      "works_count": 64,
+      "cited_by": 625,
       "studied": [
         {
           "place": "unmsm",
@@ -34082,6 +34286,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5049412122",
+      "area": "Astronomía y astrofísica",
+      "works_count": 115,
+      "cited_by": 2543,
       "studied": [
         {
           "place": "pucp",
@@ -34163,6 +34371,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5092709496",
+      "area": null,
+      "works_count": 6,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unitru",
@@ -34770,6 +34982,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5099093444",
+      "area": "Ingeniería y energía",
+      "works_count": 4,
+      "cited_by": 130,
       "studied": [
         {
           "place": "unitru",
@@ -34813,6 +35029,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5090056559",
+      "area": "Materia condensada y materiales",
+      "works_count": 7,
+      "cited_by": 35,
       "studied": [
         {
           "place": "unitru",
@@ -35783,6 +36003,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5059233911",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unmsm",
@@ -36627,6 +36851,56 @@
       ]
     },
     {
+      "slug": "jean-manuel-alejandro-cordova-garcia",
+      "name": "Jean Manuel Alejandro Córdova García",
+      "initials": "JC",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/jean-cordova/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Bachillerato en física",
+      "fields": ["Ciencia de datos", "Aprendizaje automático", "Oceanografía"],
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2016,
+          "end": 2022
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Grupo de Investigacion En Ciencias de la Tierra Clima y Medio Ambiente Ctclima",
+          "role": "Investigador",
+          "start": 2020,
+          "end": "now"
+        },
+        {
+          "place": "imarpe",
+          "name": "Instituto del Mar del Perú",
+          "role": "Practicante en el laboratorio de hidrofísica marina y el centro de datos oceanográficos",
+          "start": 2023,
+          "end": 2023
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "imarpe",
+          "did": [
+            "Practicante en el laboratorio de hidrofísica marina y el centro de datos oceanográficos"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "elio-william-cori-casimiro",
       "name": "Elio William Cori Casimiro",
       "initials": "EC",
@@ -36813,6 +37087,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5022023072",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 24,
+      "cited_by": 158,
       "studied": [
         {
           "place": "unprg",
@@ -37041,6 +37319,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en geofísica",
+      "openalex": "A5022374041",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 13,
+      "cited_by": 12,
       "studied": [
         {
           "place": "unsa",
@@ -37114,6 +37396,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en geofísica",
+      "openalex": "A5030937116",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 6,
+      "cited_by": 57,
       "studied": [
         {
           "place": "unsa",
@@ -37197,6 +37483,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5005453128",
+      "area": "Partículas y física nuclear",
+      "works_count": 118,
+      "cited_by": 423,
       "studied": [
         {
           "place": "unmsm",
@@ -37342,6 +37632,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5066679103",
+      "area": "Astronomía y astrofísica",
+      "works_count": 57,
+      "cited_by": 555,
       "studied": [
         {
           "place": "unsa",
@@ -37448,6 +37742,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5122188952",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unitru",
@@ -37659,6 +37957,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5103056887",
+      "area": "Física médica y radiaciones",
+      "works_count": 9,
+      "cited_by": 59,
       "studied": [
         {
           "place": "unsa",
@@ -38162,6 +38464,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5063012102",
+      "area": "Astronomía y astrofísica",
+      "works_count": 8,
+      "cited_by": 38,
       "studied": [
         {
           "place": "unmsm",
@@ -38433,6 +38739,76 @@
       ]
     },
     {
+      "slug": "magherlly-denisse-daviran-carrasco",
+      "name": "Magherlly Denisse Daviran Carrasco",
+      "initials": "MD",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/magherllydaviran/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Bachillerato en física",
+      "fields": ["Espintrónica", "Películas delgadas", "Materiales cuánticos"],
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2019,
+          "end": 2024
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "citbm",
+          "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
+          "role": "Asistente de investigación",
+          "start": 2022,
+          "end": 2025
+        },
+        {
+          "place": "cnpem",
+          "name": "Centro Nacional de Pesquisa em Energia e Materiais",
+          "role": "Pasante de investigación",
+          "start": 2024,
+          "end": 2024
+        },
+        {
+          "place": "cnrs",
+          "name": "Centre national de la recherche scientifique",
+          "role": "Pasante de investigación",
+          "start": 2023,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "Munich Center for Quantum Science and Technology",
+          "role": "Pasante de verano",
+          "start": 2023,
+          "end": 2023
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Asistente de investigación"]
+        },
+        {
+          "place": "cnrs",
+          "did": ["Pasante de investigación"]
+        },
+        {
+          "place": "cnpem",
+          "did": ["Pasante de investigación"]
+        }
+      ]
+    },
+    {
       "slug": "miguel-angel-de-la-cruz-cruz",
       "name": "Miguel Angel De la Cruz Cruz",
       "initials": "MD",
@@ -38558,6 +38934,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5071927201",
+      "area": "Enseñanza de la física",
+      "works_count": 11,
+      "cited_by": 9,
       "studied": [
         {
           "place": "unprg",
@@ -38828,6 +39208,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5047802380",
+      "area": "Ingeniería y energía",
+      "works_count": 96,
+      "cited_by": 569,
       "studied": [
         {
           "place": "unitru",
@@ -39031,6 +39415,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5035474176",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unsaac",
@@ -39151,6 +39539,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5039575835",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unitru",
@@ -39320,6 +39712,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5047047724",
+      "area": "Partículas y física nuclear",
+      "works_count": 75,
+      "cited_by": 1651,
       "studied": [
         {
           "place": "unitru",
@@ -39958,6 +40354,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5094167488",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -40049,6 +40449,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5094130979",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -40097,6 +40501,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5046144416",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 21,
+      "cited_by": 5,
       "studied": [
         {
           "place": "unmsm",
@@ -40514,6 +40922,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5076093398",
+      "area": "Física computacional y matemática",
+      "works_count": 17,
+      "cited_by": 27,
       "studied": [
         {
           "place": "uni",
@@ -41051,6 +41463,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5130390342",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -41107,6 +41523,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5025135997",
+      "area": "Física computacional y matemática",
+      "works_count": 32,
+      "cited_by": 121,
       "studied": [
         {
           "place": "unprg",
@@ -41851,6 +42271,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5103098402",
+      "area": "Materia condensada y materiales",
+      "works_count": 8,
+      "cited_by": 34,
       "studied": [
         {
           "place": "unmsm",
@@ -41901,6 +42325,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5067503264",
+      "area": "Astronomía y astrofísica",
+      "works_count": 64,
+      "cited_by": 317,
       "studied": [
         {
           "place": "pucp",
@@ -42004,6 +42432,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en geofísica",
+      "openalex": "A5102908669",
+      "area": "Astronomía y astrofísica",
+      "works_count": 47,
+      "cited_by": 329,
       "studied": [
         {
           "place": "unmsm",
@@ -42322,6 +42754,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5063815537",
+      "area": "Materia condensada y materiales",
+      "works_count": 4,
+      "cited_by": 38,
       "studied": [
         {
           "place": "unac",
@@ -42642,6 +43078,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5107971959",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 6,
+      "cited_by": 50,
       "studied": [
         {
           "place": "pucp",
@@ -42755,6 +43195,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5120053678",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unac",
@@ -42837,6 +43281,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5064610651",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 4,
       "studied": [
         {
           "place": "unsa",
@@ -42998,6 +43446,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5048271764",
+      "area": "Ingeniería y energía",
+      "works_count": 14,
+      "cited_by": 29,
       "studied": [
         {
           "place": "pucp",
@@ -43867,6 +44319,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5111510339",
+      "area": "Ingeniería y energía",
+      "works_count": 6,
+      "cited_by": 18,
       "studied": [
         {
           "place": "uni",
@@ -43950,6 +44406,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5062863643",
+      "area": "Materia condensada y materiales",
+      "works_count": 157,
+      "cited_by": 1869,
       "studied": [
         {
           "place": "unfv",
@@ -45255,6 +45715,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en geofísica",
+      "openalex": "A5031796175",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 27,
+      "cited_by": 169,
       "studied": [
         {
           "place": "unsa",
@@ -45677,6 +46141,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5118748822",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unsa",
@@ -46017,6 +46485,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5092230005",
+      "area": "Física médica y radiaciones",
+      "works_count": 10,
+      "cited_by": 27,
       "studied": [
         {
           "place": "unfv",
@@ -46123,6 +46595,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5073082430",
+      "area": "Partículas y física nuclear",
+      "works_count": 22,
+      "cited_by": 186,
       "studied": [
         {
           "place": "uni",
@@ -46411,6 +46887,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5152486630",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -47235,6 +47715,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5018523885",
+      "area": "Física computacional y matemática",
+      "works_count": 3,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unmsm",
@@ -47446,6 +47930,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5157890817",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unp",
@@ -47709,6 +48197,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5003336992",
+      "area": "Astronomía y astrofísica",
+      "works_count": 12,
+      "cited_by": 60,
       "studied": [
         {
           "place": "unitru",
@@ -47825,6 +48317,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5095912632",
+      "area": "Ingeniería y energía",
+      "works_count": 10,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unmsm",
@@ -47890,6 +48386,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5030539508",
+      "area": "Partículas y física nuclear",
+      "works_count": 24,
+      "cited_by": 57,
       "studied": [
         {
           "place": "pucp",
@@ -49120,6 +49620,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5013381172",
+      "area": "Física computacional y matemática",
+      "works_count": 18,
+      "cited_by": 18,
       "studied": [
         {
           "place": "unmsm",
@@ -49920,6 +50424,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5072468351",
+      "area": "Partículas y física nuclear",
+      "works_count": 18,
+      "cited_by": 318,
       "studied": [
         {
           "place": "unsa",
@@ -50425,6 +50933,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5064219771",
+      "area": "Materia condensada y materiales",
+      "works_count": 30,
+      "cited_by": 204,
       "studied": [
         {
           "place": "unitru",
@@ -50760,6 +51272,10 @@
       "site": null,
       "updated": "01-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5018416146",
+      "area": "Materia condensada y materiales",
+      "works_count": 93,
+      "cited_by": 493,
       "studied": [
         {
           "place": "unmsm",
@@ -50855,6 +51371,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5124437268",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -50900,6 +51420,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5027769223",
+      "area": "Materia condensada y materiales",
+      "works_count": 54,
+      "cited_by": 879,
       "studied": [
         {
           "place": "unmsm",
@@ -51015,6 +51539,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5061696363",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 64,
+      "cited_by": 192,
       "studied": [
         {
           "place": "unsa",
@@ -51112,6 +51640,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5093826688",
+      "area": "Astronomía y astrofísica",
+      "works_count": 29,
+      "cited_by": 582,
       "studied": [
         {
           "place": "uni",
@@ -51187,6 +51719,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en geofísica",
+      "openalex": "A5076401955",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 55,
+      "cited_by": 114,
       "studied": [
         {
           "place": "unsa",
@@ -51928,6 +52464,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5035724759",
+      "area": "Ingeniería y energía",
+      "works_count": 6,
+      "cited_by": 3,
       "studied": [
         {
           "place": "unmsm",
@@ -52348,6 +52888,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5128755399",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -52376,6 +52920,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5032328996",
+      "area": null,
+      "works_count": 7,
+      "cited_by": 35,
       "studied": [
         {
           "place": "unac",
@@ -53222,6 +53770,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5052711998",
+      "area": "Ingeniería y energía",
+      "works_count": 43,
+      "cited_by": 1368,
       "studied": [
         {
           "place": "unitru",
@@ -53899,6 +54451,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5134413907",
+      "area": "Óptica y física atómica",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -54067,6 +54623,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5060297554",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 14,
       "studied": [
         {
           "place": "unsa",
@@ -54414,6 +54974,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5106167550",
+      "area": "Partículas y física nuclear",
+      "works_count": 6,
+      "cited_by": 15,
       "studied": [
         {
           "place": "uni",
@@ -54685,6 +55249,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5052945926",
+      "area": "Ingeniería y energía",
+      "works_count": 10,
+      "cited_by": 93,
       "studied": [
         {
           "place": "unitru",
@@ -54872,6 +55440,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5000709897",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unap",
@@ -54951,6 +55523,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5021574736",
+      "area": "Física computacional y matemática",
+      "works_count": 14,
+      "cited_by": 23,
       "studied": [
         {
           "place": "unsa",
@@ -55611,6 +56187,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5085442484",
+      "area": "Física médica y radiaciones",
+      "works_count": 15,
+      "cited_by": 8,
       "studied": [
         {
           "place": "unmsm",
@@ -55868,6 +56448,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5108862414",
+      "area": "Enseñanza de la física",
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unprg",
@@ -56499,6 +57083,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5037566861",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 3,
+      "cited_by": 37,
       "studied": [
         {
           "place": "unmsm",
@@ -56753,6 +57341,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5118826467",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 4,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -56794,6 +57386,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5139222499",
+      "area": "Materia condensada y materiales",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unsa",
@@ -56934,6 +57530,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5060260045",
+      "area": "Materia condensada y materiales",
+      "works_count": 40,
+      "cited_by": 381,
       "studied": [
         {
           "place": "unitru",
@@ -57212,6 +57812,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5003357672",
+      "area": "Óptica y física atómica",
+      "works_count": 28,
+      "cited_by": 140,
       "studied": [
         {
           "place": "unac",
@@ -57562,6 +58166,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5115023442",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 4,
       "studied": [
         {
           "place": "unp",
@@ -57877,6 +58485,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5019506310",
+      "area": null,
+      "works_count": 4,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -57975,6 +58587,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5002117870",
+      "area": "Física computacional y matemática",
+      "works_count": 7,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unitru",
@@ -58115,6 +58731,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5080910403",
+      "area": "Ingeniería y energía",
+      "works_count": 31,
+      "cited_by": 165,
       "studied": [
         {
           "place": "uni",
@@ -58284,6 +58904,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5080175033",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 28,
+      "cited_by": 156,
       "studied": [
         {
           "place": "unmsm",
@@ -58565,6 +59189,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5000834787",
+      "area": "Física médica y radiaciones",
+      "works_count": 4,
+      "cited_by": 47,
       "studied": [
         {
           "place": "unmsm",
@@ -59773,6 +60401,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5041846904",
+      "area": null,
+      "works_count": 4,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unitru",
@@ -59916,6 +60548,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en geofísica",
+      "openalex": "A5106154977",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unsa",
@@ -60615,6 +61251,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5004769680",
+      "area": "Ingeniería y energía",
+      "works_count": 15,
+      "cited_by": 71,
       "studied": [
         {
           "place": "unitru",
@@ -61157,6 +61797,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5013561017",
+      "area": "Ingeniería y energía",
+      "works_count": 126,
+      "cited_by": 582,
       "studied": [
         {
           "place": "unitru",
@@ -61872,6 +62516,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5022407484",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 17,
       "studied": [
         {
           "place": "unitru",
@@ -62280,6 +62928,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5043893074",
+      "area": "Partículas y física nuclear",
+      "works_count": 3,
+      "cited_by": 8,
       "studied": [
         {
           "place": "pucp",
@@ -62383,6 +63035,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5006581112",
+      "area": "Ingeniería y energía",
+      "works_count": 10,
+      "cited_by": 5,
       "studied": [
         {
           "place": "uni",
@@ -62970,6 +63626,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5081696182",
+      "area": "Materia condensada y materiales",
+      "works_count": 53,
+      "cited_by": 523,
       "studied": [
         {
           "place": "unsa",
@@ -63960,6 +64620,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5074556281",
+      "area": "Física médica y radiaciones",
+      "works_count": 31,
+      "cited_by": 96,
       "studied": [
         {
           "place": "unmsm",
@@ -64444,6 +65108,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5082504864",
+      "area": "Materia condensada y materiales",
+      "works_count": 26,
+      "cited_by": 200,
       "studied": [
         {
           "place": "unp",
@@ -64867,6 +65535,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5032253437",
+      "area": "Física médica y radiaciones",
+      "works_count": 4,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -64925,6 +65597,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5034772137",
+      "area": "Partículas y física nuclear",
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "pucp",
@@ -65492,6 +66168,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5110749776",
+      "area": "Ingeniería y energía",
+      "works_count": 15,
+      "cited_by": 19,
       "studied": [
         {
           "place": "uni",
@@ -65598,6 +66278,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5097028038",
+      "area": null,
+      "works_count": 3,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -66054,6 +66738,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5049645654",
+      "area": "Materia condensada y materiales",
+      "works_count": 6,
+      "cited_by": 25,
       "studied": [
         {
           "place": "unsaac",
@@ -66206,6 +66894,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5083379988",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 12,
+      "cited_by": 61,
       "studied": [
         {
           "place": "uni",
@@ -66698,6 +67390,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5015873778",
+      "area": "Física médica y radiaciones",
+      "works_count": 20,
+      "cited_by": 35,
       "studied": [
         {
           "place": "pucp",
@@ -67301,6 +67997,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5093830739",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 33,
       "studied": [
         {
           "place": "unsaac",
@@ -67625,6 +68325,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5137938556",
+      "area": "Física médica y radiaciones",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unprg",
@@ -67716,6 +68420,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5081091002",
+      "area": "Materia condensada y materiales",
+      "works_count": 11,
+      "cited_by": 140,
       "studied": [
         {
           "place": "unitru",
@@ -68240,6 +68948,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5076439526",
+      "area": "Materia condensada y materiales",
+      "works_count": 8,
+      "cited_by": 30,
       "studied": [
         {
           "place": "uni",
@@ -68628,6 +69340,10 @@
       "site": "cientificos.pe",
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5069133033",
+      "area": null,
+      "works_count": 3,
+      "cited_by": 25,
       "studied": [
         {
           "place": "unmsm",
@@ -68802,6 +69518,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5025416254",
+      "area": "Astronomía y astrofísica",
+      "works_count": 10,
+      "cited_by": 7,
       "studied": [
         {
           "place": "unica",
@@ -68996,6 +69716,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en geofísica",
+      "openalex": "A5059302237",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 7,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -69293,6 +70017,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5019456793",
+      "area": "Física computacional y matemática",
+      "works_count": 6,
+      "cited_by": 23,
       "studied": [
         {
           "place": "pucp",
@@ -69913,6 +70641,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5071873600",
+      "area": "Partículas y física nuclear",
+      "works_count": 5,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unitru",
@@ -70407,6 +71139,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5089419706",
+      "area": "Materia condensada y materiales",
+      "works_count": 12,
+      "cited_by": 456,
       "studied": [
         {
           "place": "uni",
@@ -70677,6 +71413,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5044784961",
+      "area": "Materia condensada y materiales",
+      "works_count": 12,
+      "cited_by": 26,
       "studied": [
         {
           "place": "unitru",
@@ -70984,6 +71724,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5015136193",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 5,
       "studied": [
         {
           "place": "unmsm",
@@ -71076,6 +71820,10 @@
       "site": "ORCID",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5101966053",
+      "area": "Astronomía y astrofísica",
+      "works_count": 17,
+      "cited_by": 35,
       "studied": [
         {
           "place": "udec",
@@ -71574,6 +72322,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5065821131",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 4,
+      "cited_by": 12,
       "studied": [
         {
           "place": "unmsm",
@@ -71731,6 +72483,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5020411814",
+      "area": "Ingeniería y energía",
+      "works_count": 49,
+      "cited_by": 358,
       "studied": [
         {
           "place": "unitru",
@@ -71833,6 +72589,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5120274855",
+      "area": "Física médica y radiaciones",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "pucp",
@@ -71939,6 +72699,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5092679615",
+      "area": "Enseñanza de la física",
+      "works_count": 13,
+      "cited_by": 10,
       "studied": [
         {
           "place": "unprg",
@@ -72027,6 +72791,63 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "oscar-rodriguez-rios",
+      "name": "Oscar Rodríguez Rios",
+      "initials": "OR",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/oscarrodriguezrios/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Bachillerato en física",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2019,
+          "end": 2024
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Bbva Peru",
+          "role": "Analista especialista de datos",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Ey",
+          "role": "Científico de datos",
+          "start": 2025,
+          "end": 2026
+        },
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Predocente",
+          "start": 2023,
+          "end": 2025
+        },
+        {
+          "place": null,
+          "name": "Agroexporter Sol de Olmos",
+          "role": "Analista de datos",
+          "start": 2023,
+          "end": 2023
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato", "Predocente"]
         }
       ]
     },
@@ -72126,6 +72947,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5014912439",
+      "area": "Materia condensada y materiales",
+      "works_count": 44,
+      "cited_by": 290,
       "studied": [
         {
           "place": "unmsm",
@@ -72216,6 +73041,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5043762467",
+      "area": "Materia condensada y materiales",
+      "works_count": 55,
+      "cited_by": 285,
       "studied": [
         {
           "place": "unmsm",
@@ -72323,6 +73152,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5002079263",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 51,
+      "cited_by": 191,
       "studied": [
         {
           "place": "unmsm",
@@ -72842,6 +73675,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5130727175",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 2,
       "studied": [
         {
           "place": "uni",
@@ -73413,6 +74250,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5083536053",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 6,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unmsm",
@@ -73737,6 +74578,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5101484237",
+      "area": "Física médica y radiaciones",
+      "works_count": 12,
+      "cited_by": 153,
       "studied": [
         {
           "place": "uni",
@@ -74682,6 +75527,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5119188035",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unac",
@@ -74820,6 +75669,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5113974048",
+      "area": "Ingeniería y energía",
+      "works_count": 38,
+      "cited_by": 185,
       "studied": [
         {
           "place": "uni",
@@ -75530,6 +76383,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5027952034",
+      "area": "Partículas y física nuclear",
+      "works_count": 470,
+      "cited_by": 21181,
       "studied": [
         {
           "place": "unitru",
@@ -75622,6 +76479,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5020633502",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 5,
       "studied": [
         {
           "place": "unmsm",
@@ -75753,6 +76614,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5127738669",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unitru",
@@ -76057,6 +76922,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5091633065",
+      "area": "Óptica y física atómica",
+      "works_count": 38,
+      "cited_by": 445,
       "studied": [
         {
           "place": "pucp",
@@ -76223,6 +77092,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5052913213",
+      "area": "Ingeniería y energía",
+      "works_count": 9,
+      "cited_by": 116,
       "studied": [
         {
           "place": "unsa",
@@ -76741,6 +77614,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5079909733",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 10,
+      "cited_by": 4,
       "studied": [
         {
           "place": "unmsm",
@@ -76998,6 +77875,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5075298371",
+      "area": "Partículas y física nuclear",
+      "works_count": 12,
+      "cited_by": 9,
       "studied": [
         {
           "place": "unac",
@@ -77234,6 +78115,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5013299932",
+      "area": "Física médica y radiaciones",
+      "works_count": 26,
+      "cited_by": 53,
       "studied": [
         {
           "place": "pucp",
@@ -77542,6 +78427,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5077514195",
+      "area": "Astronomía y astrofísica",
+      "works_count": 19,
+      "cited_by": 44,
       "studied": [
         {
           "place": "uni",
@@ -77986,6 +78875,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5029121612",
+      "area": "Astronomía y astrofísica",
+      "works_count": 67,
+      "cited_by": 466,
       "studied": [
         {
           "place": "unmsm",
@@ -78599,6 +79492,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5047180009",
+      "area": "Materia condensada y materiales",
+      "works_count": 18,
+      "cited_by": 168,
       "studied": [
         {
           "place": "unmsm",
@@ -78699,6 +79596,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5099093443",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 130,
       "studied": [
         {
           "place": "unitru",
@@ -79066,6 +79967,10 @@
       "site": "LinkedIn",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5008601936",
+      "area": "Astronomía y astrofísica",
+      "works_count": 7,
+      "cited_by": 44,
       "studied": [
         {
           "place": "unmsm",
@@ -79413,6 +80318,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5037553875",
+      "area": null,
+      "works_count": 4,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unitru",
@@ -80125,6 +81034,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5103135217",
+      "area": null,
+      "works_count": 4,
+      "cited_by": 19,
       "studied": [
         {
           "place": "unmsm",
@@ -80235,6 +81148,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5141243049",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -80839,6 +81756,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5086406663",
+      "area": "Materia condensada y materiales",
+      "works_count": 7,
+      "cited_by": 45,
       "studied": [
         {
           "place": "unsa",
@@ -81116,6 +82037,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5042556011",
+      "area": "Materia condensada y materiales",
+      "works_count": 13,
+      "cited_by": 30,
       "studied": [
         {
           "place": "unprg",
@@ -81194,6 +82119,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5049040586",
+      "area": "Óptica y física atómica",
+      "works_count": 8,
+      "cited_by": 64,
       "studied": [
         {
           "place": "uni",
@@ -81817,6 +82746,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
+      "openalex": "A5047656954",
+      "area": "Materia condensada y materiales",
+      "works_count": 13,
+      "cited_by": 159,
       "studied": [
         {
           "place": "unitru",
@@ -81996,6 +82929,10 @@
       "site": null,
       "updated": "09-05-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5075565852",
+      "area": "Astronomía y astrofísica",
+      "works_count": 37,
+      "cited_by": 282,
       "studied": [
         {
           "place": "msu",
@@ -82121,6 +83058,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5102829629",
+      "area": "Partículas y física nuclear",
+      "works_count": 3,
+      "cited_by": 32,
       "studied": [
         {
           "place": "unmsm",
@@ -82387,6 +83328,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5132972180",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -82935,6 +83880,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5056534298",
+      "area": "Ingeniería y energía",
+      "works_count": 91,
+      "cited_by": 391,
       "studied": [
         {
           "place": "unmsm",
@@ -83029,6 +83978,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5093929777",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 12,
       "studied": [
         {
           "place": "unsa",
@@ -83057,6 +84010,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en física",
+      "openalex": "A5132859060",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -83314,6 +84271,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5029718893",
+      "area": "Física computacional y matemática",
+      "works_count": 10,
+      "cited_by": 44,
       "studied": [
         {
           "place": "unitru",
@@ -83629,6 +84590,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5011716664",
+      "area": "Partículas y física nuclear",
+      "works_count": 41,
+      "cited_by": 138,
       "studied": [
         {
           "place": "unmsm",
@@ -84884,6 +85849,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5074719481",
+      "area": "Óptica y física atómica",
+      "works_count": 32,
+      "cited_by": 106,
       "studied": [
         {
           "place": "unmsm",
@@ -85185,6 +86154,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5029850047",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 10,
+      "cited_by": 10,
       "studied": [
         {
           "place": "unsaac",
@@ -85561,6 +86534,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5091385886",
+      "area": "Óptica y física atómica",
+      "works_count": 13,
+      "cited_by": 23,
       "studied": [
         {
           "place": "unmsm",
@@ -85625,6 +86602,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5074103869",
+      "area": "Astronomía y astrofísica",
+      "works_count": 49,
+      "cited_by": 656,
       "studied": [
         {
           "place": "unmsm",
@@ -86039,6 +87020,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5040075107",
+      "area": "Partículas y física nuclear",
+      "works_count": 11,
+      "cited_by": 66,
       "studied": [
         {
           "place": "unsa",
@@ -86125,6 +87110,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5103103773",
+      "area": "Física computacional y matemática",
+      "works_count": 8,
+      "cited_by": 40,
       "studied": [
         {
           "place": "pucp",
@@ -86572,6 +87561,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
+      "openalex": "A5000837297",
+      "area": "Astronomía y astrofísica",
+      "works_count": 43,
+      "cited_by": 826,
       "studied": [
         {
           "place": "unitru",
@@ -86667,6 +87660,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
+      "openalex": "A5158033494",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unp",
@@ -87004,6 +88001,10 @@
       "site": null,
       "updated": "02-11-2026",
       "degree": "Maestría en geofísica",
+      "openalex": "A5024748089",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 8,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
