@@ -881,6 +881,334 @@
       "country": "US",
       "lat": 34.1385,
       "lon": -118.1244
+    },
+    {
+      "id": "conida",
+      "name": "Agencia Espacial del Perú",
+      "short": "CONIDA",
+      "country": "PE",
+      "lat": -12.10249,
+      "lon": -77.02883
+    },
+    {
+      "id": "goyeneche",
+      "name": "Hospital Goyeneche",
+      "short": "H. Goyeneche",
+      "country": "PE",
+      "lat": -16.40246,
+      "lon": -71.52753
+    },
+    {
+      "id": "usil",
+      "name": "Universidad San Ignacio de Loyola",
+      "short": "USIL",
+      "country": "PE",
+      "lat": -12.0725,
+      "lon": -76.9517
+    },
+    {
+      "id": "ipen-pe",
+      "name": "Instituto Peruano de Energía Nuclear",
+      "short": "IPEN",
+      "country": "PE",
+      "lat": -12.08529,
+      "lon": -77.00889
+    },
+    {
+      "id": "inen",
+      "name": "Instituto Nacional de Enfermedades Neoplásicas",
+      "short": "INEN",
+      "country": "PE",
+      "lat": -12.11231,
+      "lon": -76.99835
+    },
+    {
+      "id": "jicamarca",
+      "name": "Radio Observatorio de Jicamarca",
+      "short": "Jicamarca",
+      "country": "PE",
+      "lat": -11.95139,
+      "lon": -76.87431
+    },
+    {
+      "id": "ua-peru",
+      "name": "Universidad Autónoma del Perú",
+      "short": "UA",
+      "country": "PE",
+      "lat": -12.19551,
+      "lon": -76.97127
+    },
+    {
+      "id": "tecsup",
+      "name": "Tecsup",
+      "short": "Tecsup",
+      "country": "PE",
+      "lat": -12.0439,
+      "lon": -76.95291
+    },
+    {
+      "id": "dos-de-mayo",
+      "name": "Hospital Nacional Dos de Mayo",
+      "short": "H. Dos de Mayo",
+      "country": "PE",
+      "lat": -12.05596,
+      "lon": -77.01567
+    },
+    {
+      "id": "hncase",
+      "name": "Hospital Nacional Carlos Alberto Seguín Escobedo",
+      "short": "HNCASE",
+      "country": "PE",
+      "lat": -16.39525,
+      "lon": -71.53074
+    },
+    {
+      "id": "usmp",
+      "name": "Universidad de San Martín de Porres",
+      "short": "USMP",
+      "country": "PE",
+      "lat": -12.04538,
+      "lon": -76.97005
+    },
+    {
+      "id": "uandina",
+      "name": "Universidad Andina del Cusco",
+      "short": "UAC",
+      "country": "PE",
+      "lat": -13.53757,
+      "lon": -71.90385
+    },
+    {
+      "id": "ujcm",
+      "name": "Universidad José Carlos Mariátegui",
+      "short": "UJCM",
+      "country": "PE",
+      "lat": -17.65784,
+      "lon": -71.33271
+    },
+    {
+      "id": "uch",
+      "name": "Universidad de Ciencias y Humanidades",
+      "short": "UCH",
+      "country": "PE",
+      "lat": -11.96133,
+      "lon": -77.0657
+    },
+    {
+      "id": "inacal",
+      "name": "Instituto Nacional de Calidad",
+      "short": "INACAL",
+      "country": "PE",
+      "lat": -12.09615,
+      "lon": -77.02883
+    },
+    {
+      "id": "dhn",
+      "name": "Dirección de Hidrografía y Navegación",
+      "short": "DHN",
+      "country": "PE",
+      "lat": -12.06542,
+      "lon": -77.15591
+    },
+    {
+      "id": "inaigem",
+      "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
+      "short": "INAIGEM",
+      "country": "PE",
+      "lat": -9.49975,
+      "lon": -77.53538
+    },
+    {
+      "id": "ita",
+      "name": "Instituto Tecnológico de Aeronáutica",
+      "short": "ITA",
+      "country": "BR",
+      "lat": -23.21013,
+      "lon": -45.87678
+    },
+    {
+      "id": "utfpr",
+      "name": "Universidade Tecnológica Federal do Paraná",
+      "short": "UTFPR",
+      "country": "BR",
+      "lat": -25.43925,
+      "lon": -49.26883
+    },
+    {
+      "id": "ufpr",
+      "name": "Universidade Federal do Paraná",
+      "short": "UFPR",
+      "country": "BR",
+      "lat": -25.42889,
+      "lon": -49.2675
+    },
+    {
+      "id": "ufv",
+      "name": "Universidade Federal de Viçosa",
+      "short": "UFV",
+      "country": "BR",
+      "lat": -20.7603,
+      "lon": -42.8678
+    },
+    {
+      "id": "cnpem",
+      "name": "Centro Nacional de Pesquisa em Energia e Materiais",
+      "short": "CNPEM",
+      "country": "BR",
+      "lat": -22.80398,
+      "lon": -47.05397
+    },
+    {
+      "id": "cinvestav-merida",
+      "name": "Cinvestav Unidad Mérida",
+      "short": "Cinvestav Mérida",
+      "country": "MX",
+      "lat": 21.02188,
+      "lon": -89.62679
+    },
+    {
+      "id": "innn",
+      "name": "Instituto Nacional de Neurología y Neurocirugía Manuel Velasco Suárez",
+      "short": "INNN",
+      "country": "MX",
+      "lat": 19.29058,
+      "lon": -99.17516
+    },
+    {
+      "id": "mcmaster",
+      "name": "McMaster University",
+      "short": "McMaster",
+      "country": "CA",
+      "lat": 43.26333,
+      "lon": -79.91889
+    },
+    {
+      "id": "aip",
+      "name": "Leibniz-Institut für Astrophysik Potsdam",
+      "short": "AIP",
+      "country": "DE",
+      "lat": 52.405,
+      "lon": 13.1042
+    },
+    {
+      "id": "oldenburg",
+      "name": "Carl von Ossietzky Universität Oldenburg",
+      "short": "Oldenburg",
+      "country": "DE",
+      "lat": 53.14778,
+      "lon": 8.18222
+    },
+    {
+      "id": "mpipks",
+      "name": "Max-Planck-Institut für Physik komplexer Systeme",
+      "short": "MPI-PKS",
+      "country": "DE",
+      "lat": 51.02612,
+      "lon": 13.71678
+    },
+    {
+      "id": "ganil",
+      "name": "Grand Accélérateur National d'Ions Lourds",
+      "short": "GANIL",
+      "country": "FR",
+      "lat": 49.21444,
+      "lon": -0.36056
+    },
+    {
+      "id": "toulon",
+      "name": "Université de Toulon",
+      "short": "Toulon",
+      "country": "FR",
+      "lat": 43.13611,
+      "lon": 6.01944
+    },
+    {
+      "id": "cern",
+      "name": "CERN",
+      "short": "CERN",
+      "country": "CH",
+      "lat": 46.23449,
+      "lon": 6.04913
+    },
+    {
+      "id": "agh",
+      "name": "AGH University of Krakow",
+      "short": "AGH",
+      "country": "PL",
+      "lat": 50.06453,
+      "lon": 19.92375
+    },
+    {
+      "id": "inl",
+      "name": "International Iberian Nanotechnology Laboratory",
+      "short": "INL",
+      "country": "PT",
+      "lat": 41.555,
+      "lon": -8.39972
+    },
+    {
+      "id": "usc",
+      "name": "Universidade de Santiago de Compostela",
+      "short": "USC",
+      "country": "ES",
+      "lat": 42.88852,
+      "lon": -8.54497
+    },
+    {
+      "id": "ub",
+      "name": "Universitat de Barcelona",
+      "short": "UB",
+      "country": "ES",
+      "lat": 41.38667,
+      "lon": 2.16389
+    },
+    {
+      "id": "uca",
+      "name": "Universidad de Cádiz",
+      "short": "UCA",
+      "country": "ES",
+      "lat": 36.53583,
+      "lon": -6.29417
+    },
+    {
+      "id": "icmse",
+      "name": "Instituto de Ciencia de Materiales de Sevilla",
+      "short": "ICMS",
+      "country": "ES",
+      "lat": 37.38981,
+      "lon": -5.98493
+    },
+    {
+      "id": "io-csic",
+      "name": "Instituto de Óptica Daza de Valdés",
+      "short": "IO-CSIC",
+      "country": "ES",
+      "lat": 40.44197,
+      "lon": -3.68681
+    },
+    {
+      "id": "cin2",
+      "name": "Institut Català de Nanociència i Nanotecnologia",
+      "short": "ICN2",
+      "country": "ES",
+      "lat": 41.50123,
+      "lon": 2.11175
+    },
+    {
+      "id": "inma",
+      "name": "Instituto de Nanociencia y Materiales de Aragón",
+      "short": "INMA",
+      "country": "ES",
+      "lat": 41.68481,
+      "lon": -0.88699
+    },
+    {
+      "id": "biomagune",
+      "name": "CIC biomaGUNE",
+      "short": "CIC biomaGUNE",
+      "country": "ES",
+      "lat": 43.28894,
+      "lon": -1.98136
     }
   ],
   "people": [
@@ -953,7 +1281,18 @@
           "end": 1992
         }
       ],
-      "path": ["unprg"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente ordinario"
+          ]
+        }
+      ]
     },
     {
       "slug": "felix-julian-acevedo-poma",
@@ -1010,7 +1349,24 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "pucp", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unac",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "jorge-marcial-aguero-andrade",
@@ -1082,7 +1438,32 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "puc-rio", "unmsm", "citbm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "puc-rio",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente contratado"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Colaborador"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Tecnico de laboratorio"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Especialista en instrumentación física"]
+        }
+      ]
     },
     {
       "slug": "wilder-maximo-aguilar-castro",
@@ -1136,7 +1517,16 @@
           "end": null
         }
       ],
-      "path": ["unitru"]
+      "path": [
+        {
+          "place": "unitru",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Jefe del laboratorio de física de materiales"
+          ]
+        }
+      ]
     },
     {
       "slug": "cesar-augusto-aguirre-cespedes",
@@ -1204,7 +1594,17 @@
           "end": 1996
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Docente nombrado"
+          ]
+        }
+      ]
     },
     {
       "slug": "juan-abel-alania-ramos",
@@ -1240,7 +1640,12 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Investigador"]
+        }
+      ]
     },
     {
       "slug": "edward-steve-alburqueque-salazar",
@@ -1294,7 +1699,16 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "imarpe"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "imarpe",
+          "did": ["Analista en procesamiento de imágenes satelitales"]
+        }
+      ]
     },
     {
       "slug": "juan-antonio-alcantara-nunez",
@@ -1355,56 +1769,89 @@
           "end": 2025
         },
         {
-          "place": null,
-          "name": "Instituto de Física da Universidade de São Paulo",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Investigador de posdoctorado",
           "start": 2023,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Instituto de Física da Universidade de São Paulo",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Investigador de posdoctorado",
           "start": 2014,
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Instituto de Física da Universidade de São Paulo",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Investigador de posdoctorado",
           "start": 2011,
           "end": 2012
         },
         {
-          "place": null,
+          "place": "usc",
           "name": "Universidade de Santiago de Compostela",
           "role": "Investigador de posdoctorado",
           "start": 2009,
           "end": 2011
         },
         {
-          "place": null,
-          "name": "Ganil",
+          "place": "ganil",
+          "name": "Grand Accélérateur National d'Ions Lourds",
           "role": "Investigador de posdoctorado",
           "start": 2006,
           "end": 2008
         },
         {
-          "place": null,
-          "name": "Instituto de Física da Universidade de São Paulo",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Investigador de posdoctorado",
           "start": 2004,
           "end": 2006
         },
         {
-          "place": null,
-          "name": "Instituto Peruano de Energia Nuclear",
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
           "role": "Investigador",
           "start": 1995,
           "end": 1995
         }
       ],
-      "path": ["unfv", "usp", "utp"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ipen-pe",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador de posdoctorado"]
+        },
+        {
+          "place": "ganil",
+          "did": ["Investigador de posdoctorado"]
+        },
+        {
+          "place": "usc",
+          "did": ["Investigador de posdoctorado"]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador de posdoctorado"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente investigador"]
+        }
+      ]
     },
     {
       "slug": "naira-azucena-aldana-cotrina",
@@ -1427,7 +1874,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unac"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        }
+      ]
     },
     {
       "slug": "william-celestino-algoner-jorge",
@@ -1502,21 +1954,46 @@
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Universidade Federal do Paraná - Ufpr",
+          "place": "ufpr",
+          "name": "Universidade Federal do Paraná",
           "role": "Investigador postdoctorado",
           "start": 2018,
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Universidade Federal do Espírito Santo - Ufes",
+          "place": "ufes",
+          "name": "Universidade Federal do Espírito Santo",
           "role": "Investigador phd",
           "start": 2013,
           "end": 2017
         }
       ],
-      "path": ["unac", "ufes", "uc"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufes",
+          "did": ["Maestría", "Doctorado", "Investigador phd"]
+        },
+        {
+          "place": "ufpr",
+          "did": ["Investigador postdoctorado"]
+        },
+        {
+          "place": "utp",
+          "did": [
+            "Coordinador de investigación",
+            "Secretario técnico del comité de ética en investigación",
+            "Coordinador de publicaciones científicas"
+          ]
+        },
+        {
+          "place": "uc",
+          "did": ["Especialista en investigación y grados"]
+        }
+      ]
     },
     {
       "slug": "douglas-fidel-alvarado-paiva",
@@ -1661,7 +2138,32 @@
           "end": 2010
         }
       ],
-      "path": ["unp", "unitru", "unp"]
+      "path": [
+        {
+          "place": "unp",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unp",
+          "did": [
+            "Cordinador general sedes descentralizadas -unp",
+            "Cordinador administrativo proedun sullana",
+            "Cordinador administrativo centro de informatica",
+            "Cordinador administrativo sede sechura",
+            "Director de la unidad de investigación del departamento académico de física",
+            "Director de la escuela profesional de física",
+            "Director del instituto de enseñanza pre - universitaria - idepunp",
+            "Director de departamento de física",
+            "Organizador",
+            "Ponente",
+            "Jefe de unidad de recreación y deportes de la universidad nacional de piura"
+          ]
+        }
+      ]
     },
     {
       "slug": "lucas-arnaldo-alvarado-pinedo",
@@ -1767,7 +2269,22 @@
           "end": 1995
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Directo administrativo",
+            "Jefe de departamento",
+            "Director del ceups",
+            "Miembro de comite asesor de la eaf",
+            "Director del departamento academico",
+            "Director de departamento de física interdisciplinaria"
+          ]
+        }
+      ]
     },
     {
       "slug": "alberto-andre-alvarez-oliveira",
@@ -1810,7 +2327,16 @@
           "end": 2024
         }
       ],
-      "path": ["unac", "utec"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "utec",
+          "did": ["Asistente de enseñanza tp", "Asistente de enseñanza tc"]
+        }
+      ]
     },
     {
       "slug": "maria-del-carmen-alvarez-solis",
@@ -1881,7 +2407,24 @@
           "end": 2018
         }
       ],
-      "path": ["unsa", "uap", "unsa", "ucsm"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uap",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ucsm",
+          "did": ["Maestría", "Jefe de practica", "Docente contratado"]
+        }
+      ]
     },
     {
       "slug": "manuel-luis-amaya-checa",
@@ -1931,7 +2474,16 @@
           "end": "now"
         }
       ],
-      "path": ["unprg", "uss"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "uss",
+          "did": ["Docente - jefe de laboratorio de física y electronica"]
+        }
+      ]
     },
     {
       "slug": "josue-gabriel-anca-ccopa",
@@ -1992,8 +2544,8 @@
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial (conida)",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Practicante-pre",
           "start": 2016,
           "end": 2018
@@ -2006,7 +2558,31 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "mackenzie", "uarm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "mackenzie",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uarm",
+          "did": ["Asistente de laboratorio de física"]
+        },
+        {
+          "place": "conida",
+          "did": ["Practicante-pre"]
+        },
+        {
+          "place": "uarm",
+          "did": [
+            "Docente de física",
+            "Secretario de grados y títulos - facultad de ingeniería y gestión"
+          ]
+        }
+      ]
     },
     {
       "slug": "roberto-julio-angeles-vasquez",
@@ -2088,7 +2664,36 @@
           "end": 2006
         }
       ],
-      "path": ["unmsm", "uap", "uni", "unmsm", "uncp"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uap",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "uncp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "uni",
+          "did": ["Docente"]
+        },
+        {
+          "place": "uncp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "bill-darwin-aparicio-huacarpuma",
@@ -2137,7 +2742,16 @@
           "end": 2022
         }
       ],
-      "path": ["unsa", "unb"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura", "Tesista de licenciatura"]
+        },
+        {
+          "place": "unb",
+          "did": ["Maestría"]
+        }
+      ]
     },
     {
       "slug": "danny-giancarlo-apaza-veliz",
@@ -2202,35 +2816,35 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Gobierno Regional Arequipa - Hospital Goyeneche",
+          "place": "goyeneche",
+          "name": "Hospital Goyeneche",
           "role": "Físico médico",
           "start": 2020,
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Gobierno Regional Arequipa - Hospital Goyeneche",
+          "place": "goyeneche",
+          "name": "Hospital Goyeneche",
           "role": "Físico dosimetrista",
           "start": 2017,
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Gobierno Regional Arequipa - Hospital Goyeneche",
+          "place": "goyeneche",
+          "name": "Hospital Goyeneche",
           "role": "Físico",
           "start": 2017,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Hncase  Essalud Arequipa",
+          "place": "hncase",
+          "name": "Hospital Nacional Carlos Alberto Seguín Escobedo",
           "role": "Interno de fisica medica",
           "start": 2015,
           "end": 2015
         },
         {
-          "place": null,
+          "place": "goyeneche",
           "name": "Hospital Goyeneche",
           "role": "Practicante de física medica",
           "start": 2014,
@@ -2251,7 +2865,40 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "usp", "unsa", "iren-sur"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "goyeneche",
+          "did": ["Practicante de física medica"]
+        },
+        {
+          "place": "hncase",
+          "did": ["Interno de fisica medica"]
+        },
+        {
+          "place": "goyeneche",
+          "did": ["Físico dosimetrista", "Físico"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Docente"]
+        },
+        {
+          "place": "goyeneche",
+          "did": ["Físico médico"]
+        },
+        {
+          "place": "iren-sur",
+          "did": ["Físico médico"]
+        }
+      ]
     },
     {
       "slug": "felipe-fernando-arancel-llerena",
@@ -2294,7 +2941,20 @@
           "end": "now"
         }
       ],
-      "path": ["unac", "uai", "vibro"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uai",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "vibro",
+          "did": ["Analista de vibraciones cat ii"]
+        }
+      ]
     },
     {
       "slug": "jose-domingo-arbanil-vela",
@@ -2380,7 +3040,35 @@
           "end": "now"
         }
       ],
-      "path": ["unac", "ufabc", "unac", "ufabc", "upn", "unmsm"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unac",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "upn",
+          "did": [
+            "Jefe del área de investigación",
+            "Docente investigador senior"
+          ]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente tiempo parcial"]
+        }
+      ]
     },
     {
       "slug": "odon-arestegui-sierra",
@@ -2448,7 +3136,28 @@
           "end": "now"
         }
       ],
-      "path": ["unfv", "uem", "ufal", "ucv", "utp"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uem",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ufal",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "carlos-arguelles-delgado",
@@ -2509,7 +3218,24 @@
           "end": 2020
         }
       ],
-      "path": ["pucp", "uw-madison", "harvard"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato", "Maestría"]
+        },
+        {
+          "place": "uw-madison",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "harvard",
+          "did": ["Profesor asistente de física"]
+        },
+        {
+          "place": "mit",
+          "did": ["Investigador posdoctoral"]
+        }
+      ]
     },
     {
       "slug": "enrique-john-arias-chinga",
@@ -2563,7 +3289,20 @@
           "end": "now"
         }
       ],
-      "path": ["uni", "cbpf", "uerj"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "uerj",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "karen-katherine-armas-llontop",
@@ -2601,14 +3340,23 @@
           "end": 2013
         },
         {
-          "place": null,
-          "name": "Instituto Nacional de Enfermedades Neoplasicas",
+          "place": "inen",
+          "name": "Instituto Nacional de Enfermedades Neoplásicas",
           "role": "Practicante de radioterapia",
           "start": 2010,
           "end": 2010
         }
       ],
-      "path": ["unprg"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "inen",
+          "did": ["Practicante de radioterapia"]
+        }
+      ]
     },
     {
       "slug": "raul-arotaipe-ala",
@@ -2638,7 +3386,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
     },
     {
       "slug": "martin-dionisio-arteaga-tupia",
@@ -2700,15 +3453,15 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Autonoma del Peru S.a.c.",
+          "place": "ua-peru",
+          "name": "Universidad Autónoma del Perú",
           "role": "Docente",
           "start": 2022,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Universidad de San Martin de Porres",
+          "place": "usmp",
+          "name": "Universidad de San Martín de Porres",
           "role": "Docente",
           "start": 2024,
           "end": 2024
@@ -2784,7 +3537,52 @@
           "end": "now"
         }
       ],
-      "path": ["unac", "usp", "pucp", "ulima", "upn"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Jefe de práctica fisica matematica ii"]
+        },
+        {
+          "place": "utp",
+          "did": [
+            "Docente de fisica general (fisica i), electricidad y magnetismo"
+          ]
+        },
+        {
+          "place": "usp",
+          "did": [
+            "Doctorado",
+            "Jefe de practica de metodos de la fisica teorica",
+            "Jefe de práctica fisica iv",
+            "Jefe de práctica fisica iii",
+            "Jefe de practica fisica iv"
+          ]
+        },
+        {
+          "place": "ua-peru",
+          "did": ["Docente"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente"]
+        },
+        {
+          "place": "usmp",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ulima",
+          "did": ["Docente"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "junior-david-asencios-rojas",
@@ -2832,7 +3630,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unjfsc", "uni"]
+      "path": [
+        {
+          "place": "unjfsc",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "esteban-elvis-asto-ramos",
@@ -2883,7 +3690,16 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "ingemmet", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Asistente de laboratorio"]
+        },
+        {
+          "place": "ingemmet",
+          "did": ["Practicante profesional"]
+        }
+      ]
     },
     {
       "slug": "oswaldo-avalos-quispe",
@@ -2935,7 +3751,12 @@
           "end": 2015
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
     },
     {
       "slug": "fredy-filomeno-avendano-joaquin",
@@ -2992,7 +3813,16 @@
           "end": "now"
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura", "Maestría", "Profesor"]
+        },
+        {
+          "place": "unam-moquegua",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "jorge-sabino-ayala-arenas",
@@ -3074,7 +3904,28 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "pucp", "usp", "unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unsa",
+          "did": [
+            "Docente investigador",
+            "Coordinador",
+            "Director de unidad de investigación de facultad de ciencias naturales y formales unsa"
+          ]
+        }
+      ]
     },
     {
       "slug": "alejandra-ayulo-cumpalli",
@@ -3135,14 +3986,31 @@
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Inen Dr Eduardo Caceres Graziani",
+          "place": "inen",
+          "name": "Instituto Nacional de Enfermedades Neoplásicas",
           "role": "Practicante pre profesional",
           "start": null,
           "end": null
         }
       ],
-      "path": ["unfv", "usp", "uni"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Pesquisador"]
+        },
+        {
+          "place": "inen",
+          "did": ["Practicante pre profesional"]
+        },
+        {
+          "place": "uni",
+          "did": ["Investigador"]
+        }
+      ]
     },
     {
       "slug": "miguel-angel-bances-tunoque",
@@ -3214,7 +4082,28 @@
           "end": "now"
         }
       ],
-      "path": ["unprg", "ucv", "utp", "ucv", "uss"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uss",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Docente"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "diego-eduardo-barberena-helfer",
@@ -3259,7 +4148,17 @@
           "end": 2013
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": [
+            "Bachillerato",
+            "Maestría",
+            "Jefe de prácticas",
+            "Estudiante investigador"
+          ]
+        }
+      ]
     },
     {
       "slug": "franklin-paul-barrientos-porras",
@@ -3290,7 +4189,16 @@
           "end": null
         }
       ],
-      "path": ["uni"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "upch",
+          "did": ["Programador"]
+        }
+      ]
     },
     {
       "slug": "jose-luis-bazo-alba",
@@ -3344,7 +4252,20 @@
           "end": 2014
         }
       ],
-      "path": ["pucp", "hu-berlin", "pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "hu-berlin",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "richard-bellido-quispe",
@@ -3394,7 +4315,20 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "unac"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unac",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "jhosep-victorino-beltran-ramirez",
@@ -3437,7 +4371,16 @@
           "end": "now"
         }
       ],
-      "path": ["unesp", "pucp"]
+      "path": [
+        {
+          "place": "unesp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "jhonny-antonio-benavente-castillo",
@@ -3498,15 +4441,15 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "ipen-pe",
           "name": "Instituto Peruano de Energía Nuclear",
           "role": "Físico investigador",
           "start": 2024,
           "end": 2025
         },
         {
-          "place": null,
-          "name": "Instituto Nacional de Enfermedades Neoplasicas",
+          "place": "inen",
+          "name": "Instituto Nacional de Enfermedades Neoplásicas",
           "role": "Medical physicist",
           "start": 2021,
           "end": 2024
@@ -3526,15 +4469,15 @@
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Centro de Desenvolvimento da Tecnologia Nuclear (cdtn/cnen)",
+          "place": "cdtn",
+          "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
           "role": "Postdoctoral position (capes/pnpd research fellow)",
           "start": 2019,
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Centro de Desenvolvimento da Tecnologia Nuclear (cdtn/cnen)",
+          "place": "cdtn",
+          "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
           "role": "Researcher position (pci-db/cnpq research fellow)",
           "start": 2018,
           "end": 2018
@@ -3554,28 +4497,79 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Centro de Desenvolvimento da Tecnologia Nuclear (cdtn/cnen)",
+          "place": "cdtn",
+          "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
           "role": "Researcher position (sibratec/metroradi/cnpq research fellow)",
           "start": 2011,
           "end": 2013
         },
         {
-          "place": null,
-          "name": "Centro de Desenvolvimento da Tecnologia Nuclear (cdtn/cnen)",
+          "place": "cdtn",
+          "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
           "role": "Msc. researcher position (pci/cnpq research fellow)",
           "start": 2009,
           "end": 2011
         },
         {
-          "place": null,
-          "name": "Centro de Desenvolvimento da Tecnologia Nuclear (cdtn/cnen)",
+          "place": "cdtn",
+          "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
           "role": "Researcher position (pci/cnpq research fellow)",
           "start": 2009,
           "end": 2009
         }
       ],
-      "path": ["unmsm", "cdtn", "ufmg", "uni"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "cdtn",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ufmg",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "cdtn",
+          "did": [
+            "Msc. researcher position (pci/cnpq research fellow)",
+            "Researcher position (pci/cnpq research fellow)",
+            "Researcher position (sibratec/metroradi/cnpq research fellow)"
+          ]
+        },
+        {
+          "place": "ufmg",
+          "did": ["Phd researcher position at ufmg/cdtn (cnen research fellow)"]
+        },
+        {
+          "place": "cdtn",
+          "did": ["Researcher position (pci-db/cnpq research fellow)"]
+        },
+        {
+          "place": "ufmg",
+          "did": [
+            "Postdoctoral position (capes/pnpd research fellow) at the department of nuclear engineering (den) of the ufmg"
+          ]
+        },
+        {
+          "place": "cdtn",
+          "did": ["Postdoctoral position (capes/pnpd research fellow)"]
+        },
+        {
+          "place": "uni",
+          "did": ["Researcher position"]
+        },
+        {
+          "place": "inen",
+          "did": ["Medical physicist"]
+        },
+        {
+          "place": "ipen-pe",
+          "did": ["Físico investigador"]
+        }
+      ]
     },
     {
       "slug": "maria-giselle-bernui-de-vivanco",
@@ -3612,7 +4606,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unmsm", "uni"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría"]
+        }
+      ]
     },
     {
       "slug": "luis-alberto-bolarte-canals",
@@ -3662,7 +4665,20 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "ucv", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "luis-enrique-borja-castro",
@@ -3685,7 +4701,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        }
+      ]
     },
     {
       "slug": "rafael-eduardo-caballero-nolte",
@@ -3730,7 +4751,16 @@
           "end": 2014
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": [
+            "Bachillerato",
+            "Jefe de prácticas",
+            "Estudiante investigador"
+          ]
+        }
+      ]
     },
     {
       "slug": "cesar-cabrera-arista",
@@ -3795,7 +4825,20 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "unac", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "unac",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "hugo-andres-cabrera-tinoco",
@@ -3863,7 +4906,24 @@
           "end": 2022
         }
       ],
-      "path": ["unmsm", "ufpe", "uc"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ufpe",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "uc",
+          "did": ["Docente tiempo completo"]
+        }
+      ]
     },
     {
       "slug": "dane-bruce-cachi-eugenio",
@@ -3945,7 +5005,36 @@
           "end": 2012
         }
       ],
-      "path": ["uni", "uarm", "uni", "iberotec"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uarm",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uwiener",
+          "did": ["Docente"]
+        },
+        {
+          "place": "uni",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "unfv",
+          "did": ["Docente asociado tp20h"]
+        },
+        {
+          "place": "iberotec",
+          "did": ["Docente"]
+        },
+        {
+          "place": "uni",
+          "did": ["Docente tc40h"]
+        }
+      ]
     },
     {
       "slug": "noely-zully-calderon-ipanaque",
@@ -4024,7 +5113,32 @@
           "end": 2018
         }
       ],
-      "path": ["unp", "uni", "pucp", "utp"]
+      "path": [
+        {
+          "place": "unp",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "uni",
+          "did": ["Investigadora"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Investigadora"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "juan-enrique-calderon-krejci",
@@ -4060,7 +5174,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "yefry-giancarlo-calla-zapana",
@@ -4107,8 +5226,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Asociacion Tecsup N?2",
+          "place": "tecsup",
+          "name": "Tecsup",
           "role": "Asesoría en la especialidad de introducción a la física",
           "start": 2023,
           "end": 2023
@@ -4121,7 +5240,20 @@
           "end": 2019
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Asesoría en la especialidad de introducción a la física"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Docente de física ceprunsa"]
+        }
+      ]
     },
     {
       "slug": "darwin-javier-callo-escobar",
@@ -4189,7 +5321,25 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "uc"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "&#61656; tecnico de laboratorios especializados de física"
+          ]
+        },
+        {
+          "place": "utp",
+          "did": ["&#61656; asistente de laboratorios especializados de física"]
+        },
+        {
+          "place": "uc",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "ernesto-calvo-villar",
@@ -4229,7 +5379,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "enriqueta-victoria-campos-falcon",
@@ -4290,7 +5445,12 @@
           "end": 2015
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura", "Maestría", "Docente"]
+        }
+      ]
     },
     {
       "slug": "victor-oliver-canchos-lopez",
@@ -4326,7 +5486,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "gisell-indira-carbajal-dominguez",
@@ -4378,8 +5543,8 @@
           "end": 2010
         },
         {
-          "place": null,
-          "name": "Comisión Nacional de Investigación y Desarrollo Aerospacial",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Practicante",
           "start": 2009,
           "end": 2009
@@ -4392,7 +5557,20 @@
           "end": null
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "conida",
+          "did": ["Practicante"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Investigadora junior", "Licenciatura", "Maestría"]
+        }
+      ]
     },
     {
       "slug": "saneli-alcides-carbajal-vigo",
@@ -4456,7 +5634,32 @@
           "end": 2024
         }
       ],
-      "path": ["unmsm", "edinburgh", "pucp", "up"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "edinburgh",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "utec",
+          "did": ["Docente, departamento de ciencias"]
+        },
+        {
+          "place": "up",
+          "did": ["Docente, facultad de ingeniería"]
+        }
+      ]
     },
     {
       "slug": "andres-richard-cardena-rojas",
@@ -4487,14 +5690,23 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "Gobierno Regional Arequipa - Hospital Goyeneche",
+          "place": "goyeneche",
+          "name": "Hospital Goyeneche",
           "role": "Fisico dosimetrista",
           "start": 2017,
           "end": 2018
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "goyeneche",
+          "did": ["Fisico dosimetrista"]
+        }
+      ]
     },
     {
       "slug": "nilton-cardenas-falcon",
@@ -4524,7 +5736,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unfv"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
     },
     {
       "slug": "antony-fredy-carlos-chilo",
@@ -4554,7 +5771,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
     },
     {
       "slug": "rafael-edgardo-carlos-reyes",
@@ -4629,21 +5851,50 @@
           "end": 2004
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial (conida)",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Asesor",
           "start": 2000,
           "end": 2002
         },
         {
-          "place": null,
-          "name": "Univ.nac.de Educ. Enrique Guzman y Valle",
+          "place": "une",
+          "name": "Universidad Nacional de Educación Enrique Guzmán y Valle",
           "role": "Asesor",
           "start": 1999,
           "end": 1999
         }
       ],
-      "path": ["unmsm", "usp", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        },
+        {
+          "place": "une",
+          "did": ["Asesor"]
+        },
+        {
+          "place": "conida",
+          "did": ["Asesor"]
+        },
+        {
+          "place": "ulima",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unac",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "josue-isac-carrillo-espinoza",
@@ -4713,7 +5964,28 @@
           "end": 2013
         }
       ],
-      "path": ["unac", "upig", "unac", "pucp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "upig",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unac",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unac",
+          "did": ["Administrativo"]
+        }
+      ]
     },
     {
       "slug": "salinova-carrillo-segura",
@@ -4770,7 +6042,20 @@
           "end": "now"
         }
       ],
-      "path": ["unsaac", "unsa", "uc"]
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "uc",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "carlos-gilmer-castillo-correa",
@@ -4818,7 +6103,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unac", "uni"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "hernan-alfredo-castillo-egoavil",
@@ -4872,7 +6166,24 @@
           "end": "now"
         }
       ],
-      "path": ["puc-chile", "pucp", "puc-chile", "pucp"]
+      "path": [
+        {
+          "place": "puc-chile",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "puc-chile",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "jorge-luis-casusol-cumpa",
@@ -4934,7 +6245,24 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unprg", "uss", "unprg", "ucv"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uss",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unprg",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "nhell-heder-cerna-velazco",
@@ -5028,7 +6356,36 @@
           "end": "now"
         }
       ],
-      "path": ["unac", "pucp", "utp", "pucp", "ucsur", "uwiener"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente investigador"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado", "Asistente de profesor"]
+        },
+        {
+          "place": "uwiener",
+          "did": ["Docente"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ucsur",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "jose-yitzhak-aaron-chacaliaza-ricaldi",
@@ -5096,8 +6453,8 @@
           "end": 2020
         },
         {
-          "place": null,
-          "name": "Instituto Peruano de Energia Nuclear",
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
           "role": "Intern",
           "start": 2018,
           "end": 2019
@@ -5117,7 +6474,28 @@
           "end": 2017
         }
       ],
-      "path": ["unmsm", "usp"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Intern"]
+        },
+        {
+          "place": "ipen-pe",
+          "did": ["Intern"]
+        },
+        {
+          "place": "utec",
+          "did": ["Research assistant"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Phd fellow"]
+        }
+      ]
     },
     {
       "slug": "julio-cesar-chaponan-sandoval",
@@ -5147,7 +6525,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unprg"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
     },
     {
       "slug": "david-choque-quispe",
@@ -5250,7 +6633,30 @@
           "end": null
         }
       ],
-      "path": ["unsaac", "utfsm", "pucp"]
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "utfsm",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unsaac",
+          "did": ["Profesor contratado a tiempo completo"]
+        },
+        {
+          "place": "unmsm",
+          "did": [
+            "Investigador invitado del grupo gft y space de la universidad nacional mayor de san marcos"
+          ]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor a tiempo completo"]
+        }
+      ]
     },
     {
       "slug": "sara-luz-chunga-palomino",
@@ -5350,7 +6756,30 @@
           "end": 2010
         }
       ],
-      "path": ["unp", "units", "unp", "utp"]
+      "path": [
+        {
+          "place": "unp",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "units",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unp",
+          "did": [
+            "Doctorado",
+            "Fisico dosimetrista en control de calidad en equipos de radiodiagnostico para el hospital universitario de la unp",
+            "Docente",
+            "Docente universitario en la categoria de auxiliar a tiempo completo",
+            "Miembro de la asamblea universitaria"
+          ]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente universitario"]
+        }
+      ]
     },
     {
       "slug": "niko-churata-mamani",
@@ -5411,7 +6840,20 @@
           "end": 2019
         }
       ],
-      "path": ["unsa", "usp", "unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Docente", "Docente invitado"]
+        }
+      ]
     },
     {
       "slug": "cynthia-paola-contreras-medrano",
@@ -5453,7 +6895,20 @@
           "end": 2024
         }
       ],
-      "path": ["uni", "uff"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uff",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Posdoctorado"]
+        }
+      ]
     },
     {
       "slug": "carlos-hugo-coronado-villalobos",
@@ -5528,8 +6983,8 @@
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Instituto Nacional de Calidad - Inacal",
+          "place": "inacal",
+          "name": "Instituto Nacional de Calidad",
           "role": "Metrológo",
           "start": 2020,
           "end": 2021
@@ -5542,7 +6997,28 @@
           "end": 2010
         }
       ],
-      "path": ["unac", "unesp", "utp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "inacal",
+          "did": ["Metrológo"]
+        },
+        {
+          "place": "utp",
+          "did": [
+            "Coordinador de investigación",
+            "Director de investigación",
+            "Docente"
+          ]
+        }
+      ]
     },
     {
       "slug": "gustavo-cuba-supanta",
@@ -5598,7 +7074,20 @@
           "end": 2025
         }
       ],
-      "path": ["unsaac", "unmsm"]
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente de tiempo completo"]
+        }
+      ]
     },
     {
       "slug": "luis-alberto-curo-maquen",
@@ -5659,7 +7148,18 @@
           "end": "now"
         }
       ],
-      "path": ["unprg"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Profesor ordinario"
+          ]
+        }
+      ]
     },
     {
       "slug": "marco-antonio-cuyubamba-espinoza",
@@ -5713,21 +7213,42 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad San Ignacio de Loyola S.a",
+          "place": "usil",
+          "name": "Universidad San Ignacio de Loyola",
           "role": "Docente investigador",
           "start": 2023,
           "end": 2025
         },
         {
-          "place": null,
-          "name": "University of Oldenburg",
+          "place": "oldenburg",
+          "name": "Carl von Ossietzky Universität Oldenburg",
           "role": "Investigador",
           "start": 2020,
           "end": 2021
         }
       ],
-      "path": ["uni", "ufabc", "utec"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "oldenburg",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "utec",
+          "did": ["Docente tiempo parcial"]
+        },
+        {
+          "place": "usil",
+          "did": ["Docente investigador"]
+        }
+      ]
     },
     {
       "slug": "percy-davila-gonzalez",
@@ -5793,7 +7314,28 @@
           "end": 2011
         }
       ],
-      "path": ["uss", "unprg", "uss", "ucv"]
+      "path": [
+        {
+          "place": "uss",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unprg",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uss",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uss",
+          "did": ["Encargado de laboratorio"]
+        }
+      ]
     },
     {
       "slug": "miguel-angel-de-la-cruz-cruz",
@@ -5837,7 +7379,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unac", "unfv"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unfv",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "francisco-antonio-de-zela-martinez",
@@ -5884,7 +7435,16 @@
           "end": "now"
         }
       ],
-      "path": ["bonn", "pucp"]
+      "path": [
+        {
+          "place": "bonn",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado", "Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "roberto-augusto-del-carpio-minaya",
@@ -5938,7 +7498,16 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "unap"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unap",
+          "did": ["Maestría", "Docente"]
+        }
+      ]
     },
     {
       "slug": "martin-augusto-delgado-wong",
@@ -6002,7 +7571,19 @@
           "end": 2020
         }
       ],
-      "path": ["unprg"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente",
+            "Investigador asociado cimayd"
+          ]
+        }
+      ]
     },
     {
       "slug": "luz-alexandra-diaz-pareja",
@@ -6029,7 +7610,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato"]
+        }
+      ]
     },
     {
       "slug": "doris-maribel-escriba-villanueva",
@@ -6125,7 +7711,28 @@
           "end": 2009
         }
       ],
-      "path": ["unfv", "usp", "utp"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado", "Investigador de posdoctorado"]
+        },
+        {
+          "place": "unfv",
+          "did": ["Docente"]
+        },
+        {
+          "place": "untels",
+          "did": ["Docente"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "silvia-espinoza-suarez",
@@ -6190,15 +7797,15 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Tecsup N° 1",
+          "place": "tecsup",
+          "name": "Tecsup",
           "role": "Investigador",
           "start": 2012,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Tecsup N° 1",
+          "place": "tecsup",
+          "name": "Tecsup",
           "role": "Docente - investigador",
           "start": 2008,
           "end": 2011
@@ -6225,7 +7832,30 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "upn"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente"
+          ]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Docente - investigador", "Investigador"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "upn",
+          "did": ["Investigador"]
+        }
+      ]
     },
     {
       "slug": "sonia-elizabeth-fernandez-huaycho",
@@ -6314,7 +7944,32 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "ucsm", "utp", "ucsm"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ucsm",
+          "did": ["Maestría", "Docente"]
+        },
+        {
+          "place": "uap",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ucsp",
+          "did": ["Jefe de practicas"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "loreleyn-flor-flores-escalante",
@@ -6386,7 +8041,24 @@
           "end": "now"
         }
       ],
-      "path": ["uni", "pucp", "fau", "pucp", "utec"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Tiempo parcial por asignaturas"]
+        },
+        {
+          "place": "fau",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "utec",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "alberto-martin-gago-medina",
@@ -6433,7 +8105,20 @@
           "end": "now"
         }
       ],
-      "path": ["pucp", "usp", "pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "eladio-cesar-gallardo-bazan",
@@ -6487,7 +8172,16 @@
           "end": "now"
         }
       ],
-      "path": ["unitru", "unjfsc"]
+      "path": [
+        {
+          "place": "unitru",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unjfsc",
+          "did": ["Maestría", "Docente"]
+        }
+      ]
     },
     {
       "slug": "gonzalo-alvaro-francisco-javier-galvez-de-la-puente",
@@ -6523,7 +8217,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor asociado"]
+        }
+      ]
     },
     {
       "slug": "leandro-dino-garcia-calderon-palomino",
@@ -6559,7 +8258,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "amador-jorge-gonsalez-vasquez",
@@ -6616,7 +8320,18 @@
           "end": "now"
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente"
+          ]
+        }
+      ]
     },
     {
       "slug": "alberto-edmundo-gonzales-ccoscco",
@@ -6703,8 +8418,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Gobierno Regional Arequipa - Hospital Goyeneche",
+          "place": "goyeneche",
+          "name": "Hospital Goyeneche",
           "role": "Físico médico",
           "start": 2022,
           "end": 2022
@@ -6724,8 +8439,8 @@
           "end": 2020
         },
         {
-          "place": null,
-          "name": "Instituto Nacional de Enfermedades Neoplasicas",
+          "place": "inen",
+          "name": "Instituto Nacional de Enfermedades Neoplásicas",
           "role": "Practicante",
           "start": 2020,
           "end": 2020
@@ -6738,7 +8453,7 @@
           "end": 2019
         },
         {
-          "place": null,
+          "place": "goyeneche",
           "name": "Hospital Goyeneche",
           "role": "Practicante de física médica",
           "start": 2018,
@@ -6752,7 +8467,44 @@
           "end": 2017
         }
       ],
-      "path": ["unsa", "uni", "uc", "utp", "upla", "iren-centro"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "goyeneche",
+          "did": ["Practicante de física médica"]
+        },
+        {
+          "place": "inen",
+          "did": ["Practicante"]
+        },
+        {
+          "place": "iren-centro",
+          "did": ["Físico médico"]
+        },
+        {
+          "place": "goyeneche",
+          "did": ["Físico médico"]
+        },
+        {
+          "place": "upla",
+          "did": ["Docente"]
+        },
+        {
+          "place": "uc",
+          "did": ["Docente"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "andres-miguel-gonzales-galvez",
@@ -6802,7 +8554,20 @@
           "end": "now"
         }
       ],
-      "path": ["unfv", "uni", "oncocare"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "oncocare",
+          "did": ["Físico médico"]
+        }
+      ]
     },
     {
       "slug": "franco-alejandro-gonzales-nino",
@@ -6838,7 +8603,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor auxiliar"]
+        }
+      ]
     },
     {
       "slug": "pablo-guillermo-gonzales-ormeno",
@@ -6941,7 +8711,27 @@
           "end": null
         }
       ],
-      "path": ["unfv", "usp", "untels"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "untels",
+          "did": [
+            "Profesor",
+            "Director del instituto general de investigación y prospectiva tecnológica (igipt)",
+            "Presidente de la comisión de admisión- 2011-i",
+            "Jefe de ogsa",
+            "Presidente de la comisión de admisión- 2013-ii",
+            "Jefe de la oficina central de estado-empresa-sociedad civil"
+          ]
+        }
+      ]
     },
     {
       "slug": "juan-carlos-gonzalez-gonzalez",
@@ -7009,22 +8799,22 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Instituto de Investigación de Fisica, Facultad de Ciencias Fisicas, Universidad Nacional Mayor de Sa",
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
           "role": "Coinvestigador",
           "start": 2022,
           "end": 2025
         },
         {
-          "place": null,
-          "name": "Instituto de Investigación de Fisica, Facultad de Ciencias Fisicas, Universidad Nacional Mayor de Sa",
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
           "role": "Investigador",
           "start": 2021,
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Instituto de Ciencia de Materiales de Sevilla - Csic",
+          "place": "icmse",
+          "name": "Instituto de Ciencia de Materiales de Sevilla",
           "role": "Profesor visitante",
           "start": 2020,
           "end": 2020
@@ -7051,22 +8841,22 @@
           "end": 2013
         },
         {
-          "place": null,
-          "name": "Instituto de Ciencia de Materiales de Sevila - Csic",
+          "place": "icmse",
+          "name": "Instituto de Ciencia de Materiales de Sevilla",
           "role": "Jaedoc",
           "start": 2009,
           "end": 2012
         },
         {
-          "place": null,
-          "name": "Instituto de Optica Daza de Valdes - Csic",
+          "place": "io-csic",
+          "name": "Instituto de Óptica Daza de Valdés",
           "role": "Investigador visitante",
           "start": 2011,
           "end": 2012
         },
         {
-          "place": null,
-          "name": "Centro de Investigacion En Nanociencia y Nanotecnologia - Csic",
+          "place": "cin2",
+          "name": "Institut Català de Nanociència i Nanotecnologia",
           "role": "Investigador visitante",
           "start": 2011,
           "end": 2011
@@ -7079,8 +8869,8 @@
           "end": 2010
         },
         {
-          "place": null,
-          "name": "Universidad de Cadiz",
+          "place": "uca",
+          "name": "Universidad de Cádiz",
           "role": "Postdoc",
           "start": 2008,
           "end": 2009
@@ -7114,7 +8904,7 @@
           "end": 2005
         },
         {
-          "place": null,
+          "place": "ub",
           "name": "Universitat de Barcelona",
           "role": "Postdoc",
           "start": 2004,
@@ -7135,8 +8925,8 @@
           "end": 2000
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial (conida)",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Consejero",
           "start": 1999,
           "end": 2000
@@ -7149,7 +8939,77 @@
           "end": 2000
         }
       ],
-      "path": ["unmsm", "uab", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Jefe de practicas tc"
+          ]
+        },
+        {
+          "place": "conida",
+          "did": ["Consejero"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Pre-docente"]
+        },
+        {
+          "place": "uab",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ub",
+          "did": ["Postdoc"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Postdoc"]
+        },
+        {
+          "place": "uca",
+          "did": ["Postdoc"]
+        },
+        {
+          "place": "cambridge",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "icmse",
+          "did": ["Jaedoc"]
+        },
+        {
+          "place": "cambridge",
+          "did": ["Profesor visitante"]
+        },
+        {
+          "place": "io-csic",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "cin2",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor asociado"]
+        },
+        {
+          "place": "utec",
+          "did": ["Profesor investigador"]
+        },
+        {
+          "place": "icmse",
+          "did": ["Profesor visitante"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Investigador", "Coinvestigador", "Profesor auxiliar"]
+        }
+      ]
     },
     {
       "slug": "cesar-augusto-guerra-gutierrez",
@@ -7185,7 +9045,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor auxiliar"]
+        }
+      ]
     },
     {
       "slug": "jorge-andres-guerra-torres",
@@ -7228,7 +9093,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "walter-robert-guevara-day",
@@ -7271,21 +9141,30 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial (conida)",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Asesor consultor",
           "start": 2018,
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial (conida)",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Director astrofísica",
           "start": 2000,
           "end": 2018
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Docente física espacial"]
+        },
+        {
+          "place": "conida",
+          "did": ["Director astrofísica", "Asesor consultor"]
+        }
+      ]
     },
     {
       "slug": "karina-silvana-gutierrez-valverde",
@@ -7449,14 +9328,49 @@
         }
       ],
       "path": [
-        "usp-chimbote",
-        "unp",
-        "usp-chimbote",
-        "unp",
-        "unitru",
-        "unp",
-        "unf",
-        "unitru"
+        {
+          "place": "usp-chimbote",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unp",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp-chimbote",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unp",
+          "did": ["Doctorado", "Docente"]
+        },
+        {
+          "place": "unf",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Miembro de grupo investigación en grafeno"]
+        },
+        {
+          "place": "unf",
+          "did": [
+            "Miembro de comité de acreditación",
+            "Coordinador de linea de investigación",
+            "Responsable de equipo acelero gráfico",
+            "Responsable de laboratorio de física y termodinámica",
+            "Jefe de unidad de investigacion",
+            "Director del instituto de investigación"
+          ]
+        }
       ]
     },
     {
@@ -7504,7 +9418,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "hermelinda-hanampa-roque",
@@ -7561,7 +9480,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "uandina",
           "name": "Universidad Andina del Cusco",
           "role": "Docente cpcpi",
           "start": 2023,
@@ -7575,7 +9494,20 @@
           "end": 2008
         }
       ],
-      "path": ["unsaac"]
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato", "Licenciatura", "Maestría", "Docente cepru"]
+        },
+        {
+          "place": "uandina",
+          "did": ["Docente cpcpi"]
+        },
+        {
+          "place": "unsaac",
+          "did": ["Docente ordinaria auxilar a tiempo exclusivo"]
+        }
+      ]
     },
     {
       "slug": "fermin-fidel-herrera-aragon",
@@ -7622,7 +9554,16 @@
           "end": "now"
         }
       ],
-      "path": ["unb", "pucp"]
+      "path": [
+        {
+          "place": "unb",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "jesus-alberto-holguin-maron",
@@ -7681,7 +9622,19 @@
           "end": null
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": [
+            "Bachillerato",
+            "Investigador",
+            "Practicas pre profesionales",
+            "Tecnico de laboratorio",
+            "Asistente de laboratorio",
+            "Practicas profesionales"
+          ]
+        }
+      ]
     },
     {
       "slug": "jorge-luis-huamani-correa",
@@ -7742,8 +9695,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Agh University of Science and Technology",
+          "place": "agh",
+          "name": "AGH University of Krakow",
           "role": "Postdoctorado",
           "start": 2023,
           "end": 2025
@@ -7756,7 +9709,32 @@
           "end": 2019
         }
       ],
-      "path": ["unac", "unb", "uff", "utp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unb",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uff",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unb",
+          "did": ["Posdoctorado en física"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente de investigación"]
+        },
+        {
+          "place": "agh",
+          "did": ["Postdoctorado"]
+        }
+      ]
     },
     {
       "slug": "fabiola-jara-caytuiro",
@@ -7810,7 +9788,16 @@
           "end": "now"
         }
       ],
-      "path": ["unsaac", "uni"]
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría", "Investigador"]
+        }
+      ]
     },
     {
       "slug": "henry-sixto-javier-ccallata",
@@ -7910,7 +9897,36 @@
           "end": 2010
         }
       ],
-      "path": ["unsa", "usp", "unsa", "ucsp"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado", "Profesor"]
+        },
+        {
+          "place": "ucsp",
+          "did": ["Profesor contratado"]
+        },
+        {
+          "place": "uap",
+          "did": ["Profesor contratado"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Profesor auxiliar"]
+        },
+        {
+          "place": "utp",
+          "did": ["Profesor contratado"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Profesor auxiliar"]
+        }
+      ]
     },
     {
       "slug": "cesar-omar-jimenez-tintaya",
@@ -7971,7 +9987,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "dhn",
           "name": "Dirección de Hidrografía y Navegación",
           "role": "Investigador",
           "start": 2008,
@@ -7985,7 +10001,24 @@
           "end": 2007
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría", "Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": ["Asistente de investigacion"]
+        },
+        {
+          "place": "dhn",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "andres-guiseppe-jiron-vicente",
@@ -8032,7 +10065,20 @@
           "end": "now"
         }
       ],
-      "path": ["unac", "ufma", "utp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufma",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docencia"]
+        }
+      ]
     },
     {
       "slug": "joel-jones-perez",
@@ -8086,7 +10132,24 @@
           "end": "now"
         }
       ],
-      "path": ["cambridge", "pucp", "valencia", "pucp"]
+      "path": [
+        {
+          "place": "cambridge",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "valencia",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "carlos-eduardo-joo-garcia",
@@ -8147,7 +10210,20 @@
           "end": 2010
         }
       ],
-      "path": ["unjbg", "uap", "unam-moquegua"]
+      "path": [
+        {
+          "place": "unjbg",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uap",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unam-moquegua",
+          "did": ["Docente asociado"]
+        }
+      ]
     },
     {
       "slug": "jose-luis-la-rosa-navarro",
@@ -8189,21 +10265,38 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "European Organization for Nuclear Research (cern)",
+          "place": "cern",
+          "name": "CERN",
           "role": "Científico asociado",
           "start": 2014,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Universidad San Ignacio de Loyola S.a",
+          "place": "usil",
+          "name": "Universidad San Ignacio de Loyola",
           "role": "Docente investigador",
           "start": 2018,
           "end": 2023
         }
       ],
-      "path": ["uni", "usp"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "cern",
+          "did": ["Científico asociado"]
+        },
+        {
+          "place": "usil",
+          "did": ["Docente investigador"]
+        }
+      ]
     },
     {
       "slug": "wilson-orlando-lanchipa-ramos",
@@ -8278,7 +10371,19 @@
           "end": 2018
         }
       ],
-      "path": ["unjbg"]
+      "path": [
+        {
+          "place": "unjbg",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Practicante",
+            "Asistente de investigación",
+            "Asistente de investigacion",
+            "Técnico de laboratorio"
+          ]
+        }
+      ]
     },
     {
       "slug": "enrique-javier-lay-mesones",
@@ -8314,7 +10419,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "luis-alberto-leon-andonayre",
@@ -8348,7 +10458,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unmsm", "hi"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "hi",
+          "did": ["Maestría"]
+        }
+      ]
     },
     {
       "slug": "lizbet-leon-felix",
@@ -8419,8 +10538,8 @@
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Instituto de Nanociencia y Materiales de Aragón (inma)",
+          "place": "inma",
+          "name": "Instituto de Nanociencia y Materiales de Aragón",
           "role": "Investigador visitante",
           "start": 2021,
           "end": 2021
@@ -8433,35 +10552,76 @@
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Centro de Investigación Cooperativa En Biomateriales",
+          "place": "biomagune",
+          "name": "CIC biomaGUNE",
           "role": "Investigador postdoctoral",
           "start": 2017,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Centro de Investigacion Cooperativa En Biomateriales (cic Biomagune)",
+          "place": "biomagune",
+          "name": "CIC biomaGUNE",
           "role": "Investigador visitante",
           "start": 2017,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Instituto de Nanociencia de Aragón (ina)",
+          "place": "inma",
+          "name": "Instituto de Nanociencia y Materiales de Aragón",
           "role": "Investigador visitante",
           "start": 2015,
           "end": 2016
         },
         {
-          "place": null,
-          "name": "Thin Films and Magnetism Group - Universidad de Cambridge",
+          "place": "cambridge",
+          "name": "University of Cambridge",
           "role": "Investigador visitante",
           "start": 2009,
           "end": 2010
         }
       ],
-      "path": ["unmsm", "unb", "unizar", "ulima"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unb",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "cambridge",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "inma",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Investigador postdoctoral"]
+        },
+        {
+          "place": "biomagune",
+          "did": ["Investigador postdoctoral", "Investigador visitante"]
+        },
+        {
+          "place": "unizar",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Investigador asociado"]
+        },
+        {
+          "place": "inma",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "ulima",
+          "did": ["Profesor"]
+        }
+      ]
     },
     {
       "slug": "gustavo-leyva-espezua",
@@ -8484,7 +10644,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unjbg"]
+      "path": [
+        {
+          "place": "unjbg",
+          "did": ["Bachillerato"]
+        }
+      ]
     },
     {
       "slug": "walter-martin-leyva-molina",
@@ -8542,8 +10707,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Instituto Nacional de Investigacion En Glaciares y Ecosistemas de Montaña",
+          "place": "inaigem",
+          "name": "Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña",
           "role": "Asesor",
           "start": 2021,
           "end": 2023
@@ -8612,8 +10777,8 @@
           "end": 2013
         },
         {
-          "place": null,
-          "name": "Asociacion Civil Universidad de Ciencias y Humanidades Uch",
+          "place": "uch",
+          "name": "Universidad de Ciencias y Humanidades",
           "role": "Auxiliar de laboratorio",
           "start": 2010,
           "end": 2011
@@ -8626,7 +10791,40 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "upch", "cca"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "uch",
+          "did": ["Auxiliar de laboratorio"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Expositor del tunel de la ciencia"]
+        },
+        {
+          "place": "cca",
+          "did": ["Investigador asociado", "Coordinador científico"]
+        },
+        {
+          "place": "upch",
+          "did": ["Asistente de investigación"]
+        },
+        {
+          "place": "inaigem",
+          "did": ["Asesor"]
+        },
+        {
+          "place": "cca",
+          "did": ["Investigador asociado"]
+        },
+        {
+          "place": "upch",
+          "did": ["Docente", "Jefe de carrera de ingeniería ambiental"]
+        }
+      ]
     },
     {
       "slug": "kevin-angello-lizarraga-olivares",
@@ -8673,7 +10871,16 @@
           "end": "now"
         }
       ],
-      "path": ["unesp", "pucp"]
+      "path": [
+        {
+          "place": "unesp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "flavio-abad-llamccaya-ramirez",
@@ -8744,7 +10951,25 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "une", "unica"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "une",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unica",
+          "did": [
+            "Docente",
+            "Jefe de laboratorio de fisica de la facultad de ciencias",
+            "Docente tutor de la escuela profesional de física",
+            "Presidente de la comision de reforma curricular de la escuela profesional de física"
+          ]
+        }
+      ]
     },
     {
       "slug": "johan-alexander-llamoza-rafael",
@@ -8786,7 +11011,7 @@
           "end": 2016
         },
         {
-          "place": null,
+          "place": "jicamarca",
           "name": "Radio Observatorio de Jicamarca",
           "role": "Asistente de investigación",
           "start": 2013,
@@ -8800,7 +11025,24 @@
           "end": 2012
         }
       ],
-      "path": ["uni", "pucp"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Asistente de investigación"]
+        },
+        {
+          "place": "jicamarca",
+          "did": ["Asistente de investigación"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Jefe de prática"]
+        }
+      ]
     },
     {
       "slug": "celso-edgar-llimpe-quintanilla",
@@ -8843,7 +11085,20 @@
           "end": "now"
         }
       ],
-      "path": ["pucp", "upm", "pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "upm",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "whualkuer-enrique-lozano-bartra",
@@ -8922,7 +11177,32 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "ufpe", "puc-rio", "unmsm", "unac"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ufpe",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "puc-rio",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor principal"]
+        },
+        {
+          "place": "unac",
+          "did": ["Profesor principal tp-20h"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Director del departamento de fisica del estado solido"]
+        }
+      ]
     },
     {
       "slug": "gaston-lozano-calderon",
@@ -9004,7 +11284,22 @@
           "end": "now"
         }
       ],
-      "path": ["unfv", "usp"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": [
+            "Maestría",
+            "Bolsista",
+            "Monitor",
+            "Doctorado",
+            "Post-doctorado"
+          ]
+        }
+      ]
     },
     {
       "slug": "elmer-fidel-luque-canaza",
@@ -9063,7 +11358,24 @@
           "end": 2017
         }
       ],
-      "path": ["unsa", "uesc", "ufrgs"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uesc",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ufrgs",
+          "did": ["Doctorado", "Asistente en investigación"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Docente contratado"]
+        }
+      ]
     },
     {
       "slug": "wilson-arcenio-maco-vasquez",
@@ -9124,7 +11436,18 @@
           "end": "now"
         }
       ],
-      "path": ["unitru"]
+      "path": [
+        {
+          "place": "unitru",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente"
+          ]
+        }
+      ]
     },
     {
       "slug": "jose-antonio-manco-chavez",
@@ -9199,7 +11522,20 @@
           "end": null
         }
       ],
-      "path": ["unmsm", "ucv", "untels"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "untels",
+          "did": ["Docente", "Docente de física"]
+        }
+      ]
     },
     {
       "slug": "marco-antonio-manya-suni",
@@ -9248,7 +11584,20 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "puc-rio", "uff"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "puc-rio",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uff",
+          "did": ["Doctorado"]
+        }
+      ]
     },
     {
       "slug": "eduardo-ruben-massoni-kamimoto",
@@ -9302,7 +11651,24 @@
           "end": "now"
         }
       ],
-      "path": ["puc-chile", "pucp", "puc-chile", "pucp"]
+      "path": [
+        {
+          "place": "puc-chile",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "puc-chile",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "jose-julian-medina-medina",
@@ -9370,7 +11736,20 @@
           "end": 2011
         }
       ],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría", "Profesor"]
+        },
+        {
+          "place": "unjfsc",
+          "did": ["Profesor"]
+        },
+        {
+          "place": "unac",
+          "did": ["Profesor"]
+        }
+      ]
     },
     {
       "slug": "leonardo-rafael-medrano-sandonas",
@@ -9424,8 +11803,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Max Planck Institute for the Physics of Complex Systems",
+          "place": "mpipks",
+          "name": "Max-Planck-Institut für Physik komplexer Systeme",
           "role": "Doctorante",
           "start": 2014,
           "end": 2018
@@ -9459,7 +11838,34 @@
           "end": 2009
         }
       ],
-      "path": ["unmsm", "cfaed"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Profesor de laboratorio.",
+            "Profesor de práctica."
+          ]
+        },
+        {
+          "place": "ucv",
+          "did": ["Profesor a tiempo parcial"]
+        },
+        {
+          "place": "utp",
+          "did": ["Profesor a tiempo parcial"]
+        },
+        {
+          "place": "mpipks",
+          "did": ["Doctorante"]
+        },
+        {
+          "place": "cfaed",
+          "did": ["Research assistant"]
+        }
+      ]
     },
     {
       "slug": "bernabe-alonso-mejia-cordero",
@@ -9495,7 +11901,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "juan-neil-mendoza-nolorbe",
@@ -9549,7 +11960,16 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "unac"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "unac",
+          "did": ["Responsable de capacitacion en investigación"]
+        }
+      ]
     },
     {
       "slug": "marco-antonio-merma-jara",
@@ -9590,7 +12010,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        }
+      ]
     },
     {
       "slug": "oscar-lennon-miculicich-egoavil",
@@ -9626,7 +12051,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "josue-alfonzo-miranda-fernandez",
@@ -9662,7 +12092,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "nabilt-jill-moggiano-aburto",
@@ -9744,7 +12179,35 @@
           "end": 2016
         }
       ],
-      "path": ["unmsm", "uc", "unmsm", "uc", "grips", "uc"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uc",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "uc",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "grips",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uc",
+          "did": [
+            "Directora de investigación de la facultad de ingeniería",
+            "Directora del programa de ingeniería civil"
+          ]
+        }
+      ]
     },
     {
       "slug": "hernan-montes-corazao",
@@ -9780,7 +12243,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor auxiliar"]
+        }
+      ]
     },
     {
       "slug": "alejandro-manuel-montoya-janampa",
@@ -9816,7 +12284,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "israel-roger-montoya-matos",
@@ -9877,15 +12350,15 @@
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Universidad Federal de Río Grande do Sul",
+          "place": "ufrgs",
+          "name": "Universidade Federal do Rio Grande do Sul",
           "role": "Estudiante de doctorado",
           "start": 2013,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Universidad Federal de Alagoas",
+          "place": "ufal",
+          "name": "Universidade Federal de Alagoas",
           "role": "Estudiante de maestria",
           "start": 2010,
           "end": 2012
@@ -9898,7 +12371,39 @@
           "end": 2009
         }
       ],
-      "path": ["unmsm", "ufal", "ufrgs", "ulima"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufal",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ufrgs",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Estudiante"]
+        },
+        {
+          "place": "ufal",
+          "did": ["Estudiante de maestria"]
+        },
+        {
+          "place": "ufrgs",
+          "did": ["Estudiante de doctorado"]
+        },
+        {
+          "place": "ulima",
+          "did": [
+            "Coordinador de laboratorio de materiales",
+            "Coordinador de investigación carrerra de ingeniería civil"
+          ]
+        }
+      ]
     },
     {
       "slug": "luis-alberto-montoya-portugal",
@@ -9955,7 +12460,18 @@
           "end": null
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Docente",
+            "Profesor/investigador"
+          ]
+        }
+      ]
     },
     {
       "slug": "luis-ivan-morales-bautista",
@@ -9997,15 +12513,15 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
+          "place": "ufv",
           "name": "Universidade Federal de Viçosa",
           "role": "Investigador",
           "start": 2014,
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Universidade Estadual Paulista Júlio de Mesquita Filho (unesp-foar)",
+          "place": "unesp",
+          "name": "Universidade Estadual Paulista",
           "role": "Investigador",
           "start": 2012,
           "end": 2014
@@ -10018,7 +12534,28 @@
           "end": 2004
         }
       ],
-      "path": ["unac", "ufes"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufes",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unac",
+          "did": ["Profesor"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "ufv",
+          "did": ["Investigador"]
+        }
+      ]
     },
     {
       "slug": "jorge-nestor-moreno-ruiz",
@@ -10061,7 +12598,20 @@
           "end": "now"
         }
       ],
-      "path": ["pucp", "tu-berlin", "pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "tu-berlin",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "carlos-alberto-morgan-cruz",
@@ -10129,7 +12679,18 @@
           "end": 2017
         }
       ],
-      "path": ["unitru"]
+      "path": [
+        {
+          "place": "unitru",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente investigador unt"
+          ]
+        }
+      ]
     },
     {
       "slug": "richard-alfredo-moscoso-bullon",
@@ -10169,7 +12730,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor asociado"]
+        }
+      ]
     },
     {
       "slug": "daniel-alonso-munoz-gambini",
@@ -10205,7 +12771,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "shigueru-emilio-antonio-nagata-tejada",
@@ -10273,7 +12844,28 @@
           "end": 2014
         }
       ],
-      "path": ["unmsm", "uni", "unab"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Investigador - colaborador", "Practicante pre-profesional"]
+        },
+        {
+          "place": "uni",
+          "did": ["Tesista - investigador"]
+        },
+        {
+          "place": "unab",
+          "did": ["Phd researcher"]
+        }
+      ]
     },
     {
       "slug": "erick-oscar-natividad-zevallos",
@@ -10352,8 +12944,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Autonoma del Peru S.a.c.",
+          "place": "ua-peru",
+          "name": "Universidad Autónoma del Perú",
           "role": "Docente contratado",
           "start": 2023,
           "end": 2023
@@ -10380,7 +12972,32 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "usp", "unmsm", "ucsur"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado", "Monitor"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente contratado"]
+        },
+        {
+          "place": "ua-peru",
+          "did": ["Docente contratado"]
+        },
+        {
+          "place": "ucsur",
+          "did": ["Docente contratado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente auxiliar"]
+        }
+      ]
     },
     {
       "slug": "myriam-virginia-pajuelo-cubillas",
@@ -10427,7 +13044,20 @@
           "end": "now"
         }
       ],
-      "path": ["pucp", "obs-paris", "pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "obs-paris",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor asociado"]
+        }
+      ]
     },
     {
       "slug": "juan-ernesto-palo-tejada",
@@ -10502,7 +13132,20 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "usp", "unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Doctorado", "Docente", "Director"]
+        }
+      ]
     },
     {
       "slug": "alejandro-daniel-paredes-cabrel",
@@ -10570,28 +13213,57 @@
           "end": 2021
         },
         {
-          "place": null,
-          "name": "Universidad San Ignacio de Loyola S.a",
+          "place": "usil",
+          "name": "Universidad San Ignacio de Loyola",
           "role": "Docente",
           "start": 2017,
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Leibniz-institut Für Astrophysik Potsdam",
+          "place": "aip",
+          "name": "Leibniz-Institut für Astrophysik Potsdam",
           "role": "Postdoc",
           "start": 2013,
           "end": 2016
         },
         {
-          "place": null,
-          "name": "Université Du Sud Toulon-var",
+          "place": "toulon",
+          "name": "Université de Toulon",
           "role": "Investigador asistente",
           "start": 2012,
           "end": 2013
         }
       ],
-      "path": ["uni", "amu", "uni"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "amu",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "toulon",
+          "did": ["Investigador asistente"]
+        },
+        {
+          "place": "aip",
+          "did": ["Postdoc"]
+        },
+        {
+          "place": "uni",
+          "did": ["Docente"]
+        },
+        {
+          "place": "usil",
+          "did": ["Docente"]
+        },
+        {
+          "place": "uni",
+          "did": ["Docente investigador"]
+        }
+      ]
     },
     {
       "slug": "david-pareja-quispe",
@@ -10659,7 +13331,24 @@
           "end": 2017
         }
       ],
-      "path": ["unmsm", "inpe", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "inpe",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": ["Adjunto de investigación"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente ordinario"]
+        }
+      ]
     },
     {
       "slug": "evangelina-pasca-supanta",
@@ -10697,7 +13386,16 @@
           "end": 2025
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Tesista en el laboratorio de películas delgadas de la escuela profesional de física"
+          ]
+        }
+      ]
     },
     {
       "slug": "patrizia-edel-pereyra-anaya",
@@ -10744,7 +13442,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "cesar-enrique-perez-villegas",
@@ -10826,14 +13529,35 @@
           "end": 2016
         },
         {
-          "place": null,
-          "name": "Universidade Estadual Paulista Júlio de Mesquita Filho (unesp-foar)",
+          "place": "unesp",
+          "name": "Universidade Estadual Paulista",
           "role": "Postdoctoral fellow",
           "start": 2013,
           "end": 2015
         }
       ],
-      "path": ["unac", "ufabc", "upn"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Postdoctoral fellow"]
+        },
+        {
+          "place": "upn",
+          "did": ["Jefe de investigación", "Docente investigador"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente investigador"]
+        }
+      ]
     },
     {
       "slug": "edgar-luis-pfuturi-huisa",
@@ -10876,7 +13600,12 @@
           "end": "now"
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura", "Docente"]
+        }
+      ]
     },
     {
       "slug": "mirtha-pillaca-quispe",
@@ -10933,7 +13662,21 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "lmu"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Ayudantía de cátedra"
+          ]
+        },
+        {
+          "place": "lmu",
+          "did": ["Estudiante de doctorado"]
+        }
+      ]
     },
     {
       "slug": "carlos-arturo-pizarro-ortiz",
@@ -10969,7 +13712,16 @@
           "end": "now"
         }
       ],
-      "path": ["upr", "pucp"]
+      "path": [
+        {
+          "place": "upr",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "mario-luis-pumacallahui-pineda",
@@ -11012,7 +13764,12 @@
           "end": "now"
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura", "Docente"]
+        }
+      ]
     },
     {
       "slug": "grovert-quino-villanueva",
@@ -11066,8 +13823,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Jose Carlos Mariategui",
+          "place": "ujcm",
+          "name": "Universidad José Carlos Mariátegui",
           "role": "Docente",
           "start": 2016,
           "end": 2016
@@ -11101,7 +13858,28 @@
           "end": 2015
         }
       ],
-      "path": ["unjbg", "usp-chimbote", "unam-moquegua"]
+      "path": [
+        {
+          "place": "unjbg",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp-chimbote",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uap",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ujcm",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unam-moquegua",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "aransselly-jesus-quiroz-chang",
@@ -11137,7 +13915,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "jorge-luis-martin-quiroz-gonzalez",
@@ -11173,7 +13956,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor asociado"]
+        }
+      ]
     },
     {
       "slug": "fredi-quispe-huaynasi",
@@ -11220,14 +14008,27 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Comision Nacional de Investigacion y Desarrollo Aeroespacial (conida)",
+          "place": "conida",
+          "name": "Agencia Espacial del Perú",
           "role": "Asistente de investigación",
           "start": 2014,
           "end": 2016
         }
       ],
-      "path": ["unsaac", "on"]
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "conida",
+          "did": ["Asistente de investigación"]
+        },
+        {
+          "place": "on",
+          "did": ["Posdoctorado"]
+        }
+      ]
     },
     {
       "slug": "justiniano-quispe-marcatoma",
@@ -11299,7 +14100,24 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "cbpf", "unmsm", "citbm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Investigador"]
+        }
+      ]
     },
     {
       "slug": "juan-pablo-quispe-orihuela",
@@ -11344,7 +14162,16 @@
           "end": 2011
         }
       ],
-      "path": ["pucp", "uni"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Licenciatura", "Jefe de practica"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría"]
+        }
+      ]
     },
     {
       "slug": "laura-raquel-rado-diaz",
@@ -11381,7 +14208,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unac", "usp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "elmer-antonio-ramirez-barreto",
@@ -11435,8 +14271,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad San Ignacio de Loyola S.a",
+          "place": "usil",
+          "name": "Universidad San Ignacio de Loyola",
           "role": "Docente e investigador",
           "start": 2018,
           "end": 2020
@@ -11456,7 +14292,28 @@
           "end": 2014
         }
       ],
-      "path": ["unmsm", "ufrj", "upch"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufrj",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Investigador postdoctoral", "Profesor visitante"]
+        },
+        {
+          "place": "usil",
+          "did": ["Docente e investigador"]
+        },
+        {
+          "place": "upch",
+          "did": ["Docente e investigador"]
+        }
+      ]
     },
     {
       "slug": "carlos-antonio-reyes-pareja",
@@ -11507,7 +14364,28 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unitru", "unasam", "unitru", "unasam", "usp-chimbote"]
+      "path": [
+        {
+          "place": "unitru",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unasam",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unasam",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "usp-chimbote",
+          "did": ["Doctorado"]
+        }
+      ]
     },
     {
       "slug": "alonso-hernan-ricci-castro",
@@ -11561,14 +14439,31 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Instituto Tecnologico de Aeronáutica (ita) - Centro Técnico Aeroespacial (cta)",
+          "place": "ita",
+          "name": "Instituto Tecnológico de Aeronáutica",
           "role": "Pos doctorado",
           "start": 2017,
           "end": 2019
         }
       ],
-      "path": ["unac", "unesp", "inpe"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ita",
+          "did": ["Pos doctorado"]
+        },
+        {
+          "place": "inpe",
+          "did": ["Investigador"]
+        }
+      ]
     },
     {
       "slug": "richard-alberto-rivera-campos",
@@ -11608,7 +14503,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "chachi-rojas-ayala",
@@ -11672,7 +14572,20 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "cbpf", "unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Docente", "Docente investigador"]
+        }
+      ]
     },
     {
       "slug": "noelia-rojas-benavente",
@@ -11782,7 +14695,27 @@
           "end": 2012
         }
       ],
-      "path": ["unmsm", "usp"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Asistente de investigacion",
+            "Asistente de investigación"
+          ]
+        },
+        {
+          "place": "usp",
+          "did": [
+            "Doctorado",
+            "Investigador de doctorado",
+            "Investigadora",
+            "Investeigadora de postdoc"
+          ]
+        }
+      ]
     },
     {
       "slug": "jhonny-jonnatan-rojas-hancco",
@@ -11829,7 +14762,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "enrique-luis-alfonso-rojas-villalba",
@@ -11893,14 +14831,32 @@
           "end": 2020
         },
         {
-          "place": null,
+          "place": "jicamarca",
           "name": "Radio Observatorio de Jicamarca",
           "role": "Practicante profesional",
           "start": 2011,
           "end": 2014
         }
       ],
-      "path": ["pucp", "cornell"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "jicamarca",
+          "did": ["Practicante profesional"]
+        },
+        {
+          "place": "cornell",
+          "did": [
+            "Maestría",
+            "Doctorado",
+            "Asistente de investigación",
+            "Investigador postdoctoral"
+          ]
+        }
+      ]
     },
     {
       "slug": "juan-carlos-romero-aquino",
@@ -12003,7 +14959,44 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "unb", "unmsm", "unb", "uni"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unb",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unb",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "uni",
+          "did": ["Docente investigador"]
+        },
+        {
+          "place": "unb",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Post-doctor"]
+        },
+        {
+          "place": "uni",
+          "did": [
+            "Investigador",
+            "Docente investigador",
+            "Jefe de laboratorio - fiis"
+          ]
+        }
+      ]
     },
     {
       "slug": "ruben-mauricio-romero-ramirez",
@@ -12038,7 +15031,18 @@
           "end": 2022
         }
       ],
-      "path": ["unica"]
+      "path": [
+        {
+          "place": "unica",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Supervisor y asistente técnico en estación de transmisión - unica - ica (radio observatorio de jicamarca)"
+          ]
+        }
+      ]
     },
     {
       "slug": "carlos-yvan-romero-tadeo",
@@ -12088,7 +15092,16 @@
           "end": "now"
         }
       ],
-      "path": ["uni", "imarpe"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "imarpe",
+          "did": ["Investigador cientifico"]
+        }
+      ]
     },
     {
       "slug": "jimmy-leonardo-rosales-ventocilla",
@@ -12124,7 +15137,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "david-reinaldo-alejandro-ruelas-paredes",
@@ -12167,7 +15185,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "miguel-saavedra-huanca",
@@ -12235,7 +15258,20 @@
           "end": 2013
         }
       ],
-      "path": ["unmsm", "igp"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Asistente de investigación",
+            "Adjunto de investigación",
+            "Agregado de investigación"
+          ]
+        }
+      ]
     },
     {
       "slug": "elisban-juani-sacari-sacari",
@@ -12340,7 +15376,18 @@
           "end": 2017
         }
       ],
-      "path": ["unjbg"]
+      "path": [
+        {
+          "place": "unjbg",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Especialista",
+            "Asistente de investigacion"
+          ]
+        }
+      ]
     },
     {
       "slug": "jorge-francisco-salazar-simoni",
@@ -12376,7 +15423,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "edwin-sallica-leva",
@@ -12424,7 +15476,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unmsm", "unicamp"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unicamp",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "eder-ruben-sanchez-alcantara",
@@ -12460,7 +15521,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor auxiliar"]
+        }
+      ]
     },
     {
       "slug": "jose-renato-sanchez-romero",
@@ -12501,7 +15567,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unac", "usp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "nemesio-santamaria-baldera",
@@ -12545,7 +15620,16 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unprg", "untrm"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "untrm",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "jordy-guilbert-santiago-condori",
@@ -12581,7 +15665,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "erick-stalin-serquen-infante",
@@ -12628,7 +15717,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "juan-carlos-sihuincha",
@@ -12666,7 +15760,12 @@
           "end": 2019
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        }
+      ]
     },
     {
       "slug": "betzabel-noemi-silva-carrera",
@@ -12709,8 +15808,8 @@
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Hospital dos de Mayo",
+          "place": "dos-de-mayo",
+          "name": "Hospital Nacional Dos de Mayo",
           "role": "Practicante",
           "start": null,
           "end": null
@@ -12723,7 +15822,28 @@
           "end": "now"
         }
       ],
-      "path": ["unac", "usp", "ipen", "usp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ipen",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "dos-de-mayo",
+          "did": ["Practicante"]
+        },
+        {
+          "place": "usp",
+          "did": ["Posdoctorado"]
+        }
+      ]
     },
     {
       "slug": "mario-florencio-solis-benites",
@@ -12772,7 +15892,16 @@
           "end": 2024
         }
       ],
-      "path": ["unmsm", "uncuyo"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uncuyo",
+          "did": ["Maestría"]
+        }
+      ]
     },
     {
       "slug": "omar-giancarlo-suarez-navarro",
@@ -12840,7 +15969,20 @@
           "end": 2018
         }
       ],
-      "path": ["unp", "pucp", "ucsur"]
+      "path": [
+        {
+          "place": "unp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Jefe de practica"]
+        },
+        {
+          "place": "ucsur",
+          "did": ["Coordinador", "Docente"]
+        }
+      ]
     },
     {
       "slug": "elmer-eduardo-suarez-yana",
@@ -12876,7 +16018,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "patricia-kelly-taipe-torres",
@@ -12921,7 +16068,16 @@
           "end": 2021
         }
       ],
-      "path": ["unmsm", "ufrj"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufrj",
+          "did": ["Maestría", "Doctorado"]
+        }
+      ]
     },
     {
       "slug": "arturo-fernando-talledo-coronado",
@@ -12982,7 +16138,12 @@
           "end": 2013
         }
       ],
-      "path": ["uni"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Licenciatura", "Maestría", "Doctorado", "Profesor principal"]
+        }
+      ]
     },
     {
       "slug": "alvaro-tejada-esteves",
@@ -13025,7 +16186,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "marco-antonio-tito-patricio",
@@ -13093,14 +16259,39 @@
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Mcmaster University",
+          "place": "mcmaster",
+          "name": "McMaster University",
           "role": "Investigador junior",
           "start": 2015,
           "end": 2015
         }
       ],
-      "path": ["unac", "ufscar", "ifsc-usp", "usp", "ifsc-usp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufscar",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ifsc-usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado", "Investigador doctoral"]
+        },
+        {
+          "place": "mcmaster",
+          "did": ["Investigador junior"]
+        },
+        {
+          "place": "ifsc-usp",
+          "did": ["Investigador"]
+        }
+      ]
     },
     {
       "slug": "humberto-torreblanca",
@@ -13135,7 +16326,12 @@
           "end": null
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato"]
+        }
+      ]
     },
     {
       "slug": "luis-alberto-torres-quispe",
@@ -13184,8 +16380,8 @@
           "end": 2026
         },
         {
-          "place": null,
-          "name": "Lnnano, Cnpem",
+          "place": "cnpem",
+          "name": "Centro Nacional de Pesquisa em Energia e Materiais",
           "role": "Investigador",
           "start": 2022,
           "end": 2023
@@ -13212,14 +16408,47 @@
           "end": 2018
         },
         {
-          "place": null,
+          "place": "inl",
           "name": "International Iberian Nanotechnology Laboratory",
           "role": "Investigador",
           "start": 2016,
           "end": 2017
         }
       ],
-      "path": ["uni", "ufabc", "ufsc"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ufsc",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "inl",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "ufsc",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "cnpem",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "ulima",
+          "did": ["Investigador postdoctoral"]
+        }
+      ]
     },
     {
       "slug": "karem-yoli-tucto-salinas",
@@ -13255,7 +16484,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "justo-vladimir-tunoque-gutierrez",
@@ -13341,7 +16575,22 @@
           "end": 2005
         }
       ],
-      "path": ["unprg", "utp", "unprg"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente"
+          ]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "edilberto-valencia-salazar",
@@ -13402,7 +16651,20 @@
           "end": 2013
         }
       ],
-      "path": ["unmsm", "unu", "unia"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "unu",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unia",
+          "did": ["Docente", "Jefe"]
+        }
+      ]
     },
     {
       "slug": "marlon-ivan-valerio-cuadros",
@@ -13463,8 +16725,8 @@
           "end": 2021
         },
         {
-          "place": null,
-          "name": "Centro Brasileriro de Pesquisas Fisicas - Cbpf",
+          "place": "cbpf",
+          "name": "Centro Brasileiro de Pesquisas Físicas",
           "role": "Pesquisador pos-doctoral",
           "start": 2019,
           "end": 2020
@@ -13491,7 +16753,36 @@
           "end": 2013
         }
       ],
-      "path": ["unmsm", "ufal", "ufscar", "uem"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufal",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "ufscar",
+          "did": ["Doctorado", "Asistente de profesor"]
+        },
+        {
+          "place": "uem",
+          "did": ["Pesquisador posdoctoral"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Pesquisador pos-doctoral"]
+        },
+        {
+          "place": "uem",
+          "did": ["Profesor"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Investigador pos-doctoral"]
+        }
+      ]
     },
     {
       "slug": "marcial-vicente-vasquez-arteaga",
@@ -13622,7 +16913,30 @@
           "end": 1983
         }
       ],
-      "path": ["unitru", "uss"]
+      "path": [
+        {
+          "place": "unitru",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Director de escuela de física",
+            "Jefe de departamento académico de física",
+            "Jefe de laboratorio de fisica nuclear",
+            "Jefe de la oficina de admisión unt",
+            "Decano ffccffymm",
+            "Secretario de la sociedad peruana de fisica",
+            "Presidente del eci-norte",
+            "Director (e) departamento académico de física",
+            "Director de unidad de posgrado"
+          ]
+        },
+        {
+          "place": "uss",
+          "did": ["Docente investigador", "Vicerrector de investigación"]
+        }
+      ]
     },
     {
       "slug": "desiderio-augusto-vasquez-rodriguez",
@@ -13669,7 +16983,16 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": [
+            "Bachillerato",
+            "Doctorado",
+            "Docente tiempo completo - principal"
+          ]
+        }
+      ]
     },
     {
       "slug": "jose-luis-javier-vega-ramirez",
@@ -13786,7 +17109,39 @@
           "end": "now"
         }
       ],
-      "path": ["unsa", "ucsp", "usp", "unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ucsp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Docente-contratado", "Docente", "Docente-nombrado-auxiliar"]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "unsa",
+          "did": [
+            "Docente-nombrado-asosciado-investigadorr",
+            "Docente-pricipal-investigador"
+          ]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador-doctorado"]
+        }
+      ]
     },
     {
       "slug": "lidia-narda-vilca-quispe",
@@ -13831,21 +17186,21 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "Centro de Investigaciones y Estudios Avanzados (cinvestav) Unidad Mérida",
+          "place": "cinvestav-merida",
+          "name": "Cinvestav Unidad Mérida",
           "role": "Investigador",
           "start": 2006,
           "end": 2014
         },
         {
-          "place": null,
-          "name": "Centro de Investigaciones y Estudios Avanzados (cinvestav) Unidad Mérida",
+          "place": "cinvestav-merida",
+          "name": "Cinvestav Unidad Mérida",
           "role": "Tecnico cientifico investigador",
           "start": 2012,
           "end": 2014
         },
         {
-          "place": null,
+          "place": "innn",
           "name": "Instituto Nacional de Neurología y Neurocirugía Manuel Velasco Suárez",
           "role": "Investigadora",
           "start": 2008,
@@ -13859,7 +17214,28 @@
           "end": 2005
         }
       ],
-      "path": ["unjbg", "cinvestav"]
+      "path": [
+        {
+          "place": "unjbg",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "cinvestav",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "cinvestav-merida",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "innn",
+          "did": ["Investigadora"]
+        },
+        {
+          "place": "cinvestav-merida",
+          "did": ["Tecnico cientifico investigador"]
+        }
+      ]
     },
     {
       "slug": "zaida-vilca-vilca",
@@ -13920,7 +17296,18 @@
           "end": 2024
         }
       ],
-      "path": ["unsa"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Técnico de laboratorio",
+            "Especialista de laboratorio especializado"
+          ]
+        }
+      ]
     },
     {
       "slug": "luis-pablo-vilcapoma-lazaro",
@@ -13956,7 +17343,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "heyner-leoncio-vilchez-rojas",
@@ -14024,7 +17416,24 @@
           "end": 2022
         }
       ],
-      "path": ["unprg", "pucp", "cio", "pucp"]
+      "path": [
+        {
+          "place": "unprg",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "cio",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Pre-docente", "Docente contratado"]
+        }
+      ]
     },
     {
       "slug": "pablo-martin-vilela-proano",
@@ -14071,7 +17480,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor asociado"]
+        }
+      ]
     },
     {
       "slug": "cristofher-victor-vivas-palomares",
@@ -14150,7 +17564,20 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "usp", "utp", "usp"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp",
+          "did": ["Maestría", "Doctorado", "Docente", "Investigador principal"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "cynthia-ahiezer-vizcarra-ventura",
@@ -14211,14 +17638,31 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "utfpr",
           "name": "Universidade Tecnológica Federal do Paraná",
           "role": "Investigador",
           "start": 2022,
           "end": 2022
         }
       ],
-      "path": ["unsa", "ufrj", "uc"]
+      "path": [
+        {
+          "place": "unsa",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ufrj",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "utfpr",
+          "did": ["Investigador"]
+        },
+        {
+          "place": "uc",
+          "did": ["Docente investigador"]
+        }
+      ]
     },
     {
       "slug": "han-xu",
@@ -14272,7 +17716,16 @@
           "end": "now"
         }
       ],
-      "path": ["unmsm", "imarpe"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "imarpe",
+          "did": ["Especialista en procesamiento de imágenes satelitales"]
+        }
+      ]
     },
     {
       "slug": "simeon-moises-yaro-medina",
@@ -14340,14 +17793,39 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Universidad Autonoma de Barcelona",
+          "place": "uab",
+          "name": "Universitat Autònoma de Barcelona",
           "role": "Técnico medio de soporte a la investigación",
           "start": 2010,
           "end": 2014
         }
       ],
-      "path": ["unmsm", "ufabc", "uab", "unfv"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ufabc",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uab",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "unfv",
+          "did": ["Docente contratado"]
+        },
+        {
+          "place": "uab",
+          "did": ["Técnico medio de soporte a la investigación"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Co-investigador"]
+        }
+      ]
     },
     {
       "slug": "yonny-daniel-yugra-carcasi",
@@ -14394,7 +17872,12 @@
           "end": "now"
         }
       ],
-      "path": ["pucp"]
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ]
     },
     {
       "slug": "alan-zamalloa-puma",
@@ -14458,7 +17941,20 @@
           "end": "now"
         }
       ],
-      "path": ["unsaac", "usp-chimbote", "uc"]
+      "path": [
+        {
+          "place": "unsaac",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "usp-chimbote",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "uc",
+          "did": ["Docente"]
+        }
+      ]
     },
     {
       "slug": "sandra-del-pilar-zambrano-alva",
@@ -14488,7 +17984,12 @@
       ],
       "works": [],
       "jobs": [],
-      "path": ["unmsm"]
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
     },
     {
       "slug": "jonathan-joas-zapata-campos",
@@ -14567,7 +18068,28 @@
           "end": 2023
         }
       ],
-      "path": ["unp", "uff", "utp", "ucsur"]
+      "path": [
+        {
+          "place": "unp",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uff",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente de física"]
+        },
+        {
+          "place": "uwiener",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ucsur",
+          "did": ["Docente de física"]
+        }
+      ]
     },
     {
       "slug": "marilyn-ruth-zapata-requena",
@@ -14610,7 +18132,20 @@
           "end": "now"
         }
       ],
-      "path": ["unfv", "oncologia-sac"]
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "utp",
+          "did": ["Asistente de laboratorio especializado de física"]
+        },
+        {
+          "place": "oncologia-sac",
+          "did": ["Asistente de física médica"]
+        }
+      ]
     },
     {
       "slug": "jose-fortunato-zuloaga-cachay",
@@ -14739,14 +18274,54 @@
         }
       ],
       "path": [
-        "unprg",
-        "usat",
-        "unprg",
-        "usat",
-        "ucv",
-        "uss",
-        "usat",
-        "ugel-lambayeque"
+        {
+          "place": "unprg",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usat",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unprg",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "usat",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uss",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "ugel-lambayeque",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unprg",
+          "did": ["Proveedor de servicio"]
+        },
+        {
+          "place": "uss",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unprg",
+          "did": ["Docente"]
+        },
+        {
+          "place": "usat",
+          "did": ["Docente"]
+        },
+        {
+          "place": "uap",
+          "did": ["Docente"]
+        }
       ]
     },
     {
@@ -14822,7 +18397,32 @@
           "end": "now"
         }
       ],
-      "path": ["unac", "ufes", "cbpf", "utp"]
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "ufes",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "ufma",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "utp",
+          "did": [
+            "Docente",
+            "Coordinador de investigación",
+            "Director de investigación"
+          ]
+        }
+      ]
     },
     {
       "slug": "barton-zwiebach",
@@ -14869,7 +18469,20 @@
           "end": "now"
         }
       ],
-      "path": ["uni", "caltech", "mit"]
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "caltech",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "mit",
+          "did": ["Profesor de física"]
+        }
+      ]
     }
   ]
 }

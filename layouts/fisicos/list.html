@@ -1,16 +1,17 @@
 {{ define "main" }}
 {{- $data := hugo.Data.physicists -}}
-{{- $countries := dict "PE" "Perú" "BR" "Brasil" "MX" "México" "US" "Estados Unidos" "DE" "Alemania" "JP" "Japón" "CL" "Chile" "AR" "Argentina" "ES" "España" "IT" "Italia" "FR" "Francia" "IS" "Islandia" "GB" "Reino Unido" "PR" "Puerto Rico" -}}
+{{- $countries := dict "PE" "Perú" "BR" "Brasil" "MX" "México" "US" "Estados Unidos" "DE" "Alemania" "JP" "Japón" "CL" "Chile" "AR" "Argentina" "ES" "España" "IT" "Italia" "FR" "Francia" "IS" "Islandia" "GB" "Reino Unido" "PR" "Puerto Rico" "CA" "Canadá" "CH" "Suiza" "PL" "Polonia" "PT" "Portugal" -}}
 {{- $undergrad := slice "Bachillerato" "Licenciatura" -}}
 {{- $byId := dict -}}
 {{- range $data.places }}{{ $byId = merge $byId (dict .id .) }}{{ end -}}
-{{- /* One entry per place: who studied there, split into undergraduate and graduate degrees, and who works there now. People keep the data's order, by surname. */ -}}
+{{- /* One entry per place: who studied there, split into undergraduate and graduate degrees, who works there now and who worked there before. People keep the data's order, by surname. */ -}}
 {{- $places := slice -}}
 {{- range $data.places -}}
 	{{- $place := . -}}
 	{{- $under := slice -}}
 	{{- $grad := slice -}}
 	{{- $works := slice -}}
+	{{- $worked := slice -}}
 	{{- $names := slice -}}
 	{{- range $data.people -}}
 		{{- $person := . -}}
@@ -32,8 +33,17 @@
 				{{- $names = $names | append $person.slug -}}
 			{{- end -}}
 		{{- end -}}
+		{{- /* Someone who works there now is under Trabajan, so their earlier posts there are not repeated. */ -}}
+		{{- if not (where .works "place" $place.id) -}}
+			{{- $roles := slice -}}
+			{{- range where .jobs "place" $place.id }}{{ $roles = $roles | append .role }}{{ end -}}
+			{{- with $roles }}
+				{{- $worked = $worked | append (dict "person" $person "note" (delimit (uniq .) " · ")) -}}
+				{{- $names = $names | append $person.slug -}}
+			{{- end -}}
+		{{- end -}}
 	{{- end -}}
-	{{- $groups := slice (dict "title" "Pregrado" "rows" $under) (dict "title" "Posgrado" "rows" $grad) (dict "title" "Trabajan" "rows" $works) -}}
+	{{- $groups := slice (dict "title" "Pregrado" "rows" $under) (dict "title" "Posgrado" "rows" $grad) (dict "title" "Trabajan" "rows" $works) (dict "title" "Trabajaron" "rows" $worked) -}}
 	{{- $places = $places | append (dict "place" $place "groups" $groups "n" ($names | uniq | len) "mapped" (ne $place.lat nil)) -}}
 {{- end -}}
 {{- $places = sort (sort $places "place.name") "n" "desc" -}}
@@ -59,13 +69,9 @@
 	{{- $mapped := slice -}}
 	{{- $stops := slice -}}
 	{{- range .path -}}
-		{{- $id := . -}}
-		{{- $place := index $byId $id -}}
-		{{- if ne $place.lat nil }}{{ $mapped = $mapped | append $id }}{{ end -}}
-		{{- $did := slice -}}
-		{{- range where $person.studied "place" $id }}{{ $did = $did | append .level }}{{ end -}}
-		{{- range where $person.works "place" $id }}{{ $did = $did | append .role }}{{ end -}}
-		{{- $stops = $stops | append (dict "name" ($place.short | default $place.name) "note" (delimit $did " · ")) -}}
+		{{- $place := index $byId .place -}}
+		{{- if ne $place.lat nil }}{{ $mapped = $mapped | append .place }}{{ end -}}
+		{{- $stops = $stops | append (dict "name" ($place.short | default $place.name) "note" (delimit .did " · ")) -}}
 	{{- end -}}
 	{{- $profile := site.GetPage (printf "/fisicos/%s" .slug) -}}
 	{{- $role := "" -}}
@@ -83,10 +89,10 @@
 {{- .Store.Set "physicistsMap" (dict "land" $land.RelPermalink "places" ($pins | jsonify) "people" ($routes | jsonify)) -}}
 
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d personas con un grado en física, en %d instituciones del Perú y del extranjero. Elige una institución para ver quién estudió o trabaja ahí y la ruta que siguió cada uno; acerca el mapa para separar las de una misma ciudad." (len $data.people) (len $places))) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d personas con un grado en física, en %d instituciones del Perú y del extranjero. Elige una institución para ver quién estudió o trabajó ahí y la ruta que siguió cada uno; acerca el mapa para separar las de una misma ciudad." (len $data.people) (len $places))) }}
 
 	<div class="map" hidden>
-		<canvas tabindex="0" role="img" aria-label="Globo con las instituciones donde estudiaron o trabajan. La lista de abajo tiene los mismos datos."></canvas>
+		<canvas tabindex="0" role="img" aria-label="Globo con las instituciones donde estudiaron o trabajaron. La lista de abajo tiene los mismos datos."></canvas>
 		<div class="map-controls">
 			<button class="map-btn" type="button" data-map="in" aria-label="Acercar">{{ partial "ui/icon.html" (dict "name" "plus" "size" 16) }}</button>
 			<button class="map-btn" type="button" data-map="out" aria-label="Alejar">{{ partial "ui/icon.html" (dict "name" "minus" "size" 16) }}</button>
@@ -159,7 +165,7 @@
 				<ul class="rows">
 					{{- range $data.people }}
 						{{- $stops := slice }}
-						{{- range .path }}{{ $place := index $byId . }}{{ $stops = $stops | append ($place.short | default $place.name) }}{{ end }}
+						{{- range .path }}{{ $place := index $byId .place }}{{ $stops = $stops | append ($place.short | default $place.name) }}{{ end }}
 						{{ partial "fisicos/row.html" (dict "person" . "note" (delimit $stops " → ") "meta" .area) }}
 					{{- end }}
 				</ul>
