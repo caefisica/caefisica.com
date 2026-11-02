@@ -47787,6 +47787,41 @@
       ]
     },
     {
+      "slug": "thonny-ericson-mota-pena",
+      "name": "Thonny Ericson Mota Peña",
+      "initials": "TM",
+      "source": "web",
+      "url": "https://hdl.handle.net/20.500.12672/19397",
+      "orcid": null,
+      "site": "Cybertesis UNMSM",
+      "updated": "02-11-2026",
+      "degree": "Licenciatura en física",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": 2021
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2023
+        }
+      ],
+      "works": [],
+      "jobs": [],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
+    },
+    {
       "slug": "bryan-motta-zorrilla",
       "name": "Bryan Motta Zorrilla",
       "initials": "BM",
