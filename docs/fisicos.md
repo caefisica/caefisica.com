@@ -62,7 +62,7 @@ que coincide con su perfil; un nombre igual no basta.
 
 ## Mapa de físicos
 
-`/fisicos/` dibuja un globo con las instituciones donde estudiaron o trabajan
+`/fisicos/` dibuja un globo con las instituciones donde estudiaron o trabajaron
 las personas de `data/physicists.json`, y debajo la misma información como
 lista, que se ve por institución, por área o por persona.
 
@@ -83,16 +83,25 @@ persona con:
 | `studied` | Sus grados, con institución, nivel y años.                        |
 | `works`   | Sus puestos actuales.                                             |
 | `jobs`    | Todos sus puestos, para la cronología del perfil.                 |
-| `path`    | Las instituciones de sus grados y luego las de sus puestos.       |
+| `path`    | Su ruta: cada parada con su institución y lo que hizo ahí.        |
 | `area`    | El área según OpenAlex, o nulo con pocas publicaciones indexadas. |
 
 Las fichas cambian poco; actualízalo a lo sumo una vez al año y cambia
 `fetched`.
 
-Al elegir una institución, el globo traza la ruta (`path`) de cada persona que
-estudió o trabaja ahí. Un nombre de esa lista, o la dirección
-`/fisicos/#ruta-<slug>`, abre en el panel la ficha de la persona y traza solo su
-ruta.
+La ruta sigue la carrera en orden: cada grado y cada puesto, actual o pasado,
+por su primer año. En el mismo año, el grado va antes que el puesto, y una
+entrada sin año sigue a la anterior. Quien vuelve a una institución vuelve a
+pasar por ella en la ruta. Un puesto entra solo si su institución tiene fila en
+`places`: universidades, centros de investigación, observatorios, hospitales y
+organismos técnicos del Estado. Las empresas, los colegios, los ministerios y
+los bancos quedan en la cronología del perfil, no en la ruta. La lista por
+institución separa a quienes trabajan ahí hoy («Trabajan») de quienes trabajaron
+antes («Trabajaron»).
+
+Al elegir una institución, el globo traza la ruta de cada persona que estudió o
+trabajó ahí. Un nombre de esa lista, o la dirección `/fisicos/#ruta-<slug>`,
+abre en el panel la ficha de la persona y traza solo su ruta.
 
 `content/fisicos/_content.gotmpl` crea un perfil por persona en
 `/fisicos/<slug>/`, con lo que dice el JSON. Así los datos siguen a la vista

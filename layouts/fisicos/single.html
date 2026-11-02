@@ -111,12 +111,12 @@
 				<h2 id="ruta">Ruta</h2>
 				<ol class="route">
 					{{- range . }}
-						{{- $place := index $places . }}
+						{{- $place := index $places .place }}
 						<li><a href="{{ $map.RelPermalink }}#lugar-{{ $place.id }}">{{ $place.short | default $place.name }}</a></li>
 					{{- end }}
 				</ol>
 				{{- $mapped := false }}
-				{{- range . }}{{ if ne (index $places .).lat nil }}{{ $mapped = true }}{{ end }}{{ end }}
+				{{- range . }}{{ if ne (index $places .place).lat nil }}{{ $mapped = true }}{{ end }}{{ end }}
 				{{- if $mapped }}
 					<p><a href="{{ $map.RelPermalink }}#ruta-{{ $p.slug }}">Ver la ruta en el mapa</a></p>
 				{{- end }}
