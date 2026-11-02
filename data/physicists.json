@@ -11311,6 +11311,15 @@
       "kind": "universidad"
     },
     {
+      "id": "tu-chemnitz",
+      "name": "Technische Universität Chemnitz",
+      "short": "TU Chemnitz",
+      "country": "DE",
+      "lat": 50.83917,
+      "lon": 12.9275,
+      "kind": "universidad"
+    },
+    {
       "id": "lmu",
       "name": "Ludwig-Maximilians-Universität München",
       "short": "LMU",
@@ -31982,6 +31991,101 @@
             "Asistente de investigación",
             "Asistente de investigacion",
             "Técnico de laboratorio"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "carlos-vladimir-landauro-saenz",
+      "name": "Carlos Vladimir Landauro Saenz",
+      "initials": "CL",
+      "source": "orcid",
+      "url": "https://orcid.org/0000-0002-1361-7355",
+      "orcid": "0000-0002-1361-7355",
+      "site": null,
+      "updated": "01-11-2026",
+      "degree": "Doctorado en física",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 1989,
+          "end": 1994
+        },
+        {
+          "place": "tu-chemnitz",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1996,
+          "end": 2002
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Profesor principal de física del estado sólido"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor principal de física del estado sólido",
+          "start": 2019,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor asociado",
+          "start": 2009,
+          "end": 2018
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor auxiliar",
+          "start": 2006,
+          "end": 2009
+        },
+        {
+          "place": null,
+          "name": "Radboud Universiteit Nijmegen",
+          "role": "Investigador posdoctoral",
+          "start": 2003,
+          "end": 2004
+        },
+        {
+          "place": "tu-chemnitz",
+          "name": "Technische Universität Chemnitz",
+          "role": "Investigador posdoctoral",
+          "start": 2002,
+          "end": 2003
+        },
+        {
+          "place": "tu-chemnitz",
+          "name": "Technische Universität Chemnitz",
+          "role": "Investigador",
+          "start": 1999,
+          "end": 2002
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "tu-chemnitz",
+          "did": ["Doctorado", "Investigador", "Investigador posdoctoral"]
+        },
+        {
+          "place": "unmsm",
+          "did": [
+            "Profesor auxiliar",
+            "Profesor asociado",
+            "Profesor principal de física del estado sólido"
           ]
         }
       ]
