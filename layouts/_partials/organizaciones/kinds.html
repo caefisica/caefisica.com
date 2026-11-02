@@ -1,0 +1,8 @@
+{{- /* Returns the kinds of place in data/physicists.json in the order the index lists them, each with its singular and plural Spanish name. */ -}}
+{{- return slice
+	(dict "id" "universidad" "one" "Universidad" "many" "Universidades")
+	(dict "id" "instituto" "one" "Instituto o centro de investigación" "many" "Institutos y centros de investigación")
+	(dict "id" "estado" "one" "Entidad del Estado" "many" "Entidades del Estado")
+	(dict "id" "hospital" "one" "Hospital o clínica" "many" "Hospitales y clínicas")
+	(dict "id" "empresa" "one" "Empresa" "many" "Empresas")
+-}}

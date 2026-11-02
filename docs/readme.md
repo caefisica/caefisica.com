@@ -11,6 +11,8 @@
   imágenes, PDF y diagramas.
 - [Físicos](fisicos.md): perfiles escritos, fuentes, cronología, foto,
   publicaciones de OpenAlex y el mapa de físicos.
+- [Organizaciones](organizaciones.md): una página por institución o empresa, con
+  sus físicos y sus publicaciones de física.
 - [Tesis](tesis.md): la copia de Cybertesis, sus vistas y cómo un nombre enlaza
   su perfil.
 - [Grabaciones](grabaciones.md): las grabaciones de Facebook y de Educast, sus

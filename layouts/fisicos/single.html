@@ -112,7 +112,7 @@
 				<ol class="route">
 					{{- range . }}
 						{{- $place := index $places .place }}
-						<li><a href="{{ $map.RelPermalink }}#lugar-{{ $place.id }}">{{ $place.short | default $place.name }}</a></li>
+						<li><a href="{{ (site.GetPage (printf "/organizaciones/%s" $place.id)).RelPermalink }}">{{ $place.short | default $place.name }}</a></li>
 					{{- end }}
 				</ol>
 				{{- $mapped := false }}
@@ -137,7 +137,7 @@
 							<span class="timeline-years">{{ partial "fisicos/years.html" $e }}</span>
 							<span>
 								{{- $e.text }}
-								{{- with $e.place }}, <a href="{{ $map.RelPermalink }}#lugar-{{ .id }}">{{ .name }}</a>{{ else }}{{ with $e.name }}, {{ . }}{{ end }}{{ end -}}
+								{{- with $e.place }}, <a href="{{ (site.GetPage (printf "/organizaciones/%s" .id)).RelPermalink }}">{{ .name }}</a>{{ else }}{{ with $e.name }}, {{ . }}{{ end }}{{ end -}}
 							</span>
 						</li>
 					{{- end }}

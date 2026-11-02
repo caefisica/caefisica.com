@@ -1,0 +1,13 @@
+{{- /* The groups fisicos/place-groups.html returns, each under its heading; an empty group is left out. Context: the groups. */ -}}
+<div class="map-groups">
+	{{- range . }}
+		{{- if .rows }}
+			<h3>{{ .title }} <span class="count">{{ len .rows }}</span></h3>
+			<ul class="rows">
+				{{- range .rows }}
+					{{ partial "fisicos/row.html" . }}
+				{{- end }}
+			</ul>
+		{{- end }}
+	{{- end }}
+</div>
