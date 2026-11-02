@@ -46,10 +46,12 @@
 	<section class="facts" aria-labelledby="person-info">
 		<h2 id="person-info">En breve</h2>
 		<dl>
-			<div>
-				<dt>Grado más alto</dt>
-				<dd>{{ $p.degree }}</dd>
-			</div>
+			{{- with $p.degree }}
+				<div>
+					<dt>Grado más alto</dt>
+					<dd>{{ . }}</dd>
+				</div>
+			{{- end }}
 			{{- with or .Params.fields $p.fields }}
 				<div>
 					<dt>Campos</dt>

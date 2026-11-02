@@ -18,6 +18,11 @@
 {{- end -}}
 {{- $areas = sort (sort $areas "name") "n" "desc" -}}
 {{- with where $data.people "area" nil }}{{ $areas = $areas | append (dict "name" "Sin área identificada" "people" . "n" (len .)) }}{{ end -}}
+{{- /* One entry per career path, in the order the build ranks them. */ -}}
+{{- $tracks := slice -}}
+{{- range slice "Física" "Geofísica" "Ingeniería" "Otra formación" "Sin grado registrado" -}}
+	{{- with where $data.people "track" . }}{{ $tracks = $tracks | append (dict "name" (index . 0).track "people" . "n" (len .)) }}{{ end -}}
+{{- end -}}
 {{- /* The map gets the mapped places and, for each person, the mapped stops of their path. */ -}}
 {{- $pins := slice -}}
 {{- range where $places "mapped" true -}}
@@ -50,7 +55,7 @@
 {{- .Store.Set "physicistsMap" (dict "land" $land.RelPermalink "places" ($pins | jsonify) "people" ($routes | jsonify)) -}}
 
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d personas con un grado en física o geofísica, en %d instituciones del Perú y del extranjero. Elige una institución para ver quién estudió o trabajó ahí y la ruta que siguió cada uno; acerca el mapa para separar las de una misma ciudad." (len $data.people) (len $places))) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d personas del mundo de la física, en %d instituciones del Perú y del extranjero: quienes estudiaron física o geofísica y quienes, desde la ingeniería u otra carrera, trabajan en física. Elige una institución para ver quién estudió o trabajó ahí y la ruta que siguió cada uno; acerca el mapa para separar las de una misma ciudad." (len $data.people) (len $places))) }}
 
 	<div class="map" hidden>
 		<canvas tabindex="0" role="img" aria-label="Globo con las instituciones donde estudiaron o trabajaron. La lista de abajo tiene los mismos datos."></canvas>
@@ -73,12 +78,13 @@
 		</aside>
 	</div>
 
-	{{- /* A radio group, so the views switch without script. A browser without :has shows all three. */}}
+	{{- /* A radio group, so the views switch without script. A browser without :has shows them all. */}}
 	<div class="views">
 		<fieldset class="pill-tabs">
 			<legend>Ver por</legend>
 			<label><input type="radio" name="vista" value="lugar" checked /><span>Institución</span></label>
 			<label><input type="radio" name="vista" value="area" /><span>Área</span></label>
+			<label><input type="radio" name="vista" value="formacion" /><span>Formación</span></label>
 			<label><input type="radio" name="vista" value="persona" /><span>Persona</span></label>
 		</fieldset>
 
@@ -95,20 +101,23 @@
 			{{- end }}
 		</div>
 
-		<div class="view" data-view="area">
-			{{- range $areas }}
-				<section class="section-group band">
-					<h2>{{ .name }} <span class="count">{{ .n }}</span></h2>
-					<ul class="rows">
-						{{- range .people }}
-							{{- $note := .degree }}
-							{{- with .works }}{{ $note = printf "%s · %s" $note ((index $byId (index . 0).place).short | default (index $byId (index . 0).place).name) }}{{ end }}
-							{{ partial "fisicos/row.html" (dict "person" . "note" $note) }}
-						{{- end }}
-					</ul>
-				</section>
-			{{- end }}
-		</div>
+		{{- range slice (dict "view" "area" "groups" $areas) (dict "view" "formacion" "groups" $tracks) }}
+			<div class="view" data-view="{{ .view }}">
+				{{- range .groups }}
+					<section class="section-group band">
+						<h2>{{ .name }} <span class="count">{{ .n }}</span></h2>
+						<ul class="rows">
+							{{- range .people }}
+								{{- $note := slice }}
+								{{- with .degree }}{{ $note = $note | append . }}{{ end }}
+								{{- with .works }}{{ $place := index $byId (index . 0).place }}{{ $note = $note | append ($place.short | default $place.name) }}{{ end }}
+								{{ partial "fisicos/row.html" (dict "person" . "note" (delimit $note " · ")) }}
+							{{- end }}
+						</ul>
+					</section>
+				{{- end }}
+			</div>
+		{{- end }}
 
 		<div class="view" data-view="persona">
 			<section class="section-group">
@@ -145,7 +154,7 @@
 	{{- end }}
 
 	<p class="person-note text-muted">
-		Los datos vienen de las fichas públicas de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a> (Concytec), cuyos grados registra SUNEDU, del <a href="https://www.pucp.edu.pe/profesor/">Portal del Profesorado de la PUCP</a> para la Sección Física de esa universidad, y, para quien no está en ninguno, de ORCID, de una página pública (su universidad, el repositorio de su tesis o LinkedIn) o del <a href="https://renati.sunedu.gob.pe/">RENATI</a> de SUNEDU, que registra las tesis de cada grado, consultadas el {{ time.AsTime $data.fetched | time.Format ":date_long" }}. El área sale de los temas que OpenAlex asigna a sus publicaciones; quien tiene pocas publicaciones indexadas queda sin área. Cada nombre enlaza su perfil, que copia esos datos. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		Los datos vienen de las fichas públicas de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a> (Concytec), cuyos grados registra SUNEDU, del <a href="https://www.pucp.edu.pe/profesor/">Portal del Profesorado de la PUCP</a> para la Sección Física de esa universidad, y, para quien no está en ninguno, de ORCID, de una página pública (su universidad, el repositorio de su tesis o LinkedIn) o del <a href="https://renati.sunedu.gob.pe/">RENATI</a> de SUNEDU, que registra las tesis de cada grado, consultadas el {{ time.AsTime $data.fetched | time.Format ":date_long" }}. Entra quien tiene un grado en física o geofísica y quien trabaja en física con otra formación, como la ingeniería; la vista por formación los agrupa. El área sale de los temas que OpenAlex asigna a sus publicaciones; quien tiene pocas publicaciones indexadas queda sin área. Cada nombre enlaza su perfil, que copia esos datos. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 	</p>
 </div>
 {{ end }}

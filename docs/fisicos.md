@@ -70,25 +70,32 @@ va en grabaciones, y un canal personal no cuenta.
 
 `/fisicos/` dibuja un globo con las instituciones donde estudiaron o trabajaron
 las personas de `data/physicists.json`, y debajo la misma información como
-lista, que se ve por institución, por área o por persona.
+lista, que se ve por institución, por área, por formación o por persona.
 
-Entra quien tiene un grado en física, astrofísica, biofísica o geofísica. El
-JSON sale de las fichas públicas de CTI Vitae, del Portal del Profesorado de la
-PUCP para su Sección Física y, para quien no está en ninguno, de su registro de
-ORCID o, si ORCID no lista sus grados, de una página pública: la de su
-universidad, su tesis en un repositorio o su perfil de LinkedIn (`source` dice
-cuál: `ctivitae`, `pucp`, `orcid` o `web`; con `web`, `site` nombra el sitio de
-`url`). Quien está en CTI Vitae y en la PUCP queda con la ficha de CTI Vitae,
-que tiene años. Además entran quienes aparecen al buscar en ORCID las
-universidades peruanas junto con la física y tienen un grado de física terminado
-en una universidad del Perú. Así entran estudiantes y egresados recientes que no
-están en CTI Vitae. Al final entran los autores de las tesis de física y
-geofísica que registra el RENATI de SUNEDU, con un grado por tesis; su `site` es
-«RENATI» y `url` su página de autor. Un grado en curso no cuenta, ni uno de
-educación física, terapia física o docencia. Si un registro de ORCID da a una
-persona con un nombre más corto que otro perfil y comparten una institución de
-estudios, es la misma persona y no entra. El portal de la PUCP da el grado y la
-institución pero no los años, así que esos perfiles ordenan los grados por
+El mapa reúne el mundo de la física, no solo a los físicos. Entra quien tiene un
+grado en física, astrofísica, biofísica o geofísica, y también quien trabaja en
+física con otra formación: una ingeniera en teledetección en la agencia
+espacial, un químico en un laboratorio de materiales. Como las búsquedas en CTI
+Vitae, ORCID y RENATI parten del grado, a esas personas se les pide uno de
+física o geofísica. Quien está en la plantilla de la Sección Física de la PUCP o
+en una entrada revisada a mano (`web`) entra por su trabajo, sea cual sea su
+grado. `track` dice de qué formación viene cada persona, y la vista por
+formación las agrupa. El JSON sale de las fichas públicas de CTI Vitae, del
+Portal del Profesorado de la PUCP para su Sección Física y, para quien no está
+en ninguno, de su registro de ORCID o, si ORCID no lista sus grados, de una
+página pública: la de su universidad, su tesis en un repositorio o su perfil de
+LinkedIn (`source` dice cuál: `ctivitae`, `pucp`, `orcid` o `web`; con `web`,
+`site` nombra el sitio de `url`). Quien está en CTI Vitae y en la PUCP queda con
+la ficha de CTI Vitae, que tiene años. Además entran quienes aparecen al buscar
+en ORCID las universidades peruanas junto con la física y tienen un grado de
+física terminado en una universidad del Perú. Así entran estudiantes y egresados
+recientes que no están en CTI Vitae. Al final entran los autores de las tesis de
+física y geofísica que registra el RENATI de SUNEDU, con un grado por tesis; su
+`site` es «RENATI» y `url` su página de autor. Un grado en curso no cuenta, ni
+uno de educación física, terapia física o docencia. Si un registro de ORCID da a
+una persona con un nombre más corto que otro perfil y comparten una institución
+de estudios, es la misma persona y no entra. El portal de la PUCP da el grado y
+la institución pero no los años, así que esos perfiles ordenan los grados por
 nivel. OpenAlex da el área, a partir de los temas de sus publicaciones, y la
 obra (`works_count` y `cited_by`). `places` lista las instituciones con sus
 coordenadas (`lat` y `lon` nulos si no tienen ubicación). `people` lista a cada
@@ -96,7 +103,8 @@ persona con:
 
 | Campo     | Uso                                                               |
 | --------- | ----------------------------------------------------------------- |
-| `degree`  | Su grado más alto, con el campo: «Doctorado en física».           |
+| `degree`  | Su grado más alto, «Doctorado en física», o nulo sin grado.       |
+| `track`   | Su formación: física, geofísica, ingeniería u otra.               |
 | `studied` | Sus grados, con institución, nivel y años.                        |
 | `works`   | Sus puestos actuales.                                             |
 | `jobs`    | Todos sus puestos, para la cronología del perfil.                 |

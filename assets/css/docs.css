@@ -1709,6 +1709,7 @@
 
   .views:has([value="lugar"]:checked) > [data-view="lugar"],
   .views:has([value="area"]:checked) > [data-view="area"],
+  .views:has([value="formacion"]:checked) > [data-view="formacion"],
   .views:has([value="persona"]:checked) > [data-view="persona"],
   .views:has([value="anio"]:checked) > [data-view="anio"],
   .views:has([value="asesor"]:checked) > [data-view="asesor"],
