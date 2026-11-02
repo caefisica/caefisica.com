@@ -50,7 +50,7 @@
 				<dt>Grado más alto</dt>
 				<dd>{{ $p.degree }}</dd>
 			</div>
-			{{- with .Params.fields }}
+			{{- with or .Params.fields $p.fields }}
 				<div>
 					<dt>Campos</dt>
 					{{- /* Field names are common nouns, capitalised only to stand alone as tags. */}}

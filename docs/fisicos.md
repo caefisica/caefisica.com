@@ -24,8 +24,9 @@ Una clave que no está en `sources` detiene la compilación.
 Sirven el registro ORCID, la ficha de la universidad, una nota de prensa de la
 universidad y el perfil de OpenAlex. Un perfil de LinkedIn sirve para grados y
 puestos, pero pide cuenta para verse: cita primero una fuente abierta si la hay.
-De LinkedIn solo se toman grados y puestos; nunca publicaciones, fotos ni datos
-de contacto.
+De LinkedIn solo se toman grados, puestos y los campos de trabajo que la persona
+nombra en su «Acerca de», como una lista breve en palabras nuestras (`fields` en
+el JSON), nunca su texto; tampoco publicaciones, fotos ni datos de contacto.
 
 ## Front matter
 
@@ -101,6 +102,7 @@ persona con:
 | `jobs`    | Todos sus puestos, para la cronología del perfil.                 |
 | `path`    | Su ruta: cada parada con su institución y lo que hizo ahí.        |
 | `area`    | El área según OpenAlex, o nulo con pocas publicaciones indexadas. |
+| `fields`  | Opcional: los campos que nombra su «Acerca de» de LinkedIn.       |
 
 Las fichas cambian poco; actualízalo a lo sumo una vez al año y cambia
 `fetched`.
