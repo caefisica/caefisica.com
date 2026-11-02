@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "series": [
     {
       "id": "coloquio",
@@ -8236,7 +8236,7 @@
         {
           "name": "Carlos Landauro",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/professors/carlos-landauro-saenz/"
+          "profile": "/fisicos/carlos-vladimir-landauro-saenz/"
         }
       ],
       "summary": "La nanociencia es considerada la disciplina científica del siglo XXI, principalmente por la variedad de aplicaciones tecnológicas que pueden derivarse de ella, es decir, por la nanotecnología. Potenciales aplicaciones tecnológicas existen en electrónica, medicina, medioambiente, industria, óptica, catálisis, etc. Una pregunta relevante es si, en nanociencia, nos encontramos frente a una revolución científica --- como la que se vio en los inicios de la mecánica cuántica --- con efectos físicos que no pueden ser explicados con las teorías establecidas, o si estamos recién explorando los límites de las teorías sobre las que descansa la nanociencia. En este contexto, ¿qué nos espera en la región intermedia entre lo atómico y lo sólido? En esta charla se presentó el estudio de sistemas sólidos y cómo su proceso de nanoestructuración afecta sus propiedades físicas, utilizando el esquema",
@@ -10878,7 +10878,8 @@
       "speakers": [
         {
           "name": "Bram Leo Willems",
-          "affiliation": "Laboratorio de Teledetección Universidad Nacional Mayor de San Marcos"
+          "affiliation": "Laboratorio de Teledetección Universidad Nacional Mayor de San Marcos",
+          "profile": "/fisicos/bram-leo-willems/"
         }
       ],
       "summary": "La teledetección por satélite es en la actualidad el principal modus-operandi para la observación, medición e interpretación de diversos fenómenos naturales y antropogénicos que ocurren sobre la superficie y atmósfera del planeta Tierra. Constituye, a su vez, la herramienta más eficaz y económica para el desarrollo de sistemas de monitoreo diversos, a saber, por la amplia disponibilidad y accesibilidad de imágenes y productos con diferentes resoluciones espectrales, espaciales y temporales, los que posibilitan llevar a cabo diversos tipos de estudios espacio-temporales y a gran escala. El Laboratorio de Teledetección (LABTEL) de la Facultad de Ciencias Físicas de la UNMSM viene desarrollando diversos proyectos de investigación en temáticas relevantes a la degradación de tierras, sequías, heladas y pérdida de biodiversidad, entre otros, en los que las imágenes de satélite de libre acceso constituyen la principal herramienta. En la presente charla, se presentarán y discutirán los fundamentos físicos de la teledetección y su aplicación en estudios desarrollados en diversas regiones del Perú. Asimismo, se abordará la implementación del Sistema Nacional de Monitoreo y el Centro de Excelencia en Geociencias [...].",
@@ -11574,7 +11575,7 @@
         {
           "name": "Carlos Landauro",
           "affiliation": "Facultad de Ciencias Físicas, Universidad Nacional Mayor de San Marcos",
-          "profile": "/professors/carlos-landauro-saenz/"
+          "profile": "/fisicos/carlos-vladimir-landauro-saenz/"
         }
       ],
       "summary": "Los sistemas físicos de muchas partículas se pueden clasificar en dos grandes grupos: ordenados o desordenados. Los primeros están relacionados con regularidad mientras que los segundos con irregularidad (o a lo mucho con orden local, como en el caso de los sistemas amorfos). Más aún, regularidad ha sido, por lo general, asociada a periodicidad. Sin embargo, existe otra forma de orden que se presenta en la naturaleza: el orden aperiódico. En la presente charla mostraré las consecuencias de este tipo de orden sobre las propiedades físicas de sistemas complejos como los cuasicristales y la molécula de ADN.",

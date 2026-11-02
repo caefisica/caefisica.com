@@ -129,9 +129,11 @@ que dice la invitación, si lo dice; si no, la fila muestra el mes.
 ## Ponentes y perfiles
 
 Un ponente lleva `profile` cuando su nombre coincide con un único perfil de
-`/fisicos/` o de `/professors/`: el primer nombre debe ser el mismo y cada
-palabra del nombre debe estar en la carpeta del perfil. Las charlas nombran a la
-gente en forma corta, y los perfiles con el nombre completo. Si no hay una
-coincidencia única, el nombre sale sin enlace.
+`/fisicos/` o, si ninguno coincide, con un único perfil de `/professors/`: el
+primer nombre debe ser el mismo y cada palabra del nombre debe estar en la
+carpeta del perfil. Las charlas nombran a la gente en forma corta, y los
+perfiles con el nombre completo. Quien tiene ambos perfiles enlaza al de
+`/fisicos/`, como en el resto del sitio. Si hay dos coincidencias en la misma
+sección, el nombre sale sin enlace.
 
 El perfil lista las charlas de esa persona en «Charlas», con su serie.
