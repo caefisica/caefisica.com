@@ -955,7 +955,7 @@ function panel(
     const facts = el("dl", "map-facts");
     const fact = (label: string, value: string) =>
       facts.append(el("div", "", el("dt", "", label), el("dd", "", value)));
-    fact("Grado", `${person.degree} en física`);
+    fact("Grado", person.degree);
     if (person.area) fact("Área", person.area);
     if (person.works)
       fact(

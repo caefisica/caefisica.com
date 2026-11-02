@@ -37,7 +37,7 @@
 					{{- with $p.works -}}
 						{{- $w := index . 0 }}{{ $w.role }}, {{ (index $places $w.place).name -}}
 					{{- else -}}
-						{{ $p.degree }} en física
+						{{ $p.degree }}
 					{{- end -}}
 				{{- end -}}
 			</p>
@@ -48,7 +48,7 @@
 		<dl>
 			<div>
 				<dt>Grado más alto</dt>
-				<dd>{{ $p.degree }} en física</dd>
+				<dd>{{ $p.degree }}</dd>
 			</div>
 			{{- with .Params.fields }}
 				<div>

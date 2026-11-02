@@ -89,7 +89,7 @@
 {{- .Store.Set "physicistsMap" (dict "land" $land.RelPermalink "places" ($pins | jsonify) "people" ($routes | jsonify)) -}}
 
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d personas con un grado en física, en %d instituciones del Perú y del extranjero. Elige una institución para ver quién estudió o trabajó ahí y la ruta que siguió cada uno; acerca el mapa para separar las de una misma ciudad." (len $data.people) (len $places))) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d personas con un grado en física o geofísica, en %d instituciones del Perú y del extranjero. Elige una institución para ver quién estudió o trabajó ahí y la ruta que siguió cada uno; acerca el mapa para separar las de una misma ciudad." (len $data.people) (len $places))) }}
 
 	<div class="map" hidden>
 		<canvas tabindex="0" role="img" aria-label="Globo con las instituciones donde estudiaron o trabajaron. La lista de abajo tiene los mismos datos."></canvas>
@@ -151,7 +151,7 @@
 					<h2>{{ .name }} <span class="count">{{ .n }}</span></h2>
 					<ul class="rows">
 						{{- range .people }}
-							{{- $note := printf "%s en física" .degree }}
+							{{- $note := .degree }}
 							{{- with .works }}{{ $note = printf "%s · %s" $note ((index $byId (index . 0).place).short | default (index $byId (index . 0).place).name) }}{{ end }}
 							{{ partial "fisicos/row.html" (dict "person" . "note" $note) }}
 						{{- end }}
