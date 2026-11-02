@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- /*
-One talk of data/recordings.json, found by .Params.recording. A YouTube video and a Facebook video's Drive copy play in their host's player behind a still; an Educast mp4 plays in the site's own player (assets/js/video.ts), which falls back to the browser's controls without JavaScript. A talk without video shows its invitation instead.
+One talk of data/recordings.json, found by .Params.recording. A YouTube video, a Facebook video's Drive copy and a Drive video a series published play in their host's player behind a still; an Educast mp4 plays in the site's own player (assets/js/video.ts), which falls back to the browser's controls without JavaScript. A talk without video shows its invitation instead.
 */ -}}
 {{- $data := hugo.Data.recordings -}}
 {{- $r := index (where $data.recordings "id" .Params.recording) 0 -}}
@@ -26,7 +26,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video an
 				</span>
 			</a>
 		</div>
-	{{- else if eq $r.host "Facebook" }}
+	{{- else if in (slice "Facebook" "Drive") $r.host }}
 		{{- $id := replaceRE `^.*/file/d/([^/]+)/.*$` "$1" $r.url }}
 		{{- .Store.Set "player" true }}
 		<div class="player talk-player" data-host="drive">
@@ -39,7 +39,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video an
 				</span>
 			</a>
 		</div>
-	{{- else if $r.page }}
+	{{- else if eq $r.host "Educast PUCP" }}
 		{{- .Store.Set "video" true }}
 		<div class="video talk-player" data-key="{{ $r.id }}">
 			<video src="{{ $r.url }}"{{ with $r.poster }} poster="{{ . }}"{{ end }} controls preload="metadata" playsinline aria-label="{{ .Title }}"></video>
@@ -81,6 +81,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video an
 						<dt>Original</dt>
 						<dd>
 							{{- if $r.post }}<a href="{{ $r.post }}">Facebook</a>, con una copia en Google Drive
+							{{- else if eq $r.host "Drive" }}<a href="{{ $r.page }}">{{ $series.name }}</a>, con el video en Google Drive
 							{{- else if $r.page }}<a href="{{ $r.page }}">Educast PUCP</a>
 							{{- else }}<a href="{{ $r.url }}">YouTube</a>
 							{{- end -}}
@@ -90,7 +91,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video an
 				{{- with $invitation }}
 					<div>
 						<dt>Invitación</dt>
-						<dd><a href="{{ . }}">{{ cond (strings.Contains . "instagram.com") "Instagram" "Facebook" }}</a></dd>
+						<dd><a href="{{ . }}">{{ cond (strings.Contains . "instagram.com") "Instagram" (cond (strings.Contains . "facebook.com") "Facebook" "Página del seminario") }}</a></dd>
 					</div>
 				{{- end }}
 				{{- with $r.summary }}

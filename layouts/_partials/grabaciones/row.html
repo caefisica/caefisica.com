@@ -11,6 +11,7 @@
 			{{- with .note }}{{ . }} · {{ end }}
 			{{- if $r.post }}<a href="{{ $r.post }}">Facebook</a>
 			{{- else if not $video }}<a href="{{ $r.url }}">Invitación</a>, sin video
+			{{- else if eq $r.host "Drive" }}<a href="{{ $r.page }}">Google Drive</a>
 			{{- else if $r.page }}<a href="{{ $r.page }}">{{ $r.host }}</a>
 			{{- else }}<a href="{{ $r.url }}">{{ $r.host }}</a>
 			{{- end }}

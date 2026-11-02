@@ -36,9 +36,9 @@ difieren en eso. La página da el título, los ponentes con su afiliación, la
 fecha, la serie y el reproductor, y debajo una ficha con el original, la
 invitación y el resumen de Educast. Según el origen:
 
-- **YouTube** y **Facebook** muestran la miniatura con un botón; al pulsarlo
-  `assets/js/player.ts` carga el reproductor de YouTube (sin cookies) o el de
-  Google Drive. Hasta entonces la página no pide nada a esos sitios.
+- **YouTube**, **Facebook** y **Drive** muestran la miniatura con un botón; al
+  pulsarlo `assets/js/player.ts` carga el reproductor de YouTube (sin cookies) o
+  el de Google Drive. Hasta entonces la página no pide nada a esos sitios.
 - **Educast** reproduce el mp4 en el reproductor del sitio
   (`assets/js/video.ts`), tomado del de las historias de clientes de Linear: los
   controles flotan sobre una sombra y se esconden tras dos segundos sin mover el
@@ -64,7 +64,7 @@ charlas y de videos, y el primer y el último año. Va ordenada por número de
 videos. Cada registro tiene serie, título, fecha, mes, minutos, enlace, origen y
 ponentes.
 
-Hay cuatro orígenes:
+Hay cinco orígenes:
 
 - **Facebook**: los videos de la página de la facultad de quince minutos o más.
   Los más cortos son clips, reels o avisos. Los avisos de admisión tampoco
@@ -98,6 +98,11 @@ Hay cuatro orígenes:
   navegador reproduce sin la página de Educast; `page` es la página y `poster`
   su imagen. La página no da la duración; `educast.py` la lee del mp4 con
   ffprobe.
+- **Drive**: las grabaciones que los Peruvian Theoretical Physics Seminars
+  (`tps`) enlazan en la página de grabaciones de su sitio. `url` es el
+  reproductor de Drive y `page` esa página. Su sitio enlaza el mismo video del 5
+  de mayo en los seminarios 3 a 7, así que esos cinco entran como invitaciones,
+  con la página del seminario como invitación.
 - **Invitación**: las charlas que la facultad anunció en Facebook y que no
   tienen video. Una invitación entra cuando nombra un título y un ponente. No
   entra si un video de la misma serie, con menos de tres meses de diferencia, ya
