@@ -62,10 +62,10 @@
       "organiser": "Asociación de Estudiantes de Física de la PUCP",
       "one": "charla",
       "unit": "charlas",
-      "talks": 8,
+      "talks": 9,
       "videos": 6,
       "first": "2020",
-      "last": "2025"
+      "last": "2026"
     },
     {
       "id": "divulgacion",
@@ -117,10 +117,21 @@
       "organiser": "Centro de Estudiantes de Física de la UNT",
       "one": "charla",
       "unit": "charlas",
-      "talks": 15,
+      "talks": 28,
       "videos": 0,
       "first": "2023",
-      "last": "2024"
+      "last": "2025"
+    },
+    {
+      "id": "cftunt",
+      "name": "Charlas del CFT-UNT",
+      "organiser": "Club de Física Teórica de la UNT",
+      "one": "charla",
+      "unit": "charlas",
+      "talks": 10,
+      "videos": 0,
+      "first": "2025",
+      "last": "2026"
     },
     {
       "id": "conferencias",
@@ -213,6 +224,23 @@
         }
       ],
       "month": "2026-10"
+    },
+    {
+      "id": "ig-DehfZjCEchq",
+      "series": "asdf-pucp",
+      "title": "Neutrinos: una ventana hacia la física más allá del Modelo Estándar",
+      "date": "2026-10-22",
+      "month": "2026-10",
+      "minutes": null,
+      "url": "https://www.instagram.com/p/DehfZjCEchq/",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Alberto Gago",
+          "affiliation": "PUCP",
+          "profile": "/fisicos/alberto-martin-gago-medina/"
+        }
+      ]
     },
     {
       "id": "fb-post-1561350359342469",
@@ -1177,6 +1205,22 @@
       "month": "2026-04"
     },
     {
+      "id": "fb-photo-883730708024496",
+      "series": "cftunt",
+      "title": "Una introducción a la teoría Duffin-Kemmer-Petiau",
+      "date": "2026-04-08",
+      "month": "2026-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=883730708024496",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Alexander Trigoso Sulca",
+          "affiliation": "IFT-UNESP"
+        }
+      ]
+    },
+    {
       "id": "yt-0OJhSWgw8_0",
       "series": "lafmat",
       "date": "2026-04-04",
@@ -1191,6 +1235,22 @@
         }
       ],
       "month": "2026-04"
+    },
+    {
+      "id": "fb-photo-883265708070996",
+      "series": "cftunt",
+      "title": "Adversus Feynman: la formulación de Schwinger de la QFT",
+      "date": null,
+      "month": "2026-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=883265708070996",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Antonhy Max Ccorimanya Quispe",
+          "affiliation": "UNT"
+        }
+      ]
     },
     {
       "id": "yt-1hOykodBt8E",
@@ -1209,6 +1269,54 @@
       "month": "2026-03"
     },
     {
+      "id": "fb-photo-873562759041291",
+      "series": "cftunt",
+      "title": "Invarianza de Lorentz y segunda cuantización",
+      "date": "2026-03-27",
+      "month": "2026-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=873562759041291",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Luis Andrés Salvador Díaz Hernández",
+          "affiliation": "CFT-UNT"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-870807765983457",
+      "series": "cftunt",
+      "title": "Geometría simplética y sistemas hamiltonianos",
+      "date": "2026-03-23",
+      "month": "2026-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=870807765983457",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Joseph Puclla Mostacero",
+          "affiliation": "CFT-UNT"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-870807762650124",
+      "series": "cftunt",
+      "title": "Modelo de impacto de gota",
+      "date": "2026-03-23",
+      "month": "2026-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=870807762650124",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Angelo Ledesma Araujo",
+          "affiliation": "Universidad de Santiago de Chile"
+        }
+      ]
+    },
+    {
       "id": "yt-Q23g1qtpvIs",
       "series": "lafmat",
       "date": "2026-03-21",
@@ -1223,6 +1331,22 @@
         }
       ],
       "month": "2026-03"
+    },
+    {
+      "id": "fb-photo-866140759783491",
+      "series": "cftunt",
+      "title": "Teoría cuántica: la ecuación de Schrödinger",
+      "date": "2026-03-16",
+      "month": "2026-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=866140759783491",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Nicole Kate Gonzales Guzmán",
+          "affiliation": "CFT-UNT"
+        }
+      ]
     },
     {
       "id": "yt-bSuWBv7lh6A",
@@ -1241,6 +1365,22 @@
       "month": "2026-03"
     },
     {
+      "id": "fb-photo-856443264086574",
+      "series": "cftunt",
+      "title": "Inflación cósmica: una respuesta a los problemas del modelo cosmológico estándar",
+      "date": "2026-03-09",
+      "month": "2026-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=856443264086574",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Matías Alexei Cuba",
+          "affiliation": "CFT-UNT"
+        }
+      ]
+    },
+    {
       "id": "yt-2JxFmaVbkNU",
       "series": "lafmat",
       "date": "2026-03-07",
@@ -1255,6 +1395,38 @@
         }
       ],
       "month": "2026-03"
+    },
+    {
+      "id": "fb-photo-853207614410139",
+      "series": "cftunt",
+      "title": "Introducción a la Relatividad Especial",
+      "date": "2026-03-02",
+      "month": "2026-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=853207614410139",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Max Joseph Castro Roldán",
+          "affiliation": "CFT-UNT"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-875333262197574",
+      "series": "cftunt",
+      "title": "Introducción a la geometría diferencial",
+      "date": null,
+      "month": "2026-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=875333262197574",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Aldahir Bautista Sena",
+          "affiliation": "CFT-UNT"
+        }
+      ]
     },
     {
       "id": "yt-qahmxR7NM9Q",
@@ -2303,6 +2475,118 @@
       "month": "2025-04"
     },
     {
+      "id": "fb-photo-597571679973735-7",
+      "series": "cefunt",
+      "title": "Thermodynamic Constraints on Information Transmission in Quantum Ensembles",
+      "date": "2025-04-12",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "André Tanus",
+          "affiliation": "UFMG"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-8",
+      "series": "cefunt",
+      "title": "Estudio experimental del efecto Spin Hall cuántico en semiconductores III-V",
+      "date": "2025-04-12",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Selena Barragán",
+          "affiliation": "Universidad de Würzburg"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-9",
+      "series": "cefunt",
+      "title": "Agujero negro BTZ cuántico: un estudio de la curvatura de las fluctuaciones cuánticas",
+      "date": "2025-04-12",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Axel León Arteaga",
+          "affiliation": "UNT"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-10",
+      "series": "cefunt",
+      "title": "Cosmología clásica y cuántica del arcoíris de gravedad f(R) dentro del formalismo de Schutz",
+      "date": "2025-04-12",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Andrés Burton",
+          "affiliation": "Universidad de Tarapacá"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-11",
+      "series": "cefunt",
+      "title": "Circuitos superconductores para el desarrollo de detectores de fotones y procesadores cuánticos",
+      "date": "2025-04-12",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Kelvin Ramos",
+          "affiliation": "Instituto Balseiro"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-12",
+      "series": "cefunt",
+      "title": "Determinación del momento cuadrupolar nuclear del 47Ti y 49Ti. Comparación entre los métodos autoconsistente en el marco de la Teoría de la Funcional Densidad",
+      "date": "2025-04-12",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Hans Narro",
+          "affiliation": "IFLP, Argentina"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-13",
+      "series": "cefunt",
+      "title": "Estudio DFT de las propiedades estructurales, electrónicas y hiperfinas de las aleaciones Ge16Sb8Te28 y Ge12Sb8Sn4Te28 para aplicaciones termoeléctricas",
+      "date": "2025-04-12",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Lizeth Chucchucan",
+          "affiliation": "IFLP, UNLP"
+        }
+      ]
+    },
+    {
       "id": "fb-post-1080073770803466",
       "series": "ieee-nano",
       "title": "Investigación bajo primeros principios del magnetismo en materiales 2D tipo Van der Waals",
@@ -2314,6 +2598,103 @@
       "speakers": [
         {
           "name": "José J. Baldoví"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735",
+      "series": "cefunt",
+      "title": "The phase transition controlled by the competition between phonon energy and electronic configuration",
+      "date": "2025-04-11",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Jorge Linares",
+          "affiliation": "Universidad de Versalles"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-2",
+      "series": "cefunt",
+      "title": "Interfaces Rashba para la espintrónica, en memoria de Emmanuel Rashba",
+      "date": "2025-04-11",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Juan Carlos Rojas",
+          "affiliation": "CNRS, Universidad de Lorena"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-3",
+      "series": "cefunt",
+      "title": "Bases de mecánica cuántica en la física de la oscilación de neutrinos",
+      "date": "2025-04-11",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Martín Arteaga",
+          "affiliation": "UNMSM, Universidad de Lima",
+          "profile": "/fisicos/martin-dionisio-arteaga-tupia/"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-4",
+      "series": "cefunt",
+      "title": "La belleza como principio de la filosofía de la física. Homenaje a Paul Dirac por su predicción de la antimateria",
+      "date": "2025-04-11",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Nelson Mechán",
+          "affiliation": "UNT"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-5",
+      "series": "cefunt",
+      "title": "Transacciones cuánticas TIQM",
+      "date": "2025-04-11",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Frank Sánchez",
+          "affiliation": "Universidad de Puerto Rico en Mayagüez"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-597571679973735-6",
+      "series": "cefunt",
+      "title": "Conceptos básicos y propiedades de una partícula de Dirac en su representación tensorial",
+      "date": "2025-04-11",
+      "month": "2025-04",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=597571679973735",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Sergio Santa María",
+          "affiliation": "GRACOCC, UNT"
         }
       ]
     },
@@ -2367,6 +2748,22 @@
         }
       ],
       "month": "2025-03"
+    },
+    {
+      "id": "fb-photo-579463098451260",
+      "series": "cftunt",
+      "title": "Generación de ondas y autosimilitud en impacto de gotas",
+      "date": "2025-03-25",
+      "month": "2025-03",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=579463098451260",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Angelo Ledesma",
+          "affiliation": "Universidad de Chile"
+        }
+      ]
     },
     {
       "id": "yt-XG4k_gaiZa4",

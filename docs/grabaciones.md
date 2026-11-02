@@ -103,12 +103,19 @@ Hay cuatro orígenes:
   entra si un video de la misma serie, con menos de tres meses de diferencia, ya
   tiene un ponente con el mismo primer nombre y otra palabra en común: quien
   vuelve años después da otra charla. Las invitaciones del coloquio de la PUCP
-  desde 2024 y las charlas de la ASDF PUCP de 2025 salen del Instagram de la
-  ASDF PUCP, que da la fecha de cada publicación. Las charlas del Centro de
-  Estudiantes de Física de la UNT (`cefunt`) también son invitaciones: sus
-  transmisiones en vivo ya no están en Facebook. `recordings.py` las lee de una
-  lista hecha a mano con cada publicación y su afiche, porque la página no da el
-  año; el año sale del día de la semana y del orden de las publicaciones.
+  desde 2024 y las charlas de la ASDF PUCP desde 2025 salen del Instagram de la
+  ASDF PUCP, que da la fecha de cada publicación. Entre ellas está la
+  conferencia de Alberto Gago en el curso Seminario de Física de la PUCP de
+  2026: el sitio no tiene una página de ese curso. Las charlas del Centro de
+  Estudiantes de Física de la UNT (`cefunt`), con la Quantum Week UNT de 2024 y
+  2025, también son invitaciones: sus transmisiones en vivo ya no están en
+  Facebook. Los días de la Quantum Week de 2026 son videos del coloquio de la
+  UNT. Las charlas del Club de Física Teórica de la UNT (`cftunt`), sobre todo
+  su Seminario Estudiantil de Tópicos en Física Teórica de 2026, son
+  invitaciones: el club prometió los videos pero solo subió fragmentos cortos.
+  `recordings.py` lee los grupos de una lista hecha a mano con cada publicación
+  y su afiche, porque las páginas de Facebook no dan el año; el año sale del día
+  de la semana y del orden de las publicaciones.
 
 El mes sale de la fecha de la publicación o, si la copia no la tiene, del número
 de la foto, como en las sustentaciones (ver `docs/tesis.md`). `date` es el día
