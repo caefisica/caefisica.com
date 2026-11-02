@@ -22,8 +22,10 @@ Volvió a la PUCP en 2015 {{</* cite "orcid" */>}}.
 Una clave que no está en `sources` detiene la compilación.
 
 Sirven el registro ORCID, la ficha de la universidad, una nota de prensa de la
-universidad y el perfil de OpenAlex. Un perfil de LinkedIn no sirve: no es
-público sin cuenta.
+universidad y el perfil de OpenAlex. Un perfil de LinkedIn sirve para grados y
+puestos, pero pide cuenta para verse: cita primero una fuente abierta si la hay.
+De LinkedIn solo se toman grados y puestos; nunca publicaciones, fotos ni datos
+de contacto.
 
 ## Front matter
 
@@ -72,20 +74,24 @@ lista, que se ve por institución, por área o por persona.
 Entra quien tiene un grado en física, astrofísica, biofísica o geofísica. El
 JSON sale de las fichas públicas de CTI Vitae, del Portal del Profesorado de la
 PUCP para su Sección Física y, para quien no está en ninguno, de su registro de
-ORCID o, si ORCID no lista sus grados, de la página de su universidad (`source`
-dice cuál: `ctivitae`, `pucp`, `orcid` o `web`; con `web`, `site` nombra el
-sitio de `url`). Quien está en CTI Vitae y en la PUCP queda con la ficha de CTI
-Vitae, que tiene años. Además entran quienes aparecen al buscar en ORCID las
+ORCID o, si ORCID no lista sus grados, de una página pública: la de su
+universidad, su tesis en un repositorio o su perfil de LinkedIn (`source` dice
+cuál: `ctivitae`, `pucp`, `orcid` o `web`; con `web`, `site` nombra el sitio de
+`url`). Quien está en CTI Vitae y en la PUCP queda con la ficha de CTI Vitae,
+que tiene años. Además entran quienes aparecen al buscar en ORCID las
 universidades peruanas junto con la física y tienen un grado de física terminado
 en una universidad del Perú. Así entran estudiantes y egresados recientes que no
-están en CTI Vitae. Un grado en curso no cuenta, ni uno de educación física,
-terapia física o docencia. Si un registro de ORCID da a una persona con un
-nombre más corto que otro perfil y comparten una institución de estudios, es la
-misma persona y no entra. El portal de la PUCP da el grado y la institución pero
-no los años, así que esos perfiles ordenan los grados por nivel. OpenAlex da el
-área, a partir de los temas de sus publicaciones, y la obra (`works_count` y
-`cited_by`). `places` lista las instituciones con sus coordenadas (`lat` y `lon`
-nulos si no tienen ubicación). `people` lista a cada persona con:
+están en CTI Vitae. Al final entran los autores de las tesis de física y
+geofísica que registra el RENATI de SUNEDU, con un grado por tesis; su `site` es
+«RENATI» y `url` su página de autor. Un grado en curso no cuenta, ni uno de
+educación física, terapia física o docencia. Si un registro de ORCID da a una
+persona con un nombre más corto que otro perfil y comparten una institución de
+estudios, es la misma persona y no entra. El portal de la PUCP da el grado y la
+institución pero no los años, así que esos perfiles ordenan los grados por
+nivel. OpenAlex da el área, a partir de los temas de sus publicaciones, y la
+obra (`works_count` y `cited_by`). `places` lista las instituciones con sus
+coordenadas (`lat` y `lon` nulos si no tienen ubicación). `people` lista a cada
+persona con:
 
 | Campo     | Uso                                                               |
 | --------- | ----------------------------------------------------------------- |
