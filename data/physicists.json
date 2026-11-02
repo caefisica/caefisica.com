@@ -11903,6 +11903,15 @@
       "kind": "instituto"
     },
     {
+      "id": "unina",
+      "name": "Universidad de Nápoles Federico II",
+      "short": "Federico II",
+      "country": "IT",
+      "lat": 40.8472,
+      "lon": 14.2569,
+      "kind": "universidad"
+    },
+    {
       "id": "upr",
       "name": "Universidad de Puerto Rico",
       "short": "UPR",
@@ -19378,6 +19387,15 @@
       "kind": "universidad"
     },
     {
+      "id": "spbpu",
+      "name": "Universidad Politécnica de San Petersburgo",
+      "short": "Politécnica de San Petersburgo",
+      "country": "RU",
+      "lat": 60.00617,
+      "lon": 30.37668,
+      "kind": "universidad"
+    },
+    {
       "id": "acc-cuba",
       "name": "Academia de Ciencias de Cuba",
       "short": "ACC",
@@ -20698,6 +20716,20 @@
             "Docente nombrado"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/cesar-augusto-aguirre-cespedes"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/labtel/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=2HHkux4AAAAJ"
+        }
       ]
     },
     {
@@ -20797,6 +20829,12 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1068306"
         }
       ]
     },
@@ -21066,6 +21104,16 @@
         {
           "place": "usp",
           "did": ["Doctorado", "Teaching assistant", "Postdoctoral research"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://sites.google.com/site/marcosalbarracinmanrique/"
+        },
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/6746237833541005"
         }
       ]
     },
@@ -21588,7 +21636,12 @@
           "did": ["Maestría"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/smith-al-ingfis"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/smith-al-ingfis"
+        }
+      ]
     },
     {
       "slug": "guillermo-enrique-aleman-lopez",
@@ -21843,7 +21896,24 @@
           "did": ["Especialista en investigación y grados"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/william-c-algoner-jorge-16762814b"
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/William_C_Algoner"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/william-c-algoner-jorge-16762814b"
+        },
+        {
+          "kind": "scopus",
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57206722152"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1679317"
+        }
+      ]
     },
     {
       "slug": "luis-armando-ali-murillo",
@@ -22106,6 +22176,12 @@
         {
           "place": "unitru",
           "did": ["Bachillerato", "Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2719316"
         }
       ]
     },
@@ -22925,6 +23001,12 @@
           "did": [
             "Investigador principal del ird y jefe del equipo de ciclo sísmico de géoazur"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.oca.eu/fr/membres-equipe-seismes-geoazur"
         }
       ]
     },
@@ -23967,6 +24049,16 @@
           "place": "unb",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=oVFICZQAAAAJ"
+        },
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/6405966822308904"
+        }
       ]
     },
     {
@@ -24566,6 +24658,20 @@
           "place": "unmsm",
           "did": ["Docente tiempo parcial"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/jose-domingo-arbanil-vela"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/gft/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=JTQD0GkAAAAJ"
+        }
       ]
     },
     {
@@ -24856,6 +24962,12 @@
         {
           "place": "mit",
           "did": ["Investigador posdoctoral"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1074902"
         }
       ]
     },
@@ -25356,6 +25468,12 @@
           "place": "unmsm",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "cti",
+          "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=327902"
+        }
       ]
     },
     {
@@ -25757,6 +25875,12 @@
           "place": "uhh",
           "did": ["Research associate"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1684086"
+        }
       ]
     },
     {
@@ -26068,6 +26192,16 @@
           "place": "undc",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "cti",
+          "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=17627"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.upn.edu.pe/sites/default/files/documentos/perfil_asmat-david.pdf"
+        }
       ]
     },
     {
@@ -26128,6 +26262,12 @@
         {
           "place": "imarpe",
           "did": []
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Cristhian-Asto"
         }
       ]
     },
@@ -26357,7 +26497,12 @@
           "did": ["Docencia"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/brayan-anderson-aguilar-atoccsa-aa17b3155"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/brayan-anderson-aguilar-atoccsa-aa17b3155"
+        }
+      ]
     },
     {
       "slug": "vicente-agustin-atoche-espinoza",
@@ -26827,7 +26972,12 @@
           "did": ["Bachillerato", "Licenciatura"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/sergio-avila-concepci%C3%B3n"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/sergio-avila-concepci%C3%B3n"
+        }
+      ]
     },
     {
       "slug": "luis-steven-aviles-felix",
@@ -27033,7 +27183,12 @@
           "did": ["Maestría", "Asistente de investigacion"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/zaitayala"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/zaitayala"
+        }
+      ]
     },
     {
       "slug": "yuliana-marylin-ayala-pinella",
@@ -27416,7 +27571,12 @@
           "did": ["Docente a tiempo completo"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/julio-balbin-arias"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/julio-balbin-arias"
+        }
+      ]
     },
     {
       "slug": "luis-gonzalo-baldeon-huanqui",
@@ -28352,6 +28512,12 @@
           "place": "pucp",
           "did": ["Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1023920"
+        }
       ]
     },
     {
@@ -28697,6 +28863,32 @@
           "place": "upr",
           "did": ["Maestría", "Postdoctoral researcher"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.hsph.harvard.edu/nano/people/fellows/juan-beltran-huarac/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=W5KoktAAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan_Beltran-Huarac"
+        },
+        {
+          "kind": "web",
+          "url": "https://pharmacy.unc.edu/news/directory/juanbh/"
+        },
+        {
+          "kind": "web",
+          "url": "https://physics.ecu.edu/faculty/juan-beltran-huarac/"
+        },
+        {
+          "kind": "web",
+          "url": "https://physics.ecu.edu/huaraclab/research/"
+        }
       ]
     },
     {
@@ -28947,6 +29139,12 @@
         {
           "place": "ipen-pe",
           "did": ["Físico investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jhonny_Benavente_Castillo"
         }
       ]
     },
@@ -29788,6 +29986,12 @@
           "place": "pucp",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1065481"
+        }
       ]
     },
     {
@@ -30098,6 +30302,12 @@
           "place": "uc",
           "did": ["Docente tiempo completo"]
         }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/3373716375050840"
+        }
       ]
     },
     {
@@ -30394,6 +30604,12 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Scientific researcher"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1684093"
         }
       ]
     },
@@ -31186,6 +31402,12 @@
           "place": "pucp",
           "did": ["Maestría", "Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1068678"
+        }
       ]
     },
     {
@@ -31730,7 +31952,12 @@
           "did": ["Bachillerato", "Licenciatura"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/daniel-c-2b329012a"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/daniel-c-2b329012a"
+        }
+      ]
     },
     {
       "slug": "percy-victor-canote-fajardo",
@@ -31928,6 +32155,12 @@
         {
           "place": "up",
           "did": ["Docente, facultad de ingeniería"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2948137"
         }
       ]
     },
@@ -32239,7 +32472,12 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/edinsonisaicarlosabanto"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/edinsonisaicarlosabanto"
+        }
+      ]
     },
     {
       "slug": "antony-fredy-carlos-chilo",
@@ -32515,6 +32753,12 @@
         {
           "place": "pucp",
           "did": ["Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2070346"
         }
       ]
     },
@@ -32824,6 +33068,12 @@
         {
           "place": "uni",
           "did": ["Bachillerato", "Asistente fisica general"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://wildercarrillo.wordpress.com/"
         }
       ]
     },
@@ -33328,6 +33578,12 @@
           "place": "pucp",
           "did": ["Bachillerato", "Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://sites.google.com/view/johan-casimiro-cosmologia/inicio"
+        }
       ]
     },
     {
@@ -33400,7 +33656,12 @@
           "did": ["Docente de los cursos de investigacion"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/oscar-casta%C3%B1eda-133263117"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/oscar-casta%C3%B1eda-133263117"
+        }
+      ]
     },
     {
       "slug": "saul-isaac-castaneda-quintana",
@@ -33451,6 +33712,12 @@
         {
           "place": "ucm",
           "did": ["Assistant teacher"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://pendientedemigracion.ucm.es/info/tuma/quimicas_superficie/index.html"
         }
       ]
     },
@@ -33909,6 +34176,12 @@
           "place": "pucp",
           "did": ["Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.pucp.edu.pe/profesor/hernan-castillo-egoavil/"
+        }
       ]
     },
     {
@@ -34301,6 +34574,12 @@
           "place": "cbpf",
           "did": ["Pos-doutorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/2329512093960865"
+        }
       ]
     },
     {
@@ -34415,6 +34694,12 @@
         {
           "place": "uni",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1062540"
         }
       ]
     },
@@ -34932,7 +35217,12 @@
           ]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/riky-centeno-investigador-en-geof"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/riky-centeno-investigador-en-geof"
+        }
+      ]
     },
     {
       "slug": "jose-antonio-centeno-ramos",
@@ -36045,6 +36335,12 @@
           "place": "rostock",
           "did": ["Profesor, instituto de física"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=NLi-cCkAAAAJ"
+        }
       ]
     },
     {
@@ -36491,6 +36787,16 @@
         {
           "place": "unitru",
           "did": ["Profesor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/channel/UCQs2sjcl-1GtPHw45FBNXhw/videos"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1013929"
         }
       ]
     },
@@ -37227,6 +37533,16 @@
           "place": "pucp",
           "did": ["Profesor a tiempo completo"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/David_Choque"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1365956"
+        }
       ]
     },
     {
@@ -37929,6 +38245,12 @@
         {
           "place": "pucp",
           "did": ["Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2868720"
         }
       ]
     },
@@ -39619,6 +39941,12 @@
             "Assistant professor"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1019806"
+        }
       ]
     },
     {
@@ -39751,6 +40079,16 @@
         {
           "place": "upn",
           "did": ["Docente de tiempo completo"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=5dTwkOcAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Gustavo-Cuba-Supanta"
         }
       ]
     },
@@ -40271,7 +40609,16 @@
           "did": ["Docente investigador"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/marco-cuyubamba-18408887"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/marco-cuyubamba-18408887"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2727358"
+        }
+      ]
     },
     {
       "slug": "jesus-antonio-dalmau-cam",
@@ -41460,6 +41807,12 @@
           "place": "pucp",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1233170"
+        }
       ]
     },
     {
@@ -41794,6 +42147,20 @@
         {
           "place": "uc",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "cti",
+          "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0019643"
+        },
+        {
+          "kind": "renacyt",
+          "url": "https://servicio-renacyt.concytec.gob.pe/ficha-renacyt/?idInvestigador=19643"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1684107"
         }
       ]
     },
@@ -42439,6 +42806,20 @@
           "place": "unmsm",
           "did": ["Bachillerato", "Docente", "Docente ordinario"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/jose-carlos-eche-llenque"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/ctclima/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=BMGd7RkAAAAJ"
+        }
       ]
     },
     {
@@ -42949,6 +43330,12 @@
           "place": "unfv",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1057304"
+        }
       ]
     },
     {
@@ -43457,7 +43844,12 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/diego-armando-espinoza-95267a23a"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/diego-armando-espinoza-95267a23a"
+        }
+      ]
     },
     {
       "slug": "jhan-carlo-espinoza-villar",
@@ -43686,6 +44078,12 @@
         {
           "place": "igp",
           "did": ["Investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://www.goac.cu"
         }
       ]
     },
@@ -44193,6 +44591,20 @@
             "Docente",
             "Asesor"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/octavio-fashe-raymundo"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/ctclima/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=NCL_qwUAAAAJ"
         }
       ]
     },
@@ -44955,6 +45367,12 @@
           "place": "pucp",
           "did": ["Jefe de practicas"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://ecstatic-ptolemy-794829.netlify.app/"
+        }
       ]
     },
     {
@@ -45562,7 +45980,16 @@
           "did": ["Maestría"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/ffloresq"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ffloresq"
+        },
+        {
+          "kind": "github",
+          "url": "https://github.com/fernandobeyond"
+        }
+      ]
     },
     {
       "slug": "luis-benjamin-flores-ramos",
@@ -45962,6 +46389,12 @@
           "place": "pucp",
           "did": ["Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1009095"
+        }
       ]
     },
     {
@@ -46262,6 +46695,12 @@
           "place": "pucp",
           "did": ["Maestría", "Profesor asociado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "github",
+          "url": "https://github.com/Duvet05/"
+        }
       ]
     },
     {
@@ -46371,7 +46810,20 @@
           "did": ["Profesor auxiliar", "Profesor asociado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/tomas-galvez-87b16932"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/tomas-galvez-87b16932"
+        },
+        {
+          "kind": "web",
+          "url": "https://compsust.utec.edu.pe/groups/218ee944432d4856a6e20756a1b8811f"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1078295"
+        }
+      ]
     },
     {
       "slug": "adriano-galvez-villaseca",
@@ -46927,6 +47379,16 @@
           "place": "unesp",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=9UEJUQ0AAAAJ"
+        },
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/4335695906660499"
+        }
       ]
     },
     {
@@ -47055,6 +47517,16 @@
         {
           "place": "utp",
           "did": ["Profesor tiempo completo", "Coordinador de investigacion"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=V9YxKO0AAAAJ"
+        },
+        {
+          "kind": "wos",
+          "url": "https://www.webofscience.com/wos/author/record/AAR-9888-2021"
         }
       ]
     },
@@ -47963,7 +48435,12 @@
           "did": ["Físico médico"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/agonzalesgalvez"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/agonzalesgalvez"
+        }
+      ]
     },
     {
       "slug": "booz-gonzales-garcia",
@@ -48006,7 +48483,12 @@
           "did": ["Bachillerato", "Jefe de practicas"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/booz-gonzales"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/booz-gonzales"
+        }
+      ]
     },
     {
       "slug": "katherine-gonzales",
@@ -48716,6 +49198,12 @@
           "place": "unmsm",
           "did": ["Investigador", "Coinvestigador", "Profesor auxiliar"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan_Gonzalez98"
+        }
       ]
     },
     {
@@ -49227,7 +49715,12 @@
           "did": ["Maestría"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/cesarj-guevarap"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/cesarj-guevarap"
+        }
+      ]
     },
     {
       "slug": "vanessa-yuliana-guevara-rojas",
@@ -49376,6 +49869,16 @@
         {
           "place": "uppsala",
           "did": ["Postdoctoral researcher"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://gapindnns.github.io/members/Max_Guillen.html"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1610983"
         }
       ]
     },
@@ -51182,6 +51685,12 @@
           "place": "unibo",
           "did": ["Doctorado", "Research fellow / phd"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1789370"
+        }
       ]
     },
     {
@@ -52221,6 +52730,12 @@
           "place": "uni",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1671251"
+        }
       ]
     },
     {
@@ -52857,7 +53372,12 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/aaron-dan-ilizarbe-saavedra-25988a209"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/aaron-dan-ilizarbe-saavedra-25988a209"
+        }
+      ]
     },
     {
       "slug": "victor-edison-infante-lifoncio",
@@ -52948,7 +53468,16 @@
           "did": ["Docente"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/marvync"
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=XNo80QsAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/marvync"
+        }
+      ]
     },
     {
       "slug": "jose-a-inga-montanez",
@@ -53044,6 +53573,12 @@
         {
           "place": "igp",
           "did": ["Research"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "cti",
+          "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15612"
         }
       ]
     },
@@ -53379,7 +53914,12 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/javier-jara-meza-13184220a"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/javier-jara-meza-13184220a"
+        }
+      ]
     },
     {
       "slug": "max-jara-ortiz",
@@ -53876,6 +54416,20 @@
           "place": "unmsm",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/cesar-omar-jimenez-tintaya"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/labtel/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=t7dD6DsAAAAJ"
+        }
       ]
     },
     {
@@ -54008,6 +54562,12 @@
         {
           "place": "pucp",
           "did": ["Profesor principal"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1045869"
         }
       ]
     },
@@ -54749,6 +55309,20 @@
             "Profesor principal de física del estado sólido"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/carlos-vladimir-landauro-saenz"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/gisicof/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=mFdkuhcAAAAJ"
+        }
       ]
     },
     {
@@ -55353,6 +55927,12 @@
           "place": "hi",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2183234"
+        }
       ]
     },
     {
@@ -55381,6 +55961,12 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/3145408"
         }
       ]
     },
@@ -57488,6 +58074,12 @@
           "place": "ufrj",
           "did": ["Professor"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Elvis_Lopez"
+        }
       ]
     },
     {
@@ -58663,7 +59255,12 @@
           "did": ["Docente universitario"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/orlando-macedo-164b75101"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/orlando-macedo-164b75101"
+        }
+      ]
     },
     {
       "slug": "amilcar-gilber-machaca-ancasi",
@@ -58800,7 +59397,16 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/franz-danylo-machado-perez-40248614a"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/franz-danylo-machado-perez-40248614a"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1981583"
+        }
+      ]
     },
     {
       "slug": "rutherford-franklin-machuca-condori",
@@ -58877,6 +59483,87 @@
         {
           "place": "upch",
           "did": ["Jefe de practicas"]
+        }
+      ]
+    },
+    {
+      "slug": "italo-ignacio-machuca-flores",
+      "name": "Italo Ignacio Machuca Flores",
+      "initials": "IM",
+      "source": "web",
+      "url": "https://www.quantuminternet.it/team/italo-ignacio-machuca-flores/",
+      "orcid": "0009-0008-7713-1216",
+      "site": "Quantum Internet",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "udec",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2019
+        },
+        {
+          "place": "udec",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2019
+        },
+        {
+          "place": "udec",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": 2023
+        }
+      ],
+      "works": [
+        {
+          "place": "pucp",
+          "role": ""
+        }
+      ],
+      "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": "unina",
+          "name": "Universidad de Nápoles Federico II",
+          "role": "Investigador posdoctoral",
+          "start": 2024,
+          "end": 2026
+        }
+      ],
+      "path": [
+        {
+          "place": "udec",
+          "did": ["Licenciatura", "Maestría", "Doctorado"]
+        },
+        {
+          "place": "unina",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "pucp",
+          "did": []
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=bIFGhjYAAAAJ"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/3184858"
         }
       ]
     },
@@ -59762,6 +60449,12 @@
           "place": "pucp",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2775366"
+        }
       ]
     },
     {
@@ -59946,6 +60639,12 @@
         {
           "place": "ucv",
           "did": ["Docente universitario"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://kwmarinr.wixsite.com/kelmanucv"
         }
       ]
     },
@@ -60292,6 +60991,16 @@
           "place": "igp",
           "did": ["Associate researcher"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=emgdOGcAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Daniel_Martinez-Castro"
+        }
       ]
     },
     {
@@ -60494,6 +61203,12 @@
           "place": "pucp",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2624605"
+        }
       ]
     },
     {
@@ -60566,6 +61281,12 @@
           "place": "pucp",
           "did": ["Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.pucp.edu.pe/profesor/eduardo-massoni-kamimoto/docente-unidad/facultad/ciencias-b/"
+        }
       ]
     },
     {
@@ -60622,6 +61343,12 @@
         {
           "place": "pucp",
           "did": ["Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1481936"
         }
       ]
     },
@@ -60754,7 +61481,12 @@
           "did": ["Profesor"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/mauricio-antonio-matta-secl%C3%A9n-983052125"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/mauricio-antonio-matta-secl%C3%A9n-983052125"
+        }
+      ]
     },
     {
       "slug": "fredy-manuel-mayhua-choque",
@@ -61419,6 +62151,12 @@
           "place": "cfaed",
           "did": ["Research assistant"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://lmedranos.github.io"
+        }
       ]
     },
     {
@@ -61660,6 +62398,12 @@
         {
           "place": "unitru",
           "did": ["Bachillerato", "Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://www.icat.unam.mx/secciones/depar/sub2/fotmi/semb/EVMU.html"
         }
       ]
     },
@@ -62395,6 +63139,16 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://mjfisica.blogspot.com"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=TUOS2ckAAAAJ"
         }
       ]
     },
@@ -63156,7 +63910,20 @@
           "did": ["Maestría", "Professor", "Doctorado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/jorge-luis-mirez-tarrillo-94918423"
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://www.geocities.ws/jorgemirez"
+        },
+        {
+          "kind": "web",
+          "url": "http://jmirez.wordpress.com"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jorge-luis-mirez-tarrillo-94918423"
+        }
+      ]
     },
     {
       "slug": "nabilt-jill-moggiano-aburto",
@@ -63272,7 +64039,20 @@
           ]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/nmoggiano"
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://posgrado.ucontinental.edu.pe/autoridades/nabilt-jill-moggiano-aburto"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.owsd.net/member/moggiano-nabilt-0"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/nmoggiano"
+        }
+      ]
     },
     {
       "slug": "rodrigo-mogollon-aburto",
@@ -64417,6 +65197,12 @@
           "place": "ufv",
           "did": ["Investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/8278330348506182"
+        }
       ]
     },
     {
@@ -64530,6 +65316,12 @@
           "place": "uni",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.grupofeynman.com"
+        }
       ]
     },
     {
@@ -64635,7 +65427,20 @@
           "did": ["Bachillerato", "Licenciatura"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/luis-fernando-mr"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/luis-fernando-mr"
+        },
+        {
+          "kind": "github",
+          "url": "https://github.com/Adan1210"
+        },
+        {
+          "kind": "web",
+          "url": "https://gitlab.com/Adan1210"
+        }
+      ]
     },
     {
       "slug": "jose-antonio-moran-meza",
@@ -65412,6 +66217,16 @@
             "Investigador científico superior (C4)"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://met.igp.gob.pe/personal/kmosquera/"
+        },
+        {
+          "kind": "web",
+          "url": "http://met.igp.gob.pe/variabclim/monitoreo.html"
+        }
       ]
     },
     {
@@ -66087,7 +66902,20 @@
           "did": ["Phd researcher"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/shiguerunagata"
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://shiguerunagata.456753000.xyz/"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/shiguerunagata"
+        },
+        {
+          "kind": "github",
+          "url": "https://github.com/shigueru-nagata"
+        }
+      ]
     },
     {
       "slug": "victor-luis-nakama-martinez",
@@ -67418,7 +68246,16 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/sergio-nunez-silva"
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2858584"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/sergio-nunez-silva"
+        }
+      ]
     },
     {
       "slug": "manuel-o-diana-guzman",
@@ -67581,7 +68418,12 @@
           "did": ["Profesor invitado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/angel-obispo-185a321b2"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/angel-obispo-185a321b2"
+        }
+      ]
     },
     {
       "slug": "marco-antonio-obregon-chaupis",
@@ -68137,7 +68979,12 @@
           "did": ["Doctorado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/bryam-orihuela-pinto"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/bryam-orihuela-pinto"
+        }
+      ]
     },
     {
       "slug": "gustavo-henry-orihuela-sandoval",
@@ -68676,6 +69523,12 @@
         {
           "place": "conida",
           "did": ["Researcher"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1929830"
         }
       ]
     },
@@ -70175,7 +71028,16 @@
           "did": ["Maestría", "Doctorado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/carlos-pastrana-445aa566"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/carlos-pastrana-445aa566"
+        },
+        {
+          "kind": "web",
+          "url": "https://medium.com/@CarlosOmarPO"
+        }
+      ]
     },
     {
       "slug": "galo-patino-camargo",
@@ -70231,6 +71093,24 @@
         {
           "place": "unmsm",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/galo-patino-camargo"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/infisa/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=_JmW-EAAAAAJ"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2672822"
         }
       ]
     },
@@ -71206,7 +72086,12 @@
           ]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/bertinperez-anphysrad"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/bertinperez-anphysrad"
+        }
+      ]
     },
     {
       "slug": "luis-vicente-perez-ballon",
@@ -71439,6 +72324,16 @@
             "Teaching assistant",
             "Regulation and research security specialist"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.mendeley.com/profiles/alicia-prez17/"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1865280"
         }
       ]
     },
@@ -71686,6 +72581,20 @@
           "place": "unmsm",
           "did": ["Docente investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://cepvillegas.github.io/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=ttmmbo8aaaaj"
+        },
+        {
+          "kind": "wos",
+          "url": "https://www.webofscience.com/wos/author/record/K-3948-2012"
+        }
       ]
     },
     {
@@ -71924,7 +72833,12 @@
           "did": ["Practicante de laboratorio"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/anderson-jose-p-410b13252"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/anderson-jose-p-410b13252"
+        }
+      ]
     },
     {
       "slug": "edwin-joel-pilco-quispe",
@@ -72192,6 +73106,16 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Manuel-Gustavo-Pinedo-Cuba"
+        },
+        {
+          "kind": "web",
+          "url": "https://mgpinedocuba.github.io/gustavo.github.io/index.html"
         }
       ]
     },
@@ -73342,7 +74266,12 @@
           "did": ["Doctorado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/andres-portocarrero-bonifaz-2b5412127"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/andres-portocarrero-bonifaz-2b5412127"
+        }
+      ]
     },
     {
       "slug": "samuel-alejandro-portocarrero-sotomayor",
@@ -74318,7 +75247,12 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/aaron-reiver-queque-navarrete-9bb72023a"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/aaron-reiver-queque-navarrete-9bb72023a"
+        }
+      ]
     },
     {
       "slug": "cecilia-querebalu",
@@ -74997,7 +75931,16 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/christian-carlos-quispe-bonilla-094b1327"
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.neuralx-ia.com/"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/christian-carlos-quispe-bonilla-094b1327"
+        }
+      ]
     },
     {
       "slug": "dagmer-wilson-quispe-condori",
@@ -76043,6 +76986,12 @@
           "place": "usp",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1945585"
+        }
       ]
     },
     {
@@ -76739,6 +77688,20 @@
             "Organizador al \"taller de técnica de fisisorción de N2: principios básicos, instrumentación y aplicaciones en ciencia de materiales y nanotecnología\""
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/juan-adrian-ramos-guivar"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Mz1VYnAAAAAJ"
+        },
+        {
+          "kind": "wos",
+          "url": "https://www.webofscience.com/wos/author/record/ISV-0034-2023"
+        }
       ]
     },
     {
@@ -76890,6 +77853,12 @@
         {
           "place": "balseiro",
           "did": ["Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://kelvinrv.github.io/krv/"
         }
       ]
     },
@@ -77348,6 +78317,12 @@
           "place": "unmsm",
           "did": ["Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://sites.google.com/view/rldaniel/p%C3%A1gina-principal"
+        }
       ]
     },
     {
@@ -77796,6 +78771,12 @@
         {
           "place": "inpe",
           "did": ["Investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/5228572314992573"
         }
       ]
     },
@@ -78296,7 +79277,12 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/max-riva-poclin-41778a9b"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/max-riva-poclin-41778a9b"
+        }
+      ]
     },
     {
       "slug": "rodrigo-miguel-rivadeneira-vizcardo",
@@ -78504,6 +79490,12 @@
           "place": "pucp",
           "did": ["Maestría", "Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.pucp.edu.pe/profesor/richard-rivera-campos/publicaciones/"
+        }
       ]
     },
     {
@@ -78693,6 +79685,20 @@
         {
           "place": "unmsm",
           "did": ["Associate professor", "Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/pablo-hector-rivera-riofano"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/lab/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=6knhNJ8AAAAJ"
         }
       ]
     },
@@ -79111,6 +80117,12 @@
           "place": "pucp",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://sebrodfal.github.io/"
+        }
       ]
     },
     {
@@ -79218,6 +80230,16 @@
         {
           "place": "unj",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/user/FREDDIRODRIGUEZ"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.edicionesclio.com/sobre-nosotros/"
         }
       ]
     },
@@ -79582,6 +80604,20 @@
           "place": "cbpf",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "cti",
+          "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0003433"
+        },
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/9625617406307310"
+        },
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/victor-antonio-pe%C3%B1a-rodriguez"
+        }
       ]
     },
     {
@@ -79630,6 +80666,12 @@
         {
           "place": "pucp",
           "did": ["Research assistant", "Maestría", "Teaching assistant"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2957903"
         }
       ]
     },
@@ -79709,6 +80751,20 @@
         {
           "place": "unmsm",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/joel-rojas-acuna"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/labtel/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=k698EsEAAAAJ"
         }
       ]
     },
@@ -79947,6 +81003,16 @@
             "Investigadora",
             "Investeigadora de postdoc"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "github",
+          "url": "https://github.com/rnoeliab"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Pk9HvksAAAAJ"
         }
       ]
     },
@@ -80197,7 +81263,12 @@
           "did": ["Bachillerato"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/michael97179"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/michael97179"
+        }
+      ]
     },
     {
       "slug": "justo-rojas-tapia",
@@ -80260,6 +81331,24 @@
         {
           "place": "ipen-pe",
           "did": ["Investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/justo-alcides-rojas-tapia"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/gmcan/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=VQ-6aQwAAAAJ"
+        },
+        {
+          "kind": "web",
+          "url": "http://gmcan.unmsm.edu.pe/home"
         }
       ]
     },
@@ -80679,6 +81768,12 @@
             "Jefe de laboratorio - fiis"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8113377Z6&tokenCaptchar=03AFcWeA5I6Y9RvZmPaplRPQaCwPYoBY2Sqcc8drR7ZxfbN5hZDfDTPz1i5HIp6OG-zslPJ4G-ZA2UAWcQIjiGbVdk17DPCrhW8w-fiK0tag1rie3gTTAJwR8gyCZQiDz8lyM5CR2jDhOGiz8E5JMejILEm65n1rZzrezRvHkVnWqXbtWGEmoBn4N_OEpIGoskEjy4kcL_4Eya8fEyLZzbTc-Wwrfo7LBw-4X3Nizde0J3PNy_HKPtTZ32LVEZ7jheaemb_VJOYbjEAkuSvVv4MjzAXp7scj364PgBCoie2MGKhbatb1a98PIS-rL-K1wvrQxDfsSEsBbh91RulG7PGYGcUqBi3EnNaEPBSJKqxANQ0ivFIKFGlRXgxl5DYVSvSHl4SczmwA7L_5ZTc9hx_pyFpanJikNjEMIlO_ois_HPvCWBCGwEYo54QfZZataAH1rIBY7ablGzvA9xUKil6-Q0C5jmwCKEpSVp4M1M_RlmR-wJpUudNLCeGO3yrt6rY9db87zDxQBFKuT5dtitjRAv8AAVObjUx2lbt7ovt-GjD_COzS--q5J_4UUUYs0GlCS361aYCSLrvtFHaj0m0pHcLiX85uncV3FlaHfFG1IVCwoVHJ8GW9chHBPtJj9jbaY19Kw8f6WNVtLr4RPEnyMbxDnkRzPv6hhLxwJ3c5a2O54swjdm_GY"
+        }
       ]
     },
     {
@@ -80814,7 +81909,20 @@
           ]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/rudimirz"
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://rudimirz.com/"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/rudimirz"
+        },
+        {
+          "kind": "web",
+          "url": "https://theafinsa.wordpress.com/collaborators/"
+        }
+      ]
     },
     {
       "slug": "carol-kristi-romero-roldan",
@@ -81671,6 +82779,20 @@
         {
           "place": "senamhi",
           "did": ["Investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/de-dios-miguel-fidencio-saavedra-juan"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/ctclima/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=wklHGnoAAAAJ"
         }
       ]
     },
@@ -82934,6 +84056,12 @@
           "place": "pucp",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1597683"
+        }
       ]
     },
     {
@@ -83034,6 +84162,12 @@
         {
           "place": "uprm",
           "did": ["Instructor de laboratorio"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/channel/UC3dZjEHKA4cLZOShhlgPkCQ"
         }
       ]
     },
@@ -83209,6 +84343,12 @@
         {
           "place": "usp",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1837018"
         }
       ]
     },
@@ -83493,6 +84633,12 @@
         {
           "place": "unitru",
           "did": ["Licenciatura", "Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://sites.google.com/unitru.edu.pe/gracocc"
         }
       ]
     },
@@ -83913,7 +85059,12 @@
           "did": ["Director de ciencias del geoespacio"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/dscipion"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/dscipion"
+        }
+      ]
     },
     {
       "slug": "berlin-segura-curi",
@@ -83996,6 +85147,12 @@
         {
           "place": "uas",
           "did": ["Maestría", "Research"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carmen-Seminario-Panta"
         }
       ]
     },
@@ -84181,6 +85338,12 @@
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Erick_Serquen"
+        }
       ]
     },
     {
@@ -84245,7 +85408,20 @@
           "did": ["Doctorado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/pablo-serrano-a1297b123"
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=GjarlSkAAAAJ"
+        },
+        {
+          "kind": "wos",
+          "url": "https://publons.com/researcher/4669043/pablo-serrano/"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/pablo-serrano-a1297b123"
+        }
+      ]
     },
     {
       "slug": "anthony-serrano-cruzado",
@@ -84634,6 +85810,12 @@
           "place": "2mn",
           "did": ["Gestor de la calidad"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2942725"
+        }
       ]
     },
     {
@@ -84681,6 +85863,12 @@
           "did": [
             "Investigadora, ciencias de la atmósfera, hidrósfera y cambio climático"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://www.met.igp.gob.pe/personal/ysilva/"
         }
       ],
       "wikipedia": "https://es.wikipedia.org/wiki/Yamina_Silva"
@@ -84853,6 +86041,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/988155"
+        }
       ]
     },
     {
@@ -84915,6 +86109,12 @@
         {
           "place": "conicet",
           "did": ["Becario doctoral"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1794649"
         }
       ]
     },
@@ -85011,6 +86211,12 @@
         {
           "place": "conida",
           "did": ["Asistente de investigación"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1610777"
         }
       ]
     },
@@ -85462,6 +86668,12 @@
           "place": "ucsur",
           "did": ["Coordinador", "Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1701367"
+        }
       ]
     },
     {
@@ -85660,6 +86872,12 @@
         {
           "place": "uc",
           "did": ["Investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://cosmonautaenlaastropista.blogspot.com/"
         }
       ]
     },
@@ -86166,6 +87384,12 @@
           "place": "uni",
           "did": ["Head of practice, physics i, ii, iii"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://vikxts.wixsite.com/physicsdesing"
+        }
       ]
     },
     {
@@ -86356,6 +87580,12 @@
         {
           "place": "mackenzie",
           "did": ["Maestría", "Doctorado", "Postdoctoral research"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://theafinsa.wordpress.com"
         }
       ]
     },
@@ -86868,6 +88098,96 @@
       ]
     },
     {
+      "slug": "sashwat-tanay",
+      "name": "Sashwat Tanay",
+      "initials": "ST",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=458203",
+      "orcid": "0000-0002-2964-7102",
+      "site": "CTI Vitae",
+      "updated": "12-10-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "olemiss",
+          "level": "Doctorado",
+          "field": null,
+          "start": 2016,
+          "end": 2022
+        }
+      ],
+      "works": [
+        {
+          "place": "utec",
+          "role": "Profesor auxiliar"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "utec",
+          "name": "Universidad de Ingeniería y Tecnología",
+          "role": "Profesor auxiliar",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": "utec",
+          "name": "Universidad de Ingeniería y Tecnología",
+          "role": "Docente de enseñanza e investigación",
+          "start": 2025,
+          "end": 2026
+        },
+        {
+          "place": "obs-paris",
+          "name": "Observatoire de Paris",
+          "role": "Investigador posdoctoral",
+          "start": 2023,
+          "end": 2025
+        }
+      ],
+      "path": [
+        {
+          "place": "olemiss",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "obs-paris",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "utec",
+          "did": ["Docente de enseñanza e investigación", "Profesor auxiliar"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://sashwattanay.github.io/site/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=EiZB2pgAAAAJ"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1947311"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/sashwat-tanay-22b13b214"
+        },
+        {
+          "kind": "github",
+          "url": "https://github.com/sashwattanay"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/@sashwattanay"
+        }
+      ]
+    },
+    {
       "slug": "cosme-wilfredo-tancayllo-chacca",
       "name": "Cosme Wilfredo Tancayllo Chacca",
       "initials": "CT",
@@ -86975,7 +88295,12 @@
           "did": ["Bachillerato", "Maestría", "Licenciatura"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/gustavo-alonso-taman"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/gustavo-alonso-taman"
+        }
+      ]
     },
     {
       "slug": "heisemberg-samuel-tarazona-coronel",
@@ -87127,6 +88452,12 @@
         {
           "place": "ufv",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/7354069903410672"
         }
       ]
     },
@@ -87297,6 +88628,12 @@
             "Researcher in the high energy physics group (hep-pucp)",
             "Teaching assistant"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Dante_Tavera_Marquina"
         }
       ]
     },
@@ -87850,6 +89187,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Katerine-Ticse-De-La-Torre?ev=hdr_xprf"
         }
       ]
     },
@@ -89149,27 +90492,156 @@
       "name": "Wiliam Victor Trujillo Herrera",
       "initials": "WT",
       "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=trujillo+herrera%2C+wiliam+victor",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=4097",
+      "orcid": "0000-0002-8972-9708",
+      "site": "CTI Vitae",
+      "updated": "15-08-2025",
+      "degree": "Doctorado en física",
       "track": "Física",
       "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
         {
           "place": "unmsm",
           "level": "Licenciatura",
           "field": null,
           "start": null,
           "end": 2013
+        },
+        {
+          "place": "cbpf",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
         }
       ],
       "works": [],
-      "jobs": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Warem",
+          "role": "Director de innovación y desarrollo",
+          "start": 2024,
+          "end": "now"
+        },
+        {
+          "place": "utp",
+          "name": "Universidad Tecnológica del Perú",
+          "role": "Docente investigador",
+          "start": 2021,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "Tarwi",
+          "role": "Fundador y gerente general",
+          "start": 2018,
+          "end": 2022
+        },
+        {
+          "place": null,
+          "name": "Warem",
+          "role": "Director de innovación y desarrollo",
+          "start": 2015,
+          "end": 2021
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Investigador postdoctoral",
+          "start": 2014,
+          "end": 2016
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor asociado",
+          "start": 2013,
+          "end": 2014
+        },
+        {
+          "place": "cbpf",
+          "name": "Centro Brasileiro de Pesquisas Físicas",
+          "role": "Investigador asociado posdoctoral",
+          "start": 2012,
+          "end": 2013
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Jefe de práctica, dedicación exclusiva 40 horas",
+          "start": 2005,
+          "end": 2005
+        },
+        {
+          "place": null,
+          "name": "Museo Histórico de Ciencias Físicas",
+          "role": "Coordinador del área de óptica y física moderna",
+          "start": 2001,
+          "end": 2004
+        },
+        {
+          "place": null,
+          "name": "Museo Histórico de Ciencias Físicas",
+          "role": "Coordinador general",
+          "start": 2003,
+          "end": 2004
+        },
+        {
+          "place": null,
+          "name": "Museo Histórico de Ciencias Físicas",
+          "role": "Sub-coordinador general",
+          "start": 2002,
+          "end": 2002
+        },
+        {
+          "place": null,
+          "name": "Museo Histórico de Ciencias Físicas",
+          "role": "Coordinador del área de mecánica de fluidos",
+          "start": 2000,
+          "end": 2000
+        }
+      ],
       "path": [
         {
           "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Jefe de práctica, dedicación exclusiva 40 horas"
+          ]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Investigador asociado posdoctoral"]
+        },
+        {
+          "place": "unmsm",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor asociado", "Investigador postdoctoral"]
+        },
+        {
+          "place": "utp",
+          "did": ["Docente investigador"]
         }
       ]
     },
@@ -90195,6 +91667,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2875122"
+        }
       ]
     },
     {
@@ -91002,6 +92480,12 @@
             "Principal a dedicación exclusiva"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2069510"
+        }
       ]
     },
     {
@@ -91034,6 +92518,12 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2718571"
         }
       ]
     },
@@ -91867,6 +93357,12 @@
             "Director de tecnologías exponenciales - departamento de ingeniería"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.pucp.edu.pe/profesor/luis-velarde-criado"
+        }
       ]
     },
     {
@@ -92392,7 +93888,16 @@
           "did": ["Pos-doutorado"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/miguel-v-m"
+      "links": [
+        {
+          "kind": "github",
+          "url": "https://github.com/Miguel-V-m"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/miguel-v-m"
+        }
+      ]
     },
     {
       "slug": "michael-enrique-vera-panez",
@@ -92711,7 +94216,12 @@
           "did": ["Doctorado", "Researcher"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/dr-jonatan-vignatti-a23b06139"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/dr-jonatan-vignatti-a23b06139"
+        }
+      ]
     },
     {
       "slug": "stefan-alejandro-vigo-cornejo",
@@ -93328,7 +94838,12 @@
           "did": ["Analista de modelos de simulacion"]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/jose-vilchez-57210074"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jose-vilchez-57210074"
+        }
+      ]
     },
     {
       "slug": "pablo-martin-vilela-proano",
@@ -93380,6 +94895,12 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor asociado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://investigacion.pucp.edu.pe/grupos/sistemas-complejos/"
         }
       ]
     },
@@ -94697,6 +96218,20 @@
             "Miembro de comité de departamento académico de física interdisciplinaria"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/gilberto-yactayo-yactayo"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/caimma/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=ax4b-ncAAAAJ"
+        }
       ]
     },
     {
@@ -94857,6 +96392,128 @@
         {
           "place": "mackenzie",
           "did": ["Postdoctoral fellow"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1315599"
+        }
+      ]
+    },
+    {
+      "slug": "pablo-raul-yanyachi-aco-cardenas",
+      "name": "Pablo Raul Yanyachi Aco Cardenas",
+      "initials": "PY",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=3128",
+      "orcid": "0000-0001-5398-1461",
+      "site": "CTI Vitae",
+      "updated": "01-10-2026",
+      "degree": "Doctorado en ingeniería",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "spbpu",
+          "level": "Licenciatura",
+          "field": "Ingeniero eléctrico",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "spbpu",
+          "level": "Maestría",
+          "field": "Master en ciencias en control automático",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Doctor en ingeniería eléctrica",
+          "start": 1997,
+          "end": 2004
+        }
+      ],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Jefe de la estación de telemetría láser satelital"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
+          "role": "Jefe de la estación de telemetría láser satelital",
+          "start": 2005,
+          "end": "now"
+        },
+        {
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
+          "role": "Director del instituto de investigación",
+          "start": 2013,
+          "end": "now"
+        },
+        {
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
+          "role": "Docente investigador",
+          "start": 1986,
+          "end": "now"
+        },
+        {
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
+          "role": "Observador principal de telemetría láser satelital",
+          "start": 1989,
+          "end": 1997
+        },
+        {
+          "place": "usp",
+          "name": "Universidade de São Paulo",
+          "role": "Asistente de cátedra",
+          "start": 1998,
+          "end": 1998
+        },
+        {
+          "place": null,
+          "name": "Universidad de Gävle",
+          "role": "Profesor visitante",
+          "start": 2010,
+          "end": 2010
+        },
+        {
+          "place": null,
+          "name": "Universidad de Gävle",
+          "role": "Profesor visitante",
+          "start": 2006,
+          "end": 2006
+        }
+      ],
+      "path": [
+        {
+          "place": "spbpu",
+          "did": ["Licenciatura", "Maestría"]
+        },
+        {
+          "place": "unsa",
+          "did": [
+            "Docente investigador",
+            "Observador principal de telemetría láser satelital"
+          ]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado", "Asistente de cátedra"]
+        },
+        {
+          "place": "unsa",
+          "did": [
+            "Jefe de la estación de telemetría láser satelital",
+            "Director del instituto de investigación"
+          ]
         }
       ]
     },
@@ -95120,6 +96777,12 @@
         {
           "place": "unmsm",
           "did": ["Co-investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://sites.google.com/site/moisesyaro/"
         }
       ]
     },
@@ -95830,6 +97493,12 @@
         {
           "place": "pucp",
           "did": ["Postdoctoral researcher"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/2007760"
         }
       ]
     },
@@ -97083,7 +98752,12 @@
           ]
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/cristofher-zu"
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/cristofher-zu"
+        }
+      ]
     },
     {
       "slug": "barton-zwiebach",
@@ -97145,7 +98819,45 @@
           "did": ["Profesor de física"]
         }
       ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/981880"
+        }
+      ],
       "wikipedia": "https://es.wikipedia.org/wiki/Barton_Zwiebach"
+    }
+  ],
+  "projects": [
+    {
+      "id": "tambo",
+      "name": "TAMBO",
+      "url": "https://www.tambo-observatory.com/",
+      "about": "Observatorio de neutrinos de muy alta energía propuesto para el valle del Colca, en Arequipa.",
+      "members": [
+        "carlos-arguelles-delgado",
+        "jose-luis-bazo-alba",
+        "mauricio-bustamante-ramirez",
+        "saneli-alcides-carbajal-vigo",
+        "victor-arturo-centa-cueva",
+        "alberto-martin-gago-medina",
+        "marco-antonio-milla-bravo",
+        "luciano-stucchi"
+      ]
+    },
+    {
+      "id": "urqu",
+      "name": "Proyecto URQU",
+      "url": "http://urqu.iaapp.edu.pe/",
+      "about": "Monitoreo con geodesia espacial de los volcanes que rodean Arequipa.",
+      "members": ["pablo-raul-yanyachi-aco-cardenas"]
+    },
+    {
+      "id": "3o4cosas",
+      "name": "3o4cosas",
+      "url": "https://3o4cosas.com/",
+      "about": "Simulaciones interactivas de física, astronomía y matemáticas.",
+      "members": ["saneli-alcides-carbajal-vigo"]
     }
   ]
 }

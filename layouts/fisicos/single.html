@@ -9,6 +9,9 @@
 {{- $places := dict -}}
 {{- range $data.places }}{{ $places = merge $places (dict .id .) }}{{ end -}}
 {{- $map := site.GetPage "/fisicos" -}}
+{{- /* Research profiles join the source records under "Fichas"; any other link is a public channel under "En la web", named by its host when it is a site of its own. */ -}}
+{{- $research := dict "cti" "CTI Vitae" "renacyt" "RENACYT" "lattes" "Lattes" "scholar" "Google Académico" "inspire" "INSPIRE" "researchgate" "ResearchGate" "arxiv" "arXiv" "scopus" "Scopus" "wos" "Web of Science" -}}
+{{- $channels := dict "linkedin" "LinkedIn" "github" "GitHub" "youtube" "YouTube" -}}
 {{- /* Degrees and jobs in one list by start year. A job with no start that runs today goes last. */ -}}
 {{- $events := slice -}}
 {{- range $p.studied -}}
@@ -35,7 +38,7 @@
 					{{ . }}
 				{{- else -}}
 					{{- with $p.works -}}
-						{{- $w := index . 0 }}{{ $w.role }}, {{ (index $places $w.place).name -}}
+						{{- $w := index . 0 }}{{ with $w.role }}{{ . }}, {{ end }}{{ (index $places $w.place).name -}}
 					{{- else -}}
 						{{ $p.degree }}
 					{{- end -}}
@@ -100,12 +103,24 @@
 					{{- if eq $p.source "pucp" }}{{ $links = $links | append (dict "url" $p.url "title" "PUCP") }}{{ end -}}
 					{{- if eq $p.source "web" }}{{ $links = $links | append (dict "url" $p.url "title" $p.site) }}{{ end -}}
 					{{- with $p.orcid }}{{ $links = $links | append (dict "url" (printf "https://orcid.org/%s" .) "title" "ORCID") }}{{ end -}}
-					{{- with $p.linkedin }}{{ $links = $links | append (dict "url" . "title" "LinkedIn") }}{{ end -}}
+					{{- range $l := $p.links }}{{ with index $research $l.kind }}{{ $links = $links | append (dict "url" $l.url "title" .) }}{{ end }}{{ end -}}
 					{{- with $p.wikipedia }}{{ $links = $links | append (dict "url" . "title" "Wikipedia") }}{{ end -}}
 					{{- with $p.openalex }}{{ $links = $links | append (dict "url" (printf "https://openalex.org/authors/%s" .) "title" "OpenAlex") }}{{ end -}}
 					{{- range $i, $l := $links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end -}}
 				</dd>
 			</div>
+			{{- $web := slice }}
+			{{- range $p.links }}
+				{{- if not (index $research .kind) }}
+					{{- $web = $web | append (dict "url" .url "title" (index $channels .kind | default (strings.TrimPrefix "www." (urls.Parse .url).Host))) }}
+				{{- end }}
+			{{- end }}
+			{{- with $web }}
+				<div>
+					<dt>En la web</dt>
+					<dd>{{ range $i, $l := . }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end }}</dd>
+				</div>
+			{{- end }}
 		</dl>
 	</section>
 	<div>
@@ -141,7 +156,8 @@
 							<span class="timeline-years">{{ partial "fisicos/years.html" $e }}</span>
 							<span>
 								{{- $e.text }}
-								{{- with $e.place }}, <a href="{{ (site.GetPage (printf "/organizaciones/%s" .id)).RelPermalink }}">{{ .name }}</a>{{ else }}{{ with $e.name }}, {{ . }}{{ end }}{{ end -}}
+								{{- $sep := cond (eq $e.text "") "" ", " }}
+								{{- with $e.place }}{{ $sep }}<a href="{{ (site.GetPage (printf "/organizaciones/%s" .id)).RelPermalink }}">{{ .name }}</a>{{ else }}{{ with $e.name }}{{ $sep }}{{ . }}{{ end }}{{ end -}}
 							</span>
 						</li>
 					{{- end }}
@@ -166,6 +182,7 @@
 			</ul>
 		{{- end }}
 		{{ partial "grupos/person-groups.html" $slug }}
+		{{ partial "fisicos/person-projects.html" $slug }}
 		{{ partial "revista/person.html" $slug }}
 		{{ partial "videos/person.html" . }}
 		{{ partial "tesis/person.html" $slug }}

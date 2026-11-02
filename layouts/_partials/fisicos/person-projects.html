@@ -1,0 +1,28 @@
+{{- /* The projects a person takes part in, on their profile, each with the other members. Context: the profile slug. */ -}}
+{{- $slug := . -}}
+{{- $mine := slice -}}
+{{- range hugo.Data.physicists.projects -}}
+	{{- if in .members $slug }}{{ $mine = $mine | append . }}{{ end -}}
+{{- end -}}
+{{- with $mine }}
+	<h2 id="proyectos">{{ cond (gt (len .) 1) "Proyectos" "Proyecto" }}</h2>
+	<ul class="rows">
+		{{- range . }}
+			<li class="group">
+				<div class="row-main">
+					<a class="card-link" href="{{ .url }}">{{ .name }}</a>
+					<p>{{ .about }}</p>
+					{{- $others := slice }}
+					{{- range .members }}
+						{{- if ne . $slug }}
+							{{- with site.GetPage (printf "/fisicos/%s" .) }}{{ $others = $others | append (printf "<a href=\"%s\">%s</a>" .RelPermalink (htmlEscape .Title)) }}{{ end }}
+						{{- end }}
+					{{- end }}
+					{{- with $others }}
+						<p>Con {{ delimit . ", " " y " | safeHTML }}</p>
+					{{- end }}
+				</div>
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}
