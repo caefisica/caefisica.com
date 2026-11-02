@@ -1,14 +1,31 @@
 {{- /*
-One page per series in data/recordings.json, at its id. A series is what recurs under one organiser; sustentaciones and divulgación have no organiser and are listed on the index instead.
-docs/grabaciones.md says where the data comes from.
+One section per series in data/recordings.json, at its id, and one page per recording. A series is what recurs under one organiser; sustentaciones and divulgación have no organiser, so their recordings sit directly under /grabaciones/ and the index lists them.
+A recording's path is its id, which recordings.py keeps unique once lowercased. docs/grabaciones.md says where the data comes from.
 */ -}}
-{{- range $s := hugo.Data.recordings.series -}}
+{{- $data := hugo.Data.recordings -}}
+{{- $fetched := time.AsTime $data.fetched -}}
+{{- range $s := $data.series -}}
 	{{- with $s.organiser -}}
 		{{- $.AddPage (dict
+			"kind" "section"
 			"path" $s.id
 			"title" $s.name
+			"layout" "series"
 			"params" (dict "series" $s.id "description" (printf "%s: %s, desde %s." $s.name (partial "grabaciones/count.html" $s) $s.first))
-			"dates" (dict "lastmod" (time.AsTime hugo.Data.recordings.fetched))
+			"dates" (dict "lastmod" $fetched)
 		) -}}
 	{{- end -}}
+{{- end -}}
+{{- range $r := $data.recordings -}}
+	{{- $series := index (where $data.series "id" $r.series) 0 -}}
+	{{- $names := slice -}}
+	{{- range $r.speakers }}{{ $names = $names | append .name }}{{ end -}}
+	{{- $about := $series.name -}}
+	{{- with $names }}{{ $about = printf "%s, en %s" (delimit . ", " " y ") $series.name }}{{ end -}}
+	{{- $.AddPage (dict
+		"path" (cond (ne $series.organiser nil) (printf "%s/%s" $r.series (lower $r.id)) (lower $r.id))
+		"title" $r.title
+		"params" (dict "recording" $r.id "description" (printf "%s. %s." $r.title $about))
+		"dates" (dict "date" (time.AsTime (or $r.date (printf "%s-01" $r.month))) "lastmod" $fetched)
+	) -}}
 {{- end -}}

@@ -3,8 +3,8 @@
 `/grabaciones/` lista los seminarios, coloquios, conferencias, sesiones del
 Consejo de Facultad y sustentaciones de la facultad, de la Sección Física de la
 PUCP y de grupos de física de la UNI y la UNT. El menú y el título la llaman
-«Charlas». Cada título enlaza el video original, o la invitación cuando la
-charla no tiene video. El sitio no aloja ningún video.
+«Charlas». Cada charla tiene su página, que reproduce el video desde su sitio
+original. El sitio no aloja ningún video.
 
 ## Páginas
 
@@ -12,8 +12,10 @@ La portada tiene una fila por serie: nombre, organizador, años, y cuántas
 charlas tiene y cuántas con video. Una serie es lo que se repite con un mismo
 organizador. Cada fila abre `/grabaciones/<serie>/`, que crea
 `content/grabaciones/_content.gotmpl` a partir de `series`. Esa página agrupa
-las charlas por año, de la más reciente a la más antigua. Una charla sin video
-sale atenuada y enlaza su invitación, para que la serie quede completa sin
+las charlas por año, de la más reciente a la más antigua. El título de cada fila
+abre la página de la charla, y el nombre del origen enlaza el original: el video
+de YouTube, la página de Educast, la publicación de Facebook o la invitación.
+Una charla sin video sale atenuada, para que la serie quede completa sin
 esconder cuáles se pueden ver. Cada año lleva su cuenta con el sustantivo («26
 charlas»), porque un número junto al año se lee como parte de él.
 
@@ -26,6 +28,31 @@ aparece y los enlaces siguen funcionando.
 Las sustentaciones y la divulgación no son series: son actos sueltos sin
 organizador común. Sus grabaciones salen directamente en la portada, bajo la
 lista de series.
+
+La página de una charla está en `/grabaciones/<serie>/<id>/`, o en
+`/grabaciones/<id>/` si no es de una serie. El id va en minúsculas, porque Hugo
+las pone en las rutas, y `recordings.py` se niega a escribir dos ids que solo
+difieren en eso. La página da el título, los ponentes con su afiliación, la
+fecha, la serie y el reproductor, y debajo una ficha con el original, la
+invitación y el resumen de Educast. Según el origen:
+
+- **YouTube** y **Facebook** muestran la miniatura con un botón; al pulsarlo
+  `assets/js/player.ts` carga el reproductor de YouTube (sin cookies) o el de
+  Google Drive. Hasta entonces la página no pide nada a esos sitios.
+- **Educast** reproduce el mp4 en el reproductor del sitio
+  (`assets/js/video.ts`), tomado del de las historias de clientes de Linear: los
+  controles flotan sobre una sombra y se esconden tras dos segundos sin mover el
+  puntero; la línea de tiempo muestra lo cargado y, al pasar el puntero, el
+  minuto que hay debajo; hay volumen, velocidad, imagen en imagen y pantalla
+  completa. Las teclas son las de YouTube: espacio o K, M, F, P, flechas (5 s),
+  J y L (10 s) y los dígitos (décimas del video). El navegador guarda dónde se
+  quedó cada video, y el botón inicial ofrece continuar desde ahí, porque un
+  coloquio dura una hora o dos. Sin JavaScript quedan los controles del
+  navegador. La miniatura es la imagen de la página de Educast.
+- **Invitación**: un aviso de que no hay video, con el enlace a la invitación.
+
+El ancho del reproductor se ajusta para que entre entero bajo el título en la
+altura de la ventana.
 
 ## Datos
 
@@ -42,10 +69,10 @@ Hay cuatro orígenes:
 - **Facebook**: los videos de la página de la facultad de quince minutos o más.
   Los más cortos son clips, reels o avisos. Los avisos de admisión tampoco
   entran. Cada video tiene una copia pública en Google Drive (`post` guarda el
-  enlace a Facebook). El título abre el reproductor de Drive, para que la página
-  no cargue el de Facebook, y «Facebook» enlaza la publicación. Facebook borra
-  las transmisiones en vivo a los 30 días y deja un fragmento de un minuto, así
-  que una sesión del Consejo solo se conserva si se copia antes.
+  enlace a Facebook). La página de la charla usa el reproductor de Drive, para
+  no cargar el de Facebook. Facebook borra las transmisiones en vivo a los 30
+  días y deja un fragmento de un minuto, así que una sesión del Consejo solo se
+  conserva si se copia antes.
 - **YouTube**: cada canal es una serie, con los videos de quince minutos o más:
   - la Red LAFMAT, más los videos que insertan las galerías de su sitio;
   - la Asociación Estudiantil de Física Teórica de la UNI (`aeft-uni`);
@@ -67,10 +94,10 @@ Hay cuatro orígenes:
   Teórica de la UNT. Un video de LAFMAT en Facebook que también está en YouTube
   no entra.
 
-- **Educast PUCP**: el archivo de videos de la PUCP. El título enlaza el mp4,
-  que el navegador reproduce sin la página de Educast, y «Educast PUCP» enlaza
-  la página (`page`). La página no da la duración; `educast.py` la lee del mp4
-  con ffprobe.
+- **Educast PUCP**: el archivo de videos de la PUCP. `url` es el mp4, que el
+  navegador reproduce sin la página de Educast; `page` es la página y `poster`
+  su imagen. La página no da la duración; `educast.py` la lee del mp4 con
+  ffprobe.
 - **Invitación**: las charlas que la facultad anunció en Facebook y que no
   tienen video. Una invitación entra cuando nombra un título y un ponente. No
   entra si un video de la misma serie, con menos de tres meses de diferencia, ya

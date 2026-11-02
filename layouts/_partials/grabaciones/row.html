@@ -1,17 +1,18 @@
-{{- /* One talk or session on /grabaciones/: title linking the video, or the invitation when there is no video; speakers and where it plays under it; day or month on the right. On a phone the date joins the byline and the affiliation drops, so the host and minutes fit its two lines. A Facebook video links its public Drive copy, with the post beside it; an Educast video links its mp4, with its Educast page beside it; a YouTube video that matched an invitation links the invitation beside it. A talk without video is muted, so the rows that play stand out. Context: dict with recording and optional note, which goes before the host. */ -}}
+{{- /* One talk or session on /grabaciones/: title linking its page on this site; speakers and where it plays under it; day or month on the right. On a phone the date joins the byline and the affiliation drops, so the host and minutes fit its two lines. The host's name links the original: the Facebook post, the Educast page, the YouTube video, or the invitation of a talk without video. A talk without video is muted, so the rows that play stand out. Context: dict with recording and optional note, which goes before the host. */ -}}
 {{- $r := .recording -}}
 {{- $video := ne $r.host "Invitación" -}}
+{{- $page := site.GetPage (printf "/grabaciones/%s/%s" $r.series (lower $r.id)) | default (site.GetPage (printf "/grabaciones/%s" (lower $r.id))) -}}
 <li class="group{{ if not $video }} row-muted{{ end }}">
 	<div class="row-main">
-		<a class="card-link" href="{{ $r.url }}">{{ $r.title }}</a>
+		<a class="card-link" href="{{ with $page }}{{ .RelPermalink }}{{ else }}{{ $r.url }}{{ end }}">{{ $r.title }}</a>
 		<p>
 			{{- range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ end }}
 			{{- with $r.speakers }}{{ with (index . 0).affiliation }}<span class="max-md:hidden"> ({{ . }})</span>{{ end }} · {{ end }}
 			{{- with .note }}{{ . }} · {{ end }}
-			{{- if $r.post }}Copia en Drive · <a href="{{ $r.post }}">Facebook</a>
-			{{- else if not $video }}Invitación, sin video
+			{{- if $r.post }}<a href="{{ $r.post }}">Facebook</a>
+			{{- else if not $video }}<a href="{{ $r.url }}">Invitación</a>, sin video
 			{{- else if $r.page }}<a href="{{ $r.page }}">{{ $r.host }}</a>
-			{{- else }}{{ $r.host }}{{ with $r.invitation }} · <a href="{{ . }}">Invitación</a>{{ end }}
+			{{- else }}<a href="{{ $r.url }}">{{ $r.host }}</a>
 			{{- end }}
 			{{- with $r.minutes }} · {{ . }} min{{ end -}}
 			<span class="md:hidden"> · {{ partial "ui/day-or-month.html" $r }}</span>

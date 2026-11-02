@@ -38,6 +38,9 @@
 {{- if .Store.Get "player" -}}
 	{{- partial "site/script.html" (dict "src" "js/player.ts") -}}
 {{- end -}}
+{{- if .Store.Get "video" -}}
+	{{- partial "site/script.html" (dict "src" "js/video.ts") -}}
+{{- end -}}
 {{- with .Store.Get "physicistsMap" -}}
 	{{- partial "site/script.html" (dict "src" "js/physicists-map.ts" "params" .) -}}
 {{- end -}}
