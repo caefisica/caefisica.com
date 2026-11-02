@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{- $data := hugo.Data.groups -}}
+{{- $places := hugo.Data.physicists.places -}}
+{{- $from := time.AsTime $data.works_from -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d grupos de investigación: los de la Facultad de Ciencias Físicas de la UNMSM y los que coordina o integra alguien del <a href=\"%s\">mapa de físicos</a>. Cada uno muestra a sus integrantes, sus líneas, sus proyectos financiados y sus publicaciones desde %d." (len $data.groups) ((site.GetPage "/fisicos").RelPermalink) $from.Year)) }}
+
+	{{- range $id := slice "unmsm" "pucp" }}
+		{{- $place := index (where $places "id" $id) 0 }}
+		{{- $rows := sort (where $data.groups "institution" $id) "name" }}
+		<section class="section-group band" id="{{ $id }}">
+			<h2><a href="{{ (site.GetPage (printf "/organizaciones/%s" $id)).RelPermalink }}">{{ $place.name }}</a> <span class="count">{{ len $rows }}</span></h2>
+			<ul class="rows">
+				{{- range $rows }}{{ partial "grupos/row.html" . }}{{ end }}
+			</ul>
+		</section>
+	{{- end }}
+
+	<p class="person-note text-muted">
+		Los grupos de la UNMSM vienen del <a href="https://vrip.unmsm.edu.pe/">Vicerrectorado de Investigación y Posgrado</a>, que publica sus integrantes, líneas y proyectos; los de la PUCP, del <a href="https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/">directorio de grupos</a> de su Vicerrectorado de Investigación, que nombra solo a quien lo coordina. Las publicaciones vienen de <a href="https://openalex.org/">OpenAlex</a>. Si falta un grupo o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+	</p>
+</div>
+{{ end }}
