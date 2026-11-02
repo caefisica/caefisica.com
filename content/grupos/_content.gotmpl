@@ -1,0 +1,15 @@
+{{- /*
+One page per group in data/groups.json, at its id. docs/grupos.md says where the data comes from.
+*/ -}}
+{{- $data := hugo.Data.groups -}}
+{{- range $data.groups -}}
+	{{- $title := .name -}}
+	{{- with .acronym }}{{ $title = printf "%s (%s)" $title . }}{{ end -}}
+	{{- $.AddPage (dict
+		"path" .id
+		"title" $title
+		"params" (dict "group" .id "description" (printf "Integrantes, líneas, proyectos y publicaciones del grupo %s." $title))
+		"dates" (dict "lastmod" (time.AsTime (index $data.fetched "vrip")))
+		"content" (dict "mediaType" "text/markdown" "value" "")
+	) -}}
+{{- end -}}

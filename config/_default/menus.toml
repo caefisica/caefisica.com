@@ -53,6 +53,12 @@ parent = "recursos"
 weight = 12
 
 [[main]]
+name = "Grupos de investigación"
+pageRef = "/grupos"
+parent = "recursos"
+weight = 13
+
+[[main]]
 name = "Tesis"
 pageRef = "/tesis"
 parent = "recursos"
@@ -173,6 +179,12 @@ name = "Organizaciones"
 pageRef = "/organizaciones"
 parent = "leer"
 weight = 25
+
+[[footer]]
+name = "Grupos de investigación"
+pageRef = "/grupos"
+parent = "leer"
+weight = 27
 
 [[footer]]
 name = "YouTube"

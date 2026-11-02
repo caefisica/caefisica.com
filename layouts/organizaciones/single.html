@@ -39,6 +39,12 @@
 	<div>
 		<h2 id="personas">Personas</h2>
 		{{ partial "fisicos/place-people.html" $who.groups }}
+		{{- with sort (where hugo.Data.groups.groups "institution" $p.id) "name" }}
+			<h2 id="grupos">Grupos de investigación <span class="count">{{ len . }}</span></h2>
+			<ul class="rows">
+				{{- range . }}{{ partial "grupos/row.html" . }}{{ end }}
+			</ul>
+		{{- end }}
 		{{- with $p.research }}
 			{{- with .authors }}
 				<h2 id="autores">Quiénes más publican</h2>

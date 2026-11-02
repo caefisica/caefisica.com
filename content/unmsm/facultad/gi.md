@@ -239,6 +239,7 @@ groups:
 Cada grupo está registrado en el Vicerrectorado de Investigación y Posgrado
 (VRIP). Para unirte, escribe al responsable con tu ciclo y el tema que te
 interesa. La lista es la del VRIP de octubre de 2022; confirma los datos en la
-página del grupo.
+página del grupo. La lista vigente, con sus integrantes, proyectos y
+publicaciones, está en [Grupos de investigación](/grupos/#unmsm).
 
 {{< research-groups >}}

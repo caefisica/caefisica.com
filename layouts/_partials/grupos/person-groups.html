@@ -1,0 +1,12 @@
+{{- /* The research groups a person belongs to, on their profile. Context: the profile slug. */ -}}
+{{- $slug := . -}}
+{{- $mine := slice -}}
+{{- range hugo.Data.groups.groups -}}
+	{{- if where .members "slug" $slug }}{{ $mine = $mine | append . }}{{ end -}}
+{{- end -}}
+{{- with $mine }}
+	<h2 id="grupos">{{ cond (gt (len .) 1) "Grupos de investigación" "Grupo de investigación" }}</h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "grupos/row.html" . }}{{ end }}
+	</ul>
+{{- end }}

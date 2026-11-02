@@ -1,0 +1,153 @@
+{{ define "main" }}
+{{- $data := hugo.Data.groups -}}
+{{- $g := index (where $data.groups "id" .Params.group) 0 -}}
+{{- $place := index (where hugo.Data.physicists.places "id" $g.institution) 0 -}}
+{{- $lead := index (where $g.members "role" "Coordinador") 0 -}}
+{{- $from := time.AsTime $data.works_from -}}
+{{- $vrip := eq $g.institution "unmsm" -}}
+<article class="person-page py-page">
+	{{ partial "article/breadcrumbs.html" . }}
+	<header>
+		<h1>{{ .Title }}</h1>
+		<p class="text-lead">Grupo de investigación · {{ $place.short | default $place.name }}</p>
+	</header>
+	<section class="facts" aria-labelledby="group-info">
+		<h2 id="group-info">En breve</h2>
+		<dl>
+			<div>
+				<dt>Institución</dt>
+				<dd><a href="{{ (site.GetPage (printf "/organizaciones/%s" $place.id)).RelPermalink }}">{{ $place.name }}</a></dd>
+			</div>
+			{{- with $g.unit }}
+				<div>
+					<dt>Unidad</dt>
+					<dd>{{ . }}</dd>
+				</div>
+			{{- end }}
+			{{- with $lead }}
+				<div>
+					<dt>Coordinación</dt>
+					<dd>{{ partial "grupos/person.html" . }}</dd>
+				</div>
+			{{- end }}
+			{{- if $vrip }}
+				<div>
+					<dt>Integrantes</dt>
+					<dd>{{ len $g.members }}</dd>
+				</div>
+			{{- end }}
+			{{- with $g.founded }}
+				<div>
+					<dt>Fundado</dt>
+					<dd>{{ . }}</dd>
+				</div>
+			{{- end }}
+			{{- with $g.kind }}
+				<div>
+					<dt>Investigación</dt>
+					<dd>{{ . }}</dd>
+				</div>
+			{{- end }}
+			{{- with $g.research }}
+				<div>
+					<dt>Desde {{ $from.Year }}</dt>
+					<dd>{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</dd>
+				</div>
+			{{- end }}
+			<div>
+				<dt>Ficha</dt>
+				<dd><a href="{{ $g.url }}">{{ cond $vrip "VRIP de la UNMSM" "Directorio de la PUCP" }}</a></dd>
+			</div>
+		</dl>
+	</section>
+	<div>
+		<div class="markdown">
+			{{- with $g.about }}
+				<h2 id="descripcion">Descripción</h2>
+				{{ . | htmlEscape | markdownify }}
+			{{- end }}
+			{{- with $g.lines }}
+				<h2 id="lineas">Líneas de investigación</h2>
+				<ul>
+					{{- range . }}<li>{{ . }}</li>{{ end }}
+				</ul>
+			{{- end }}
+			{{- with $g.goals }}
+				<h2 id="objetivos">Objetivos</h2>
+				{{ . | htmlEscape | markdownify }}
+			{{- end }}
+			{{- with $g.services }}
+				<h2 id="servicios">Servicios</h2>
+				{{ . | htmlEscape | markdownify }}
+			{{- end }}
+		</div>
+		{{- if $vrip }}
+			<h2 id="integrantes">Integrantes <span class="count">{{ len $g.members }}</span></h2>
+			<p class="text-muted">El nombre enlaza el perfil de quien está en el mapa de físicos.</p>
+			<ul class="rows">
+				{{- range $g.members }}
+					<li class="group">
+						<div class="row-main">
+							{{ partial "grupos/person.html" . }}
+							{{- with .degree }}<p>{{ . }}</p>{{ end }}
+						</div>
+						{{- with .role }}<span class="row-meta">Coordinación</span>{{ end }}
+					</li>
+				{{- end }}
+			</ul>
+		{{- end }}
+		{{- with $g.projects }}
+			<h2 id="proyectos">Proyectos <span class="count">{{ len . }}</span></h2>
+			<p class="text-muted">Los proyectos que el Vicerrectorado registra para el grupo. El código empieza por la letra del programa y el año de la convocatoria.</p>
+			<ul class="rows">
+				{{- range . }}
+					<li class="group">
+						<div class="row-main">
+							<span>{{ .title }}</span>
+							<p>{{ .code }}</p>
+						</div>
+						<span class="row-meta">{{ .year }}</span>
+					</li>
+				{{- end }}
+			</ul>
+		{{- end }}
+		{{- with $g.research }}
+			{{- with .works }}
+				<h2 id="publicaciones">Publicaciones recientes</h2>
+				<p class="text-muted">Las {{ len . }} más recientes de sus integrantes con perfil en OpenAlex. Datos al {{ partial "ui/date.html" (time.AsTime $data.works_fetched) }}.</p>
+				<ul class="rows">
+					{{- range . }}
+						{{- $names := slice }}
+						{{- range .authors }}
+							{{- $name := .name | htmlEscape }}
+							{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/fisicos/%s" .)).RelPermalink $name }}{{ end }}
+							{{- $names = $names | append $name }}
+						{{- end }}
+						{{- $more := sub .n (len .authors) }}
+						<li class="group">
+							<div class="row-main">
+								{{- if .doi }}
+									<a class="card-link" href="{{ .doi }}">{{ .title }}</a>
+								{{- else }}
+									<span>{{ .title }}</span>
+								{{- end }}
+								<p>{{ delimit $names ", " | safeHTML }}{{ if gt $more 0 }} y {{ $more }} más{{ end }}</p>
+								<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
+							</div>
+						</li>
+					{{- end }}
+				</ul>
+			{{- end }}
+		{{- end }}
+		<p class="person-note text-muted">
+			{{- if $vrip }}
+				Los integrantes, las líneas y los proyectos vienen de la <a href="{{ $g.url }}">ficha del grupo</a> en el Vicerrectorado de Investigación y Posgrado de la UNMSM, copiada el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "vrip")) }}.
+			{{- else }}
+				La descripción y la coordinación vienen del <a href="{{ $g.url }}">directorio de grupos</a> del Vicerrectorado de Investigación de la PUCP, copiado el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "pucp")) }}. El directorio no nombra a los demás integrantes.
+			{{- end }}
+			{{- with $g.research }} Las publicaciones vienen de <a href="https://openalex.org/">OpenAlex</a>.{{ end }} Si integras el grupo y algo falta o está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		</p>
+		{{ partial "article/page-footer.html" . }}
+	</div>
+</article>
+{{ end }}

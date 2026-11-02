@@ -1,0 +1,6 @@
+{{- /* A member's name, linked to their profile when they have one. Context: a member from data/groups.json. */ -}}
+{{- with .slug -}}
+	<a class="card-link" href="{{ (site.GetPage (printf "/fisicos/%s" .)).RelPermalink }}">{{ $.name }}</a>
+{{- else -}}
+	<span>{{ .name }}</span>
+{{- end -}}

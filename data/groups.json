@@ -1,0 +1,2727 @@
+{
+  "fetched": {
+    "vrip": "2026-11-02",
+    "pucp": "2026-11-02"
+  },
+  "works_fetched": "2026-11-02",
+  "works_from": "2016-01-01",
+  "groups": [
+    {
+      "id": "unmsm-ecyt",
+      "institution": "unmsm",
+      "acronym": "ECYT",
+      "name": "Educación, Ciencia y Tecnología",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ecyt/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "El Grupo de Investigación está integrado por docentes, estudiantes de las Facultades de Ciencias e Ingeniería y docentes externos. Desde el 2001 hemos desarrollado diversas actividades académicas de promoción, difusión y socialización de la ciencia con asistencia masiva de docentes y estudiantes de Ciencia y Tecnología de distintos niveles. Actualmente, desarrollamos Coloquios de Física al final de cada ciclo académico con la participación de distintas instituciones académicas. La importancia de la ciencia no solo reside en la ciencia pura y teórica, sino en su aplicación y socialización. De ahí, la necesidad de interactuar dinámicamente con los sectores que contribuyen a la formación de la cultura en sus distintos niveles, esto es: desde la escuela primaria hasta el ámbito superior universitaria. La educación y el fomento de la ciencia son imprescindibles para el desarrollo productivo y cultural de nuestra sociedad. Siendo, la universidad pilar de desarrollo académico, científico y cultural, pretendemos realizar investigaciones en distintos niveles para actualizarnos y socializar la ciencia desde la perspectiva disciplinaria, pedagógica, didáctica y aplicativa a los sectores de la sociedad nacional; además expandir y profundizar las investigaciones en conexión y cooperación con los sectores productivos y entidades académicas tanto del país como del extranjero.",
+      "goals": "⮚Desarrollar nuevas metodologías al aprendizaje y enseñanza de la ciencia, desde la investigación disciplinaria e interacción con la sociedad y la educación a todo nivel.\n⮚Capacitar estudiantes y docentes en coordinación con las Instituciones Educativas, UGEL DRE y Minedu, en didáctica, metodología, aprendizaje y enseñanza de la ciencia.\n⮚Publicar en revistas indexadas y presentar trabajos en eventos académicos, en temas de la didáctica, metodología y aprendizaje de las ciencias.\n⮚Equipar laboratorio experimental de ciencias a fin de impulsar el aprendizaje con evidencias prácticas y aplicativas.\n⮚Desarrollar programas de promoción y extensión científica a la sociedad.",
+      "services": "⮚Asesoramiento y acompañamiento de la comunidad educativa en el ámbito pedagógico y didáctico de temas de la enseñanza y aprendizaje de la ciencia.\n⮚Promover eventos académicos: congresos, simposio, coloquios, seminarios para difundir la ciencia, y cursos, talleres, diplomados y especializaciones en el ámbito científico para los docentes.\n⮚Producir software educativo orientado al aprendizaje y enseñanza de la ciencia, ademas materiales de laboratorio, académicos de investigación y artículos exploratorios del tema para su divulgación, exposición en eventos académicos y publicación en revistas indexadas.\n⮚Investigar y crear módulos y formas de metodologías de la enseñanza en ciencias básicas",
+      "members": [
+        {
+          "name": "Miguel Angel Castillo Corzo",
+          "role": "Coordinador",
+          "slug": "miguel-angel-castillo-corzo"
+        },
+        {
+          "name": "Jorge Moises Minaya Martinez"
+        },
+        {
+          "name": "Valentin Castro Rau"
+        }
+      ],
+      "lines": ["Enseñanza de la Física"],
+      "projects": [
+        {
+          "title": "Sistema predictivo basado en Machine Learning con terminal biométrica de validación, para la detección temprana de fraude por suplantación de identidad en la contratación de servicios de telecomunicaciones en el Perú",
+          "code": "B261322PROrn",
+          "year": 2026
+        }
+      ],
+      "research": {
+        "count": 14,
+        "works": [
+          {
+            "title": "Análisis de la percepción de la enseñanza de la física en las escuelas secundarias de la provincia de Barranca, Lima, Perú",
+            "doi": "https://doi.org/10.69639/arandu.v13i3.2505",
+            "year": 2026,
+            "venue": "Arandu-UTIC.",
+            "authors": [
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Alex Corzo",
+                "slug": null
+              }
+            ],
+            "n": 6
+          },
+          {
+            "title": "Dimensiones del aprendizaje en mecánica newtoniana: conceptualización, resolución de problemas e interpretación de datos en estudiantes universitarios",
+            "doi": "https://doi.org/10.15381/rpiiedu.v5i1.30093",
+            "year": 2025,
+            "venue": "Revista peruana de investigación e innovación educativa",
+            "authors": [
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Fulgencio Villegas Silva",
+                "slug": null
+              },
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              }
+            ],
+            "n": 3
+          },
+          {
+            "title": "Influence of Six Planting Densities on the Production and Quality of Melon (Cucumis melo L.) Galia Cultivar San Luis Ancash",
+            "doi": "https://doi.org/10.24857/rgsa.v19n4-140",
+            "year": 2025,
+            "venue": "Revista de Gestão Social e Ambiental",
+            "authors": [
+              {
+                "name": "Frangio Alain Guillen Mendoza",
+                "slug": null
+              },
+              {
+                "name": "Ana Melva Contreras Contreras",
+                "slug": null
+              },
+              {
+                "name": "Adriana María Castillo Corzo",
+                "slug": null
+              },
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              }
+            ],
+            "n": 6
+          },
+          {
+            "title": "Potentially toxic elements and radionuclides contamination in soils from the vicinity of an ancient mercury mine in Huancavelica, Peru",
+            "doi": "https://doi.org/10.37501/soilsa/204389",
+            "year": 2025,
+            "venue": "Soil Science Annual",
+            "authors": [
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "V. Rodríguez",
+                "slug": null
+              },
+              {
+                "name": "Manuel Manrique Nugent",
+                "slug": null
+              },
+              {
+                "name": "Eduardo Villarreyes",
+                "slug": "eduardo-gonzalo-villarreyes-pena"
+              },
+              {
+                "name": "Juan Carlos González",
+                "slug": "juan-carlos-gonzalez-gonzalez"
+              }
+            ],
+            "n": 11
+          },
+          {
+            "title": "Uso de Simuladores en la Enseñanza Virtual durante la Pandemia del COVID-19: Impacto en el Aprendizaje Colaborativo a través de Videoconferencias",
+            "doi": "https://doi.org/10.61616/rvdc.v6i1.415",
+            "year": 2025,
+            "venue": "Revista Veritas de Difusão Cientifica.",
+            "authors": [
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "Fulgencio Villegas Silva",
+                "slug": null
+              }
+            ],
+            "n": 3
+          },
+          {
+            "title": "Simulación numérica de trayectorias de proyectiles: Influencia de la fuerza de arrastre",
+            "doi": "https://doi.org/10.15381/rif.v27i2.26631",
+            "year": 2024,
+            "venue": "Revista de Investigación de Física",
+            "authors": [
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Oscar S. Monroy Cárdenas",
+                "slug": null
+              },
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              }
+            ],
+            "n": 3
+          },
+          {
+            "title": "CIENCIA E INNOVACIÓN, INVESTIGACIÓN EN EDUCACIÓN, EMPRESA Y SOCIEDAD",
+            "doi": "https://doi.org/10.34893/r0544-4951-8807-g",
+            "year": 2023,
+            "venue": null,
+            "authors": [
+              {
+                "name": "Jorge Anastacio Pedro Paucar Luna",
+                "slug": null
+              },
+              {
+                "name": "Víctor Apolaya Sarmiento",
+                "slug": null
+              },
+              {
+                "name": "Marleni Vilma Bautista Espinoza",
+                "slug": null
+              },
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              }
+            ],
+            "n": 64
+          },
+          {
+            "title": "Evolución de casos positivos y fallecidos por Covid-19 en el Perú, y el factor f a través de un modelo físico",
+            "doi": "https://doi.org/10.15381/rif.v25i2.22678",
+            "year": 2022,
+            "venue": "Revista de Investigación de Física",
+            "authors": [
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "David Correa",
+                "slug": null
+              }
+            ],
+            "n": 3
+          },
+          {
+            "title": "Magnetic, structural and Mössbauer study of soils from an ancient mining area in Huancavelica-Peru",
+            "doi": "https://doi.org/10.1007/s10751-021-01786-8",
+            "year": 2021,
+            "venue": "Hyperfine Interactions",
+            "authors": [
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "L. E. Borja-Castro",
+                "slug": null
+              },
+              {
+                "name": "L. De Los Santos Valladares",
+                "slug": null
+              },
+              {
+                "name": "Juan Carlos González",
+                "slug": "juan-carlos-gonzalez-gonzalez"
+              },
+              {
+                "name": "J. Medina Medina",
+                "slug": "jose-julian-medina-medina"
+              }
+            ],
+            "n": 8
+          },
+          {
+            "title": "Estimación de la distribución espectral de haces de rayos X por cálculo iterativo computacional y diseño de programa de dosimetría, utilizando datos de atenuación",
+            "doi": "https://doi.org/10.15381/rif.v22i1.20265",
+            "year": 2021,
+            "venue": "Revista de Investigación de Física",
+            "authors": [
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "Galo Patiño",
+                "slug": null
+              },
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              }
+            ],
+            "n": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "unmsm-gisicof",
+      "institution": "unmsm",
+      "acronym": "GISICOF",
+      "name": "Grupo de investigación de sistemas complejos funcionalizados",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gisicof/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "La ciencia de materiales y la nanociencia son el soporte actual de una amplia gama de aplicaciones tecnológicas que todo país requiere para mantener un desarrollo sostenido. En este contexto, los sistemas complejos funcionalizados son una alternativa novedosa para brindar soluciones a problemas específicos de la sociedad en diferentes ámbitos como la industria, electrónica, biomedicina, energía y el medioambiente, entre otros.\n\nEl GISICOF desarrolla desde hace más de 10 años investigaciones en esta línea de investigación. Investigamos principalmente sistemas como cuasicristales, intermetálicos, aleaciones metálicas complejas, compósitos, nano-sistemas, materiales tipo fermiones-pesados, para entender los fundamentos que expliquen las propiedades fisico-químicas que estos sistemas presentan y, además, para proponer posibles aplicaciones tecnológicas basándonos en un enfoque de innovación científica y tecnológica.\n\nEl GISICOF está conformado por investigadores formados en prestigiosas instituciones de Alemania, Brasil y Ucrania, especializados en diversos campos de la física de la materia condensada, tanto teórica como experimental, y contamos con amplia experiencia formando investigadores a nivel de pre- y posgrado. Además, tenemos infraestructura desarrollada y colaboraciones con grupos de investigación de Alemania, Brasil, México, entre otros.\n\nEn la actualidad, el GISICOF lidera investigaciones con proyectos financiados por la UNMSM, CONCYTEC e INNOVATE PERÚ.",
+      "goals": "El GISICOF tiene los siguientes objetivos:\r\n- Sintetizar, caracterizar e innovar estructuras complejas funcionalizadas con potenciales aplicaciones tecnológicas.\r\n- Entender, a través de simulaciones computaciones, las propiedades físicas de estructuras complejas y como su funcionalización ayuda en su empleo para aplicaciones tecnológicas.\r\n- Desarrollar capacidades para el uso de técnicas de síntesis, caracterización y simulación de sistemas complejos empleando diversos equipos de tecnología actual.\r\n- Contribuir con la formación de recursos humanos altamente calificados en el estudio de sistemas complejos diversos y empleando diversas herramientas teórico-experimentales.\r\n- Brindar servicios tecnológicos altamente especializados a la industria.",
+      "services": "El GISICOF presta los servicios siguientes:\r\n- Análisis cualitativo y cuantitativo de propiedades elementales y estructurales de materiales de naturaleza diversa (fármacos, cementos, suelos, arcillas, cerámicas, metales, entre otros) empleando equipos de fluorescencia y difracción de rayos X.\r\n- Servicios de simulación de propiedades físicas de materiales empleando software especializado basado en la teoría del funcional de la densidad (DFT) de uso estándar a nivel internacional.\r\n- Servicio de síntesis de materiales por vías físicas (molienda mecánica de baja energía) y química (co-precipitación).\r\n- Actualmente se esta implementando otros servicios como espectroscopia UV-Vis que complementarán los servicios que brindamos.",
+      "members": [
+        {
+          "name": "Carlos Vladimir Landauro Saenz",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Luis Pablo Vilcapoma Lazaro",
+          "slug": "luis-pablo-vilcapoma-lazaro"
+        },
+        {
+          "name": "Sthy Warren Flores Daorta",
+          "degree": "Doctor"
+        }
+      ],
+      "lines": [
+        "Aplicaciones de la Física en Nanociencia y Nanociencia y Nanotecnología de Materiales Magnéticos",
+        "Ciencia de Materiales Avanzados y de Estructuras Artificiales",
+        "Propiedades Estructurales de las Nanopartículas"
+      ],
+      "projects": [
+        {
+          "title": "Adquisición de un potenciostato/galvanostato/amperímetro de resistencia cero para pruebas de impedancia en películas delgadas y membranas, de carga-descarga en celdas solares, oxidación de materiales y de sensores portátiles de contaminación de agua",
+          "code": "B261313903e",
+          "year": 2026
+        },
+        {
+          "title": "Estudio de la fabricación y caracterización de membranas poliméricas de PVDF reforzadas con el cuasicristal Al64Cu23Fe13 para su potencial uso como nanogeneradores de energía",
+          "code": "B26130371",
+          "year": 2026
+        },
+        {
+          "title": "Estudio teórico-experimental de la influencia del espesor sobre las propiedades electrónicas de nanopelículas del cuasicristal i-Al64Cu23Fe13 obtenidas por la técnica de pulverización catódica",
+          "code": "B25130241",
+          "year": 2025
+        },
+        {
+          "title": "Estudio de la síntesis y caracterización de compuestos poliméricos biodegradables a base de almidón de maíz y el cuasicristal Al64Cu23Fe13",
+          "code": "B24130501",
+          "year": 2024
+        },
+        {
+          "title": "Estudio de la importancia del metal de transición en las propiedades magnetocalóricas de aleaciones Heusler Ni2XGa (X=Mn,Fe,Co) de dimensión reducida (películas y nanopartículas)",
+          "code": "B23131861",
+          "year": 2023
+        },
+        {
+          "title": "Estudio de la importancia de la interacción espín-órbita en la generación de corrientes de espín en redes bidimensionales aperiódicas tipo Fibonacci",
+          "code": "B22130261",
+          "year": 2022
+        },
+        {
+          "title": "Estudio de la superconductividad en redes bidimensionales tipo Fibonacci y de su relación con las propiedades electrónicas y ópticas",
+          "code": "B21130591",
+          "year": 2021
+        },
+        {
+          "title": "Materiales activos basados en vidrios telurítos dopados con Er3+ para antenas ópticas necesarias para la transmisión de internet a larga distancia",
+          "code": "B2113003i",
+          "year": 2021
+        },
+        {
+          "title": "Medidor de hemoglobina de fácil uso y lectura que cabe en un bolsillo para el diagnóstico y control de la anemia.",
+          "code": "S21130011",
+          "year": 2021
+        },
+        {
+          "title": "Síntesis, modelamiento teórico y caracterización estructural y magnética de compósitos de grafeno con nano-partículas de cobalto",
+          "code": "B20131521",
+          "year": 2020
+        },
+        {
+          "title": "Estudio teórico-experimental de la síntesis, estabilidad y caracterización estructural de compósitos de grafeno con nano-partículas de plata",
+          "code": "B19130021",
+          "year": 2019
+        },
+        {
+          "title": "Modelamiento teórico computacional de concentradores luminiscentes para aplicaciones fotovoltaicas",
+          "code": "B19130042",
+          "year": 2019
+        },
+        {
+          "title": "Estudio teórico-experimental de las propiedades magnéticas de las aleaciones Al-Au-Yb e In-Ag-Yb nanoestructuradas",
+          "code": "B18130291",
+          "year": 2018
+        },
+        {
+          "title": "MODERNIZACIÓN de SISTEMA DE síntesis de ALEACIONES MEDIANTE LA ADQUISICIÓN DE UN EQUIPO DE HORNO DE ARCO VOLTAICO",
+          "code": "B18134150e",
+          "year": 2018
+        },
+        {
+          "title": "Síntesis, caracterización estructural y propiedades electrónicas de la aleación Al-Au-Yb nano-estructurada en sus fases periódica y aperiódica",
+          "code": "B17130021",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-gimna",
+      "institution": "unmsm",
+      "acronym": "GIMNA",
+      "name": "Magnetismo moderno, nanomagnetismo y aleaciones metálicas",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gimna/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "Desde hace 20 años, profesores de la Facultad de Ciencias Físicas vienen trabajando en temas del magnetismo moderno y, en particular, en el magnetismo blando y nanomagnetismo de nuevas aleaciones basadas en Fe, interesantes tanto del punto de vista científico como tecnológico. Estos materiales ofrecen una variedad de propiedades físico-químicas, mecánicas, eléctricas, magnéticas y térmicas útiles para aplicaciones en la industria, biomedicina y medio-ambiente.\n\nEl GIMNA está dirigido por investigadores especializados en prestigiosas instituciones del Brasil y Alemania, en física de la materia condensada, ciencia de materiales, física mesoscópica y nanomagnetismo. Particularmente, el nanomagnetismo (magnetismo nivel nanoescala) es la ciencia de mayor futuro como soporte de altas tecnologías. De ella derivan nuevos campos como la espintrónica basadas no solamente en transporte de electrones sino en la manipulación magnética y óptica del espín electrónico.\n\nTemas de investigación: amorfos metálicos; nano-aleaciones; nano-compositos; nano-óxidos; soluciones-sólidas extendidas; efectos magneto-calóricos y nanomagnetismo.\n\nActualmente, el GIMNA viene trabajando en tres proyectos CienciActiva-CONCYTEC:\n\n-“Círculo de Investigación e Innovación de Materiales Avanzados para la Industria y Biomedicina” (2014-2017).\n\n-“Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales” (2015-2020).\n\n-Programa de doctorado en Física-UNMSM.\n\nUn proyecto Innóvate Perú del Ministerio de la Producción-BID.\n\n-Proyecto: materiales cuasicristalinos tipo fermiones pesados (2016-2017)",
+      "goals": "El GIMNA tiene los siguientes objetivos:\r\n1) Producir, caracterizar e innovar nuevas aleaciones metálicas nano y micro-estructuradas con propiedades físicas y magnéticas no usuales con potenciales aplicaciones tecnológicas en campos diversos de la industria, biomedicina y medioambiente.\r\n2) Desarrollo de capacidades para el uso de técnicas de caracterización de materiales por difracción de rayos-X, espectroscopia Mössbauer, absorción de rayos X, magnetización, transporte electrónico y criogenia.\r\n3) Ofrecer un espacio académico para la formación de recursos humanos altamente calificados en magnetismo moderno, nanomagnetismo y nuevos materiales necesarios para entender las complejidades propias del desarrollo científico y tecnológico.\r\n4) Brindar servicios tecnológicos.",
+      "services": "El GIMNA presta los servicios siguientes:\r\n1) Análisis cualitativo y cuantitativo de materiales a través de medidas por difracción de rayos-X, espectroscopia Mössbauer, magnetización y de transporte electrónico.\r\n2) Servicios de preparación de muestras de ensayo (aleaciones y nano-aleaciones metálicas; intermetálicos; nano-compositos; nano-óxidos; soluciones sólidas extendidas y aleaciones metálicas amorfas) para aplicaciones en la industria (metal-mecánica, grabación magnética, metalurgia, dispositivos electrónicos), biomedicina (terapia oncológica, administración de fármacos) y medio-ambiente, a través de las técnicas: mecano-síntesis; horno de arco por descarga voltaica y tratamientos térmicos.\r\n3) Próximamente se desarrollará un sistema de electrodeposición pulsada para fabricación de revestimientos, multicapas y nano-hilos.",
+      "members": [
+        {
+          "name": "Victor Antonio Peña Rodriguez",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Jesus Felix Sanchez Ortiz",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Jose Julian Medina Medina",
+          "slug": "jose-julian-medina-medina",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Raul Angel Contreras Contreras",
+          "degree": "Bachiller"
+        }
+      ],
+      "lines": [
+        "Aplicaciones de la Física en Nanociencia y Nanociencia y Nanotecnología de Materiales Magnéticos",
+        "Ciencia de Materiales Avanzados y de Estructuras Artificiales",
+        "Física de Metales y Aleaciones Metálicas"
+      ],
+      "projects": [
+        {
+          "title": "Estudio de las propiedades estructurales, magnéticas y magnetocalóricas de aleaciones basadas en el intermetálico Fe5Sn3",
+          "code": "B26132091",
+          "year": 2026
+        },
+        {
+          "title": "Estudio del desorden estructural en aleaciones semi-metálicas Co2FeSix-1Gax",
+          "code": "B26132271",
+          "year": 2026
+        },
+        {
+          "title": "Fortalecimiento de capacidades técnicas en la caracterización de nuevos materiales desarrollados por el grupo de investigación en Magnetismo Moderno, Nanomagnetismo y Aleaciones Metálicas (GIMNA)",
+          "code": "B261313940e",
+          "year": 2026
+        },
+        {
+          "title": "Estudio del ferromagnetismo semimetálico en películas próximas a la estequiometría Heusler Co2Fe1-xSi1+x preparadas por pulverización catódica",
+          "code": "B25130531",
+          "year": 2025
+        },
+        {
+          "title": "Contaminación con elementos potencialmente tóxicos y radionucleidos en suelos cercanos a una antigua mina de mercurio en Huancavelica, Perú",
+          "code": "A24130512",
+          "year": 2024
+        },
+        {
+          "title": "Desarrollo de filtro magnético para retirar partículas de arsénico de agua de consumo humano",
+          "code": "B24130311i",
+          "year": 2024
+        },
+        {
+          "title": "Pulverización catódica de Cr sobre cintas nanocristalinas ferromagnéticas VITROPERM",
+          "code": "B24130971",
+          "year": 2024
+        },
+        {
+          "title": "Estudio del nano-recubrimiento de óxido de Ni antiferromagnético sobre cintas amorfas ferromagnéticas VITROVAC",
+          "code": "B23132231",
+          "year": 2023
+        },
+        {
+          "title": "Efectos del recocido térmico (annealing) sobre las propiedades estructurales y magnéticas blandas de tricapas Al/FINEMET/Al",
+          "code": "B22130691",
+          "year": 2022
+        },
+        {
+          "title": "Estudio de las propiedades semimetálicas de aleaciones Co2FeSix-1Alx",
+          "code": "B21130022",
+          "year": 2021
+        },
+        {
+          "title": "Estudio de las reorientaciones del espín electrónico en cintas amorfas (Finemet, Nanoperm) recubiertas con Al",
+          "code": "B21131471",
+          "year": 2021
+        },
+        {
+          "title": "Estudio magnético, estructural y Mössbauer de muestras de tierra y lodos del río Ichu, Huancavelica, Perú",
+          "code": "B21130032",
+          "year": 2021
+        },
+        {
+          "title": "Investigación sobre el reforzamiento de aceros -de bajo contenido en C- con nano-aleaciones n-(Fe7Nb6)100-xCx, con x = 20, 30, obtenidas por mecano-síntesis, para la mejora de propiedades de mecánicas y respuesta en altas temperaturas",
+          "code": "B20131751",
+          "year": 2020
+        },
+        {
+          "title": "Evaluación de presencia de metales pesados en líquenes antárticos y metodología de identificación molecular de los mismos",
+          "code": "B19130022",
+          "year": 2019
+        },
+        {
+          "title": "Formación de fases amorfas, nanoestructuradas y precipitación del NbC en aleaciones (Fe7Nb6)100-xCx, con x = 5, 10, 15, obtenidas por mecano-síntesis, con aplicaciones en la industria del acero",
+          "code": "B19130101",
+          "year": 2019
+        },
+        {
+          "title": "Adquisición de un horno ad hoc al vacío/gas para medidas Mössbauer in situ",
+          "code": "B18134156e",
+          "year": 2018
+        },
+        {
+          "title": "Estudio Físico Químico de muestras de las Riberas del Rio Ichu de la provincia de Huancavelica",
+          "code": "B18130082",
+          "year": 2018
+        },
+        {
+          "title": "Estudio del ferromagnetismo de las aleaciones nano-estructuradas n-Fe5Sn3 y n-Fe3Sn2 obtenidas por molienda-mecánica de bolas de gran energía",
+          "code": "B18130091",
+          "year": 2018
+        },
+        {
+          "title": "Estudio y desarrollo de aleaciones Heusler basadas en Co con semi-metalicidad para aplicaciones en espintrónica",
+          "code": "B18130551",
+          "year": 2018
+        },
+        {
+          "title": "Aging study in Fe-doped Yb films",
+          "code": "B17130013",
+          "year": 2017
+        },
+        {
+          "title": "Estudio de la nanocristalización en compuestos intermetálicos Fe-Sn mediante la espectroscopía Mössbauer y magnetometría de muestra vibrante",
+          "code": "B17130241",
+          "year": 2017
+        },
+        {
+          "title": "Implementación de sistema criogénico para un espectrómetro Mössbauer",
+          "code": "B1713009e",
+          "year": 2017
+        }
+      ],
+      "research": {
+        "count": 3,
+        "works": [
+          {
+            "title": "Magnetic, structural and Mössbauer study of soils from an ancient mining area in Huancavelica-Peru",
+            "doi": "https://doi.org/10.1007/s10751-021-01786-8",
+            "year": 2021,
+            "venue": "Hyperfine Interactions",
+            "authors": [
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "L. E. Borja-Castro",
+                "slug": null
+              },
+              {
+                "name": "L. De Los Santos Valladares",
+                "slug": null
+              },
+              {
+                "name": "Juan Carlos González",
+                "slug": "juan-carlos-gonzalez-gonzalez"
+              },
+              {
+                "name": "J. Medina Medina",
+                "slug": "jose-julian-medina-medina"
+              }
+            ],
+            "n": 8
+          },
+          {
+            "title": "Nanostructured FeNiZrB powders synthesized by high-energy ball milling: structural and hyperfine characterizations",
+            "doi": "https://doi.org/10.1007/s10751-021-01758-y",
+            "year": 2021,
+            "venue": "Hyperfine Interactions",
+            "authors": [
+              {
+                "name": "Víctor A. Peña-Rodríguez",
+                "slug": null
+              },
+              {
+                "name": "J. Medina Medina",
+                "slug": "jose-julian-medina-medina"
+              },
+              {
+                "name": "Ch. Rojas Ayala",
+                "slug": null
+              },
+              {
+                "name": "J. Quispe-Marcatoma",
+                "slug": "justiniano-quispe-marcatoma"
+              }
+            ],
+            "n": 9
+          },
+          {
+            "title": "Fe50Ni50 synthesized by high energy ball milling: A systematic study using X-ray diffraction, EXAFS and Mössbauer methods",
+            "doi": "https://doi.org/10.1016/j.matchar.2019.01.036",
+            "year": 2019,
+            "venue": "Materials Characterization",
+            "authors": [
+              {
+                "name": "Víctor A. Peña-Rodríguez",
+                "slug": null
+              },
+              {
+                "name": "Ch. Rojas Ayala",
+                "slug": null
+              },
+              {
+                "name": "J. Medina Medina",
+                "slug": "jose-julian-medina-medina"
+              },
+              {
+                "name": "J. Quispe-Marcatoma",
+                "slug": "justiniano-quispe-marcatoma"
+              }
+            ],
+            "n": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "unmsm-ctclima",
+      "institution": "unmsm",
+      "acronym": "CTCLIMA",
+      "name": "Grupo de investigación en ciencias de la tierra, clima y medio ambiente",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ctclima/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "Somos un grupo dedicado al estudio de la Tierra sólida, el clima y el medio ambiente, desde el punto de vista físico, utilizando técnicas y equipamiento moderno. El grupo ha sido conformado a iniciativa de los docentes del Laboratorio de Física de la Tierra y Laboratorio de Física Ambiental, quienes vienen desarrollando investigaciones en la FCF-UNMSM por más de una década, dando solución a problemas relacionados a los eventos naturales que afectan al Perú, y apoyando con la experiencia de nuestros investigadores las labores de los principales centros de investigación del país: IGP, IMARPE, CONIDA, DHN; así como, a los órganos rectores en gestión de riesgo CENEPRED e INDECI. Los investigadores que conforman el GI tienen amplia experiencia en formulación y desarrollo de proyectos de investigación, formación integral de nuevos cuadros, asesoría de tesis y cuentan con publicaciones científicas a nivel nacional e internacional. Entre los principales logros de los laboratorios y gabinetes que conforman el GI, podemos indicar que se han desarrollo durante la última década de manera continua proyectos de investigación promovidos por nuestros docentes, se han desarrollo tesis de pre y post grado, y se ha adquirido equipamiento moderno para las investigaciones.",
+      "goals": "1. Formular y desarrollar proyectos de investigación en ciencias de la Tierra, Clima y Medio Ambiente, propiciando la generación de nuevos conocimientos y se den solución a las necesidades del país.\r\n2. Promover y aplicar el uso de técnicas y equipamiento moderno para el estudio físico de la Tierra, el Clima y Medio Ambiente\r\n3. Participar y organizar eventos científicos, como pasantías, cursos, seminarios, congresos y proyectos conjuntos, que faciliten el intercambio de conocimientos entre pares nacionales e internacionales. \r\n4. Promocionar la producción científica en las diferentes líneas a través de publicaciones científicas prototipos, patentes y software.",
+      "services": "Espectroradiometría: suelos y cultivos, estado hídrico de la vegetación, deforestación, contaminación ambiental, caracterización de minerales, librerías espectrales, calibración y validación de medidas por satélite, desarrollo de software para procesamiento de imágenes satelitales.\r\nSismología: Prospección Sísmica, modelamiento de Tsunamis, localización de Fuentes Sísmicas, InSAR/DinSAR.\r\nMeteorología y climatología: Modelado climático, modelado atmosférico para pronóstico del tiempo, eventos extremos, balance energético, Física de nubes y precipitaciones, Transporte de aerosoles y calidad del aire\r\nOceanografía física: Dispersión de contaminantes, hidrodinámica, calidad de aguas, modelación en bahías, ENSO.\r\nAnálisis de suelos: Espectroscopia Mössbauer, Fluorescencia de RX, analisis textural, granulométrico, fisicoquímicos, anomalías magnéticas de",
+      "members": [
+        {
+          "name": "Octavio Fashe Raymundo",
+          "role": "Coordinador",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Arnulfo Alipio Guillen Guevara",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Cesar Gualberto Victoria Barros"
+        },
+        {
+          "name": "David Pareja Quispe",
+          "slug": "david-pareja-quispe",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Fernando Mestanza Hernandez",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Jorge Luis Susanibar Zevallos"
+        },
+        {
+          "name": "Jorge Martin Quispe Sanchez",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Jose Carlos Eche Llenque",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Marco Antonio Merma Jara",
+          "slug": "marco-antonio-merma-jara",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Melchor Nicolas Llosa Demartini",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Walter Robert Guevara Day",
+          "slug": "walter-robert-guevara-day"
+        }
+      ],
+      "lines": [
+        "Física de Fenómenos para la Previsión de Desastres",
+        "Oceanografía Física y Física de la Atmósfera",
+        "Teledetección por Satélite Aplicado al Estudio de los Recursos Naturales (Recursos Hídricos y Ecosistemas)"
+      ],
+      "projects": [
+        {
+          "title": "Caracterización de aerosoles atmosféricos y la radiación solar en los Andes peruanos: modelización para la planificación de plantas fotovoltaicas",
+          "code": "B26133031",
+          "year": 2026
+        },
+        {
+          "title": "Equipo portátil para medición precisa de la evapotranspiración (ET)",
+          "code": "B261313917e",
+          "year": 2026
+        },
+        {
+          "title": "Estimación del forzamiento radiativo inducido por aerosoles en Sudamérica mediante el modelo WRF-Chem",
+          "code": "B26132601",
+          "year": 2026
+        },
+        {
+          "title": "Aerosoles atmosféricos y su impacto en la aceleración del cambio climático en Los Andes",
+          "code": "B25132231",
+          "year": 2025
+        },
+        {
+          "title": "Análisis de la vulnerabilidad ecológica en relación con las sequías meteorológicas y ecohidrológicas en el departamento de Junín durante el período 2014-2025",
+          "code": "B25131711",
+          "year": 2025
+        },
+        {
+          "title": "Balance de Energía superficial en un Glaciar Tropical con Influencia Hidroclimática Andes-Amazonía: Cordillera Huaytapallana, Región Junín",
+          "code": "B25131431",
+          "year": 2025
+        },
+        {
+          "title": "Desarrollo de un prototipo de baldosa piezoeléctrica para microgeneración eléctrica a partir del tránsito peatonal: prueba piloto en la UNMSM",
+          "code": "B251304PRO",
+          "year": 2025
+        },
+        {
+          "title": "Desarrollo e implementación del observatorio solar en la banda de radiofrecuencia para la investigación del clima espacial",
+          "code": "B25131801",
+          "year": 2025
+        },
+        {
+          "title": "Diseño y construcción de un sensor de helada de evaporación",
+          "code": "B2513035v",
+          "year": 2025
+        },
+        {
+          "title": "Estacionalidad de la Contracorriente Subsuperficial Perú-Chile",
+          "code": "B25131911",
+          "year": 2025
+        },
+        {
+          "title": "IMSensor: Integración de filtros multiespectrales para validación de aplicaciones de satélites de Observación de la Tierra",
+          "code": "B25130027i",
+          "year": 2025
+        },
+        {
+          "title": "Mejora de la Capacidad Observacional del Clima Espacial en la UNMSM",
+          "code": "B251312753e",
+          "year": 2025
+        },
+        {
+          "title": "THERMONET. Sistema distribuido de monitoreo térmico con comunicación inalámbrica para zonas rurales",
+          "code": "B25130016i",
+          "year": 2025
+        },
+        {
+          "title": "AgroPhyDM: sistema inteligente de soporte de decisiones para la optimización sostenible de la agricultura",
+          "code": "B24130361i",
+          "year": 2024
+        },
+        {
+          "title": "Análisis del patrón espacial y temporal de la precipitación en los Andes del Perú utilizando datos de reanálisis y satélite",
+          "code": "B24131351",
+          "year": 2024
+        },
+        {
+          "title": "BIMA: Desarrollo de sensores integrados a una Boya Inteligente para el Monitoreo Integral de la Calidad del Agua y la Detección de Contaminantes en tiempo real",
+          "code": "B241322pro",
+          "year": 2024
+        },
+        {
+          "title": "Desarrollo de un analizador multisensor para evaluar el drenaje ácido en entornos glaciares: Aplicaciones en evaluación ambiental",
+          "code": "B241301pro",
+          "year": 2024
+        },
+        {
+          "title": "Energía solar, cambio climático y calidad del aire: Caracterización observacional de la irradiancia solar y estimación de parámetros de turbidez atmosférica para mejorar la eficiencia energética en el valle del Mantaro",
+          "code": "B24131551",
+          "year": 2024
+        },
+        {
+          "title": "Equipo de medición de reflectancia espectral (VNIR-SWIR) con fibra óptica para muestras pequeñas",
+          "code": "B241310989e",
+          "year": 2024
+        },
+        {
+          "title": "Horizon: Desarrollo de un cohete sonda reutilizable de 2 etapas para el monitoreo de GEI troposférico",
+          "code": "B241314pro",
+          "year": 2024
+        },
+        {
+          "title": "TempAlert. Desarrollo de una alerta audible de heladas de bajo costo para las zonas altoandinas",
+          "code": "B24130291i",
+          "year": 2024
+        },
+        {
+          "title": "AgriSense: Desarrollo de una estación meteorológica compacta de bajo costo para agricultura de precisión en Perú",
+          "code": "B23130081i",
+          "year": 2023
+        },
+        {
+          "title": "Análisis de imágenes hiperespectrales para caracterizar el estado fenológico y salud de especies forestales en el bosque seco de Pomac - Lambayeque",
+          "code": "B23132511",
+          "year": 2023
+        },
+        {
+          "title": "Caracterización de la radiación solar para la estimación de la distribución espacio temporal del potencial de energía fotovoltaica en los andes centrales del Perú mediante modelos numéricos",
+          "code": "B23131461",
+          "year": 2023
+        },
+        {
+          "title": "Impacto del cambio climático en la distribución espacial de las sequías en la región sur de los andes del Perú",
+          "code": "B23131471",
+          "year": 2023
+        },
+        {
+          "title": "MaizTech: agricultura de precisión con drones y cámaras multiespectrales para mejorar la productividad y sostenibilidad en Tarapoto",
+          "code": "B23130231i",
+          "year": 2023
+        },
+        {
+          "title": "SkyTracking: desarrollo de una radiosonda compacta, recuperable y reutilizable de bajo costo para el monitoreo de las condiciones atmosféricas y el estudio de muestras biológicas enviadas en globo sonda",
+          "code": "B231312pro",
+          "year": 2023
+        },
+        {
+          "title": "Desarrollo e implementación de modelos espectrales para caracterizar la cobertura forestal de ecosistemas frágiles en la región norte",
+          "code": "B22131381",
+          "year": 2022
+        },
+        {
+          "title": "Influencia de las propiedades ópticas de la atmosfera en los modelos de corrección atmosférica y calidad de productos satelitales",
+          "code": "B21132191",
+          "year": 2021
+        },
+        {
+          "title": "La Hidrodinámica y su influencia en la variabilidad espacio temporal de los procesos físicos y biogeoquímicos aplicada a la gestión, diagnóstico y sustentabilidad de su ecosistema marino costero: Caso de estudio La Bahía del Callao",
+          "code": "B21131241",
+          "year": 2021
+        },
+        {
+          "title": "MOVIA - Iluminación eficiente y consciente.",
+          "code": "S21130051",
+          "year": 2021
+        },
+        {
+          "title": "Caracterización y prevención de eventos extremos en ecosistemas costeros para el desarrollo sustentable y su impacto en la calidad ambiental usando información de monitoreos oceanográficos y modelación hidrodinámica de última generación",
+          "code": "B20131611",
+          "year": 2020
+        },
+        {
+          "title": "Descripción física de un modelo hidrodinámico para el estudio del transporte de contaminantes y la calidad de agua de ecosistemas costeros",
+          "code": "B20130770a",
+          "year": 2020
+        },
+        {
+          "title": "Mejoramiento de la precisión geométrica de imágenes satelitales de alta resolución basado en modelamiento físico-matemático",
+          "code": "B20130411",
+          "year": 2020
+        },
+        {
+          "title": "Uso de la espectroradiometría y teledetección para la identificación y monitoreo de cambios en áreas inundadas debido a inundaciones y huaycos",
+          "code": "B20131671",
+          "year": 2020
+        },
+        {
+          "title": "Desarrollo de bioindicadores espectrales de cultivos priorizados usando imágenes de satélite y radiometría de campo",
+          "code": "B19131081",
+          "year": 2019
+        },
+        {
+          "title": "La Hidrodinámica y los impactos de los eventos El Niño en la variabilidad estacional e interanual del transporte de propiedades y flujo geostrófico en el Sistema Norte de la Corriente de Humboldt.",
+          "code": "B19131114",
+          "year": 2019
+        },
+        {
+          "title": "Pronóstico de Precipitaciones Extremas en la Cuenca del Río Mantaro – Aplicación del Modelo Meteorológico WRF: periodo 2000-2012",
+          "code": "B19132371",
+          "year": 2019
+        },
+        {
+          "title": "Simulación hidrodinámica en la bahía de Paracas-Pisco usando como herramienta numérica el modelo COHERENS y su relación con la biodiversidad marino costera",
+          "code": "B19130964",
+          "year": 2019
+        },
+        {
+          "title": "Aplicación de espectroradiometría de campo y sensores remotos en la agricultura.",
+          "code": "B18131181",
+          "year": 2018
+        },
+        {
+          "title": "Aplicación de un modelo computacional de monitoreo de las variables físicas para la mejora de la calidad ambiental de los Ecosistemas Acuáticos",
+          "code": "B18132171",
+          "year": 2018
+        },
+        {
+          "title": "CARACTERIZACIÓN DE SUELOS EN EL DISTRITO DE ITE, REGIÓN JORGE BASADRE GROHMANN DE TACNA",
+          "code": "B18130142",
+          "year": 2018
+        },
+        {
+          "title": "APLICACIÓN DE TÉCNICA ANALÍTICAS Y COMPLEMENTARIAS AL ESTUDIO DE LAS PROPIEDADES DEL SUELO Y SU RELACIÓN CON EL ESTADO FITOSANITARIO DEL ALGARROBO EN EL SANTUARIO HISTÓRICO BOSQUE DE POMAC-LAMBAYEQUE",
+          "code": "B17130032",
+          "year": 2017
+        },
+        {
+          "title": "ELABORACIÓN DE LIBRERÍA DE FIRMAS ESPECTRALES USANDO ESPECTRORADIOMETRÍA Y SENSORES REMOTOS",
+          "code": "B17131151",
+          "year": 2017
+        },
+        {
+          "title": "Estimación de la fuente sísmica del terremoto de Chile 2010",
+          "code": "B17130023",
+          "year": 2017
+        },
+        {
+          "title": "Estudio de la obtención de submicropartículas de maghemita vía oxidación parcial de Fe (II) y oxidación térmica: con potencial de remoción de arsénico (V) en agua",
+          "code": "B17130042",
+          "year": 2017
+        },
+        {
+          "title": "Influencia de la Alta de Bolivia en el régimen de precipitación en los Andes Centrales, Enero – Abril 2017",
+          "code": "B17130201",
+          "year": 2017
+        }
+      ],
+      "research": {
+        "count": 42,
+        "works": [
+          {
+            "title": "Análisis de la percepción de la enseñanza de la física en las escuelas secundarias de la provincia de Barranca, Lima, Perú",
+            "doi": "https://doi.org/10.69639/arandu.v13i3.2505",
+            "year": 2026,
+            "venue": "Arandu-UTIC.",
+            "authors": [
+              {
+                "name": "Miguel Castillo",
+                "slug": "miguel-angel-castillo-corzo"
+              },
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Alex Corzo",
+                "slug": null
+              }
+            ],
+            "n": 6
+          },
+          {
+            "title": "Análisis de la variabilidad y tendencias de la radiación UV eritemal en la Amazonía peruana: El caso de Pucallpa (1960-2022)",
+            "doi": "https://doi.org/10.15381/rif.29i2.32732",
+            "year": 2026,
+            "venue": "Revista de Investigación de Física",
+            "authors": [
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Oscar S. Monroy Cárdenas",
+                "slug": null
+              },
+              {
+                "name": "Fulgencio Villegas Silva",
+                "slug": null
+              }
+            ],
+            "n": 3
+          },
+          {
+            "title": "Aprendizaje invisible con TIC y habilidades colaborativas de investigación en estudiantes de secundaria",
+            "doi": "https://doi.org/10.69639/arandu.v13i2.2317",
+            "year": 2026,
+            "venue": "Arandu-UTIC.",
+            "authors": [
+              {
+                "name": "Jacqueline Melissa Álvarez Paco",
+                "slug": null
+              },
+              {
+                "name": "Biviano Miramira",
+                "slug": null
+              },
+              {
+                "name": "Elber Rogelio Vera Rodríguez",
+                "slug": null
+              },
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              }
+            ],
+            "n": 5
+          },
+          {
+            "title": "Long‐Term Variability in Southward Atmospheric Flows Over South America: Improving the Current Understanding",
+            "doi": "https://doi.org/10.1002/joc.70473",
+            "year": 2026,
+            "venue": "International Journal of Climatology",
+            "authors": [
+              {
+                "name": "Paulo Rodrigo Zanin",
+                "slug": null
+              },
+              {
+                "name": "David Pareja-Quispe",
+                "slug": "david-pareja-quispe"
+              }
+            ],
+            "n": 2
+          },
+          {
+            "title": "Rainy and dry conditions in the state of Santa Catarina, southern Brazil: Natural variability and the ongoing warming climate",
+            "doi": "https://doi.org/10.1007/s00704-026-06344-2",
+            "year": 2026,
+            "venue": "Theoretical and Applied Climatology",
+            "authors": [
+              {
+                "name": "Paulo Rodrigo Zanin",
+                "slug": null
+              },
+              {
+                "name": "David Pareja-Quispe",
+                "slug": "david-pareja-quispe"
+              },
+              {
+                "name": "Renato Pattaro Pereira",
+                "slug": null
+              }
+            ],
+            "n": 3
+          },
+          {
+            "title": "Multiscale Atlantic Forcing of ITCZ Shifts and Hydroclimatic Variability in Northeastern Brazil over the Last Millennium",
+            "doi": "https://doi.org/10.1007/s41748-026-01155-x",
+            "year": 2026,
+            "venue": "Earth Systems and Environment",
+            "authors": [
+              {
+                "name": "Isela L. Vásquez P.",
+                "slug": null
+              },
+              {
+                "name": "Arturo Sánchez",
+                "slug": null
+              },
+              {
+                "name": "Marcelo Zeri",
+                "slug": null
+              },
+              {
+                "name": "David Pareja-Quispe",
+                "slug": "david-pareja-quispe"
+              }
+            ],
+            "n": 7
+          },
+          {
+            "title": "Estilos de aprendizaje y autopercepción del desempeño en ciencias básicas en estudiantes universitarios",
+            "doi": "https://doi.org/10.69639/arandu.v13i1.2138",
+            "year": 2026,
+            "venue": "Arandu-UTIC.",
+            "authors": [
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              },
+              {
+                "name": "Alexander Diestra Rodríguez",
+                "slug": null
+              },
+              {
+                "name": "Erik Rubén Gavidia Mercedes",
+                "slug": null
+              }
+            ],
+            "n": 4
+          },
+          {
+            "title": "Analytical determination of the shadow of the schwarzschild black hole",
+            "doi": "https://doi.org/10.25258/ijddt.16.5s.64",
+            "year": 2026,
+            "venue": "International Journal of Drug Delivery Technology",
+            "authors": [
+              {
+                "name": "Fulgencio Villegas Silva",
+                "slug": null
+              },
+              {
+                "name": "Miguel Ángel Castillo Corzo",
+                "slug": null
+              },
+              {
+                "name": "Marco Merma",
+                "slug": "marco-antonio-merma-jara"
+              }
+            ],
+            "n": 3
+          },
+          {
+            "title": "Integration of Soil Moisture and Meteorological Data Using Deep Learning for Flash Drought Detection in Northeastern Brazil",
+            "doi": null,
+            "year": 2026,
+            "venue": "Biblioteca Digital da Memória Científica do INPE (National Institute for Space Research)",
+            "authors": [
+              {
+                "name": "Isela L. Vásquez P.",
+                "slug": null
+              },
+              {
+                "name": "Marcelo Zeri",
+                "slug": null
+              },
+              {
+                "name": " C. Arturo Sánchez P.",
+                "slug": null
+              },
+              {
+                "name": "David Pareja-Quispe",
+                "slug": "david-pareja-quispe"
+              }
+            ],
+            "n": 7
+          },
+          {
+            "title": "Regionalization of Precipitation and Identification of the Onset and Cessation of the Rainy Season in Angola Using Satellite-Based Precipitation Estimates",
+            "doi": null,
+            "year": 2026,
+            "venue": "Biblioteca Digital da Memória Científica do INPE (National Institute for Space Research)",
+            "authors": [
+              {
+                "name": "João Maria de Sousa Afonso",
+                "slug": null
+              },
+              {
+                "name": "David Pareja-Quispe",
+                "slug": "david-pareja-quispe"
+              },
+              {
+                "name": "Jonathan Aparco Lara",
+                "slug": null
+              }
+            ],
+            "n": 11
+          }
+        ]
+      }
+    },
+    {
+      "id": "unmsm-labtel",
+      "institution": "unmsm",
+      "acronym": "LABTEL",
+      "name": "Física de cambios ambientales y la teledetección",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/labtel/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "La Tierra es un planeta muy dinámico y sus manifestaciones ambientales espacio-temporales son cambiantes en el suelo, el océano, la atmósfera y el espacio. Algunos de estos cambios son beneficiosos para la humanidad y otros son muy perjudiciales, por lo que la observación, documentación, y entendimiento de los procesos físicos, físico-químicos, y biológicos son fundamentales para evaluar su impacto en la sociedad. Particularmente, son de preocupación del GI los eventos recurrentes, como: sequías, inundaciones, olas de calor o enfriamiento extremos, etc.; terremotos, maremotos, deslizamientos, etc., que producen desastres recurrentemente en el Perú. El grado de conocimiento científico de los procesos generadores de los eventos recurrentes, la documentación espacial y puntual apropiada de fenómenos observados, y la aplicación de modelos físico-matemáticos de los procesos naturales, cuyos resultados sean validados con observaciones en suelo, permitirán prever la ocurrencia de eventos peligrosos y su evolución espacio-temporal, para fines de prevención de desastres. La teledetección será una herramienta fundamental en las investigaciones del GI. El GI está constituido por docentes multidisciplinarios, y estudiantes: Doctorado en Física, Maestría en Física Mención Geofísica, y pregrado. Además, cuenta con colaboradores expertos de la Universidad Friedrich-Schiller, Alemania, Universidad de Valladolid, España, UTEP, EU, UFES, Brasil.",
+      "goals": "Los objetivos del GI son documentar indicadores que caractericen procesos físicos de cambios ambientales y climáticos extremos en el territorio peruano utilizando imágenes satelitales, observaciones en la superficie terrestre, desarrollar modelos físico-matemático (numérico) con el fin de implementar sistemas de vigilancia-observación de la evolución de eventos peligrosos para la previsión de desastres, crear y difundir conocimiento sobre la previsión de eventos naturales extremos causantes de desastres.",
+      "services": "*Identificar fenómenos premonitores a la ocurrencia de eventos ambientales y climáticos extremos \r\n*Entrenar a estudiantes en la adquisición, procesamiento e interpretación de imágenes satelitales.\r\n*Apoyar y asesorar tesis de grado de Maestría y Doctorado en Física\r\n*Difundir los avances científicos del GI en el territorio peruano.\r\n*Contribuir al catálogo de eventos hidrometeorológicos notables",
+      "members": [
+        {
+          "name": "Joel Rojas Acuña",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Cesar Augusto Aguirre Cespedes",
+          "slug": "cesar-augusto-aguirre-cespedes",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Cesar Omar Jimenez Tintaya",
+          "slug": "cesar-omar-jimenez-tintaya",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Jaime Aguilar Lome",
+          "slug": "jaime-aguilar-lome",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Juan Neil Mendoza Nolorbe",
+          "slug": "juan-neil-mendoza-nolorbe",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Julio Mariano Chicana Lopez",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Miguel Fidencio Saavedra Juan de Dios",
+          "slug": "miguel-fidencio-saavedra-juan-de-dios"
+        },
+        {
+          "name": "Nick Jhonatan Moreno Moreno",
+          "slug": "nick-jhonatan-moreno-moreno"
+        }
+      ],
+      "lines": [
+        "Enseñanza de la Física",
+        "Teledetección por Satélite Aplicado al Estudio de los Recursos Naturales (Recursos Hídricos y Ecosistemas)"
+      ],
+      "projects": [
+        {
+          "title": "CARACTERIZACIÓN DE ONDAS INTERNAS EN EL LAGO TITICACA, Y SIMULACIÓN MEDIANTE EL MODELO COMPUTACIONAL 3D-ELCOM",
+          "code": "B26132621",
+          "year": 2026
+        },
+        {
+          "title": "ESTIMACIÓN DE LA TRAYECTORIA DE FLUJOS PIROCLÁSTICOS DEL VOLCAN MISTI MEDIANTE MODELADO NUMÉRICO",
+          "code": "B26130411",
+          "year": 2026
+        },
+        {
+          "title": "MONITOREO MEDIO AMBIENTAL DE LA BAHIA DEL CALLAO: CALIDAD DEL AIRE Y CALIDAD DE LAS AGUAS COSTERAS USANDO IMAGENES SATELITALES",
+          "code": "B261313900e",
+          "year": 2026
+        },
+        {
+          "title": "SATeRRA: VALIDACIÓN DE DATOS SATELITALES CLIMÁTICOS Y DE COBERTURA (CHIRPS, MAPBIOMAS ALERTA PERÚ) CON OBSERVACIÓN DE CAMPO EN EL ECOTONO ANDES-AMAZONÍA DE MOYOBAMBA",
+          "code": "B261317PROrn",
+          "year": 2026
+        },
+        {
+          "title": "Estimación de parámetros de tsunamis de origen lejano para alerta temprana",
+          "code": "B2513060v",
+          "year": 2025
+        },
+        {
+          "title": "Estimación de Parámetros de Tsunamis de Origen Lejano para la Alerta Temprana",
+          "code": "B24132541",
+          "year": 2024
+        },
+        {
+          "title": "Hidrodinámica y calidad del agua del sistema de lagunas tropicales Siete Colores y Chuchón en los Andes peruanos, en las estaciones seca y húmeda de 2024-2025",
+          "code": "A24130502",
+          "year": 2024
+        },
+        {
+          "title": "Estructura térmica, calidad del agua e índice de radiación UV en la laguna Siete colores en Canta Perú, en la estación húmeda y seca del año 2023",
+          "code": "B23130042",
+          "year": 2023
+        },
+        {
+          "title": "Estimación de la fuente del terremoto de Lima 1966 (8.1 Mw) mediante inversión de ondas de tsunami",
+          "code": "B21131301",
+          "year": 2021
+        },
+        {
+          "title": "Trayectorias y distribución espacial de los contaminantes que ingresan a la bahía de Ancón en el Perú, en la primavera del 2021",
+          "code": "B21130052",
+          "year": 2021
+        },
+        {
+          "title": "Medición de velocidad de la corriente, conductividad eléctrica, profundidad de visión y oxígeno disuelto del agua en la Bahía Interior de Puno, en el Lago Titicaca, y su relación con el nivel de contaminación",
+          "code": "B20131151",
+          "year": 2020
+        },
+        {
+          "title": "Ciculación de la corrientes de agua en la Bahía de Ancón y su relación con los procesos de contaminación",
+          "code": "B19131661",
+          "year": 2019
+        },
+        {
+          "title": "Simulación Numérica del Terremoto y Tsunami de Lima Peru de 1940 (8.0 Mw)",
+          "code": "B19132211",
+          "year": 2019
+        },
+        {
+          "title": "Determinación de la Fuente Sísmica del Terremoto de Camaná Perú 2001 (8.3 Mw) a partir de Inversión de Datos Geodésicos y Mareográficos",
+          "code": "B18131491",
+          "year": 2018
+        },
+        {
+          "title": "Estudio de corrientes de agua, y su relación con la descontaminación de la Bahia Interior de Puno, en el Lago Titicaca.",
+          "code": "B18131171",
+          "year": 2018
+        },
+        {
+          "title": "Pronostico de los parámetros de tsunamis a partir de una base de datos de fuentes sísmicas unitarias pre-simuladas",
+          "code": "B17130651",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-gipesbd",
+      "institution": "unmsm",
+      "acronym": "GIPESBD",
+      "name": "Películas delgadas y sistemas de baja dimensionalidad",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gipesbd/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "En la actualidad, el GIPESBD viene trabajando en proyectos de dos programas de CienciActiva del CONCYTEC:\n\n(1) Investigación, “Círculo de Investigación e Innovación de Materiales Avanzados para la Industria y Biomedicina” (2014-2017) y\n\n(2) Investigación e innovación tecnológica, “Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales” (2015-2020).",
+      "goals": "El GIPESBD tiene los siguientes objetivos:\r\n1) Preparar, caracterizar e innovar estructuras artificiales en forma de películas delgadas y sistemas de baja dimensionalidad con potenciales aplicaciones tecnológicas en la industria, tecnología de la información, biomedicina y medioambiente.\r\n2) Desarrollar capacidades para el uso de técnicas de caracterización de películas delgadas por difracción y reflectividad de rayos-X, espectroscopia Mössbauer, magnetización y transporte electrónico.\r\n3) Contribuir con la formación de recursos humanos altamente calificados en tecnología de vacío, física de superficies, nanomagnetismo, propiedades de transporte electrónico y nuevos materiales, así como brindar servicios tecnológicos a la industria.",
+      "services": "El GIPESBD presta los servicios siguientes:\r\n1) Análisis cualitativo y cuantitativo de propiedades superficiales a través de medidas de reflectividad y difracción de rayos-X, espectroscopia Mössbauer por electrones de conversión, magnetización y transporte electrónico.\r\n2) Servicios de preparación de películas delgadas (multicapas magnéticas, sistemas híbridos) y recubrimientos especiales (recibrimientos biocompatibles, películas selectivas, microelectrodos, otros) a través de las técnicas: (a) Sputtering, (b) Evaporación, (c) spin coating y (d) screen print.\r\n3) A futuro se desarrollará un sistema de electrodeposición pulsada.",
+      "members": [
+        {
+          "name": "Justiniano Quispe Marcatoma",
+          "role": "Coordinador",
+          "slug": "justiniano-quispe-marcatoma",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Augurio Narciso Zavala Trujillo",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Victor Anthony Garcia Rivera",
+          "degree": "Doctor"
+        }
+      ],
+      "lines": [
+        "Aplicaciones de la Física en Nanociencia y Nanociencia y Nanotecnología de Materiales Magnéticos",
+        "Ciencia de Materiales Avanzados y de Estructuras Artificiales",
+        "Innovación tecnológica en salud"
+      ],
+      "projects": [
+        {
+          "title": "Desarrollo de recubrimientos de hidroxiapatita por pulverización fría a baja presión sobre aleaciones Ti-6Al-4V.",
+          "code": "B26131551",
+          "year": 2026
+        },
+        {
+          "title": "Fortalecimiento de infraestructura investigativa del Laboratorio de películas delgadas y sistemas nanoestructurados.",
+          "code": "B261313560e",
+          "year": 2026
+        },
+        {
+          "title": "Modificación superficial de implantes odontológicos mediante plasma atmosférico frío",
+          "code": "B25131751",
+          "year": 2025
+        },
+        {
+          "title": "Síntesis y caracterización de la ludwigita de cobalto dopado con germanio Co5Ge(BO5)2",
+          "code": "B25133561",
+          "year": 2025
+        },
+        {
+          "title": "Síntesis y caracterización de nanohidroxiapatita dopada con Sr, Er, Yb, Tb, y La para su potencial uso en biomedicina",
+          "code": "B2513055v",
+          "year": 2025
+        },
+        {
+          "title": "Síntesis y caracterización de nanohidroxiapatita dopada con Sr, Er, Yb, Tb, y La para su potencial uso en biomedicina",
+          "code": "B24132071",
+          "year": 2024
+        },
+        {
+          "title": "Sistema de degradación fotocatalítica de pigmentos textiles empleando fotoreactor recubrimiento con hidroxiapatita",
+          "code": "B23130141i",
+          "year": 2023
+        },
+        {
+          "title": "Evaluación de las propiedades fotocatalíticas de hidroxiapatita co-dopada con metales pesados",
+          "code": "B22130811",
+          "year": 2022
+        },
+        {
+          "title": "Estudio de los procesos físicos que controlan la producción de especies reactivas de oxígeno y nitrógeno generados por plasma a presión atmosférica",
+          "code": "B21130991",
+          "year": 2021
+        },
+        {
+          "title": "Modificación superficial por plasma frío (cold plasma) de películas delgadas de hidroxiapatita crecidas por pulverización catódica (magnetron sputtering) sobre diferentes substratos",
+          "code": "B20130081",
+          "year": 2020
+        },
+        {
+          "title": "Producción de membranas y nanofibras con aplicaciones en la fabricación de material de protección médica",
+          "code": "B2013008m",
+          "year": 2020
+        },
+        {
+          "title": "Adquisición de equipo para modificación superficial y preparación de substratos mediante limpieza por plasma (plasma cleaner)",
+          "code": "B19134339e",
+          "year": 2019
+        },
+        {
+          "title": "Preparación de recubrimientos nanoestructurados de hidroxiapatita dopada con posibles aplicaciones en la degradación fotocatalítica de pigmentos industriales",
+          "code": "B19130121",
+          "year": 2019
+        },
+        {
+          "title": "Actualización de sistema de preparación de muestras por pulverización catódica, mediante la adquisición de una fuente magnetrón sputtering (sputtering source & DC power supply).",
+          "code": "B18134052e",
+          "year": 2018
+        },
+        {
+          "title": "Propiedades magnéticas de nanoestructuras artificiales de Fe/Ag y Fe/Ti",
+          "code": "B18130021",
+          "year": 2018
+        },
+        {
+          "title": "Estudio de las propiedades magnéticas de nanoestructuras artificiales basadas en antiferromagnetos sintéticos",
+          "code": "B17130221",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-ceanum",
+      "institution": "unmsm",
+      "acronym": "CEANUM",
+      "name": "Cristalografía, edafología, arqueometría y nuevos materiales",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ceanum/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "El CEANUM también presta servicios a la comunidad y a la empresa; difunde la Cristalografía mediante eventos:\n\n– Encuentro por el Centenario de la Difracción de Rayos-X (2012).\n\n– II y III Encuentro de Cristalografía (2013 y 2014, respectivamente)\n\n– I Congreso Peruano de Cristalografía y Curso de Métodos de Análisis de Policristales por Difracción de rayos X (auspicio: Unión Internacional de Cristalografía) (2015).",
+      "goals": "1. Desarrollar la investigación en la física de la materia condensada, ciencia de los materiales y áreas interdisciplinarias, con énfasis en propiedades estructurales: estudios de monocristales, policristales, sistemas desordenados, sólidos amorfos, sistemas nanoestructurados. \r\n\r\n2. Generar y desarrollar recursos como resultado de las actividades de investigación científica, de producción y de servicios, para resolver problemas nacionales.\r\n\r\n3. Formar especialistas en Cristalografía, particularmente con el asesoramiento de Tesis de Pregrado y Posgrado.\r\n\r\n4. Profundizar y consolidar la cooperación con diversos grupos de investigación a nivel regional e internacional, así como contribuir a la vinculación de la universidad con el sector productivo.",
+      "services": "- Caracterización de materiales aplicando Difracción de rayos X convencional y sincrotrón, Espectroscopia Mössbauer, Fluorescencia de Rayos X, Espectroscopía Infrarroja por Transformadas de Fourier.\r\n- Análisis cristalográfico de muestras policristalinas (farmacéuticas, minerales, alimentarias, materiales), por difracción de polvo y monocristal, realizando ajustes estructurales por el Método de Rietveld.\r\n- Análisis fisicoquímicos, textural y granulométrico de muestras de suelos.\r\n- Medición de propiedades físicas y químicas de suelos.\r\n- Mediciones absolutas de la intensidad del campo magnético de la Tierra en zonas de interés agronómico, minero, geofísico, arqueológico y urbano. \r\n- Apoyo y asesoramiento a Tesistas de pregrado y posgrado.",
+      "members": [
+        {
+          "name": "Elvira Leticia Zeballos Velasquez",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Alejandro Ladislao Trujillo Quinde",
+          "slug": "alejandro-ladislao-trujillo-quinde",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Felix Julian Acevedo Poma",
+          "slug": "felix-julian-acevedo-poma",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Mirian Esther Mejia Santillan",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Percy Arturo Paz Retuerto",
+          "degree": "Bachiller"
+        }
+      ],
+      "lines": [
+        "Arqueometría",
+        "Ciencias del Suelo",
+        "Cristalografía y Sistemas Cristalinos Bidimensionales"
+      ],
+      "projects": [
+        {
+          "title": "Ampliando el estudio arqueométrico de pigmentos de Menocucho mediante técnicas físicas con el fin de desarrollar estrategias de conservación",
+          "code": "B26131891",
+          "year": 2026
+        },
+        {
+          "title": "Estudio comparativo de Suelos agrícolas e industrial de caña de azúcar de Paramonga",
+          "code": "B25130692",
+          "year": 2025
+        },
+        {
+          "title": "Pigmentos del sitio arqueológico Menocucho: estudiando su composición mineralógica y procedencia por técnicas y métodos físicos para fines de conservación",
+          "code": "B25131001",
+          "year": 2025
+        },
+        {
+          "title": "Transformaciones en la estructura de arcillas provocadas por tratamiento térmico: un análisis cualitativo y cuantitativo por difracción de rayos X y refinamiento de los parámetros estructurales mediante el método de Rietveld",
+          "code": "A24130542",
+          "year": 2024
+        },
+        {
+          "title": "Caracterización de muestras geológicas de arcilla por técnicas de rayos X y refinamiento Rietveld: investigando probables fuentes de materiales arqueológicos",
+          "code": "B23130811",
+          "year": 2023
+        },
+        {
+          "title": "Análisis de las propiedades estructurales y microestructurales de muestras policristalinas arqueológicas por difracción de rayos X y refinamiento Rietveld: una contribución para su preservación",
+          "code": "B22130012",
+          "year": 2022
+        },
+        {
+          "title": "Pigmentos arqueológicos: Un análisis estructural y microestructural por difracción de rayos X y refinamiento Rietveld",
+          "code": "B21131621",
+          "year": 2021
+        },
+        {
+          "title": "Caracterización arqueométrica de la policromía mural y de las cerámicas del sitio Pampa La Cruz por técnicas de rayos X y refinamiento Rietveld: contribuyendo a su conservación",
+          "code": "B20130291",
+          "year": 2020
+        },
+        {
+          "title": "Pigmentos de mural del contexto arqueológico Pampa La Cruz: análisis cualitativo y cuantitativo de su composición mediante técnicas y métodos físicos",
+          "code": "B19131351",
+          "year": 2019
+        },
+        {
+          "title": "Caracterización diacrónica de cerámicas de Pampa La Cruz y sus fuentes aplicando técnicas de rayos X",
+          "code": "B18130621",
+          "year": 2018
+        },
+        {
+          "title": "Formulación de proyectos, redacción y publicación científica",
+          "code": "B18130117",
+          "year": 2018
+        },
+        {
+          "title": "Nanopartículas de óxidos de hierro en arcillas de suelos tropicales: estudio por espectroscopia Mössbauer y difractometría de rayos X",
+          "code": "B18130052",
+          "year": 2018
+        },
+        {
+          "title": "Chaquiras y cerámicas prehispánicas de Huanchaco: investigando su composición y procedencia mediante técnicas y métodos físicos",
+          "code": "B17130451",
+          "year": 2017
+        },
+        {
+          "title": "Estudio arqueométrico del material cerámico del sitio arqueológico Huaca de Oro. Cañete Perú.",
+          "code": "B17130052",
+          "year": 2017
+        },
+        {
+          "title": "NANOARCILLAS: CARACTERISTICAS, OPTIMIZACION PARA SU OBTENCIÓN Y CARACTERIZACIÓN",
+          "code": "B17130062",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-gmcan",
+      "institution": "unmsm",
+      "acronym": "GMCAN",
+      "name": "Grupo de métodos computacionales aplicado a nanomateriales",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gmcan/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "La investigación en el área de nanomateriales es uno de los componentes principales del desarrollo de la nanotecnología que permite el dominio y la modificación de las propiedades de los materiales mediante el cambio en sus estructuras atómicas. El grupo de investigación de métodos computacionales aplicado a nanomateriales (GIMCAN) aplica y desarrolla modernas herramientas computacionales para entender, predecir y controlar los procesos físicos y químicos en el rango de tamaños moleculares hasta la mesoescala. Los integrantes del GIMCAN vienen realizando investigaciones sobre nuevos materiales en los ultimos 12 años. Hasta la actualidad se han estudiado las propiedades estructurales, energéticas, estructura electrónica de diversas nanoparticulas, propiedades mecánicas de nanoestructuras, transiciones de fase y procesos de ordenación química en aleaciones binarias. El GIMCAN tiene colaboración con varios laboratorios y grupos de modelamiento y simulación. Formamos parte de la Red Iberoamericana de Difusión y divulgación de la Nanociencia y Nanotecnologia NANODYF.",
+      "goals": "- Estudiar mediante la simulación con Dinámica molecular diferentes propiedades físicas y químicas de las nanoparticulas y nanoestructuras\r\n- Estudiar mediante la teoría del funcional de la densidad (DFT) procesos de funcionalizacion y fenomenos superficiales de nanosistemas.\r\n- Estudiar mediante Monte Carlo los procesos de transformaciones de fase en sistemas magneticos nanoestructurados.\r\n- Contribuir con la formación de recursos humanos altamente calificados en el estudio de diversos sistemas nanoestructurados empleando diversas herramientas computacionales",
+      "services": "Brindar servicios a los grupos experimentales de la Universidad Nacional Mayor de San Marcos y otras instituciones académicas\r\nBrindar servicios y asesoría a la comunidad académica y empresarial.\r\nBrindar el servicio de diseño e implementación de programas especializados.\r\nPromover los métodos computacionales de investigación de los nanomateriales en los diferentes niveles de enseñanza secundaria y universitaria.",
+      "members": [
+        {
+          "name": "Chachi Rojas Ayala",
+          "role": "Coordinador",
+          "slug": "chachi-rojas-ayala",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Justo Alcides Rojas Tapia",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Robert Marino Espinoza Bernardo",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Robert Mikhail Guzman Arellano",
+          "slug": "robert-mikhail-guzman-arellano",
+          "degree": "Maestro"
+        }
+      ],
+      "lines": [
+        "Aplicaciones de la Física en Nanociencia y Nanociencia y Nanotecnología de Materiales Magnéticos",
+        "Ciencia de Materiales Avanzados y de Estructuras Artificiales",
+        "Propiedades Estructurales de las Nanopartículas"
+      ],
+      "projects": [
+        {
+          "title": "Estudio teórico del tiempo de tunelamiento de electrones en heteroestructuras artificiales semiconductoras unidimensionales",
+          "code": "B2613034V",
+          "year": 2026
+        },
+        {
+          "title": "NPG-Biphenylene como ánodo de carbono 2D en baterías de estado sólido Li/Na/K: Un estudio mediante DFT",
+          "code": "B26130291",
+          "year": 2026
+        },
+        {
+          "title": "Reposición de una worskstation - nodo del cluster HPC HUK - del laboratorio LMSC",
+          "code": "B261313859e",
+          "year": 2026
+        },
+        {
+          "title": "Estudio del efecto de tamaño sobre las propiedades estructurales y térmicas de nanoaleaciones ternarias metálicas Ag-Cu-Au",
+          "code": "B25130841",
+          "year": 2025
+        },
+        {
+          "title": "Estudio teórico de las propiedades electrónicas de estructuras artificiales unidimensionales",
+          "code": "B2513016v",
+          "year": 2025
+        },
+        {
+          "title": "Implementación cluster HPC del Laboratorio de Modelamiento y Simulación Computacional (LMSC)",
+          "code": "B251312726e",
+          "year": 2025
+        },
+        {
+          "title": "Tiempo de tunelización de electrones en heteroestructuras artificiales",
+          "code": "B25131971",
+          "year": 2025
+        },
+        {
+          "title": "Efectos del tamaño y composición sobre las propiedades estructurales y termodinámicas de las de Nanoaleaciones Cu-Ni: Simulación atomista con Dinámica Molecular",
+          "code": "B24131241",
+          "year": 2024
+        },
+        {
+          "title": "Estudio de las propiedades electrónicas y magnéticas topológicas de tri-haluros metálicos MCl3 (M = V, Cr) con impurezas metálicas (Fe, Mn, Cr, V) para aplicaciones en espintrónica",
+          "code": "B2413006m",
+          "year": 2024
+        },
+        {
+          "title": "Identificación de texturas de espín topológicas en redes arquimedianas usando Deep Learning y Monte Carlo",
+          "code": "B24132351",
+          "year": 2024
+        },
+        {
+          "title": "Mejora de capacidad de cálculo para estudio de nanomateriales magnéticos",
+          "code": "B241310983e",
+          "year": 2024
+        },
+        {
+          "title": "Estudio de la escritura y borrado de skyrmiones magnéticos individuales en heteroestructuras bidimensionales centrosimétricos con métodos de Monte Carlo y Machine Learning",
+          "code": "B23131421",
+          "year": 2023
+        },
+        {
+          "title": "Mejora de capacidad del Laboratorio de Modelamiento y Simulación Computacional (LMSC)",
+          "code": "B231310076e",
+          "year": 2023
+        },
+        {
+          "title": "Simulación atomística de las propiedades mecánicas de los nanocompósitos grafeno/cobre",
+          "code": "B23131921",
+          "year": 2023
+        },
+        {
+          "title": "Estudio teórico-computacional de las transiciones estructurales y propiedades térmicas de nanoaleaciones ternarias Al-Mn-Pd",
+          "code": "B22131131",
+          "year": 2022
+        },
+        {
+          "title": "Sintonización de propiedades electrónicas de las capas bidimensionales 2D-h-As-III (III=B, In, Tl) a partir de la adherencia de impurezas de alta electronegatividad (F, H, Cl)",
+          "code": "B22130781",
+          "year": 2022
+        },
+        {
+          "title": "Energías de enlace y tiempos de vida de excitones en cristales semiconductores atómicamente delgados: el caso de telureno",
+          "code": "B21130941",
+          "year": 2021
+        },
+        {
+          "title": "Influencia del espesor del cascarón en la estabilidad estructural y termodinámica de nanopartículas tipo núcleo-cascarón de Ni-M (M=Cu y Al): Un estudio comparativo",
+          "code": "B21130691",
+          "year": 2021
+        },
+        {
+          "title": "Efecto de la interacción dipolar y anisotropía sobre las propiedades magnéticas de sistema de nanopartículas magnéticas monodominio",
+          "code": "B20131121",
+          "year": 2020
+        },
+        {
+          "title": "Influencia de la concentración de carbono sobre las propiedades mecánicas y térmicas en el sistema híbrido y hexagonal de Boro-Nitrógeno-Carbono (h-BNC)",
+          "code": "B20130811",
+          "year": 2020
+        },
+        {
+          "title": "Implementación del Laboratorio de Modelamiento y Simulación Computacional (LMSC)",
+          "code": "B19134325e",
+          "year": 2019
+        },
+        {
+          "title": "Simulación de propiedades dinámicas de nanopartículas magnéticas con potencial aplicación en hipertermia magnética",
+          "code": "B19131861",
+          "year": 2019
+        },
+        {
+          "title": "Estudio de las propiedades mecánicas de mono y multi capas de grafeno con nanoporos funcionalizadas para aplicaciones en la desalinización del agua de mar.",
+          "code": "B18131291",
+          "year": 2018
+        },
+        {
+          "title": "implementación del Laboratorio de Investigación “Modelamiento y Simulación Computacional”",
+          "code": "B18134122e",
+          "year": 2018
+        },
+        {
+          "title": "Simulación atomística de la influencia de los defectos estructurales del grafeno sobre sus propiedades térmicas y mecánicas",
+          "code": "B17130751",
+          "year": 2017
+        },
+        {
+          "title": "Simulación atomística de las propiedades mecánicas de nanohilos de la aleación Cu-Ni",
+          "code": "B17130092",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-matefun",
+      "institution": "unmsm",
+      "acronym": "MATEFUN",
+      "name": "Materiales funcionales",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/matefun/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "El mundo de los materiales es inmenso y el Perú cuenta con una diversidad de materiales metálicos y no metálicos. Los materiales funcionales son materiales que pueden tener propiedades eléctricas, dieléctricas, electromagnéticas, ópticas y magnéticas. Estos materiales pueden ser metálicos, polímeros, cerámicos, compósitos, carbones, semiconductores y superconductores y pueden tener aplicaciones en la microelectrónica, capacitores, aislantes eléctricos, memorias para computadoras, óptica, lasers, detectores de luz, sensores, registros magnéticos, motores, en la salud, recolección de energía entre otros. Lo que se quiere es que los materiales trabajen por ejemplo el material superconductor YB2Cu3O7-? que tiene una temperatura critica de 90 K ahora se hacen cables superconductores que permite el paso de la corriente sin disipar energía por el efecto Joule. Otra propiedad es la de expulsar el campo magnético y ahora se producen vagones levitados magnéticamente. Los SPIONs (Superparamagnetic Iron Oxides Nanoparticles) nanométricos funcionalizados con aminoácidos destruyen bacterias y así se puede limpiar la sangre, y así podemos seguir hablando de otros materiales.",
+      "goals": "1. Desarrollar técnicas para la preparación y caracterización de algunos materiales funcionales. \r\n2. Generar cuadros científicos en varios materiales funcionales. \r\n3. Conseguir presupuestos para adquirir equipos de alta tecnología. \r\n4. Diseñar y construir prototipos en base de materiales funcionales.",
+      "services": "1. Entrenamiento a los estudiantes de pre y posgrado para las áreas de ciencias e ingeniería. \r\n2 Cooperar con los tesistas de pregrado y posgrado en las aplicaciones de los materiales funcionales. \r\n3 Fomentar la cooperación con la pequeña y mediana empresa cuando requiera servicios de medidas de propiedades de los materiales.",
+      "members": [
+        {
+          "name": "Juan Carlos Gonzalez Gonzalez",
+          "role": "Coordinador",
+          "slug": "juan-carlos-gonzalez-gonzalez"
+        },
+        {
+          "name": "Andres Nestor Diaz Sandoval",
+          "slug": "andres-nestor-diaz-sandoval",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Angel Guillermo Bustamante Dominguez",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Biviano Miramira Tipula",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Jesus Walter Flores Santibañez",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Jhonny Richard Huamani Chaviguri"
+        },
+        {
+          "name": "Silvia Espinoza Suarez",
+          "slug": "silvia-espinoza-suarez"
+        }
+      ],
+      "lines": [
+        "Arqueometría",
+        "Ciencia de Materiales Avanzados y de Estructuras Artificiales",
+        "Superconductividad"
+      ],
+      "projects": [
+        {
+          "title": "Caracterización arqueométrica de pigmentos y tecnología pictórica en la cerámica Wari",
+          "code": "B26132241",
+          "year": 2026
+        },
+        {
+          "title": "Caracterización colorimétrica no destructiva de cerámica Wari mediante espectrofotometría de reflectancia: relación entre color, composición y tecnología de cocción",
+          "code": "B261318PROrn",
+          "year": 2026
+        },
+        {
+          "title": "Ingeniería de capas delgadas superconductoras para la fabricación de un dispositivo tecnológico avanzado mediante el control del efecto túnel cuántico a temperaturas criogénicas",
+          "code": "B26131481",
+          "year": 2026
+        },
+        {
+          "title": "Tecnologías emergentes basadas en capas delgadas superconductoras",
+          "code": "B261313552e",
+          "year": 2026
+        },
+        {
+          "title": "Análisis arqueométrico de la cerámica de Wari y Conchopata: Identificación de patrones de producción y distribución en el valle de Ayacucho durante el Horizonte Medio",
+          "code": "B25132541",
+          "year": 2025
+        },
+        {
+          "title": "Preparación y caracterización de nanovarillas del compuesto superconductor DyBa2Cu3O7-d",
+          "code": "B19130821",
+          "year": 2019
+        },
+        {
+          "title": "Tratamiento de relaves mineros con arcillas de Yumaque (Ica)",
+          "code": "B19130032",
+          "year": 2019
+        },
+        {
+          "title": "Caracterización de Relaves Mineros de Ticapampa (Ancash) usando Difracción de Rayos X y técnicas complementarias",
+          "code": "B18130022",
+          "year": 2018
+        },
+        {
+          "title": "Preparación y caracterización del compuesto superconductor DyBa2Cu3O7-d (DyBCO) por el método de Fundición Texturizada",
+          "code": "B18130454",
+          "year": 2018
+        },
+        {
+          "title": "Tecnología de fabricación de alambres superconductores a través de método Powder In Tube (PIT)",
+          "code": "B18130032",
+          "year": 2018
+        },
+        {
+          "title": "Funcionalización de arcillas de la Bahía de Paracas, Región Ica, para aplicación en la descontaminación de efluentes mineros.",
+          "code": "B17130185b",
+          "year": 2017
+        },
+        {
+          "title": "Preparación y caracterización de películas delgadas de YBa2Cu3O7-d basado en soluciones de trifluoreacetato. Parte III",
+          "code": "B17130291",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-gihrehma",
+      "institution": "unmsm",
+      "acronym": "GIHREHMA",
+      "name": "Grupo de investigación en hidráulica, recursos hídricos y medio ambiente y energías no convencionales",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gihrehma/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "El Grupo de Investigación en Hidráulica, Recursos Hídricos y Medio Ambiente y Energias No Convencionales (GIHREHMA), pertenece a la Universidad Nacional Mayor de San Marcos (UNMSM) , que desarrolla investigación y consultoria en las áreas de su competencia, así como ser un nexo entre las entidades publicas y privadas con la UNMSM para el planteamiento de soluciones para las problemáticas nacionales dentro de las áreas de su competencia.",
+      "goals": "El objeto del GIHREHMA es fomentar, promover y ejecutar actividades y proyectos de investigación en el ámbito local, regional y nacional para propiciar el desarrollo social y económico sostenible de nuestro país.",
+      "services": "El GIHREHMA ofrece servicios de investigación y consultoria en las áreas de hidráulica, recursos hídricos y medio ambiente y energías no convencionales a empresas publicas y privadas, municipalidades, gobiernos regionales y diferentes sectores económicos de nuestro país.",
+      "members": [
+        {
+          "name": "Douglas Donal Sarango Julca",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Aristides Ramon Serruto Colque",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Jorge Luis Gastelo Villanueva",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Miguel Angel Astorayme Valenzuela"
+        },
+        {
+          "name": "Ruben Esau Mogrovejo Gutierrez"
+        }
+      ],
+      "lines": ["Recursos Hídricos"],
+      "projects": [
+        {
+          "title": "Evaluación del producto de precipitación CHIRPS, PISCO de sensoramiento remoto y de Reanálisis ERA5 para generar caudales diarios en la cuenca del río Pativilca",
+          "code": "B23130012",
+          "year": 2023
+        },
+        {
+          "title": "Estudio a Mediano Plazo de la Emisión de Gases de Efecto Invernadero en la Planificación de la Generación de Energía del Sistema Eléctrico Interconectado Nacional del Perú",
+          "code": "B18130012",
+          "year": 2018
+        },
+        {
+          "title": "Determinación del clima de olas en aguas profundas, frente a las costas del Perú, mediante calibración de reanalisis numérico e información instrumental",
+          "code": "B17130022",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-mecfluet",
+      "institution": "unmsm",
+      "acronym": "MECFLUET",
+      "name": "Mecánica de fluidos – energética y termofluidos",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/mecfluet/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "Grupo de investigación conformado por docentes del DAIMF, en la línea de la mecánica de fluidos, en el área de energética y termofluidos. Dedicados a análisis energéticos, eficiencia energética, sistemas y procesos termodinámicos, movimiento de fluidos, combustión y combustibles, equipamiento mecánico para diversas industrias.Sus integrantes han realizado una serie de trabajos de investigación y cuentan publicaciones a nivel nacional e internacional. La mayoría de los integrantes se encuentran trabajando en empresas y entidades privadas, contando con amplia experiencia profesional en el campo.",
+      "goals": "Realizar proyectos de investigación en el área de energética y termofluidos\r\nPromover el desarrollo de tesis a nivel de doctorado y maestría.\r\nIncentivar la elaboración de tesis a nivel de pre-grado en contraposición a las titulaciones por ciclos de actualización profesional\r\nGenerar conocimiento y experiencias en base de la ingeniería aplicada\r\nFormar un nucleo sólido de investigación experimental y numérica\r\nAyudar a empresas en resolver problemas específicos para mejorar su producción",
+      "services": "El grupo puede prestar los siguientes servicios\r\nServicios de consultoría en la especialidad\r\nConducir auditorías y proyectos de eficiencia energética\r\nConducir programas de pruebas en el área de investigación",
+      "members": [
+        {
+          "name": "Cesar Alejandro Quispe Gonzales",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Bernardino Pedro Salvador Rojas"
+        },
+        {
+          "name": "Eliseo Paez Apolinario"
+        },
+        {
+          "name": "Elmer Raul Vargas Roncal"
+        },
+        {
+          "name": "Henry Manuel Pala Reyes"
+        },
+        {
+          "name": "Manuel Vicente Herquinio Arias",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Miguel Angel Ormeño Valeriano"
+        },
+        {
+          "name": "Miguel Ernesto Arambulo Manrique"
+        },
+        {
+          "name": "Roberto Luis Zegarra Velasquez"
+        },
+        {
+          "name": "Wilson Emilio Alvarado Torres",
+          "degree": "Maestro"
+        }
+      ],
+      "lines": [
+        "Ciencia de Materiales Avanzados y de Estructuras Artificiales",
+        "Energética",
+        "Recursos Hídricos"
+      ]
+    },
+    {
+      "id": "unmsm-yungas",
+      "institution": "unmsm",
+      "acronym": "YUNGAS",
+      "name": "Sociedades prehispánicas del litoral",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/yungas/",
+      "about": "El grupo de investigación se aboca a caracterizar las sociedades que se asentaron a lo largo del litoral y la vertiente occidental de los Andes Centrales. Nos interesa estudiar los procesos de adaptación, acondicionamiento y manejo del territorio, desarrollo cultural, complejizacion social, entre otros.",
+      "goals": "1) Definir la naturaleza de las adaptaciones marítimas de las sociedades del litoral relacionadas a los procesos de complejizacion social y al surgimiento de la arquitectura monumental. 2) Afinar la cronología para estas sociedades; 3) Establecer los sistemas económicos, políticos, sociales y culturales de estas sociedades tardías; 4) Definir el tipo y grado de las interacciones (intercambio, ideológica, social y cultural) entre las diferentes sociedades asentadas en el litoral, 5) Definir el impacto del Estado Inca para las sociedades tardías, 6) Entender el momento de transición entre el colapso Inca y la implementación del régimen Colonial.",
+      "services": "Consultoría y asesoría en el científico a los centros educativos y universitarios sobre las sociedades tardías del litoral, tales como Reino Chimu 8Costa Norte), Señorío Ychsma (Lima), Señorío Lunahuana (Cañete) y Señorío Chincha.",
+      "members": [
+        {
+          "name": "Luisa Esther Diaz Arriola",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Alejandro Jose Chu Barrera",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Carmen Cazorla Zen"
+        },
+        {
+          "name": "Christian Giovanni Cancho Ruiz"
+        },
+        {
+          "name": "Javier Ignacio Alcalde Gonzales",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Luis Eduardo Salcedo Camacho",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Patricia Karina Maita Agurto"
+        },
+        {
+          "name": "Yazmin Gomez Casaverde",
+          "slug": "yazmin-gomez-casaverde"
+        }
+      ],
+      "lines": [
+        "Epistemología, teoría y metodología",
+        "Medio ambiente, espacio, territorio y paisaje",
+        "Saberes culturales, simbolismo y cultura material"
+      ],
+      "projects": [
+        {
+          "title": "Proyecto arqueológico Usicayos: Un análisis de las unidades domésticas locales en la Cordillera de Carabaya durante el Horizonte Tardío",
+          "code": "E26151601",
+          "year": 2026
+        },
+        {
+          "title": "Revitalización de conocimientos sobre tecnologías agrícolas prehispánicas y acceso al agua en Ilave, Puno",
+          "code": "E26152721",
+          "year": 2026
+        },
+        {
+          "title": "La enseñanza de la Arqueología en el Perú en el primer cuarto del siglo XXI",
+          "code": "E25152161",
+          "year": 2025
+        },
+        {
+          "title": "Reconocimiento arqueológico en Quebrada Apinkras, cuenca baja del río Kanus o Santiago (Condorcanqui-Amazonas)",
+          "code": "E25151611",
+          "year": 2025
+        },
+        {
+          "title": "Un acercamiento a la ocupación prehispánica de la yunga oriental desde el valle de Usicayos, Carabaya, Puno",
+          "code": "E23151271",
+          "year": 2023
+        },
+        {
+          "title": "Manejo del agua durante periodos tardíos en laguna de Antacocha, Huarochirí",
+          "code": "E20150030b",
+          "year": 2020
+        },
+        {
+          "title": "Punkayan y el manejo agrícola tardío en la microcuenca Chayllamayo, valle de Santa Eulalia, Huarochirí",
+          "code": "E20150100c",
+          "year": 2020
+        },
+        {
+          "title": "Microfósiles dietéticos y microbiota oral obtenidos a través del análisis de ADN antiguo extraído del cálculo dental humano y su relación con las condiciones socioculturales en una población de Armatambo",
+          "code": "E19150201",
+          "year": 2019
+        },
+        {
+          "title": "Etnoarqueología y Etnohistoria del valle medio de Cañete",
+          "code": "E18151881",
+          "year": 2018
+        },
+        {
+          "title": "Interacción Cultural en la costa peruana durante el Intermedio Tardío (900-1450 dC) y el Horizonte Tardío (1450-1532 dC): Las Representaciones Iconográficas",
+          "code": "E18150042",
+          "year": 2018
+        },
+        {
+          "title": "VIII Coloquio de Estudiantes de Arqueología “Federico Kauffmann Doig”",
+          "code": "E18150167",
+          "year": 2018
+        },
+        {
+          "title": "Definiendo a los Lunahuana y sus interacciones con los Incas y sociedades vecinas durante el Horizonte Tardío, a través de la cerámica del sitio arqueológico Incahuasi, Cañete",
+          "code": "E17150082",
+          "year": 2017
+        },
+        {
+          "title": "Intercambios Económicos a Larga Distancia entre los Costa Nor-Central y la Costa Sur Peruanas durante el Intermedio Tardío (900-1450 dC) y el Horizonte Tardío (1450-1532 dC). Primera Temporada.",
+          "code": "E17150072",
+          "year": 2017
+        },
+        {
+          "title": "Los artesanos y el mercader: una interpretacion etnohistoria de una escena moche",
+          "code": "E17150043",
+          "year": 2017
+        },
+        {
+          "title": "SEÑORÍOS YUNGAS EN EL TAWANTINSUYU. DINAMICAS LOCALES Y POLITICAS IMPERIALES EN LA COSTA CENTRAL Y SUR ANDINA",
+          "code": "E17150023",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "id": "unmsm-ficosiap",
+      "institution": "unmsm",
+      "acronym": "FICOSIAP",
+      "name": "Física computacional y simulacional aplicada",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ficosiap/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "La Física Computacional, tanto estrictamente académica como de producción comercial, es un área que no se ha desarrollado en las universidades del Perú. La física computacional permite realizar investigación científica mediante la simulación en computadoras y, permite también el desarrollo de productos comerciales que eventualmente se comercializan, principalmente en el ámbito educativo.\n\nEl producto más inmediato de la física computacional, es el desarrollo de laboratorios virtuales para ser usados en la exposición de sus clases por los profesores de diversos cursos de ciencias e ingeniería.\n\nActualmente se utilizan las técnicas simulacionales de la física computacional en investigaciones en Biología, Economía, Física, Química, Ingeniería, etc.",
+      "goals": "Realizar investigación e investigación y desarrollo en aquellas áreas de la Física que involucran el uso de computadoras, tales como:\r\n- INVESTIGACION\r\nSimulación en computadoras aplicada a la investigación de procesos físicos, tales como Percolación, Agregación Estocástica, Fenómenos no-lineales, Caos.\r\n- INVESTIGACION Y DESARROLLO\r\nDesarrollo de laboratorios virtuales para uso en educación y en investigación a nivel universitario. \r\nA corto plazo se espera generar software educativo para ser usado por diversos profesores de física e ingenieria, como ayuda para la exposición de sus clases.\r\nA largo plazo es posible desarrollar laboratorios virtuales para apoyar la investigación que se realiza en otras áreas de la Facultad de",
+      "services": "Consultoria sobre modelacion matematica y programacion de computadoras para aplicaciones en ciencias e ingenieria. Desarrollo de programas de computadora basados en simulación y visualización, aplicados a la educación.",
+      "members": [
+        {
+          "name": "Javier Sempronio Montenegro Joo",
+          "role": "Coordinador",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Luis Alberto Bolarte Canals",
+          "slug": "luis-alberto-bolarte-canals",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Navor Enrique Figueroa Jamanca",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Oscar Santiago Monroy Cardenas",
+          "degree": "Bachiller"
+        }
+      ],
+      "lines": [
+        "Energética",
+        "Enseñanza de la Física",
+        "Física de Fenómenos para la Previsión de Desastres"
+      ],
+      "projects": [
+        {
+          "title": "Efecto mariposa en el oscilador caótico no-lineal amortiguado y forzado",
+          "code": "A24130182",
+          "year": 2024
+        },
+        {
+          "title": "Dinámica de osciladores acoplados con acoplamiento variable en el tiempo",
+          "code": "B23130032",
+          "year": 2023
+        },
+        {
+          "title": "Análisis espectral de la cinemática esencial del vacío",
+          "code": "B21130043",
+          "year": 2021
+        },
+        {
+          "title": "Caos en la Ecuacion de Duffing",
+          "code": "B21130053",
+          "year": 2021
+        },
+        {
+          "title": "Estudio de la propagación de la luz en el vacío subyacente de un medio resistente y el aprendizaje del comportamiento de la velocidad variable de la luz",
+          "code": "B21130042",
+          "year": 2021
+        },
+        {
+          "title": "Análisis de la dinámica caótica mediante tomografías del espacio de estado y mapas de retorno",
+          "code": "B19130013",
+          "year": 2019
+        },
+        {
+          "title": "Análisis de la propagación de la luz en un sistema de referencia no inercial y el logro del aprendizaje del espectro de la cinemática esencial del vacío",
+          "code": "B19130052",
+          "year": 2019
+        },
+        {
+          "title": "Análisis espectral de la cinemática esencial del vacío",
+          "code": "B19130023",
+          "year": 2019
+        },
+        {
+          "title": "Desarrollo de Laboratorio Virtual educacional de interferencia de ondas",
+          "code": "B18130072",
+          "year": 2018
+        },
+        {
+          "title": "Orden y Estructura durante el Caos en el oscilador no-lineal amortiguado y forzado",
+          "code": "B18130013",
+          "year": 2018
+        },
+        {
+          "title": "Simulación del enrollamiento de los rayos de luz en el vacío y el logro del aprendizaje de la aceleración de la luz en estudiantes de la Facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos",
+          "code": "B18130092",
+          "year": 2018
+        },
+        {
+          "title": "Variación de la velocidad de luz en el vacío",
+          "code": "B18130023",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "id": "unmsm-gft-hep",
+      "institution": "unmsm",
+      "acronym": "GFT-HEP",
+      "name": "Grupo de Física Teórica y Física de Altas Energías",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gft-hep/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "Desde su formación en el año 2012, el Grupo de Física Teórica (GFT) de la UNMSM ha mantenido un sostenido trabajo en las áreas de Física de Partículas y Campos, Gravitación y Cosmología. Ello ha permitido su participación ininterrumpida en diversos eventos científicos de relevancia nacional e internacional como el Simposio Peruano de Física organizado por la SOPERFI, escuelas y workshops en diversas instituciones del extranjero. Dicha actividad ha tenido como resultado ponencias orales, y presentaciones en formato de póster, sino además tesis de licenciatura en tópicos de interés actual como el estudio de ondas gravitacionales y cosmología. De la misma manera se han desarrollado escuelas, seminarios específicos y cursos virtuales (canal de Youtube: CAMPOS Y CUERDAS) actividades de divulgación científica en el área mencionada por medio de seminarios, conferencias, webinars (conferencias online), etc.",
+      "goals": "• Preparar recursos humanos calificados en el área de Física Teórica\r\n• Producción de publicaciones en Física Teórica en revistas indexadas a nivel nacional e internacional.\r\n• Organización de eventos científicos de impacto en el área, tales como escuelas, workshops, etc.\r\n• Presentación de conferencias virtuales (webinars).\r\n• Organización de eventos de divulgación científica en el área.",
+      "services": "• Organización y ejecución de cursos y seminarios en temas afines a las líneas de investigación del grupo dirigido a estudiantes de ciencias básicas e ingenierías de nuestra casa de estudios y externos.\r\n• Implementación y aplicación de métodos computacionales en física teórica y áreas afines.\r\n• Presentación de charlas y coloquios de divulgación científica.",
+      "members": [
+        {
+          "name": "Fulgencio Villegas Silva",
+          "role": "Coordinador",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Carlos Javier Solano Salinas",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Garin Fedor Janampa Añaños",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Jose Domingo Arbañil Vela",
+          "slug": "jose-domingo-arbanil-vela",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Oscar Adán Acevedo Sánchez"
+        },
+        {
+          "name": "Teofilo Vargas Auccalla",
+          "degree": "Doctor"
+        }
+      ],
+      "lines": ["Cosmología y Gravitación"],
+      "projects": [
+        {
+          "title": "Desarrollo de diodos PN basados en óxidos semiconductores.",
+          "code": "B261313929e",
+          "year": 2026
+        },
+        {
+          "title": "Desarrollo de la fenomenología de oscilación de neutrinos muónicos en experimentos de laboratorios de Altas energías MINOS/NOvA/DUNE",
+          "code": "B23130022",
+          "year": 2023
+        },
+        {
+          "title": "Transición de fase y deformaciones anisotrópicas en estrellas compactas",
+          "code": "B21131781",
+          "year": 2021
+        },
+        {
+          "title": "Entropía de entrelazamiento y agujeros de gusanos en espacio-tiempo curvo de tipo Anti-de Sitter",
+          "code": "B20131101",
+          "year": 2020
+        },
+        {
+          "title": "Modelos inflacionarios y decaimiento del falso vacío en un campo escalar con acoplamiento no mínimo",
+          "code": "B20131721",
+          "year": 2020
+        },
+        {
+          "title": "Entropía de entrelazamiento en teoría de campos y cosmología",
+          "code": "B18131311",
+          "year": 2018
+        },
+        {
+          "title": "I School of Holography and Entanglement Entropy: Black Hole Physics and Condensed Matter",
+          "code": "B18130177",
+          "year": 2018
+        },
+        {
+          "title": "Mobiliario gft unmsm",
+          "code": "B18134138e",
+          "year": 2018
+        },
+        {
+          "title": "XXI Latin American Symposium on High Energy Physics (XXI SILAFAE - 2018)",
+          "code": "B18130147",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "id": "unmsm-cidem",
+      "institution": "unmsm",
+      "acronym": "CIDEM",
+      "name": "Centro de investigación y desarrollo de energías del Mañana Micha Yawaypita",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/cidem/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "El Centro de Investigación y Desarrollo de Energías del Mañana, Micha Yawaypita (CIDEM) de la facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos tiene como actividad fundamental la creación del conocimiento científico y tecnológico a través de la investigación con el firme compromiso de buscar solución a muchos problemas que acoge el ser humano, así mismo busca promover el lazo tridimensional entre la universidad, el estado y la sociedad.",
+      "goals": "Ob. General: Desarrollar la investigación en Energía correspondiente al ámbito del problema suscrito fomentando el aprendizaje durante el proceso cuyo modelo científico principal es la Mecánica de los Fluidos\r\nOb. Específico: Desarrollar tecnologías apropiadas utilizando energías renovables de acuerdo al ámbito del problema a solucionar cuyo modelo científico principal es la Mecánica de los Fluidos.\r\n Desarrollar innovación Tecnológica de acuerdo al ámbito del problema a solucionar cuyo modelo científico principal es la Mecánica de los Fluidos.\r\n Realizar capacitaciones se acuerdo a las características del problema a solucionar cuyo modelo científico es la Mecánica de los Fluidos.",
+      "services": "El CIDEM tiene como principio dar servicio de consultoria, investigación y desarrollo en energías renovables, tecnologías apropiadas, hidráulica y termofluidos, a las tres dimensiones importantes como son, social, económico y ambiental.",
+      "members": [
+        {
+          "name": "Lozano Pedro Sanchez Cortez",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Adolfo Carlos Lozada Pedraza",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Beatriz Luisa Salvador Gutierrez",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Guido Americo Rozas Olivera",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Mario Alberto Garcia Perez",
+          "degree": "Maestro"
+        }
+      ],
+      "lines": [
+        "Energética",
+        "Ingeniería y tecnologías del Medio Ambiente",
+        "Tecnologías limpias"
+      ],
+      "projects": [
+        {
+          "title": "Desarrollo, validación experimental y optimización aerodinámica de una turbina eólica vertical helicoidal tipo Ayanz para microgeneración distribuida en entornos urbanos de baja velocidad de viento",
+          "code": "B26131461",
+          "year": 2026
+        },
+        {
+          "title": "Construcción y evaluación de horno solar tipo caja",
+          "code": "B2513006v",
+          "year": 2025
+        },
+        {
+          "title": "Diseño de turbina eólica vertical tipo Ayanz para micro generación en entornos urbanos de baja velocidad de viento",
+          "code": "B25130352",
+          "year": 2025
+        },
+        {
+          "title": "Ruedas hidráulicas para aplicación en zonas rurales",
+          "code": "B24132781",
+          "year": 2024
+        },
+        {
+          "title": "Optimización de pico-turbinas de impulso para mejorar su eficiencia hidráulica y que su fabricación sea económica para aplicar en zonas rurales que dispongan de altura de agua reducido y caudal variable",
+          "code": "B21130931",
+          "year": 2021
+        },
+        {
+          "title": "Optimización del aerogenerador de eje vertical para mejorar su eficiencia aerodinámica y permita generar energía eléctrica para la población rural con flujos de viento desalineados e inestables",
+          "code": "B21131421",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "unmsm-infisa",
+      "institution": "unmsm",
+      "acronym": "INFISA",
+      "name": "Instrumentación física y aplicaciones",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/infisa/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "El vertiginoso avance de la ciencia y tecnología conlleva al trabajo multidisciplinario, para lo cual, se necesita contar con infraestructura, instrumentación y recursos humanos altamente especializados, en particular en la instrumentación física y aplicada.\n\nEl Grupo de Instrumentación Física y Aplicaciones es un grupo multidisciplinario que cuenta con recursos y experiencia en la investigación y desarrollo de instrumentación científica de bajo costo y altas prestaciones con la finalidad de brindar apoyo y sostenibilidad tecnológica a las tareas de enseñanza de las ciencias básicas y aplicaciones de la física a la medicina e industria, por ejemplo: la radioterapia representa un pilar fundamental en la lucha contra el cáncer y para ello es esencial tener un conocimiento pleno de los procesos de interacción de las radiaciones con el tejido.\n\nNuestro grupo tiene un ámbito de desarrollo fundamentalmente experimental y de laboratorio, el cual se complementa perfectamente con el desarrollo teórico de las ciencias básicas, lo que permite potenciar las capacidades de los estudiantes e investigadores. Para ello se busca incrementar significativamente las tareas experimentales de laboratorio de los estudiantes y docentes mediante la investigación y desarrollo de instrumentos adaptados a las necesidades de cada experimento utilizando dispositivos tecnológicos de fácil accesibilidad. Igualmente, bajo este mismo concepto se promueve la modernización y/o actualización de instrumentos obsoletos o en desuso adaptándolos o integrándolos con tecnologías recientes.\n\nLos profesionales que participan o colaboran con el grupo pertenecen a diversas especialidades de las ciencias e ingeniería tales como física, química, biología, medicina, matemática, programación, electrónica, mecánica, automatización, entre otras; bajo un concepto moderno de investigación multidisciplinaria y teniendo en cuenta los diversos subgrupos, de acuerdo a las áreas de investigación tales como: Física Médica, Biofísica, Instrumentación Electrónica, entre otras.\n\nEn síntesis, el Grupo de Instrumentación Física y Aplicaciones congrega a docentes especializados y con amplia experiencia en las aplicaciones de la física, tanto en la salud como en la industria y enseñanza, que mediante la propuesta de proyectos de investigación se planteará dar soluciones a problemas y/o mejorar las técnicas que emplean magnitudes físicas en los distintos campos antes mencionados, contribuyendo al desarrollo tecnológico del país.",
+      "goals": "1. Investigar el desarrollo de instrumentos científicos, con costos accesibles de fabricación y mantenimiento, mediante el uso de dispositivos tecnológicos avanzados de consumo masivo para la enseñanza de las ciencias básicas.\r\n2. Mejorar la sostenibilidad de la enseñanza e investigación en la facultad, mediante la no dependencia de costosos mantenimientos asociados a equipos comerciales.\r\n3. Contribuir a los indicadores de ciencia y tecnología del país, mediante el incremento de publicaciones científicas, registro de patentes y tesis de pre y posgrado.\r\n4. Desarrollar proyectos de investigación que garanticen la seguridad ocupacional en los campos de la salud e industria.",
+      "services": "1. Empaquetamiento y automatización de experimentos para la enseñanza de las ciencias básicas: física, química, biología y medicina.\r\n2. Desarrollo de soluciones de instrumentación a medida como soporte de proyectos de investigación.\r\n3. Desarrollo de protocolos de seguridad radiológica ocupacional en el campo de la salud e industria.",
+      "members": [
+        {
+          "name": "Galo Patiño Camargo",
+          "role": "Coordinador",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Eduardo Becquer Carrasco Solis",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Eduardo Custodio Chung",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Eduardo Gonzalo Villarreyes Peña",
+          "slug": "eduardo-gonzalo-villarreyes-pena"
+        },
+        {
+          "name": "Emilio Manuel Becerra Castro",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Erick Oscar Natividad Zevallos",
+          "slug": "erick-oscar-natividad-zevallos"
+        },
+        {
+          "name": "Jenny Aleida Montoya Burga"
+        },
+        {
+          "name": "Jose Fernando Marquez Pachas",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Jose Hermenegildo Galarreta Diaz",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Oscar Rolando Baltuano Elias",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Rolando Wilder Adriano Peña"
+        },
+        {
+          "name": "Roxani Marisa Yaringaño Limache"
+        }
+      ],
+      "lines": [
+        "Enseñanza de la Física",
+        "Física de Fenómenos para la Previsión de Desastres",
+        "Física Médica"
+      ]
+    },
+    {
+      "id": "unmsm-asanum",
+      "institution": "unmsm",
+      "acronym": "ASANUM",
+      "name": "Ciencia del suelo, arqueometría y nuevos materiales",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/asanum/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "-Es un Grupo Multidisciplinario de investigadores que cuenta con especialistas en diversas área (síntesis de nano partículas y nanotecnología ambiental, caracterización mineralógica de suelos, sedimentos, arcillas, relaves mineros, Geomagnetismo, meteoritos) así mismo en Arqueometria, que es una disciplina científica que se trabaja de manera multidisciplinaria los vestigios arqueológicos. El Laboratorio de Análisis de Suelos se creó en el año 1998 para brindar servicios a la investigación a uno de nuestros recursos naturales, como son los Suelos de nuestro país. Se han ejecutado proyectos sobre caracterización de suelos agrícolas y afines mapeando todo el Perú. Se trabaja en colaboración con da Universidade Federal de Rio de Janeiro – Campus Xerém, con la Universidad de Santiago de Chile-Facultad de Química y Biología; con BIZALAB S. A. C. Departamento de Mineralogía; con Universidad Nacional del Centro del Perú; Así mismo se colabora y se trabaja con diferentes investigadores de los Museos Nacionale. Se cuenta con colaboradores adjuntos externos. Es el único laboratorio del Perú que cuenta con un equipo Mössbauer para afinar discusiones y resultados, asi mismo se cuenta con un equipo de Fluorescencia de Rayos X en Energía dispersiva. Así mismo se manejan equipos e instrumentos de espectrofotometría ultravioleta-visible (UV/VIS), colorimetría y un Magnetómetro que nos permiten cuantificar en fuerza o dirección la señal magnética de una muestra. Se continúan desarrollando trabajos en colaboración con el Laboratorio de Suelos de la UNPRG de Lambayeque en el estudio de suelos del Valle del Río Chancay.\n\nASANUM y sus miembros siguen en la línea de la publicación en diversas Revistas de Investigación, tanto indexadas como Latin Index y participación en congresos, simposios y otros.",
+      "goals": "-1. El objetivo del Grupo es capacitar al personal docente, estudiantes de pre y post Grado de las actividades de investigación científica, consolidar y formar especialistas en la física de las ciencias de los materiales, en las ciencias de los Suelos y en Arqueometria. \r\n2. Establecer la cooperación con diversos grupos de investigación a nivel regional e internacional, así como contribuir a la vinculación de la universidad con el sector productivo. \r\n3. Publicar los resultados en revistas indexadas, Libro de Resúmenes y participación activa en diversos eventos nacionales e internacionales.\r\n4. ASANUM, viene desarrollando diversos Talleres, Minicursos, conversatorios y afines.",
+      "services": "-Preparación de muestras de suelos para su análisis y caracterización por FRXED, espectroscopia Mössbauer y DRX, para usuarios internos y externos a la Facultad y universidad.\r\nPreparación de otras reacciones químicas requeridas por terceros utilizando los recursos disponibles en el Laboratorio. Se sugiere que cada Grupo que desea utilizar el ambiente, debe traer sus insumos y otros a usar.\r\nMétodos de Disolución Selectiva y otros análisis físico-químicos.\r\nPreparación de muestras para su análisis y discusión realizadas con los equipos del: Espectrofotómetro UV-VIS, Colorímetro y Magnetómetro.",
+      "members": [
+        {
+          "name": "Maria Luisa Ceron Loayza",
+          "role": "Coordinador",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Fanny Esmeralda Mori Escobar",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Jorge Aurelio Bravo Cabrejos",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Mabel Erlinda Tesillo Quispe",
+          "degree": "Bachiller"
+        },
+        {
+          "name": "Miguel Angel Mosquera Molina",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Rosa Menendez Mueras",
+          "degree": "Maestro"
+        }
+      ],
+      "lines": [
+        "Aplicaciones de la Física en Nanociencia y Nanociencia y Nanotecnología de Materiales Magnéticos",
+        "Arqueometría",
+        "Ciencias del Suelo"
+      ],
+      "projects": [
+        {
+          "title": "Adquisición e implementación de un sistema de destilación de agua ultra pura para optimizar análisis fisicoquímicos y fortalecer la investigación en ciencias del suelo y síntesis de nanomateriales",
+          "code": "B261313928e",
+          "year": 2026
+        },
+        {
+          "title": "Impacto de las propiedades físico-químicas, estructurales e hiperfinas de los suelos en el crecimiento de dos variedades de quinua (Chenopodium quinoa Willd) mediante técnicas espectroscópicas avanzadas para el desarrollo de estrategias de optimización agrícola sostenible en el distrito de Acos Vinchos, Ayacucho, Perú",
+          "code": "B26133171",
+          "year": 2026
+        },
+        {
+          "title": "Reconstrucción tridimensional a color en objetos patrimoniales mediante perfilometría por proyección de luz estructurada y análisis arqueométrico de pigmentos",
+          "code": "B26132371",
+          "year": 2026
+        },
+        {
+          "title": "Aplicación de la perfilometría digital en objetos arqueológicos usando smartphone",
+          "code": "B25133361",
+          "year": 2025
+        },
+        {
+          "title": "Auto ionización de vapor de bario por la luz solar en la alta atmosfera de la Tierra",
+          "code": "B25130752",
+          "year": 2025
+        },
+        {
+          "title": "Impacto de la evaluación de suelos en el crecimiento de dos variedades de quinua (chenopodium quinoa willd) en Acos Vinchos, Ayacucho: análisis de raíces, tallos y hojas desde la siembra hasta la cosecha",
+          "code": "B25133511",
+          "year": 2025
+        },
+        {
+          "title": "Caracterización estructural y elemental de la fracción arcilla del cultivo de papa (Solanum tuberosum L.) del centro poblado de Jayllihuaya-Puno",
+          "code": "B24132931",
+          "year": 2024
+        },
+        {
+          "title": "Determinación de la separación y tamaño de grano de suelos en áreas de producción de variedades de quinua (Chenopodium quinoa willd)",
+          "code": "B241311031e",
+          "year": 2024
+        },
+        {
+          "title": "Evaluación de los suelos de cultivo de dos variedades de quinua (Chenopodium quinoa willd) para la mejora de sus propiedades fértiles estructurales e hiperfinas en el distrito de Acos Vinchos de la región Ayacucho",
+          "code": "B24132361",
+          "year": 2024
+        },
+        {
+          "title": "Evaluar el cultivo de dos variedades de quinua (Chenopodium quinoa willd) para la mejora de sus propiedades fértiles en el distrito de Acos Vinchos de la región Ayacucho",
+          "code": "B23131341",
+          "year": 2023
+        },
+        {
+          "title": "Evaluación las propiedades mineralógicas de los suelos para la mejora de sus propiedades fértiles en la siembra de la quinua en la localidad de Salcedo de la Región Puno",
+          "code": "B22131161",
+          "year": 2022
+        },
+        {
+          "title": "Uso de las técnicas espectroscópicas atómicas y nucleares para la cuantificación mineralógica en las plantaciones de cacao en la Región San Martín en épocas del Covid-19",
+          "code": "B21130012",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "unmsm-mnmf",
+      "institution": "unmsm",
+      "acronym": "MNMF",
+      "name": "Modelamiento numérico en mecánica de fluidos",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/mnmf/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "La investigación en Mecánica de Fluidos, mediante el estudio y modelamiento de fenómenos en medios fluidos es una de las componentes principales de la ingeniería para la predicción de procesos reales.\n\nLa Mecánica de Fluidos es una linea importante en las ciencias e ingeniería moderna y un área altamente activa de investigación. Aborda los problemas permanentes y no permanentes en líquidos y gases.\n\nEs el cordón umbilical de diversas áreas en Ingeniería. Entre las áreas de aplicación se destacan la dinámica en aguas superficiales y subsuperficiales (mares, lagos y ríos), la dinámica de la atmósfera baja y la dinámica de los fluidos térmicos alrededor de cuerpos y en maquinas entre otros temas.\n\n En los últimos 50 años, los progresos de los sistemas computacionales, han generado expectativas bastante amplias tanto en la investigación básica y aplicada de la Mecánica de Fluidos, potenciando el desarrollo de métodos y técnicas de modelamiento matemático con el consiguiente desarrollo de teorías, metodologías y procedimientos numéricos sofisticados orientados a la predicción del comportamiento en medios hidrodinámicos y gaseosos.",
+      "goals": "El grupo de investigación tiene como objetivos:\r\nDesarrollar modelos discretos y variacionales para su aplicación en el estudio de procesos en medios fluidos asociados con su dinámica y fenómenos de transporte.\r\nEstudiar problemas aplicados en hidraulica fluvial y maritima, meteorologia, oceanografia y flujos termicos.\r\nContribuir con la formación de recursos humanos calificados en el estudio de problemas de Ingénieria Mecánica de Fluidos mediante el Modelamiento Numérico.",
+      "services": "El Grupo de investigación : \r\nApoyara a las instituciones del Estado que se encargan de dar opinión en las areas aplicads de la Mecánica de Fluidos (Puertos,oceano costero, problemas ribereños, dinamica de flujos termicos)..\r\nApoyara a los gobiernos locales y regionales en la planificación de estudios hidrodinámicos (rios, lagos costa marina) con fines de conservación y protección a eventos transitorios.\r\nDesarrollara consultoria sobre estudios de predicción de comportamiento hidrodinámico en aguas continentales, mares, inundaciones, Huaycos, flujos térmicos, flujos alrededor de cuerpos y maquinas..",
+      "members": [
+        {
+          "name": "Emanuel Jesus Guzman Zorrilla",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Victor Alfredo Yzocupe Curahua",
+          "degree": "Maestro"
+        }
+      ],
+      "lines": [
+        "Energética",
+        "Oceanografía Física y Física de la Atmósfera",
+        "Recursos Hídricos"
+      ],
+      "projects": [
+        {
+          "title": "Modelo de predicción de la dinámica marítima de la región norte del Perú",
+          "code": "B23132081",
+          "year": 2023
+        },
+        {
+          "title": "Análisis fluidodinámico de orificios de restricción concéntricos de etapas múltiples",
+          "code": "B21130013",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "unmsm-nanotech",
+      "institution": "unmsm",
+      "acronym": "NANOTECH",
+      "name": "Grupo de investigación de nanotecnología aplicada para biorremediación ambiental, energía, biomedicina y agricultura",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/nanotech/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "NanoTECH es un grupo de investigación multidisciplinario enfocado en el desarrollo de nuevos materiales enfocados en nanomateriales magnéticos con propiedades magnéticas, ópticas, energéticas, catalíticas, adsorbentes, biosensoramiento, biomedicina a ser aplicados a nivel industrial y para el bienestar de la sociedad peruana.",
+      "goals": "• Desarrollo de investigación básica y aplicada para contribuir a nuevas tecnologías que acoplen principios de Ciencia e Ingeniería.\r\n• Desarrollo de nuevos nanohíbridos magnéticos que permitan soluciones dentro del marco de desarrollo sostenible como limpieza y saneamiento del agua.\r\n• Desarrollo de nanodispositivos que generen energía asequible y no contaminante para la sociedad peruana.\r\n• Desarrollo de nanosensores útiles en el área para la detección de enfermedades.\r\n• Desarrollos de políticas de transferencia tecnológica de los prototipos obtenidos.",
+      "services": "El grupo NANOTECH plantea la creación de una Unidad de Servicios de Análisis y Limpieza de Metales Pesados usando un equipo de Absorción Atómica a obtenerse con el reciente proyecto ganado en la Convocatoria de Investigación Aplicada en Materiales 2020-03 de Fondecyt.\r\nEl grupo NANOTECH estará disponible para la enseñanza de las principales técnicas de caracterización de Nanomateriales.\r\nDesarrollo de nuevos nanomateriales y procesos de síntesis verde.\r\nSoluciones a problemas de contaminación ambiental.\r\nAsesorías de tesis a nivel de pregrado y posgrado.",
+      "members": [
+        {
+          "name": "Cesar Cabrera Arista",
+          "slug": "cesar-cabrera-arista",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Erich Victor Manrique Castillo",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Jose Moreno Tarazona",
+          "degree": "Maestro"
+        }
+      ],
+      "lines": [
+        "Aplicaciones de la Física en Nanociencia y Nanociencia y Nanotecnología de Materiales Magnéticos",
+        "Cambio climático, emergencia, desastres y salud",
+        "Remediación de agua, aire y suelo"
+      ],
+      "projects": [
+        {
+          "title": "DESARROLLO Y VALIDACIÓN DE UN ELECTRODO NANOCOMPUESTO MAGNÉTICO SrFe12O19/rGO/PANI DE ALTA CARGA MÁSICA PARA SUPERCAPACITORES ACUOSOS (Proyecto NANOENERGY)",
+          "code": "B26130003i",
+          "year": 2026
+        },
+        {
+          "title": "Desarrollo preclínico de nanorrecubrimientos bioactivos de hidroxiapatita reforzada para implantes dentales (Proyecto NANODENT)",
+          "code": "B2613005M",
+          "year": 2026
+        },
+        {
+          "title": "Implementación de un laboratorio fisicoquímico de adsorción a mediana escala para combatir el problema de contaminación de agua con metales pesados y microplásticos",
+          "code": "B261313891e",
+          "year": 2026
+        },
+        {
+          "title": "PROYECTO NANOMAGNET-VERANO 2025",
+          "code": "B2513018v",
+          "year": 2025
+        },
+        {
+          "title": "Propiedades sinérgicas del óxido de grafeno y nanohidroxiapatita en la remediación simultánea de cadmio y níquel en plántulas de Theobroma cacao L. (Proyecto 2D-NANOAGRO)",
+          "code": "B24130141i",
+          "year": 2024
+        },
+        {
+          "title": "Biosíntesis de nanopartículas de óxido de hierro utilizando extractos de Chenopodium quinoa: efectos de los parámetros de síntesis y su uso como potencial nanorremediador de cuerpos de agua contaminados con micro y nanoplásticos",
+          "code": "B23131591",
+          "year": 2023
+        },
+        {
+          "title": "Propiedades tribológicas y ecotoxicológicas de bio-nanoestructuras basadas en grafeno y derivados a ser usados como potenciales nanolubricantes en motores de combustión interna",
+          "code": "B22130471",
+          "year": 2022
+        },
+        {
+          "title": "Impacto en la estructura fitofísica a nivel de plántula de Theobroma cacao L causada por la absorción de cadmio y niquel y la implementación de nanofertilizantes como solución alternativa de su bio-movilidad",
+          "code": "B2113002i",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "unmsm-capac",
+      "institution": "unmsm",
+      "acronym": "CAPAC",
+      "name": "Ciencia, arqueometría y patrimonio cultural",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/capac/",
+      "unit": "Facultad de Ciencias Físicas",
+      "about": "Este grupo de investigación es de carácter interdisciplinario. Las áreas de interés abarcan las ciencias exactas como la química, física y matemática; las ciencias humanas como la arqueología, antropología, historia, historia del arte y las ciencias de la conservación y restauración del patrimonio cultural. En el mundo académico actual, los trabajos científicos aplicados a estudiar materiales del patrimonio cultural implican el uso de nuevas tecnologías y metodologías, la convergencia de profesionales que sepan articular los resultados obtenidos por diversas técnicas analíticas e integrarlos a procesos de restauración y conservación de cualquier tipo de material de interés histórico, arqueológico y artístico. La universidad de San Marcos, en la actualidad, ya cuenta con laboratorios sofisticados y con gente especializada en el manejo de técnicas analíticas para llevar a cabo trabajos importantes en el área de Arqueometría y patrimonio cultural. El responsable del grupo cuenta con amplia experiencia en la aplicación de técnicas analíticas y ha realizado trabajos en: oro precolombino del norte de Perú y oro precolombino de la cultura Quimbaya. Además, hemos participado durante más de seis años en proyectos binacionales entre Perú e Italia y trabajado durante cuatro años con investigadores colombianos en estudiar oro de interés arqueológico.",
+      "goals": "Estudiar materiales del patrimonio cultural haciendo uso de técnica analíticas sofisticadas como la fluorescencia de rayos x, difracción de rayos x, espectroscopia Mössbauer, Espectroscopia Raman, Microscopia electrónica, radiografías entre otras técnicas que dispone la universidad. Además, se usará protocolos adecuados del área de arqueología y la restauración y conservación del patrimonio cultural. Se llevarán a cabo trabajos de divulgación entre la comunidad académica y la sociedad sobre los avances en el análisis del patrimonio cultural. Apoyar a los arqueólogos y conservadores del país suministrando información precisa sobre la composición de materiales y usando métodos innovadores para analizar materiales del patrimonio.",
+      "services": "Análisis de elementos químicos presentes en una muestra a nivel cualitativo y cuantitativo con equipo de fluorescencia de rayos x de energía dispersiva. \r\nTenemos un estéreo microscopio para obtener imágenes de muestras y realizar procedimientos propios de tratamiento de conservación y restauración de materiales del patrimonio cultural.\r\nTambién contamos con una cámara de vacío donde se puede realizar diversos procedimientos de preparación de muestras, este es el dispositivo adecuado cuando se realizan ensayos con reactivos químicos de cuidado especial. Consultoría de restauración y conservación del patrimonio cultural del país.",
+      "members": [
+        {
+          "name": "Daniel E Morales Chocano",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Juan Pablo Villanueva Hidalgo"
+        }
+      ],
+      "lines": [
+        "Arqueometría",
+        "Patrimonio cultural y gestión cultural",
+        "Saberes culturales, simbolismo y cultura material"
+      ],
+      "projects": [
+        {
+          "title": "Ciencia de materiales aplicado al estudio de azulejos históricos",
+          "code": "B26132511",
+          "year": 2026
+        },
+        {
+          "title": "El plomo en artefactos metálicos precolombinos: una contribución cualitativa y cuantitativa usando metodologías arqueométricas",
+          "code": "B25132881",
+          "year": 2025
+        },
+        {
+          "title": "Arqueometría de materiales líticos de origen inca y la interpretación de su composición elemental y mineralógica",
+          "code": "B24133021",
+          "year": 2024
+        },
+        {
+          "title": "Uso y aplicación de técnicas analíticas de arqueometria a la cerámica más antigua del Perú: Kotosh en Huánuco",
+          "code": "B24132861",
+          "year": 2024
+        },
+        {
+          "title": "Caracterización metalúrgica de piezas orfebres del complejo arqueológico de Pacopampa: ruta del oro, plata y cobre en la zona de Cajamarca",
+          "code": "B23132321",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "pucp-mater-pucp",
+      "institution": "pucp",
+      "acronym": "MatER-PUCP",
+      "name": "Grupo de Ciencia de Materiales y Energías Renovables",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ciencias",
+      "founded": 2018,
+      "kind": "Básica/Aplicada",
+      "about": "El grupo de ‘Ciencia de Materiales y Energías Renovables’ (MatER-PUCP) se enfoca en la investigación y el desarrollo del síntesis, análisis y aplicación de nuevos materiales. Ini-cialmente esos nuevos materiales estarán basados en películas delgadas semiconducto-ras y partículas a escala mesoscópica. Entre de las líneas de investigación destaca a la aplicación de estos materiales en dispositivos y sistemas para generación y conversión de energías renovables. Las investigaciones del grupo abarcan tres temas principales: películas delgadas y partí-culas mesoscópicas, análisis de propiedades de materiales, y aplicaciones en ingeniería y optimización de materiales. En el caso de las películas delgadas, éstas son producidas a través de diferentes tecnologías, en particular, el grupo MatER cuenta con sistemas de deposición por pulverización catódica, spin coating y evaporación física. Adicionalmente, los proyectos del grupo invo-lucran también el uso de métodos químicos, como por ejemplo deposición electroquímica. Las partículas en escala mesoscópica son producidas por medio de diferentes rutas quí-micas y técnicas modernas de síntesis. El grupo cuenta con la experiencia necesaria para su producción así como con acceso a diferentes laboratorios de la Sección Física PUCP, del Instituto de Corrosión y Protección (ICP-PUCP) y del Laboratorio de Investigación en Físico Química de la Sección Química. El segundo tema principal de investigación es el análisis de las propiedades que presen-tan los materiales producidos en el grupo. El objetivo de este estudio se centra en conocer entre otros el comportamiento óptico, electrónico, térmico y estructural de los diferentes materiales, a través de diversas técnicas de caracterización. La ingeniería y la optimización de los materiales en estudio en diferentes áreas constitu-yen el tercer tema del grupo de investigación. Los materiales producidos en el grupo son caracterizados y manipulados con el fin de optimizarlos para su uso en aplicaciones di-versas, como por ejemplo en dispositivos fotovoltaicos para mejorar la eficiencia y/o bajar el costo de celdas solares, así como en dispositivos foto-electroquímicos para la separa-ción de agua en hidrógeno y oxígeno mediante fotocatálisis, entre otras aplicaciones. El grupo trabaja en cooperación con entidades internacionales y nacionales: en Alemania con la Technische Universität Ilmenau, el Helmholtz-Zentrum Berlin y la FAU Erlangen y en España con la Universidad de Jaén, mientras que a nivel local tiene vínculos académi-cos con la Universidad Peruana Cayetano Heredia, la Universidad Nacional Mayor de San Marcos y la Universidad Nacional de Ingeniería.",
+      "members": [
+        {
+          "name": "Jorge Andres Guerra Torres",
+          "role": "Coordinador",
+          "slug": "jorge-andres-guerra-torres"
+        }
+      ]
+    },
+    {
+      "id": "pucp-gi-sant",
+      "institution": "pucp",
+      "acronym": "GI-SANT",
+      "name": "Grupo de Investigación de Sistemas Aéreos No Tripulados",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ingeniería",
+      "founded": 2013,
+      "kind": "Aplicada/I+D",
+      "members": [
+        {
+          "name": "Donato Andres Flores Espinoza",
+          "role": "Coordinador",
+          "slug": "donato-andres-flores-espinoza"
+        }
+      ]
+    },
+    {
+      "id": "pucp-githunu",
+      "institution": "pucp",
+      "acronym": "GITHUNU",
+      "name": "Grupo de Investigación en Técnicas de Huellas Nucleares",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ciencias",
+      "founded": 1991,
+      "kind": "Aplicada",
+      "about": "El grupo investiga y realiza aplicaciones de la técnica de huellas nucleares; principalmente en dosimetría de radón 222 ambiental y otros contaminantes radiactivos naturales. Se busca utilizar la técnica de huellas nucleares en diversas áreas como en geología, arqueología, minería, etc. Promueve la difusión de la problemática y protección ante la radiación natural a la población y busca establecer las recomendaciones para la mitigación en los casos que sean necesarios. Es cofundador y coordinador de la Red Peruana de Radón (REPRA) e incentiva el trabajo de investigación interinstitucional con universidades y centros de investigación a nivel nacional e internacional.",
+      "members": [
+        {
+          "name": "Patrizia Edel Pereyra Anaya",
+          "role": "Coordinador",
+          "slug": "patrizia-edel-pereyra-anaya"
+        }
+      ]
+    },
+    {
+      "id": "pucp-laboratorio-de-acustica-y-vibraciones",
+      "institution": "pucp",
+      "name": "Grupo del Laboratorio de Acústica y Vibraciones",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ciencias",
+      "founded": 1983,
+      "kind": "Aplicada/I+D",
+      "about": "Este grupo tiene como principales objetivos desarrollar la acústica en el país, desarrollar investigación aplicada en acústica y vibraciones tanto para la realidad nacional como mundial, incentivar a los estudiantes de pregrado y post grado para que involucren en la investigación en acústica y vibraciones, plantear proyectos conjuntos con colegas extranjeros y apoyar a la industria nacional. Su coordinador recibió un fellowship de la Audio Engineering Society en el 2012.",
+      "members": [
+        {
+          "name": "Jorge Nestor Moreno Ruiz",
+          "role": "Coordinador",
+          "slug": "jorge-nestor-moreno-ruiz"
+        }
+      ]
+    },
+    {
+      "id": "pucp-gsc",
+      "institution": "pucp",
+      "acronym": "GSC",
+      "name": "Grupo de Sistemas Complejos y Dinámica No Lineal",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ciencias",
+      "founded": 2010,
+      "kind": "Básica",
+      "about": "El grupo tiene como objetivo principal analizar sistemas dinámicos que presentan comportamiento no lineal, tales como bifurcaciones, oscilaciones complejas y caos. Estos sistemas aparecen en diversos campos, tales como la Biología, la Química, la Computación y la Física. Actualmente el grupo está realizando estudios teóricos y experimentales de frentes de reacción en fluidos viscosos. Dichos frentes se observan en diversas áreas de la naturaleza tales como frentes de actividad eléctrica en el corazón, incendios forestales, o la propagación de enfermedades en una población de individuos. Estos frentes de reacción pueden interaccionar con un fluido en movimiento. Por ejemplo, el crecimiento del plancton en el océano, frentes de combustión en gases, o la disminución de la capa de ozono en la estratósfera. Nuestro objetivo es investigar los efectos combinados de flujos impuestos por gradientes de presión externos, como es el flujo de Poiseuille, con el flujo generado por gradientes de densidad en líquidos. Dichos sistemas nos permitirán modelar mejor la combustión en gases donde los flujos externos están sujetos a gradientes de temperatura y posiblemente anticipar nuevas estructuras espacio-temporales en la naturaleza.",
+      "members": [
+        {
+          "name": "Desiderio Augusto Vasquez Rodriguez",
+          "role": "Coordinador",
+          "slug": "desiderio-augusto-vasquez-rodriguez"
+        }
+      ]
+    },
+    {
+      "id": "pucp-groc",
+      "institution": "pucp",
+      "acronym": "GROC",
+      "name": "Grupo de Óptica Cuántica",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ciencias",
+      "founded": 1993,
+      "kind": "Básica",
+      "about": "Este grupo tiene como principal objetivo desarrollar investigación teórica y experimental en temas actuales de la óptica cuántica. Paralelamente, el GROC aprovecha sus recursos al aplicarlos también en el ámbito docente, montando experimentos que son apropiados para complementar cursos de mecánica cuántica. La producción científica del GROC trasciende la frontera puramente académica, ya que su activa participación en el desarrollo de la óptica cuántica abre también la posibilidad de conocer tecnología de última generación desde sus orígenes. Ello permite aprovecharla con mayor eficiencia, adaptándola según las necesidades locales e identificando sus limitaciones y sus potenciales efectos perjudiciales.",
+      "members": [
+        {
+          "name": "Francisco Antonio De Zela Martinez",
+          "role": "Coordinador",
+          "slug": "francisco-antonio-de-zela-martinez"
+        }
+      ]
+    },
+    {
+      "id": "pucp-gae-pucp",
+      "institution": "pucp",
+      "acronym": "GAE-PUCP",
+      "name": "Grupo de Altas Energías",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ciencias",
+      "founded": 2002,
+      "kind": "Básica",
+      "about": "La investigación de este grupo se enfoca en la Física Teórica de Altas Energías y en la Física Experimental de Altas Energías. La investigación teórica se centra en la Física/Astrofísica de neutrinos, los que constituyen herramientas para evaluar diferentes propuestas teóricas que buscan responder preguntas aún no resueltas sobre nuestra comprensión del Universo. La investigación experimental se da a través de su colaboración exitosa con dos experimentos: el experimento MINERvA, situado en FERMILAB (USA), que busca mejorar nuestro entendimiento de la interacción de los neutrinos con la materia, y el experimento ALICE, localizado en el LHC-CERN(Suiza), que busca estudiar todas las propiedades del plasma de quarks y gluones.",
+      "members": [
+        {
+          "name": "Alberto Martin Gago Medina",
+          "role": "Coordinador",
+          "slug": "alberto-martin-gago-medina"
+        }
+      ]
+    }
+  ]
+}

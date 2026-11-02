@@ -1,0 +1,17 @@
+{{- /* One group as a row in a list. Context: a group from data/groups.json. */ -}}
+{{- $g := . -}}
+{{- $lead := index (where $g.members "role" "Coordinador") 0 -}}
+{{- $n := len $g.members -}}
+<li class="group">
+	<div class="row-main">
+		<a class="card-link" href="{{ (site.GetPage (printf "/grupos/%s" $g.id)).RelPermalink }}">{{ $g.name }}{{ with $g.acronym }} ({{ . }}){{ end }}</a>
+		<p>
+			{{- with $lead }}{{ .name }}{{ if gt $n 1 }} · {{ end }}{{ end -}}
+			{{- if gt $n 1 }}{{ $n }} integrantes{{ end -}}
+		</p>
+	</div>
+	{{- with $g.research }}
+		<span class="row-meta max-md:hidden">{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</span>
+	{{- end }}
+	{{ partial "ui/chevron.html" }}
+</li>

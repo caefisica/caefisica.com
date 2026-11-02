@@ -13,6 +13,8 @@
   publicaciones de OpenAlex y el mapa de físicos.
 - [Organizaciones](organizaciones.md): una página por institución o empresa, con
   sus físicos y sus publicaciones de física.
+- [Grupos de investigación](grupos.md): los grupos de la UNMSM y la PUCP, sus
+  integrantes, proyectos y publicaciones.
 - [Tesis](tesis.md): la copia de Cybertesis, sus vistas y cómo un nombre enlaza
   su perfil.
 - [Grabaciones](grabaciones.md): las grabaciones de Facebook y de Educast, sus
