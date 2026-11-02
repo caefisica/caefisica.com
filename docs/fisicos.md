@@ -66,20 +66,21 @@ que coincide con su perfil; un nombre igual no basta.
 las personas de `data/physicists.json`, y debajo la misma información como
 lista, que se ve por institución, por área o por persona.
 
-El JSON sale de las fichas públicas de CTI Vitae, del Portal del Profesorado de
-la PUCP para su Sección Física y, para quien no está en ninguno, de su registro
-de ORCID o, si ORCID no lista sus grados, de la página de su universidad
-(`source` dice cuál: `ctivitae`, `pucp`, `orcid` o `web`; con `web`, `site`
-nombra el sitio de `url`). Quien está en CTI Vitae y en la PUCP queda con la
-ficha de CTI Vitae, que tiene años. El portal de la PUCP da el grado y la
-institución pero no los años, así que esos perfiles ordenan los grados por
-nivel. OpenAlex da el área, a partir de los temas de sus publicaciones, y la
-obra (`works_count` y `cited_by`). `places` lista las instituciones con sus
-coordenadas (`lat` y `lon` nulos si no tienen ubicación). `people` lista a cada
-persona con:
+Entra quien tiene un grado en física, astrofísica, biofísica o geofísica. El
+JSON sale de las fichas públicas de CTI Vitae, del Portal del Profesorado de la
+PUCP para su Sección Física y, para quien no está en ninguno, de su registro de
+ORCID o, si ORCID no lista sus grados, de la página de su universidad (`source`
+dice cuál: `ctivitae`, `pucp`, `orcid` o `web`; con `web`, `site` nombra el
+sitio de `url`). Quien está en CTI Vitae y en la PUCP queda con la ficha de CTI
+Vitae, que tiene años. El portal de la PUCP da el grado y la institución pero no
+los años, así que esos perfiles ordenan los grados por nivel. OpenAlex da el
+área, a partir de los temas de sus publicaciones, y la obra (`works_count` y
+`cited_by`). `places` lista las instituciones con sus coordenadas (`lat` y `lon`
+nulos si no tienen ubicación). `people` lista a cada persona con:
 
 | Campo     | Uso                                                               |
 | --------- | ----------------------------------------------------------------- |
+| `degree`  | Su grado más alto, con el campo: «Doctorado en física».           |
 | `studied` | Sus grados, con institución, nivel y años.                        |
 | `works`   | Sus puestos actuales.                                             |
 | `jobs`    | Todos sus puestos, para la cronología del perfil.                 |
