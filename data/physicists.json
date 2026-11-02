@@ -36106,6 +36106,75 @@
       ]
     },
     {
+      "slug": "mario-elder-chavez-bacilio",
+      "name": "Mario Elder Chavez Bacilio",
+      "initials": "MC",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=64198",
+      "orcid": "0000-0002-5307-6039",
+      "site": "CTI Vitae",
+      "updated": "24-10-2023",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unitru",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unitru",
+          "level": "Doctorado",
+          "field": "Doctor en ciencias materiales",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unitru",
+          "role": "Docente ordinario"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unitru",
+          "name": "Universidad Nacional de Trujillo",
+          "role": "Docente ordinario",
+          "start": 1990,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unitru",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Doctorado",
+            "Docente ordinario"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "billy-chavez-champi",
       "name": "Billy Chavez Champi",
       "initials": "BC",
@@ -44055,6 +44124,75 @@
         {
           "place": "uss",
           "did": ["Jefe de practicas"]
+        }
+      ]
+    },
+    {
+      "slug": "octavio-fashe-raymundo",
+      "name": "Octavio Fashe Raymundo",
+      "initials": "OF",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=13542",
+      "orcid": "0000-0002-6743-7800",
+      "site": "CTI Vitae",
+      "updated": "23-09-2024",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unmsm",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Docente",
+          "start": 2001,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Asesor",
+          "start": 2011,
+          "end": 2013
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": [
+            "Bachillerato",
+            "Licenciatura",
+            "Maestría",
+            "Docente",
+            "Asesor"
+          ]
         }
       ]
     },
@@ -54311,6 +54449,90 @@
       ]
     },
     {
+      "slug": "pablo-lagos-enriquez",
+      "name": "Pablo Lagos Enriquez",
+      "initials": "PL",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=1489",
+      "orcid": "0000-0002-6935-9009",
+      "site": "CTI Vitae",
+      "updated": "14-02-2017",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unmsm",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 1957,
+          "end": 1961
+        },
+        {
+          "place": "mit",
+          "level": "Maestría",
+          "field": "Maestría",
+          "start": 1965,
+          "end": 1967
+        },
+        {
+          "place": "mit",
+          "level": "Doctorado",
+          "field": "Doctor en filosofia en el campo de la meteorologia",
+          "start": 1965,
+          "end": 1970
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor principal",
+          "start": 1973,
+          "end": 2017
+        },
+        {
+          "place": null,
+          "name": "Mountain Research Initiative -mri",
+          "role": "Coordinador para america latina",
+          "start": 2011,
+          "end": 2012
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador cientifico principal",
+          "start": 1965,
+          "end": 2010
+        },
+        {
+          "place": null,
+          "name": "Office of Global Program, Noaa, Ee.uu.",
+          "role": "Senior international research fellow",
+          "start": 1990,
+          "end": 1993
+        }
+      ],
+      "path": [
+        {
+          "place": "unmsm",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "mit",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": ["Investigador cientifico principal"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor principal"]
+        }
+      ]
+    },
+    {
       "slug": "gracia-susana-laiza-rebaza",
       "name": "Gracia Susana Laiza Rebaza",
       "initials": "GL",
@@ -60988,6 +61210,70 @@
       ]
     },
     {
+      "slug": "juan-carlos-medina-pantoja",
+      "name": "Juan Carlos Medina Pantoja",
+      "initials": "JM",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=19019",
+      "orcid": "0000-0003-0862-3125",
+      "site": "CTI Vitae",
+      "updated": "12-10-2026",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "karazin",
+          "level": "Licenciatura",
+          "field": null,
+          "start": 1994,
+          "end": 1999
+        },
+        {
+          "place": "karazin",
+          "level": "Maestría",
+          "field": null,
+          "start": 1999,
+          "end": 2000
+        },
+        {
+          "place": "unicamp",
+          "level": "Doctorado",
+          "field": "Grado de doctor en ciencias",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "upch",
+          "role": "Profesor"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "upch",
+          "name": "Universidad Peruana Cayetano Heredia",
+          "role": "Profesor",
+          "start": 2011,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "karazin",
+          "did": ["Licenciatura", "Maestría"]
+        },
+        {
+          "place": "unicamp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "upch",
+          "did": ["Profesor"]
+        }
+      ]
+    },
+    {
       "slug": "gustavo-medina-sanchez",
       "name": "Gustavo Medina Sanchez",
       "initials": "GM",
@@ -67160,6 +67446,140 @@
       ]
     },
     {
+      "slug": "angel-eduardo-obispo-vasquez",
+      "name": "Angel Eduardo Obispo Vasquez",
+      "initials": "AO",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=229223",
+      "orcid": "0000-0001-5392-9495",
+      "site": "CTI Vitae",
+      "updated": "26-10-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unesp",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unesp",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "utp",
+          "role": "Profesor tc investigación"
+        },
+        {
+          "place": "unmsm",
+          "role": "Profesor invitado"
+        },
+        {
+          "place": "upn",
+          "role": "Profesor tp"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "utp",
+          "name": "Universidad Tecnológica del Perú",
+          "role": "Profesor tc investigación",
+          "start": 2022,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Profesor invitado",
+          "start": 2025,
+          "end": "now"
+        },
+        {
+          "place": "utp",
+          "name": "Universidad Tecnológica del Perú",
+          "role": "Profesor tp",
+          "start": 2021,
+          "end": 2022
+        },
+        {
+          "place": "upn",
+          "name": "Universidad Privada del Norte",
+          "role": "Profesor tp",
+          "start": 2021,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Universidade Federal do Maranhão (ufma)",
+          "role": "Docente investigador tc",
+          "start": 2019,
+          "end": 2021
+        },
+        {
+          "place": null,
+          "name": "Universidade Federal do Maranhão (ufma)",
+          "role": "Investigador postdoctoral",
+          "start": 2017,
+          "end": 2020
+        },
+        {
+          "place": null,
+          "name": "Universidade Federal do Maranhão (ufma)",
+          "role": "Docente investigador tp",
+          "start": 2017,
+          "end": 2017
+        },
+        {
+          "place": null,
+          "name": "Unesp Rio Claro",
+          "role": "Investigador postdoctoral",
+          "start": 2016,
+          "end": 2017
+        }
+      ],
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "unesp",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "utp",
+          "did": ["Profesor tp"]
+        },
+        {
+          "place": "upn",
+          "did": ["Profesor tp"]
+        },
+        {
+          "place": "utp",
+          "did": ["Profesor tc investigación"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Profesor invitado"]
+        }
+      ],
+      "linkedin": "https://www.linkedin.com/in/angel-obispo-185a321b2"
+    },
+    {
       "slug": "marco-antonio-obregon-chaupis",
       "name": "Marco Antonio Obregon Chaupis",
       "initials": "MO",
@@ -68087,6 +68507,96 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "ana-maria-osorio-anaya",
+      "name": "Ana Maria Osorio Anaya",
+      "initials": "AO",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=11551",
+      "orcid": "0000-0002-4384-4671",
+      "site": "CTI Vitae",
+      "updated": "18-10-2025",
+      "degree": "Maestría en ingeniería",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "uncp",
+          "level": "Bachillerato",
+          "field": "Bachiller en ingenieria quimica",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "uncp",
+          "level": "Licenciatura",
+          "field": "Ingeniero quimico",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "uni",
+          "level": "Maestría",
+          "field": "Maestro en ciencias con mencion en ingenieria geologica",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Docente del curso de química cepusm"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Docente del curso de química cepusm",
+          "start": 2011,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Coordinadora grupo de investigación materiales para la innovación tecnológica (matintec)",
+          "start": 2017,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Responsable laboratorio de nanotecnología e innovación tecnológica de la facultad de química e ingeniería química (labnanointec-fqiq-unmsm)",
+          "start": 2017,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Investigadora",
+          "start": 1982,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "uncp",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uni",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unmsm",
+          "did": [
+            "Investigadora",
+            "Docente del curso de química cepusm",
+            "Coordinadora grupo de investigación materiales para la innovación tecnológica (matintec)",
+            "Responsable laboratorio de nanotecnología e innovación tecnológica de la facultad de química e ingeniería química (labnanointec-fqiq-unmsm)"
+          ]
         }
       ]
     },
@@ -70446,6 +70956,120 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor principal"]
+        }
+      ]
+    },
+    {
+      "slug": "antonio-armstrong-pereyra-quiros",
+      "name": "Antonio Armstrong Pereyra Quirós",
+      "initials": "AP",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=3409",
+      "orcid": "0000-0001-8403-8070",
+      "site": "CTI Vitae",
+      "updated": "28-05-2026",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uni",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 1987,
+          "end": 1993
+        },
+        {
+          "place": "usp",
+          "level": "Doctorado",
+          "field": "Grado de doctor en ciencias en el área de especialización de astronomía",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Investigador científico superior"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador científico superior",
+          "start": 2014,
+          "end": "now"
+        },
+        {
+          "place": "inpe",
+          "name": "Instituto Nacional de Pesquisas Espaciais",
+          "role": "Investigador visitante",
+          "start": 2013,
+          "end": 2013
+        },
+        {
+          "place": null,
+          "name": "Instituto de Astrofísica de Canarias",
+          "role": "Postdoc",
+          "start": 2012,
+          "end": 2013
+        },
+        {
+          "place": null,
+          "name": "Observatorio Nacional, Rio de Janeiro",
+          "role": "Postdoc",
+          "start": 2007,
+          "end": 2011
+        },
+        {
+          "place": null,
+          "name": "Institut Destudis Espacials de Catalunya",
+          "role": "Investigador visitante",
+          "start": 2007,
+          "end": 2007
+        },
+        {
+          "place": null,
+          "name": "Instituto de Astronomía, Geofísica e Ciencias Atmosféricas, Sao Paulo Brasil",
+          "role": "Postdoc",
+          "start": 2003,
+          "end": 2007
+        },
+        {
+          "place": null,
+          "name": "Instituto de Astronomía, Geofísica e Ciencias Atmosféricas, Sao Paulo Brasil",
+          "role": "Investigador visitante",
+          "start": 2002,
+          "end": 2003
+        },
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Profesor auxiliar",
+          "start": 2001,
+          "end": 2001
+        }
+      ],
+      "path": [
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "usp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "uni",
+          "did": ["Profesor auxiliar"]
+        },
+        {
+          "place": "inpe",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "igp",
+          "did": ["Investigador científico superior"]
         }
       ]
     },
@@ -73483,6 +74107,77 @@
       ]
     },
     {
+      "slug": "sara-regina-purca-cuicapusa",
+      "name": "Sara Regina Purca Cuicapusa",
+      "initials": "SP",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=1880",
+      "orcid": "0000-0001-8751-1476",
+      "site": "CTI Vitae",
+      "updated": "11-08-2026",
+      "degree": "Doctorado",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "unfv",
+          "level": "Bachillerato",
+          "field": "Bachillerato",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unfv",
+          "level": "Licenciatura",
+          "field": "Ingeniero pesquero",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "udec",
+          "level": "Doctorado",
+          "field": "Grado académico de doctor en oceanografía",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "imarpe",
+          "role": "Investigador"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "imarpe",
+          "name": "Instituto del Mar del Perú",
+          "role": "Investigador",
+          "start": 2003,
+          "end": "now"
+        },
+        {
+          "place": "imarpe",
+          "name": "Instituto del Mar del Perú",
+          "role": "Coordinador",
+          "start": 2009,
+          "end": 2011
+        }
+      ],
+      "path": [
+        {
+          "place": "unfv",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "udec",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "imarpe",
+          "did": ["Investigador", "Coordinador"]
+        }
+      ]
+    },
+    {
       "slug": "erick-xavier-purizaca-leon",
       "name": "Erick Xavier Purizaca Leon",
       "initials": "EP",
@@ -75557,6 +76252,70 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "guillermo-henry-ramirez-ulloa",
+      "name": "Guillermo Henry Ramirez Ulloa",
+      "initials": "GR",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=53271",
+      "orcid": "0000-0002-3717-7657",
+      "site": "CTI Vitae",
+      "updated": "21-10-2025",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unitru",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unitru",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "uam",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "unitru",
+          "role": "Docente ordinario - auxiliar"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unitru",
+          "name": "Universidad Nacional de Trujillo",
+          "role": "Docente ordinario - auxiliar",
+          "start": 2021,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unitru",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uam",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Docente ordinario - auxiliar"]
         }
       ]
     },
@@ -80255,6 +81014,52 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "domingo-carlos-rosales-corilloclla",
+      "name": "Domingo Carlos Rosales Corilloclla",
+      "initials": "DR",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=51679",
+      "orcid": "0000-0002-9266-5784",
+      "site": "CTI Vitae",
+      "updated": "29-12-2017",
+      "degree": "Bachillerato en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "unac",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Geomagnetista"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Geomagnetista",
+          "start": 2000,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "unac",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "igp",
+          "did": ["Geomagnetista"]
         }
       ]
     },
