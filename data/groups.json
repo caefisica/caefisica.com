@@ -5,6 +5,13 @@
   },
   "works_fetched": "2026-11-02",
   "works_from": "2016-01-01",
+  "programmes": {
+    "PMULTI": "Programa de Proyectos de Investigación Multidisciplinarios para Grupos de Investigación",
+    "ECI": "Programa de Equipamiento Científico para la Investigación",
+    "PCONFIGI-INV": "Programa de Proyectos de Innovación para Grupos de Investigación",
+    "PICV": "Programa para la Inducción en Investigación Científica en el Verano",
+    "PRO-CTIE": "Programa de proyectos de Ciencia, Tecnología, Innovación y Emprendimiento"
+  },
   "groups": [
     {
       "id": "unmsm-ecyt",
@@ -34,7 +41,8 @@
         {
           "title": "Sistema predictivo basado en Machine Learning con terminal biométrica de validación, para la detección temprana de fraude por suplantación de identidad en la contratación de servicios de telecomunicaciones en el Perú",
           "code": "B261322PROrn",
-          "year": 2026
+          "year": 2026,
+          "programme": "PRO-CTIE"
         }
       ],
       "research": {
@@ -312,7 +320,8 @@
         {
           "title": "Adquisición de un potenciostato/galvanostato/amperímetro de resistencia cero para pruebas de impedancia en películas delgadas y membranas, de carga-descarga en celdas solares, oxidación de materiales y de sensores portátiles de contaminación de agua",
           "code": "B261313903e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Estudio de la fabricación y caracterización de membranas poliméricas de PVDF reforzadas con el cuasicristal Al64Cu23Fe13 para su potencial uso como nanogeneradores de energía",
@@ -347,7 +356,8 @@
         {
           "title": "Materiales activos basados en vidrios telurítos dopados con Er3+ para antenas ópticas necesarias para la transmisión de internet a larga distancia",
           "code": "B2113003i",
-          "year": 2021
+          "year": 2021,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Medidor de hemoglobina de fácil uso y lectura que cabe en un bolsillo para el diagnóstico y control de la anemia.",
@@ -377,7 +387,8 @@
         {
           "title": "MODERNIZACIÓN de SISTEMA DE síntesis de ALEACIONES MEDIANTE LA ADQUISICIÓN DE UN EQUIPO DE HORNO DE ARCO VOLTAICO",
           "code": "B18134150e",
-          "year": 2018
+          "year": 2018,
+          "programme": "ECI"
         },
         {
           "title": "Síntesis, caracterización estructural y propiedades electrónicas de la aleación Al-Au-Yb nano-estructurada en sus fases periódica y aperiódica",
@@ -435,7 +446,8 @@
         {
           "title": "Fortalecimiento de capacidades técnicas en la caracterización de nuevos materiales desarrollados por el grupo de investigación en Magnetismo Moderno, Nanomagnetismo y Aleaciones Metálicas (GIMNA)",
           "code": "B261313940e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Estudio del ferromagnetismo semimetálico en películas próximas a la estequiometría Heusler Co2Fe1-xSi1+x preparadas por pulverización catódica",
@@ -450,7 +462,8 @@
         {
           "title": "Desarrollo de filtro magnético para retirar partículas de arsénico de agua de consumo humano",
           "code": "B24130311i",
-          "year": 2024
+          "year": 2024,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Pulverización catódica de Cr sobre cintas nanocristalinas ferromagnéticas VITROPERM",
@@ -500,7 +513,8 @@
         {
           "title": "Adquisición de un horno ad hoc al vacío/gas para medidas Mössbauer in situ",
           "code": "B18134156e",
-          "year": 2018
+          "year": 2018,
+          "programme": "ECI"
         },
         {
           "title": "Estudio Físico Químico de muestras de las Riberas del Rio Ichu de la provincia de Huancavelica",
@@ -530,7 +544,8 @@
         {
           "title": "Implementación de sistema criogénico para un espectrómetro Mössbauer",
           "code": "B1713009e",
-          "year": 2017
+          "year": 2017,
+          "programme": "ECI"
         }
       ],
       "research": {
@@ -689,7 +704,8 @@
         {
           "title": "Equipo portátil para medición precisa de la evapotranspiración (ET)",
           "code": "B261313917e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Estimación del forzamiento radiativo inducido por aerosoles en Sudamérica mediante el modelo WRF-Chem",
@@ -714,7 +730,8 @@
         {
           "title": "Desarrollo de un prototipo de baldosa piezoeléctrica para microgeneración eléctrica a partir del tránsito peatonal: prueba piloto en la UNMSM",
           "code": "B251304PRO",
-          "year": 2025
+          "year": 2025,
+          "programme": "PRO-CTIE"
         },
         {
           "title": "Desarrollo e implementación del observatorio solar en la banda de radiofrecuencia para la investigación del clima espacial",
@@ -724,7 +741,8 @@
         {
           "title": "Diseño y construcción de un sensor de helada de evaporación",
           "code": "B2513035v",
-          "year": 2025
+          "year": 2025,
+          "programme": "PICV"
         },
         {
           "title": "Estacionalidad de la Contracorriente Subsuperficial Perú-Chile",
@@ -734,22 +752,26 @@
         {
           "title": "IMSensor: Integración de filtros multiespectrales para validación de aplicaciones de satélites de Observación de la Tierra",
           "code": "B25130027i",
-          "year": 2025
+          "year": 2025,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Mejora de la Capacidad Observacional del Clima Espacial en la UNMSM",
           "code": "B251312753e",
-          "year": 2025
+          "year": 2025,
+          "programme": "ECI"
         },
         {
           "title": "THERMONET. Sistema distribuido de monitoreo térmico con comunicación inalámbrica para zonas rurales",
           "code": "B25130016i",
-          "year": 2025
+          "year": 2025,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "AgroPhyDM: sistema inteligente de soporte de decisiones para la optimización sostenible de la agricultura",
           "code": "B24130361i",
-          "year": 2024
+          "year": 2024,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Análisis del patrón espacial y temporal de la precipitación en los Andes del Perú utilizando datos de reanálisis y satélite",
@@ -759,12 +781,14 @@
         {
           "title": "BIMA: Desarrollo de sensores integrados a una Boya Inteligente para el Monitoreo Integral de la Calidad del Agua y la Detección de Contaminantes en tiempo real",
           "code": "B241322pro",
-          "year": 2024
+          "year": 2024,
+          "programme": "PRO-CTIE"
         },
         {
           "title": "Desarrollo de un analizador multisensor para evaluar el drenaje ácido en entornos glaciares: Aplicaciones en evaluación ambiental",
           "code": "B241301pro",
-          "year": 2024
+          "year": 2024,
+          "programme": "PRO-CTIE"
         },
         {
           "title": "Energía solar, cambio climático y calidad del aire: Caracterización observacional de la irradiancia solar y estimación de parámetros de turbidez atmosférica para mejorar la eficiencia energética en el valle del Mantaro",
@@ -774,22 +798,26 @@
         {
           "title": "Equipo de medición de reflectancia espectral (VNIR-SWIR) con fibra óptica para muestras pequeñas",
           "code": "B241310989e",
-          "year": 2024
+          "year": 2024,
+          "programme": "ECI"
         },
         {
           "title": "Horizon: Desarrollo de un cohete sonda reutilizable de 2 etapas para el monitoreo de GEI troposférico",
           "code": "B241314pro",
-          "year": 2024
+          "year": 2024,
+          "programme": "PRO-CTIE"
         },
         {
           "title": "TempAlert. Desarrollo de una alerta audible de heladas de bajo costo para las zonas altoandinas",
           "code": "B24130291i",
-          "year": 2024
+          "year": 2024,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "AgriSense: Desarrollo de una estación meteorológica compacta de bajo costo para agricultura de precisión en Perú",
           "code": "B23130081i",
-          "year": 2023
+          "year": 2023,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Análisis de imágenes hiperespectrales para caracterizar el estado fenológico y salud de especies forestales en el bosque seco de Pomac - Lambayeque",
@@ -809,12 +837,14 @@
         {
           "title": "MaizTech: agricultura de precisión con drones y cámaras multiespectrales para mejorar la productividad y sostenibilidad en Tarapoto",
           "code": "B23130231i",
-          "year": 2023
+          "year": 2023,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "SkyTracking: desarrollo de una radiosonda compacta, recuperable y reutilizable de bajo costo para el monitoreo de las condiciones atmosféricas y el estudio de muestras biológicas enviadas en globo sonda",
           "code": "B231312pro",
-          "year": 2023
+          "year": 2023,
+          "programme": "PRO-CTIE"
         },
         {
           "title": "Desarrollo e implementación de modelos espectrales para caracterizar la cobertura forestal de ecosistemas frágiles en la región norte",
@@ -1208,17 +1238,20 @@
         {
           "title": "MONITOREO MEDIO AMBIENTAL DE LA BAHIA DEL CALLAO: CALIDAD DEL AIRE Y CALIDAD DE LAS AGUAS COSTERAS USANDO IMAGENES SATELITALES",
           "code": "B261313900e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "SATeRRA: VALIDACIÓN DE DATOS SATELITALES CLIMÁTICOS Y DE COBERTURA (CHIRPS, MAPBIOMAS ALERTA PERÚ) CON OBSERVACIÓN DE CAMPO EN EL ECOTONO ANDES-AMAZONÍA DE MOYOBAMBA",
           "code": "B261317PROrn",
-          "year": 2026
+          "year": 2026,
+          "programme": "PRO-CTIE"
         },
         {
           "title": "Estimación de parámetros de tsunamis de origen lejano para alerta temprana",
           "code": "B2513060v",
-          "year": 2025
+          "year": 2025,
+          "programme": "PICV"
         },
         {
           "title": "Estimación de Parámetros de Tsunamis de Origen Lejano para la Alerta Temprana",
@@ -1317,7 +1350,8 @@
         {
           "title": "Fortalecimiento de infraestructura investigativa del Laboratorio de películas delgadas y sistemas nanoestructurados.",
           "code": "B261313560e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Modificación superficial de implantes odontológicos mediante plasma atmosférico frío",
@@ -1332,7 +1366,8 @@
         {
           "title": "Síntesis y caracterización de nanohidroxiapatita dopada con Sr, Er, Yb, Tb, y La para su potencial uso en biomedicina",
           "code": "B2513055v",
-          "year": 2025
+          "year": 2025,
+          "programme": "PICV"
         },
         {
           "title": "Síntesis y caracterización de nanohidroxiapatita dopada con Sr, Er, Yb, Tb, y La para su potencial uso en biomedicina",
@@ -1342,7 +1377,8 @@
         {
           "title": "Sistema de degradación fotocatalítica de pigmentos textiles empleando fotoreactor recubrimiento con hidroxiapatita",
           "code": "B23130141i",
-          "year": 2023
+          "year": 2023,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Evaluación de las propiedades fotocatalíticas de hidroxiapatita co-dopada con metales pesados",
@@ -1362,12 +1398,14 @@
         {
           "title": "Producción de membranas y nanofibras con aplicaciones en la fabricación de material de protección médica",
           "code": "B2013008m",
-          "year": 2020
+          "year": 2020,
+          "programme": "PMULTI"
         },
         {
           "title": "Adquisición de equipo para modificación superficial y preparación de substratos mediante limpieza por plasma (plasma cleaner)",
           "code": "B19134339e",
-          "year": 2019
+          "year": 2019,
+          "programme": "ECI"
         },
         {
           "title": "Preparación de recubrimientos nanoestructurados de hidroxiapatita dopada con posibles aplicaciones en la degradación fotocatalítica de pigmentos industriales",
@@ -1377,7 +1415,8 @@
         {
           "title": "Actualización de sistema de preparación de muestras por pulverización catódica, mediante la adquisición de una fuente magnetrón sputtering (sputtering source & DC power supply).",
           "code": "B18134052e",
-          "year": 2018
+          "year": 2018,
+          "programme": "ECI"
         },
         {
           "title": "Propiedades magnéticas de nanoestructuras artificiales de Fe/Ag y Fe/Ti",
@@ -1549,7 +1588,8 @@
         {
           "title": "Estudio teórico del tiempo de tunelamiento de electrones en heteroestructuras artificiales semiconductoras unidimensionales",
           "code": "B2613034V",
-          "year": 2026
+          "year": 2026,
+          "programme": "PICV"
         },
         {
           "title": "NPG-Biphenylene como ánodo de carbono 2D en baterías de estado sólido Li/Na/K: Un estudio mediante DFT",
@@ -1559,7 +1599,8 @@
         {
           "title": "Reposición de una worskstation - nodo del cluster HPC HUK - del laboratorio LMSC",
           "code": "B261313859e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Estudio del efecto de tamaño sobre las propiedades estructurales y térmicas de nanoaleaciones ternarias metálicas Ag-Cu-Au",
@@ -1569,12 +1610,14 @@
         {
           "title": "Estudio teórico de las propiedades electrónicas de estructuras artificiales unidimensionales",
           "code": "B2513016v",
-          "year": 2025
+          "year": 2025,
+          "programme": "PICV"
         },
         {
           "title": "Implementación cluster HPC del Laboratorio de Modelamiento y Simulación Computacional (LMSC)",
           "code": "B251312726e",
-          "year": 2025
+          "year": 2025,
+          "programme": "ECI"
         },
         {
           "title": "Tiempo de tunelización de electrones en heteroestructuras artificiales",
@@ -1589,7 +1632,8 @@
         {
           "title": "Estudio de las propiedades electrónicas y magnéticas topológicas de tri-haluros metálicos MCl3 (M = V, Cr) con impurezas metálicas (Fe, Mn, Cr, V) para aplicaciones en espintrónica",
           "code": "B2413006m",
-          "year": 2024
+          "year": 2024,
+          "programme": "PMULTI"
         },
         {
           "title": "Identificación de texturas de espín topológicas en redes arquimedianas usando Deep Learning y Monte Carlo",
@@ -1599,7 +1643,8 @@
         {
           "title": "Mejora de capacidad de cálculo para estudio de nanomateriales magnéticos",
           "code": "B241310983e",
-          "year": 2024
+          "year": 2024,
+          "programme": "ECI"
         },
         {
           "title": "Estudio de la escritura y borrado de skyrmiones magnéticos individuales en heteroestructuras bidimensionales centrosimétricos con métodos de Monte Carlo y Machine Learning",
@@ -1609,7 +1654,8 @@
         {
           "title": "Mejora de capacidad del Laboratorio de Modelamiento y Simulación Computacional (LMSC)",
           "code": "B231310076e",
-          "year": 2023
+          "year": 2023,
+          "programme": "ECI"
         },
         {
           "title": "Simulación atomística de las propiedades mecánicas de los nanocompósitos grafeno/cobre",
@@ -1649,7 +1695,8 @@
         {
           "title": "Implementación del Laboratorio de Modelamiento y Simulación Computacional (LMSC)",
           "code": "B19134325e",
-          "year": 2019
+          "year": 2019,
+          "programme": "ECI"
         },
         {
           "title": "Simulación de propiedades dinámicas de nanopartículas magnéticas con potencial aplicación en hipertermia magnética",
@@ -1664,7 +1711,8 @@
         {
           "title": "implementación del Laboratorio de Investigación “Modelamiento y Simulación Computacional”",
           "code": "B18134122e",
-          "year": 2018
+          "year": 2018,
+          "programme": "ECI"
         },
         {
           "title": "Simulación atomística de la influencia de los defectos estructurales del grafeno sobre sus propiedades térmicas y mecánicas",
@@ -1733,7 +1781,8 @@
         {
           "title": "Caracterización colorimétrica no destructiva de cerámica Wari mediante espectrofotometría de reflectancia: relación entre color, composición y tecnología de cocción",
           "code": "B261318PROrn",
-          "year": 2026
+          "year": 2026,
+          "programme": "PRO-CTIE"
         },
         {
           "title": "Ingeniería de capas delgadas superconductoras para la fabricación de un dispositivo tecnológico avanzado mediante el control del efecto túnel cuántico a temperaturas criogénicas",
@@ -1743,7 +1792,8 @@
         {
           "title": "Tecnologías emergentes basadas en capas delgadas superconductoras",
           "code": "B261313552e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Análisis arqueométrico de la cerámica de Wari y Conchopata: Identificación de patrones de producción y distribución en el valle de Ayacucho durante el Horizonte Medio",
@@ -2153,7 +2203,8 @@
         {
           "title": "Desarrollo de diodos PN basados en óxidos semiconductores.",
           "code": "B261313929e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Desarrollo de la fenomenología de oscilación de neutrinos muónicos en experimentos de laboratorios de Altas energías MINOS/NOvA/DUNE",
@@ -2188,7 +2239,8 @@
         {
           "title": "Mobiliario gft unmsm",
           "code": "B18134138e",
-          "year": 2018
+          "year": 2018,
+          "programme": "ECI"
         },
         {
           "title": "XXI Latin American Symposium on High Energy Physics (XXI SILAFAE - 2018)",
@@ -2244,7 +2296,8 @@
         {
           "title": "Construcción y evaluación de horno solar tipo caja",
           "code": "B2513006v",
-          "year": 2025
+          "year": 2025,
+          "programme": "PICV"
         },
         {
           "title": "Diseño de turbina eólica vertical tipo Ayanz para micro generación en entornos urbanos de baja velocidad de viento",
@@ -2378,7 +2431,8 @@
         {
           "title": "Adquisición e implementación de un sistema de destilación de agua ultra pura para optimizar análisis fisicoquímicos y fortalecer la investigación en ciencias del suelo y síntesis de nanomateriales",
           "code": "B261313928e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "Impacto de las propiedades físico-químicas, estructurales e hiperfinas de los suelos en el crecimiento de dos variedades de quinua (Chenopodium quinoa Willd) mediante técnicas espectroscópicas avanzadas para el desarrollo de estrategias de optimización agrícola sostenible en el distrito de Acos Vinchos, Ayacucho, Perú",
@@ -2413,7 +2467,8 @@
         {
           "title": "Determinación de la separación y tamaño de grano de suelos en áreas de producción de variedades de quinua (Chenopodium quinoa willd)",
           "code": "B241311031e",
-          "year": 2024
+          "year": 2024,
+          "programme": "ECI"
         },
         {
           "title": "Evaluación de los suelos de cultivo de dos variedades de quinua (Chenopodium quinoa willd) para la mejora de sus propiedades fértiles estructurales e hiperfinas en el distrito de Acos Vinchos de la región Ayacucho",
@@ -2509,27 +2564,32 @@
         {
           "title": "DESARROLLO Y VALIDACIÓN DE UN ELECTRODO NANOCOMPUESTO MAGNÉTICO SrFe12O19/rGO/PANI DE ALTA CARGA MÁSICA PARA SUPERCAPACITORES ACUOSOS (Proyecto NANOENERGY)",
           "code": "B26130003i",
-          "year": 2026
+          "year": 2026,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Desarrollo preclínico de nanorrecubrimientos bioactivos de hidroxiapatita reforzada para implantes dentales (Proyecto NANODENT)",
           "code": "B2613005M",
-          "year": 2026
+          "year": 2026,
+          "programme": "PMULTI"
         },
         {
           "title": "Implementación de un laboratorio fisicoquímico de adsorción a mediana escala para combatir el problema de contaminación de agua con metales pesados y microplásticos",
           "code": "B261313891e",
-          "year": 2026
+          "year": 2026,
+          "programme": "ECI"
         },
         {
           "title": "PROYECTO NANOMAGNET-VERANO 2025",
           "code": "B2513018v",
-          "year": 2025
+          "year": 2025,
+          "programme": "PICV"
         },
         {
           "title": "Propiedades sinérgicas del óxido de grafeno y nanohidroxiapatita en la remediación simultánea de cadmio y níquel en plántulas de Theobroma cacao L. (Proyecto 2D-NANOAGRO)",
           "code": "B24130141i",
-          "year": 2024
+          "year": 2024,
+          "programme": "PCONFIGI-INV"
         },
         {
           "title": "Biosíntesis de nanopartículas de óxido de hierro utilizando extractos de Chenopodium quinoa: efectos de los parámetros de síntesis y su uso como potencial nanorremediador de cuerpos de agua contaminados con micro y nanoplásticos",
@@ -2544,7 +2604,8 @@
         {
           "title": "Impacto en la estructura fitofísica a nivel de plántula de Theobroma cacao L causada por la absorción de cadmio y niquel y la implementación de nanofertilizantes como solución alternativa de su bio-movilidad",
           "code": "B2113002i",
-          "year": 2021
+          "year": 2021,
+          "programme": "PCONFIGI-INV"
         }
       ]
     },

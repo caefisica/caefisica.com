@@ -98,13 +98,13 @@
 		{{- end }}
 		{{- with $g.projects }}
 			<h2 id="proyectos">Proyectos <span class="count">{{ len . }}</span></h2>
-			<p class="text-muted">Los proyectos que el Vicerrectorado registra para el grupo. El código empieza por la letra del programa y el año de la convocatoria.</p>
+			<p class="text-muted">Los proyectos que el Vicerrectorado registra para el grupo, con su código y, cuando el código lo indica, el programa que lo financió.</p>
 			<ul class="rows">
 				{{- range . }}
 					<li class="group">
 						<div class="row-main">
 							<span>{{ .title }}</span>
-							<p>{{ .code }}</p>
+							<p>{{ .code }}{{ with .programme }} · <abbr title="{{ index $data.programmes . }}">{{ . }}</abbr>{{ end }}</p>
 						</div>
 						<span class="row-meta">{{ .year }}</span>
 					</li>
