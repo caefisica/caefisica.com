@@ -19279,6 +19279,87 @@
       "kind": "universidad"
     },
     {
+      "id": "oklahoma",
+      "name": "Universidad de Oklahoma",
+      "short": "OU",
+      "country": "US",
+      "lat": 35.20861,
+      "lon": -97.44583,
+      "kind": "universidad"
+    },
+    {
+      "id": "epfl",
+      "name": "Escuela Politécnica Federal de Lausana",
+      "short": "EPFL",
+      "country": "CH",
+      "lat": 46.52028,
+      "lon": 6.56556,
+      "kind": "universidad"
+    },
+    {
+      "id": "uw",
+      "name": "Universidad de Washington",
+      "short": "UW",
+      "country": "US",
+      "lat": 47.65417,
+      "lon": -122.30806,
+      "kind": "universidad"
+    },
+    {
+      "id": "kagoshima",
+      "name": "Universidad de Kagoshima",
+      "short": "U. de Kagoshima",
+      "country": "JP",
+      "lat": 31.57181,
+      "lon": 130.54522,
+      "kind": "universidad"
+    },
+    {
+      "id": "uvg",
+      "name": "Universidad del Valle de Guatemala",
+      "short": "UVG",
+      "country": "GT",
+      "lat": 14.605,
+      "lon": -90.49,
+      "kind": "universidad"
+    },
+    {
+      "id": "naoj",
+      "name": "Observatorio Astronómico Nacional de Japón",
+      "short": "NAOJ",
+      "country": "JP",
+      "lat": 35.67546,
+      "lon": 139.53769,
+      "kind": "instituto"
+    },
+    {
+      "id": "upmc",
+      "name": "Universidad Pierre y Marie Curie",
+      "short": "UPMC",
+      "country": "FR",
+      "lat": 48.847222,
+      "lon": 2.356389,
+      "kind": "universidad"
+    },
+    {
+      "id": "ird",
+      "name": "Instituto de Investigación para el Desarrollo (IRD)",
+      "short": "IRD",
+      "country": "FR",
+      "lat": 43.29667,
+      "lon": 5.37639,
+      "kind": "instituto"
+    },
+    {
+      "id": "cnes",
+      "name": "Centro Nacional de Estudios Espaciales (CNES)",
+      "short": "CNES",
+      "country": "FR",
+      "lat": 48.86151,
+      "lon": 2.34516,
+      "kind": "instituto"
+    },
+    {
       "id": "unir",
       "name": "Universidad Internacional de La Rioja",
       "short": "UNIR",
@@ -19365,7 +19446,7 @@
       "orcid": "0000-0001-9849-0578",
       "site": null,
       "updated": "28-03-2025",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -19840,7 +19921,7 @@
       "orcid": "0000-0002-2154-2429",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5053176173",
       "area": null,
@@ -20029,7 +20110,7 @@
       "orcid": "0000-0002-5929-2605",
       "site": null,
       "updated": "30-10-2023",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5028192664",
       "area": null,
@@ -22158,7 +22239,7 @@
       "orcid": "0009-0005-0683-4844",
       "site": null,
       "updated": "13-10-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -22276,7 +22357,7 @@
       "orcid": null,
       "site": null,
       "updated": "29-12-2022",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -22580,7 +22661,7 @@
       "orcid": "0000-0002-8947-0548",
       "site": null,
       "updated": "09-03-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5049628099",
       "area": "Astronomía y astrofísica",
@@ -22940,7 +23021,7 @@
       "orcid": "0000-0002-7248-912X",
       "site": null,
       "updated": "27-11-2025",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5082275545",
       "area": "Tierra, clima y ambiente",
@@ -23213,7 +23294,7 @@
       "orcid": "0000-0002-7102-6481",
       "site": null,
       "updated": "15-12-2025",
-      "degree": "Licenciatura en geofísica",
+      "degree": "Doctorado",
       "track": "Geofísica",
       "openalex": "A5059484806",
       "area": "Tierra, clima y ambiente",
@@ -23869,7 +23950,7 @@
       "orcid": "0000-0002-1473-7439",
       "site": null,
       "updated": "10-04-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -24170,7 +24251,7 @@
       "orcid": "0000-0002-5505-8635",
       "site": null,
       "updated": "17-07-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -24924,7 +25005,7 @@
       "orcid": "0000-0002-1752-4754",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -25024,7 +25105,7 @@
       "orcid": "0000-0002-2167-0295",
       "site": null,
       "updated": "09-10-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5060280268",
       "area": "Partículas y física nuclear",
@@ -25502,7 +25583,7 @@
       "orcid": "0000-0003-1144-1322",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5065475231",
       "area": "Materia condensada y materiales",
@@ -25636,7 +25717,7 @@
       "orcid": "0000-0002-7737-0240",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5075798857",
       "area": "Tierra, clima y ambiente",
@@ -25953,7 +26034,7 @@
       "orcid": "0000-0001-9789-1695",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -26286,7 +26367,7 @@
       "orcid": null,
       "site": null,
       "updated": "26-06-2021",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -27060,7 +27141,7 @@
       "orcid": null,
       "site": null,
       "updated": "12-02-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -27556,7 +27637,7 @@
       "orcid": "0009-0008-6984-3563",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5127749626",
       "area": null,
@@ -28286,7 +28367,7 @@
       "orcid": "0000-0002-9815-9321",
       "site": null,
       "updated": "12-02-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5015145484",
       "area": "Física médica y radiaciones",
@@ -28564,7 +28645,7 @@
       "orcid": "0000-0002-9620-4678",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5030883890",
       "area": "Física computacional y matemática",
@@ -28692,7 +28773,7 @@
       "orcid": "0000-0002-8397-821X",
       "site": null,
       "updated": "06-09-2023",
-      "degree": "Licenciatura en geofísica",
+      "degree": "Doctorado",
       "track": "Geofísica",
       "studied": [
         {
@@ -28964,7 +29045,7 @@
       "orcid": null,
       "site": null,
       "updated": "29-05-2017",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -29623,7 +29704,7 @@
       "orcid": "0000-0003-0345-7535",
       "site": null,
       "updated": "01-03-2022",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -29903,7 +29984,7 @@
       "orcid": "0000-0002-4930-1248",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5006634517",
       "area": null,
@@ -30810,7 +30891,7 @@
       "orcid": "0000-0002-8365-7969",
       "site": null,
       "updated": "17-01-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5013270741",
       "area": null,
@@ -31767,7 +31848,7 @@
       "orcid": "0000-0002-1486-0154",
       "site": null,
       "updated": "12-07-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5034172554",
       "area": "Astronomía y astrofísica",
@@ -32057,7 +32138,7 @@
       "orcid": "0000-0001-6274-6789",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5133353025",
       "area": "Física médica y radiaciones",
@@ -32270,7 +32351,7 @@
       "orcid": "0000-0002-4241-2834",
       "site": null,
       "updated": "06-02-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5033184989",
       "area": "Tierra, clima y ambiente",
@@ -32366,7 +32447,7 @@
       "orcid": "0000-0002-8462-0615",
       "site": null,
       "updated": "19-06-2025",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -32766,7 +32847,7 @@
       "orcid": "0000-0001-5539-7365",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -33117,7 +33198,7 @@
       "orcid": "0000-0001-7539-9712",
       "site": null,
       "updated": "07-02-2025",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5102012051",
       "area": "Ingeniería y energía",
@@ -33175,7 +33256,7 @@
       "orcid": "0000-0002-2652-799X",
       "site": null,
       "updated": "07-10-2025",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5057466419",
       "area": null,
@@ -33853,7 +33934,7 @@
       "orcid": "0000-0002-6754-1851",
       "site": null,
       "updated": "03-03-2022",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5044782337",
       "area": "Enseñanza de la física",
@@ -34390,7 +34471,7 @@
       "orcid": "0000-0001-6322-8553",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -34516,7 +34597,7 @@
       "orcid": "0000-0003-0414-0628",
       "site": null,
       "updated": "16-09-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5113127239",
       "area": "Física computacional y matemática",
@@ -35042,7 +35123,7 @@
       "orcid": "0009-0007-6123-2234",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -35169,7 +35250,7 @@
       "orcid": "0000-0003-2481-4546",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5049412122",
       "area": "Astronomía y astrofísica",
@@ -35581,7 +35662,7 @@
       "orcid": "0000-0002-1591-0782",
       "site": null,
       "updated": "30-01-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5079606903",
       "area": "Tierra, clima y ambiente",
@@ -36284,7 +36365,7 @@
       "orcid": "0000-0002-5376-8246",
       "site": null,
       "updated": "07-10-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5085534726",
       "area": "Óptica y física atómica",
@@ -36665,7 +36746,7 @@
       "orcid": "0000-0002-9314-4964",
       "site": null,
       "updated": "12-08-2025",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5099788564",
       "area": "Física computacional y matemática",
@@ -39167,7 +39248,7 @@
       "orcid": "0000-0001-5646-3264",
       "site": null,
       "updated": "01-08-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5035965607",
       "area": "Física médica y radiaciones",
@@ -39609,7 +39690,7 @@
       "orcid": "0000-0003-1488-5439",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5063012102",
       "area": "Astronomía y astrofísica",
@@ -39753,7 +39834,7 @@
       "orcid": null,
       "site": null,
       "updated": "17-11-2020",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -39970,7 +40051,7 @@
       "orcid": null,
       "site": null,
       "updated": "09-11-2024",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -40215,7 +40296,7 @@
       "orcid": "0000-0002-7494-8190",
       "site": null,
       "updated": "20-06-2024",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5034203319",
       "area": "Física computacional y matemática",
@@ -40503,7 +40584,7 @@
       "orcid": "0009-0002-0869-4978",
       "site": null,
       "updated": "14-01-2025",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -41303,7 +41384,7 @@
       "orcid": "0000-0002-2771-8093",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -41906,7 +41987,7 @@
       "orcid": "0000-0002-3304-9092",
       "site": null,
       "updated": "07-02-2025",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "openalex": "A5003367916",
       "area": "Ingeniería y energía",
@@ -42696,6 +42777,99 @@
       ]
     },
     {
+      "slug": "jhan-carlo-espinoza-villar",
+      "name": "Jhan Carlo Espinoza Villar",
+      "initials": "JE",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=3392",
+      "orcid": "0000-0001-7732-8504",
+      "site": "CTI Vitae",
+      "updated": "16-01-2026",
+      "degree": "Doctorado",
+      "track": "Ingeniería",
+      "studied": [
+        {
+          "place": "unalm",
+          "level": "Licenciatura",
+          "field": "Ingeniero agrícola",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "unalm",
+          "level": "Maestría",
+          "field": "Magister scientiae, especialidad: recursos hídricos",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "upmc",
+          "level": "Doctorado",
+          "field": "Doctor, especialidad: ciencias del ambiente de île de france",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [
+        {
+          "place": "ird",
+          "role": "Investigador científico"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ird",
+          "name": "Instituto de Investigación para el Desarrollo (IRD)",
+          "role": "Investigador científico",
+          "start": 2018,
+          "end": "now"
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador científico principal",
+          "start": 2011,
+          "end": 2018
+        },
+        {
+          "place": "cnes",
+          "name": "Centro Nacional de Estudios Espaciales (CNES)",
+          "role": "Investigador en post-doctorado",
+          "start": 2010,
+          "end": 2011
+        },
+        {
+          "place": "upmc",
+          "name": "Universidad Pierre y Marie Curie",
+          "role": "Investigador en doctorado",
+          "start": 2005,
+          "end": 2009
+        }
+      ],
+      "path": [
+        {
+          "place": "unalm",
+          "did": ["Licenciatura", "Maestría"]
+        },
+        {
+          "place": "upmc",
+          "did": ["Doctorado", "Investigador en doctorado"]
+        },
+        {
+          "place": "cnes",
+          "did": ["Investigador en post-doctorado"]
+        },
+        {
+          "place": "igp",
+          "did": ["Investigador científico principal"]
+        },
+        {
+          "place": "ird",
+          "did": ["Investigador científico"]
+        }
+      ]
+    },
+    {
       "slug": "rosmery-espirilla-soncco",
       "name": "Rosmery Espirilla Soncco",
       "initials": "RE",
@@ -43384,7 +43558,7 @@
       "orcid": "0009-0006-3160-8926",
       "site": null,
       "updated": "20-03-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -44322,7 +44496,7 @@
       "orcid": "0000-0002-7220-2643",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5107971959",
       "area": "Tierra, clima y ambiente",
@@ -44442,7 +44616,7 @@
       "orcid": "0000-0001-9893-2882",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5120053678",
       "area": null,
@@ -44840,7 +45014,7 @@
       "orcid": "0000-0002-0019-9692",
       "site": null,
       "updated": "",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5021133676",
       "area": "Partículas y física nuclear",
@@ -45066,7 +45240,7 @@
       "orcid": "0000-0001-6745-7601",
       "site": null,
       "updated": "17-05-2019",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5028987103",
       "area": null,
@@ -45467,7 +45641,7 @@
       "orcid": "0000-0003-0709-5797",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -46416,7 +46590,7 @@
       "orcid": "0009-0003-4496-3511",
       "site": null,
       "updated": "23-02-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -46856,7 +47030,7 @@
       "orcid": null,
       "site": "LinkedIn",
       "updated": "02-11-2026",
-      "degree": "Licenciatura en geofísica",
+      "degree": "Maestría",
       "track": "Geofísica",
       "fields": [
         "Interferometría radar (InSAR)",
@@ -47193,7 +47367,7 @@
       "orcid": "0000-0002-9235-9138",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en geofísica",
+      "degree": "Maestría",
       "track": "Geofísica",
       "openalex": "A5031796175",
       "area": "Tierra, clima y ambiente",
@@ -47279,7 +47453,7 @@
       "orcid": "0000-0002-9375-1430",
       "site": null,
       "updated": "01-01-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5054868616",
       "area": "Materia condensada y materiales",
@@ -48585,7 +48759,7 @@
       "orcid": "0000-0001-8079-8371",
       "site": null,
       "updated": "20-10-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5007926267",
       "area": "Física médica y radiaciones",
@@ -49776,7 +49950,7 @@
       "orcid": "0000-0002-2430-3909",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5003336992",
       "area": "Astronomía y astrofísica",
@@ -51684,6 +51858,151 @@
       ]
     },
     {
+      "slug": "jose-kaname-ishitsuka-iba",
+      "name": "Jose Kaname Ishitsuka Iba",
+      "initials": "JI",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=35",
+      "orcid": "0000-0003-3940-0127",
+      "site": "CTI Vitae",
+      "updated": "11-09-2019",
+      "degree": "Doctorado",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "uvg",
+          "level": "Bachillerato",
+          "field": "Bachiller en ciencias",
+          "start": 1991,
+          "end": 1995
+        },
+        {
+          "place": "kagoshima",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "utokyo",
+          "level": "Doctorado",
+          "field": "Grado de doctor (ph.d.) en el campo de estudio ciencias multidisciplinarias",
+          "start": null,
+          "end": null
+        }
+      ],
+      "works": [],
+      "jobs": [
+        {
+          "place": "uncp",
+          "name": "Universidad Nacional del Centro del Perú",
+          "role": "Consultor",
+          "start": 2018,
+          "end": 2019
+        },
+        {
+          "place": null,
+          "name": "Ministerio de Economia y Finanzas",
+          "role": "Consultor",
+          "start": 2017,
+          "end": 2017
+        },
+        {
+          "place": null,
+          "name": "Ministerio de Economia y Finanzas",
+          "role": "Consultor",
+          "start": 2014,
+          "end": 2017
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador cientifico superior",
+          "start": 2013,
+          "end": 2014
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador científico asociado",
+          "start": 2006,
+          "end": 2013
+        },
+        {
+          "place": "naoj",
+          "name": "Observatorio Astronómico Nacional de Japón",
+          "role": "Investigador visitante",
+          "start": 2004,
+          "end": 2005
+        },
+        {
+          "place": "naoj",
+          "name": "Observatorio Astronómico Nacional de Japón",
+          "role": "Asistente de investigador",
+          "start": 2004,
+          "end": 2005
+        },
+        {
+          "place": "naoj",
+          "name": "Observatorio Astronómico Nacional de Japón",
+          "role": "Investigador post doctoral",
+          "start": 2002,
+          "end": 2004
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Director de observatorio",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador visitante",
+          "start": null,
+          "end": null
+        }
+      ],
+      "path": [
+        {
+          "place": "uvg",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "kagoshima",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "utokyo",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "naoj",
+          "did": ["Investigador post doctoral"]
+        },
+        {
+          "place": "igp",
+          "did": ["Director de observatorio", "Investigador visitante"]
+        },
+        {
+          "place": "naoj",
+          "did": ["Investigador visitante", "Asistente de investigador"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Investigador científico asociado",
+            "Investigador cientifico superior"
+          ]
+        },
+        {
+          "place": "uncp",
+          "did": ["Consultor"]
+        }
+      ]
+    },
+    {
       "slug": "cesario-izaguirre-tarazona",
       "name": "Cesario Izaguirre Tarazona",
       "initials": "CI",
@@ -51967,7 +52286,7 @@
       "orcid": "0000-0001-5888-1662",
       "site": null,
       "updated": "19-03-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5060110965",
       "area": "Física médica y radiaciones",
@@ -52510,7 +52829,7 @@
       "orcid": "0000-0002-4381-2565",
       "site": null,
       "updated": "29-11-2025",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5093105593",
       "area": "Ingeniería y energía",
@@ -54922,7 +55241,7 @@
       "orcid": "0000-0003-3666-336X",
       "site": null,
       "updated": "04-02-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -55179,7 +55498,7 @@
       "orcid": "0000-0001-9039-5234",
       "site": null,
       "updated": "",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -55236,7 +55555,7 @@
       "orcid": "0009-0001-9714-5104",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -56582,7 +56901,7 @@
       "orcid": "0000-0002-5156-6931",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5060297554",
       "area": null,
@@ -56893,7 +57212,7 @@
         {
           "place": "paris-diderot",
           "level": "Maestría",
-          "field": "Certificar, sólo para el ejercicio de la docencia ordinaria en las universidades del país, el grado de maestro, maestría en ciencias de la tierra",
+          "field": "Maestría en ciencias de la tierra",
           "start": null,
           "end": null
         },
@@ -57262,7 +57581,7 @@
       "orcid": "0000-0002-0557-819X",
       "site": null,
       "updated": "06-10-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "openalex": "A5014993247",
       "area": "Tierra, clima y ambiente",
@@ -57902,7 +58221,7 @@
       "orcid": "0000-0001-9659-6037",
       "site": null,
       "updated": "14-08-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5006941548",
       "area": null,
@@ -58324,7 +58643,7 @@
       "orcid": "0000-0003-4704-8282",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5085442484",
       "area": "Física médica y radiaciones",
@@ -59298,7 +59617,7 @@
       "orcid": "0000-0001-8268-428X",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5037566861",
       "area": "Tierra, clima y ambiente",
@@ -61242,7 +61561,7 @@
       "orcid": "0000-0002-5642-3833",
       "site": null,
       "updated": "25-08-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5013257618",
       "area": "Ingeniería y energía",
@@ -61489,7 +61808,7 @@
       "orcid": "0000-0001-8644-3010",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -62851,7 +63170,7 @@
       "orcid": null,
       "site": null,
       "updated": "",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -63288,7 +63607,7 @@
       "orcid": "0000-0003-0253-4201",
       "site": null,
       "updated": "02-12-2024",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5084613625",
       "area": "Tierra, clima y ambiente",
@@ -63382,7 +63701,7 @@
       "orcid": null,
       "site": "Cybertesis UNMSM",
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -64316,7 +64635,7 @@
       "orcid": "0000-0001-7362-2845",
       "site": null,
       "updated": "23-06-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "openalex": "A5019364683",
       "area": "Tierra, clima y ambiente",
@@ -66628,7 +66947,7 @@
       "orcid": "0000-0003-1412-586X",
       "site": null,
       "updated": "18-09-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5018242799",
       "area": "Física médica y radiaciones",
@@ -67161,7 +67480,7 @@
       "orcid": "0000-0001-6904-3736",
       "site": null,
       "updated": "03-10-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5084824599",
       "area": "Tierra, clima y ambiente",
@@ -67411,7 +67730,7 @@
       "orcid": "0000-0002-4655-8304",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "openalex": "A5074556281",
       "area": "Física médica y radiaciones",
@@ -68389,7 +68708,7 @@
       "orcid": "0000-0002-5264-003X",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5032253437",
       "area": "Física médica y radiaciones",
@@ -69838,7 +70157,7 @@
       "orcid": "0000-0002-3894-5320",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5083379988",
       "area": "Tierra, clima y ambiente",
@@ -70971,7 +71290,7 @@
       "orcid": "0000-0003-1418-0375",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5093830739",
       "area": "Ingeniería y energía",
@@ -71479,7 +71798,7 @@
       "orcid": "0000-0002-3020-750X",
       "site": null,
       "updated": "17-02-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5128822302",
       "area": "Física médica y radiaciones",
@@ -72474,7 +72793,7 @@
       "orcid": null,
       "site": null,
       "updated": "21-01-2015",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -72593,7 +72912,7 @@
       "orcid": "0000-0001-5084-3637",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -73230,7 +73549,7 @@
       "orcid": "0000-0002-8251-6849",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -76516,7 +76835,7 @@
       "orcid": "0000-0001-8431-6528",
       "site": null,
       "updated": "17-02-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5024164104",
       "area": "Tierra, clima y ambiente",
@@ -76895,7 +77214,7 @@
       "orcid": "0000-0002-4986-7655",
       "site": null,
       "updated": "21-08-2022",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -77508,7 +77827,7 @@
       "orcid": null,
       "site": null,
       "updated": "15-04-2019",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -77784,7 +78103,7 @@
       "orcid": "0000-0002-3209-2646",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5101484237",
       "area": "Física médica y radiaciones",
@@ -78368,7 +78687,7 @@
       "orcid": "0000-0001-7918-3265",
       "site": null,
       "updated": "19-10-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5009712343",
       "area": "Ingeniería y energía",
@@ -78808,7 +79127,7 @@
       "orcid": "0000-0002-9164-7568",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "openalex": "A5119188035",
       "area": null,
@@ -78952,7 +79271,7 @@
       "orcid": "0000-0002-0539-4200",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5113974048",
       "area": "Ingeniería y energía",
@@ -79075,7 +79394,7 @@
       "orcid": "0000-0001-9645-0046",
       "site": null,
       "updated": "07-08-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "openalex": "A5091101927",
       "area": "Ingeniería y energía",
@@ -80009,7 +80328,7 @@
       "orcid": null,
       "site": null,
       "updated": "01-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -80230,6 +80549,195 @@
       ]
     },
     {
+      "slug": "danny-eddy-scipion-castillo",
+      "name": "Danny Eddy Scipion Castillo",
+      "initials": "DS",
+      "source": "web",
+      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16043",
+      "orcid": "0000-0002-6807-0238",
+      "site": "CTI Vitae",
+      "updated": "16-03-2026",
+      "degree": "Doctorado en ingeniería",
+      "track": "Ingeniería",
+      "fields": [
+        "Radares atmosféricos e ionosféricos",
+        "Turbulencia en la capa límite y la troposfera",
+        "Vientos de la mesosfera y la baja termosfera"
+      ],
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": "Bachiller en ciencias con mencion en ingenieria electronica",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "pucp",
+          "level": "Licenciatura",
+          "field": "Ingeniero electronico",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "oklahoma",
+          "level": "Maestría",
+          "field": "Magister en ciencias con mención en ing. electrica y computación",
+          "start": 2005,
+          "end": 2007
+        },
+        {
+          "place": "pucp",
+          "level": "Doctorado",
+          "field": "Doctor en ingeniería",
+          "start": null,
+          "end": null
+        },
+        {
+          "place": "oklahoma",
+          "level": "Doctorado",
+          "field": "Doctor of philosophy en ingeniería eléctrica y computación",
+          "start": 2008,
+          "end": 2011
+        }
+      ],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Director de ciencias del geoespacio"
+        },
+        {
+          "place": "pucp",
+          "role": "Profesor a tiempo parcial, escuela de posgrado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Director de ciencias del geoespacio",
+          "start": 2025,
+          "end": "now"
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Director del radio observatorio de jicamarca",
+          "start": 2021,
+          "end": 2026
+        },
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Profesor a tiempo parcial, escuela de posgrado",
+          "start": 2013,
+          "end": "now"
+        },
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Profesor a tiempo parcial",
+          "start": 2017,
+          "end": 2017
+        },
+        {
+          "place": "ciencia-internacional",
+          "name": "Ciencia Internacional",
+          "role": "Investigador científico",
+          "start": 2021,
+          "end": 2021
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Director científico",
+          "start": 2018,
+          "end": 2020
+        },
+        {
+          "place": "ciencia-internacional",
+          "name": "Ciencia Internacional",
+          "role": "Investigador científico",
+          "start": 2013,
+          "end": 2018
+        },
+        {
+          "place": "epfl",
+          "name": "Escuela Politécnica Federal de Lausana",
+          "role": "Investigador posdoctoral",
+          "start": 2011,
+          "end": 2013
+        },
+        {
+          "place": "oklahoma",
+          "name": "Universidad de Oklahoma",
+          "role": "Asistente de investigación",
+          "start": 2005,
+          "end": 2013
+        },
+        {
+          "place": "ciencia-internacional",
+          "name": "Ciencia Internacional",
+          "role": "Ingeniero",
+          "start": 1999,
+          "end": 2005
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "ciencia-internacional",
+          "did": ["Ingeniero"]
+        },
+        {
+          "place": "oklahoma",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "oklahoma",
+          "did": ["Asistente de investigación", "Doctorado"]
+        },
+        {
+          "place": "epfl",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Profesor a tiempo parcial, escuela de posgrado"]
+        },
+        {
+          "place": "ciencia-internacional",
+          "did": ["Investigador científico"]
+        },
+        {
+          "place": "uni",
+          "did": ["Profesor a tiempo parcial"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Director científico",
+            "Director del radio observatorio de jicamarca"
+          ]
+        },
+        {
+          "place": "ciencia-internacional",
+          "did": ["Investigador científico"]
+        },
+        {
+          "place": "igp",
+          "did": ["Director de ciencias del geoespacio"]
+        }
+      ]
+    },
+    {
       "slug": "berlin-segura-curi",
       "name": "Berlin Segura Curi",
       "initials": "BS",
@@ -80267,7 +80775,7 @@
       "orcid": "0000-0002-6791-3045",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "studied": [
         {
@@ -80322,7 +80830,7 @@
       "orcid": "0000-0002-3155-2946",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5091633065",
       "area": "Óptica y física atómica",
@@ -80796,7 +81304,7 @@
       "orcid": "0000-0003-2380-3677",
       "site": null,
       "updated": "30-04-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -82211,7 +82719,7 @@
       "orcid": "0000-0003-4393-3161",
       "site": null,
       "updated": "11-06-2025",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5034246335",
       "area": "Tierra, clima y ambiente",
@@ -82555,7 +83063,7 @@
       "orcid": "0000-0002-2625-7803",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5029121612",
       "area": "Astronomía y astrofísica",
@@ -82746,7 +83254,7 @@
       "orcid": "0000-0001-8663-5645",
       "site": null,
       "updated": "02-03-2022",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "studied": [
         {
@@ -82801,27 +83309,128 @@
       "name": "Ken Takahashi Guevara",
       "initials": "KT",
       "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=takahashi+guevara%2C+ken",
-      "orcid": null,
-      "site": "RENATI",
+      "url": "https://orcid.org/0000-0003-3670-2939",
+      "orcid": "0000-0003-3670-2939",
+      "site": "ORCID",
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null,
+          "start": null,
+          "end": 1998
+        },
         {
           "place": "pucp",
           "level": "Licenciatura",
           "field": null,
           "start": null,
           "end": 2020
+        },
+        {
+          "place": "uw",
+          "level": "Doctorado",
+          "field": "Ph. d. en ciencias atmosféricas",
+          "start": 2002,
+          "end": 2006
         }
       ],
-      "works": [],
-      "jobs": [],
+      "works": [
+        {
+          "place": "igp",
+          "role": "Investigador científico principal, ciencias de la atmósfera, hidrósfera y cambio climático"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador científico principal, ciencias de la atmósfera, hidrósfera y cambio climático",
+          "start": 2021,
+          "end": "now"
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Presidente ejecutivo",
+          "start": 2017,
+          "end": 2021
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Investigador científico principal y director de investigación en variabilidad y cambio climático",
+          "start": 2009,
+          "end": 2017
+        },
+        {
+          "place": "princeton",
+          "name": "Princeton University",
+          "role": "Investigador posdoctoral en ciencias atmosféricas y oceánicas",
+          "start": 2007,
+          "end": 2008
+        },
+        {
+          "place": "uw",
+          "name": "Universidad de Washington",
+          "role": "Asistente de investigación e investigador asociado, ciencias atmosféricas",
+          "start": 2002,
+          "end": 2006
+        },
+        {
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
+          "role": "Asistente de investigación e investigador científico asociado",
+          "start": 1998,
+          "end": 2002
+        }
+      ],
       "path": [
         {
           "place": "pucp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Asistente de investigación e investigador científico asociado"
+          ]
+        },
+        {
+          "place": "uw",
+          "did": [
+            "Doctorado",
+            "Asistente de investigación e investigador asociado, ciencias atmosféricas"
+          ]
+        },
+        {
+          "place": "princeton",
+          "did": [
+            "Investigador posdoctoral en ciencias atmosféricas y oceánicas"
+          ]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Investigador científico principal y director de investigación en variabilidad y cambio climático"
+          ]
+        },
+        {
+          "place": "senamhi",
+          "did": ["Presidente ejecutivo"]
+        },
+        {
+          "place": "pucp",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Investigador científico principal, ciencias de la atmósfera, hidrósfera y cambio climático"
+          ]
         }
       ]
     },
@@ -83292,7 +83901,7 @@
       "orcid": "0000-0003-0415-6224",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5099093443",
       "area": null,
@@ -83800,7 +84409,7 @@
       "orcid": "0000-0002-2164-6738",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -84579,7 +85188,7 @@
       "orcid": "0000-0002-6692-8042",
       "site": null,
       "updated": "03-04-2025",
-      "degree": "Licenciatura en geofísica",
+      "degree": "Maestría",
       "track": "Geofísica",
       "openalex": "A5103225746",
       "area": "Tierra, clima y ambiente",
@@ -85382,7 +85991,7 @@
       "orcid": "0000-0003-0076-4257",
       "site": null,
       "updated": "19-10-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5150626239",
       "area": null,
@@ -86266,7 +86875,7 @@
       "orcid": "0000-0001-8512-7040",
       "site": null,
       "updated": "14-08-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5000524670",
       "area": "Enseñanza de la física",
@@ -86680,7 +87289,7 @@
       "orcid": "0000-0003-0798-9539",
       "site": null,
       "updated": "09-07-2026",
-      "degree": "Licenciatura en geofísica",
+      "degree": "Maestría",
       "track": "Geofísica",
       "openalex": "A5041644657",
       "area": "Tierra, clima y ambiente",
@@ -87196,7 +87805,7 @@
       "orcid": "0000-0001-8260-4884",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría",
       "track": "Física",
       "openalex": "A5132972180",
       "area": "Ingeniería y energía",
@@ -87532,7 +88141,7 @@
       "orcid": "0000-0002-5562-8378",
       "site": null,
       "updated": "02-01-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5101495167",
       "area": "Física médica y radiaciones",
@@ -87815,7 +88424,7 @@
       "orcid": "0000-0002-2960-3150",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5056534298",
       "area": "Ingeniería y energía",
@@ -88756,7 +89365,7 @@
       "orcid": "0000-0002-0707-1798",
       "site": null,
       "updated": "06-11-2025",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -89024,7 +89633,7 @@
       "orcid": "0000-0001-7114-7470",
       "site": null,
       "updated": "03-03-2025",
-      "degree": "Maestría en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5090980123",
       "area": "Ingeniería y energía",
@@ -89563,7 +90172,7 @@
       "orcid": "0000-0002-2772-1508",
       "site": null,
       "updated": "26-12-2023",
-      "degree": "Licenciatura en geofísica",
+      "degree": "Doctorado",
       "track": "Geofísica",
       "openalex": "A5082630161",
       "area": "Tierra, clima y ambiente",
@@ -90068,7 +90677,7 @@
       "orcid": "0000-0002-9261-424X",
       "site": null,
       "updated": "10-02-2026",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5019478154",
       "area": "Partículas y física nuclear",
@@ -90766,7 +91375,7 @@
       "orcid": "0000-0002-5889-9173",
       "site": null,
       "updated": "09-10-2026",
-      "degree": "Maestría en física",
+      "degree": "Doctorado en ingeniería",
       "track": "Física",
       "openalex": "A5068971366",
       "area": "Óptica y física atómica",
@@ -90867,7 +91476,7 @@
       "orcid": "0000-0002-3708-7520",
       "site": null,
       "updated": "11-10-2017",
-      "degree": "Licenciatura en geofísica",
+      "degree": "Maestría",
       "track": "Geofísica",
       "studied": [
         {
@@ -91249,7 +91858,7 @@
       "orcid": "0000-0003-0741-7151",
       "site": null,
       "updated": "02-04-2024",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "studied": [
         {
@@ -92383,7 +92992,7 @@
       "orcid": "0000-0003-2363-0817",
       "site": null,
       "updated": "24-08-2023",
-      "degree": "Licenciatura en física",
+      "degree": "Doctorado",
       "track": "Física",
       "openalex": "A5088790238",
       "area": "Física computacional y matemática",
