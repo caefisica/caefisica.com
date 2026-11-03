@@ -161,11 +161,10 @@ layout: "offering"
 ---
 ```
 
-`professor` is a lecturer slug (see [naming](contenido.md#names)); if that
-folder does not exist, the build fails. Without `professor` the syllabus shows
-no "Docente" row. The syllabus page shows the term, the lecturer and each
-`silabo*.pdf` file in a viewer. Without a PDF it shows "No hay sílabo disponible
-para este semestre".
+`professor` is a lecturer slug (see [naming](contenido.md#names)). Without
+`professor` the syllabus shows no "Docente" row. The syllabus page shows the
+term, the lecturer and each `silabo*.pdf` file in a viewer. Without a PDF it
+shows "No hay sílabo disponible para este semestre".
 
 ## Lecturers
 

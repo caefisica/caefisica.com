@@ -62,8 +62,7 @@ PDFs), `ui/` (icons, dates, avatars), and `home/` and `search/` for their pages.
 - [`docs/course-info.html`](../../layouts/_partials/docs/course-info.html) draws
   the course data (code, credits, prerequisites, lecturers and terms with
   `silabo*.pdf`) on pages with `showInformationBox` and `id`. Each `professor`
-  slug resolves with `data/professor.html`: if the folder does not exist in
-  `content/professors/`, the build fails.
+  slug resolves with `data/professor.html`.
 - [`article/page-footer.html`](../../layouts/_partials/article/page-footer.html)
   puts the date of the last commit and the "Edita esta página" link.
 - The syllabus `2022-I/index.md` uses `layout: "offering"`:

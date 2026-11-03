@@ -162,11 +162,10 @@ layout: "offering"
 ---
 ```
 
-`professor` es el slug de un docente (ver [nombres](contenido.md#nombres)); si
-no existe esa carpeta, la compilación falla. Sin `professor` el sílabo no
-muestra la fila «Docente». La página del sílabo muestra el semestre, el docente
-y cada archivo `silabo*.pdf` en un visor. Sin PDF muestra «No hay sílabo
-disponible para este semestre».
+`professor` es el slug de un docente (ver [nombres](contenido.md#nombres)). Sin
+`professor` el sílabo no muestra la fila «Docente». La página del sílabo muestra
+el semestre, el docente y cada archivo `silabo*.pdf` en un visor. Sin PDF
+muestra «No hay sílabo disponible para este semestre».
 
 ## Docentes
 

@@ -63,8 +63,7 @@ sus páginas. `single.html` llama a
 - [`docs/course-info.html`](../../layouts/_partials/docs/course-info.html)
   dibuja los datos del curso (código, créditos, prerrequisitos, docentes y
   semestres con `silabo*.pdf`) en las páginas con `showInformationBox` e `id`.
-  Cada slug de `professor` se resuelve con `data/professor.html`: si la carpeta
-  no existe en `content/professors/`, la compilación falla.
+  Cada slug de `professor` se resuelve con `data/professor.html`.
 - [`article/page-footer.html`](../../layouts/_partials/article/page-footer.html)
   pone la fecha del último commit y el enlace «Edita esta página».
 - El sílabo `2022-I/index.md` usa `layout: "offering"`:
