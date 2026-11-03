@@ -12,10 +12,7 @@ Courses carry a semester, so a group of courses splits into one grid per semeste
 			</h2>
 		{{- end }}
 		{{- if $courses -}}
-			{{- /* Courses are section pages, and GroupByParam returns no groups for section pages, so the semesters are collected by hand. */ -}}
-			{{- $semesters := slice -}}
-			{{- range $courses }}{{ $semesters = $semesters | append .Params.semester }}{{ end -}}
-			{{- range sort (uniq $semesters) }}
+			{{- range partial "docs/semesters.html" $courses }}
 				{{ printf `<%s class="section-group-term">Ciclo %v</%s>` $heading . $heading | safeHTML }}
 				{{- partial "docs/section-cards.html" (where $courses "Params.semester" .) -}}
 			{{- end }}

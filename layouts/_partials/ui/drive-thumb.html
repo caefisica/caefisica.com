@@ -1,0 +1,5 @@
+{{- /*
+The thumbnail of a Google Drive video. Context: the Drive file id.
+Google refuses this image to a request that names another site as referrer.
+*/ -}}
+<img src="https://lh3.googleusercontent.com/d/{{ . }}=w640" alt="" width="640" height="360" referrerpolicy="no-referrer"/>

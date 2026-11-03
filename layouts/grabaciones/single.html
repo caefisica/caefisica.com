@@ -31,8 +31,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video, a
 		{{- .Store.Set "player" true }}
 		<div class="player talk-player" data-host="drive">
 			<a class="player-start" href="{{ $r.url }}" data-video="{{ $id }}">
-				{{- /* Google refuses this image to a request that names another site as referrer. */}}
-				<img src="https://lh3.googleusercontent.com/d/{{ $id }}=w640" alt="" width="640" height="360" referrerpolicy="no-referrer"/>
+				{{- partial "ui/drive-thumb.html" $id }}
 				<span class="player-label">
 					{{ partial "ui/icon.html" (dict "name" "play" "size" 20) }}
 					<span>Ver{{ with $r.minutes }} · {{ . }} min{{ end }}</span>

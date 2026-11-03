@@ -14,10 +14,7 @@ A section whose subsections carry a semester is a curriculum: its courses group 
 	{{- $courses := where $children "Params.semester" "!=" nil -}}
 	{{- $items := "" -}}
 	{{- if $courses -}}
-		{{- /* Courses are section pages, and GroupByParam returns no groups for section pages, so the semesters are collected by hand. */ -}}
-		{{- $semesters := slice -}}
-		{{- range $courses }}{{ $semesters = $semesters | append .Params.semester }}{{ end -}}
-		{{- range sort (uniq $semesters) -}}
+		{{- range partial "docs/semesters.html" $courses -}}
 			{{- $semester := . -}}
 			{{- $links := "" -}}
 			{{- $open := false -}}
