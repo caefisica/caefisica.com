@@ -24,21 +24,22 @@ content/unmsm/pregrado/plan-2018/CFO601/
 
 Front matter fields the templates use:
 
-| Field           | Use                                                               |
-| --------------- | ----------------------------------------------------------------- |
-| `title`         | Course name.                                                      |
-| `lead`          | Opening text under the title.                                     |
-| `description`   | Summary for search engines and social networks.                   |
-| `id`            | Course code. Without `id` the information box does not appear.    |
-| `credits`       | Credits, in the information box.                                  |
-| `prerequisites` | List of texts; joined with " y " in the information box.          |
-| `semester`      | Term number. The side menu groups courses by this value.          |
-| `contributors`  | Slugs of people. See [people](contenido.md#people).               |
-| `working`       | With `true`, shows the notice "Estamos trabajando en este curso". |
-| `math`          | With `true`, loads KaTeX for formulas.                            |
-| `mermaid`       | With `true`, loads Mermaid for the `mermaid` shortcode.           |
-| `weight`        | Page order; Hugo sorts from lowest to highest.                    |
-| `draft`         | With `true`, the page is not published. `bun run dev` shows it.   |
+| Field           | Use                                                                                               |
+| --------------- | ------------------------------------------------------------------------------------------------- |
+| `title`         | Course name.                                                                                      |
+| `lead`          | Opening text under the title.                                                                     |
+| `description`   | Summary for search engines and social networks.                                                   |
+| `id`            | Course code. Without `id` the information box does not appear.                                    |
+| `credits`       | Credits, in the information box.                                                                  |
+| `prerequisites` | List of texts; joined with " y " in the information box.                                          |
+| `semester`      | Term number. The side menu groups courses by this value.                                          |
+| `contributors`  | Slugs of people. See [people](contenido.md#people).                                               |
+| `working`       | With `true`, shows the notice "Estamos trabajando en este curso".                                 |
+| `organization`  | Id of an organization under `/organizaciones/`; the guide links it and that page lists the guide. |
+| `math`          | With `true`, loads KaTeX for formulas.                                                            |
+| `mermaid`       | With `true`, loads Mermaid for the `mermaid` shortcode.                                           |
+| `weight`        | Page order; Hugo sorts from lowest to highest.                                                    |
+| `draft`         | With `true`, the page is not published. `bun run dev` shows it.                                   |
 
 The information box (code, credits, prerequisites, lecturers and syllabi)
 appears on the pages of `content/unmsm/` that have an `id`:

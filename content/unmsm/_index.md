@@ -9,6 +9,7 @@ lead:
   "El plan de pregrado curso por curso, los programas de posgrado y los trámites
   de la facultad."
 description: ""
+organization: unmsm
 date: 2020-10-06T08:48:23+00:00
 draft: false
 images: []

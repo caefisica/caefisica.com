@@ -24,6 +24,16 @@
 					<dd>{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</dd>
 				</div>
 			{{- end }}
+			{{- with where site.Pages "Params.organization" $p.id }}
+				<div>
+					<dt>En el sitio</dt>
+					<dd>
+						{{- range $i, $g := sort . "RelPermalink" -}}
+							{{ if $i }} · {{ end }}<a href="{{ $g.RelPermalink }}">{{ $g.LinkTitle }}</a>
+						{{- end -}}
+					</dd>
+				</div>
+			{{- end }}
 			<div>
 				<dt>Mapa</dt>
 				<dd>

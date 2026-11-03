@@ -24,21 +24,22 @@ content/unmsm/pregrado/plan-2018/CFO601/
 
 Campos del front matter que usan las plantillas:
 
-| Campo           | Uso                                                                |
-| --------------- | ------------------------------------------------------------------ |
-| `title`         | Nombre del curso.                                                  |
-| `lead`          | Texto de apertura bajo el título.                                  |
-| `description`   | Resumen para buscadores y redes sociales.                          |
-| `id`            | Código del curso. Sin `id` no aparece la caja de información.      |
-| `credits`       | Créditos, en la caja de información.                               |
-| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.      |
-| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor. |
-| `contributors`  | Slugs de personas. Ver [personas](contenido.md#personas).          |
-| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».   |
-| `math`          | Con `true`, carga KaTeX para las fórmulas.                         |
-| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.             |
-| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                  |
-| `draft`         | Con `true`, la página no se publica. `bun run dev` la muestra.     |
+| Campo           | Uso                                                                                         |
+| --------------- | ------------------------------------------------------------------------------------------- |
+| `title`         | Nombre del curso.                                                                           |
+| `lead`          | Texto de apertura bajo el título.                                                           |
+| `description`   | Resumen para buscadores y redes sociales.                                                   |
+| `id`            | Código del curso. Sin `id` no aparece la caja de información.                               |
+| `credits`       | Créditos, en la caja de información.                                                        |
+| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.                               |
+| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.                          |
+| `contributors`  | Slugs de personas. Ver [personas](contenido.md#personas).                                   |
+| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».                            |
+| `organization`  | Id de una organización en `/organizaciones/`; la guía la enlaza y esa página lista la guía. |
+| `math`          | Con `true`, carga KaTeX para las fórmulas.                                                  |
+| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                                      |
+| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                                           |
+| `draft`         | Con `true`, la página no se publica. `bun run dev` la muestra.                              |
 
 La caja de información (código, créditos, prerrequisitos, docentes y sílabos)
 aparece en las páginas de `content/unmsm/` que tienen `id`:

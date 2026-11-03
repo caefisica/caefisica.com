@@ -19702,6 +19702,15 @@
       "kind": "universidad"
     },
     {
+      "id": "tamu",
+      "name": "Texas A&M University",
+      "short": "Texas A&M",
+      "country": "US",
+      "lat": 30.61037,
+      "lon": -96.34406,
+      "kind": "universidad"
+    },
+    {
       "id": "furg",
       "name": "Universidade Federal do Rio Grande",
       "short": "FURG",
@@ -19810,6 +19819,15 @@
       "kind": "universidad"
     },
     {
+      "id": "uh-manoa",
+      "name": "Universidad de Hawái en Mānoa",
+      "short": "UH Mānoa",
+      "country": "US",
+      "lat": 21.297,
+      "lon": -157.817,
+      "kind": "universidad"
+    },
+    {
       "id": "uis-no",
       "name": "Universidad de Stavanger",
       "short": "Stavanger",
@@ -19852,6 +19870,897 @@
       "country": "AR",
       "lat": -34.58049,
       "lon": -58.52327,
+      "kind": "universidad"
+    },
+    {
+      "id": "upc-pe",
+      "name": "Universidad Peruana de Ciencias Aplicadas",
+      "short": "UPC",
+      "country": "PE",
+      "lat": -12.10351,
+      "lon": -76.96311,
+      "kind": "universidad"
+    },
+    {
+      "id": "uns",
+      "name": "Universidad Nacional del Santa",
+      "short": "UNS",
+      "country": "PE",
+      "lat": -9.12149,
+      "lon": -78.51271,
+      "kind": "universidad"
+    },
+    {
+      "id": "unhvca",
+      "name": "Universidad Nacional de Huancavelica",
+      "short": "UNH",
+      "country": "PE",
+      "lat": -12.77853,
+      "lon": -74.96086,
+      "kind": "universidad"
+    },
+    {
+      "id": "upt",
+      "name": "Universidad Privada de Tacna",
+      "short": "UPT",
+      "country": "PE",
+      "lat": -18.00584,
+      "lon": -70.22548,
+      "kind": "universidad"
+    },
+    {
+      "id": "upeu",
+      "name": "Universidad Peruana Unión",
+      "short": "UPeU",
+      "country": "PE",
+      "lat": -11.98992,
+      "lon": -76.84131,
+      "kind": "universidad"
+    },
+    {
+      "id": "unaj",
+      "name": "Universidad Nacional de Juliaca",
+      "short": "UNAJ",
+      "country": "PE",
+      "lat": -15.48937,
+      "lon": -70.15191,
+      "kind": "universidad"
+    },
+    {
+      "id": "unc-pe",
+      "name": "Universidad Nacional de Cajamarca",
+      "short": "UNC",
+      "country": "PE",
+      "lat": -7.1682,
+      "lon": -78.49629,
+      "kind": "universidad"
+    },
+    {
+      "id": "upsjb",
+      "name": "Universidad Privada San Juan Bautista",
+      "short": "UPSJB",
+      "country": "PE",
+      "lat": -12.19648,
+      "lon": -77.00756,
+      "kind": "universidad"
+    },
+    {
+      "id": "unas",
+      "name": "Universidad Nacional Agraria de la Selva",
+      "short": "UNAS",
+      "country": "PE",
+      "lat": -9.3176,
+      "lon": -75.99659,
+      "kind": "universidad"
+    },
+    {
+      "id": "unab-pe",
+      "name": "Universidad Nacional de Barranca",
+      "short": "UNAB",
+      "country": "PE",
+      "lat": -10.72667,
+      "lon": -77.7731,
+      "kind": "universidad"
+    },
+    {
+      "id": "uancv",
+      "name": "Universidad Andina Néstor Cáceres Velásquez",
+      "short": "UANCV",
+      "country": "PE",
+      "lat": -15.84218,
+      "lon": -70.02366,
+      "kind": "universidad"
+    },
+    {
+      "id": "uct",
+      "name": "Universidad Católica de Trujillo Benedicto XVI",
+      "short": "UCT",
+      "country": "PE",
+      "lat": -8.1116,
+      "lon": -79.0288,
+      "kind": "universidad"
+    },
+    {
+      "id": "uladech",
+      "name": "Universidad Católica Los Ángeles de Chimbote",
+      "short": "ULADECH",
+      "country": "PE",
+      "lat": -9.07715,
+      "lon": -78.59132,
+      "kind": "universidad"
+    },
+    {
+      "id": "upecen",
+      "name": "Universidad Peruana del Centro",
+      "short": "UPeCEN",
+      "country": "PE",
+      "lat": -12.0651,
+      "lon": -75.2049,
+      "kind": "universidad"
+    },
+    {
+      "id": "unsm",
+      "name": "Universidad Nacional de San Martín",
+      "short": "UNSM",
+      "country": "PE",
+      "lat": -6.48484,
+      "lon": -76.37774,
+      "kind": "universidad"
+    },
+    {
+      "id": "unisc",
+      "name": "Universidad Nacional Intercultural de la Selva Central Juan Santos Atahualpa",
+      "short": "UNISCJSA",
+      "country": "PE",
+      "lat": -10.92744,
+      "lon": -74.87068,
+      "kind": "universidad"
+    },
+    {
+      "id": "enap",
+      "name": "Escuela Naval del Perú",
+      "short": "ENAP",
+      "country": "PE",
+      "lat": -12.07252,
+      "lon": -77.16798,
+      "kind": "instituto"
+    },
+    {
+      "id": "caen",
+      "name": "Centro de Altos Estudios Nacionales",
+      "short": "CAEN",
+      "country": "PE",
+      "lat": -12.169,
+      "lon": -77.023,
+      "kind": "instituto"
+    },
+    {
+      "id": "cip",
+      "name": "Centro Internacional de la Papa",
+      "short": "CIP",
+      "country": "PE",
+      "lat": -12.07694,
+      "lon": -76.94611,
+      "kind": "instituto"
+    },
+    {
+      "id": "senati",
+      "name": "Servicio Nacional de Adiestramiento en Trabajo Industrial",
+      "short": "SENATI",
+      "country": "PE",
+      "lat": -11.9998,
+      "lon": -77.06165,
+      "kind": "estado"
+    },
+    {
+      "id": "inictel",
+      "name": "Instituto Nacional de Investigación y Capacitación de Telecomunicaciones",
+      "short": "INICTEL-UNI",
+      "country": "PE",
+      "lat": -12.08413,
+      "lon": -76.99661,
+      "kind": "instituto"
+    },
+    {
+      "id": "eofap",
+      "name": "Escuela de Oficiales de la Fuerza Aérea del Perú",
+      "short": "EOFAP",
+      "country": "PE",
+      "lat": -12.16,
+      "lon": -76.989,
+      "kind": "instituto"
+    },
+    {
+      "id": "honorio-delgado",
+      "name": "Instituto de Educación Superior Tecnológico Público Honorio Delgado Espinoza",
+      "short": "IESTP Honorio Delgado",
+      "country": "PE",
+      "lat": -16.3989,
+      "lon": -71.535,
+      "kind": "instituto"
+    },
+    {
+      "id": "usach",
+      "name": "Universidad de Santiago de Chile",
+      "short": "Usach",
+      "country": "CL",
+      "lat": -33.44894,
+      "lon": -70.68277,
+      "kind": "universidad"
+    },
+    {
+      "id": "uchile",
+      "name": "Universidad de Chile",
+      "short": "UChile",
+      "country": "CL",
+      "lat": -33.44455,
+      "lon": -70.65095,
+      "kind": "universidad"
+    },
+    {
+      "id": "utarapaca",
+      "name": "Universidad de Tarapacá",
+      "short": "UTA",
+      "country": "CL",
+      "lat": -18.48811,
+      "lon": -70.29458,
+      "kind": "universidad"
+    },
+    {
+      "id": "ucsc-cl",
+      "name": "Universidad Católica de la Santísima Concepción",
+      "short": "UCSC",
+      "country": "CL",
+      "lat": -36.79888,
+      "lon": -73.05609,
+      "kind": "universidad"
+    },
+    {
+      "id": "uba",
+      "name": "Universidad de Buenos Aires",
+      "short": "UBA",
+      "country": "AR",
+      "lat": -34.59972,
+      "lon": -58.37306,
+      "kind": "universidad"
+    },
+    {
+      "id": "auger",
+      "name": "Observatorio Pierre Auger",
+      "short": "Auger",
+      "country": "AR",
+      "lat": -35.20667,
+      "lon": -69.31583,
+      "kind": "instituto"
+    },
+    {
+      "id": "cab",
+      "name": "Centro Atómico Bariloche",
+      "short": "CAB",
+      "country": "AR",
+      "lat": -41.12025,
+      "lon": -71.41476,
+      "kind": "instituto"
+    },
+    {
+      "id": "unal",
+      "name": "Universidad Nacional de Colombia",
+      "short": "UNAL",
+      "country": "CO",
+      "lat": 4.63556,
+      "lon": -74.08278,
+      "kind": "universidad"
+    },
+    {
+      "id": "cujae",
+      "name": "Universidad Tecnológica de La Habana José Antonio Echeverría",
+      "short": "CUJAE",
+      "country": "CU",
+      "lat": 23.05497,
+      "lon": -82.41601,
+      "kind": "universidad"
+    },
+    {
+      "id": "pucmm",
+      "name": "Pontificia Universidad Católica Madre y Maestra",
+      "short": "PUCMM",
+      "country": "DO",
+      "lat": 19.44376,
+      "lon": -70.68342,
+      "kind": "universidad"
+    },
+    {
+      "id": "ipn",
+      "name": "Instituto Politécnico Nacional",
+      "short": "IPN",
+      "country": "MX",
+      "lat": 19.50056,
+      "lon": -99.13972,
+      "kind": "universidad"
+    },
+    {
+      "id": "itesm",
+      "name": "Tecnológico de Monterrey",
+      "short": "Tec de Monterrey",
+      "country": "MX",
+      "lat": 25.65143,
+      "lon": -100.29069,
+      "kind": "instituto"
+    },
+    {
+      "id": "cimav",
+      "name": "Centro de Investigación en Materiales Avanzados",
+      "short": "CIMAV",
+      "country": "MX",
+      "lat": 28.6353,
+      "lon": -106.0889,
+      "kind": "instituto"
+    },
+    {
+      "id": "mctp",
+      "name": "Mesoamerican Centre for Theoretical Physics",
+      "short": "MCTP",
+      "country": "MX",
+      "lat": 16.7521,
+      "lon": -93.1152,
+      "kind": "instituto"
+    },
+    {
+      "id": "uenf",
+      "name": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
+      "short": "UENF",
+      "country": "BR",
+      "lat": -21.76324,
+      "lon": -41.29173,
+      "kind": "universidad"
+    },
+    {
+      "id": "ufam",
+      "name": "Universidade Federal do Amazonas",
+      "short": "UFAM",
+      "country": "BR",
+      "lat": -3.10025,
+      "lon": -59.97652,
+      "kind": "universidad"
+    },
+    {
+      "id": "unemat",
+      "name": "Universidade do Estado de Mato Grosso",
+      "short": "UNEMAT",
+      "country": "BR",
+      "lat": -9.89743,
+      "lon": -56.09452,
+      "kind": "universidad"
+    },
+    {
+      "id": "ifg",
+      "name": "Instituto Federal de Goiás",
+      "short": "IFG",
+      "country": "BR",
+      "lat": -17.88761,
+      "lon": -51.73014,
+      "kind": "instituto"
+    },
+    {
+      "id": "ifrn",
+      "name": "Instituto Federal do Rio Grande do Norte",
+      "short": "IFRN",
+      "country": "BR",
+      "lat": -5.21325,
+      "lon": -37.31994,
+      "kind": "instituto"
+    },
+    {
+      "id": "ifb",
+      "name": "Instituto Federal de Brasília",
+      "short": "IFB",
+      "country": "BR",
+      "lat": -15.7546,
+      "lon": -47.8798,
+      "kind": "instituto"
+    },
+    {
+      "id": "ifpr",
+      "name": "Instituto Federal do Paraná",
+      "short": "IFPR",
+      "country": "BR",
+      "lat": -23.27545,
+      "lon": -51.16389,
+      "kind": "instituto"
+    },
+    {
+      "id": "yale",
+      "name": "Yale University",
+      "short": "Yale",
+      "country": "US",
+      "lat": 41.31111,
+      "lon": -72.92667,
+      "kind": "universidad"
+    },
+    {
+      "id": "nasa-gsfc",
+      "name": "Goddard Space Flight Center",
+      "short": "NASA Goddard",
+      "country": "US",
+      "lat": 38.99222,
+      "lon": -76.8525,
+      "kind": "instituto"
+    },
+    {
+      "id": "ecu",
+      "name": "East Carolina University",
+      "short": "ECU",
+      "country": "US",
+      "lat": 35.6075,
+      "lon": -77.37,
+      "kind": "universidad"
+    },
+    {
+      "id": "unc-ch",
+      "name": "University of North Carolina at Chapel Hill",
+      "short": "UNC",
+      "country": "US",
+      "lat": 35.90861,
+      "lon": -79.04917,
+      "kind": "universidad"
+    },
+    {
+      "id": "asu",
+      "name": "Arizona State University",
+      "short": "ASU",
+      "country": "US",
+      "lat": 33.41694,
+      "lon": -111.93611,
+      "kind": "universidad"
+    },
+    {
+      "id": "carnegie",
+      "name": "Carnegie Institution for Science",
+      "short": "Carnegie",
+      "country": "US",
+      "lat": 38.90942,
+      "lon": -77.03581,
+      "kind": "instituto"
+    },
+    {
+      "id": "stsci",
+      "name": "Space Telescope Science Institute",
+      "short": "STScI",
+      "country": "US",
+      "lat": 39.33278,
+      "lon": -76.62333,
+      "kind": "instituto"
+    },
+    {
+      "id": "berkeley",
+      "name": "University of California, Berkeley",
+      "short": "UC Berkeley",
+      "country": "US",
+      "lat": 37.87194,
+      "lon": -122.25833,
+      "kind": "universidad"
+    },
+    {
+      "id": "lanl",
+      "name": "Los Alamos National Laboratory",
+      "short": "LANL",
+      "country": "US",
+      "lat": 35.87556,
+      "lon": -106.32417,
+      "kind": "instituto"
+    },
+    {
+      "id": "orise",
+      "name": "Oak Ridge Institute for Science and Education",
+      "short": "ORISE",
+      "country": "US",
+      "lat": 36.0104,
+      "lon": -84.2696,
+      "kind": "instituto"
+    },
+    {
+      "id": "mines",
+      "name": "Colorado School of Mines",
+      "short": "Mines",
+      "country": "US",
+      "lat": 39.75111,
+      "lon": -105.2225,
+      "kind": "instituto"
+    },
+    {
+      "id": "colostate",
+      "name": "Colorado State University",
+      "short": "CSU",
+      "country": "US",
+      "lat": 40.57484,
+      "lon": -105.08098,
+      "kind": "universidad"
+    },
+    {
+      "id": "pnnl",
+      "name": "Pacific Northwest National Laboratory",
+      "short": "PNNL",
+      "country": "US",
+      "lat": 46.34322,
+      "lon": -119.27633,
+      "kind": "instituto"
+    },
+    {
+      "id": "virginia",
+      "name": "University of Virginia",
+      "short": "UVA",
+      "country": "US",
+      "lat": 38.03556,
+      "lon": -78.50333,
+      "kind": "universidad"
+    },
+    {
+      "id": "bc",
+      "name": "Boston College",
+      "short": "BC",
+      "country": "US",
+      "lat": 42.33508,
+      "lon": -71.17036,
+      "kind": "universidad"
+    },
+    {
+      "id": "nmc",
+      "name": "New Mexico Consortium",
+      "short": "NMC",
+      "country": "US",
+      "lat": 35.85635,
+      "lon": -106.35019,
+      "kind": "instituto"
+    },
+    {
+      "id": "ulaval",
+      "name": "Université Laval",
+      "short": "ULaval",
+      "country": "CA",
+      "lat": 46.78,
+      "lon": -71.27472,
+      "kind": "universidad"
+    },
+    {
+      "id": "lsbu",
+      "name": "London South Bank University",
+      "short": "LSBU",
+      "country": "GB",
+      "lat": 51.4981,
+      "lon": -0.10154,
+      "kind": "universidad"
+    },
+    {
+      "id": "hig",
+      "name": "Högskolan i Gävle",
+      "short": "HiG",
+      "country": "SE",
+      "lat": 60.667,
+      "lon": 17.118,
+      "kind": "instituto"
+    },
+    {
+      "id": "gu",
+      "name": "Göteborgs universitet",
+      "short": "GU",
+      "country": "SE",
+      "lat": 57.69833,
+      "lon": 11.97167,
+      "kind": "universidad"
+    },
+    {
+      "id": "radboud",
+      "name": "Radboud Universiteit",
+      "short": "Radboud",
+      "country": "NL",
+      "lat": 51.81944,
+      "lon": 5.86528,
+      "kind": "universidad"
+    },
+    {
+      "id": "mpi-cpfs",
+      "name": "Max-Planck-Institut für Chemische Physik fester Stoffe",
+      "short": "MPI CPfS",
+      "country": "DE",
+      "lat": 51.0264,
+      "lon": 13.7186,
+      "kind": "instituto"
+    },
+    {
+      "id": "mpi-fkf",
+      "name": "Max-Planck-Institut für Festkörperforschung",
+      "short": "MPI FKF",
+      "country": "DE",
+      "lat": 48.74667,
+      "lon": 9.08083,
+      "kind": "instituto"
+    },
+    {
+      "id": "mpi-met",
+      "name": "Max-Planck-Institut für Meteorologie",
+      "short": "MPI-M",
+      "country": "DE",
+      "lat": 53.56772,
+      "lon": 9.97517,
+      "kind": "instituto"
+    },
+    {
+      "id": "mcqst",
+      "name": "Munich Center for Quantum Science and Technology",
+      "short": "MCQST",
+      "country": "DE",
+      "lat": 48.14956,
+      "lon": 11.57735,
+      "kind": "instituto"
+    },
+    {
+      "id": "tuebingen",
+      "name": "Eberhard Karls Universität Tübingen",
+      "short": "Tübingen",
+      "country": "DE",
+      "lat": 48.525,
+      "lon": 9.05889,
+      "kind": "universidad"
+    },
+    {
+      "id": "jgu",
+      "name": "Johannes Gutenberg-Universität Mainz",
+      "short": "JGU",
+      "country": "DE",
+      "lat": 49.99306,
+      "lon": 8.24167,
+      "kind": "universidad"
+    },
+    {
+      "id": "iap-kborn",
+      "name": "Leibniz-Institut für Atmosphärenphysik",
+      "short": "IAP",
+      "country": "DE",
+      "lat": 54.1168,
+      "lon": 11.772,
+      "kind": "instituto"
+    },
+    {
+      "id": "tuwien",
+      "name": "Technische Universität Wien",
+      "short": "TU Wien",
+      "country": "AT",
+      "lat": 48.19862,
+      "lon": 16.37077,
+      "kind": "universidad"
+    },
+    {
+      "id": "upv",
+      "name": "Universitat Politècnica de València",
+      "short": "UPV",
+      "country": "ES",
+      "lat": 39.48089,
+      "lon": -0.34111,
+      "kind": "universidad"
+    },
+    {
+      "id": "upf",
+      "name": "Universitat Pompeu Fabra",
+      "short": "UPF",
+      "country": "ES",
+      "lat": 41.37917,
+      "lon": 2.17951,
+      "kind": "universidad"
+    },
+    {
+      "id": "iac",
+      "name": "Instituto de Astrofísica de Canarias",
+      "short": "IAC",
+      "country": "ES",
+      "lat": 28.47462,
+      "lon": -16.30809,
+      "kind": "instituto"
+    },
+    {
+      "id": "ieec",
+      "name": "Institut d'Estudis Espacials de Catalunya",
+      "short": "IEEC",
+      "country": "ES",
+      "lat": 41.27578,
+      "lon": 1.98875,
+      "kind": "instituto"
+    },
+    {
+      "id": "imm-csic",
+      "name": "Instituto de Micro y Nanotecnología",
+      "short": "IMN-CNM",
+      "country": "ES",
+      "lat": 40.59157,
+      "lon": -3.70773,
+      "kind": "instituto"
+    },
+    {
+      "id": "cfm",
+      "name": "Centro de Física de Materiales",
+      "short": "CFM",
+      "country": "ES",
+      "lat": 43.30565,
+      "lon": -2.00936,
+      "kind": "instituto"
+    },
+    {
+      "id": "neel",
+      "name": "Institut Néel",
+      "short": "Institut Néel",
+      "country": "FR",
+      "lat": 45.2058,
+      "lon": 5.69833,
+      "kind": "instituto"
+    },
+    {
+      "id": "upec",
+      "name": "Université Paris-Est Créteil",
+      "short": "UPEC",
+      "country": "FR",
+      "lat": 48.78771,
+      "lon": 2.44619,
+      "kind": "universidad"
+    },
+    {
+      "id": "cstb",
+      "name": "Centre Scientifique et Technique du Bâtiment",
+      "short": "CSTB",
+      "country": "FR",
+      "lat": 47.25471,
+      "lon": -1.55444,
+      "kind": "instituto"
+    },
+    {
+      "id": "ijl",
+      "name": "Institut Jean Lamour",
+      "short": "IJL",
+      "country": "FR",
+      "lat": 48.6725,
+      "lon": 6.17112,
+      "kind": "instituto"
+    },
+    {
+      "id": "esrf",
+      "name": "European Synchrotron Radiation Facility",
+      "short": "ESRF",
+      "country": "FR",
+      "lat": 45.20861,
+      "lon": 5.69,
+      "kind": "instituto"
+    },
+    {
+      "id": "cea-saclay",
+      "name": "CEA Paris-Saclay",
+      "short": "CEA Saclay",
+      "country": "FR",
+      "lat": 48.7247,
+      "lon": 2.14876,
+      "kind": "instituto"
+    },
+    {
+      "id": "unipv",
+      "name": "Università degli Studi di Pavia",
+      "short": "UniPV",
+      "country": "IT",
+      "lat": 45.18675,
+      "lon": 9.15586,
+      "kind": "universidad"
+    },
+    {
+      "id": "unito",
+      "name": "Università degli Studi di Torino",
+      "short": "UniTo",
+      "country": "IT",
+      "lat": 45.06944,
+      "lon": 7.68889,
+      "kind": "universidad"
+    },
+    {
+      "id": "icranet",
+      "name": "International Center for Relativistic Astrophysics Network",
+      "short": "ICRANet",
+      "country": "IT",
+      "lat": 42.4618,
+      "lon": 14.2161,
+      "kind": "instituto"
+    },
+    {
+      "id": "ncbj",
+      "name": "Narodowe Centrum Badań Jądrowych",
+      "short": "NCBJ",
+      "country": "PL",
+      "lat": 52.0889,
+      "lon": 21.3378,
+      "kind": "instituto"
+    },
+    {
+      "id": "igf-pan",
+      "name": "Instytut Geofizyki Polskiej Akademii Nauk",
+      "short": "IGF PAN",
+      "country": "PL",
+      "lat": 52.2461,
+      "lon": 20.9394,
+      "kind": "instituto"
+    },
+    {
+      "id": "epss",
+      "name": "Institute of Earth Physics and Space Science",
+      "short": "EPSS",
+      "country": "HU",
+      "lat": 47.6817,
+      "lon": 16.5845,
+      "kind": "instituto"
+    },
+    {
+      "id": "ntua",
+      "name": "National Technical University of Athens",
+      "short": "NTUA",
+      "country": "GR",
+      "lat": 37.98786,
+      "lon": 23.73161,
+      "kind": "universidad"
+    },
+    {
+      "id": "cqt",
+      "name": "Centre for Quantum Technologies",
+      "short": "CQT",
+      "country": "SG",
+      "lat": 1.2971,
+      "lon": 103.7781,
+      "kind": "instituto"
+    },
+    {
+      "id": "cau",
+      "name": "Chung-Ang University",
+      "short": "CAU",
+      "country": "KR",
+      "lat": 37.50489,
+      "lon": 126.95503,
+      "kind": "universidad"
+    },
+    {
+      "id": "iiser-mohali",
+      "name": "Indian Institute of Science Education and Research Mohali",
+      "short": "IISER Mohali",
+      "country": "IN",
+      "lat": 30.66287,
+      "lon": 76.72764,
+      "kind": "instituto"
+    },
+    {
+      "id": "undac",
+      "name": "Universidad Nacional Daniel Alcides Carrión",
+      "short": "UNDAC",
+      "country": "PE",
+      "lat": -10.66821,
+      "lon": -76.25314,
+      "kind": "universidad"
+    },
+    {
+      "id": "ucentral-cl",
+      "name": "Universidad Central de Chile",
+      "short": "UCEN",
+      "country": "CL",
+      "lat": -33.45294,
+      "lon": -70.66001,
+      "kind": "universidad"
+    },
+    {
+      "id": "psi",
+      "name": "Paul Scherrer Institut",
+      "short": "PSI",
+      "country": "CH",
+      "lat": 47.53611,
+      "lon": 8.22278,
+      "kind": "instituto"
+    },
+    {
+      "id": "lorraine",
+      "name": "Université de Lorraine",
+      "short": "Lorraine",
+      "country": "FR",
+      "lat": 48.69624,
+      "lon": 6.17654,
       "kind": "universidad"
     }
   ],
@@ -20564,11 +21473,16 @@
           "end": 2014
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unjbg",
+          "role": "Docente universitario"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Jorge Basadre Grohmann National University",
+          "place": "unjbg",
+          "name": "Universidad Nacional Jorge Basadre Grohmann",
           "role": "Docente universitario",
           "start": 1981,
           "end": "now"
@@ -20578,6 +21492,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "unjbg",
+          "did": ["Docente universitario"]
         },
         {
           "place": "uni",
@@ -21360,8 +22278,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "University of Lima",
+          "place": "ulima",
+          "name": "Universidad de Lima",
           "role": "Professor",
           "start": 2024,
           "end": 2025
@@ -21395,15 +22313,15 @@
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Federal University of Santa Catarina",
+          "place": "ufsc",
+          "name": "Universidade Federal de Santa Catarina",
           "role": "Post-doctoral positions in physics",
           "start": 2016,
           "end": 2016
         },
         {
-          "place": null,
-          "name": "Federal University of Rio Grande do Sul",
+          "place": "ufrgs",
+          "name": "Universidade Federal do Rio Grande do Sul",
           "role": "Post-doctoral positions in physics",
           "start": 2015,
           "end": 2015
@@ -21427,7 +22345,23 @@
         },
         {
           "place": "usp",
-          "did": ["Doctorado", "Teaching assistant", "Postdoctoral research"]
+          "did": ["Doctorado", "Teaching assistant"]
+        },
+        {
+          "place": "ufrgs",
+          "did": ["Post-doctoral positions in physics"]
+        },
+        {
+          "place": "ufsc",
+          "did": ["Post-doctoral positions in physics"]
+        },
+        {
+          "place": "ulima",
+          "did": ["Professor"]
+        },
+        {
+          "place": "usp",
+          "did": ["Postdoctoral research"]
         }
       ],
       "links": [
@@ -21628,10 +22562,15 @@
           "end": 2022
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unhvca",
+          "role": "Docente universitario/lic. en fisica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "unhvca",
           "name": "Universidad Nacional de Huancavelica",
           "role": "Docente universitario/lic. en fisica",
           "start": null,
@@ -21642,6 +22581,10 @@
         {
           "place": "unitru",
           "did": ["Licenciatura", "Maestría", "Doctorado"]
+        },
+        {
+          "place": "unhvca",
+          "did": ["Docente universitario/lic. en fisica"]
         }
       ]
     },
@@ -22079,22 +23022,22 @@
           "end": 2016
         },
         {
-          "place": null,
-          "name": "Universidad Nacional Jorge Basadre Grohmann Facultad de Ciencias de la Salud",
+          "place": "unjbg",
+          "name": "Universidad Nacional Jorge Basadre Grohmann",
           "role": "Docente de fisica",
           "start": 2002,
           "end": 2011
         },
         {
-          "place": null,
+          "place": "upt",
           "name": "Universidad Privada de Tacna",
           "role": "Docente de fisica",
           "start": 2009,
           "end": 2010
         },
         {
-          "place": null,
-          "name": "Universidad Nacional de Cajamarca Facultad de Ingenieria",
+          "place": "unc-pe",
+          "name": "Universidad Nacional de Cajamarca",
           "role": "Docente de fisica",
           "start": 2002,
           "end": 2002
@@ -22114,6 +23057,18 @@
         },
         {
           "place": "unp",
+          "did": ["Docente de fisica"]
+        },
+        {
+          "place": "unjbg",
+          "did": ["Docente de fisica"]
+        },
+        {
+          "place": "unc-pe",
+          "did": ["Docente de fisica"]
+        },
+        {
+          "place": "upt",
           "did": ["Docente de fisica"]
         },
         {
@@ -24407,15 +25362,15 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "Centro de Investigacion Cientifica y de Educacion Superior de Ensenada Division de Fisica Aplicada",
+          "place": "cicese",
+          "name": "Centro de Investigación Científica y de Educación Superior de Ensenada",
           "role": "Asistente de investigacion",
           "start": 2021,
           "end": 2025
         },
         {
-          "place": null,
-          "name": "Instituto Geosfico del Peru",
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
           "role": "Asistente de investigacion",
           "start": 2019,
           "end": 2019
@@ -24446,7 +25401,15 @@
         },
         {
           "place": "cicese",
-          "did": ["Maestría", "Doctor en ciencias [en curso]"]
+          "did": ["Maestría"]
+        },
+        {
+          "place": "igp",
+          "did": ["Asistente de investigacion"]
+        },
+        {
+          "place": "cicese",
+          "did": ["Doctor en ciencias [en curso]", "Asistente de investigacion"]
         }
       ]
     },
@@ -26580,17 +27543,22 @@
           "end": 2017
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upn",
+          "role": "Jefe centro de investigacion en nanotecnologia y materiales avanzados (cinma)"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Centro de Investigacion En Nanotecnologia y Materiales Avanzados (cinma) - Universidad Privada del Norte",
+          "place": "upn",
+          "name": "Universidad Privada del Norte",
           "role": "Jefe centro de investigacion en nanotecnologia y materiales avanzados (cinma)",
           "start": 2026,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Investigador senior",
           "start": 2019,
@@ -26604,8 +27572,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "University of Almeria",
+          "place": "ual",
+          "name": "Universidad de Almería",
           "role": "Researcher, phd student",
           "start": 2019,
           "end": 2021
@@ -26618,22 +27586,22 @@
           "end": 2021
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente universitario",
           "start": 2013,
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Laboratorio de Investigacion Multidisciplinaria (labinm)-universidad Privada Antenor Orrego",
+          "place": "upao",
+          "name": "Universidad Privada Antenor Orrego",
           "role": "Co-investigador proyecto 106-CIENCIACTIVA/CONCYTEC",
           "start": 2016,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Laboratorio de Investigacion Multidisciplinaria (labinm)-universidad Privada Antenor Orrego",
+          "place": "upao",
+          "name": "Universidad Privada Antenor Orrego",
           "role": "Co-investigador proyecto fincyt 411-PNICP-PIAP-2014",
           "start": 2014,
           "end": 2016
@@ -26653,8 +27621,8 @@
           "end": 2013
         },
         {
-          "place": null,
-          "name": "Universidad Nacional de Trujillo - Escuela de Postgrado",
+          "place": "unitru",
+          "name": "Universidad Nacional de Trujillo",
           "role": "Diplomado en fisica medica, radiologia y medicina nuclear",
           "start": 2014,
           "end": 2014
@@ -26666,8 +27634,20 @@
           "did": ["Bachillerato", "Licenciatura"]
         },
         {
+          "place": "upn",
+          "did": ["Docente universitario"]
+        },
+        {
           "place": "upr",
           "did": ["Catedra experimental de fisica"]
+        },
+        {
+          "place": "upao",
+          "did": ["Co-investigador proyecto fincyt 411-PNICP-PIAP-2014"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Diplomado en fisica medica, radiologia y medicina nuclear"]
         },
         {
           "place": "ual",
@@ -26675,11 +27655,28 @@
         },
         {
           "place": "upao",
-          "did": ["Docente"]
+          "did": [
+            "Co-investigador proyecto 106-CIENCIACTIVA/CONCYTEC",
+            "Docente"
+          ]
+        },
+        {
+          "place": "upn",
+          "did": ["Investigador senior"]
+        },
+        {
+          "place": "ual",
+          "did": ["Researcher, phd student"]
         },
         {
           "place": "undc",
           "did": ["Docente"]
+        },
+        {
+          "place": "upn",
+          "did": [
+            "Jefe centro de investigacion en nanotecnologia y materiales avanzados (cinma)"
+          ]
         }
       ],
       "links": [
@@ -26984,6 +27981,10 @@
         {
           "place": "utp",
           "role": "Docencia"
+        },
+        {
+          "place": "upsjb",
+          "role": "Docencia"
         }
       ],
       "jobs": [
@@ -26995,7 +27996,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upsjb",
           "name": "Universidad Privada San Juan Bautista",
           "role": "Docencia",
           "start": 2022,
@@ -27013,6 +28014,10 @@
         },
         {
           "place": "utp",
+          "did": ["Docencia"]
+        },
+        {
+          "place": "upsjb",
           "did": ["Docencia"]
         }
       ],
@@ -27088,14 +28093,18 @@
       ],
       "works": [
         {
+          "place": "ifrn",
+          "role": "Professor visitante de fisica"
+        },
+        {
           "place": "unb",
           "role": "Pesquisador colaborador"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Instituto Federal de Educacao, Ciencia e Tecnologia do Rio Grande do Norte",
+          "place": "ifrn",
+          "name": "Instituto Federal do Rio Grande do Norte",
           "role": "Professor visitante de fisica",
           "start": 2026,
           "end": "now"
@@ -27108,22 +28117,22 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Instituto Federal de Educacao, Ciencia e Tecnologia de Goias",
+          "place": "ifg",
+          "name": "Instituto Federal de Goiás",
           "role": "Professor de fisica",
           "start": 2023,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Instituto Federal de Educacao, Ciencia e Tecnologia de Goias",
+          "place": "ifg",
+          "name": "Instituto Federal de Goiás",
           "role": "Professor de fisica",
           "start": 2023,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Instituto Federal de Educacao Ciencia e Tecnologia de Brasilia",
+          "place": "ifb",
+          "name": "Instituto Federal de Brasília",
           "role": "Professor de fisica",
           "start": 2018,
           "end": 2018
@@ -27170,6 +28179,18 @@
         {
           "place": "unb",
           "did": ["Pesquisador colaborador"]
+        },
+        {
+          "place": "ifb",
+          "did": ["Professor de fisica"]
+        },
+        {
+          "place": "ifg",
+          "did": ["Professor de fisica"]
+        },
+        {
+          "place": "ifrn",
+          "did": ["Professor visitante de fisica"]
         }
       ]
     },
@@ -27204,10 +28225,15 @@
           "end": 2019
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "cqt",
+          "role": ""
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "cqt",
           "name": "Centre for Quantum Technologies",
           "role": "",
           "start": null,
@@ -27222,6 +28248,10 @@
         {
           "place": "pucp",
           "did": ["Maestría"]
+        },
+        {
+          "place": "cqt",
+          "did": []
         }
       ]
     },
@@ -27651,25 +28681,38 @@
           "end": 2019
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "cin2",
+          "role": ""
+        },
+        {
+          "place": "uns",
+          "role": "Docente"
+        },
+        {
+          "place": "upn",
+          "role": "Docente"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Institut Catala de Nanociencia I Nanotecnologia",
+          "place": "cin2",
+          "name": "Institut Català de Nanociència i Nanotecnologia",
           "role": "",
           "start": null,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "uns",
           "name": "Universidad Nacional del Santa",
           "role": "Docente",
           "start": 2020,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Privada del Norte - Sede Lima Norte",
+          "place": "upn",
+          "name": "Universidad Privada del Norte",
           "role": "Docente",
           "start": 2020,
           "end": "now"
@@ -27699,7 +28742,23 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Maestría", "Asistente de investigacion"]
+          "did": ["Maestría"]
+        },
+        {
+          "place": "cin2",
+          "did": []
+        },
+        {
+          "place": "uni",
+          "did": ["Asistente de investigacion"]
+        },
+        {
+          "place": "uns",
+          "did": ["Docente"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente"]
         }
       ],
       "links": [
@@ -27792,8 +28851,8 @@
           "end": 2025
         },
         {
-          "place": null,
-          "name": "Universitat Politecnica de Valencia",
+          "place": "upv",
+          "name": "Universitat Politècnica de València",
           "role": "Asistente de investigación, laboratorio de procesado de imágenes",
           "start": 2023,
           "end": 2023
@@ -27803,6 +28862,12 @@
         {
           "place": "unalm",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "upv",
+          "did": [
+            "Asistente de investigación, laboratorio de procesado de imágenes"
+          ]
         },
         {
           "place": "inaigem",
@@ -28560,8 +29625,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Concytec",
+          "place": "concytec",
+          "name": "Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica",
           "role": "Responsable nacional de transferencia tecnológica",
           "start": 2013,
           "end": 2015
@@ -28597,6 +29662,10 @@
         {
           "place": "esiee",
           "did": ["Maestría"]
+        },
+        {
+          "place": "concytec",
+          "did": ["Responsable nacional de transferencia tecnológica"]
         },
         {
           "place": "conida",
@@ -28886,8 +29955,8 @@
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Instituto Geofisico de Characato de la Unsa",
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
           "role": "Practicante pre-profesional",
           "start": 2016,
           "end": 2016
@@ -28910,7 +29979,7 @@
       "path": [
         {
           "place": "unsa",
-          "did": ["Licenciatura"]
+          "did": ["Licenciatura", "Practicante pre-profesional"]
         },
         {
           "place": "usp",
@@ -28938,10 +30007,15 @@
           "end": 2003
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upc-pe",
+          "role": "Pofesor dictante"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Pofesor dictante",
           "start": 2016,
@@ -28952,6 +30026,10 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Pofesor dictante"]
         }
       ]
     },
@@ -29468,25 +30546,30 @@
           "end": 2010
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "ecu",
+          "role": "Tenure-track assistant professor"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "ecu",
           "name": "East Carolina University",
           "role": "Tenure-track assistant professor",
           "start": 2019,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "unc-ch",
           "name": "University of North Carolina at Chapel Hill",
           "role": "Postdoctoral research fellow",
           "start": 2018,
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Harvard School of Public Health",
+          "place": "harvard",
+          "name": "Harvard University",
           "role": "Postdoctoral research fellow",
           "start": 2016,
           "end": 2018
@@ -29507,6 +30590,18 @@
         {
           "place": "upr",
           "did": ["Maestría", "Postdoctoral researcher"]
+        },
+        {
+          "place": "harvard",
+          "did": ["Postdoctoral research fellow"]
+        },
+        {
+          "place": "unc-ch",
+          "did": ["Postdoctoral research fellow"]
+        },
+        {
+          "place": "ecu",
+          "did": ["Tenure-track assistant professor"]
         }
       ],
       "links": [
@@ -29813,10 +30908,15 @@
           "end": 1977
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unhvca",
+          "role": "Profesora universitaria / investigadora"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "unhvca",
           "name": "Universidad Nacional de Huancavelica",
           "role": "Profesora universitaria / investigadora",
           "start": 2015,
@@ -29841,6 +30941,10 @@
         {
           "place": "uni",
           "did": ["Licenciatura", "Docente universitaria / investigadora"]
+        },
+        {
+          "place": "unhvca",
+          "did": ["Profesora universitaria / investigadora"]
         }
       ]
     },
@@ -30198,10 +31302,15 @@
           "end": 2017
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "usach",
+          "role": ""
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "usach",
           "name": "Universidad de Santiago de Chile",
           "role": "",
           "start": null,
@@ -30212,6 +31321,10 @@
         {
           "place": "pucp",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "usach",
+          "did": []
         }
       ]
     },
@@ -31468,11 +32581,16 @@
           "end": 2007
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upc-pe",
+          "role": "Professor"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Peruvian University of Applied Sciences",
+          "place": "upc-pe",
+          "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Professor",
           "start": 2018,
           "end": "now"
@@ -31482,6 +32600,10 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Professor"]
         }
       ]
     },
@@ -32510,14 +33632,18 @@
       ],
       "works": [
         {
+          "place": "enap",
+          "role": ""
+        },
+        {
           "place": "unmsm",
           "role": "Adherente"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Escuela Naval del Peru",
+          "place": "enap",
+          "name": "Escuela Naval del Perú",
           "role": "",
           "start": 2024,
           "end": "now"
@@ -32534,6 +33660,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Maestría", "Licenciatura", "Adherente"]
+        },
+        {
+          "place": "enap",
+          "did": []
         }
       ]
     },
@@ -32712,11 +33842,16 @@
           "end": 2018
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "inacal",
+          "role": "Especialista"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "National Institute of Quality",
+          "place": "inacal",
+          "name": "Instituto Nacional de Calidad",
           "role": "Especialista",
           "start": 2015,
           "end": "now"
@@ -32739,7 +33874,15 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato", "Licenciatura"]
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "inacal",
+          "did": ["Especialista"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
         }
       ],
       "links": [
@@ -33805,43 +34948,43 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Max-planck-institut Fur Chemische Physik Fester Stoffe",
+          "place": "mpi-cpfs",
+          "name": "Max-Planck-Institut für Chemische Physik fester Stoffe",
           "role": "Senior scientist",
           "start": 2020,
           "end": 2023
         },
         {
-          "place": null,
-          "name": "Max-planck-institut Fur Chemische Physik Fester Stoffe",
+          "place": "mpi-cpfs",
+          "name": "Max-Planck-Institut für Chemische Physik fester Stoffe",
           "role": "Senior scientist",
           "start": 1999,
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Max-planck-institut Fur Festkorperforschung",
+          "place": "mpi-fkf",
+          "name": "Max-Planck-Institut für Festkörperforschung",
           "role": "Scientist",
           "start": 1990,
           "end": 1998
         },
         {
-          "place": null,
-          "name": "University of Tubingen",
+          "place": "tuebingen",
+          "name": "Eberhard Karls Universität Tübingen",
           "role": "Scientist",
           "start": 1987,
           "end": 1989
         },
         {
-          "place": null,
+          "place": "asu",
           "name": "Arizona State University",
           "role": "Faculty member",
           "start": 1985,
           "end": 1987
         },
         {
-          "place": null,
-          "name": "Uppsala Universitet Avdelning for Oorganiska Kemi",
+          "place": "uppsala",
+          "name": "Universidad de Upsala",
           "role": "Forskare",
           "start": 1983,
           "end": 1985
@@ -33858,6 +35001,26 @@
         {
           "place": "uni",
           "did": ["Bachillerato", "Asistente fisica general"]
+        },
+        {
+          "place": "uppsala",
+          "did": ["Forskare"]
+        },
+        {
+          "place": "asu",
+          "did": ["Faculty member"]
+        },
+        {
+          "place": "tuebingen",
+          "did": ["Scientist"]
+        },
+        {
+          "place": "mpi-fkf",
+          "did": ["Scientist"]
+        },
+        {
+          "place": "mpi-cpfs",
+          "did": ["Senior scientist"]
         }
       ],
       "links": [
@@ -34613,6 +35776,10 @@
         {
           "place": "utp",
           "role": "Docente de los cursos de investigacion"
+        },
+        {
+          "place": "upc-pe",
+          "role": "Docente de tiempo completo"
         }
       ],
       "jobs": [
@@ -34631,7 +35798,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Docente de tiempo completo",
           "start": 2016,
@@ -34646,6 +35813,10 @@
         {
           "place": "ucv",
           "did": ["Maestría"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Docente de tiempo completo"]
         },
         {
           "place": "utp",
@@ -34918,14 +36089,18 @@
       ],
       "works": [
         {
+          "place": "uwiener",
+          "role": "Docente"
+        },
+        {
           "place": "utp",
           "role": "Docente"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Norbert Wiener",
+          "place": "uwiener",
+          "name": "Universidad Privada Norbert Wiener",
           "role": "Docente",
           "start": 2023,
           "end": "now"
@@ -34938,7 +36113,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente",
           "start": 2023,
@@ -34951,7 +36126,15 @@
           "did": ["Bachillerato"]
         },
         {
+          "place": "uwiener",
+          "did": ["Docente"]
+        },
+        {
           "place": "utp",
+          "did": ["Docente"]
+        },
+        {
+          "place": "upn",
           "did": ["Docente"]
         }
       ]
@@ -36817,11 +38000,16 @@
           "end": 1992
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unjbg",
+          "role": "Docente"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Jorge Basadre Grohmann National University",
+          "place": "unjbg",
+          "name": "Universidad Nacional Jorge Basadre Grohmann",
           "role": "Docente",
           "start": 1994,
           "end": "now"
@@ -36831,6 +38019,10 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "unjbg",
+          "did": ["Docente"]
         }
       ]
     },
@@ -37097,14 +38289,14 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Carnegie Institute for Science",
+          "place": "carnegie",
+          "name": "Carnegie Institution for Science",
           "role": "Hubble fellow",
           "start": 2008,
           "end": 2011
         },
         {
-          "place": null,
+          "place": "stsci",
           "name": "Space Telescope Science Institute",
           "role": "Postdoctoral fellow",
           "start": 2005,
@@ -37127,6 +38319,14 @@
         {
           "place": "puc-chile",
           "did": ["Associate professor"]
+        },
+        {
+          "place": "stsci",
+          "did": ["Postdoctoral fellow"]
+        },
+        {
+          "place": "carnegie",
+          "did": ["Hubble fellow"]
         }
       ]
     },
@@ -37302,6 +38502,10 @@
         {
           "place": "rostock",
           "role": "Profesor, instituto de física"
+        },
+        {
+          "place": "iap-kborn",
+          "role": "Jefe del departamento de teledetección por radar"
         }
       ],
       "jobs": [
@@ -37313,8 +38517,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Leibniz Institute of Atmospheric Physics",
+          "place": "iap-kborn",
+          "name": "Leibniz-Institut für Atmosphärenphysik",
           "role": "Jefe del departamento de teledetección por radar",
           "start": 2013,
           "end": "now"
@@ -37342,6 +38546,10 @@
         {
           "place": "jicamarca",
           "did": ["Investigador posdoctoral", "Director"]
+        },
+        {
+          "place": "iap-kborn",
+          "did": ["Jefe del departamento de teledetección por radar"]
         },
         {
           "place": "rostock",
@@ -37764,7 +38972,7 @@
           "end": 2012
         },
         {
-          "place": null,
+          "place": "uenf",
           "name": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
           "role": "Profesor",
           "start": 2004,
@@ -37796,6 +39004,10 @@
         },
         {
           "place": "unitru",
+          "did": ["Profesor"]
+        },
+        {
+          "place": "uenf",
           "did": ["Profesor"]
         },
         {
@@ -37954,10 +39166,15 @@
           "end": 2018
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unas",
+          "role": "Docente nombrado asociado a dedicacion exclusiva"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "unas",
           "name": "Universidad Nacional Agraria de la Selva",
           "role": "Docente nombrado asociado a dedicacion exclusiva",
           "start": 2010,
@@ -37967,7 +39184,15 @@
       "path": [
         {
           "place": "unitru",
-          "did": ["Licenciatura", "Maestría"]
+          "did": ["Licenciatura"]
+        },
+        {
+          "place": "unas",
+          "did": ["Docente nombrado asociado a dedicacion exclusiva"]
+        },
+        {
+          "place": "unitru",
+          "did": ["Maestría"]
         }
       ]
     },
@@ -38009,24 +39234,29 @@
           "end": 2018
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upn",
+          "role": "Docente tc"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente tc",
           "start": 2021,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "unc-pe",
           "name": "Universidad Nacional de Cajamarca",
           "role": "Docente",
           "start": 2018,
           "end": 2020
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente tc",
           "start": 2018,
@@ -38056,6 +39286,14 @@
         {
           "place": "uprm",
           "did": ["Maestría"]
+        },
+        {
+          "place": "unc-pe",
+          "did": ["Docente"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente tc"]
         }
       ]
     },
@@ -39198,8 +40436,8 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "University of California Berkeley",
+          "place": "berkeley",
+          "name": "University of California, Berkeley",
           "role": "Postdoctoral researcher",
           "start": 2010,
           "end": 2013
@@ -39213,6 +40451,10 @@
         {
           "place": "michigan-state",
           "did": ["Doctorado"]
+        },
+        {
+          "place": "berkeley",
+          "did": ["Postdoctoral researcher"]
         },
         {
           "place": "pucp",
@@ -39308,17 +40550,22 @@
           "end": 1998
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "eofap",
+          "role": "Docente de fisica y matematica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Escuela de Oficiales de la Fuerza Aerea del Peru",
+          "place": "eofap",
+          "name": "Escuela de Oficiales de la Fuerza Aérea del Perú",
           "role": "Docente de fisica y matematica",
           "start": 2020,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "tecsup",
           "name": "Tecsup",
           "role": "Docente de fisica y matematica",
           "start": 2008,
@@ -39347,9 +40594,20 @@
         {
           "place": "puc-chile",
           "did": [
-            "Jefe de practicas de laboratorio de fisica, fisica, matematicas, cosmologia",
-            "Egresada de la maestria en fisica aplicda"
+            "Jefe de practicas de laboratorio de fisica, fisica, matematicas, cosmologia"
           ]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Docente de fisica y matematica"]
+        },
+        {
+          "place": "puc-chile",
+          "did": ["Egresada de la maestria en fisica aplicda"]
+        },
+        {
+          "place": "eofap",
+          "did": ["Docente de fisica y matematica"]
         }
       ]
     },
@@ -40518,11 +41776,16 @@
           "end": 2025
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unjbg",
+          "role": "Egresado"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Jorge Basadre Grohmann National University",
+          "place": "unjbg",
+          "name": "Universidad Nacional Jorge Basadre Grohmann",
           "role": "Egresado",
           "start": 2026,
           "end": "now"
@@ -40531,7 +41794,7 @@
       "path": [
         {
           "place": "unjbg",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Egresado"]
         }
       ]
     },
@@ -40736,14 +41999,18 @@
       ],
       "works": [
         {
+          "place": "auger",
+          "role": "Phd student"
+        },
+        {
           "place": "unlp",
           "role": "Estudiante de doctorado"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Pierre Auger Observatory",
+          "place": "auger",
+          "name": "Observatorio Pierre Auger",
           "role": "Phd student",
           "start": null,
           "end": "now"
@@ -40767,6 +42034,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "auger",
+          "did": ["Phd student"]
         },
         {
           "place": "ictp",
@@ -40798,24 +42069,29 @@
           "end": 2006
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "inacal",
+          "role": "Analista en los laboratorios de acustica / tiempo y frecuencia"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "inacal",
           "name": "Instituto Nacional de Calidad",
           "role": "Analista en los laboratorios de acustica / tiempo y frecuencia",
           "start": 2019,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Jorge Basadre Grohmann National University",
+          "place": "unjbg",
+          "name": "Universidad Nacional Jorge Basadre Grohmann",
           "role": "Jefe de practicas/docente del departamento de fisica",
           "start": 2015,
           "end": 2017
         },
         {
-          "place": null,
+          "place": "upt",
           "name": "Universidad Privada de Tacna",
           "role": "Docente de biofisica/fisica",
           "start": 2008,
@@ -40842,9 +42118,23 @@
           "did": ["Licenciatura"]
         },
         {
+          "place": "upt",
+          "did": ["Docente de biofisica/fisica"]
+        },
+        {
+          "place": "unjbg",
+          "did": ["Jefe de practicas/docente del departamento de fisica"]
+        },
+        {
           "place": "pucp",
           "did": [
             "Egresado de maestria en fisica aplicada con mencion en ingenieria acustica"
+          ]
+        },
+        {
+          "place": "inacal",
+          "did": [
+            "Analista en los laboratorios de acustica / tiempo y frecuencia"
           ]
         }
       ]
@@ -40869,11 +42159,16 @@
           "end": 2024
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "utarapaca",
+          "role": ""
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad de Tarapaca",
+          "place": "utarapaca",
+          "name": "Universidad de Tarapacá",
           "role": "",
           "start": 2018,
           "end": "now"
@@ -40883,6 +42178,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "utarapaca",
+          "did": []
         }
       ]
     },
@@ -40939,35 +42238,35 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "uba",
           "name": "Universidad de Buenos Aires",
           "role": "Postdoctoral researcher",
           "start": 2011,
           "end": 2013
         },
         {
-          "place": null,
-          "name": "National Technical University of Athens - Zografou Campus",
+          "place": "ntua",
+          "name": "National Technical University of Athens",
           "role": "Postdoctoral researcher",
           "start": 2010,
           "end": 2011
         },
         {
-          "place": null,
-          "name": "Universidad Andres Bello",
+          "place": "unab",
+          "name": "Universidad Andrés Bello",
           "role": "Lecturer",
           "start": 2009,
           "end": 2010
         },
         {
-          "place": null,
+          "place": "uchile",
           "name": "Universidad de Chile",
           "role": "Lecturer",
           "start": 2009,
           "end": 2009
         },
         {
-          "place": null,
+          "place": "usach",
           "name": "Universidad de Santiago de Chile",
           "role": "Postdoctoral researcher",
           "start": 2007,
@@ -40988,12 +42287,31 @@
         },
         {
           "place": "usp",
-          "did": [
-            "Maestría",
-            "Doctorado",
-            "Postdoctoral researcher",
-            "Assistant professor"
-          ]
+          "did": ["Maestría", "Doctorado", "Postdoctoral researcher"]
+        },
+        {
+          "place": "usach",
+          "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "unab",
+          "did": ["Lecturer"]
+        },
+        {
+          "place": "uchile",
+          "did": ["Lecturer"]
+        },
+        {
+          "place": "ntua",
+          "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "uba",
+          "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "usp",
+          "did": ["Assistant professor"]
         }
       ],
       "links": [
@@ -41053,7 +42371,7 @@
           "end": 2023
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente tc",
           "start": 2018,
@@ -41082,6 +42400,10 @@
         {
           "place": "uerj",
           "did": ["Maestría"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente tc"]
         },
         {
           "place": "unitru",
@@ -42146,7 +43468,7 @@
           "end": 2023
         },
         {
-          "place": null,
+          "place": "mcqst",
           "name": "Munich Center for Quantum Science and Technology",
           "role": "Pasante de verano",
           "start": 2023,
@@ -42172,6 +43494,10 @@
         {
           "place": "cnrs",
           "did": ["Pasante de investigación"]
+        },
+        {
+          "place": "mcqst",
+          "did": ["Pasante de verano"]
         },
         {
           "place": "cnpem",
@@ -42612,10 +43938,15 @@
           "end": 2011
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upn",
+          "role": "Coordinador de laboratorio de fisica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Coordinador de laboratorio de fisica",
           "start": 2014,
@@ -42626,6 +43957,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "upn",
+          "did": ["Coordinador de laboratorio de fisica"]
         }
       ]
     },
@@ -42980,25 +44315,30 @@
           "end": 2018
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "ucv",
+          "role": "Docente de fisica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Consorcio Universidad Cesar Vallejo",
+          "place": "ucv",
+          "name": "Universidad César Vallejo",
           "role": "Docente de fisica",
           "start": 2015,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Peruana Union",
+          "place": "upeu",
+          "name": "Universidad Peruana Unión",
           "role": "Docente e investigador",
           "start": 2015,
           "end": 2021
         },
         {
-          "place": null,
-          "name": "Universidad Nacional Barranca",
+          "place": "unab-pe",
+          "name": "Universidad Nacional de Barranca",
           "role": "Docente de fisica",
           "start": 2017,
           "end": 2017
@@ -43011,8 +44351,8 @@
           "end": 2014
         },
         {
-          "place": null,
-          "name": "Consorcio Universidad Cesar Vallejo",
+          "place": "ucv",
+          "name": "Universidad César Vallejo",
           "role": "Docente de fisica",
           "start": 2013,
           "end": 2014
@@ -43035,12 +44375,28 @@
           "did": ["Docente de fisica"]
         },
         {
+          "place": "ucv",
+          "did": ["Docente de fisica"]
+        },
+        {
           "place": "unjfsc",
           "did": ["Docente de fisica"]
         },
         {
           "place": "unitru",
           "did": ["Doctorado"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Docente de fisica"]
+        },
+        {
+          "place": "upeu",
+          "did": ["Docente e investigador"]
+        },
+        {
+          "place": "unab-pe",
+          "did": ["Docente de fisica"]
         }
       ]
     },
@@ -43157,21 +44513,29 @@
       ],
       "works": [
         {
+          "place": "ua-peru",
+          "role": "Investigador"
+        },
+        {
+          "place": "uwiener",
+          "role": "Docente"
+        },
+        {
           "place": "pucp",
           "role": "Investigador"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Autonoma del Peru",
+          "place": "ua-peru",
+          "name": "Universidad Autónoma del Perú",
           "role": "Investigador",
           "start": 2023,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Norbert Wiener",
+          "place": "uwiener",
+          "name": "Universidad Privada Norbert Wiener",
           "role": "Docente",
           "start": 2022,
           "end": "now"
@@ -43184,8 +44548,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Centro de Altos Estudios Nacionales - Escuela de Posgrado",
+          "place": "caen",
+          "name": "Centro de Altos Estudios Nacionales",
           "role": "Docente",
           "start": 2026,
           "end": 2026
@@ -43260,6 +44624,10 @@
           "did": ["Docente"]
         },
         {
+          "place": "uwiener",
+          "did": ["Docente"]
+        },
+        {
           "place": "uss",
           "did": ["Investigador"]
         },
@@ -43268,11 +44636,19 @@
           "did": ["Docente"]
         },
         {
+          "place": "ua-peru",
+          "did": ["Investigador"]
+        },
+        {
           "place": "ulima",
           "did": ["Docente"]
         },
         {
           "place": "uc",
+          "did": ["Docente"]
+        },
+        {
+          "place": "caen",
           "did": ["Docente"]
         }
       ],
@@ -43593,14 +44969,18 @@
       ],
       "works": [
         {
+          "place": "uni",
+          "role": "Professor"
+        },
+        {
           "place": "unalm",
           "role": "Professor"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Nacional de Ingenieria Facultad de Ingenieria Ambiental",
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
           "role": "Professor",
           "start": 2017,
           "end": "now"
@@ -43613,8 +44993,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Nacional Ingenieria Facultad Ingenieria Quimica y Textil",
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
           "role": "Professor",
           "start": 2017,
           "end": 2017
@@ -43627,15 +45007,15 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Universidad Andina Nestor Caceres Velasquez",
+          "place": "uancv",
+          "name": "Universidad Andina Néstor Cáceres Velásquez",
           "role": "Professor",
           "start": 2014,
           "end": 2014
         },
         {
-          "place": null,
-          "name": "Universidad de Chiclayo",
+          "place": "udch",
+          "name": "Universidad Particular de Chiclayo",
           "role": "Professor",
           "start": 2011,
           "end": 2011
@@ -43651,11 +45031,23 @@
           "did": ["Maestría"]
         },
         {
+          "place": "udch",
+          "did": ["Professor"]
+        },
+        {
+          "place": "uancv",
+          "did": ["Professor"]
+        },
+        {
           "place": "upch",
           "did": ["Professor"]
         },
         {
           "place": "unalm",
+          "did": ["Professor"]
+        },
+        {
+          "place": "uni",
           "did": ["Professor"]
         }
       ]
@@ -45170,8 +46562,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Centro Meteorologico Provincial de Camaguey",
+          "place": "insmet",
+          "name": "Instituto de Meteorología de Cuba",
           "role": "Investigador agregado",
           "start": 1989,
           "end": 2017
@@ -45185,6 +46577,10 @@
         }
       ],
       "path": [
+        {
+          "place": "insmet",
+          "did": ["Investigador agregado"]
+        },
         {
           "place": "camaguey",
           "did": ["Licenciatura"]
@@ -46111,25 +47507,30 @@
           "end": 2017
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "nasa-gsfc",
+          "role": "Research associate"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Nasa Goddard Space Flight Center",
+          "place": "nasa-gsfc",
+          "name": "Goddard Space Flight Center",
           "role": "Research associate",
           "start": 2021,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Nasa Goddard Space Flight Center",
+          "place": "nasa-gsfc",
+          "name": "Goddard Space Flight Center",
           "role": "Postdoctoral research scientist",
           "start": 2019,
           "end": 2021
         },
         {
-          "place": null,
-          "name": "The New Mexico Consortium",
+          "place": "nmc",
+          "name": "New Mexico Consortium",
           "role": "Postdoctoral research scientist",
           "start": 2017,
           "end": 2019
@@ -46161,6 +47562,14 @@
         {
           "place": "unh",
           "did": ["Doctorado", "Research assistant"]
+        },
+        {
+          "place": "nmc",
+          "did": ["Postdoctoral research scientist"]
+        },
+        {
+          "place": "nasa-gsfc",
+          "did": ["Postdoctoral research scientist", "Research associate"]
         }
       ]
     },
@@ -46342,8 +47751,8 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Nacional de San Agustin de Arequipa / Docente",
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
           "role": "Docente / maestria en fisica / licenciado fisica",
           "start": 1995,
           "end": 2018
@@ -46352,7 +47761,10 @@
       "path": [
         {
           "place": "unsa",
-          "did": ["Maestría"]
+          "did": [
+            "Docente / maestria en fisica / licenciado fisica",
+            "Maestría"
+          ]
         }
       ]
     },
@@ -46445,14 +47857,14 @@
           "end": 2028
         },
         {
-          "place": null,
-          "name": "Chung-ang University",
+          "place": "cau",
+          "name": "Chung-Ang University",
           "role": "Postdoctoral researcher",
           "start": 2025,
           "end": 2025
         },
         {
-          "place": null,
+          "place": "iiser-mohali",
           "name": "Indian Institute of Science Education and Research Mohali",
           "role": "Ph.d. student",
           "start": 2016,
@@ -46463,6 +47875,14 @@
         {
           "place": "lady-brabourne",
           "did": ["Maestría"]
+        },
+        {
+          "place": "iiser-mohali",
+          "did": ["Ph.d. student"]
+        },
+        {
+          "place": "cau",
+          "did": ["Postdoctoral researcher"]
         },
         {
           "place": "pucp",
@@ -46719,15 +48139,15 @@
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Universita Degli Studi Di Pavia",
+          "place": "unipv",
+          "name": "Università degli Studi di Pavia",
           "role": "Posdoc",
           "start": 2012,
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Universita Degli Studi Di Torino",
+          "place": "unito",
+          "name": "Università degli Studi di Torino",
           "role": "Researcher",
           "start": 2008,
           "end": 2009
@@ -46752,6 +48172,14 @@
         {
           "place": "igp",
           "did": ["Researcher"]
+        },
+        {
+          "place": "unito",
+          "did": ["Researcher"]
+        },
+        {
+          "place": "unipv",
+          "did": ["Posdoc"]
         },
         {
           "place": "unac",
@@ -47274,6 +48702,10 @@
         {
           "place": "unsa",
           "role": "Docente"
+        },
+        {
+          "place": "tecsup",
+          "role": "Docente"
         }
       ],
       "jobs": [
@@ -47285,15 +48717,15 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "tecsup",
           "name": "Tecsup",
           "role": "Docente",
           "start": 2008,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Catolica de Santa Maria de Arequipa",
+          "place": "ucsm",
+          "name": "Universidad Católica de Santa María",
           "role": "Docente",
           "start": 2011,
           "end": 2021
@@ -47309,10 +48741,22 @@
       "path": [
         {
           "place": "unsa",
-          "did": ["Bachillerato", "Licenciatura"]
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Licenciatura"]
         },
         {
           "place": "utp",
+          "did": ["Docente"]
+        },
+        {
+          "place": "ucsm",
           "did": ["Docente"]
         },
         {
@@ -47574,8 +49018,8 @@
           "end": 2021
         },
         {
-          "place": null,
-          "name": "Centro de Investigaciones Biomedicas y Medioambientales (citbm - 1er Centro de Excelencia)",
+          "place": "citbm",
+          "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
           "role": "Researcher",
           "start": 2015,
           "end": 2015
@@ -47600,6 +49044,10 @@
         {
           "place": "uni",
           "did": ["Professor (mechatronics engineering)"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Researcher"]
         },
         {
           "place": "utec",
@@ -48299,11 +49747,16 @@
           "end": 2003
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unsa",
+          "role": "Docente principal de"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Nacional de San Agustin Facultad de Ciencias Naturales y Formales Pe",
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
           "role": "Docente principal de",
           "start": 1989,
           "end": "now"
@@ -48312,7 +49765,7 @@
       "path": [
         {
           "place": "unsa",
-          "did": ["Licenciatura", "Doctorado"]
+          "did": ["Licenciatura", "Docente principal de", "Doctorado"]
         }
       ]
     },
@@ -48612,15 +50065,15 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Centre for Optics, Photonics and Lasers, Universite Laval",
+          "place": "ulaval",
+          "name": "Université Laval",
           "role": "Research professional",
           "start": 2021,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Consejo Nacional de Ciencia y Tecnologia e Innovacion Tecnologica",
+          "place": "concytec",
+          "name": "Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica",
           "role": "",
           "start": 2015,
           "end": 2019
@@ -48633,15 +50086,15 @@
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Instituto de Fisica de Sao Carlos",
+          "place": "ifsc-usp",
+          "name": "Instituto de Física de São Carlos (USP)",
           "role": "Researcher",
           "start": 2009,
           "end": 2014
         },
         {
-          "place": null,
-          "name": "Zone Universite Laval",
+          "place": "ulaval",
+          "name": "Université Laval",
           "role": "Reseracher",
           "start": 2012,
           "end": 2012
@@ -48661,8 +50114,24 @@
           "did": ["Doctorado"]
         },
         {
+          "place": "ifsc-usp",
+          "did": ["Researcher"]
+        },
+        {
+          "place": "ulaval",
+          "did": ["Reseracher"]
+        },
+        {
+          "place": "concytec",
+          "did": []
+        },
+        {
           "place": "unmsm",
           "did": ["Profesor auxiliar, dr.", "Docente"]
+        },
+        {
+          "place": "ulaval",
+          "did": ["Research professional"]
         },
         {
           "place": "unesp",
@@ -51100,18 +52569,27 @@
           "end": 2019
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "gu",
+          "role": "Postdoctoral researcher"
+        },
+        {
+          "place": "chalmers",
+          "role": "Postdoctoral researcher"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "University of Gothenburg",
+          "place": "gu",
+          "name": "Göteborgs universitet",
           "role": "Postdoctoral researcher",
           "start": 2024,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Chalmers University of Technology",
+          "place": "chalmers",
+          "name": "Chalmers tekniska högskola",
           "role": "Postdoctoral researcher",
           "start": 2024,
           "end": "now"
@@ -51139,6 +52617,14 @@
         },
         {
           "place": "uppsala",
+          "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "gu",
+          "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "chalmers",
           "did": ["Postdoctoral researcher"]
         }
       ],
@@ -52266,10 +53752,15 @@
           "end": 2019
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upc-pe",
+          "role": "Professor of physics"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Professor of physics",
           "start": 2016,
@@ -52279,7 +53770,15 @@
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato", "Maestría", "Licenciatura"]
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Professor of physics"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Maestría", "Licenciatura"]
         }
       ]
     },
@@ -52451,11 +53950,16 @@
           "end": 2024
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "udep",
+          "role": "Research assistant"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "University of Piura",
+          "place": "udep",
+          "name": "Universidad de Piura",
           "role": "Research assistant",
           "start": 2024,
           "end": "now"
@@ -52465,6 +53969,10 @@
         {
           "place": "unp",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "udep",
+          "did": ["Research assistant"]
         }
       ]
     },
@@ -52775,8 +54283,8 @@
           "end": 2025
         },
         {
-          "place": null,
-          "name": "Pontificia Universidad Catolica Madre y Maestra",
+          "place": "pucmm",
+          "name": "Pontificia Universidad Católica Madre y Maestra",
           "role": "Profesor a tiempo completo",
           "start": 2020,
           "end": 2022
@@ -52808,6 +54316,10 @@
         {
           "place": "mackenzie",
           "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "pucmm",
+          "did": ["Profesor a tiempo completo"]
         },
         {
           "place": "uarm",
@@ -52965,11 +54477,16 @@
           "end": 2024
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "ncbj",
+          "role": "Postdoc researcher"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Ncbj",
+          "place": "ncbj",
+          "name": "Narodowe Centrum Badań Jądrowych",
           "role": "Postdoc researcher",
           "start": 2025,
           "end": "now"
@@ -52990,6 +54507,10 @@
         {
           "place": "unibo",
           "did": ["Doctorado", "Research fellow / phd"]
+        },
+        {
+          "place": "ncbj",
+          "did": ["Postdoc researcher"]
         }
       ],
       "links": [
@@ -53110,8 +54631,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Geophysical Institute of Peru",
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
           "role": "",
           "start": 2025,
           "end": 2025
@@ -53132,6 +54653,10 @@
         {
           "place": "utec",
           "did": ["Teaching assistant"]
+        },
+        {
+          "place": "igp",
+          "did": []
         },
         {
           "place": "uni",
@@ -54359,11 +55884,16 @@
           "end": 1990
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unap",
+          "role": "Docente"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Nacional del Altiplano Facultad de Ingenieria Civil y Arquitectura",
+          "place": "unap",
+          "name": "Universidad Nacional del Altiplano",
           "role": "Docente",
           "start": 1996,
           "end": "now"
@@ -54373,6 +55903,10 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "unap",
+          "did": ["Docente"]
         }
       ]
     },
@@ -56622,8 +58156,8 @@
           "end": 2009
         },
         {
-          "place": null,
-          "name": "Radboud Universiteit Nijmegen",
+          "place": "radboud",
+          "name": "Radboud Universiteit",
           "role": "Investigador posdoctoral",
           "start": 2003,
           "end": 2004
@@ -56651,6 +58185,10 @@
         {
           "place": "tu-chemnitz",
           "did": ["Doctorado", "Investigador", "Investigador posdoctoral"]
+        },
+        {
+          "place": "radboud",
+          "did": ["Investigador posdoctoral"]
         },
         {
           "place": "unmsm",
@@ -56765,15 +58303,15 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Vienna University of Technology",
+          "place": "tuwien",
+          "name": "Technische Universität Wien",
           "role": "Senior postdoc",
           "start": 2010,
           "end": 2014
         },
         {
-          "place": null,
-          "name": "Ecole Polytechnique Federale de Lausanne Institut de Physique",
+          "place": "epfl",
+          "name": "Escuela Politécnica Federal de Lausana",
           "role": "Scientific collaborator",
           "start": 2007,
           "end": 2009
@@ -56783,6 +58321,14 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "epfl",
+          "did": ["Scientific collaborator"]
+        },
+        {
+          "place": "tuwien",
+          "did": ["Senior postdoc"]
         },
         {
           "place": "usp",
@@ -59407,8 +60953,8 @@
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Instituto de Microelectronica de Madrid",
+          "place": "imm-csic",
+          "name": "Instituto de Micro y Nanotecnología",
           "role": "Technology transfer: training, assembly and diagnose of a dc plasma of a hybrid system of dc magnetron sputtering and pulsed evaporation for production of thermoelectric films of AG2-XSE and CU2-XSE",
           "start": 2015,
           "end": 2015
@@ -59422,6 +60968,16 @@
         {
           "place": "cbpf",
           "did": ["Maestría", "Researcher", "Doctorado"]
+        },
+        {
+          "place": "imm-csic",
+          "did": [
+            "Technology transfer: training, assembly and diagnose of a dc plasma of a hybrid system of dc magnetron sputtering and pulsed evaporation for production of thermoelectric films of AG2-XSE and CU2-XSE"
+          ]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Researcher"]
         },
         {
           "place": "uni",
@@ -59504,8 +61060,8 @@
           "end": 2000
         },
         {
-          "place": null,
-          "name": "Senati",
+          "place": "senati",
+          "name": "Servicio Nacional de Adiestramiento en Trabajo Industrial",
           "role": "Docente",
           "start": 1995,
           "end": 1995
@@ -59528,6 +61084,10 @@
             "Doctorado",
             "Profesor asociado"
           ]
+        },
+        {
+          "place": "senati",
+          "did": ["Docente"]
         },
         {
           "place": "ipen-pe",
@@ -61206,11 +62766,16 @@
           "end": 2014
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upr",
+          "role": "Assistant professor"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "University of Puerto Rico at Rio Piedras",
+          "place": "upr",
+          "name": "Universidad de Puerto Rico",
           "role": "Assistant professor",
           "start": 2024,
           "end": "now"
@@ -61227,7 +62792,7 @@
         },
         {
           "place": "upr",
-          "did": ["Maestría"]
+          "did": ["Maestría", "Assistant professor"]
         }
       ]
     },
@@ -61422,7 +62987,7 @@
       ],
       "jobs": [
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Supervisor de laboratorio de ciencias",
           "start": 2022,
@@ -61436,7 +63001,7 @@
           "end": 2019
         },
         {
-          "place": null,
+          "place": "unaj",
           "name": "Universidad Nacional de Juliaca",
           "role": "Jefe de laboratorio",
           "start": 2018,
@@ -61463,8 +63028,16 @@
           "did": ["Bachillerato", "Fisica i y fisica ii"]
         },
         {
+          "place": "unaj",
+          "did": ["Jefe de laboratorio"]
+        },
+        {
           "place": "unmsm",
           "did": ["Maestría", "Pasante - tesista"]
+        },
+        {
+          "place": "upn",
+          "did": ["Supervisor de laboratorio de ciencias"]
         },
         {
           "place": "unesp",
@@ -61507,6 +63080,10 @@
         {
           "place": "uc",
           "role": ""
+        },
+        {
+          "place": "ucsm",
+          "role": "Docente a tiempo parcial"
         }
       ],
       "jobs": [
@@ -61518,8 +63095,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Catolica de Santa Maria de Arequipa",
+          "place": "ucsm",
+          "name": "Universidad Católica de Santa María",
           "role": "Docente a tiempo parcial",
           "start": 2009,
           "end": "now"
@@ -61561,6 +63138,10 @@
         {
           "place": "uap",
           "did": ["Docente contratado"]
+        },
+        {
+          "place": "ucsm",
+          "did": ["Docente a tiempo parcial"]
         },
         {
           "place": "ucsp",
@@ -61618,7 +63199,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "mctp",
           "name": "Mesoamerican Centre for Theoretical Physics",
           "role": "Diplomado en fisica teorica",
           "start": 2025,
@@ -61633,6 +63214,10 @@
         {
           "place": "unesp",
           "did": ["Estudiante de maestría en física"]
+        },
+        {
+          "place": "mctp",
+          "did": ["Diplomado en fisica teorica"]
         }
       ]
     },
@@ -62127,10 +63712,15 @@
           "end": 1984
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "uns",
+          "role": "Licienciado en fisica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "uns",
           "name": "Universidad Nacional del Santa",
           "role": "Licienciado en fisica",
           "start": 1990,
@@ -62141,6 +63731,10 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "uns",
+          "did": ["Licienciado en fisica"]
         }
       ]
     },
@@ -62321,11 +63915,16 @@
           "end": 2020
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "citbm",
+          "role": "Asistente de investigacion"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Centro de Investigaciones Tecnologicas Biomedicas y Medioambientales",
+          "place": "citbm",
+          "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
           "role": "Asistente de investigacion",
           "start": 2021,
           "end": "now"
@@ -62338,8 +63937,8 @@
           "end": 2023
         },
         {
-          "place": null,
-          "name": "Citbm",
+          "place": "citbm",
+          "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
           "role": "Asistente de investigacion",
           "start": 2019,
           "end": 2021
@@ -62356,6 +63955,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Asistente de investigacion"]
         }
       ]
     },
@@ -62408,8 +64011,8 @@
           "end": 2023
         },
         {
-          "place": null,
-          "name": "Instituto de Meteorologia",
+          "place": "insmet",
+          "name": "Instituto de Meteorología de Cuba",
           "role": "Senior researcher",
           "start": 1981,
           "end": 2020
@@ -62422,8 +64025,8 @@
           "end": 2020
         },
         {
-          "place": null,
-          "name": "Instituto Superior Politecnico Jose Antonio Echeverria",
+          "place": "cujae",
+          "name": "Universidad Tecnológica de La Habana José Antonio Echeverría",
           "role": "Instructor",
           "start": 1980,
           "end": 1981
@@ -62433,6 +64036,14 @@
         {
           "place": "uh",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "cujae",
+          "did": ["Instructor"]
+        },
+        {
+          "place": "insmet",
+          "did": ["Senior researcher"]
         },
         {
           "place": "acc-cuba",
@@ -62869,14 +64480,18 @@
       ],
       "works": [
         {
+          "place": "cin2",
+          "role": "Investigador"
+        },
+        {
           "place": "uni",
           "role": "Estudiante de doctorado en física"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Institut Catala de Nanociencia I Nanotecnologia",
+          "place": "cin2",
+          "name": "Institut Català de Nanociència i Nanotecnologia",
           "role": "Investigador",
           "start": 2025,
           "end": "now"
@@ -62889,21 +64504,21 @@
           "end": 2024
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Profesor",
           "start": 2023,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Universidad Catolica de Trujillo",
+          "place": "uct",
+          "name": "Universidad Católica de Trujillo Benedicto XVI",
           "role": "Profesor",
           "start": 2024,
           "end": 2024
         },
         {
-          "place": null,
+          "place": "fermilab",
           "name": "Fermilab",
           "role": "Non-doctoral graduate student researcher",
           "start": 2021,
@@ -62924,8 +64539,8 @@
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Institut Neel",
+          "place": "neel",
+          "name": "Institut Néel",
           "role": "Temporal researcher",
           "start": 2017,
           "end": 2018
@@ -62944,12 +64559,32 @@
           "did": ["Bachillerato"]
         },
         {
+          "place": "neel",
+          "did": ["Temporal researcher"]
+        },
+        {
           "place": "uprm",
           "did": ["Maestría", "Teacher assistant"]
         },
         {
+          "place": "fermilab",
+          "did": ["Non-doctoral graduate student researcher"]
+        },
+        {
+          "place": "upn",
+          "did": ["Profesor"]
+        },
+        {
           "place": "utp",
           "did": ["Profesor"]
+        },
+        {
+          "place": "uct",
+          "did": ["Profesor"]
+        },
+        {
+          "place": "cin2",
+          "did": ["Investigador"]
         },
         {
           "place": "uni",
@@ -63316,6 +64951,14 @@
         {
           "place": "utp",
           "role": "Docente a tiempo parcial"
+        },
+        {
+          "place": "upn",
+          "role": "Docente a tiempo parcial"
+        },
+        {
+          "place": "upc-pe",
+          "role": "Docente a tiempo completo"
         }
       ],
       "jobs": [
@@ -63327,14 +64970,14 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente a tiempo parcial",
           "start": 2021,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Docente a tiempo completo",
           "start": 2014,
@@ -63362,8 +65005,8 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Institut de Recherche Pour Le Developpement France-nord",
+          "place": "ird",
+          "name": "Instituto de Investigación para el Desarrollo (IRD)",
           "role": "Analista de datos meteorologicos",
           "start": 2013,
           "end": 2014
@@ -63379,6 +65022,14 @@
           "did": ["Docente"]
         },
         {
+          "place": "ird",
+          "did": ["Analista de datos meteorologicos"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Docente a tiempo completo"]
+        },
+        {
           "place": "igp",
           "did": ["Asistente de investigacion"]
         },
@@ -63388,6 +65039,10 @@
         },
         {
           "place": "utp",
+          "did": ["Docente a tiempo parcial"]
+        },
+        {
+          "place": "upn",
           "did": ["Docente a tiempo parcial"]
         },
         {
@@ -63837,11 +65492,16 @@
           "end": 1998
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unam",
+          "role": "Researcher"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "National Autonomous University of Mexico",
+          "place": "unam",
+          "name": "Universidad Nacional Autónoma de México",
           "role": "Researcher",
           "start": 2007,
           "end": "now"
@@ -63851,6 +65511,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato", "Maestría"]
+        },
+        {
+          "place": "unam",
+          "did": ["Researcher"]
         }
       ],
       "links": [
@@ -64281,6 +65945,10 @@
         {
           "place": "ucsur",
           "role": "Docente"
+        },
+        {
+          "place": "upc-pe",
+          "role": "Teacher"
         }
       ],
       "jobs": [
@@ -64292,7 +65960,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Teacher",
           "start": 2014,
@@ -64303,6 +65971,10 @@
         {
           "place": "unac",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Teacher"]
         },
         {
           "place": "unmsm",
@@ -64674,10 +66346,15 @@
           "end": 2010
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upc-pe",
+          "role": "Docente de tiempo completo"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Docente de tiempo completo",
           "start": 2016,
@@ -64688,6 +66365,10 @@
         {
           "place": "pucp",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Docente de tiempo completo"]
         }
       ]
     },
@@ -64901,6 +66582,10 @@
         {
           "place": "utec",
           "role": ""
+        },
+        {
+          "place": "unal",
+          "role": ""
         }
       ],
       "jobs": [
@@ -64912,7 +66597,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "unal",
           "name": "Universidad Nacional de Colombia",
           "role": "",
           "start": 2014,
@@ -64923,6 +66608,10 @@
         {
           "place": "valencia",
           "did": ["Doctorado"]
+        },
+        {
+          "place": "unal",
+          "did": []
         },
         {
           "place": "utec",
@@ -65240,10 +66929,15 @@
           "end": 2012
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upn",
+          "role": "Especialista de ciencias en fisica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Especialista de ciencias en fisica",
           "start": 2013,
@@ -65254,6 +66948,10 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "upn",
+          "did": ["Especialista de ciencias en fisica"]
         }
       ]
     },
@@ -65831,24 +67529,29 @@
           "end": 2016
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "utep",
+          "role": "Research scientics"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "The University of Texas at El Paso",
+          "place": "utep",
+          "name": "University of Texas at El Paso",
           "role": "Research scientics",
           "start": 2021,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "lanl",
           "name": "Los Alamos National Laboratory",
           "role": "Postdoc research associate",
           "start": 2019,
           "end": 2021
         },
         {
-          "place": null,
+          "place": "orise",
           "name": "Oak Ridge Institute for Science and Education",
           "role": "Intern/research at ornl",
           "start": 2017,
@@ -65869,8 +67572,8 @@
           "end": 2003
         },
         {
-          "place": null,
-          "name": "Geophysical Institure of Peru",
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
           "role": "Intern/research",
           "start": 1996,
           "end": 1997
@@ -65880,6 +67583,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "igp",
+          "did": ["Intern/research"]
         },
         {
           "place": "unac",
@@ -65892,6 +67599,18 @@
         {
           "place": "utep",
           "did": ["Maestría"]
+        },
+        {
+          "place": "orise",
+          "did": ["Intern/research at ornl"]
+        },
+        {
+          "place": "lanl",
+          "did": ["Postdoc research associate"]
+        },
+        {
+          "place": "utep",
+          "did": ["Research scientics"]
         }
       ]
     },
@@ -65994,18 +67713,27 @@
           "end": 2018
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upn",
+          "role": ""
+        },
+        {
+          "place": "citbm",
+          "role": "Investigador colaborador"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Privada del Norte - Sede Lima Norte",
+          "place": "upn",
+          "name": "Universidad Privada del Norte",
           "role": "",
           "start": 2020,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Centro de Investigaciones Tecnologicas Biomedicas y Medioambinetales",
+          "place": "citbm",
+          "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
           "role": "Investigador colaborador",
           "start": 2018,
           "end": "now"
@@ -66015,6 +67743,14 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Investigador colaborador"]
+        },
+        {
+          "place": "upn",
+          "did": []
         }
       ]
     },
@@ -66856,14 +68592,14 @@
           "end": 2019
         },
         {
-          "place": null,
+          "place": "tecsup",
           "name": "Tecsup",
           "role": "Docente de f isica",
           "start": 2014,
           "end": 2016
         },
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Docente de f sica",
           "start": 2007,
@@ -66887,12 +68623,20 @@
           "did": ["Docente de matematica"]
         },
         {
+          "place": "upc-pe",
+          "did": ["Docente de f sica"]
+        },
+        {
           "place": "ucv",
           "did": ["Maestría"]
         },
         {
           "place": "uni",
           "did": ["Maestría"]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Docente de f isica"]
         }
       ],
       "links": [
@@ -67376,11 +69120,16 @@
           "end": 2018
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upao",
+          "role": "Docente investigador"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Antenor Orrego Private University",
+          "place": "upao",
+          "name": "Universidad Privada Antenor Orrego",
           "role": "Docente investigador",
           "start": 2021,
           "end": "now"
@@ -67390,6 +69139,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "upao",
+          "did": ["Docente investigador"]
         }
       ]
     },
@@ -68943,6 +70696,14 @@
         {
           "place": "ucv",
           "role": "Docente tiempo parcial"
+        },
+        {
+          "place": "upn",
+          "role": "Docente tiempo parcial"
+        },
+        {
+          "place": "ua-peru",
+          "role": "Docente investigador"
         }
       ],
       "jobs": [
@@ -68961,35 +70722,35 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente tiempo parcial",
           "start": 2022,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Autonoma del Peru",
+          "place": "ua-peru",
+          "name": "Universidad Autónoma del Perú",
           "role": "Docente investigador",
           "start": 2022,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Cesar Vallejo Chimbote",
+          "place": "ucv",
+          "name": "Universidad César Vallejo",
           "role": "Docente tiempo parcial",
           "start": 2019,
           "end": 2022
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente tiempo completo",
           "start": 2016,
           "end": 2022
         },
         {
-          "place": null,
+          "place": "tecsup",
           "name": "Tecsup",
           "role": "Docente tiempo parcial",
           "start": 2016,
@@ -69004,6 +70765,26 @@
         {
           "place": "upr",
           "did": ["Maestría"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente tiempo completo"]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Docente tiempo parcial"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Docente tiempo parcial"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente tiempo parcial"]
+        },
+        {
+          "place": "ua-peru",
+          "did": ["Docente investigador"]
         },
         {
           "place": "ucv",
@@ -69227,27 +71008,31 @@
       ],
       "works": [
         {
+          "place": "uch",
+          "role": "Acreditacion"
+        },
+        {
           "place": "viu",
           "role": "Estudiante de maestría en astrofísica"
         }
       ],
       "jobs": [
         {
-          "place": null,
+          "place": "uch",
           "name": "Universidad de Ciencias y Humanidades",
           "role": "Acreditacion",
           "start": 2025,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upecen",
           "name": "Universidad Peruana del Centro",
           "role": "Coordinador de divulgacion e integridad en investigacion",
           "start": 2022,
           "end": 2025
         },
         {
-          "place": null,
+          "place": "uch",
           "name": "Universidad de Ciencias y Humanidades",
           "role": "Jefe de laboratorio",
           "start": 2009,
@@ -69271,10 +71056,23 @@
       "path": [
         {
           "place": "unmsm",
-          "did": [
-            "Bachillerato",
-            "Egresado maestria en ciencias fisicas - mencion geofisica"
-          ]
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "uch",
+          "did": ["Jefe de laboratorio"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Egresado maestria en ciencias fisicas - mencion geofisica"]
+        },
+        {
+          "place": "upecen",
+          "did": ["Coordinador de divulgacion e integridad en investigacion"]
+        },
+        {
+          "place": "uch",
+          "did": ["Acreditacion"]
         },
         {
           "place": "viu",
@@ -69752,7 +71550,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente auxiliar",
           "start": 2017,
@@ -69781,6 +71579,10 @@
         {
           "place": "unitru",
           "did": ["Doctorado", "Docente"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente auxiliar"]
         }
       ]
     },
@@ -69841,14 +71643,14 @@
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "European Organization for Nuclear Research",
+          "place": "cern",
+          "name": "CERN",
           "role": "Summer student program",
           "start": 2025,
           "end": 2025
         },
         {
-          "place": null,
+          "place": "yale",
           "name": "Yale University",
           "role": "Postgraduate associate",
           "start": 2023,
@@ -69862,14 +71664,14 @@
           "end": 2023
         },
         {
-          "place": null,
+          "place": "mines",
           "name": "Colorado School of Mines",
           "role": "Undergraduate research assistant",
           "start": 2021,
           "end": 2022
         },
         {
-          "place": null,
+          "place": "yale",
           "name": "Yale University",
           "role": "Undergraduate research assistant",
           "start": 2020,
@@ -69885,12 +71687,28 @@
       ],
       "path": [
         {
+          "place": "yale",
+          "did": ["Undergraduate research assistant"]
+        },
+        {
+          "place": "mines",
+          "did": ["Undergraduate research assistant"]
+        },
+        {
           "place": "uni",
           "did": ["Bachillerato"]
         },
         {
+          "place": "yale",
+          "did": ["Postgraduate associate"]
+        },
+        {
           "place": "unibo",
           "did": ["Estudiante de maestría en física"]
+        },
+        {
+          "place": "cern",
+          "did": ["Summer student program"]
         }
       ],
       "links": [
@@ -70011,29 +71829,29 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidade Federal do Maranhão (ufma)",
+          "place": "ufma",
+          "name": "Universidade Federal do Maranhão",
           "role": "Docente investigador tc",
           "start": 2019,
           "end": 2021
         },
         {
-          "place": null,
-          "name": "Universidade Federal do Maranhão (ufma)",
+          "place": "ufma",
+          "name": "Universidade Federal do Maranhão",
           "role": "Investigador postdoctoral",
           "start": 2017,
           "end": 2020
         },
         {
-          "place": null,
-          "name": "Universidade Federal do Maranhão (ufma)",
+          "place": "ufma",
+          "name": "Universidade Federal do Maranhão",
           "role": "Docente investigador tp",
           "start": 2017,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Unesp Rio Claro",
+          "place": "unesp",
+          "name": "Universidade Estadual Paulista",
           "role": "Investigador postdoctoral",
           "start": 2016,
           "end": 2017
@@ -70046,7 +71864,15 @@
         },
         {
           "place": "unesp",
-          "did": ["Maestría", "Doctorado"]
+          "did": ["Maestría", "Doctorado", "Investigador postdoctoral"]
+        },
+        {
+          "place": "ufma",
+          "did": [
+            "Investigador postdoctoral",
+            "Docente investigador tp",
+            "Docente investigador tc"
+          ]
         },
         {
           "place": "utp",
@@ -70135,18 +71961,23 @@
           "end": 2026
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Jefe de practica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Pontificia Universidad Catolica El Peru",
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
           "role": "Jefe de practica",
           "start": 2024,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Instituto Nacional de Investigacion y Capacitacion de Telecomunicaciones",
+          "place": "inictel",
+          "name": "Instituto Nacional de Investigación y Capacitación de Telecomunicaciones",
           "role": "Investigador",
           "start": 2021,
           "end": 2021
@@ -70158,12 +71989,20 @@
           "did": ["Bachillerato"]
         },
         {
+          "place": "inictel",
+          "did": ["Investigador"]
+        },
+        {
           "place": "pucp",
           "did": ["Maestría"]
         },
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Jefe de practica"]
         }
       ]
     },
@@ -70594,22 +72433,22 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Instituto Politecnico Nacional Escuela Superior de Ingenieria y Arquitectura Zacatenco",
+          "place": "ipn",
+          "name": "Instituto Politécnico Nacional",
           "role": "Professor of mathematics and physics.",
           "start": 2010,
           "end": 2012
         },
         {
-          "place": null,
-          "name": "Instituto Politecnico Nacional Unidad Zacatenco",
+          "place": "ipn",
+          "name": "Instituto Politécnico Nacional",
           "role": "201PROFESSOR of higher mathematics and heat transfer.",
           "start": 2010,
           "end": 2012
         },
         {
-          "place": null,
-          "name": "Instituto Tecnologico y de Estudios Superiores de Monterrey",
+          "place": "itesm",
+          "name": "Tecnológico de Monterrey",
           "role": "Teaching integral calculus.",
           "start": 2009,
           "end": 2009
@@ -70619,6 +72458,17 @@
         {
           "place": "buap",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "itesm",
+          "did": ["Teaching integral calculus."]
+        },
+        {
+          "place": "ipn",
+          "did": [
+            "Professor of mathematics and physics.",
+            "201PROFESSOR of higher mathematics and heat transfer."
+          ]
         },
         {
           "place": "unam",
@@ -70757,7 +72607,7 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
+          "place": "colostate",
           "name": "Colorado State University",
           "role": "Postdoctoral fellow",
           "start": 2023,
@@ -70776,6 +72626,10 @@
         {
           "place": "unsw",
           "did": ["Doctorado"]
+        },
+        {
+          "place": "colostate",
+          "did": ["Postdoctoral fellow"]
         }
       ],
       "links": [
@@ -71358,32 +73212,37 @@
           "end": 2017
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "pnnl",
+          "role": "Postdoctoral researcher"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "pnnl",
           "name": "Pacific Northwest National Laboratory",
           "role": "Postdoctoral researcher",
           "start": 2024,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "virginia",
           "name": "University of Virginia",
           "role": "Postdoctoral researcher",
           "start": 2022,
           "end": 2024
         },
         {
-          "place": null,
-          "name": "Max Planck Institute for Meteorology",
+          "place": "mpi-met",
+          "name": "Max-Planck-Institut für Meteorologie",
           "role": "Postdoctoral research",
           "start": 2021,
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Max Planck Institute for Meteorology",
+          "place": "mpi-met",
+          "name": "Max-Planck-Institut für Meteorologie",
           "role": "Phd student",
           "start": 2018,
           "end": 2021
@@ -71430,6 +73289,18 @@
         {
           "place": "upmc",
           "did": ["Intern"]
+        },
+        {
+          "place": "mpi-met",
+          "did": ["Phd student", "Postdoctoral research"]
+        },
+        {
+          "place": "virginia",
+          "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "pnnl",
+          "did": ["Postdoctoral researcher"]
         }
       ]
     },
@@ -71521,8 +73392,8 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "University of Puerto Rico at Rio Piedras",
+          "place": "upr",
+          "name": "Universidad de Puerto Rico",
           "role": "Teaching assistant",
           "start": 2015,
           "end": 2025
@@ -71543,6 +73414,10 @@
         {
           "place": "uprm",
           "did": ["Teaching assistant", "Maestría"]
+        },
+        {
+          "place": "upr",
+          "did": ["Teaching assistant"]
         }
       ]
     },
@@ -71581,8 +73456,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Institute for Scientific Research, Boston College",
+          "place": "bc",
+          "name": "Boston College",
           "role": "Postdoctoral research associate",
           "start": 2011,
           "end": 2013
@@ -71617,6 +73492,10 @@
         {
           "place": "usu",
           "did": ["Postdoctoral fellowship"]
+        },
+        {
+          "place": "bc",
+          "did": ["Postdoctoral research associate"]
         },
         {
           "place": "igp",
@@ -71866,8 +73745,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Universidad Catolica los Angeles de Chimbote",
+          "place": "uladech",
+          "name": "Universidad Católica Los Ángeles de Chimbote",
           "role": "Docente",
           "start": 2005,
           "end": 2021
@@ -71877,6 +73756,10 @@
         {
           "place": "unp",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "uladech",
+          "did": ["Docente"]
         },
         {
           "place": "ucv",
@@ -73468,8 +75351,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Centro Brasileiro de Pesquisas Fisicas: Rio de Janeiro, Rj, Br",
+          "place": "cbpf",
+          "name": "Centro Brasileiro de Pesquisas Físicas",
           "role": "Postdoc",
           "start": 2019,
           "end": 2024
@@ -73490,6 +75373,10 @@
         {
           "place": "ufrj",
           "did": ["Maestría"]
+        },
+        {
+          "place": "cbpf",
+          "did": ["Postdoc"]
         },
         {
           "place": "uff",
@@ -73766,36 +75653,36 @@
           "end": 2013
         },
         {
-          "place": null,
+          "place": "iac",
           "name": "Instituto de Astrofísica de Canarias",
           "role": "Postdoc",
           "start": 2012,
           "end": 2013
         },
         {
-          "place": null,
-          "name": "Observatorio Nacional, Rio de Janeiro",
+          "place": "on",
+          "name": "Observatório Nacional",
           "role": "Postdoc",
           "start": 2007,
           "end": 2011
         },
         {
-          "place": null,
-          "name": "Institut Destudis Espacials de Catalunya",
+          "place": "ieec",
+          "name": "Institut d'Estudis Espacials de Catalunya",
           "role": "Investigador visitante",
           "start": 2007,
           "end": 2007
         },
         {
-          "place": null,
-          "name": "Instituto de Astronomía, Geofísica e Ciencias Atmosféricas, Sao Paulo Brasil",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Postdoc",
           "start": 2003,
           "end": 2007
         },
         {
-          "place": null,
-          "name": "Instituto de Astronomía, Geofísica e Ciencias Atmosféricas, Sao Paulo Brasil",
+          "place": "usp",
+          "name": "Universidade de São Paulo",
           "role": "Investigador visitante",
           "start": 2002,
           "end": 2003
@@ -73820,6 +75707,22 @@
         {
           "place": "uni",
           "did": ["Profesor auxiliar"]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador visitante", "Postdoc"]
+        },
+        {
+          "place": "on",
+          "did": ["Postdoc"]
+        },
+        {
+          "place": "ieec",
+          "did": ["Investigador visitante"]
+        },
+        {
+          "place": "iac",
+          "did": ["Postdoc"]
         },
         {
           "place": "inpe",
@@ -74189,8 +76092,8 @@
           "end": 2025
         },
         {
-          "place": null,
-          "name": "European Organization for Nuclear Research",
+          "place": "cern",
+          "name": "CERN",
           "role": "Summer student",
           "start": 2019,
           "end": 2019
@@ -74199,12 +76102,15 @@
       "path": [
         {
           "place": "pucp",
-          "did": [
-            "Bachillerato",
-            "Teaching assistant",
-            "Maestría",
-            "Regulation and research security specialist"
-          ]
+          "did": ["Bachillerato", "Teaching assistant"]
+        },
+        {
+          "place": "cern",
+          "did": ["Summer student"]
+        },
+        {
+          "place": "pucp",
+          "did": ["Maestría", "Regulation and research security specialist"]
         }
       ],
       "links": [
@@ -74790,15 +76696,15 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "Universite Paris-est Creteil",
+          "place": "upec",
+          "name": "Université Paris-Est Créteil",
           "role": "Ater",
           "start": 2024,
           "end": 2026
         },
         {
-          "place": null,
-          "name": "Centre Scientifique Et Technique Du Batiment",
+          "place": "cstb",
+          "name": "Centre Scientifique et Technique du Bâtiment",
           "role": "Phd. student",
           "start": 2021,
           "end": 2024
@@ -74808,6 +76714,14 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        },
+        {
+          "place": "cstb",
+          "did": ["Phd. student"]
+        },
+        {
+          "place": "upec",
+          "did": ["Ater"]
         }
       ]
     },
@@ -74907,18 +76821,23 @@
           "end": 2023
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "cin2",
+          "role": "Research assistant"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Instituto Catalan de Nanociencia y Nanotecnologia",
+          "place": "cin2",
+          "name": "Institut Català de Nanociència i Nanotecnologia",
           "role": "Research assistant",
           "start": 2025,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Centro de Investigaciones Tecnologicas Biomedicas y Medioambientales",
+          "place": "citbm",
+          "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
           "role": "Research assistant",
           "start": 2022,
           "end": 2025
@@ -74928,6 +76847,14 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Maestría"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Research assistant"]
+        },
+        {
+          "place": "cin2",
+          "did": ["Research assistant"]
         }
       ],
       "links": [
@@ -75383,11 +77310,16 @@
           "end": 2012
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "citbm",
+          "role": "Investigador colaborador"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Centro de Investigaciones Tecnologicas, Biomedicas y Medioambientales",
+          "place": "citbm",
+          "name": "Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales",
           "role": "Investigador colaborador",
           "start": 2019,
           "end": "now"
@@ -75400,15 +77332,15 @@
           "end": 2018
         },
         {
-          "place": null,
-          "name": "Laboratorio de Difraccion de Rayos X, Facultad de Ciencias Fisicas, Universidad Nacional Mayor de San Marcos",
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
           "role": "Asistente tecnico",
           "start": 2015,
           "end": 2017
         },
         {
-          "place": null,
-          "name": "Departamento Acedemico de Fisica, Universidad Nacional de San Antonio Abad del Cusco",
+          "place": "unsaac",
+          "name": "Universidad Nacional de San Antonio Abad del Cusco",
           "role": "Jefe de practicas",
           "start": 2009,
           "end": 2010
@@ -75424,15 +77356,23 @@
       "path": [
         {
           "place": "unsaac",
-          "did": ["Bachillerato"]
+          "did": ["Bachillerato", "Jefe de practicas"]
         },
         {
           "place": "unmsm",
-          "did": ["Maestría", "Egresado del programa de doctorado en fisica"]
+          "did": [
+            "Maestría",
+            "Asistente tecnico",
+            "Egresado del programa de doctorado en fisica"
+          ]
         },
         {
           "place": "unjfsc",
           "did": ["Analista instrumental"]
+        },
+        {
+          "place": "citbm",
+          "did": ["Investigador colaborador"]
         }
       ]
     },
@@ -75542,10 +77482,15 @@
           "end": 2025
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upf",
+          "role": "Promotor tecnologico"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upf",
           "name": "Universitat Pompeu Fabra",
           "role": "Promotor tecnologico",
           "start": 2025,
@@ -75594,8 +77539,8 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "International Potato Center",
+          "place": "cip",
+          "name": "Centro Internacional de la Papa",
           "role": "Becario post-grado",
           "start": 2004,
           "end": 2007
@@ -75605,6 +77550,10 @@
         {
           "place": "uni",
           "did": ["Bachillerato", "Docente"]
+        },
+        {
+          "place": "cip",
+          "did": ["Becario post-grado"]
         },
         {
           "place": "senamhi",
@@ -75617,6 +77566,10 @@
             "Investigador pre-doctoral",
             "Profesor sustituto"
           ]
+        },
+        {
+          "place": "upf",
+          "did": ["Promotor tecnologico"]
         }
       ]
     },
@@ -77129,8 +79082,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Clinica San Pablo",
+          "place": "san-pablo",
+          "name": "Clínica San Pablo",
           "role": "Fisico medico",
           "start": 2014,
           "end": 2019
@@ -77144,6 +79097,10 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        },
+        {
+          "place": "san-pablo",
+          "did": ["Fisico medico"]
         },
         {
           "place": "inen",
@@ -77667,17 +79624,22 @@
           "end": 2003
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "inacal",
+          "role": "Coordinador"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Instituto Nacional Calidad",
+          "place": "inacal",
+          "name": "Instituto Nacional de Calidad",
           "role": "Coordinador",
           "start": 2019,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "inacal",
           "name": "Instituto Nacional de Calidad",
           "role": "Especialista",
           "start": 2015,
@@ -77688,6 +79650,10 @@
         {
           "place": "unac",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "inacal",
+          "did": ["Especialista", "Coordinador"]
         }
       ]
     },
@@ -78217,10 +80183,15 @@
           "end": 2021
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "usach",
+          "role": "Estudiante de doctorado en ciencias físicas"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "usach",
           "name": "Universidad de Santiago de Chile",
           "role": "Estudiante de doctorado en ciencias físicas",
           "start": 2024,
@@ -78231,6 +80202,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "usach",
+          "did": ["Estudiante de doctorado en ciencias físicas"]
         }
       ]
     },
@@ -78481,17 +80456,26 @@
           "end": 2021
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upeu",
+          "role": "Docente"
+        },
+        {
+          "place": "unaj",
+          "role": "Docente"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Peruana Union",
+          "place": "upeu",
+          "name": "Universidad Peruana Unión",
           "role": "Docente",
           "start": null,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "unaj",
           "name": "Universidad Nacional de Juliaca",
           "role": "Docente",
           "start": 2024,
@@ -78511,11 +80495,19 @@
           "did": ["Bachillerato", "Maestría", "Doctorado"]
         },
         {
+          "place": "upeu",
+          "did": ["Docente"]
+        },
+        {
           "place": "unsa",
           "did": ["Maestría"]
         },
         {
           "place": "unap",
+          "did": ["Docente"]
+        },
+        {
+          "place": "unaj",
           "did": ["Docente"]
         }
       ]
@@ -79688,13 +81680,13 @@
       "works": [
         {
           "place": "balseiro",
-          "role": "Estudiante de doctorado"
+          "role": "Phd student"
         }
       ],
       "jobs": [
         {
-          "place": null,
-          "name": "Balseiro Institute",
+          "place": "balseiro",
+          "name": "Instituto Balseiro",
           "role": "Phd student",
           "start": 2023,
           "end": "now"
@@ -79714,7 +81706,7 @@
         },
         {
           "place": "balseiro",
-          "did": ["Maestría", "Estudiante de doctorado"]
+          "did": ["Maestría", "Phd student", "Estudiante de doctorado"]
         }
       ],
       "links": [
@@ -80189,10 +82181,15 @@
           "end": 2008
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upc-pe",
+          "role": "Profesor a tiempo completo"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Profesor a tiempo completo",
           "start": 2011,
@@ -80225,6 +82222,10 @@
         {
           "place": "uni",
           "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Profesor a tiempo completo"]
         }
       ]
     },
@@ -80497,10 +82498,15 @@
           "end": 2009
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "uns",
+          "role": ""
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "uns",
           "name": "Universidad Nacional del Santa",
           "role": "",
           "start": 2000,
@@ -80510,7 +82516,15 @@
       "path": [
         {
           "place": "unitru",
-          "did": ["Bachillerato", "Licenciatura", "Maestría"]
+          "did": ["Bachillerato", "Licenciatura"]
+        },
+        {
+          "place": "uns",
+          "did": []
+        },
+        {
+          "place": "unitru",
+          "did": ["Maestría"]
         }
       ]
     },
@@ -80840,15 +82854,15 @@
           "end": 2021
         },
         {
-          "place": null,
-          "name": "Universidad Nacional San Agustin",
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
           "role": "Profesor principal",
           "start": 2019,
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Universidad Nacional San Agustin",
+          "place": "unsa",
+          "name": "Universidad Nacional de San Agustín de Arequipa",
           "role": "Profesor principal",
           "start": 2018,
           "end": 2018
@@ -80869,6 +82883,10 @@
         {
           "place": "uni",
           "did": ["Investigador"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Profesor principal"]
         },
         {
           "place": "utp",
@@ -81686,11 +83704,16 @@
           "end": 2017
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "uh-manoa",
+          "role": "Graduate research assistant"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "University of Hawaiʻi at Manoa",
+          "place": "uh-manoa",
+          "name": "Universidad de Hawái en Mānoa",
           "role": "Graduate research assistant",
           "start": 2023,
           "end": "now"
@@ -81703,8 +83726,8 @@
           "end": 2023
         },
         {
-          "place": null,
-          "name": "University of Hawaiʻi at Manoa",
+          "place": "uh-manoa",
+          "name": "Universidad de Hawái en Mānoa",
           "role": "Estudiante de doctorado",
           "start": 2023,
           "end": "now"
@@ -81718,6 +83741,10 @@
         {
           "place": "igp",
           "did": ["Research assistant"]
+        },
+        {
+          "place": "uh-manoa",
+          "did": ["Graduate research assistant", "Estudiante de doctorado"]
         }
       ]
     },
@@ -81921,8 +83948,8 @@
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Universidad Catolica de la Santisima Concepcion Facultad de Ingenieria",
+          "place": "ucsc-cl",
+          "name": "Universidad Católica de la Santísima Concepción",
           "role": "Docente - tiempo parcial",
           "start": 2018,
           "end": 2018
@@ -81943,6 +83970,10 @@
         {
           "place": "ubiobio",
           "did": ["Docente a tiempo parcial"]
+        },
+        {
+          "place": "ucsc-cl",
+          "did": ["Docente - tiempo parcial"]
         },
         {
           "place": "unitru",
@@ -82426,10 +84457,15 @@
           "end": 2009
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "ufam",
+          "role": "Professor"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "ufam",
           "name": "Universidade Federal do Amazonas",
           "role": "Professor",
           "start": 2010,
@@ -82451,6 +84487,10 @@
         {
           "place": "cbpf",
           "did": ["Maestría", "Doctorado", "Postdoctoral position"]
+        },
+        {
+          "place": "ufam",
+          "did": ["Professor"]
         }
       ]
     },
@@ -82474,11 +84514,16 @@
           "end": 1977
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "ceresis",
+          "role": "Director"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Centro Regional de Sismologia Para America del Sur",
+          "place": "ceresis",
+          "name": "Centro Regional de Sismología para América del Sur",
           "role": "Director",
           "start": 2016,
           "end": "now"
@@ -82499,6 +84544,10 @@
         {
           "place": "ictp",
           "did": ["Diplomado"]
+        },
+        {
+          "place": "ceresis",
+          "did": ["Director"]
         }
       ]
     },
@@ -83011,8 +85060,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Johannes Gutenberg University Mainz",
+          "place": "jgu",
+          "name": "Johannes Gutenberg-Universität Mainz",
           "role": "Asistente de investigación (prácticas)",
           "start": 2025,
           "end": 2025
@@ -83044,6 +85093,10 @@
         {
           "place": "rochester",
           "did": ["Investigador de pregrado (reu)"]
+        },
+        {
+          "place": "jgu",
+          "did": ["Asistente de investigación (prácticas)"]
         },
         {
           "place": "up",
@@ -85502,7 +87555,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "unemat",
           "name": "Universidade do Estado de Mato Grosso",
           "role": "Professor temporario - unemat",
           "start": 2023,
@@ -85523,8 +87576,8 @@
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Instituto Federal de Educacao Ciencia e Tecnologia do Parana",
+          "place": "ifpr",
+          "name": "Instituto Federal do Paraná",
           "role": "Professor pesquisador 20 horas semanal - bolsista",
           "start": 2015,
           "end": 2017
@@ -85555,12 +87608,23 @@
         },
         {
           "place": "ufpr",
-          "did": [
-            "Doctorado",
-            "Estagio docencia",
-            "Professor em fisica (ufpr)",
-            "Professor substituto - ufpr"
-          ]
+          "did": ["Doctorado", "Estagio docencia"]
+        },
+        {
+          "place": "ifpr",
+          "did": ["Professor pesquisador 20 horas semanal - bolsista"]
+        },
+        {
+          "place": "ufpr",
+          "did": ["Professor em fisica (ufpr)", "Professor substituto - ufpr"]
+        },
+        {
+          "place": "unemat",
+          "did": ["Professor temporario - unemat"]
+        },
+        {
+          "place": "ufpr",
+          "did": ["Professor substituto - ufpr"]
         }
       ]
     },
@@ -85641,22 +87705,22 @@
           "end": 2020
         },
         {
-          "place": null,
+          "place": "lsbu",
           "name": "London South Bank University",
           "role": "Visiting senior research fellow",
           "start": 2008,
           "end": 2014
         },
         {
-          "place": null,
+          "place": "lsbu",
           "name": "London South Bank University",
           "role": "Senior research fellow",
           "start": 2002,
           "end": 2008
         },
         {
-          "place": null,
-          "name": "Chalmers University of Technology",
+          "place": "chalmers",
+          "name": "Chalmers tekniska högskola",
           "role": "Assistant professor",
           "start": 2001,
           "end": 2002
@@ -85683,8 +87747,8 @@
           "end": 1984
         },
         {
-          "place": null,
-          "name": "Geophysical Institute of Peru",
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
           "role": "Seismic analysis and installation of seismometers in peruvian andes",
           "start": 1980,
           "end": 1982
@@ -85700,7 +87764,17 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Assistant lecturer in fortran and algol", "Bachillerato"]
+          "did": ["Assistant lecturer in fortran and algol"]
+        },
+        {
+          "place": "igp",
+          "did": [
+            "Seismic analysis and installation of seismometers in peruvian andes"
+          ]
+        },
+        {
+          "place": "uni",
+          "did": ["Bachillerato"]
         },
         {
           "place": "upch",
@@ -85712,7 +87786,11 @@
         },
         {
           "place": "chalmers",
-          "did": ["Doctorado"]
+          "did": ["Doctorado", "Assistant professor"]
+        },
+        {
+          "place": "lsbu",
+          "did": ["Senior research fellow", "Visiting senior research fellow"]
         }
       ]
     },
@@ -85911,10 +87989,15 @@
           "end": 2002
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upc-pe",
+          "role": "Asistente de aprendizaje a distancia"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Asistente de aprendizaje a distancia",
           "start": 2020,
@@ -85928,7 +88011,7 @@
           "end": 2023
         },
         {
-          "place": null,
+          "place": "upc-pe",
           "name": "Universidad Peruana de Ciencias Aplicadas",
           "role": "Docente",
           "start": 2014,
@@ -85950,6 +88033,10 @@
         {
           "place": "utp",
           "did": ["Docente contratado"]
+        },
+        {
+          "place": "upc-pe",
+          "did": ["Docente", "Asistente de aprendizaje a distancia"]
         }
       ]
     },
@@ -86508,7 +88595,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Dtc renacyt",
           "start": 2024,
@@ -86538,6 +88625,10 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "upn",
+          "did": ["Dtc renacyt"]
         },
         {
           "place": "utp",
@@ -86686,11 +88777,16 @@
           "end": 2024
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unsm",
+          "role": "Docente"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universidad Nacional de San Martin",
+          "place": "unsm",
+          "name": "Universidad Nacional de San Martín",
           "role": "Docente",
           "start": 2026,
           "end": "now"
@@ -86700,6 +88796,10 @@
         {
           "place": "unitru",
           "did": ["Licenciatura", "Maestría"]
+        },
+        {
+          "place": "unsm",
+          "did": ["Docente"]
         }
       ],
       "links": [
@@ -87203,10 +89303,15 @@
           "end": 1988
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "tamu",
+          "role": "Profesor, ingeniería química (lanatter & herbert fox professor)"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "tamu",
           "name": "Texas A&M University",
           "role": "Profesor, ingeniería química (lanatter & herbert fox professor)",
           "start": null,
@@ -87221,6 +89326,12 @@
         {
           "place": "siu",
           "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "tamu",
+          "did": [
+            "Profesor, ingeniería química (lanatter & herbert fox professor)"
+          ]
         }
       ],
       "links": [
@@ -87265,11 +89376,16 @@
           "end": 2024
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "cimav",
+          "role": "External research"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Cimav",
+          "place": "cimav",
+          "name": "Centro de Investigación en Materiales Avanzados",
           "role": "External research",
           "start": null,
           "end": "now"
@@ -87289,7 +89405,15 @@
         },
         {
           "place": "uas",
-          "did": ["Maestría", "Research"]
+          "did": ["Maestría"]
+        },
+        {
+          "place": "cimav",
+          "did": ["External research"]
+        },
+        {
+          "place": "uas",
+          "did": ["Research"]
         }
       ],
       "links": [
@@ -87337,11 +89461,16 @@
           "end": 2010
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "cab",
+          "role": "Researcher"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Centro Atomico Bariloche",
+          "place": "cab",
+          "name": "Centro Atómico Bariloche",
           "role": "Researcher",
           "start": 2019,
           "end": "now"
@@ -87354,28 +89483,28 @@
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Instituto de Ciencias Fisicas, Unam",
+          "place": "unam",
+          "name": "Universidad Nacional Autónoma de México",
           "role": "Postdoc",
           "start": 2014,
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Cea Saclay",
+          "place": "cea-saclay",
+          "name": "CEA Paris-Saclay",
           "role": "Postdoc",
           "start": 2013,
           "end": 2014
         },
         {
-          "place": null,
-          "name": "Centro de Fisica de Materiales",
+          "place": "cfm",
+          "name": "Centro de Física de Materiales",
           "role": "Postdoc",
           "start": 2012,
           "end": 2013
         },
         {
-          "place": null,
+          "place": "ijl",
           "name": "Institut Jean Lamour",
           "role": "Postdoc",
           "start": 2010,
@@ -87392,12 +89521,28 @@
           "did": ["Doctorado"]
         },
         {
+          "place": "ijl",
+          "did": ["Postdoc"]
+        },
+        {
           "place": "pucp",
           "did": ["Licenciatura"]
         },
         {
+          "place": "cfm",
+          "did": ["Postdoc"]
+        },
+        {
+          "place": "cea-saclay",
+          "did": ["Postdoc"]
+        },
+        {
           "place": "unam",
-          "did": ["Investigadora asociada c"]
+          "did": ["Postdoc", "Investigadora asociada c"]
+        },
+        {
+          "place": "cab",
+          "did": ["Researcher"]
         }
       ]
     },
@@ -87527,11 +89672,16 @@
           "end": 2021
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "ufsc",
+          "role": "Postdoctoral researcher"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Ufsc",
+          "place": "ufsc",
+          "name": "Universidade Federal de Santa Catarina",
           "role": "Postdoctoral researcher",
           "start": 2023,
           "end": "now"
@@ -87548,7 +89698,7 @@
         },
         {
           "place": "ufsc",
-          "did": ["Doctorado"]
+          "did": ["Doctorado", "Postdoctoral researcher"]
         }
       ],
       "links": [
@@ -88871,8 +91021,8 @@
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Universidad Nacional de San Antonio Abad del Cusco Facultad de Medicina Humana",
+          "place": "unsaac",
+          "name": "Universidad Nacional de San Antonio Abad del Cusco",
           "role": "Fisico",
           "start": 2010,
           "end": 2022
@@ -88881,7 +91031,7 @@
       "path": [
         {
           "place": "unsaac",
-          "did": ["Bachillerato", "Licenciatura"]
+          "did": ["Bachillerato", "Licenciatura", "Fisico"]
         }
       ]
     },
@@ -89141,32 +91291,37 @@
           "end": 2022
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "iap-kborn",
+          "role": "Phd student"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Leibniz Institute of Atmospheric Physics at the Rostock University",
+          "place": "iap-kborn",
+          "name": "Leibniz-Institut für Atmosphärenphysik",
           "role": "Phd student",
           "start": 2022,
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Instituto Geofisico del Peru / Jicamarca Radio Observatory",
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
           "role": "Radar operations analyst / simone peru project",
           "start": 2020,
           "end": 2022
         },
         {
-          "place": null,
-          "name": "Instituto Geofisico del Peru / Jicamarca Radio Observatory",
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
           "role": "Radar operations analyst / local user in faraday double pulse experiment",
           "start": 2019,
           "end": 2020
         },
         {
-          "place": null,
-          "name": "Instituto Geofisico del Peru / Jicamarca Radio Observatory",
+          "place": "igp",
+          "name": "Instituto Geofísico del Perú",
           "role": "Research assistant",
           "start": 2017,
           "end": 2019
@@ -89178,8 +91333,23 @@
           "did": ["Licenciatura"]
         },
         {
+          "place": "igp",
+          "did": [
+            "Research assistant",
+            "Radar operations analyst / local user in faraday double pulse experiment"
+          ]
+        },
+        {
           "place": "pucp",
           "did": ["Maestría"]
+        },
+        {
+          "place": "igp",
+          "did": ["Radar operations analyst / simone peru project"]
+        },
+        {
+          "place": "iap-kborn",
+          "did": ["Phd student"]
         }
       ]
     },
@@ -89465,7 +91635,7 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
+          "place": "uch",
           "name": "Universidad de Ciencias y Humanidades",
           "role": "Researcher",
           "start": 2018,
@@ -89505,6 +91675,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "uch",
+          "did": ["Researcher"]
         },
         {
           "place": "uni",
@@ -89673,14 +91847,14 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "epss",
           "name": "Institute of Earth Physics and Space Science",
           "role": "Research assistant",
           "start": 2022,
           "end": 2023
         },
         {
-          "place": null,
+          "place": "igf-pan",
           "name": "Instytut Geofizyki Polskiej Akademii Nauk",
           "role": "Postdoctoral researcher",
           "start": 2020,
@@ -89706,6 +91880,14 @@
         {
           "place": "mackenzie",
           "did": ["Maestría", "Doctorado", "Postdoctoral research"]
+        },
+        {
+          "place": "igf-pan",
+          "did": ["Postdoctoral researcher"]
+        },
+        {
+          "place": "epss",
+          "did": ["Research assistant"]
         }
       ],
       "links": [
@@ -89764,11 +91946,16 @@
           "end": 2011
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "tecsup",
+          "role": "Docente"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Instituto Superior Tecnologico Tecsup",
+          "place": "tecsup",
+          "name": "Tecsup",
           "role": "Docente",
           "start": 2015,
           "end": "now"
@@ -89778,6 +91965,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Docente"]
         }
       ]
     },
@@ -90405,10 +92596,15 @@
           "end": 2026
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "upn",
+          "role": "Practice supervisor"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Practice supervisor",
           "start": 2024,
@@ -90419,6 +92615,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato", "Maestría", "Licenciatura"]
+        },
+        {
+          "place": "upn",
+          "did": ["Practice supervisor"]
         }
       ],
       "links": [
@@ -90545,22 +92745,22 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
-          "name": "Brazilian Synchrotron Light Laboratory",
+          "place": "cnpem",
+          "name": "Centro Nacional de Pesquisa em Energia e Materiais",
           "role": "Postdoc",
           "start": 2024,
           "end": 2027
         },
         {
-          "place": null,
+          "place": "esrf",
           "name": "European Synchrotron Radiation Facility",
           "role": "Post-doc",
           "start": 2016,
           "end": 2019
         },
         {
-          "place": null,
-          "name": "Brazilian Synchrotron Light Laboratory",
+          "place": "cnpem",
+          "name": "Centro Nacional de Pesquisa em Energia e Materiais",
           "role": "Phd. student",
           "start": 2013,
           "end": 2016
@@ -90578,6 +92778,18 @@
         {
           "place": "ufv",
           "did": ["Doctorado"]
+        },
+        {
+          "place": "cnpem",
+          "did": ["Phd. student"]
+        },
+        {
+          "place": "esrf",
+          "did": ["Post-doc"]
+        },
+        {
+          "place": "cnpem",
+          "did": ["Postdoc"]
         }
       ],
       "links": [
@@ -91047,15 +93259,15 @@
           "end": 2026
         },
         {
-          "place": null,
+          "place": "tecsup",
           "name": "Tecsup",
           "role": "Asesor de física",
           "start": 2021,
           "end": 2021
         },
         {
-          "place": null,
-          "name": "Instituto de Emprendedores Usil",
+          "place": "usil",
+          "name": "Universidad San Ignacio de Loyola",
           "role": "Docente a tiempo parcial",
           "start": 2020,
           "end": 2021
@@ -91096,8 +93308,16 @@
           "did": ["Maestría"]
         },
         {
+          "place": "usil",
+          "did": ["Docente a tiempo parcial"]
+        },
+        {
           "place": "usu",
           "did": ["Doctorado", "Graduate teaching assistant"]
+        },
+        {
+          "place": "tecsup",
+          "did": ["Asesor de física"]
         }
       ]
     },
@@ -92052,6 +94272,10 @@
         {
           "place": "upao",
           "role": "Docente tiempo parcial"
+        },
+        {
+          "place": "upn",
+          "role": "Docente tiempo parcial"
         }
       ],
       "jobs": [
@@ -92063,7 +94287,7 @@
           "end": "now"
         },
         {
-          "place": null,
+          "place": "upn",
           "name": "Universidad Privada del Norte",
           "role": "Docente tiempo parcial",
           "start": 2012,
@@ -92074,6 +94298,10 @@
         {
           "place": "unitru",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "upn",
+          "did": ["Docente tiempo parcial"]
         },
         {
           "place": "upao",
@@ -92258,10 +94486,15 @@
           "end": 2010
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unisc",
+          "role": "Licenciado en fisica"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
+          "place": "unisc",
           "name": "Universidad Nacional Intercultural de la Selva Central Juan Santos Atahualpa",
           "role": "Licenciado en fisica",
           "start": null,
@@ -92279,6 +94512,10 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "unisc",
+          "did": ["Licenciado en fisica"]
         },
         {
           "place": "uc",
@@ -93479,8 +95716,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Leibniz-institut Fur Atmospharenphysik",
+          "place": "iap-kborn",
+          "name": "Leibniz-Institut für Atmosphärenphysik",
           "role": "",
           "start": 2022,
           "end": 2025
@@ -93504,6 +95741,10 @@
         },
         {
           "place": "uiuc",
+          "did": []
+        },
+        {
+          "place": "iap-kborn",
           "did": []
         },
         {
@@ -94605,6 +96846,10 @@
         {
           "place": "unmsm",
           "role": "Principal a dedicación exclusiva"
+        },
+        {
+          "place": "icranet",
+          "role": "International coordinating committee"
         }
       ],
       "jobs": [
@@ -94630,8 +96875,8 @@
           "end": 2013
         },
         {
-          "place": null,
-          "name": "National Center University",
+          "place": "uncp",
+          "name": "Universidad Nacional del Centro del Perú",
           "role": "Postdoc",
           "start": 2006,
           "end": 2008
@@ -94651,7 +96896,7 @@
           "end": 2005
         },
         {
-          "place": null,
+          "place": "icranet",
           "name": "International Center for Relativistic Astrophysics Network",
           "role": "International coordinating committee",
           "start": 2021,
@@ -94683,6 +96928,10 @@
           "did": ["Postdoc"]
         },
         {
+          "place": "uncp",
+          "did": ["Postdoc"]
+        },
+        {
           "place": "unmsm",
           "did": [
             "Profesor contratado a tcde",
@@ -94690,6 +96939,10 @@
             "Coordinador del grupo de investigación \"grupo de física teórica\"",
             "Principal a dedicación exclusiva"
           ]
+        },
+        {
+          "place": "icranet",
+          "did": ["International coordinating committee"]
         }
       ],
       "links": [
@@ -95463,8 +97716,8 @@
           "end": 1993
         },
         {
-          "place": null,
-          "name": "Instituto Superior Honorio Delgado Espinoza",
+          "place": "honorio-delgado",
+          "name": "Instituto de Educación Superior Tecnológico Público Honorio Delgado Espinoza",
           "role": "Especialización-administración de negocios",
           "start": 1981,
           "end": 1983
@@ -95496,6 +97749,10 @@
         {
           "place": "usp",
           "did": ["Doctorado"]
+        },
+        {
+          "place": "honorio-delgado",
+          "did": ["Especialización-administración de negocios"]
         },
         {
           "place": "unsa",
@@ -95864,6 +98121,10 @@
         {
           "place": "unmsm",
           "role": ""
+        },
+        {
+          "place": "dhn",
+          "role": "Especialista oceanografo"
         }
       ],
       "jobs": [
@@ -95875,8 +98136,8 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Direccion Hidrografia y Navegacion",
+          "place": "dhn",
+          "name": "Dirección de Hidrografía y Navegación",
           "role": "Especialista oceanografo",
           "start": 2024,
           "end": "now"
@@ -95894,6 +98155,10 @@
         {
           "place": "unmsm",
           "did": []
+        },
+        {
+          "place": "dhn",
+          "did": ["Especialista oceanografo"]
         }
       ]
     },
@@ -96519,13 +98784,17 @@
       ],
       "works": [
         {
+          "place": "ucentral-cl",
+          "role": "Profesor asistente docente"
+        },
+        {
           "place": "utfsm",
           "role": "Researcher"
         }
       ],
       "jobs": [
         {
-          "place": null,
+          "place": "ucentral-cl",
           "name": "Universidad Central de Chile",
           "role": "Profesor asistente docente",
           "start": 2024,
@@ -96547,6 +98816,10 @@
         {
           "place": "utfsm",
           "did": ["Doctorado", "Researcher"]
+        },
+        {
+          "place": "ucentral-cl",
+          "did": ["Profesor asistente docente"]
         }
       ],
       "links": [
@@ -97123,8 +99396,8 @@
           "end": 2015
         },
         {
-          "place": null,
-          "name": "Institut de Research Pour Le Developpement",
+          "place": "ird",
+          "name": "Instituto de Investigación para el Desarrollo (IRD)",
           "role": "Asistente de investigacion",
           "start": 2011,
           "end": 2011
@@ -97156,6 +99429,10 @@
         {
           "place": "ceresis",
           "did": ["Practicas-asistente de investigacion"]
+        },
+        {
+          "place": "ird",
+          "did": ["Asistente de investigacion"]
         },
         {
           "place": "senamhi",
@@ -97888,7 +100165,12 @@
           "end": 2017
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "psi",
+          "role": "Post doctoral fellow"
+        }
+      ],
       "jobs": [
         {
           "place": null,
@@ -97898,14 +100180,14 @@
           "end": "now"
         },
         {
-          "place": null,
-          "name": "Paul Scherrer Institute",
+          "place": "psi",
+          "name": "Paul Scherrer Institut",
           "role": "Post doctoral fellow",
           "start": 2023,
           "end": "now"
         },
         {
-          "place": null,
+          "place": "yale",
           "name": "Yale University",
           "role": "Post doctoral researcher",
           "start": 2017,
@@ -97920,6 +100202,14 @@
         {
           "place": "usp",
           "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "yale",
+          "did": ["Post doctoral researcher"]
+        },
+        {
+          "place": "psi",
+          "did": ["Post doctoral fellow"]
         }
       ]
     },
@@ -98605,11 +100895,16 @@
           "end": 2024
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "lorraine",
+          "role": "Phd student"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Universite de Lorraine",
+          "place": "lorraine",
+          "name": "Université de Lorraine",
           "role": "Phd student",
           "start": 2024,
           "end": "now"
@@ -98619,6 +100914,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Licenciatura", "Maestría"]
+        },
+        {
+          "place": "lorraine",
+          "did": ["Phd student"]
         }
       ]
     },
@@ -98699,7 +100998,7 @@
       "works": [],
       "jobs": [
         {
-          "place": null,
+          "place": "carnegie",
           "name": "Carnegie Institution for Science",
           "role": "Postdoctoral fellow",
           "start": 2022,
@@ -98724,6 +101023,10 @@
         },
         {
           "place": "mackenzie",
+          "did": ["Postdoctoral fellow"]
+        },
+        {
+          "place": "carnegie",
           "did": ["Postdoctoral fellow"]
         }
       ],
@@ -98811,15 +101114,15 @@
           "end": 1998
         },
         {
-          "place": null,
-          "name": "Universidad de Gävle",
+          "place": "hig",
+          "name": "Högskolan i Gävle",
           "role": "Profesor visitante",
           "start": 2010,
           "end": 2010
         },
         {
-          "place": null,
-          "name": "Universidad de Gävle",
+          "place": "hig",
+          "name": "Högskolan i Gävle",
           "role": "Profesor visitante",
           "start": 2006,
           "end": 2006
@@ -98843,10 +101146,15 @@
         },
         {
           "place": "unsa",
-          "did": [
-            "Jefe de la estación de telemetría láser satelital",
-            "Director del instituto de investigación"
-          ]
+          "did": ["Jefe de la estación de telemetría láser satelital"]
+        },
+        {
+          "place": "hig",
+          "did": ["Profesor visitante"]
+        },
+        {
+          "place": "unsa",
+          "did": ["Director del instituto de investigación"]
         }
       ]
     },
@@ -99912,11 +102220,16 @@
           "end": 1999
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "ucv",
+          "role": "Docente/ magister en ciencias"
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Consorcio Universidad Cesar Vallejo",
+          "place": "ucv",
+          "name": "Universidad César Vallejo",
           "role": "Docente/ magister en ciencias",
           "start": 2013,
           "end": "now"
@@ -99926,6 +102239,10 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        },
+        {
+          "place": "ucv",
+          "did": ["Docente/ magister en ciencias"]
         }
       ]
     },
@@ -100085,8 +102402,8 @@
           "end": 2026
         },
         {
-          "place": null,
-          "name": "Antenor Orrego Private University",
+          "place": "upao",
+          "name": "Universidad Privada Antenor Orrego",
           "role": "Coordinador de of. admision - filial piura",
           "start": 2011,
           "end": 2024
@@ -100099,7 +102416,7 @@
         },
         {
           "place": "upao",
-          "did": ["Docente"]
+          "did": ["Coordinador de of. admision - filial piura", "Docente"]
         },
         {
           "place": "ucv",
@@ -100164,11 +102481,16 @@
           "end": 1990
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "undac",
+          "role": ""
+        }
+      ],
       "jobs": [
         {
-          "place": null,
-          "name": "Daniel Alcides Carrion National University",
+          "place": "undac",
+          "name": "Universidad Nacional Daniel Alcides Carrión",
           "role": "",
           "start": null,
           "end": "now"
@@ -100178,6 +102500,10 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        },
+        {
+          "place": "undac",
+          "did": []
         }
       ]
     },
