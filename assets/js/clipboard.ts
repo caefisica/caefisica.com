@@ -18,7 +18,7 @@ for (const pre of Array.from(document.getElementsByTagName("pre"))) {
   pre.insertAdjacentElement("afterbegin", btn);
 }
 
-// Región viva: lee el aviso a los lectores de pantalla y lo muestra como toast.
+// A live region: screen readers announce the notice, and it shows as a toast.
 const toast = document.createElement("div");
 toast.className = "toast";
 toast.setAttribute("role", "status");
@@ -41,12 +41,12 @@ function notify(trigger: Element): void {
   clearTimeout(toastTimer);
   toastTimer = window.setTimeout(() => {
     toast.classList.remove("is-open");
-    // Vacía el aviso cuando termina la salida para que no quede en el árbol de accesibilidad.
+    // Empty the notice after the exit so it leaves the accessibility tree.
     toastTimer = window.setTimeout(() => (toast.textContent = ""), 400);
   }, 2000);
 }
 
-// Un botón con data-clipboard-text copia ese texto y no usa el destino.
+// A button with data-clipboard-text copies that text and has no target.
 const clipboard = new Clipboard(".copy-button, .copy-link", {
   target: (trigger) => trigger.nextElementSibling ?? trigger,
 });

@@ -1,8 +1,6 @@
 import params from "@params";
 
-// An orthographic globe of land dots with one marker per institution, drawn on
-// a canvas. Land comes from assets/maps/land.bin, written by
-// scripts/landmask.ts; that script documents the format.
+// The globe of the physicists map; see docs/en/fisicos.md.
 
 interface Place {
   id: string;

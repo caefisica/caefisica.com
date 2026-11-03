@@ -1,5 +1,7 @@
 # Grupos de investigación
 
+[English](../en/grupos.md)
+
 `/grupos/` tiene una página por cada grupo de `data/groups.json`. El adaptador
 `content/grupos/_content.gotmpl` crea las páginas; no hay archivos de contenido
 por grupo. El índice los agrupa por universidad.

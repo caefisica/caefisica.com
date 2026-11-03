@@ -1,7 +1,4 @@
-{{- /*
-One section per series in data/recordings.json, at its id, and one page per recording. A series is what recurs under one organiser; sustentaciones and divulgación have no organiser, so their recordings sit directly under /grabaciones/ and the index lists them.
-A recording's path is its id, which recordings.py keeps unique once lowercased. docs/grabaciones.md says where the data comes from.
-*/ -}}
+{{- /* Ids are unique once lowercased: Hugo lowercases them in paths. */ -}}
 {{- $data := hugo.Data.recordings -}}
 {{- $fetched := time.AsTime $data.fetched -}}
 {{- range $s := $data.series -}}

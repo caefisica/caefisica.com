@@ -1,5 +1,7 @@
 # Contenido
 
+[English](../en/contenido.md)
+
 Dónde va cada archivo de `content/` y cómo se nombra.
 
 ## Estructura
@@ -53,17 +55,17 @@ Sin una frase así, deja el campo vacío.
 `/unmsm/pregrado/` redirige a `plan-2018/`, el único plan.
 
 La página del equipo,
-[`layouts/contributors/taxonomy.html`](../layouts/contributors/taxonomy.html),
+[`layouts/contributors/taxonomy.html`](../../layouts/contributors/taxonomy.html),
 muestra el equipo actual de `data/authors/members.json`, después los demás
 autores con su número de publicaciones, y cómo colaborar. Un miembro cuyo `url`
 es la página de un autor enlaza a ella y no se repite en la lista de autores. La
-página de un autor ([`layouts/term.html`](../layouts/term.html)) agrupa sus
+página de un autor ([`layouts/term.html`](../../layouts/term.html)) agrupa sus
 publicaciones por sección, de la más reciente a la más antigua.
 
 ## Universidades
 
 Cada universidad es una sección de primer nivel (`content/unmsm/`) y una entrada
-de [`data/universities.yaml`](../data/universities.yaml):
+de [`data/universities.yaml`](../../data/universities.yaml):
 
 ```yaml
 unmsm:
@@ -82,8 +84,9 @@ archivo.
 
 ## Crear un archivo
 
-`hugo new content` copia un molde de [`archetypes/`](../archetypes). Hugo elige
-el molde por la primera carpeta del destino; para otros, indícalo con `--kind`:
+`hugo new content` copia un molde de [`archetypes/`](../../archetypes). Hugo
+elige el molde por la primera carpeta del destino; para otros, indícalo con
+`--kind`:
 
 | Molde          | Cómo se elige                           |
 | -------------- | --------------------------------------- |

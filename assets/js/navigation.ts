@@ -1,5 +1,5 @@
-// Los botones data-toggle despliegan el .disclosure cuyo id declaran. El CSS anima la altura y
-// oculta el contenido plegado según data-open.
+// A data-toggle button opens the .disclosure whose id it names. CSS animates
+// the height and hides the folded content by data-open.
 for (const button of document.querySelectorAll<HTMLButtonElement>(
   "[data-toggle]",
 )) {
@@ -12,13 +12,13 @@ for (const button of document.querySelectorAll<HTMLButtonElement>(
   });
 }
 
-// Los menús desplegables son <details>. Se cierran con Escape o al salir de ellos.
+// Dropdowns are <details>. Escape or leaving one closes it.
 const dropdowns = document.querySelectorAll<HTMLDetailsElement>(
   "details[data-dropdown]",
 );
 
-// `is-closing` reproduce la animación de salida antes de cerrar el <details>.
-// Con movimiento reducido no hay animaciones y se cierra al instante.
+// `is-closing` plays the exit animation before the <details> closes. With
+// reduced motion there is no animation and it closes at once.
 async function closeDropdown(dropdown: HTMLDetailsElement): Promise<void> {
   if (!dropdown.open || dropdown.classList.contains("is-closing")) return;
   dropdown.classList.add("is-closing");
@@ -55,7 +55,7 @@ for (const dropdown of dropdowns) {
   });
 }
 
-// El menú principal es un cajón solo en pantallas angostas.
+// The main menu is a drawer on narrow screens only.
 const menu = document.getElementById("main-menu");
 window.matchMedia("(width >= 48rem)").addEventListener("change", (event) => {
   if (event.matches && menu?.matches(":popover-open")) menu.hidePopover();

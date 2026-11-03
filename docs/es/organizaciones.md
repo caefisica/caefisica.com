@@ -1,5 +1,7 @@
 # Organizaciones
 
+[English](../en/organizaciones.md)
+
 `/organizaciones/` tiene una página por cada lugar de `places` en
 `data/physicists.json`: las universidades, institutos, entidades del Estado,
 hospitales y empresas donde estudió o trabaja alguien del

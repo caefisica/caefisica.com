@@ -61,6 +61,7 @@ disableJs = false
 [minify.tdewolff.html]
 keepWhitespace = false
 [minify.tdewolff.js]
+# Minifying JS changed the order of assignments:
 # https://github.com/tdewolff/minify/issues/472
 keepVarNames = true
 noNullishOperator = false

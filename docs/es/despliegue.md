@@ -1,14 +1,16 @@
 # Despliegue
 
+[English](../en/despliegue.md)
+
 El sitio se publica en `https://web.caefisica.workers.dev/`, el Worker `web` de
 la cuenta `caefisica` de Cloudflare. Sirve la carpeta `public/` que genera
 `bun run build`: `hugo` y después `pagefind`. El host sale de `baseURL` en
-[`config/_default/config.toml`](../config/_default/config.toml); cámbialo solo
-ahí.
+[`config/_default/config.toml`](../../config/_default/config.toml); cámbialo
+solo ahí.
 
 ## Cloudflare
 
-[`wrangler.toml`](../wrangler.toml) define el Worker:
+[`wrangler.toml`](../../wrangler.toml) define el Worker:
 
 - `account_id` es la cuenta que recibe el despliegue.
 - `assets.directory = "./public"` sirve el sitio; las rutas inexistentes
@@ -16,9 +18,9 @@ ahí.
 
 ## Publicación
 
-El trabajo `deploy` de [`ci.yml`](../.github/workflows/ci.yml) publica el sitio.
-Necesita el trabajo `check` y corre en un push a `master` o al lanzar el flujo a
-mano sobre `master`. Sus pasos:
+El trabajo `deploy` de [`ci.yml`](../../.github/workflows/ci.yml) publica el
+sitio. Necesita el trabajo `check` y corre en un push a `master` o al lanzar el
+flujo a mano sobre `master`. Sus pasos:
 
 1. Falla con un mensaje que nombra cada secreto ausente: `CLOUDFLARE_API_TOKEN`,
    `NETLIFY_AUTH_TOKEN` o la variable `NETLIFY_SITE_ID`.
@@ -37,8 +39,8 @@ Cloudflare. Netlify recibe la carpeta ya construida y este repositorio no le
 define ningún comando de compilación. Un sitio de Netlify enlazado a un
 repositorio de Git compila por su cuenta además de recibir la carga de Actions:
 desvincúlalo en **Project configuration > Build & deploy > Continuous
-deployment > Link repository**. De [`netlify.toml`](../netlify.toml) solo se usa
-`[dev]`, para `netlify dev`.
+deployment > Link repository**. De [`netlify.toml`](../../netlify.toml) solo se
+usa `[dev]`, para `netlify dev`.
 
 El trabajo `preview` corre en cada pull request del propio repositorio. Compila
 con el `baseURL` que Netlify da al alias,
@@ -63,7 +65,7 @@ Para publicar el sitio con tus propias cuentas:
    crea `CLOUDFLARE_API_TOKEN` y `NETLIFY_AUTH_TOKEN` con los dos tokens. En
    _Variables_ crea `NETLIFY_SITE_ID` con el Project ID.
 6. Cambia `baseURL` en `config/_default/config.toml` y las URL de
-   [`audit_lighthouse.yml`](../.github/workflows/audit_lighthouse.yml) por el
+   [`audit_lighthouse.yml`](../../.github/workflows/audit_lighthouse.yml) por el
    host de tu Worker.
 7. Haz push a `master` o lanza el flujo `checks` desde la pestaña **Actions**.
 
@@ -87,13 +89,13 @@ antes de publicar.
 
 `bun run build` ejecuta `pagefind --site public` después de `hugo`. Pagefind
 indexa el contenido de las páginas dentro del contenedor con el atributo
-`data-pagefind-body` ([`layouts/baseof.html`](../layouts/baseof.html)) y escribe
-el índice y su API en `public/pagefind/`.
-[`assets/js/search.ts`](../assets/js/search.ts) consulta esa API y dibuja los
+`data-pagefind-body` ([`layouts/baseof.html`](../../layouts/baseof.html)) y
+escribe el índice y su API en `public/pagefind/`.
+[`assets/js/search.ts`](../../assets/js/search.ts) consulta esa API y dibuja los
 resultados en el diálogo de
-[`search/dialog.html`](../layouts/_partials/search/dialog.html). Cada página sin
-portada lleva el metadato `section` con su ruta de secciones, que el resultado
-muestra sobre el título. Dónde se carga el buscador:
+[`search/dialog.html`](../../layouts/_partials/search/dialog.html). Cada página
+sin portada lleva el metadato `section` con su ruta de secciones, que el
+resultado muestra sobre el título. Dónde se carga el buscador:
 [arquitectura](architecture.md).
 
 `bun run dev` ejecuta `build` antes, así que el índice también existe en local y
@@ -102,28 +104,29 @@ el buscador funciona.
 ## Cabeceras y redirecciones
 
 Hugo genera `public/_headers` y `public/_redirects` desde
-[`layouts/index.headers`](../layouts/index.headers) y
-[`layouts/index.redirects`](../layouts/index.redirects). Cloudflare lee esos
+[`layouts/index.headers`](../../layouts/index.headers) y
+[`layouts/index.redirects`](../../layouts/index.redirects). Cloudflare lee esos
 archivos.
 
 La política `Content-Security-Policy` se arma con las listas de
-[`data/fixes/headers.yml`](../data/fixes/headers.yml). Si el navegador bloquea
-un recurso externo, agrega su dominio a la lista que corresponda: `scriptsrc`,
-`stylesrc`, `imgsrc`, `fontsrc`, `connectsrc`, `framesrc`, `workersrc` o
-`manifestsrc`. Pagefind necesita `'wasm-unsafe-eval'` en `scriptsrc`.
+[`data/fixes/headers.yml`](../../data/fixes/headers.yml). Si el navegador
+bloquea un recurso externo, agrega su dominio a la lista que corresponda:
+`scriptsrc`, `stylesrc`, `imgsrc`, `fontsrc`, `connectsrc`, `framesrc`,
+`workersrc` o `manifestsrc`. Pagefind necesita `'wasm-unsafe-eval'` en
+`scriptsrc`.
 
 ## Versiones de herramientas
 
-[`mise.toml`](../mise.toml) fija la versión de cada herramienta. Los flujos de
-GitHub las leen de ahí. Cambia una versión solo en `mise.toml`. La versión de
+[`mise.toml`](../../mise.toml) fija la versión de cada herramienta. Los flujos
+de GitHub las leen de ahí. Cambia una versión solo en `mise.toml`. La versión de
 Pagefind está fijada en `package.json`.
 
 ## Flujos de GitHub
 
 Todos los flujos se pueden lanzar a mano.
 
-| Flujo                    | Cuándo                                                                      | Qué hace                                                                                                                                                                                                                                                                                                                       |
-| ------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `ci.yml`                 | Pull request y push a `master`                                              | `check`: `bun run check`. En `master`, `deploy` publica el sitio y después `lighthouse` lo audita. En un pull request, `preview` publica una vista previa en Netlify.                                                                                                                                                          |
-| `check_broken_links.yml` | Pull request y push a `master` con cambios en `content/`; los lunes         | Ejecuta `bun run links`: [lychee](https://lychee.cli.rs/) revisa los enlaces `http` y `https` de `content/` con [`lychee.toml`](../lychee.toml). Falla si un enlace no responde y el registro nombra la página y el enlace. Solo usa el `GITHUB_TOKEN` del flujo, con permiso de lectura.                                      |
-| `audit_lighthouse.yml`   | Ejecución manual, o el trabajo `lighthouse` de `ci.yml` después de `deploy` | Auditoría Lighthouse de `https://web.caefisica.workers.dev/` y `/blog/` con el presupuesto de `.github/budget.json`. Mide cada URL tres veces y compara con el presupuesto la mediana de las tres corridas; [`.github/lighthouserc.cjs`](../.github/lighthouserc.cjs) convierte el presupuesto en aserciones sobre la mediana. |
+| Flujo                    | Cuándo                                                                      | Qué hace                                                                                                                                                                                                                                                                                                                          |
+| ------------------------ | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ci.yml`                 | Pull request y push a `master`                                              | `check`: `bun run check`. En `master`, `deploy` publica el sitio y después `lighthouse` lo audita. En un pull request, `preview` publica una vista previa en Netlify.                                                                                                                                                             |
+| `check_broken_links.yml` | Pull request y push a `master` con cambios en `content/`; los lunes         | Ejecuta `bun run links`: [lychee](https://lychee.cli.rs/) revisa los enlaces `http` y `https` de `content/` con [`lychee.toml`](../../lychee.toml). Falla si un enlace no responde y el registro nombra la página y el enlace. Solo usa el `GITHUB_TOKEN` del flujo, con permiso de lectura.                                      |
+| `audit_lighthouse.yml`   | Ejecución manual, o el trabajo `lighthouse` de `ci.yml` después de `deploy` | Auditoría Lighthouse de `https://web.caefisica.workers.dev/` y `/blog/` con el presupuesto de `.github/budget.json`. Mide cada URL tres veces y compara con el presupuesto la mediana de las tres corridas; [`.github/lighthouserc.cjs`](../../.github/lighthouserc.cjs) convierte el presupuesto en aserciones sobre la mediana. |

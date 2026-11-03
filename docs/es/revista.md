@@ -1,5 +1,7 @@
 # Revista de Investigación de Física
 
+[English](../en/revista.md)
+
 `/revista/` lista todos los artículos de la revista de la Facultad de Ciencias
 Físicas de la UNMSM, número por número y del más reciente al más antiguo.
 `layouts/revista/list.html` arma la página desde `data/journal.json`, y
