@@ -20,32 +20,16 @@ El trabajo `deploy` de [`ci.yml`](../.github/workflows/ci.yml) publica el sitio.
 Necesita el trabajo `check` y corre en un push a `master` o al lanzar el flujo a
 mano sobre `master`. Sus pasos:
 
-1. Falla con un mensaje que nombra cada secreto ausente: `CLOUDFLARE_API_TOKEN`,
-   `NETLIFY_AUTH_TOKEN` o la variable `NETLIFY_SITE_ID`.
+1. Falla con un mensaje si falta el secreto `CLOUDFLARE_API_TOKEN`.
 2. Clona el repositorio con todo el historial, porque `enableGitInfo` calcula la
    fecha de última modificación de cada página desde git.
 3. Instala las herramientas de `mise.toml`.
 4. Ejecuta `bun run deploy`. Instala las dependencias de `bun.lock`. Compila una
-   vez con `bun run build` y sube `public/` a Cloudflare (`wrangler deploy`) y a
-   Netlify (`netlify deploy --prod --no-build`). La opción `--no-build` evita el
-   comando de compilación configurado en la app de Netlify. La compilación ya
-   ocurrió en el script `build`.
+   vez con `bun run build` y sube `public/` a Cloudflare (`wrangler deploy`).
 
 Los despliegues hacen cola: uno nuevo espera a que termine el que está en curso.
 Cuando `deploy` termina bien, el trabajo `lighthouse` audita el sitio de
-Cloudflare. Netlify recibe la carpeta ya construida y este repositorio no le
-define ningún comando de compilación. Un sitio de Netlify enlazado a un
-repositorio de Git compila por su cuenta además de recibir la carga de Actions:
-desvincúlalo en **Project configuration > Build & deploy > Continuous
-deployment > Link repository**. De [`netlify.toml`](../netlify.toml) solo se usa
-`[dev]`, para `netlify dev`.
-
-El trabajo `preview` corre en cada pull request del propio repositorio. Compila
-con el `baseURL` que Netlify da al alias,
-`https://pr-<número>--<sitio>.netlify.app/`, y publica `public/` con
-`netlify deploy --no-build --alias pr-<número>`. La URL queda en el resumen del
-trabajo. Un pull request de un fork o de Dependabot no tiene acceso a los
-secretos: el trabajo avisa del motivo y termina bien, sin vista previa.
+Cloudflare.
 
 ### Despliegue desde cero
 
@@ -55,33 +39,23 @@ Para publicar el sitio con tus propias cuentas:
    de _Account Details_. Pégalo en `account_id` de `wrangler.toml`.
 2. En Cloudflare abre **My Profile > API Tokens > Create Token > Custom token**.
    Dale el permiso de cuenta **Workers Scripts: Edit** sobre esa cuenta.
-3. En Netlify crea un sitio vacío en **Sites > Add new site > Deploy manually**
-   y copia el **Project ID** de _Project configuration > General_.
-4. En Netlify abre **User settings > Applications > Personal access tokens** y
-   crea un token.
-5. En GitHub abre **Settings > Secrets and variables > Actions**. En _Secrets_
-   crea `CLOUDFLARE_API_TOKEN` y `NETLIFY_AUTH_TOKEN` con los dos tokens. En
-   _Variables_ crea `NETLIFY_SITE_ID` con el Project ID.
-6. Cambia `baseURL` en `config/_default/config.toml` y las URL de
+3. En GitHub abre **Settings > Secrets and variables > Actions**. En _Secrets_
+   crea `CLOUDFLARE_API_TOKEN` con el token.
+4. Cambia `baseURL` en `config/_default/config.toml` y las URL de
    [`audit_lighthouse.yml`](../.github/workflows/audit_lighthouse.yml) por el
    host de tu Worker.
-7. Haz push a `master` o lanza el flujo `checks` desde la pestaña **Actions**.
+5. Haz push a `master` o lanza el flujo `checks` desde la pestaña **Actions**.
 
 ### Despliegue a mano
 
-Con los dos tokens y el ID del sitio en el entorno, desde la raíz del
-repositorio:
+Con el token en el entorno, desde la raíz del repositorio:
 
 ```bash
 export CLOUDFLARE_API_TOKEN=<token de Cloudflare>
-export NETLIFY_AUTH_TOKEN=<token de Netlify>
-export NETLIFY_SITE_ID=<Project ID de Netlify>
 bun run deploy
 ```
 
-`bun run deploy` compila antes de publicar. Para publicar en un solo host,
-ejecuta `bun run deploy:cloudflare` o `bun run deploy:netlify`; cada uno compila
-antes de publicar.
+`bun run deploy` compila antes de publicar.
 
 ## Búsqueda
 
@@ -124,6 +98,6 @@ Todos los flujos se pueden lanzar a mano.
 
 | Flujo                    | Cuándo                                                                      | Qué hace                                                                                                                                                                                                                                                                                                                       |
 | ------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `ci.yml`                 | Pull request y push a `master`                                              | `check`: `bun run check`. En `master`, `deploy` publica el sitio y después `lighthouse` lo audita. En un pull request, `preview` publica una vista previa en Netlify.                                                                                                                                                          |
+| `ci.yml`                 | Pull request y push a `master`                                              | `check`: `bun run check`. En `master`, `deploy` publica el sitio y después `lighthouse` lo audita.                                                                                                                                                                                                                             |
 | `check_broken_links.yml` | Pull request y push a `master` con cambios en `content/`; los lunes         | Ejecuta `bun run links`: [lychee](https://lychee.cli.rs/) revisa los enlaces `http` y `https` de `content/` con [`lychee.toml`](../lychee.toml). Falla si un enlace no responde y el registro nombra la página y el enlace. Solo usa el `GITHUB_TOKEN` del flujo, con permiso de lectura.                                      |
 | `audit_lighthouse.yml`   | Ejecución manual, o el trabajo `lighthouse` de `ci.yml` después de `deploy` | Auditoría Lighthouse de `https://web.caefisica.workers.dev/` y `/blog/` con el presupuesto de `.github/budget.json`. Mide cada URL tres veces y compara con el presupuesto la mediana de las tres corridas; [`.github/lighthouserc.cjs`](../.github/lighthouserc.cjs) convierte el presupuesto en aserciones sobre la mediana. |
