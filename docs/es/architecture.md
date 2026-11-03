@@ -142,19 +142,19 @@ página.
 
 ## Mapa del código
 
-| Ruta            | Responsabilidad                                                                                                         |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `content/`      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).                                             |
-| `layouts/`      | Plantillas Go de Hugo, shortcodes y parciales.                                                                          |
-| `assets/`       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                                     |
-| `static/`       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                           |
-| `data/`         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros.                                           |
-| `config/`       | Configuración de Hugo por entorno.                                                                                      |
-| `archetypes/`   | Moldes de `hugo new`.                                                                                                   |
-| `scripts/`      | `openalex.ts` y `playlists.ts` escriben `data/researchers/` y `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`. |
-| `.github/`      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                                                       |
-| `wrangler.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                            |
-| `.pages.yml`    | Esquema de los campos de Pages CMS.                                                                                     |
+| Ruta            | Responsabilidad                                                                                                                                                              |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `content/`      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).                                                                                                  |
+| `layouts/`      | Plantillas Go de Hugo, shortcodes y parciales.                                                                                                                               |
+| `assets/`       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                                                                                          |
+| `static/`       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                                                                                |
+| `data/`         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros.                                                                                                |
+| `config/`       | Configuración de Hugo por entorno.                                                                                                                                           |
+| `archetypes/`   | Moldes de `hugo new`.                                                                                                                                                        |
+| `scripts/`      | `openalex.ts` y `playlists.ts` escriben `data/researchers/` y `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` revisa las páginas generadas contra la CSP. |
+| `.github/`      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                                                                                                            |
+| `wrangler.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                 |
+| `.pages.yml`    | Esquema de los campos de Pages CMS.                                                                                                                                          |
 
 ## Configuración
 

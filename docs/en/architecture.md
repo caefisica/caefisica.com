@@ -140,19 +140,19 @@ carry `data-pagefind-ignore="all"`, so results show only the page's text.
 
 ## Code map
 
-| Path            | Responsibility                                                                                                           |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `content/`      | Markdown pages, resource YAML and PDFs. See [content](contenido.md).                                                     |
-| `layouts/`      | Hugo Go templates, shortcodes and partials.                                                                              |
-| `assets/`       | CSS, TypeScript, fonts and icons that Hugo compiles.                                                                     |
-| `static/`       | Files copied as they are: favicons, images, fonts.                                                                       |
-| `data/`         | JSON and YAML read with `hugo.Data`: CSP headers, months, home page and members.                                         |
-| `config/`       | Hugo configuration per environment.                                                                                      |
-| `archetypes/`   | Templates for `hugo new`.                                                                                                |
-| `scripts/`      | `openalex.ts` and `playlists.ts` write `data/researchers/` and `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`. |
-| `.github/`      | Workflows, issue templates and `CONTRIBUTING.md`.                                                                        |
-| `wrangler.toml` | Deployment. See [deployment](despliegue.md).                                                                             |
-| `.pages.yml`    | Schema of the Pages CMS fields.                                                                                          |
+| Path            | Responsibility                                                                                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `content/`      | Markdown pages, resource YAML and PDFs. See [content](contenido.md).                                                                                                      |
+| `layouts/`      | Hugo Go templates, shortcodes and partials.                                                                                                                               |
+| `assets/`       | CSS, TypeScript, fonts and icons that Hugo compiles.                                                                                                                      |
+| `static/`       | Files copied as they are: favicons, images, fonts.                                                                                                                        |
+| `data/`         | JSON and YAML read with `hugo.Data`: CSP headers, months, home page and members.                                                                                          |
+| `config/`       | Hugo configuration per environment.                                                                                                                                       |
+| `archetypes/`   | Templates for `hugo new`.                                                                                                                                                 |
+| `scripts/`      | `openalex.ts` and `playlists.ts` write `data/researchers/` and `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` checks the built pages against the CSP. |
+| `.github/`      | Workflows, issue templates and `CONTRIBUTING.md`.                                                                                                                         |
+| `wrangler.toml` | Deployment. See [deployment](despliegue.md).                                                                                                                              |
+| `.pages.yml`    | Schema of the Pages CMS fields.                                                                                                                                           |
 
 ## Configuration
 

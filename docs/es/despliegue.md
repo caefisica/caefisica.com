@@ -83,10 +83,10 @@ Hugo genera `public/_headers` y `public/_redirects` desde
 archivos.
 
 La política `Content-Security-Policy` se arma con las listas de
-[`data/fixes/headers.yml`](../../data/fixes/headers.yml). Si el navegador
-bloquea un recurso externo, agrega su dominio a la lista que corresponda:
-`scriptsrc`, `stylesrc`, `imgsrc`, `fontsrc`, `connectsrc`, `framesrc`,
-`workersrc` o `manifestsrc`. Pagefind necesita `'wasm-unsafe-eval'` en
+[`data/fixes/headers.yml`](../../data/fixes/headers.yml). `bun run csp` lee las
+páginas generadas y falla por cada origen externo de imagen, script, marco,
+medio u hoja de estilos que la política bloquea. `bun run check` lo ejecuta
+después de la compilación. Pagefind necesita `'wasm-unsafe-eval'` en
 `scriptsrc`.
 
 ## Versiones de herramientas
