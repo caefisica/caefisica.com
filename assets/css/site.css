@@ -94,7 +94,7 @@
   --ease-snap: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-/* Cada token cambia de valor en modo oscuro. Las utilidades usan el nombre. */
+/* Each token changes value in dark mode. Utilities use the name. */
 :root {
   --fg: var(--color-ink);
   --bg: var(--color-white);
@@ -223,7 +223,6 @@
   }
 }
 
-/* Vertical rhythm between home page sections. */
 @utility py-section {
   padding-block: 4rem;
 
@@ -818,7 +817,6 @@
 }
 
 @layer components {
-  /* Square icon button of the header: search, socials, theme and menu share one size and one hover. */
   .icon-btn {
     display: inline-grid;
     place-items: center;
@@ -1015,7 +1013,6 @@
     }
   }
 
-  /* Header. Below md the drawer stacks the same links as rows; from md they sit in the header row. */
   .skip-link {
     position: fixed;
     top: 0.5rem;

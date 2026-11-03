@@ -203,7 +203,6 @@
     }
   }
 
-  /* Prose rendered from Markdown. */
   .markdown {
     & img {
       max-width: 100%;
@@ -1025,7 +1024,6 @@
     font-size: var(--text-sm);
   }
 
-  /* Course and offering facts. */
   /* A quiet property list: a small label over label and value rows split by hairlines, with no box, so the facts read as reference beside the prose. */
   .facts {
     margin: 2rem 0;
