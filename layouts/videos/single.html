@@ -18,8 +18,7 @@ A Drive folder's subfolders become sections of the lesson list, each numbered fr
 		<div class="player" data-host="{{ cond $drive "drive" "youtube" }}" data-playlist="{{ $list }}">
 			<a class="player-start" href="{{ partial "videos/lesson-url.html" (dict "drive" $drive "id" $first.id "list" $list) }}" data-video="{{ $first.id }}">
 				{{- if $drive }}
-					{{- /* Google refuses this image to a request that names another site as referrer. */}}
-					<img src="https://lh3.googleusercontent.com/d/{{ $first.id }}=w640" alt="" width="640" height="360" referrerpolicy="no-referrer"/>
+					{{- partial "ui/drive-thumb.html" $first.id }}
 				{{- else }}
 					<img src="https://i.ytimg.com/vi/{{ $first.id }}/hqdefault.jpg" alt="" width="480" height="360"/>
 				{{- end }}

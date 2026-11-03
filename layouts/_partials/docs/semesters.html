@@ -1,0 +1,7 @@
+{{- /*
+The semesters of some courses, sorted and without repeats. Context: a list of course pages.
+Courses are section pages, and GroupByParam returns no groups for section pages, so this collects them by hand.
+*/ -}}
+{{- $semesters := slice -}}
+{{- range . }}{{ $semesters = $semesters | append .Params.semester }}{{ end -}}
+{{- return sort (uniq $semesters) -}}
