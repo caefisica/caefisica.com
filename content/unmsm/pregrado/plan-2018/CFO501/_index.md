@@ -1,7 +1,11 @@
 ---
 title: Óptica
-lead: ""
-description: ""
+lead:
+  "En este curso estudias la naturaleza de la luz, óptica geométrica, ondas,
+  interferencia, difracción y polarización."
+description:
+  "Guía de Óptica sobre luz, instrumentos ópticos, ondas, interferencia,
+  difracción y polarización."
 id: "CFO501"
 credits: 6
 prerequisites: ["Electricidad y Magnetismo"]
@@ -12,38 +16,24 @@ weight: 501
 date: 2022-02-01T11:00:00.000+00:00
 ---
 
-{{< infobox-alert text="En el curso de Óptica se aprenderán conceptos de los principios de la luz y la optica  tanto en la parte teórica como en la parte práctica(laboratorios)." />}}
+{{< infobox-alert text="El curso estudia los principios de la luz en teoría y en prácticas de laboratorio." />}}
 
-{{< alert icon="👉" text="REQUISITOS: Como **cursos de prerrequisitos** que se necesitan para poder llevar este curso se encuentra haber aprobado el curso de Electricidad y magnetismo, y también contar con conocimientos de cálculo diferencial e integral, física de la mecánica newtoniana y de la teoría electromagnética." />}}
+{{< alert icon="👉" text="REQUISITOS: Debes aprobar Electricidad y Magnetismo y manejar cálculo diferencial e integral, mecánica newtoniana y teoría electromagnética." />}}
 
 ### Introducción
 
 ✨[Video](https://www.youtube.com/watch?v=a7ZHi2kDndo) introductorio de la
 historia de la Óptica
 
-El plan de estudios incluye los siguientes temas:
-
-1. Óptica Clásica
-   - Naturaleza de la luz
-   - Óptica Geométrica
-   - Instrumentos Ópticos
-2. Óptica Ondulatoria
-   - Ecuaciones de ondas
-   - Superposición de ondas
-3. Fenómenos asociados a la Óptica ondulatoria
-   - Interferencia de la luz
-   - Interferómetros
-   - Difracción de Fraunhofer
-   - Red de difracción
-   - Difracción de Fresnel
-   - Polarización de la luz
+1. Óptica clásica: Naturaleza de la luz, óptica geométrica e instrumentos
+   ópticos.
+2. Óptica ondulatoria: Ecuaciones de ondas y superposición de ondas.
+3. Fenómenos ondulatorios: Interferencia, interferómetros, difracción de
+   Fraunhofer, redes de difracción, difracción de Fresnel y polarización.
 
 ## Libros recomendados
 
 ### Teóricos
-
-La siguiente lista consiste de libros con bastante contenido teórico y una
-sección de problemas:
 
 {{< resource-table resource="books.yaml" type="book" >}}
 

@@ -1,7 +1,11 @@
 ---
 title: "Electromagnetismo II"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias magnetostática, inducción, materiales magnetizados,
+  energía magnética y ecuaciones de Maxwell."
+description:
+  "Temas y libros de Electromagnetismo II sobre magnetismo, materiales, Maxwell
+  y ondas."
 id: "CFO701"
 credits: 5
 prerequisites: ["Electromagnetismo I"]
@@ -13,15 +17,8 @@ weight: 701
 date: 2022-09-09T16:00:00
 ---
 
-{{< details "Acerca de los libros" >}} Para el curso se ven los temas del
-magnetismo en el vacío y en materiales. Siguen las ecuaciones de Maxwell en
-forma integral y diferencial. Finalmente, la ecuación de la onda
-electromagética. {{< /details >}}
-
-El plan de estudios incluye los siguientes temas:
-
 - Magnetostática en el vacío
-- Inducción electromagética
+- Inducción electromagnética
 - Materiales magnetizados
 - Energía magnética
 - Ecuaciones de Maxwell
@@ -31,13 +28,11 @@ El plan de estudios incluye los siguientes temas:
 
 ### Teóricos
 
+Empieza con _Introduction to Electrodynamics_, de David J. Griffiths, porque
+presenta con claridad la teoría electromagnética y las ecuaciones de Maxwell
+antes de sus aplicaciones.
+
 | Nombre                                    | Autor                 | Editorial     | Año  |
 | ----------------------------------------- | --------------------- | ------------- | ---- |
 | Introduction to Electrodynamics           | David J. Griffiths    | Prentice Hall | 1999 |
 | Fundamentos de la teoría electromagnética | Frederick J. Mildford | Prentice Hall | 1999 |
-
-## Listas de reproducción
-
-| Nombre   | Autor   | Editorial | Año |
-| -------- | ------- | --------- | --- |
-| Nombre 1 | Autor 1 | Editorial | Año |

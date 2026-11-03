@@ -1,7 +1,11 @@
 ---
 title: "Física Moderna I"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias los principios de la física moderna y sus modelos para
+  describir la materia y la radiación."
+description:
+  "Libros y recursos para estudiar Física Moderna I, sus principios, modelos y
+  aplicaciones."
 id: "CFO505"
 credits: 4
 prerequisites: ["Electricidad y Magnetismo"]

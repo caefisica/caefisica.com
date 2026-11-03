@@ -1,7 +1,11 @@
 ---
 title: "Física Computacional II"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias métodos numéricos para simular sistemas físicos y
+  resolver problemas de muchos cuerpos."
+description:
+  "Temas y libros de Física Computacional II: dinámica molecular, Monte Carlo e
+  Ising."
 id: "CFO502"
 credits: 4
 prerequisites: ["Física Computacional I"]
@@ -15,48 +19,31 @@ date: 2022-02-01T12:00:00
 
 {{< infobox-alert text="En el curso de Física Computacional II, aprenderás a resolver problemas físicos utilizando métodos numéricos, como ecuaciones no lineales, ecuaciones diferenciales y análisis de muchos cuerpos, empleando Fortran 90 o Fortran 95." />}}
 
-🔎 El plan de estudios incluye los siguientes temas:
-
 - Errores de cálculo
 - Simulación del movimiento planetario
 - Introducción a la dinámica molecular
-- Métodos de Euler, Verlet, Runge-Kutta
-- Método de Montecarlo
+- Métodos de Euler, Verlet y Runge-Kutta
+- Método de Monte Carlo
 - Modelo de Ising
 
 ## Libros recomendados
 
-Para complementar tu aprendizaje en Física Computacional II, hemos seleccionado
-una lista de libros que proporcionan una combinación de conocimientos teóricos y
-prácticos sobre los temas del curso:
-
 ### Teóricos
 
-Te recomendamos consultar los siguientes libros, que incluyen información
-teórica detallada y ejemplos de programas escritos en Python u otros lenguajes
-(ten en cuenta que Fortran no es comúnmente utilizado en cursos similares en
-otros países):
+Estos libros ofrecen teoría y ejemplos de programas; algunos usan Python u otros
+lenguajes porque Fortran es menos común en cursos similares.
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
 ### Teórico-Prácticos
 
-Estos libros combinan teoría y práctica, presentando una amplia gama de
-ejercicios resueltos para aplicar y reforzar tus conocimientos.
-
 {{< resource-table resource="books-theoretical-practical.yaml" type="book" >}}
 
 ### Prácticos
 
-Diseñados para mejorar tus habilidades de resolución de problemas, estos libros
-se centran en ejercicios y problemas con contenido teórico mínimo.
-
 {{< resource-table resource="books-practical.yaml" type="book" >}}
 
 ### Solucionarios
-
-Para ayudarte aún más en la comprensión del material, aquí tienes una lista de
-solucionarios para algunos libros seleccionados.
 
 {{< resource-table resource="books-solutions.yaml" type="book" >}}
 

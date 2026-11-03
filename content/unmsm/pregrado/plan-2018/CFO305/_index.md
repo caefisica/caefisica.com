@@ -1,7 +1,11 @@
 ---
 title: "Cálculo III"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias funciones vectoriales, funciones reales de varias
+  variables, integrales múltiples y cálculo vectorial."
+description:
+  "Temas y libros para estudiar funciones de varias variables, integrales
+  múltiples y cálculo vectorial."
 id: "CFO305"
 credits: 4
 prerequisites: ["Cálculo II"]
@@ -13,19 +17,16 @@ weight: 305
 date: 2022-03-20T00:00:00
 ---
 
-{{< infobox-alert text="Los temas que se tocan en el curso Cálculo III está relacionado con el Cálculo de varias variables, es decir en este curso se desarrollara lo visto en el Cálculo diferencial e integral pero aplicado a funciones reales y vectoriales con una o más variables." />}}
+{{< infobox-alert text="Cálculo III aplica el cálculo diferencial e integral a funciones reales y vectoriales de varias variables." />}}
 
 {{< alert icon="👉" text="REQUISITOS: Para un mejor entendimiento del curso Cálculo III se necesitan comprender los conceptos vistos en los anteriores cursos de cálculo (diferencial e integral), es decir tener una buena base tanto en las derivadas como las integrales." />}}
 
 ## ¿Qué temas se ven?
 
-El curso de cálculo III se puede dividir de manera general en los siguientes
-temas:
-
-- Funciones Vectoriales
-- Función Real de Variable vectorial
-- Integrales Múltiples
-- Cálculo Vectorial
+- Funciones vectoriales
+- Funciones reales de variable vectorial
+- Integrales múltiples
+- Cálculo vectorial
 
 ## Libros
 

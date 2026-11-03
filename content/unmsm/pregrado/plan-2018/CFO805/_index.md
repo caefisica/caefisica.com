@@ -1,7 +1,11 @@
 ---
 title: "Astronomía y Astrofísica"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias los fenómenos, objetos y métodos de la astronomía y la
+  astrofísica."
+description:
+  "Lista de temas de Astronomía y Astrofísica: sistema solar, estrellas,
+  galaxias, observación y métodos astrofísicos."
 id: "CFO805"
 credits: 4
 prerequisites: ["Mecánica Clásica II", "Electromagnetismo II"]
@@ -13,27 +17,16 @@ weight: 805
 date: 2022-09-09T16:00:00
 ---
 
-{{< details "Acerca de los libros" >}} Para el curso se ven los temas del
-magnetismo en el vacío y en materiales. Siguen las ecuaciones de Maxwell en
-forma integral y diferencial. Finalmente, la ecuación de la onda
-electromagética. {{< /details >}}
-
-El plan de estudios incluye los siguientes temas:
-
-- Magnetostática en el vacío
-- Inducción electromagética
+- Sistema solar y cuerpos celestes
+- Estrellas y evolución estelar
+- Galaxias y cosmología
+- Observación astronómica
+- Métodos de astrofísica
 
 ## Libros recomendados
 
-### Teóricos
-
-| Nombre                                    | Autor                 | Editorial     | Año  |
-| ----------------------------------------- | --------------------- | ------------- | ---- |
-| Introduction to Electrodynamics           | David J. Griffiths    | Prentice Hall | 1999 |
-| Fundamentos de la teoría electromagnética | Frederick J. Mildford | Prentice Hall | 1999 |
-
-## Listas de reproducción
-
-| Nombre   | Autor   | Editorial | Año |
-| -------- | ------- | --------- | --- |
-| Nombre 1 | Autor 1 | Editorial | Año |
+Empieza con
+[Astronomy 2e](https://openstax.org/books/astronomy-2e/pages/1-introduction), de
+Andrew Fraknoi, David Morrison y Sidney Wolff, porque cubre desde la observación
+y el sistema solar hasta las estrellas, las galaxias y la cosmología en acceso
+abierto.

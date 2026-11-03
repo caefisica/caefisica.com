@@ -1,7 +1,10 @@
 ---
 title: "Química Orgánica e Inorgánica"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias conceptos de química orgánica e inorgánica con mayor
+  profundidad."
+description:
+  "Guía introductoria de Química Orgánica e Inorgánica y sus temas principales."
 id: "CBO205"
 credits: 4
 prerequisites: ["No aplica"]
@@ -13,6 +16,6 @@ weight: 205
 date: 2022-02-01T16:00:00
 ---
 
-{{< infobox-alert text="Los temas que se tocan en el curso Química Orgánica e Inorgánica son, inicialmente, los estudiados para ingresar, pero con más profundidad." />}}
+{{< infobox-alert text="El curso retoma los conceptos de química del examen de ingreso y los desarrolla con más profundidad." />}}
 
 ### ¿Qué temas se ven en Química Orgánica e Inorgánica?

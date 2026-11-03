@@ -1,7 +1,11 @@
 ---
 title: "Física Moderna II"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias estructura atómica, física estadística, materia
+  condensada, núcleos y partículas elementales."
+description:
+  "Guía de Física Moderna II sobre átomos, moléculas, sólidos, núcleos y
+  partículas."
 id: "CFO605"
 credits: 4
 prerequisites: ["Física Moderna I"]
@@ -12,8 +16,6 @@ draft: false
 weight: 605
 date: 2022-09-27T16:00:00
 ---
-
-El plan de estudios incluye los siguientes temas:
 
 - Estructura atómica
 - Física estadística

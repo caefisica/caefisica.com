@@ -1,7 +1,11 @@
 ---
 title: "Física Matemática III"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias ecuaciones de la física matemática, cálculo
+  variacional, perturbaciones y análisis tensorial."
+description:
+  "Temas y libros de Física Matemática III sobre EDP, variaciones,
+  perturbaciones y tensores."
 id: "CFO504"
 credits: 4
 prerequisites: ["Física Matemática II"]
@@ -16,15 +20,8 @@ date: 2022-02-01T14:00:00
 
 {{< alert icon="🔔" text="Esta página todavía se encuentra en proceso de redacción." />}}
 
-Mientras que en Física Matemática I se vieron las ecuaciones diferenciales, sus
-métodos de resolución, entre otras cosas y en la segunda parte se vio las
-transformadas de Laplace, series de Fourier, entre otras cosas; en esta tercera
-parte de la Físca Matemática se ahonda en herramientas matemáticas que serán muy
-útiles en otros cursos, como la resolución de EDPs y las funciones especiales
-que en conjunto determinan las soluciones de la ecuación de Schrödinger de la
-mecánica cuántica. Favor de aprender bien el curso.
-
-El plan de estudios incluye los siguientes temas:
+El curso amplía las herramientas matemáticas de Física Matemática I y II para
+resolver EDP y estudiar funciones especiales de la ecuación de Schrödinger.
 
 {{< mermaid class="bg-gray-100 -mx-12 text-center" >}}
 graph LR A[Física Matemática III] --> B[Ecuaciones de la Física Matemática] B
@@ -37,7 +34,7 @@ funcionales] C --> 2.2[Máximos y mínimos de los funcionales] C -->
 2.3[Principales principios variacionales] C --> 2.4[Aplicaciones a la Mecánica
 Clásica] A --> D[Teoría de Perturbaciones] D --> 3.1[Concepto de Perturbaciones]
 D --> 3.2[Solución de problemas de la física usando perturbaciones] D -->
-3.3[Apliación de perturbaciones a problemas de valor propio] A --> E[Análisis
+3.3[Aplicación de perturbaciones a problemas de valor propio] A --> E[Análisis
 Tensorial] E --> 4.1[Campos escalares y vectoriales] E --> 4.2[Operadores
 diferenciales sobre campos escalares y vectoriales] E --> 4.3[Elementos de
 geometría diferencial]
@@ -47,8 +44,6 @@ geometría diferencial]
 
 ### Teóricos
 
-Libros con bastante contenido teórico y una sección de problemas.
-
 | Nombre                                                                                                                                                        | Autor                                        | Editorial                  | Año  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | -------------------------- | ---- |
 | [Mathematical Methods for Physics and Engineering: A Comprehensive Guide](https://drive.google.com/file/d/1GVju5w8OYXMqpT21dxzbs1sVgWODsx-y/view?usp=sharing) | Riley, K. F., Hobson, M. P., & Bence, S. J.  | Cambridge University Press | 2006 |
@@ -56,8 +51,6 @@ Libros con bastante contenido teórico y una sección de problemas.
 | [Mathematical physics](https://drive.google.com/file/d/1TrjZifrx_xdmNt956yxC-hlttpbiCY-4/view?usp=sharing)                                                    | Butkov, E.                                   | Addison-Wesley             | 1973 |
 
 ### Prácticos
-
-Libros enfocados en la resolución de problemas.
 
 | Nombre                                                                                                                                | Autor                                       | Editorial           | Año  |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ------------------- | ---- |

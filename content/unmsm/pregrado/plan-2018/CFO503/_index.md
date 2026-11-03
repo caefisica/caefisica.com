@@ -1,7 +1,10 @@
 ---
 title: "Mecánica Clásica II"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias las formulaciones lagrangiana y hamiltoniana de la
+  mecánica clásica."
+description:
+  "Guía de Mecánica Clásica II sobre acción, Lagrange, Hamilton y simetrías."
 id: "CFO503"
 credits: 4
 prerequisites: ["Mecánica Clásica I"]
@@ -12,14 +15,10 @@ weight: 503
 date: 2022-02-01T13:00:00.000+00:00
 ---
 
-El curso se enfoca en el estudio de las formulaciones lagrangiana y hamiltoniana
-de la mecánica clásica. Estas formulaciones son fundamentales para comprender la
-física moderna y proporcionan una base sólida para el estudio de la mecánica
-cuántica y la física teórica avanzada.
+El curso presenta las formulaciones lagrangiana y hamiltoniana de la mecánica
+clásica, que usarás en mecánica cuántica y física teórica avanzada.
 
 {{< alert icon="👉" text="PRERREQUISITOS: Mecánica Clásica I, Cálculo Diferencial e Integral." />}}
-
-El plan de estudios incluye los siguientes temas:
 
 - Principio de mínima acción
 - Ecuaciones de Euler-Lagrange
@@ -27,7 +26,7 @@ El plan de estudios incluye los siguientes temas:
 - Funciones generadoras de transformaciones canónicas
 - Ecuaciones de Hamilton
 - Teoremas de conservación y simetrías
-- Mecánica Hamilton-Jacobi
+- Mecánica de Hamilton-Jacobi
 
 ## Libros recomendados
 
@@ -51,6 +50,5 @@ El plan de estudios incluye los siguientes temas:
 
 ## Recursos adicionales
 
-Para más información sobre el curso, tales como exámenes, prácticas, tareas,
-etc. que se dieron en este, visita el siguiente enlace de Google Drive:
+Para consultar exámenes, prácticas y tareas, abre el siguiente enlace:
 [Curso Mecánica Clásica II](https://drive.google.com/drive/u/0/folders/1EEwAXrCBzNqFvXmisFSPyrHzdCoc1ULx)

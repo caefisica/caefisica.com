@@ -1,7 +1,11 @@
 ---
 title: "Redacción y Metodología Científica"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias redacción académica y métodos para desarrollar
+  trabajos científicos."
+description:
+  "Guía de Redacción y Metodología Científica para organizar y comunicar
+  trabajos de investigación."
 id: "CFO705"
 credits: 3
 prerequisites: ["No aplica"]
@@ -13,31 +17,17 @@ weight: 705
 date: 2022-09-09T16:00:00
 ---
 
-{{< details "Acerca de los libros" >}} Para el curso se ven los temas del
-magnetismo en el vacío y en materiales. Siguen las ecuaciones de Maxwell en
-forma integral y diferencial. Finalmente, la ecuación de la onda
-electromagética. {{< /details >}}
-
-El plan de estudios incluye los siguientes temas:
-
-- Magnetostática en el vacío
-- Inducción electromagética
-- Materiales magnetizados
-- Energía magnética
-- Ecuaciones de Maxwell
-- Aplicaciones de las ecuaciones de Maxwell
+- Redacción académica
+- Búsqueda y organización de información
+- Metodología científica
+- Estructura de trabajos de investigación
+- Citación y referencias
+- Comunicación de resultados
 
 ## Libros recomendados
 
-### Teóricos
-
-| Nombre                                    | Autor                 | Editorial     | Año  |
-| ----------------------------------------- | --------------------- | ------------- | ---- |
-| Introduction to Electrodynamics           | David J. Griffiths    | Prentice Hall | 1999 |
-| Fundamentos de la teoría electromagnética | Frederick J. Mildford | Prentice Hall | 1999 |
-
-## Listas de reproducción
-
-| Nombre   | Autor   | Editorial | Año |
-| -------- | ------- | --------- | --- |
-| Nombre 1 | Autor 1 | Editorial | Año |
+Empieza con
+[The Craft of Research, quinta edición](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008),
+de Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup y William
+T. FitzGerald, porque guía la búsqueda de fuentes, la construcción de argumentos
+y la comunicación de resultados.

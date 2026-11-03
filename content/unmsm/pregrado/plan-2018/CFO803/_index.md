@@ -1,7 +1,10 @@
 ---
 title: "Física Nuclear I"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias núcleos atómicos, estadística nuclear, modelos
+  nucleares y radiaciones."
+description:
+  "Temas y libros de Física Nuclear I sobre núcleos, modelos y radiaciones."
 id: "CFO803"
 credits: 5
 prerequisites: ["Mecánica Cuántica I"]
@@ -13,20 +16,15 @@ weight: 803
 date: 2022-09-09T16:00:00
 ---
 
-{{< infobox-alert text="La siguiente guía se elaboró con la ayuda del profesor Eduardo Villareyes y su curso de Física Nuclear dictado en la UNAC." />}}
+{{< infobox-alert text="La guía se elaboró con apoyo del curso de Física Nuclear dictado por Eduardo Villareyes en la UNAC." />}}
 
-Según el plan de estudios, se cubren los siguientes temas generalmente:
-
-- Introducción a los núcleos atómicos.
-- Estadística nuclear.
-- Modelos nucleares.
-- Radiaciones nucleares.
+- Introducción a los núcleos atómicos
+- Estadística nuclear
+- Modelos nucleares
+- Radiaciones nucleares
 
 ## Libros recomendados
 
 ### Teóricos
-
-Estos son algunos de los libros que abordan de manera extensa la teoría y
-conceptos del curso:
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}

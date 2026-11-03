@@ -1,7 +1,11 @@
 ---
 title: "Física II"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias elasticidad, oscilaciones, ondas, fluidos, gases y
+  termodinámica."
+description:
+  "Temas y recursos para estudiar Física II: ondas, fluidos, gases y
+  termodinámica."
 id: "CBO207"
 credits: 4
 prerequisites: ["No aplica"]
@@ -13,37 +17,24 @@ weight: 207
 date: 2022-03-04T02:00:00.000+00:00
 ---
 
-{{< infobox-alert text="Los temas que se tocan en el curso de Física II abordan el estudio de la mecánica de Medios continuos y la Termodinámica." />}}
+{{< infobox-alert text="El curso aborda la mecánica de medios continuos y la termodinámica." />}}
 
-A este curso se le solía conocer como "Física General II", sin embargo, ahora es
-conocido como "Física II". Sin embargo, si escuchas a un profesor hablar de
-Física I fuera de EEG, probablemente se refiera a Física I.
+Antes se conocía como «Física General II»; ahora se llama «Física II».
 
-El plan de estudios incluye los siguientes temas:
-
-- Elasticidad.
-- Movimientos periódicos.
-- Ondas Mecánicas.
-- Fluídos.
-- Gases.
-- Termodinámica.
+- Elasticidad
+- Movimientos periódicos
+- Ondas mecánicas
+- Fluidos
+- Gases
+- Termodinámica
 
 ## Libros recomendados
 
-Para complementar tu aprendizaje, hemos preparado una lista de libros con un
-enfoque tanto teórico como práctico:
-
 ### Teóricos
-
-Para una comprensión profunda de los temas de Cálculo II, te recomendamos
-consultar los siguientes libros, que incluyen amplia información teórica y
-secciones de problemas.
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
 ### Teórico-prácticos
-
-Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 
 {{< resource-table resource="books-theoretical-practical.yaml" type="book" >}}
 

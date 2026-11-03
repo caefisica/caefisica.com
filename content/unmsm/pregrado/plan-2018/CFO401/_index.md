@@ -1,7 +1,11 @@
 ---
 title: "Electricidad y Magnetismo"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias electricidad, magnetismo, circuitos, inducción, ondas
+  electromagnéticas y ecuaciones de Maxwell."
+description:
+  "Temas y libros de Electricidad y Magnetismo: campos, circuitos, inducción y
+  ondas."
 id: "CFO401"
 credits: 6
 prerequisites: ["Física Molecular"]
@@ -13,31 +17,29 @@ weight: 401
 date: 2022-02-01T08:00:00
 ---
 
-{{< infobox-alert text="En este curso se estuadiarán las leyes de la electricidad y el magnetismo por separado, para luego dar una introducción al estudio del electromagnetismo como parte de un mismo fenómeno." />}}
+{{< infobox-alert text="En este curso estudias las leyes de la electricidad y el magnetismo antes de unirlas en el electromagnetismo." />}}
 
 {{< details "Temario" >}}
 
-El curso se puede dividir en 5 unidades que contienen los siguientes temas:
-
 {{< details "Electrostática" >}}
 
-- Carga Electrica
-- Fuerza Electrica
-- Campo Electrico
+- Carga eléctrica
+- Fuerza eléctrica
+- Campo eléctrico
 
 {{< /details >}}
 
 {{< details "Ley de Gauss y potencial electrostatico" >}}
 
 - Ley de Gauss
-- Potencial Electrostatico
+- Potencial electrostático
 
 {{< /details >}}
 
 {{< details "Campo Electrico y corriente electrica" >}}
 
 - Capacitores
-- Dieléctrico
+- Dieléctricos
 - Cargas en movimiento
 - Circuitos
 
@@ -46,14 +48,14 @@ El curso se puede dividir en 5 unidades que contienen los siguientes temas:
 {{< details "Fuerza electromotriz" >}}
 
 - Circuitos RC
-- Campo Magnético
-- Fuerza Magnética
+- Campo magnético
+- Fuerza magnética
 
 {{< /details >}}
 
 {{< details "Inducción y ondas electromagneticas" >}}
 
-- Inducción Electromagnética
+- Inducción electromagnética
 - Ondas electromagnéticas
 - Ecuaciones de Maxwell
 
@@ -64,9 +66,6 @@ El curso se puede dividir en 5 unidades que contienen los siguientes temas:
 ### Libros
 
 #### Teóricos
-
-Los siguientes libros incluyen un contenido teórico amplio y detallado y una
-sección de problemas resueltos.
 
 | Nombre                                                                              | Autor(es)                              | Año                                                                                                    | Editorial                      |
 | ----------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------ |
@@ -82,18 +81,12 @@ sección de problemas resueltos.
 
 #### Teórico-prácticos
 
-Los siguientes libros incluyen poco contenido teórico, pero contienen bastantes
-ejercicios resueltos.
-
 | Nombre   | Autor          | Año                                                                                                   | Editorial |
 | -------- | -------------- | ----------------------------------------------------------------------------------------------------- | --------- |
 | Física 3 | Hugo Medina    | [2009, 1a ed.](https://drive.google.com/file/d/1zKBLs7HDcOiW3n3tzHhqCaexgRy41jtd/view?usp=share_link) | PUCP      |
 | Física 3 | Humberto Leyva | 2016, 2a ed.                                                                                          | Moshera   |
 
 ### Práctica
-
-Los siguientes libros incluyen ejercicios o problemas planteados. Contienen muy
-poco contenido teórico.
 
 | Nombre   | Autor   | Año | Editorial |
 | -------- | ------- | --- | --------- |

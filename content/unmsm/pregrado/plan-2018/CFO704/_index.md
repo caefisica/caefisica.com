@@ -1,15 +1,11 @@
 ---
 title: "Física Estadística I"
 lead:
-  "La física estadística conecta los mundos microscópico y macroscópico,
-  mediante la extracción de propiedades macroscópicas a partir de interacciones
-  microscópicas fundamentales."
+  "En este curso estudias métodos estadísticos, ensambles, equilibrio térmico,
+  gases y estadísticas cuánticas."
 description:
-  "El curso de Física Estadística ofrece una introducción sólida a conceptos
-  clave como variables aleatorias discretas, cadenas de Markov y formalismo de
-  Gibbs, proporcionando una base sólida en mecánica estadística, una teoría con
-  aplicaciones en diversas áreas de la ciencia, desde cosmología y física de
-  partículas hasta biología y economía."
+  "Guía de Física Estadística I sobre ensambles, gases, equipartición y
+  estadísticas cuánticas."
 id: "CFO704"
 credits: 5
 prerequisites: ["Estadística y Probabilidad I"]
@@ -23,8 +19,6 @@ date: 2022-09-09T16:00:00
 
 {{< infobox-alert text="Comenzarás con una introducción dinámica a la teoría de probabilidad. Luego, profundizarás en las propiedades de sistemas en equilibrio térmico, explorando aplicaciones en gases, paramagnetismo y radiación de cuerpo negro." />}}
 
-El plan de estudios incluye los siguientes temas:
-
 - Introducción a los métodos estadísticos
 - Descripción estadística de sistemas de partículas (ensamble)
 - Termodinámica estadística (sistemas en equilibrio)
@@ -35,15 +29,7 @@ El plan de estudios incluye los siguientes temas:
 
 ## Libros recomendados
 
-Para complementar tu aprendizaje, hemos seleccionado una lista de libros que
-proporcionan tanto conocimientos teóricos como prácticos sobre los temas de
-Física Estadística I:
-
 ### Teóricos
-
-Para una comprensión profunda, te recomendamos consultar los siguientes libros,
-que incluyen amplia información teórica y aunque con pocas secciones de
-problemas.
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
@@ -53,15 +39,9 @@ problemas.
 
 ### Prácticos
 
-Diseñados para mejorar tus habilidades de resolución de problemas, estos libros
-se centran en conceptos más avanzados y problemas con contenido teórico conciso.
-
 {{< resource-table resource="books-practical.yaml" type="book" >}}
 
 ### Solucionarios
-
-Para ayudarte aún más en la comprensión del material, aquí tienes una lista de
-solucionarios para algunos libros seleccionados.
 
 {{< resource-table resource="books-solutions.yaml" type="book" >}}
 
@@ -78,11 +58,7 @@ solucionarios para algunos libros seleccionados.
 
 {{< img-simple src="Leonard_Susskind.jpg" alt="Miniatura del video titulado 'Statistical Mechanics Lecture 10'" class="mx-auto block shadow-lg my-6" >}}
 
-Leonard Susskind impartió una serie de 10 conferencias sobre Mecánica
-Estadística en la primavera de 2013. Las charlas cubren temas como entropía,
-temperatura, distribución de Boltzmann, presión de gases ideales y entropía
-frente a reversibilidad. Además, analizó modelos como el de Ising y las
-transiciones de fase líquido-gas, ofreciendo una visión integral del campo de la
-mecánica estadística.
+La serie de Leonard Susskind cubre entropía, temperatura, distribución de
+Boltzmann, gases ideales, el modelo de Ising y transiciones de fase.
 
 {{< resource-table resource="playlists.yaml" type="playlist" >}}

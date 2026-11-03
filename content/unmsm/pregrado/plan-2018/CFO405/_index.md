@@ -1,7 +1,11 @@
 ---
 title: "Mecánica Clásica I"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias mecánica newtoniana, movimiento de partículas,
+  sistemas de partículas, sólidos rígidos y gravitación."
+description:
+  "Guía de Mecánica Clásica I sobre movimiento, sistemas de partículas, rotación
+  y gravitación."
 id: "CFO405"
 credits: 4
 prerequisites: ["Cálculo III", "Física Matemática I"]
@@ -14,19 +18,19 @@ weight: 405
 date: 2022-02-01T09:00:00
 ---
 
-{{< infobox-alert text="En el curso de Mecánica Clásica I se abordan los principios de la Mecánica Newtoniana por lo que se necesitara conceptos previos adquiridos de los cursos, el curso es netamente teórico." />}}
+{{< infobox-alert text="El curso desarrolla los principios de la mecánica newtoniana y requiere los conceptos de sus cursos prerrequisito." />}}
 
-{{< alert icon="👉" text="REQUISITOS: Es importante saber los cursos prerrequisito, en este caso para el curso de Mecánica Clásica I se debe aprobar primero los cursos de Cálculo III y Física Molecular para poder llevar el curso debido a que se verán conceptos ya vistos en estos cursos mencionados(Integrales de línea, coordenadas cilindricas y esfericas, etc)." />}}
+{{< alert icon="👉" text="REQUISITOS: Debes aprobar Cálculo III y Física Molecular para trabajar con integrales de línea y coordenadas cilíndricas y esféricas." />}}
 
 ### Temario
 
-- Elementos de la Mecánica Newtoniana
-- Movimiento unidimensional de una particula
-- Movimiento de una particula en dos o tres dimensiones
-- Movimiento de un sistema de particulas
-- Solidos rigidos, rotación alrededor de un eje. Estatica
+- Elementos de la mecánica newtoniana
+- Movimiento unidimensional de una partícula
+- Movimiento de una partícula en dos o tres dimensiones
+- Movimiento de un sistema de partículas
+- Sólidos rígidos, rotación alrededor de un eje y estática
 - Gravitación
-- Sistema de coordenadas móviles
+- Sistemas de coordenadas móviles
 
 ### Libros
 

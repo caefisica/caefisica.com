@@ -1,7 +1,10 @@
 ---
 title: "Física del Estado Sólido I"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias la estructura y las propiedades físicas de los sólidos
+  cristalinos."
+description:
+  "Libros, software y recursos para estudiar Física del Estado Sólido I."
 id: "CFO802"
 credits: 5
 prerequisites: ["Mecánica Cuántica I", "Física Estadística I"]
@@ -12,6 +15,9 @@ draft: false
 weight: 802
 date: 2022-11-11T16:00:00
 ---
+
+El curso estudia la estructura y las propiedades físicas de los sólidos
+cristalinos.
 
 ### Libros
 

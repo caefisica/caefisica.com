@@ -1,7 +1,11 @@
 ---
 title: "Álgebra Lineal"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias espacios vectoriales, transformaciones lineales,
+  matrices y sus aplicaciones."
+description:
+  "Guía de Álgebra Lineal sobre vectores, espacios, matrices y transformaciones
+  lineales."
 id: "CFO304"
 credits: 4
 prerequisites: ["Matemática Básica"]
@@ -14,23 +18,15 @@ weight: 304
 date: 2022-02-01T05:00:00
 ---
 
-Al escuchar o leer la palabra _álgebra_ debemos pensar en un conjunto de reglas
-que rigen sobre algún conjunto de objetos matemáticos. En esta ocasión no es
-diferente. En el curso se verán las propiedades de los vectores definiendo los
-espacios vectoriales. Debido a las ideas del álgebra moderna se verá cómo es que
-los vectores se pueden generalizar de tal forma que pueden expresar cosas no tan
-comunes. Este curso es base para entender otras ramas de las matemáticas que
-serán muy útiles para la carrera de física. Veremos que se mezcla con el
-cálculo, la mecánica cuántica, las ecuaciones diferenciales, la mecánica clásica
-y otras muchos temas que se verán a lo largo de la carrera.
+El curso presenta vectores, espacios vectoriales y sus aplicaciones en cálculo,
+mecánica cuántica, ecuaciones diferenciales y mecánica clásica.
 
 ## Libros
 
 ### Teóricos
 
-Si no tienes una base muy amplia en matemáticas, lo recomendable es ir por el
-libro de Grossman. Si ya posees ciertas nociones, el libro de Sheldon Axler será
-un propuesta muy interesante.
+Si partes de una base breve, empieza con **Grossman**; si ya manejas los
+conceptos, continúa con **Axler**.
 
 | Autor                             | Nombre                                       | Editorial   | Año                                                                                                                                                                                                            |
 | --------------------------------- | -------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

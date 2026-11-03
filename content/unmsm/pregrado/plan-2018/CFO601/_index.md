@@ -1,7 +1,10 @@
 ---
 title: "Electromagnetismo I"
-lead: "Explora los fundamentos del electromagnetismo."
-description: ""
+lead:
+  "En este curso estudias fuerza y campo eléctricos, ley de Gauss, potencial y
+  cálculo vectorial aplicado."
+description:
+  "Guía de Electromagnetismo I sobre fuerza, campos, potencial y ley de Gauss."
 id: "CFO601"
 credits: 5
 prerequisites: ["Electricidad y Magnetismo", "Física Matemática II"]
@@ -13,18 +16,12 @@ weight: 601
 date: 2023-06-14T16:00:00
 ---
 
-Desde los experimentos pioneros de Faraday y Maxwell en el siglo XIX, la teoría
-del electromagnetismo ha demostrado ser fundamental en nuestra comprensión del
-universo.
-
-El plan de estudios incluye los siguientes temas:
-
-- Fuerza Eléctrica y Ley de Coulomb
-- Campo Eléctrico
-- Ley de Gauss y Flujo Eléctrico
-- Potencial Eléctrico
-- Conductores en Equilibrio Electrostático
-- Cálculo Vectorial Aplicado al Electromagnetismo
+- Fuerza eléctrica y ley de Coulomb
+- Campo eléctrico
+- Ley de Gauss y flujo eléctrico
+- Potencial eléctrico
+- Conductores en equilibrio electrostático
+- Cálculo vectorial aplicado al electromagnetismo
 
 ## Libros recomendados
 

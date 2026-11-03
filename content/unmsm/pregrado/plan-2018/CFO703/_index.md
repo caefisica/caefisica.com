@@ -1,16 +1,11 @@
 ---
 title: "Mecánica Cuántica II"
 lead:
-  "Profundiza en la mecánica cuántica aplicada a sistemas de dos cuerpos, muchos
-  cuerpos, interacción radiación-materia y cuantización del campo
-  electromagnético"
+  "En este curso estudias sistemas de dos y muchos cuerpos, perturbaciones,
+  radiación-materia, operadores e información cuántica."
 description:
-  "Este curso aborda temas avanzados de la mecánica cuántica, incluyendo el
-  problema de dos cuerpos, teoría de perturbaciones, problema de muchos cuerpos,
-  matriz de densidad, scattering, fotones y átomos, operadores fermiónicos e
-  información cuántica. Está diseñado para estudiantes que hayan completado la
-  primera parte del curso (Mecánica Cuántica I) y cuenten con sólidos
-  conocimientos en física moderna y álgebra lineal"
+  "Temas y libros de Mecánica Cuántica II sobre perturbaciones, muchos cuerpos,
+  fotones e información cuántica."
 id: "CFO703"
 credits: 5
 prerequisites: ["Mecánica Cuántica I"]
@@ -23,11 +18,6 @@ date: 2023-04-11T16:00:00
 ---
 
 {{< infobox-alert text="Se recomienda contar con una base sólida en mecánica cuántica y estar dispuesto a dedicar tiempo y esfuerzo para comprender los conceptos y aplicaciones de los temas avanzados que se abordarán en este curso." />}}
-
-Mecánica Cuántica II es un curso avanzado que profundiza en los conceptos y
-aplicaciones de la mecánica cuántica estudiados en Mecánica Cuántica I.
-
-El contenido del curso se organiza en los siguientes temas:
 
 1. Simetría rotacional y traslacional en el problema de dos cuerpos
 2. Estados ligados en potenciales centrales
@@ -45,17 +35,13 @@ El contenido del curso se organiza en los siguientes temas:
 
 {{< img-simple src="TownsendatSouthPole.jpg" alt="Foto de una persona sosteniendo el libro 'A Modern Approach to Quantum Mechanics' de John S. Townsend en el polo sur geográfico." >}}
 
-El libro de John S. Townsend sigue siendo el preferido del profesor Pablo Rivera
-para el estudio de la segunda mitad del curso de mecánica cuántica.
+El libro de John S. Townsend es una referencia para la segunda mitad del curso.
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
 ### Teórico-Prácticos
 
 ### Prácticos
-
-Los siguientes libros contienen ejercicios o problemas planteados. Contienen muy
-poco contenido teórico.
 
 {{< resource-table resource="books-practical.yaml" type="book" >}}
 

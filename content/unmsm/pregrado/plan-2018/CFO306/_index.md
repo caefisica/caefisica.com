@@ -1,13 +1,11 @@
 ---
 title: "Física Computacional I"
 lead:
-  "Introducción a métodos numéricos y programación en Fortran aplicados a
-  problemas físicos"
+  "En este curso estudias métodos numéricos y programación en Fortran para
+  resolver problemas físicos."
 description:
-  "Este curso ofrece una visión general de los métodos numéricos y la
-  programación en Fortran, con el objetivo de enseñar a diseñar programas para
-  resolver problemas y analizar los resultados obtenidos mediante métodos
-  computacionales en diversos problemas físicos"
+  "Guía de Física Computacional I sobre interpolación, integración, ecuaciones
+  diferenciales y Fortran."
 id: "CFO306"
 credits: 4
 prerequisites: ["Cálculo I"]
@@ -22,39 +20,19 @@ date: 2022-02-01T00:00:00
 
 {{< infobox-alert text="Este curso brinda una introducción a los métodos numéricos y la programación en Fortran, con el propósito de enseñar cómo diseñar programas para resolver problemas y analizar resultados mediante métodos computacionales aplicados a diversos problemas físicos." />}}
 
-El plan de estudios incluye los siguientes temas:
-
-- Definición de variables
-- Método de interpolación y extrapolación
-  - Programación modular
-  - Método de Bisección
-  - Método de falsa posición
-  - Método de Newton-Raphson
-  - Método de secante
-  - Interpolación de Lagrange
-  - Interpolación de Newton
-- Integración numérica
-  - Regla del trapecio
-  - Regla de Simpson: $1/3$ y $3/8$
-  - Método de Romberg
-  - Método de Euler
-- Ecuaciones diferenciales
-  - Método de Runge-Kutta
-  - Método de Runge-Kutta para sistemas con múltiples variables dependientes
+- Definición de variables y programación modular.
+- Interpolación y extrapolación: Bisección, falsa posición, Newton-Raphson,
+  secante, Lagrange y Newton.
+- Integración numérica: Trapecio, Simpson $1/3$ y $3/8$, Romberg y Euler.
+- Ecuaciones diferenciales: Runge-Kutta y Runge-Kutta para sistemas con varias
+  variables dependientes.
 
 ## Libros recomendados
 
-Para complementar tu aprendizaje hemos seleccionado una lista de libros que
-proporcionan una combinación de conocimientos teóricos y prácticos sobre los
-temas del curso. Estos libros se encuentran agrupados en las siguientes
-categorías:
-
 ### Teóricos
 
-Puedes consultar los siguientes libros, que incluyen información teórica
-detallada y ejemplos de programas escritos en C, Python u otros lenguajes (ten
-en cuenta que Fortran no es comúnmente utilizado en cursos similares en otros
-países):
+Estos libros ofrecen teoría y ejemplos de programas; algunos usan C, Python u
+otros lenguajes porque Fortran es menos común en cursos similares.
 
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
@@ -92,9 +70,6 @@ y practicar:
 {{< resource-table resource="playlists.yaml" type="playlist" >}}
 
 ## Páginas web
-
-A continuación, se presentan algunas páginas web que brindan información
-adicional y recursos sobre métodos numéricos y programación en Fortran:
 
 | Nombre                                   | Autor                       | Enlace                                                                                      |
 | ---------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------- |

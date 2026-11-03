@@ -1,7 +1,11 @@
 ---
 title: "Física Molecular"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias elasticidad, oscilaciones, ondas, fluidos, calor,
+  gases y termodinámica."
+description:
+  "Temas y libros de Física Molecular: elasticidad, ondas, fluidos, gases y
+  calor."
 id: "CFO303"
 credits: 6
 prerequisites: ["No aplica"]
@@ -13,24 +17,18 @@ weight: 303
 date: 2022-02-01T00:00:00
 ---
 
-{{< infobox-alert text="El curso de Física Molecular tiene como objetivo describir y explicar los fenómenos relacionados con la mecánica de los medios y de la termodinámica." />}}
+{{< infobox-alert text="El curso describe fenómenos de la mecánica de medios y la termodinámica." />}}
 
-El plan de estudios incluye generalmente los siguientes temas:
-
-- **Elasticidad**: Propiedades físicas y mecánicas de los sólidos, así como los
-  conceptos de esfuerzo y deformación, y la Ley de Hooke.
-- **Movimiento Periódico y Oscilaciones**: Movimiento Armónico Simple (MAS), la
-  cinemática y dinámica del MAS, y comprender las oscilaciones amortiguadas y
-  forzadas.
-- **Ondas Mecánicas**: Características, tipos y propiedades de las ondas,
-  incluyendo la interferencia de ondas y el efecto Doppler.
-- **Fluidos**: Leyes de la estática y la dinámica de los fluidos, con enfoque en
-  la densidad, la presión y los principios de Pascal y de Arquímedes.
-- **Termodinámica y Calor**: Conceptos de temperatura, calor, y la transmisión
-  del calor. Aplicar la Primera y Segunda Ley de la Termodinámica a diferentes
-  casos.
-- **Gases**: Modelos macroscópico y microscópico de los gases en los procesos
-  termodinámicos, incluyendo el estudio de los gases ideales y reales.
+- **Elasticidad**: Propiedades de los sólidos, esfuerzo, deformación y ley de
+  Hooke.
+- **Movimiento periódico y oscilaciones**: Movimiento armónico simple,
+  oscilaciones amortiguadas y oscilaciones forzadas.
+- **Ondas mecánicas**: Tipos, propiedades, interferencia y efecto Doppler.
+- **Fluidos**: Estática y dinámica, densidad, presión y principios de Pascal y
+  Arquímedes.
+- **Termodinámica y calor**: Temperatura, calor, transmisión del calor y primera
+  y segunda ley de la termodinámica.
+- **Gases**: Modelos macroscópico y microscópico, gases ideales y gases reales.
 
 ## Libros recomendados
 

@@ -1,7 +1,11 @@
 ---
 title: "Física Matemática II"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias cálculo vectorial, variable compleja, series y
+  ecuaciones diferenciales parciales."
+description:
+  "Temas y libros de Física Matemática II: cálculo vectorial, variable compleja
+  y EDP."
 id: "CFO406"
 credits: 4
 prerequisites: ["Física Matemática I"]
@@ -13,44 +17,23 @@ weight: 406
 date: 2022-02-01T05:00:00-05:00
 ---
 
-{{< infobox-alert text="En el curso de Física Matemática II se verán metodos matemáticos bastante importantes para la carrera, de los cuales los temas mas importantes de este curso son tanto la Variable Compleja, Series de Fourier y Ecuaciones Diferenciales Parciales." />}}
+{{< infobox-alert text="El curso desarrolla métodos de variable compleja, series de Fourier y ecuaciones diferenciales parciales." />}}
 
-{{< alert icon="👉" text="REQUISITOS: Como cursos de prerrequisitos que se necesitan para poder llevar este curso se encuentran Física Matemática I ya que es necesario manejar y dominar los conceptos vistos en este primer curso, en lo que respecta a ya estar familiarizados con las ecuaciones diferenciales y sus metodos de resolución." />}}
+{{< alert icon="👉" text="REQUISITOS: Necesitas Física Matemática I y sus métodos de resolución de ecuaciones diferenciales." />}}
 
-El plan de estudios incluye los siguientes temas: que se suelen tocar
-
-- Cálculo Vectorial
-  - Producto Escalar
-  - Rotación de Coordenadas
-  - Producto Vectorial
-  - Divergencia, Rotacional, Gradiente y Teorema de Gauss
-  - Coordenadas polares esfericas, coordenadas cilindricas circulares y
-    coordenadas curvilineas
-  - Repaso de Algebra Lineal
-- Variable Compleja
-  - Funciones de variable compleja
-  - Teorema de la integral de Cauchy
-  - Serie de Taylor y Laurent de funciones complejas
-  - Singularidades y residuos
-  - Aplicaciones del cálculo de residuos
-  - Integrales complejas y reales
-- Ecuaciones diferenciales por Series
-  - Solución en serie de potencias
-  - Metodo de Frobenius
-  - Series de Fourier
-  - Forma compleja de las series de fourier
-- Ecuaciones diferenciales Parciales
-  - Ecuaciones parabólicas y fenómenos de difusión
-  - Ecuaciones hiperbólicas y fenómenos oscilatorios
-  - Ecuaciones elípticas y fenómenos estacionarios
-  - Separación de variables y series de Fourier
+- Cálculo vectorial: Producto escalar, rotación de coordenadas, producto
+  vectorial, divergencia, rotacional, gradiente, teorema de Gauss, coordenadas
+  polares, esféricas, cilíndricas y curvilíneas, y álgebra lineal.
+- Variable compleja: Funciones complejas, teorema integral de Cauchy, series de
+  Taylor y Laurent, singularidades, residuos e integrales complejas y reales.
+- Ecuaciones diferenciales por series: Series de potencias, método de Frobenius
+  y series de Fourier en forma real y compleja.
+- Ecuaciones diferenciales parciales: Ecuaciones parabólicas, hiperbólicas y
+  elípticas, separación de variables y series de Fourier.
 
 ## Libros recomendados
 
 ### Teóricos
-
-Aquí una lista de libros con bastante contenido teórico y una sección de
-problemas.
 
 | Nombre                                                                                                                                                                           | Autor                                | Editorial                        | Año              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | -------------------------------- | ---------------- |
@@ -62,8 +45,6 @@ problemas.
 | [Fundamentals of Complex Analysis Engineering, Science, and Mathematics](https://drive.google.com/file/d/1YhdXPd4_HwzCLooXntwNi9xOseIPBZN5/view?usp=drive_link)                  | Edward B. & Saff Arthur David Snider | Pearson                          | 2014, (3th. ed.) |
 
 ### Teórico-prácticos
-
-Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
 
 | Nombre                                                                                                                                             | Autor                                | Editorial                    | Año             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | ---------------------------- | --------------- |

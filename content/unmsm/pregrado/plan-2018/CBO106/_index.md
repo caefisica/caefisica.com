@@ -1,7 +1,11 @@
 ---
 title: "Biología"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias biomoléculas, células, genética, biotecnología,
+  ecología y biodiversidad."
+description:
+  "Temas de Biología: células, genética, biotecnología, ecología y
+  biodiversidad."
 id: "CBO106"
 credits: 4
 prerequisites: ["No aplica"]
@@ -14,18 +18,16 @@ weight: 105
 date: 2022-10-12T15:15:48+02:00
 ---
 
-{{< infobox-alert text="ProTip" />}}
+{{< infobox-alert text="Repasa estos temas para reconocer el alcance del curso." />}}
 
-El plan de estudios incluye los siguientes temas:
-
-- Método Científico
+- Método científico
 - Microscopía
 - Biomoléculas
-- Células Procariotas y Eucariotas
-- Funciones Celulares
-- Ciclo Celular
+- Células procariotas y eucariotas
+- Funciones celulares
+- Ciclo celular
 - ADN
-- Genes y Genomas
+- Genes y genomas
 - Biotecnología
 - Teorías del origen de la vida
 - Ecología

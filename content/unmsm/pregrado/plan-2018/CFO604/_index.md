@@ -1,7 +1,10 @@
 ---
 title: "Termodinámica"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias las variables, relaciones y leyes de la termodinámica."
+description:
+  "Temas y libros de Termodinámica sobre variables, relaciones y leyes de la
+  física clásica."
 id: "CFO604"
 credits: 4
 prerequisites: ["Cálculo III", "Física Molecular"]
@@ -13,10 +16,8 @@ weight: 604
 date: 2022-02-01T16:00:00
 ---
 
-El curso de termodinámica posee un carácter teórico, siendo su estudio las
-relaciones y definiciones de las variables termodinámicas. Este curso es de gran
-importancia debido a los resultados que se obtuvieron en su desarrollo. Sin duda
-otro de los pilares de la física clásica.
+El curso estudia las variables, relaciones y leyes de la termodinámica como
+parte de la física clásica.
 
 {{< details "Acerca de los libros" >}} Muchos de los libros de Termodinámica
 suelen contener temas sobre física estadística. {{< /details >}}

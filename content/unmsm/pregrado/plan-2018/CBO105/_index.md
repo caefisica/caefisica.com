@@ -1,7 +1,11 @@
 ---
 title: "Matemática Básica"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias lógica, conjuntos, números, funciones, álgebra lineal,
+  estadística y probabilidad."
+description:
+  "Guía de Matemática Básica sobre lógica, números, funciones, matrices,
+  estadística y probabilidad."
 id: "CBO105"
 credits: 4
 prerequisites: ["No aplica"]
@@ -15,37 +19,28 @@ date: 2022-05-02T15:15:48+02:00
 
 {{< infobox-alert text="Este curso se adentra en los conceptos de Álgebra superior, por lo que es esencial tener un dominio sólido de los fundamentos del Álgebra básica antes de empezar. Te recomendamos repasar estos temas como preparación para este curso." />}}
 
-El plan de estudios incluye generalmente los siguientes temas:
-
-- **Conceptos matemáticos fundamentales**: Lógica proposicional, operaciones de
-  conjuntos, inducción, divisibilidad y números primos.
-- **Números reales y complejos**: Axiomas de números reales, ecuaciones, valor
-  absoluto, teoría de números complejos.
+- **Conceptos matemáticos iniciales**: Lógica proposicional, conjuntos,
+  inducción, divisibilidad y números primos.
+- **Números reales y complejos**: Axiomas, ecuaciones, valor absoluto y teoría
+  de números complejos.
 - **Funciones reales y complejas**: Interpretación de funciones, exponenciales y
   logaritmos complejos.
-- **Polinomios, matrices, sistemas lineales**: Operaciones con polinomios,
-  matrices, solución de sistemas lineales.
+- **Polinomios, matrices y sistemas lineales**: Operaciones con polinomios y
+  matrices, y solución de sistemas lineales.
 - **Estadística y probabilidad**: Recopilación de datos, distribuciones de
-  frecuencias, medidas de dispersión.
+  frecuencias y medidas de dispersión.
 
 ## Libros recomendados
 
 ### Teóricos
 
-A continuación, presentamos una lista de libros con un enfoque riguroso en los
-contenidos teóricos y una sección dedicada a problemas prácticos.
-
 {{< resource-table resource="books-theoretical.yaml" type="book" >}}
 
 ### Teórico-prácticos
 
-Libros con poco contenido teórico, pero con bastantes ejercicios resueltos.
-
 {{< resource-table resource="books-theoretical-practical.yaml" type="book" >}}
 
 ### Prácticos
-
-Libros con ejercicios o problemas planteados, tienen muy poco contenido teórico.
 
 {{< resource-table resource="books-practical.yaml" type="book" >}}
 

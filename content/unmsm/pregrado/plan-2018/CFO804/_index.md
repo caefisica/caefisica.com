@@ -1,7 +1,10 @@
 ---
 title: "Geofísica General"
-lead: ""
-description: ""
+lead:
+  "En este curso estudias fenómenos físicos de la Tierra, incluidos el
+  magnetismo y la inducción."
+description:
+  "Guía introductoria de Geofísica General con temas de magnetismo e inducción."
 id: "CFO804"
 credits: 4
 prerequisites: ["Mecánica Clásica I", "Electromagnetismo I"]
@@ -13,27 +16,15 @@ weight: 804
 date: 2022-09-09T16:00:00
 ---
 
-{{< details "Acerca de los libros" >}} Para el curso se ven los temas del
-magnetismo en el vacío y en materiales. Siguen las ecuaciones de Maxwell en
-forma integral y diferencial. Finalmente, la ecuación de la onda
-electromagética. {{< /details >}}
-
-El plan de estudios incluye los siguientes temas:
-
-- Magnetostática en el vacío
-- Inducción electromagética
+- Campo magnético terrestre
+- Inducción electromagnética
+- Gravedad y campo gravitatorio
+- Sismología
+- Geodinámica
 
 ## Libros recomendados
 
-### Teóricos
-
-| Nombre                                    | Autor                 | Editorial     | Año  |
-| ----------------------------------------- | --------------------- | ------------- | ---- |
-| Introduction to Electrodynamics           | David J. Griffiths    | Prentice Hall | 1999 |
-| Fundamentos de la teoría electromagnética | Frederick J. Mildford | Prentice Hall | 1999 |
-
-## Listas de reproducción
-
-| Nombre   | Autor   | Editorial | Año |
-| -------- | ------- | --------- | --- |
-| Nombre 1 | Autor 1 | Editorial | Año |
+Empieza con
+[An Introduction to Geophysical Exploration, tercera edición](https://www.wiley.com/en-us/an-introduction-to-geophysical-exploration-3rd-edition-p-9781118698938),
+de Philip Kearey, Michael Brooks e Ian Hill, porque recorre los métodos
+sísmicos, gravimétricos y magnéticos con una introducción matemática accesible.
