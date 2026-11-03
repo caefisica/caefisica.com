@@ -1,0 +1,26 @@
+{{- /* The teachers of the courses: everyone an offering names as professor, by name, with the courses they taught. */ -}}
+{{ define "main" }}
+{{- $slugs := slice }}
+{{- range where site.RegularPages "Params.professor" "!=" nil }}{{ $slugs = $slugs | append .Params.professor }}{{ end }}
+{{- $people := slice }}
+{{- range $slugs | uniq }}{{ $people = $people | append (partial "data/person.html" .) }}{{ end }}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" .) }}
+	<ul class="rows rows-2">
+		{{- range sort $people "Title" }}
+			{{- $courses := partial "data/person-courses.html" .Params.slug }}
+			<li class="group">
+				{{ partial "ui/avatar.html" (dict "page" . "size" 32) }}
+				<div class="row-main">
+					<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					<p>
+						{{- $names := slice }}{{ range first 2 $courses }}{{ $names = $names | append .course.Title }}{{ end -}}
+						{{ delimit $names ", " }}{{ with after 2 $courses }} y {{ len . }} más{{ end -}}
+					</p>
+				</div>
+				{{ partial "ui/chevron.html" }}
+			</li>
+		{{- end }}
+	</ul>
+</div>
+{{ end }}

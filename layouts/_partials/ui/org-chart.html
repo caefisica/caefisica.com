@@ -1,22 +1,17 @@
 {{- /*
-The organisation chart from data/authors/areas.json. The first area is the leadership and shows portraits. The other areas list their groups as rows.
-A member's photo and author page come from members.json by first name.
+The organisation chart from data/team.yaml. The first area is the leadership and shows portraits. The other areas list their groups as rows.
 */ -}}
-{{- $people := dict }}
-{{- range hugo.Data.authors.members }}{{ $people = merge $people (dict (lower .first_name) .) }}{{ end }}
-{{- $areas := hugo.Data.authors.areas }}
+{{- $areas := hugo.Data.team.areas }}
 {{- with index $areas 0 }}
 	<section class="org-lead" aria-labelledby="area-0">
 		<h2 id="area-0" class="org-title">{{ .name }}</h2>
 		<ul class="org-faces">
 			{{- range .groups }}
 				{{- range .members }}
-					{{- $p := index $people (lower .who) }}
+					{{- $p := partial "data/person.html" .person }}
 					<li class="org-face">
-						<img src="{{ printf "/images/member/%s.webp" (lower $p.first_name) | relURL }}" width="200" height="200" alt="" />
-						<p class="org-name">
-							{{- if $p.url -}}<a class="card-link" href="{{ $p.url | relURL }}">{{ $p.name }}</a>{{ else }}{{ $p.name }}{{ end -}}
-						</p>
+						<img src="{{ printf "/images/personas/%s.webp" .person | relURL }}" width="200" height="200" alt="" />
+						<p class="org-name"><a class="card-link" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></p>
 						<p class="org-role">{{ .role }}</p>
 					</li>
 				{{- end }}
@@ -32,14 +27,14 @@ A member's photo and author page come from members.json by first name.
 				{{- with .label }}<h3 class="org-label">{{ . }}</h3>{{ end }}
 				<ul class="rows">
 					{{- range .members }}
-						{{- $p := index $people (lower .who) }}
+						{{- $p := partial "data/person.html" .person }}
 						<li class="group">
-							<img class="org-photo" src="{{ printf "/images/member/%s.webp" (lower $p.first_name) | relURL }}" width="32" height="32" loading="lazy" alt="" />
+							<img class="org-photo" src="{{ printf "/images/personas/%s.webp" .person | relURL }}" width="32" height="32" loading="lazy" alt="" />
 							<div class="row-main">
-								{{- if $p.url -}}<a class="card-link" href="{{ $p.url | relURL }}">{{ $p.name }}</a>{{ else }}<span class="font-medium">{{ $p.name }}</span>{{ end -}}
+								<a class="card-link" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
 								<p>{{ .role }}</p>
 							</div>
-							{{- if $p.url }}{{ partial "ui/chevron.html" }}{{ end }}
+							{{ partial "ui/chevron.html" }}
 						</li>
 					{{- end }}
 				</ul>

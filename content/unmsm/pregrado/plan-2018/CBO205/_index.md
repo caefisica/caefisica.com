@@ -6,7 +6,7 @@ id: "CBO205"
 credits: 4
 prerequisites: ["No aplica"]
 semester: 2
-contributors: ["israel"]
+contributors: ["israel-santana"]
 pdf: false
 draft: true
 weight: 205

@@ -17,7 +17,7 @@ The rail lists every topic that has a published note.
 			</div>
 		</div>
 		{{- $equations := div (len (findRE `\$\$` $body)) 2 }}
-		{{- $names := slice }}{{ range partial "data/contributors.html" $note.Params.contributors }}{{ $names = $names | append .Title }}{{ end }}
+		{{- $names := slice }}{{ range $note.Params.contributors }}{{ $names = $names | append (partial "data/person.html" .).Title }}{{ end }}
 		<a class="scene scene-note reveal" href="{{ $note.RelPermalink }}">
 			<p class="mono-label scene-head">{{ $notes.Title }} <span aria-hidden="true">›</span> {{ $note.Parent.Title }}</p>
 			<div class="note-doc">

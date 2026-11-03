@@ -1,5 +1,6 @@
 {{- /*
 One page per playlist listed in a course's playlists.yaml. A playlist listed by several courses gets one page that names them all, with the title and description of the first course that lists it.
+A playlist names its lecturer by person, the slug of a person on the site, or by lecturer, a plain name.
 Two playlists with the same title are told apart in the path by their lecturer.
 A YouTube playlist or shared Drive folder with data from bun run playlists gets its own page; any other link is listed on the index and opens where it lives.
 */ -}}
@@ -13,6 +14,7 @@ A YouTube playlist or shared Drive folder with data from bun run playlists gets 
 			{{- $id := partial "videos/list-id.html" .url -}}
 			{{- $key := $id | default .url -}}
 			{{- $entry := merge . (dict "id" $id "courses" (slice $course)) -}}
+			{{- with .person }}{{ $entry = merge $entry (dict "lecturer" (partial "data/person-name.html" .)) }}{{ end -}}
 			{{- with index $lists $key }}{{ $entry = merge . (dict "courses" (.courses | append $course) "description" (.description | default $entry.description)) }}{{ end -}}
 			{{- $lists = merge $lists (dict $key $entry) -}}
 		{{- end -}}
@@ -26,7 +28,7 @@ A YouTube playlist or shared Drive folder with data from bun run playlists gets 
 	{{- if in $paths $path }}{{ $path = strings.Trim (printf "%s %s" $list.title $list.lecturer | lower | replaceRE $slug "-") "-" }}{{ end -}}
 	{{- $paths = $paths | append $path -}}
 	{{- $data := and $list.id (index hugo.Data.playlists $list.id) -}}
-	{{- $params := dict "lecturer" $list.lecturer "channel" $list.channel "url" $list.url "courses" $list.courses -}}
+	{{- $params := dict "person" $list.person "lecturer" $list.lecturer "channel" $list.channel "url" $list.url "courses" $list.courses -}}
 	{{- $build := dict "render" "never" "list" "local" -}}
 	{{- $dates := dict -}}
 	{{- with $data -}}

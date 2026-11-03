@@ -6,7 +6,7 @@ id: "CFO802"
 credits: 5
 prerequisites: ["Mecánica Cuántica I", "Física Estadística I"]
 semester: 8
-contributors: ["david"]
+contributors: ["david-duran"]
 pdf: false
 draft: false
 weight: 802

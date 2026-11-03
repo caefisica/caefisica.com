@@ -12,7 +12,7 @@ id: "CFO306"
 credits: 4
 prerequisites: ["Cálculo I"]
 semester: 3
-contributors: ["richard", "david"]
+contributors: ["richard-avalos", "david-duran"]
 pdf: false
 math: true
 draft: false

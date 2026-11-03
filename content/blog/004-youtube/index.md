@@ -8,8 +8,7 @@ date: 2022-01-30T03:19:42-05:00
 lastmod: 2022-02-03T09:19:42.000+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: ["https://i.imgur.com/GgoqSI0.png"]
-contributors: ["david"]
-author_id: "david"
+contributors: ["david-duran"]
 tags: ["lista"]
 toc: true
 weight: 40

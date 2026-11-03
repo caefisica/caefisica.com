@@ -1,5 +1,6 @@
-# Credit for each profile photo in static/images/fisicos/<slug>.jpg, keyed by slug; see docs/fisicos.md.
-# The licences require the author, the licence and a link to the source next to the photo.
+# Where each photo in static/images/personas/<slug>.webp or .jpg came from, keyed by slug; see docs/fisicos.md.
+# A photo from Wikimedia Commons has author, license, licenseUrl and source: its licence requires them next to the photo.
+# A photo the person sent us has `sent: true` and shows no credit.
 adolfo-maximo-poma-bernaola:
   author: PomaResearch
   license: CC BY-SA 4.0
@@ -34,3 +35,16 @@ yamina-silva-vidal:
   license: CC BY-SA 2.0
   licenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
   source: https://commons.wikimedia.org/wiki/File:Yamina_Silva_1.jpg
+alvaro-siesquen: { sent: true }
+andrea-palacios: { sent: true }
+david-duran: { sent: true }
+eduardo-gonzalo-villarreyes-pena: { sent: true }
+erwin-renzo-franco-diaz: { sent: true }
+james: { sent: true }
+joseph-andre-luna-ramos: { sent: true }
+karla-torres: { sent: true }
+liuba-ramos: { sent: true }
+nelson-noa: { sent: true }
+richard-avalos: { sent: true }
+sergio-cordero: { sent: true }
+victor-tello: { sent: true }

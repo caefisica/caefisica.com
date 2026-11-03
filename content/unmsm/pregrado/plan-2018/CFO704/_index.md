@@ -14,7 +14,7 @@ id: "CFO704"
 credits: 5
 prerequisites: ["Estadística y Probabilidad I"]
 semester: 7
-contributors: ["david"]
+contributors: ["david-duran"]
 pdf: true
 draft: false
 weight: 704

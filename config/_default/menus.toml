@@ -36,6 +36,12 @@ parent = "academico"
 weight = 30
 
 [[main]]
+name = "Docentes"
+pageRef = "/unmsm/docentes"
+parent = "academico"
+weight = 35
+
+[[main]]
 name = "Recursos"
 identifier = "recursos"
 weight = 30
@@ -211,7 +217,7 @@ weight = 30
 
 [[footer]]
 name = "Nosotros"
-pageRef = "/contributors"
+pageRef = "/equipo"
 parent = "proyecto"
 weight = 10
 

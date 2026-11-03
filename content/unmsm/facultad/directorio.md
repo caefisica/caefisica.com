@@ -2,7 +2,7 @@
 title: "Directorio telefónico"
 lead: "Teléfonos y anexos de las oficinas de la Facultad de Ciencias Físicas."
 description: "Teléfonos y anexos de las oficinas de la Facultad."
-contributors: ["david"]
+contributors: ["david-duran"]
 featured: false
 pdf: false
 math: false

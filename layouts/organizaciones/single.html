@@ -54,7 +54,7 @@
 						<li class="group">
 							<div class="row-main">
 								{{- with $a.slug }}
-									<a class="card-link" href="{{ (site.GetPage (printf "/fisicos/%s" .)).RelPermalink }}">{{ $a.name }}</a>
+									<a class="card-link" href="{{ (site.GetPage (printf "/personas/%s" .)).RelPermalink }}">{{ $a.name }}</a>
 								{{- else }}
 									<span>{{ $a.name }}</span>
 								{{- end }}
@@ -72,7 +72,7 @@
 						{{- $names := slice }}
 						{{- range .authors }}
 							{{- $name := .name | htmlEscape }}
-							{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/fisicos/%s" .)).RelPermalink $name }}{{ end }}
+							{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/personas/%s" .)).RelPermalink $name }}{{ end }}
 							{{- $names = $names | append $name }}
 						{{- end }}
 						{{- $more := sub .n (len .authors) }}

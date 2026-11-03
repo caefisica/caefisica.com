@@ -10,8 +10,7 @@ date: 2022-06-16T23:15:00-05:00
 lastmod: 2022-06-16T23:15:00-05:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://c.tenor.com/f4LcLJumJuUAAAAC/sana-twice.gif"
-contributors: ["david"]
-author_id: "david"
+contributors: ["david-duran"]
 tags: ["tips"]
 toc: true
 weight: 80

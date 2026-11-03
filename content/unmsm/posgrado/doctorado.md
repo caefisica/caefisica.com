@@ -10,7 +10,7 @@ draft: false
 images: []
 weight: 1020
 toc: true
-contributors: ["david"]
+contributors: ["david-duran"]
 ---
 
 El plan de estudios del Doctorado en Física se estructura en un esquema

@@ -10,8 +10,7 @@ date: 2022-03-23T01:19:42+01:00
 lastmod: 2022-03-24T01:19:42+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://c.tenor.com/4Nh-kwo0mSQAAAAC/batman-thinking.gif"
-contributors: ["alvaro", "david"]
-author_id: "alvaro"
+contributors: ["alvaro-siesquen", "david-duran"]
 tags: ["otros"]
 toc: false
 weight: 30

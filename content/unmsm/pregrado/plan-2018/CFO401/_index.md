@@ -6,7 +6,7 @@ id: "CFO401"
 credits: 6
 prerequisites: ["Física Molecular"]
 semester: 4
-contributors: ["sergio", "david", "richard"]
+contributors: ["sergio-cordero", "david-duran", "richard-avalos"]
 pdf: false
 draft: false
 weight: 401

@@ -6,7 +6,7 @@ id: "CFO504"
 credits: 4
 prerequisites: ["Física Matemática II"]
 semester: 5
-contributors: ["alvaro", "sergio", "richard"]
+contributors: ["alvaro-siesquen", "sergio-cordero", "richard-avalos"]
 pdf: false
 mermaid: true
 draft: false

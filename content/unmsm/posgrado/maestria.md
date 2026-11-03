@@ -12,7 +12,7 @@ draft: false
 images: []
 weight: 1010
 toc: true
-contributors: ["david", "renzo"]
+contributors: ["david-duran", "erwin-renzo-franco-diaz"]
 ---
 
 ## Local

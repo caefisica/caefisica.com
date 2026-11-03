@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-02",
+  "fetched": "2026-11-03",
   "series": [
     {
       "id": "coloquio",
@@ -199,7 +199,7 @@
       "speakers": [
         {
           "name": "Stefano Gonzales",
-          "profile": "/fisicos/stefano-gonzales/"
+          "slug": "stefano-gonzales"
         }
       ],
       "month": "2026-10"
@@ -216,7 +216,7 @@
         {
           "name": "Fernando Temoche",
           "affiliation": "Utah State University",
-          "profile": "/fisicos/luis-fernando-temoche-hurtado/"
+          "slug": "luis-fernando-temoche-hurtado"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1049617614769137",
@@ -251,7 +251,7 @@
         {
           "name": "Alberto Gago",
           "affiliation": "PUCP",
-          "profile": "/fisicos/alberto-martin-gago-medina/"
+          "slug": "alberto-martin-gago-medina"
         }
       ]
     },
@@ -435,7 +435,7 @@
         {
           "name": "Johan Gustavo Casimiro Valencia",
           "affiliation": "Pontificia Universidad Católica del Perú",
-          "profile": "/fisicos/johan-gustavo-casimiro-valencia/"
+          "slug": "johan-gustavo-casimiro-valencia"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1018268784570687",
@@ -453,7 +453,7 @@
       "speakers": [
         {
           "name": "Andrés Guerra",
-          "profile": "/fisicos/jorge-andres-guerra-torres/"
+          "slug": "jorge-andres-guerra-torres"
         }
       ]
     },
@@ -469,7 +469,7 @@
         {
           "name": "José Domingo Arbañil Vela",
           "affiliation": "Universidad Privada del Norte y Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/jose-domingo-arbanil-vela/"
+          "slug": "jose-domingo-arbanil-vela"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1012095461854686",
@@ -521,7 +521,7 @@
         {
           "name": "Nelson Mechán",
           "affiliation": "Universidad Nacional de Trujillo",
-          "profile": "/fisicos/nelson-ruben-mechan-zurita/"
+          "slug": "nelson-ruben-mechan-zurita"
         }
       ]
     },
@@ -597,7 +597,7 @@
         {
           "name": "Martín Dionisio Arteaga Tupia",
           "affiliation": "Pontificia Universidad Católica del Perú y Universidad de Lima",
-          "profile": "/fisicos/martin-dionisio-arteaga-tupia/"
+          "slug": "martin-dionisio-arteaga-tupia"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=993390060391893",
@@ -616,7 +616,7 @@
         {
           "name": "Carlos Rodríguez-Benites",
           "affiliation": "Universidad Nacional de Trujillo",
-          "profile": "/fisicos/carlos-rodriguez-benites/"
+          "slug": "carlos-rodriguez-benites"
         }
       ]
     },
@@ -632,7 +632,7 @@
         {
           "name": "Frank Rafael Sánchez Monteza",
           "affiliation": "Universidad de Puerto Rico en Mayagüez",
-          "profile": "/fisicos/frank-rafael-sanchez-monteza/"
+          "slug": "frank-rafael-sanchez-monteza"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=987600004304232",
@@ -699,7 +699,7 @@
       "speakers": [
         {
           "name": "Juan Zárate",
-          "profile": "/fisicos/juan-zarate-pretel/"
+          "slug": "juan-zarate-pretel"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=970740865990146",
@@ -951,7 +951,7 @@
       "speakers": [
         {
           "name": "Tomás Gálvez",
-          "profile": "/fisicos/jose-tomas-galvez-ghersi/"
+          "slug": "jose-tomas-galvez-ghersi"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=928301693567397",
@@ -1002,7 +1002,7 @@
         {
           "name": "Juan Zárate",
           "affiliation": "Centro Brasileiro de Pesquisas Físicas, Brasil",
-          "profile": "/fisicos/juan-zarate-pretel/"
+          "slug": "juan-zarate-pretel"
         }
       ]
     },
@@ -1033,7 +1033,7 @@
       "speakers": [
         {
           "name": "Stefano Gonzáles",
-          "profile": "/fisicos/stefano-gonzales/"
+          "slug": "stefano-gonzales"
         }
       ],
       "month": "2026-05"
@@ -1062,7 +1062,7 @@
         {
           "name": "Martín Arteaga",
           "affiliation": "PUCP y Universidad de Lima",
-          "profile": "/fisicos/martin-dionisio-arteaga-tupia/"
+          "slug": "martin-dionisio-arteaga-tupia"
         }
       ]
     },
@@ -1110,7 +1110,7 @@
         {
           "name": "Alejandro Trujillo Quinde",
           "affiliation": "Universidad Nacional Mayor de San Marcos, Perú",
-          "profile": "/fisicos/alejandro-ladislao-trujillo-quinde/"
+          "slug": "alejandro-ladislao-trujillo-quinde"
         }
       ],
       "month": "2026-05"
@@ -1172,7 +1172,7 @@
         {
           "name": "Carlos Ríos",
           "affiliation": "Universidad Católica del Norte, Chile",
-          "profile": "/fisicos/carlos-rios-morales/"
+          "slug": "carlos-rios-morales"
         }
       ],
       "month": "2026-05"
@@ -1189,7 +1189,7 @@
         {
           "name": "Frank Moya Bonifacio",
           "affiliation": "Universidad Nacional Mayor de San Marcos, Perú",
-          "profile": "/fisicos/frank-silvester-moya-bonifacio/"
+          "slug": "frank-silvester-moya-bonifacio"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1399436212200552&set=a.463310019146514",
@@ -1208,7 +1208,7 @@
         {
           "name": "Cristian Rivera",
           "affiliation": "National Central University, Taiwán",
-          "profile": "/fisicos/cristian-andres-rivera-medina/"
+          "slug": "cristian-andres-rivera-medina"
         }
       ],
       "month": "2026-04"
@@ -1239,7 +1239,7 @@
       "speakers": [
         {
           "name": "Cristian Ortiz",
-          "profile": "/fisicos/cristian-adolfo-ortiz-villavicencio/"
+          "slug": "cristian-adolfo-ortiz-villavicencio"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=891707823893451",
@@ -1376,7 +1376,7 @@
         {
           "name": "Alexander Trigoso Sulca",
           "affiliation": "IFT-UNESP",
-          "profile": "/fisicos/alexander-antonio-trigoso-sulca/"
+          "slug": "alexander-antonio-trigoso-sulca"
         }
       ]
     },
@@ -1441,7 +1441,7 @@
         {
           "name": "Luis Andrés Salvador Díaz Hernández",
           "affiliation": "CFT-UNT",
-          "profile": "/fisicos/luis-andres-salvador-diaz-hernandez/"
+          "slug": "luis-andres-salvador-diaz-hernandez"
         }
       ]
     },
@@ -1768,7 +1768,7 @@
       "speakers": [
         {
           "name": "Adolfo Poma",
-          "profile": "/fisicos/adolfo-maximo-poma-bernaola/"
+          "slug": "adolfo-maximo-poma-bernaola"
         }
       ]
     },
@@ -1832,7 +1832,7 @@
         {
           "name": "Cesar Cabrera Arista",
           "affiliation": "Universidad Nacional del Callao, Perú",
-          "profile": "/fisicos/cesar-cabrera-arista/"
+          "slug": "cesar-cabrera-arista"
         }
       ],
       "month": "2025-11"
@@ -1880,7 +1880,7 @@
         {
           "name": "Daniel Reyes Lopez",
           "affiliation": "Instituto Militar de Ingeniería (IME), Rio de Janeiro, Brasil",
-          "profile": "/fisicos/daniel-lorenzo-reyes-lopez/"
+          "slug": "daniel-lorenzo-reyes-lopez"
         }
       ],
       "month": "2025-11"
@@ -1974,7 +1974,7 @@
       "speakers": [
         {
           "name": "David Choque",
-          "profile": "/fisicos/david-choque-quispe/"
+          "slug": "david-choque-quispe"
         }
       ]
     },
@@ -2020,7 +2020,7 @@
         {
           "name": "Marlon Valerio Cuadros",
           "affiliation": "Universidade Estadual de Maringá, Brasil",
-          "profile": "/fisicos/marlon-ivan-valerio-cuadros/"
+          "slug": "marlon-ivan-valerio-cuadros"
         }
       ],
       "month": "2025-10"
@@ -2175,7 +2175,7 @@
       "speakers": [
         {
           "name": "Stefano Gonzales",
-          "profile": "/fisicos/stefano-gonzales/"
+          "slug": "stefano-gonzales"
         }
       ],
       "month": "2025-10"
@@ -2353,7 +2353,7 @@
         {
           "name": "José Alberto Castañeda",
           "affiliation": "Facultad de Ciencias Físicas, Universidad Nacional Mayor de San Marcos, Perú",
-          "profile": "/fisicos/jose-alberto-castaneda-via/"
+          "slug": "jose-alberto-castaneda-via"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1169797038497805&set=a.463310019146514",
@@ -2371,7 +2371,7 @@
         {
           "name": "Diego Barberena",
           "affiliation": "Cavendish Laboratory, Department of Physics, University of Cambridge, UK",
-          "profile": "/fisicos/diego-eduardo-barberena-helfer/"
+          "slug": "diego-eduardo-barberena-helfer"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1164851532325689&set=a.463310019146514",
@@ -2435,7 +2435,7 @@
       "speakers": [
         {
           "name": "Ana Champi",
-          "profile": "/fisicos/ana-champi/"
+          "slug": "ana-champi"
         }
       ]
     },
@@ -2520,7 +2520,7 @@
         {
           "name": "Alejandro López",
           "affiliation": "Sección Física de la PUCP",
-          "profile": "/fisicos/alejandro-heyner-lopez-gonzales/"
+          "slug": "alejandro-heyner-lopez-gonzales"
         }
       ]
     },
@@ -2536,7 +2536,7 @@
         {
           "name": "Alejandro Trujillo Quinde",
           "affiliation": "Universidad Nacional Mayor de San Marcos, Perú",
-          "profile": "/fisicos/alejandro-ladislao-trujillo-quinde/"
+          "slug": "alejandro-ladislao-trujillo-quinde"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1132238148920361&set=a.463310019146514",
@@ -2588,7 +2588,7 @@
         {
           "name": "Rubén Sánchez",
           "affiliation": "Sección Física de la PUCP",
-          "profile": "/fisicos/eder-ruben-sanchez-alcantara/"
+          "slug": "eder-ruben-sanchez-alcantara"
         }
       ]
     },
@@ -2638,7 +2638,7 @@
         {
           "name": "David Asmat",
           "affiliation": "Universidad Privada del Norte (UPN), Perú",
-          "profile": "/fisicos/david-angel-asmat-campos/"
+          "slug": "david-angel-asmat-campos"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=1095130992631077&set=a.463310019146514",
@@ -2689,7 +2689,7 @@
         {
           "name": "Axel León Arteaga",
           "affiliation": "UNT",
-          "profile": "/fisicos/axel-jamil-leon-arteaga/"
+          "slug": "axel-jamil-leon-arteaga"
         }
       ]
     },
@@ -2722,7 +2722,7 @@
         {
           "name": "Kelvin Ramos",
           "affiliation": "Instituto Balseiro",
-          "profile": "/fisicos/kelvin-ramos-villalobos/"
+          "slug": "kelvin-ramos-villalobos"
         }
       ]
     },
@@ -2739,7 +2739,7 @@
         {
           "name": "Hans Narro",
           "affiliation": "IFLP, Argentina",
-          "profile": "/fisicos/hans-kevin-narro-arias/"
+          "slug": "hans-kevin-narro-arias"
         }
       ]
     },
@@ -2756,7 +2756,7 @@
         {
           "name": "Lizeth Chucchucan",
           "affiliation": "IFLP, UNLP",
-          "profile": "/fisicos/santos-lizeth-chucchucan-gonzalez/"
+          "slug": "santos-lizeth-chucchucan-gonzalez"
         }
       ]
     },
@@ -2820,7 +2820,7 @@
         {
           "name": "Martín Arteaga",
           "affiliation": "UNMSM, Universidad de Lima",
-          "profile": "/fisicos/martin-dionisio-arteaga-tupia/"
+          "slug": "martin-dionisio-arteaga-tupia"
         }
       ]
     },
@@ -2837,7 +2837,7 @@
         {
           "name": "Nelson Mechán",
           "affiliation": "UNT",
-          "profile": "/fisicos/nelson-ruben-mechan-zurita/"
+          "slug": "nelson-ruben-mechan-zurita"
         }
       ]
     },
@@ -2854,7 +2854,7 @@
         {
           "name": "Frank Sánchez",
           "affiliation": "Universidad de Puerto Rico en Mayagüez",
-          "profile": "/fisicos/frank-rafael-sanchez-monteza/"
+          "slug": "frank-rafael-sanchez-monteza"
         }
       ]
     },
@@ -2871,7 +2871,7 @@
         {
           "name": "Sergio Santa María",
           "affiliation": "GRACOCC, UNT",
-          "profile": "/fisicos/sergio-santa-maria/"
+          "slug": "sergio-santa-maria"
         }
       ]
     },
@@ -3021,7 +3021,7 @@
       "speakers": [
         {
           "name": "Julio Larrea",
-          "profile": "/fisicos/julio-antonio-larrea-jimenez/"
+          "slug": "julio-antonio-larrea-jimenez"
         }
       ]
     },
@@ -3173,7 +3173,7 @@
       "speakers": [
         {
           "name": "Kevin Angello Lizarraga Olivares",
-          "profile": "/fisicos/kevin-angello-lizarraga-olivares/"
+          "slug": "kevin-angello-lizarraga-olivares"
         }
       ]
     },
@@ -3257,7 +3257,7 @@
         },
         {
           "name": "María José Bustamante",
-          "profile": "/fisicos/maria-jose-bustamante-rosell/"
+          "slug": "maria-jose-bustamante-rosell"
         }
       ]
     },
@@ -3407,7 +3407,7 @@
         {
           "name": "Rolando Ramírez",
           "affiliation": "Universidad de California en San Diego",
-          "profile": "/fisicos/rolando-ramirez-camasca/"
+          "slug": "rolando-ramirez-camasca"
         }
       ]
     },
@@ -3424,7 +3424,7 @@
         {
           "name": "Henry Moncada",
           "affiliation": "Oak Ridge National Laboratory, USA",
-          "profile": "/fisicos/henry-r-moncada/"
+          "slug": "henry-r-moncada"
         }
       ]
     },
@@ -3617,7 +3617,7 @@
         {
           "name": "Diego André Orna Tiburcio",
           "affiliation": "Universidad Nacional Mayor de San Marcos, Perú",
-          "profile": "/fisicos/diego-andre-orna-tiburcio/"
+          "slug": "diego-andre-orna-tiburcio"
         }
       ]
     },
@@ -3682,7 +3682,7 @@
         {
           "name": "Marco Milla",
           "affiliation": "Instituto de Radioastronomía de la PUCP",
-          "profile": "/fisicos/marco-antonio-milla-bravo/"
+          "slug": "marco-antonio-milla-bravo"
         }
       ]
     },
@@ -3699,7 +3699,7 @@
         {
           "name": "Kevin Lizárraga",
           "affiliation": "Universidade Federal Fluminense",
-          "profile": "/fisicos/kevin-angello-lizarraga-olivares/"
+          "slug": "kevin-angello-lizarraga-olivares"
         }
       ]
     },
@@ -3812,7 +3812,7 @@
         {
           "name": "Gabriel Zapata",
           "affiliation": "Grupo de Altas Energías de la PUCP",
-          "profile": "/fisicos/gabriel-damian-zapata/"
+          "slug": "gabriel-damian-zapata"
         }
       ]
     },
@@ -3844,7 +3844,7 @@
         {
           "name": "Carlos Argüelles",
           "affiliation": "Universidad de Harvard",
-          "profile": "/fisicos/carlos-arguelles-delgado/"
+          "slug": "carlos-arguelles-delgado"
         }
       ]
     },
@@ -3892,7 +3892,7 @@
       "speakers": [
         {
           "name": "Felipe Reyes Navarro",
-          "profile": "/fisicos/felipe-americo-reyes-navarro/"
+          "slug": "felipe-americo-reyes-navarro"
         }
       ]
     },
@@ -3940,7 +3940,7 @@
       "speakers": [
         {
           "name": "Kelvin Ramos",
-          "profile": "/fisicos/kelvin-ramos-villalobos/"
+          "slug": "kelvin-ramos-villalobos"
         }
       ]
     },
@@ -3956,7 +3956,7 @@
       "speakers": [
         {
           "name": "Francisco de Zela",
-          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+          "slug": "francisco-antonio-de-zela-martinez"
         }
       ]
     },
@@ -3972,7 +3972,7 @@
       "speakers": [
         {
           "name": "Kelman Marín",
-          "profile": "/fisicos/kelman-widman-marin-rengifo/"
+          "slug": "kelman-widman-marin-rengifo"
         }
       ]
     },
@@ -4003,7 +4003,7 @@
       "speakers": [
         {
           "name": "Alexander Trigoso",
-          "profile": "/fisicos/alexander-antonio-trigoso-sulca/"
+          "slug": "alexander-antonio-trigoso-sulca"
         }
       ]
     },
@@ -4373,7 +4373,7 @@
         {
           "name": "Eduardo Villarreyes Peña",
           "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú",
-          "profile": "/fisicos/eduardo-gonzalo-villarreyes-pena/"
+          "slug": "eduardo-gonzalo-villarreyes-pena"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=757029226441257&set=a.463310019146514",
@@ -4392,7 +4392,7 @@
         {
           "name": "Víctor Valera",
           "affiliation": "Instituto Niels Bohr, Universidad de Copenhague",
-          "profile": "/fisicos/victor-branco-valera-baca/"
+          "slug": "victor-branco-valera-baca"
         }
       ]
     },
@@ -4425,7 +4425,7 @@
         {
           "name": "Robert Guzman",
           "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú",
-          "profile": "/fisicos/robert-mikhail-guzman-arellano/"
+          "slug": "robert-mikhail-guzman-arellano"
         }
       ]
     },
@@ -4571,7 +4571,7 @@
         {
           "name": "Fermín Herrera Aragon",
           "affiliation": "Universidad de Brasilia, Brasil",
-          "profile": "/fisicos/fermin-fidel-herrera-aragon/"
+          "slug": "fermin-fidel-herrera-aragon"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=697107622433418&set=a.463310019146514",
@@ -4784,11 +4784,11 @@
       "speakers": [
         {
           "name": "Joel Rojas Acuña",
-          "profile": "/fisicos/joel-rojas-acuna/"
+          "slug": "joel-rojas-acuna"
         },
         {
           "name": "Fernando Márquez",
-          "profile": "/fisicos/jose-fernando-marquez-pachas/"
+          "slug": "jose-fernando-marquez-pachas"
         },
         {
           "name": "Douglas Sarango Julca"
@@ -4959,7 +4959,7 @@
       "speakers": [
         {
           "name": "Jonathan Acuña Huamani",
-          "profile": "/fisicos/jonathan-acuna-huamani/"
+          "slug": "jonathan-acuna-huamani"
         }
       ],
       "post": "https://www.facebook.com/FCFUNMSM/videos/6109081719154522/",
@@ -5012,7 +5012,7 @@
         {
           "name": "Hugo Andrés Cabrera Tinoco",
           "affiliation": "Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Perú",
-          "profile": "/fisicos/hugo-andres-cabrera-tinoco/"
+          "slug": "hugo-andres-cabrera-tinoco"
         }
       ],
       "invitation": "https://www.facebook.com/photo/?fbid=592737156203799&set=a.463310019146514",
@@ -5395,7 +5395,7 @@
       "speakers": [
         {
           "name": "Aldo Arroyo",
-          "profile": "/fisicos/aldo-arroyo-herrera/"
+          "slug": "aldo-arroyo-herrera"
         }
       ],
       "month": "2022-02"
@@ -5486,7 +5486,7 @@
       "speakers": [
         {
           "name": "David Choque",
-          "profile": "/fisicos/david-choque-quispe/"
+          "slug": "david-choque-quispe"
         }
       ],
       "month": "2022-02"
@@ -5704,11 +5704,11 @@
       "speakers": [
         {
           "name": "Carlos Rodriguez Benites",
-          "profile": "/fisicos/carlos-rodriguez-benites/"
+          "slug": "carlos-rodriguez-benites"
         },
         {
           "name": "Ener Salinas",
-          "profile": "/fisicos/ener-salinas/"
+          "slug": "ener-salinas"
         }
       ],
       "month": "2021-08"
@@ -5739,7 +5739,7 @@
         },
         {
           "name": "Juan Antonio Lira Cacho",
-          "profile": "/fisicos/juan-antonio-lira-cacho/"
+          "slug": "juan-antonio-lira-cacho"
         }
       ],
       "month": "2021-08"
@@ -5776,7 +5776,7 @@
       "speakers": [
         {
           "name": "Antonio Pereyra",
-          "profile": "/fisicos/antonio-armstrong-pereyra-quiros/"
+          "slug": "antonio-armstrong-pereyra-quiros"
         },
         {
           "name": "Juan Z Davalos Prado"
@@ -5804,15 +5804,15 @@
         },
         {
           "name": "Enrique Arias",
-          "profile": "/fisicos/enrique-john-arias-chinga/"
+          "slug": "enrique-john-arias-chinga"
         },
         {
           "name": "Julio Balbin Arias",
-          "profile": "/fisicos/julio-jose-balbin-arias/"
+          "slug": "julio-jose-balbin-arias"
         },
         {
           "name": "Franz Machado",
-          "profile": "/fisicos/franz-machado/"
+          "slug": "franz-machado"
         },
         {
           "name": "Carlos Enrrique Soto Nicoll"
@@ -5831,11 +5831,11 @@
       "speakers": [
         {
           "name": "Misael Leon Hilario",
-          "profile": "/fisicos/ludwin-misael-leon-hilario/"
+          "slug": "ludwin-misael-leon-hilario"
         },
         {
           "name": "Juan Andrés Millán Calderón",
-          "profile": "/fisicos/juan-andres-millan-calderon/"
+          "slug": "juan-andres-millan-calderon"
         },
         {
           "name": "Rojas Moises"
@@ -5854,7 +5854,7 @@
       "speakers": [
         {
           "name": "Jorge Melendez",
-          "profile": "/fisicos/jorge-melendez/"
+          "slug": "jorge-melendez"
         },
         {
           "name": "Carlos Valcarcel"
@@ -5891,7 +5891,7 @@
         },
         {
           "name": "Mirko Zimic",
-          "profile": "/fisicos/mirko-juan-zimic-peralta/"
+          "slug": "mirko-juan-zimic-peralta"
         }
       ],
       "month": "2021-08"
@@ -6002,7 +6002,7 @@
       "speakers": [
         {
           "name": "Max Guillen",
-          "profile": "/fisicos/max-guillen/"
+          "slug": "max-guillen"
         }
       ],
       "month": "2021-03"
@@ -6029,7 +6029,7 @@
       "speakers": [
         {
           "name": "Max Guillen",
-          "profile": "/fisicos/max-guillen/"
+          "slug": "max-guillen"
         }
       ],
       "month": "2021-03"
@@ -6045,7 +6045,7 @@
       "speakers": [
         {
           "name": "Misael Leon",
-          "profile": "/fisicos/ludwin-misael-leon-hilario/"
+          "slug": "ludwin-misael-leon-hilario"
         }
       ],
       "month": "2021-03"
@@ -6061,7 +6061,7 @@
       "speakers": [
         {
           "name": "Max Guillen",
-          "profile": "/fisicos/max-guillen/"
+          "slug": "max-guillen"
         }
       ],
       "month": "2021-03"
@@ -6077,7 +6077,7 @@
       "speakers": [
         {
           "name": "Daniel Soto",
-          "profile": "/fisicos/daniel-eduardo-soto-barrientos/"
+          "slug": "daniel-eduardo-soto-barrientos"
         }
       ],
       "month": "2021-03"
@@ -6108,7 +6108,7 @@
       "speakers": [
         {
           "name": "Enrique Arias",
-          "profile": "/fisicos/enrique-john-arias-chinga/"
+          "slug": "enrique-john-arias-chinga"
         }
       ],
       "month": "2021-03"
@@ -6124,7 +6124,7 @@
       "speakers": [
         {
           "name": "Max Guillen",
-          "profile": "/fisicos/max-guillen/"
+          "slug": "max-guillen"
         }
       ],
       "month": "2021-03"
@@ -6178,7 +6178,7 @@
       "speakers": [
         {
           "name": "Mauricio Bustamante",
-          "profile": "/fisicos/mauricio-bustamante-ramirez/"
+          "slug": "mauricio-bustamante-ramirez"
         },
         {
           "name": "Aldo Bartra"
@@ -6248,7 +6248,7 @@
         },
         {
           "name": "Andrés Guerra",
-          "profile": "/fisicos/jorge-andres-guerra-torres/"
+          "slug": "jorge-andres-guerra-torres"
         }
       ],
       "month": "2020-12"
@@ -6299,7 +6299,7 @@
       "speakers": [
         {
           "name": "Alan Gerardo Llacza Rodríguez",
-          "profile": "/fisicos/alan-gerardo-llacza-rodriguez/"
+          "slug": "alan-gerardo-llacza-rodriguez"
         }
       ],
       "post": "https://www.facebook.com/FCFUNMSM/videos/676003416444697/",
@@ -6366,11 +6366,11 @@
       "speakers": [
         {
           "name": "Joel Jones",
-          "profile": "/fisicos/joel-jones-perez/"
+          "slug": "joel-jones-perez"
         },
         {
           "name": "Julio Montoya",
-          "profile": "/fisicos/julio-manuel-montoya-janampa/"
+          "slug": "julio-manuel-montoya-janampa"
         },
         {
           "name": "Betty Galarreta"
@@ -6405,7 +6405,7 @@
         {
           "name": "Mirko Zimic",
           "affiliation": "UPCH - Peru",
-          "profile": "/fisicos/mirko-juan-zimic-peralta/"
+          "slug": "mirko-juan-zimic-peralta"
         }
       ],
       "month": "2020-09"
@@ -6437,7 +6437,7 @@
         {
           "name": "Ener Salinas",
           "affiliation": "Hitachi ABB Power Grids",
-          "profile": "/fisicos/ener-salinas/"
+          "slug": "ener-salinas"
         },
         {
           "name": "Piere Rodriguez Aliaga",
@@ -6458,7 +6458,7 @@
         {
           "name": "Barton Zwiebach",
           "affiliation": "MIT, USA",
-          "profile": "/fisicos/barton-zwiebach/"
+          "slug": "barton-zwiebach"
         },
         {
           "name": "Sumit Das",
@@ -6475,7 +6475,7 @@
         {
           "name": "Max Guillen",
           "affiliation": "Uppsala University",
-          "profile": "/fisicos/max-guillen/"
+          "slug": "max-guillen"
         }
       ],
       "month": "2020-09"
@@ -6597,7 +6597,7 @@
       "speakers": [
         {
           "name": "Max Guillen",
-          "profile": "/fisicos/max-guillen/"
+          "slug": "max-guillen"
         }
       ],
       "month": "2020-02"
@@ -6613,7 +6613,7 @@
       "speakers": [
         {
           "name": "Saneli Carbajal Vigo",
-          "profile": "/fisicos/saneli-alcides-carbajal-vigo/"
+          "slug": "saneli-alcides-carbajal-vigo"
         }
       ],
       "month": "2020-02"
@@ -6644,7 +6644,7 @@
       "speakers": [
         {
           "name": "Carlos Rodriguez Benites",
-          "profile": "/fisicos/carlos-rodriguez-benites/"
+          "slug": "carlos-rodriguez-benites"
         }
       ],
       "month": "2020-01"
@@ -6660,7 +6660,7 @@
       "speakers": [
         {
           "name": "Martín Arteaga Tupia",
-          "profile": "/fisicos/martin-dionisio-arteaga-tupia/"
+          "slug": "martin-dionisio-arteaga-tupia"
         }
       ],
       "month": "2020-01"
@@ -6676,7 +6676,7 @@
       "speakers": [
         {
           "name": "Daniel Soto",
-          "profile": "/fisicos/daniel-eduardo-soto-barrientos/"
+          "slug": "daniel-eduardo-soto-barrientos"
         }
       ],
       "month": "2020-01"
@@ -6707,7 +6707,7 @@
       "speakers": [
         {
           "name": "Max Guillen",
-          "profile": "/fisicos/max-guillen/"
+          "slug": "max-guillen"
         }
       ],
       "month": "2020-01"
@@ -6723,7 +6723,7 @@
       "speakers": [
         {
           "name": "Eduardo Sotelo",
-          "profile": "/fisicos/eduardo-franco-sotelo-bazan/"
+          "slug": "eduardo-franco-sotelo-bazan"
         }
       ],
       "month": "2020-01"
@@ -6783,7 +6783,7 @@
       "speakers": [
         {
           "name": "Diego Suárez Valencia",
-          "profile": "/fisicos/diego-alonso-suarez-valencia/"
+          "slug": "diego-alonso-suarez-valencia"
         }
       ],
       "month": "2019-12"
@@ -6817,7 +6817,7 @@
         {
           "name": "Óscar Baltuano",
           "affiliation": "Instituto Peruano de Energía Nuclear",
-          "profile": "/fisicos/oscar-rolando-baltuano-elias/"
+          "slug": "oscar-rolando-baltuano-elias"
         }
       ],
       "summary": "Los instrumentos científicos están asociados a costos elevados de adquisición y mantenimiento post-venta. En muchos casos, estos últimos superan a los primeros. Cuando no son considerados, llega un momento en que inevitablemente estos equipos quedan inoperativos. Esta realidad es muy común en los laboratorios de investigación y desarrollo en Perú. Contradictoriamente, los avances tecnológicos en electrónica, sensores, software y programación han permitido que formen parte de nuestro quehacer cotidiano dispositivos de altísima tecnología que, al ser de consumo masivo, son de muy bajo costo. Por ejemplo, un LED es un dispositivo muy avanzado, con un precio irrisorio, que normalmente usamos solo como indicador luminoso. Sin embargo, existen cientos de usos alternativos que incluyen instrumentos de medición como espectrofotómetros y colorímetros, medidores de absorbancia y transmitancia, entre otros. Esto constituye una oportunidad para el desarrollo de instrumentación científica de bajo costo con una razonable sostenibilidad en el tiempo.",
@@ -6924,7 +6924,7 @@
         {
           "name": "Humberto Torreblanca",
           "affiliation": "DIII-D National Fusion Facility",
-          "profile": "/fisicos/humberto-torreblanca/"
+          "slug": "humberto-torreblanca"
         }
       ],
       "summary": "Es conocido que debemos migrar de combustibles fósiles a fuentes de energías renovables; sin embargo, estas últimas no proveen una solución total e integral. En este coloquio se hablará del plasma y su rol en la fusión por confinación magnética, y cómo esta tecnología puede considerarse como una fuente ideal de energía. Asimismo, se hablará del principio básico del tokamak, de su tecnología y de los diversos experimentos internacionales. Además, se tratará de cómo puedes aplicar los conceptos adquiridos en ciencia e ingeniería para analizar y desarrollar un reactor por confinamiento magnético. Se mostrará el uso del software COMSOL Multiphysics para desarrollar simulaciones computacionales de una manera intuitiva, y de cómo éste se puede usar ya desde el pregrado para modelar un tokamak. Finalmente, se presentará a los científicos y estudiantes peruanos que ya trabajan en este tema, y sobre la posibilidad de crear un nicho para un futuro grupo de investigacion sobre plasma en el país.",
@@ -6941,7 +6941,7 @@
       "speakers": [
         {
           "name": "Alejandro Daniel Paredes",
-          "profile": "/fisicos/alejandro-daniel-paredes-cabrel/"
+          "slug": "alejandro-daniel-paredes-cabrel"
         }
       ],
       "month": "2019-10"
@@ -6960,7 +6960,7 @@
         {
           "name": "Luciano Stucchi",
           "affiliation": "Universidad del Pacífico",
-          "profile": "/fisicos/luciano-stucchi/"
+          "slug": "luciano-stucchi"
         }
       ],
       "summary": "En este coloquio mostraremos cómo incorporamos un modelo matemático evolutivo en un sistema dinámico de poblaciones para obtener transiciones entre interacciones ecológicas. Para ello, utilizamos un modelo general de dinámica poblacional con el que es posible representar cualquier tipo de régimen ecológico y un",
@@ -6980,7 +6980,7 @@
         {
           "name": "Francisco de Zela",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+          "slug": "francisco-antonio-de-zela-martinez"
         }
       ],
       "summary": "La superposición coherente de varios estados como parte de uno solo, la dualidad partícula-onda, y el enmarañamiento entre dos estados, fueron tres aspectos que por mucho tiempo se consideró como característicos de la física cuántica. Sin embargo, en años recientes se ha hecho claro que dichos aspectos pueden también manifestarse en fenómenos que pertenecen al campo de la física clásica. Esto tiene implicancias de tipo",
@@ -7015,7 +7015,7 @@
         {
           "name": "Andrés Guerra",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jorge-andres-guerra-torres/"
+          "slug": "jorge-andres-guerra-torres"
         }
       ],
       "summary": "El desarrollo de materiales semiconductores con propiedades nuevas e interesantes es una actividad de interés en la comunidad científica. Esto se evidencia en áreas como conversión de energía, recubrimientos duros, sensores de luz, sensores de gases y dispositivos de emisión de luz. Los materiales con propiedades nuevas abren nuevas aplicaciones u optimizan aplicaciones existentes. En el Laboratorio de Ciencias de los Materiales de la Sección Física PUCP se produce materiales semiconductores que combinan propiedades como conductividad eléctrica, luminiscencia y transparencia óptica. Asimismo, se manipulan las propiedades opto-electrónicas de materiales semiconductores con el fin de optimizarlos en ciertas aplicaciones. En esta charla introduciremos las actividades de investigación del Laboratorio. Primero, presentaremos avances en el desarrollo, caracterización e ingeniería del ancho de banda de películas delgadas metal-orgánicas de perovskita. Segundo, comentaremos sobre el desarrollo de foto-cátodos de carburo de silicio amorfo para la producción de hidrógeno asistida por luz solar. Tercero, presentaremos los resultados más recientes sobre la ingeniería de las propiedades opto-electrónicas y los mecanismos de excitación para la emisión de luz de semiconductores degenerados dopados con tierras raras.",
@@ -7050,7 +7050,7 @@
         {
           "name": "Alberto Gago",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/alberto-martin-gago-medina/"
+          "slug": "alberto-martin-gago-medina"
         }
       ],
       "summary": "Desde hace dos décadas se ha acumulado abundante evidencia experimental que demuestra que los neutrinos pueden oscilar entre sus diferentes sabores. Si bien el mecanismo principal por medio del cual se explica este fenómeno de interferencia cuántica es la masa no nula de los neutrinos, esto no descarta la posibilidad de que coexistan otros fenómenos (subdominantes) de física nueva o más allá del Modelo Estándar. Simplemente, estos últimos no han sido observados aún experimentalmente. Una de estas posibilidades es la decoherencia cuántica, la cual podría hacer perder interferencia (información) a las oscilaciones de neutrinos, como producto de la interacción del sistema de neutrinos con su entorno. En este seminario discutiremos las diferentes implicancias de la existencia de la decoherencia cuántica en el contexto de las oscilaciones de neutrinos que serán medidas en experimentos futuros. Exploraremos también cómo algunos modelos de decoherencia cuántica podrían inducir efectos observables en la violación de la simetría CPT. De ser posible, exploraremos algunos otros fenómenos de física nueva.",
@@ -7086,7 +7086,7 @@
       "speakers": [
         {
           "name": "Claudio Lazarte",
-          "profile": "/fisicos/claudio-cesar-lazarte-melgar/"
+          "slug": "claudio-cesar-lazarte-melgar"
         }
       ],
       "month": "2019-06"
@@ -7105,7 +7105,7 @@
         {
           "name": "Susana Petrick",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/susana-margarita-petrick-casagrande/"
+          "slug": "susana-margarita-petrick-casagrande"
         }
       ],
       "summary": "Cuando se hace referencia a los usos pacíficos de la energía nuclear pensamos inmediatamente en aplicaciones médicas, o en la generación de energía eléctrica utilizando el calor de la fisión nuclear para mover los generadores eléctricos. La Organización de las Naciones Unidas enunció en el 2015 Objetivos de Desarrollo Sostenible (ODS) que resumen las necesidades más apremiantes de la humanidad. El segundo ODS se enuncia como “cero hambre”, tema fundamental en un mundo en el que 1 de 10 personas sufre de hambre y desnutrición. Existen muchas formas en las que la tecnología nuclear puede contribuir a evitar que millones de personas sufran o mueran de hambre. Entre ellas está la mejora de la producción agrícola mundial, del uso de los recursos de suelo y agua, y de la preservación de los alimentos. Éstas apuntan a revertir el escenario en el que globalmente un tercio de los alimentos producidos se pierde, cifra que es mucho mayor en el Perú.",
@@ -7140,7 +7140,7 @@
         {
           "name": "Víctor Peña",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/victor-antonio-pena-rodriguez/"
+          "slug": "victor-antonio-pena-rodriguez"
         }
       ],
       "summary": "La tetrataenita natural es una inusual aleación producida en el impacto de meteoritos de hierro con la corteza terrestre. En el impacto, el mineral taenita contenido en los meteoritos, compuesto de hierro y níquel, sufre una severa deformación plástica con baja tasa de enfriamiento y alta presión. El impacto distorsiona la configuración cristalina cúbica de la taenita y la convierte en tetrataenita. La tetrataenita es un magneto permanente atípico, sin elementos de tierras raras. En esta charla reportaremos nuestros resultados sobre la síntesis de tetrataenita en el laboratorio, usando un proceso de mecano-síntesis sobre una mezcla de polvos elementales de Fe y Ni. La característica principal de la mecano-síntesis es la direccionalidad de energía mecánica hacia la microestructura granular a través de reacciones sólidas, sin necesidad de fundir los elementos metálicos. Hablaremos acerca de la caracterización de las fases de la tetrataenita usando tres técnicas - difracción de rayos X, Extended X-Ray Absorption Fine Structure (EXAFS) y espectroscopía Mössbauer - cada una de las cuales ofrece una visión distinta de la microestructura.",
@@ -7228,7 +7228,7 @@
         {
           "name": "Isabel Bernal",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/isabel-bernal-esquia/"
+          "slug": "isabel-bernal-esquia"
         }
       ],
       "summary": "El nivel de sacudimiento del suelo percibido en la superficie debido a la ocurrencia de un sismo depende principalmente de la proximidad a la fuente del sismo y de las características físicas del suelo por donde se propagan las ondas sísmicas. Los estudios sísmicos y geofísicos permiten determinar propiedades del suelo: su espectro de respuesta, valores de la frecuencia predominante, periodo dominante y velocidad de las ondas de corte. También permiten identificar la presencia de medios saturados y el nivel freático. Toda esta información ayuda a determinar las características físicas y el comportamiento dinámico del suelo ante la ocurrencia de sismos. Las construcciones deben adecuarse a las condiciones físicas de cada tipo de suelo. Instituciones científicas como el Instituto Geofísico del Perú (IGP) ponen a disposición de la población su experiencia y conocimiento para el estudio de suelos, contribuyendo a la gestión de riesgo de desastres, siguiendo el lema del IGP:",
@@ -7286,7 +7286,7 @@
         {
           "name": "Hernán Castillo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/hernan-alfredo-castillo-egoavil/"
+          "slug": "hernan-alfredo-castillo-egoavil"
         }
       ],
       "summary": "En la mecánica cuántica se suele utilizar representaciones matemática de los estados que, a la vez, representan a los sistemas físicos. De hecho, al desarrollar la teoría, estas representaciones suelen reemplazar a los sistemas físicos mismos, debido a que típicamente los caracterizan de manera eficiente. Sin embargo, en algunas situaciones se puede hacer uso de representaciones extendidas, construidas con mas grados de libertad o usando objetos que existen en espacios matemáticos con más dimensiones. Las ecuaciones que describen la dinámica de estos objetos de representación extendida a veces son más sencillas y pueden revelarnos información sobre cómo reducir ecuaciones de evolución complejas a casos más simples, sin introducir aproximaciones. Analizamos el caso de decoherencia - la pérdida de información de un sistema cuántico al interactuar con su entorno - y buscamos regímenes o condiciones en donde puede ser suprimida parcialmente.",
@@ -7325,7 +7325,7 @@
         {
           "name": "Cristian Ferradas",
           "affiliation": "New Mexico Consortium",
-          "profile": "/fisicos/cristian-ferradas/"
+          "slug": "cristian-ferradas"
         }
       ],
       "summary": "Al contrario de lo que la mayoría de la gente piensa, los 150 millones de kilómetros de espacio que separan a la Tierra del Sol no están vacíos. El Sistema Solar es testigo del constante flujo de radiación y partículas altamente energéticas provenientes del Sol, conocido como el viento solar. Esto representa una amenaza a la sostenibilidad de la vida en nuestro planeta. Afortunadamente, la Tierra tiene su propio escudo natural en la forma de una cavidad que envuelve al planeta y a su atmósfera, protegiéndolos y proveyendo las condiciones para el desarrollo de la vida. Esta cavidad, la magnetósfera, se genera como producto de la interacción entre el viento solar y el campo magnético terrestre. Esta presentación servirá como una introducción a la física de la magnetósfera terrestre. Se tratará el origen de la magnetósfera y varios aspectos de la misma: las fuentes del plasma que se encuentra en ella, los procesos que la convierten en un ambiente altamente dinámico y el rol que cumple en el clima espacial",
@@ -7345,7 +7345,7 @@
         {
           "name": "Sara Purca",
           "affiliation": "Instituto del Mar del Perú",
-          "profile": "/fisicos/sara-regina-purca-cuicapusa/"
+          "slug": "sara-regina-purca-cuicapusa"
         }
       ],
       "summary": "Los pobladores de las culturas pre-incas costeras convivieron con la variabilidad climática natural del ecosistema marino costero. En contraste, los pobladores modernos peruanos han comenzado a contaminar el litoral peruano como consecuencia del aumento del uso de plásticos en la zona costera. Las principales ciudades peruanas se han desarrollado en la costa. Esto ha llevado al aumento significativo del uso de plásticos en actividades agrícolas y riego tecnificado, actividades pesqueras y acuícolas, transporte marítimo, minería, explotación y transporte de hidrocarburos, desechos de la construcción, desechos urbanos y turismo. En este coloquio se hará un viaje en el tiempo para mostrar cómo varía el clima en el ecosistema marino costero y cómo estamos contaminando la zona costera peruana. Se examinará las posibles fuentes de generación de basura marina que podría afectar la trama trófica del mar peruano, es decir, la transferencia de energía entre los organismos que componen la cadena alimenticia.",
@@ -7384,7 +7384,7 @@
         {
           "name": "José Bellido",
           "affiliation": "University of Adelaide",
-          "profile": "/fisicos/jose-alfredo-bellido-caceres/"
+          "slug": "jose-alfredo-bellido-caceres"
         }
       ],
       "summary": "En 1912, Victor Hess comprobó que una radiación muy energética ingresa a la atmósfera de la Tierra. Años después, Robert Millikan bautizó a este tipo de radiación como",
@@ -7404,7 +7404,7 @@
         {
           "name": "César Jiménez",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/cesar-omar-jimenez-tintaya/"
+          "slug": "cesar-omar-jimenez-tintaya"
         }
       ],
       "summary": "La costa occidental de América del Sur está contenida en el Cinturón Sísmico del Pacífico, donde la Placa de Nazca se sumerge debajo de la placa continental, mediante el proceso conocido como “subducción”. Esta dinámica genera grandes sismos tsunamigénicos, es decir, que provocan tsunamis. Utilizando los registros sísmicos, las ondas de tsunami, los datos geodésicos de GPS y las imágenes satelitales de interferometría de radar, es posible obtener los parámetros que caracterizan a la fuente sísmica. En esta exposición se presentan los resultados de investigaciones actuales sobre la sismicidad del Perú, Ecuador y Chile.",
@@ -7462,7 +7462,7 @@
         {
           "name": "Ludwin León",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/ludwin-misael-leon-hilario/"
+          "slug": "ludwin-misael-leon-hilario"
         }
       ],
       "summary": "Las propiedades de un material magnético son reflejadas en su curva de magnetización o curva de histéresis. La forma de esta curva determina las aplicaciones que pueden tener diferentes materiales magnéticos, tales como sensores de campo magnético, medios magnéticos de almacenamiento de información, imanes permanentes, etc. En esta presentación, hablaré sobre la implementación y optimización de un magnetómetro de muestra vibrante, así como de sus aplicaciones en la caracterización de películas delgadas magnéticas y polvos de minerales que contienen tierras raras.",
@@ -7539,7 +7539,7 @@
         {
           "name": "Myriam Pajuelo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/myriam-virginia-pajuelo-cubillas/"
+          "slug": "myriam-virginia-pajuelo-cubillas"
         }
       ],
       "summary": "107 Camilla es un asteroide grande del cinturón principal de asteroides del Sistema Solar. Como tal, es considerado primordial y, por tanto, importante para entender la historia temprana del Sistema Solar. Además, posee dos satélites, que lo hacen más valioso aún como objeto de estudio, pues, a partir de la órbita de sus lunas se puede determinar con mucha precisión su masa. En esta charla se mostrará cómo se ha determinado las características de Camilla a partir de datos obtenidos con diferentes técnicas: curvas de luz, ocultaciones estelares, imágenes de alto contraste y alta resolución angular, así como espectros en el visible y el infrarrojo cercano. También se hablará de las probables vías de formación y evolución de este sistema triple.",
@@ -7578,7 +7578,7 @@
         {
           "name": "Juan Carlos Rueda",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/juan-carlos-rueda-sanchez/"
+          "slug": "juan-carlos-rueda-sanchez"
         }
       ],
       "summary": "Las propiedades de un material magnético se reflejan en su curva de magnetización o curva de histéresis. Dependiendo de la forma de la curva, se puede clasificar a los materiales magnéticos según su aplicación, tales como sensores de campo magnético, medios magnéticos de almacenamiento de información, imanes permanentes, etc. En esta presentación hablaré sobre la implementación y optimización de un magnetómetro de muestra vibrante, así como de sus aplicaciones en la caracterización de películas delgadas magnéticas y polvos de minerales que contienen tierras raras.",
@@ -7617,7 +7617,7 @@
         {
           "name": "Mónica Gómez",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/monica-marcela-gomez-leon/"
+          "slug": "monica-marcela-gomez-leon"
         }
       ],
       "summary": "La vestimenta es una suerte de segunda piel que nos protege del entorno que nos rodea. Este entorno puede ser especialmente agresivo en ambientes internos, como lo son los intrahospitalarios, donde las infecciones asociadas a la atención de la salud son un problema de salud pública que cobra especial importancia. Sin embargo, en ambientes externos también se enfrenta un agente muy agresivo: la radiación UV proveniente del Sol. Ante estos ambientes adversos y de diferente naturaleza, los textiles funcionalizados con nanopartículas se presentan como una opción que debe ser explorada para prevenir enfermedades.",
@@ -7708,7 +7708,7 @@
         {
           "name": "Jhosep Beltrán",
           "affiliation": "Universidade Estadual Paulista, Brasil",
-          "profile": "/fisicos/jhosep-victorino-beltran-ramirez/"
+          "slug": "jhosep-victorino-beltran-ramirez"
         }
       ],
       "summary": "La teoría cuántica de campos (TCC) es una de las teorías físicas más exitosas.  Sus predicciones teóricas sobre las propiedades de las partículas fundamentales y sus interacciones, coinciden con los valores experimentales en un grado de exactitud muy alto. Sin embargo, como toda teoría que intenta describir la compleja Naturaleza, contiene problemas en su construcción matemática. En este coloquio revisaremos brevemente los conceptos detrás de la TCC.  Revisaremos además la evolución y el estado actual de uno de estos problema, que consiste en los infinitos que inundan los cálculos realizados mediante el método gráfico de Feynman. En ese contexto, revisaremos las dos formas de solucionar este problema.  Primero, el método de renormalización, el cual reinterpreta los parámetros físicos como la masa y la carga para eliminar estos infinitos. Segundo, la introducción de la teoría de distribuciones como una estructura matemática más acorde con la naturaleza física de las magnitudes físicas cuantizadas",
@@ -7728,7 +7728,7 @@
         {
           "name": "Luis Vilcapoma",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/luis-pablo-vilcapoma-lazaro/"
+          "slug": "luis-pablo-vilcapoma-lazaro"
         }
       ],
       "summary": "El Niño Costero es un fenómeno climático que consiste en el calentamiento anómalo de las aguas del mar en las costas sudamericanas. En el Perú, es acompañado por lluvias torrenciales en la sierra, que aumentan el caudal de los ríos que desembocan en los océanos Pacífico y Atlántico. La crecida de estos ríos origina el deslizamiento de materiales sueltos, como tierra y piedras generadas por la erosión de los cerros que se encuentran en las laderas de los ríos. El desplazamiento de estos materiales sueltos aumenta la vibración del suelo a lo largo del cauce de los ríos. En esta charla mostraremos cómo esto ha favorecido la difusión del gas radioactivo radón-222, que ocurre naturalmente en el suelo. Para monitorear el radón-222 luego de El Niño Costero 2017, hemos detectado las partículas alfa provenientes de su decaimiento utilizando detectores de trazas nucleares ubicados en varios puntos de la ciudad de Lima.",
@@ -7748,7 +7748,7 @@
         {
           "name": "Daniel Palacios",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/daniel-francisco-palacios-fernandez/"
+          "slug": "daniel-francisco-palacios-fernandez"
         }
       ],
       "summary": "El radón es un gas natural radioactivo, producido por la desintegración de uranio y torio, que emite partículas alfa. Es incoloro, inodoro e insípido. Desempeña un doble papel en la vida del hombre, ya que es un peligro para la salud y también una herramienta geológica útil. En esta charla, hablaré del uso del radón como herramienta geológica. Explicaré el uso de la técnica de monitoreo de radón en la exploración de uranio e hidrocarburos, predicción de eventos sísmicos y erupciones volcánicas, estudio de fallas geológicas activas y fuentes de energía geotérmica, e investigaciones hidrológicas, entre otras. Describiré ejemplos de estas aplicaciones a nivel mundial; en particular, la identificación y localización de fallas geológicas. Describiré brevemente el principio de detección de los detectores poliméricos de trazas nucleares utilizados en estas actividades. Finalmente, presentaré otras aplicaciones de estos detectores en geociencias, como la datación y cronotermometría, y aplicaciones cosmológicas.",
@@ -7787,7 +7787,7 @@
         {
           "name": "César Castromonte",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/cesar-manuel-castromonte-flores/"
+          "slug": "cesar-manuel-castromonte-flores"
         }
       ],
       "summary": "La muongrafía, o tomografía de muones, es una técnica no destructiva que permite visualizar el interior de objetos y estructuras de gran tamaño. La técnica usa el flujo natural de muones de alta energía, producidos en la interacción de rayos cósmicos con la atmósfera. Los muones son absorbidos parcialmente al atravesar el objeto: entre más material atraviesan, más de ellos son absorbidos. El presente proyecto propone el diseño y construcción de una cámara prototipo para la medición del flujo direccional de muones. El objetivo primario de la cámara es obtener perfiles de distribución de densidad --- imágenes radiográficas --- de objetos geofísicos, como montañas, volcanes, etc. Conociendo la potencialidad de la tecnología desarrollada, evaluaremos otras posibles aplicaciones para desarrollos nucleares y/o de salvaguarda. El estudio pretende combinar trabajos experimentales, simulaciones y cálculos analíticos para obtener un diseño de cámara que mejore la relación señal/ruido respecto a las cámaras existentes.",
@@ -7807,7 +7807,7 @@
         {
           "name": "Patrizia Pereyra",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/patrizia-edel-pereyra-anaya/"
+          "slug": "patrizia-edel-pereyra-anaya"
         }
       ],
       "summary": "El radón es la principal fuente de radioactividad natural. Su concentración está relacionada a la ocurrencia de cáncer pulmonar; de ahí su importancia en el campo de la radioprotección. En los últimos dos años, hemos medido la concentración de radón en Lima y Callao. Detectamos el radón a través de la densidad de huellas de partículas alfa asociadas al radón en detectores pasivos de huellas nucleares. De acuerdo a la densidad demográfica de la ciudad, y utilizando grillas de 5 km2, establecimos el número mínimo de detectores a utilizar. Cubrimos 23 distritos de Lima Centro y Callao, con población cercana a dos millones de habitantes, ocupando una superficie de 277 km2. Basándonos en mediciones realizadas en más de 250 viviendas, encontramos una concentración de radón promedio inferior a los 100 Bq/m3. Utilizando técnicas de geoestadística, hemos construido el primer mapa de radón de Lima y Callao.",
@@ -7827,7 +7827,7 @@
         {
           "name": "Ana María Osorio",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/ana-maria-osorio-anaya/"
+          "slug": "ana-maria-osorio-anaya"
         }
       ],
       "summary": "¿Qué es un material convencional? Es aquel material que se emplea desde tiempos remotos para satisfacer las necesidades básicas del hombre, como vivienda, energía, alimentación y salud. La palabra",
@@ -7937,7 +7937,7 @@
         {
           "name": "Teófilo Vargas",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/teofilo-vargas-auccalla/"
+          "slug": "teofilo-vargas-auccalla"
         }
       ],
       "summary": "Stephen Hawking (1942-2018) fue un brillante físico teórico y divulgador científico.  Su legado abarca la cosmología y física de partículas, incluyendo intentos de reconciliación de la relatividad general y la mecánica cuántica.  En este coloquio revisaremos y mostraremos las principales contribuciones científicas de Hawking: la singularidad al inicio del Universo, termodinámica de los agujeros negros, evaporación de agujeros negros vía radiación de Hawking, fluctuaciones cuánticas durante la inflación como origen de las galaxias, la función de onda del Universo y agujeros de gusano, entre otras.",
@@ -7957,7 +7957,7 @@
         {
           "name": "Danny Scipión",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/danny-eddy-scipion-castillo/"
+          "slug": "danny-eddy-scipion-castillo"
         }
       ],
       "summary": "Existen radares para diversas aplicaciones: monitoreo de tráfico aéreo, control de límites de velocidad y estudios atmosféricos. Los radares para estudios atmosféricos son muy diversos también; por ejemplo, podemos usarlos para monitorear vientos y turbulencia en aeropuertos y para medir la cantidad de precipitación que se deposita en un área determinada. El Instituto Geofísico del Perú (IGP) opera varios radares para complementar sus estudios atmosféricos en la región central del Perú, e incluso se ha involucrado en la construcción de sus propios radares. En los últimos meses, el IGP ha traído a Perú un radar meteorológico para usarlo en la gestión de riesgo de desastres. En esta charla presentaremos los distintos tipos de radares que existen, incluyendo los del IGP, y la progresión a futuro de este novedoso campo.",
@@ -8015,7 +8015,7 @@
         {
           "name": "David Choque",
           "affiliation": "Universidad Nacional de San Antonio Abad del Cusco",
-          "profile": "/fisicos/david-choque-quispe/"
+          "slug": "david-choque-quispe"
         }
       ],
       "summary": "La dualidad AdS/CFT es una realización concreta del principio holográfico en el sentido en el que una teoría gravitacional es equivalente a una teoría cuántica (",
@@ -8092,7 +8092,7 @@
         {
           "name": "Joel Jones",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/joel-jones-perez/"
+          "slug": "joel-jones-perez"
         }
       ],
       "summary": "Los neutrinos son partículas neutras muy ligeras, descubiertas al intentar explicar el espectro energético en la desintegración beta. A pesar de que inicialmente se consideraba que no tenían masa, los experimentos de oscilación han demostrado de forma indiscutible que los neutrinos están provistos de una masa no nula. Surge entonces la pregunta de encontrar un mecanismo que sea capaz de proveer masa a estas partículas, de forma tal vez similar al mecanismo de Brout-Englert-Higgs. En este charla hablaremos sobre posibles observables que puedan dar pistas en esta dirección: desintegración de neutrinos en experimentos de oscilación, observación de vértices desplazados, y producción de neutrinos supersimétricos en el LHC",
@@ -8131,7 +8131,7 @@
         {
           "name": "Kobi Mosquera",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/kobi-alberto-mosquera-vasquez/"
+          "slug": "kobi-alberto-mosquera-vasquez"
         }
       ],
       "summary": "El movimiento complejo del océano puede interpretarse como la suma de muchas oscilaciones de distintas escalas espaciales y temporales. Una de estas oscilaciones, que tiene una longitud de onda larga y una frecuencia baja, es la onda Kelvin oceánica ecuatorial. Esta última, por su naturaleza, se desplaza siempre hacia el este en la franja ecuatorial, y además, en el océano Pacífico, está relacionada a los eventos El Niño y La Niña. Su presencia puede producir cambios en el nivel del mar, profundidad de la termoclina, las corrientes oceánicas y, principalmente, la temperatura del mar. Estos impactos no solo se dan en la franja ecuatorial sino también a lo largo de la costa americana, y es por este motivo que es de suma importancia estudiarla y monitorizarla. El objetivo de esta presentación es describir la física de las ondas Kelvin oceánicas ecuatoriales y cómo se puede modelar numéricamente. Se aprovechará la exposición para mostrar los productos que son útiles para monitorizar estas ondas en tiempo real.",
@@ -8321,7 +8321,7 @@
         {
           "name": "Carlos Landauro",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/carlos-vladimir-landauro-saenz/"
+          "slug": "carlos-vladimir-landauro-saenz"
         }
       ],
       "summary": "La nanociencia es considerada la disciplina científica del siglo XXI, principalmente por la variedad de aplicaciones tecnológicas que pueden derivarse de ella, es decir, por la nanotecnología. Potenciales aplicaciones tecnológicas existen en electrónica, medicina, medioambiente, industria, óptica, catálisis, etc. Una pregunta relevante es si, en nanociencia, nos encontramos frente a una revolución científica --- como la que se vio en los inicios de la mecánica cuántica --- con efectos físicos que no pueden ser explicados con las teorías establecidas, o si estamos recién explorando los límites de las teorías sobre las que descansa la nanociencia. En este contexto, ¿qué nos espera en la región intermedia entre lo atómico y lo sólido? En esta charla se presentó el estudio de sistemas sólidos y cómo su proceso de nanoestructuración afecta sus propiedades físicas, utilizando el esquema",
@@ -8360,7 +8360,7 @@
         {
           "name": "Jorge Dulanto",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jorge-alejandro-dulanto-carbajal/"
+          "slug": "jorge-alejandro-dulanto-carbajal"
         }
       ],
       "summary": "Desde la aparición de las primeras celdas solares en los años 60, su eficiencia en la producción de la energía eléctrica ha mejorado. Mediante el proceso de pasivación, se cubre el material base de la celda fotovoltaica --- semiconductor --- con una capa delgada de material aislante --- pasivador --- que cambia las propiedades electrónicas en la frontera entre estos dos materiales. Las pérdidas se reducen y, como consecuencia, mejora la eficiencia de la celda. En esta charla, mostraremos que el nitruro de aluminio (AlN) es un material prometedor para la pasivación de silicio cristalino, debido a su capacidad de pasivar silicio dopado tipo p y tipo n, y a sus propiedades antireflejantes, que reducen las pérdidas por reflexión de luz.",
@@ -8380,7 +8380,7 @@
         {
           "name": "Yamina Silva",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/yamina-silva-vidal/"
+          "slug": "yamina-silva-vidal"
         }
       ],
       "summary": "Los modelos numéricos atmosféricos son la representación matemática de los procesos físicos que ocurren en la atmósfera, responsables de las variaciones a escala del tiempo meteorológico (horas a días) hasta la escala climática (meses hasta milenios). Los modelos se basan en la leyes de conservación de masa, momento y energía. Sin embargo, procesos de pequeña escala, como la convección asociada a la formación de nubes, no son modelados desde primeros principios, sino son parametrizados, siendo éstos uno de los mayores retos del modelado atmosférico. Se hará una descripción de los modelos atmosféricos, considerando los procesos físicos que deben ser parametrizados, el uso de modelos para estudiar los eventos meteorológicos extremos en los Andes y la necesidad de tener datos de precisión para mejorar la representación de los modelos, sobre todo en zonas con topografía compleja como Perú.  Se presentará también al Laboratorio de Microfísica Atmosférica y Radiación (LAMAR), instalado en el Observatorio de Huancayo del IGP.",
@@ -8400,7 +8400,7 @@
         {
           "name": "Julio Tello",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/julio-cesar-tello-galvez/"
+          "slug": "julio-cesar-tello-galvez"
         }
       ],
       "summary": "Un sistema estelar binario está compuesto de dos estrellas unidas por la fuerza de atracción gravitatoria. Cuando el plano orbital del sistema coincide con la línea visual del observador se producen eclipses estelares. Estos eclipses pueden ser totales o parciales, dependiendo de si una estrella oculta total o parcialmente a la otra. La fotometría es una ténica que consiste en medir la luz de las estrellas. En el caso de un sistema binario eclipsante, puede registrar las variaciones que la luz del sistema sufre durante los eclipses. Con estas medidas, y con otras que resultan de aplicar técnicas de espectroscopía, se puede obtener valores de ciertos parámetros del sistema. En esta exposición presentaremos los métodos utilizados y la importancia del estudio de los sistemas binarios para la astrofísica",
@@ -8420,7 +8420,7 @@
         {
           "name": "Antonio Lira",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/juan-antonio-lira-cacho/"
+          "slug": "juan-antonio-lira-cacho"
         }
       ],
       "summary": "Para entender por qué los metales son rígidos, tenemos que entender qué sucede cuando los materiales son sometidos a la acción de una tensión o compresión. Esta situación es descrita por la ley de elasticidad. El objetivo de esta exposición es mostrar a los alumnos de ciencias e ingeniería cómo calcular constantes elásticas de cristales metálicos. Solo es necesario tener conocimientos de mecánica y electromagnetismo para este cálculo. La rigidez de los metales se debe a las fuerzas eléctricas entre las cargas negativas de los electrones de conducción y las cargas positivas de los iones de la red. Nuestro cálculo usa un modelo simple, y es aplicado en un cristal de aluminio. Finalmente, el resultado es comparado con un valor experimental.",
@@ -8454,7 +8454,7 @@
         {
           "name": "Bertha García",
           "affiliation": "Red AUNA",
-          "profile": "/fisicos/bertha-milagros-garcia-gutierrez/"
+          "slug": "bertha-milagros-garcia-gutierrez"
         }
       ],
       "summary": "La Física Médica aplica conceptos y técnicas de Física y Biología a la Medicina. Esta especialidad multidisciplinaria aparece motivada por la necesidad de utilizar tecnología en Medicina de manera óptima y segura. Una de las herramientas más poderosas del físico médico es el conocimiento sobre radiaciones ionizantes, que aplica en radioterapia, medicina nuclear y radiología. También se forma en imagenología médica --- ecografía y resonancia magnética nuclear --- y en tópicos de fisiología. En el Perú, la profesión de físico médico está reglamentada y se requiere una licencia para trabajar en ella. En esta charla daremos una mirada a la labor y el entrenamiento del físico médico, enfocándonos en el caso del Perú.",
@@ -8493,7 +8493,7 @@
         {
           "name": "Juan José Torres",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/juan-jose-torres-vega/"
+          "slug": "juan-jose-torres-vega"
         }
       ],
       "summary": "El diseño de sistemas nanoestructurados busca crear nuevos materiales que exhiban propiedades específicas, incluyendo dureza, conductividad eléctrica y térmica, propiedades ópticas, etc. Las propiedades del material están determinadas por la posición de átomos individuales dentro de grupos de átomos --- o clusters --- que componen el material. El reto fundamental en la creación de nuevos materiales es diseñar la estructura atómica necesaria para que el material, una vez sintetizado, exhiba las propiedades buscadas. Debido al gran número de posibles estructuras atómicas, encontrar la adecuada es un problema difícil, especialmente si se pretende diseñar la estructura completa del cluster desde cero. En esta charla, exploraremos estrategias para resolver este importante problema. Nos concentraremos en los algoritmos genéticos, una estrategia inspirada en los organismos biológicos, que permite explorar de forma automatizada y dirigida el gran espacio de posibles estructuras atómicas y",
@@ -8551,7 +8551,7 @@
         {
           "name": "Patrizia Pereyra",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/patrizia-edel-pereyra-anaya/"
+          "slug": "patrizia-edel-pereyra-anaya"
         }
       ],
       "summary": "El radón-222 es un gas radioactivo natural, emisor de partículas alfa, que se encuentra presente en el suelo y escapa hacia la superficie, provocando un aumento en su concentración mediante su  exhalación. La concentración del radón-222 varía debido a diversos factores, como las características geológicas, ambientales y otras relacionadas con la intervención humana. Se ha diseñado y realizado una cámara de difusión para realizar mediciones de la exhalación del radón y su progenie en el sitio arqueológico Huaca 20, el mayor cementerio de la Cultura Lima, que se encuentra en el distrito de San Miguel, al interior del campus de la PUCP. Se mostrará resultados de mediciones de esta exhalación empleando",
@@ -8647,7 +8647,7 @@
         {
           "name": "Hernán Castillo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/hernan-alfredo-castillo-egoavil/"
+          "slug": "hernan-alfredo-castillo-egoavil"
         }
       ],
       "summary": "La divulgación científica en las universidades peruanas ha pasado de lo anecdótico a lo cotidiano. Los profesores e investigadores necesitan un espacio para presentar los resultados de sus investigaciones fuera de la rígida estructura del plan curricular. Los estudiantes necesitan complementar su formación mediante interacción directa con investigadores activos en múltiples áreas. Los Coloquios de Física PUCP, auspiciados por el Departamento de Ciencias, existen para cubrir estas necesidades. Durante seis años ininterrumpidos, los coloquios se han posicionado como una actividad científica de alta calidad, frecuentada por profesores y estudiantes de diversos centros de investigación del país, presencialmente y vía videoconferencia. En esta charla, mostraremos cómo la continuidad de los coloquios son el resultado del continuo aprendizaje sobre la motivación y el grado de participación de la comunidad, y la regulación de la calidad de las ponencias. Mostraremos qué recursos y estructura organizacional se necesita mínimamente para realizar con éxito los coloquios. Enfatizaremos la necesidad de una continua difusión mediática en línea para alcanzar una audiencia amplia. Asimismo, evaluaremos los resultados obtenidos y las dificultades encontradas durante los primeros seis años. Partiendo del impacto positivo de los coloquios en la investigación, presentaremos perspectivas a futuro. Fundamentalmente, buscamos facilitar la replicación del modelo de los coloquios en otros centros de estudio",
@@ -8686,7 +8686,7 @@
         {
           "name": "Andrés Guerra",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jorge-andres-guerra-torres/"
+          "slug": "jorge-andres-guerra-torres"
         }
       ],
       "summary": "Los semiconductores amorfos han sido objeto de estudio por varias décadas debido a sus potenciales aplicaciones y métodos de deposición relativamente poco costosos. Por ejemplo, las películas delgadas de carburo de silicio amorfo hidrogenado (a-SiC:H) son candidatas para servir de foto-electrodo en dispositivos foto-electroquímicos para la producción de hidrógeno usando luz solar. Sin embargo, el modelamiento de varias de sus propiedades puede ser muy desafiante. Una importante diferencia entre semiconductores amorfos y cristalinos yace en los estados tipo cola (band-tail states), cuya aparición es el resultado del desorden topológico de los átomos en un material. Cómo estos estados se superponen a los estados extendidos de valencia y conducción es un problema aún no resuelto. En esta charla, revisaremos conceptos fundamentales sobre la definición del ancho de banda óptico. Discutiremos qué significa y cómo se mide, con el fin de introducir un modelo reciente basado en fluctuaciones térmicas de las bandas que nos permita definir y medir el ancho de banda de un material amorfo",
@@ -8744,7 +8744,7 @@
         {
           "name": "Luciano Stucchi",
           "affiliation": "Universidad del Pacífico / Universidad Politécnica de Madrid, España",
-          "profile": "/fisicos/luciano-stucchi/"
+          "slug": "luciano-stucchi"
         }
       ],
       "summary": "Las relaciones entre especies biológicas despliegan estrategias que van desde la competencia más dura hasta el mutualismo más generoso. Pero, además, estas relaciones pueden transitar de un tipo a otro cuando el entorno las somete a presiones extremas. De hecho, estas transiciones son las que permiten un mecanismo evolutivo distinto al darwiniano: el de la simbiogénesis de Margulis. En este coloquio haremos una revisión crítica de los modelos matemáticos que describen las diferentes relaciones entre especies y mostraremos un mecanisno que permita describir las transiciones entre estas relaciones.",
@@ -8821,7 +8821,7 @@
         {
           "name": "Amaru Töfflinger",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jan-amaru-palomino-tofflinger/"
+          "slug": "jan-amaru-palomino-tofflinger"
         }
       ],
       "summary": "El Perú es uno de los países con mayor irradiación solar por metro cuadrado. ¿Cómo se puede aprovechar esta inmensa fuente de energía para construir un futuro sostenible? En esta charla se presentará el estado del arte de las tecnologías fotovoltaicas. Además, se discutirá nuevos materiales y futuras tecnologías de celdas solares. Se presentará los últimos avances del grupo de ciencias de los materiales de la PUCP en la investigación de nuevos materiales para celdas solares de silicio, en colaboración con instituciones alemanas.",
@@ -8936,7 +8936,7 @@
         {
           "name": "Luis Mosquera",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/luis-alberto-mosquera-leiva/"
+          "slug": "luis-alberto-mosquera-leiva"
         }
       ],
       "summary": "Desde los inicios del empleo de las fibras ópticas como sensores, en 1967, hasta la fecha, sus aplicaciones se han extendido a diversos campos: en ingeniería civil (sistemas de monitoreo de esfuerzos, deformaciones, vibraciones en estructuras con fibra óptica embutida), aplicaciones militares, medicina (imágenes endoscópicas, medición de pH, oxígeno, glucosa en sangre), industria química y bioquímica (monitoreo de reacciones, presencia de gases, fotoluminiscencia, dinámica de biomoléculas), agricultura, caracterización de materiales y otros sectores. Los sensores de fibra óptica son inmunes a interferencia electromagnética, se basan en medidas de intensidad, fase, polarización y pueden ser embebidos e interrogados remotamente. Son compactos y muchos de ellos pueden ser implementados sobre una misma fibra óptica. Se presentará diversos aspectos de diseño de estos sensores, cubriendo un amplio rango de tecnologías representativas que incluyen estructuras resonantes, redes y arreglos espectroscópicos",
@@ -8956,7 +8956,7 @@
         {
           "name": "Wiliam Trujillo",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/wiliam-victor-trujillo-herrera/"
+          "slug": "wiliam-victor-trujillo-herrera"
         }
       ],
       "summary": "La nanotecnología constituye la base de la próxima revolución tecnológica, debido a sus aplicaciones en diversos sectores. En Medicina, las nanopartículas superparamagnéticas de óxidos de hierro (SPIONs) son usadas como sensores. Debido a su naturaleza magnética, pueden ser manipuladas mediante un campo magnético externo. Las SPIONs pueden ser sintetizadas con una capa externa de oro para ser bio-conjugadas más fácilmente con anticuerpos o proteínas usados en el diagnóstico de enfermedades. Por ejemplo, para el diagnóstico de dengue, una combinación de SPIONs, técnicas de microfluídica y optomagnetometría (usando tecnología Blu-Ray) y una gota de sangre del paciente infectado, permite obtener un diagnóstico cuantitativo en menos de diez minutos. El diagnóstico diferencia entre variantes del virus y entre virus similares, como el zika, chikungunya y dengue. En comparación, el método de diagnóstico tradicional toma al menos tres días y requiere de un laboratorio de bioseguridad nivel II y equipos existentes solo en Lima y en pocas ciudades de provincias. La nueva técnica basada en SPIONs reduce el tiempo y costo del diagnóstico, y permite proveer de un tratamiento oportuno al paciente.",
@@ -9014,7 +9014,7 @@
         {
           "name": "Antonio Pereyra",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/antonio-armstrong-pereyra-quiros/"
+          "slug": "antonio-armstrong-pereyra-quiros"
         }
       ],
       "summary": "Se mostró el proyecto de instalación de una facilidad para observaciones astronómicas en los Andes peruanos. El observatorio de la Universidad Nacional de Ingeniería (OA-UNI) vio su primera luz a mediados del año pasado. Explicaremos las potencialidades de la instrumentación, con vista a la realización de varios programas científicos en astronomía observacional óptica. Está previsto desarrollar las técnicas de fotometría y espectroscopía en objetos seleccionados de interés astronómico. Entre los programas científicos en los cuales el OA-UNI puede ser competitivo, destacamos los estudios de variabilidad estelar de corto y medio periodo, observaciones de objetos de ocasión y/o transitorios (supernovas, novas, explosiones de rayos gamma (GRBs)), y estudios de calidad de cielo. El proyecto OA-UNI es un proyecto conjunto de la UNI y el Instituto Geofísico del Perú.",
@@ -9129,7 +9129,7 @@
         {
           "name": "Julio Chanamé",
           "affiliation": "Pontificia Universidad Católica de Chile",
-          "profile": "/fisicos/julio-chaname/"
+          "slug": "julio-chaname"
         }
       ],
       "summary": "Las galaxias enanas ocupan al día de hoy una posición central en problemas de interés para la cosmología y la física fundamental de frontera. Por un lado, las estrellas que componen sus poblaciones estelares parecen ser reliquias de épocas tempranas del universo a las que no es posible tener acceso a través de observaciones astronómicas estándar. A la vez, estas mismas galaxias son los sistemas con mayor cantidad de materia oscura conocidos en el universo, por lo que ofrecen quizás la mejor oportunidad en la actualidad para aprender sobre las propiedades fundamentales de esta elusiva componente del universo. En esta charla discutiré cómo la búsqueda y caracterización de estrellas binarias con separaciones muy anchas, recientemente descubiertos por primera vez en una galaxia diferente a la Vía Láctea, tienen un impacto directo en nuestro entendimiento de las condiciones de formación estelar temprana en el universo y en las propiedades fundamentales de la materia oscura",
@@ -9206,7 +9206,7 @@
         {
           "name": "Teófilo Vargas",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/teofilo-vargas-auccalla/"
+          "slug": "teofilo-vargas-auccalla"
         }
       ],
       "summary": "La relatividad general es la piedra angular de la cosmología moderna. Con motivo de los cien años de su publicación, en esta charla analizaremos las consecuencias cosmológicas de las ecuaciones de Einstein y presentaremos los modelos cosmológicos de Einstein, de Sitter, Friedmann, Lemaitre, Gödel, el modelo estándar de Big Bang y el modelo inflacionario. Finalmente, comentaremos sobre el carácter finito o infinito del Universo y sobre su topología.",
@@ -9226,7 +9226,7 @@
         {
           "name": "Franco Gonzáles",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/franco-alejandro-gonzales-nino/"
+          "slug": "franco-alejandro-gonzales-nino"
         }
       ],
       "summary": "Presentaremos el primer prototipo de un telescopio Newtoniano que ha sido diseñado y fabricado en su totalidad en los laboratorios y talleres de la PUCP. Mostraremos el diseño óptico, el diseño mecánico, los diferentes procesos de manufactura óptica y las pruebas ópticas de los elementos (espejos y lentes) que conforman el telescopio. Presentaremos también las pruebas realizadas para caracterizar al telescopio. Finalmente se proyectarán algunas imágenes obtenidas con el Telescopio Newtoniano PUCP. Este prototipo ha sido desarrollado por el Grupo de Investigación en Óptica Aplicada en el marco de proyectos financiados por la Dirección de Gestión de la Investigación PUCP.",
@@ -9246,7 +9246,7 @@
         {
           "name": "Francisco de Zela",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+          "slug": "francisco-antonio-de-zela-martinez"
         }
       ],
       "summary": "La conferencia ha sido motivada por cumplirse cien años de la publicación de la relatividad general. Tendrá un carácter introductorio, tratando de situar el aporte de Einstein en el contexto de épocas pasadas, así como de la actual. Dicho aporte trasciende el ámbito de teorías gravitatorias, proyectándose a una buena parte de la física teórica.",
@@ -9266,7 +9266,7 @@
         {
           "name": "Marco Milla",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/marco-antonio-milla-bravo/"
+          "slug": "marco-antonio-milla-bravo"
         }
       ],
       "summary": "El Radio Observatorio de Jicamarca es un centro de investigación del Instituto Geofísico del Perú dedicado al estudio de la ionosfera y capas altas de la atmósfera. Para este propósito, contamos con una serie de instrumentos geofísicos distribuidos en el territorio peruano, siendo el más importante de ellos el radar ionosférico más potente y grande del mundo. El radar de Jicamarca tiene relevancia internacional por ser el único instrumento en su clase ubicado en la región ecuatorial magnética y ha permitido el desarrollo de una serie de investigaciones a nivel mundial. En esta presentación haremos una revisión general sobre el radar de Jicamarca y el conjunto de instrumentos que complementan sus observaciones.",
@@ -9286,7 +9286,7 @@
         {
           "name": "Myriam Pajuelo",
           "affiliation": "Instituto de Mećanica Celeste y de Cálculo de Efemérides - Observatorio de París / Sección Física PUCP",
-          "profile": "/fisicos/myriam-virginia-pajuelo-cubillas/"
+          "slug": "myriam-virginia-pajuelo-cubillas"
         }
       ],
       "summary": "Los asteroides son importantes porque -junto con los cometas- son los remanentes de las piezas de formación con las que originalmente se crearon cuerpos más grandes como los planetas. En ese sentido, nos dan información valiosa sobre el origen y evolución del Sistema Solar. En el caso particular de los asteroides binarios, su interacción mutua nos brinda la oportunidad de investigar propiedades y procesos difíciles de estudiar en otros casos. Se mostrará cómo se caracterizan estos cuerpos y qué nos ha revelado su estudio hasta ahora.",
@@ -9306,7 +9306,7 @@
         {
           "name": "Amaru Töfflinger",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jan-amaru-palomino-tofflinger/"
+          "slug": "jan-amaru-palomino-tofflinger"
         }
       ],
       "summary": "En el Perú anualmente cae el doble de radiación solar por m2 que en Alemania, el país líder en instalaciones fotovoltaicas. Esto le da al Perú un gran potencial para contribuir mediante energías renovables a la reducción del cambio climático. El Grupo de Ciencias de los Materiales de la PUCP inició recientemente un proyecto dedicado a la investigación de nuevos materiales para celdas solares de silicio en colaboración con instituciones alemanas. En la charla se presentará una sinopsis del desarrollo y el estado del arte de las tecnologías fotovoltaicas, así como de los avances en la PUCP al respecto",
@@ -9326,7 +9326,7 @@
         {
           "name": "Eduardo Massoni",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/eduardo-ruben-massoni-kamimoto/"
+          "slug": "eduardo-ruben-massoni-kamimoto"
         }
       ],
       "summary": "La mecánica cuántica y la mecánica estadística son dos teorías físicas que han sido desde su creación muy productivas y exitosas en la descripción de la naturaleza. Sin embargo, la mecánica cuántica en principio es más fundamental, en el sentido que describe la evolución microscópica de los sistemas físicos. En el otro extremo, la mecánica estadística y la termodinámica describen sistemas más grandes, con muchos grados de libertad, y su validez se sustenta en el hecho que cuando no se conoce por completo toda la información de un sistema, de forma estadística emergen propiedades globales como la presión, temperatura, etc., que varían de forma organizada. En este coloquio exploraremos la conexión entre ambas teorías y si es posible, a partir de la mecánica cuántica, redescubrir la mecánica estadística.",
@@ -9365,7 +9365,7 @@
         {
           "name": "Hernán Castillo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/hernan-alfredo-castillo-egoavil/"
+          "slug": "hernan-alfredo-castillo-egoavil"
         }
       ],
       "summary": "En los últimos años, la descripción y ulterior implementación experimental de sistemas cuánticos que incorporen modelos de disipación, por cuestiones más prácticas que fundamentales, han recurrido a aproximaciones de un modelo cuántico más general, que contenga una descripción del sistema y su entorno. Revisando los postulados básicos de la mecánica cuántica y la termodinámica, la charla se centra en las consideraciones para poder incluir a los sistemas cuánticos como sistemas abiertos en baños térmicos",
@@ -9385,7 +9385,7 @@
         {
           "name": "Francisco de Zela",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+          "slug": "francisco-antonio-de-zela-martinez"
         }
       ],
       "summary": "La presentación se realiza en el marco de las actividades desarrolladas con motivo del",
@@ -9405,7 +9405,7 @@
         {
           "name": "Juan Antonio Lira",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/juan-antonio-lira-cacho/"
+          "slug": "juan-antonio-lira-cacho"
         }
       ],
       "summary": "La fricción entre un satélite artificial que orbita la Tierra y la atmósfera terrestre gradualmente reduce la altitud del satélite. El objetivo del coloquio es presentar a estudiantes de ciencias e ingeniería el cálculo de la vida orbital de un satélite. Solo es necesario tener conocimientos de mecánica clásica. Nuestro cálculo usa un modelo simple de la densidad atmosférica en función de la altitud.",
@@ -9486,7 +9486,7 @@
         {
           "name": "Eric Endress",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/eric-endress/"
+          "slug": "eric-endress"
         }
       ],
       "summary": "At low energies, the strong interaction of quarks and gluons poses challenging problems due to its intrinsic non-perturbative character. The formulation of the theory on a discrete space-time lattice provides a suitable tool to tackle these problems from first principles by means of large scale computer simulations. After giving a brief introduction to Quantum Chromodynamics (QCD), the quantum field theory of strong interactions, I will sketch the idea of lattice theory and present several applications in particle physics.",
@@ -9544,7 +9544,7 @@
         {
           "name": "José Luis Bazo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jose-luis-bazo-alba/"
+          "slug": "jose-luis-bazo-alba"
         }
       ],
       "summary": "AMS-02 es un detector de física de partículas de última generación diseñado para operar como un módulo externo en la Estación Espacial Internacional. Desde el espacio estudiamos el universo y su origen, buscando anti-materia y materia oscura, a la vez que realizamos medidas de alta precisión sobre la composición de los rayos cósmicos y su flujo. En esta charla revisaremos las características del detector, su operación, sus objetivos científicos y los principales resultados obtenidos.",
@@ -9564,7 +9564,7 @@
         {
           "name": "Celso Llimpe",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/celso-edgar-llimpe-quintanilla/"
+          "slug": "celso-edgar-llimpe-quintanilla"
         }
       ],
       "summary": "El presente estudio de contaminación sonora fue desarrollado considerando la metodología de gestión basada en resultados para determinar las causas directas e indirectas y las características de la contaminación en áreas consideradas críticas del Cercado de Lima. Presentaremos la metodología de estudios simplificados que utilizamos para evaluar la contaminación sonora. Resultados importantes de nuestro estudio son haber establecido un modelo conceptual de la contaminación sonora para el Cercado de Lima, la identificación del camino causal crítico y la matriz de marco lógico de las intervenciones para atenuar el problema.",
@@ -9598,7 +9598,7 @@
         {
           "name": "Antonio Pereyra",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/antonio-armstrong-pereyra-quiros/"
+          "slug": "antonio-armstrong-pereyra-quiros"
         }
       ],
       "summary": "La polarización de la luz ofrece posibilidades adicionales de estudio de objetos astronómicos a las que nos ofrecen las técnicas usuales de fotometría y espectroscopía. Las asimetrías en fenómenos astronómicos son particularmente interesantes desde el punto de vista de las medidas polarimétricas. Mostraremos ejemplos de su aplicabilidad en varias fases de la evolución estelar. Por ejemplo, en el mapeo del campo magnético en nubes oscuras interestelares, en el análisis de discos circunestelares de estrellas jóvenes y evolucionadas, así como en el estudio de supernovas y explosiones de rayos gamma.",
@@ -9618,7 +9618,7 @@
         {
           "name": "Justo Rojas",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/justo-rojas-tapia/"
+          "slug": "justo-rojas-tapia"
         }
       ],
       "summary": "Numerosos trabajos de investigación han mostrado que a escala nanométrica (10-9 m) los materiales presentan propiedades en muchos casos totalmente nuevas en comparación con los materiales macizos. Debido al creciente interés en la nanotecnología en general y en los nanomateriales en particular, es de gran importancia tratar de comprender, usando diversos métodos, a los materiales a escala nanométrica. En la conferencia se presentó cómo se puede estudiar mediante una simulación computacional las propiedades mecánicas de los nanocables de cobre durante la deformación por tensión. Se discutió la influencia de diferentes defectos preexistentes en los nanocables, como defectos lineales en la superficie y cavidades en el interior. También se discutirá la influencia de la orientación del cristal, así como de la temperatura.",
@@ -9657,7 +9657,7 @@
         {
           "name": "Francisco de Zela",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+          "slug": "francisco-antonio-de-zela-martinez"
         }
       ],
       "summary": "En la conferencia se discutirá la regla de Born desde la perspectiva del teorema de Gleason, así como la relación de este último con el resultado de Kochen y Specker, según el cual es imposible interpretar la mecánica cuántica desde una posición",
@@ -9677,7 +9677,7 @@
         {
           "name": "Ivonne Montes",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/ivonne-montes/"
+          "slug": "ivonne-montes"
         }
       ],
       "summary": "El mar peruano forma parte de uno de los sistemas de afloramiento de borde oriental que se caracteriza por ser muy productivo y rico en procesos dinámicos, gracias al fuerte acoplamiento entre el océano y la atmósfera. La presente charla expondrá algunos de los procesos físicos involucrados en la dinámica del mar peruano y presentará herramientas para su estudio.",
@@ -9806,7 +9806,7 @@
         {
           "name": "Desiderio Vásquez",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/desiderio-augusto-vasquez-rodriguez/"
+          "slug": "desiderio-augusto-vasquez-rodriguez"
         }
       ],
       "summary": "El nombre de Alan Turing está asociado a grandes avances en computación. En esta charla conversaremos acerca de algunos de sus logros, desde sus contribuciones al",
@@ -9826,7 +9826,7 @@
         {
           "name": "Richard Rivera",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/richard-alberto-rivera-campos/"
+          "slug": "richard-alberto-rivera-campos"
         }
       ],
       "summary": "En esta charla describiremos los principios teóricos y los procedimientos seguidos en el desarrollo de una herramienta para la medida de la respuesta de frecuencia de altavoces utilizando la técnica de espectrometría de retardo de tiempo. Esta técnica constituye una poderosa alternativa para la realización de dichas mediciones en un recinto no anecoico, es decir, carente de eco, y sin la utilización de la transformada de Fourier.",
@@ -9846,7 +9846,7 @@
         {
           "name": "Arturo Talledo",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/arturo-fernando-talledo-coronado/"
+          "slug": "arturo-fernando-talledo-coronado"
         }
       ],
       "summary": "En esta charla describiremos las técnicas utilizadas para producir nanocompuestos basados en nitruro de titanio (TiN), que contienen también nitruro de cromo, de vanadio y de silicio. Trataremos sobre deposición de películas delgadas usando recubrimientos multicapas y co-sputtering, y sobre el análisis de las mismas a través de difracción de rayos X, microscopía electrónica de barrido (SEM) y espectroscopía de electrones Auger. Finalizaremos presentando el estudio vía SEM de las indentaciones Vickers, utilizadas como medida estándar de la dureza de un material.",
@@ -9885,7 +9885,7 @@
         {
           "name": "Javier Solano",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/carlos-javier-solano-salinas/"
+          "slug": "carlos-javier-solano-salinas"
         }
       ],
       "summary": "Minerva es un novedoso experimento construido para investigar la interacción de neutrinos con la materia, a través de la medición de las diferentes secciones eficaces que caracterizan las interacciones entre neutrinos y distintos materiales. Para lograr esto, Minerva usa un diseño de alta segmentación, que le permite detectar las partículas resultantes de los procesos de interacción con alta precisión espacial. Adicionalmente, para ayudar en la toma de datos, se diseñó un framework con una interfaz web.\r\nUno de los resultados espectaculares de este experimento ha sido la demostración de la posibilidad de comunicación a distancia usando neutrinos. Por otro lado, los resultados de análisis físicos incluyen las medidas de secciones eficaces de dispersión (scattering) para procesos cuasi-elásticos en interacciones tanto de neutrinos como de anti-neutrinos, y la determinación de los radios de secciones eficaces en interacciones de corriente cargada de neutrinos con C, Fe, Pb y CH, a energías de 2 a 20 GeV.",
@@ -9905,7 +9905,7 @@
         {
           "name": "Juan Carlos Sihuincha",
           "affiliation": "Sección Física PUCP y Banco de Crédito del Perú",
-          "profile": "/fisicos/juan-carlos-sihuincha/"
+          "slug": "juan-carlos-sihuincha"
         }
       ],
       "summary": "¿Qué hace un físico en un banco? ¿Qué tienen en común una partícula de polen y una acción en la bolsa de valores? ¿Se puede modelar el comportamiento de los inversionistas? ¿Cuánto puede llegar a ganar un PhD en el mundo de las finanzas? ¿Por qué somos los “lobos de Wall Street”? Responderé a estas y más interrogantes que quizá ya hayan pasado por su cabeza. Además les contaré acerca de mi trabajo modelando tasas de interés, corridas bancarias y probabilidades de default, variables de suma importancia al momento de calcular los riesgos a los cuales bancos, aseguradoras y todo el sistema financiero se enfrentan debido a las fluctuaciones del mercado.",
@@ -9925,7 +9925,7 @@
         {
           "name": "Joel Jones",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/joel-jones-perez/"
+          "slug": "joel-jones-perez"
         }
       ],
       "summary": "El descubrimiento del bosón de Higgs ha sido el acontecimiento más grande dentro de la física de partículas en los últimos diez años. Encontrar dicha partícula ha requerido la construcción del Large Hadron Collider (LHC), el acelerador de partículas más energético en el mundo. En esta charla explicaremos la importancia del Higgs, describiremos los experimentos usados para descubrirlo dentro del LHC, y revisaremos aquellas propiedades que ya han sido medidas.",
@@ -9945,7 +9945,7 @@
         {
           "name": "César Guerra",
           "affiliation": "Sección Física PUCP y Wolfram Research South America",
-          "profile": "/fisicos/cesar-augusto-guerra-gutierrez/"
+          "slug": "cesar-augusto-guerra-gutierrez"
         }
       ],
       "summary": "En esta charla se dió una introducción a los autómatas celulares unidimensionales y a partir de ellos se mostrará cómo estos sistemas simples pueden generar un comportamiento complejo, cuyas soluciones ya no se pueden obtener analíticamente, pero cuyo comportamiento se puede analizar usando recursos computacionales. Se extenderán estas ideas a autómatas celulares en dos o más dimensiones y a otros sistemas simples como las máquinas de Turing. Finalmente se planteará el principio de la equivalencia computacional y se señalará algunas áreas de estudio y aplicaciones de estos sistemas simples.",
@@ -9979,7 +9979,7 @@
         {
           "name": "César Jiménez",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/cesar-omar-jimenez-tintaya/"
+          "slug": "cesar-omar-jimenez-tintaya"
         }
       ],
       "summary": "Describiremos el origen y las causas de ocurrencia de los maremotos, así como la dinámica y la física de los procesos de generación, propagación e inundación de los mismos. Hicimos  una cronología de los principales maremotos históricos que han afectado al Perú, enfatizando el maremoto notable del Callao de 1746. Armados con esta información, presentaremos los modelos numéricos para obtener los mapas de inundación por maremoto y la simulación numérica del sismo-maremoto de 1746. Finalmente, explicaremos el funcionamiento del Sistema Nacional de Alerta de Tsunamis, junto con las medidas de previsión y prevención ante la ocurrencia de maremotos de origen local.",
@@ -10089,7 +10089,7 @@
         {
           "name": "Joel Rojas",
           "affiliation": "Laboratorio de Teledetección, Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/joel-rojas-acuna/"
+          "slug": "joel-rojas-acuna"
         }
       ],
       "summary": "Estudiamos la dinámica de los aerosoles en Perú y América del Sur a partir de las imágenes del Espesor Óptico de los Aerosoles (AOT) procedentes del sensor MODIS transportado por los satélites TERRA y AQUA entre el 2000 y el 2013. Se usó además datos de AOT de seis de las estaciones de fotómetros solares AERONET (AErosol RObotic NETwork) , en Brasil, Bolivia y Chile, para validar los datos AOT–MODIS. Resaltaremos la importancia de la dispersión de aerosoles en el estudio de la contaminación atmosférica en ciudades y bosques.",
@@ -10109,7 +10109,7 @@
         {
           "name": "Teófilo Vargas",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/teofilo-vargas-auccalla/"
+          "slug": "teofilo-vargas-auccalla"
         }
       ],
       "summary": "La aplicación de la mecánica cuántica a la descripción del Universo como un todo en su etapa inicial, llamada también de escala de Planck, se conoce como “cosmología cuántica”. En el coloquio se revisó la cosmología padrón de Friedmann-Robertson-Walker, el modelo inflacionario y las propuestas de ausencia de frontera de Hartle-Hawking y de túnel, de Vilenkin y Linde, sobre el origen cuántico del Universo.",
@@ -10129,7 +10129,7 @@
         {
           "name": "Jorge Bravo",
           "affiliation": "Laboratorio de Arqueometría, Universidad Nacional Mayor de San Marcos",
-          "profile": "/professors/jorge-aurelio-bravo-cabrejos/"
+          "slug": "jorge-aurelio-bravo-cabrejos"
         }
       ],
       "summary": "En este coloquio se presentó los fundamentos de las técnicas nucleares de fluorescencia de rayos-X de energía dispersiva (FRXED) y de resonancia gamma nuclear (RGN), y sus aplicaciones en las investigaciones arqueológicas realizadas en la Facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos, en colaboración con investigadores de las ciencias sociales. De manera particular, se mostrará resultados de estudios sobre la composición elemental y estructural de colecciones peruanas de obsidianas, de los suelos de Moray, Cusco, de cerámicas Nasca, de pigmentos y de objetos metálicos que pertenecen a colecciones en museos de Lima y Lambayeque.",
@@ -10168,7 +10168,7 @@
         {
           "name": "Rubén Sánchez",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/eder-ruben-sanchez-alcantara/"
+          "slug": "eder-ruben-sanchez-alcantara"
         }
       ],
       "summary": "La espectroscopía de plasma inducido por láser, conocida como LIBS (Laser Induced Breakdown Spectroscopy), es una técnica para la detección de átomos en muestras sólidas, líquidas y gaseosas. El principio de LIBS es concentrar la luz de un láser pulsado (con energías de hasta cientos de mJ por pulso), utilizando un sistema óptico, en un área reducida sobre la muestra en estudio para generar plasma. Éste interactúa con la misma luz láser y genera fotones de diferentes longitudes de onda que son característicos de la muestra en estudio. Los fotones recolectados sirven para caracterizar la muestra. Las ventajas más importantes de esta técnica son: permite realizar análisis multielemental cualitativo y semi-cuantitativo en una sola medida; requiere poca o nada de preparación de la muestra; la cantidad mínima requerida de la muestra es del orden de los nanogramos, lo cual hace que está técnica sea clasificada como no destructiva; las mediciones son en tiempo real y pueden ser in situ con equipos portátiles. LIBS ha tenido gran aceptación a nivel mundial y ya es aplicada en diversas áreas de ciencia y tecnología.",
@@ -10226,7 +10226,7 @@
         {
           "name": "Modesto Montoya",
           "affiliation": "Universidad Nacional de Ingeniería / Instituto Peruano de Energía Nuclear",
-          "profile": "/fisicos/modesto-e-montoya-zavaleta/"
+          "slug": "modesto-e-montoya-zavaleta"
         }
       ],
       "summary": "Los ocho millones de habitantes de la ciudad de Lima son abastecidos de agua por los ríos Rímac y Chillón y por los pozos que se surten del acuífero de Lima. El registro histórico del flujo del río Rímac y el nivel estático en sus pozos han sido correlacionados para calcular el tiempo de tránsito del agua en el acuífero de Lima, desde que es recargado por el río Rímac hasta que llega a un pozo localizado a 12 km, en Miraflores, un distrito cerca del mar. La abundancia relativa de 2H and 18O es usada para identificar el origen de las aguas de esos pozos, y los contenidos de 3H y 14C son usados para estimar la edad del agua.",
@@ -10284,7 +10284,7 @@
         {
           "name": "Jorge Samanes",
           "affiliation": "CONIDA",
-          "profile": "/fisicos/jorge-samanes/"
+          "slug": "jorge-samanes"
         }
       ],
       "summary": "Durante los últimos seis años, la Dir. de Astrofísica del CONIDA ha culminado los trabajos de investigación de la misión JANAX para la instalación del Observatorio Astronómico Nacional. Además, iniciamos en el 2007 nuestra participación en las redes internacionales sobre monitoreo de la actividad solar utilizando ondas Very Low Frequency VLF (proyecto SAVNET) y desde el 2009 participamos en la red de detectores de rayos cósmicos (proyecto LAGO) en colaboración con el Centro de Radioastronomía de Mackenzie y con el Centro de Investigaciones de Bariloche, respectivamente. En el 2012 iniciamos la investigación en radioastronomía solar utilizando un radio espectrómetro en la banda de 45 MHz a 870 MHz, como parte de la red internacional denominada CALLISTO que es auspiciada por la ONU y la NASA dentro del programa de",
@@ -10342,7 +10342,7 @@
         {
           "name": "Mauricio Bustamante",
           "affiliation": "Julius-Maximilians Universität Würzburg / Deutsches Elektronen-Synchrotron (DESY",
-          "profile": "/fisicos/mauricio-bustamante-ramirez/"
+          "slug": "mauricio-bustamante-ramirez"
         }
       ],
       "summary": "El descubrimiento de los rayos cósmicos en 1912 abrió una nueva ventana en nuestro estudio del Universo. Hoy sabemos que son partículas cargadas -electrones, protones y núcleos atómicos- provenientes de fuera de la Tierra, que nos llegan continuamente desde todas las direcciones y que abarcan un gran rango de energías. Los menos energéticos son generados por el Sol; los de energía más alta, posiblemente por fuentes dentro de nuestra galaxia. Pero todo indica que los más energéticos, descubiertos en 1962, provienen de fuentes ubicadas fuera de la Vía Láctea: éstas son las partículas más energéticas observadas en el Universo conocido. Sin embargo, a pesar de cincuenta años de investigación tanto teórica como experimental, la identidad de estas fuentes y el mecanismo a través del cual producen los rayos cósmicos son aún desconocidos.",
@@ -10362,7 +10362,7 @@
         {
           "name": "Barton Zwiebach",
           "affiliation": "Massachusetts Institute of Technology",
-          "profile": "/fisicos/barton-zwiebach/"
+          "slug": "barton-zwiebach"
         }
       ],
       "summary": "La gravitación en teoría de cuerdas es una versión modificada de la teoría de relatividad de Einstein. Una nueva rama de las matemáticas, llamada geometría generalizada, nos da un marco para formular gravitación en cuerdas. En esta charla explicaré el progreso que se ha hecho y los misterios que quedan en la búsqueda de una formulación completa de la gravitación en teoría de cuerdas.",
@@ -10396,7 +10396,7 @@
         {
           "name": "Alberto Gago",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/alberto-martin-gago-medina/"
+          "slug": "alberto-martin-gago-medina"
         }
       ],
       "summary": "Los neutrinos son unas de las partículas elementales dentro del Modelo Estándar que más tiempo nos está llevando entender. Esto ocurre a pesar de su abundancia, ya que se producen copiosamente en diversas fuentes naturales, tales como el Sol, la atmósfera, etc. \r\n\r\nAhora bien, para poder alcanzar una medida precisa de estos parámetros ligados a las oscilaciones, los experimentos de neutrinos, que tienen energías en el orden de algunos GeV (Gigaelectronvoltios), requieren como ingrediente fundamental tener una medición muy precisa de la interacción dominante de los neutrinos en ese rango energético, llamada sección de choque cuasi-elástica. El experimento MINERvA (Main Injector Experiment for n-A) en Fermilab está justamente diseñado con el fin de lograr este último propósito. Durante el coloquio se habló de algunos de los aspectos mencionados arriba, así como de una descripción del experimento MINERvA y de sus recientes resultados en la medida de la sección de choque diferencial cuasi-elástica. Asimismo, se revisaron las contribuciones que ha hecho la PUCP a todo este esfuerzo en la física experimental de neutrinos.",
@@ -10416,7 +10416,7 @@
         {
           "name": "José Solís",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/jose-luis-solis-veliz/"
+          "slug": "jose-luis-solis-veliz"
         }
       ],
       "summary": "La evaluación sensorial que realizan los catadores al pisco se denomina caracterización organoléptica. Esta caracterización se realiza con la ayuda de la nariz y lengua humanas, que cuentan con una gran cantidad de células olfativas y del gusto ubicadas en el epitelio olfativo y diseminadas por la lengua, respectivamente. Lo que uno bebe u olfatea estimula estas células, que envían información a través de las neuronas al cerebro, donde se compara con patrones almacenados y se reconoce el sabor o aroma. \r\n\r\nUsando este principio se desarrolló un dispositivo prototipo para la caracterización organoléptica y que consiste en un sistema integrado de sensores conocido como",
@@ -10455,7 +10455,7 @@
         {
           "name": "Pablo Héctor Rivera",
           "affiliation": "Universidad Nacional Mayor de San Marcos",
-          "profile": "/professors/pablo-hector-rivera-riofano/"
+          "slug": "pablo-rivera"
         }
       ],
       "summary": "Desde la obtención experimental de los sistemas cristalinos bidimensionales como el disulfuro de molibdeno (MoS2) y, más recientemente (2004), el grafeno, éstos han mostrado unas propiedades extraordinarias y diferentes comparados con sus contrapartes tridimensionales. El grafeno se comporta como un semimetal, es decir, un material en el que existe una pequeña superposición entre el inicio de la banda de conducción electrónica y el final de la banda de valencia, a diferencia de los aislantes, en los que no existe superposición  y de los metales, en los que la superposición es mayor. En el grafeno, el transporte de carga eléctrica se realiza a través de electrones o huecos con una alta movilidad, que son denominados",
@@ -10475,7 +10475,7 @@
         {
           "name": "Myriam Pajuelo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/myriam-virginia-pajuelo-cubillas/"
+          "slug": "myriam-virginia-pajuelo-cubillas"
         }
       ],
       "summary": "La observación de ocultaciones estelares -cuando un objeto pasa delante de la línea de visión de una estrella y la oculta por unos instantes- constituye una herramienta única para determinar los tamaños y formas de cuerpos remotos, como pueden ser los cuerpos menores y los objetos transneptunianos (TNOs), pudiendo alcanzar precisión kilométrica, algo imposible de obtener con cualquier otro método en tierra. Adicionalmente se puede determinar la presencia de atmósferas tenues a niveles de presión de pocos nanobars, cosa que ningún método terrestre logra. En casos especiales, en los cuales se observen sistemas de varios cuerpos, es posible inclusive determinar propiedades como sus masas, densidades y hasta albedos. Esta técnica también se ha usado para descubrir anillos alrededor de planetas.\r\n\r\nEn ciertas ocasiones, este tipo de observación se puede lograr con equipo relativamente modesto, usando telescopios pequeños (desde 8",
@@ -10495,7 +10495,7 @@
         {
           "name": "Richard Moscoso",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/richard-alfredo-moscoso-bullon/"
+          "slug": "richard-alfredo-moscoso-bullon"
         }
       ],
       "summary": "La generación de ruido es un problema mundial. Sin embargo, cada país lo enfrenta, dependiendo de su cultura, economía y política, generalmente de manera diferente. Lamentablemente, el problema del ruido persiste aún inclusive en lugares donde se ha invertido gran cantidad de recursos con la finalidad de reducirlo. Por ejemplo, se han hecho grandes esfuerzos para reducir el ruido generado por automóviles y aviones; y, de hecho, hoy en día son mucho más silenciosos que aquellos fabricados hace una década. A pesar de esto, el tráfico vehicular y aéreo se ha incrementado de tal forma que ha aumentado el grado de molestia sobre la población expuesta. La Comunidad Europea considera al ruido como el segundo problema ambiental y de salud después de la calidad del aire y de no tomarse medidas se prevé que será el primer problema ambiental. Según la Organización Mundial de la Salud, el ruido debido al tráfico es dañino para la salud en uno de cada tres europeos y uno de cada cinco europeos está expuesto regularmente a niveles de ruido durante la noche que pueden dañar significativamente la salud. El presente coloquio tiene como finalidad presentar los conceptos básicos del ruido, cómo se mide el grado de molestia y daño sobre la población y cuál es la perspectiva en materia de ruido para nuestro país.",
@@ -10567,7 +10567,7 @@
         {
           "name": "Mirko Zimic",
           "affiliation": "Universidad Peruana Cayetano Heredia",
-          "profile": "/fisicos/mirko-juan-zimic-peralta/"
+          "slug": "mirko-juan-zimic-peralta"
         }
       ],
       "summary": "Los seres vivos y los sistemas biológicos son sistemas muy complejos, por lo que resulta impráctico a la fecha describirlos desde una aproximación física absoluta. Por esta razón se recurre a aproximaciones termodinámicas y abordajes bioinformáticos para modelar específicamente aspectos puntuales de un sistema biológico complejo. En esta charla se mostrará el tratamiento termodinámico del mecanismo de replicación del ADN y sus consecuencias en la aparición de mutaciones y en la evolución molecular. Adicionalmente se mostrará la aproximación bioinformática para el modelamiento molecular de proteínas y una nueva aproximación para el desarrollo de vacunas que promete mejorar la efectividad y reducir los efectos adversos inmunológicos.",
@@ -10606,7 +10606,7 @@
         {
           "name": "Rafael Carlos",
           "affiliation": "Seminario Permanente de Astronomía y Ciencias Espaciales SPACE, Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/rafael-edgardo-carlos-reyes/"
+          "slug": "rafael-edgardo-carlos-reyes"
         }
       ],
       "summary": "Las estrellas variables son aquellas cuya magnitud aparente, es decir, cuyo brillo visto desde la Tierra, fluctúa. Entre los diferentes tipos de estrellas variables se encuentran las supernovas: estrellas que, habiendo llegado al final de su evolución estelar regular e incapaces de seguir fusionando elementos para producir energía, explotan, convirtiéndose brevemente en algunos de los objetos más luminosos del Universo visible. En este coloquio se discutió la importancia de su estudio, así como la observación fotométrica de la supernova 2003gf en la constelación de Acuario y aparentemente perteneciente a la galaxia irregular MCG-04-52-26, desde el Observatorio Astronómico de la UNMSM, en Maranganí, Cusco, que alcanzó una magnitud de 15.1 en la banda visual (V).",
@@ -10626,7 +10626,7 @@
         {
           "name": "Juan Carlos Rueda",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/juan-carlos-rueda-sanchez/"
+          "slug": "juan-carlos-rueda-sanchez"
         }
       ],
       "summary": "Los polímeros inteligentes, o smart polymers, son polímeros que tienen sensibilidad a cambios en el medio ambiente, tales como, por ejemplo, variaciones de temperatura, de pH, de la luz y del campo magnético. Existe un gran interés científico y tecnológico en este tipo de materiales debido a sus posibles aplicaciones en áreas como medicina, electrónica, óptica, etc. Uno de los polímeros más investigados en este campo es la poli(N-isopropilacrilamida) (Poli(NIPAAm)), la cual presenta sensibilidad a la temperatura: modifica su conformación, pasando de un estado hidrofílico a uno hidrofóbico, al alcanzar una temperatura determinada. Posibles aplicaciones de este polímero son, por ejemplo, en el desarrollo de hidrogeles sensibles a la temperatura para su uso en sistemas de liberación controlada de medicamentos o fertilizantes, modificación de superficies (hidrofóbica-hidrofílica), sistemas de cultivo celular, control reológico, microreactores, sensores y actuadores.",
@@ -10703,7 +10703,7 @@
         {
           "name": "Francisco de Zela",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+          "slug": "francisco-antonio-de-zela-martinez"
         }
       ],
       "summary": "La mecánica cuántica ha tenido un éxito sin precedentes en cuanto a la exactitud con la que puede explicar los fenómenos que son su materia de estudio. Sin embargo, el formalismo mecánico-cuántico dio lugar, desde su primera formulación a inicios del siglo XX, a una serie de debates sobre su contenido conceptual. En particular, el debate entre Einstein y Bohr adquirió un carácter emblemático. En 1964, John Bell logró formular ciertas desigualdades que, al ser sometidas a tests experimentales, permiten dar un veredicto en favor de la postura de Einstein o de Bohr. Esto impulsó la realización de una serie de experimentos que ponen a prueba si nuestra descripción de la realidad física es o no compatible con conceptos básicos tales como realismo, determinismo, imposibilidad de acción a distancia, no-contextualidad, etc., los cuales están en la base de la ciencia moderna. [...]",
@@ -10723,7 +10723,7 @@
         {
           "name": "Abel Gutarra",
           "affiliation": "Laboratorio de Materiales Nanoestructurados, Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/abel-aurelio-gutarra-espinoza/"
+          "slug": "abel-aurelio-gutarra-espinoza"
         }
       ],
       "summary": "En esta charla se expondrán algunos resultados obtenidos por el Laboratorio de Materiales Nanoestructurados de la Universidad Nacional de Ingeniería, y por grupos asociados, en la fabricación y aplicaciones de nanomateriales para el aprovechamiento de la energía solar. En particular, nos enfocaremos en la fabricación de películas delgadas electrocrómicas para regular la transmitancia solar al interior de edificios, en el empleo de nanopartículas de dióxido de titanio como elementos de celdas solares fotoelectroquímicas y en el uso de arcillas naturales como materiales acumuladores de calor por cambio de fase. Finalmente, se propondrán posibles temas de colaboración con otros grupos de investigación.",
@@ -10800,7 +10800,7 @@
         {
           "name": "Ronald Woodman",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/ronald-francisco-woodman-pollitt/"
+          "slug": "ronald-francisco-woodman-pollitt"
         }
       ],
       "summary": "La técnica de dispersión incoherente, usada por el radar del Radio Observatorio de Jicamarca del Instituto Geofísico del Perú, se basa en la estrecha relación que existe entre la dinámica de los ecos de radar recibidos desde la ionosfera y las fluctuaciones de la densidad de electrones en ésta. Ambos son procesos aleatorios y sus características estadísticas se pueden predecir matemáticamente con mucha precisión, así como también es posible inferir, en forma remota y en función de la altura y la hora del día, los valores de los parámetros de estado que caracterizan la ionosfera, tales como la densidad y temperatura de los electrones, la composición, densidad y temperatura de los iones, los campos eléctricos y vientos. En esta charla presentaremos, a grandes rasgos, la teoría detrás de la técnica y algunos ejemplos de aplicación de ésta.",
@@ -10820,7 +10820,7 @@
         {
           "name": "Joel Jones",
           "affiliation": "Sección Física PUCP / Instituto de Física Corpuscular, Universidad de Valencia",
-          "profile": "/fisicos/joel-jones-perez/"
+          "slug": "joel-jones-perez"
         }
       ],
       "summary": "Supersimetría es una de las más estudiadas extensiones del Modelo Estándar de Partículas Elementales. Es un ingrediente necesario en teorías de supercuerdas y presenta soluciones a muchas preguntas que el Modelo Estándar no puede resolver, en los ámbitos teórico y experimental.\r\n\r\nEn esta charla se describirá el origen teórico de Supersimetría, y se esbozará la fenomenología del Modelo Mínimo Supersimétrico. Se comentarán los últimos resultados experimentales del Gran Colisionador de Hadrones (LHC) y las implicaciones del descubrimiento del bosón de Higgs.",
@@ -10859,7 +10859,7 @@
         {
           "name": "Eduardo Massoni",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/eduardo-ruben-massoni-kamimoto/"
+          "slug": "eduardo-ruben-massoni-kamimoto"
         }
       ],
       "summary": "En este coloquio presentaremos una introducción a la información clásica y cuántica. La información clásica es medida a través de la llamada",
@@ -10936,7 +10936,7 @@
         {
           "name": "Jorge Moreno",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jorge-nestor-moreno-ruiz/"
+          "slug": "jorge-nestor-moreno-ruiz"
         }
       ],
       "summary": "Desde hace varias décadas los altavoces son especificados por características tales como respuesta de frecuencia, fase y respuesta impulsiva, y por sus parámetros electro- y mecano-acústicos. Estos últimos no solo describen al altavoz, sino que además se emplean para modelar su comportamiento y el de los sistemas de altavoces que con éste se diseñen. En esta exposición se presentarán los parámetros que gobiernan el comportamiento de un altavoz y se analizará cómo influyen en la calidad del sonido.",
@@ -10994,7 +10994,7 @@
         {
           "name": "Bram Leo Willems",
           "affiliation": "Laboratorio de Teledetección Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/bram-leo-willems/"
+          "slug": "bram-leo-willems"
         }
       ],
       "summary": "La teledetección por satélite es en la actualidad el principal modus-operandi para la observación, medición e interpretación de diversos fenómenos naturales y antropogénicos que ocurren sobre la superficie y atmósfera del planeta Tierra. Constituye, a su vez, la herramienta más eficaz y económica para el desarrollo de sistemas de monitoreo diversos, a saber, por la amplia disponibilidad y accesibilidad de imágenes y productos con diferentes resoluciones espectrales, espaciales y temporales, los que posibilitan llevar a cabo diversos tipos de estudios espacio-temporales y a gran escala. El Laboratorio de Teledetección (LABTEL) de la Facultad de Ciencias Físicas de la UNMSM viene desarrollando diversos proyectos de investigación en temáticas relevantes a la degradación de tierras, sequías, heladas y pérdida de biodiversidad, entre otros, en los que las imágenes de satélite de libre acceso constituyen la principal herramienta. En la presente charla, se presentarán y discutirán los fundamentos físicos de la teledetección y su aplicación en estudios desarrollados en diversas regiones del Perú. Asimismo, se abordará la implementación del Sistema Nacional de Monitoreo y el Centro de Excelencia en Geociencias [...].",
@@ -11033,7 +11033,7 @@
         {
           "name": "Humberto Torreblanca",
           "affiliation": "Intel Corporation EE.UU",
-          "profile": "/fisicos/humberto-torreblanca/"
+          "slug": "humberto-torreblanca"
         }
       ],
       "summary": "Al terminar el bachillerato o la licenciatura aparece una pregunta: ¿conseguir un trabajo o seguir un posgrado en el extranjero? Las posibilidades de posgrado son muchas y las interrogantes también. La inversión no sólo de tiempo, sino también de dinero, puede ser significativa. En esta charla se trató de despejar algunas dudas y se dió consejos sobre cómo postular a programas de posgrado, conseguir financiamiento, e inclusive abaratar los costos de postulación. Además, se habló de la experiencia personal del expositor como estudiante de posgrado y se presentará una visión sobre las posibilidades después de graduarse.",
@@ -11053,7 +11053,7 @@
         {
           "name": "Humberto Torreblanca",
           "affiliation": "Intel Corporation EE.UU",
-          "profile": "/fisicos/humberto-torreblanca/"
+          "slug": "humberto-torreblanca"
         }
       ],
       "summary": "Es poco conocido que la materia puede estar en un cuarto estado llamado plasma. Sin embargo, el 99% del universo visible se encuentra en este estado. Desde explicar cómo el Sol, a través de las tormentas solares, afecta la ionósfera y por ende las telecomunicaciones, hasta ofrecer una solución a la crisis energética, pasando por su uso en la fabricación de microprocesadores, medicina y textiles, en la propulsión de cohetes e inclusive en una espada “láser”, el plasma juega un rol importante en la vida moderna.",
@@ -11073,7 +11073,7 @@
         {
           "name": "Hernán Castillo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/hernan-alfredo-castillo-egoavil/"
+          "slug": "hernan-alfredo-castillo-egoavil"
         }
       ],
       "summary": "Cuando la naturaleza se nos presenta, la primera impresión de diversidad y variabilidad da paso a la aparición de orden en las semejanzas que vamos encontrando en nuestras observaciones. Las semejanzas como una estructura inherente al mundo que nos rodea dan lugar a las simetrías. Estas semejanzas, llamadas invariancias, contienen una descripción más profunda de las reglas que usamos en nuestras teorías y están detrás de leyes de conservación que a menudo usamos de manera práctica. La conservación de la cantidad de movimiento lineal, energía mecánica, carga eléctrica, entre otras magnitudes, tiene su origen en la invariancia de las leyes físicas que usamos en las descripciones de los fenómenos asociados. Emmy Noether probó su famoso teorema en 1915, fue publicado en 1918 y desde entonces ha sido la piedra angular en la comprensión de la conexión entre leyes de conservación y simetrías.",
@@ -11131,7 +11131,7 @@
         {
           "name": "Alcides López",
           "affiliation": "Instituto Peruano de Energía Nuclear",
-          "profile": "/fisicos/alcides-agustin-lopez-milla/"
+          "slug": "alcides-agustin-lopez-milla"
         }
       ],
       "summary": "El Centro Nuclear Oscar Miroquesada de la Guerra (RACSO) cuenta con los reactores nucleares RP-0 y RP-10 donde se produce, mantiene y controla una reacción nuclear en cadena, de la cual se utiliza la radiación de neutrones en la producción de radioisótopos, análisis por activación neutrónica, y en la investigación y desarrollo en ciencias nucleares y de materiales. Algunas de las investigaciones desarrolladas incluyen la medición de Radón-222 en el ambiente, la elaboración de compuestos a base de residuos de madera capirona y polietileno, aplicaciones de procesamiento con radiación gamma, distribución de la producción de cerámicos en el campo de la arqueometría y radiografía neutrónica. En el área de los materiales que responden a un estímulo externo se investigan sensores de gas, fotocatalizadores, bactericidas, electrocrómicos, películas delgadas de Zn-Sn-O, nanopartículas de CuO, entre otros.",
@@ -11208,7 +11208,7 @@
         {
           "name": "Alberto Gago",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/alberto-martin-gago-medina/"
+          "slug": "alberto-martin-gago-medina"
         }
       ],
       "summary": "La teoría que describe los elementos básicos, indivisibles, de la Naturaleza, y la forma como interaccionan entre ellos, es llamada Modelo Estándar. Éste divide a las componentes básicas en leptones -el electrón es uno de ellos- y quarks, que son los que conforman a los protones y neutrones. Las interacciones, o fuerzas, fundamentales consideradas dentro del modelo son el electromagnetismo, la fuerza nuclear débil, y la fuerza fuerte, así como sus correspondientes mediadores. El modelo también predice la existencia de una partícula, llamada bosón de Higgs, que, dependiendo del grado de interacción que se tenga con ella, otorga diferentes masas a todas las partículas elementales que forman el mundo que nos rodea. Con excepción de este bosón, la existencia de todas las demás partículas elementales predichas por el Modelo Estándar ha sido ya confirmada experimentalmente.",
@@ -11228,7 +11228,7 @@
         {
           "name": "Julio Chanamé",
           "affiliation": "Pontificia Universidad Católica de Chile",
-          "profile": "/fisicos/julio-chaname/"
+          "slug": "julio-chaname"
         }
       ],
       "summary": "En el contexto del modelo jerárquico de formación de estructura en el universo, galaxias como la nuestra crecieron por la acumulación de entidades pequeñas formadas en épocas más tempranas. La evidencia observacional que soporta este escenario es amplia tanto en la Vía Láctea como en sistemas extragalácticos (por ejemplo, en forma de galaxias y cúmulos estelares en proceso de canibalización por sistemas mayores, usualmente mostrando largas corrientes organizadas de estrellas escapando de progenitores en plena destrucción), pero los detalles a pequeña escala y la progresión temporal de los mecanismos involucrados aún necesitan ser determinados y ordenados según su importancia relativa. En esta charla se entregará un panorama de lo aprendido en esta área, así como de algunos de los esfuerzos actuales para identificar vestigios de la época de formación galáctica en las cercanías del Sol.",
@@ -11248,7 +11248,7 @@
         {
           "name": "Leonidas Aliaga",
           "affiliation": "College of William & Mary",
-          "profile": "/fisicos/leonidas-aliaga-soplin/"
+          "slug": "leonidas-aliaga-soplin"
         }
       ],
       "summary": "El experimento NuMI (Neutrinos at the Main Injector) en Fermilab genera y envía un intenso haz de neutrinos-muón con energías en un rango de 2 a 20 GeV. Un buen conocimiento de este flujo es crucial para el cálculo de secciones eficaces de interacción de los neutrinos con distintos materiales. El experimento Minerva (Main Injector Experiment for v-A) estudia la interacción de neutrinos con agua y con núcleos de carbono, hierro, plomo y helio. En esta presentación discutiré las técnicas que se utilizan en estos estudios y el estatus actual del área.",
@@ -11325,7 +11325,7 @@
         {
           "name": "Susana Petrick",
           "affiliation": "Laboratorio de Datación, Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/susana-margarita-petrick-casagrande/"
+          "slug": "susana-margarita-petrick-casagrande"
         }
       ],
       "summary": "La aplicación de las herramientas de análisis y la caracterización de materiales nos dan una visión diferente de los objetos que son parte del patrimonio cultural. El conocimiento de los materiales y técnicas de fabricación de las obras nos permite, además de preservarlas mejor, reconocer el ingenio y rescatar al menos en parte los conocimientos de nuestros antecesores.",
@@ -11345,7 +11345,7 @@
         {
           "name": "Bernabé Mejía",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/bernabe-alonso-mejia-cordero/"
+          "slug": "bernabe-alonso-mejia-cordero"
         }
       ],
       "summary": "Uno de los más grandes triunfos de la Física ha sido la formulación de la mecánica cuántica. En los últimos años, se ha demostrado que sistemas cuánticos pueden ser usados para almacenar y procesar información, a través del entrelazamiento de sus componentes. La decoherencia cuántica es un fenómeno a través del cual un sistema, al interactuar con su entorno, pierde la información que se encontraba guardada en él. Actualmente, uno de los grandes retos consiste en diseñar un sistema físico lo suficientemente libre o protegido de decoherencia, condición que es necesaria para el desarrollo de las computadoras cuánticas.",
@@ -11365,7 +11365,7 @@
         {
           "name": "Hernando Tavera",
           "affiliation": "Dirección de Sismología, Instituto Geofísico del Perú",
-          "profile": "/fisicos/hernando-jhonny-tavera-huarache/"
+          "slug": "hernando-jhonny-tavera-huarache"
         }
       ],
       "summary": "La génesis de los grandes terremotos ocurridos en el borde occidental de América del Sur viene siendo cada vez mejor entendida. Con base en la aplicación de nuevos métodos y tipos de datos, se han propuesto escenarios sísmicos para los futuros terremotos que podrían afectar al borde occidental del Perú, principalmente para las regiones centro y sur.",
@@ -11404,7 +11404,7 @@
         {
           "name": "Gonzalo Gálvez",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/gonzalo-alvaro-francisco-javier-galvez-de-la-puente/"
+          "slug": "gonzalo-alvaro-francisco-javier-galvez-de-la-puente"
         }
       ],
       "summary": "Los compuestos semiconductores de SiC y AlN monocristalinos son adecuados, por ejemplo, para dispositivos optoelectrónicos en la región de espectro ultravioleta debido a su ancho de banda (3 eV a 6.2 eV). El sistema análogo amorfo (SiC)1-x(AlN)x se destaca por su fácil preparación y bajo costo.Las películas delgadas amorfas de (SiC)1-x(AlN)x son manufacturadas y estudiadas en la Pontificia Universidad Católica del Perú (PUCP) usando la técnica de deposición de rf magnetrón sputtering. Los materiales usados como fuentes (target) son SiC y AlN policristalinos altamente puros, preparados en la universidad de Friedrich-Alexander, las cuales aseguran, en contraste con los targets cerámicos comercialmente disponibles, la calidad semiconductora de las películas amorfas.",
@@ -11443,7 +11443,7 @@
         {
           "name": "Antonio Lira",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/juan-antonio-lira-cacho/"
+          "slug": "juan-antonio-lira-cacho"
         }
       ],
       "summary": "Las emisiones electromagnéticas en la atmósfera usualmente ocurren en relación con la aceleración de carga entre las nubes y la superficie de la Tierra. El relámpago es la emisión electromagnética más conocida en la naturaleza y tiene lugar durante las tormentas. Podemos preguntarnos si es posible tener una emisión electromagnética en la atmósfera –por ejemplo, un destello de luz– con origen en el interior de la Tierra. La respuesta es afirmativa y se describirán algunas teorías al respecto.",
@@ -11482,7 +11482,7 @@
         {
           "name": "Pablo Vilela",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/pablo-martin-vilela-proano/"
+          "slug": "pablo-martin-vilela-proano"
         }
       ],
       "summary": "En las reacciones autocatalíticas se observa una interfase que separa reactantes y productos que se va propagando conforme se produce la reacción. A esta interfase se le denomina frente de propagación o frente químico. La modelación de los frentes químicos puede aplicarse a otras áreas como incendios forestales, epidemias, etc. En este coloquio modelaremos los frentes químicos bajo la influencia de un flujo de Poiseuille utilizando la ecuación de Kuramoto-Sivashinsky en una dimensión. Mostraremos los distintos tipos de frentes que se propagan con velocidad constante sin cambiar de forma. Analizaremos también las transiciones entre distintos tipos de frentes. Adicionalmente, realizaremos un análisis de estabilidad lineal de los frentes.",
@@ -11521,7 +11521,7 @@
         {
           "name": "Richard Moscoso",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/richard-alfredo-moscoso-bullon/"
+          "slug": "richard-alfredo-moscoso-bullon"
         }
       ],
       "summary": "El estudio moderno de la acústica de recintos, también denominado acústica arquitectónica, es una rama de la física relativamente joven. Se considera que nació como área de investigación con Wallace Clement Sabine (1868-1919) al final del siglo XIX. El presente coloquio tiene como finalidad presentar los aspectos principales de esta disciplina que nos permitirán entender los temas actuales de investigación a nivel internacional y los problemas potenciales en edificaciones.",
@@ -11541,7 +11541,7 @@
         {
           "name": "Andrés Guerra",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jorge-andres-guerra-torres/"
+          "slug": "jorge-andres-guerra-torres"
         }
       ],
       "summary": "Las películas mono-cristalinas semiconductoras de materiales con un amplio ancho de banda como carburo de silicio (c-SiC), nitruro de silicio (c-Si3N4) o nitruro de aluminio (c-AlN) son de creciente interés en investigación y desarrollo para aplicaciones ópticas. Esto se debe principalmente a las extraordinarias propiedades del SiC, el Si3N4 y el AlN, como son su alto voltaje de ruptura y conductividad térmica, en contraste con los semiconductores usuales como GaAs y Si. Asimismo, un amplio ancho de banda permite la emisión a temperatura de ambiente en todo el rango visible, gracias al dopaje con tierras raras, cubriendo los colores básicos azul (Tm3+), verde (Tb3+) y rojo (Eu3+). De otro lado, es posible hacer",
@@ -11561,7 +11561,7 @@
         {
           "name": "Andrés Flores",
           "affiliation": "Sección Ing. Electrónica PUCP",
-          "profile": "/fisicos/donato-andres-flores-espinoza/"
+          "slug": "donato-andres-flores-espinoza"
         }
       ],
       "summary": "Los sistemas de sensado remoto permiten analizar aspectos del comportamiento de la tierra desde alturas elevadas. Es común asociar esto con las imágenes que pueden ser captadas por satélites que desde el espacio son capaces de registrar diversos tipos de información útil para la humanidad. Sin embargo, esta tecnología no está necesariamente disponible para los agricultores de zonas aisladas. Los métodos se valen de imágenes multiespectrales que pueden realizar un monitoreo para la obtención de un mayor rendimiento de los cultivos. Siendo las imágenes satelitales de alto costo, una alternativa es usar aeronaves que tengan la capacidad de transportar equipos especializados para la obtención de imágenes multiespectrales. Este proyecto plantea una solución usando diversos tipos de aeronaves, integrando tecnologías de cámaras digitales, computadoras embebidas, GPS, procesamiento de imágenes y comunicaciones.",
@@ -11600,7 +11600,7 @@
         {
           "name": "Orlando Pereyra",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/orlando-pereyra-ravinez/"
+          "slug": "orlando-pereyra-ravinez"
         }
       ],
       "summary": "Se mostrará las propiedades básicas que toda teoría fundamental debe poseer, poniendo de ejemplo histórico a la Electrodinámica Cuántica, para luego, bajo esos mismos principios, construir el modelo que actualmente rige la física de altas energías, el Modelo Estándar - ME ( SU(3) x SU(2)L x U(1) ). \r\n\r\nComo primeras modificaciones del ME tenemos las realizadas en el sector escalar, para posteriormente pasar a extensiones más elaboradas como son los Modelos Izquierdo-Derecho ( SU(3) x SU(2)L x SU(2)R x U(1) ) y los Modelos 3-3-1 ( SU(3) x SU(3)L x U(1) ). Se introducirá la fenomenología a ser calculada con la finalidad de discernir los aportes de cada modelo.",
@@ -11620,7 +11620,7 @@
         {
           "name": "Juan Carlos Rueda",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/juan-carlos-rueda-sanchez/"
+          "slug": "juan-carlos-rueda-sanchez"
         }
       ],
       "summary": "Actualmente en el campo de los polímeros existe una intensa investigación en el área de los polímeros inteligentes (polímeros smart), los cuales tienen la capacidad de poder reaccionar frente a un cambio en el medio ambiente tal como una variación de temperatura, pH, luz, campo magnético o eléctrico, etc. Estos polímeros pueden encontrar aplicaciones en campos tales como biomateriales, sensores, catálisis, óptica.\r\nPresentaré los resultados de una investigación realizada en esta área, en colaboración con el Instituto Leibniz de Investigaciones en Polímeros de Dresden-IPF (Alemania). La investigación fue realizada en parte en el IPF y en parte en la PUCP. Los resultados serán publicados en un capítulo especial (“polímeros conmutables”) de la revista internacional de polímeros Macromolecular Chemistry and Physics de Alemania.",
@@ -11659,7 +11659,7 @@
         {
           "name": "Ken Takahashi",
           "affiliation": "Instituto Geofísico del Perú",
-          "profile": "/fisicos/ken-takahashi-guevara/"
+          "slug": "ken-takahashi-guevara"
         }
       ],
       "summary": "Trabajos recientes proponen la existencia de un fenómeno nuevo, similar a El Niño-Oscilación Sur (ENOS), pero con diferencias en los detalles de sus características (e.g., Ashok et al., J. Clim. 2007). En particular, las anomalías en la temperatura superficial del mar (TSM) asociadas se ubican principalmente en el Pacífico ecuatorial central y con señal casi nula en el oriental. Utilizando la técnica de las funciones ortogonales empíricas se puede encontrar dos índices, que por construcción no tienen correlación entre sí, donde la principal (en términos de varianza explicada) se puede asociar al patrón dominante de ENOS, mientras que el segundo es atribuído al otro supuesto fenómeno, conocido como",
@@ -11698,7 +11698,7 @@
         {
           "name": "Carlos Landauro",
           "affiliation": "Facultad de Ciencias Físicas, Universidad Nacional Mayor de San Marcos",
-          "profile": "/fisicos/carlos-vladimir-landauro-saenz/"
+          "slug": "carlos-vladimir-landauro-saenz"
         }
       ],
       "summary": "Los sistemas físicos de muchas partículas se pueden clasificar en dos grandes grupos: ordenados o desordenados. Los primeros están relacionados con regularidad mientras que los segundos con irregularidad (o a lo mucho con orden local, como en el caso de los sistemas amorfos). Más aún, regularidad ha sido, por lo general, asociada a periodicidad. Sin embargo, existe otra forma de orden que se presenta en la naturaleza: el orden aperiódico. En la presente charla mostraré las consecuencias de este tipo de orden sobre las propiedades físicas de sistemas complejos como los cuasicristales y la molécula de ADN.",
@@ -11775,7 +11775,7 @@
         {
           "name": "Walter Estrada",
           "affiliation": "Universidad Nacional de Ingeniería",
-          "profile": "/fisicos/walter-david-estrada-cordova/"
+          "slug": "walter-david-estrada-cordova"
         }
       ],
       "summary": "El spray pyrolysis químico (TSP) es una de las técnicas de amplio uso para la fabricación de una variedad muy grande de materiales. Una variante novedosa del TSP, a fin de obtener películas de buena calidad, se ha desarrollado en nuestro laboratorio para fabricar recubrimientos metálicos de óxidos de metales de transición: NiOx, WOx, ZnO y SnO2, cuyas propiedades funcionales son ampliamente conocidas.\r\nEl proceso sol-gel constituye una parte importante de lo que se denomina “soft-chemistry”. Esta técnica tiene muchas aplicaciones tecnológicas, y particularmente es útil para la fabricación de películas delgadas. Este proceso es de bajo costo y algo simple: progresivamente se va construyendo una red a través de reacciones inorgánicas de polimerización a la temperatura ambiente o temperaturas relativamente moderadas. Dependiendo de las características y regularidad de las estructuras macromoleculares, se podrían preparar materiales amorfos o cristalinos. [...]",
@@ -11814,7 +11814,7 @@
         {
           "name": "Eduardo Massoni",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/eduardo-ruben-massoni-kamimoto/"
+          "slug": "eduardo-ruben-massoni-kamimoto"
         }
       ],
       "summary": "La mecánica cuántica describe sistemas físicos a nivel microscópico que manifiestan comportamientos no vistos a nivel macroscópico. Por ejemplo, cuando una piedra cae debido a la acción de la gravedad, asumimos que su velocidad y posición están descritas de forma exacta o determinista. En el caso de la mecánica cuántica, que es una teoría esencialmente probabilística, no se puede hablar de trayectorias o velocidades conocidas de forma determinista. Es más, las propiedades o información acerca de la piedra sólo pueden ser conocidas en forma restringida. En la charla se discutirá algunas supuestas paradojas que surgen de aceptar un mundo determinista y no probabilístico.",
@@ -11834,7 +11834,7 @@
         {
           "name": "Nelson Quispe",
           "affiliation": "Servicio Nacional de Meteorología e Hidrología del Perú SENAMHI",
-          "profile": "/fisicos/nelson-quispe-gutierrez/"
+          "slug": "nelson-quispe-gutierrez"
         }
       ],
       "summary": "La meteorología sinóptica estudia los fenómenos atmosféricos que ocurren en la capa más baja de la atmósfera (tropósfera). Asimismo, busca predecir el futuro meteorológico a corto plazo (3-7 días).\r\n\r\nPara realizar el pronóstico del tiempo es necesario hacer uso de técnicas y resultados en matemáticas, física y geografía, entre otros: la aplicación de éstos complementa el conocimiento del comportamiento atmosférico y resulta esencial para la predicción de su evolución.\r\n\r\nEs necesario también contar con información climatológica de la zona bajo análisis, lo cual permite entender su historia. Esto, aunado a la información meteorológica en tiempo real, modelos numéricos e imágenes de satélite, permite realizar la predicción de las condiciones meteorológicas.",
@@ -11892,7 +11892,7 @@
         {
           "name": "Hernán Castillo",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/hernan-alfredo-castillo-egoavil/"
+          "slug": "hernan-alfredo-castillo-egoavil"
         }
       ],
       "summary": "Hacia 1911, Ernest Rutherford formuló su famoso modelo atómico, donde núcleos de carga positiva formaban la mayor parte de la masa concentrada de los átomos. Electrones más livianos lo rodeaban formando un sistema similar a planetas que giraban describiendo órbitas. Este modelo tenía una base teórica en las fuerzas necesarias de atracción entre cargas y la relación entre sus masas y sus velocidades, y un fuerte respaldo experimental. Aunque no fue exacto ni riguroso, se convirtió en una pieza fundamental en el desarrollo, tanto teórico como experimental, de la búsqueda de comprensión de la real estructura de la materia y de la descripción de la física que la gobierna. La manera como interactúan estos constituyentes o partículas elementales, de las que está hecha la materia que conocemos, nos ha ayudado a mejorar nuestro entendimiento del universo que nos rodea. Desde el análisis de este primer experimento, que utilizaba núcleos de helio chocando sobre láminas de oro, hasta los grandes aceleradores de partículas capaces de hacer chocar núcleos completos de átomos más pesados, como el plomo, en el CERN, los físicos han buscado desentrañar las leyes fundamentales de la naturaleza por medio de modelos que acercan las predicciones teóricas a los resultados experimentales. [...]",
@@ -11912,7 +11912,7 @@
         {
           "name": "Jorge Chau",
           "affiliation": "Radio Observatorio de Jicamarca, Instituto Geofísico del Perú",
-          "profile": "/fisicos/jorge-chau/"
+          "slug": "jorge-chau"
         }
       ],
       "summary": "Gran parte de los desarrollos tecnológicos que utilizamos hoy en día dependen del estado de la ionosfera. Esta región es la capa de la atmósfera que está ionizada por efectos de la radiación solar entre los 60 y 1000 km de altura. Entre otras aplicaciones: (a) las comunicaciones HF utilizan la ionosfera para enlaces de comunicaciones más allá del horizonte, (b) las señales del sistema de posicionamiento global (GPS) atraviesan la ionosfera antes de llegar a Tierra, (c) la gran mayoría de satélites comerciales orbitan en esta capa, (d) el sensoramiento remoto global, tanto óptico como de radio, se realiza desde satélites, etc. La calidad y robustez de estas aplicaciones dependen de las condiciones ionosféricas: vientos, temperaturas, densidad de electrones, composición, etc, las cuales dependen principalmente de dos tipos de fuerzas: las que provienen de alturas superiores (del Sol o la magnetosfera) y las que provienen de alturas inferiores (océano, trosposfera, estratósfera, etc.). [...]",
@@ -11932,7 +11932,7 @@
         {
           "name": "Alberto Gago",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/alberto-martin-gago-medina/"
+          "slug": "alberto-martin-gago-medina"
         }
       ],
       "summary": "La física de neutrinos es uno de los tópicos más activos de investigación en el campo de la física de las partículas elementales. Esta actividad se refleja tanto en el ámbito experimental como en el teórico, siendo que en los últimos veinte años se han obtenido descubrimientos inesperados en lo que concierne a las propiedades de los neutrinos, como es el caso de sus oscilaciones.  \r\n\r\nEn este coloquio revisaremos estas propiedades, así como las distintas fuentes de producción de neutrinos. En particular, nos enfocaremos en los neutrinos astrofísicos de alta energía y veremos cómo estos nos pueden ayudar a explorar física que va más allá del Modelo Estándar.",
@@ -11966,7 +11966,7 @@
         {
           "name": "Desiderio Vásquez",
           "affiliation": "Sección Física PUCP / Purdue University",
-          "profile": "/fisicos/desiderio-augusto-vasquez-rodriguez/"
+          "slug": "desiderio-augusto-vasquez-rodriguez"
         }
       ],
       "summary": "El universo nos presenta una gran variedad de formas y patrones en la naturaleza, desde sistemas astrofísicos (galaxias, planetas, etc.), pasando por sistemas biológicos (animales y plantas). En esta charla introduciremos algunos mecanismos físico-químicos que permiten explicar la formación de patrones. Uno de ellos es la convección de Rayleigh-Benard que forma patrones cuando un fluido es calentado por debajo. En este experimento se observan patrones de convección, donde el fluido más liviano tiende a subir sobre el más denso. Presentaremos además el mecanismo de Turing basado en difusión molecular y reacciones autocatalíticas. En este caso, el estado homogéneo pierde estabilidad, dando paso a un estado donde se alternan regiones con distintas concentraciones químicas.\r\n\r\nSe discutirán resultados recientes donde el movimiento de fluidos lleva a la generación de formas similares a las de Turing.",
@@ -11986,7 +11986,7 @@
         {
           "name": "Francisco de Zela",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/francisco-antonio-de-zela-martinez/"
+          "slug": "francisco-antonio-de-zela-martinez"
         }
       ],
       "summary": "En 1984, Michael Berry introdujo en la mecánica cuántica un concepto que hoy lleva su nombre: la fase de Berry. Lo introdujo estudiando un problema particular: cómo evoluciona un estado cuántico bajo la acción de un agente externo a él, cuando dicho agente varía lenta y cíclicamente. Berry descubrió que al final de un ciclo el estado cuántico acumulaba un desfasaje respecto al estado inicial, desfasaje que no podía eliminarse, como hasta entonces se había supuesto. Este resultado despertó el interés de muchos físicos. Gracias a la contribución de múltiples investigadores, fue saliendo a luz la verdadera naturaleza del descubrimiento hecho por Berry. Se trataba de un caso particular de un fenómeno que se manifiesta no sólo en el ámbito de la mecánica cuántica sino también en la mecánica clásica, en la relatividad, etc. Fenómenos bien conocidos antes de 1984, como p. ej. el desplazamiento de un péndulo de Foucault y el efecto Aharonov-Bohm, pudieron entenderse como manifestaciones de la fase de Berry. Como ocurre con frecuencia en la física, estudiando un problema muy especial se llegó a poner en evidencia un principio fundamental y general. Esto ocurrió con la fase de Berry, luego denominada",
@@ -12025,7 +12025,7 @@
         {
           "name": "Jorge Moreno",
           "affiliation": "Sección Física PUCP",
-          "profile": "/fisicos/jorge-nestor-moreno-ruiz/"
+          "slug": "jorge-nestor-moreno-ruiz"
         }
       ],
       "summary": "El Laboratorio de Acústica es una entidad compuesta por profesionales dedicados a labores académicas, de servicios y de investigación. Académicamente, brinda cursos de Acústica a nivel de pregrado y maestrías, tales como Fundamentos de Acústica, Acústica arquitectónica, Control de ruido y vibraciones, Electroacústica, entre otros. En el área de Servicios, brindamos asesoría al medio industrial de nuestro país en temas de diseño acústico, así como de control de ruido y vibraciones. En referencia a la investigación, realizamos estudios en temas diversos como Acústica arqueológica, Acústica musical, Electroacústica e Instrumentación, entre otros.\r\n\r\nEn esta oportunidad, se disertará respecto del tema de diseño, modelamiento y auralización de recintos, tema que será expuesto utilizando el software de modelamiento ODEON, uno de los más avanzados en su clase.",

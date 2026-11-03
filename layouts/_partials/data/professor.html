@@ -1,5 +1,0 @@
-{{- $page := site.GetPage (printf "/professors/%s" .) -}}
-{{- if not $page -}}
-	{{- errorf "Unable to resolve professor %q" . -}}
-{{- end -}}
-{{- return $page -}}

@@ -4,8 +4,8 @@ The date is the front matter `date`: the git-derived Lastmod changes with every 
 */ -}}
 {{- $page := .page -}}
 {{- $authors := slice -}}
-{{- range partial "data/contributors.html" $page.Params.contributors -}}
-	{{- $authors = $authors | append (printf `<a class="relative" href="%s">%s</a>` .RelPermalink .Title) -}}
+{{- range $page.Params.contributors -}}
+	{{- with partial "data/person.html" . }}{{ $authors = $authors | append (printf `<a class="relative" href="%s">%s</a>` .RelPermalink .Title) }}{{ end -}}
 {{- end -}}
 <p class="byline" data-pagefind-ignore="all">
 	{{- if not $page.Date.IsZero }}<span>{{ partial "ui/date.html" $page.Date }}</span>{{ end -}}

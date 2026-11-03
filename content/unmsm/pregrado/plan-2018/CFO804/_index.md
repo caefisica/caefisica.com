@@ -6,7 +6,7 @@ id: "CFO804"
 credits: 4
 prerequisites: ["Mecánica Clásica I", "Electromagnetismo I"]
 semester: 8
-contributors: ["alvaro"]
+contributors: ["alvaro-siesquen"]
 pdf: false
 draft: true
 weight: 804

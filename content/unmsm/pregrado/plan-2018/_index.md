@@ -15,8 +15,6 @@ aliases:
   - /unmsm/pregrado/plan2018.pdf
 cascade:
   - params:
-      university: "unmsm"
-      plan: "plan-2018"
       featured: false
       images: []
       math: false

@@ -1,0 +1,150 @@
+# People with a page on the site who are not in data/physicists.json: faculty
+# who teach a course, authors and team members. A person in both would have
+# two pages, so a person who joins physicists.json leaves this file.
+# about: one line on who they are, shown under the name.
+
+[[people]]
+slug = "alfredo-sotelo-pejerrey"
+name = "Alfredo Sotelo Pejerrey"
+
+[[people]]
+slug = "armando-marcelino-taco-llave"
+name = "Armando Marcelino Taco Llave"
+
+[[people]]
+slug = "cesar-santiago-rojas-romero"
+name = "César Santiago Rojas Romero"
+
+[[people]]
+slug = "elvira-leticia-zeballos-velasquez"
+name = "Elvira Leticia Zeballos Velásquez"
+
+[[people]]
+slug = "garin-fedor-janampa-ananos"
+name = "Garin Fedor Janampa Añaños"
+
+[[people]]
+slug = "isidro-quiroz-zarabia"
+name = "Isidro Quiroz Zarabia"
+
+[[people]]
+slug = "jesus-felix-sanchez-ortiz"
+name = "Jesús Félix Sánchez Ortiz"
+
+[[people]]
+slug = "jesus-virgilio-luque-rivera"
+name = "Jesús Virgilio Luque Rivera"
+
+[[people]]
+slug = "jorge-aurelio-bravo-cabrejos"
+name = "Jorge Aurelio Bravo Cabrejos"
+
+[[people]]
+slug = "jose-kenyn-rodriguez-briceno"
+name = "José Kenyn Rodríguez Briceño"
+
+[[people]]
+slug = "jose-saldana-tovar"
+name = "José Saldaña Tovar"
+
+[[people]]
+slug = "juan-pedro-arguelles-torres"
+name = "Juan Pedro Argüelles Torres"
+
+[[people]]
+slug = "luis-alberto-macha-collotupa"
+name = "Luis Alberto Macha Collotupa"
+
+[[people]]
+slug = "luis-guillermo-huamanlazo-ricci"
+name = "Luis Guillermo Huamanlazo Ricci"
+
+[[people]]
+slug = "marco-rubio"
+name = "Marco Rubio"
+
+[[people]]
+slug = "marinoli-rivas-chamorro"
+name = "Marinoli Rivas Chamorro"
+
+[[people]]
+slug = "maruja-yolanda-gavilan-gonzales"
+name = "Maruja Yolanda Gavilán Gonzales"
+
+[[people]]
+slug = "maximo-poma-torres"
+name = "Máximo Poma Torres"
+
+[[people]]
+slug = "raul-felix-carita-montero"
+name = "Raúl Félix Carita Montero"
+
+[[people]]
+slug = "renato-tovar-landeo"
+name = "Renato Tovar Landeo"
+
+[[people]]
+slug = "renzo-emerson-rodriguez-calderon"
+name = "Renzo Emerson Rodríguez Calderón"
+
+[[people]]
+slug = "ronald-juven-reyes-narvaez"
+name = "Ronald Juven Reyes Narváez"
+
+[[people]]
+slug = "sofia-irena-duran-quinones"
+name = "Sofía Irena Durán Quiñones"
+
+[[people]]
+slug = "soledad-ramirez-carrasco"
+name = "Soledad Ramírez Carrasco"
+
+[[people]]
+slug = "alvaro-siesquen"
+name = "Alvaro Siesquen"
+about = "Estudiante de física"
+
+[[people]]
+slug = "andrea-palacios"
+name = "Andrea Palacios"
+
+[[people]]
+slug = "david-duran"
+name = "David Durán"
+about = "Estudiante de física"
+
+[[people]]
+slug = "israel-santana"
+name = "Israel Santana"
+
+[[people]]
+slug = "james"
+name = "James"
+
+[[people]]
+slug = "karla-torres"
+name = "Karla Torres"
+
+[[people]]
+slug = "liuba-ramos"
+name = "Liuba Ramos"
+about = "Estudiante de física"
+
+[[people]]
+slug = "nelson-noa"
+name = "Nelson Noa"
+about = "Exdelegado de la Base 20"
+
+[[people]]
+slug = "richard-avalos"
+name = "Richard Avalos"
+about = "Estudiante de física"
+
+[[people]]
+slug = "sergio-cordero"
+name = "Sergio Cordero"
+about = "Estudiante de física"
+
+[[people]]
+slug = "victor-tello"
+name = "Victor Tello"

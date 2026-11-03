@@ -1,6 +1,6 @@
 ---
 title: "Física Electrónica I — 2021-II"
-professor: "oscar-baltuano-elias"
+professor: "oscar-rolando-baltuano-elias"
 semester: "2021-II"
 date: 2021-08-01T00:00:00
 draft: false

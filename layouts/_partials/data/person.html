@@ -1,0 +1,6 @@
+{{- /* The page of a person named in front matter. Context: the slug. A slug without a page fails the build. */ -}}
+{{- $page := site.GetPage (printf "/personas/%s" .) -}}
+{{- if not $page -}}
+	{{- errorf "No person with slug %q in data/physicists.json or data/people.toml" . -}}
+{{- end -}}
+{{- return $page -}}

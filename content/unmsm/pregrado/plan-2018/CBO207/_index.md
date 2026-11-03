@@ -6,7 +6,7 @@ id: "CBO207"
 credits: 4
 prerequisites: ["No aplica"]
 semester: 2
-contributors: ["sergio", "richard"]
+contributors: ["sergio-cordero", "richard-avalos"]
 pdf: false
 math: true
 weight: 207

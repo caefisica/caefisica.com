@@ -9,7 +9,7 @@ lead:
 date: 2022-02-01T02:00:00
 draft: false
 weight: 20
-contributors: ["richard"]
+contributors: ["richard-avalos"]
 types: ["matemática"]
 ---
 

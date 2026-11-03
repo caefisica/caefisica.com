@@ -6,7 +6,7 @@ id: "CFO305"
 credits: 4
 prerequisites: ["Cálculo II"]
 semester: 3
-contributors: ["richard", "david"]
+contributors: ["richard-avalos", "david-duran"]
 pdf: false
 draft: false
 weight: 305

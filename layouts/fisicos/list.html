@@ -39,7 +39,7 @@
 		{{- if ne $place.lat nil }}{{ $mapped = $mapped | append .place }}{{ end -}}
 		{{- $stops = $stops | append (dict "name" ($place.short | default $place.name) "note" (delimit .did " · ")) -}}
 	{{- end -}}
-	{{- $profile := site.GetPage (printf "/fisicos/%s" .slug) -}}
+	{{- $profile := site.GetPage (printf "/personas/%s" .slug) -}}
 	{{- $role := "" -}}
 	{{- with .works }}{{ $w := index . 0 }}{{ $role = printf "%s, %s" $w.role (index $byId $w.place).name }}{{ end -}}
 	{{- $image := "" -}}

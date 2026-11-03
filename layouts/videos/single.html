@@ -58,7 +58,7 @@ A Drive folder's subfolders become sections of the lesson list, each numbered fr
 					<div>
 						<dt>Dicta</dt>
 						<dd>
-							{{- with index (where (site.GetPage "/fisicos").RegularPages "Title" .) 0 }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ . }}{{ end -}}
+							{{- with $.Params.person }}{{ with partial "data/person.html" . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ else }}{{ . }}{{ end -}}
 						</dd>
 					</div>
 				{{- end }}

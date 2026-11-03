@@ -6,7 +6,7 @@ id: "CBO104"
 credits: 4
 prerequisites: ["No aplica"]
 semester: 1
-contributors: ["sergio", "david"]
+contributors: ["sergio-cordero", "david-duran"]
 pdf: true
 draft: false
 weight: 104

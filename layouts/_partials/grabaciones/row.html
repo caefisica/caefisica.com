@@ -6,7 +6,7 @@
 	<div class="row-main">
 		<a class="card-link" href="{{ with $page }}{{ .RelPermalink }}{{ else }}{{ $r.url }}{{ end }}">{{ $r.title }}</a>
 		<p>
-			{{- range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ end }}
+			{{- range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ with $s.slug }}<a href="{{ (partial "data/person.html" .).RelPermalink }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ end }}
 			{{- with $r.speakers }}{{ with (index . 0).affiliation }}<span class="max-md:hidden"> ({{ . }})</span>{{ end }} · {{ end }}
 			{{- with .note }}{{ . }} · {{ end }}
 			{{- if $r.post }}<a href="{{ $r.post }}">Facebook</a>
