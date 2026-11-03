@@ -20,6 +20,7 @@ partículas; dos palabras no bastan.
 | ------------- | ------------------------------------------------------------------------------------------------- |
 | `id`          | La universidad y la sigla del grupo, como `unmsm-gimna`. Es la ruta de su página.                 |
 | `institution` | El `id` de su lugar en `data/physicists.json`; enlaza su página de organizaciones.                |
+| `summary`     | Qué investiga el grupo, en dos a cuatro frases nuestras. Su propio texto queda en su ficha.       |
 | `members`     | Nombre, `role` (`Coordinador`), grado y `slug` si tiene perfil. La PUCP solo da quien coordina.   |
 | `lines`       | Las líneas de investigación (UNMSM).                                                              |
 | `projects`    | Título, código y año de convocatoria de cada proyecto registrado (UNMSM).                         |

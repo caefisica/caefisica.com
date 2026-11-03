@@ -2,23 +2,15 @@
 {{- $g := . -}}
 {{- $data := hugo.Data.groups -}}
 <div class="markdown">
-	{{- with $g.about }}
-		<h2 id="descripcion">Descripción</h2>
-		{{ . | htmlEscape | markdownify }}
+	{{- with $g.summary }}
+		<h2 id="que-investiga">Qué investiga</h2>
+		<p>{{ . }}</p>
 	{{- end }}
 	{{- with $g.lines }}
 		<h2 id="lineas">Líneas de investigación <span class="count">{{ len . }}</span></h2>
 		<ul>
 			{{- range . }}<li>{{ . }}</li>{{ end }}
 		</ul>
-	{{- end }}
-	{{- with $g.goals }}
-		<h2 id="objetivos">Objetivos</h2>
-		{{ . | htmlEscape | markdownify }}
-	{{- end }}
-	{{- with $g.services }}
-		<h2 id="servicios">Servicios</h2>
-		{{ . | htmlEscape | markdownify }}
 	{{- end }}
 </div>
 {{- if eq $g.institution "unmsm" }}
