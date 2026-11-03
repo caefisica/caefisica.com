@@ -25767,35 +25767,6 @@
       ]
     },
     {
-      "slug": "johnny-junior-arroyo-barboza",
-      "name": "Johnny Junior Arroyo Barboza",
-      "initials": "JA",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=arroyo+barboza%2C+johnny+junior",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "pucp",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2018
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "pucp",
-          "did": ["Licenciatura"]
-        }
-      ]
-    },
-    {
       "slug": "aldo-arroyo-herrera",
       "name": "Aldo Arroyo Herrera",
       "initials": "AA",
@@ -25855,6 +25826,13 @@
         },
         {
           "place": "pucp",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2018
+        },
+        {
+          "place": "pucp",
           "level": "Maestría",
           "field": "Masters in digital signal and image processing",
           "start": 2015,
@@ -25900,7 +25878,8 @@
             "Maestría",
             "Teaching assistant",
             "Research assistant - laboratorio de imagenes medicas",
-            "Research assistant"
+            "Research assistant",
+            "Licenciatura"
           ]
         }
       ]
@@ -41537,6 +41516,13 @@
           "end": 2008
         },
         {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2018
+        },
+        {
           "place": "on",
           "level": "Maestría",
           "field": "Maestría",
@@ -41592,6 +41578,10 @@
         {
           "place": "on",
           "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "unmsm",
+          "did": ["Licenciatura"]
         },
         {
           "place": "unac",
@@ -49257,35 +49247,6 @@
       ]
     },
     {
-      "slug": "jorge-alejandro-gonzales-davalos",
-      "name": "Jorge Alejandro Gonzales Davalos",
-      "initials": "JG",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=gonzales+davalos%2C+jorge+alejandro",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "unmsm",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2018
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "unmsm",
-          "did": ["Licenciatura"]
-        }
-      ]
-    },
-    {
       "slug": "andres-miguel-gonzales-galvez",
       "name": "Andres Miguel Gonzales Galvez",
       "initials": "AG",
@@ -51862,7 +51823,7 @@
       "orcid": "0000-0002-1032-205X",
       "site": null,
       "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
+      "degree": "Maestría en física",
       "track": "Física",
       "openalex": "A5018523885",
       "area": "Física computacional y matemática",
@@ -51875,37 +51836,7 @@
           "field": null,
           "start": 1997,
           "end": 2001
-        }
-      ],
-      "works": [],
-      "jobs": [
-        {
-          "place": null,
-          "name": "Universidad Peruana de Ciencias Aplicadas",
-          "role": "Professor of physics",
-          "start": 2016,
-          "end": "now"
-        }
-      ],
-      "path": [
-        {
-          "place": "unmsm",
-          "did": ["Bachillerato"]
-        }
-      ]
-    },
-    {
-      "slug": "alejandro-ariel-heredia-guevara",
-      "name": "Alejandro Ariel Heredia Guevara",
-      "initials": "AH",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=heredia+guevara%2C+alejandro+ariel",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Maestría en física",
-      "track": "Física",
-      "studied": [
+        },
         {
           "place": "unmsm",
           "level": "Licenciatura",
@@ -51922,11 +51853,19 @@
         }
       ],
       "works": [],
-      "jobs": [],
+      "jobs": [
+        {
+          "place": null,
+          "name": "Universidad Peruana de Ciencias Aplicadas",
+          "role": "Professor of physics",
+          "start": 2016,
+          "end": "now"
+        }
+      ],
       "path": [
         {
           "place": "unmsm",
-          "did": ["Maestría", "Licenciatura"]
+          "did": ["Bachillerato", "Maestría", "Licenciatura"]
         }
       ]
     },
@@ -53858,35 +53797,6 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
-        }
-      ]
-    },
-    {
-      "slug": "yezena-huaypar-vasquez",
-      "name": "Yezena Huaypar Vasquez",
-      "initials": "YH",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=huaypar+vasquez%2C+yezena",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Maestría en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "unmsm",
-          "level": "Maestría",
-          "field": null,
-          "start": null,
-          "end": 2018
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "unmsm",
-          "did": ["Maestría"]
         }
       ]
     },
@@ -62544,35 +62454,6 @@
       ]
     },
     {
-      "slug": "melissa-de-jesus-medina-burga",
-      "name": "Melissa de Jesus Medina Burga",
-      "initials": "MM",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=medina+burga%2C+melissa+de+jesus",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "unmsm",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2022
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "unmsm",
-          "did": ["Licenciatura"]
-        }
-      ]
-    },
-    {
       "slug": "richard-medina-calderon",
       "name": "Richard Medina Calderon",
       "initials": "RM",
@@ -62765,6 +62646,13 @@
           "end": 2009
         },
         {
+          "place": "unmsm",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2022
+        },
+        {
           "place": "unalm",
           "level": "Maestría",
           "field": "Maestría",
@@ -62852,7 +62740,7 @@
         },
         {
           "place": "unmsm",
-          "did": ["Docente a tiempo parcial contratado"]
+          "did": ["Docente a tiempo parcial contratado", "Licenciatura"]
         }
       ]
     },
@@ -66258,35 +66146,6 @@
         {
           "kind": "lattes",
           "url": "http://lattes.cnpq.br/8278330348506182"
-        }
-      ]
-    },
-    {
-      "slug": "julio-morales-chinchay",
-      "name": "Julio Morales Chinchay",
-      "initials": "JM",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=morales+chinchay%2C+julio",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "uni",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2000
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "uni",
-          "did": ["Licenciatura"]
         }
       ]
     },
@@ -75899,35 +75758,6 @@
       ]
     },
     {
-      "slug": "ruben-ciro-puga-correa",
-      "name": "Ruben Ciro Puga Correa",
-      "initials": "RP",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=puga+correa%2C+ruben+ciro",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "uni",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2020
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "uni",
-          "did": ["Licenciatura"]
-        }
-      ]
-    },
-    {
       "slug": "ruben-puga",
       "name": "Ruben Puga",
       "initials": "RP",
@@ -75939,6 +75769,13 @@
       "degree": "Maestría en física",
       "track": "Física",
       "studied": [
+        {
+          "place": "uni",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2020
+        },
         {
           "place": "uni",
           "level": "Maestría",
@@ -75960,7 +75797,7 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Maestría", "Profesor contratado tc"]
+          "did": ["Maestría", "Licenciatura", "Profesor contratado tc"]
         }
       ]
     },
@@ -76590,35 +76427,6 @@
         {
           "place": "inen",
           "did": ["Fisico medico"]
-        }
-      ]
-    },
-    {
-      "slug": "cecilia-querebalu-garcia",
-      "name": "Cecilia Querebalu Garcia",
-      "initials": "CQ",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=querebalu+garcia%2C+cecilia",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Maestría en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "uni",
-          "level": "Maestría",
-          "field": null,
-          "start": null,
-          "end": 2019
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "uni",
-          "did": ["Maestría"]
         }
       ]
     },
@@ -79407,49 +79215,6 @@
       ]
     },
     {
-      "slug": "luis-fernando-reyes-hernandez",
-      "name": "Luis Fernando Reyes Hernandez",
-      "initials": "LR",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=reyes+hernandez%2C+luis+fernando",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Doctorado en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "uni",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2000
-        },
-        {
-          "place": "uni",
-          "level": "Maestría",
-          "field": null,
-          "start": null,
-          "end": 2006
-        },
-        {
-          "place": "uni",
-          "level": "Doctorado",
-          "field": null,
-          "start": null,
-          "end": 2008
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "uni",
-          "did": ["Licenciatura", "Maestría", "Doctorado"]
-        }
-      ]
-    },
-    {
       "slug": "daniel-lorenzo-reyes-lopez",
       "name": "Daniel Lorenzo Reyes Lopez",
       "initials": "DR",
@@ -79622,8 +79387,8 @@
         {
           "place": "uni",
           "level": "Licenciatura",
-          "field": "Licenciatura",
-          "start": 1999,
+          "field": null,
+          "start": null,
           "end": 2000
         },
         {
@@ -86009,35 +85774,6 @@
       ]
     },
     {
-      "slug": "sergio-santa-maria-linarez",
-      "name": "Sergio Santa Maria Linarez",
-      "initials": "SS",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=santa+maria+linarez%2C+sergio",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "unitru",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2019
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "unitru",
-          "did": ["Licenciatura"]
-        }
-      ]
-    },
-    {
       "slug": "sergio-santa-maria",
       "name": "Sergio Santa Maria",
       "initials": "SS",
@@ -88539,46 +88275,6 @@
           "end": 2019
         }
       ],
-      "path": [
-        {
-          "place": "uni",
-          "did": ["Licenciatura"]
-        },
-        {
-          "place": "pucp",
-          "did": ["Maestría"]
-        }
-      ]
-    },
-    {
-      "slug": "jose-manuel-suclupe-osorio",
-      "name": "Jose Manuel Suclupe Osorio",
-      "initials": "JS",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=suclupe+osorio%2C+jose+manuel",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Maestría en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "uni",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2019
-        },
-        {
-          "place": "pucp",
-          "level": "Maestría",
-          "field": null,
-          "start": null,
-          "end": 2022
-        }
-      ],
-      "works": [],
-      "jobs": [],
       "path": [
         {
           "place": "uni",
