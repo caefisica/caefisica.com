@@ -2,14 +2,11 @@
 
 [Español](../es/fisicos.md)
 
-Each person in `data/physicists.json` has a profile at `/fisicos/<slug>/` (see
-[Physicists map](#physicists-map)). To write someone's profile, create
-`content/fisicos/<slug>/index.md` with the same `slug` as the JSON: that page
+Each person in `data/physicists.json` has their page at `/personas/<slug>/` (see
+[people](contenido.md#people)). To write about someone, create
+`content/personas/<slug>/index.md` with the same `slug` as the JSON: that page
 replaces the generated one and the same template adds the JSON data to it. It
 reads like an encyclopedia article: each fact links a public source.
-
-If the written profile had another address, `aliases` keeps it; Cloudflare
-redirects it with `_redirects`.
 
 ## Sources
 
@@ -102,17 +99,24 @@ area, from the topics of their publications, and the output (`works_count` and
 `cited_by`). `places` lists the institutions with their coordinates (`lat` and
 `lon` null if they have no location). `people` lists each person with:
 
-| Field      | Use                                                                                                               |
-| ---------- | ----------------------------------------------------------------------------------------------------------------- |
-| `degree`   | Their highest degree, "Doctorado en física", or null without a degree.                                            |
-| `track`    | Their training: physics, geophysics, engineering or other.                                                        |
-| `studied`  | Their degrees, with institution, level and years.                                                                 |
-| `works`    | Their current posts.                                                                                              |
-| `jobs`     | All their posts, for the profile's timeline.                                                                      |
-| `path`     | Their route: each stop with its institution and what they did there.                                              |
-| `area`     | The area according to OpenAlex, or null with few indexed publications.                                            |
-| `fields`   | Optional: the fields named in their LinkedIn "About".                                                             |
-| `linkedin` | Optional: the LinkedIn profile the person publishes in their ORCID or CTI Vitae page, or that we checked by hand. |
+| Field       | Use                                                                                                                                                                                                                                                                |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `degree`    | Their highest degree, "Doctorado en física", or null without a degree.                                                                                                                                                                                             |
+| `track`     | Their training: physics, geophysics, engineering or other.                                                                                                                                                                                                         |
+| `studied`   | Their degrees, with institution, level and years.                                                                                                                                                                                                                  |
+| `works`     | Their current posts.                                                                                                                                                                                                                                               |
+| `jobs`      | All their posts, for the profile's trajectory.                                                                                                                                                                                                                     |
+| `path`      | Their route: each stop with its institution and what they did there.                                                                                                                                                                                               |
+| `area`      | The area according to OpenAlex, or null with few indexed publications.                                                                                                                                                                                             |
+| `fields`    | Optional: the fields named in their LinkedIn "About".                                                                                                                                                                                                              |
+| `orcid`     | Their ORCID, or null without one.                                                                                                                                                                                                                                  |
+| `links`     | Optional: their other profiles, each with `kind` and `url`. `kind` is a research profile (`inspire`, `scholar`, `lattes`…), a channel (`linkedin`, `github`, `youtube`) or `web`. They come from the person's ORCID or CTI Vitae page, or we checked them by hand. |
+| `wikipedia` | Optional: their Wikipedia article, in Spanish if there is one. It enters if their Wikidata item carries their ORCID, or if we checked by hand that the article is about them and not a namesake.                                                                   |
+
+A study the person lists as in progress on their ORCID enters `works` and `jobs`
+as "Estudiante de…", to the present, when its institution has a row in `places`
+and the person holds no current post there yet. So someone in a graduate
+programme shows among those at that institution today.
 
 A PUCP profile gives the degree and the institution but not the years, so those
 profiles order the degrees by level.
@@ -123,21 +127,25 @@ an entry without a year follows the previous one. Someone who returns to an
 institution passes through it again in the route. A post enters only if its
 institution has a row in `places`: universities, research centres,
 observatories, hospitals and technical state agencies. Companies, schools,
-ministries and banks stay in the profile's timeline, not in the route. The list
-by institution separates those who work there today ("Trabajan") from those who
-worked there before ("Trabajaron").
+ministries and banks stay in the profile's trajectory, not in the route. The
+list by institution separates those who work there today ("Trabajan") from those
+who worked there before ("Trabajaron").
+
+The profile's trajectory sorts the degrees and posts of `studied` and `jobs` by
+their first year and groups consecutive entries at one institution under it. An
+article with `timeline` replaces it with its cited list.
 
 When an institution is chosen, the globe draws the route of each person who
 studied or worked there. A name in that list, or the address
 `/fisicos/#ruta-<slug>`, opens the person's card in the panel and draws only
 their route.
 
-`content/fisicos/_content.gotmpl` creates a profile per person at
-`/fisicos/<slug>/`, with what the JSON says. This way the data stays in view
-when CTI Vitae does not respond. The profile uses the photo
-`static/images/fisicos/<slug>.jpg` if it exists; the rule of the Photo section
-applies here too. Without a photo, it shows the initials of the name and the
-first surname.
+`content/personas/_content.gotmpl` creates a page per person at
+`/personas/<slug>/`, with what the JSON says. This way the data stays in view
+when CTI Vitae does not respond. The page uses the photo in
+`static/images/personas/` if it exists; the rule of the Photo section applies
+here too. Without a photo, it shows the initials of the name and the first
+surname.
 
 When the JSON gains an institution outside Peru, run `bun run landmask`. It
 rewrites `assets/maps/land.bin` with the detailed coastline around each

@@ -5,7 +5,7 @@ lead:
   Encuentra aquí todo lo que necesitas para seleccionar tu área y enviar tu
   solicitud."
 description: "Guía para seleccionar y solicitar tu área de física en la escuela"
-contributors: ["alvaro", "david"]
+contributors: ["alvaro-siesquen", "david-duran"]
 featured: false
 pdf: false
 math: false

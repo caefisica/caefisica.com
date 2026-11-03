@@ -11,17 +11,17 @@ hugo new content blog/014-consejos/index.md
 
 Front matter fields the templates use:
 
-| Field          | Use                                                                 |
-| -------------- | ------------------------------------------------------------------- |
-| `title`        | Title of the post.                                                  |
-| `emoji`        | Emoji beside the title, in the post and its card (`":tada:"`).      |
-| `lead`         | Text under the title and on the card in `/blog/`.                   |
-| `description`  | Summary for search engines and social networks.                     |
-| `contributors` | Slugs in `content/contributors/`. See [naming](contenido.md#names). |
-| `math`         | With `true`, loads KaTeX for formulas.                              |
-| `mermaid`      | With `true`, loads Mermaid for the `mermaid` shortcode.             |
-| `weight`       | Page order; Hugo sorts from lowest to highest.                      |
-| `draft`        | With `true`, the page is not published. `bun run dev` shows it.     |
+| Field          | Use                                                             |
+| -------------- | --------------------------------------------------------------- |
+| `title`        | Title of the post.                                              |
+| `emoji`        | Emoji beside the title, in the post and its card (`":tada:"`).  |
+| `lead`         | Text under the title and on the card in `/blog/`.               |
+| `description`  | Summary for search engines and social networks.                 |
+| `contributors` | Slugs of people. See [people](contenido.md#people).             |
+| `math`         | With `true`, loads KaTeX for formulas.                          |
+| `mermaid`      | With `true`, loads Mermaid for the `mermaid` shortcode.         |
+| `weight`       | Page order; Hugo sorts from lowest to highest.                  |
+| `draft`        | With `true`, the page is not published. `bun run dev` shows it. |
 
 The body is Markdown. Images go in the same folder and are inserted with
 `img-simple`:

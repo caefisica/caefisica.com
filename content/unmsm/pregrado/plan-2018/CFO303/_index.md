@@ -6,7 +6,7 @@ id: "CFO303"
 credits: 6
 prerequisites: ["No aplica"]
 semester: 3
-contributors: ["david", "richard"]
+contributors: ["david-duran", "richard-avalos"]
 pdf: false
 draft: false
 weight: 303

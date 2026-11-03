@@ -11,10 +11,10 @@
 			<dd>{{ .Params.semester }}</dd>
 		</div>
 		{{- with .Params.professor }}
-			{{- with partial "data/professor.html" . }}
+			{{- with partial "data/person.html" . }}
 				<div>
 					<dt data-pagefind-ignore>Docente</dt>
-					<dd><a href="{{ .RelPermalink }}">{{ partial "data/professor-name.html" . }}</a></dd>
+					<dd><a href="{{ .RelPermalink }}">{{ .Title }}</a></dd>
 				</div>
 			{{- end }}
 		{{- end }}

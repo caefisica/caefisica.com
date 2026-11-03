@@ -1,86 +1,141 @@
+# One menu feeds the header, the footer and the search suggestions, so the three cannot drift.
 # Internal entries use pageRef so a moved page fails the build instead of leaving a dead link.
-# A parent entry has only an identifier: it opens a dropdown and is not a page.
+# A parent entry has only an identifier: it opens a dropdown and is a footer column.
+# params.description is the line under the name in the dropdown and the search suggestions.
+# params.suggest puts the entry in the search suggestions.
 
 [[main]]
-name = "Biblioteca"
-url = "https://216.empirical.workers.dev/"
+name = "Estudiar"
+identifier = "estudiar"
 weight = 10
 
 [[main]]
-name = "Académico"
-identifier = "academico"
-weight = 20
-
-[[main]]
-name = "Cursos"
+name = "Plan de estudios"
 pageRef = "/unmsm"
-parent = "academico"
+parent = "estudiar"
 weight = 10
+[main.params]
+description = "Una guía por curso, por plan y ciclo"
+suggest = true
 
 [[main]]
 name = "Apuntes"
 pageRef = "/apuntes"
-parent = "academico"
+parent = "estudiar"
 weight = 20
+[main.params]
+description = "Notas de clase escritas por estudiantes"
+suggest = true
 
 [[main]]
-name = "Videos"
+name = "Clases en video"
 pageRef = "/videos"
-parent = "academico"
-weight = 25
+parent = "estudiar"
+weight = 30
+[main.params]
+description = "Cursos completos en YouTube, clase por clase"
+suggest = true
+
+[[main]]
+name = "Docentes"
+pageRef = "/unmsm/docentes"
+parent = "estudiar"
+weight = 40
+[main.params]
+description = "Quién dicta cada curso"
 
 [[main]]
 name = "Facultad"
 pageRef = "/unmsm/facultad"
-parent = "academico"
-weight = 30
+parent = "estudiar"
+weight = 50
+[main.params]
+description = "Trámites, horarios, formatos y directorio"
 
 [[main]]
-name = "Recursos"
-identifier = "recursos"
-weight = 30
+name = "Biblioteca"
+url = "https://216.empirical.workers.dev/"
+parent = "estudiar"
+weight = 60
+[main.params]
+description = "Libros y documentos en el drive de la escuela"
+suggest = true
+
+[[main]]
+name = "Comunidad"
+identifier = "comunidad"
+weight = 20
 
 [[main]]
 name = "Físicos"
 pageRef = "/fisicos"
-parent = "recursos"
+parent = "comunidad"
 weight = 10
+[main.params]
+description = "Dónde estudiaron y trabajan los físicos del Perú"
+suggest = true
 
 [[main]]
 name = "Organizaciones"
 pageRef = "/organizaciones"
-parent = "recursos"
-weight = 12
+parent = "comunidad"
+weight = 20
+[main.params]
+description = "Universidades, institutos y quiénes están ahí"
 
 [[main]]
 name = "Grupos de investigación"
 pageRef = "/grupos"
-parent = "recursos"
-weight = 13
+parent = "comunidad"
+weight = 30
+[main.params]
+description = "Quiénes los integran y qué líneas trabajan"
 
 [[main]]
-name = "Revista de Investigación de Física"
-pageRef = "/revista"
-parent = "recursos"
-weight = 14
+name = "Equipo"
+pageRef = "/equipo"
+parent = "comunidad"
+weight = 40
+[main.params]
+description = "Los estudiantes que escriben este sitio"
+
+[[main]]
+name = "Investigación"
+identifier = "investigacion"
+weight = 30
 
 [[main]]
 name = "Tesis"
 pageRef = "/tesis"
-parent = "recursos"
-weight = 15
+parent = "investigacion"
+weight = 10
+[main.params]
+description = "Tesis de física de San Marcos, por área y año"
+suggest = true
+
+[[main]]
+name = "Revista"
+pageRef = "/revista"
+parent = "investigacion"
+weight = 20
+[main.params]
+description = "Revista de Investigación de Física, número por número"
 
 [[main]]
 name = "Charlas"
 pageRef = "/grabaciones"
-parent = "recursos"
-weight = 16
+parent = "investigacion"
+weight = 30
+[main.params]
+description = "Seminarios, coloquios y sustentaciones grabados"
 
 [[main]]
 name = "Blog"
 pageRef = "/blog"
-parent = "recursos"
-weight = 20
+weight = 40
+[main.params]
+description = "Becas, consejos y noticias de la escuela"
+suggest = true
 
 [[social]]
 name = "Facebook"
@@ -96,144 +151,23 @@ weight = 20
 [social.params]
 icon = "instagram"
 
-# What the search dialog suggests before anything is typed. The title is the line under the name.
-[[search]]
-name = "Cursos"
-title = "Guías por plan de estudios y ciclo"
-pageRef = "/unmsm"
+# The footer's last column: the project's own pages. The main menu's top-level links lead it.
+[[footer]]
+name = "Contacto"
+pageRef = "/contacto"
 weight = 10
-
-[[search]]
-name = "Apuntes"
-title = "Notas de clase por curso"
-pageRef = "/apuntes"
-weight = 20
-
-[[search]]
-name = "Videos"
-title = "Cursos completos en YouTube, clase por clase"
-pageRef = "/videos"
-weight = 25
-
-[[search]]
-name = "Blog"
-title = "Noticias y artículos de la escuela"
-pageRef = "/blog"
-weight = 30
-
-[[search]]
-name = "Biblioteca"
-title = "Libros y documentos en el drive de la escuela"
-url = "https://216.empirical.workers.dev/"
-weight = 40
-
-# The footer's columns: each parent is a heading, its children the links under it.
-[[footer]]
-name = "Estudiar"
-identifier = "estudiar"
-weight = 10
-
-[[footer]]
-name = "Plan de estudios"
-pageRef = "/unmsm/pregrado/plan-2018"
-parent = "estudiar"
-weight = 10
-
-[[footer]]
-name = "Apuntes"
-pageRef = "/apuntes"
-parent = "estudiar"
-weight = 20
-
-[[footer]]
-name = "Videos"
-pageRef = "/videos"
-parent = "estudiar"
-weight = 25
-
-[[footer]]
-name = "Facultad"
-pageRef = "/unmsm/facultad"
-parent = "estudiar"
-weight = 30
-
-[[footer]]
-name = "Biblioteca"
-url = "https://216.empirical.workers.dev/"
-parent = "estudiar"
-weight = 40
-
-[[footer]]
-name = "Leer"
-identifier = "leer"
-weight = 20
-
-[[footer]]
-name = "Blog"
-pageRef = "/blog"
-parent = "leer"
-weight = 10
-
-[[footer]]
-name = "Físicos"
-pageRef = "/fisicos"
-parent = "leer"
-weight = 20
-
-[[footer]]
-name = "Organizaciones"
-pageRef = "/organizaciones"
-parent = "leer"
-weight = 25
-
-[[footer]]
-name = "Grupos de investigación"
-pageRef = "/grupos"
-parent = "leer"
-weight = 27
-
-[[footer]]
-name = "Revista de Investigación de Física"
-pageRef = "/revista"
-parent = "leer"
-weight = 28
 
 [[footer]]
 name = "YouTube"
 url = "https://www.youtube.com/@caefisica/playlists"
-parent = "leer"
-weight = 30
-
-[[footer]]
-name = "Proyecto"
-identifier = "proyecto"
-weight = 30
-
-[[footer]]
-name = "Nosotros"
-pageRef = "/contributors"
-parent = "proyecto"
-weight = 10
-
-[[footer]]
-name = "Contacto"
-pageRef = "/contacto"
-parent = "proyecto"
 weight = 20
 
 [[footer]]
 name = "GitHub"
 url = "https://github.com/caefisica/caefisica.com"
-parent = "proyecto"
 weight = 30
 
 [[footer]]
 name = "Privacidad"
 pageRef = "/privacidad"
-parent = "proyecto"
 weight = 40
-
-[[tertiary]]
-name = "Propón un artículo"
-url = "https://github.com/caefisica/caefisica.com/issues/new"
-weight = 10

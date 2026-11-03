@@ -11,7 +11,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video, a
 	{{ partial "article/breadcrumbs.html" . }}
 	<h1>{{ .Title }}</h1>
 	<p class="text-lead">
-		{{- range $i, $s := $r.speakers }}{{ if $i }}{{ if eq $i (sub (len $r.speakers) 1) }} y {{ else }}, {{ end }}{{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ with $s.affiliation }} ({{ . }}){{ end }}{{ end }}
+		{{- range $i, $s := $r.speakers }}{{ if $i }}{{ if eq $i (sub (len $r.speakers) 1) }} y {{ else }}, {{ end }}{{ end }}{{ with $s.slug }}<a href="{{ (partial "data/person.html" .).RelPermalink }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ with $s.affiliation }} ({{ . }}){{ end }}{{ end }}
 		{{- with $r.speakers }}. {{ end }}{{ partial "ui/day-or-month.html" $r }}, en {{ with $seriesPage }}<a href="{{ .RelPermalink }}">{{ $series.name }}</a>{{ else }}{{ $series.name }}{{ end }}.
 	</p>
 	{{- if eq $r.host "YouTube" }}
@@ -57,7 +57,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video, a
 					<div>
 						<dt>{{ cond (eq (len .) 1) "Ponente" "Ponentes" }}</dt>
 						<dd>
-							{{- range $i, $s := . }}{{ if $i }}<br/>{{ end }}{{ with $s.profile }}<a href="{{ . | relURL }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ with $s.affiliation }}, {{ . }}{{ end }}{{ end -}}
+							{{- range $i, $s := . }}{{ if $i }}<br/>{{ end }}{{ with $s.slug }}<a href="{{ (partial "data/person.html" .).RelPermalink }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ with $s.affiliation }}, {{ . }}{{ end }}{{ end -}}
 						</dd>
 					</div>
 				{{- end }}

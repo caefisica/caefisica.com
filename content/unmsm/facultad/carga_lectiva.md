@@ -6,7 +6,7 @@ description:
 lead:
   "Horarios y docentes de los cursos del semestre 2022-II, publicados por la
   Facultad en setiembre de 2022."
-contributors: ["david"]
+contributors: ["david-duran"]
 date: 2022-09-09T08:48:45+00:00
 draft: false
 weight: 2010

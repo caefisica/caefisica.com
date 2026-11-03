@@ -4,7 +4,7 @@
 {{- $names := slice -}}
 {{- range $a.authors -}}
 	{{- $name := .name | htmlEscape -}}
-	{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/fisicos/%s" .)).RelPermalink $name }}{{ end -}}
+	{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/personas/%s" .)).RelPermalink $name }}{{ end -}}
 	{{- $names = $names | append $name -}}
 {{- end -}}
 <li class="group">

@@ -1,0 +1,23 @@
+{{- /* The rows of an OpenAlex works list: the title links the DOI, the authors with a profile link it, and the authors left out are counted. Context: the works. */ -}}
+<ul class="rows">
+	{{- range . }}
+		{{- $names := slice }}
+		{{- range .authors }}
+			{{- $name := .name | htmlEscape }}
+			{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/personas/%s" .)).RelPermalink $name }}{{ end }}
+			{{- $names = $names | append $name }}
+		{{- end }}
+		{{- $more := sub .n (len .authors) }}
+		<li class="group">
+			<div class="row-main">
+				{{- if .doi }}
+					<a class="card-link" href="{{ .doi }}">{{ .title }}</a>
+				{{- else }}
+					<span>{{ .title }}</span>
+				{{- end }}
+				<p>{{ delimit $names ", " | safeHTML }}{{ if gt $more 0 }} y {{ $more }} más{{ end }}</p>
+				<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
+			</div>
+		</li>
+	{{- end }}
+</ul>

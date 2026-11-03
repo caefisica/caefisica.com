@@ -1,0 +1,44 @@
+{{- /*
+The team page: the organisation chart from data/team.yaml, the other authors by how much they wrote, and how to join.
+*/ -}}
+{{ define "main" }}
+{{- $team := slice }}
+{{- range hugo.Data.team.areas }}{{ range .groups }}{{ range .members }}{{ $team = $team | append .person }}{{ end }}{{ end }}{{ end }}
+{{- $counts := dict }}
+{{- range where site.Pages "Params.contributors" "!=" nil }}
+	{{- range .Params.contributors }}
+		{{- if not (in $team .) }}{{ $counts = merge $counts (dict . (add (index $counts . | default 0) 1)) }}{{ end }}
+	{{- end }}
+{{- end }}
+{{- $others := slice }}
+{{- range $slug, $n := $counts }}{{ $others = $others | append (dict "page" (partial "data/person.html" $slug) "n" $n) }}{{ end }}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" .) }}
+	<div class="mt-12">{{ partial "ui/org-chart.html" . }}</div>
+
+	{{- with $others }}
+		<section class="team-band" aria-labelledby="also">
+			<h2 id="also" class="org-title">También escribieron</h2>
+			<ul class="rows rows-2">
+				{{- range sort (sort . "page.Title") "n" "desc" }}
+					<li class="group">
+						{{ partial "ui/avatar.html" (dict "page" .page "size" 32) }}
+						<div class="row-main"><a class="card-link" href="{{ .page.RelPermalink }}">{{ .page.Title }}</a></div>
+						<span class="row-meta">{{ partial "data/publication-count.html" .n }}</span>
+						{{ partial "ui/chevron.html" }}
+					</li>
+				{{- end }}
+			</ul>
+		</section>
+	{{- end }}
+
+	<section class="team-band" aria-labelledby="join">
+		<h2 id="join" class="org-title">Colabora</h2>
+		<p class="max-w-[40rem] text-muted">¿Estudias Física? Escribe una guía, corrige un error o propón un tema. Abre una propuesta en el repositorio o escríbenos.</p>
+		<p class="mt-6 flex flex-wrap gap-3">
+			<a class="btn btn-solid" href="{{ site.Params.docsRepo }}/issues/new">Propón un artículo</a>
+			<a class="btn btn-outline" href="{{ "contacto/" | relURL }}">Contáctanos</a>
+		</p>
+	</section>
+</div>
+{{ end }}

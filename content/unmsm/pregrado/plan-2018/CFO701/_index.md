@@ -6,7 +6,7 @@ id: "CFO701"
 credits: 5
 prerequisites: ["Electromagnetismo I"]
 semester: 7
-contributors: ["alvaro"]
+contributors: ["alvaro-siesquen"]
 pdf: false
 draft: false
 weight: 701

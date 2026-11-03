@@ -1,0 +1,24 @@
+{{- /*
+One page per person, at the person's slug: everyone in data/physicists.json and in data/people.toml. A slug is in one file only, so nobody gets two pages.
+A person with a written page at content/personas/<slug>/index.md gets that page instead, and the same template fills in the data.
+The photo is static/images/personas/<slug>.webp or .jpg when it exists; data/photos.yaml says where each one came from.
+*/ -}}
+{{- $people := slice -}}
+{{- range hugo.Data.physicists.people -}}
+	{{- $people = $people | append (dict "slug" .slug "name" .name "description" (printf "Dónde estudió y dónde trabaja %s, según sus fichas públicas." .name) "lastmod" (time.AsTime hugo.Data.physicists.fetched)) -}}
+{{- end -}}
+{{- range hugo.Data.people.people -}}
+	{{- $people = $people | append (dict "slug" .slug "name" .name "description" (.about | default (printf "%s en el Centro de Apoyo al Estudiante de Física." .name))) -}}
+{{- end -}}
+{{- range $people -}}
+	{{- if os.FileExists (printf "content/personas/%s/index.md" .slug) }}{{ continue }}{{ end -}}
+	{{- $params := dict "slug" .slug "description" .description -}}
+	{{- $slug := .slug -}}
+	{{- range slice "webp" "jpg" -}}
+		{{- $photo := printf "images/personas/%s.%s" $slug . -}}
+		{{- if os.FileExists (path.Join "static" $photo) }}{{ $params = merge $params (dict "images" (slice (printf "/%s" $photo))) }}{{ break }}{{ end -}}
+	{{- end -}}
+	{{- $page := dict "path" .slug "title" .name "params" $params "content" (dict "mediaType" "text/markdown" "value" "") -}}
+	{{- with .lastmod }}{{ $page = merge $page (dict "dates" (dict "lastmod" .)) }}{{ end -}}
+	{{- $.AddPage $page -}}
+{{- end -}}

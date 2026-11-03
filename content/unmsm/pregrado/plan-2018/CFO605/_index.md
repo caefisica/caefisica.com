@@ -6,7 +6,7 @@ id: "CFO605"
 credits: 4
 prerequisites: ["Física Moderna I"]
 semester: 6
-contributors: ["david"]
+contributors: ["david-duran"]
 pdf: false
 draft: false
 weight: 605

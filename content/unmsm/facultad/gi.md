@@ -12,9 +12,9 @@ draft: false
 weight: 2040
 images: []
 toc: false
-contributors: ["david"]
-# Read by the research-groups shortcode. A head with a professor page names it
-# by slug under content/professors; the page title supplies the name.
+contributors: ["david-duran"]
+# Read by the research-groups shortcode. A head with a page on the site names
+# the person by slug; the page title supplies the name.
 groups:
   - acronym: MNMF
     name: Modelamiento Numérico en Mecánica de Fluidos
@@ -96,7 +96,7 @@ groups:
       - Recursos energéticos
   - acronym: FAYCEN
     name: Física Aplicada y Computacional en Nuclear
-    head: { professor: raul-felix-carita-montero, email: rcaritam@unmsm.edu.pe }
+    head: { person: raul-felix-carita-montero, email: rcaritam@unmsm.edu.pe }
     lines:
       - Física médica
       - Estudio de radioisótopos
@@ -119,10 +119,7 @@ groups:
       Ambiente
     url: https://vrip.unmsm.edu.pe/caimma
     head:
-      {
-        professor: gilberto-yactayo-yactayo,
-        email: gilberto.yactayo@unmsm.edu.pe,
-      }
+      { person: gilberto-yactayo-yactayo, email: gilberto.yactayo@unmsm.edu.pe }
     lines:
       - Aplicaciones de la física en nanociencia y nanotecnología de materiales
         magnéticos
@@ -131,7 +128,7 @@ groups:
   - acronym: GMCAN
     name: Grupo de Métodos Computacionales Aplicados a Nanomateriales
     url: https://vrip.unmsm.edu.pe/gmcan
-    head: { professor: justo-rojas-tapia, email: jrojast@unmsm.edu.pe }
+    head: { person: justo-rojas-tapia, email: jrojast@unmsm.edu.pe }
     lines:
       - Propiedades estructurales de las nanopartículas
       - Ciencia de materiales avanzados y de estructuras artificiales
@@ -140,7 +137,8 @@ groups:
   - acronym: GISICOF
     name: Grupo de Investigación de Sistemas Complejos Funcionalizados
     url: https://vrip.unmsm.edu.pe/gisicof
-    head: { professor: carlos-landauro-saenz, email: clandauros@unmsm.edu.pe }
+    head:
+      { person: carlos-vladimir-landauro-saenz, email: clandauros@unmsm.edu.pe }
     lines:
       - Aplicaciones de la física en nanociencia y nanotecnología de materiales
         magnéticos
@@ -152,8 +150,7 @@ groups:
       { name: César Augusto Aguirre Céspedes, email: caguirrec@unmsm.edu.pe }
   - acronym: GISFUC
     name: Grupo de Investigación en Sistemas Fuertemente Correlacionados
-    head:
-      { professor: jaime-francisco-vento-flores, email: jventof@unmsm.edu.pe }
+    head: { person: jaime-francisco-vento-flores, email: jventof@unmsm.edu.pe }
     lines:
       - Aplicaciones de la física en nanociencia y nanotecnología de materiales
         magnéticos
@@ -163,10 +160,7 @@ groups:
       Materiales Ópticos
     url: https://vrip.unmsm.edu.pe/gelynol
     head:
-      {
-        professor: whaulkuer-enrique-lozano-bartra,
-        email: wlozanob@unmsm.edu.pe,
-      }
+      { person: whualkuer-enrique-lozano-bartra, email: wlozanob@unmsm.edu.pe }
     lines:
       - Óptica lineal y no lineal
       - Arqueometría
@@ -176,7 +170,7 @@ groups:
     url: https://vrip.unmsm.edu.pe/ceanum
     head:
       {
-        professor: elvira-leticia-zeballos-velasquez,
+        person: elvira-leticia-zeballos-velasquez,
         email: ezeballosv@unmsm.edu.pe,
       }
     lines:
@@ -201,8 +195,7 @@ groups:
   - acronym: LAB2D4
     name: LAB2D4
     url: https://vrip.unmsm.edu.pe/lab
-    head:
-      { professor: pablo-hector-rivera-riofano, email: priverar@unmsm.edu.pe }
+    head: { person: pablo-rivera, email: priverar@unmsm.edu.pe }
     lines: [Ciencia de materiales avanzados y de estructuras artificiales]
   - acronym: CTCLIMA
     name:

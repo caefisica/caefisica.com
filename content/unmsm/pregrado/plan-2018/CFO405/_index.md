@@ -6,7 +6,7 @@ id: "CFO405"
 credits: 4
 prerequisites: ["Cálculo III", "Física Matemática I"]
 semester: 4
-contributors: ["david", "richard"]
+contributors: ["david-duran", "richard-avalos"]
 featured: true
 pdf: false
 draft: false

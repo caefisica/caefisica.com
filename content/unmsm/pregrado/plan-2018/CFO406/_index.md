@@ -6,7 +6,7 @@ id: "CFO406"
 credits: 4
 prerequisites: ["Física Matemática I"]
 semester: 4
-contributors: ["richard", "david", "sergio"]
+contributors: ["richard-avalos", "david-duran", "sergio-cordero"]
 pdf: true
 draft: false
 weight: 406

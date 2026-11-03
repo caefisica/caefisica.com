@@ -6,7 +6,7 @@ id: "CFO705"
 credits: 3
 prerequisites: ["No aplica"]
 semester: 7
-contributors: ["alvaro"]
+contributors: ["alvaro-siesquen"]
 pdf: false
 draft: true
 weight: 705

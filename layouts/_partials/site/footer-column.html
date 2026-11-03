@@ -1,0 +1,9 @@
+{{- /* One footer column. Context: dict with id, name and entries, a list of menu entries. */ -}}
+<nav aria-labelledby="footer-{{ .id }}">
+	<h2 id="footer-{{ .id }}" class="m-0 mb-4 text-sm font-medium text-fg">{{ .name }}</h2>
+	<ul class="m-0 grid list-none gap-2.5 p-0">
+		{{- range .entries }}
+			<li><a class="text-muted hover:text-fg" href="{{ .URL }}">{{ .Name }}</a></li>
+		{{- end }}
+	</ul>
+</nav>

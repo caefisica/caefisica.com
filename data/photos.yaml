@@ -1,0 +1,50 @@
+# Where each photo in static/images/personas/<slug>.webp or .jpg came from, keyed by slug; see docs/fisicos.md.
+# A photo from Wikimedia Commons has author, license, licenseUrl and source: its licence requires them next to the photo.
+# A photo the person sent us has `sent: true` and shows no credit.
+adolfo-maximo-poma-bernaola:
+  author: PomaResearch
+  license: CC BY-SA 4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://commons.wikimedia.org/wiki/File:Adolfo_Poma_Bernaola.jpg
+barton-zwiebach:
+  author: Luboš Motl
+  license: dominio público
+  source: https://commons.wikimedia.org/wiki/File:Barton-zwiebach-crop.JPG
+ivonne-montes:
+  author: Concytec
+  license: CC BY-SA 2.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://commons.wikimedia.org/wiki/File:Yvonne_Montes_1.jpg
+modesto-e-montoya-zavaleta:
+  author: Myra E. Flores
+  license: CC BY-SA 4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://commons.wikimedia.org/wiki/File:Modesto_Montoya.jpg
+monica-marcela-gomez-leon:
+  author: Dante Garcia
+  license: CC BY-SA 4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://commons.wikimedia.org/wiki/File:Monica_Gomez_Leon.jpg
+sara-regina-purca-cuicapusa:
+  author: Concytec
+  license: CC BY-SA 2.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://commons.wikimedia.org/wiki/File:Sara_Purca_2.png
+yamina-silva-vidal:
+  author: diseno.gob.pe
+  license: CC BY-SA 2.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://commons.wikimedia.org/wiki/File:Yamina_Silva_1.jpg
+alvaro-siesquen: { sent: true }
+andrea-palacios: { sent: true }
+david-duran: { sent: true }
+eduardo-gonzalo-villarreyes-pena: { sent: true }
+erwin-renzo-franco-diaz: { sent: true }
+james: { sent: true }
+joseph-andre-luna-ramos: { sent: true }
+karla-torres: { sent: true }
+liuba-ramos: { sent: true }
+nelson-noa: { sent: true }
+richard-avalos: { sent: true }
+sergio-cordero: { sent: true }
+victor-tello: { sent: true }

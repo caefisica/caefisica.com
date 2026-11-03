@@ -15,7 +15,7 @@ id: "CFO703"
 credits: 5
 prerequisites: ["Mecánica Cuántica I"]
 semester: 7
-contributors: ["david"]
+contributors: ["david-duran"]
 pdf: false
 draft: false
 weight: 703

@@ -2,5 +2,12 @@
 {{- with .Params.contributors }}{{ partial "article/byline.html" (dict "page" $) }}{{ end }}
 {{- if and .Params.showInformationBox .Params.id }}{{ partial "docs/course-info.html" . }}{{ end }}
 {{- if .Params.working }}{{ partial "docs/working-notice.html" . }}{{ end }}
+{{- with .Params.organization }}
+	{{- with site.GetPage (printf "/organizaciones/%s" .) }}
+		<p class="text-muted">Quiénes estudiaron o trabajan en la universidad y qué publica: <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
+	{{- else }}
+		{{- errorf "%s: organization %q has no page" $.File.Path . }}
+	{{- end }}
+{{- end }}
 <div class="markdown">{{ .Content }}</div>
 {{- if .IsSection }}{{ partial "docs/section-index.html" . }}{{ end -}}

@@ -5,6 +5,7 @@
 {{- $lead := index (where $g.members "role" "Coordinador") 0 -}}
 {{- $from := time.AsTime $data.works_from -}}
 {{- $vrip := eq $g.institution "unmsm" -}}
+{{- .Store.Set "more" true -}}
 <article class="person-page py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<header>
@@ -60,85 +61,10 @@
 			</div>
 		</dl>
 	</section>
+	{{- $body := partial "grupos/sections.html" $g }}
 	<div>
-		<div class="markdown">
-			{{- with $g.about }}
-				<h2 id="descripcion">Descripción</h2>
-				{{ . | htmlEscape | markdownify }}
-			{{- end }}
-			{{- with $g.lines }}
-				<h2 id="lineas">Líneas de investigación</h2>
-				<ul>
-					{{- range . }}<li>{{ . }}</li>{{ end }}
-				</ul>
-			{{- end }}
-			{{- with $g.goals }}
-				<h2 id="objetivos">Objetivos</h2>
-				{{ . | htmlEscape | markdownify }}
-			{{- end }}
-			{{- with $g.services }}
-				<h2 id="servicios">Servicios</h2>
-				{{ . | htmlEscape | markdownify }}
-			{{- end }}
-		</div>
-		{{- if $vrip }}
-			<h2 id="integrantes">Integrantes <span class="count">{{ len $g.members }}</span></h2>
-			<p class="text-muted">El nombre enlaza el perfil de quien está en el mapa de físicos.</p>
-			<ul class="rows">
-				{{- range $g.members }}
-					<li class="group">
-						<div class="row-main">
-							{{ partial "grupos/person.html" . }}
-							{{- with .degree }}<p>{{ . }}</p>{{ end }}
-						</div>
-						{{- with .role }}<span class="row-meta">Coordinación</span>{{ end }}
-					</li>
-				{{- end }}
-			</ul>
-		{{- end }}
-		{{- with $g.projects }}
-			<h2 id="proyectos">Proyectos <span class="count">{{ len . }}</span></h2>
-			<p class="text-muted">Los proyectos que el Vicerrectorado registra para el grupo, con su código y, cuando el código lo indica, el programa que lo financió.</p>
-			<ul class="rows">
-				{{- range . }}
-					<li class="group">
-						<div class="row-main">
-							<span>{{ .title }}</span>
-							<p>{{ .code }}{{ with .programme }} · <abbr title="{{ index $data.programmes . }}">{{ . }}</abbr>{{ end }}</p>
-						</div>
-						<span class="row-meta">{{ .year }}</span>
-					</li>
-				{{- end }}
-			</ul>
-		{{- end }}
-		{{- with $g.research }}
-			{{- with .works }}
-				<h2 id="publicaciones">Publicaciones recientes</h2>
-				<p class="text-muted">Las {{ len . }} más recientes de sus integrantes con perfil en OpenAlex. Datos al {{ partial "ui/date.html" (time.AsTime $data.works_fetched) }}.</p>
-				<ul class="rows">
-					{{- range . }}
-						{{- $names := slice }}
-						{{- range .authors }}
-							{{- $name := .name | htmlEscape }}
-							{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/fisicos/%s" .)).RelPermalink $name }}{{ end }}
-							{{- $names = $names | append $name }}
-						{{- end }}
-						{{- $more := sub .n (len .authors) }}
-						<li class="group">
-							<div class="row-main">
-								{{- if .doi }}
-									<a class="card-link" href="{{ .doi }}">{{ .title }}</a>
-								{{- else }}
-									<span>{{ .title }}</span>
-								{{- end }}
-								<p>{{ delimit $names ", " | safeHTML }}{{ if gt $more 0 }} y {{ $more }} más{{ end }}</p>
-								<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
-							</div>
-						</li>
-					{{- end }}
-				</ul>
-			{{- end }}
-		{{- end }}
+		{{ partial "ui/page-map.html" $body }}
+		{{ $body }}
 		<p class="person-note text-muted">
 			{{- if $vrip }}
 				Los integrantes, las líneas y los proyectos vienen de la <a href="{{ $g.url }}">ficha del grupo</a> en el Vicerrectorado de Investigación y Posgrado de la UNMSM, copiada el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "vrip")) }}.

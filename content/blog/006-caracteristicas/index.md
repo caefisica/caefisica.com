@@ -11,8 +11,7 @@ date: 2022-04-03T00:09:00+01:00
 lastmod: 2022-04-03T00:09:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://i.imgur.com/U99Hkjm.png"
-contributors: ["david"]
-author_id: "david"
+contributors: ["david-duran"]
 tags: ["otros"]
 toc: false
 math: true

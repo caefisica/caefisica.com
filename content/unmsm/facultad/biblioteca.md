@@ -2,7 +2,7 @@
 title: "Biblioteca"
 lead: ""
 description: ""
-contributors: ["david"]
+contributors: ["david-duran"]
 featured: false
 pdf: false
 math: false

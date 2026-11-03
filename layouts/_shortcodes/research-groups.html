@@ -1,6 +1,6 @@
 {{- /*
 The research groups listed in the page's front matter `groups`: an index by research line, then one row per group, sorted by acronym.
-A group holds acronym, name, an optional url, head (email plus a name or the slug of a professor page) and optional lines.
+A group holds acronym, name, an optional url, head (email plus a name or a person's slug) and optional lines.
 Each row's id is its lowercased acronym, and the index links to it.
 */ -}}
 {{- $groups := .Page.Params.groups -}}
@@ -31,11 +31,8 @@ Each row's id is its lowercased acronym, and the index links to it.
 	{{- range $groups }}
 		{{- $group := . -}}
 		{{- $name := .head.name -}}
-		{{- $professor := "" -}}
-		{{- with .head.professor -}}
-			{{- $professor = site.GetPage (printf "/professors/%s" .) -}}
-			{{- if not $professor }}{{ errorf "research-groups: no professor page %q" . }}{{ end -}}
-		{{- end -}}
+		{{- $person := "" -}}
+		{{- with .head.person }}{{ $person = partial "data/person.html" . }}{{ end -}}
 		<li class="doc-head" id="{{ lower .acronym }}">
 			<span class="doc-name">
 				<h3 class="doc-title">
@@ -43,7 +40,7 @@ Each row's id is its lowercased acronym, and the index links to it.
 					{{- if ne .name .acronym }} {{ .name }}{{ end -}}
 				</h3>
 				<span class="doc-meta">
-					{{- "Responsable: " }}{{ with $professor }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ $name }}{{ end }} ·
+					{{- "Responsable: " }}{{ with $person }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ $name }}{{ end }} ·
 					<a href="mailto:{{ .head.email }}">{{ .head.email }}</a>
 				</span>
 				{{- with .lines }}<span class="group-lines">{{ delimit . " · " }}</span>{{ end }}

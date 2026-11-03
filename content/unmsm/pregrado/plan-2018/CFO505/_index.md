@@ -6,7 +6,7 @@ id: "CFO505"
 credits: 4
 prerequisites: ["Electricidad y Magnetismo"]
 semester: 5
-contributors: ["sergio", "alvaro"]
+contributors: ["sergio-cordero", "alvaro-siesquen"]
 pdf: false
 draft: false
 weight: 505

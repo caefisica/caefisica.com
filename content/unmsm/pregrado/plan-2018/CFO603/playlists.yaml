@@ -1,6 +1,6 @@
 - title: Minicurso de Mecánica Cuántica
   channel: Física en Directo
-  lecturer: Renzo Franco
+  person: erwin-renzo-franco-diaz
   videos: "11"
   url: https://www.youtube.com/playlist?list=PLk5Bf41Vit0BdGF7ryPo7XrrMb4UDpH2w
   description: >-
@@ -20,7 +20,7 @@
     redes periódicas y espín. En inglés.
 - title: MIT 8.04 Quantum Physics I, Spring 2016
   channel: MIT OpenCourseWare
-  lecturer: Barton Zwiebach
+  person: barton-zwiebach
   videos: "115"
   url: https://youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G
   description: >-
@@ -100,7 +100,7 @@
     teoría de perturbaciones. En español.
 - title: Mecánica Cuántica 1
   channel: rentov
-  lecturer: Renato Tovar Landeo
+  person: renato-tovar-landeo
   videos: "81"
   url: https://www.youtube.com/playlist?list=PLK_B1a9wXn7c3jsIt-2IT8dnFsa0VIiyt
   description: >-

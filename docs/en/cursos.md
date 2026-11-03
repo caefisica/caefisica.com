@@ -24,21 +24,22 @@ content/unmsm/pregrado/plan-2018/CFO601/
 
 Front matter fields the templates use:
 
-| Field           | Use                                                                 |
-| --------------- | ------------------------------------------------------------------- |
-| `title`         | Course name.                                                        |
-| `lead`          | Opening text under the title.                                       |
-| `description`   | Summary for search engines and social networks.                     |
-| `id`            | Course code. Without `id` the information box does not appear.      |
-| `credits`       | Credits, in the information box.                                    |
-| `prerequisites` | List of texts; joined with " y " in the information box.            |
-| `semester`      | Term number. The side menu groups courses by this value.            |
-| `contributors`  | Slugs in `content/contributors/`. See [naming](contenido.md#names). |
-| `working`       | With `true`, shows the notice "Estamos trabajando en este curso".   |
-| `math`          | With `true`, loads KaTeX for formulas.                              |
-| `mermaid`       | With `true`, loads Mermaid for the `mermaid` shortcode.             |
-| `weight`        | Page order; Hugo sorts from lowest to highest.                      |
-| `draft`         | With `true`, the page is not published. `bun run dev` shows it.     |
+| Field           | Use                                                                                               |
+| --------------- | ------------------------------------------------------------------------------------------------- |
+| `title`         | Course name.                                                                                      |
+| `lead`          | Opening text under the title.                                                                     |
+| `description`   | Summary for search engines and social networks.                                                   |
+| `id`            | Course code. Without `id` the information box does not appear.                                    |
+| `credits`       | Credits, in the information box.                                                                  |
+| `prerequisites` | List of texts; joined with " y " in the information box.                                          |
+| `semester`      | Term number. The side menu groups courses by this value.                                          |
+| `contributors`  | Slugs of people. See [people](contenido.md#people).                                               |
+| `working`       | With `true`, shows the notice "Estamos trabajando en este curso".                                 |
+| `organization`  | Id of an organization under `/organizaciones/`; the guide links it and that page lists the guide. |
+| `math`          | With `true`, loads KaTeX for formulas.                                                            |
+| `mermaid`       | With `true`, loads Mermaid for the `mermaid` shortcode.                                           |
+| `weight`        | Page order; Hugo sorts from lowest to highest.                                                    |
+| `draft`         | With `true`, the page is not published. `bun run dev` shows it.                                   |
 
 The information box (code, credits, prerequisites, lecturers and syllabi)
 appears on the pages of `content/unmsm/` that have an `id`:
@@ -109,11 +110,11 @@ Each entry also appears in `/videos/`, grouped by course. A YouTube playlist (a
 `url` with `list=`) or a shared Google Drive folder (a `url` with
 `/drive/folders/`) has its own page there: a player, its lessons with their
 duration and `description`, which is written in Markdown and says what the list
-covers, at what level and in what language. If `lecturer` matches the name of a
-profile in `/fisicos/`, the page links the profile and the profile lists the
-lesson. The subfolders of a Drive folder are sections of the list, in the order
-of the numbers their names start with. If the top-level folders carry no number,
-`sections` lists them in lesson order:
+covers, at what level and in what language. `person`, the slug of who teaches it
+(see [people](contenido.md#people)), replaces `lecturer`: the page links the
+person and the person's page lists the lesson. The subfolders of a Drive folder
+are sections of the list, in the order of the numbers their names start with. If
+the top-level folders carry no number, `sections` lists them in lesson order:
 
 ```yaml
 - title: Mecánica
@@ -161,31 +162,10 @@ layout: "offering"
 ---
 ```
 
-`professor` is a lecturer slug (see [naming](contenido.md#names)). Without
+`professor` is a person's slug (see [people](contenido.md#people)). Without
 `professor` the syllabus shows no "Docente" row. The syllabus page shows the
 term, the lecturer and each `silabo*.pdf` file in a viewer. Without a PDF it
 shows "No hay sílabo disponible para este semestre".
 
-## Lecturers
-
-A lecturer is `content/professors/<slug>/index.md`:
-
-```bash
-hugo new content --kind professor professors/fulgencio-villegas-silva/index.md
-```
-
-```yaml
----
-title: "Fulgencio Villegas Silva"
-honorific: "Dr."
-institution: "unmsm"
-draft: false
-date: 2024-01-01T00:00:00
----
-```
-
-`honorific` and `title` form the lecturer's name in the guide's information box,
-in the syllabus header and on the pages of `content/professors/`. `institution`
-is a key of `data/universities.yaml` (see
-[universities](contenido.md#universities)). The lecturer's page lists the
-courses of the syllabi that name them in `professor`, with one link per term.
+The person's page lists the courses of the syllabi that name them in
+`professor`, with one link per term. `/unmsm/docentes/` lists every lecturer.

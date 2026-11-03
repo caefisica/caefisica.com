@@ -1,0 +1,18 @@
+{{- /* A researcher's most cited works with few authors, from data/researchers.json. Context: the person's entry there. */ -}}
+{{- with . }}
+	<h2 id="publicaciones">Publicaciones <span class="count">{{ len .selected }}</span></h2>
+	<p class="text-muted">
+		Los trabajos más citados con pocos autores. Los artículos de las grandes colaboraciones, firmados por cientos de personas, suman a la obra pero no se listan. Datos de OpenAlex al {{ partial "ui/date.html" (time.AsTime .fetched) }}.
+	</p>
+	<ul class="rows">
+		{{- range .selected }}
+			<li class="group">
+				<div class="row-main">
+					<a class="card-link" href="{{ .url }}">{{ .title }}</a>
+					<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
+				</div>
+				<span class="row-meta">{{ lang.FormatNumber 0 .citations }} citas</span>
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}

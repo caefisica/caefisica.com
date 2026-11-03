@@ -6,7 +6,7 @@ id: "CFO304"
 credits: 4
 prerequisites: ["Matemática Básica"]
 semester: 3
-contributors: ["joseph", "david"]
+contributors: ["joseph-andre-luna-ramos", "david-duran"]
 featured: true
 pdf: true
 draft: false

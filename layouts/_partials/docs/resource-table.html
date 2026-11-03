@@ -1,7 +1,7 @@
 {{- /*
 A list of books or video playlists read from a YAML file in the page bundle. Context: dict with page, resource (the file name) and type ("book" or "playlist").
 A book holds author, title, editorial and either url, edition and year, or links: a list of url, edition and year, newest first.
-A playlist holds title, lecturer, channel, videos and url. A playlist with a page under /videos/ links there and counts its lessons from the page.
+A playlist holds title, person (the slug of a person on the site) or lecturer, channel, videos and url. A playlist with a page under /videos/ links there and counts its lessons from the page.
 Each row reads like a document row (media/document.html): title and source on the left, one button per link on the right. A button names its item for screen readers, since a list of "13va ed." links says nothing out of context.
 */ -}}
 {{- $page := .page -}}
@@ -34,7 +34,9 @@ Each row reads like a document row (media/document.html): title and source on th
 				{{- $meta = slice (partial "videos/byline.html" .) (printf "%d clases" (len .Params.lessons)) -}}
 				{{- $links = slice (dict "url" .RelPermalink "label" "Ver clases" "local" true) -}}
 			{{- else -}}
-				{{- $meta = slice .lecturer .channel (cond (isset . "videos") (printf "%v videos" .videos) "") -}}
+				{{- $lecturer := .lecturer -}}
+				{{- with .person }}{{ $lecturer = partial "data/person-name.html" . }}{{ end -}}
+				{{- $meta = slice $lecturer .channel (cond (isset . "videos") (printf "%v videos" .videos) "") -}}
 				{{- $links = slice (dict "url" .url "label" "Ver lista") -}}
 			{{- end -}}
 		{{- end -}}

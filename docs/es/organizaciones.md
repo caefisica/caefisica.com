@@ -31,10 +31,19 @@ médica. Los autores incluyen a los coautores de otras instituciones.
 ## Personas
 
 `layouts/_partials/fisicos/place-groups.html` reparte a las personas de un lugar
-en Pregrado, Posgrado, Trabajan y Trabajaron, y `fisicos/place-people.html` las
-muestra. `/fisicos/` y la página de la organización usan los dos, así que
-muestran lo mismo. La ruta y la cronología de un perfil enlazan la página de
-cada organización.
+en Trabajan, Trabajaron, Posgrado y Pregrado, en ese orden: primero quienes
+están ahí hoy. `fisicos/place-people.html` las muestra. `/fisicos/` y la página
+de la organización usan los dos, así que muestran lo mismo. La trayectoria de un
+perfil enlaza la página de cada organización.
+
+## Página
+
+La página de una organización y la de un grupo de investigación siguen el
+contrato de la página de una persona (ver [personas](contenido.md#personas)):
+cada sección abre con un `h2` con su cantidad, la fila de enlaces bajo el título
+sale de esos títulos, y una lista de ocho filas o más muestra cinco y un botón
+con el resto. `organizaciones/sections.html` y `grupos/sections.html` arman las
+secciones; `ui/page-map.html` arma la fila de enlaces.
 
 ## Actualizar
 

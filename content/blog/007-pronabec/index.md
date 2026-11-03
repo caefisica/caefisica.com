@@ -6,8 +6,7 @@ date: 2022-03-28T23:15:00-05:00
 lastmod: 2022-03-29T05:15:00.000+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://i.imgur.com/JaR7dLm.png"
-contributors: ["richard", "sergio"]
-author_id: "richard"
+contributors: ["richard-avalos", "sergio-cordero"]
 tags: ["tips"]
 pinned: true
 weight: 70

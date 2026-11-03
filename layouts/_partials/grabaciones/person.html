@@ -1,8 +1,8 @@
-{{- /* The talks a person gave, on their profile. Context: the profile path ("/fisicos/<slug>/"), matched against each speaker's profile in data/recordings.json. */ -}}
-{{- $path := . -}}
+{{- /* The talks a person gave, on their page. Context: the person's slug, matched against each speaker's slug in data/recordings.json. */ -}}
+{{- $slug := . -}}
 {{- $talks := slice -}}
 {{- range $r := hugo.Data.recordings.recordings -}}
-	{{- range $r.speakers }}{{ if eq .profile $path }}{{ $talks = $talks | append $r }}{{ end }}{{ end -}}
+	{{- range $r.speakers }}{{ if eq .slug $slug }}{{ $talks = $talks | append $r }}{{ end }}{{ end -}}
 {{- end -}}
 {{- with $talks }}
 	<h2 id="charlas">Charlas <span class="count">{{ len . }}</span></h2>

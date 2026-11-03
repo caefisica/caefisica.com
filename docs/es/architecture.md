@@ -58,12 +58,12 @@ sus páginas. `single.html` llama a
   una rama «Ciclo N» por semestre, con
   [`docs/semesters.html`](../../layouts/_partials/docs/semesters.html).
 - [`article/byline.html`](../../layouts/_partials/article/byline.html) resuelve
-  cada slug de `contributors` a `content/contributors/<slug>` con
-  `data/contributors.html` y dibuja fecha, autores y tiempo de lectura.
+  cada slug de `contributors` a su página `/personas/<slug>/` con
+  `data/person.html` y dibuja fecha, autores y tiempo de lectura.
 - [`docs/course-info.html`](../../layouts/_partials/docs/course-info.html)
   dibuja los datos del curso (código, créditos, prerrequisitos, docentes y
   semestres con `silabo*.pdf`) en las páginas con `showInformationBox` e `id`.
-  Cada slug de `professor` se resuelve con `data/professor.html`.
+  Cada slug de `professor` se resuelve con `data/person.html`.
 - [`article/page-footer.html`](../../layouts/_partials/article/page-footer.html)
   pone la fecha del último commit y el enlace «Edita esta página».
 - El sílabo `2022-I/index.md` usa `layout: "offering"`:
@@ -158,10 +158,11 @@ página.
 
 ## Configuración
 
-`config/_default/` tiene `config.toml` (salidas, taxonomías, permalinks),
-`markup.toml`, `menus.toml`, `module.toml` y `params.toml`.
+`config/_default/` tiene `config.toml` (salidas, permalinks), `markup.toml`,
+`menus.toml`, `module.toml` y `params.toml`.
 
-- Taxonomía: `contributors`. El permalink de `blog` está en `[permalinks]`.
+- El sitio no usa taxonomías (`disableKinds`). El permalink de `blog` está en
+  `[permalinks]`.
 - `home` produce además `_redirects` y `_headers` (formatos de salida
   `REDIRECTS` y `HEADERS`), generados por `layouts/index.redirects` y
   `layouts/index.headers`. La política CSP sale de `data/fixes/headers.yml`.
@@ -174,12 +175,14 @@ página.
   que arma el `srcset` con los anchos de `params.toml` y usa la carga diferida
   del navegador (`loading="lazy"`).
 
-Otras carpetas de `layouts/`: las secciones `blog`, `fisicos` y `professors`
-usan la carpeta con su nombre (la página de un docente reúne sus cursos con
-`data/professor-courses.html` y el nombre de su universidad con
-`data/university.html`; la de un físico numera sus fuentes con
-`data/cite-marks.html`); la página de enlaces fija `type: links` y usa
-`layouts/links/page.html`. `videos` no tiene archivos de contenido: su adaptador
+Otras carpetas de `layouts/`: cada sección usa la carpeta con su nombre.
+`personas` no tiene archivos de contenido salvo las páginas escritas: su
+adaptador `content/personas/_content.gotmpl` crea una página por persona de
+`data/physicists.json` y `data/people.toml` (ver
+[personas](contenido.md#personas)). Esa página reúne sus cursos con
+`data/person-courses.html` y numera sus fuentes con `data/cite-marks.html`.
+`equipo` y `docentes` (`/unmsm/docentes/`) listan personas; `fisicos` es el
+mapa. `videos` no tiene archivos de contenido: su adaptador
 `content/videos/_content.gotmpl` crea una página por lista de los
 `playlists.yaml` de los cursos (ver [cursos](cursos.md#listas-de-reproducción)),
 y `assets/js/player.ts` reproduce cada clase en la misma página. `grabaciones`
@@ -192,13 +195,13 @@ sola página que lista `data/journal.json` (ver [revista](revista.md)).
 
 ## Glosario
 
-| Término                | Significado                                                                                                |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
-| bundle                 | Carpeta con un `index.md` y sus recursos (YAML, PDF, imágenes). Un branch bundle usa `_index.md`.          |
-| guía                   | El `_index.md` de un curso: sus datos, su texto y sus recursos.                                            |
-| sílabo (`offering`)    | Un semestre de un curso: carpeta `2022-I/` con `layout: "offering"` y sus `silabo*.pdf`.                   |
-| parcial                | Plantilla reutilizable de `layouts/_partials/`, llamada con `partial`.                                     |
-| shortcode              | Etiqueta del cuerpo de Markdown, definida en `layouts/_shortcodes/`.                                       |
-| adaptador de contenido | `_content.gotmpl`: crea páginas desde un archivo de `data/` en vez de un `.md` por página.                 |
-| `cascade`              | Front matter que una sección pasa a todos sus descendientes.                                               |
-| slug                   | El nombre de carpeta de una persona (`contributors`, `professors`, `fisicos`), en minúsculas y sin tildes. |
+| Término                | Significado                                                                                               |
+| ---------------------- | --------------------------------------------------------------------------------------------------------- |
+| bundle                 | Carpeta con un `index.md` y sus recursos (YAML, PDF, imágenes). Un branch bundle usa `_index.md`.         |
+| guía                   | El `_index.md` de un curso: sus datos, su texto y sus recursos.                                           |
+| sílabo (`offering`)    | Un semestre de un curso: carpeta `2022-I/` con `layout: "offering"` y sus `silabo*.pdf`.                  |
+| parcial                | Plantilla reutilizable de `layouts/_partials/`, llamada con `partial`.                                    |
+| shortcode              | Etiqueta del cuerpo de Markdown, definida en `layouts/_shortcodes/`.                                      |
+| adaptador de contenido | `_content.gotmpl`: crea páginas desde un archivo de `data/` en vez de un `.md` por página.                |
+| `cascade`              | Front matter que una sección pasa a todos sus descendientes.                                              |
+| slug                   | La clave de una persona en `data/physicists.json` o `data/people.toml`; su página es `/personas/<slug>/`. |

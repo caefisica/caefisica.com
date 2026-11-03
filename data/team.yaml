@@ -1,0 +1,35 @@
+# The organisation chart on /equipo/. The first area is the leadership and
+# shows portraits; the others list their groups as rows. A member is a person's
+# slug in data/people.toml or data/physicists.json.
+areas:
+  - name: Mesa Directiva
+    groups:
+      - members:
+          - { person: david-duran, role: Coordinador General }
+          - { person: sergio-cordero, role: Subcoordinador General }
+          - { person: liuba-ramos, role: Directora de Comunicaciones }
+          - { person: richard-avalos, role: Director Académico }
+  - name: Comunicaciones
+    groups:
+      - label: Redes sociales
+        members:
+          - { person: liuba-ramos, role: Planificación y Diseño }
+          - { person: nelson-noa, role: Diseño e Investigación }
+          - { person: victor-tello, role: Diseño e Investigación }
+          - { person: andrea-palacios, role: Diseño e Investigación }
+      - label: Comunidad
+        members:
+          - { person: karla-torres, role: Comunidad de FB e IG }
+          - { person: richard-avalos, role: Comunidad de WhatsApp }
+      - label: Marketing
+        members:
+          - { person: nelson-noa, role: Marketing }
+  - name: Académico
+    groups:
+      - label: Sitio web y publicaciones técnicas
+        members:
+          - { person: sergio-cordero, role: Redacción }
+          - { person: richard-avalos, role: Redacción }
+      - label: Cursos y talleres
+        members:
+          - { person: david-duran, role: Cursos y Talleres }

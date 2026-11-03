@@ -5,7 +5,7 @@ lead: "CBO204 — 4 créditos"
 date: 2022-02-01T02:00:00
 draft: true
 weight: 10
-contributors: ["richard"]
+contributors: ["richard-avalos"]
 types: ["matemática"]
 ---
 

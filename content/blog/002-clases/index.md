@@ -10,8 +10,7 @@ date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-03T09:19:42+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 thumbnail: "https://i.imgur.com/hDMbEjJ.png"
-contributors: ["renzo"]
-author_id: "renzo"
+contributors: ["erwin-renzo-franco-diaz"]
 tags: ["lista"]
 toc: true
 weight: 20

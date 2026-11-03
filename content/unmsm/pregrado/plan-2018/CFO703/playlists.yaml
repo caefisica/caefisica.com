@@ -11,7 +11,7 @@
     inglés.
 - title: MIT 8.05 Quantum Physics II, Fall 2013
   channel: MIT OpenCourseWare
-  lecturer: Barton Zwiebach
+  person: barton-zwiebach
   videos: "26"
   url: https://www.youtube.com/playlist?list=PLUl4u3cNGP60QlYNsy52fctVBOlk-4lYx
   description: >-
@@ -21,7 +21,7 @@
     de momentos angulares. En inglés.
 - title: MIT 8.06 Quantum Physics III, Spring 2018
   channel: MIT OpenCourseWare
-  lecturer: Barton Zwiebach
+  person: barton-zwiebach
   videos: "100"
   url: https://www.youtube.com/playlist?list=PLUl4u3cNGP60Zcz8LnCDFI8RPqRhJbb4L
   description: >-
@@ -31,7 +31,7 @@
     inglés.
 - title: Mecánica Cuántica 2
   channel: rentov
-  lecturer: Renato Tovar Landeo
+  person: renato-tovar-landeo
   videos: "72"
   url: https://www.youtube.com/playlist?list=PLK_B1a9wXn7fV-TZEI7SNSEx3b4b_ytqg
   description: >-

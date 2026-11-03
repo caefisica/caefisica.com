@@ -6,7 +6,7 @@ id: "CFO805"
 credits: 4
 prerequisites: ["Mecánica Clásica II", "Electromagnetismo II"]
 semester: 8
-contributors: ["alvaro"]
+contributors: ["alvaro-siesquen"]
 pdf: false
 draft: true
 weight: 805

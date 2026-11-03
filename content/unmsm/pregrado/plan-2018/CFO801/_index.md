@@ -6,7 +6,7 @@ id: "CFO801"
 credits: 3
 prerequisites: ["No aplica"]
 semester: 8
-contributors: ["alvaro"]
+contributors: ["alvaro-siesquen"]
 pdf: false
 draft: true
 weight: 801

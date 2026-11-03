@@ -11,8 +11,7 @@ date: 2022-09-15T14:44:30-05:00
 lastmod: 2022-09-15T14:44:30-05:00
 images: []
 thumbnail: ""
-contributors: ["david"]
-author_id: "david"
+contributors: ["david-duran"]
 tags: ["tips"]
 toc: true
 weight: 90

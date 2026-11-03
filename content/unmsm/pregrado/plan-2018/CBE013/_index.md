@@ -10,7 +10,7 @@ id: "CBE013"
 credits: 2
 prerequisites: ["No aplica"]
 semester: 1
-contributors: ["sergio", "david"]
+contributors: ["sergio-cordero", "david-duran"]
 featured: true
 pdf: true
 draft: false

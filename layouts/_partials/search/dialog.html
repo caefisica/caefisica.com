@@ -1,4 +1,4 @@
-{{- /* The dialog search.ts drives with the Pagefind API. An empty query shows the search menu as suggestions, so the dialog opens with a next step. search.ts copies the enter icon from the first suggestion into each result. */ -}}
+{{- /* The dialog search.ts drives with the Pagefind API. An empty query shows the main menu entries marked suggest, so the dialog opens with a next step. search.ts copies the enter icon from the first suggestion into each result. */ -}}
 <dialog id="search" aria-label="Buscar en el sitio">
 	<form class="search-head" role="search" method="dialog">
 		{{ partial "ui/icon.html" "search" }}
@@ -20,12 +20,16 @@
 	<div class="search-body">
 		<p class="search-label" id="search-label">Sugerencias</p>
 		<div id="search-results" role="listbox" aria-labelledby="search-label">
-			{{- range site.Menus.search }}
-				<a class="search-option" role="option" href="{{ .URL }}" aria-selected="false">
-					<span class="search-title">{{ .Name }}</span>
-					<span class="search-excerpt">{{ .Title }}</span>
-					{{ partial "ui/icon.html" (dict "name" "enter" "size" 16) }}
-				</a>
+			{{- range site.Menus.main }}
+				{{- range cond .HasChildren .Children (slice .) }}
+					{{- if .Params.suggest }}
+						<a class="search-option" role="option" href="{{ .URL }}" aria-selected="false">
+							<span class="search-title">{{ .Name }}</span>
+							<span class="search-excerpt">{{ .Params.description }}</span>
+							{{ partial "ui/icon.html" (dict "name" "enter" "size" 16) }}
+						</a>
+					{{- end }}
+				{{- end }}
 			{{- end }}
 		</div>
 		<p class="sr-only" role="status" id="search-status"></p>

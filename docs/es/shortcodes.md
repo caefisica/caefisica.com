@@ -34,18 +34,19 @@ groups:
   - acronym: GISICOF
     name: Grupo de Investigación de Sistemas Complejos Funcionalizados
     url: https://vrip.unmsm.edu.pe/gisicof
-    head: { professor: carlos-landauro-saenz, email: clandauros@unmsm.edu.pe }
+    head:
+      { person: carlos-vladimir-landauro-saenz, email: clandauros@unmsm.edu.pe }
     lines:
       - Propiedades estructurales de las nanopartículas
 ```
 
-| Campo     | Valores                                                                                                                 |
-| --------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `acronym` | Sigla. Su versión en minúsculas es el ancla de la fila (`#gisicof`).                                                    |
-| `name`    | Nombre del grupo. Si es igual a la sigla, se muestra una vez.                                                           |
-| `url`     | Página del grupo. Opcional; con ella la fila muestra el botón «VRIP».                                                   |
-| `head`    | `email` y, o bien `name`, o bien `professor`: el slug de un docente, que enlaza su página. Un slug que no existe falla. |
-| `lines`   | Líneas de investigación. Opcional. Escribe la misma línea con el mismo texto en cada grupo, o el índice la separa.      |
+| Campo     | Valores                                                                                                               |
+| --------- | --------------------------------------------------------------------------------------------------------------------- |
+| `acronym` | Sigla. Su versión en minúsculas es el ancla de la fila (`#gisicof`).                                                  |
+| `name`    | Nombre del grupo. Si es igual a la sigla, se muestra una vez.                                                         |
+| `url`     | Página del grupo. Opcional; con ella la fila muestra el botón «VRIP».                                                 |
+| `head`    | `email` y, o bien `name`, o bien `person`: el slug de una persona, que enlaza su página. Un slug que no existe falla. |
+| `lines`   | Líneas de investigación. Opcional. Escribe la misma línea con el mismo texto en cada grupo, o el índice la separa.    |
 
 ```markdown
 {{< research-groups >}}

@@ -1,0 +1,40 @@
+{{- /* The sections of an organisation page, each under an h2 that ui/page-map.html reads. Context: dict place, who (from fisicos/place-groups.html) and from (the start of the research count). */ -}}
+{{- $p := .place -}}
+{{- $from := .from -}}
+{{- with .who }}
+	{{- if .n }}
+		<h2 id="personas">Personas <span class="count">{{ .n }}</span></h2>
+		{{ partial "fisicos/place-people.html" .groups }}
+	{{- end }}
+{{- end }}
+{{- with sort (where hugo.Data.groups.groups "institution" $p.id) "name" }}
+	<h2 id="grupos">Grupos de investigación <span class="count">{{ len . }}</span></h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "grupos/row.html" . }}{{ end }}
+	</ul>
+{{- end }}
+{{- with $p.research }}
+	{{- with .authors }}
+		<h2 id="autores">Quiénes más publican <span class="count">{{ len . }}</span></h2>
+		<p class="text-muted">Los autores que más aparecen en sus publicaciones de física desde {{ $from.Year }}, incluidos coautores de otras instituciones. El nombre enlaza el perfil de quien está en el mapa.</p>
+		<ul class="rows">
+			{{- range $a := . }}
+				<li class="group">
+					<div class="row-main">
+						{{- with $a.slug }}
+							<a class="card-link" href="{{ (site.GetPage (printf "/personas/%s" .)).RelPermalink }}">{{ $a.name }}</a>
+						{{- else }}
+							<span>{{ $a.name }}</span>
+						{{- end }}
+					</div>
+					<span class="row-meta">{{ $a.works }} {{ cond (eq $a.works 1) "publicación" "publicaciones" }}</span>
+				</li>
+			{{- end }}
+		</ul>
+	{{- end }}
+	{{- with .works }}
+		<h2 id="publicaciones">Publicaciones recientes <span class="count">{{ len . }}</span></h2>
+		<p class="text-muted">Las más recientes de física con un autor de la organización. Datos de OpenAlex al {{ partial "ui/date.html" (time.AsTime hugo.Data.physicists.fetched) }}.</p>
+		{{ partial "research/works.html" . }}
+	{{- end }}
+{{- end }}

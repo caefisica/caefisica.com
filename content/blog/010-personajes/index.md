@@ -7,8 +7,7 @@ date: 2022-10-20T14:44:30-05:00
 lastmod: 2022-10-20T14:44:30-05:00
 images: []
 thumbnail: ""
-contributors: ["david"]
-author_id: "david"
+contributors: ["david-duran"]
 tags: ["biografía"]
 toc: true
 weight: 100

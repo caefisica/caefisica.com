@@ -10,7 +10,7 @@ date: 2023-01-08T08:00:45+00:00
 draft: false
 images: []
 weight: 1010
-contributors: ["nelson"]
+contributors: ["nelson-noa"]
 aliases:
   - /unmsm/pregrado/Reglamento-General-de-Matrícula.pdf
 ---

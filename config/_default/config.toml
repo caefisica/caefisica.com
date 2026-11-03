@@ -1,6 +1,7 @@
 baseURL = "https://web.caefisica.workers.dev/"
 canonifyURLs = false
 disableAliases = true
+disableKinds = ["taxonomy", "term"]
 disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = true
@@ -38,9 +39,6 @@ priority = 0.5
 
 [frontmatter]
 lastmod = [":git", "lastmod", "date", "publishDate"]
-
-[taxonomies]
-contributor = "contributors"
 
 [permalinks]
 blog = "/blog/:title/"

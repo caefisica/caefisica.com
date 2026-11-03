@@ -2,14 +2,11 @@
 
 [English](../en/fisicos.md)
 
-Cada persona de `data/physicists.json` tiene un perfil en `/fisicos/<slug>/`
-(ver [Mapa de físicos](#mapa-de-físicos)). Para escribir el perfil de alguien,
-crea `content/fisicos/<slug>/index.md` con el mismo `slug` del JSON: esa página
+Cada persona de `data/physicists.json` tiene su página en `/personas/<slug>/`
+(ver [personas](contenido.md#personas)). Para escribir sobre alguien, crea
+`content/personas/<slug>/index.md` con el mismo `slug` del JSON: esa página
 reemplaza a la generada y la misma plantilla le suma los datos del JSON. Se lee
 como un artículo de enciclopedia: cada dato enlaza una fuente pública.
-
-Si el perfil escrito tenía otra dirección, `aliases` la guarda; Cloudflare la
-redirige con `_redirects`.
 
 ## Fuentes
 
@@ -48,6 +45,12 @@ el JSON), nunca su texto; tampoco publicaciones, fotos ni datos de contacto.
 Solo una foto con licencia libre (Wikimedia Commons) o enviada por la persona.
 Las fotos de las universidades y de la prensa tienen derechos reservados.
 
+La foto va en `static/images/personas/<slug>.webp` o `.jpg`, cuadrada, de 288
+px, con la cara centrada. `data/photos.yaml` guarda su crédito bajo el mismo
+slug: autor, licencia, enlace a la licencia y página del archivo en Commons. El
+perfil muestra ese crédito, y la compilación falla si una foto no lo tiene. Para
+encontrar fotos, la propiedad P18 de Wikidata apunta al archivo de Commons.
+
 ## Publicaciones
 
 `bun run researchers` consulta OpenAlex y escribe
@@ -61,12 +64,16 @@ para actualizar los datos y confirma el JSON.
 
 `data/press.yaml` lista los artículos de prensa escritos por una persona o sobre
 ella: `person` (la carpeta del perfil), medio, fecha, título, enlace, `author`
-si lo firmó ella y `video` si es un video. El perfil los muestra en «En la
-prensa», del más reciente al más antiguo. Un artículo entra solo si nombra a la
-persona con una institución que coincide con su perfil; un nombre igual no
-basta. Un video entra si lo publica un medio o una institución (RPP, Andina, TV
-Perú, una universidad) y es una nota o una entrevista; una charla o un seminario
-va en grabaciones, y un canal personal no cuenta.
+si lo firmó ella, `video` si es un video y `podcast` si es un episodio de
+pódcast. El perfil los muestra en «En la prensa», del más reciente al más
+antiguo. Un artículo entra solo si nombra a la persona con una institución que
+coincide con su perfil; un nombre igual no basta. Un video o un pódcast entra si
+es una entrevista en un programa de radio, de televisión o de una serie de
+entrevistas, la publique un medio, una institución o un productor independiente,
+o si es una nota breve o un testimonio de una institución. `outlet` nombra el
+medio que hizo la entrevista, aunque el video lo suba otra institución. Una
+charla, un seminario o un coloquio va en grabaciones, y no cuentan un saludo de
+aniversario, el canal de la propia persona ni la copia que sube un tercero.
 
 ## Mapa de físicos
 
@@ -102,17 +109,24 @@ de los temas de sus publicaciones, y la obra (`works_count` y `cited_by`).
 `places` lista las instituciones con sus coordenadas (`lat` y `lon` nulos si no
 tienen ubicación). `people` lista a cada persona con:
 
-| Campo      | Uso                                                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| `degree`   | Su grado más alto, «Doctorado en física», o nulo sin grado.                                                         |
-| `track`    | Su formación: física, geofísica, ingeniería u otra.                                                                 |
-| `studied`  | Sus grados, con institución, nivel y años.                                                                          |
-| `works`    | Sus puestos actuales.                                                                                               |
-| `jobs`     | Todos sus puestos, para la cronología del perfil.                                                                   |
-| `path`     | Su ruta: cada parada con su institución y lo que hizo ahí.                                                          |
-| `area`     | El área según OpenAlex, o nulo con pocas publicaciones indexadas.                                                   |
-| `fields`   | Opcional: los campos que nombra su «Acerca de» de LinkedIn.                                                         |
-| `linkedin` | Opcional: el perfil de LinkedIn que la persona publica en su ORCID o su ficha de CTI Vitae, o que revisamos a mano. |
+| Campo       | Uso                                                                                                                                                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `degree`    | Su grado más alto, «Doctorado en física», o nulo sin grado.                                                                                                                                                                                                                           |
+| `track`     | Su formación: física, geofísica, ingeniería u otra.                                                                                                                                                                                                                                   |
+| `studied`   | Sus grados, con institución, nivel y años.                                                                                                                                                                                                                                            |
+| `works`     | Sus puestos actuales.                                                                                                                                                                                                                                                                 |
+| `jobs`      | Todos sus puestos, para la trayectoria del perfil.                                                                                                                                                                                                                                    |
+| `path`      | Su ruta: cada parada con su institución y lo que hizo ahí.                                                                                                                                                                                                                            |
+| `area`      | El área según OpenAlex, o nulo con pocas publicaciones indexadas.                                                                                                                                                                                                                     |
+| `fields`    | Opcional: los campos que nombra su «Acerca de» de LinkedIn.                                                                                                                                                                                                                           |
+| `orcid`     | Su ORCID, o nulo sin ORCID.                                                                                                                                                                                                                                                           |
+| `links`     | Opcional: sus otros perfiles, cada uno con `kind` y `url`. `kind` es un perfil de investigación (`inspire`, `scholar`, `lattes`…), un canal (`linkedin`, `github`, `youtube`) o `web`. Entran los que la persona publica en su ORCID o su ficha de CTI Vitae, o que revisamos a mano. |
+| `wikipedia` | Opcional: su artículo en Wikipedia, en español si lo hay. Entra si su elemento de Wikidata lleva su ORCID, o si revisamos a mano que el artículo es sobre esa persona y no un homónimo.                                                                                               |
+
+Un estudio que la persona declara en curso en su ORCID entra en `works` y `jobs`
+como «Estudiante de…», hasta la actualidad, cuando su institución tiene fila en
+`places` y la persona no tiene ya un puesto actual ahí. Así quien estudia un
+posgrado aparece entre quienes están hoy en esa institución.
 
 Un perfil de la PUCP da el grado y la institución pero no los años, así que esos
 perfiles ordenan los grados por nivel.
@@ -123,19 +137,23 @@ entrada sin año sigue a la anterior. Quien vuelve a una institución vuelve a
 pasar por ella en la ruta. Un puesto entra solo si su institución tiene fila en
 `places`: universidades, centros de investigación, observatorios, hospitales y
 organismos técnicos del Estado. Las empresas, los colegios, los ministerios y
-los bancos quedan en la cronología del perfil, no en la ruta. La lista por
+los bancos quedan en la trayectoria del perfil, no en la ruta. La lista por
 institución separa a quienes trabajan ahí hoy («Trabajan») de quienes trabajaron
 antes («Trabajaron»).
+
+La trayectoria del perfil ordena los grados y los puestos de `studied` y `jobs`
+por su primer año y junta bajo una institución las entradas seguidas que pasan
+ahí. Un artículo con `timeline` la reemplaza por su lista citada.
 
 Al elegir una institución, el globo traza la ruta de cada persona que estudió o
 trabajó ahí. Un nombre de esa lista, o la dirección `/fisicos/#ruta-<slug>`,
 abre en el panel la ficha de la persona y traza solo su ruta.
 
-`content/fisicos/_content.gotmpl` crea un perfil por persona en
-`/fisicos/<slug>/`, con lo que dice el JSON. Así los datos siguen a la vista
-cuando CTI Vitae no responde. El perfil usa la foto
-`static/images/fisicos/<slug>.jpg` si existe; la regla de la sección Foto vale
-también aquí. Sin foto, muestra las iniciales del nombre y del primer apellido.
+`content/personas/_content.gotmpl` crea una página por persona en
+`/personas/<slug>/`, con lo que dice el JSON. Así los datos siguen a la vista
+cuando CTI Vitae no responde. La página usa la foto de `static/images/personas/`
+si existe; la regla de la sección Foto vale también aquí. Sin foto, muestra las
+iniciales del nombre y del primer apellido.
 
 Cuando el JSON gana una institución fuera del Perú, corre `bun run landmask`.
 Reescribe `assets/maps/land.bin` con la costa detallada alrededor de cada

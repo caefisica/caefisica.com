@@ -1,0 +1,6 @@
+{{- /* A person's name read from the registries, for content adapters, which run before the person's page exists. Context: the slug. A slug in neither registry fails the build. */ -}}
+{{- $row := index (where hugo.Data.physicists.people "slug" .) 0 | default (index (where hugo.Data.people.people "slug" .) 0) -}}
+{{- if not $row -}}
+	{{- errorf "No person with slug %q in data/physicists.json or data/people.toml" . -}}
+{{- end -}}
+{{- return $row.name -}}

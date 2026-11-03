@@ -87,14 +87,13 @@ Reglas comunes:
   mes. El mes sale de la fecha de la publicación o, si la copia no la tiene, del
   número de la foto, como en las sustentaciones (ver [tesis](tesis.md)).
 
-## Ponentes y perfiles
+## Ponentes y personas
 
-Un ponente lleva `profile` cuando su nombre coincide con un único perfil de
-`/fisicos/` o, si ninguno coincide, con un único perfil de `/professors/`: el
-primer nombre debe ser el mismo y cada palabra del nombre debe estar en la
-carpeta del perfil. Las charlas nombran a la gente en forma corta, y los
-perfiles con el nombre completo. Quien tiene ambos perfiles enlaza al de
-`/fisicos/`, como en el resto del sitio. Si hay dos coincidencias en la misma
-sección, el nombre sale sin enlace.
+Un ponente lleva `slug` cuando su nombre coincide con una única persona de
+`data/physicists.json` o, si ninguna coincide, con una única de
+`data/people.toml`: el primer nombre debe ser el mismo y cada palabra del nombre
+debe estar en el slug. Las charlas nombran a la gente en forma corta, y los
+registros con el nombre completo. Si hay dos coincidencias en el mismo registro,
+el nombre sale sin enlace.
 
 El perfil lista las charlas de esa persona en «Charlas», con su serie.

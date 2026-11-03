@@ -14,12 +14,14 @@ content/
 │   └── facultad/                      información de la facultad
 ├── apuntes/<tema>/                    apuntes por tema
 ├── blog/<NNN-nombre>/index.md         entradas del blog
-├── fisicos/<slug>/index.md            perfiles escritos de físicos peruanos
+├── unmsm/docentes/_index.md           lista de quienes dictan los sílabos
+├── personas/_content.gotmpl           una página por persona de los registros
+├── personas/<slug>/index.md           texto escrito sobre una persona
+├── fisicos/_index.md                  el mapa de los físicos peruanos
 ├── videos/_content.gotmpl             una página por lista de los playlists.yaml
 ├── tesis/_content.gotmpl              una página por tesis de data/theses.json
 ├── grabaciones/_index.md              lista de data/recordings.json
-├── professors/<slug>/index.md         docentes
-├── contributors/<slug>/_index.md      colaboradores; el índice es /equipo/
+├── equipo/_index.md                   el equipo, de data/team.yaml
 ├── contacto/, privacidad/
 ├── redes.md
 └── _index.md                          portada
@@ -27,18 +29,13 @@ content/
 
 ## Nombres
 
-| Elemento               | Regla                                         | Ejemplo                                    |
-| ---------------------- | --------------------------------------------- | ------------------------------------------ |
-| Carpeta de curso       | Código del curso en mayúsculas.               | `CBE013`                                   |
-| Carpeta de sílabo      | Semestre académico `AAAA-I` o `AAAA-II`.      | `2022-I`                                   |
-| Carpeta de docente     | Nombre y apellidos en minúsculas con guiones. | `carlos-landauro-saenz`                    |
-| Carpeta de colaborador | Nombre en minúsculas.                         | `david`                                    |
-| Entrada de blog        | Número de tres cifras y nombre con guiones.   | `003-faq`                                  |
-| YAML de recursos       | Cualquier nombre; el shortcode lo cita.       | `books-theoretical.yaml`, `playlists.yaml` |
-
-Un slug de `contributors` en el front matter debe existir como carpeta en
-`content/contributors/`; si no, la compilación falla. Lo mismo vale para el
-campo `professor` de un sílabo y las carpetas de `content/professors/`.
+| Elemento          | Regla                                         | Ejemplo                                    |
+| ----------------- | --------------------------------------------- | ------------------------------------------ |
+| Carpeta de curso  | Código del curso en mayúsculas.               | `CBE013`                                   |
+| Carpeta de sílabo | Semestre académico `AAAA-I` o `AAAA-II`.      | `2022-I`                                   |
+| Slug de persona   | Nombre y apellidos en minúsculas con guiones. | `carlos-vladimir-landauro-saenz`           |
+| Entrada de blog   | Número de tres cifras y nombre con guiones.   | `003-faq`                                  |
+| YAML de recursos  | Cualquier nombre; el shortcode lo cita.       | `books-theoretical.yaml`, `playlists.yaml` |
 
 Hugo pone las direcciones en minúsculas: `CBE013` se publica en
 `/unmsm/pregrado/plan-2018/cbe013/`.
@@ -54,33 +51,49 @@ Sin una frase así, deja el campo vacío.
 `unmsm/pregrado/_index.md` no se publica (`build.render: never`):
 `/unmsm/pregrado/` redirige a `plan-2018/`, el único plan.
 
-La página del equipo,
-[`layouts/contributors/taxonomy.html`](../../layouts/contributors/taxonomy.html),
-muestra el equipo actual de `data/authors/members.json`, después los demás
-autores con su número de publicaciones, y cómo colaborar. Un miembro cuyo `url`
-es la página de un autor enlaza a ella y no se repite en la lista de autores. La
-página de un autor ([`layouts/term.html`](../../layouts/term.html)) agrupa sus
-publicaciones por sección, de la más reciente a la más antigua.
+## Personas
 
-## Universidades
+Cada persona tiene una sola página, `/personas/<slug>/`, y el slug es su única
+clave. El slug está en uno de dos registros:
 
-Cada universidad es una sección de primer nivel (`content/unmsm/`) y una entrada
-de [`data/universities.yaml`](../../data/universities.yaml):
+- [`data/physicists.json`](../../data/physicists.json): los físicos del mapa.
+  Ver [físicos](fisicos.md).
+- [`data/people.toml`](../../data/people.toml): los demás, como quienes escriben
+  las guías. Cada entrada lleva `slug`, `name` y, si se quiere, `about`.
 
-```yaml
-unmsm:
-  name: Universidad Nacional Mayor de San Marcos
-  section: /unmsm
-```
+Un slug no puede estar en los dos. Para escribir sobre una persona, crea
+`content/personas/<slug>/index.md`; la plantilla agrega los datos de los
+registros. La foto va en `static/images/personas/<slug>.webp` o `.jpg`, y su
+origen en [`data/photos.yaml`](../../data/photos.yaml).
 
-La clave es el slug que usa el campo `institution` de un docente. `/professors/`
-agrupa a los docentes por universidad con ese nombre, y la página de un docente
-enlaza la sección. Un `institution` que no está en el archivo detiene la
-compilación.
+La página pone el nombre y una línea arriba que dice quién es: `role` en una
+página escrita; en una de datos, su puesto actual y su grado más alto con la
+institución, como «Profesor principal, UNMSM · Doctorado en física, TU
+Chemnitz». Pone los datos en una columna fija al lado y, bajo el nombre, una
+fila de enlaces a sus secciones con su cantidad cuando tiene tres o más. Cada
+sección empieza con `<h2 id="…">Título <span class="count">N</span></h2>`, con
+texto plano en el título: la fila de enlaces se arma leyendo esos títulos. Una
+lista de ocho filas o más muestra cinco y un botón con el resto.
 
-Para agregar una universidad, crea `content/<slug>/_index.md` con
-`cascade: {type: docs}`, como `content/unmsm/_index.md`, y agrega su entrada al
-archivo.
+Estos campos nombran a una persona por su slug:
+
+| Dónde                                               | Campo          |
+| --------------------------------------------------- | -------------- |
+| Sílabo                                              | `professor`    |
+| Guía y entrada de blog                              | `contributors` |
+| Lista de `playlists.yaml`                           | `person`       |
+| Expositor de `data/recordings.json`                 | `slug`         |
+| Grupo de investigación (`gi.md`)                    | `head.person`  |
+| Miembro de [`data/team.yaml`](../../data/team.yaml) | `person`       |
+
+Un slug que no está en ningún registro detiene la compilación. Una lista de
+videos sin `person` muestra el texto de `lecturer` sin enlace.
+
+[`/equipo/`](../../layouts/equipo/list.html) dibuja el organigrama de
+`data/team.yaml`, después a los demás autores con su número de publicaciones, y
+cómo colaborar. [`/unmsm/docentes/`](../../layouts/docentes/list.html) lista a
+cada `professor` de los sílabos con sus cursos.
+[`/personas/`](../../layouts/personas/list.html) lista a todos de la A a la Z.
 
 ## Crear un archivo
 
@@ -88,21 +101,20 @@ archivo.
 elige el molde por la primera carpeta del destino; para otros, indícalo con
 `--kind`:
 
-| Molde          | Cómo se elige                           |
-| -------------- | --------------------------------------- |
-| `blog.md`      | Automático en `content/blog/`.          |
-| `pregrado.md`  | `--kind pregrado`, para guías de curso. |
-| `offering.md`  | `--kind offering`, para sílabos.        |
-| `professor.md` | `--kind professor`, para docentes.      |
-| `default.md`   | Cualquier otra carpeta.                 |
+| Molde         | Cómo se elige                           |
+| ------------- | --------------------------------------- |
+| `blog.md`     | Automático en `content/blog/`.          |
+| `pregrado.md` | `--kind pregrado`, para guías de curso. |
+| `offering.md` | `--kind offering`, para sílabos.        |
+| `default.md`  | Cualquier otra carpeta.                 |
 
 ```bash
 hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
 ```
 
 Los moldes `blog`, `pregrado` y `default` crean la página con `draft: true`;
-`offering` y `professor`, con `draft: false`. `bun run dev` muestra los
-borradores; la compilación del sitio (`bun run build`) no los publica.
+`offering`, con `draft: false`. `bun run dev` muestra los borradores; la
+compilación del sitio (`bun run build`) no los publica.
 
 ## Formato del texto
 

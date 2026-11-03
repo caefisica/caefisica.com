@@ -7,7 +7,7 @@ description:
   "La historia detrás de la creación de la unidad compartida de la Escuela
   Profesional de Física de la UNMSM y cómo se ha logrado mantener accesibles los
   recursos académicos a pesar de los cambios en Google Workspace for Education"
-contributors: ["david"]
+contributors: ["david-duran"]
 featured: false
 pdf: false
 math: true
@@ -64,7 +64,7 @@ pudieran reducir los espacios que estaban utilizando.
 #### La iniciativa de la B20
 
 Pero un año antes de estos cambios, en 2020, [Nelson
-Noa]({{< ref "/contributors/nelson/" >}} "Nelson Noa (exdelegado de la Base
+Noa]({{< ref "/personas/nelson-noa" >}} "Nelson Noa (exdelegado de la Base
 20)"), delegado de la Base 20 de la Escuela Profesional de Física, tuvo la
 iniciativa de crear un repositorio de documentos, libros, exámenes, prácticas y
 grabaciones en Google Drive. Esta carpeta llegó a superar los 120 GB en 2023 y,

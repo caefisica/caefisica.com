@@ -33,7 +33,7 @@ Professors and syllabi come from the course's offerings, newest semester first.
 				<dd>
 					{{- range $i, $slug := . -}}
 						{{- if $i }}, {{ end -}}
-						{{- with partial "data/professor.html" $slug }}<a href="{{ .RelPermalink }}">{{ partial "data/professor-name.html" . }}</a>{{ end -}}
+						{{- with partial "data/person.html" $slug }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end -}}
 					{{- end -}}
 				</dd>
 			</div>

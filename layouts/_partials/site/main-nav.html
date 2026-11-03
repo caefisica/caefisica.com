@@ -12,7 +12,7 @@
 					</summary>
 					<ul class="nav-dropdown">
 						{{- range .Children }}
-							<li>{{ partial "site/nav-link.html" (dict "page" $page "entry" .) }}</li>
+							<li>{{ partial "site/nav-link.html" (dict "page" $page "entry" . "describe" true) }}</li>
 						{{- end }}
 					</ul>
 				</details>

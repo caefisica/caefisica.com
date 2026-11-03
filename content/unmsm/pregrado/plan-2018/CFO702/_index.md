@@ -6,7 +6,7 @@ id: "CFO702"
 credits: 4
 prerequisites: ["Física Electrónica I"]
 semester: 7
-contributors: ["alvaro"]
+contributors: ["alvaro-siesquen"]
 pdf: false
 draft: true
 weight: 702

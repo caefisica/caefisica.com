@@ -1,4 +1,4 @@
-{{- /* One menu link. Context: dict with page and entry. An external link says so to screen readers and shows an arrow. */ -}}
+{{- /* One menu link. Context: dict with page, entry and, in a dropdown, describe: true to show the entry's description. An external link says so to screen readers and shows an arrow. */ -}}
 {{- $active := partial "site/menu-active.html" . -}}
 {{- with .entry -}}
 	<a class="nav-link" href="{{ .URL }}"{{ if $active }} data-active{{ end }}{{ if and $active ($.page.Eq .Page) }} aria-current="page"{{ end }}>
@@ -6,5 +6,6 @@
 		{{- if strings.HasPrefix .URL "http" -}}
 			{{ partial "ui/icon.html" (dict "name" "external" "size" 14 "class" "text-muted") }}<span class="sr-only"> (otro sitio)</span>
 		{{- end -}}
+		{{- if $.describe }}{{ with .Params.description }}<span class="nav-desc">{{ . }}</span>{{ end }}{{ end -}}
 	</a>
 {{- end -}}

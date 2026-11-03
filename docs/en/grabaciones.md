@@ -89,13 +89,12 @@ Common rules:
   the month. The month comes from the post's date or, if the copy has none, from
   the photo's number, as for defences (see [theses](tesis.md)).
 
-## Speakers and profiles
+## Speakers and people
 
-A speaker carries `profile` when their name matches a single profile in
-`/fisicos/` or, if none matches, a single profile in `/professors/`: the first
-name must be the same and each word of the name must be in the profile's folder.
-Talks name people in short form, and profiles use the full name. Someone with
-both profiles links to the one in `/fisicos/`, as in the rest of the site. If
-there are two matches in the same section, the name appears without a link.
+A speaker carries `slug` when their name matches a single person in
+`data/physicists.json` or, if none matches, a single one in `data/people.toml`:
+the first name must be the same and each word of the name must be in the slug.
+Talks name people in short form, and the registries use the full name. If there
+are two matches in the same registry, the name appears without a link.
 
 The profile lists that person's talks under "Charlas", with their series.

@@ -14,12 +14,14 @@ content/
 │   └── facultad/                      faculty information
 ├── apuntes/<topic>/                   notes by topic
 ├── blog/<NNN-name>/index.md           blog posts
-├── fisicos/<slug>/index.md            written profiles of Peruvian physicists
+├── unmsm/docentes/_index.md           list of who teaches the syllabi
+├── personas/_content.gotmpl           one page per person in the registries
+├── personas/<slug>/index.md           written text about a person
+├── fisicos/_index.md                  the map of Peruvian physicists
 ├── videos/_content.gotmpl             one page per playlist in playlists.yaml
 ├── tesis/_content.gotmpl              one page per thesis in data/theses.json
 ├── grabaciones/_index.md              list of data/recordings.json
-├── professors/<slug>/index.md         lecturers
-├── contributors/<slug>/_index.md      contributors; the index is /equipo/
+├── equipo/_index.md                   the team, from data/team.yaml
 ├── contacto/, privacidad/
 ├── redes.md
 └── _index.md                          home page
@@ -27,18 +29,13 @@ content/
 
 ## Names
 
-| Item               | Rule                                      | Example                                    |
-| ------------------ | ----------------------------------------- | ------------------------------------------ |
-| Course folder      | Course code in capitals.                  | `CBE013`                                   |
-| Syllabus folder    | Academic term `YYYY-I` or `YYYY-II`.      | `2022-I`                                   |
-| Lecturer folder    | Full name in lowercase with hyphens.      | `carlos-landauro-saenz`                    |
-| Contributor folder | Name in lowercase.                        | `david`                                    |
-| Blog post          | Three-digit number and a hyphenated name. | `003-faq`                                  |
-| Resource YAML      | Any name; the shortcode cites it.         | `books-theoretical.yaml`, `playlists.yaml` |
-
-A `contributors` slug in front matter must exist as a folder in
-`content/contributors/`, or the build fails. The same holds for the `professor`
-field of a syllabus and the folders of `content/professors/`.
+| Item            | Rule                                      | Example                                    |
+| --------------- | ----------------------------------------- | ------------------------------------------ |
+| Course folder   | Course code in capitals.                  | `CBE013`                                   |
+| Syllabus folder | Academic term `YYYY-I` or `YYYY-II`.      | `2022-I`                                   |
+| Person slug     | Full name in lowercase with hyphens.      | `carlos-vladimir-landauro-saenz`           |
+| Blog post       | Three-digit number and a hyphenated name. | `003-faq`                                  |
+| Resource YAML   | Any name; the shortcode cites it.         | `books-theoretical.yaml`, `playlists.yaml` |
 
 Hugo lowercases addresses: `CBE013` is published at
 `/unmsm/pregrado/plan-2018/cbe013/`.
@@ -54,32 +51,49 @@ credits. Without such a sentence, leave the field empty.
 `unmsm/pregrado/_index.md` is not published (`build.render: never`):
 `/unmsm/pregrado/` redirects to `plan-2018/`, the only plan.
 
-The team page,
-[`layouts/contributors/taxonomy.html`](../../layouts/contributors/taxonomy.html),
-shows the current team from `data/authors/members.json`, then the other authors
-with their number of publications, and how to collaborate. A member whose `url`
-is an author page links to it and is not repeated in the author list. An author
-page ([`layouts/term.html`](../../layouts/term.html)) groups their publications
-by section, newest first.
+## People
 
-## Universities
+Each person has one page, `/personas/<slug>/`, and the slug is their only key.
+The slug is in one of two registries:
 
-Each university is a top-level section (`content/unmsm/`) and an entry in
-[`data/universities.yaml`](../../data/universities.yaml):
+- [`data/physicists.json`](../../data/physicists.json): the physicists on the
+  map. See [physicists](fisicos.md).
+- [`data/people.toml`](../../data/people.toml): everyone else, such as those who
+  write the guides. Each entry has `slug`, `name` and, optionally, `about`.
 
-```yaml
-unmsm:
-  name: Universidad Nacional Mayor de San Marcos
-  section: /unmsm
-```
+A slug cannot be in both. To write about a person, create
+`content/personas/<slug>/index.md`; the template adds the registry data. The
+photo goes in `static/images/personas/<slug>.webp` or `.jpg`, and its source in
+[`data/photos.yaml`](../../data/photos.yaml).
 
-The key is the slug the `institution` field of a lecturer uses. `/professors/`
-groups lecturers by university with that name, and a lecturer's page links the
-section. An `institution` that is not in the file stops the build.
+The page puts the name and one line at the top that says who they are: `role` on
+a written page; on a data page, their current post and their highest degree with
+its institution, such as "Profesor principal, UNMSM · Doctorado en física, TU
+Chemnitz". It puts the facts in a sticky column beside them and, under the name,
+a row of links to its sections with their counts when it has three or more. Each
+section starts with `<h2 id="…">Title <span class="count">N</span></h2>`, with
+plain text in the title: the row of links is built by reading those headings. A
+list of eight rows or more shows five and a button with the rest.
 
-To add a university, create `content/<slug>/_index.md` with
-`cascade: {type: docs}`, like `content/unmsm/_index.md`, and add its entry to
-the file.
+These fields name a person by slug:
+
+| Where                                              | Field          |
+| -------------------------------------------------- | -------------- |
+| Syllabus                                           | `professor`    |
+| Guide and blog post                                | `contributors` |
+| List in `playlists.yaml`                           | `person`       |
+| Speaker in `data/recordings.json`                  | `slug`         |
+| Research group (`gi.md`)                           | `head.person`  |
+| Member in [`data/team.yaml`](../../data/team.yaml) | `person`       |
+
+A slug in neither registry stops the build. A playlist without `person` shows
+the `lecturer` text without a link.
+
+[`/equipo/`](../../layouts/equipo/list.html) draws the org chart from
+`data/team.yaml`, then the other authors with their number of publications, and
+how to collaborate. [`/unmsm/docentes/`](../../layouts/docentes/list.html) lists
+each syllabus `professor` with their courses.
+[`/personas/`](../../layouts/personas/list.html) lists everyone from A to Z.
 
 ## Create a file
 
@@ -87,21 +101,20 @@ the file.
 Hugo picks the archetype by the first folder of the target; for others, pass
 `--kind`:
 
-| Archetype      | How it is chosen                      |
-| -------------- | ------------------------------------- |
-| `blog.md`      | Automatic in `content/blog/`.         |
-| `pregrado.md`  | `--kind pregrado`, for course guides. |
-| `offering.md`  | `--kind offering`, for syllabi.       |
-| `professor.md` | `--kind professor`, for lecturers.    |
-| `default.md`   | Any other folder.                     |
+| Archetype     | How it is chosen                      |
+| ------------- | ------------------------------------- |
+| `blog.md`     | Automatic in `content/blog/`.         |
+| `pregrado.md` | `--kind pregrado`, for course guides. |
+| `offering.md` | `--kind offering`, for syllabi.       |
+| `default.md`  | Any other folder.                     |
 
 ```bash
 hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO999/_index.md
 ```
 
 The `blog`, `pregrado` and `default` archetypes create the page with
-`draft: true`; `offering` and `professor`, with `draft: false`. `bun run dev`
-shows drafts; the site build (`bun run build`) does not publish them.
+`draft: true`; `offering`, with `draft: false`. `bun run dev` shows drafts; the
+site build (`bun run build`) does not publish them.
 
 ## Text format
 
