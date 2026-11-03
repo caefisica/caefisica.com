@@ -2082,3 +2082,65 @@
   title: Entrevista al profesor Luis Neglia en Andina Radio Online
   url: https://www.youtube.com/watch?v=mhjsWIfrjbY
   video: true
+- person: ronal-barrientos-deza
+  outlet: Radio Nacional
+  date: 2012-12-10
+  title:
+    Entrevista a Ronal Barrientos Deza, jefe de la ONGEI de la Presidencia del
+    Consejo de Ministros
+  url: https://www.youtube.com/watch?v=WQNHlji5-zc
+  video: true
+- person: ronal-barrientos-deza
+  outlet: Hablemos de Ciencia con Avid
+  date: 2013-03-03
+  title: "Gobierno electrónico: Ing. Ronal Barrientos"
+  url: https://www.youtube.com/watch?v=fFQu9POQ9qM
+  video: true
+- person: sergio-santa-maria
+  outlet: Modesto Montoya
+  date: 2020-08-17
+  title:
+    "¿Cómo lo hizo, Sergio Santa María? En Perú investigaba en minas y hoy
+    trabaja en la NASA"
+  url: https://www.youtube.com/watch?v=lyCeSRSssXU
+  video: true
+- person: luisa-diomira-macedo-franco
+  outlet: Instituto Geofísico del Perú
+  date: 2022-06-10
+  title: Luisa Macedo, vulcanóloga del IGP
+  url: https://www.youtube.com/watch?v=E-peSFg-JwY
+  video: true
+- person: ricardo-zubieta-barragan
+  outlet: RCR Perú
+  date: 2021-09-17
+  title:
+    Entrevista a Ricardo Zubieta, investigador del Instituto Geofísico del Perú
+  url: https://www.youtube.com/watch?v=QhQg17tUKUw
+  video: true
+- person: stephany-magaly-callanaupa-gutierrez
+  outlet: INAIGEM
+  date: 2022-11-08
+  title:
+    Stephany Callañaupa, investigadora del INAIGEM, explica la crisis climática
+  url: https://www.youtube.com/watch?v=Fy95hV9a0n0
+  video: true
+- person: fernando-enrique-valencia-amador
+  outlet: TVPerú Noticias
+  date: 2021-01-09
+  title: "Qué está pasando: Fernando Valencia, físico médico de la UNI"
+  url: https://www.youtube.com/watch?v=3s3H36nfej4
+  video: true
+- person: gerald-fernando-salazar-quiroz
+  outlet: Universidad Nacional de Ingeniería
+  date: 2021-11-13
+  title: "Espacio UNI: STEM-UNI con Gerald Salazar"
+  url: https://www.youtube.com/watch?v=5IVxP11DG6Y
+  video: true
+- person: giancarlo-gatti-alvarez
+  outlet: Los caminos de Feynman
+  date: 2021-02-26
+  title:
+    "Giancarlo Gatti: computación cuántica, publicar en pregrado, tener una
+    startup y hacer el doctorado"
+  url: https://www.youtube.com/watch?v=f1FEOdsYL0o
+  video: true
