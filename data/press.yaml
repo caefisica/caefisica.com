@@ -1466,3 +1466,43 @@
   date: 2024-03-24
   title: Computación Cuántica en Chile
   url: https://www.cientificos.pe/?p=8622
+- person: katherine-andrea-vargas-alva
+  outlet: Comité de Lectura
+  date: 2023-07-06
+  title: "¿Qué está pasando con el volcán Ubinas?"
+  url: https://podcasts.apple.com/us/podcast/qu%C3%A9-est%C3%A1-pasando-con-el-volc%C3%A1n-ubinas/id1681130971?i=1000619511211
+  podcast: true
+- person: ricardo-angelo-quispe-mendizabal
+  outlet: Pronabec
+  date: 2020-04-21
+  title: "CRECE: El Club de Python para físicos"
+  url: https://podcasts.apple.com/us/podcast/crece-el-club-de-python-para-f%C3%ADsicos/id1509581511?i=1000472347894
+  podcast: true
+- person: kevin-amilcar-villegas-rosales
+  outlet: Yachaq Warmi
+  date: 2022-12-01
+  title:
+    "Pasantías de investigación en el extranjero a través del REPU con Kevin
+    Villegas"
+  url: https://podcasts.apple.com/us/podcast/e11-pasant%C3%ADas-de-investigaci%C3%B3n-en-el-extranjero/id1585035449?i=1000588320918
+  podcast: true
+- person: humberto-torreblanca
+  outlet: Yachaq Warmi
+  date: 2023-09-25
+  title:
+    "¿Sueñas con un doctorado en EEUU? TheGradSchoolApp, con Humberto
+    Torreblanca"
+  url: https://podcasts.apple.com/us/podcast/sue%C3%B1as-con-un-doctorado-en-eeuu-thegradschoolapp-la/id1585035449?i=1000629117204
+  podcast: true
+- person: humberto-torreblanca
+  outlet: Fusion Focused
+  date: 2023-04-10
+  title: "Dr Humberto Torreblanca"
+  url: https://podcasts.apple.com/us/podcast/s2-e5-dr-humberto-torreblanca/id1579734265?i=1000608176395
+  podcast: true
+- person: julio-antonio-larrea-jimenez
+  outlet: Jornal da USP
+  date: 2021-10-05
+  title: "O que é o reino quântico?"
+  url: https://podcasts.apple.com/us/podcast/destaque-do-ci%C3%AAncia-usp-18-o-que-%C3%A9-o-reino-qu%C3%A2ntico/id1445455755?i=1000537606362
+  podcast: true
