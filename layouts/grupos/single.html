@@ -12,64 +12,66 @@
 		<h1>{{ .Title }}</h1>
 		<p class="text-lead">Grupo de investigación · {{ $place.short | default $place.name }}</p>
 	</header>
-	<section class="facts" aria-labelledby="group-info">
-		<h2 id="group-info">En breve</h2>
-		<dl>
-			<div>
-				<dt>Institución</dt>
-				<dd><a href="{{ (site.GetPage (printf "/organizaciones/%s" $place.id)).RelPermalink }}">{{ $place.name }}</a></dd>
-			</div>
-			{{- with $g.unit }}
-				<div>
-					<dt>Unidad</dt>
-					<dd>{{ . }}</dd>
-				</div>
-			{{- end }}
-			{{- with $lead }}
-				<div>
-					<dt>Coordinación</dt>
-					<dd>{{ partial "grupos/person.html" . }}</dd>
-				</div>
-			{{- end }}
-			{{- if $vrip }}
-				<div>
-					<dt>Integrantes</dt>
-					<dd>{{ len $g.members }}</dd>
-				</div>
-			{{- end }}
-			{{- with $g.founded }}
-				<div>
-					<dt>Fundado</dt>
-					<dd>{{ . }}</dd>
-				</div>
-			{{- end }}
-			{{- with $g.kind }}
-				<div>
-					<dt>Investigación</dt>
-					<dd>{{ . }}</dd>
-				</div>
-			{{- end }}
-			{{- with $g.research }}
-				<div>
-					<dt>Desde {{ $from.Year }}</dt>
-					<dd>{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</dd>
-				</div>
-			{{- end }}
-			<div>
-				<dt>Ficha</dt>
-				<dd><a href="{{ $g.url }}">{{ cond $vrip "VRIP de la UNMSM" "Directorio de la PUCP" }}</a></dd>
-			</div>
-		</dl>
-	</section>
 	{{- $body := partial "grupos/sections.html" $g }}
-	<div>
+	<aside class="person-aside">
+		<section class="facts" aria-labelledby="group-info">
+			<h2 id="group-info">En breve</h2>
+			<dl>
+				<div>
+					<dt>Institución</dt>
+					<dd><a href="{{ (site.GetPage (printf "/organizaciones/%s" $place.id)).RelPermalink }}">{{ $place.name }}</a></dd>
+				</div>
+				{{- with $g.unit }}
+					<div>
+						<dt>Unidad</dt>
+						<dd>{{ . }}</dd>
+					</div>
+				{{- end }}
+				{{- with $lead }}
+					<div>
+						<dt>Coordinación</dt>
+						<dd>{{ partial "grupos/person.html" . }}</dd>
+					</div>
+				{{- end }}
+				{{- if $vrip }}
+					<div>
+						<dt>Integrantes</dt>
+						<dd>{{ len $g.members }}</dd>
+					</div>
+				{{- end }}
+				{{- with $g.founded }}
+					<div>
+						<dt>Fundado</dt>
+						<dd>{{ . }}</dd>
+					</div>
+				{{- end }}
+				{{- with $g.kind }}
+					<div>
+						<dt>Investigación</dt>
+						<dd>{{ . }}</dd>
+					</div>
+				{{- end }}
+				{{- with $g.research }}
+					<div>
+						<dt>Desde {{ $from.Year }}</dt>
+						<dd>{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</dd>
+					</div>
+				{{- end }}
+				<div>
+					<dt>Ficha</dt>
+					<dd><a href="{{ $g.url }}">{{ cond $vrip "VRIP de la UNMSM" "Directorio de la PUCP" }}</a></dd>
+				</div>
+			</dl>
+		</section>
 		{{ partial "ui/page-map.html" $body }}
+	</aside>
+	<div>
 		{{ $body }}
 		<p class="person-note text-muted">
 			{{- if $vrip }}
-				Los integrantes, las líneas y los proyectos vienen de la <a href="{{ $g.url }}">ficha del grupo</a> en el Vicerrectorado de Investigación y Posgrado de la UNMSM, copiada el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "vrip")) }}.
+				Los integrantes, las líneas y los proyectos vienen de la <a href="{{ $g.url }}">ficha del grupo</a> en el Vicerrectorado de Investigación y Posgrado de la UNMSM, copiada el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "vrip")) }}.{{ with $g.summary }} El resumen es nuestro; la ficha trae la presentación, los objetivos y los servicios que da el propio grupo.{{ end }}
 			{{- else }}
-				La descripción y la coordinación vienen del <a href="{{ $g.url }}">directorio de grupos</a> del Vicerrectorado de Investigación de la PUCP, copiado el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "pucp")) }}. El directorio no nombra a los demás integrantes.
+				La coordinación viene del <a href="{{ $g.url }}">directorio de grupos</a> del Vicerrectorado de Investigación de la PUCP, copiado el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "pucp")) }}. El directorio no nombra a los demás integrantes.{{ with $g.summary }} El resumen es nuestro; el directorio trae la presentación que da el propio grupo.{{ end }}
 			{{- end }}
 			{{- with $g.research }} Las publicaciones vienen de <a href="https://openalex.org/">OpenAlex</a>.{{ end }} Si integras el grupo y algo falta o está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 		</p>

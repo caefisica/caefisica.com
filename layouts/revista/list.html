@@ -1,20 +1,97 @@
 {{ define "main" }}
 {{- $data := hugo.Data.journal -}}
-{{- $n := 0 -}}
+{{- $all := slice -}}
 {{- $years := slice -}}
-{{- range $data.issues }}{{ $n = add $n (len .articles) }}{{ with .year }}{{ $years = $years | append . }}{{ end }}{{ end -}}
+{{- range $i := $data.issues }}{{ range .articles }}{{ $all = $all | append (dict "article" . "issue" $i "issueNote" true) }}{{ end }}{{ with .year }}{{ $years = $years | append . }}{{ end }}{{ end -}}
 {{- $years = sort $years -}}
+{{- /* An area with fewer articles than this joins "Otras áreas", where each row names its area. */ -}}
+{{- $least := 8 -}}
+{{- $names := slice -}}
+{{- range $all }}{{ with .article.area }}{{ $names = $names | append . }}{{ end }}{{ end -}}
+{{- $areas := slice -}}
+{{- $rest := slice -}}
+{{- range uniq $names -}}
+	{{- $name := . -}}
+	{{- $rows := where $all "article.area" $name -}}
+	{{- if ge (len $rows) $least }}{{ $areas = $areas | append (dict "name" $name "rows" $rows "n" (len $rows)) }}{{ else }}{{ $rest = $rest | append $rows }}{{ end -}}
+{{- end -}}
+{{- $areas = sort (sort $areas "name") "n" "desc" -}}
+{{- $none := where $all "article.area" nil -}}
+{{- /* Authors with three articles or more, most first. A linked author is keyed by slug, so the bylines of one profile count together; the rest by the name they sign with. */ -}}
+{{- $byKey := dict -}}
+{{- range $r := $all -}}
+	{{- range .article.authors -}}
+		{{- $key := .slug | default .name -}}
+		{{- $entry := index $byKey $key | default (dict "slug" .slug "name" .name "rows" slice) -}}
+		{{- with .slug }}{{ $entry = merge $entry (dict "name" (site.GetPage (printf "/personas/%s" .)).Title) }}{{ end -}}
+		{{- $byKey = merge $byKey (dict $key (merge $entry (dict "rows" ($entry.rows | append $r)))) -}}
+	{{- end -}}
+{{- end -}}
+{{- $authors := slice -}}
+{{- range $byKey }}{{ if ge (len .rows) 3 }}{{ $authors = $authors | append (merge . (dict "n" (len .rows))) }}{{ end }}{{ end -}}
+{{- $authors = sort (sort $authors "name") "n" "desc" -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "Los %d artículos de los %d números que la Facultad de Ciencias Físicas de la UNMSM publicó de %d a %d. El título abre el texto completo; el nombre de un autor abre su perfil cuando está en el <a href=\"%s\">mapa de físicos</a>." $n (len $data.issues) (int (index $years 0)) (int (index (last 1 $years) 0)) ((site.GetPage "/fisicos").RelPermalink))) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "Los %d artículos de los %d números que la Facultad de Ciencias Físicas de la UNMSM publicó de %d a %d. El título abre el texto completo; el nombre de un autor abre su perfil cuando está en el <a href=\"%s\">mapa de físicos</a>." (len $all) (len $data.issues) (int (index $years 0)) (int (index (last 1 $years) 0)) ((site.GetPage "/fisicos").RelPermalink))) }}
 
-	{{- range $i := $data.issues }}
-		<section class="section-group band" id="v{{ $i.volume }}-n{{ $i.number }}">
-			<h2>Vol. {{ $i.volume }}, n.º {{ $i.number }}{{ with $i.year }} · {{ . }}{{ end }} <span class="count">{{ len $i.articles }}</span></h2>
-			<ul class="rows">
-				{{- range $i.articles }}{{ partial "revista/row.html" (dict "article" . "issue" $i) }}{{ end }}
-			</ul>
-		</section>
-	{{- end }}
+	<div class="views">
+		<fieldset class="pill-tabs">
+			<legend>Ver por</legend>
+			<label><input type="radio" name="vista" value="area" checked /><span>Área</span></label>
+			<label><input type="radio" name="vista" value="numero" /><span>Número</span></label>
+			<label><input type="radio" name="vista" value="autor" /><span>Autor</span></label>
+		</fieldset>
+
+		<div class="view" data-view="area">
+			{{- range $areas }}
+				<section class="section-group band" id="area-{{ anchorize .name }}">
+					<h2>{{ .name }} <span class="count">{{ .n }}</span></h2>
+					<ul class="rows">
+						{{- range .rows }}{{ partial "revista/row.html" . }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			{{- with $rest }}
+				<section class="section-group band">
+					<h2>Otras áreas <span class="count">{{ len . }}</span></h2>
+					<ul class="rows">
+						{{- range . }}{{ partial "revista/row.html" (merge . (dict "note" .article.area)) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			{{- with $none }}
+				<section class="section-group band" id="sin-area">
+					<h2>Sin área <span class="count">{{ len . }}</span></h2>
+					<ul class="rows">
+						{{- range . }}{{ partial "revista/row.html" . }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			<p class="text-muted">El área sale del tema principal que <a href="https://openalex.org/">OpenAlex</a> da a cada artículo con DOI. Un artículo sin DOI, o que OpenAlex no clasifica, queda sin área.</p>
+		</div>
+
+		<div class="view" data-view="numero">
+			{{- range $i := $data.issues }}
+				<section class="section-group band" id="v{{ $i.volume }}-n{{ $i.number }}">
+					<h2>Vol. {{ $i.volume }}, n.º {{ $i.number }}{{ with $i.year }} · {{ . }}{{ end }} <span class="count">{{ len $i.articles }}</span></h2>
+					<ul class="rows">
+						{{- range $i.articles }}{{ partial "revista/row.html" (dict "article" . "issue" $i) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+		</div>
+
+		<div class="view" data-view="autor">
+			{{- range $authors }}
+				<section class="section-group band">
+					<h2>{{ $name := .name }}{{ with .slug }}<a href="{{ (site.GetPage (printf "/personas/%s" .)).RelPermalink }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end }} <span class="count">{{ .n }}</span></h2>
+					<ul class="rows">
+						{{- range .rows }}{{ partial "revista/row.html" . }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			<p class="text-muted">Autores con tres artículos o más, por el nombre con que firman.</p>
+		</div>
+	</div>
 
 	<p class="person-note text-muted">
 		Los artículos vienen de <a href="https://www.crossref.org/">Crossref</a>, donde la revista registra un DOI por artículo, copiados el {{ partial "ui/date.html" (time.AsTime $data.fetched.crossref) }}. Los de 1998 a 2011 sin DOI vienen del <a href="https://sisbib.unmsm.edu.pe/BibVirtual/publicaciones/fisica/anteriores.htm">archivo de la biblioteca de San Marcos</a> y llevan la firma tal como se imprimió. La revista publica en su <a href="https://revistasinvestigacion.unmsm.edu.pe/index.php/fisica">sitio oficial</a>. Si un autor no enlaza su perfil o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.

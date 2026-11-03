@@ -1,4 +1,4 @@
-{{- /* One article as a row. Context: dict "article" from data/journal.json, "issue" its issue, and "issueNote" true to name the issue under the authors. */ -}}
+{{- /* One article as a row. Context: dict "article" from data/journal.json, "issue" its issue, "issueNote" true to name the issue under the authors, and an optional "note" after the issue. */ -}}
 {{- $a := .article -}}
 {{- $i := .issue -}}
 {{- $names := slice -}}
@@ -12,7 +12,7 @@
 		<a class="card-link" href="{{ $a.url }}">{{ $a.title }}</a>
 		<p>{{ with $names }}{{ delimit . ", " | safeHTML }}{{ else }}{{ $a.byline }}{{ end }}</p>
 		{{- if .issueNote }}
-			<p>Vol. {{ $i.volume }}, n.º {{ $i.number }}{{ with $i.year }} · {{ . }}{{ end }}</p>
+			<p>Vol. {{ $i.volume }}, n.º {{ $i.number }}{{ with $i.year }} · {{ . }}{{ end }}{{ with $.note }} · {{ . }}{{ end }}</p>
 		{{- end }}
 	</div>
 	{{- with $a.pages }}

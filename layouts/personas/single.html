@@ -36,6 +36,23 @@
 		{{- $lead = $row.about | default (cond (gt (len $courses) 0) "Docente de la Facultad de Ciencias Físicas, UNMSM" "") -}}
 	{{- end -}}
 {{- end -}}
+{{- /* The trajectory and the blocks render before the page so the page map can list their headings and counts. The order puts what the person did before what the site holds about them. */ -}}
+{{- $trajectory := "" -}}
+{{- with $p }}{{ $trajectory = partial "personas/trajectory.html" (dict "page" $ "person" . "places" $places) }}{{ end -}}
+{{- $blocks := slice
+	(partial "personas/courses.html" $courses)
+	(partial "videos/person.html" $slug)
+	(partial "personas/works.html" $works)
+	(partial "revista/person.html" $slug)
+	(partial "tesis/person.html" $slug)
+	(partial "grupos/person-groups.html" $slug)
+	(partial "fisicos/person-projects.html" $slug)
+	(partial "grabaciones/person.html" $slug)
+	(partial "fisicos/press.html" $slug)
+	(partial "personas/writing.html" $slug)
+-}}
+{{- /* A link to this page inside its own sections, such as the person as an author, reads as plain text. */ -}}
+{{- $body := replaceRE (printf `<a href="%s">([^<]*)</a>` .RelPermalink) "$1" (delimit $blocks "") -}}
 <article class="person-page py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<header class="person-head">
@@ -45,106 +62,92 @@
 			{{- with $lead }}<p class="text-lead">{{ . }}</p>{{ end }}
 		</div>
 	</header>
-	{{- if $p }}
-		<section class="facts" aria-labelledby="person-info">
-			<h2 id="person-info">En breve</h2>
-			<dl>
-				{{- /* A data page's lead already names the highest degree; a written page's role does not. */}}
-				{{- if .Params.role }}
-					{{- with $p.degree }}
+	<aside class="person-aside">
+		{{- if $p }}
+			<section class="facts" aria-labelledby="person-info">
+				<h2 id="person-info">En breve</h2>
+				<dl>
+					{{- /* A data page's lead already names the highest degree; a written page's role does not. */}}
+					{{- if .Params.role }}
+						{{- with $p.degree }}
+							<div>
+								<dt>Grado más alto</dt>
+								<dd>{{ . }}</dd>
+							</div>
+						{{- end }}
+					{{- end }}
+					{{- with or .Params.fields $p.fields }}
 						<div>
-							<dt>Grado más alto</dt>
-							<dd>{{ . }}</dd>
+							<dt>Campos</dt>
+							{{- /* Field names are common nouns, capitalised only to stand alone as tags. */}}
+							{{- $names := slice (index . 0) }}{{ range after 1 . }}{{ $names = $names | append (lower .) }}{{ end }}
+							<dd>{{ delimit $names ", " " y " }}</dd>
+						</div>
+					{{- else }}
+						{{- with $p.area }}
+							<div>
+								<dt>Área</dt>
+								<dd>{{ . }}</dd>
+							</div>
+						{{- end }}
+					{{- end }}
+					{{- with $p.works }}
+						<div>
+							<dt>Trabaja en</dt>
+							<dd>{{ range $i, $w := . }}{{ if $i }}, {{ end }}{{ (index $places $w.place).name }}{{ end }}</dd>
 						</div>
 					{{- end }}
-				{{- end }}
-				{{- with or .Params.fields $p.fields }}
-					<div>
-						<dt>Campos</dt>
-						{{- /* Field names are common nouns, capitalised only to stand alone as tags. */}}
-						{{- $names := slice (index . 0) }}{{ range after 1 . }}{{ $names = $names | append (lower .) }}{{ end }}
-						<dd>{{ delimit $names ", " " y " }}</dd>
-					</div>
-				{{- else }}
-					{{- with $p.area }}
+					{{- with .Params.collaborations }}
 						<div>
-							<dt>Área</dt>
-							<dd>{{ . }}</dd>
+							<dt>Colaboraciones</dt>
+							<dd>{{ delimit . ", " " y " }}</dd>
 						</div>
 					{{- end }}
-				{{- end }}
-				{{- with $p.works }}
-					<div>
-						<dt>Trabaja en</dt>
-						<dd>{{ range $i, $w := . }}{{ if $i }}, {{ end }}{{ (index $places $w.place).name }}{{ end }}</dd>
-					</div>
-				{{- end }}
-				{{- with .Params.collaborations }}
-					<div>
-						<dt>Colaboraciones</dt>
-						<dd>{{ delimit . ", " " y " }}</dd>
-					</div>
-				{{- end }}
-				{{- with $works }}
-					<div>
-						<dt>Obra</dt>
-						<dd>{{ lang.FormatNumber 0 .works }} trabajos, {{ lang.FormatNumber 0 .citations }} citas</dd>
-					</div>
-				{{- else }}
-					{{- with $p.works_count }}
+					{{- with $works }}
 						<div>
 							<dt>Obra</dt>
-							<dd>{{ lang.FormatNumber 0 . }} trabajos, {{ lang.FormatNumber 0 $p.cited_by }} citas</dd>
+							<dd>{{ lang.FormatNumber 0 .works }} trabajos, {{ lang.FormatNumber 0 .citations }} citas</dd>
+						</div>
+					{{- else }}
+						{{- with $p.works_count }}
+							<div>
+								<dt>Obra</dt>
+								<dd>{{ lang.FormatNumber 0 . }} trabajos, {{ lang.FormatNumber 0 $p.cited_by }} citas</dd>
+							</div>
+						{{- end }}
+					{{- end }}
+					<div>
+						<dt>Fichas</dt>
+						<dd>
+							{{- $links := slice -}}
+							{{- if eq $p.source "ctivitae" }}{{ $links = $links | append (dict "url" $p.url "title" "CTI Vitae") }}{{ end -}}
+							{{- if eq $p.source "pucp" }}{{ $links = $links | append (dict "url" $p.url "title" "PUCP") }}{{ end -}}
+							{{- if eq $p.source "web" }}{{ $links = $links | append (dict "url" $p.url "title" $p.site) }}{{ end -}}
+							{{- with $p.orcid }}{{ $orcid := printf "https://orcid.org/%s" . }}{{ if ne $orcid $p.url }}{{ $links = $links | append (dict "url" $orcid "title" "ORCID") }}{{ end }}{{ end -}}
+							{{- range $l := $p.links }}{{ with index $research $l.kind }}{{ $links = $links | append (dict "url" $l.url "title" .) }}{{ end }}{{ end -}}
+							{{- with $p.wikipedia }}{{ $links = $links | append (dict "url" . "title" "Wikipedia") }}{{ end -}}
+							{{- with $p.openalex }}{{ $links = $links | append (dict "url" (printf "https://openalex.org/authors/%s" .) "title" "OpenAlex") }}{{ end -}}
+							{{- range $i, $l := $links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end -}}
+						</dd>
+					</div>
+					{{- $web := slice }}
+					{{- range $p.links }}
+						{{- if not (or (index $research .kind) (eq .url $p.url)) }}
+							{{- $web = $web | append (dict "url" .url "title" (index $channels .kind | default (strings.TrimPrefix "www." (urls.Parse .url).Host))) }}
+						{{- end }}
+					{{- end }}
+					{{- with $web }}
+						<div>
+							<dt>En la web</dt>
+							<dd>{{ range $i, $l := . }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end }}</dd>
 						</div>
 					{{- end }}
-				{{- end }}
-				<div>
-					<dt>Fichas</dt>
-					<dd>
-						{{- $links := slice -}}
-						{{- if eq $p.source "ctivitae" }}{{ $links = $links | append (dict "url" $p.url "title" "CTI Vitae") }}{{ end -}}
-						{{- if eq $p.source "pucp" }}{{ $links = $links | append (dict "url" $p.url "title" "PUCP") }}{{ end -}}
-						{{- if eq $p.source "web" }}{{ $links = $links | append (dict "url" $p.url "title" $p.site) }}{{ end -}}
-						{{- with $p.orcid }}{{ $orcid := printf "https://orcid.org/%s" . }}{{ if ne $orcid $p.url }}{{ $links = $links | append (dict "url" $orcid "title" "ORCID") }}{{ end }}{{ end -}}
-						{{- range $l := $p.links }}{{ with index $research $l.kind }}{{ $links = $links | append (dict "url" $l.url "title" .) }}{{ end }}{{ end -}}
-						{{- with $p.wikipedia }}{{ $links = $links | append (dict "url" . "title" "Wikipedia") }}{{ end -}}
-						{{- with $p.openalex }}{{ $links = $links | append (dict "url" (printf "https://openalex.org/authors/%s" .) "title" "OpenAlex") }}{{ end -}}
-						{{- range $i, $l := $links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end -}}
-					</dd>
-				</div>
-				{{- $web := slice }}
-				{{- range $p.links }}
-					{{- if not (index $research .kind) }}
-						{{- $web = $web | append (dict "url" .url "title" (index $channels .kind | default (strings.TrimPrefix "www." (urls.Parse .url).Host))) }}
-					{{- end }}
-				{{- end }}
-				{{- with $web }}
-					<div>
-						<dt>En la web</dt>
-						<dd>{{ range $i, $l := . }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end }}</dd>
-					</div>
-				{{- end }}
-			</dl>
-		</section>
-	{{- end }}
-	{{- /* The trajectory and the blocks render first so the page map can list their headings and counts. The order puts what the person did before what the site holds about them. */ -}}
-	{{- $trajectory := "" -}}
-	{{- with $p }}{{ $trajectory = partial "personas/trajectory.html" (dict "page" $ "person" . "places" $places) }}{{ end -}}
-	{{- $blocks := slice
-		(partial "personas/courses.html" $courses)
-		(partial "videos/person.html" $slug)
-		(partial "personas/works.html" $works)
-		(partial "revista/person.html" $slug)
-		(partial "tesis/person.html" $slug)
-		(partial "grupos/person-groups.html" $slug)
-		(partial "fisicos/person-projects.html" $slug)
-		(partial "grabaciones/person.html" $slug)
-		(partial "fisicos/press.html" $slug)
-		(partial "personas/writing.html" $slug)
-	-}}
-	{{- $body := delimit $blocks "" -}}
-	<div>
+				</dl>
+			</section>
+		{{- end }}
 		{{ partial "ui/page-map.html" (print $trajectory $body) }}
+	</aside>
+	<div>
 		<div class="markdown">
 			{{ .Content }}
 			{{ $trajectory | safeHTML }}

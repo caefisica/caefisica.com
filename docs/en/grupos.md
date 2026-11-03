@@ -20,6 +20,7 @@ accents and particles; two words are not enough.
 | ------------- | ------------------------------------------------------------------------------------------------------------ |
 | `id`          | The university and the group's acronym, like `unmsm-gimna`. It is the path of its page.                      |
 | `institution` | The `id` of its place in `data/physicists.json`; links its organisations page.                               |
+| `summary`     | What the group researches, in two to four sentences of our own. Its own text stays on its ficha.             |
 | `members`     | Name, `role` (`Coordinador`), degree and `slug` if they have a profile. The PUCP gives only the coordinator. |
 | `lines`       | The research lines (UNMSM).                                                                                  |
 | `projects`    | Title, code and call year of each registered project (UNMSM).                                                |

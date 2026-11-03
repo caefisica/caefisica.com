@@ -16,13 +16,11 @@
     {
       "id": "unmsm-ecyt",
       "institution": "unmsm",
+      "summary": "Estudia la enseñanza y el aprendizaje de la física y de las ciencias en la escuela y la universidad. Prepara materiales y software educativo, capacita a docentes y organiza actividades de divulgación, entre ellas los Coloquios de Física al cierre de cada ciclo.",
       "acronym": "ECYT",
       "name": "Educación, Ciencia y Tecnología",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ecyt/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "El Grupo de Investigación está integrado por docentes, estudiantes de las Facultades de Ciencias e Ingeniería y docentes externos. Desde el 2001 hemos desarrollado diversas actividades académicas de promoción, difusión y socialización de la ciencia con asistencia masiva de docentes y estudiantes de Ciencia y Tecnología de distintos niveles. Actualmente, desarrollamos Coloquios de Física al final de cada ciclo académico con la participación de distintas instituciones académicas. La importancia de la ciencia no solo reside en la ciencia pura y teórica, sino en su aplicación y socialización. De ahí, la necesidad de interactuar dinámicamente con los sectores que contribuyen a la formación de la cultura en sus distintos niveles, esto es: desde la escuela primaria hasta el ámbito superior universitaria. La educación y el fomento de la ciencia son imprescindibles para el desarrollo productivo y cultural de nuestra sociedad. Siendo, la universidad pilar de desarrollo académico, científico y cultural, pretendemos realizar investigaciones en distintos niveles para actualizarnos y socializar la ciencia desde la perspectiva disciplinaria, pedagógica, didáctica y aplicativa a los sectores de la sociedad nacional; además expandir y profundizar las investigaciones en conexión y cooperación con los sectores productivos y entidades académicas tanto del país como del extranjero.",
-      "goals": "⮚Desarrollar nuevas metodologías al aprendizaje y enseñanza de la ciencia, desde la investigación disciplinaria e interacción con la sociedad y la educación a todo nivel.\n⮚Capacitar estudiantes y docentes en coordinación con las Instituciones Educativas, UGEL DRE y Minedu, en didáctica, metodología, aprendizaje y enseñanza de la ciencia.\n⮚Publicar en revistas indexadas y presentar trabajos en eventos académicos, en temas de la didáctica, metodología y aprendizaje de las ciencias.\n⮚Equipar laboratorio experimental de ciencias a fin de impulsar el aprendizaje con evidencias prácticas y aplicativas.\n⮚Desarrollar programas de promoción y extensión científica a la sociedad.",
-      "services": "⮚Asesoramiento y acompañamiento de la comunidad educativa en el ámbito pedagógico y didáctico de temas de la enseñanza y aprendizaje de la ciencia.\n⮚Promover eventos académicos: congresos, simposio, coloquios, seminarios para difundir la ciencia, y cursos, talleres, diplomados y especializaciones en el ámbito científico para los docentes.\n⮚Producir software educativo orientado al aprendizaje y enseñanza de la ciencia, ademas materiales de laboratorio, académicos de investigación y artículos exploratorios del tema para su divulgación, exposición en eventos académicos y publicación en revistas indexadas.\n⮚Investigar y crear módulos y formas de metodologías de la enseñanza en ciencias básicas",
       "members": [
         {
           "name": "Miguel Angel Castillo Corzo",
@@ -30,7 +28,8 @@
           "slug": "miguel-angel-castillo-corzo"
         },
         {
-          "name": "Jorge Moises Minaya Martinez"
+          "name": "Jorge Moises Minaya Martinez",
+          "slug": "jorge-moises-minaya-martinez"
         },
         {
           "name": "Valentin Castro Rau"
@@ -227,7 +226,7 @@
               },
               {
                 "name": "David Correa",
-                "slug": null
+                "slug": "david-correa-chilon"
               }
             ],
             "n": 3
@@ -257,6 +256,10 @@
               {
                 "name": "J. Medina Medina",
                 "slug": "jose-julian-medina-medina"
+              },
+              {
+                "name": "Víctor A. Peña-Rodríguez",
+                "slug": "victor-antonio-pena-rodriguez"
               }
             ],
             "n": 8
@@ -288,13 +291,11 @@
     {
       "id": "unmsm-gisicof",
       "institution": "unmsm",
+      "summary": "Estudia materiales complejos, como cuasicristales, compuestos intermetálicos, aleaciones, compósitos y nanosistemas, para entender sus propiedades y buscarles aplicaciones. Combina síntesis por molienda mecánica y coprecipitación, caracterización por fluorescencia y difracción de rayos X, y simulación con la teoría del funcional de la densidad (DFT).",
       "acronym": "GISICOF",
       "name": "Grupo de investigación de sistemas complejos funcionalizados",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gisicof/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "La ciencia de materiales y la nanociencia son el soporte actual de una amplia gama de aplicaciones tecnológicas que todo país requiere para mantener un desarrollo sostenido. En este contexto, los sistemas complejos funcionalizados son una alternativa novedosa para brindar soluciones a problemas específicos de la sociedad en diferentes ámbitos como la industria, electrónica, biomedicina, energía y el medioambiente, entre otros.\n\nEl GISICOF desarrolla desde hace más de 10 años investigaciones en esta línea de investigación. Investigamos principalmente sistemas como cuasicristales, intermetálicos, aleaciones metálicas complejas, compósitos, nano-sistemas, materiales tipo fermiones-pesados, para entender los fundamentos que expliquen las propiedades fisico-químicas que estos sistemas presentan y, además, para proponer posibles aplicaciones tecnológicas basándonos en un enfoque de innovación científica y tecnológica.\n\nEl GISICOF está conformado por investigadores formados en prestigiosas instituciones de Alemania, Brasil y Ucrania, especializados en diversos campos de la física de la materia condensada, tanto teórica como experimental, y contamos con amplia experiencia formando investigadores a nivel de pre- y posgrado. Además, tenemos infraestructura desarrollada y colaboraciones con grupos de investigación de Alemania, Brasil, México, entre otros.\n\nEn la actualidad, el GISICOF lidera investigaciones con proyectos financiados por la UNMSM, CONCYTEC e INNOVATE PERÚ.",
-      "goals": "El GISICOF tiene los siguientes objetivos:\r\n- Sintetizar, caracterizar e innovar estructuras complejas funcionalizadas con potenciales aplicaciones tecnológicas.\r\n- Entender, a través de simulaciones computaciones, las propiedades físicas de estructuras complejas y como su funcionalización ayuda en su empleo para aplicaciones tecnológicas.\r\n- Desarrollar capacidades para el uso de técnicas de síntesis, caracterización y simulación de sistemas complejos empleando diversos equipos de tecnología actual.\r\n- Contribuir con la formación de recursos humanos altamente calificados en el estudio de sistemas complejos diversos y empleando diversas herramientas teórico-experimentales.\r\n- Brindar servicios tecnológicos altamente especializados a la industria.",
-      "services": "El GISICOF presta los servicios siguientes:\r\n- Análisis cualitativo y cuantitativo de propiedades elementales y estructurales de materiales de naturaleza diversa (fármacos, cementos, suelos, arcillas, cerámicas, metales, entre otros) empleando equipos de fluorescencia y difracción de rayos X.\r\n- Servicios de simulación de propiedades físicas de materiales empleando software especializado basado en la teoría del funcional de la densidad (DFT) de uso estándar a nivel internacional.\r\n- Servicio de síntesis de materiales por vías físicas (molienda mecánica de baja energía) y química (co-precipitación).\r\n- Actualmente se esta implementando otros servicios como espectroscopia UV-Vis que complementarán los servicios que brindamos.",
       "members": [
         {
           "name": "Carlos Vladimir Landauro Saenz",
@@ -308,6 +309,7 @@
         },
         {
           "name": "Sthy Warren Flores Daorta",
+          "slug": "sthy-warren-flores-daorta",
           "degree": "Doctor"
         }
       ],
@@ -398,19 +400,80 @@
       ]
     },
     {
+      "id": "unmsm-grifindr",
+      "institution": "unmsm",
+      "summary": "Trabaja en fisicoquímica e instrumentación con nanomateriales, orientada a la descontaminación y la remediación ambiental. Diseña métodos de adsorción para tratar efluentes con colorantes, fármacos y metales pesados, y desarrolla técnicas y equipos para problemas concretos.",
+      "acronym": "GRIFINDR",
+      "name": "Grupo de Investigación en Fisicoquímica e Instrumentación en Nanomateriales, Descontaminación por Oxidación y Remediación",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/grifindr/",
+      "members": [
+        {
+          "name": "Juan Manuel Montes de Oca Avalos",
+          "role": "Coordinador"
+        },
+        {
+          "name": "Eduardo H Montoya Rossi",
+          "slug": "eduardo-h-montoya-rossi"
+        },
+        {
+          "name": "Fernando Carlos Carrasco Solis"
+        },
+        {
+          "name": "Jaime Ricardo Vega Chacon"
+        },
+        {
+          "name": "Jorge Luis Zegarra Pumacayo"
+        }
+      ],
+      "lines": [
+        "Caracterización de materiales",
+        "Remediación de agua, aire y suelo",
+        "Síntesis química"
+      ],
+      "projects": [
+        {
+          "title": "Adquisición de un potenciostato-galvanostato-analizador de impedancia para medidas electroquímicas aplicadas a la química orgánica, inorgánica y de materiales",
+          "code": "C260713410e",
+          "year": 2026,
+          "programme": "ECI"
+        },
+        {
+          "title": "Construcción de un analizador Crioscópico Termo-Eléctrico para la innovación formativa en el Laboratorio Universitario de Fisicoquímica",
+          "code": "C26070014i",
+          "year": 2026,
+          "programme": "PCONFIGI-INV"
+        },
+        {
+          "title": "Construcción de un equipo de ángulo de contacto para medidas de tensión superficial aplicado a la docencia universitaria",
+          "code": "C260729PROrn",
+          "year": 2026,
+          "programme": "PRO-CTIE"
+        },
+        {
+          "title": "Desarrollo de un Sistema Espectrofotométrico de Radiación Visible para Estudios Avanzados de Cinética Química",
+          "code": "C26072191",
+          "year": 2026
+        },
+        {
+          "title": "Fotodegradación de colorantes en medio acuoso utilizando un material con propiedades fotocatalíticas y removible magnéticamente basado en CoFe2O4 recubierto con TiO2",
+          "code": "C26071341",
+          "year": 2026
+        }
+      ]
+    },
+    {
       "id": "unmsm-gimna",
       "institution": "unmsm",
+      "summary": "Estudia aleaciones magnéticas a base de hierro, nanoaleaciones, nanocompósitos, nanoóxidos y metales amorfos, con atención al magnetismo blando, el nanomagnetismo y el efecto magnetocalórico. Prepara muestras por mecanosíntesis, horno de arco y tratamientos térmicos, y las caracteriza por difracción de rayos X, espectroscopia Mössbauer, magnetización y transporte electrónico.",
       "acronym": "GIMNA",
       "name": "Magnetismo moderno, nanomagnetismo y aleaciones metálicas",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gimna/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "Desde hace 20 años, profesores de la Facultad de Ciencias Físicas vienen trabajando en temas del magnetismo moderno y, en particular, en el magnetismo blando y nanomagnetismo de nuevas aleaciones basadas en Fe, interesantes tanto del punto de vista científico como tecnológico. Estos materiales ofrecen una variedad de propiedades físico-químicas, mecánicas, eléctricas, magnéticas y térmicas útiles para aplicaciones en la industria, biomedicina y medio-ambiente.\n\nEl GIMNA está dirigido por investigadores especializados en prestigiosas instituciones del Brasil y Alemania, en física de la materia condensada, ciencia de materiales, física mesoscópica y nanomagnetismo. Particularmente, el nanomagnetismo (magnetismo nivel nanoescala) es la ciencia de mayor futuro como soporte de altas tecnologías. De ella derivan nuevos campos como la espintrónica basadas no solamente en transporte de electrones sino en la manipulación magnética y óptica del espín electrónico.\n\nTemas de investigación: amorfos metálicos; nano-aleaciones; nano-compositos; nano-óxidos; soluciones-sólidas extendidas; efectos magneto-calóricos y nanomagnetismo.\n\nActualmente, el GIMNA viene trabajando en tres proyectos CienciActiva-CONCYTEC:\n\n-“Círculo de Investigación e Innovación de Materiales Avanzados para la Industria y Biomedicina” (2014-2017).\n\n-“Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales” (2015-2020).\n\n-Programa de doctorado en Física-UNMSM.\n\nUn proyecto Innóvate Perú del Ministerio de la Producción-BID.\n\n-Proyecto: materiales cuasicristalinos tipo fermiones pesados (2016-2017)",
-      "goals": "El GIMNA tiene los siguientes objetivos:\r\n1) Producir, caracterizar e innovar nuevas aleaciones metálicas nano y micro-estructuradas con propiedades físicas y magnéticas no usuales con potenciales aplicaciones tecnológicas en campos diversos de la industria, biomedicina y medioambiente.\r\n2) Desarrollo de capacidades para el uso de técnicas de caracterización de materiales por difracción de rayos-X, espectroscopia Mössbauer, absorción de rayos X, magnetización, transporte electrónico y criogenia.\r\n3) Ofrecer un espacio académico para la formación de recursos humanos altamente calificados en magnetismo moderno, nanomagnetismo y nuevos materiales necesarios para entender las complejidades propias del desarrollo científico y tecnológico.\r\n4) Brindar servicios tecnológicos.",
-      "services": "El GIMNA presta los servicios siguientes:\r\n1) Análisis cualitativo y cuantitativo de materiales a través de medidas por difracción de rayos-X, espectroscopia Mössbauer, magnetización y de transporte electrónico.\r\n2) Servicios de preparación de muestras de ensayo (aleaciones y nano-aleaciones metálicas; intermetálicos; nano-compositos; nano-óxidos; soluciones sólidas extendidas y aleaciones metálicas amorfas) para aplicaciones en la industria (metal-mecánica, grabación magnética, metalurgia, dispositivos electrónicos), biomedicina (terapia oncológica, administración de fármacos) y medio-ambiente, a través de las técnicas: mecano-síntesis; horno de arco por descarga voltaica y tratamientos térmicos.\r\n3) Próximamente se desarrollará un sistema de electrodeposición pulsada para fabricación de revestimientos, multicapas y nano-hilos.",
       "members": [
         {
-          "name": "Victor Antonio Peña Rodriguez",
+          "name": "Victor Antonio Pena Rodriguez",
           "role": "Coordinador",
+          "slug": "victor-antonio-pena-rodriguez",
           "degree": "Doctor"
         },
         {
@@ -576,6 +639,10 @@
               {
                 "name": "J. Medina Medina",
                 "slug": "jose-julian-medina-medina"
+              },
+              {
+                "name": "Víctor A. Peña-Rodríguez",
+                "slug": "victor-antonio-pena-rodriguez"
               }
             ],
             "n": 8
@@ -588,7 +655,7 @@
             "authors": [
               {
                 "name": "Víctor A. Peña-Rodríguez",
-                "slug": null
+                "slug": "victor-antonio-pena-rodriguez"
               },
               {
                 "name": "J. Medina Medina",
@@ -597,6 +664,10 @@
               {
                 "name": "Ch. Rojas Ayala",
                 "slug": null
+              },
+              {
+                "name": "Carlos V. Landauro",
+                "slug": "carlos-vladimir-landauro-saenz"
               },
               {
                 "name": "J. Quispe-Marcatoma",
@@ -613,7 +684,7 @@
             "authors": [
               {
                 "name": "Víctor A. Peña-Rodríguez",
-                "slug": null
+                "slug": "victor-antonio-pena-rodriguez"
               },
               {
                 "name": "Ch. Rojas Ayala",
@@ -626,6 +697,10 @@
               {
                 "name": "J. Quispe-Marcatoma",
                 "slug": "justiniano-quispe-marcatoma"
+              },
+              {
+                "name": "Carlos V. Landauro",
+                "slug": "carlos-vladimir-landauro-saenz"
               }
             ],
             "n": 9
@@ -636,17 +711,16 @@
     {
       "id": "unmsm-ctclima",
       "institution": "unmsm",
+      "summary": "Reúne a docentes de los laboratorios de Física de la Tierra y de Física Ambiental de la facultad. Trabaja en sismología, meteorología y clima, oceanografía física y teledetección, con espectroradiometría, modelado atmosférico y oceánico, y análisis de suelos, y colabora con instituciones como el IGP, IMARPE, CONIDA y la DHN.",
       "acronym": "CTCLIMA",
       "name": "Grupo de investigación en ciencias de la tierra, clima y medio ambiente",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ctclima/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "Somos un grupo dedicado al estudio de la Tierra sólida, el clima y el medio ambiente, desde el punto de vista físico, utilizando técnicas y equipamiento moderno. El grupo ha sido conformado a iniciativa de los docentes del Laboratorio de Física de la Tierra y Laboratorio de Física Ambiental, quienes vienen desarrollando investigaciones en la FCF-UNMSM por más de una década, dando solución a problemas relacionados a los eventos naturales que afectan al Perú, y apoyando con la experiencia de nuestros investigadores las labores de los principales centros de investigación del país: IGP, IMARPE, CONIDA, DHN; así como, a los órganos rectores en gestión de riesgo CENEPRED e INDECI. Los investigadores que conforman el GI tienen amplia experiencia en formulación y desarrollo de proyectos de investigación, formación integral de nuevos cuadros, asesoría de tesis y cuentan con publicaciones científicas a nivel nacional e internacional. Entre los principales logros de los laboratorios y gabinetes que conforman el GI, podemos indicar que se han desarrollo durante la última década de manera continua proyectos de investigación promovidos por nuestros docentes, se han desarrollo tesis de pre y post grado, y se ha adquirido equipamiento moderno para las investigaciones.",
-      "goals": "1. Formular y desarrollar proyectos de investigación en ciencias de la Tierra, Clima y Medio Ambiente, propiciando la generación de nuevos conocimientos y se den solución a las necesidades del país.\r\n2. Promover y aplicar el uso de técnicas y equipamiento moderno para el estudio físico de la Tierra, el Clima y Medio Ambiente\r\n3. Participar y organizar eventos científicos, como pasantías, cursos, seminarios, congresos y proyectos conjuntos, que faciliten el intercambio de conocimientos entre pares nacionales e internacionales. \r\n4. Promocionar la producción científica en las diferentes líneas a través de publicaciones científicas prototipos, patentes y software.",
-      "services": "Espectroradiometría: suelos y cultivos, estado hídrico de la vegetación, deforestación, contaminación ambiental, caracterización de minerales, librerías espectrales, calibración y validación de medidas por satélite, desarrollo de software para procesamiento de imágenes satelitales.\r\nSismología: Prospección Sísmica, modelamiento de Tsunamis, localización de Fuentes Sísmicas, InSAR/DinSAR.\r\nMeteorología y climatología: Modelado climático, modelado atmosférico para pronóstico del tiempo, eventos extremos, balance energético, Física de nubes y precipitaciones, Transporte de aerosoles y calidad del aire\r\nOceanografía física: Dispersión de contaminantes, hidrodinámica, calidad de aguas, modelación en bahías, ENSO.\r\nAnálisis de suelos: Espectroscopia Mössbauer, Fluorescencia de RX, analisis textural, granulométrico, fisicoquímicos, anomalías magnéticas de",
       "members": [
         {
           "name": "Octavio Fashe Raymundo",
           "role": "Coordinador",
+          "slug": "octavio-fashe-raymundo",
           "degree": "Maestro"
         },
         {
@@ -654,7 +728,8 @@
           "degree": "Bachiller"
         },
         {
-          "name": "Cesar Gualberto Victoria Barros"
+          "name": "Cesar Gualberto Victoria Barros",
+          "slug": "cesar-gualberto-victoria-barros"
         },
         {
           "name": "David Pareja Quispe",
@@ -666,14 +741,17 @@
           "degree": "Bachiller"
         },
         {
-          "name": "Jorge Luis Susanibar Zevallos"
+          "name": "Jorge Luis Susanibar Zevallos",
+          "slug": "jorge-luis-susanibar-zevallos"
         },
         {
           "name": "Jorge Martin Quispe Sanchez",
+          "slug": "jorge-martin-quispe-sanchez",
           "degree": "Maestro"
         },
         {
-          "name": "Jose Carlos Eche Llenque",
+          "name": "Jose Carlos Eche",
+          "slug": "jose-carlos-eche",
           "degree": "Bachiller"
         },
         {
@@ -683,6 +761,7 @@
         },
         {
           "name": "Melchor Nicolas Llosa Demartini",
+          "slug": "melchor-nicolas-llosa-demartini",
           "degree": "Maestro"
         },
         {
@@ -1163,7 +1242,7 @@
               },
               {
                 "name": "Jonathan Aparco Lara",
-                "slug": null
+                "slug": "jonathan-aparco-lara"
               }
             ],
             "n": 11
@@ -1174,17 +1253,16 @@
     {
       "id": "unmsm-labtel",
       "institution": "unmsm",
+      "summary": "Estudia los cambios ambientales y los eventos extremos en el territorio peruano, como sequías, inundaciones, olas de calor, sismos y deslizamientos, con imágenes satelitales, observaciones en tierra y modelos numéricos. Su fin es vigilar esos eventos para prevenir desastres, y forma a estudiantes en el procesamiento de imágenes satelitales.",
       "acronym": "LABTEL",
       "name": "Física de cambios ambientales y la teledetección",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/labtel/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "La Tierra es un planeta muy dinámico y sus manifestaciones ambientales espacio-temporales son cambiantes en el suelo, el océano, la atmósfera y el espacio. Algunos de estos cambios son beneficiosos para la humanidad y otros son muy perjudiciales, por lo que la observación, documentación, y entendimiento de los procesos físicos, físico-químicos, y biológicos son fundamentales para evaluar su impacto en la sociedad. Particularmente, son de preocupación del GI los eventos recurrentes, como: sequías, inundaciones, olas de calor o enfriamiento extremos, etc.; terremotos, maremotos, deslizamientos, etc., que producen desastres recurrentemente en el Perú. El grado de conocimiento científico de los procesos generadores de los eventos recurrentes, la documentación espacial y puntual apropiada de fenómenos observados, y la aplicación de modelos físico-matemáticos de los procesos naturales, cuyos resultados sean validados con observaciones en suelo, permitirán prever la ocurrencia de eventos peligrosos y su evolución espacio-temporal, para fines de prevención de desastres. La teledetección será una herramienta fundamental en las investigaciones del GI. El GI está constituido por docentes multidisciplinarios, y estudiantes: Doctorado en Física, Maestría en Física Mención Geofísica, y pregrado. Además, cuenta con colaboradores expertos de la Universidad Friedrich-Schiller, Alemania, Universidad de Valladolid, España, UTEP, EU, UFES, Brasil.",
-      "goals": "Los objetivos del GI son documentar indicadores que caractericen procesos físicos de cambios ambientales y climáticos extremos en el territorio peruano utilizando imágenes satelitales, observaciones en la superficie terrestre, desarrollar modelos físico-matemático (numérico) con el fin de implementar sistemas de vigilancia-observación de la evolución de eventos peligrosos para la previsión de desastres, crear y difundir conocimiento sobre la previsión de eventos naturales extremos causantes de desastres.",
-      "services": "*Identificar fenómenos premonitores a la ocurrencia de eventos ambientales y climáticos extremos \r\n*Entrenar a estudiantes en la adquisición, procesamiento e interpretación de imágenes satelitales.\r\n*Apoyar y asesorar tesis de grado de Maestría y Doctorado en Física\r\n*Difundir los avances científicos del GI en el territorio peruano.\r\n*Contribuir al catálogo de eventos hidrometeorológicos notables",
       "members": [
         {
-          "name": "Joel Rojas Acuña",
+          "name": "Joel Rojas Acuna",
           "role": "Coordinador",
+          "slug": "joel-rojas-acuna",
           "degree": "Doctor"
         },
         {
@@ -1313,13 +1391,11 @@
     {
       "id": "unmsm-gipesbd",
       "institution": "unmsm",
+      "summary": "Prepara y estudia películas delgadas y sistemas de baja dimensionalidad, como multicapas magnéticas y recubrimientos biocompatibles, por pulverización catódica, evaporación, spin coating y serigrafía. Los caracteriza por reflectividad y difracción de rayos X, espectroscopia Mössbauer de electrones de conversión, magnetización y transporte electrónico.",
       "acronym": "GIPESBD",
       "name": "Películas delgadas y sistemas de baja dimensionalidad",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gipesbd/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "En la actualidad, el GIPESBD viene trabajando en proyectos de dos programas de CienciActiva del CONCYTEC:\n\n(1) Investigación, “Círculo de Investigación e Innovación de Materiales Avanzados para la Industria y Biomedicina” (2014-2017) y\n\n(2) Investigación e innovación tecnológica, “Centro de Investigaciones Tecnológicas, Biomédicas y Medioambientales” (2015-2020).",
-      "goals": "El GIPESBD tiene los siguientes objetivos:\r\n1) Preparar, caracterizar e innovar estructuras artificiales en forma de películas delgadas y sistemas de baja dimensionalidad con potenciales aplicaciones tecnológicas en la industria, tecnología de la información, biomedicina y medioambiente.\r\n2) Desarrollar capacidades para el uso de técnicas de caracterización de películas delgadas por difracción y reflectividad de rayos-X, espectroscopia Mössbauer, magnetización y transporte electrónico.\r\n3) Contribuir con la formación de recursos humanos altamente calificados en tecnología de vacío, física de superficies, nanomagnetismo, propiedades de transporte electrónico y nuevos materiales, así como brindar servicios tecnológicos a la industria.",
-      "services": "El GIPESBD presta los servicios siguientes:\r\n1) Análisis cualitativo y cuantitativo de propiedades superficiales a través de medidas de reflectividad y difracción de rayos-X, espectroscopia Mössbauer por electrones de conversión, magnetización y transporte electrónico.\r\n2) Servicios de preparación de películas delgadas (multicapas magnéticas, sistemas híbridos) y recubrimientos especiales (recibrimientos biocompatibles, películas selectivas, microelectrodos, otros) a través de las técnicas: (a) Sputtering, (b) Evaporación, (c) spin coating y (d) screen print.\r\n3) A futuro se desarrollará un sistema de electrodeposición pulsada.",
       "members": [
         {
           "name": "Justiniano Quispe Marcatoma",
@@ -1329,10 +1405,12 @@
         },
         {
           "name": "Augurio Narciso Zavala Trujillo",
+          "slug": "augurio-narciso-zavala-trujillo",
           "degree": "Bachiller"
         },
         {
           "name": "Victor Anthony Garcia Rivera",
+          "slug": "victor-anthony-garcia-rivera",
           "degree": "Doctor"
         }
       ],
@@ -1433,13 +1511,11 @@
     {
       "id": "unmsm-ceanum",
       "institution": "unmsm",
+      "summary": "Estudia la estructura de materiales cristalinos, amorfos y nanoestructurados, y aplica la cristalografía a suelos, arqueometría y nuevos materiales. Usa difracción de rayos X de polvo y monocristal con refinamiento Rietveld, espectroscopia Mössbauer, fluorescencia de rayos X e infrarrojo, y mide el campo magnético terrestre. Organizó encuentros de cristalografía entre 2012 y 2015.",
       "acronym": "CEANUM",
       "name": "Cristalografía, edafología, arqueometría y nuevos materiales",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ceanum/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "El CEANUM también presta servicios a la comunidad y a la empresa; difunde la Cristalografía mediante eventos:\n\n– Encuentro por el Centenario de la Difracción de Rayos-X (2012).\n\n– II y III Encuentro de Cristalografía (2013 y 2014, respectivamente)\n\n– I Congreso Peruano de Cristalografía y Curso de Métodos de Análisis de Policristales por Difracción de rayos X (auspicio: Unión Internacional de Cristalografía) (2015).",
-      "goals": "1. Desarrollar la investigación en la física de la materia condensada, ciencia de los materiales y áreas interdisciplinarias, con énfasis en propiedades estructurales: estudios de monocristales, policristales, sistemas desordenados, sólidos amorfos, sistemas nanoestructurados. \r\n\r\n2. Generar y desarrollar recursos como resultado de las actividades de investigación científica, de producción y de servicios, para resolver problemas nacionales.\r\n\r\n3. Formar especialistas en Cristalografía, particularmente con el asesoramiento de Tesis de Pregrado y Posgrado.\r\n\r\n4. Profundizar y consolidar la cooperación con diversos grupos de investigación a nivel regional e internacional, así como contribuir a la vinculación de la universidad con el sector productivo.",
-      "services": "- Caracterización de materiales aplicando Difracción de rayos X convencional y sincrotrón, Espectroscopia Mössbauer, Fluorescencia de Rayos X, Espectroscopía Infrarroja por Transformadas de Fourier.\r\n- Análisis cristalográfico de muestras policristalinas (farmacéuticas, minerales, alimentarias, materiales), por difracción de polvo y monocristal, realizando ajustes estructurales por el Método de Rietveld.\r\n- Análisis fisicoquímicos, textural y granulométrico de muestras de suelos.\r\n- Medición de propiedades físicas y químicas de suelos.\r\n- Mediciones absolutas de la intensidad del campo magnético de la Tierra en zonas de interés agronómico, minero, geofísico, arqueológico y urbano. \r\n- Apoyo y asesoramiento a Tesistas de pregrado y posgrado.",
       "members": [
         {
           "name": "Elvira Leticia Zeballos Velasquez",
@@ -1458,6 +1534,7 @@
         },
         {
           "name": "Mirian Esther Mejia Santillan",
+          "slug": "mirian-esther-mejia-santillan",
           "degree": "Bachiller"
         },
         {
@@ -1551,13 +1628,11 @@
     {
       "id": "unmsm-gmcan",
       "institution": "unmsm",
+      "summary": "Simula nanopartículas y nanoestructuras por computadora: dinámica molecular para sus propiedades estructurales y mecánicas, la teoría del funcional de la densidad (DFT) para la funcionalización y las superficies, y Monte Carlo para las transiciones de fase en sistemas magnéticos. Apoya con cálculos a grupos experimentales.",
       "acronym": "GMCAN",
       "name": "Grupo de métodos computacionales aplicado a nanomateriales",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gmcan/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "La investigación en el área de nanomateriales es uno de los componentes principales del desarrollo de la nanotecnología que permite el dominio y la modificación de las propiedades de los materiales mediante el cambio en sus estructuras atómicas. El grupo de investigación de métodos computacionales aplicado a nanomateriales (GIMCAN) aplica y desarrolla modernas herramientas computacionales para entender, predecir y controlar los procesos físicos y químicos en el rango de tamaños moleculares hasta la mesoescala. Los integrantes del GIMCAN vienen realizando investigaciones sobre nuevos materiales en los ultimos 12 años. Hasta la actualidad se han estudiado las propiedades estructurales, energéticas, estructura electrónica de diversas nanoparticulas, propiedades mecánicas de nanoestructuras, transiciones de fase y procesos de ordenación química en aleaciones binarias. El GIMCAN tiene colaboración con varios laboratorios y grupos de modelamiento y simulación. Formamos parte de la Red Iberoamericana de Difusión y divulgación de la Nanociencia y Nanotecnologia NANODYF.",
-      "goals": "- Estudiar mediante la simulación con Dinámica molecular diferentes propiedades físicas y químicas de las nanoparticulas y nanoestructuras\r\n- Estudiar mediante la teoría del funcional de la densidad (DFT) procesos de funcionalizacion y fenomenos superficiales de nanosistemas.\r\n- Estudiar mediante Monte Carlo los procesos de transformaciones de fase en sistemas magneticos nanoestructurados.\r\n- Contribuir con la formación de recursos humanos altamente calificados en el estudio de diversos sistemas nanoestructurados empleando diversas herramientas computacionales",
-      "services": "Brindar servicios a los grupos experimentales de la Universidad Nacional Mayor de San Marcos y otras instituciones académicas\r\nBrindar servicios y asesoría a la comunidad académica y empresarial.\r\nBrindar el servicio de diseño e implementación de programas especializados.\r\nPromover los métodos computacionales de investigación de los nanomateriales en los diferentes niveles de enseñanza secundaria y universitaria.",
       "members": [
         {
           "name": "Chachi Rojas Ayala",
@@ -1566,11 +1641,13 @@
           "degree": "Doctor"
         },
         {
-          "name": "Justo Alcides Rojas Tapia",
+          "name": "Justo Rojas Tapia",
+          "slug": "justo-rojas-tapia",
           "degree": "Doctor"
         },
         {
           "name": "Robert Marino Espinoza Bernardo",
+          "slug": "robert-marino-espinoza-bernardo",
           "degree": "Maestro"
         },
         {
@@ -1729,13 +1806,11 @@
     {
       "id": "unmsm-matefun",
       "institution": "unmsm",
+      "summary": "Prepara y caracteriza materiales funcionales, es decir, materiales elegidos por sus propiedades eléctricas, dieléctricas, ópticas o magnéticas, entre ellos superconductores y nanopartículas magnéticas de óxido de hierro. Busca diseñar prototipos con ellos y forma a tesistas de ciencias e ingeniería.",
       "acronym": "MATEFUN",
       "name": "Materiales funcionales",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/matefun/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "El mundo de los materiales es inmenso y el Perú cuenta con una diversidad de materiales metálicos y no metálicos. Los materiales funcionales son materiales que pueden tener propiedades eléctricas, dieléctricas, electromagnéticas, ópticas y magnéticas. Estos materiales pueden ser metálicos, polímeros, cerámicos, compósitos, carbones, semiconductores y superconductores y pueden tener aplicaciones en la microelectrónica, capacitores, aislantes eléctricos, memorias para computadoras, óptica, lasers, detectores de luz, sensores, registros magnéticos, motores, en la salud, recolección de energía entre otros. Lo que se quiere es que los materiales trabajen por ejemplo el material superconductor YB2Cu3O7-? que tiene una temperatura critica de 90 K ahora se hacen cables superconductores que permite el paso de la corriente sin disipar energía por el efecto Joule. Otra propiedad es la de expulsar el campo magnético y ahora se producen vagones levitados magnéticamente. Los SPIONs (Superparamagnetic Iron Oxides Nanoparticles) nanométricos funcionalizados con aminoácidos destruyen bacterias y así se puede limpiar la sangre, y así podemos seguir hablando de otros materiales.",
-      "goals": "1. Desarrollar técnicas para la preparación y caracterización de algunos materiales funcionales. \r\n2. Generar cuadros científicos en varios materiales funcionales. \r\n3. Conseguir presupuestos para adquirir equipos de alta tecnología. \r\n4. Diseñar y construir prototipos en base de materiales funcionales.",
-      "services": "1. Entrenamiento a los estudiantes de pre y posgrado para las áreas de ciencias e ingeniería. \r\n2 Cooperar con los tesistas de pregrado y posgrado en las aplicaciones de los materiales funcionales. \r\n3 Fomentar la cooperación con la pequeña y mediana empresa cuando requiera servicios de medidas de propiedades de los materiales.",
       "members": [
         {
           "name": "Juan Carlos Gonzalez Gonzalez",
@@ -1756,11 +1831,13 @@
           "degree": "Bachiller"
         },
         {
-          "name": "Jesus Walter Flores Santibañez",
+          "name": "Flores Santibanez Jesus Walter",
+          "slug": "flores-santibanez-jesus-walter",
           "degree": "Maestro"
         },
         {
-          "name": "Jhonny Richard Huamani Chaviguri"
+          "name": "Jhonny Richard Huamani Chaviguri",
+          "slug": "jhonny-richard-huamani-chaviguri"
         },
         {
           "name": "Silvia Espinoza Suarez",
@@ -1838,15 +1915,157 @@
       ]
     },
     {
+      "id": "unmsm-matintec",
+      "institution": "unmsm",
+      "summary": "Sintetiza y caracteriza materiales y nanomateriales para usos prácticos: descontaminar agua, aditivos para cemento y pintura, aplicaciones biomédicas y empaques comestibles biodegradables. Reúne a docentes y estudiantes de química, biología e ingeniería, y caracteriza nanopartículas por dispersión dinámica de luz (DLS).",
+      "acronym": "MATINTEC",
+      "name": "Materiales para la innovación tecnológica",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/matintec/",
+      "members": [
+        {
+          "name": "Ana Maria Osorio Anaya",
+          "role": "Coordinador",
+          "slug": "ana-maria-osorio-anaya",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Efrain Oscar Ninan Manga",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Fanny Blas Rodriguez",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Hector Luis Gomez Ramirez",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Jose Fernandes de Oliveira Ugarte",
+          "degree": "Doctor"
+        },
+        {
+          "name": "Luis Americo Rivera del Valle"
+        },
+        {
+          "name": "Maria Isabel Polo Samaniego",
+          "degree": "Maestro"
+        },
+        {
+          "name": "Oscar Alberto Cornejo Sanchez",
+          "degree": "Bachiller"
+        }
+      ],
+      "lines": [
+        "Biotecnología",
+        "Caracterización de materiales",
+        "Remediación de agua, aire y suelo"
+      ],
+      "projects": [
+        {
+          "title": "Aplicación de nanopartículas de CuS sintetizadas como activador sólido para la recuperación de esfalerita fina desde relaves mineros por flotación",
+          "code": "C26071381",
+          "year": 2026
+        },
+        {
+          "title": "Hidrogeles para la liberación controlada de nutrientes en la germinación de semillas Rosmarinus officinalis en suelos áridos",
+          "code": "C260727PROrn",
+          "year": 2026,
+          "programme": "PRO-CTIE"
+        },
+        {
+          "title": "VALORIZACIÓN DE ESTIÉRCOL DE Cavia porcellus MEDIANTE EL DESARROLLO DE UN NANOCOMPÓSITO DE CARBÓN ACTIVADO–Fe<sub>3</sub>O<sub>4</sub> PARA LA REMOCIÓN DE Cr(VI) EN AGUA",
+          "code": "C260728PRO",
+          "year": 2026,
+          "programme": "PRO-CTIE"
+        },
+        {
+          "title": "Evaluación de la fotocatálisis del colorante rojo N°3 (eritrosina) mediante nanomagnetitas sintetizadas por el método de la química convencional y por el método de la química verde",
+          "code": "C25072771",
+          "year": 2025
+        },
+        {
+          "title": "Películas activas de quitosano con nanopartículas de plata biosintetizadas y nanoemulsión de Minthostachys mollis (muña): desarrollo y evaluación para la conservación poscosecha de paltas Hass (Persea americana var. Hass)",
+          "code": "C25070521",
+          "year": 2025
+        },
+        {
+          "title": "Simulación computacional del espectro de caracterización UV-Vis de nanorods de oro y plata y su correlación con la síntesis experimental",
+          "code": "C25071091",
+          "year": 2025
+        },
+        {
+          "title": "Obtención de un material carbonoso a partir de residuos de cáscara de papas para su uso como adsorbente",
+          "code": "C24070411i",
+          "year": 2024,
+          "programme": "PCONFIGI-INV"
+        },
+        {
+          "title": "Biosíntesis y caracterización de nanopartículas metálicas para su potencial aplicación como biocidas",
+          "code": "C21072001",
+          "year": 2021
+        },
+        {
+          "title": "Síntesis y caracterización del sistema core-shell nanorod de oro para su potencial aplicación en la detección e identificación de diabetes mellitus tipo 1 y tipo 2",
+          "code": "C21071811",
+          "year": 2021
+        },
+        {
+          "title": "Síntesis y caracterización de nanoparticulas de TiO2 de la fase anatasa para su evaluación fotocatalítica frente a aguas simuladas contaminadas",
+          "code": "C20072251",
+          "year": 2020
+        },
+        {
+          "title": "Síntesis y caracterización de nanopartículas de ZnO conjugadas a ftalocianinas incorporadas en quitosano para su potencial aplicación en recubrimientos antibacterianos",
+          "code": "C20071411",
+          "year": 2020
+        },
+        {
+          "title": "EQUIPAMIENTO PARA LA OPTIMIZACIÓN EN LA SÍNTESIS DE NANOPARTÍCULAS METÁLICAS PARA APLICACIONES DIVERSAS",
+          "code": "C19074270e",
+          "year": 2019,
+          "programme": "ECI"
+        },
+        {
+          "title": "EVALUACIÓN DE LA CAPACIDAD BACTERICIDA DE NANOPARTÍCULAS DE ZnO EN UN SISTEMA DE DESCONTAMINACIÓN DE AGUA RESIDUAL MUNICIPAL SINTÉTICA, USANDO UN REACTOR ANAEROBIO DE FLUJO ASCENDENTE (RAFA) A NIVEL DE LABORATORIO",
+          "code": "C19071481",
+          "year": 2019
+        },
+        {
+          "title": "SÍNTESIS, CARACTERIZACIÓN Y FUNCIONALIZACIÓN DE NANOPARTÍCULAS DE ORO PARA SU POTENCIAL TRATAMIENTO EN LEUCEMIA MIELOIDE AGUDA",
+          "code": "C19070271",
+          "year": 2019
+        },
+        {
+          "title": "SINTESIS Y CARACTERIZACION DE NANOPARTÍCULAS METÁLICAS Y SU INCORPORACIÓN EN MATRICES POLIMÉRICAS PARA APLICACIONES DIVERSAS",
+          "code": "C18070017",
+          "year": 2018
+        },
+        {
+          "title": "CARACTERIZACIÓN DE NANOPARTÍCULAS DE ORO SINTETIZADAS VIA MODELAMIENTO MOLECULAR PARA APLICACIONES BIOMÉDICAS: CANCER DE MAMA",
+          "code": "C17071311",
+          "year": 2017
+        },
+        {
+          "title": "CARACTERIZACIÓN DE NANOPARTÍCULAS DE ÓXIDO DE ZINC SINTETIZADOS PARA SU EVALUACIÓN EN SISTEMAS DE DESCONTAMINACIÒN DE EFLUENTES",
+          "code": "C17071281",
+          "year": 2017
+        },
+        {
+          "title": "NANOTECNOLOGÍA: POLÍMEROS, CARACTERIZACIÓN E INNOVACION TECNOLÓGICA",
+          "code": "C17070057",
+          "year": 2017
+        }
+      ]
+    },
+    {
       "id": "unmsm-gihrehma",
       "institution": "unmsm",
+      "summary": "Investiga en hidráulica, recursos hídricos, medio ambiente y energías no convencionales. Ofrece consultoría a entidades públicas y privadas, municipalidades y gobiernos regionales.",
       "acronym": "GIHREHMA",
       "name": "Grupo de investigación en hidráulica, recursos hídricos y medio ambiente y energías no convencionales",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gihrehma/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "El Grupo de Investigación en Hidráulica, Recursos Hídricos y Medio Ambiente y Energias No Convencionales (GIHREHMA), pertenece a la Universidad Nacional Mayor de San Marcos (UNMSM) , que desarrolla investigación y consultoria en las áreas de su competencia, así como ser un nexo entre las entidades publicas y privadas con la UNMSM para el planteamiento de soluciones para las problemáticas nacionales dentro de las áreas de su competencia.",
-      "goals": "El objeto del GIHREHMA es fomentar, promover y ejecutar actividades y proyectos de investigación en el ámbito local, regional y nacional para propiciar el desarrollo social y económico sostenible de nuestro país.",
-      "services": "El GIHREHMA ofrece servicios de investigación y consultoria en las áreas de hidráulica, recursos hídricos y medio ambiente y energías no convencionales a empresas publicas y privadas, municipalidades, gobiernos regionales y diferentes sectores económicos de nuestro país.",
       "members": [
         {
           "name": "Douglas Donal Sarango Julca",
@@ -1890,13 +2109,11 @@
     {
       "id": "unmsm-mecfluet",
       "institution": "unmsm",
+      "summary": "Lo forman docentes de ingeniería mecánica de fluidos que trabajan en energética y termofluidos: eficiencia energética, sistemas termodinámicos, flujo de fluidos, combustión y equipos para la industria. Ofrece consultoría y auditorías de eficiencia energética.",
       "acronym": "MECFLUET",
       "name": "Mecánica de fluidos – energética y termofluidos",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/mecfluet/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "Grupo de investigación conformado por docentes del DAIMF, en la línea de la mecánica de fluidos, en el área de energética y termofluidos. Dedicados a análisis energéticos, eficiencia energética, sistemas y procesos termodinámicos, movimiento de fluidos, combustión y combustibles, equipamiento mecánico para diversas industrias.Sus integrantes han realizado una serie de trabajos de investigación y cuentan publicaciones a nivel nacional e internacional. La mayoría de los integrantes se encuentran trabajando en empresas y entidades privadas, contando con amplia experiencia profesional en el campo.",
-      "goals": "Realizar proyectos de investigación en el área de energética y termofluidos\r\nPromover el desarrollo de tesis a nivel de doctorado y maestría.\r\nIncentivar la elaboración de tesis a nivel de pre-grado en contraposición a las titulaciones por ciclos de actualización profesional\r\nGenerar conocimiento y experiencias en base de la ingeniería aplicada\r\nFormar un nucleo sólido de investigación experimental y numérica\r\nAyudar a empresas en resolver problemas específicos para mejorar su producción",
-      "services": "El grupo puede prestar los siguientes servicios\r\nServicios de consultoría en la especialidad\r\nConducir auditorías y proyectos de eficiencia energética\r\nConducir programas de pruebas en el área de investigación",
       "members": [
         {
           "name": "Cesar Alejandro Quispe Gonzales",
@@ -1942,12 +2159,10 @@
     {
       "id": "unmsm-yungas",
       "institution": "unmsm",
+      "summary": "Estudia las sociedades prehispánicas de la costa y la vertiente occidental de los Andes centrales: cómo ocuparon el territorio, su cronología, su economía y sus intercambios, desde el surgimiento de la arquitectura monumental hasta el paso del Inca a la Colonia.",
       "acronym": "YUNGAS",
       "name": "Sociedades prehispánicas del litoral",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/yungas/",
-      "about": "El grupo de investigación se aboca a caracterizar las sociedades que se asentaron a lo largo del litoral y la vertiente occidental de los Andes Centrales. Nos interesa estudiar los procesos de adaptación, acondicionamiento y manejo del territorio, desarrollo cultural, complejizacion social, entre otros.",
-      "goals": "1) Definir la naturaleza de las adaptaciones marítimas de las sociedades del litoral relacionadas a los procesos de complejizacion social y al surgimiento de la arquitectura monumental. 2) Afinar la cronología para estas sociedades; 3) Establecer los sistemas económicos, políticos, sociales y culturales de estas sociedades tardías; 4) Definir el tipo y grado de las interacciones (intercambio, ideológica, social y cultural) entre las diferentes sociedades asentadas en el litoral, 5) Definir el impacto del Estado Inca para las sociedades tardías, 6) Entender el momento de transición entre el colapso Inca y la implementación del régimen Colonial.",
-      "services": "Consultoría y asesoría en el científico a los centros educativos y universitarios sobre las sociedades tardías del litoral, tales como Reino Chimu 8Costa Norte), Señorío Ychsma (Lima), Señorío Lunahuana (Cañete) y Señorío Chincha.",
       "members": [
         {
           "name": "Luisa Esther Diaz Arriola",
@@ -2066,13 +2281,11 @@
     {
       "id": "unmsm-ficosiap",
       "institution": "unmsm",
+      "summary": "Usa la simulación por computadora para estudiar procesos físicos como la percolación, la agregación estocástica, los fenómenos no lineales y el caos. También desarrolla laboratorios virtuales y software para la enseñanza de la física y la ingeniería.",
       "acronym": "FICOSIAP",
       "name": "Física computacional y simulacional aplicada",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/ficosiap/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "La Física Computacional, tanto estrictamente académica como de producción comercial, es un área que no se ha desarrollado en las universidades del Perú. La física computacional permite realizar investigación científica mediante la simulación en computadoras y, permite también el desarrollo de productos comerciales que eventualmente se comercializan, principalmente en el ámbito educativo.\n\nEl producto más inmediato de la física computacional, es el desarrollo de laboratorios virtuales para ser usados en la exposición de sus clases por los profesores de diversos cursos de ciencias e ingeniería.\n\nActualmente se utilizan las técnicas simulacionales de la física computacional en investigaciones en Biología, Economía, Física, Química, Ingeniería, etc.",
-      "goals": "Realizar investigación e investigación y desarrollo en aquellas áreas de la Física que involucran el uso de computadoras, tales como:\r\n- INVESTIGACION\r\nSimulación en computadoras aplicada a la investigación de procesos físicos, tales como Percolación, Agregación Estocástica, Fenómenos no-lineales, Caos.\r\n- INVESTIGACION Y DESARROLLO\r\nDesarrollo de laboratorios virtuales para uso en educación y en investigación a nivel universitario. \r\nA corto plazo se espera generar software educativo para ser usado por diversos profesores de física e ingenieria, como ayuda para la exposición de sus clases.\r\nA largo plazo es posible desarrollar laboratorios virtuales para apoyar la investigación que se realiza en otras áreas de la Facultad de",
-      "services": "Consultoria sobre modelacion matematica y programacion de computadoras para aplicaciones en ciencias e ingenieria. Desarrollo de programas de computadora basados en simulación y visualización, aplicados a la educación.",
       "members": [
         {
           "name": "Javier Sempronio Montenegro Joo",
@@ -2086,6 +2299,7 @@
         },
         {
           "name": "Navor Enrique Figueroa Jamanca",
+          "slug": "navor-enrique-figueroa-jamanca",
           "degree": "Maestro"
         },
         {
@@ -2164,21 +2378,21 @@
     {
       "id": "unmsm-gft-hep",
       "institution": "unmsm",
+      "summary": "Trabaja desde 2012 en física teórica: partículas y campos, gravitación y cosmología, con tesis sobre ondas gravitacionales. Organiza escuelas, seminarios y charlas de divulgación, y publica cursos en su canal de YouTube Campos y Cuerdas.",
       "acronym": "GFT-HEP",
       "name": "Grupo de Física Teórica y Física de Altas Energías",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/gft-hep/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "Desde su formación en el año 2012, el Grupo de Física Teórica (GFT) de la UNMSM ha mantenido un sostenido trabajo en las áreas de Física de Partículas y Campos, Gravitación y Cosmología. Ello ha permitido su participación ininterrumpida en diversos eventos científicos de relevancia nacional e internacional como el Simposio Peruano de Física organizado por la SOPERFI, escuelas y workshops en diversas instituciones del extranjero. Dicha actividad ha tenido como resultado ponencias orales, y presentaciones en formato de póster, sino además tesis de licenciatura en tópicos de interés actual como el estudio de ondas gravitacionales y cosmología. De la misma manera se han desarrollado escuelas, seminarios específicos y cursos virtuales (canal de Youtube: CAMPOS Y CUERDAS) actividades de divulgación científica en el área mencionada por medio de seminarios, conferencias, webinars (conferencias online), etc.",
-      "goals": "• Preparar recursos humanos calificados en el área de Física Teórica\r\n• Producción de publicaciones en Física Teórica en revistas indexadas a nivel nacional e internacional.\r\n• Organización de eventos científicos de impacto en el área, tales como escuelas, workshops, etc.\r\n• Presentación de conferencias virtuales (webinars).\r\n• Organización de eventos de divulgación científica en el área.",
-      "services": "• Organización y ejecución de cursos y seminarios en temas afines a las líneas de investigación del grupo dirigido a estudiantes de ciencias básicas e ingenierías de nuestra casa de estudios y externos.\r\n• Implementación y aplicación de métodos computacionales en física teórica y áreas afines.\r\n• Presentación de charlas y coloquios de divulgación científica.",
       "members": [
         {
           "name": "Fulgencio Villegas Silva",
           "role": "Coordinador",
+          "slug": "fulgencio-villegas-silva",
           "degree": "Maestro"
         },
         {
           "name": "Carlos Javier Solano Salinas",
+          "slug": "carlos-javier-solano-salinas",
           "degree": "Doctor"
         },
         {
@@ -2191,10 +2405,12 @@
           "degree": "Doctor"
         },
         {
-          "name": "Oscar Adán Acevedo Sánchez"
+          "name": "Oscar Adan Acevedo Sanchez",
+          "slug": "oscar-adan-acevedo-sanchez"
         },
         {
           "name": "Teofilo Vargas Auccalla",
+          "slug": "teofilo-vargas-auccalla",
           "degree": "Doctor"
         }
       ],
@@ -2252,13 +2468,11 @@
     {
       "id": "unmsm-cidem",
       "institution": "unmsm",
+      "summary": "Investiga energías renovables y tecnologías apropiadas con la mecánica de fluidos como base. Desarrolla prototipos y ofrece capacitación y consultoría en energías renovables, hidráulica y termofluidos.",
       "acronym": "CIDEM",
       "name": "Centro de investigación y desarrollo de energías del Mañana Micha Yawaypita",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/cidem/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "El Centro de Investigación y Desarrollo de Energías del Mañana, Micha Yawaypita (CIDEM) de la facultad de Ciencias Físicas de la Universidad Nacional Mayor de San Marcos tiene como actividad fundamental la creación del conocimiento científico y tecnológico a través de la investigación con el firme compromiso de buscar solución a muchos problemas que acoge el ser humano, así mismo busca promover el lazo tridimensional entre la universidad, el estado y la sociedad.",
-      "goals": "Ob. General: Desarrollar la investigación en Energía correspondiente al ámbito del problema suscrito fomentando el aprendizaje durante el proceso cuyo modelo científico principal es la Mecánica de los Fluidos\r\nOb. Específico: Desarrollar tecnologías apropiadas utilizando energías renovables de acuerdo al ámbito del problema a solucionar cuyo modelo científico principal es la Mecánica de los Fluidos.\r\n Desarrollar innovación Tecnológica de acuerdo al ámbito del problema a solucionar cuyo modelo científico principal es la Mecánica de los Fluidos.\r\n Realizar capacitaciones se acuerdo a las características del problema a solucionar cuyo modelo científico es la Mecánica de los Fluidos.",
-      "services": "El CIDEM tiene como principio dar servicio de consultoria, investigación y desarrollo en energías renovables, tecnologías apropiadas, hidráulica y termofluidos, a las tres dimensiones importantes como son, social, económico y ambiental.",
       "members": [
         {
           "name": "Lozano Pedro Sanchez Cortez",
@@ -2324,25 +2538,26 @@
     {
       "id": "unmsm-infisa",
       "institution": "unmsm",
+      "summary": "Diseña instrumentos científicos de bajo costo con componentes electrónicos de consumo, para laboratorios de enseñanza y como apoyo a proyectos de investigación. También trabaja en física médica, en particular en la dosimetría y la seguridad radiológica en salud e industria.",
       "acronym": "INFISA",
       "name": "Instrumentación física y aplicaciones",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/infisa/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "El vertiginoso avance de la ciencia y tecnología conlleva al trabajo multidisciplinario, para lo cual, se necesita contar con infraestructura, instrumentación y recursos humanos altamente especializados, en particular en la instrumentación física y aplicada.\n\nEl Grupo de Instrumentación Física y Aplicaciones es un grupo multidisciplinario que cuenta con recursos y experiencia en la investigación y desarrollo de instrumentación científica de bajo costo y altas prestaciones con la finalidad de brindar apoyo y sostenibilidad tecnológica a las tareas de enseñanza de las ciencias básicas y aplicaciones de la física a la medicina e industria, por ejemplo: la radioterapia representa un pilar fundamental en la lucha contra el cáncer y para ello es esencial tener un conocimiento pleno de los procesos de interacción de las radiaciones con el tejido.\n\nNuestro grupo tiene un ámbito de desarrollo fundamentalmente experimental y de laboratorio, el cual se complementa perfectamente con el desarrollo teórico de las ciencias básicas, lo que permite potenciar las capacidades de los estudiantes e investigadores. Para ello se busca incrementar significativamente las tareas experimentales de laboratorio de los estudiantes y docentes mediante la investigación y desarrollo de instrumentos adaptados a las necesidades de cada experimento utilizando dispositivos tecnológicos de fácil accesibilidad. Igualmente, bajo este mismo concepto se promueve la modernización y/o actualización de instrumentos obsoletos o en desuso adaptándolos o integrándolos con tecnologías recientes.\n\nLos profesionales que participan o colaboran con el grupo pertenecen a diversas especialidades de las ciencias e ingeniería tales como física, química, biología, medicina, matemática, programación, electrónica, mecánica, automatización, entre otras; bajo un concepto moderno de investigación multidisciplinaria y teniendo en cuenta los diversos subgrupos, de acuerdo a las áreas de investigación tales como: Física Médica, Biofísica, Instrumentación Electrónica, entre otras.\n\nEn síntesis, el Grupo de Instrumentación Física y Aplicaciones congrega a docentes especializados y con amplia experiencia en las aplicaciones de la física, tanto en la salud como en la industria y enseñanza, que mediante la propuesta de proyectos de investigación se planteará dar soluciones a problemas y/o mejorar las técnicas que emplean magnitudes físicas en los distintos campos antes mencionados, contribuyendo al desarrollo tecnológico del país.",
-      "goals": "1. Investigar el desarrollo de instrumentos científicos, con costos accesibles de fabricación y mantenimiento, mediante el uso de dispositivos tecnológicos avanzados de consumo masivo para la enseñanza de las ciencias básicas.\r\n2. Mejorar la sostenibilidad de la enseñanza e investigación en la facultad, mediante la no dependencia de costosos mantenimientos asociados a equipos comerciales.\r\n3. Contribuir a los indicadores de ciencia y tecnología del país, mediante el incremento de publicaciones científicas, registro de patentes y tesis de pre y posgrado.\r\n4. Desarrollar proyectos de investigación que garanticen la seguridad ocupacional en los campos de la salud e industria.",
-      "services": "1. Empaquetamiento y automatización de experimentos para la enseñanza de las ciencias básicas: física, química, biología y medicina.\r\n2. Desarrollo de soluciones de instrumentación a medida como soporte de proyectos de investigación.\r\n3. Desarrollo de protocolos de seguridad radiológica ocupacional en el campo de la salud e industria.",
       "members": [
         {
-          "name": "Galo Patiño Camargo",
+          "name": "Galo Patino Camargo",
           "role": "Coordinador",
+          "slug": "galo-patino-camargo",
           "degree": "Doctor"
         },
         {
           "name": "Eduardo Becquer Carrasco Solis",
+          "slug": "eduardo-becquer-carrasco-solis",
           "degree": "Bachiller"
         },
         {
           "name": "Eduardo Custodio Chung",
+          "slug": "eduardo-custodio-chung",
           "degree": "Maestro"
         },
         {
@@ -2362,6 +2577,7 @@
         },
         {
           "name": "Jose Fernando Marquez Pachas",
+          "slug": "jose-fernando-marquez-pachas",
           "degree": "Maestro"
         },
         {
@@ -2370,13 +2586,16 @@
         },
         {
           "name": "Oscar Rolando Baltuano Elias",
+          "slug": "oscar-rolando-baltuano-elias",
           "degree": "Maestro"
         },
         {
-          "name": "Rolando Wilder Adriano Peña"
+          "name": "Rolando Wilder Adriano Pena",
+          "slug": "rolando-wilder-adriano-pena"
         },
         {
-          "name": "Roxani Marisa Yaringaño Limache"
+          "name": "Roxani Marisa Yaringano Limache",
+          "slug": "roxani-marisa-yaringano-limache"
         }
       ],
       "lines": [
@@ -2388,17 +2607,16 @@
     {
       "id": "unmsm-asanum",
       "institution": "unmsm",
+      "summary": "Estudia suelos, sedimentos, arcillas, relaves mineros y meteoritos, y aplica la física al análisis de restos arqueológicos. Lleva el Laboratorio de Análisis de Suelos de la facultad, creado en 1998, que caracteriza muestras por fluorescencia de rayos X, difracción de rayos X y espectroscopia Mössbauer. También sintetiza nanopartículas para remediación ambiental.",
       "acronym": "ASANUM",
       "name": "Ciencia del suelo, arqueometría y nuevos materiales",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/asanum/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "-Es un Grupo Multidisciplinario de investigadores que cuenta con especialistas en diversas área (síntesis de nano partículas y nanotecnología ambiental, caracterización mineralógica de suelos, sedimentos, arcillas, relaves mineros, Geomagnetismo, meteoritos) así mismo en Arqueometria, que es una disciplina científica que se trabaja de manera multidisciplinaria los vestigios arqueológicos. El Laboratorio de Análisis de Suelos se creó en el año 1998 para brindar servicios a la investigación a uno de nuestros recursos naturales, como son los Suelos de nuestro país. Se han ejecutado proyectos sobre caracterización de suelos agrícolas y afines mapeando todo el Perú. Se trabaja en colaboración con da Universidade Federal de Rio de Janeiro – Campus Xerém, con la Universidad de Santiago de Chile-Facultad de Química y Biología; con BIZALAB S. A. C. Departamento de Mineralogía; con Universidad Nacional del Centro del Perú; Así mismo se colabora y se trabaja con diferentes investigadores de los Museos Nacionale. Se cuenta con colaboradores adjuntos externos. Es el único laboratorio del Perú que cuenta con un equipo Mössbauer para afinar discusiones y resultados, asi mismo se cuenta con un equipo de Fluorescencia de Rayos X en Energía dispersiva. Así mismo se manejan equipos e instrumentos de espectrofotometría ultravioleta-visible (UV/VIS), colorimetría y un Magnetómetro que nos permiten cuantificar en fuerza o dirección la señal magnética de una muestra. Se continúan desarrollando trabajos en colaboración con el Laboratorio de Suelos de la UNPRG de Lambayeque en el estudio de suelos del Valle del Río Chancay.\n\nASANUM y sus miembros siguen en la línea de la publicación en diversas Revistas de Investigación, tanto indexadas como Latin Index y participación en congresos, simposios y otros.",
-      "goals": "-1. El objetivo del Grupo es capacitar al personal docente, estudiantes de pre y post Grado de las actividades de investigación científica, consolidar y formar especialistas en la física de las ciencias de los materiales, en las ciencias de los Suelos y en Arqueometria. \r\n2. Establecer la cooperación con diversos grupos de investigación a nivel regional e internacional, así como contribuir a la vinculación de la universidad con el sector productivo. \r\n3. Publicar los resultados en revistas indexadas, Libro de Resúmenes y participación activa en diversos eventos nacionales e internacionales.\r\n4. ASANUM, viene desarrollando diversos Talleres, Minicursos, conversatorios y afines.",
-      "services": "-Preparación de muestras de suelos para su análisis y caracterización por FRXED, espectroscopia Mössbauer y DRX, para usuarios internos y externos a la Facultad y universidad.\r\nPreparación de otras reacciones químicas requeridas por terceros utilizando los recursos disponibles en el Laboratorio. Se sugiere que cada Grupo que desea utilizar el ambiente, debe traer sus insumos y otros a usar.\r\nMétodos de Disolución Selectiva y otros análisis físico-químicos.\r\nPreparación de muestras para su análisis y discusión realizadas con los equipos del: Espectrofotómetro UV-VIS, Colorímetro y Magnetómetro.",
       "members": [
         {
           "name": "Maria Luisa Ceron Loayza",
           "role": "Coordinador",
+          "slug": "maria-luisa-ceron-loayza",
           "degree": "Bachiller"
         },
         {
@@ -2411,10 +2629,12 @@
         },
         {
           "name": "Mabel Erlinda Tesillo Quispe",
+          "slug": "mabel-erlinda-tesillo-quispe",
           "degree": "Bachiller"
         },
         {
           "name": "Miguel Angel Mosquera Molina",
+          "slug": "miguel-angel-mosquera-molina",
           "degree": "Maestro"
         },
         {
@@ -2495,13 +2715,11 @@
     {
       "id": "unmsm-mnmf",
       "institution": "unmsm",
+      "summary": "Desarrolla modelos numéricos de flujos de líquidos y gases y los aplica a ríos, lagos, el mar costero, la atmósfera baja y los flujos térmicos. Ofrece estudios hidrodinámicos sobre inundaciones, huaicos, puertos y riberas.",
       "acronym": "MNMF",
       "name": "Modelamiento numérico en mecánica de fluidos",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/mnmf/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "La investigación en Mecánica de Fluidos, mediante el estudio y modelamiento de fenómenos en medios fluidos es una de las componentes principales de la ingeniería para la predicción de procesos reales.\n\nLa Mecánica de Fluidos es una linea importante en las ciencias e ingeniería moderna y un área altamente activa de investigación. Aborda los problemas permanentes y no permanentes en líquidos y gases.\n\nEs el cordón umbilical de diversas áreas en Ingeniería. Entre las áreas de aplicación se destacan la dinámica en aguas superficiales y subsuperficiales (mares, lagos y ríos), la dinámica de la atmósfera baja y la dinámica de los fluidos térmicos alrededor de cuerpos y en maquinas entre otros temas.\n\n En los últimos 50 años, los progresos de los sistemas computacionales, han generado expectativas bastante amplias tanto en la investigación básica y aplicada de la Mecánica de Fluidos, potenciando el desarrollo de métodos y técnicas de modelamiento matemático con el consiguiente desarrollo de teorías, metodologías y procedimientos numéricos sofisticados orientados a la predicción del comportamiento en medios hidrodinámicos y gaseosos.",
-      "goals": "El grupo de investigación tiene como objetivos:\r\nDesarrollar modelos discretos y variacionales para su aplicación en el estudio de procesos en medios fluidos asociados con su dinámica y fenómenos de transporte.\r\nEstudiar problemas aplicados en hidraulica fluvial y maritima, meteorologia, oceanografia y flujos termicos.\r\nContribuir con la formación de recursos humanos calificados en el estudio de problemas de Ingénieria Mecánica de Fluidos mediante el Modelamiento Numérico.",
-      "services": "El Grupo de investigación : \r\nApoyara a las instituciones del Estado que se encargan de dar opinión en las areas aplicads de la Mecánica de Fluidos (Puertos,oceano costero, problemas ribereños, dinamica de flujos termicos)..\r\nApoyara a los gobiernos locales y regionales en la planificación de estudios hidrodinámicos (rios, lagos costa marina) con fines de conservación y protección a eventos transitorios.\r\nDesarrollara consultoria sobre estudios de predicción de comportamiento hidrodinámico en aguas continentales, mares, inundaciones, Huaycos, flujos térmicos, flujos alrededor de cuerpos y maquinas..",
       "members": [
         {
           "name": "Emanuel Jesus Guzman Zorrilla",
@@ -2533,13 +2751,11 @@
     {
       "id": "unmsm-nanotech",
       "institution": "unmsm",
+      "summary": "Desarrolla nanomateriales magnéticos para limpiar agua contaminada con metales pesados, generar energía y detectar enfermedades con nanosensores. Trabaja con rutas de síntesis verde y en 2020 ganó un proyecto de Fondecyt en materiales para montar un servicio de análisis por absorción atómica.",
       "acronym": "NANOTECH",
       "name": "Grupo de investigación de nanotecnología aplicada para biorremediación ambiental, energía, biomedicina y agricultura",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/nanotech/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "NanoTECH es un grupo de investigación multidisciplinario enfocado en el desarrollo de nuevos materiales enfocados en nanomateriales magnéticos con propiedades magnéticas, ópticas, energéticas, catalíticas, adsorbentes, biosensoramiento, biomedicina a ser aplicados a nivel industrial y para el bienestar de la sociedad peruana.",
-      "goals": "• Desarrollo de investigación básica y aplicada para contribuir a nuevas tecnologías que acoplen principios de Ciencia e Ingeniería.\r\n• Desarrollo de nuevos nanohíbridos magnéticos que permitan soluciones dentro del marco de desarrollo sostenible como limpieza y saneamiento del agua.\r\n• Desarrollo de nanodispositivos que generen energía asequible y no contaminante para la sociedad peruana.\r\n• Desarrollo de nanosensores útiles en el área para la detección de enfermedades.\r\n• Desarrollos de políticas de transferencia tecnológica de los prototipos obtenidos.",
-      "services": "El grupo NANOTECH plantea la creación de una Unidad de Servicios de Análisis y Limpieza de Metales Pesados usando un equipo de Absorción Atómica a obtenerse con el reciente proyecto ganado en la Convocatoria de Investigación Aplicada en Materiales 2020-03 de Fondecyt.\r\nEl grupo NANOTECH estará disponible para la enseñanza de las principales técnicas de caracterización de Nanomateriales.\r\nDesarrollo de nuevos nanomateriales y procesos de síntesis verde.\r\nSoluciones a problemas de contaminación ambiental.\r\nAsesorías de tesis a nivel de pregrado y posgrado.",
       "members": [
         {
           "name": "Cesar Cabrera Arista",
@@ -2548,6 +2764,7 @@
         },
         {
           "name": "Erich Victor Manrique Castillo",
+          "slug": "erich-victor-manrique-castillo",
           "degree": "Maestro"
         },
         {
@@ -2612,13 +2829,11 @@
     {
       "id": "unmsm-capac",
       "institution": "unmsm",
+      "summary": "Analiza materiales del patrimonio cultural, como el oro precolombino, uniendo las ciencias físicas y químicas con la arqueología, la historia del arte y la conservación. Usa fluorescencia y difracción de rayos X, espectroscopia Mössbauer y Raman, microscopía electrónica y radiografía, y asesora a arqueólogos y conservadores.",
       "acronym": "CAPAC",
       "name": "Ciencia, arqueometría y patrimonio cultural",
       "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/capac/",
       "unit": "Facultad de Ciencias Físicas",
-      "about": "Este grupo de investigación es de carácter interdisciplinario. Las áreas de interés abarcan las ciencias exactas como la química, física y matemática; las ciencias humanas como la arqueología, antropología, historia, historia del arte y las ciencias de la conservación y restauración del patrimonio cultural. En el mundo académico actual, los trabajos científicos aplicados a estudiar materiales del patrimonio cultural implican el uso de nuevas tecnologías y metodologías, la convergencia de profesionales que sepan articular los resultados obtenidos por diversas técnicas analíticas e integrarlos a procesos de restauración y conservación de cualquier tipo de material de interés histórico, arqueológico y artístico. La universidad de San Marcos, en la actualidad, ya cuenta con laboratorios sofisticados y con gente especializada en el manejo de técnicas analíticas para llevar a cabo trabajos importantes en el área de Arqueometría y patrimonio cultural. El responsable del grupo cuenta con amplia experiencia en la aplicación de técnicas analíticas y ha realizado trabajos en: oro precolombino del norte de Perú y oro precolombino de la cultura Quimbaya. Además, hemos participado durante más de seis años en proyectos binacionales entre Perú e Italia y trabajado durante cuatro años con investigadores colombianos en estudiar oro de interés arqueológico.",
-      "goals": "Estudiar materiales del patrimonio cultural haciendo uso de técnica analíticas sofisticadas como la fluorescencia de rayos x, difracción de rayos x, espectroscopia Mössbauer, Espectroscopia Raman, Microscopia electrónica, radiografías entre otras técnicas que dispone la universidad. Además, se usará protocolos adecuados del área de arqueología y la restauración y conservación del patrimonio cultural. Se llevarán a cabo trabajos de divulgación entre la comunidad académica y la sociedad sobre los avances en el análisis del patrimonio cultural. Apoyar a los arqueólogos y conservadores del país suministrando información precisa sobre la composición de materiales y usando métodos innovadores para analizar materiales del patrimonio.",
-      "services": "Análisis de elementos químicos presentes en una muestra a nivel cualitativo y cuantitativo con equipo de fluorescencia de rayos x de energía dispersiva. \r\nTenemos un estéreo microscopio para obtener imágenes de muestras y realizar procedimientos propios de tratamiento de conservación y restauración de materiales del patrimonio cultural.\r\nTambién contamos con una cámara de vacío donde se puede realizar diversos procedimientos de preparación de muestras, este es el dispositivo adecuado cuando se realizan ensayos con reactivos químicos de cuidado especial. Consultoría de restauración y conservación del patrimonio cultural del país.",
       "members": [
         {
           "name": "Daniel E Morales Chocano",
@@ -2664,13 +2879,13 @@
     {
       "id": "pucp-mater-pucp",
       "institution": "pucp",
+      "summary": "Sintetiza y estudia materiales nuevos, sobre todo películas delgadas semiconductoras y partículas mesoscópicas, para usarlos en la generación y conversión de energías renovables. Deposita películas por pulverización catódica, spin coating, evaporación y electrodeposición.",
       "acronym": "MatER-PUCP",
       "name": "Grupo de Ciencia de Materiales y Energías Renovables",
       "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
       "unit": "Departamento Académico de Ciencias",
       "founded": 2018,
       "kind": "Básica/Aplicada",
-      "about": "El grupo de ‘Ciencia de Materiales y Energías Renovables’ (MatER-PUCP) se enfoca en la investigación y el desarrollo del síntesis, análisis y aplicación de nuevos materiales. Ini-cialmente esos nuevos materiales estarán basados en películas delgadas semiconducto-ras y partículas a escala mesoscópica. Entre de las líneas de investigación destaca a la aplicación de estos materiales en dispositivos y sistemas para generación y conversión de energías renovables. Las investigaciones del grupo abarcan tres temas principales: películas delgadas y partí-culas mesoscópicas, análisis de propiedades de materiales, y aplicaciones en ingeniería y optimización de materiales. En el caso de las películas delgadas, éstas son producidas a través de diferentes tecnologías, en particular, el grupo MatER cuenta con sistemas de deposición por pulverización catódica, spin coating y evaporación física. Adicionalmente, los proyectos del grupo invo-lucran también el uso de métodos químicos, como por ejemplo deposición electroquímica. Las partículas en escala mesoscópica son producidas por medio de diferentes rutas quí-micas y técnicas modernas de síntesis. El grupo cuenta con la experiencia necesaria para su producción así como con acceso a diferentes laboratorios de la Sección Física PUCP, del Instituto de Corrosión y Protección (ICP-PUCP) y del Laboratorio de Investigación en Físico Química de la Sección Química. El segundo tema principal de investigación es el análisis de las propiedades que presen-tan los materiales producidos en el grupo. El objetivo de este estudio se centra en conocer entre otros el comportamiento óptico, electrónico, térmico y estructural de los diferentes materiales, a través de diversas técnicas de caracterización. La ingeniería y la optimización de los materiales en estudio en diferentes áreas constitu-yen el tercer tema del grupo de investigación. Los materiales producidos en el grupo son caracterizados y manipulados con el fin de optimizarlos para su uso en aplicaciones di-versas, como por ejemplo en dispositivos fotovoltaicos para mejorar la eficiencia y/o bajar el costo de celdas solares, así como en dispositivos foto-electroquímicos para la separa-ción de agua en hidrógeno y oxígeno mediante fotocatálisis, entre otras aplicaciones. El grupo trabaja en cooperación con entidades internacionales y nacionales: en Alemania con la Technische Universität Ilmenau, el Helmholtz-Zentrum Berlin y la FAU Erlangen y en España con la Universidad de Jaén, mientras que a nivel local tiene vínculos académi-cos con la Universidad Peruana Cayetano Heredia, la Universidad Nacional Mayor de San Marcos y la Universidad Nacional de Ingeniería.",
       "members": [
         {
           "name": "Jorge Andres Guerra Torres",
@@ -2697,15 +2912,33 @@
       ]
     },
     {
+      "id": "pucp-pf",
+      "institution": "pucp",
+      "summary": "Estudia polímeros funcionalizados llamados inteligentes, que responden a cambios del medio como la temperatura, la acidez o la luz. Lo integran docentes y estudiantes de las maestrías de Ingeniería y Ciencia de los Materiales y de Química de la PUCP.",
+      "acronym": "PF",
+      "name": "Grupo de Investigación de Polímeros Funcionalizados",
+      "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
+      "unit": "Departamento Académico de Ciencias",
+      "founded": 2015,
+      "kind": "Básica/Aplicada",
+      "members": [
+        {
+          "name": "Juan Carlos Rueda Sanchez",
+          "role": "Coordinador",
+          "slug": "juan-carlos-rueda-sanchez"
+        }
+      ]
+    },
+    {
       "id": "pucp-githunu",
       "institution": "pucp",
+      "summary": "Usa la técnica de huellas nucleares para medir el radón 222 en el ambiente y otros contaminantes radiactivos naturales, con aplicaciones en geología, arqueología y minería. Es cofundador y coordinador de la Red Peruana de Radón (REPRA).",
       "acronym": "GITHUNU",
       "name": "Grupo de Investigación en Técnicas de Huellas Nucleares",
       "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
       "unit": "Departamento Académico de Ciencias",
       "founded": 1991,
       "kind": "Aplicada",
-      "about": "El grupo investiga y realiza aplicaciones de la técnica de huellas nucleares; principalmente en dosimetría de radón 222 ambiental y otros contaminantes radiactivos naturales. Se busca utilizar la técnica de huellas nucleares en diversas áreas como en geología, arqueología, minería, etc. Promueve la difusión de la problemática y protección ante la radiación natural a la población y busca establecer las recomendaciones para la mitigación en los casos que sean necesarios. Es cofundador y coordinador de la Red Peruana de Radón (REPRA) e incentiva el trabajo de investigación interinstitucional con universidades y centros de investigación a nivel nacional e internacional.",
       "members": [
         {
           "name": "Patrizia Edel Pereyra Anaya",
@@ -2717,12 +2950,12 @@
     {
       "id": "pucp-laboratorio-de-acustica-y-vibraciones",
       "institution": "pucp",
+      "summary": "Hace investigación aplicada en acústica y vibraciones, forma a estudiantes de pregrado y posgrado en el área y apoya a la industria nacional.",
       "name": "Grupo del Laboratorio de Acústica y Vibraciones",
       "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
       "unit": "Departamento Académico de Ciencias",
       "founded": 1983,
       "kind": "Aplicada/I+D",
-      "about": "Este grupo tiene como principales objetivos desarrollar la acústica en el país, desarrollar investigación aplicada en acústica y vibraciones tanto para la realidad nacional como mundial, incentivar a los estudiantes de pregrado y post grado para que involucren en la investigación en acústica y vibraciones, plantear proyectos conjuntos con colegas extranjeros y apoyar a la industria nacional. Su coordinador recibió un fellowship de la Audio Engineering Society en el 2012.",
       "members": [
         {
           "name": "Jorge Nestor Moreno Ruiz",
@@ -2734,13 +2967,13 @@
     {
       "id": "pucp-gsc",
       "institution": "pucp",
+      "summary": "Estudia sistemas dinámicos no lineales: bifurcaciones, oscilaciones complejas y caos. Su trabajo actual, teórico y experimental, trata de frentes de reacción en fluidos viscosos y de cómo los alteran un flujo impuesto y las diferencias de densidad.",
       "acronym": "GSC",
       "name": "Grupo de Sistemas Complejos y Dinámica No Lineal",
       "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
       "unit": "Departamento Académico de Ciencias",
       "founded": 2010,
       "kind": "Básica",
-      "about": "El grupo tiene como objetivo principal analizar sistemas dinámicos que presentan comportamiento no lineal, tales como bifurcaciones, oscilaciones complejas y caos. Estos sistemas aparecen en diversos campos, tales como la Biología, la Química, la Computación y la Física. Actualmente el grupo está realizando estudios teóricos y experimentales de frentes de reacción en fluidos viscosos. Dichos frentes se observan en diversas áreas de la naturaleza tales como frentes de actividad eléctrica en el corazón, incendios forestales, o la propagación de enfermedades en una población de individuos. Estos frentes de reacción pueden interaccionar con un fluido en movimiento. Por ejemplo, el crecimiento del plancton en el océano, frentes de combustión en gases, o la disminución de la capa de ozono en la estratósfera. Nuestro objetivo es investigar los efectos combinados de flujos impuestos por gradientes de presión externos, como es el flujo de Poiseuille, con el flujo generado por gradientes de densidad en líquidos. Dichos sistemas nos permitirán modelar mejor la combustión en gases donde los flujos externos están sujetos a gradientes de temperatura y posiblemente anticipar nuevas estructuras espacio-temporales en la naturaleza.",
       "members": [
         {
           "name": "Desiderio Augusto Vasquez Rodriguez",
@@ -2752,13 +2985,13 @@
     {
       "id": "pucp-groc",
       "institution": "pucp",
+      "summary": "Hace investigación teórica y experimental en óptica cuántica. Sus montajes se usan también en cursos de mecánica cuántica.",
       "acronym": "GROC",
       "name": "Grupo de Óptica Cuántica",
       "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
       "unit": "Departamento Académico de Ciencias",
       "founded": 1993,
       "kind": "Básica",
-      "about": "Este grupo tiene como principal objetivo desarrollar investigación teórica y experimental en temas actuales de la óptica cuántica. Paralelamente, el GROC aprovecha sus recursos al aplicarlos también en el ámbito docente, montando experimentos que son apropiados para complementar cursos de mecánica cuántica. La producción científica del GROC trasciende la frontera puramente académica, ya que su activa participación en el desarrollo de la óptica cuántica abre también la posibilidad de conocer tecnología de última generación desde sus orígenes. Ello permite aprovecharla con mayor eficiencia, adaptándola según las necesidades locales e identificando sus limitaciones y sus potenciales efectos perjudiciales.",
       "members": [
         {
           "name": "Francisco Antonio De Zela Martinez",
@@ -2770,13 +3003,13 @@
     {
       "id": "pucp-gae-pucp",
       "institution": "pucp",
+      "summary": "Trabaja en física de altas energías. En teoría estudia la física y la astrofísica de neutrinos; en experimentos participa en MINERvA, en Fermilab, sobre la interacción de los neutrinos con la materia, y en ALICE, en el CERN, sobre el plasma de quarks y gluones.",
       "acronym": "GAE-PUCP",
       "name": "Grupo de Altas Energías",
       "url": "https://investigacion.pucp.edu.pe/grupos-vri/directorio-de-grupos/",
       "unit": "Departamento Académico de Ciencias",
       "founded": 2002,
       "kind": "Básica",
-      "about": "La investigación de este grupo se enfoca en la Física Teórica de Altas Energías y en la Física Experimental de Altas Energías. La investigación teórica se centra en la Física/Astrofísica de neutrinos, los que constituyen herramientas para evaluar diferentes propuestas teóricas que buscan responder preguntas aún no resueltas sobre nuestra comprensión del Universo. La investigación experimental se da a través de su colaboración exitosa con dos experimentos: el experimento MINERvA, situado en FERMILAB (USA), que busca mejorar nuestro entendimiento de la interacción de los neutrinos con la materia, y el experimento ALICE, localizado en el LHC-CERN(Suiza), que busca estudiar todas las propiedades del plasma de quarks y gluones.",
       "members": [
         {
           "name": "Alberto Martin Gago Medina",
