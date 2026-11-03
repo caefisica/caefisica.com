@@ -15,40 +15,42 @@
 			{{- with $who.n }} {{ cond (eq . 1) "Estudió o trabaja aquí una persona" (printf "Estudiaron o trabajan aquí %d personas" .) }} del mapa de físicos.{{ end -}}
 		</p>
 	</header>
-	<section class="facts" aria-labelledby="org-info">
-		<h2 id="org-info">En breve</h2>
-		<dl>
-			{{- with $p.research }}
+	{{- $body := partial "organizaciones/sections.html" (dict "place" $p "who" $who "from" $from) }}
+	<aside class="person-aside">
+		<section class="facts" aria-labelledby="org-info">
+			<h2 id="org-info">En breve</h2>
+			<dl>
+				{{- with $p.research }}
+					<div>
+						<dt>Física desde {{ $from.Year }}</dt>
+						<dd>{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</dd>
+					</div>
+				{{- end }}
+				{{- with where site.Pages "Params.organization" $p.id }}
+					<div>
+						<dt>En el sitio</dt>
+						<dd>
+							{{- range $i, $g := sort . "RelPermalink" -}}
+								{{ if $i }} · {{ end }}<a href="{{ $g.RelPermalink }}">{{ $g.LinkTitle }}</a>
+							{{- end -}}
+						</dd>
+					</div>
+				{{- end }}
 				<div>
-					<dt>Física desde {{ $from.Year }}</dt>
-					<dd>{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</dd>
-				</div>
-			{{- end }}
-			{{- with where site.Pages "Params.organization" $p.id }}
-				<div>
-					<dt>En el sitio</dt>
+					<dt>Mapa</dt>
 					<dd>
-						{{- range $i, $g := sort . "RelPermalink" -}}
-							{{ if $i }} · {{ end }}<a href="{{ $g.RelPermalink }}">{{ $g.LinkTitle }}</a>
+						{{- if ne $p.lat nil -}}
+							<a href="{{ $map.RelPermalink }}#lugar-{{ $p.id }}">Ver en el mapa de físicos</a>
+						{{- else -}}
+							Sin ubicación en el mapa
 						{{- end -}}
 					</dd>
 				</div>
-			{{- end }}
-			<div>
-				<dt>Mapa</dt>
-				<dd>
-					{{- if ne $p.lat nil -}}
-						<a href="{{ $map.RelPermalink }}#lugar-{{ $p.id }}">Ver en el mapa de físicos</a>
-					{{- else -}}
-						Sin ubicación en el mapa
-					{{- end -}}
-				</dd>
-			</div>
-		</dl>
-	</section>
-	{{- $body := partial "organizaciones/sections.html" (dict "place" $p "who" $who "from" $from) }}
-	<div>
+			</dl>
+		</section>
 		{{ partial "ui/page-map.html" $body }}
+	</aside>
+	<div>
 		{{ $body }}
 		<p class="person-note text-muted">
 			Las personas vienen de sus fichas públicas de CTI Vitae, ORCID y el Portal del Profesorado de la PUCP{{ with $p.research }}; las publicaciones, de <a href="https://openalex.org/institutions/{{ .openalex }}">OpenAlex</a>, que cuenta las de sus sedes y laboratorios{{ end }}. Si trabajas aquí y falta alguien o algo está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
