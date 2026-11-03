@@ -19700,6 +19700,42 @@
       "lat": -21.22927,
       "lon": -44.97757,
       "kind": "universidad"
+    },
+    {
+      "id": "minesparis",
+      "name": "Mines Paris - PSL",
+      "short": "Mines Paris",
+      "country": "FR",
+      "lat": 48.84535,
+      "lon": 2.33905,
+      "kind": "instituto"
+    },
+    {
+      "id": "uregina",
+      "name": "University of Regina",
+      "short": "U. Regina",
+      "country": "CA",
+      "lat": 50.41555,
+      "lon": -104.58795,
+      "kind": "universidad"
+    },
+    {
+      "id": "msstate",
+      "name": "Mississippi State University",
+      "short": "Mississippi State",
+      "country": "US",
+      "lat": 33.45375,
+      "lon": -88.79005,
+      "kind": "universidad"
+    },
+    {
+      "id": "jlab",
+      "name": "Jefferson Lab",
+      "short": "JLab",
+      "country": "US",
+      "lat": 37.0947,
+      "lon": -76.4817,
+      "kind": "instituto"
     }
   ],
   "people": [
@@ -27486,14 +27522,14 @@
         },
         {
           "place": null,
-          "name": "Ecosistemas Peru S.a.c.",
+          "name": "Ecosistemas Peru S.A.C.",
           "role": "Supervisor de servicios y emergencias",
           "start": 2016,
           "end": 2016
         },
         {
           "place": null,
-          "name": "Aqa Quimica S.a.",
+          "name": "Aqa Quimica S.A.",
           "role": "Asistente de proyectos",
           "start": 2014,
           "end": 2016
@@ -28558,7 +28594,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Consorcio Figueroa Polo S.a.c.",
+          "name": "Consorcio Figueroa Polo S.A.C.",
           "role": "",
           "start": 2013,
           "end": "now"
@@ -28657,7 +28693,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Gelcone S.a.c.",
+          "name": "Gelcone S.A.C.",
           "role": "Geophysicist",
           "start": 2023,
           "end": 2025
@@ -28671,7 +28707,7 @@
         },
         {
           "place": null,
-          "name": "Geoexce S.a.c.",
+          "name": "Geoexce S.A.C.",
           "role": "Geofisico de campo",
           "start": 2017,
           "end": 2017
@@ -28685,7 +28721,7 @@
         },
         {
           "place": null,
-          "name": "Ingenieros S.a.c.",
+          "name": "Ingenieros S.A.C.",
           "role": "Ayudante geofisica",
           "start": 2016,
           "end": 2016
@@ -28957,7 +28993,7 @@
         },
         {
           "place": null,
-          "name": "Geomad E.i.r.l.",
+          "name": "Geomad E.I.R.L.",
           "role": "Tecnico en exploracion geofisica",
           "start": 2011,
           "end": 2012
@@ -34149,14 +34185,14 @@
       "jobs": [
         {
           "place": null,
-          "name": "Anddes Asociados S.a.c.",
+          "name": "Anddes Asociados S.A.C.",
           "role": "Practicante profesional del area de geofisica",
           "start": 2019,
           "end": "now"
         },
         {
           "place": null,
-          "name": "Terrasolutions Peru E.i.r.l.",
+          "name": "Terrasolutions Peru E.I.R.L.",
           "role": "Geofisico de campo",
           "start": 2018,
           "end": 2018
@@ -34170,7 +34206,7 @@
         },
         {
           "place": null,
-          "name": "Sotelo & Asociados S.a.c.",
+          "name": "Sotelo & Asociados S.A.C.",
           "role": "Practicante del area de geofisica",
           "start": 2018,
           "end": 2018
@@ -34184,7 +34220,7 @@
         },
         {
           "place": null,
-          "name": "Geophysics Exploration Consulting & Engineers Sociedad Anonima Cerrada - Geoexce S.a.c.",
+          "name": "Geophysics Exploration Consulting & Engineers Sociedad Anonima Cerrada - Geoexce S.A.C.",
           "role": "Geofisico junior",
           "start": 2016,
           "end": 2017
@@ -34572,7 +34608,7 @@
         },
         {
           "place": null,
-          "name": "Asesoria Global Para El Desarrollo Sostenible S.a.c. - Agdes S.a.c.",
+          "name": "Asesoria Global Para El Desarrollo Sostenible S.A.C. - Agdes S.A.C.",
           "role": "Asesor comercial",
           "start": 2016,
           "end": 2019
@@ -36971,7 +37007,7 @@
         },
         {
           "place": null,
-          "name": "I.e. 0217 Alto Hungurahui Pampa",
+          "name": "I.E. 0217 Alto Hungurahui Pampa",
           "role": "Profesor",
           "start": 2021,
           "end": 2022
@@ -39368,7 +39404,7 @@
         },
         {
           "place": null,
-          "name": "Siscard Peru S.a.c.",
+          "name": "Siscard Peru S.A.C.",
           "role": "Técnico de campo",
           "start": 2013,
           "end": 2013
@@ -42198,7 +42234,7 @@
         },
         {
           "place": null,
-          "name": "Snc Lavalin Peru S.a.",
+          "name": "Snc Lavalin Peru S.A.",
           "role": "Especialista ambiental junior",
           "start": 2022,
           "end": 2023
@@ -45667,7 +45703,7 @@
         },
         {
           "place": null,
-          "name": "Jm Net S.a.c.",
+          "name": "Jm Net S.A.C.",
           "role": "Docente",
           "start": 2010,
           "end": 2015
@@ -46214,7 +46250,7 @@
         },
         {
           "place": null,
-          "name": "Biomedica Electronica S.a.c. - Bioelectron S.a.c.",
+          "name": "Biomedica Electronica S.A.C. - Bioelectron S.A.C.",
           "role": "Analista de laboratorio",
           "start": 2016,
           "end": 2017
@@ -48376,7 +48412,7 @@
         },
         {
           "place": null,
-          "name": "Sg Nortec S.r.l.",
+          "name": "Sg Nortec S.R.L.",
           "role": "Metrologo",
           "start": 2013,
           "end": 2014
@@ -51014,7 +51050,7 @@
         },
         {
           "place": null,
-          "name": "Promecal S.a.c.",
+          "name": "Promecal S.A.C.",
           "role": "Asistente de metrologia",
           "start": 2025,
           "end": "now"
@@ -52484,7 +52520,7 @@
         },
         {
           "place": null,
-          "name": "Lab2d4 - Research Group On Mesoscopic Physics",
+          "name": "LAB2D4 - Research Group On Mesoscopic Physics",
           "role": "",
           "start": 2019,
           "end": 2021
@@ -57566,7 +57602,7 @@
         },
         {
           "place": null,
-          "name": "Aqua Andes Innovations E.i.r.l.",
+          "name": "Aqua Andes Innovations E.I.R.L.",
           "role": "Consultor",
           "start": 2018,
           "end": 2021
@@ -59950,7 +59986,7 @@
         },
         {
           "place": null,
-          "name": "Servicios Construccion y Consultoria Rosas S.r.l. - Secconsar S.r.l.",
+          "name": "Servicios Construccion y Consultoria Rosas S.R.L. - Secconsar S.R.L.",
           "role": "Jefe del área de geología",
           "start": 2005,
           "end": 2006
@@ -66605,7 +66641,7 @@
         },
         {
           "place": null,
-          "name": "Jazani Consultora Ambiental S.a.c.",
+          "name": "Jazani Consultora Ambiental S.A.C.",
           "role": "Locador de servicios",
           "start": 2019,
           "end": 2019
@@ -67867,14 +67903,14 @@
       "works": [
         {
           "place": "unab",
-          "role": "Phd researcher"
+          "role": "PhD researcher"
         }
       ],
       "jobs": [
         {
           "place": "unab",
           "name": "Universidad Andrés Bello",
-          "role": "Phd researcher",
+          "role": "PhD researcher",
           "start": 2023,
           "end": "now"
         },
@@ -67919,7 +67955,7 @@
         },
         {
           "place": "unab",
-          "did": ["Phd researcher"]
+          "did": ["PhD researcher"]
         }
       ],
       "links": [
@@ -68279,7 +68315,7 @@
         },
         {
           "place": null,
-          "name": "Test & Control S.a.c.",
+          "name": "Test & Control S.A.C.",
           "role": "Analista de procesos",
           "start": 2016,
           "end": 2016
@@ -69573,6 +69609,158 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "noemi-ochoa-gamboa",
+      "name": "Noemi Ochoa Gamboa",
+      "initials": "NO",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/noemi8a/",
+      "orcid": null,
+      "site": "LinkedIn",
+      "updated": "02-11-2026",
+      "degree": "Maestría",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "pucp",
+          "level": "Bachillerato",
+          "field": null,
+          "start": 2004,
+          "end": 2009
+        },
+        {
+          "place": "minesparis",
+          "level": "Maestría",
+          "field": "Mastère en comportamiento de materiales y dimensionamiento de estructuras",
+          "start": 2010,
+          "end": 2011
+        }
+      ],
+      "works": [
+        {
+          "place": "msstate",
+          "role": "Especialista en contratos y subvenciones"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "msstate",
+          "name": "Mississippi State University",
+          "role": "Especialista en contratos y subvenciones",
+          "start": 2026,
+          "end": "now"
+        },
+        {
+          "place": "msstate",
+          "name": "Mississippi State University",
+          "role": "Asistente administrativa, ciencias biomédicas comparadas",
+          "start": 2025,
+          "end": 2026
+        },
+        {
+          "place": "stonybrook",
+          "name": "Stony Brook University",
+          "role": "Especialista en compras",
+          "start": 2023,
+          "end": 2025
+        },
+        {
+          "place": null,
+          "name": "M.S. Hi-tech",
+          "role": "Especialista en compras",
+          "start": 2022,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "Day Communications",
+          "role": "Administradora de cuentas bilingüe",
+          "start": 2020,
+          "end": 2021
+        },
+        {
+          "place": null,
+          "name": "Proactis",
+          "role": "Especialista en compras",
+          "start": 2019,
+          "end": 2020
+        },
+        {
+          "place": null,
+          "name": "B2B Bank",
+          "role": "Administradora bilingüe",
+          "start": 2018,
+          "end": 2018
+        },
+        {
+          "place": "uregina",
+          "name": "University of Regina",
+          "role": "Estudiante de doctorado en física",
+          "start": 2014,
+          "end": 2017
+        },
+        {
+          "place": "jlab",
+          "name": "Jefferson Lab",
+          "role": "Investigadora en prácticas, proyecto GlueX",
+          "start": 2014,
+          "end": 2015
+        },
+        {
+          "place": null,
+          "name": "Safran",
+          "role": "Ingeniera en prácticas, simulación de materiales",
+          "start": 2010,
+          "end": 2011
+        },
+        {
+          "place": "fermilab",
+          "name": "Fermilab",
+          "role": "Investigadora en prácticas, haz de prueba de MINERvA",
+          "start": 2009,
+          "end": 2010
+        }
+      ],
+      "path": [
+        {
+          "place": "pucp",
+          "did": ["Bachillerato"]
+        },
+        {
+          "place": "fermilab",
+          "did": ["Investigadora en prácticas, haz de prueba de MINERvA"]
+        },
+        {
+          "place": "minesparis",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "uregina",
+          "did": ["Estudiante de doctorado en física"]
+        },
+        {
+          "place": "jlab",
+          "did": ["Investigadora en prácticas, proyecto GlueX"]
+        },
+        {
+          "place": "stonybrook",
+          "did": ["Especialista en compras"]
+        },
+        {
+          "place": "msstate",
+          "did": [
+            "Asistente administrativa, ciencias biomédicas comparadas",
+            "Especialista en contratos y subvenciones"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1067983"
         }
       ]
     },
@@ -72811,21 +72999,21 @@
         },
         {
           "place": null,
-          "name": "I.e. Renan Elias Olivera",
+          "name": "I.E. Renan Elias Olivera",
           "role": "Docente de matematica, fisica elemental - nivel secundario",
           "start": 2025,
           "end": 2026
         },
         {
           "place": null,
-          "name": "I.e. Federico Villarreal",
+          "name": "I.E. Federico Villarreal",
           "role": "Docente de matematica - nivel secundario",
           "start": 2024,
           "end": 2024
         },
         {
           "place": null,
-          "name": "I.e. Jose Carlos Mariategui",
+          "name": "I.E. Jose Carlos Mariategui",
           "role": "Docente de matematica - nivel secundario",
           "start": 2023,
           "end": 2023
@@ -75422,7 +75610,7 @@
         },
         {
           "place": null,
-          "name": "Vava Technologies S.a.c.",
+          "name": "Vava Technologies S.A.C.",
           "role": "Gerente comercial",
           "start": 2013,
           "end": 2015
@@ -75443,14 +75631,14 @@
         },
         {
           "place": null,
-          "name": "Servicios de Ascensores Gs & F S.a.c.",
+          "name": "Servicios de Ascensores Gs & F S.A.C.",
           "role": "Jefe de proyectos",
           "start": 2012,
           "end": 2013
         },
         {
           "place": null,
-          "name": "Centrix Innovation Peru S.a.c.",
+          "name": "Centrix Innovation Peru S.A.C.",
           "role": "Gerente de proyectos",
           "start": 2020,
           "end": "now"
@@ -86044,7 +86232,7 @@
         },
         {
           "place": null,
-          "name": "Corporacion Taesa S.r.l.",
+          "name": "Corporacion Taesa S.R.L.",
           "role": "Asistente de oficina tecnica",
           "start": 2020,
           "end": 2020
@@ -91340,7 +91528,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "I.e. Jose Antonio Encinas",
+          "name": "I.E. Jose Antonio Encinas",
           "role": "Docente de fisica",
           "start": 2019,
           "end": 2022
