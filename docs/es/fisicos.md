@@ -67,12 +67,16 @@ para actualizar los datos y confirma el JSON.
 
 `data/press.yaml` lista los artículos de prensa escritos por una persona o sobre
 ella: `person` (la carpeta del perfil), medio, fecha, título, enlace, `author`
-si lo firmó ella y `video` si es un video. El perfil los muestra en «En la
-prensa», del más reciente al más antiguo. Un artículo entra solo si nombra a la
-persona con una institución que coincide con su perfil; un nombre igual no
-basta. Un video entra si lo publica un medio o una institución (RPP, Andina, TV
-Perú, una universidad) y es una nota o una entrevista; una charla o un seminario
-va en grabaciones, y un canal personal no cuenta.
+si lo firmó ella, `video` si es un video y `podcast` si es un episodio de
+pódcast. El perfil los muestra en «En la prensa», del más reciente al más
+antiguo. Un artículo entra solo si nombra a la persona con una institución que
+coincide con su perfil; un nombre igual no basta. Un video o un pódcast entra si
+es una entrevista en un programa de radio, de televisión o de una serie de
+entrevistas, la publique un medio, una institución o un productor independiente,
+o si es una nota breve o un testimonio de una institución. `outlet` nombra el
+medio que hizo la entrevista, aunque el video lo suba otra institución. Una
+charla, un seminario o un coloquio va en grabaciones, y no cuentan un saludo de
+aniversario, el canal de la propia persona ni la copia que sube un tercero.
 
 ## Mapa de físicos
 
