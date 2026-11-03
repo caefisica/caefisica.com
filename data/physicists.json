@@ -19673,6 +19673,33 @@
       "lat": 37.71645,
       "lon": -89.22033,
       "kind": "universidad"
+    },
+    {
+      "id": "ufrn",
+      "name": "Universidade Federal do Rio Grande do Norte",
+      "short": "UFRN",
+      "country": "BR",
+      "lat": -5.83972,
+      "lon": -35.2017,
+      "kind": "universidad"
+    },
+    {
+      "id": "ufcg",
+      "name": "Universidade Federal de Campina Grande",
+      "short": "UFCG",
+      "country": "BR",
+      "lat": -7.21689,
+      "lon": -35.91056,
+      "kind": "universidad"
+    },
+    {
+      "id": "ufla",
+      "name": "Universidade Federal de Lavras",
+      "short": "UFLA",
+      "country": "BR",
+      "lat": -21.22927,
+      "lon": -44.97757,
+      "kind": "universidad"
     }
   ],
   "people": [
@@ -32168,6 +32195,62 @@
       ]
     },
     {
+      "slug": "anthonny-freddy-canazas-garay",
+      "name": "Anthonny Freddy Canazas Garay",
+      "initials": "AC",
+      "source": "web",
+      "url": "https://repositorio.uc.cl/handle/11534/27035",
+      "orcid": "0000-0002-7895-423X",
+      "site": "Repositorio UC",
+      "updated": "02-11-2026",
+      "degree": "Maestría en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "puc-chile",
+          "level": "Maestría",
+          "field": null,
+          "start": null,
+          "end": 2019
+        }
+      ],
+      "works": [
+        {
+          "place": "unab",
+          "role": "Estudiante de doctorado"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "unab",
+          "name": "Universidad Andrés Bello",
+          "role": "Estudiante de doctorado",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "puc-chile",
+          "did": ["Maestría"]
+        },
+        {
+          "place": "unab",
+          "did": ["Estudiante de doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=BHSoVT8AAAAJ"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1590194"
+        }
+      ]
+    },
+    {
       "slug": "ricardo-canchis-caballero",
       "name": "Ricardo Canchis Caballero",
       "initials": "RC",
@@ -33786,6 +33869,102 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ]
+    },
+    {
+      "slug": "hector-leny-carrion-salazar",
+      "name": "Hector Leny Carrion Salazar",
+      "initials": "HC",
+      "source": "web",
+      "url": "https://sigaa.ufrn.br/sigaa/public/docente/portal.jsf?siape=1680333",
+      "orcid": null,
+      "site": "SIGAA UFRN",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "cbpf",
+          "level": "Maestría",
+          "field": null,
+          "start": 1997,
+          "end": 1999
+        },
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null,
+          "start": 1999,
+          "end": 2003
+        }
+      ],
+      "works": [
+        {
+          "place": "ufrn",
+          "role": "Profesor, escola de ciências e tecnologia"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ufrn",
+          "name": "Universidade Federal do Rio Grande do Norte",
+          "role": "Profesor, escola de ciências e tecnologia",
+          "start": null,
+          "end": "now"
+        },
+        {
+          "place": "ufcg",
+          "name": "Universidade Federal de Campina Grande",
+          "role": "Profesor adjunto",
+          "start": 2009,
+          "end": null
+        },
+        {
+          "place": "usp",
+          "name": "Universidade de São Paulo",
+          "role": "Investigador posdoctoral",
+          "start": 2005,
+          "end": 2008
+        },
+        {
+          "place": "ufrj",
+          "name": "Universidade Federal do Rio de Janeiro",
+          "role": "Investigador posdoctoral",
+          "start": 2003,
+          "end": 2005
+        }
+      ],
+      "path": [
+        {
+          "place": "cbpf",
+          "did": ["Maestría", "Doctorado"]
+        },
+        {
+          "place": "ufrn",
+          "did": ["Profesor, escola de ciências e tecnologia"]
+        },
+        {
+          "place": "ufrj",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "usp",
+          "did": ["Investigador posdoctoral"]
+        },
+        {
+          "place": "ufcg",
+          "did": ["Profesor adjunto"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "lattes",
+          "url": "http://buscatextual.cnpq.br/buscatextual/visualizacv.jsp?id=K4768564A5"
+        },
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1019759"
         }
       ]
     },
@@ -36955,6 +37134,12 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1648413"
         }
       ]
     },
@@ -82252,6 +82437,58 @@
         {
           "place": "pucp",
           "did": ["Maestría"]
+        }
+      ]
+    },
+    {
+      "slug": "moises-rojas",
+      "name": "Moises Rojas",
+      "initials": "MR",
+      "source": "web",
+      "url": "https://orcid.org/0000-0001-8887-8309",
+      "orcid": "0000-0001-8887-8309",
+      "site": "ORCID",
+      "updated": "02-11-2026",
+      "degree": "Doctorado en física",
+      "track": "Física",
+      "studied": [
+        {
+          "place": "cbpf",
+          "level": "Doctorado",
+          "field": null,
+          "start": null,
+          "end": 2004
+        }
+      ],
+      "works": [
+        {
+          "place": "ufla",
+          "role": "Profesor adjunto, departamento de física"
+        }
+      ],
+      "jobs": [
+        {
+          "place": "ufla",
+          "name": "Universidade Federal de Lavras",
+          "role": "Profesor adjunto, departamento de física",
+          "start": null,
+          "end": "now"
+        }
+      ],
+      "path": [
+        {
+          "place": "cbpf",
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "ufla",
+          "did": ["Profesor adjunto, departamento de física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "inspire",
+          "url": "https://inspirehep.net/authors/1019784"
         }
       ]
     },
