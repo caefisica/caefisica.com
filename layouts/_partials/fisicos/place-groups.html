@@ -1,5 +1,5 @@
 {{- /*
-Returns who studied or worked at one place of data/physicists.json: Pregrado, Posgrado, Trabajan and Trabajaron, each a list of dict person and note, with n, the count of distinct people. People keep the data's order, by surname. Context: the place.
+Returns who studied or worked at one place of data/physicists.json: Trabajan, Trabajaron, Posgrado and Pregrado, each a list of dict person and note, with n, the count of distinct people. People keep the data's order, by surname. Context: the place.
 */ -}}
 {{- $place := . -}}
 {{- $undergrad := slice "Bachillerato" "Licenciatura" -}}
@@ -38,5 +38,5 @@ Returns who studied or worked at one place of data/physicists.json: Pregrado, Po
 		{{- end -}}
 	{{- end -}}
 {{- end -}}
-{{- $groups := slice (dict "title" "Pregrado" "rows" $under) (dict "title" "Posgrado" "rows" $grad) (dict "title" "Trabajan" "rows" $works) (dict "title" "Trabajaron" "rows" $worked) -}}
+{{- $groups := slice (dict "title" "Trabajan" "rows" $works) (dict "title" "Trabajaron" "rows" $worked) (dict "title" "Posgrado" "rows" $grad) (dict "title" "Pregrado" "rows" $under) -}}
 {{- return dict "groups" $groups "n" ($names | uniq | len) -}}

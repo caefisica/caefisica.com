@@ -5,6 +5,7 @@
 {{- $who := partialCached "fisicos/place-groups.html" $p $p.id -}}
 {{- $map := site.GetPage "/fisicos" -}}
 {{- $from := time.AsTime $data.research_from -}}
+{{- .Store.Set "more" true -}}
 <article class="person-page py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<header>
@@ -46,61 +47,10 @@
 			</div>
 		</dl>
 	</section>
+	{{- $body := partial "organizaciones/sections.html" (dict "place" $p "who" $who "from" $from) }}
 	<div>
-		<h2 id="personas">Personas</h2>
-		{{ partial "fisicos/place-people.html" $who.groups }}
-		{{- with sort (where hugo.Data.groups.groups "institution" $p.id) "name" }}
-			<h2 id="grupos">Grupos de investigación <span class="count">{{ len . }}</span></h2>
-			<ul class="rows">
-				{{- range . }}{{ partial "grupos/row.html" . }}{{ end }}
-			</ul>
-		{{- end }}
-		{{- with $p.research }}
-			{{- with .authors }}
-				<h2 id="autores">Quiénes más publican</h2>
-				<p class="text-muted">Los autores que más aparecen en sus publicaciones de física desde {{ $from.Year }}, incluidos coautores de otras instituciones. El nombre enlaza el perfil de quien está en el mapa.</p>
-				<ul class="rows">
-					{{- range $a := . }}
-						<li class="group">
-							<div class="row-main">
-								{{- with $a.slug }}
-									<a class="card-link" href="{{ (site.GetPage (printf "/personas/%s" .)).RelPermalink }}">{{ $a.name }}</a>
-								{{- else }}
-									<span>{{ $a.name }}</span>
-								{{- end }}
-							</div>
-							<span class="row-meta">{{ $a.works }} {{ cond (eq $a.works 1) "publicación" "publicaciones" }}</span>
-						</li>
-					{{- end }}
-				</ul>
-			{{- end }}
-			{{- with .works }}
-				<h2 id="publicaciones">Publicaciones recientes</h2>
-				<p class="text-muted">Las {{ len . }} más recientes de física con un autor de la organización. Datos de OpenAlex al {{ partial "ui/date.html" (time.AsTime $data.fetched) }}.</p>
-				<ul class="rows">
-					{{- range . }}
-						{{- $names := slice }}
-						{{- range .authors }}
-							{{- $name := .name | htmlEscape }}
-							{{- with .slug }}{{ $name = printf "<a href=\"%s\">%s</a>" (site.GetPage (printf "/personas/%s" .)).RelPermalink $name }}{{ end }}
-							{{- $names = $names | append $name }}
-						{{- end }}
-						{{- $more := sub .n (len .authors) }}
-						<li class="group">
-							<div class="row-main">
-								{{- if .doi }}
-									<a class="card-link" href="{{ .doi }}">{{ .title }}</a>
-								{{- else }}
-									<span>{{ .title }}</span>
-								{{- end }}
-								<p>{{ delimit $names ", " | safeHTML }}{{ if gt $more 0 }} y {{ $more }} más{{ end }}</p>
-								<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
-							</div>
-						</li>
-					{{- end }}
-				</ul>
-			{{- end }}
-		{{- end }}
+		{{ partial "ui/page-map.html" $body }}
+		{{ $body }}
 		<p class="person-note text-muted">
 			Las personas vienen de sus fichas públicas de CTI Vitae, ORCID y el Portal del Profesorado de la PUCP{{ with $p.research }}; las publicaciones, de <a href="https://openalex.org/institutions/{{ .openalex }}">OpenAlex</a>, que cuenta las de sus sedes y laboratorios{{ end }}. Si trabajas aquí y falta alguien o algo está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 		</p>

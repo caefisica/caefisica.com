@@ -30,9 +30,19 @@ falls. The authors include co-authors from other institutions.
 ## People
 
 `layouts/_partials/fisicos/place-groups.html` splits the people of a place into
-Pregrado, Posgrado, Trabajan and Trabajaron, and `fisicos/place-people.html`
-shows them. `/fisicos/` and the organisation page use both, so they show the
-same. A profile's trajectory links each organisation's page.
+Trabajan, Trabajaron, Posgrado and Pregrado, in that order: those there today
+come first. `fisicos/place-people.html` shows them. `/fisicos/` and the
+organisation page use both, so they show the same. A profile's trajectory links
+each organisation's page.
+
+## Page
+
+The page of an organisation and of a research group follow the contract of a
+person's page (see [people](contenido.md#people)): each section opens with an
+`h2` with its count, the row of links under the title comes from those headings,
+and a list of eight rows or more shows five and a button with the rest.
+`organizaciones/sections.html` and `grupos/sections.html` build the sections;
+`ui/page-map.html` builds the row of links.
 
 ## Update
 

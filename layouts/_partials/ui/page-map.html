@@ -1,0 +1,9 @@
+{{- /* A row of links to the sections of a page, with their counts. It reads each `<h2 id="X">Title <span class="count">N</span></h2>` in the rendered HTML, so a title holds plain text. It shows from three sections. Context: the HTML. */ -}}
+{{- $sections := findRESubmatch `<h2 id="([^"]+)">([^<]+?)(?: <span class="count">(\d+)</span>)?</h2>` . -}}
+{{- if ge (len $sections) 3 }}
+	<nav class="list-jump page-map" aria-label="En esta página">
+		{{- range $sections }}
+			<a href="#{{ index . 1 }}">{{ index . 2 }}{{ with index . 3 }} <span class="count">{{ . }}</span>{{ end }}</a>
+		{{- end }}
+	</nav>
+{{- end }}

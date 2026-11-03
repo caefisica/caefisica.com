@@ -131,15 +131,8 @@
 		(partial "personas/writing.html" $slug)
 	-}}
 	{{- $body := delimit $blocks "" -}}
-	{{- $sections := findRESubmatch `<h2 id="([^"]+)">([^<]+?)(?: <span class="count">(\d+)</span>)?</h2>` (print $trajectory $body) -}}
 	<div>
-		{{- if ge (len $sections) 3 }}
-			<nav class="list-jump page-map" aria-label="En esta página">
-				{{- range $sections }}
-					<a href="#{{ index . 1 }}">{{ index . 2 }}{{ with index . 3 }} <span class="count">{{ . }}</span>{{ end }}</a>
-				{{- end }}
-			</nav>
-		{{- end }}
+		{{ partial "ui/page-map.html" (print $trajectory $body) }}
 		<div class="markdown">
 			{{ .Content }}
 			{{ $trajectory | safeHTML }}

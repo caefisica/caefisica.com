@@ -1,0 +1,60 @@
+{{- /* The sections of a research group page, each under an h2 that ui/page-map.html reads. Context: the group from data/groups. */ -}}
+{{- $g := . -}}
+{{- $data := hugo.Data.groups -}}
+<div class="markdown">
+	{{- with $g.about }}
+		<h2 id="descripcion">Descripción</h2>
+		{{ . | htmlEscape | markdownify }}
+	{{- end }}
+	{{- with $g.lines }}
+		<h2 id="lineas">Líneas de investigación <span class="count">{{ len . }}</span></h2>
+		<ul>
+			{{- range . }}<li>{{ . }}</li>{{ end }}
+		</ul>
+	{{- end }}
+	{{- with $g.goals }}
+		<h2 id="objetivos">Objetivos</h2>
+		{{ . | htmlEscape | markdownify }}
+	{{- end }}
+	{{- with $g.services }}
+		<h2 id="servicios">Servicios</h2>
+		{{ . | htmlEscape | markdownify }}
+	{{- end }}
+</div>
+{{- if eq $g.institution "unmsm" }}
+	<h2 id="integrantes">Integrantes <span class="count">{{ len $g.members }}</span></h2>
+	<p class="text-muted">El nombre enlaza el perfil de quien está en el mapa de físicos.</p>
+	<ul class="rows">
+		{{- range $g.members }}
+			<li class="group">
+				<div class="row-main">
+					{{ partial "grupos/person.html" . }}
+					{{- with .degree }}<p>{{ . }}</p>{{ end }}
+				</div>
+				{{- with .role }}<span class="row-meta">Coordinación</span>{{ end }}
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}
+{{- with $g.projects }}
+	<h2 id="proyectos">Proyectos <span class="count">{{ len . }}</span></h2>
+	<p class="text-muted">Los proyectos que el Vicerrectorado registra para el grupo, con su código y, cuando el código lo indica, el programa que lo financió.</p>
+	<ul class="rows">
+		{{- range . }}
+			<li class="group">
+				<div class="row-main">
+					<span>{{ .title }}</span>
+					<p>{{ .code }}{{ with .programme }} · <abbr title="{{ index $data.programmes . }}">{{ . }}</abbr>{{ end }}</p>
+				</div>
+				<span class="row-meta">{{ .year }}</span>
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}
+{{- with $g.research }}
+	{{- with .works }}
+		<h2 id="publicaciones">Publicaciones recientes <span class="count">{{ len . }}</span></h2>
+		<p class="text-muted">Las más recientes de sus integrantes con perfil en OpenAlex. Datos al {{ partial "ui/date.html" (time.AsTime $data.works_fetched) }}.</p>
+		{{ partial "research/works.html" . }}
+	{{- end }}
+{{- end }}
