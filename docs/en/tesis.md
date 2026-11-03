@@ -23,10 +23,10 @@ code used, according to the vocabulary of
 ## Names and profiles
 
 Cybertesis writes names as `Surnames, Names`. Each author and adviser carries in
-`slugs` the forms in which the site could name their folder: all the names or
-the first, with both surnames or the first. The partial `data/person-page.html`
-looks up each slug in `/fisicos/` and then in `/professors/` and returns the
-first page that exists. If none exists, the name appears without a link.
+`slugs` the forms in which the site could name them: all the names or the first,
+with both surnames or the first. The partial `data/person-page.html` looks up
+each slug in `/personas/` and returns the first page that exists. If none
+exists, the name appears without a link.
 
 An adviser's ORCID is kept only if the record names a single adviser, because
 Cybertesis lists the ORCIDs apart from the names and in no fixed order.

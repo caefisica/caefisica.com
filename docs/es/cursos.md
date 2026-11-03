@@ -24,21 +24,21 @@ content/unmsm/pregrado/plan-2018/CFO601/
 
 Campos del front matter que usan las plantillas:
 
-| Campo           | Uso                                                                    |
-| --------------- | ---------------------------------------------------------------------- |
-| `title`         | Nombre del curso.                                                      |
-| `lead`          | Texto de apertura bajo el título.                                      |
-| `description`   | Resumen para buscadores y redes sociales.                              |
-| `id`            | Código del curso. Sin `id` no aparece la caja de información.          |
-| `credits`       | Créditos, en la caja de información.                                   |
-| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.          |
-| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor.     |
-| `contributors`  | Slugs de `content/contributors/`. Ver [nombres](contenido.md#nombres). |
-| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».       |
-| `math`          | Con `true`, carga KaTeX para las fórmulas.                             |
-| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.                 |
-| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                      |
-| `draft`         | Con `true`, la página no se publica. `bun run dev` la muestra.         |
+| Campo           | Uso                                                                |
+| --------------- | ------------------------------------------------------------------ |
+| `title`         | Nombre del curso.                                                  |
+| `lead`          | Texto de apertura bajo el título.                                  |
+| `description`   | Resumen para buscadores y redes sociales.                          |
+| `id`            | Código del curso. Sin `id` no aparece la caja de información.      |
+| `credits`       | Créditos, en la caja de información.                               |
+| `prerequisites` | Lista de textos; se unen con « y » en la caja de información.      |
+| `semester`      | Número de ciclo. El menú lateral agrupa los cursos por este valor. |
+| `contributors`  | Slugs de personas. Ver [personas](contenido.md#personas).          |
+| `working`       | Con `true`, muestra el aviso «Estamos trabajando en este curso».   |
+| `math`          | Con `true`, carga KaTeX para las fórmulas.                         |
+| `mermaid`       | Con `true`, carga Mermaid para el shortcode `mermaid`.             |
+| `weight`        | Orden de la página; Hugo ordena de menor a mayor.                  |
+| `draft`         | Con `true`, la página no se publica. `bun run dev` la muestra.     |
 
 La caja de información (código, créditos, prerrequisitos, docentes y sílabos)
 aparece en las páginas de `content/unmsm/` que tienen `id`:
@@ -109,11 +109,12 @@ Cada entrada aparece también en `/videos/`, agrupada por curso. Una lista de
 YouTube (una `url` con `list=`) o una carpeta compartida de Google Drive (una
 `url` con `/drive/folders/`) tiene allí su propia página: un reproductor, sus
 clases con su duración y `description`, que se escribe en Markdown y dice qué
-cubre la lista, a qué nivel y en qué idioma. Si `lecturer` coincide con el
-nombre de un perfil de `/fisicos/`, la página enlaza el perfil y el perfil lista
-la clase. Las subcarpetas de una carpeta de Drive son secciones de la lista, en
-el orden de los números con que empiezan sus nombres. Si las carpetas de primer
-nivel no llevan número, `sections` las lista en el orden de la clase:
+cubre la lista, a qué nivel y en qué idioma. `person`, el slug de quien dicta
+(ver [personas](contenido.md#personas)), reemplaza a `lecturer`: la página
+enlaza a la persona y la página de la persona lista la clase. Las subcarpetas de
+una carpeta de Drive son secciones de la lista, en el orden de los números con
+que empiezan sus nombres. Si las carpetas de primer nivel no llevan número,
+`sections` las lista en el orden de la clase:
 
 ```yaml
 - title: Mecánica
@@ -162,31 +163,11 @@ layout: "offering"
 ---
 ```
 
-`professor` es el slug de un docente (ver [nombres](contenido.md#nombres)). Sin
-`professor` el sílabo no muestra la fila «Docente». La página del sílabo muestra
-el semestre, el docente y cada archivo `silabo*.pdf` en un visor. Sin PDF
-muestra «No hay sílabo disponible para este semestre».
+`professor` es el slug de una persona (ver [personas](contenido.md#personas)).
+Sin `professor` el sílabo no muestra la fila «Docente». La página del sílabo
+muestra el semestre, el docente y cada archivo `silabo*.pdf` en un visor. Sin
+PDF muestra «No hay sílabo disponible para este semestre».
 
-## Docentes
-
-Un docente es `content/professors/<slug>/index.md`:
-
-```bash
-hugo new content --kind professor professors/fulgencio-villegas-silva/index.md
-```
-
-```yaml
----
-title: "Fulgencio Villegas Silva"
-honorific: "Dr."
-institution: "unmsm"
-draft: false
-date: 2024-01-01T00:00:00
----
-```
-
-`honorific` y `title` forman el nombre del docente en la caja de información de
-la guía, en la cabecera del sílabo y en las páginas de `content/professors/`.
-`institution` es una clave de `data/universities.yaml` (ver
-[universidades](contenido.md#universidades)). La página del docente lista los
-cursos de los sílabos que lo nombran en `professor`, con un enlace por semestre.
+La página de la persona lista los cursos de los sílabos que la nombran en
+`professor`, con un enlace por semestre. `/unmsm/docentes/` lista a todos los
+docentes.

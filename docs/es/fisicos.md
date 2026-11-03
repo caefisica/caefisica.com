@@ -2,14 +2,11 @@
 
 [English](../en/fisicos.md)
 
-Cada persona de `data/physicists.json` tiene un perfil en `/fisicos/<slug>/`
-(ver [Mapa de físicos](#mapa-de-físicos)). Para escribir el perfil de alguien,
-crea `content/fisicos/<slug>/index.md` con el mismo `slug` del JSON: esa página
+Cada persona de `data/physicists.json` tiene su página en `/personas/<slug>/`
+(ver [personas](contenido.md#personas)). Para escribir sobre alguien, crea
+`content/personas/<slug>/index.md` con el mismo `slug` del JSON: esa página
 reemplaza a la generada y la misma plantilla le suma los datos del JSON. Se lee
 como un artículo de enciclopedia: cada dato enlaza una fuente pública.
-
-Si el perfil escrito tenía otra dirección, `aliases` la guarda; Cloudflare la
-redirige con `_redirects`.
 
 ## Fuentes
 
@@ -48,10 +45,10 @@ el JSON), nunca su texto; tampoco publicaciones, fotos ni datos de contacto.
 Solo una foto con licencia libre (Wikimedia Commons) o enviada por la persona.
 Las fotos de las universidades y de la prensa tienen derechos reservados.
 
-La foto va en `static/images/fisicos/<slug>.jpg`, cuadrada, de 288 px, con la
-cara centrada. `data/photos.yaml` guarda su crédito bajo el mismo slug: autor,
-licencia, enlace a la licencia y página del archivo en Commons. El perfil
-muestra ese crédito, y la compilación falla si una foto no lo tiene. Para
+La foto va en `static/images/personas/<slug>.webp` o `.jpg`, cuadrada, de 288
+px, con la cara centrada. `data/photos.yaml` guarda su crédito bajo el mismo
+slug: autor, licencia, enlace a la licencia y página del archivo en Commons. El
+perfil muestra ese crédito, y la compilación falla si una foto no lo tiene. Para
 encontrar fotos, la propiedad P18 de Wikidata apunta al archivo de Commons.
 
 ## Publicaciones
@@ -141,11 +138,11 @@ Al elegir una institución, el globo traza la ruta de cada persona que estudió 
 trabajó ahí. Un nombre de esa lista, o la dirección `/fisicos/#ruta-<slug>`,
 abre en el panel la ficha de la persona y traza solo su ruta.
 
-`content/fisicos/_content.gotmpl` crea un perfil por persona en
-`/fisicos/<slug>/`, con lo que dice el JSON. Así los datos siguen a la vista
-cuando CTI Vitae no responde. El perfil usa la foto
-`static/images/fisicos/<slug>.jpg` si existe; la regla de la sección Foto vale
-también aquí. Sin foto, muestra las iniciales del nombre y del primer apellido.
+`content/personas/_content.gotmpl` crea una página por persona en
+`/personas/<slug>/`, con lo que dice el JSON. Así los datos siguen a la vista
+cuando CTI Vitae no responde. La página usa la foto de `static/images/personas/`
+si existe; la regla de la sección Foto vale también aquí. Sin foto, muestra las
+iniciales del nombre y del primer apellido.
 
 Cuando el JSON gana una institución fuera del Perú, corre `bun run landmask`.
 Reescribe `assets/maps/land.bin` con la costa detallada alrededor de cada

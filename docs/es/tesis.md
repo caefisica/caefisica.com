@@ -23,11 +23,10 @@ cada código usado, según el vocabulario de
 ## Nombres y perfiles
 
 Cybertesis escribe los nombres como `Apellidos, Nombres`. Cada autor y asesor
-trae en `slugs` las formas en que el sitio podría nombrar su carpeta: todos los
-nombres o el primero, con los dos apellidos o el primero. El partial
-`data/person-page.html` busca cada slug en `/fisicos/` y luego en `/professors/`
-y devuelve la primera página que existe. Si ninguna existe, el nombre sale sin
-enlace.
+trae en `slugs` las formas en que el sitio podría nombrarlo: todos los nombres o
+el primero, con los dos apellidos o el primero. El partial
+`data/person-page.html` busca cada slug en `/personas/` y devuelve la primera
+página que existe. Si ninguna existe, el nombre sale sin enlace.
 
 El ORCID de un asesor se guarda solo si el registro nombra un único asesor,
 porque Cybertesis lista los ORCID aparte de los nombres y sin orden fijo.

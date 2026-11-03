@@ -2,14 +2,11 @@
 
 [Español](../es/fisicos.md)
 
-Each person in `data/physicists.json` has a profile at `/fisicos/<slug>/` (see
-[Physicists map](#physicists-map)). To write someone's profile, create
-`content/fisicos/<slug>/index.md` with the same `slug` as the JSON: that page
+Each person in `data/physicists.json` has their page at `/personas/<slug>/` (see
+[people](contenido.md#people)). To write about someone, create
+`content/personas/<slug>/index.md` with the same `slug` as the JSON: that page
 replaces the generated one and the same template adds the JSON data to it. It
 reads like an encyclopedia article: each fact links a public source.
-
-If the written profile had another address, `aliases` keeps it; Cloudflare
-redirects it with `_redirects`.
 
 ## Sources
 
@@ -132,12 +129,12 @@ studied or worked there. A name in that list, or the address
 `/fisicos/#ruta-<slug>`, opens the person's card in the panel and draws only
 their route.
 
-`content/fisicos/_content.gotmpl` creates a profile per person at
-`/fisicos/<slug>/`, with what the JSON says. This way the data stays in view
-when CTI Vitae does not respond. The profile uses the photo
-`static/images/fisicos/<slug>.jpg` if it exists; the rule of the Photo section
-applies here too. Without a photo, it shows the initials of the name and the
-first surname.
+`content/personas/_content.gotmpl` creates a page per person at
+`/personas/<slug>/`, with what the JSON says. This way the data stays in view
+when CTI Vitae does not respond. The page uses the photo in
+`static/images/personas/` if it exists; the rule of the Photo section applies
+here too. Without a photo, it shows the initials of the name and the first
+surname.
 
 When the JSON gains an institution outside Peru, run `bun run landmask`. It
 rewrites `assets/maps/land.bin` with the detailed coastline around each

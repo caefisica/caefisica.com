@@ -33,18 +33,19 @@ groups:
   - acronym: GISICOF
     name: Grupo de Investigación de Sistemas Complejos Funcionalizados
     url: https://vrip.unmsm.edu.pe/gisicof
-    head: { professor: carlos-landauro-saenz, email: clandauros@unmsm.edu.pe }
+    head:
+      { person: carlos-vladimir-landauro-saenz, email: clandauros@unmsm.edu.pe }
     lines:
       - Propiedades estructurales de las nanopartículas
 ```
 
-| Field     | Values                                                                                                               |
-| --------- | -------------------------------------------------------------------------------------------------------------------- |
-| `acronym` | Acronym. Its lowercase form is the row's anchor (`#gisicof`).                                                        |
-| `name`    | Group name. If equal to the acronym, it is shown once.                                                               |
-| `url`     | The group's page. Optional; with it the row shows a "VRIP" button.                                                   |
-| `head`    | `email` and either `name` or `professor`: a lecturer slug, which links their page. A slug that does not exist fails. |
-| `lines`   | Research lines. Optional. Write the same line with the same text in every group, or the index splits it.             |
+| Field     | Values                                                                                                                 |
+| --------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `acronym` | Acronym. Its lowercase form is the row's anchor (`#gisicof`).                                                          |
+| `name`    | Group name. If equal to the acronym, it is shown once.                                                                 |
+| `url`     | The group's page. Optional; with it the row shows a "VRIP" button.                                                     |
+| `head`    | `email` and either `name` or `person`: the slug of a person, which links their page. A slug that does not exist fails. |
+| `lines`   | Research lines. Optional. Write the same line with the same text in every group, or the index splits it.               |
 
 ```markdown
 {{< research-groups >}}
