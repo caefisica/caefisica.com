@@ -66,12 +66,14 @@ A slug cannot be in both. To write about a person, create
 photo goes in `static/images/personas/<slug>.webp` or `.jpg`, and its source in
 [`data/photos.yaml`](../../data/photos.yaml).
 
-The page puts the name and one line at the top, the facts in a sticky column
-beside them and, under the name, a row of links to its sections with their
-counts when it has three or more. Each section starts with
-`<h2 id="…">Title <span class="count">N</span></h2>`, with plain text in the
-title: the row of links is built by reading those headings. A list of eight rows
-or more shows five and a button with the rest.
+The page puts the name and one line at the top that says who they are: `role` on
+a written page; on a data page, their current post and their highest degree with
+its institution, such as "Profesor principal, UNMSM · Doctorado en física, TU
+Chemnitz". It puts the facts in a sticky column beside them and, under the name,
+a row of links to its sections with their counts when it has three or more. Each
+section starts with `<h2 id="…">Title <span class="count">N</span></h2>`, with
+plain text in the title: the row of links is built by reading those headings. A
+list of eight rows or more shows five and a button with the rest.
 
 These fields name a person by slug:
 

@@ -22,7 +22,16 @@
 {{- $lead := .Params.role -}}
 {{- if not $lead -}}
 	{{- with $p -}}
-		{{- with .works }}{{ $w := index . 0 }}{{ $lead = printf "%s%s" (cond (ne $w.role "") (printf "%s, " $w.role) "") (index $places $w.place).name }}{{ else }}{{ $lead = $p.degree }}{{ end -}}
+		{{- /* The lead says who the person is: their current post, then their highest degree and where it is from. */ -}}
+		{{- $parts := slice -}}
+		{{- with .works }}{{ $w := index . 0 }}{{ $at := index $places $w.place }}{{ $parts = $parts | append (printf "%s%s" (cond (ne $w.role "") (printf "%s, " $w.role) "") ($at.short | default $at.name)) }}{{ end -}}
+		{{- with .degree -}}
+			{{- $level := index (split . " ") 0 -}}
+			{{- $from := "" -}}
+			{{- range where $p.studied "level" $level }}{{ $at := index $places .place }}{{ $from = $at.short | default $at.name }}{{ end -}}
+			{{- $parts = $parts | append (printf "%s%s" . (cond (ne $from "") (printf ", %s" $from) "")) -}}
+		{{- end -}}
+		{{- $lead = delimit $parts " · " -}}
 	{{- else -}}
 		{{- $lead = $row.about | default (cond (gt (len $courses) 0) "Docente de la Facultad de Ciencias Físicas, UNMSM" "") -}}
 	{{- end -}}
@@ -40,11 +49,14 @@
 		<section class="facts" aria-labelledby="person-info">
 			<h2 id="person-info">En breve</h2>
 			<dl>
-				{{- with $p.degree }}
-					<div>
-						<dt>Grado más alto</dt>
-						<dd>{{ . }}</dd>
-					</div>
+				{{- /* A data page's lead already names the highest degree; a written page's role does not. */}}
+				{{- if .Params.role }}
+					{{- with $p.degree }}
+						<div>
+							<dt>Grado más alto</dt>
+							<dd>{{ . }}</dd>
+						</div>
+					{{- end }}
 				{{- end }}
 				{{- with or .Params.fields $p.fields }}
 					<div>

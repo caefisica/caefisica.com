@@ -99,17 +99,24 @@ area, from the topics of their publications, and the output (`works_count` and
 `cited_by`). `places` lists the institutions with their coordinates (`lat` and
 `lon` null if they have no location). `people` lists each person with:
 
-| Field      | Use                                                                                                               |
-| ---------- | ----------------------------------------------------------------------------------------------------------------- |
-| `degree`   | Their highest degree, "Doctorado en física", or null without a degree.                                            |
-| `track`    | Their training: physics, geophysics, engineering or other.                                                        |
-| `studied`  | Their degrees, with institution, level and years.                                                                 |
-| `works`    | Their current posts.                                                                                              |
-| `jobs`     | All their posts, for the profile's trajectory.                                                                    |
-| `path`     | Their route: each stop with its institution and what they did there.                                              |
-| `area`     | The area according to OpenAlex, or null with few indexed publications.                                            |
-| `fields`   | Optional: the fields named in their LinkedIn "About".                                                             |
-| `linkedin` | Optional: the LinkedIn profile the person publishes in their ORCID or CTI Vitae page, or that we checked by hand. |
+| Field       | Use                                                                                                                                                                                                                                                                |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `degree`    | Their highest degree, "Doctorado en física", or null without a degree.                                                                                                                                                                                             |
+| `track`     | Their training: physics, geophysics, engineering or other.                                                                                                                                                                                                         |
+| `studied`   | Their degrees, with institution, level and years.                                                                                                                                                                                                                  |
+| `works`     | Their current posts.                                                                                                                                                                                                                                               |
+| `jobs`      | All their posts, for the profile's trajectory.                                                                                                                                                                                                                     |
+| `path`      | Their route: each stop with its institution and what they did there.                                                                                                                                                                                               |
+| `area`      | The area according to OpenAlex, or null with few indexed publications.                                                                                                                                                                                             |
+| `fields`    | Optional: the fields named in their LinkedIn "About".                                                                                                                                                                                                              |
+| `orcid`     | Their ORCID, or null without one.                                                                                                                                                                                                                                  |
+| `links`     | Optional: their other profiles, each with `kind` and `url`. `kind` is a research profile (`inspire`, `scholar`, `lattes`…), a channel (`linkedin`, `github`, `youtube`) or `web`. They come from the person's ORCID or CTI Vitae page, or we checked them by hand. |
+| `wikipedia` | Optional: their Wikipedia article, in Spanish if there is one. It enters if their Wikidata item carries their ORCID, or if we checked by hand that the article is about them and not a namesake.                                                                   |
+
+A study the person lists as in progress on their ORCID enters `works` and `jobs`
+as "Estudiante de…", to the present, when its institution has a row in `places`
+and the person holds no current post there yet. So someone in a graduate
+programme shows among those at that institution today.
 
 A PUCP profile gives the degree and the institution but not the years, so those
 profiles order the degrees by level.

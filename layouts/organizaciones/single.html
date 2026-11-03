@@ -10,15 +10,14 @@
 	{{ partial "article/breadcrumbs.html" . }}
 	<header>
 		<h1>{{ .Title }}</h1>
-		<p class="text-lead">{{ $kind.one }} · {{ partial "fisicos/country.html" $p.country }}</p>
+		<p class="text-lead">
+			{{- $kind.one }} · {{ partial "fisicos/country.html" $p.country }}.
+			{{- with $who.n }} {{ cond (eq . 1) "Estudió o trabaja aquí una persona" (printf "Estudiaron o trabajan aquí %d personas" .) }} del mapa de físicos.{{ end -}}
+		</p>
 	</header>
 	<section class="facts" aria-labelledby="org-info">
 		<h2 id="org-info">En breve</h2>
 		<dl>
-			<div>
-				<dt>Personas en el mapa</dt>
-				<dd>{{ $who.n }}</dd>
-			</div>
 			{{- with $p.research }}
 				<div>
 					<dt>Física desde {{ $from.Year }}</dt>

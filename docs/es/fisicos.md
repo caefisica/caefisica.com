@@ -109,17 +109,24 @@ de los temas de sus publicaciones, y la obra (`works_count` y `cited_by`).
 `places` lista las instituciones con sus coordenadas (`lat` y `lon` nulos si no
 tienen ubicación). `people` lista a cada persona con:
 
-| Campo      | Uso                                                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| `degree`   | Su grado más alto, «Doctorado en física», o nulo sin grado.                                                         |
-| `track`    | Su formación: física, geofísica, ingeniería u otra.                                                                 |
-| `studied`  | Sus grados, con institución, nivel y años.                                                                          |
-| `works`    | Sus puestos actuales.                                                                                               |
-| `jobs`     | Todos sus puestos, para la trayectoria del perfil.                                                                  |
-| `path`     | Su ruta: cada parada con su institución y lo que hizo ahí.                                                          |
-| `area`     | El área según OpenAlex, o nulo con pocas publicaciones indexadas.                                                   |
-| `fields`   | Opcional: los campos que nombra su «Acerca de» de LinkedIn.                                                         |
-| `linkedin` | Opcional: el perfil de LinkedIn que la persona publica en su ORCID o su ficha de CTI Vitae, o que revisamos a mano. |
+| Campo       | Uso                                                                                                                                                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `degree`    | Su grado más alto, «Doctorado en física», o nulo sin grado.                                                                                                                                                                                                                           |
+| `track`     | Su formación: física, geofísica, ingeniería u otra.                                                                                                                                                                                                                                   |
+| `studied`   | Sus grados, con institución, nivel y años.                                                                                                                                                                                                                                            |
+| `works`     | Sus puestos actuales.                                                                                                                                                                                                                                                                 |
+| `jobs`      | Todos sus puestos, para la trayectoria del perfil.                                                                                                                                                                                                                                    |
+| `path`      | Su ruta: cada parada con su institución y lo que hizo ahí.                                                                                                                                                                                                                            |
+| `area`      | El área según OpenAlex, o nulo con pocas publicaciones indexadas.                                                                                                                                                                                                                     |
+| `fields`    | Opcional: los campos que nombra su «Acerca de» de LinkedIn.                                                                                                                                                                                                                           |
+| `orcid`     | Su ORCID, o nulo sin ORCID.                                                                                                                                                                                                                                                           |
+| `links`     | Opcional: sus otros perfiles, cada uno con `kind` y `url`. `kind` es un perfil de investigación (`inspire`, `scholar`, `lattes`…), un canal (`linkedin`, `github`, `youtube`) o `web`. Entran los que la persona publica en su ORCID o su ficha de CTI Vitae, o que revisamos a mano. |
+| `wikipedia` | Opcional: su artículo en Wikipedia, en español si lo hay. Entra si su elemento de Wikidata lleva su ORCID, o si revisamos a mano que el artículo es sobre esa persona y no un homónimo.                                                                                               |
+
+Un estudio que la persona declara en curso en su ORCID entra en `works` y `jobs`
+como «Estudiante de…», hasta la actualidad, cuando su institución tiene fila en
+`places` y la persona no tiene ya un puesto actual ahí. Así quien estudia un
+posgrado aparece entre quienes están hoy en esa institución.
 
 Un perfil de la PUCP da el grado y la institución pero no los años, así que esos
 perfiles ordenan los grados por nivel.
