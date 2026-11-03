@@ -2,10 +2,6 @@
 wrangler = "4.155.0"
 actionlint = "1.7.12"
 lychee = "0.24.2"
-"npm:netlify-cli" = { version = "27.15.0", trust_policy_excludes = [
-  "@netlify/serverless-functions-api@2.24.0",
-  "@netlify/serverless-functions-api@2.26.0",
-] }
 bun = "1.4.4"
 go = "1.27.3"
 hugo-extended = "0.169.0"

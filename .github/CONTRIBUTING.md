@@ -53,9 +53,6 @@ Abre un pull request a `master` con un título y una descripción claros. El flu
 [`checks`](workflows/ci.yml) corre en cada pull request:
 
 - `check` ejecuta `bun run check`.
-- `preview` publica una vista previa en Netlify y deja la URL en el resumen del
-  trabajo. Un pull request de un fork o de Dependabot no tiene acceso a los
-  secretos: el trabajo avisa del motivo y termina bien, sin vista previa.
 
 Si el pull request toca `content/`, el flujo
 [`url health`](workflows/check_broken_links.yml) revisa los enlaces de esa
