@@ -1,4 +1,4 @@
-# Muchos sitios de profesores solo sirven http.
+# Many lecturers' sites serve http only.
 scheme = ["http", "https"]
 
 no_progress = true
@@ -6,23 +6,23 @@ max_concurrency = 16
 timeout = 20
 max_retries = 2
 
-# Los sitios que bloquean a los bots devuelven 401, 403 y 429.
-# Esos estados no indican páginas muertas.
+# Sites that block bots answer 401, 403 and 429. Those statuses do not mean a
+# dead page.
 accept = ["100..=103", "200..=299", "401", "403", "429"]
 
 exclude = [
-  # Dominios de Sci-Hub suelen estar bloqueados.
+  # Sci-Hub domains are often blocked.
   '^https://sci-hub\.(se|st|ru)/',
 
-  # Problemas de tiempo de espera (ETIMEDOUT).
+  # Time-out problems (ETIMEDOUT).
   '^https://libgen\.li/',
 
   '^https://b-ok\.cc/',
 
-  # Muchos grupos de investigación del VRIP fallan con errores de conexión.
+  # Many VRIP research groups fail with connection errors.
   '^https://vrip\.unmsm\.edu\.pe/',
 
-  # Responde 468, un estado que ningún estándar define.
+  # Answers 468, a status no standard defines.
   '^https://revistasinvestigacion\.unmsm\.edu\.pe/',
 
   '^https://www\.ilectureonline\.com/',

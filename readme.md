@@ -26,6 +26,6 @@ borradores incluidos.
 
 ## Más
 
-- [Manual](docs/readme.md): contenido, cursos, blog, shortcodes, capturas y
-  despliegue.
+- [Manual](docs/es/readme.md): contenido, cursos, blog, shortcodes, capturas y
+  despliegue. [English manual](docs/en/readme.md).
 - [Contribuir](.github/CONTRIBUTING.md): cómo enviar cambios.

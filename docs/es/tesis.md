@@ -1,5 +1,7 @@
 # Tesis
 
+[English](../en/tesis.md)
+
 `/tesis/` lista las tesis de licenciatura y de maestría y los trabajos de
 suficiencia profesional de la Facultad de Ciencias Físicas. Cada uno tiene su
 página en `/tesis/<número>/`, donde el número es el del handle de Cybertesis.
@@ -7,8 +9,8 @@ página en `/tesis/<número>/`, donde el número es el del handle de Cybertesis.
 ## Datos
 
 `data/theses.json` es una copia de tres colecciones de Cybertesis, el
-repositorio de San Marcos. No se edita a mano: se regenera con el script que la
-escribe, que guarda la fecha de la copia en `fetched`. Cada tesis tiene título,
+repositorio de San Marcos. No se edita a mano: se genera fuera de este
+repositorio. `fetched` guarda la fecha de la copia. Cada tesis tiene título,
 autores, asesores, jurado, año, grado, área, temas, resumen, handle y licencia.
 
 El PDF no se copia. La página enlaza el registro en Cybertesis, donde están el
@@ -33,15 +35,13 @@ porque Cybertesis lista los ORCID aparte de los nombres y sin orden fijo.
 ## Sustentaciones
 
 `data/defences.json` reúne las invitaciones a sustentación que la facultad
-publicó en su página de Facebook. Tampoco se edita a mano: lo escribe
-`defences.py`, en el repositorio de notas del proyecto, desde una copia de la
-página. Cada sustentación tiene candidato, grado, título, fecha, mes, jurado,
-tesis y enlace a la invitación.
+publicó en su página de Facebook. Tampoco se edita a mano: se genera fuera de
+este repositorio. Cada sustentación tiene candidato, grado, título, fecha, mes,
+jurado, tesis y enlace a la invitación.
 
-La copia se tomó año por año con el filtro de la página, y cada publicación
-guarda su fecha. Algunas de la primera copia no la tienen. Para ellas el mes
-sale del número de la foto, que crece con el tiempo: se interpola entre las
-publicaciones con fecha. `date` es el día que dice la invitación, si lo dice.
+`date` es el día que dice la invitación, si lo dice. El mes sale de la fecha de
+la publicación o, si la copia no la tiene, del número de la foto, que crece con
+el tiempo: se interpola entre las publicaciones con fecha.
 
 `thesis` es el número de Cybertesis cuando un autor comparte con el candidato
 dos palabras del nombre, una de ellas un apellido. El grado elige la colección y

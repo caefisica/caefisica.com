@@ -63,9 +63,10 @@ tu aporte bajo la [licencia MIT](../LICENCE).
 
 ## Qué puedes aportar
 
-- [Agregar un curso](../docs/cursos.md) con su guía, libros y sílabos.
-- [Agregar una entrada de blog](../docs/blog.md).
+- [Agregar un curso](../docs/es/cursos.md) con su guía, libros y sílabos.
+- [Agregar una entrada de blog](../docs/es/blog.md).
 - Insertar tablas, avisos, imágenes, PDF o diagramas con los
-  [shortcodes](../docs/shortcodes.md).
-- El mapa del código está en [arquitectura](../docs/architecture.md) y el resto
-  del manual en [docs](../docs/readme.md).
+  [shortcodes](../docs/es/shortcodes.md).
+- El mapa del código está en [arquitectura](../docs/es/architecture.md) y el
+  resto del manual en [docs](../docs/es/readme.md)
+  ([English](../docs/en/readme.md)).

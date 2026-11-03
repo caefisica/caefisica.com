@@ -1,5 +1,7 @@
 # Agregar un curso
 
+[English](../en/cursos.md)
+
 ```bash
 hugo new content --kind pregrado unmsm/pregrado/plan-2018/CFO601/_index.md
 ```

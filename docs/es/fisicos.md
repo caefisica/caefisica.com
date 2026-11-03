@@ -1,5 +1,7 @@
 # Físicos
 
+[English](../en/fisicos.md)
+
 Cada persona de `data/physicists.json` tiene un perfil en `/fisicos/<slug>/`
 (ver [Mapa de físicos](#mapa-de-físicos)). Para escribir el perfil de alguien,
 crea `content/fisicos/<slug>/index.md` con el mismo `slug` del JSON: esa página
@@ -72,38 +74,33 @@ va en grabaciones, y un canal personal no cuenta.
 las personas de `data/physicists.json`, y debajo la misma información como
 lista, que se ve por institución, por área, por formación o por persona.
 
-El mapa reúne el mundo de la física, no solo a los físicos. Entra quien tiene un
-grado en física, astrofísica, biofísica o geofísica, y también quien trabaja en
-física con otra formación: una ingeniera en teledetección en la agencia
-espacial, un químico en un laboratorio de materiales. La meteorología y la
-oceanografía física cuentan como física de la atmósfera y del océano: entra una
-meteoróloga que modela el clima en el SENAMHI o un oceanógrafo físico del
-IMARPE. Una entrada `web` pide un grado terminado y trabajo de investigación o
-de especialista en una ciencia física; no basta el pronóstico de rutina ni la
-geología sin geofísica. Como las búsquedas en CTI Vitae, ORCID y RENATI parten
-del grado, a esas personas se les pide uno de física o geofísica. Quien está en
-la plantilla de la Sección Física de la PUCP o en una entrada revisada a mano
-(`web`) entra por su trabajo, sea cual sea su grado. `track` dice de qué
-formación viene cada persona, y la vista por formación las agrupa. El JSON sale
-de las fichas públicas de CTI Vitae, del Portal del Profesorado de la PUCP para
-su Sección Física y, para quien no está en ninguno, de su registro de ORCID o,
-si ORCID no lista sus grados, de una página pública: la de su universidad, su
-tesis en un repositorio o su perfil de LinkedIn (`source` dice cuál: `ctivitae`,
-`pucp`, `orcid` o `web`; con `web`, `site` nombra el sitio de `url`). Quien está
-en CTI Vitae y en la PUCP queda con la ficha de CTI Vitae, que tiene años.
-Además entran quienes aparecen al buscar en ORCID las universidades peruanas
-junto con la física y tienen un grado de física terminado en una universidad del
-Perú. Así entran estudiantes y egresados recientes que no están en CTI Vitae. Al
-final entran los autores de las tesis de física y geofísica que registra el
-RENATI de SUNEDU, con un grado por tesis; su `site` es «RENATI» y `url` su
-página de autor. Un grado en curso no cuenta, ni uno de educación física,
-terapia física o docencia. Si un registro de ORCID da a una persona con un
-nombre más corto que otro perfil y comparten una institución de estudios, es la
-misma persona y no entra. El portal de la PUCP da el grado y la institución pero
-no los años, así que esos perfiles ordenan los grados por nivel. OpenAlex da el
-área, a partir de los temas de sus publicaciones, y la obra (`works_count` y
-`cited_by`). `places` lista las instituciones con sus coordenadas (`lat` y `lon`
-nulos si no tienen ubicación). `people` lista a cada persona con:
+`data/physicists.json` no se edita a mano: se genera fuera de este repositorio.
+Para corregir a una persona, abre un issue. `fetched` guarda la fecha de la
+copia.
+
+### Quién entra
+
+El mapa reúne el mundo de la física, no solo a los físicos. Entra quien:
+
+- tiene un grado terminado en física, astrofísica, biofísica o geofísica en una
+  universidad del Perú;
+- trabaja en física con otra formación (una ingeniera en teledetección en la
+  agencia espacial, un químico en un laboratorio de materiales), siempre que su
+  trabajo sea de investigación o de especialista en una ciencia física;
+- está en la plantilla de la Sección Física de la PUCP, sea cual sea su grado.
+
+La meteorología y la oceanografía física cuentan como física de la atmósfera y
+del océano. El pronóstico de rutina y la geología sin geofísica no cuentan. Un
+grado en curso no cuenta, ni uno de educación física, terapia física o docencia.
+
+### Datos
+
+`source` dice de dónde sale cada persona: `ctivitae`, `pucp`, `orcid` o `web`.
+Con `web`, `site` nombra el sitio de `url`. `track` dice de qué formación viene
+cada persona, y la vista por formación las agrupa. OpenAlex da el área, a partir
+de los temas de sus publicaciones, y la obra (`works_count` y `cited_by`).
+`places` lista las instituciones con sus coordenadas (`lat` y `lon` nulos si no
+tienen ubicación). `people` lista a cada persona con:
 
 | Campo      | Uso                                                                                                                 |
 | ---------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -117,8 +114,8 @@ nulos si no tienen ubicación). `people` lista a cada persona con:
 | `fields`   | Opcional: los campos que nombra su «Acerca de» de LinkedIn.                                                         |
 | `linkedin` | Opcional: el perfil de LinkedIn que la persona publica en su ORCID o su ficha de CTI Vitae, o que revisamos a mano. |
 
-Las fichas cambian poco; actualízalo a lo sumo una vez al año y cambia
-`fetched`.
+Un perfil de la PUCP da el grado y la institución pero no los años, así que esos
+perfiles ordenan los grados por nivel.
 
 La ruta sigue la carrera en orden: cada grado y cada puesto, actual o pasado,
 por su primer año. En el mismo año, el grado va antes que el puesto, y una
@@ -142,4 +139,25 @@ también aquí. Sin foto, muestra las iniciales del nombre y del primer apellido
 
 Cuando el JSON gana una institución fuera del Perú, corre `bun run landmask`.
 Reescribe `assets/maps/land.bin` con la costa detallada alrededor de cada
-institución; el formato está al inicio de `scripts/landmask.ts`.
+institución. El globo dibuja sus primeros puntos a cerca de 1° de distancia, así
+que 0,2° mantiene suave la costa. Con zoom, el Perú y la caja alrededor de cada
+institución en el extranjero pasan a 0,01°, cerca de un kilómetro.
+
+### Formato de `land.bin`
+
+`assets/js/physicists-map.ts` dibuja el globo con estas máscaras de tierra. El
+archivo es little-endian:
+
+| Campo        | Tipo  | Contenido                                     |
+| ------------ | ----- | --------------------------------------------- |
+| cantidad     | `u8`  | Número de máscaras.                           |
+| `kind`       | `u8`  | `0` tierra, `1` territorio del Perú.          |
+| sur y oeste  | `i32` | Bordes de la máscara, en centésimas de grado. |
+| celdas       | `u16` | Celdas por grado.                             |
+| ancho y alto | `u16` | Tamaño de la máscara en celdas.               |
+| longitud     | `u32` | Bytes que ocupan sus filas.                   |
+| filas        | —     | Del sur al norte; ver abajo.                  |
+
+Cada máscara repite los campos desde `kind`. Una fila es una serie de enteros
+LEB128: largos alternos de tramo fuera y dentro, que empieza fuera y suma el
+ancho. Una celda está dentro cuando su centro cae dentro de los polígonos.

@@ -1,5 +1,7 @@
 # Manual
 
+[English](../en/readme.md)
+
 - [Arquitectura](architecture.md): el camino de una página desde `content/`
   hasta el Worker, y el mapa del código.
 - [Contenido](contenido.md): dónde va cada archivo de `content/`, cómo se nombra

@@ -1,14 +1,4 @@
-// Writes assets/maps/land.bin, the land masks that assets/js/physicists-map.ts
-// draws its dots from. Run it again when data/physicists.json gains a place
-// abroad, so the new place gets a detailed coast.
-//
-// Format, little-endian:
-//   u8 mask count, then per mask: u8 kind (0 land, 1 Peru's territory), i32
-//   south and i32 west edge in hundredths of a degree, u16 cells per degree,
-//   u16 width, u16 height, u32 byte length of its rows. Rows run south to
-//   north. Each row is a run of LEB128 varints: alternate outside and inside
-//   run lengths, starting outside, summing to the width. A cell is inside
-//   when its centre is inside the polygons.
+// Writes assets/maps/land.bin. The format is in docs/en/fisicos.md.
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 
 const LAND = "node_modules/world-atlas/land-10m.json";
@@ -17,9 +7,6 @@ const PERU_ID = "604";
 const PLACES = "data/physicists.json";
 const OUT = "assets/maps/land.bin";
 
-// The globe draws its first dots about 1° apart, so 0.2° keeps the coast
-// smooth there. Zoomed in, Peru and the boxes around each place abroad switch
-// to 0.01°, about a kilometre.
 const WORLD_RES = 5;
 const DETAIL_RES = 100;
 const PERU = { south: -18.6, west: -81.6, north: 0.4, east: -68.4 };

@@ -1,5 +1,7 @@
 # Agregar una entrada de blog
 
+[English](../en/blog.md)
+
 Una entrada es una carpeta `content/blog/<NNN-nombre>/` con un `index.md`
 ([nombre](contenido.md#nombres)) y sus imágenes:
 
@@ -28,5 +30,5 @@ El cuerpo es Markdown. Las imágenes van en la misma carpeta y se insertan con
 {{< img-simple src="captura.png" alt="Vista del panel" >}}
 ```
 
-Las entradas se publican en `/blog/<nombre>/` ([permalinks] de
+Las entradas se publican en `/blog/<nombre>/` (`[permalinks]` de
 `config/_default/config.toml`).
