@@ -105,7 +105,7 @@ area, from the topics of their publications, and the output (`works_count` and
 | `track`    | Their training: physics, geophysics, engineering or other.                                                        |
 | `studied`  | Their degrees, with institution, level and years.                                                                 |
 | `works`    | Their current posts.                                                                                              |
-| `jobs`     | All their posts, for the profile's timeline.                                                                      |
+| `jobs`     | All their posts, for the profile's trajectory.                                                                    |
 | `path`     | Their route: each stop with its institution and what they did there.                                              |
 | `area`     | The area according to OpenAlex, or null with few indexed publications.                                            |
 | `fields`   | Optional: the fields named in their LinkedIn "About".                                                             |
@@ -120,9 +120,13 @@ an entry without a year follows the previous one. Someone who returns to an
 institution passes through it again in the route. A post enters only if its
 institution has a row in `places`: universities, research centres,
 observatories, hospitals and technical state agencies. Companies, schools,
-ministries and banks stay in the profile's timeline, not in the route. The list
-by institution separates those who work there today ("Trabajan") from those who
-worked there before ("Trabajaron").
+ministries and banks stay in the profile's trajectory, not in the route. The
+list by institution separates those who work there today ("Trabajan") from those
+who worked there before ("Trabajaron").
+
+The profile's trajectory sorts the degrees and posts of `studied` and `jobs` by
+their first year and groups consecutive entries at one institution under it. An
+article with `timeline` replaces it with its cited list.
 
 When an institution is chosen, the globe draws the route of each person who
 studied or worked there. A name in that list, or the address

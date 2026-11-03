@@ -1,6 +1,6 @@
 {{- /* Articles in the press by or about a person, newest first, on their profile. Context: the person's slug, matched against data/press.yaml. */ -}}
 {{- with sort (where hugo.Data.press "person" .) "date" "desc" }}
-	<h2 id="prensa">En la prensa</h2>
+	<h2 id="prensa">En la prensa <span class="count">{{ len . }}</span></h2>
 	<ul class="rows">
 		{{- range . }}
 			<li class="group">

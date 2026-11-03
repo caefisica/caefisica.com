@@ -1,6 +1,6 @@
 {{- /* A person's "Clases en video": the course playlists they dictate. Context: the person's slug. */ -}}
 {{- with where (where (site.GetPage "/videos").RegularPages "Params.person" .) "Params.playlist" "!=" nil }}
-	<h2 id="clases">Clases en video</h2>
+	<h2 id="clases">Clases en video <span class="count">{{ len . }}</span></h2>
 	<ul class="rows">
 		{{- range . }}
 			<li class="group">

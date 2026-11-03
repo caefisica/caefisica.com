@@ -32,7 +32,7 @@ falls. The authors include co-authors from other institutions.
 `layouts/_partials/fisicos/place-groups.html` splits the people of a place into
 Pregrado, Posgrado, Trabajan and Trabajaron, and `fisicos/place-people.html`
 shows them. `/fisicos/` and the organisation page use both, so they show the
-same. The route and the timeline of a profile link each organisation's page.
+same. A profile's trajectory links each organisation's page.
 
 ## Update
 

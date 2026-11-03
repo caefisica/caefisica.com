@@ -1,0 +1,22 @@
+{{- /* The courses a person taught, each with its semesters. Context: what data/person-courses.html returns. */ -}}
+{{- with . }}
+	<h2 id="cursos">Cursos <span class="count">{{ len . }}</span></h2>
+	<p class="text-muted">Cada semestre enlaza su sílabo, cuando lo hay.</p>
+	<ul class="shelf">
+		{{- range . }}
+			{{- $course := .course }}
+			<li class="doc-head">
+				{{ partial "ui/icon.html" (dict "name" "file" "size" 24 "class" "doc-icon") }}
+				<span class="doc-name">
+					<a class="doc-title" href="{{ $course.RelPermalink }}">{{ $course.Title }}</a>
+					<span class="doc-meta">{{ delimit (slice $course.Params.id $course.Parent.Title) " · " }}</span>
+				</span>
+				<span class="doc-actions">
+					{{- range .offerings }}
+						<a class="doc-btn" href="{{ .RelPermalink }}">{{ .Params.semester }}<span class="sr-only">: {{ $course.Title }}</span></a>
+					{{- end }}
+				</span>
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}

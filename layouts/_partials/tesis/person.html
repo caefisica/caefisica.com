@@ -7,7 +7,7 @@
 	{{- range $t.advisors }}{{ if in .slugs $slug }}{{ $advised = $advised | append $t }}{{ end }}{{ end -}}
 {{- end -}}
 {{- with $own }}
-	<h2 id="tesis">{{ cond (gt (len .) 1) "Sus tesis" "Su tesis" }}</h2>
+	<h2 id="tesis">Tesis <span class="count">{{ len . }}</span></h2>
 	<ul class="rows">
 		{{- range . }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
 	</ul>

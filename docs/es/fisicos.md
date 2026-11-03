@@ -115,7 +115,7 @@ tienen ubicación). `people` lista a cada persona con:
 | `track`    | Su formación: física, geofísica, ingeniería u otra.                                                                 |
 | `studied`  | Sus grados, con institución, nivel y años.                                                                          |
 | `works`    | Sus puestos actuales.                                                                                               |
-| `jobs`     | Todos sus puestos, para la cronología del perfil.                                                                   |
+| `jobs`     | Todos sus puestos, para la trayectoria del perfil.                                                                  |
 | `path`     | Su ruta: cada parada con su institución y lo que hizo ahí.                                                          |
 | `area`     | El área según OpenAlex, o nulo con pocas publicaciones indexadas.                                                   |
 | `fields`   | Opcional: los campos que nombra su «Acerca de» de LinkedIn.                                                         |
@@ -130,9 +130,13 @@ entrada sin año sigue a la anterior. Quien vuelve a una institución vuelve a
 pasar por ella en la ruta. Un puesto entra solo si su institución tiene fila en
 `places`: universidades, centros de investigación, observatorios, hospitales y
 organismos técnicos del Estado. Las empresas, los colegios, los ministerios y
-los bancos quedan en la cronología del perfil, no en la ruta. La lista por
+los bancos quedan en la trayectoria del perfil, no en la ruta. La lista por
 institución separa a quienes trabajan ahí hoy («Trabajan») de quienes trabajaron
 antes («Trabajaron»).
+
+La trayectoria del perfil ordena los grados y los puestos de `studied` y `jobs`
+por su primer año y junta bajo una institución las entradas seguidas que pasan
+ahí. Un artículo con `timeline` la reemplaza por su lista citada.
 
 Al elegir una institución, el globo traza la ruta de cada persona que estudió o
 trabajó ahí. Un nombre de esa lista, o la dirección `/fisicos/#ruta-<slug>`,

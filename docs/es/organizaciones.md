@@ -33,8 +33,8 @@ médica. Los autores incluyen a los coautores de otras instituciones.
 `layouts/_partials/fisicos/place-groups.html` reparte a las personas de un lugar
 en Pregrado, Posgrado, Trabajan y Trabajaron, y `fisicos/place-people.html` las
 muestra. `/fisicos/` y la página de la organización usan los dos, así que
-muestran lo mismo. La ruta y la cronología de un perfil enlazan la página de
-cada organización.
+muestran lo mismo. La trayectoria de un perfil enlaza la página de cada
+organización.
 
 ## Actualizar
 

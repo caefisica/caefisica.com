@@ -1,0 +1,15 @@
+{{- /* The site's pages a person wrote or helped write, newest first. Context: the person's slug. */ -}}
+{{- with (where site.Pages "Params.contributors" "intersect" (slice .)).ByDate.Reverse }}
+	<h2 id="aportes">Aportes al sitio <span class="count">{{ len . }}</span></h2>
+	<ul class="rows">
+		{{- range . }}
+			<li class="group">
+				<div class="row-main">
+					<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					<p>{{ with .CurrentSection }}{{ .Title }}{{ end }}</p>
+				</div>
+				{{- if not .Date.IsZero }}<span class="row-meta">{{ .Date.Year }}</span>{{ end }}
+			</li>
+		{{- end }}
+	</ul>
+{{- end }}

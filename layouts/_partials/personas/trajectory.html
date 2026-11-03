@@ -1,0 +1,69 @@
+{{- /* A person's degrees and jobs as stops: the events sorted by start, with consecutive events at one place under that place. A written page's cited timeline replaces the list built from the record. Context: dict with page, person (the data/physicists.json record) and places (by id). */ -}}
+{{- $p := .person -}}
+{{- $places := .places -}}
+{{- $events := slice -}}
+{{- range $p.studied -}}
+	{{- $place := index $places .place -}}
+	{{- $events = $events | append (dict "start" .start "end" .end "text" (.field | default (printf "%s en física" .level)) "place" $place "name" $place.name) -}}
+{{- end -}}
+{{- range $p.jobs -}}
+	{{- $events = $events | append (dict "start" .start "end" .end "text" .role "place" (and .place (index $places .place)) "name" .name) -}}
+{{- end -}}
+{{- /* A job with no start that runs today sorts last. */ -}}
+{{- $timed := slice -}}
+{{- range $events -}}
+	{{- $timed = $timed | append (merge . (dict "at" (.start | default (cond (eq .end "now") 9999 (.end | default 0))))) -}}
+{{- end -}}
+{{- $stops := slice -}}
+{{- $stop := dict -}}
+{{- $items := slice -}}
+{{- range $e := sort $timed "at" -}}
+	{{- $key := $e.name -}}
+	{{- with $e.place }}{{ $key = .id }}{{ end -}}
+	{{- if and $items (ne $key $stop.key) -}}
+		{{- $stops = $stops | append (merge $stop (dict "items" $items)) -}}
+		{{- $items = slice -}}
+	{{- end -}}
+	{{- if not $items }}{{ $stop = dict "key" $key "place" $e.place "name" $e.name }}{{ end -}}
+	{{- $items = $items | append $e -}}
+{{- end -}}
+{{- with $items }}{{ $stops = $stops | append (merge $stop (dict "items" .)) }}{{ end -}}
+{{- with or .page.Params.timeline $stops }}
+	<h2 id="trayectoria">Trayectoria</h2>
+	{{- with $.page.Params.timeline }}
+		<ol class="timeline">
+			{{- range . }}
+				<li>
+					<span class="timeline-years">{{ .years }}</span>
+					<span>{{ .text }}{{ with .cite }}{{ partial "data/cite-marks.html" (dict "page" $.page "keys" .) }}{{ end }}</span>
+				</li>
+			{{- end }}
+		</ol>
+	{{- else }}
+		<ol class="stops">
+			{{- range $stops }}
+				{{- $end := 0 }}
+				{{- range .items }}{{ if eq .end "now" }}{{ $end = "now" }}{{ else if and (ne $end "now") (gt (.end | default 0) $end) }}{{ $end = .end }}{{ end }}{{ end }}
+				<li>
+					<p class="stop-head">
+						{{- with .place }}<a href="{{ (site.GetPage (printf "/organizaciones/%s" .id)).RelPermalink }}">{{ .name }}</a>{{ else }}<span>{{ .name | default "Sin lugar" }}</span>{{ end }}
+						{{- if gt (len .items) 1 }}<span class="timeline-years">{{ partial "fisicos/years.html" (dict "start" (index .items 0).start "end" (cond (eq $end 0) nil $end)) }}</span>{{ end }}
+					</p>
+					<ul class="timeline">
+						{{- range .items }}
+							<li>
+								<span class="timeline-years">{{ partial "fisicos/years.html" . }}</span>
+								<span>{{ .text }}</span>
+							</li>
+						{{- end }}
+					</ul>
+				</li>
+			{{- end }}
+		</ol>
+	{{- end }}
+	{{- $mapped := false }}
+	{{- range $p.path }}{{ if ne (index $places .place).lat nil }}{{ $mapped = true }}{{ end }}{{ end }}
+	{{- if $mapped }}
+		<p><a href="{{ (site.GetPage "/fisicos").RelPermalink }}#ruta-{{ $p.slug }}">Ver la trayectoria en el mapa</a></p>
+	{{- end }}
+{{- end }}

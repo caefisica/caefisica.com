@@ -5,7 +5,7 @@
 	{{- if where .members "slug" $slug }}{{ $mine = $mine | append . }}{{ end -}}
 {{- end -}}
 {{- with $mine }}
-	<h2 id="grupos">{{ cond (gt (len .) 1) "Grupos de investigación" "Grupo de investigación" }}</h2>
+	<h2 id="grupos">Grupos de investigación <span class="count">{{ len . }}</span></h2>
 	<ul class="rows">
 		{{- range . }}{{ partial "grupos/row.html" . }}{{ end }}
 	</ul>

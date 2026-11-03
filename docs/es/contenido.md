@@ -66,6 +66,13 @@ Un slug no puede estar en los dos. Para escribir sobre una persona, crea
 registros. La foto va en `static/images/personas/<slug>.webp` o `.jpg`, y su
 origen en [`data/photos.yaml`](../../data/photos.yaml).
 
+La página pone el nombre y una línea arriba, los datos en una columna fija al
+lado y, bajo el nombre, una fila de enlaces a sus secciones con su cantidad
+cuando tiene tres o más. Cada sección empieza con
+`<h2 id="…">Título <span class="count">N</span></h2>`, con texto plano en el
+título: la fila de enlaces se arma leyendo esos títulos. Una lista de ocho filas
+o más muestra cinco y un botón con el resto.
+
 Estos campos nombran a una persona por su slug:
 
 | Dónde                                               | Campo          |

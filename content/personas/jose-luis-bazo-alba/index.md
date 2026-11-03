@@ -55,7 +55,7 @@ Universidad Humboldt de Berlín. Investiga en el Grupo de Altas Energías de la
 PUCP, en astropartículas: rayos cósmicos, neutrinos y rayos gamma, tanto en
 experimentos como en fenomenología{{< cite "pucp" >}}.
 
-## Trayectoria
+## Investigación
 
 Después de la maestría en la PUCP hizo el doctorado en Berlín mientras trabajaba
 en DESY Zeuthen, y luego fue investigador posdoctoral en el Istituto Nazionale

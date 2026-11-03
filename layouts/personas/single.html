@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- /* A person page is either a data page from the content adapter or a written page at content/personas/<slug>/index.md. A person in data/physicists.json gets the record's facts, route and timeline; a person in data/people.toml has only a name and a line. */ -}}
+{{- /* A person page is either a data page from the content adapter or a written page at content/personas/<slug>/index.md. A person in data/physicists.json gets the record's facts and trajectory; a person in data/people.toml has only a name and a line. */ -}}
 {{- $slug := .Params.slug -}}
 {{- with .File }}{{ $slug = $slug | default .ContentBaseName }}{{ end -}}
 {{- $data := hugo.Data.physicists -}}
@@ -11,29 +11,14 @@
 {{- if and .Params.images (not $credit) }}{{ errorf "%s: the photo of %q is not in data/photos.yaml" .Path $slug }}{{ end -}}
 {{- $places := dict -}}
 {{- range $data.places }}{{ $places = merge $places (dict .id .) }}{{ end -}}
-{{- $map := site.GetPage "/fisicos" -}}
 {{- /* Research profiles join the source records under "Fichas"; any other link is a public channel under "En la web", named by its host when it is a site of its own. */ -}}
 {{- $research := dict "cti" "CTI Vitae" "renacyt" "RENACYT" "lattes" "Lattes" "scholar" "Google Académico" "inspire" "INSPIRE" "researchgate" "ResearchGate" "arxiv" "arXiv" "scopus" "Scopus" "wos" "Web of Science" -}}
 {{- $channels := dict "linkedin" "LinkedIn" "github" "GitHub" "youtube" "YouTube" -}}
-{{- /* Degrees and jobs in one list by start year. A job with no start that runs today goes last. */ -}}
-{{- $events := slice -}}
-{{- range $p.studied -}}
-	{{- $place := index $places .place -}}
-	{{- $events = $events | append (dict "start" .start "end" .end "text" (.field | default (printf "%s en física" .level)) "place" $place "name" $place.name) -}}
-{{- end -}}
-{{- range $p.jobs -}}
-	{{- $events = $events | append (dict "start" .start "end" .end "text" .role "place" (and .place (index $places .place)) "name" .name) -}}
-{{- end -}}
-{{- $timed := slice -}}
-{{- range $events -}}
-	{{- $at := .start | default (cond (eq .end "now") 9999 (.end | default 0)) -}}
-	{{- $timed = $timed | append (merge . (dict "at" $at)) -}}
-{{- end -}}
 {{- $updated := slice -}}
 {{- $initials := substr .Title 0 1 -}}
 {{- with $p }}{{ $updated = split .updated "-" }}{{ $initials = .initials }}{{ end -}}
 {{- $courses := partial "data/person-courses.html" $slug -}}
-{{- $writing := where site.Pages "Params.contributors" "intersect" (slice $slug) -}}
+{{- .Store.Set "more" true -}}
 {{- $lead := .Params.role -}}
 {{- if not $lead -}}
 	{{- with $p -}}
@@ -130,108 +115,36 @@
 			</dl>
 		</section>
 	{{- end }}
+	{{- /* The trajectory and the blocks render first so the page map can list their headings and counts. The order puts what the person did before what the site holds about them. */ -}}
+	{{- $trajectory := "" -}}
+	{{- with $p }}{{ $trajectory = partial "personas/trajectory.html" (dict "page" $ "person" . "places" $places) }}{{ end -}}
+	{{- $blocks := slice
+		(partial "personas/courses.html" $courses)
+		(partial "videos/person.html" $slug)
+		(partial "personas/works.html" $works)
+		(partial "revista/person.html" $slug)
+		(partial "tesis/person.html" $slug)
+		(partial "grupos/person-groups.html" $slug)
+		(partial "fisicos/person-projects.html" $slug)
+		(partial "grabaciones/person.html" $slug)
+		(partial "fisicos/press.html" $slug)
+		(partial "personas/writing.html" $slug)
+	-}}
+	{{- $body := delimit $blocks "" -}}
+	{{- $sections := findRESubmatch `<h2 id="([^"]+)">([^<]+?)(?: <span class="count">(\d+)</span>)?</h2>` (print $trajectory $body) -}}
 	<div>
+		{{- if ge (len $sections) 3 }}
+			<nav class="list-jump page-map" aria-label="En esta página">
+				{{- range $sections }}
+					<a href="#{{ index . 1 }}">{{ index . 2 }}{{ with index . 3 }} <span class="count">{{ . }}</span>{{ end }}</a>
+				{{- end }}
+			</nav>
+		{{- end }}
 		<div class="markdown">
 			{{ .Content }}
-			{{- if $p }}
-				{{- with $p.path }}
-					<h2 id="ruta">Ruta</h2>
-					<ol class="route">
-						{{- range . }}
-							{{- $place := index $places .place }}
-							<li><a href="{{ (site.GetPage (printf "/organizaciones/%s" $place.id)).RelPermalink }}">{{ $place.short | default $place.name }}</a></li>
-						{{- end }}
-					</ol>
-					{{- $mapped := false }}
-					{{- range . }}{{ if ne (index $places .place).lat nil }}{{ $mapped = true }}{{ end }}{{ end }}
-					{{- if $mapped }}
-						<p><a href="{{ $map.RelPermalink }}#ruta-{{ $p.slug }}">Ver la ruta en el mapa</a></p>
-					{{- end }}
-				{{- end }}
-				<h2 id="cronologia">Cronología</h2>
-				<ol class="timeline">
-					{{- with .Params.timeline }}
-						{{- /* A written article's timeline cites a source for each line, so it replaces the one built from the record. */}}
-						{{- range . }}
-							<li>
-								<span class="timeline-years">{{ .years }}</span>
-								<span>{{ .text }}{{ with .cite }}{{ partial "data/cite-marks.html" (dict "page" $ "keys" .) }}{{ end }}</span>
-							</li>
-						{{- end }}
-					{{- else }}
-						{{- range $e := sort $timed "at" }}
-							<li>
-								<span class="timeline-years">{{ partial "fisicos/years.html" $e }}</span>
-								<span>
-									{{- $e.text }}
-									{{- $sep := cond (eq $e.text "") "" ", " }}
-									{{- with $e.place }}{{ $sep }}<a href="{{ (site.GetPage (printf "/organizaciones/%s" .id)).RelPermalink }}">{{ .name }}</a>{{ else }}{{ with $e.name }}{{ $sep }}{{ . }}{{ end }}{{ end -}}
-								</span>
-							</li>
-						{{- end }}
-					{{- end }}
-				</ol>
-			{{- end }}
+			{{ $trajectory | safeHTML }}
 		</div>
-		{{- with $courses }}
-			<h2 id="cursos">Cursos</h2>
-			<p class="text-muted">Cada semestre enlaza su sílabo, cuando lo hay.</p>
-			<ul class="shelf">
-				{{- range . }}
-					{{- $course := .course }}
-					<li class="doc-head">
-						{{ partial "ui/icon.html" (dict "name" "file" "size" 24 "class" "doc-icon") }}
-						<span class="doc-name">
-							<a class="doc-title" href="{{ $course.RelPermalink }}">{{ $course.Title }}</a>
-							<span class="doc-meta">{{ delimit (slice $course.Params.id $course.Parent.Title) " · " }}</span>
-						</span>
-						<span class="doc-actions">
-							{{- range .offerings }}
-								<a class="doc-btn" href="{{ .RelPermalink }}">{{ .Params.semester }}<span class="sr-only">: {{ $course.Title }}</span></a>
-							{{- end }}
-						</span>
-					</li>
-				{{- end }}
-			</ul>
-		{{- end }}
-		{{- with $writing.ByDate.Reverse }}
-			<h2 id="aportes">Aportes al sitio <span class="count">{{ len . }}</span></h2>
-			<ul class="rows">
-				{{- range . }}
-					<li class="group">
-						<div class="row-main">
-							<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-							<p>{{ with .CurrentSection }}{{ .Title }}{{ end }}</p>
-						</div>
-						{{- if not .Date.IsZero }}<span class="row-meta">{{ .Date.Year }}</span>{{ end }}
-					</li>
-				{{- end }}
-			</ul>
-		{{- end }}
-		{{- with $works }}
-			<h2 id="publicaciones">Publicaciones seleccionadas</h2>
-			<p class="text-muted">
-				Los trabajos más citados con pocos autores. Los artículos de las grandes colaboraciones, firmados por cientos de personas, suman a la obra pero no se listan. Datos de OpenAlex al {{ partial "ui/date.html" (time.AsTime .fetched) }}.
-			</p>
-			<ul class="rows">
-				{{- range .selected }}
-					<li class="group">
-						<div class="row-main">
-							<a class="card-link" href="{{ .url }}">{{ .title }}</a>
-							<p>{{ .year }}{{ with .venue }} · {{ . }}{{ end }}</p>
-						</div>
-						<span class="row-meta">{{ lang.FormatNumber 0 .citations }} citas</span>
-					</li>
-				{{- end }}
-			</ul>
-		{{- end }}
-		{{ partial "grupos/person-groups.html" $slug }}
-		{{ partial "fisicos/person-projects.html" $slug }}
-		{{ partial "revista/person.html" $slug }}
-		{{ partial "videos/person.html" $slug }}
-		{{ partial "tesis/person.html" $slug }}
-		{{ partial "grabaciones/person.html" $slug }}
-		{{ partial "fisicos/press.html" $slug }}
+		{{ $body | safeHTML }}
 		{{- with .Params.sources }}
 			<h2 id="referencias">Referencias</h2>
 			<ol class="sources">

@@ -53,7 +53,7 @@ con una beca por excelencia académica, y siguió allí la
 maestría{{< cite "orcid" "puntoedu" >}}. Investiga cómo adquieren masa los
 neutrinos y cómo se comportan en ambientes extremos{{< cite "puntoedu" >}}.
 
-## Trayectoria
+## Investigación
 
 Hizo el doctorado en la University of Wisconsin–Madison con Francis Halzen,
 quien creó el observatorio de neutrinos IceCube en el Polo Sur. Luego pasó cinco

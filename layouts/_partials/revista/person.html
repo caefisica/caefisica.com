@@ -5,7 +5,8 @@
 	{{- range .articles }}{{ if where (.authors | default slice) "slug" $slug }}{{ $mine = $mine | append (dict "article" . "issue" $i "issueNote" true) }}{{ end }}{{ end -}}
 {{- end -}}
 {{- with $mine }}
-	<h2 id="revista">En la <a href="{{ (site.GetPage "/revista").RelPermalink }}">Revista de Investigación de Física</a> <span class="count">{{ len . }}</span></h2>
+	<h2 id="revista">Artículos en la revista <span class="count">{{ len . }}</span></h2>
+	<p class="text-muted">En la <a href="{{ (site.GetPage "/revista").RelPermalink }}">Revista de Investigación de Física</a> de la facultad.</p>
 	<ul class="rows">
 		{{- range . }}{{ partial "revista/row.html" . }}{{ end }}
 	</ul>
