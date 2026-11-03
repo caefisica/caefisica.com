@@ -6,6 +6,8 @@
 {{- $p := index (where $data.people "slug" $slug) 0 -}}
 {{- if not $p }}{{ errorf "%s: no person with slug %q in data/physicists.json" .Path $slug }}{{ end -}}
 {{- $works := index hugo.Data.researchers $slug -}}
+{{- $credit := index hugo.Data.photos $slug -}}
+{{- if and .Params.images (not $credit) }}{{ errorf "%s: the photo of %q has no credit in data/photos.yaml" .Path $slug }}{{ end -}}
 {{- $places := dict -}}
 {{- range $data.places }}{{ $places = merge $places (dict .id .) }}{{ end -}}
 {{- $map := site.GetPage "/fisicos" -}}
@@ -206,6 +208,11 @@
 				Copia de
 			{{- end }} {{ if eq $p.source "ctivitae" }}su ficha de CTI Vitae, actualizada el {{ partial "ui/date.html" (time.AsTime (printf "%s-%s-%s" (index $updated 2) (index $updated 1) (index $updated 0))) }}, con grados de SUNEDU{{ else if eq $p.source "pucp" }}su página en el Portal del Profesorado de la PUCP, que no da los años{{ else if eq $p.source "web" }}su página en {{ $p.site }}{{ else }}su registro de ORCID{{ end }}{{ with $p.openalex }}, y de OpenAlex para el área y la obra{{ end }}. Si eres {{ .Title }} y quieres corregir algo, enviar una foto o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 		</p>
+		{{- with $credit }}
+			<p class="photo-credit text-muted">
+				Foto: {{ .author }}, {{ with .licenseUrl }}<a href="{{ . }}">{{ $credit.license }}</a>{{ else }}{{ .license }}{{ end }}{{ with .source }}, vía <a href="{{ . }}">Wikimedia Commons</a>{{ end }}.
+			</p>
+		{{- end }}
 		{{ partial "article/page-footer.html" . }}
 	</div>
 </article>

@@ -1441,6 +1441,11 @@
     font-size: var(--text-sm);
   }
 
+  .photo-credit {
+    margin-top: 0.5rem;
+    font-size: var(--text-sm);
+  }
+
   /* The globe of /fisicos/. Its canvas reads the colour tokens, so it follows the theme. Below md the panel drops under the globe; from md it floats over the globe's right side. */
   .map {
     position: relative;

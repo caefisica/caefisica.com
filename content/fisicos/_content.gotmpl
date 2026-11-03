@@ -1,6 +1,6 @@
 {{- /*
 One profile per person in data/physicists.json, at the person's slug. The profile copies what the sources say, so it stays up when CTI Vitae is down.
-A photo is used only when static/images/fisicos/<slug>.jpg exists; docs/en/fisicos.md says which photos may go there.
+A photo is used only when static/images/fisicos/<slug>.jpg exists; docs/en/fisicos.md says which photos may go there, and data/photos.yaml holds each one's credit.
 A person with a written article at content/fisicos/<slug>/index.md gets that page instead, and the same template fills in the data.
 */ -}}
 {{- range hugo.Data.physicists.people -}}

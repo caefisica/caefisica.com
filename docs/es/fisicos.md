@@ -48,6 +48,12 @@ el JSON), nunca su texto; tampoco publicaciones, fotos ni datos de contacto.
 Solo una foto con licencia libre (Wikimedia Commons) o enviada por la persona.
 Las fotos de las universidades y de la prensa tienen derechos reservados.
 
+La foto va en `static/images/fisicos/<slug>.jpg`, cuadrada, de 288 px, con la
+cara centrada. `data/photos.yaml` guarda su crédito bajo el mismo slug: autor,
+licencia, enlace a la licencia y página del archivo en Commons. El perfil
+muestra ese crédito, y la compilación falla si una foto no lo tiene. Para
+encontrar fotos, la propiedad P18 de Wikidata apunta al archivo de Commons.
+
 ## Publicaciones
 
 `bun run researchers` consulta OpenAlex y escribe
