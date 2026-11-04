@@ -1,19 +1,29 @@
-{{- /* The talks and theses on the subject of one talk, from data/related.json. An id that data/recordings.json or data/theses.json no longer holds is skipped, because related.json is written after them. Context: the talk's id. */ -}}
-{{- $rel := index (hugo.Data.related.recordings | default dict) . -}}
+{{- /* The talks, theses and journal articles on the subject of one talk or thesis, from data/related.json. An id that the other data files no longer hold is skipped, because related.json is written after them. Context: the item's entry in related.json, a dict with optional talks, theses and articles. */ -}}
+{{- $rel := . | default dict -}}
 {{- $talks := slice -}}
 {{- range $rel.talks }}{{ with index (where hugo.Data.recordings.recordings "id" .) 0 }}{{ $talks = $talks | append . }}{{ end }}{{ end -}}
 {{- $theses := slice -}}
 {{- range $rel.theses }}{{ with index (where hugo.Data.theses.theses "id" .) 0 }}{{ $theses = $theses | append . }}{{ end }}{{ end -}}
+{{- $articles := slice -}}
+{{- range $doi := $rel.articles -}}
+	{{- range $i := hugo.Data.journal.issues }}{{ with index (where $i.articles "doi" $doi) 0 }}{{ $articles = $articles | append (dict "article" . "issue" $i "issueNote" true) }}{{ end }}{{ end -}}
+{{- end -}}
 {{- with $talks }}
-	<h2 id="relacionadas">Charlas relacionadas</h2>
+	<h2 id="charlas-relacionadas">Charlas relacionadas</h2>
 	<ul class="rows">
 		{{- range . }}{{ partial "grabaciones/row.html" (dict "recording" . "note" (index (where hugo.Data.recordings.series "id" .series) 0).name) }}{{ end }}
 	</ul>
 {{- end }}
 {{- with $theses }}
-	<h2 id="tesis">Tesis relacionadas</h2>
+	<h2 id="tesis-relacionadas">Tesis relacionadas</h2>
 	<ul class="rows">
 		{{- range . }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
+	</ul>
+{{- end }}
+{{- with $articles }}
+	<h2 id="articulos-relacionados">Artículos relacionados</h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "revista/row.html" . }}{{ end }}
 	</ul>
 {{- end }}
 {{- /**/ -}}

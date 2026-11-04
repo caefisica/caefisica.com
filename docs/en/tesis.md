@@ -65,5 +65,5 @@ by adviser shows those who advised three works or more. The defences view groups
 the invitations by year; each row opens the thesis if it is already in
 Cybertesis and the invitation if not.
 
-A thesis page ends with the talks on its subject, if there are any (see
-[talks](grabaciones.md#related-talks-and-theses)).
+A thesis page ends with the talks, theses and articles on its subject, if there
+are any (see [related content](grabaciones.md#related-content)).

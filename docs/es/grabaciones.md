@@ -98,16 +98,17 @@ el nombre sale sin enlace.
 
 El perfil lista las charlas de esa persona en «Charlas», con su serie.
 
-## Charlas y tesis relacionadas
+## Contenido relacionado
 
-La página de una charla termina con hasta tres «Charlas relacionadas» y hasta
-tres «Tesis relacionadas». La página de una tesis lista hasta tres charlas.
-Salen de `data/related.json`, que tampoco se edita a mano: se genera fuera de
-este repositorio. Para eso, el modelo multilingual-e5-large convierte en
-vectores cada charla (título y resumen de Educast) y cada tesis (título). Una
-pareja entra si su similitud llega a 0,35. Debajo de ese corte las parejas ya no
-tratan del mismo tema. Las sesiones del Consejo de Facultad no entran, porque no
-tienen tema.
+La página de una charla y la de una tesis terminan con hasta tres «Charlas
+relacionadas», tres «Tesis relacionadas» y tres «Artículos relacionados» de la
+[revista](revista.md). Un artículo no tiene página propia, así que su fila
+enlaza el DOI. Salen de `data/related.json`, que tampoco se edita a mano: se
+genera fuera de este repositorio. Para eso, el modelo multilingual-e5-large
+convierte en vectores cada charla (título y resumen de Educast), cada tesis y
+cada artículo (título). Una pareja entra si su similitud llega a 0,35. Debajo de
+ese corte las parejas ya no tratan del mismo tema. Las sesiones del Consejo de
+Facultad no entran, porque no tienen tema.
 
-`related.json` se genera después de `recordings.json` y `theses.json`. Si nombra
-una charla o una tesis que ya no está, la página la omite.
+`related.json` se genera después de `recordings.json`, `theses.json` y
+`journal.json`. Si nombra algo que ya no está, la página lo omite.
