@@ -23,7 +23,7 @@
 {{- $kinds = partial "oportunidades/tally.html" $kinds -}}
 {{- $kindText := slice -}}
 {{- range $kinds }}{{ $kindText = $kindText | append (printf "%d %s" .n (cond (eq .name "CAS") "CAS" (lower .name))) }}{{ end -}}
-{{- /* The months in which this employer published a call, of any kind, in two years or more. The aside names the three it used in the most years, ties broken by number of calls. */ -}}
+{{- /* The months in which this employer published a call, of any kind, in two years or more. The facts name the three it used in the most years, ties broken by number of calls. */ -}}
 {{- $dated := slice -}}
 {{- range $all }}{{ if ge (len (.published | default "")) 7 }}{{ $dated = $dated | append . }}{{ end }}{{ end -}}
 {{- $usual := slice -}}
@@ -34,17 +34,14 @@
 	{{- if ge (len ($in | uniq)) 2 }}{{ $usual = $usual | append (dict "m" $m "n" (len ($in | uniq)) "c" (len $in)) }}{{ end -}}
 {{- end -}}
 {{- $peak := sort (first 3 (sort (sort $usual "c" "desc") "n" "desc")) "m" -}}
-<article class="person-page py-page">
+<article class="story py-page">
 	{{ partial "article/breadcrumbs.html" . }}
-	<header>
-		<h1>{{ .Title }}</h1>
-		<p class="text-lead">{{ len $rows }} de sus {{ lang.FormatNumber 0 (len $all) }} convocatorias desde {{ substr $first 0 4 }} aceptan física: {{ delimit $kindText ", " " y " }}.</p>
-	</header>
-	{{- $body := partial "oportunidades/employer-sections.html" (dict "rows" $rows "dated" $dated "fields" $fields "skills" $skills) }}
-	<aside class="person-aside">
-		<section class="facts" aria-labelledby="employer-info">
-			<h2 id="employer-info">En breve</h2>
-			<dl>
+	<h1>{{ .Title }}</h1>
+	<div class="story-rule" aria-hidden="true"></div>
+	<div class="story-body">
+		<div class="story-lead">
+			<p class="story-intro">{{ len $rows }} de sus {{ lang.FormatNumber 0 (len $all) }} convocatorias desde {{ substr $first 0 4 }} aceptan física: {{ delimit $kindText ", " " y " }}.</p>
+			<dl class="story-info">
 				{{- with $pay }}
 					{{- $s := sort . }}
 					<div>
@@ -79,11 +76,8 @@
 					</div>
 				{{- end }}
 			</dl>
-		</section>
-		{{ partial "ui/page-map.html" $body }}
-	</aside>
-	<div>
-		{{ $body }}
+		</div>
+		{{ partial "oportunidades/employer-sections.html" (dict "rows" $rows "dated" $dated "fields" $fields "skills" $skills) }}
 		<p class="person-note text-muted">
 			Leído de las bases que publicó {{ $name }}. Las funciones, los conocimientos y las etapas se copian tal como las escribe; una base escaneada no se puede leer y queda sin ellos. Si algo está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 		</p>

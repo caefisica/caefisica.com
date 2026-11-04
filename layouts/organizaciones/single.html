@@ -6,20 +6,17 @@
 {{- $map := site.GetPage "/fisicos" -}}
 {{- $from := time.AsTime $data.research_from -}}
 {{- .Store.Set "more" true -}}
-<article class="person-page py-page">
+<article class="story py-page">
 	{{ partial "article/breadcrumbs.html" . }}
-	<header>
-		<h1>{{ .Title }}</h1>
-		<p class="text-lead">
-			{{- $kind.one }} · {{ partial "fisicos/country.html" $p.country }}.
-			{{- with $who.n }} {{ cond (eq . 1) "Estudió o trabaja aquí una persona" (printf "Estudiaron o trabajan aquí %d personas" .) }} del mapa de físicos.{{ end -}}
-		</p>
-	</header>
-	{{- $body := partial "organizaciones/sections.html" (dict "place" $p "who" $who "from" $from) }}
-	<aside class="person-aside">
-		<section class="facts" aria-labelledby="org-info">
-			<h2 id="org-info">En breve</h2>
-			<dl>
+	<h1>{{ .Title }}</h1>
+	<div class="story-rule" aria-hidden="true"></div>
+	<div class="story-body">
+		<div class="story-lead">
+			<p class="story-intro">
+				{{- $kind.one }} · {{ partial "fisicos/country.html" $p.country }}.
+				{{- with $who.n }} {{ cond (eq . 1) "Estudió o trabaja aquí una persona" (printf "Estudiaron o trabajan aquí %d personas" .) }} del mapa de físicos.{{ end -}}
+			</p>
+			<dl class="story-info">
 				{{- with $p.research }}
 					<div>
 						<dt>Física desde {{ $from.Year }}</dt>
@@ -47,11 +44,8 @@
 					</dd>
 				</div>
 			</dl>
-		</section>
-		{{ partial "ui/page-map.html" $body }}
-	</aside>
-	<div>
-		{{ $body }}
+		</div>
+		{{ partial "organizaciones/sections.html" (dict "place" $p "who" $who "from" $from) }}
 		<p class="person-note text-muted">
 			Las personas vienen de sus fichas públicas de CTI Vitae, ORCID y el Portal del Profesorado de la PUCP{{ with $p.research }}; las publicaciones, de <a href="https://openalex.org/institutions/{{ .openalex }}">OpenAlex</a>, que cuenta las de sus sedes y laboratorios{{ end }}. Si trabajas aquí y falta alguien o algo está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 		</p>

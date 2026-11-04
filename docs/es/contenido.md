@@ -69,12 +69,10 @@ origen en [`data/photos.yaml`](../../data/photos.yaml).
 La página pone el nombre y una línea arriba que dice quién es: `role` en una
 página escrita; en una de datos, su puesto actual y su grado más alto con la
 institución, como «Profesor principal, UNMSM · Doctorado en física, TU
-Chemnitz». Pone los datos en una columna al lado y, bajo ellos, el índice «En
-esta página», con cada sección y su cantidad, cuando tiene tres o más; el índice
-queda a la vista al bajar. Cada sección empieza con
-`<h2 id="…">Título <span class="count">N</span></h2>`, con texto plano en el
-título: el índice se arma leyendo esos títulos. Una lista de ocho filas o más
-muestra cinco y un botón con el resto.
+Chemnitz». Los datos siguen en una fila de celdas de etiqueta y valor, entre dos
+rayas, y las secciones vienen después. Cada sección empieza con
+`<h2 id="…">Título <span class="count">N</span></h2>`. Una lista de ocho filas o
+más muestra cinco y un botón con el resto.
 
 Estos campos nombran a una persona por su slug:
 

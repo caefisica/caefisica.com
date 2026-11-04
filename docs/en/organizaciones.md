@@ -39,10 +39,9 @@ each organisation's page.
 
 The page of an organisation and of a research group follow the contract of a
 person's page (see [people](contenido.md#people)): each section opens with an
-`h2` with its count, the row of links under the title comes from those headings,
-and a list of eight rows or more shows five and a button with the rest.
-`organizaciones/sections.html` and `grupos/sections.html` build the sections;
-`ui/page-map.html` builds the row of links.
+`h2` with its count, and a list of eight rows or more shows five and a button
+with the rest. `organizaciones/sections.html` and `grupos/sections.html` build
+the sections. A group's `summary` is the paragraph under its title.
 
 ## Update
 

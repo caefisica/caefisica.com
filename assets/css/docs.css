@@ -1224,65 +1224,6 @@
     }
   }
 
-  /* A profile reads in one column. From xl its facts move to a column beside it, and the table of contents under them sticks, so the reader can jump at any depth without the column scrolling on its own. */
-  .person-page {
-    @apply col-prose;
-
-    @media (width >= 75rem) {
-      display: grid;
-      grid-template-columns: minmax(0, 36rem) 16rem;
-      grid-template-rows: auto auto 1fr;
-      justify-content: center;
-      column-gap: 4rem;
-      width: 100%;
-
-      & > * {
-        grid-column: 1;
-      }
-
-      & > .person-head {
-        margin-bottom: 2rem;
-      }
-
-      & > .person-aside {
-        grid-row: 1 / 4;
-        grid-column: 2;
-
-        & .facts {
-          margin-top: 0;
-        }
-
-        & .facts dl {
-          grid-template-columns: 6.5rem minmax(0, 1fr);
-          column-gap: 0.75rem;
-        }
-
-        & .page-map {
-          position: sticky;
-          top: 4.5rem;
-        }
-
-        & .page-map ol {
-          grid-template-columns: minmax(0, 1fr);
-        }
-      }
-    }
-  }
-
-  .person-head {
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-
-    & h1 {
-      margin-bottom: 0.25rem;
-    }
-
-    & .text-lead {
-      margin: 0;
-    }
-  }
-
   /* Years in a fixed column so the entries align, with a dashed guide like the docs tree. */
   .markdown .timeline {
     margin: 1rem 0 2rem;
@@ -1713,9 +1654,21 @@
       margin: 3.5rem auto 0;
     }
 
+    & > .avatar {
+      margin: 1.5rem auto 0;
+    }
+
+    & > img.avatar {
+      display: block;
+    }
+
     @media (width < 40rem) {
       &:not(.post) > .breadcrumbs ol {
         justify-content: flex-start;
+      }
+
+      & > .avatar {
+        margin-left: 0;
       }
 
       & > h1 {
@@ -1812,6 +1765,7 @@
 
     & dd a {
       color: inherit;
+      font-weight: inherit;
     }
 
     @media (width < 40rem) {
@@ -2221,52 +2175,6 @@
 
     & a:hover {
       color: var(--link);
-    }
-  }
-
-  /* A profile's sections as a table of contents under its facts, with the same label and hairlines, each count at the right edge. */
-  .page-map {
-    margin: 0 0 2.5rem;
-
-    & h2 {
-      margin: 0 0 0.5rem;
-      color: var(--muted);
-      font-size: var(--text-sm);
-      font-weight: 500;
-      letter-spacing: normal;
-    }
-
-    & ol {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-      column-gap: 2rem;
-      margin: 0;
-      padding: 0;
-      border-top: 1px solid var(--line);
-      font-size: var(--text-sm);
-      list-style: none;
-    }
-
-    & li {
-      margin: 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    & a {
-      display: flex;
-      justify-content: space-between;
-      gap: 1rem;
-      padding-block: 0.375rem;
-      color: var(--fg);
-
-      &:hover {
-        color: var(--link);
-      }
-    }
-
-    & .count {
-      color: var(--muted);
-      font-size: inherit;
     }
   }
 

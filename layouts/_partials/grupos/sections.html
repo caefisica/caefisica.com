@@ -1,11 +1,7 @@
-{{- /* The sections of a research group page, each under an h2 that ui/page-map.html reads. Context: the group from data/groups. */ -}}
+{{- /* Context: the group from data/groups. */ -}}
 {{- $g := . -}}
 {{- $data := hugo.Data.groups -}}
 <div class="markdown">
-	{{- with $g.summary }}
-		<h2 id="que-investiga">Qué investiga</h2>
-		<p>{{ . }}</p>
-	{{- end }}
 	{{- with $g.lines }}
 		<h2 id="lineas">Líneas de investigación <span class="count">{{ len . }}</span></h2>
 		<ul>

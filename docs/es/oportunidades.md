@@ -81,8 +81,8 @@ convocatoria que pide física, salvo las empresas de Bumeran, en
 cuando `data/physicists.json` lo tiene. `layouts/oportunidades/single.html` la
 dibuja:
 
-- el costado resume el pago, la duración del cronograma, los meses habituales,
-  las sedes y la página de organización;
+- los datos bajo la entrada resumen el pago, la duración del cronograma, los
+  meses habituales, las sedes y la página de organización;
 - **Qué piden** cuenta las carreras y habilidades de sus convocatorias de
   física;
 - **Cómo es el proceso** lista las etapas que nombran sus bases, en cuántas
