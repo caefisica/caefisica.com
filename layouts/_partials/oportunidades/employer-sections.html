@@ -1,0 +1,88 @@
+{{- /* The body of an employer page on /oportunidades/: what its physics calls ask, how its selection runs, when it publishes and each call. Context: dict with rows (its physics calls, newest first), dated (all its calls dated to the month), fields and skills (every career and skill the rows name, repeated). */ -}}
+{{- $rows := .rows -}}
+{{- $fields := partial "oportunidades/tally.html" .fields -}}
+{{- $skills := partial "oportunidades/tally.html" .skills -}}
+{{- $staged := slice -}}
+{{- range $rows }}{{ if .stages }}{{ $staged = $staged | append . }}{{ end }}{{ end -}}
+{{- $stageNames := slice "Evaluación curricular" "Evaluación de conocimientos" "Evaluación psicológica" "Entrevista personal" -}}
+
+{{- if or $fields $skills }}
+	<h2 id="que-piden">Qué piden</h2>
+	<div class="facts"><dl>
+			{{- with $fields }}
+				<div>
+					<dt>Carreras</dt>
+					<dd>{{ range $i, $f := . }}{{ if $i }}, {{ end }}{{ $f.name }} <span class="text-muted">{{ $f.n }}</span>{{ end }}</dd>
+				</div>
+			{{- end }}
+			{{- with $skills }}
+				<div>
+					<dt>Herramientas y áreas</dt>
+					<dd>{{ range $i, $s := first 12 . }}{{ if $i }}, {{ end }}{{ $s.name }} <span class="text-muted">{{ $s.n }}</span>{{ end }}</dd>
+				</div>
+			{{- end }}
+		</dl>
+	</div>
+	<p class="text-muted">El número es en cuántas de sus {{ len $rows }} convocatorias aparece.</p>
+{{- end }}
+
+{{- with $staged }}
+	<h2 id="proceso">Cómo es el proceso</h2>
+	<ol class="opp-stages">
+		{{- range $stage := $stageNames }}
+			{{- $n := 0 }}
+			{{- $weights := slice }}
+			{{- range $staged }}
+				{{- range where .stages "name" $stage }}
+					{{- $n = add $n 1 }}
+					{{- with .weight }}{{ $weights = $weights | append (printf "%d %%" (int .)) }}{{ end }}
+				{{- end }}
+			{{- end }}
+			{{- if $n }}
+				<li>
+					<span>{{ $stage }}</span>
+					<span class="text-muted">
+						{{- if eq $n (len $staged) }}en todas{{ else }}en {{ $n }} de {{ len $staged }}{{ end }}
+						{{- with partial "oportunidades/tally.html" $weights }} · suele pesar {{ (index . 0).name }}{{ end -}}
+					</span>
+				</li>
+			{{- end }}
+		{{- end }}
+	</ol>
+	<p class="text-muted">Las etapas que nombran {{ len $staged }} de sus bases, en orden, y el peso que más se repite en el puntaje final.</p>
+{{- end }}
+
+{{- with .dated }}
+	<h2 id="calendario">Cuándo publica</h2>
+	{{ partial "oportunidades/calendar.html" . }}
+	<p class="text-muted">Cuenta todas sus convocatorias, pidan o no física.</p>
+{{- end }}
+
+<h2 id="convocatorias">Convocatorias <span class="count">{{ len $rows }}</span></h2>
+<ul class="opp-calls">
+	{{- range $rows }}
+		{{- $bits := slice .kind }}
+		{{- with .fields }}{{ $bits = $bits | append (delimit . ", ") }}{{ end }}
+		{{- with .stipend }}{{ $bits = $bits | append (printf "S/ %s" (lang.FormatNumber 0 .)) }}{{ end }}
+		{{- with .place }}{{ $bits = $bits | append . }}{{ end }}
+		<li id="{{ .id }}">
+			<h3>{{ .title }}</h3>
+			<p class="text-muted">{{ with .published }}{{ partial "oportunidades/month.html" . }} · {{ end }}{{ delimit $bits " · " }}</p>
+			{{- with .duties }}
+				<p class="opp-label">Funciones</p>
+				<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+			{{- end }}
+			{{- with .knowledge }}
+				<p class="opp-label">Conocimientos</p>
+				<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+			{{- end }}
+			{{- $days := .days }}
+			{{- with .stages }}
+				{{- $parts := slice }}
+				{{- range . }}{{ $parts = $parts | append (printf "%s%s" .name (cond (ne .weight nil) (printf " (%v %%)" .weight) "")) }}{{ end }}
+				<p><span class="opp-label">Etapas</span> {{ delimit $parts " → " }}{{ with $days }} <span class="text-muted">· cronograma de {{ . }} días</span>{{ end }}</p>
+			{{- end }}
+			<p><a href="{{ .url }}" target="_blank" rel="noopener">{{ cond (strings.HasSuffix (lower .url) ".pdf") "Bases (PDF)" "Bases y anexos" }}</a>{{ with .number }} <span class="text-muted">· {{ . }}</span>{{ end }}</p>
+		</li>
+	{{- end }}
+</ul>

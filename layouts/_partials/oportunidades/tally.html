@@ -1,0 +1,6 @@
+{{- /* How often each value occurs, most frequent first and ties by name, as a slice of dict name and n. Context: a slice of strings; empty strings are skipped. */ -}}
+{{- $counts := dict -}}
+{{- range . }}{{ if . }}{{ $counts = merge $counts (dict . (add 1 (index $counts . | default 0))) }}{{ end }}{{ end -}}
+{{- $out := slice -}}
+{{- range $name, $n := $counts }}{{ $out = $out | append (dict "name" $name "n" $n) }}{{ end -}}
+{{- return sort (sort $out "name") "n" "desc" -}}

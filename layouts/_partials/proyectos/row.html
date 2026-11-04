@@ -1,0 +1,34 @@
+{{- /* One grant in a list: title linking its Observatorio page, then organisation, years, amount and «Líder» on the leader's own profile, then area, then the members with a profile and how many others. Context: dict with grant, optional slug, the profile the list sits on, which the members leave out, and optional grouped, true under a heading that already names the organisation. */ -}}
+{{- $g := .grant -}}
+{{- $slug := .slug -}}
+{{- $bits := slice -}}
+{{- if not .grouped }}
+	{{- with $g.place }}
+		{{- with site.GetPage (printf "/organizaciones/%s" .) }}{{ $bits = $bits | append (printf "<a href=\"%s\">%s</a>" .RelPermalink (htmlEscape .Title)) }}{{ end -}}
+	{{- else }}
+		{{- with $g.organisation }}{{ $bits = $bits | append (htmlEscape .) }}{{ end -}}
+	{{- end }}
+{{- end }}
+{{- with $g.start }}{{ $bits = $bits | append (cond (and $g.end (ne (substr $g.end 0 4) (substr . 0 4))) (printf "%s–%s" (substr . 0 4) (substr $g.end 0 4)) (substr . 0 4)) }}{{ end -}}
+{{- with $g.amount }}{{ $bits = $bits | append (printf "S/ %s" (lang.FormatNumber 0 .)) }}{{ end -}}
+{{- $links := slice -}}
+{{- range $m := $g.members -}}
+	{{- if ne $m $slug }}{{ with site.GetPage (printf "/personas/%s" $m) }}{{ $links = $links | append (printf "<a href=\"%s\">%s</a>%s" .RelPermalink (htmlEscape .Title) (cond (eq $g.leader $m) " (líder)" "")) }}{{ end }}{{ end -}}
+{{- end -}}
+{{- $others := sub (int $g.team_total) (len $g.members) -}}
+{{- if $others }}
+	{{- if $links }}{{ $links = $links | append (printf "%d %s" $others (cond (eq $others 1) "integrante más" "integrantes más")) }}
+	{{- else }}{{ $links = $links | append (cond (eq $others 1) "otro integrante" (printf "otros %d integrantes" $others)) }}
+	{{- end }}
+{{- end -}}
+{{- if and $slug (eq $g.leader $slug) }}{{ $bits = $bits | append "Líder" }}{{ end -}}
+<li class="group">
+	<div class="row-main">
+		<a class="card-link" href="{{ $g.url }}" target="_blank" rel="noopener">{{ $g.title }}</a>
+		<p>{{ delimit $bits " · " | safeHTML }}</p>
+		<p class="opp-skills">{{ $g.area | lower | strings.FirstUpper }}</p>
+		{{- with $links }}<p>Con {{ delimit . ", " " y " | safeHTML }}</p>{{ end }}
+	</div>
+	{{- with $g.end }}{{ if ge . (now.Format "2006-01-02") }}<span class="row-meta">En curso</span>{{ end }}{{ end }}
+</li>
+{{- /**/ -}}

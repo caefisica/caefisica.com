@@ -1,0 +1,7 @@
+{{- /* A posting's published date as "abril de 2026", or the year alone when the source gives only the year. Context: the date string, YYYY-MM-DD or YYYY. */ -}}
+{{- if ge (len .) 7 -}}
+	{{- partial "ui/day-or-month.html" (dict "month" (substr . 0 7)) -}}
+{{- else -}}
+	<time datetime="{{ . }}">{{ . }}</time>
+{{- end -}}
+{{- /**/ -}}

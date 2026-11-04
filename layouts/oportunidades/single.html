@@ -1,0 +1,93 @@
+{{ define "main" }}
+{{- $name := .Params.employer -}}
+{{- $all := where hugo.Data.opportunities "employer" $name -}}
+{{- $rows := sort (where $all "physics" true) "published" "desc" -}}
+{{- $months := hugo.Data.fixes.months -}}
+{{- $org := index (where hugo.Data.physicists.places "short" $name) 0 -}}
+{{- $first := "" -}}
+{{- range $all }}{{ with .published }}{{ if or (not $first) (lt . $first) }}{{ $first = . }}{{ end }}{{ end }}{{ end -}}
+{{- $kinds := slice -}}
+{{- $places := slice -}}
+{{- $fields := slice -}}
+{{- $skills := slice -}}
+{{- $pay := slice -}}
+{{- $days := slice -}}
+{{- range $rows -}}
+	{{- $kinds = $kinds | append .kind -}}
+	{{- $places = $places | append .place -}}
+	{{- range .fields }}{{ $fields = $fields | append . }}{{ end -}}
+	{{- range .skills }}{{ $skills = $skills | append . }}{{ end -}}
+	{{- with .stipend }}{{ $pay = $pay | append . }}{{ end -}}
+	{{- with .days }}{{ $days = $days | append . }}{{ end -}}
+{{- end -}}
+{{- $kinds = partial "oportunidades/tally.html" $kinds -}}
+{{- $kindText := slice -}}
+{{- range $kinds }}{{ $kindText = $kindText | append (printf "%d %s" .n (cond (eq .name "CAS") "CAS" (lower .name))) }}{{ end -}}
+{{- /* The months in which this employer published a call, of any kind, in two years or more. The aside names the three it used in the most years, ties broken by number of calls. */ -}}
+{{- $dated := slice -}}
+{{- range $all }}{{ if ge (len (.published | default "")) 7 }}{{ $dated = $dated | append . }}{{ end }}{{ end -}}
+{{- $usual := slice -}}
+{{- range $m := seq 12 -}}
+	{{- $mm := printf "-%02d-" $m -}}
+	{{- $in := slice -}}
+	{{- range $dated }}{{ if in .published $mm }}{{ $in = $in | append (substr .published 0 4) }}{{ end }}{{ end -}}
+	{{- if ge (len ($in | uniq)) 2 }}{{ $usual = $usual | append (dict "m" $m "n" (len ($in | uniq)) "c" (len $in)) }}{{ end -}}
+{{- end -}}
+{{- $peak := sort (first 3 (sort (sort $usual "c" "desc") "n" "desc")) "m" -}}
+<article class="person-page py-page">
+	{{ partial "article/breadcrumbs.html" . }}
+	<header>
+		<h1>{{ .Title }}</h1>
+		<p class="text-lead">{{ len $rows }} de sus {{ lang.FormatNumber 0 (len $all) }} convocatorias desde {{ substr $first 0 4 }} aceptan física: {{ delimit $kindText ", " " y " }}.</p>
+	</header>
+	{{- $body := partial "oportunidades/employer-sections.html" (dict "rows" $rows "dated" $dated "fields" $fields "skills" $skills) }}
+	<aside class="person-aside">
+		<section class="facts" aria-labelledby="employer-info">
+			<h2 id="employer-info">En breve</h2>
+			<dl>
+				{{- with $pay }}
+					{{- $s := sort . }}
+					<div>
+						<dt>Pago mensual</dt>
+						<dd>{{ if eq (index $s 0) (index (last 1 $s) 0) }}S/ {{ lang.FormatNumber 0 (index $s 0) }}{{ else }}S/ {{ lang.FormatNumber 0 (index $s 0) }} a {{ lang.FormatNumber 0 (index (last 1 $s) 0) }}; la mitad paga S/ {{ lang.FormatNumber 0 (index $s (div (len $s) 2)) }} o más{{ end }}</dd>
+					</div>
+				{{- end }}
+				{{- with $days }}
+					<div>
+						<dt>Cronograma</dt>
+						<dd>Unos {{ index (sort .) (div (len .) 2) }} días de la publicación al último paso</dd>
+					</div>
+				{{- end }}
+				{{- with $peak }}
+					{{- $names := slice }}
+					{{- range . }}{{ $names = $names | append (index $months (string .m)) }}{{ end }}
+					<div>
+						<dt>Suele publicar</dt>
+						<dd>{{ if ge (len $usual) 9 }}Todo el año, más en {{ end }}{{ delimit $names ", " " y " }}</dd>
+					</div>
+				{{- end }}
+				{{- with partial "oportunidades/tally.html" $places }}
+					<div>
+						<dt>{{ cond (gt (len .) 1) "Sedes" "Sede" }}</dt>
+						<dd>{{ range $i, $p := first 3 . }}{{ if $i }}<br />{{ end }}{{ $p.name }}{{ end }}</dd>
+					</div>
+				{{- end }}
+				{{- with $org }}
+					<div>
+						<dt>Organización</dt>
+						<dd><a href="{{ (site.GetPage (printf "/organizaciones/%s" .id)).RelPermalink }}">Quiénes trabajan aquí</a></dd>
+					</div>
+				{{- end }}
+			</dl>
+		</section>
+		{{ partial "ui/page-map.html" $body }}
+	</aside>
+	<div>
+		{{ $body }}
+		<p class="person-note text-muted">
+			Leído de las bases que publicó {{ $name }}. Las funciones, los conocimientos y las etapas se copian tal como las escribe; una base escaneada no se puede leer y queda sin ellos. Si algo está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		</p>
+		{{ partial "article/page-footer.html" . }}
+	</div>
+</article>
+{{ end }}

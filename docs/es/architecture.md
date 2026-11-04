@@ -142,19 +142,19 @@ página.
 
 ## Mapa del código
 
-| Ruta            | Responsabilidad                                                                                                                                                              |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `content/`      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).                                                                                                  |
-| `layouts/`      | Plantillas Go de Hugo, shortcodes y parciales.                                                                                                                               |
-| `assets/`       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                                                                                          |
-| `static/`       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                                                                                |
-| `data/`         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros.                                                                                                |
-| `config/`       | Configuración de Hugo por entorno.                                                                                                                                           |
-| `archetypes/`   | Moldes de `hugo new`.                                                                                                                                                        |
-| `scripts/`      | `openalex.ts` y `playlists.ts` escriben `data/researchers/` y `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` revisa las páginas generadas contra la CSP. |
-| `.github/`      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                                                                                                            |
-| `wrangler.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                 |
-| `.pages.yml`    | Esquema de los campos de Pages CMS.                                                                                                                                          |
+| Ruta            | Responsabilidad                                                                                                                                                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `content/`      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).                                                                                                                                                                |
+| `layouts/`      | Plantillas Go de Hugo, shortcodes y parciales.                                                                                                                                                                                             |
+| `assets/`       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                                                                                                                                                        |
+| `static/`       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                                                                                                                                              |
+| `data/`         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros.                                                                                                                                                              |
+| `config/`       | Configuración de Hugo por entorno.                                                                                                                                                                                                         |
+| `archetypes/`   | Moldes de `hugo new`.                                                                                                                                                                                                                      |
+| `scripts/`      | `openalex.ts` y `playlists.ts` escriben `data/researchers/` y `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` revisa las páginas generadas contra la CSP; `views.ts` revisa que `docs.css` muestre cada radio de vista. |
+| `.github/`      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                                                                                                                                                                          |
+| `wrangler.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                                                                               |
+| `.pages.yml`    | Esquema de los campos de Pages CMS.                                                                                                                                                                                                        |
 
 ## Configuración
 
@@ -191,7 +191,11 @@ tampoco: su adaptador crea una página por serie y una por charla a partir de
 una página por lugar de `data/physicists.json` (ver
 [organizaciones](organizaciones.md)), y `grupos`, una por grupo de
 `data/groups.json` (ver [grupos de investigación](grupos.md)). `revista` es una
-sola página que lista `data/journal.json` (ver [revista](revista.md)).
+sola página que lista `data/journal.json` (ver [revista](revista.md)),
+`oportunidades`, una que lista `data/opportunities.json` y, con su adaptador,
+una más por empleador con convocatorias de física (ver
+[oportunidades](oportunidades.md)), y `proyectos`, una que lista
+`data/grants.json` (ver [proyectos](proyectos.md)).
 
 ## Glosario
 

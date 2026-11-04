@@ -1,0 +1,17 @@
+{{- /*
+One page per employer with a call that accepts physics, at its short name: what its calls ask, how its process runs and in which months it publishes. A Bumeran company gets none: its ad has no bases to summarise, and the list links the ad.
+docs/en/oportunidades.md says where the data comes from.
+*/ -}}
+{{- $places := hugo.Data.physicists.places -}}
+{{- $names := slice -}}
+{{- range where hugo.Data.opportunities "physics" true }}{{ if ne .source "bumeran" }}{{ $names = $names | append .employer }}{{ end }}{{ end -}}
+{{- range $names | uniq -}}
+	{{- $org := index (where $places "short" .) 0 -}}
+	{{- $.AddPage (dict
+		"path" (urlize .)
+		"title" (cond (ne $org nil) (index $org "name") .)
+		"linkTitle" .
+		"description" (printf "Qué piden las convocatorias de %s que aceptan física, cómo es su proceso de selección y en qué meses publica." .)
+		"params" (dict "employer" .)
+	) -}}
+{{- end -}}

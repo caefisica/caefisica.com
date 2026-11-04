@@ -21,6 +21,10 @@
   desde 1998, de Crossref y del archivo de sisbib.
 - [Tesis](tesis.md): la copia de Cybertesis, sus vistas y cómo un nombre enlaza
   su perfil.
+- [Oportunidades](oportunidades.md): el archivo de convocatorias, sus fuentes,
+  cuándo una pide física y sus vistas.
+- [Proyectos](proyectos.md): las subvenciones de PROCIENCIA, cuándo una es de
+  física y sus vistas.
 - [Grabaciones](grabaciones.md): las grabaciones de Facebook y de Educast, sus
   series y la copia de respaldo.
 - [Despliegue](despliegue.md): Cloudflare, búsqueda, cabeceras y flujos de

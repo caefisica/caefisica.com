@@ -1,0 +1,135 @@
+{{ define "main" }}
+{{- $all := hugo.Data.opportunities -}}
+{{- $phys := where $all "physics" true -}}
+{{- $months := hugo.Data.fixes.months -}}
+{{- $places := hugo.Data.physicists.places -}}
+{{- /* An employer with fewer physics postings than this joins "Otros empleadores", where each row names its employer. */ -}}
+{{- $least := 3 -}}
+{{- $employers := slice -}}
+{{- range $all }}{{ $employers = $employers | append .employer }}{{ end -}}
+{{- $employers = $employers | uniq -}}
+{{- $groups := slice -}}
+{{- $rest := slice -}}
+{{- range $employers -}}
+	{{- $rows := where $phys "employer" . -}}
+	{{- if ge (len $rows) $least }}{{ $groups = $groups | append (dict "name" . "rows" $rows "n" (len $rows)) }}{{ else }}{{ $rest = $rest | append $rows }}{{ end -}}
+{{- end -}}
+{{- $groups = sort (sort $groups "name") "n" "desc" -}}
+{{- $years := slice -}}
+{{- range $all }}{{ with .published }}{{ $years = $years | append (substr . 0 4) }}{{ end }}{{ end -}}
+{{- $years = sort ($years | uniq) -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%s convocatorias de %d empleadores, de %s a %s, copiadas de sus portales. %s piden una carrera de la familia de la física, como física, ingeniería física, física médica o geofísica. Cada entidad tiene su página: qué piden sus bases, cómo es su proceso y en qué meses publica." (lang.FormatNumber 0 (len $all)) (len $employers) (index $years 0) (index (last 1 $years) 0) (lang.FormatNumber 0 (len $phys)))) }}
+
+	<div class="views">
+		<fieldset class="pill-tabs">
+			<legend>Ver por</legend>
+			<label><input type="radio" name="vista" value="fisica" checked /><span>Piden física</span></label>
+			<label><input type="radio" name="vista" value="calendario" /><span>Calendario de prácticas</span></label>
+			<label><input type="radio" name="vista" value="habilidad" /><span>Habilidades</span></label>
+			<label><input type="radio" name="vista" value="empleador" /><span>Empleadores</span></label>
+		</fieldset>
+
+		<div class="view" data-view="fisica">
+			{{- range $groups }}
+				<section class="section-group band" id="{{ urlize .name }}">
+					<h2>{{ partial "oportunidades/employer-name.html" .name }} <span class="count">{{ .n }}</span></h2>
+					<ul class="rows">
+						{{- range .rows }}{{ partial "oportunidades/row.html" (dict "posting" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			{{- with $rest }}
+				<section class="section-group band">
+					<h2>Otros empleadores <span class="count">{{ len . }}</span></h2>
+					<ul class="rows">
+						{{- range sort . "published" "desc" }}{{ partial "oportunidades/row.html" (dict "posting" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+		</div>
+
+		<div class="view" data-view="calendario">
+			<p class="text-muted">Prácticas de todas las carreras, no solo de física: quien convoca en el mismo mes varios años seguidos suele repetirlo.</p>
+			{{- range $employers }}
+				{{- $name := . }}
+				{{- $rows := slice }}
+				{{- range where $all "employer" $name }}{{ if and (hasPrefix .kind "Prácticas") (ge (len (.published | default "")) 7) }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
+				{{- if $rows }}
+					<section class="section-group band">
+						<h2>{{ partial "oportunidades/employer-name.html" $name }} {{ partial "ui/count.html" (dict "n" (len $rows) "one" "convocatoria" "many" "convocatorias") }}</h2>
+						<div>{{ partial "oportunidades/calendar.html" $rows }}</div>
+					</section>
+				{{- end }}
+			{{- end }}
+		</div>
+
+		<div class="view" data-view="habilidad">
+			{{- $named := slice }}
+			{{- range $phys }}{{ range .skills }}{{ $named = $named | append . }}{{ end }}{{ end }}
+			{{- $skills := partial "oportunidades/tally.html" $named }}
+			<section class="section-group band">
+				<h2>Habilidades <span class="count">{{ len $skills }}</span></h2>
+				<ul class="rows">
+					{{- range $skills }}
+						{{- $skill := .name }}
+						{{- $by := slice }}
+						{{- range $phys }}{{ if in .skills $skill }}{{ $by = $by | append .employer }}{{ end }}{{ end }}
+						<li class="group">
+							<div class="row-main">
+								<span class="opp-employer">{{ $skill }}</span>
+								<p>{{ delimit ($by | uniq) ", " }}</p>
+							</div>
+							<span class="row-meta">{{ partial "ui/count.html" (dict "n" .n "one" "convocatoria" "many" "convocatorias") }}</span>
+						</li>
+					{{- end }}
+				</ul>
+			</section>
+		</div>
+
+		<div class="view" data-view="empleador">
+			{{- $emp := slice }}
+			{{- range $employers }}
+				{{- $rows := where $all "employer" . }}
+				{{- $first := "" }}
+				{{- range $rows }}{{ with .published }}{{ if or (not $first) (lt . $first) }}{{ $first = . }}{{ end }}{{ end }}{{ end }}
+				{{- $emp = $emp | append (dict "name" . "n" (len $rows) "phys" (len (where $rows "physics" true)) "first" $first "last" (index $rows 0).published "company" (eq (index $rows 0).source "bumeran")) }}
+			{{- end }}
+			{{- range slice (dict "label" "Estado y universidades" "company" false) (dict "label" "Empresas" "company" true) }}
+				{{- $label := .label }}
+				{{- $company := .company }}
+				{{- $rows := sort (sort (where $emp "company" $company) "name") "n" "desc" }}
+				{{- with $rows }}
+					<section class="section-group band">
+						<h2>{{ $label }} <span class="count">{{ len . }}</span></h2>
+						<ul class="rows">
+							{{- range . }}
+								{{- $org := index (where $places "short" .name) 0 }}
+								<li class="group">
+									<div class="row-main">
+										{{- $own := site.GetPage (printf "/oportunidades/%s" (urlize .name)) }}
+										{{- if $own }}
+											<a class="card-link" href="{{ $own.RelPermalink }}">{{ $own.Title }}</a>
+										{{- else if $org }}
+											<a class="card-link" href="{{ (site.GetPage (printf "/organizaciones/%s" $org.id)).RelPermalink }}">{{ $org.name }}</a>
+										{{- else }}
+											<span class="opp-employer">{{ .name }}</span>
+										{{- end }}
+										<p>{{ partial "ui/count.html" (dict "n" .n "one" "convocatoria" "many" "convocatorias") }}{{ if not $company }} desde {{ substr .first 0 4 }}{{ end }} · {{ .phys }} {{ cond (eq .phys 1) "pide" "piden" }} física</p>
+									</div>
+									{{- with .last }}<span class="row-meta max-md:hidden">Última: {{ partial "oportunidades/month.html" . }}</span>{{ end }}
+								</li>
+							{{- end }}
+						</ul>
+					</section>
+				{{- end }}
+			{{- end }}
+			<p class="text-muted">Las empresas son avisos de Bumeran que aceptan física; de ellas no se guardan los demás avisos.</p>
+		</div>
+	</div>
+
+	<p class="person-note text-muted">
+		Los datos se copian de los portales de convocatorias del IGP, SENAMHI, INAIGEM, ITP, IPEN y otras entidades en gob.pe, de las bases de la UNSA y la UNJFSC y de los avisos de Bumeran. Una convocatoria pide física cuando su formación académica acepta una carrera de esa familia; las bases escaneadas no se pueden leer y cuentan como que no. Si falta una convocatoria o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+	</p>
+</div>
+{{ end }}

@@ -1714,7 +1714,7 @@
     background: var(--bg);
   }
 
-  /* A browser without :has shows every view. Each radio value needs its own line. */
+  /* A browser without :has shows every view. Each radio value needs its own line; scripts/views.ts fails the check without it. */
   .views:has(input:checked) > .view {
     display: none;
   }
@@ -1727,8 +1727,148 @@
   .views:has([value="asesor"]:checked) > [data-view="asesor"],
   .views:has([value="sustentacion"]:checked) > [data-view="sustentacion"],
   .views:has([value="numero"]:checked) > [data-view="numero"],
-  .views:has([value="autor"]:checked) > [data-view="autor"] {
+  .views:has([value="autor"]:checked) > [data-view="autor"],
+  .views:has([value="fisica"]:checked) > [data-view="fisica"],
+  .views:has([value="calendario"]:checked) > [data-view="calendario"],
+  .views:has([value="habilidad"]:checked) > [data-view="habilidad"],
+  .views:has([value="empleador"]:checked) > [data-view="empleador"],
+  .views:has([value="organizacion"]:checked) > [data-view="organizacion"] {
     display: block;
+  }
+
+  /* /oportunidades/: one row per year, one cell per month, a filled cell for a month with a call. */
+  .opp-cal-wrap {
+    overflow-x: auto;
+
+    & + p {
+      margin-top: 0.75rem;
+    }
+  }
+
+  /* The base table rules (full width, sticky header, dashed rules) suit a data table, not a twelve-cell grid under the view tabs. */
+  .opp-cal {
+    width: auto;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 3px;
+    font-size: var(--text-sm);
+    font-variant-numeric: tabular-nums;
+
+    & thead {
+      position: static;
+    }
+
+    & :is(th, td) {
+      border: 0;
+    }
+
+    & th {
+      padding: 0 0.375rem 0 0;
+      color: var(--muted);
+      font-weight: 400;
+      text-align: left;
+    }
+
+    & thead th {
+      text-align: center;
+    }
+
+    & td {
+      width: 2.25rem;
+      height: 1.75rem;
+      border-radius: 0.25rem;
+      background: var(--surface);
+      text-align: center;
+    }
+
+    & td.on {
+      background: var(--link);
+      color: var(--bg);
+      font-weight: 500;
+    }
+  }
+
+  .opp-skills {
+    color: var(--muted);
+    font-size: var(--text-sm);
+  }
+
+  /* A name with no page to open, set like a row's link so the list reads evenly. */
+  .opp-employer {
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  /* An employer's selection stages as numbered rows split by hairlines, the stage on the left and how often it appears on the right. */
+  .opp-stages {
+    margin: 1rem 0 0.75rem;
+    padding: 0;
+    border-top: 1px solid var(--line);
+    counter-reset: stage;
+    list-style: none;
+
+    & li {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0.25rem 1rem;
+      margin: 0;
+      padding-block: 0.5rem;
+      border-bottom: 1px solid var(--line);
+      counter-increment: stage;
+    }
+
+    & li > span:first-child::before {
+      content: counter(stage) ". ";
+      color: var(--muted);
+    }
+  }
+
+  /* One call per block: its title, a muted line of facts, then its duties and knowledge as short lists. Each block is a link target from the list, so it keeps clear of the sticky header. */
+  .opp-calls {
+    margin: 1rem 0 2rem;
+    padding: 0;
+    list-style: none;
+
+    & > li {
+      margin: 0;
+      padding-block: 1.25rem;
+      border-top: 1px solid var(--line);
+      scroll-margin-top: 4.5rem;
+    }
+
+    /* The highlight bleeds past the column so the text keeps its alignment with the rest of the page. */
+    & > li:target {
+      margin-inline: -1rem;
+      padding-inline: 1rem;
+      border-radius: 0.5rem;
+      background: var(--surface);
+    }
+
+    & h3 {
+      margin: 0 0 0.25rem;
+      font-size: var(--text-base);
+    }
+
+    & p {
+      margin: 0.5rem 0 0;
+    }
+
+    & ul {
+      margin: 0.25rem 0 0;
+      padding-left: 1.25rem;
+      font-size: var(--text-sm);
+    }
+
+    & li li {
+      margin: 0.125rem 0;
+    }
+  }
+
+  .opp-label {
+    color: var(--muted);
+    font-size: var(--text-sm);
+    font-weight: 500;
   }
 
   /* A profile's trajectory: one stop per place, its name and span over the roles held there. It sits in the markdown, so it outranks the markdown list rules. */

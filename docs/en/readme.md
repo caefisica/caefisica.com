@@ -21,6 +21,10 @@
   since 1998, from Crossref and the sisbib archive.
 - [Theses](tesis.md): the Cybertesis copy, its views and how a name links to a
   profile.
+- [Opportunities](oportunidades.md): the archive of job calls, its sources, when
+  a call asks for physics, and its views.
+- [Projects](proyectos.md): the PROCIENCIA grants, when one counts as physics,
+  and its views.
 - [Recordings](grabaciones.md): the Facebook and Educast recordings, their
   series and the backup copy.
 - [Deployment](despliegue.md): Cloudflare, search, headers and GitHub workflows.

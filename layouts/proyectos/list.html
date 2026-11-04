@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{- $all := hugo.Data.grants -}}
+{{- $years := slice -}}
+{{- $total := 0.0 -}}
+{{- range $all }}{{ with .start }}{{ $years = $years | append (substr . 0 4) }}{{ end }}{{ $total = add $total (.amount | default 0) }}{{ end -}}
+{{- $years = sort ($years | uniq) "value" "desc" -}}
+{{- $area := where $all "physics_area" true -}}
+{{- /* An organisation with fewer grants than this joins "Otras organizaciones", where each row names its organisation. */ -}}
+{{- $least := 3 -}}
+{{- $orgs := slice -}}
+{{- $rest := slice -}}
+{{- $names := slice -}}
+{{- range $all }}{{ $names = $names | append (.place | default .organisation) }}{{ end -}}
+{{- range $names | uniq -}}
+	{{- $key := . -}}
+	{{- $rows := slice -}}
+	{{- range $all }}{{ if eq (.place | default .organisation) $key }}{{ $rows = $rows | append . }}{{ end }}{{ end -}}
+	{{- if and $key (ge (len $rows) $least) -}}
+		{{- $name := $key -}}
+		{{- with (index $rows 0).place }}{{ with site.GetPage (printf "/organizaciones/%s" .) }}{{ $name = .Title }}{{ end }}{{ end -}}
+		{{- $orgs = $orgs | append (dict "name" $name "rows" $rows "n" (len $rows)) -}}
+	{{- else }}{{ $rest = $rest | append $rows }}
+	{{ end -}}
+{{- end -}}
+{{- $orgs = sort (sort $orgs "name") "n" "desc" -}}
+<div class="py-page">
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d proyectos con fondos de PROCIENCIA, de %s a %s, por S/ %s en total. %d son del área de ciencias físicas; los demás tienen en su equipo a alguien del <a href=\"%s\">mapa de físicos</a>. Cada título abre su ficha en el Observatorio de PROCIENCIA." (len $all) (index (last 1 $years) 0) (index $years 0) (lang.FormatNumber 0 $total) (len $area) ((site.GetPage "/fisicos").RelPermalink))) }}
+
+	<div class="views">
+		<fieldset class="pill-tabs">
+			<legend>Ver por</legend>
+			<label><input type="radio" name="vista" value="anio" checked /><span>Año de inicio</span></label>
+			<label><input type="radio" name="vista" value="organizacion" /><span>Organización</span></label>
+		</fieldset>
+
+		<div class="view" data-view="anio">
+			{{- range $y := $years }}
+				{{- $rows := slice }}
+				{{- range $all }}{{ if hasPrefix .start $y }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
+				<section class="section-group band" id="{{ $y }}">
+					<h2>{{ $y }} {{ partial "ui/count.html" (dict "n" (len $rows) "one" "proyecto" "many" "proyectos") }}</h2>
+					<ul class="rows">
+						{{- range $rows }}{{ partial "proyectos/row.html" (dict "grant" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+		</div>
+
+		<div class="view" data-view="organizacion">
+			{{- range $orgs }}
+				<section class="section-group band">
+					<h2>{{ .name }} {{ partial "ui/count.html" (dict "n" .n "one" "proyecto" "many" "proyectos") }}</h2>
+					<ul class="rows">
+						{{- range sort .rows "start" "desc" }}{{ partial "proyectos/row.html" (dict "grant" . "grouped" true) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+			{{- with $rest }}
+				<section class="section-group band">
+					<h2>Otras organizaciones {{ partial "ui/count.html" (dict "n" (len .) "one" "proyecto" "many" "proyectos") }}</h2>
+					<ul class="rows">
+						{{- range sort . "start" "desc" }}{{ partial "proyectos/row.html" (dict "grant" .) }}{{ end }}
+					</ul>
+				</section>
+			{{- end }}
+		</div>
+	</div>
+
+	<p class="person-note text-muted">
+		Los datos se copian del <a href="https://observatorio.prociencia.gob.pe/subvenciones">Observatorio de PROCIENCIA</a>: las subvenciones de investigación científica, equipamiento e innovación. Un proyecto entra cuando su subárea OCDE es ciencias físicas o cuando su líder o alguien de los diez primeros de su equipo está en el mapa de físicos. Del equipo solo se nombra a quien tiene perfil; los demás se cuentan. Si falta un proyecto o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+	</p>
+</div>
+{{ end }}
