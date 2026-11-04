@@ -1,17 +1,17 @@
 ---
 title: "Geofísica General"
 lead:
-  "En este curso estudias fenómenos físicos de la Tierra, incluidos el
-  magnetismo y la inducción."
+  "En este curso estudias la física de la Tierra: su campo magnético, su
+  gravedad, los sismos y su dinámica interna."
 description:
-  "Guía introductoria de Geofísica General con temas de magnetismo e inducción."
+  "Lista de temas de Geofísica General: campo magnético terrestre, gravedad,
+  sismología y geodinámica."
 id: "CFO804"
 credits: 4
 prerequisites: ["Mecánica Clásica I", "Electromagnetismo I"]
 semester: 8
 contributors: ["alvaro-siesquen"]
 pdf: false
-draft: true
 weight: 804
 date: 2022-09-09T16:00:00
 ---

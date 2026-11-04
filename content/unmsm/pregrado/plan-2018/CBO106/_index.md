@@ -13,7 +13,6 @@ semester: 1
 contributors: ["james"]
 working: true
 pdf: true
-draft: true
 weight: 105
 date: 2022-10-12T15:15:48+02:00
 ---

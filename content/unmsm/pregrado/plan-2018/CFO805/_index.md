@@ -12,7 +12,6 @@ prerequisites: ["Mecánica Clásica II", "Electromagnetismo II"]
 semester: 8
 contributors: ["alvaro-siesquen"]
 pdf: false
-draft: true
 weight: 805
 date: 2022-09-09T16:00:00
 ---

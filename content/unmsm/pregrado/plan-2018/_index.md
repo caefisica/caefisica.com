@@ -24,7 +24,7 @@ cascade:
       kind: page
       path: /unmsm/pregrado/plan-2018/**
   - params:
-      contributors: ["david"]
+      contributors: ["david-duran"]
       images: []
       layout: "single"
     target:
