@@ -130,3 +130,21 @@ A[Física Matemática III] --> B[Ecuaciones de la Física Matemática]
 ```
 
 `class` adds CSS classes to the container.
+
+## `transcripcion`
+
+A machine transcription of handwritten notes, shown chunk by chunk. Use it in a
+page bundle (`content/…/landi-01/index.md`). The bundle holds files `pXX-cYY.md`
+that the review bot at [review.rising.sh](https://review.rising.sh) writes; do
+not edit them by hand. Each file's front matter gives `status` (`machine`,
+`disputed`, `blurry` or `checked`), `page` and `reviewers`.
+
+```text
+{{< transcripcion >}}
+```
+
+The shortcode shows a draft notice and, per chunk, its page, its status and a
+link that opens that chunk on the review site. A `blurry` chunk shows no text.
+The text is printed raw so that LaTeX reaches KaTeX unchanged, so the section
+needs `math: true`. With no chunk files the page says the transcription is not
+published yet.

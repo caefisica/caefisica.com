@@ -1037,6 +1037,26 @@
     font-weight: 600;
   }
 
+  /* A transcribed chunk: raw text so that LaTeX reaches KaTeX unchanged. */
+  .transcript-chunk {
+    margin-block: 1.25rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--edge);
+
+    &[data-status="checked"] {
+      border-left-color: var(--link);
+    }
+
+    & p {
+      margin-bottom: 0.25rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  .transcript-text {
+    white-space: pre-wrap;
+  }
+
   /* Cards with a stretched link: the link's ::before covers the card, and later positioned links stay on top. */
   .card-link {
     color: var(--fg);
