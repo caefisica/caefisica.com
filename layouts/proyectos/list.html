@@ -1,10 +1,8 @@
 {{ define "main" }}
 {{- $all := hugo.Data.grants -}}
 {{- $years := slice -}}
-{{- $total := 0.0 -}}
-{{- range $all }}{{ with .start }}{{ $years = $years | append (substr . 0 4) }}{{ end }}{{ $total = add $total (.amount | default 0) }}{{ end -}}
+{{- range $all }}{{ with .start }}{{ $years = $years | append (substr . 0 4) }}{{ end }}{{ end -}}
 {{- $years = sort ($years | uniq) "value" "desc" -}}
-{{- $area := where $all "physics_area" true -}}
 {{- /* An organisation with fewer grants than this joins "Otras organizaciones", where each row names its organisation. */ -}}
 {{- $least := 3 -}}
 {{- $orgs := slice -}}
@@ -27,7 +25,6 @@
 	<div class="views">
 		{{ partial "ui/index-head.html" (dict "page" .
 			"tabs" (slice (dict "value" "anio" "label" "Año de inicio") (dict "value" "organizacion" "label" "Organización"))
-			"lead" (printf "%d proyectos que PROCIENCIA financia, %d en el área de ciencias físicas y el resto con alguien del <a href=\"%s\">mapa de físicos</a> en el equipo: S/ %s millones, con la institución y el monto de cada uno." (len $all) (len $area) ((site.GetPage "/fisicos").RelPermalink) (lang.FormatNumber 0 (div $total 1e6)))
 		)
 		}}
 

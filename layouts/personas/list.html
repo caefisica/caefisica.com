@@ -16,7 +16,7 @@
 {{- end -}}
 {{- with $people }}{{ $groups = $groups | append (dict "letter" $letter "people" .) }}{{ end -}}
 <div class="py-page">
-	{{ partial "ui/index-head.html" (dict "page" . "lead" (printf "%s, cada una con su página." (lang.FormatNumber 0 (len .Pages)))) }}
+	{{ partial "ui/index-head.html" (dict "page" .) }}
 	<nav class="flex flex-wrap gap-x-4 gap-y-1" aria-label="Letras">
 		{{- range $groups }}<a class="text-muted no-underline transition-colors hover:text-fg" href="#letra-{{ .letter | urlize }}">{{ .letter }}</a>{{ end }}
 	</nav>

@@ -3,10 +3,7 @@
 {{- $kinds := partial "organizaciones/kinds.html" -}}
 {{- $from := time.AsTime $data.research_from -}}
 <div class="py-page">
-	{{ partial "ui/index-head.html" (dict "page" .
-		"lead" (printf "%d universidades, institutos, empresas y entidades del Estado, %d del Perú, donde estudiaron o trabajan las personas del <a href=\"%s\">mapa de físicos</a>." (len $data.places) (len (where $data.places "country" "PE")) ((site.GetPage "/fisicos").RelPermalink))
-	)
-	}}
+	{{ partial "ui/index-head.html" (dict "page" .) }}
 
 	{{- range $kinds }}
 		{{- $rows := slice }}

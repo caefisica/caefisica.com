@@ -31,7 +31,6 @@
 	<div class="views">
 		{{ partial "ui/index-head.html" (dict "page" .
 			"tabs" (slice (dict "value" "area" "label" "Área") (dict "value" "anio" "label" "Año") (dict "value" "asesor" "label" "Asesor") (dict "value" "sustentacion" "label" "Sustentaciones"))
-			"lead" (printf "Las %d tesis de Cybertesis, de %d a %d, cada una con su resumen, su asesor y su jurado, junto a las sustentaciones que la facultad anunció." (len $theses) (int (index (last 1 $years) 0)) (int (index $years 0)))
 		)
 		}}
 

@@ -1,9 +1,7 @@
 {{ define "main" }}
 {{- $data := hugo.Data.journal -}}
 {{- $all := slice -}}
-{{- $years := slice -}}
-{{- range $i := $data.issues }}{{ range .articles }}{{ $all = $all | append (dict "article" . "issue" $i "issueNote" true) }}{{ end }}{{ with .year }}{{ $years = $years | append . }}{{ end }}{{ end -}}
-{{- $years = sort $years -}}
+{{- range $i := $data.issues }}{{ range .articles }}{{ $all = $all | append (dict "article" . "issue" $i "issueNote" true) }}{{ end }}{{ end -}}
 {{- /* An area with fewer articles than this joins "Otras áreas", where each row names its area. */ -}}
 {{- $least := 8 -}}
 {{- $names := slice -}}
@@ -34,7 +32,6 @@
 	<div class="views">
 		{{ partial "ui/index-head.html" (dict "page" .
 			"tabs" (slice (dict "value" "area" "label" "Área") (dict "value" "numero" "label" "Número") (dict "value" "autor" "label" "Autor"))
-			"lead" (printf "%d artículos, de %d a %d, número por número, con sus autores y el texto completo." (len $all) (int (index $years 0)) (int (index (last 1 $years) 0)))
 		)
 		}}
 

@@ -5,7 +5,6 @@ description:
   sustentaciones de la Facultad de Ciencias Físicas de San Marcos, de la PUCP y
   de grupos de física de la UNI y la UNT, con su video cuando lo hay, por serie
   y año.
-headline: Coloquios, seminarios y sustentaciones, grabados
 date: 2026-11-01
 draft: false
 ---
