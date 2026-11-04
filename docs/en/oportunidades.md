@@ -26,9 +26,20 @@ year alone when the source gives nothing more.
 A call that asks for physics also keeps `physics: true`, `fields` (the
 physics-family degrees it accepts), `skills` (the skills its terms name) and
 `degrees`, an excerpt of the degree requirements with contact details removed.
-Other calls keep only the fields listed above, because the calendar and the
-employer counts need nothing more. Only the Bumeran ads that ask for physics are
-kept.
+It also keeps what its terms say about the job and the selection, when they can
+be read:
+
+- `duties` and `knowledge`: up to six items each, copied from the terms'
+  functions and required knowledge;
+- `stages`: the selection stages it names, in the order of a SERVIR call
+  (curricular review, knowledge test, psychological test, interview), each with
+  its `weight` in the final score when the terms give one;
+- `days`: the days from publication to the last step of its schedule.
+
+A PDF that lists several posts gives each post its own duties and knowledge, and
+the whole call's stages and schedule. Other calls keep only the fields listed
+above, because the calendar and the employer counts need nothing more. Only the
+Bumeran ads that ask for physics are kept.
 
 ## When a call asks for physics
 
@@ -56,5 +67,27 @@ datos físico», «tienda física» and «información geoquímica y geofísica�
   employers.
 - **Empleadores**: the state and universities on one side and companies on the
   other, with their number of calls, the year of the first and the date of the
-  last. An employer links to its organisation page when a place in
-  `data/physicists.json` has that short name.
+  last. An employer links to its own page, below, or else to its organisation
+  page when a place in `data/physicists.json` has that short name.
+
+## Employer pages
+
+`content/oportunidades/_content.gotmpl` makes one page per employer with a
+physics call, except Bumeran companies, at `/oportunidades/<short name>/`. Its
+title is the place's full name when `data/physicists.json` has one.
+`layouts/oportunidades/single.html` draws it:
+
+- the aside sums up pay, schedule length, usual months, places and the
+  organisation page;
+- **Qué piden** counts the degrees and skills across its physics calls;
+- **Cómo es el proceso** lists the stages its terms name, how many calls name
+  each and the weight that repeats most;
+- **Cuándo publica** is the year-by-month table of all its calls;
+- **Convocatorias** shows each physics call with its duties, knowledge, stages
+  and a link to the terms. Each call's anchor is its `id`, and the rows on
+  `/oportunidades/` link there.
+
+The sections live in `layouts/_partials/oportunidades/employer-sections.html`.
+`tally.html` counts a list of names, `calendar.html` draws the year-by-month
+table for both the list and the employer page, and `employer-name.html` links a
+short name to its page.

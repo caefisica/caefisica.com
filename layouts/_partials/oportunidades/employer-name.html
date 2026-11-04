@@ -1,0 +1,6 @@
+{{- /* An employer's short name, linking its page under /oportunidades/ when it has one. Context: the name. */ -}}
+{{- with site.GetPage (printf "/oportunidades/%s" (urlize .)) -}}
+	<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+{{- else -}}
+	{{ . }}
+{{- end -}}

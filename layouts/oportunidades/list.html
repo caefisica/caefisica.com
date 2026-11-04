@@ -19,7 +19,7 @@
 {{- range $all }}{{ with .published }}{{ $years = $years | append (substr . 0 4) }}{{ end }}{{ end -}}
 {{- $years = sort ($years | uniq) -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%s convocatorias de %d empleadores, de %s a %s, copiadas de sus portales. %s piden una carrera de la familia de la física, como física, ingeniería física, física médica o geofísica. Cada fila abre las bases que publicó el empleador." (lang.FormatNumber 0 (len $all)) (len $employers) (index $years 0) (index (last 1 $years) 0) (lang.FormatNumber 0 (len $phys)))) }}
+	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%s convocatorias de %d empleadores, de %s a %s, copiadas de sus portales. %s piden una carrera de la familia de la física, como física, ingeniería física, física médica o geofísica. Cada entidad tiene su página: qué piden sus bases, cómo es su proceso y en qué meses publica." (lang.FormatNumber 0 (len $all)) (len $employers) (index $years 0) (index (last 1 $years) 0) (lang.FormatNumber 0 (len $phys)))) }}
 
 	<div class="views">
 		<fieldset class="pill-tabs">
@@ -33,7 +33,7 @@
 		<div class="view" data-view="fisica">
 			{{- range $groups }}
 				<section class="section-group band" id="{{ urlize .name }}">
-					<h2>{{ .name }} <span class="count">{{ .n }}</span></h2>
+					<h2>{{ partial "oportunidades/employer-name.html" .name }} <span class="count">{{ .n }}</span></h2>
 					<ul class="rows">
 						{{- range .rows }}{{ partial "oportunidades/row.html" (dict "posting" .) }}{{ end }}
 					</ul>
@@ -50,71 +50,28 @@
 		</div>
 
 		<div class="view" data-view="calendario">
-			<p class="text-muted">Cuántas convocatorias de prácticas publicó cada empleador, por mes, sean o no para físicos. Un empleador que convoca cada año en el mismo mes probablemente lo vuelva a hacer.</p>
+			<p class="text-muted">Prácticas de todas las carreras, no solo de física: quien convoca en el mismo mes varios años seguidos suele repetirlo.</p>
 			{{- range $employers }}
 				{{- $name := . }}
 				{{- $rows := slice }}
 				{{- range where $all "employer" $name }}{{ if and (hasPrefix .kind "Prácticas") (ge (len (.published | default "")) 7) }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
 				{{- if $rows }}
-					{{- $ys := slice }}
-					{{- range $rows }}{{ $ys = $ys | append (substr .published 0 4) }}{{ end }}
-					{{- $ys = sort ($ys | uniq) "value" "desc" }}
-					{{- /* For each month, the number of years with a call in it. */}}
-					{{- $often := slice }}
-					{{- range $m := seq 12 }}
-						{{- $mm := printf "-%02d-" $m }}
-						{{- $in := slice }}
-						{{- range $rows }}{{ if in .published $mm }}{{ $in = $in | append (substr .published 0 4) }}{{ end }}{{ end }}
-						{{- $n := len ($in | uniq) }}
-						{{- if ge $n 2 }}{{ $often = $often | append (dict "m" $m "n" $n) }}{{ end }}
-					{{- end }}
 					<section class="section-group band">
-						<h2>{{ $name }} {{ partial "ui/count.html" (dict "n" (len $rows) "one" "convocatoria" "many" "convocatorias") }}</h2>
-						<div>
-							<div class="opp-cal-wrap">
-								<table class="opp-cal">
-									<thead>
-										<tr>
-											<th scope="col"><span class="sr-only">Año</span></th>
-											{{- range seq 12 }}<th scope="col" title="{{ index $months (string .) }}">{{ substr (index $months (string .)) 0 3 }}</th>{{ end }}
-										</tr>
-									</thead>
-									<tbody>
-										{{- range $y := $ys }}
-											<tr>
-												<th scope="row">{{ $y }}</th>
-												{{- range $m := seq 12 }}
-													{{- $key := printf "%s-%02d-" $y $m }}
-													{{- $n := 0 }}
-													{{- range $rows }}{{ if hasPrefix .published $key }}{{ $n = add $n 1 }}{{ end }}{{ end }}
-													<td{{ if $n }} class="on" title="{{ $n }} en {{ index $months (string $m) }} de {{ $y }}"{{ end }}>{{ if $n }}{{ $n }}{{ end }}</td>
-												{{- end }}
-											</tr>
-										{{- end }}
-									</tbody>
-								</table>
-							</div>
-							{{- with $often }}
-								{{- $names := slice }}
-								{{- range first 3 (sort . "n" "desc") }}{{ $names = $names | append (printf "%s (%d años)" (index $months (string .m)) .n) }}{{ end }}
-								<p class="text-muted">Los meses con convocatorias en más años: {{ delimit $names ", " " y " }}.</p>
-							{{- end }}
-						</div>
+						<h2>{{ partial "oportunidades/employer-name.html" $name }} {{ partial "ui/count.html" (dict "n" (len $rows) "one" "convocatoria" "many" "convocatorias") }}</h2>
+						<div>{{ partial "oportunidades/calendar.html" $rows }}</div>
 					</section>
 				{{- end }}
 			{{- end }}
 		</div>
 
 		<div class="view" data-view="habilidad">
-			{{- $counts := dict }}
-			{{- range $phys }}{{ range .skills }}{{ $counts = merge $counts (dict . (add 1 (index $counts . | default 0))) }}{{ end }}{{ end }}
-			{{- $skills := slice }}
-			{{- range $name, $n := $counts }}{{ $skills = $skills | append (dict "name" $name "n" $n) }}{{ end }}
-			<p class="text-muted">Las habilidades que nombran las bases de las convocatorias que piden física, y quién las pide.</p>
+			{{- $named := slice }}
+			{{- range $phys }}{{ range .skills }}{{ $named = $named | append . }}{{ end }}{{ end }}
+			{{- $skills := partial "oportunidades/tally.html" $named }}
 			<section class="section-group band">
 				<h2>Habilidades <span class="count">{{ len $skills }}</span></h2>
 				<ul class="rows">
-					{{- range sort (sort $skills "name") "n" "desc" }}
+					{{- range $skills }}
 						{{- $skill := .name }}
 						{{- $by := slice }}
 						{{- range $phys }}{{ if in .skills $skill }}{{ $by = $by | append .employer }}{{ end }}{{ end }}
@@ -150,7 +107,10 @@
 								{{- $org := index (where $places "short" .name) 0 }}
 								<li class="group">
 									<div class="row-main">
-										{{- if $org }}
+										{{- $own := site.GetPage (printf "/oportunidades/%s" (urlize .name)) }}
+										{{- if $own }}
+											<a class="card-link" href="{{ $own.RelPermalink }}">{{ $own.Title }}</a>
+										{{- else if $org }}
 											<a class="card-link" href="{{ (site.GetPage (printf "/organizaciones/%s" $org.id)).RelPermalink }}">{{ $org.name }}</a>
 										{{- else }}
 											<span class="opp-employer">{{ .name }}</span>

@@ -192,7 +192,8 @@ una página por lugar de `data/physicists.json` (ver
 [organizaciones](organizaciones.md)), y `grupos`, una por grupo de
 `data/groups.json` (ver [grupos de investigación](grupos.md)). `revista` es una
 sola página que lista `data/journal.json` (ver [revista](revista.md)),
-`oportunidades`, una que lista `data/opportunities.json` (ver
+`oportunidades`, una que lista `data/opportunities.json` y, con su adaptador,
+una más por empleador con convocatorias de física (ver
 [oportunidades](oportunidades.md)), y `proyectos`, una que lista
 `data/grants.json` (ver [proyectos](proyectos.md)).
 

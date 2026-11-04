@@ -1,11 +1,16 @@
-{{- /* One posting in a list on /oportunidades/: title linking its bases, kind, careers and pay under it, month on the right. Context: dict with posting and optional note, which replaces the employer. */ -}}
+{{- /* One posting in a list on /oportunidades/: title, kind, careers and pay under it, month on the right. The title opens the posting's summary on its employer's page, or the ad itself for an employer with no page. Context: dict with posting and optional note, which replaces the employer. */ -}}
 {{- $p := .posting -}}
+{{- $page := site.GetPage (printf "/oportunidades/%s" (urlize $p.employer)) -}}
 {{- $bits := slice (.note | default $p.employer) $p.kind -}}
 {{- with $p.fields }}{{ $bits = $bits | append (delimit . ", ") }}{{ end -}}
 {{- with $p.stipend }}{{ $bits = $bits | append (printf "S/ %s" (lang.FormatNumber 0 .)) }}{{ end -}}
 <li class="group">
 	<div class="row-main">
-		<a class="card-link" href="{{ $p.url }}" target="_blank" rel="noopener">{{ $p.title }}</a>
+		{{- if $page }}
+			<a class="card-link" href="{{ $page.RelPermalink }}#{{ $p.id }}">{{ $p.title }}</a>
+		{{- else }}
+			<a class="card-link" href="{{ $p.url }}" target="_blank" rel="noopener">{{ $p.title }}</a>
+		{{- end }}
 		<p>{{ delimit $bits " · " }}</p>
 		{{- with $p.skills }}<p class="opp-skills">{{ delimit . ", " }}</p>{{ end }}
 	</div>

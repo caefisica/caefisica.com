@@ -190,7 +190,8 @@ series and one per talk from `data/recordings.json` (see
 one per group in `data/groups.json` (see [research groups](grupos.md)).
 `revista` is a single page that lists `data/journal.json` (see
 [journal](revista.md)), `oportunidades` one that lists `data/opportunities.json`
-(see [opportunities](oportunidades.md)), and `proyectos` one that lists
+plus, through its adapter, one per employer with physics calls (see
+[opportunities](oportunidades.md)), and `proyectos` one that lists
 `data/grants.json` (see [projects](proyectos.md)).
 
 ## Glossary
