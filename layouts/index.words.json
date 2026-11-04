@@ -1,0 +1,9 @@
+{{- /* Each word of four letters or more in a searchable page's title or keywords, the most used first. */ -}}
+{{- $count := newScratch }}
+{{- range where site.Pages "Kind" "ne" "home" }}
+  {{- $text := delimit (slice .Title | append (.Params.keywords | default slice)) " " }}
+  {{- range uniq (findRE `\p{L}{4,}` (lower $text)) }}{{ $count.Add . 1 }}{{ end }}
+{{- end }}
+{{- $words := slice }}
+{{- range $word, $n := $count.Values }}{{ $words = $words | append (dict "word" $word "n" $n) }}{{ end }}
+{{- jsonify (apply (sort $words "n" "desc") "index" "." "word") }}
