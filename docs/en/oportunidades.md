@@ -77,8 +77,8 @@ physics call, except Bumeran companies, at `/oportunidades/<short name>/`. Its
 title is the place's full name when `data/physicists.json` has one.
 `layouts/oportunidades/single.html` draws it:
 
-- the aside sums up pay, schedule length, usual months, places and the
-  organisation page;
+- the facts under the lead sum up pay, schedule length, usual months, places and
+  the organisation page;
 - **Qué piden** counts the degrees and skills across its physics calls;
 - **Cómo es el proceso** lists the stages its terms name, how many calls name
   each and the weight that repeats most;

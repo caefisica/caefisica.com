@@ -40,10 +40,10 @@ perfil enlaza la página de cada organización.
 
 La página de una organización y la de un grupo de investigación siguen el
 contrato de la página de una persona (ver [personas](contenido.md#personas)):
-cada sección abre con un `h2` con su cantidad, la fila de enlaces bajo el título
-sale de esos títulos, y una lista de ocho filas o más muestra cinco y un botón
-con el resto. `organizaciones/sections.html` y `grupos/sections.html` arman las
-secciones; `ui/page-map.html` arma la fila de enlaces.
+cada sección abre con un `h2` con su cantidad, y una lista de ocho filas o más
+muestra cinco y un botón con el resto. `organizaciones/sections.html` y
+`grupos/sections.html` arman las secciones. El `summary` de un grupo es el
+párrafo bajo su título.
 
 ## Actualizar
 

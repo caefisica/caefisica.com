@@ -4,7 +4,7 @@ const keep = 5;
 const min = keep + 3;
 
 for (const list of document.querySelectorAll<HTMLElement>(
-  ".person-page .rows",
+  ".story-body .rows",
 )) {
   const rest = [...list.children].slice(keep) as HTMLElement[];
   if (rest.length + keep < min) continue;

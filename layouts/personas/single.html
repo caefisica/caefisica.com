@@ -36,7 +36,7 @@
 		{{- $lead = $row.about | default (cond (gt (len $courses) 0) "Docente de la Facultad de Ciencias Físicas, UNMSM" "") -}}
 	{{- end -}}
 {{- end -}}
-{{- /* The trajectory and the blocks render before the page so the page map can list their headings and counts. The order puts what the person did before what the site holds about them. */ -}}
+{{- /* The order puts what the person did before what the site holds about them. */ -}}
 {{- $trajectory := "" -}}
 {{- with $p }}{{ $trajectory = partial "personas/trajectory.html" (dict "page" $ "person" . "places" $places) }}{{ end -}}
 {{- $blocks := slice
@@ -54,20 +54,16 @@
 -}}
 {{- /* A link to this page inside its own sections, such as the person as an author, reads as plain text. */ -}}
 {{- $body := replaceRE (printf `<a href="%s">([^<]*)</a>` .RelPermalink) "$1" (delimit $blocks "") -}}
-<article class="person-page py-page">
+<article class="story py-page">
 	{{ partial "article/breadcrumbs.html" . }}
-	<header class="person-head">
-		{{ partial "ui/avatar.html" (dict "page" . "size" 72 "eager" true "initials" $initials) }}
-		<div>
-			<h1>{{ .Title }}</h1>
-			{{- with $lead }}<p class="text-lead">{{ . }}</p>{{ end }}
-		</div>
-	</header>
-	<aside class="person-aside">
-		{{- if $p }}
-			<section class="facts" aria-labelledby="person-info">
-				<h2 id="person-info">En breve</h2>
-				<dl>
+	{{ partial "ui/avatar.html" (dict "page" . "size" 72 "eager" true "initials" $initials) }}
+	<h1>{{ .Title }}</h1>
+	<div class="story-rule" aria-hidden="true"></div>
+	<div class="story-body">
+		<div class="story-lead">
+			{{- with $lead }}<p class="story-intro">{{ . }}.</p>{{ end }}
+			{{- if $p }}
+				<dl class="story-info">
 					{{- /* A data page's lead already names the highest degree; a written page's role does not. */}}
 					{{- if .Params.role }}
 						{{- with $p.degree }}
@@ -144,11 +140,8 @@
 						</div>
 					{{- end }}
 				</dl>
-			</section>
-		{{- end }}
-		{{ partial "ui/page-map.html" (print $trajectory $body) }}
-	</aside>
-	<div>
+			{{- end }}
+		</div>
 		<div class="markdown">
 			{{ .Content }}
 			{{ $trajectory | safeHTML }}

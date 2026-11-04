@@ -6,17 +6,14 @@
 {{- $from := time.AsTime $data.works_from -}}
 {{- $vrip := eq $g.institution "unmsm" -}}
 {{- .Store.Set "more" true -}}
-<article class="person-page py-page">
+<article class="story py-page">
 	{{ partial "article/breadcrumbs.html" . }}
-	<header>
-		<h1>{{ .Title }}</h1>
-		<p class="text-lead">Grupo de investigación · {{ $place.short | default $place.name }}</p>
-	</header>
-	{{- $body := partial "grupos/sections.html" $g }}
-	<aside class="person-aside">
-		<section class="facts" aria-labelledby="group-info">
-			<h2 id="group-info">En breve</h2>
-			<dl>
+	<h1>{{ .Title }}</h1>
+	<div class="story-rule" aria-hidden="true"></div>
+	<div class="story-body">
+		<div class="story-lead">
+			<p class="story-intro">{{ $g.summary | default (printf "Grupo de investigación · %s." ($place.short | default $place.name)) }}</p>
+			<dl class="story-info">
 				<div>
 					<dt>Institución</dt>
 					<dd><a href="{{ (site.GetPage (printf "/organizaciones/%s" $place.id)).RelPermalink }}">{{ $place.name }}</a></dd>
@@ -62,11 +59,8 @@
 					<dd><a href="{{ $g.url }}">{{ cond $vrip "VRIP de la UNMSM" "Directorio de la PUCP" }}</a></dd>
 				</div>
 			</dl>
-		</section>
-		{{ partial "ui/page-map.html" $body }}
-	</aside>
-	<div>
-		{{ $body }}
+		</div>
+		{{ partial "grupos/sections.html" $g }}
 		<p class="person-note text-muted">
 			{{- if $vrip }}
 				Los integrantes, las líneas y los proyectos vienen de la <a href="{{ $g.url }}">ficha del grupo</a> en el Vicerrectorado de Investigación y Posgrado de la UNMSM, copiada el {{ partial "ui/date.html" (time.AsTime (index $data.fetched "vrip")) }}.{{ with $g.summary }} El resumen es nuestro; la ficha trae la presentación, los objetivos y los servicios que da el propio grupo.{{ end }}
