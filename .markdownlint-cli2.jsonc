@@ -10,5 +10,10 @@
     "MD035": false, // oxfmt writes the rule after front matter as ***
     "MD034": false, // We use bare URLs on shortcodes
   },
-  "ignores": ["node_modules", "CHANGELOG.md"],
+  "ignores": [
+    "node_modules",
+    "CHANGELOG.md",
+    // The review bot writes these chunks; they are model output, not prose.
+    "content/apuntes/**/p[0-9][0-9]-c[0-9][0-9].md",
+  ],
 }
