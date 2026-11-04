@@ -1,15 +1,16 @@
 import params from "@params";
 
+type Found = { results: { data(): Promise<Result> }[] };
+
 type Pagefind = {
   options(options: object): Promise<void>;
   init(): Promise<void>;
+  search(query: string): Promise<Found>;
   debouncedSearch(
     query: string,
     options?: object,
     timeout?: number,
-  ): Promise<{
-    results: { data(): Promise<Result> }[];
-  } | null>;
+  ): Promise<Found | null>;
 };
 
 type Result = {
@@ -34,7 +35,12 @@ let engine: Promise<Pagefind> | undefined;
 function load(): Promise<Pagefind> {
   engine ??= import(`${params.bundlePath}pagefind.js`).then(
     async (pagefind: Pagefind) => {
-      await pagefind.options({ excerptLength: 16 });
+      // Hub pages (a course, a university, the study plan) are long, and Pagefind's default
+      // pageLength of 0.75 ranks them under short pages that mention the word once.
+      await pagefind.options({
+        excerptLength: 16,
+        ranking: { metaWeights: { keywords: 10 }, pageLength: 0.2 },
+      });
       await pagefind.init();
       return pagefind;
     },
@@ -97,6 +103,27 @@ function message(html: string) {
   select(undefined);
 }
 
+// Pagefind requires every word to match and has no typo tolerance, so one misspelt or
+// extra word empties the list. Drop the rarest word, the likeliest typo or the idea the
+// site lacks, until some results come back.
+async function relax(
+  pagefind: Pagefind,
+  query: string,
+): Promise<{ query: string; found: Found } | undefined> {
+  const words = query.split(/\s+/);
+  if (words.length < 2) return;
+  const alone = await Promise.all(words.map((w) => pagefind.search(w)));
+  const hits = new Map(words.map((w, i) => [w, alone[i].results.length]));
+  const kept = words.filter((w) => hits.get(w));
+  while (kept.length) {
+    const shorter = kept.join(" ");
+    const found = await pagefind.search(shorter);
+    if (found.results.length) return { query: shorter, found };
+    const rarest = kept.reduce((a, b) => (hits.get(b)! < hits.get(a)! ? b : a));
+    kept.splice(kept.indexOf(rarest), 1);
+  }
+}
+
 async function search(query: string) {
   if (!query) {
     list.replaceChildren(...suggestions);
@@ -105,8 +132,14 @@ async function search(query: string) {
     return;
   }
   let found;
+  let shown = query;
   try {
-    found = await (await load()).debouncedSearch(query, {}, 120);
+    const pagefind = await load();
+    found = await pagefind.debouncedSearch(query, {}, 120);
+    if (found && !found.results.length && input.value.trim() === query) {
+      const relaxed = await relax(pagefind, query);
+      if (relaxed) ({ query: shown, found } = relaxed);
+    }
   } catch {
     message(
       "La búsqueda no está disponible. Revisa tu conexión y vuelve a intentarlo.",
@@ -129,10 +162,12 @@ async function search(query: string) {
   );
   if (input.value.trim() !== query) return;
   list.innerHTML = data.map(render).join("");
-  const count =
+  let count =
     total > LIMIT
       ? `${LIMIT} de ${total} resultados`
       : `${total} ${total === 1 ? "resultado" : "resultados"}`;
+  if (shown !== query)
+    count = `Sin resultados para «${query}» · ${count} para «${shown}»`;
   show(count, count);
   select(options()[0]);
 }
