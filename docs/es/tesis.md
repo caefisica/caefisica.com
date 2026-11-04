@@ -63,3 +63,6 @@ menos de ocho trabajos entra en «Otras áreas», donde cada fila dice su área.
 vista por asesor muestra a quienes asesoraron tres trabajos o más. La vista de
 sustentaciones agrupa las invitaciones por año; cada fila abre la tesis si ya
 está en Cybertesis y la invitación si no.
+
+La página de una tesis termina con las charlas sobre su tema, si las hay (ver
+[charlas](grabaciones.md#charlas-y-tesis-relacionadas)).

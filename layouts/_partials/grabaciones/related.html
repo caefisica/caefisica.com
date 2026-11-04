@@ -1,0 +1,19 @@
+{{- /* The talks and theses on the subject of one talk, from data/related.json. An id that data/recordings.json or data/theses.json no longer holds is skipped, because related.json is written after them. Context: the talk's id. */ -}}
+{{- $rel := index (hugo.Data.related.recordings | default dict) . -}}
+{{- $talks := slice -}}
+{{- range $rel.talks }}{{ with index (where hugo.Data.recordings.recordings "id" .) 0 }}{{ $talks = $talks | append . }}{{ end }}{{ end -}}
+{{- $theses := slice -}}
+{{- range $rel.theses }}{{ with index (where hugo.Data.theses.theses "id" .) 0 }}{{ $theses = $theses | append . }}{{ end }}{{ end -}}
+{{- with $talks }}
+	<h2 id="relacionadas">Charlas relacionadas</h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "grabaciones/row.html" (dict "recording" . "note" (index (where hugo.Data.recordings.series "id" .series) 0).name) }}{{ end }}
+	</ul>
+{{- end }}
+{{- with $theses }}
+	<h2 id="tesis">Tesis relacionadas</h2>
+	<ul class="rows">
+		{{- range . }}{{ partial "tesis/row.html" (dict "thesis" .) }}{{ end }}
+	</ul>
+{{- end }}
+{{- /**/ -}}

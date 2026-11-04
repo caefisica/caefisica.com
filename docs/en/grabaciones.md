@@ -98,3 +98,16 @@ Talks name people in short form, and the registries use the full name. If there
 are two matches in the same registry, the name appears without a link.
 
 The profile lists that person's talks under "Charlas", with their series.
+
+## Related talks and theses
+
+A talk's page ends with up to three "Charlas relacionadas" and up to three
+"Tesis relacionadas". A thesis page lists up to three talks. They come from
+`data/related.json`, which is not edited by hand either: it is generated outside
+this repository. The multilingual-e5-large model turns each talk (title and
+Educast summary) and each thesis (title) into a vector. A pair enters when its
+similarity reaches 0.35. Below that cut, pairs no longer share a subject.
+Faculty Council sessions do not enter, because they have no subject.
+
+`related.json` is generated after `recordings.json` and `theses.json`. If it
+names a talk or a thesis that is no longer there, the page skips it.

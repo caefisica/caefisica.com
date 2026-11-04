@@ -64,3 +64,6 @@ than eight works goes into "Otras áreas", where each row says its area. The vie
 by adviser shows those who advised three works or more. The defences view groups
 the invitations by year; each row opens the thesis if it is already in
 Cybertesis and the invitation if not.
+
+A thesis page ends with the talks on its subject, if there are any (see
+[talks](grabaciones.md#related-talks-and-theses)).

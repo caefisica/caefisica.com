@@ -101,6 +101,7 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video, a
 				{{- end }}
 			</dl>
 		</section>
+		{{ partial "grabaciones/related.html" $r.id }}
 		<p class="text-muted text-sm">Datos al {{ partial "ui/date.html" (time.AsTime $data.fetched) }}.{{ if ne $r.host "Invitación" }} El video se reproduce desde su sitio original.{{ end }}</p>
 		{{ partial "article/page-footer.html" . }}
 	</div>
