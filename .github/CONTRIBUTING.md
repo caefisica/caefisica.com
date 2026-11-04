@@ -12,8 +12,6 @@ reportar un error o proponer algo, usa las
 3. Pulsa «Commit changes» y describe qué cambiaste. GitHub te guía para abrir un
    pull request.
 
-El esquema de campos que ofrece Pages CMS está en [`.pages.yml`](../.pages.yml).
-
 ## Trabajar en tu equipo
 
 Necesitas `git` y [mise](https://mise.jdx.dev).
