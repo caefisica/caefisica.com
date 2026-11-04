@@ -1,5 +1,6 @@
 ---
 title: Charlas
+headline: Coloquios, seminarios y sustentaciones, grabados
 description:
   Seminarios, coloquios, conferencias, sesiones del Consejo de Facultad y
   sustentaciones de la Facultad de Ciencias Físicas de San Marcos, de la PUCP y

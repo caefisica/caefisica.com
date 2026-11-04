@@ -1,7 +1,12 @@
-{{- /* Context: dict with page and optional tabs (a slice of dicts with value and label, the first checked). The tabs switch views only inside a .views block. */ -}}
+{{- /* The header crumb already names the section, so the h1 is the section's `headline`, a statement, and a section without one keeps its title for screen readers only. Every index cuts its long lists, so the head loads rows-more.ts. Context: dict with page and optional tabs (a slice of dicts with value and label, the first checked). The tabs switch views only inside a .views block. */ -}}
 {{- $page := .page }}
+{{- $page.Store.Set "more" true }}
 <header class="index-head">
-	<h1>{{ $page.Title }}</h1>
+	{{- with $page.Params.headline }}
+		<h1>{{ . }}</h1>
+	{{- else }}
+		<h1 class="sr-only">{{ $page.Title }}</h1>
+	{{- end }}
 	{{- with .tabs }}
 		<fieldset class="index-tabs">
 			<legend class="sr-only">Ver por</legend>

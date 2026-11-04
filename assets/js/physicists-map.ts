@@ -996,6 +996,11 @@ function panel(
         const copy = s.cloneNode(true) as HTMLElement;
         copy.removeAttribute("id");
         copy.className = "map-place";
+        // The panel shows the whole place, whatever the list below has cut.
+        copy.hidden = false;
+        for (const row of copy.querySelectorAll<HTMLElement>("[hidden]"))
+          row.hidden = false;
+        for (const more of copy.querySelectorAll(".rows-more")) more.remove();
         return copy;
       });
     open(sections);

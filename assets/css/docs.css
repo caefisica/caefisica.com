@@ -1552,9 +1552,16 @@
     }
 
     & > h1 {
+      max-width: 22ch;
       margin: 0 0 0 -0.125rem;
       font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
-      line-height: 1;
+      line-height: 1.05;
+      text-wrap: balance;
+    }
+
+    /* A head with only a screen-reader title takes no space. */
+    &:not(:has(> :not(.sr-only))) {
+      display: contents;
     }
 
     & ~ .view > .section-group:first-child,
@@ -2157,6 +2164,23 @@
 
     &:hover {
       background: var(--surface);
+    }
+
+    /* On an index the button sits under the rows, in the band's row column. */
+    .band &,
+    .band + & {
+      margin: 1rem 0 0;
+
+      @media (width >= 62rem) {
+        grid-column: 2;
+        justify-self: start;
+      }
+    }
+
+    .band + & {
+      @media (width >= 62rem) {
+        margin-left: 15rem;
+      }
     }
   }
 

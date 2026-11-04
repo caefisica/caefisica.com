@@ -48,6 +48,11 @@ processes". Search engines show it, and a section index puts it under the page
 title. A course does not show it there: its row carries the code and the
 credits. Without such a sentence, leave the field empty.
 
+On a top-level section's index, the header crumb already names the section, so
+`headline` is the h1: a short statement of what the section shows, such as
+"Quién contrata físicos en el Perú". Without it the title stays for screen
+readers only and the page opens on its content.
+
 `unmsm/pregrado/_index.md` is not published (`build.render: never`):
 `/unmsm/pregrado/` redirects to `plan-2018/`, the only plan.
 
