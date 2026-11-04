@@ -13,7 +13,7 @@ rssLimit = 10
 pagerSize = 7
 
 [outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS", "WORDS"]
 section = ["HTML", "RSS"]
 
 [mediaTypes."text/x-cloudflare-assets"]
@@ -29,6 +29,13 @@ notAlternative = true
 [outputFormats.HEADERS]
 mediaType = "text/x-cloudflare-assets"
 baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+# The words a misspelt search is corrected to; see correct() in assets/js/search.ts.
+[outputFormats.WORDS]
+mediaType = "application/json"
+baseName = "search-words"
 isPlainText = true
 notAlternative = true
 

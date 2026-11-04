@@ -97,6 +97,16 @@ tildes, al filtro `exact`: una búsqueda igual a una de ellas pone esa página
 primero, así «uni» encuentra la Universidad Nacional de Ingeniería antes que
 todas las páginas que dicen «universidad».
 
+Hugo también escribe `public/search-words.json`
+([`layouts/index.words.json`](../../layouts/index.words.json)): cada palabra de
+cuatro letras o más de los títulos y las `keywords`, la más usada primero.
+Pagefind no tolera erratas y une una palabra que no conoce con cualquier palabra
+indexada con la que empiece, así «optcia» encuentra páginas sobre «opt». Cuando
+ninguna palabra de título empieza con la palabra buscada y su mejor resultado no
+marca ninguna que lo haga, el buscador la cambia por la palabra de título más
+cercana, a una o dos ediciones, y muestra «¿Quisiste decir «óptica»?» con los
+resultados de la búsqueda corregida.
+
 `bun run dev` ejecuta `build` antes, así que el índice también existe en local y
 el buscador funciona.
 

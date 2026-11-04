@@ -96,6 +96,15 @@ course's title also go, lowercase and without accents, into the `exact` filter:
 a search equal to one of them puts that page first, so "uni" finds the
 Universidad Nacional de Ingeniería before every page that says "universidad".
 
+Hugo also writes `public/search-words.json`
+([`layouts/index.words.json`](../../layouts/index.words.json)): every word of
+four letters or more in a page title or keywords, the most used first. Pagefind
+has no typo tolerance and matches an unknown word through any indexed word it
+starts with, so "optcia" finds pages about "opt". When no title word starts with
+a searched word and its best result marks no word that does, search swaps it for
+the closest title word within one or two edits and shows "¿Quisiste decir
+«óptica»?" with the results for the corrected search.
+
 `bun run dev` runs `build` first, so the index also exists locally and search
 works.
 
