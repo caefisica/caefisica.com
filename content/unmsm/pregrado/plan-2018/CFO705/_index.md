@@ -12,7 +12,6 @@ prerequisites: ["No aplica"]
 semester: 7
 contributors: ["alvaro-siesquen"]
 pdf: false
-draft: true
 weight: 705
 date: 2022-09-09T16:00:00
 ---

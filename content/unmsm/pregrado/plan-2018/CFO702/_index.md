@@ -12,7 +12,6 @@ prerequisites: ["Física Electrónica I"]
 semester: 7
 contributors: ["alvaro-siesquen"]
 pdf: false
-draft: true
 weight: 702
 date: 2022-09-09T16:00:00
 ---
