@@ -154,7 +154,6 @@ página.
 | `scripts/`      | `openalex.ts` y `playlists.ts` escriben `data/researchers/` y `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` revisa las páginas generadas contra la CSP; `views.ts` revisa que `docs.css` muestre cada radio de vista. |
 | `.github/`      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                                                                                                                                                                          |
 | `wrangler.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                                                                               |
-| `.pages.yml`    | Esquema de los campos de Pages CMS.                                                                                                                                                                                                        |
 
 ## Configuración
 

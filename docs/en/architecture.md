@@ -152,7 +152,6 @@ carry `data-pagefind-ignore="all"`, so results show only the page's text.
 | `scripts/`      | `openalex.ts` and `playlists.ts` write `data/researchers/` and `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` checks the built pages against the CSP; `views.ts` checks that `docs.css` shows every view radio. |
 | `.github/`      | Workflows, issue templates and `CONTRIBUTING.md`.                                                                                                                                                                                   |
 | `wrangler.toml` | Deployment. See [deployment](despliegue.md).                                                                                                                                                                                        |
-| `.pages.yml`    | Schema of the Pages CMS fields.                                                                                                                                                                                                     |
 
 ## Configuration
 
