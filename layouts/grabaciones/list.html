@@ -1,13 +1,9 @@
 {{ define "main" }}
 {{- $data := hugo.Data.recordings -}}
 {{- $all := $data.recordings -}}
-{{- $videos := len (where $all "host" "ne" "Invitación") -}}
 {{- $series := where $data.series "organiser" "ne" nil -}}
 <div class="py-page">
-	{{ partial "ui/index-head.html" (dict "page" .
-		"lead" (printf "%d grabaciones, %d con video, de la Facultad de Ciencias Físicas, de la Sección Física de la PUCP y de grupos de física de la UNI y la UNT." (len $all) $videos)
-	)
-	}}
+	{{ partial "ui/index-head.html" (dict "page" .) }}
 
 	{{ partial "grabaciones/latest.html" $data }}
 

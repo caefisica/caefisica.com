@@ -1,20 +1,10 @@
 {{ define "main" }}
 {{- $paths := slice }}
-{{- $lists := 0 }}
-{{- $lessons := 0 }}
-{{- $seconds := 0 }}
-{{- range .Pages }}
-	{{- $paths = $paths | append .Params.courses }}
-	{{- with .Params.lessons }}{{ $lists = add $lists 1 }}{{ end }}
-	{{- range .Params.lessons }}{{ $lessons = add $lessons 1 }}{{ $seconds = add $seconds .duration }}{{ end }}
-{{- end }}
+{{- range .Pages }}{{ $paths = $paths | append .Params.courses }}{{ end }}
 {{- $courses := slice }}
 {{- range uniq $paths }}{{ with site.GetPage . }}{{ $courses = $courses | append . }}{{ end }}{{ end }}
 <div class="py-page">
-	{{ partial "ui/index-head.html" (dict "page" .
-		"lead" (printf "%d listas, %s clases y %s de video, de profesores de todo el mundo, ordenadas por el curso del plan en que te sirven." $lists (lang.FormatNumber 0 $lessons) (partial "ui/duration.html" (dict "seconds" $seconds "total" true)))
-	)
-	}}
+	{{ partial "ui/index-head.html" (dict "page" .) }}
 	{{- range sort $courses "Weight" }}
 		{{- $course := . }}
 		<section class="section-group band">

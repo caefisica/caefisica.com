@@ -3,8 +3,6 @@ title: "Contacto"
 description:
   "Escríbenos para colaborar con las guías, proponer material o avisarnos de un
   error."
-headline: "Escríbenos"
-lead: "Para colaborar con las guías, proponer material o avisarnos de un error."
 date: 2021-09-06T13:06:08-03:00
 draft: false
 channels:

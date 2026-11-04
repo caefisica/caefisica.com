@@ -19,7 +19,6 @@
 	<div class="views">
 		{{ partial "ui/index-head.html" (dict "page" .
 			"tabs" (slice (dict "value" "fisica" "label" "Piden física") (dict "value" "calendario" "label" "Calendario de prácticas") (dict "value" "habilidad" "label" "Habilidades") (dict "value" "empleador" "label" "Empleadores"))
-			"lead" (printf "%s convocatorias de %d empleadores, %s abiertas a física: qué piden sus bases, cómo evalúan y en qué meses convocan." (lang.FormatNumber 0 (len $all)) (len $employers) (lang.FormatNumber 0 (len $phys)))
 		)
 		}}
 

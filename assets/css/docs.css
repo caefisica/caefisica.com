@@ -1556,6 +1556,11 @@
       font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
       line-height: 1;
     }
+
+    & ~ .view > .section-group:first-child,
+    & + .section-group {
+      margin-top: 0;
+    }
   }
 
   .index-tabs {
@@ -1593,43 +1598,6 @@
       outline: 2px solid var(--link);
       outline-offset: 2px;
       border-radius: 0.25rem;
-    }
-  }
-
-  .index-intro {
-    max-width: 60rem;
-    margin: 0;
-    padding-block: 2rem 2.5rem;
-    color: var(--fg);
-    font-size: clamp(1.5rem, 1rem + 2vw, 3rem);
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: -0.022em;
-    text-wrap: pretty;
-
-    @media (width >= 62rem) {
-      padding-block: 4rem;
-    }
-
-    & > span {
-      color: var(--muted);
-    }
-
-    & ~ .view > .section-group:first-child,
-    & + .section-group {
-      margin-top: 0;
-    }
-
-    & a {
-      color: inherit;
-      text-decoration: underline;
-      text-decoration-color: var(--underline);
-      text-decoration-thickness: from-font;
-      text-underline-offset: 0.15em;
-
-      &:hover {
-        text-decoration-color: currentcolor;
-      }
     }
   }
 

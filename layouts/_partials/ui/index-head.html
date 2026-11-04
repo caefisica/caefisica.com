@@ -1,4 +1,4 @@
-{{- /* Context: dict with page, optional tabs (a slice of dicts with value and label, the first checked) and optional lead, which defaults to the page's lead. The tabs switch views only inside a .views block. */ -}}
+{{- /* Context: dict with page and optional tabs (a slice of dicts with value and label, the first checked). The tabs switch views only inside a .views block. */ -}}
 {{- $page := .page }}
 <header class="index-head">
 	<h1>{{ $page.Title }}</h1>
@@ -11,6 +11,3 @@
 		</fieldset>
 	{{- end }}
 </header>
-{{- with $page.Params.headline }}
-	<p class="index-intro">{{ . }}.{{ with $.lead | default $page.Params.lead }} <span>{{ . | safeHTML }}</span>{{ end }}</p>
-{{- end }}

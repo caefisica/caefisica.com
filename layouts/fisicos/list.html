@@ -55,13 +55,10 @@
 {{- .Store.Set "physicistsMap" (dict "land" $land.RelPermalink "places" ($pins | jsonify) "people" ($routes | jsonify)) -}}
 
 <div class="py-page">
-	{{- $countries := slice }}
-	{{- range $data.places }}{{ with .country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}
 	{{- /* A radio group, so the views switch without script. A browser without :has shows them all. The map is no view, so it stays in every one. */}}
 	<div class="views">
 		{{ partial "ui/index-head.html" (dict "page" .
 			"tabs" (slice (dict "value" "lugar" "label" "Institución") (dict "value" "area" "label" "Área") (dict "value" "formacion" "label" "Formación") (dict "value" "persona" "label" "Persona"))
-			"lead" (printf "%s personas en %d instituciones de %d países: quienes estudiaron física o geofísica, y quienes llegaron a la física desde la ingeniería u otra carrera." (lang.FormatNumber 0 (len $data.people)) (len $places) (len ($countries | uniq)))
 		)
 		}}
 
