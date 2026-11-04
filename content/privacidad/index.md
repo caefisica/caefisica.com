@@ -4,7 +4,7 @@ description:
   "Qué guarda el sitio de @caefisica en tu navegador, qué servicios externos
   carga y quién ve tu visita."
 date: 2020-08-27T19:23:18+02:00
-lastmod: 2026-11-03T00:00:00-05:00
+lastmod: 2026-11-04T00:00:00-05:00
 draft: false
 images: []
 ---
@@ -49,11 +49,10 @@ El buscador del sitio corre en tu navegador: tus búsquedas no salen de él.
 
 ## 3. Alojamiento
 
-El sitio se sirve desde Cloudflare y Netlify. Como todo servidor web, registran
-cada petición (dirección IP, navegador, página pedida) para entregar el sitio y
-protegerlo de ataques. @caefisica no usa esos registros. Sus políticas:
-[Cloudflare](https://www.cloudflare.com/es-es/privacypolicy/) y
-[Netlify](https://www.netlify.com/privacy/).
+El sitio se sirve desde Cloudflare. Como todo servidor web, registra cada
+petición (dirección IP, navegador, página pedida) para entregar el sitio y
+protegerlo de ataques. @caefisica no usa esos registros. Su política:
+[Cloudflare](https://www.cloudflare.com/es-es/privacypolicy/).
 
 ## 4. Datos de personas en el sitio
 
