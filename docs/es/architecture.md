@@ -136,24 +136,26 @@ página.
 
 **El servidor.** [`wrangler.toml`](../../wrangler.toml) define el Worker `web`:
 `assets.directory = "./public"` lo sirve y las rutas inexistentes devuelven
-`404.html` (`not_found_handling = "404-page"`). El host sale de `baseURL` en
-[`config/_default/config.toml`](../../config/_default/config.toml). Detalles:
-[despliegue](despliegue.md).
+`404.html` (`not_found_handling = "404-page"`). Su script, `worker/index.ts`,
+responde solo `/api/search`, que registra las búsquedas. El host sale de
+`baseURL` en [`config/_default/config.toml`](../../config/_default/config.toml).
+Detalles: [despliegue](despliegue.md).
 
 ## Mapa del código
 
-| Ruta            | Responsabilidad                                                                                                                                                                                                                            |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `content/`      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).                                                                                                                                                                |
-| `layouts/`      | Plantillas Go de Hugo, shortcodes y parciales.                                                                                                                                                                                             |
-| `assets/`       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                                                                                                                                                        |
-| `static/`       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                                                                                                                                              |
-| `data/`         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros.                                                                                                                                                              |
-| `config/`       | Configuración de Hugo por entorno.                                                                                                                                                                                                         |
-| `archetypes/`   | Moldes de `hugo new`.                                                                                                                                                                                                                      |
-| `scripts/`      | `openalex.ts` y `playlists.ts` escriben `data/researchers/` y `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` revisa las páginas generadas contra la CSP; `views.ts` revisa que `docs.css` muestre cada radio de vista. |
-| `.github/`      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                                                                                                                                                                          |
-| `wrangler.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                                                                               |
+| Ruta            | Responsabilidad                                                                                                                                                                                                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `content/`      | Páginas en Markdown, YAML de recursos y PDF. Ver [contenido](contenido.md).                                                                                                                                                                                                                |
+| `layouts/`      | Plantillas Go de Hugo, shortcodes y parciales.                                                                                                                                                                                                                                             |
+| `assets/`       | CSS, TypeScript, fuentes e iconos que Hugo compila.                                                                                                                                                                                                                                        |
+| `static/`       | Archivos que se copian tal cual: favicons, imágenes, fuentes.                                                                                                                                                                                                                              |
+| `data/`         | JSON y YAML leídos con `hugo.Data`: cabeceras CSP, meses, portada y miembros.                                                                                                                                                                                                              |
+| `config/`       | Configuración de Hugo por entorno.                                                                                                                                                                                                                                                         |
+| `archetypes/`   | Moldes de `hugo new`.                                                                                                                                                                                                                                                                      |
+| `scripts/`      | `openalex.ts` y `playlists.ts` escriben `data/researchers/` y `data/playlists/`; `landmask.ts`, `assets/maps/land.bin`; `csp.ts` revisa las páginas generadas contra la CSP; `views.ts` revisa que `docs.css` muestre cada radio de vista; `searches.ts` imprime el registro de búsquedas. |
+| `worker/`       | El script del Worker: `/api/search` escribe el registro de búsquedas. Ver [despliegue](despliegue.md).                                                                                                                                                                                     |
+| `.github/`      | Flujos de trabajo, plantillas de incidencias y `CONTRIBUTING.md`.                                                                                                                                                                                                                          |
+| `wrangler.toml` | Despliegue. Ver [despliegue](despliegue.md).                                                                                                                                                                                                                                               |
 
 ## Configuración
 

@@ -15,6 +15,22 @@ solo ahí.
 - `account_id` es la cuenta que recibe el despliegue.
 - `assets.directory = "./public"` sirve el sitio; las rutas inexistentes
   devuelven `404.html` (`not_found_handling = "404-page"`).
+- `main = "./worker/index.ts"` responde solo `/api/*` (`run_worker_first`). Las
+  demás rutas son archivos estáticos y no ejecutan el script.
+
+## Registro de búsquedas
+
+Cuando el lector cierra el diálogo de búsqueda o sale de la página, `search.ts`
+envía la última búsqueda a `POST /api/search`: las palabras, el número de
+resultados y la búsqueda más corta que se mostró cuando nada coincidía. El
+Worker las escribe en el dataset `searches` de Workers Analytics Engine,
+enlazado como `SEARCHES`. No guarda IP, cookies, user agent ni página. Analytics
+Engine conserva los datos tres meses.
+
+`bun run searches [días]` imprime las búsquedas más frecuentes de los últimos 7
+días y las que no encontraron nada. Necesita `CLOUDFLARE_ANALYTICS_TOKEN`, un
+token con el permiso de cuenta **Account Analytics: Read**. El token de
+despliegue no lo necesita.
 
 ## Publicación
 

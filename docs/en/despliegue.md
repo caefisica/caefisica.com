@@ -15,6 +15,22 @@ change it only there.
 - `account_id` is the account that receives the deployment.
 - `assets.directory = "./public"` serves the site; missing routes return
   `404.html` (`not_found_handling = "404-page"`).
+- `main = "./worker/index.ts"` answers only `/api/*` (`run_worker_first`). Every
+  other path is a static file and does not run the script.
+
+## Search log
+
+When a reader closes the search dialog or leaves the page, `search.ts` sends the
+last search to `POST /api/search`: the words, the number of results, and the
+shorter search shown when nothing matched. The Worker writes them to the
+`searches` dataset of Workers Analytics Engine, bound as `SEARCHES`. It stores
+no IP, cookie, user agent or page. Analytics Engine keeps the data for three
+months.
+
+`bun run searches [days]` prints the most frequent searches of the last 7 days
+and those that found nothing. It needs `CLOUDFLARE_ANALYTICS_TOKEN`, a token
+with the account permission **Account Analytics: Read**. The deploy token does
+not need it.
 
 ## Publishing
 
