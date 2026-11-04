@@ -34,7 +34,7 @@
 	{{- end }}
 
 	<p class="person-note text-muted">
-		Las personas y sus puestos vienen de las mismas fichas que el <a href="{{ (site.GetPage "/fisicos").RelPermalink }}">mapa de físicos</a>. Las publicaciones vienen de <a href="https://openalex.org/">OpenAlex</a>, consultado el {{ time.AsTime $data.fetched | time.Format ":date_long" }}: los trabajos desde {{ $from.Year }} con al menos un autor de la organización cuyo tema principal es física, astronomía, geofísica, ciencias de la atmósfera o física médica. Si falta una organización o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		Las personas son las del <a href="{{ (site.GetPage "/fisicos").RelPermalink }}">mapa de físicos</a>. Las publicaciones de física desde {{ $from.Year }} vienen de <a href="https://openalex.org/">OpenAlex</a>, al {{ time.AsTime $data.fetched | time.Format ":date_long" }}. Si falta una organización, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 	</p>
 </div>
 {{ end }}

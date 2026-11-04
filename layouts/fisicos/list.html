@@ -149,7 +149,7 @@
 	{{- end }}
 
 	<p class="person-note text-muted">
-		Los datos vienen de las fichas públicas de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a> (Concytec), cuyos grados registra SUNEDU, del <a href="https://www.pucp.edu.pe/profesor/">Portal del Profesorado de la PUCP</a> para la Sección Física de esa universidad, y, para quien no está en ninguno, de ORCID, de una página pública (su universidad, el repositorio de su tesis o LinkedIn) o del <a href="https://renati.sunedu.gob.pe/">RENATI</a> de SUNEDU, que registra las tesis de cada grado, consultadas el {{ time.AsTime $data.fetched | time.Format ":date_long" }}. Entra quien tiene un grado en física o geofísica y quien trabaja en física con otra formación, como la ingeniería; la vista por formación los agrupa. El área sale de los temas que OpenAlex asigna a sus publicaciones; quien tiene pocas publicaciones indexadas queda sin área. Cada nombre enlaza su perfil, que copia esos datos. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		Datos de <a href="https://ctivitae.concytec.gob.pe/">CTI Vitae</a>, del <a href="https://www.pucp.edu.pe/profesor/">Portal del Profesorado de la PUCP</a>, de ORCID y del <a href="https://renati.sunedu.gob.pe/">RENATI</a>, al {{ time.AsTime $data.fetched | time.Format ":date_long" }}; el área, de OpenAlex. Si apareces aquí y quieres corregir algo o salir del mapa, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 	</p>
 </div>
 {{ end }}

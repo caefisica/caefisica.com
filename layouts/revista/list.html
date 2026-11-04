@@ -88,7 +88,7 @@
 	</div>
 
 	<p class="person-note text-muted">
-		Los artículos vienen de <a href="https://www.crossref.org/">Crossref</a>, donde la revista registra un DOI por artículo, copiados el {{ partial "ui/date.html" (time.AsTime $data.fetched.crossref) }}. Los de 1998 a 2011 sin DOI vienen del <a href="https://sisbib.unmsm.edu.pe/BibVirtual/publicaciones/fisica/anteriores.htm">archivo de la biblioteca de San Marcos</a> y llevan la firma tal como se imprimió. La revista publica en su <a href="https://revistasinvestigacion.unmsm.edu.pe/index.php/fisica">sitio oficial</a>. Si un autor no enlaza su perfil o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		Artículos de <a href="https://www.crossref.org/">Crossref</a> al {{ partial "ui/date.html" (time.AsTime $data.fetched.crossref) }}; los de 1998 a 2011, del <a href="https://sisbib.unmsm.edu.pe/BibVirtual/publicaciones/fisica/anteriores.htm">archivo de la biblioteca de San Marcos</a>. La revista publica en su <a href="https://revistasinvestigacion.unmsm.edu.pe/index.php/fisica">sitio oficial</a>. Si un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 	</p>
 </div>
 {{ end }}
