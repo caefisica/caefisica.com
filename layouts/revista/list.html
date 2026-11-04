@@ -32,13 +32,7 @@
 {{- $authors = sort (sort $authors "name") "n" "desc" -}}
 <div class="py-page">
 	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" (printf "La Revista de Investigación de Física, de %d a %d, número por número, con sus autores y el texto completo de cada artículo." (int (index $years 0)) (int (index (last 1 $years) 0)))
-		"stats" (slice
-			(dict "value" (len $all) "label" "artículos")
-			(dict "value" (len $data.issues) "label" "números")
-			(dict "value" (len $byKey) "label" "autores")
-		)
-		"source" "De Crossref y del archivo de revistas del Sistema de Bibliotecas de la UNMSM."
+		"lead" (printf "Los %d artículos de la Revista de Investigación de Física, de %d a %d, número por número, con sus autores y el texto completo." (len $all) (int (index $years 0)) (int (index (last 1 $years) 0)))
 	)
 	}}
 

@@ -18,7 +18,10 @@ The team page: the organisation chart from data/team.yaml, the other authors by 
 
 	{{- with .Params.principles }}
 		<section class="team-band" aria-labelledby="how">
-			<h2 id="how" class="org-title">Cómo trabajamos</h2>
+			<div class="principles-head">
+				<h2 id="how" class="org-title">Cómo trabajamos</h2>
+				{{- with $.Params.principles_intro }}<p>{{ . }}</p>{{ end }}
+			</div>
 			<ol class="principles">
 				{{- range . }}
 					<li>
