@@ -1714,7 +1714,7 @@
     background: var(--bg);
   }
 
-  /* A browser without :has shows every view. Each radio value needs its own line. */
+  /* A browser without :has shows every view. Each radio value needs its own line; scripts/views.ts fails the check without it. */
   .views:has(input:checked) > .view {
     display: none;
   }
@@ -1727,8 +1727,76 @@
   .views:has([value="asesor"]:checked) > [data-view="asesor"],
   .views:has([value="sustentacion"]:checked) > [data-view="sustentacion"],
   .views:has([value="numero"]:checked) > [data-view="numero"],
-  .views:has([value="autor"]:checked) > [data-view="autor"] {
+  .views:has([value="autor"]:checked) > [data-view="autor"],
+  .views:has([value="fisica"]:checked) > [data-view="fisica"],
+  .views:has([value="calendario"]:checked) > [data-view="calendario"],
+  .views:has([value="habilidad"]:checked) > [data-view="habilidad"],
+  .views:has([value="empleador"]:checked) > [data-view="empleador"],
+  .views:has([value="organizacion"]:checked) > [data-view="organizacion"] {
     display: block;
+  }
+
+  /* /oportunidades/: one row per year, one cell per month, a filled cell for a month with a call. */
+  .opp-cal-wrap {
+    overflow-x: auto;
+
+    & + p {
+      margin-top: 0.75rem;
+    }
+  }
+
+  /* The base table rules (full width, sticky header, dashed rules) suit a data table, not a twelve-cell grid under the view tabs. */
+  .opp-cal {
+    width: auto;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 3px;
+    font-size: var(--text-sm);
+    font-variant-numeric: tabular-nums;
+
+    & thead {
+      position: static;
+    }
+
+    & :is(th, td) {
+      border: 0;
+    }
+
+    & th {
+      padding: 0 0.375rem 0 0;
+      color: var(--muted);
+      font-weight: 400;
+      text-align: left;
+    }
+
+    & thead th {
+      text-align: center;
+    }
+
+    & td {
+      width: 2.25rem;
+      height: 1.75rem;
+      border-radius: 0.25rem;
+      background: var(--surface);
+      text-align: center;
+    }
+
+    & td.on {
+      background: var(--link);
+      color: var(--bg);
+      font-weight: 500;
+    }
+  }
+
+  .opp-skills {
+    color: var(--muted);
+    font-size: var(--text-sm);
+  }
+
+  /* A name with no page to open, set like a row's link so the list reads evenly. */
+  .opp-employer {
+    font-weight: 500;
+    line-height: 1.4;
   }
 
   /* A profile's trajectory: one stop per place, its name and span over the roles held there. It sits in the markdown, so it outranks the markdown list rules. */

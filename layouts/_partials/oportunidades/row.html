@@ -1,0 +1,14 @@
+{{- /* One posting in a list on /oportunidades/: title linking its bases, kind, careers and pay under it, month on the right. Context: dict with posting and optional note, which replaces the employer. */ -}}
+{{- $p := .posting -}}
+{{- $bits := slice (.note | default $p.employer) $p.kind -}}
+{{- with $p.fields }}{{ $bits = $bits | append (delimit . ", ") }}{{ end -}}
+{{- with $p.stipend }}{{ $bits = $bits | append (printf "S/ %s" (lang.FormatNumber 0 .)) }}{{ end -}}
+<li class="group">
+	<div class="row-main">
+		<a class="card-link" href="{{ $p.url }}" target="_blank" rel="noopener">{{ $p.title }}</a>
+		<p>{{ delimit $bits " · " }}</p>
+		{{- with $p.skills }}<p class="opp-skills">{{ delimit . ", " }}</p>{{ end }}
+	</div>
+	{{- with $p.published }}<span class="row-meta">{{ partial "oportunidades/month.html" . }}</span>{{ end }}
+</li>
+{{- /**/ -}}
