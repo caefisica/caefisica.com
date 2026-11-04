@@ -15,18 +15,9 @@
 	{{- if ge (len $rows) $least }}{{ $groups = $groups | append (dict "name" . "rows" $rows "n" (len $rows)) }}{{ else }}{{ $rest = $rest | append $rows }}{{ end -}}
 {{- end -}}
 {{- $groups = sort (sort $groups "name") "n" "desc" -}}
-{{- $years := slice -}}
-{{- range $all }}{{ with .published }}{{ $years = $years | append (substr . 0 4) }}{{ end }}{{ end -}}
-{{- $years = sort ($years | uniq) -}}
 <div class="py-page">
 	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" "Qué piden sus bases, cómo evalúan y en qué meses convocan."
-		"stats" (slice
-			(dict "value" (lang.FormatNumber 0 (len $all)) "label" "convocatorias")
-			(dict "value" (len $employers) "label" "empleadores")
-			(dict "value" (lang.FormatNumber 0 (len $phys)) "label" "piden física")
-		)
-		"source" (printf "Copiadas del portal de cada empleador, de %s a %s. «Piden física» cuenta las que aceptan física, ingeniería física, física médica o geofísica." (index $years 0) (index (last 1 $years) 0))
+		"lead" (printf "%s convocatorias de %d empleadores, %s abiertas a física: qué piden sus bases, cómo evalúan y en qué meses convocan." (lang.FormatNumber 0 (len $all)) (len $employers) (lang.FormatNumber 0 (len $phys)))
 	)
 	}}
 

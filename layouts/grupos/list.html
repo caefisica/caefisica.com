@@ -4,13 +4,7 @@
 {{- $from := time.AsTime $data.works_from -}}
 <div class="py-page">
 	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" (printf "Los de la Facultad de Ciencias Físicas de la UNMSM y los que coordina o integra alguien del <a href=\"%s\">mapa de físicos</a>, con sus integrantes, sus líneas y lo que publicaron desde %d." ((site.GetPage "/fisicos").RelPermalink) $from.Year)
-		"stats" (slice
-			(dict "value" (len $data.groups) "label" "grupos")
-			(dict "value" (len (where $data.groups "institution" "unmsm")) "label" "de San Marcos")
-			(dict "value" (len (where $data.groups "institution" "pucp")) "label" "de la PUCP")
-		)
-		"source" "Del Vicerrectorado de Investigación de la UNMSM y del directorio de grupos de la PUCP; las publicaciones, de OpenAlex."
+		"lead" (printf "%d grupos de la Facultad de Ciencias Físicas de la UNMSM y otros que coordina o integra alguien del <a href=\"%s\">mapa de físicos</a>, con sus integrantes, sus líneas y lo que publicaron desde %d." (len $data.groups) ((site.GetPage "/fisicos").RelPermalink) $from.Year)
 	)
 	}}
 

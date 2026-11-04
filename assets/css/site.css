@@ -1272,37 +1272,61 @@
     border-top: 1px dashed var(--dash);
   }
 
-  /* Numbered by a counter so the number sits in its own mono column. */
-  .principles {
+  /* Linear's careers principles: the heading and a larger intro side by side, then ruled rows with the numbered title in the left half and its text in the right. */
+  .principles-head {
     display: grid;
-    gap: 2rem 4rem;
-    max-width: 52rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    counter-reset: principle;
+    gap: 1rem 2rem;
+    margin-bottom: 3rem;
 
     @media (width >= 48rem) {
       grid-template-columns: 1fr 1fr;
     }
 
-    & li {
-      counter-increment: principle;
+    & .org-title {
+      margin: 0;
     }
 
-    & li::before {
-      content: counter(principle, decimal-leading-zero);
-      display: block;
-      margin-bottom: 0.5rem;
-      color: var(--muted);
-      font-family: var(--font-mono);
-      font-size: var(--text-sm);
+    & p {
+      margin: 0;
+      font-size: var(--text-lg);
+      line-height: 1.33;
+      text-wrap: pretty;
+    }
+  }
+
+  .principles {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: principle;
+
+    & li {
+      display: grid;
+      gap: 0.25rem 2rem;
+      padding-block: 1.5rem;
+      counter-increment: principle;
+
+      @media (width >= 48rem) {
+        grid-template-columns: 1fr 1fr;
+        align-items: baseline;
+      }
+    }
+
+    & li + li {
+      border-top: 1px solid var(--edge);
     }
 
     & h3 {
-      margin: 0 0 0.25rem;
+      margin: 0;
       font-size: var(--text-base);
       font-weight: 500;
+
+      &::before {
+        margin-right: 0.75rem;
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+        content: counter(principle, decimal-leading-zero) ".";
+      }
     }
 
     & p {

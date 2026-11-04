@@ -7,6 +7,8 @@ headline: "Las guías las escriben estudiantes"
 lead:
   "Estudiamos Física en San Marcos. Escribimos las guías, revisamos el material
   y llevamos las redes del centro."
+principles_intro:
+  "Publicamos datos de personas reales, así que seguimos cuatro reglas."
 principles:
   - title: "Todo sale de un registro público"
     text:

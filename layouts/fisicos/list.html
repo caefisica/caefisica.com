@@ -58,13 +58,7 @@
 	{{- $countries := slice }}
 	{{- range $data.places }}{{ with .country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}
 	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" "Quienes estudiaron física o geofísica, y quienes llegaron a la física desde la ingeniería u otra carrera."
-		"stats" (slice
-			(dict "value" (lang.FormatNumber 0 (len $data.people)) "label" "personas")
-			(dict "value" (len $places) "label" "instituciones")
-			(dict "value" (len ($countries | uniq)) "label" "países")
-		)
-		"source" (printf "De %s." $data.source)
+		"lead" (printf "%s personas en %d instituciones de %d países: quienes estudiaron física o geofísica, y quienes llegaron a la física desde la ingeniería u otra carrera." (lang.FormatNumber 0 (len $data.people)) (len $places) (len ($countries | uniq)))
 	)
 	}}
 

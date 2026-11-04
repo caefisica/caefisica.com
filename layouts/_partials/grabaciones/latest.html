@@ -12,8 +12,8 @@
 				<li class="group">
 					<img src="https://i.ytimg.com/vi/{{ strings.TrimPrefix "yt-" $r.id }}/mqdefault.jpg" alt="" width="320" height="180" loading="lazy"/>
 					<a class="card-link" href="{{ with $page }}{{ .RelPermalink }}{{ else }}{{ $r.url }}{{ end }}">{{ $r.title }}</a>
-					<p>{{ range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}</p>
-					<p class="text-muted">{{ $series.name }} · {{ partial "ui/day-or-month.html" $r }}</p>
+					<p class="talk-card-note">{{ $series.name }}</p>
+					<p class="talk-card-meta">{{ range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }} · {{ partial "ui/day-or-month.html" $r }}</p>
 				</li>
 			{{- end }}
 		</ul>
