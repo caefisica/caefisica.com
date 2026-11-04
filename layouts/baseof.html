@@ -11,8 +11,12 @@
 			{{- $trail := slice }}
 			{{- range .Ancestors.Reverse }}{{ if not .IsHome }}{{ $trail = $trail | append .LinkTitle }}{{ end }}{{ end }}
 			{{- with $trail }}<span hidden data-pagefind-meta="section:{{ delimit . " › " }}"></span>{{ end }}
-			{{- /* Words a reader searches for that the page never says, such as "malla" for a study plan. Search weighs a keywords match above a title match. */}}
-			{{- with .Params.keywords }}<span hidden data-pagefind-meta="keywords:{{ delimit . ", " }}"></span>{{ end }}
+			{{- $keywords := partial "search/keywords.html" . }}
+			{{- with $keywords }}<span hidden data-pagefind-meta="keywords:{{ delimit . ", " }}"></span>{{ end }}
+			{{- /* A search equal to one of these goes first; see pin() in assets/js/search.ts. */}}
+			{{- $exact := $keywords }}
+			{{- if and .Params.showInformationBox .Params.id }}{{ $exact = $exact | append .Title }}{{ end }}
+			{{- range uniq (apply $exact "partial" "search/fold.html" ".") }}<span hidden data-pagefind-filter="exact:{{ . }}"></span>{{ end }}
 			{{ block "main" . }}{{ end }}
 		</main>
 		{{ partial "site/footer.html" . }}

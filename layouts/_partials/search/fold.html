@@ -1,0 +1,8 @@
+{{- /*
+Lowercase and without accents, the form fold() in assets/js/search.ts gives a query, so "Física I" and "fisica i" meet. Context: a string. Returns a string.
+*/ -}}
+{{- $s := lower . -}}
+{{- range $from, $to := dict "á" "a" "é" "e" "í" "i" "ó" "o" "ú" "u" "ü" "u" "ñ" "n" -}}
+	{{- $s = replace $s $from $to -}}
+{{- end -}}
+{{- return $s -}}

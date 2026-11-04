@@ -1,11 +1,11 @@
 import params from "@params";
 
-type Found = { results: { data(): Promise<Result> }[] };
+type Found = { results: { id: string; data(): Promise<Result> }[] };
 
 type Pagefind = {
   options(options: object): Promise<void>;
   init(): Promise<void>;
-  search(query: string): Promise<Found>;
+  search(query: string | null, options?: object): Promise<Found>;
   debouncedSearch(
     query: string,
     options?: object,
@@ -145,6 +145,37 @@ async function relax(
   }
 }
 
+// The same form layouts/_partials/search/fold.html gives a page's exact names.
+function fold(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/\s+/g, " ");
+}
+
+// A short name loses to long pages full of its words: "uni" is the prefix of
+// "universidad" and "física 1" shares "1" with thousands of pages. A page lists its
+// exact names (keywords, a course's title) in the "exact" filter, and a search equal to
+// one of them puts that page first.
+async function pin(
+  pagefind: Pagefind,
+  query: string,
+  found: Found,
+): Promise<Found> {
+  const exact = await pagefind.search(null, {
+    filters: { exact: fold(query) },
+  });
+  if (!exact.results.length) return found;
+  const first = new Set(exact.results.map((r) => r.id));
+  return {
+    results: [
+      ...exact.results,
+      ...found.results.filter((r) => !first.has(r.id)),
+    ],
+  };
+}
+
 async function search(query: string) {
   settled = undefined;
   if (!query) {
@@ -158,6 +189,7 @@ async function search(query: string) {
   try {
     const pagefind = await load();
     found = await pagefind.debouncedSearch(query, {}, 120);
+    if (found) found = await pin(pagefind, query, found);
     if (found && !found.results.length && input.value.trim() === query) {
       const relaxed = await relax(pagefind, query);
       if (relaxed) ({ query: shown, found } = relaxed);

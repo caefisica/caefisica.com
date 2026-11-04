@@ -88,6 +88,15 @@ sin portada lleva el metadato `section` con su ruta de secciones, que el
 resultado muestra sobre el título. Dónde se carga el buscador:
 [arquitectura](architecture.md).
 
+[`search/keywords.html`](../../layouts/_partials/search/keywords.html) le da a
+una página las palabras que los lectores buscan y que ella no dice: las
+`keywords` del front matter, el código de un curso y su número en cifras
+(«Cálculo 1»), y la sigla de una universidad. La búsqueda las pesa más que el
+título. Esas palabras y el título de un curso también van, en minúsculas y sin
+tildes, al filtro `exact`: una búsqueda igual a una de ellas pone esa página
+primero, así «uni» encuentra la Universidad Nacional de Ingeniería antes que
+todas las páginas que dicen «universidad».
+
 `bun run dev` ejecuta `build` antes, así que el índice también existe en local y
 el buscador funciona.
 

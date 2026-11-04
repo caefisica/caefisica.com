@@ -1,5 +1,5 @@
 ---
-title: "Mecánica Cuantica I"
+title: "Mecánica Cuántica I"
 lead:
   "En este curso estudias superposición, mecánica matricial y ondulatoria,
   osciladores e integrales de camino."
