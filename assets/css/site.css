@@ -100,7 +100,7 @@
   --bg: var(--color-white);
   --surface: var(--color-mist);
   --line: rgb(31 33 48 / 0.08);
-  /* A link underline at rest: faint ink, as Linear draws it. Set once, since --fg changes on the same element in dark mode. */
+  /* Set once, since --fg changes on the same element in dark mode. */
   --underline: color-mix(in oklab, var(--fg) 35%, transparent);
   --dash: rgb(31 33 48 / 0.07);
   --card: var(--surface);
@@ -316,7 +316,6 @@
     }
   }
 
-  /* Tracking tightens with size, the way Linear sets its titles. Text sizes stay untracked. */
   h1 {
     font-size: var(--text-2xl);
     font-weight: 500;
@@ -1272,7 +1271,6 @@
     border-top: 1px dashed var(--dash);
   }
 
-  /* Linear's careers principles: the heading and a larger intro side by side, then ruled rows with the numbered title in the left half and its text in the right. */
   .principles-head {
     display: grid;
     gap: 1rem 2rem;

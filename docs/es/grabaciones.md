@@ -41,15 +41,15 @@ invitación y el resumen de Educast. Según el origen:
   pulsarlo `assets/js/player.ts` carga el reproductor de YouTube (sin cookies) o
   el de Google Drive. Hasta entonces la página no pide nada a esos sitios.
 - **Educast** reproduce el mp4 en el reproductor del sitio
-  (`assets/js/video.ts`), tomado del de las historias de clientes de Linear: los
-  controles flotan sobre una sombra y se esconden tras dos segundos sin mover el
-  puntero; la línea de tiempo muestra lo cargado y, al pasar el puntero, el
-  minuto que hay debajo; hay volumen, velocidad, imagen en imagen y pantalla
-  completa. Las teclas son las de YouTube: espacio o K, M, F, P, flechas (5 s),
-  J y L (10 s) y los dígitos (décimas del video). El navegador guarda dónde se
-  quedó cada video, y el botón inicial ofrece continuar desde ahí, porque un
-  coloquio dura una hora o dos. Sin JavaScript quedan los controles del
-  navegador. La miniatura es la imagen de la página de Educast.
+  (`assets/js/video.ts`): los controles flotan sobre una sombra y se esconden
+  tras dos segundos sin mover el puntero; la línea de tiempo muestra lo cargado
+  y, al pasar el puntero, el minuto que hay debajo; hay volumen, velocidad,
+  imagen en imagen y pantalla completa. Las teclas son las de YouTube: espacio o
+  K, M, F, P, flechas (5 s), J y L (10 s) y los dígitos (décimas del video). El
+  navegador guarda dónde se quedó cada video, y el botón inicial ofrece
+  continuar desde ahí, porque un coloquio dura una hora o dos. Sin JavaScript
+  quedan los controles del navegador. La miniatura es la imagen de la página de
+  Educast.
 - **Invitación**: un aviso de que no hay video, con el enlace a la invitación.
 
 El ancho del reproductor se ajusta para que entre entero bajo el título en la

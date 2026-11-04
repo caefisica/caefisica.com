@@ -1,0 +1,12 @@
+{{- /*
+Context: dict with page and pages, the collection in the index's order.
+Pages.Next returns the item before the page in the collection and Pages.Prev the one after it.
+*/ -}}
+{{- $before := .pages.Next .page -}}
+{{- $after := .pages.Prev .page -}}
+{{- if or $before $after -}}
+	<nav class="story-neighbors" aria-label="Vecinas" data-pagefind-ignore="all">
+		{{- with $before }}<a href="{{ .RelPermalink }}" rel="prev"><span>Anterior</span>{{ .LinkTitle }}</a>{{ else }}<span></span>{{ end }}
+		{{- with $after }}<a href="{{ .RelPermalink }}" rel="next"><span>Siguiente</span>{{ .LinkTitle }}</a>{{ end }}
+	</nav>
+{{- end -}}

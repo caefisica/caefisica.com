@@ -1,0 +1,9 @@
+{{- /* Context: the page. */ -}}
+{{- $authors := slice -}}
+{{- range .Params.contributors -}}
+	{{- with partial "data/person.html" . }}{{ $authors = $authors | append (printf `<a href="%s">%s</a>` .RelPermalink .Title) }}{{ end -}}
+{{- end -}}
+<div class="post-meta">
+	{{- with $authors }}<span>{{ delimit . ", " " y " | safeHTML }}</span><span class="post-meta-sep" aria-hidden="true">·</span>{{ end -}}
+	{{- if not .Date.IsZero }}{{ partial "ui/date.html" .Date }}{{ end -}}
+</div>
