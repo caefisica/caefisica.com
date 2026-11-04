@@ -7,6 +7,7 @@ description:
   "Temas y recursos para estudiar Física II: ondas, fluidos, gases y
   termodinámica."
 id: "CBO207"
+keywords: ["física general 2"]
 credits: 4
 prerequisites: ["No aplica"]
 semester: 2

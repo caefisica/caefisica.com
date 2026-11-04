@@ -88,6 +88,14 @@ except the home page carries the `section` metadata with its section path, which
 the result shows above the title. Where the search loads:
 [architecture](architecture.md).
 
+[`search/keywords.html`](../../layouts/_partials/search/keywords.html) gives a
+page the words readers search for that it never says: the front matter
+`keywords`, a course's code and its number in digits ("Cálculo 1"), and a
+university's acronym. Search weighs them above the title. Those words and a
+course's title also go, lowercase and without accents, into the `exact` filter:
+a search equal to one of them puts that page first, so "uni" finds the
+Universidad Nacional de Ingeniería before every page that says "universidad".
+
 `bun run dev` runs `build` first, so the index also exists locally and search
 works.
 

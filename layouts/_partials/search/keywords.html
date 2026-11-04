@@ -1,0 +1,19 @@
+{{- /*
+Words a reader searches for that the page never says, such as "malla" for a study plan, "calculo 1" for "Cálculo I" or "UNI" for a university. Search weighs a keywords match above a title match. Context: any page. Returns a slice of strings.
+*/ -}}
+{{- $words := slice -}}
+{{- with .Params.keywords }}{{ $words = $words | append . }}{{ end -}}
+{{- if and .Params.showInformationBox .Params.id -}}
+	{{- $words = $words | append .Params.id -}}
+	{{- /* Readers type the course number in digits. */ -}}
+	{{- with findRESubmatch `^(.+) (I{1,3})$` .Title 1 -}}
+		{{- $m := index . 0 -}}
+		{{- $words = $words | append (printf "%s %d" (index $m 1) (index (dict "I" 1 "II" 2 "III" 3) (index $m 2))) -}}
+	{{- end -}}
+{{- end -}}
+{{- with .Params.place -}}
+	{{- with index (where hugo.Data.physicists.places "id" .) 0 -}}
+		{{- with .short }}{{ $words = $words | append . }}{{ end -}}
+	{{- end -}}
+{{- end -}}
+{{- return $words -}}

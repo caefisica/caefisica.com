@@ -6,6 +6,7 @@ lead:
 description:
   "Guía de Física I con temas de mecánica, energía, rotación, ondas y acústica."
 id: "CBE013"
+keywords: ["física general 1"]
 credits: 2
 prerequisites: ["No aplica"]
 semester: 1
