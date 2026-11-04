@@ -13,5 +13,4 @@
 	{{- with $g.research }}
 		<span class="row-meta max-md:hidden">{{ lang.FormatNumber 0 .count }} {{ cond (eq .count 1) "publicación" "publicaciones" }}</span>
 	{{- end }}
-	{{ partial "ui/chevron.html" }}
 </li>

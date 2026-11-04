@@ -3,7 +3,7 @@
 {{- $places := hugo.Data.physicists.places -}}
 {{- $from := time.AsTime $data.works_from -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" .
+	{{ partial "ui/index-head.html" (dict "page" .
 		"lead" (printf "%d grupos de la Facultad de Ciencias Físicas de la UNMSM y otros que coordina o integra alguien del <a href=\"%s\">mapa de físicos</a>, con sus integrantes, sus líneas y lo que publicaron desde %d." (len $data.groups) ((site.GetPage "/fisicos").RelPermalink) $from.Year)
 	)
 	}}

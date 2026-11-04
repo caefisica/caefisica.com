@@ -11,8 +11,10 @@
 {{- $courses := slice }}
 {{- range uniq $paths }}{{ with site.GetPage . }}{{ $courses = $courses | append . }}{{ end }}{{ end }}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" .) }}
-	<p class="text-muted">{{ $lists }} listas, {{ lang.FormatNumber 0 $lessons }} clases y {{ partial "ui/duration.html" (dict "seconds" $seconds "total" true) }} de video.</p>
+	{{ partial "ui/index-head.html" (dict "page" .
+		"lead" (printf "%d listas, %s clases y %s de video, de profesores de todo el mundo, ordenadas por el curso del plan en que te sirven." $lists (lang.FormatNumber 0 $lessons) (partial "ui/duration.html" (dict "seconds" $seconds "total" true)))
+	)
+	}}
 	{{- range sort $courses "Weight" }}
 		{{- $course := . }}
 		<section class="section-group band">
@@ -34,7 +36,6 @@
 								{{- (urls.Parse .Params.url).Host | strings.TrimPrefix "www." }}
 							{{- end }}
 						</span>
-						{{ partial "ui/chevron.html" }}
 					</li>
 				{{- end }}
 			</ul>

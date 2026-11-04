@@ -4,7 +4,7 @@
 {{- $videos := len (where $all "host" "ne" "Invitación") -}}
 {{- $series := where $data.series "organiser" "ne" nil -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" .
+	{{ partial "ui/index-head.html" (dict "page" .
 		"lead" (printf "%d grabaciones, %d con video, de la Facultad de Ciencias Físicas, de la Sección Física de la PUCP y de grupos de física de la UNI y la UNT." (len $all) $videos)
 	)
 	}}
@@ -21,7 +21,6 @@
 						<p>{{ .organiser }} · {{ .first }}{{ if ne .first .last }}–{{ .last }}{{ end }}<span class="md:hidden"> · {{ partial "grabaciones/count.html" . }}</span></p>
 					</div>
 					<span class="row-meta max-md:hidden">{{ partial "grabaciones/count.html" . }}</span>
-					{{ partial "ui/chevron.html" }}
 				</li>
 			{{- end }}
 		</ul>

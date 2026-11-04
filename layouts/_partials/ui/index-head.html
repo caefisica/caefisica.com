@@ -1,0 +1,16 @@
+{{- /* The head of a section index, the way Linear heads its Customers and Now pages: the section's name, a row of view tabs, then one statement whose muted second sentence carries the counts. Context: dict with page, optional tabs (a slice of dicts with value and label, the first checked) and optional lead, which defaults to the page's lead. The tabs switch views only inside a .views block. */ -}}
+{{- $page := .page }}
+<header class="index-head">
+	<h1>{{ $page.Title }}</h1>
+	{{- with .tabs }}
+		<fieldset class="index-tabs">
+			<legend class="sr-only">Ver por</legend>
+			{{- range $i, $tab := . }}
+				<label><input type="radio" name="vista" value="{{ $tab.value }}"{{ if eq $i 0 }} checked{{ end }} /><span>{{ $tab.label }}</span></label>
+			{{- end }}
+		</fieldset>
+	{{- end }}
+</header>
+{{- with $page.Params.headline }}
+	<p class="index-intro">{{ . }}.{{ with $.lead | default $page.Params.lead }} <span>{{ . | safeHTML }}</span>{{ end }}</p>
+{{- end }}

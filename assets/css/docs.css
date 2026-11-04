@@ -1680,12 +1680,98 @@
     }
   }
 
-  /* The view tabs stick under the header, so a band's sticky label and a jump to a place stop below the tabs. */
-  .views {
-    --band-top: 6.75rem;
+  /* Metrics from Linear's Customers and Now headers: 80px above the title from the nav, 18px to the 40px tab row, 40px below. py-page already gives 2rem of the top. */
+  .index-head {
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+    padding-block: 2rem 2.5rem;
 
-    & .band {
-      scroll-margin-top: 6.75rem;
+    @media (width >= 62rem) {
+      padding-top: 3rem;
+    }
+
+    & > h1 {
+      margin: 0 0 0 -0.125rem;
+      font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+      line-height: 1;
+    }
+  }
+
+  /* Linear's tabs are plain text in the muted colour that turns full on the current one and on hover: no pill, no rule, no sticky bar. */
+  .index-tabs {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    min-height: 2.5rem;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    border: 0;
+    scrollbar-width: none;
+    white-space: nowrap;
+
+    & input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    & span {
+      color: var(--muted);
+      font-size: 0.9375rem;
+      line-height: 1.5rem;
+      cursor: pointer;
+      transition: color 100ms;
+    }
+
+    & label:hover > span,
+    & input:checked + span {
+      color: var(--fg);
+    }
+
+    & input:focus-visible + span {
+      outline: 2px solid var(--link);
+      outline-offset: 2px;
+      border-radius: 0.25rem;
+    }
+  }
+
+  /* Linear's logo intro: one statement at title size, its second sentence muted, with 64px above and below. */
+  .index-intro {
+    max-width: 60rem;
+    margin: 0;
+    padding-block: 2rem 2.5rem;
+    color: var(--fg);
+    font-size: clamp(1.5rem, 1rem + 2vw, 3rem);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.022em;
+    text-wrap: pretty;
+
+    @media (width >= 62rem) {
+      padding-block: 4rem;
+    }
+
+    & > span {
+      color: var(--muted);
+    }
+
+    & ~ .view > .section-group:first-child,
+    & + .section-group {
+      margin-top: 0;
+    }
+
+    & a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--underline);
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.15em;
+
+      &:hover {
+        text-decoration-color: currentcolor;
+      }
     }
   }
 
@@ -1772,15 +1858,6 @@
     @media (width >= 62rem) {
       margin-top: 3rem;
     }
-  }
-
-  .views > .pill-tabs {
-    position: sticky;
-    z-index: 2;
-    top: 3.5rem;
-    padding-block: 0.625rem;
-    border-bottom: 1px solid var(--line);
-    background: var(--bg);
   }
 
   /* A browser without :has shows every view. Each radio value needs its own line; scripts/views.ts fails the check without it. */
@@ -2666,8 +2743,9 @@
   }
 
   /*
-   * A list of links as open rows between hairlines. The hover fill reaches past the column edges,
-   * and the hairlines on either side of the hovered row hide so the fill reads as one shape.
+   * A list of links as Linear sets its archive and customer rows: at least 56px tall, a hairline
+   * between rows and none around the list. The hover fill reaches 24px past the column, and the
+   * hairlines on either side of the hovered row hide so the fill reads as one shape.
    */
   .rows {
     isolation: isolate;
@@ -2675,28 +2753,36 @@
     padding: 0;
     list-style: none;
 
-    /* The text aligns on the title's baseline. The picture and the chevron centre on the row. */
+    /* The text aligns on the title's baseline. The picture and the arrow centre on the row. */
     & > li {
       position: relative;
       display: flex;
       align-items: baseline;
       gap: 1rem;
+      min-height: 3.5rem;
       margin: 0;
       padding-block: 0.875rem;
-      border-bottom: 1px solid var(--line);
       transition: border-color 100ms;
       break-inside: avoid;
 
       &::after {
         position: absolute;
         z-index: -1;
-        inset: -1px -0.75rem;
+        inset: -1px -1rem;
         border-radius: 0.75rem;
         background: var(--hover);
         content: "";
         opacity: 0;
         transition: opacity 100ms;
+
+        @media (width >= 48rem) {
+          inset-inline: -1.5rem;
+        }
       }
+    }
+
+    & > li + li {
+      border-top: 1px solid var(--line);
     }
 
     & > li:is(:hover, :focus-within) {
@@ -2706,8 +2792,28 @@
     }
 
     & > li:is(:hover, :focus-within),
-    & > li:has(+ li:is(:hover, :focus-within)) {
+    & > li:is(:hover, :focus-within) + li {
       border-color: transparent;
+    }
+
+    /* A row that links somewhere ends in Linear's arrow: → to a page here, ↗ out of the site. */
+    & > li:has(.card-link)::before {
+      flex: none;
+      order: 1;
+      align-self: center;
+      color: var(--muted);
+      font-size: 0.8125rem;
+      content: "→" / "";
+      opacity: 0.6;
+      transition: opacity 100ms;
+    }
+
+    & > li:has(.card-link:is([href^="http"], [href^="mailto:"]))::before {
+      content: "↗" / "";
+    }
+
+    & > li:is(:hover, :focus-within)::before {
+      opacity: 1;
     }
 
     /* Columns keep alphabetical order reading down. */
@@ -2731,22 +2837,72 @@
       outline: 2px solid var(--link);
     }
 
-    & > li > :is(img, .avatar, .learn-chevron) {
+    & > li > :is(img, .avatar) {
       align-self: center;
     }
 
-    & .learn-chevron {
-      flex: none;
-      margin: 0;
-      color: var(--muted);
-      opacity: 0.5;
-      transition:
-        opacity 100ms,
-        transform 0.35s var(--ease-snap);
+    /* Linear's Now archive: a single line, the title clipped before its date. */
+    &.row-line > li {
+      align-items: center;
+      padding-block: 0;
+
+      & > .card-link {
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
     }
 
-    & > li:is(:hover, :focus-within) .learn-chevron {
-      opacity: 1;
+    /* Linear's customer rows: name, note and handle on a twelve-column grid, the note clipped to one line. */
+    &.row-grid > li {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 1rem;
+      align-items: center;
+      gap: 0 2rem;
+      padding-block: 0.75rem;
+
+      & > p {
+        grid-column: 1;
+        margin: 0;
+        color: var(--muted);
+        font-size: var(--text-sm);
+      }
+
+      & > .row-meta {
+        display: none;
+      }
+
+      &::before {
+        grid-area: 1 / 2;
+      }
+
+      @media (width >= 48rem) {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        padding-block: 0;
+
+        & > .card-link {
+          grid-column: span 2;
+        }
+
+        & > p {
+          grid-column: span 6;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        & > .row-meta {
+          display: block;
+          grid-column: span 3;
+        }
+
+        &::before {
+          grid-area: auto / 12;
+          justify-self: end;
+        }
+      }
     }
   }
 

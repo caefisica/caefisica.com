@@ -16,16 +16,16 @@
 {{- end -}}
 {{- with $people }}{{ $groups = $groups | append (dict "letter" $letter "people" .) }}{{ end -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" .) }}
-	<nav class="mt-8 flex flex-wrap gap-x-3 gap-y-1 text-sm" aria-label="Letras">
-		{{- range $groups }}<a class="hover:underline" href="#letra-{{ .letter | urlize }}">{{ .letter }}</a>{{ end }}
+	{{ partial "ui/index-head.html" (dict "page" . "lead" (printf "%s, cada una con su página." (lang.FormatNumber 0 (len .Pages)))) }}
+	<nav class="flex flex-wrap gap-x-4 gap-y-1" aria-label="Letras">
+		{{- range $groups }}<a class="text-muted no-underline transition-colors hover:text-fg" href="#letra-{{ .letter | urlize }}">{{ .letter }}</a>{{ end }}
 	</nav>
 	{{- range $groups }}
 		<section class="mt-10" aria-labelledby="letra-{{ .letter | urlize }}">
 			<h2 id="letra-{{ .letter | urlize }}" class="text-lg font-semibold">{{ .letter }} <span class="text-sm font-normal text-muted">{{ len .people }}</span></h2>
-			<ul class="mt-3 gap-x-8 sm:columns-2 lg:columns-3">
+			<ul class="mt-3 list-none gap-x-8 p-0 sm:columns-2 lg:columns-3">
 				{{- range .people }}
-					<li class="break-inside-avoid py-1"><a class="hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+					<li class="break-inside-avoid py-1"><a class="text-fg no-underline hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 				{{- end }}
 			</ul>
 		</section>

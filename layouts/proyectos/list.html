@@ -24,17 +24,12 @@
 {{- end -}}
 {{- $orgs = sort (sort $orgs "name") "n" "desc" -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" (printf "%d proyectos que PROCIENCIA financia, %d en el área de ciencias físicas y el resto con alguien del <a href=\"%s\">mapa de físicos</a> en el equipo: S/ %s millones, con la institución y el monto de cada uno." (len $all) (len $area) ((site.GetPage "/fisicos").RelPermalink) (lang.FormatNumber 0 (div $total 1e6)))
-	)
-	}}
-
 	<div class="views">
-		<fieldset class="pill-tabs">
-			<legend>Ver por</legend>
-			<label><input type="radio" name="vista" value="anio" checked /><span>Año de inicio</span></label>
-			<label><input type="radio" name="vista" value="organizacion" /><span>Organización</span></label>
-		</fieldset>
+		{{ partial "ui/index-head.html" (dict "page" .
+			"tabs" (slice (dict "value" "anio" "label" "Año de inicio") (dict "value" "organizacion" "label" "Organización"))
+			"lead" (printf "%d proyectos que PROCIENCIA financia, %d en el área de ciencias físicas y el resto con alguien del <a href=\"%s\">mapa de físicos</a> en el equipo: S/ %s millones, con la institución y el monto de cada uno." (len $all) (len $area) ((site.GetPage "/fisicos").RelPermalink) (lang.FormatNumber 0 (div $total 1e6)))
+		)
+		}}
 
 		<div class="view" data-view="anio">
 			{{- range $y := $years }}

@@ -16,7 +16,6 @@
 					<li class="group">
 						<div class="row-main"><a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a></div>
 						<time class="row-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
-						{{ partial "ui/chevron.html" }}
 					</li>
 				{{- end }}
 			</ul>
