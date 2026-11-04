@@ -124,13 +124,15 @@ function message(html: string) {
   select(undefined);
 }
 
+type Retried = { query: string; found: Found; how: "corrected" | "relaxed" };
+
 // Pagefind requires every word to match and has no typo tolerance, so one misspelt or
 // extra word empties the list. Drop the rarest word, the likeliest typo or the idea the
 // site lacks, until some results come back.
 async function relax(
   pagefind: Pagefind,
   query: string,
-): Promise<{ query: string; found: Found } | undefined> {
+): Promise<Retried | undefined> {
   const words = query.split(/\s+/);
   if (words.length < 2) return;
   const alone = await Promise.all(words.map((w) => pagefind.search(w)));
@@ -139,7 +141,7 @@ async function relax(
   while (kept.length) {
     const shorter = kept.join(" ");
     const found = await pagefind.search(shorter);
-    if (found.results.length) return { query: shorter, found };
+    if (found.results.length) return { query: shorter, found, how: "relaxed" };
     const rarest = kept.reduce((a, b) => (hits.get(b)! < hits.get(a)! ? b : a));
     kept.splice(kept.indexOf(rarest), 1);
   }
@@ -152,6 +154,105 @@ function fold(text: string): string {
     .normalize("NFD")
     .replace(/\p{M}/gu, "")
     .replace(/\s+/g, " ");
+}
+
+type Word = { word: string; folded: string };
+
+let vocabulary: Promise<Word[]> | undefined;
+
+// The title and keyword words of every page, the most used first; built by
+// layouts/index.words.json. Loaded only when a search finds nothing.
+function vocabularyWords(): Promise<Word[]> {
+  vocabulary ??= fetch("/search-words.json")
+    .then((response) => response.json())
+    .then((words: string[]) =>
+      words.map((word) => ({ word, folded: fold(word) })),
+    );
+  return vocabulary;
+}
+
+// Edits (insert, delete, replace, swap two neighbours) that turn a into b, or max + 1
+// once no alignment can stay within max.
+function distance(a: string, b: string, max: number): number {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let before: number[] = [];
+  let previous = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const row = [i];
+    for (let j = 1; j <= b.length; j++) {
+      let d = Math.min(
+        previous[j] + 1,
+        row[j - 1] + 1,
+        previous[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+      );
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1])
+        d = Math.min(d, before[j - 2] + 1);
+      row.push(d);
+    }
+    if (Math.min(...row) > max) return max + 1;
+    before = previous;
+    previous = row;
+  }
+  return previous[b.length];
+}
+
+// Pagefind matches a word it lacks through the longest indexed word that the typed word
+// starts with, so "generl" finds "generadores" and a typo rarely finds nothing. A word
+// is known when a title word starts with it or its best page marks a word that does.
+// Words under four letters count as known, since most are one edit from many others.
+async function known(
+  pagefind: Pagefind,
+  typed: string,
+  words: Word[],
+): Promise<boolean> {
+  const folded = fold(typed);
+  if (folded.length < 4 || words.some((w) => w.folded.startsWith(folded)))
+    return true;
+  const [best] = (await pagefind.search(typed)).results;
+  if (!best) return false;
+  const { excerpt } = await best.data();
+  return [...excerpt.matchAll(/<mark>(.*?)<\/mark>/g)].some((m) =>
+    fold(m[1]).startsWith(folded),
+  );
+}
+
+// The title word closest to an unknown one: one edit away for a word of up to five
+// letters, two for a longer one. A tie goes to the more used word.
+function closest(typed: string, words: Word[]): string | undefined {
+  const folded = fold(typed);
+  let best: string | undefined;
+  let least = folded.length <= 5 ? 2 : 3;
+  for (const { word, folded: other } of words) {
+    const d = distance(folded, other, least - 1);
+    if (d > 0 && d < least) {
+      best = word;
+      least = d;
+    }
+  }
+  return best;
+}
+
+async function correct(
+  pagefind: Pagefind,
+  query: string,
+): Promise<Retried | undefined> {
+  const words = await vocabularyWords();
+  const fixed = await Promise.all(
+    query
+      .split(/\s+/)
+      .map(async (w) =>
+        (await known(pagefind, w, words)) ? w : (closest(w, words) ?? w),
+      ),
+  );
+  const corrected = fixed.join(" ");
+  if (corrected === query) return;
+  const found = await pin(
+    pagefind,
+    corrected,
+    await pagefind.search(corrected),
+  );
+  if (found.results.length)
+    return { query: corrected, found, how: "corrected" };
 }
 
 // A short name loses to long pages full of its words: "uni" is the prefix of
@@ -186,13 +287,16 @@ async function search(query: string) {
   }
   let found;
   let shown = query;
+  let how: Retried["how"] | undefined;
   try {
     const pagefind = await load();
     found = await pagefind.debouncedSearch(query, {}, 120);
     if (found) found = await pin(pagefind, query, found);
-    if (found && !found.results.length && input.value.trim() === query) {
-      const relaxed = await relax(pagefind, query);
-      if (relaxed) ({ query: shown, found } = relaxed);
+    if (found && input.value.trim() === query) {
+      const retried =
+        (await correct(pagefind, query)) ??
+        (found.results.length ? undefined : await relax(pagefind, query));
+      if (retried) ({ query: shown, found, how } = retried);
     }
   } catch {
     message(
@@ -227,7 +331,8 @@ async function search(query: string) {
     total > LIMIT
       ? `${LIMIT} de ${total} resultados`
       : `${total} ${total === 1 ? "resultado" : "resultados"}`;
-  if (relaxed)
+  if (how === "corrected") count = `¿Quisiste decir «${shown}»? · ${count}`;
+  else if (how === "relaxed")
     count = `Sin resultados para «${query}» · ${count} para «${shown}»`;
   show(count, count);
   select(options()[0]);
