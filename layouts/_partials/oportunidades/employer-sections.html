@@ -82,7 +82,11 @@
 				{{- range . }}{{ $parts = $parts | append (printf "%s%s" .name (cond (ne .weight nil) (printf " (%v %%)" .weight) "")) }}{{ end }}
 				<p><span class="opp-label">Etapas</span> {{ delimit $parts " → " }}{{ with $days }} <span class="text-muted">· cronograma de {{ . }} días</span>{{ end }}</p>
 			{{- end }}
-			<p><a href="{{ .url }}" target="_blank" rel="noopener">{{ cond (strings.HasSuffix (lower .url) ".pdf") "Bases (PDF)" "Bases y anexos" }}</a>{{ with .number }} <span class="text-muted">· {{ . }}</span>{{ end }}</p>
+			{{- if eq .state "retirado" }}
+				<p class="text-muted">Aviso retirado: ya no recibe postulaciones.{{ with .number }} · {{ . }}{{ end }}</p>
+			{{- else }}
+				<p><a href="{{ .url }}" target="_blank" rel="noopener">{{ cond (strings.HasSuffix (lower .url) ".pdf") "Bases (PDF)" "Bases y anexos" }}</a>{{ with .number }} <span class="text-muted">· {{ . }}</span>{{ end }}</p>
+			{{- end }}
 		</li>
 	{{- end }}
 </ul>
