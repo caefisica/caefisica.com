@@ -84,6 +84,15 @@ weight = 20
 description = "Universidades, institutos y quiénes están ahí"
 
 [[main]]
+name = "Oportunidades"
+pageRef = "/oportunidades"
+parent = "comunidad"
+weight = 25
+[main.params]
+description = "Quién contrata físicos, qué pide y cuándo convoca"
+suggest = true
+
+[[main]]
 name = "Grupos de investigación"
 pageRef = "/grupos"
 parent = "comunidad"
@@ -128,6 +137,14 @@ parent = "investigacion"
 weight = 30
 [main.params]
 description = "Seminarios, coloquios y sustentaciones grabados"
+
+[[main]]
+name = "Proyectos"
+pageRef = "/proyectos"
+parent = "investigacion"
+weight = 40
+[main.params]
+description = "Proyectos de física con fondos de PROCIENCIA"
 
 [[main]]
 name = "Blog"

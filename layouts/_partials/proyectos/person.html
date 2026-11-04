@@ -1,0 +1,11 @@
+{{- /* The PROCIENCIA grants a person leads or works on, on their profile. Context: the profile slug. */ -}}
+{{- $slug := . -}}
+{{- $mine := slice -}}
+{{- range hugo.Data.grants }}{{ if in .members $slug }}{{ $mine = $mine | append . }}{{ end }}{{ end -}}
+{{- with $mine }}
+	<h2 id="subvenciones">Proyectos con fondos públicos <span class="count">{{ len . }}</span></h2>
+	<p class="text-muted">Subvenciones de PROCIENCIA; están todas en <a href="{{ (site.GetPage "/proyectos").RelPermalink }}">proyectos</a>.</p>
+	<ul class="rows">
+		{{- range . }}{{ partial "proyectos/row.html" (dict "grant" . "slug" $slug) }}{{ end }}
+	</ul>
+{{- end }}
