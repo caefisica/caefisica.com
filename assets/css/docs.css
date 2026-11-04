@@ -1629,6 +1629,10 @@
       margin: 3.5rem auto 0;
     }
 
+    & > .course {
+      margin: 3.5rem 0 0;
+    }
+
     & > .avatar {
       margin: 1.5rem auto 0;
     }
@@ -1654,7 +1658,8 @@
         text-align: left;
       }
 
-      & > .talk-player {
+      & > .talk-player,
+      & > .course {
         margin-top: 2rem;
       }
     }
@@ -2800,11 +2805,6 @@
 
   .lesson-time {
     color: var(--muted);
-  }
-
-  .course-about {
-    max-width: 42rem;
-    margin-top: 2.5rem;
   }
 
   /*

@@ -10,10 +10,9 @@ A Drive folder's subfolders become sections of the lesson list, each numbered fr
 {{- $total := 0 }}{{ range $lessons }}{{ $total = add $total .duration }}{{ end }}
 {{- $sections := slice }}{{ range $lessons }}{{ $sections = $sections | append (.section | default "") }}{{ end }}
 {{- .Store.Set "player" true }}
-<div class="py-page">
+<article class="story py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<h1>{{ .Title }}</h1>
-	<p class="text-lead">{{ partial "videos/byline.html" . }}</p>
 	<div class="course">
 		<div class="player" data-host="{{ cond $drive "drive" "youtube" }}" data-playlist="{{ $list }}">
 			<a class="player-start" href="{{ partial "videos/lesson-url.html" (dict "drive" $drive "id" $first.id "list" $list) }}" data-video="{{ $first.id }}">
@@ -49,11 +48,10 @@ A Drive folder's subfolders become sections of the lesson list, each numbered fr
 			{{- end }}
 		</nav>
 	</div>
-	<div class="course-about">
-		{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
-		<section class="facts" aria-labelledby="list-info">
-			<h2 id="list-info">La lista</h2>
-			<dl>
+	<div class="story-body">
+		<div class="story-lead">
+			{{- with .RawContent }}<p class="story-intro">{{ . | markdownify }}</p>{{ end }}
+			<dl class="story-info">
 				{{- with .Params.lecturer }}
 					<div>
 						<dt>Dicta</dt>
@@ -75,7 +73,7 @@ A Drive folder's subfolders become sections of the lesson list, each numbered fr
 				{{- end }}
 				<div>
 					<dt>Clases</dt>
-					<dd>{{ len $lessons }}, {{ partial "ui/duration.html" (dict "seconds" $total "total" true) }} en total</dd>
+					<dd>{{ len $lessons }} · {{ partial "ui/duration.html" (dict "seconds" $total "total" true) }}</dd>
 				</div>
 				<div>
 					<dt>Sirve para</dt>
@@ -92,7 +90,7 @@ A Drive folder's subfolders become sections of the lesson list, each numbered fr
 					</div>
 				{{- end }}
 			</dl>
-		</section>
+		</div>
 		<p class="text-muted text-sm">
 			{{- if $drive -}}
 				Datos de Google Drive al {{ partial "ui/date.html" (time.AsTime .Params.fetched) }}. Los archivos que Drive no puede reproducir no se listan.
@@ -102,5 +100,5 @@ A Drive folder's subfolders become sections of the lesson list, each numbered fr
 		</p>
 		{{ partial "article/page-footer.html" . }}
 	</div>
-</div>
+</article>
 {{ end }}
