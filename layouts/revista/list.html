@@ -63,7 +63,7 @@
 			<p class="text-muted">El área sale del tema principal que <a href="https://openalex.org/">OpenAlex</a> da a cada artículo con DOI. Un artículo sin DOI, o que OpenAlex no clasifica, queda sin área.</p>
 		</div>
 
-		<div class="view" data-view="numero">
+		<div class="view" data-view="numero" data-more="números">
 			{{- range $i := $data.issues }}
 				<section class="section-group band" id="v{{ $i.volume }}-n{{ $i.number }}">
 					<h2>Vol. {{ $i.volume }}, n.º {{ $i.number }}{{ with $i.year }} · {{ . }}{{ end }} <span class="count">{{ len $i.articles }}</span></h2>
@@ -74,7 +74,7 @@
 			{{- end }}
 		</div>
 
-		<div class="view" data-view="autor">
+		<div class="view" data-view="autor" data-more="autores">
 			{{- range $authors }}
 				<section class="section-group band">
 					<h2>{{ $name := .name }}{{ with .slug }}<a href="{{ (site.GetPage (printf "/personas/%s" .)).RelPermalink }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end }} <span class="count">{{ .n }}</span></h2>

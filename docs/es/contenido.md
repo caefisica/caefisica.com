@@ -48,6 +48,11 @@ Los buscadores la muestran, y el índice de una sección la pone bajo el título
 la página. Un curso no la muestra ahí: su fila lleva el código y los créditos.
 Sin una frase así, deja el campo vacío.
 
+En el índice de una sección principal, la miga del encabezado ya nombra la
+sección, así que `headline` es el h1: una frase corta sobre lo que muestra la
+sección, como «Quién contrata físicos en el Perú». Sin ella, el título queda
+solo para lectores de pantalla y la página abre con su contenido.
+
 `unmsm/pregrado/_index.md` no se publica (`build.render: never`):
 `/unmsm/pregrado/` redirige a `plan-2018/`, el único plan.
 

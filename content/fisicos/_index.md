@@ -1,5 +1,6 @@
 ---
 title: "Físicos"
+headline: "Dónde estudiaron y dónde trabajan los físicos del Perú"
 description:
   "Dónde estudiaron y dónde trabajan los físicos del Perú, la ruta de cada uno y
   su perfil, según sus fichas públicas de CTI Vitae y ORCID."

@@ -1,5 +1,6 @@
 ---
 title: "Contacto"
+headline: "Escríbenos"
 description:
   "Escríbenos para colaborar con las guías, proponer material o avisarnos de un
   error."

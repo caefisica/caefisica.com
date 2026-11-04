@@ -56,7 +56,7 @@
 			{{- end }}
 		</div>
 
-		<div class="view" data-view="anio">
+		<div class="view" data-view="anio" data-more="años">
 			{{- range $years }}
 				{{- $rows := where $theses "year" . }}
 				<section class="section-group band">
@@ -68,7 +68,7 @@
 			{{- end }}
 		</div>
 
-		<div class="view" data-view="asesor">
+		<div class="view" data-view="asesor" data-more="asesores">
 			{{- range $advisors }}
 				<section class="section-group band">
 					<h2>{{ partial "tesis/name.html" .person }} <span class="count">{{ .n }}</span></h2>

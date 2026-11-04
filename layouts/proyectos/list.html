@@ -41,7 +41,7 @@
 			{{- end }}
 		</div>
 
-		<div class="view" data-view="organizacion">
+		<div class="view" data-view="organizacion" data-more="organizaciones">
 			{{- range $orgs }}
 				<section class="section-group band">
 					<h2>{{ .name }} {{ partial "ui/count.html" (dict "n" .n "one" "proyecto" "many" "proyectos") }}</h2>
