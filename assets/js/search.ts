@@ -31,6 +31,27 @@ const enterIcon = list?.querySelector("svg")?.outerHTML ?? "";
 
 let engine: Promise<Pagefind> | undefined;
 
+type Searched = {
+  query: string;
+  results: number;
+  shown: string;
+  relaxed: number;
+};
+
+// The query the reader settled on, sent when they leave the dialog or the page, so the
+// prefixes typed on the way there are not logged.
+let settled: Searched | undefined;
+
+// The worker keeps the words and counts only. See worker/index.ts.
+function report() {
+  if (!settled) return;
+  navigator.sendBeacon(
+    "/api/search",
+    new Blob([JSON.stringify(settled)], { type: "application/json" }),
+  );
+  settled = undefined;
+}
+
 // The 30 KB engine and its index load on the first sign of intent, not with the page.
 function load(): Promise<Pagefind> {
   engine ??= import(`${params.bundlePath}pagefind.js`).then(
@@ -125,6 +146,7 @@ async function relax(
 }
 
 async function search(query: string) {
+  settled = undefined;
   if (!query) {
     list.replaceChildren(...suggestions);
     show("Sugerencias", "");
@@ -150,6 +172,13 @@ async function search(query: string) {
   // null: a later keystroke superseded this search.
   if (!found || input.value.trim() !== query) return;
   const total = found.results.length;
+  const relaxed = shown !== query;
+  settled = {
+    query,
+    results: relaxed ? 0 : total,
+    shown: relaxed ? shown : "",
+    relaxed: relaxed ? total : 0,
+  };
   if (!total) {
     message(
       `Sin resultados para <strong>«${escape(query)}»</strong>.<br>Prueba con el nombre o el código del curso.`,
@@ -166,7 +195,7 @@ async function search(query: string) {
     total > LIMIT
       ? `${LIMIT} de ${total} resultados`
       : `${total} ${total === 1 ? "resultado" : "resultados"}`;
-  if (shown !== query)
+  if (relaxed)
     count = `Sin resultados para «${query}» · ${count} para «${shown}»`;
   show(count, count);
   select(options()[0]);
@@ -210,6 +239,12 @@ if (dialog) {
   });
 
   input.addEventListener("input", () => search(input.value.trim()));
+
+  // Choosing a result navigates away, which hides the page.
+  dialog.addEventListener("close", report);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") report();
+  });
 
   input.addEventListener("keydown", (event) => {
     if (event.key === "ArrowDown" || event.key === "ArrowUp") {

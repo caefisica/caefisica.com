@@ -7,3 +7,6 @@ resources
 hugo_stats.json
 assets/jsconfig.json
 .hugo_build.lock
+
+# wrangler dev state
+.wrangler

@@ -9,6 +9,6 @@
     "types": ["node", "bun"],
     "skipLibCheck": true
   },
-  "include": ["assets/js/**/*.ts", "scripts/**/*.ts"],
+  "include": ["assets/js/**/*.ts", "scripts/**/*.ts", "worker/**/*.ts"],
   "exclude": ["node_modules", "assets/js/vendor"]
 }

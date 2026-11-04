@@ -21,7 +21,7 @@
     "views": "bun scripts/views.ts",
     "fix": "bun run deps && gotmplfmt -w layouts data && oxfmt . && markdownlint-cli2 --fix '**/*.md' '!node_modules/**'",
     "lint": "bun run deps && bun run --parallel --no-exit-on-error 'lint:*'",
-    "lint:scripts": "oxlint --deny-warnings assets/js config scripts",
+    "lint:scripts": "oxlint --deny-warnings assets/js config scripts worker",
     "lint:markdown": "markdownlint-cli2 '**/*.md' '!node_modules/**'",
     "lint:templates": "test -z \"$(gotmplfmt -l layouts data)\"",
     "lint:workflows": "actionlint",
@@ -31,6 +31,7 @@
     "publish:cloudflare": "wrangler deploy",
     "researchers": "bun scripts/openalex.ts",
     "playlists": "bun scripts/playlists.ts",
+    "searches": "bun scripts/searches.ts",
     "landmask": "bun scripts/landmask.ts",
     "links": "lychee 'content/**/*.md'",
     "clean": "shx rm -rf public resources node_modules"
