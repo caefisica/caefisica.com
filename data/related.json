@@ -3,31 +3,36 @@
   "cut": 0.35,
   "recordings": {
     "yt-WbXY105_r2c": {
-      "talks": [
-        "fb-post-474771524667030",
-        "fb-post-898362588218597",
-        "yt-LBd_nucNZ5s"
-      ],
-      "articles": ["10.15381/rif.v26i2.23688"]
+      "talks": ["yt-keWkooGomVE", "yt-ZbRk6ojWWUk", "yt-TE3Z5ZYd-cY"]
     },
     "yt-veUFMMUdpZk": {
-      "talks": ["yt-L15_4yWQ69M", "yt-ll416puYRUg", "yt-KxOiGVSjji0"],
-      "articles": ["10.15381/rif.v14i01.8537"]
+      "talks": ["yt-KxOiGVSjji0", "yt-Qgbp9irKQzM", "yt-L15_4yWQ69M"]
     },
     "yt-FHtlI09KOVk": {
-      "talks": ["yt-0XsubYmiw84"]
+      "talks": ["yt-0XsubYmiw84", "yt-f-5di1_Alws", "yt-BTj21RLvxqE"]
+    },
+    "yt-cO-bhlQWMXU": {
+      "talks": ["yt-hmq2-IASGzY", "yt-EMSXlLyEE7A", "yt-DKnuaWKt6BI"]
     },
     "yt-qKdBTS_muys": {
-      "talks": ["yt-M-3h3dD8lL4", "yt-8PRbuT-81Xk", "fb-post-771120405032139"],
-      "articles": ["10.15381/rif.v23i2.20323"]
+      "talks": ["yt-KAWsuLgLaoU", "yt-2_r9JurpFXY", "educast-2373"]
     },
     "ig-DehfZjCEchq": {
-      "talks": ["fb-photo-306697942257281", "ig-C6WlBepOSGU", "yt-LGrEOXp34_Q"]
+      "talks": ["fb-photo-306697942257281", "ig-C6WlBepOSGU", "educast-9206"],
+      "articles": ["10.15381/rif.28i2.28594"]
     },
     "fb-post-1561350359342469": {
-      "talks": ["fb-post-1554839286660243", "fb-post-857815408939982"],
-      "theses": ["16744"],
-      "articles": ["10.15381/rif.v9i02.8594", "10.15381/rif.v3i01-02.8610"]
+      "talks": [
+        "fb-post-1554839286660243",
+        "fb-post-857815408939982",
+        "fb-post-787098653434314"
+      ],
+      "theses": ["16744", "1505"],
+      "articles": [
+        "10.15381/rif.v9i02.8594",
+        "10.15381/rif.v3i01-02.8610",
+        "10.15381/rif.v2i01.8567"
+      ]
     },
     "fb-post-1554839286660243": {
       "talks": ["fb-post-1561350359342469"],
@@ -39,12 +44,14 @@
       ]
     },
     "yt-oLQC4JSHl3g": {
-      "talks": ["yt-KAWsuLgLaoU", "yt-RqVy47ecK6k", "fb-post-960895942721250"],
-      "theses": ["10391", "26208"],
-      "articles": ["10.15381/rif.29i1.31412", "10.15381/rif.v2i01.8568"]
+      "talks": ["yt-va3mmX_pla0", "yt-NTQPOAi2hFU", "yt-KAWsuLgLaoU"]
     },
     "tps-2026-10-13": {
-      "talks": ["fb-photo-853207614410139", "yt-cPg0kn7GQEQ", "yt-egpZTqpktx0"],
+      "talks": [
+        "fb-photo-853207614410139",
+        "fb-photo-327815003478908",
+        "fb-photo-866140759783491"
+      ],
       "articles": [
         "10.15381/rif.v25i1.14972",
         "10.15381/rif.v24i2.14245",
@@ -52,139 +59,122 @@
       ]
     },
     "yt-1lHkNgLl1Zw": {
-      "talks": [
-        "fb-post-898362588218597",
-        "fb-post-474771524667030",
-        "yt-58y1Br1TKuQ"
-      ],
-      "articles": ["10.15381/rif.v24i3.21028"]
+      "talks": ["yt-1hOykodBt8E", "yt-YzGdsdCcbiA", "yt-t-CjuK-FDzY"]
     },
     "yt-M-3h3dD8lL4": {
-      "talks": ["fb-post-535192255291623", "yt-qKdBTS_muys", "yt-lD4YPVF4CJ4"]
+      "talks": ["yt-lD4YPVF4CJ4", "yt-KAWsuLgLaoU", "yt-hvDhk1RrFz8"]
     },
     "yt-fuC0VK_wN6k": {
-      "talks": ["yt-hvDhk1RrFz8", "yt-lD4YPVF4CJ4"],
-      "theses": ["18700"]
+      "talks": ["yt-2_r9JurpFXY", "yt-lD4YPVF4CJ4", "yt-M-3h3dD8lL4"]
     },
     "yt-Nd_XY1fZDxA": {
-      "talks": ["yt-AJlu13CLbAQ", "ig-C6rn2P0vIiS", "yt-RJaKyB9cNQw"],
-      "theses": ["7586"]
-    },
-    "yt-e0TQ7HrXCqo": {
-      "talks": [
-        "fb-post-508534171290765",
-        "fb-post-944714951006016",
-        "fb-post-819678666842979"
-      ]
+      "talks": ["yt-4IcDNA_FJUc", "yt-RJaKyB9cNQw", "yt-AJlu13CLbAQ"]
     },
     "yt-_vGaYlMHVgQ": {
-      "talks": ["fb-photo-597571679973735-10", "fb-photo-856443264086574"],
-      "theses": ["24860"],
-      "articles": ["10.15381/rif.v24i3.21161", "10.15381/rif.v28i1.27302"]
+      "talks": ["yt-sIerGzGpSLw", "yt-mWStzrP-pRY", "yt-xEcvoWrgpx8"]
     },
     "ig-DdY75UNxBy3": {
-      "talks": ["fb-1020512815993021", "fb-post-524005176410331"],
+      "talks": ["fb-post-524005176410331", "fb-1020512815993021"],
       "articles": ["10.15381/rif.v1i01.20483", "10.15381/rif.v16i01.8657"]
     },
     "yt-4IcDNA_FJUc": {
-      "talks": ["yt-RJaKyB9cNQw", "tps-2026-06-02"]
+      "talks": ["yt-Nd_XY1fZDxA", "yt-RJaKyB9cNQw", "yt-AJlu13CLbAQ"]
+    },
+    "yt-DKnuaWKt6BI": {
+      "talks": ["yt-EMSXlLyEE7A", "yt-EWfkfzXZ6dU", "yt-d4Zq7DiLSpI"]
+    },
+    "yt-8-0X-0tEHOg": {
+      "talks": ["yt-mwtY1Z4SqFY", "yt-_YA06L63fww", "yt-FYxZbsJZQkc"]
     },
     "tps-2026-09-02": {
-      "talks": ["yt-LGrEOXp34_Q"],
+      "talks": ["ig-DP1jzphkU2d"],
       "theses": ["24860"],
-      "articles": ["10.15381/rif.v24i2.20359"]
+      "articles": ["10.15381/rif.v24i2.20359", "10.15381/rif.v26i2.25155"]
     },
     "yt-O7C156TmNgY": {
-      "talks": ["yt-YzGdsdCcbiA", "yt-1tNoXyo6x6k", "yt-7gaXNhfJ00E"],
-      "theses": ["5255", "1471"],
-      "articles": ["10.15381/rif.v7i01-02.8826"]
+      "talks": ["yt-YzGdsdCcbiA", "yt-xjOMJFbf-E0", "yt-U9zCm0pU1LA"]
     },
     "yt-qZGUIZTHOJ4": {
-      "talks": ["fb-7861153413987377", "fb-post-937374375073407"]
+      "talks": ["yt-M-3h3dD8lL4", "yt-lD4YPVF4CJ4", "yt-mwtY1Z4SqFY"]
     },
     "yt-ll416puYRUg": {
-      "talks": ["yt-L15_4yWQ69M", "yt-KxOiGVSjji0", "yt-veUFMMUdpZk"],
-      "articles": ["10.15381/rif.v14i01.8537"]
+      "talks": ["yt-KxOiGVSjji0", "yt-N86ZqXI1MEM", "yt-w-D336V2rDQ"]
     },
     "yt-0wIb2SGz5pk": {
-      "talks": ["fb-post-823731629771016", "yt-58y1Br1TKuQ", "yt-RWcM4v3hKIE"]
+      "talks": ["yt-l0of1Ixf9y8", "yt-YzGdsdCcbiA", "yt-58y1Br1TKuQ"]
     },
     "yt--mmklEQlv8I": {
-      "talks": ["ig-C6rn2P0vIiS", "tps-2026-05-05"],
-      "articles": ["10.15381/rif.28i2.28594", "10.15381/rif.v26i2.23631"]
+      "talks": ["yt-aCdAfpbFiZ8", "yt-Nd_XY1fZDxA", "yt-LGrEOXp34_Q"]
+    },
+    "yt-M7hzkMYls2E": {
+      "talks": ["yt-NZhYBCO7TcI", "yt-VZdsSNTI58A"]
     },
     "yt-yV1gzWZOOAk": {
-      "talks": ["yt-wIKY8TimyUA", "fb-post-787098653434314", "yt-yi8TPg3OakA"]
+      "talks": ["yt-KAWsuLgLaoU", "yt-Zut95qdEdhk", "yt-Tq-gdiR2qTQ"]
+    },
+    "yt-ddMyEzIRBdI": {
+      "talks": ["yt-2JxFmaVbkNU", "educast-7866", "yt-mwtY1Z4SqFY"]
     },
     "yt-RJaKyB9cNQw": {
-      "talks": ["tps-2026-06-02", "yt-4IcDNA_FJUc", "yt-Nd_XY1fZDxA"],
-      "articles": ["10.15381/rif.v24i3.21161"]
+      "talks": ["yt-Nd_XY1fZDxA", "yt-4IcDNA_FJUc", "yt-egpZTqpktx0"]
+    },
+    "yt-pr6LPkYc968": {
+      "talks": ["yt-qRFRN2v5yz8"]
     },
     "yt-N86ZqXI1MEM": {
-      "talks": ["yt-veUFMMUdpZk", "yt-L15_4yWQ69M", "yt-KxOiGVSjji0"]
+      "talks": ["yt-KxOiGVSjji0", "yt-L15_4yWQ69M", "yt-ll416puYRUg"]
     },
     "yt-y_yyeQPiud0": {
-      "talks": [
-        "fb-post-917422633735248",
-        "fb-post-508534171290765",
-        "yt-hmi46S3VkMQ"
-      ],
-      "theses": ["10391", "3451", "10122"]
+      "talks": ["yt-4d7zrshAB4w", "yt-yY64Bwc2dKM", "yt-hmi46S3VkMQ"]
     },
     "yt-qRFRN2v5yz8": {
-      "talks": ["yt-WpjrJBZiL7Y"]
+      "talks": ["yt-pr6LPkYc968", "yt-KfXHptKkV58", "yt-hvDhk1RrFz8"]
+    },
+    "yt-0lCyM51Isek": {
+      "talks": ["yt-d4Zq7DiLSpI", "yt-EWfkfzXZ6dU", "yt-EMSXlLyEE7A"]
     },
     "yt-uufIMAYVyJA": {
-      "talks": ["yt-bSuWBv7lh6A", "fb-post-771120405032139", "yt-U6LJLyLiWY0"]
-    },
-    "yt-j-wiSpaX3qI": {
-      "talks": ["yt-4d7zrshAB4w", "yt-PTXPqa3mWWw", "fb-post-863640489113463"]
+      "talks": ["yt-j1Y2XYRPaV0", "yt-va3mmX_pla0", "yt-JngFurjHkgo"]
     },
     "yt-jurEaiu9gFk": {
-      "talks": [
-        "fb-photo-597571679973735-7",
-        "yt-lMf5cfNEzzw",
-        "yt-JQ9z6CHjPCg"
-      ]
+      "talks": ["yt-q651sjUCGl8", "yt-N86ZqXI1MEM", "yt-BUOkmv8CEXo"]
+    },
+    "yt-yEi1rvN-KAo": {
+      "talks": ["yt-8-0X-0tEHOg"]
+    },
+    "yt-7wo8w9gSVBc": {
+      "talks": ["yt-hvDhk1RrFz8"]
     },
     "yt-L15_4yWQ69M": {
-      "talks": ["yt-veUFMMUdpZk", "yt-KxOiGVSjji0", "yt-ll416puYRUg"],
-      "articles": ["10.15381/rif.v14i01.8537"]
+      "talks": ["yt-KxOiGVSjji0", "yt-sQLzr3PT-bs", "yt-z5c3_s99qOk"]
     },
     "yt-mozqrNS4hBY": {
-      "talks": ["yt-hczOpuZLsLs", "yt-xEcvoWrgpx8"]
+      "talks": ["yt-hmq2-IASGzY", "yt-sATmfGSbwRw", "yt-Vv_DOjRf8vA"]
     },
     "tps-2026-06-16": {
-      "talks": ["yt-d4Zq7DiLSpI", "educast-9414"]
+      "talks": ["educast-9414"],
+      "articles": ["10.15381/rif.v9i02.8597"]
+    },
+    "yt-TE3Z5ZYd-cY": {
+      "talks": ["yt-Zw-PcRvWfc8", "yt-G6wzROtqzyk", "yt-WbXY105_r2c"]
     },
     "yt-aikqoOHNNYU": {
-      "talks": [
-        "ig-DG3qaijxDzz",
-        "fb-photo-394201390173602-3",
-        "yt-tdSF_Dw-bYs"
-      ],
-      "theses": ["19316", "16358", "15117"],
-      "articles": ["10.15381/rif.v19i1.13553", "10.15381/rif.28i2.28594"]
+      "talks": ["yt-N-UDaPSzJlg", "yt-OoSJFVa4XZI", "yt-Oe1F-AGmiUk"]
+    },
+    "yt-T_x4TADMioc": {
+      "talks": ["yt-Nd_XY1fZDxA", "yt--mmklEQlv8I", "yt-4IcDNA_FJUc"]
     },
     "yt-3uZwJ1Ud-YY": {
-      "talks": ["yt-hmq2-IASGzY"],
-      "articles": ["10.15381/rif.v16i01.8682", "10.15381/rif.v24i3.21161"]
+      "talks": ["yt-0lCyM51Isek", "yt-EWfkfzXZ6dU", "yt-ePR8vgQiIUs"]
     },
     "yt-1tNoXyo6x6k": {
-      "talks": [
-        "yt-O7C156TmNgY",
-        "fb-photo-597571679973735-11",
-        "fb-photo-394201450173596"
-      ],
-      "theses": ["5255"]
+      "talks": ["yt-YzGdsdCcbiA"]
     },
     "yt-mwtY1Z4SqFY": {
-      "talks": ["yt-va3mmX_pla0", "yt-U6LJLyLiWY0", "fb-post-960895942721250"],
-      "theses": ["26208"],
-      "articles": ["10.15381/rif.29i1.31412"]
+      "talks": ["yt-va3mmX_pla0", "yt-j1Y2XYRPaV0", "yt-2_r9JurpFXY"]
     },
     "tps-2026-06-02": {
-      "talks": ["yt-RJaKyB9cNQw", "tps-2026-05-05", "ig-C6rn2P0vIiS"],
+      "talks": ["tps-2026-05-05", "ig-C6rn2P0vIiS", "yt-RJaKyB9cNQw"],
       "articles": [
         "10.15381/rif.v26i1.22806",
         "10.15381/rif.v26i3.23641",
@@ -192,97 +182,108 @@
       ]
     },
     "yt-m9Fb5ux9Z_c": {
-      "talks": ["ig-DP1jzphkU2d", "educast-10786"],
-      "articles": [
-        "10.15381/rif.v24i2.20359",
-        "10.15381/rif.v26i2.25155",
-        "10.15381/rif.v25i1.21966"
-      ]
+      "talks": ["yt-xEcvoWrgpx8", "yt-AvN3xueHZos", "yt-ngSRP-dGYbE"]
     },
     "yt-7gaXNhfJ00E": {
-      "talks": ["yt-O7C156TmNgY", "yt-l0of1Ixf9y8", "yt-YzGdsdCcbiA"],
-      "theses": ["1471", "15261", "15122"],
-      "articles": ["10.15381/rif.v24i2.20413", "10.15381/rif.v19i1.13553"]
+      "talks": ["yt-U9zCm0pU1LA", "yt-JQ9z6CHjPCg", "yt-yo6W1YvoGro"]
+    },
+    "yt-YMlXsLzvuIA": {
+      "talks": ["yt-lMf5cfNEzzw", "yt-W1elNSvz3Ls", "yt-vtyT2GNUjvI"]
     },
     "tps-2026-05-26": {
-      "talks": ["yt-W1elNSvz3Ls", "ig-DP1jzphkU2d"]
+      "talks": ["ig-DP1jzphkU2d"],
+      "articles": ["10.15381/rif.v26i2.25155"]
     },
     "yt-G6wzROtqzyk": {
-      "talks": [
-        "fb-post-896033718451484",
-        "yt-J7sOAqo1iSU",
-        "fb-post-474771524667030"
-      ]
+      "talks": ["yt-Zw-PcRvWfc8", "yt-TE3Z5ZYd-cY", "yt-0OJhSWgw8_0"]
+    },
+    "yt-MoQX5QTlVRU": {
+      "talks": ["yt-Q1ElIv9sawE", "yt-U4sICCmytC8", "yt-HAaR9mOU830"]
     },
     "yt-bzE-_YueaLg": {
-      "talks": ["ig-DJqM1BSOanw"],
-      "theses": ["1505", "16616"],
-      "articles": ["10.15381/rif.v2i01.8567", "10.15381/rif.v19i1.13550"]
+      "talks": ["educast-3684", "educast-6991", "educast-8989"],
+      "articles": ["10.15381/rif.v17i01.8663"]
     },
     "yt-KxOiGVSjji0": {
-      "talks": ["yt-veUFMMUdpZk", "yt-ll416puYRUg", "yt-L15_4yWQ69M"],
-      "articles": ["10.15381/rif.v14i01.8537"]
+      "talks": ["yt-veUFMMUdpZk", "yt-L15_4yWQ69M", "yt-Qgbp9irKQzM"]
     },
     "yt-AvN3xueHZos": {
-      "talks": ["yt-EMSXlLyEE7A", "yt-Q23g1qtpvIs"],
-      "theses": ["16358", "22860"]
+      "talks": ["yt-xEcvoWrgpx8", "yt-m9Fb5ux9Z_c", "yt-hmq2-IASGzY"]
     },
     "yt-t-CjuK-FDzY": {
-      "talks": [
-        "fb-post-535192255291623",
-        "fb-photo-597571679973735-11",
-        "fb-post-474771524667030"
-      ]
+      "talks": ["yt-1lHkNgLl1Zw", "yt-YzGdsdCcbiA", "yt-O7C156TmNgY"]
     },
     "tps-2026-05-05": {
-      "talks": ["tps-2026-06-02", "yt--mmklEQlv8I"],
-      "articles": ["10.15381/rif.v26i1.22806"]
+      "talks": ["tps-2026-06-02", "fb-photo-856443264086574"],
+      "articles": [
+        "10.15381/rif.v26i1.22806",
+        "10.15381/rif.v25i1.14972",
+        "10.15381/rif.v26i3.23641"
+      ]
+    },
+    "yt-oSBB3mh4fdk": {
+      "talks": ["yt-bzE-_YueaLg"],
+      "theses": ["20797", "28261"],
+      "articles": ["10.15381/rif.v27i1.28010", "10.15381/rif.v25i3.24279"]
     },
     "tps-2026-04-21": {
-      "talks": ["yt-58y1Br1TKuQ", "fb-post-467632738714242"],
+      "talks": ["fb-post-467632738714242"],
       "theses": ["7586"],
-      "articles": ["10.15381/rif.v22i2.20292", "10.15381/rif.v25i1.21966"]
+      "articles": [
+        "10.15381/rif.v22i2.20292",
+        "10.15381/rif.v25i1.21966",
+        "10.15381/rif.29i2.31552"
+      ]
+    },
+    "yt-XVb8kPU_1oc": {
+      "talks": ["yt-c5CJfzzOBBQ", "yt-SAKaepHbbqo", "yt-EWfkfzXZ6dU"]
+    },
+    "yt-4MZPsdZlIyg": {
+      "talks": ["educast-6629"]
     },
     "yt-22zzTx5TURY": {
-      "talks": ["fb-post-872922411518604", "yt-qKdBTS_muys"]
+      "talks": ["yt-va3mmX_pla0", "yt-uufIMAYVyJA", "yt-2_r9JurpFXY"]
+    },
+    "yt-cB6fTtuP4Qo": {
+      "talks": ["yt-f8Wf8LT5g_A", "yt-eEzyBBuCUUg", "yt-D8V31AQRCf0"]
     },
     "yt-xjOMJFbf-E0": {
-      "talks": ["yt-IWZ4TNxr084", "yt-8NGxPIiKNpk", "yt-7Q21cP1FJII"]
+      "talks": ["yt-O7C156TmNgY", "yt-YzGdsdCcbiA", "yt-7Q21cP1FJII"]
     },
     "yt-0XsubYmiw84": {
-      "talks": ["yt-FHtlI09KOVk"]
+      "talks": ["yt-FHtlI09KOVk", "yt-BTj21RLvxqE"]
     },
     "yt-IWZ4TNxr084": {
-      "talks": ["yt-7Q21cP1FJII", "yt-8NGxPIiKNpk", "yt-xjOMJFbf-E0"]
+      "talks": ["yt-uMpNS1guGV4", "yt-7Q21cP1FJII", "yt-mw4Yrm4amo0"]
     },
     "yt-7Q21cP1FJII": {
-      "talks": ["yt-IWZ4TNxr084", "yt-8NGxPIiKNpk", "yt-xjOMJFbf-E0"]
+      "talks": ["yt-u4FFDqabyRY", "yt-MoQX5QTlVRU", "yt-xjOMJFbf-E0"]
     },
     "yt-8NGxPIiKNpk": {
-      "talks": ["yt-7Q21cP1FJII", "yt-IWZ4TNxr084", "yt-xjOMJFbf-E0"]
+      "talks": ["yt-JQ9z6CHjPCg"]
     },
     "yt-0M2AyJo_TXw": {
-      "talks": ["yt-OKeqL1bPQAU"],
-      "theses": ["8253"]
+      "talks": ["yt-4d7zrshAB4w", "yt-yY64Bwc2dKM", "yt--RH4e_dAJCw"]
     },
     "fb-photo-883730708024496": {
-      "talks": ["fb-photo-875333262197574", "yt-GeGS7WYdJBQ"]
+      "talks": ["fb-photo-875333262197574"]
     },
     "yt-0OJhSWgw8_0": {
-      "talks": ["yt-yY64Bwc2dKM", "yt--RH4e_dAJCw"]
+      "talks": ["yt-yY64Bwc2dKM", "yt--RH4e_dAJCw", "yt-Zw-PcRvWfc8"]
     },
     "fb-photo-883265708070996": {
       "talks": ["fb-photo-866140759783491", "fb-photo-394201390173602-3"],
-      "articles": ["10.15381/rif.v19i2.13556"]
+      "articles": ["10.15381/rif.v19i2.13556", "10.15381/rif.v21i2.20234"]
     },
     "yt-1hOykodBt8E": {
-      "talks": ["yt-LBd_nucNZ5s", "yt-58y1Br1TKuQ", "fb-post-898362588218597"]
+      "talks": ["yt-1lHkNgLl1Zw", "yt-w1imadxCWFc", "yt-Y1YyTSz6PUw"]
     },
     "fb-photo-873562759041291": {
-      "talks": ["yt-H9pbJpY1rYc", "yt-ePR8vgQiIUs"]
+      "talks": ["fb-photo-327815003478908"],
+      "articles": ["10.15381/rif.v24i2.20413"]
     },
     "fb-photo-870807765983457": {
-      "talks": ["yt-6aw3JRuyZkQ", "yt-yo6W1YvoGro", "fb-photo-875333262197574"],
+      "talks": ["fb-photo-875333262197574"],
       "theses": ["22860"],
       "articles": ["10.15381/rif.v21i2.20234", "10.15381/rif.29i2.30583"]
     },
@@ -291,8 +292,7 @@
       "theses": ["12581", "3538"]
     },
     "yt-Q23g1qtpvIs": {
-      "talks": ["ig-DBcOL-CSFIP", "yt-FmxQ-qPvh6I", "yt-RqVy47ecK6k"],
-      "theses": ["16358", "1471", "15261"]
+      "talks": ["yt-l0of1Ixf9y8", "yt-U9zCm0pU1LA", "yt-FmxQ-qPvh6I"]
     },
     "fb-photo-866140759783491": {
       "talks": [
@@ -300,21 +300,34 @@
         "fb-photo-394201390173602-3",
         "fb-photo-394201390173602"
       ],
-      "articles": ["10.15381/rif.v19i2.13560", "10.15381/rif.v25i3.23592"]
+      "articles": [
+        "10.15381/rif.v19i2.13560",
+        "10.15381/rif.v25i3.23592",
+        "10.15381/rif.v7i01-02.8826"
+      ]
     },
     "yt-bSuWBv7lh6A": {
-      "talks": ["fb-post-771120405032139", "yt-uufIMAYVyJA", "yt-wIKY8TimyUA"]
+      "talks": ["yt-uufIMAYVyJA", "yt-wIKY8TimyUA", "yt-FW8-Knxtn50"]
     },
     "fb-photo-856443264086574": {
-      "talks": ["yt-Eye905phr-E", "yt-ngSRP-dGYbE", "yt-_vGaYlMHVgQ"],
+      "talks": ["yt-Eye905phr-E", "ig-DehfZjCEchq", "tps-2026-05-05"],
       "theses": ["26590", "16358", "14850"],
-      "articles": ["10.15381/rif.v24i2.20359", "10.15381/rif.v26i2.25155"]
+      "articles": [
+        "10.15381/rif.v24i2.20359",
+        "10.15381/rif.v26i2.25155",
+        "10.15381/rif.v28i1.27302"
+      ]
     },
     "yt-2JxFmaVbkNU": {
-      "talks": ["fb-post-803404425137070", "yt-BpNaloDaNBE"]
+      "talks": ["yt-lD4YPVF4CJ4", "yt-ddMyEzIRBdI", "yt-yi8TPg3OakA"]
     },
     "fb-photo-853207614410139": {
-      "talks": ["fb-photo-875333262197574", "tps-2026-10-13", "yt-ePR8vgQiIUs"],
+      "talks": [
+        "fb-photo-875333262197574",
+        "tps-2026-10-13",
+        "fb-post-1266494072161434"
+      ],
+      "theses": ["23029"],
       "articles": [
         "10.15381/rif.v23i1.20289",
         "10.15381/rif.v19i2.13556",
@@ -324,53 +337,48 @@
     "fb-photo-875333262197574": {
       "talks": [
         "fb-photo-853207614410139",
-        "yt-GeGS7WYdJBQ",
-        "fb-photo-883730708024496"
+        "fb-photo-883730708024496",
+        "yt-blc2IpYOqmE"
       ],
-      "articles": ["10.15381/rif.v14i01.8537"]
-    },
-    "yt-qahmxR7NM9Q": {
-      "talks": ["yt-j-wiSpaX3qI", "yt-1gd6SsUHHTw"]
+      "articles": ["10.15381/rif.v14i01.8537", "10.15381/rif.v19i2.13556"]
     },
     "yt-yi8TPg3OakA": {
-      "talks": ["yt-yV1gzWZOOAk", "yt-1gd6SsUHHTw", "fb-post-787098653434314"]
+      "talks": ["yt-Tq-gdiR2qTQ", "yt-ddMyEzIRBdI", "yt-2JxFmaVbkNU"]
     },
     "yt-y1tJSk6fYeo": {
-      "talks": ["fb-post-857815408939982", "ig-DJqM1BSOanw"]
+      "talks": ["yt-J54Y8IxEiwA", "yt-KAQbugTcPgc", "yt-VZdsSNTI58A"]
     },
     "yt-ZGe6wGvNwFQ": {
-      "talks": [
-        "ig-C8Z5494RL2j",
-        "fb-post-937374375073407",
-        "fb-7861153413987377"
-      ]
+      "talks": ["yt-M-3h3dD8lL4", "yt-lD4YPVF4CJ4", "yt-hvDhk1RrFz8"]
     },
     "yt-uT-5JdYPQu8": {
-      "talks": ["yt-58y1Br1TKuQ", "yt-WbXY105_r2c", "fb-post-907960261348152"]
+      "talks": ["yt-Qgbp9irKQzM", "yt-hczOpuZLsLs", "yt-s57NrWNEMYA"]
     },
     "yt-Zw-PcRvWfc8": {
-      "talks": ["educast-6645"]
+      "talks": ["yt-TE3Z5ZYd-cY", "yt-0OJhSWgw8_0", "yt-4d7zrshAB4w"]
     },
     "yt--0qHA67gfd0": {
-      "talks": ["yt-I1WE6CJHfLg", "yt-fnKCd4gB9uE", "yt-Ksqd6GLD89Y"],
-      "articles": ["10.15381/rif.v8i02.8557"]
+      "talks": ["yt-I1WE6CJHfLg", "yt-fnKCd4gB9uE", "yt-Q1ElIv9sawE"]
     },
     "yt-I1WE6CJHfLg": {
-      "talks": ["yt--0qHA67gfd0", "yt-Ksqd6GLD89Y", "yt-fnKCd4gB9uE"],
-      "articles": ["10.15381/rif.v8i02.8557"]
+      "talks": ["yt-W1elNSvz3Ls", "yt--0qHA67gfd0", "yt-YMlXsLzvuIA"]
     },
     "yt-Q1ElIv9sawE": {
-      "talks": ["yt-Ksqd6GLD89Y", "yt-fnKCd4gB9uE", "yt-I1WE6CJHfLg"]
+      "talks": ["yt-MoQX5QTlVRU", "yt-U4sICCmytC8", "yt-I1WE6CJHfLg"]
     },
     "yt-Ksqd6GLD89Y": {
-      "talks": ["yt-fnKCd4gB9uE", "yt-Q1ElIv9sawE", "yt-I1WE6CJHfLg"]
+      "talks": ["yt--0qHA67gfd0", "yt-BUOkmv8CEXo", "yt-c4bzSKPjR-s"]
     },
     "yt-fnKCd4gB9uE": {
-      "talks": ["yt-Ksqd6GLD89Y", "yt--0qHA67gfd0", "yt-Q1ElIv9sawE"]
+      "talks": ["yt-ZbRk6ojWWUk", "yt-KGTpK1k0e48", "yt-psvik-BUkzQ"]
     },
     "yt-eVwC1bT888I": {
-      "talks": ["fb-post-912024870941691", "yt-58y1Br1TKuQ", "yt-WbXY105_r2c"],
-      "articles": ["10.15381/rif.v12i01.8722"]
+      "talks": ["fb-post-912024870941691", "fb-post-545922484218600"],
+      "articles": [
+        "10.15381/rif.v12i01.8722",
+        "10.15381/rif.29i2.30583",
+        "10.15381/rif.v26i3.23641"
+      ]
     },
     "yt-7g3rlIPDqdk": {
       "talks": ["yt-U6LJLyLiWY0", "fb-280171644477147", "yt-2ogJwDy6rrw"],
@@ -383,99 +391,98 @@
     "yt-O6oxLNJ-eko": {
       "talks": ["ig-C-5jLBnprmQ"],
       "theses": ["6921"],
-      "articles": ["10.15381/rif.v24i3.15617", "10.15381/rif.v27i3.28963"]
+      "articles": [
+        "10.15381/rif.v24i3.15617",
+        "10.15381/rif.v27i3.28963",
+        "10.15381/rif.v28i2.29414"
+      ]
     },
     "yt-yY64Bwc2dKM": {
-      "talks": ["yt--RH4e_dAJCw", "yt-0OJhSWgw8_0", "yt-KlQCA_DeETE"]
+      "talks": ["yt--RH4e_dAJCw", "yt-4d7zrshAB4w", "yt-0OJhSWgw8_0"]
     },
     "ig-DRV_dLLERHK": {
       "talks": ["ig-DH1xBRSRl08", "ig-C8FrAInBAsk", "ig-C6WlBepOSGU"]
     },
     "yt-LBd_nucNZ5s": {
-      "talks": ["yt-1hOykodBt8E", "fb-post-898362588218597", "yt-58y1Br1TKuQ"]
+      "talks": [
+        "fb-post-898362588218597",
+        "fb-post-474771524667030",
+        "yt-2ogJwDy6rrw"
+      ]
     },
     "yt-txghOqaSmtk": {
-      "talks": ["yt-mWStzrP-pRY", "yt-g45U_yesVc8", "yt-QvM750TtyzU"],
-      "theses": ["1471"],
-      "articles": ["10.15381/rif.v19i1.13553", "10.15381/rif.v16i01.9178"]
+      "talks": ["yt-s57NrWNEMYA", "yt-W1elNSvz3Ls", "yt-uMpNS1guGV4"]
     },
     "yt-OKeqL1bPQAU": {
       "talks": [
-        "yt-0M2AyJo_TXw",
         "fb-post-917422633735248",
-        "fb-post-846793697464809"
-      ]
+        "fb-post-846793697464809",
+        "fb-post-1064315012379342"
+      ],
+      "theses": ["18700"],
+      "articles": ["10.15381/rif.v16i02.8676"]
     },
     "yt-_giPFkyXDFQ": {
-      "talks": ["yt-yuLm4Yfpmbo"],
-      "theses": ["22860"]
+      "talks": ["yt-U4sICCmytC8", "yt-yo6W1YvoGro", "yt-6EhTUnEW82w"]
+    },
+    "fb-post-1270836148393893": {
+      "talks": ["fb-post-508534171290765"],
+      "theses": ["22789", "5005"],
+      "articles": ["10.15381/rif.v23i2.20297", "10.15381/rif.v27i1.25685"]
     },
     "yt-8PRbuT-81Xk": {
-      "talks": ["yt-1gd6SsUHHTw", "fb-post-841400008004178", "yt-JQ9z6CHjPCg"],
+      "talks": [
+        "fb-post-841400008004178",
+        "fb-post-867765438700968",
+        "fb-post-771120405032139"
+      ],
       "articles": ["10.15381/rif.v5i01-02.8778"]
     },
     "fb-post-1266494072161434": {
-      "talks": ["yt-EMSXlLyEE7A", "yt-Bvg5hkqTlA0", "yt-xEcvoWrgpx8"],
+      "talks": [
+        "fb-photo-853207614410139",
+        "fb-photo-394201450173596",
+        "ig-DC4n4QexId5"
+      ],
       "theses": ["7586", "14850", "16358"],
       "articles": [
         "10.15381/rif.v25i3.23592",
-        "10.15381/rif.v23i1.20289",
-        "10.15381/rif.v26i1.22806"
+        "10.15381/rif.v26i1.22806",
+        "10.15381/rif.v23i1.20289"
       ]
     },
     "yt-hmq2-IASGzY": {
-      "talks": ["yt-HAaR9mOU830", "yt-ePR8vgQiIUs", "yt-3uZwJ1Ud-YY"],
-      "theses": ["7586", "7645"],
-      "articles": [
-        "10.15381/rif.v9i02.8584",
-        "10.15381/rif.v19i2.13556",
-        "10.15381/rif.v19i1.13553"
-      ]
+      "talks": ["yt-mozqrNS4hBY", "yt-EMSXlLyEE7A", "yt-sATmfGSbwRw"]
     },
     "yt-GeGS7WYdJBQ": {
-      "talks": [
-        "fb-photo-875333262197574",
-        "yt-blc2IpYOqmE",
-        "fb-photo-883730708024496"
-      ],
-      "articles": ["10.15381/rif.v21i2.20234"]
+      "talks": ["yt-ZbRk6ojWWUk", "yt-TwsPMt8RBDs", "yt-m-pC5OOq9uM"]
     },
     "yt-U6LJLyLiWY0": {
-      "talks": ["yt-7g3rlIPDqdk", "yt-mwtY1Z4SqFY", "fb-post-765152912295555"],
+      "talks": [
+        "yt-7g3rlIPDqdk",
+        "fb-post-765152912295555",
+        "fb-280171644477147"
+      ],
       "theses": ["5959"],
       "articles": ["10.15381/rif.v25i2.23069"]
     },
     "yt-YzGdsdCcbiA": {
-      "talks": [
-        "yt-O7C156TmNgY",
-        "yt-l0of1Ixf9y8",
-        "fb-photo-394201390173602-3"
-      ],
-      "theses": ["5255", "1471", "5489"],
-      "articles": [
-        "10.15381/rif.v7i01-02.8826",
-        "10.15381/rif.v19i1.13553",
-        "10.15381/rif.v14i02.8705"
-      ]
+      "talks": ["yt-O7C156TmNgY", "yt-dx1hLqG9rOM", "yt-xjOMJFbf-E0"]
     },
     "ig-DQFzrG4kUIW": {
       "talks": ["ig-C6WlBepOSGU"]
     },
     "yt-TwsPMt8RBDs": {
-      "talks": ["yt-0b_RfWTHqzM", "yt-s57NrWNEMYA"],
-      "theses": ["4311"],
-      "articles": ["10.15381/rif.v9i02.8597"]
+      "talks": ["yt-0b_RfWTHqzM", "yt-ZbRk6ojWWUk", "yt-s57NrWNEMYA"]
     },
     "yt-0b_RfWTHqzM": {
-      "talks": ["yt-TwsPMt8RBDs", "yt-s57NrWNEMYA", "yt-Qgbp9irKQzM"],
-      "theses": ["4311", "7586"],
-      "articles": ["10.15381/rif.v9i02.8597"]
+      "talks": ["yt-TwsPMt8RBDs", "yt-Vv_DOjRf8vA", "yt-s57NrWNEMYA"]
     },
     "yt-blc2IpYOqmE": {
-      "talks": ["yt-GeGS7WYdJBQ", "yt-Q23g1qtpvIs"]
+      "talks": ["fb-photo-875333262197574", "fb-photo-394201390173602-3"]
     },
     "ig-DP1jzphkU2d": {
-      "talks": ["yt-m9Fb5ux9Z_c", "yt-LGrEOXp34_Q", "yt-sIerGzGpSLw"],
+      "talks": ["tps-2026-05-26", "tps-2026-09-02", "fb-photo-866140759783491"],
       "theses": ["23029"],
       "articles": [
         "10.15381/rif.v24i2.20359",
@@ -483,38 +490,59 @@
         "10.15381/rif.v26i1.22806"
       ]
     },
+    "yt-OoSJFVa4XZI": {
+      "talks": ["yt-aikqoOHNNYU", "yt-Qgbp9irKQzM", "yt-ePR8vgQiIUs"]
+    },
     "yt-uvbOqj1A2po": {
       "talks": [
-        "yt-4d7zrshAB4w",
         "fb-post-917422633735248",
-        "fb-post-508534171290765"
+        "fb-post-508534171290765",
+        "fb-post-880888167388695"
       ],
       "articles": ["10.15381/rif.v25i2.23069"]
     },
+    "yt-f-5di1_Alws": {
+      "talks": ["yt-xEcvoWrgpx8", "yt-_vGaYlMHVgQ", "yt-Em-qbyBbKIE"]
+    },
     "yt-FcdJXNZG7bg": {
-      "talks": ["yt-oLQC4JSHl3g", "fb-295394366566030", "yt-hvDhk1RrFz8"]
+      "talks": ["fb-295394366566030", "yt-3liurVFgSns"],
+      "theses": ["30970", "10208"]
     },
     "yt-eqa4Fh0YJQ4": {
       "talks": [
         "fb-post-836468258497353",
         "fb-post-828035522673960",
-        "yt-_YA06L63fww"
+        "fb-post-508534171290765"
       ]
     },
     "yt-2ogJwDy6rrw": {
-      "talks": ["yt-58y1Br1TKuQ", "fb-post-898362588218597", "yt-LBd_nucNZ5s"]
+      "talks": [
+        "fb-post-898362588218597",
+        "yt-LBd_nucNZ5s",
+        "fb-post-965907505553427"
+      ],
+      "theses": ["28846"]
     },
     "yt-J7sOAqo1iSU": {
       "talks": [
         "fb-post-880888167388695",
         "fb-post-467632738714242",
-        "yt-Y1YyTSz6PUw"
+        "yt-LBd_nucNZ5s"
       ],
-      "articles": ["10.15381/rif.v26i2.23688", "10.15381/rif.v5i01-02.8778"]
+      "articles": [
+        "10.15381/rif.v26i2.23688",
+        "10.15381/rif.v5i01-02.8778",
+        "10.15381/rif.29i2.31552"
+      ]
     },
     "yt-BpNaloDaNBE": {
-      "talks": ["yt-hvDhk1RrFz8", "yt-2JxFmaVbkNU", "yt-oLQC4JSHl3g"],
-      "theses": ["26208", "16125"]
+      "talks": [
+        "ig-DBcOL-CSFIP",
+        "fb-post-890772273066951",
+        "fb-6109081719154522"
+      ],
+      "theses": ["26208", "16125", "5255"],
+      "articles": ["10.15381/rif.v14i01.8727"]
     },
     "yt-K-mQs1oJGrI": {
       "talks": ["fb-photo-597571679973735-13"]
@@ -527,79 +555,71 @@
       "talks": [
         "fb-280171644477147",
         "fb-post-765152912295555",
-        "yt-4d7zrshAB4w"
-      ]
+        "fb-post-762168695927310"
+      ],
+      "articles": ["10.15381/rif.v5i01-02.8778"]
+    },
+    "yt-3liurVFgSns": {
+      "talks": ["yt-FcdJXNZG7bg"],
+      "theses": ["10200", "15603"],
+      "articles": ["10.15381/rif.v12i01.8717"]
+    },
+    "yt-q651sjUCGl8": {
+      "talks": ["yt-jurEaiu9gFk", "yt-6aw3JRuyZkQ", "yt-LXRCh4ByNUE"]
     },
     "yt-ZbRk6ojWWUk": {
-      "talks": [
-        "yt-EWfkfzXZ6dU",
-        "yt-psvik-BUkzQ",
-        "fb-photo-597571679973735-6"
-      ],
-      "theses": ["7586"],
-      "articles": [
-        "10.15381/rif.v16i01.8683",
-        "10.15381/rif.v24i3.21161",
-        "10.15381/rif.v19i1.13553"
-      ]
+      "talks": ["yt-TwsPMt8RBDs", "yt-0b_RfWTHqzM", "yt-GeGS7WYdJBQ"]
     },
     "yt-vtyT2GNUjvI": {
-      "talks": [
-        "fb-photo-327815003478908",
-        "fb-photo-597571679973735-7",
-        "educast-3021"
-      ],
-      "theses": ["7089"]
-    },
-    "fb-post-1153346553476187": {
-      "talks": ["yt-XG4k_gaiZa4"],
-      "theses": ["18700"]
+      "talks": ["yt-YMlXsLzvuIA", "yt-W1elNSvz3Ls", "yt-lMf5cfNEzzw"]
     },
     "yt-2_r9JurpFXY": {
-      "talks": ["yt-VZdsSNTI58A"]
+      "talks": ["yt-FYxZbsJZQkc", "yt-qKdBTS_muys", "yt-j1Y2XYRPaV0"]
+    },
+    "yt-w61gTubqT2U": {
+      "talks": ["yt-cJ33jAg4Ewc"]
+    },
+    "yt-Bz3aq5SXOlY": {
+      "talks": ["yt-MY3NVPUwRwU", "yt-bBHrIdDIISc"],
+      "articles": ["10.15381/rif.v24i3.21084"]
     },
     "yt-RWcM4v3hKIE": {
-      "talks": ["fb-post-823731629771016", "yt-0wIb2SGz5pk", "yt-LBd_nucNZ5s"]
+      "talks": ["yt-0wIb2SGz5pk"]
+    },
+    "yt-MY3NVPUwRwU": {
+      "talks": ["yt-JngFurjHkgo", "yt-Bz3aq5SXOlY"],
+      "theses": ["21659", "14787"],
+      "articles": ["10.15381/rif.v26i2.24946"]
     },
     "yt-dx1hLqG9rOM": {
-      "talks": ["yt-W1elNSvz3Ls"]
+      "talks": ["yt-YzGdsdCcbiA", "yt-hmi46S3VkMQ", "yt-txghOqaSmtk"]
     },
     "yt-J54Y8IxEiwA": {
-      "talks": ["yt-VZdsSNTI58A", "ig-DJqM1BSOanw"]
-    },
-    "ig-DJqM1BSOanw": {
-      "talks": ["yt-bzE-_YueaLg", "yt-J54Y8IxEiwA", "yt-y1tJSk6fYeo"],
-      "theses": ["1505", "16616"],
-      "articles": ["10.15381/rif.v2i01.8567"]
+      "talks": ["yt-VZdsSNTI58A", "yt-RqVy47ecK6k", "yt-KAQbugTcPgc"]
     },
     "yt-KfXHptKkV58": {
-      "talks": ["yt-fxtOlyTEQe0"],
-      "articles": ["10.15381/rif.v20i2.15165", "10.15381/rif.v7i01-02.8807"]
+      "talks": ["yt-qRFRN2v5yz8", "yt-JngFurjHkgo"],
+      "theses": ["14852"]
     },
     "yt-hmi46S3VkMQ": {
-      "talks": [
-        "fb-post-467632738714242",
-        "fb-post-917422633735248",
-        "fb-post-508534171290765"
-      ]
+      "talks": ["yt-c5CJfzzOBBQ", "yt-y_yyeQPiud0", "yt-dx1hLqG9rOM"]
     },
     "yt-FYxZbsJZQkc": {
-      "talks": ["fb-post-960895942721250", "yt-NTQPOAi2hFU", "yt-oLQC4JSHl3g"],
-      "theses": ["21691", "19200", "4093"]
+      "talks": ["yt-va3mmX_pla0", "yt-NTQPOAi2hFU", "yt-2_r9JurpFXY"]
     },
     "fb-photo-597571679973735-7": {
-      "talks": ["yt-jurEaiu9gFk", "yt-lMf5cfNEzzw", "fb-post-867765438700968"]
+      "talks": ["fb-post-867765438700968"]
     },
     "fb-photo-597571679973735-10": {
-      "talks": ["yt-_vGaYlMHVgQ", "yt-xEcvoWrgpx8"],
+      "talks": ["fb-photo-327815003478908"],
       "articles": [
-        "10.15381/rif.v24i3.21161",
         "10.15381/rif.v13i02.8926",
+        "10.15381/rif.v24i3.21161",
         "10.15381/rif.v28i1.27302"
       ]
     },
     "fb-photo-597571679973735-11": {
-      "talks": ["yt-1tNoXyo6x6k", "yt-YzGdsdCcbiA", "yt-O7C156TmNgY"]
+      "talks": ["fb-photo-394201450173596"]
     },
     "fb-photo-597571679973735-13": {
       "talks": ["yt-K-mQs1oJGrI"]
@@ -608,107 +628,93 @@
       "talks": ["fb-post-467632738714242", "fb-post-987358513408326"]
     },
     "fb-photo-597571679973735": {
-      "talks": ["yt-PTXPqa3mWWw", "fb-post-819678666842979"]
+      "talks": [
+        "fb-post-819678666842979",
+        "fb-post-867765438700968",
+        "yt-8PRbuT-81Xk"
+      ]
     },
     "fb-photo-597571679973735-3": {
-      "talks": ["yt-tdSF_Dw-bYs", "yt-aikqoOHNNYU", "yt-N-UDaPSzJlg"],
+      "talks": ["ig-DehfZjCEchq"],
       "theses": ["19316"],
-      "articles": ["10.15381/rif.28i2.28594"]
+      "articles": ["10.15381/rif.28i2.28594", "10.15381/rif.v19i1.13553"]
     },
     "fb-photo-597571679973735-5": {
-      "talks": ["yt-7gaXNhfJ00E", "yt-l0of1Ixf9y8", "yt-W1elNSvz3Ls"]
+      "talks": ["fb-photo-394201390173602-3"],
+      "theses": ["1471"]
     },
-    "fb-photo-597571679973735-6": {
-      "talks": ["yt-s57NrWNEMYA", "yt-ZbRk6ojWWUk"]
+    "yt-gxQGYszegrM": {
+      "talks": ["yt-KAWsuLgLaoU", "yt-j1Y2XYRPaV0", "yt-2_r9JurpFXY"]
     },
     "ig-DH1xBRSRl08": {
-      "talks": ["ig-DRV_dLLERHK", "yt-bSuWBv7lh6A", "ig-C8FrAInBAsk"]
+      "talks": ["ig-DRV_dLLERHK", "ig-C8FrAInBAsk"]
+    },
+    "yt-t383ALOb3KI": {
+      "talks": ["yt-UjeuFQGFWQs"]
     },
     "fb-photo-579463098451260": {
       "talks": ["fb-photo-870807762650124"],
       "articles": ["10.15381/rif.v23i3.20302"]
     },
     "yt-XG4k_gaiZa4": {
-      "talks": ["fb-post-1153346553476187"]
+      "talks": ["yt-QvM750TtyzU", "educast-9731", "yt-VZdsSNTI58A"]
     },
     "yt-lMf5cfNEzzw": {
-      "talks": [
-        "yt-JQ9z6CHjPCg",
-        "fb-photo-597571679973735-7",
-        "yt-58y1Br1TKuQ"
-      ],
-      "articles": [
-        "10.15381/rif.v26i2.23631",
-        "10.15381/rif.v25i1.14972",
-        "10.15381/rif.28i2.28594"
-      ]
+      "talks": ["yt-YMlXsLzvuIA", "educast-5739", "yt-W1elNSvz3Ls"]
     },
     "ig-DG3qaijxDzz": {
-      "talks": ["yt-aikqoOHNNYU", "yt-tdSF_Dw-bYs", "yt-InkMori0kVM"],
-      "theses": ["10391"]
+      "talks": ["fb-6109081719154522", "ig-DehfZjCEchq"],
+      "theses": ["10391"],
+      "articles": ["10.15381/rif.v17i01.8660"]
     },
     "yt-KAQbugTcPgc": {
-      "talks": ["yt-NZhYBCO7TcI", "fb-post-944714951006016", "yt-_YA06L63fww"]
+      "talks": ["yt-VZdsSNTI58A", "yt-NZhYBCO7TcI", "yt-uufIMAYVyJA"]
+    },
+    "fb-post-1064315012379342": {
+      "talks": ["yt-OKeqL1bPQAU"]
     },
     "yt-hvDhk1RrFz8": {
-      "talks": ["yt-BpNaloDaNBE", "yt-fuC0VK_wN6k", "yt-oLQC4JSHl3g"],
-      "theses": ["26208"]
+      "talks": ["yt-M-3h3dD8lL4", "yt-fuC0VK_wN6k", "yt-lD4YPVF4CJ4"]
     },
     "yt-1gd6SsUHHTw": {
-      "talks": [
-        "yt-8PRbuT-81Xk",
-        "fb-post-841400008004178",
-        "fb-post-867765438700968"
-      ]
+      "talks": ["yt-LlufH-A27ZE", "yt-w1imadxCWFc", "yt-wIKY8TimyUA"]
     },
     "yt-_YA06L63fww": {
-      "talks": [
-        "fb-post-828035522673960",
-        "yt-eqa4Fh0YJQ4",
-        "fb-post-836468258497353"
-      ]
+      "talks": ["educast-2555", "yt-8-0X-0tEHOg", "educast-900"]
     },
     "yt-9h4VKHxH3Nw": {
-      "talks": ["fb-post-877281737749338"]
+      "talks": ["yt-FYxZbsJZQkc", "yt-fuC0VK_wN6k"]
     },
     "yt--RH4e_dAJCw": {
-      "talks": ["yt-yY64Bwc2dKM", "yt-RqVy47ecK6k", "yt-0OJhSWgw8_0"]
+      "talks": ["yt-yY64Bwc2dKM", "yt-0OJhSWgw8_0", "yt-0M2AyJo_TXw"]
     },
     "yt-bNuYYE98J5M": {
-      "talks": [
-        "fb-post-912024870941691",
-        "fb-post-545922484218600",
-        "fb-post-787098653434314"
-      ]
+      "talks": ["yt-Zut95qdEdhk", "yt-gxQGYszegrM", "educast-11314"]
     },
     "yt-cJ33jAg4Ewc": {
-      "talks": [
-        "yt-_665Ec2_Q_c",
-        "fb-post-823731629771016",
-        "fb-post-478847770926072"
-      ],
-      "articles": ["10.15381/rif.v20i2.15165"]
+      "talks": ["yt-w61gTubqT2U", "yt-0q_n_4Tx5fk"]
     },
     "yt-wIKY8TimyUA": {
-      "talks": ["yt-yV1gzWZOOAk", "yt-JQ9z6CHjPCg", "fb-post-787098653434314"]
+      "talks": ["yt-lMf5cfNEzzw", "yt-bSuWBv7lh6A", "yt-1gd6SsUHHTw"]
     },
     "fb-post-1013591664118344": {
-      "talks": ["yt-kv2FLel4q0g", "fb-post-532328928911289"],
+      "talks": ["fb-post-532328928911289"],
       "theses": ["10629"]
     },
     "fb-585685620616098": {
       "talks": ["yt-GfXyF3bIyOE"]
     },
     "fb-post-1008877714589739": {
-      "talks": ["ig-C6WlBepOSGU", "fb-280171644477147"],
+      "talks": [
+        "ig-C6WlBepOSGU",
+        "fb-280171644477147",
+        "fb-post-762168695927310"
+      ],
       "articles": ["10.15381/rif.29i2.31552"]
     },
     "ig-DC4n4QexId5": {
-      "talks": ["yt-Nd_XY1fZDxA"],
+      "talks": ["fb-post-1266494072161434"],
       "theses": ["7586"]
-    },
-    "fb-7861153413987377": {
-      "talks": ["yt-qZGUIZTHOJ4", "yt-ZGe6wGvNwFQ"]
     },
     "fb-post-987358513408326": {
       "talks": [
@@ -718,9 +724,17 @@
       ]
     },
     "ig-DBcOL-CSFIP": {
-      "talks": ["fb-post-850004150477097", "yt-Q23g1qtpvIs", "yt-aikqoOHNNYU"],
-      "theses": ["5593", "16843"],
-      "articles": ["10.15381/rif.v14i01.8727"]
+      "talks": [
+        "fb-post-850004150477097",
+        "fb-6109081719154522",
+        "yt-BpNaloDaNBE"
+      ],
+      "theses": ["5593", "16843", "16358"],
+      "articles": [
+        "10.15381/rif.v14i01.8727",
+        "10.15381/rif.v24i2.20413",
+        "10.15381/rif.v19i1.13553"
+      ]
     },
     "ig-DBKlbIHMefk": {
       "talks": ["fb-photo-343793755214366"],
@@ -728,77 +742,86 @@
     },
     "fb-post-976385764505601": {
       "talks": [
-        "yt-KAWsuLgLaoU",
         "fb-1020512815993021",
-        "fb-post-971089928368518"
+        "fb-post-971089928368518",
+        "educast-9883"
       ]
     },
     "fb-post-971089928368518": {
       "talks": [
-        "educast-7866",
+        "fb-post-890772273066951",
         "fb-post-976385764505601",
-        "fb-post-890772273066951"
+        "educast-7866"
       ]
     },
     "fb-post-965907505553427": {
-      "talks": ["fb-post-898362588218597", "yt-58y1Br1TKuQ", "yt-LBd_nucNZ5s"]
+      "talks": [
+        "fb-post-898362588218597",
+        "fb-post-474771524667030",
+        "yt-LBd_nucNZ5s"
+      ],
+      "articles": ["10.15381/rif.v24i3.21028"]
     },
     "fb-post-960895942721250": {
-      "talks": ["yt-FYxZbsJZQkc", "yt-oLQC4JSHl3g", "yt-va3mmX_pla0"],
+      "talks": ["yt-FYxZbsJZQkc", "yt-oLQC4JSHl3g"],
       "theses": ["3390", "4093", "26208"],
       "articles": ["10.15381/rif.29i1.31412", "10.15381/rif.v16i02.8676"]
     },
     "fb-post-944714951006016": {
-      "talks": ["yt-NZhYBCO7TcI", "yt-KAQbugTcPgc", "yt-e0TQ7HrXCqo"],
+      "talks": ["fb-post-508534171290765"],
       "articles": ["10.15381/rif.v23i2.20323"]
     },
     "fb-post-939912161486295": {
       "talks": ["educast-6645"]
     },
     "fb-post-937374375073407": {
-      "talks": ["yt-ZGe6wGvNwFQ", "yt-wIKY8TimyUA", "yt-qZGUIZTHOJ4"]
+      "talks": ["fb-post-920580416752803"],
+      "articles": ["10.15381/rif.29i2.31552"]
     },
     "ig-C-5jLBnprmQ": {
       "talks": [
-        "yt-bBHrIdDIISc",
         "fb-post-920580416752803",
-        "fb-post-771120405032139"
+        "fb-post-771120405032139",
+        "yt-O6oxLNJ-eko"
       ],
-      "articles": ["10.15381/rif.v8i02.8549"]
+      "articles": ["10.15381/rif.v8i02.8549", "10.15381/rif.v7i01-02.9252"]
     },
     "fb-post-930470775763767": {
-      "talks": ["yt-KAWsuLgLaoU"],
+      "talks": ["fb-295394366566030", "fb-1020512815993021"],
       "theses": ["14756", "4093"]
     },
+    "fb-post-928270785983766": {
+      "talks": ["fb-post-535192255291623"]
+    },
     "fb-post-920580416752803": {
-      "talks": ["ig-C-5jLBnprmQ", "fb-post-937374375073407", "yt-ZGe6wGvNwFQ"]
+      "talks": ["ig-C-5jLBnprmQ", "fb-post-937374375073407"]
     },
     "fb-post-917422633735248": {
       "talks": [
         "fb-post-508534171290765",
-        "yt-4d7zrshAB4w",
-        "fb-post-467632738714242"
+        "fb-post-467632738714242",
+        "fb-post-894648562679322"
       ],
       "theses": ["10208"],
       "articles": ["10.15381/rif.v25i2.23069"]
     },
-    "fb-post-894662616011250": {
-      "talks": ["yt-YzGdsdCcbiA"],
-      "theses": ["15261"]
-    },
     "fb-post-912024870941691": {
       "talks": [
-        "yt-bNuYYE98J5M",
         "fb-post-545922484218600",
-        "fb-post-787098653434314"
+        "fb-post-787098653434314",
+        "yt-eVwC1bT888I"
       ],
-      "articles": ["10.15381/rif.v16i02.8675", "10.15381/rif.v16i02.8678"]
+      "articles": [
+        "10.15381/rif.v16i02.8675",
+        "10.15381/rif.v16i02.8678",
+        "10.15381/rif.v25i1.14972"
+      ]
     },
     "fb-post-907960261348152": {
       "talks": [
         "fb-post-819678666842979",
         "fb-post-896033718451484",
-        "yt-1hOykodBt8E"
+        "fb-post-965907505553427"
       ]
     },
     "fb-post-903312338479611": {
@@ -812,7 +835,12 @@
       ]
     },
     "ig-C8Z5494RL2j": {
-      "talks": ["yt-ZGe6wGvNwFQ", "fb-post-863640489113463", "yt-j-wiSpaX3qI"]
+      "talks": [
+        "fb-post-863640489113463",
+        "fb-post-467632738714242",
+        "fb-post-771120405032139"
+      ],
+      "articles": ["10.15381/rif.v24i3.21028"]
     },
     "ig-C8FrAInBAsk": {
       "talks": ["ig-DH1xBRSRl08", "ig-DRV_dLLERHK"],
@@ -822,24 +850,23 @@
       "talks": [
         "fb-post-803404425137070",
         "fb-772097997883563",
-        "fb-post-971089928368518"
-      ]
+        "yt-BpNaloDaNBE"
+      ],
+      "theses": ["5255"]
     },
     "fb-post-884978400313005": {
       "talks": ["fb-post-720939126716934", "fb-post-987358513408326"]
     },
     "fb-post-880888167388695": {
-      "talks": ["yt-J7sOAqo1iSU", "yt-uvbOqj1A2po", "fb-post-823731629771016"]
-    },
-    "fb-post-877281737749338": {
-      "talks": ["yt-9h4VKHxH3Nw"]
+      "talks": ["yt-J7sOAqo1iSU", "yt-uvbOqj1A2po", "fb-post-823731629771016"],
+      "articles": ["10.15381/rif.v26i2.23688"]
     },
     "ig-C6rn2P0vIiS": {
-      "talks": ["ig-C6WlBepOSGU", "yt--mmklEQlv8I", "yt-AJlu13CLbAQ"],
+      "talks": ["ig-C6WlBepOSGU", "tps-2026-06-02", "tps-2026-10-13"],
       "articles": [
         "10.15381/rif.v25i1.14972",
-        "10.15381/rif.28i2.28594",
-        "10.15381/rif.v26i1.22806"
+        "10.15381/rif.v26i1.22806",
+        "10.15381/rif.28i2.28594"
       ]
     },
     "ig-C6WlBepOSGU": {
@@ -851,44 +878,49 @@
       ]
     },
     "fb-post-872922411518604": {
-      "talks": ["yt-Tq-gdiR2qTQ", "yt-22zzTx5TURY", "fb-1020512815993021"]
+      "talks": ["fb-1020512815993021", "yt-OKeqL1bPQAU"]
     },
     "fb-post-867765438700968": {
       "talks": [
+        "yt-8PRbuT-81Xk",
         "fb-photo-597571679973735-7",
-        "yt-1gd6SsUHHTw",
-        "yt-8PRbuT-81Xk"
+        "ig-C6WlBepOSGU"
       ],
-      "articles": ["10.15381/rif.28i2.28594"]
-    },
-    "fb-post-864787252332120": {
-      "talks": ["yt-W1elNSvz3Ls"],
-      "articles": ["10.15381/rif.v17i01.8660"]
+      "articles": [
+        "10.15381/rif.28i2.28594",
+        "10.15381/rif.v12i01.8722",
+        "10.15381/rif.v8i02.8563"
+      ]
     },
     "fb-post-863640489113463": {
-      "talks": ["yt-j-wiSpaX3qI", "ig-C8Z5494RL2j", "fb-post-467632738714242"]
+      "talks": ["ig-C8Z5494RL2j", "fb-post-467632738714242"]
     },
     "fb-post-859655909511921": {
       "talks": ["ig-C6WlBepOSGU", "yt-8PRbuT-81Xk", "fb-957007725488244"]
     },
     "fb-photo-394201450173596": {
       "talks": [
-        "yt-1tNoXyo6x6k",
         "fb-photo-597571679973735-11",
-        "yt-O7C156TmNgY"
+        "fb-910788270032239",
+        "fb-post-1266494072161434"
       ],
       "theses": ["5255"],
       "articles": ["10.15381/rif.v24i2.20319", "10.15381/rif.v12i02.8708"]
     },
     "fb-photo-394201390173602": {
-      "talks": ["yt-sQLzr3PT-bs", "yt-JQ9z6CHjPCg", "fb-photo-866140759783491"]
+      "talks": ["fb-photo-866140759783491", "fb-photo-327815003478908"]
     },
     "fb-photo-394201390173602-2": {
-      "talks": ["yt-InkMori0kVM"],
-      "articles": ["10.15381/rif.v8i02.8561"]
+      "talks": ["fb-photo-866140759783491"],
+      "articles": ["10.15381/rif.v8i02.8561", "10.15381/rif.v5i01-02.8796"]
     },
     "fb-photo-394201390173602-3": {
-      "talks": ["yt-l0of1Ixf9y8", "yt-mw4Yrm4amo0", "yt-YzGdsdCcbiA"],
+      "talks": [
+        "fb-photo-866140759783491",
+        "fb-photo-883265708070996",
+        "fb-photo-597571679973735-5"
+      ],
+      "theses": ["16358", "1471"],
       "articles": [
         "10.15381/rif.v7i01-02.8826",
         "10.15381/rif.v24i2.20413",
@@ -896,45 +928,72 @@
       ]
     },
     "fb-post-854515220025990": {
-      "talks": ["fb-post-762168695927310", "fb-post-771120405032139"]
+      "talks": [
+        "fb-post-762168695927310",
+        "fb-post-771120405032139",
+        "fb-post-787098653434314"
+      ],
+      "articles": ["10.15381/rif.v28i2.29414"]
     },
     "fb-post-850004150477097": {
-      "talks": ["ig-DBcOL-CSFIP", "yt-1tNoXyo6x6k", "yt-Q23g1qtpvIs"],
+      "talks": ["ig-DBcOL-CSFIP", "yt-BpNaloDaNBE"],
       "theses": ["16843", "12583", "24428"],
-      "articles": ["10.15381/rif.v14i01.8727", "10.15381/rif.v28i1.30156"]
+      "articles": [
+        "10.15381/rif.v14i01.8727",
+        "10.15381/rif.v28i1.30156",
+        "10.15381/rif.v16i01.9178"
+      ]
     },
     "fb-post-846793697464809": {
-      "talks": ["yt-OKeqL1bPQAU"]
+      "talks": ["yt-OKeqL1bPQAU", "ig-DehfZjCEchq"]
     },
     "fb-post-841400008004178": {
-      "talks": ["yt-8PRbuT-81Xk", "yt-1gd6SsUHHTw", "yt-wIKY8TimyUA"]
+      "talks": [
+        "yt-8PRbuT-81Xk",
+        "fb-post-917422633735248",
+        "fb-957007725488244"
+      ]
     },
     "ig-C4v9CFqP5gg": {
-      "talks": ["yt-hczOpuZLsLs"],
+      "talks": ["fb-post-912024870941691", "fb-post-545922484218600"],
       "articles": [
         "10.15381/rif.v24i2.14245",
-        "10.15381/rif.v23i2.20323",
-        "10.15381/rif.v26i1.22806"
+        "10.15381/rif.v26i1.22806",
+        "10.15381/rif.v23i2.20323"
       ]
     },
     "fb-post-836468258497353": {
-      "talks": ["yt-eqa4Fh0YJQ4", "yt-4d7zrshAB4w", "fb-post-917422633735248"]
+      "talks": [
+        "yt-eqa4Fh0YJQ4",
+        "fb-post-917422633735248",
+        "fb-post-894648562679322"
+      ]
     },
     "fb-post-828035522673960": {
-      "talks": ["yt-_YA06L63fww", "yt-eqa4Fh0YJQ4", "fb-post-836468258497353"],
+      "talks": [
+        "yt-eqa4Fh0YJQ4",
+        "fb-post-836468258497353",
+        "fb-post-917422633735248"
+      ],
       "articles": ["10.15381/rif.v25i2.23069"]
     },
     "fb-post-823731629771016": {
-      "talks": ["yt-RWcM4v3hKIE", "yt-0wIb2SGz5pk", "yt-1gd6SsUHHTw"]
+      "talks": [
+        "fb-post-819678666842979",
+        "fb-post-880888167388695",
+        "yt-LBd_nucNZ5s"
+      ]
     },
     "fb-post-819678666842979": {
-      "talks": ["fb-post-907960261348152", "yt-58y1Br1TKuQ", "yt-LBd_nucNZ5s"]
-    },
-    "fb-post-814081037402742": {
-      "talks": ["yt-M-3h3dD8lL4"]
+      "talks": [
+        "fb-post-907960261348152",
+        "fb-post-508534171290765",
+        "yt-LBd_nucNZ5s"
+      ],
+      "articles": ["10.15381/rif.v14i02.8705", "10.15381/rif.v5i01-02.8778"]
     },
     "fb-post-803404425137070": {
-      "talks": ["fb-post-890772273066951", "yt-2JxFmaVbkNU"]
+      "talks": ["fb-post-890772273066951"]
     },
     "fb-photo-343793755214366": {
       "talks": ["ig-DBKlbIHMefk"],
@@ -944,10 +1003,18 @@
       "talks": ["fb-post-903312338479611"]
     },
     "fb-post-787098653434314": {
-      "talks": ["yt-wIKY8TimyUA", "fb-post-912024870941691", "yt-yV1gzWZOOAk"]
+      "talks": [
+        "fb-post-912024870941691",
+        "fb-post-917422633735248",
+        "fb-post-467632738714242"
+      ]
     },
     "fb-photo-327815003478908": {
-      "talks": ["yt-uMpNS1guGV4", "yt-s57NrWNEMYA", "yt-vtyT2GNUjvI"],
+      "talks": [
+        "fb-photo-394201390173602",
+        "tps-2026-10-13",
+        "fb-photo-597571679973735-10"
+      ],
       "theses": ["17057"]
     },
     "fb-photo-313734258220316": {
@@ -956,10 +1023,12 @@
       "articles": ["10.15381/rif.v16i02.8676"]
     },
     "fb-photo-313742191552856": {
-      "talks": ["fb-6109081719154522", "fb-202568319264606"]
+      "talks": ["fb-6109081719154522", "fb-202568319264606", "ig-DBcOL-CSFIP"],
+      "theses": ["15117"],
+      "articles": ["10.15381/rif.v5i01-02.8787"]
     },
     "fb-post-771120405032139": {
-      "talks": ["yt-bSuWBv7lh6A", "yt-qKdBTS_muys", "yt-8PRbuT-81Xk"]
+      "talks": ["yt-8PRbuT-81Xk", "ig-C-5jLBnprmQ", "educast-8101"]
     },
     "fb-post-765152912295555": {
       "talks": [
@@ -968,78 +1037,77 @@
         "yt-fxtOlyTEQe0"
       ]
     },
+    "yt-UjeuFQGFWQs": {
+      "talks": ["yt-t383ALOb3KI", "educast-10020"]
+    },
     "fb-photo-306697942257281": {
-      "talks": ["ig-DehfZjCEchq", "ig-C6WlBepOSGU"]
+      "talks": ["ig-DehfZjCEchq", "ig-C6WlBepOSGU", "fb-photo-856443264086574"]
     },
     "fb-post-762168695927310": {
       "talks": [
         "fb-post-765152912295555",
-        "yt-kv2FLel4q0g",
-        "fb-post-854515220025990"
-      ]
+        "fb-post-854515220025990",
+        "fb-post-478847770926072"
+      ],
+      "articles": ["10.15381/rif.v28i2.29414"]
     },
     "fb-photo-291638763763199": {
       "talks": ["educast-7147"],
-      "theses": ["8205", "14756"]
+      "theses": ["8205", "14756", "7758"],
+      "articles": ["10.15381/rif.v1i02.8598"]
     },
     "fb-295394366566030": {
-      "talks": ["yt-va3mmX_pla0", "yt-FcdJXNZG7bg"]
+      "talks": ["yt-FcdJXNZG7bg", "fb-post-930470775763767"],
+      "theses": ["26208"]
     },
     "yt-lD4YPVF4CJ4": {
-      "talks": ["yt-M-3h3dD8lL4", "yt-fuC0VK_wN6k"]
+      "talks": ["yt-M-3h3dD8lL4", "yt-fuC0VK_wN6k", "yt-2JxFmaVbkNU"]
     },
     "yt-PTXPqa3mWWw": {
-      "talks": ["yt-j-wiSpaX3qI", "yt-8PRbuT-81Xk", "yt-4d7zrshAB4w"]
+      "talks": ["yt-4d7zrshAB4w", "yt--RH4e_dAJCw", "yt-LlufH-A27ZE"]
     },
     "yt-Y1YyTSz6PUw": {
-      "talks": ["yt-J7sOAqo1iSU", "yt-lMf5cfNEzzw", "fb-post-880888167388695"],
-      "articles": [
-        "10.15381/rif.28i2.28594",
-        "10.15381/rif.v26i2.23631",
-        "10.15381/rif.v26i2.23688"
-      ]
+      "talks": ["yt-w1imadxCWFc", "yt-1lHkNgLl1Zw", "yt-1hOykodBt8E"]
     },
     "fb-post-720939126716934": {
       "talks": [
         "fb-post-884978400313005",
         "fb-post-987358513408326",
-        "yt-U1PwmJMmA8w"
+        "fb-1020512815993021"
       ]
+    },
+    "yt-FW8-Knxtn50": {
+      "talks": ["yt-j1Y2XYRPaV0", "yt-bSuWBv7lh6A", "yt-gxQGYszegrM"]
     },
     "yt-_665Ec2_Q_c": {
-      "talks": [
-        "yt-cJ33jAg4Ewc",
-        "fb-post-771120405032139",
-        "fb-post-478847770926072"
-      ],
-      "articles": ["10.15381/rif.v24i1.20239", "10.15381/rif.v5i01-02.8778"]
+      "talks": ["yt-uufIMAYVyJA", "yt-KAWsuLgLaoU", "yt-NZhYBCO7TcI"]
+    },
+    "yt-c5CJfzzOBBQ": {
+      "talks": ["yt-XVb8kPU_1oc", "yt-hmi46S3VkMQ", "yt-cB6fTtuP4Qo"]
     },
     "yt-j1Y2XYRPaV0": {
-      "talks": ["fb-post-787098653434314"]
+      "talks": ["educast-7549", "yt-va3mmX_pla0", "yt-2_r9JurpFXY"]
     },
     "yt-U1PwmJMmA8w": {
-      "talks": [
-        "fb-1020512815993021",
-        "fb-post-720939126716934",
-        "fb-post-976385764505601"
-      ]
+      "talks": ["yt-KAQbugTcPgc"]
     },
     "yt-NTQPOAi2hFU": {
-      "talks": ["yt-KAWsuLgLaoU", "yt-FYxZbsJZQkc", "yt-oLQC4JSHl3g"],
-      "theses": ["10391", "18700", "19200"]
+      "talks": ["yt-FYxZbsJZQkc", "yt-va3mmX_pla0", "yt-oLQC4JSHl3g"]
     },
     "yt-58y1Br1TKuQ": {
-      "talks": [
-        "yt-2ogJwDy6rrw",
-        "fb-post-898362588218597",
-        "fb-post-474771524667030"
-      ]
+      "talks": ["yt-U9zCm0pU1LA", "yt-YzGdsdCcbiA", "yt-0wIb2SGz5pk"]
+    },
+    "yt-0dbzjhJfvNA": {
+      "talks": ["yt-KAQbugTcPgc", "yt-0q_n_4Tx5fk", "yt-Tq-gdiR2qTQ"]
+    },
+    "yt-0q_n_4Tx5fk": {
+      "talks": ["yt-KAQbugTcPgc", "yt-0dbzjhJfvNA", "yt-KAWsuLgLaoU"]
     },
     "fb-1020512815993021": {
       "talks": [
-        "yt-U1PwmJMmA8w",
         "fb-post-872922411518604",
-        "fb-post-976385764505601"
+        "fb-post-976385764505601",
+        "fb-post-720939126716934"
       ]
     },
     "fb-280171644477147": {
@@ -1047,7 +1115,7 @@
       "articles": ["10.15381/rif.v7i01-02.8807"]
     },
     "fb-957007725488244": {
-      "talks": ["fb-post-859655909511921"]
+      "talks": ["fb-post-859655909511921", "fb-post-841400008004178"]
     },
     "fb-910788270032239": {
       "talks": ["fb-photo-394201450173596", "fb-post-497292459081603"]
@@ -1056,72 +1124,61 @@
       "talks": ["fb-post-890772273066951"]
     },
     "fb-202568319264606": {
-      "talks": ["fb-photo-313742191552856"],
+      "talks": ["fb-photo-313742191552856", "yt-XHTUxyLZcQI"],
       "articles": ["10.15381/rif.v22i1.20318"]
     },
     "yt-WpjrJBZiL7Y": {
-      "talks": ["yt-qRFRN2v5yz8", "yt-JQ9z6CHjPCg", "yt-8PRbuT-81Xk"]
+      "talks": ["yt-22zzTx5TURY"]
     },
     "yt-kv2FLel4q0g": {
-      "talks": [
-        "fb-post-1013591664118344",
-        "fb-post-532328928911289",
-        "fb-post-762168695927310"
-      ],
-      "theses": ["27048"],
-      "articles": ["10.15381/rif.v24i3.21418"]
+      "talks": ["yt-Zw-PcRvWfc8", "yt-mwtY1Z4SqFY", "yt-JngFurjHkgo"]
     },
     "yt-Tq-gdiR2qTQ": {
-      "talks": ["fb-post-872922411518604"],
-      "theses": ["14756"]
+      "talks": ["yt-j1Y2XYRPaV0", "yt-2_r9JurpFXY", "yt-va3mmX_pla0"]
     },
     "yt-va3mmX_pla0": {
-      "talks": [
-        "fb-295394366566030",
-        "yt-mwtY1Z4SqFY",
-        "fb-post-960895942721250"
-      ],
-      "theses": ["4093", "19494", "19454"]
+      "talks": ["yt-FYxZbsJZQkc", "yt-oLQC4JSHl3g", "yt-NTQPOAi2hFU"]
     },
     "yt-bBHrIdDIISc": {
-      "talks": ["ig-C-5jLBnprmQ"]
+      "talks": ["yt-JngFurjHkgo", "yt-uufIMAYVyJA", "educast-4403"]
+    },
+    "yt-JngFurjHkgo": {
+      "talks": ["educast-11480", "yt-uufIMAYVyJA", "yt-bBHrIdDIISc"]
     },
     "yt-4d7zrshAB4w": {
-      "talks": ["fb-post-917422633735248", "yt-j-wiSpaX3qI", "yt-uvbOqj1A2po"],
-      "articles": ["10.15381/rif.v25i2.23069"]
+      "talks": ["yt-yY64Bwc2dKM", "yt-0M2AyJo_TXw", "yt-y_yyeQPiud0"]
     },
     "fb-6109081719154522": {
-      "talks": ["fb-photo-313742191552856", "yt-oDQ9rZbl_so", "yt-l0of1Ixf9y8"],
-      "articles": ["10.15381/rif.v28i2.30414", "10.15381/rif.v8i02.8557"]
-    },
-    "yt-w1imadxCWFc": {
-      "talks": ["yt-1hOykodBt8E", "yt-J7sOAqo1iSU", "fb-post-535192255291623"]
-    },
-    "yt-NZhYBCO7TcI": {
-      "talks": [
-        "fb-post-944714951006016",
-        "yt-KAQbugTcPgc",
-        "fb-post-508534171290765"
-      ],
+      "talks": ["fb-photo-313742191552856", "ig-DBcOL-CSFIP", "yt-BpNaloDaNBE"],
       "articles": [
-        "10.15381/rif.v24i1.20239",
-        "10.15381/rif.v18i2.11580",
-        "10.15381/rif.v23i2.20323"
+        "10.15381/rif.v28i2.30414",
+        "10.15381/rif.v8i02.8557",
+        "10.15381/rif.v24i2.20413"
       ]
     },
+    "yt-w1imadxCWFc": {
+      "talks": ["yt-Y1YyTSz6PUw", "yt-1gd6SsUHHTw", "yt-1hOykodBt8E"]
+    },
+    "yt-NZhYBCO7TcI": {
+      "talks": ["educast-4403", "yt-KAQbugTcPgc", "educast-2373"]
+    },
+    "yt-Zut95qdEdhk": {
+      "talks": ["yt-bNuYYE98J5M", "yt-yV1gzWZOOAk", "yt-gxQGYszegrM"]
+    },
     "yt-VZdsSNTI58A": {
-      "talks": ["yt-J54Y8IxEiwA", "educast-10392", "yt-2_r9JurpFXY"],
-      "articles": ["10.15381/rif.v16i02.8676"]
+      "talks": ["yt-RqVy47ecK6k", "yt-J54Y8IxEiwA", "yt-KAQbugTcPgc"]
+    },
+    "yt-75gXkGUd0Eg": {
+      "talks": ["educast-8989", "yt-MAUP6Er9qS0", "yt-ho0TEkU7Aa0"]
     },
     "yt-KAWsuLgLaoU": {
-      "talks": ["yt-NTQPOAi2hFU", "yt-oLQC4JSHl3g", "yt-FYxZbsJZQkc"],
-      "theses": ["18700", "10391"]
+      "talks": ["yt-qKdBTS_muys", "yt-yV1gzWZOOAk", "yt-oLQC4JSHl3g"]
     },
     "fb-post-545922484218600": {
       "talks": [
         "fb-post-912024870941691",
         "fb-post-535192255291623",
-        "yt-bNuYYE98J5M"
+        "ig-C4v9CFqP5gg"
       ],
       "articles": [
         "10.15381/rif.v25i1.14972",
@@ -1130,14 +1187,18 @@
       ]
     },
     "fb-post-535192255291623": {
-      "talks": ["yt-t-CjuK-FDzY", "yt-M-3h3dD8lL4", "fb-post-545922484218600"],
+      "talks": [
+        "fb-post-545922484218600",
+        "yt-LBd_nucNZ5s",
+        "fb-post-965907505553427"
+      ],
       "articles": ["10.15381/rif.v25i1.14972"]
     },
     "fb-post-532328928911289": {
-      "talks": ["yt-kv2FLel4q0g", "fb-post-1013591664118344"]
+      "talks": ["fb-post-1013591664118344"]
     },
     "fb-post-524005176410331": {
-      "talks": ["ig-DdY75UNxBy3", "yt-U1PwmJMmA8w"]
+      "talks": ["ig-DdY75UNxBy3"]
     },
     "fb-post-521631809981001": {
       "talks": [
@@ -1159,9 +1220,9 @@
     },
     "fb-post-896033718451484": {
       "talks": [
-        "yt-G6wzROtqzyk",
         "fb-280171644477147",
-        "fb-post-907960261348152"
+        "fb-post-907960261348152",
+        "yt-J7sOAqo1iSU"
       ]
     },
     "fb-post-478847770926072": {
@@ -1172,337 +1233,254 @@
       ]
     },
     "fb-post-474771524667030": {
-      "talks": ["fb-post-898362588218597", "yt-58y1Br1TKuQ", "yt-WbXY105_r2c"]
+      "talks": [
+        "fb-post-898362588218597",
+        "yt-LBd_nucNZ5s",
+        "fb-post-965907505553427"
+      ]
     },
     "fb-post-467632738714242": {
       "talks": [
         "fb-post-1080073770803466",
         "fb-post-917422633735248",
-        "yt-hmi46S3VkMQ"
+        "yt-LBd_nucNZ5s"
       ],
-      "articles": ["10.15381/rif.v24i3.21028"]
+      "articles": ["10.15381/rif.v24i3.21028", "10.15381/rif.v26i2.23688"]
     },
     "fb-post-898362588218597": {
       "talks": [
         "fb-post-965907505553427",
         "fb-post-474771524667030",
-        "yt-58y1Br1TKuQ"
+        "yt-LBd_nucNZ5s"
       ]
     },
     "fb-post-857815408939982": {
-      "talks": ["yt-y1tJSk6fYeo", "fb-post-1561350359342469"]
+      "talks": ["fb-post-1561350359342469"]
     },
     "yt-U9zCm0pU1LA": {
-      "talks": ["fb-photo-597571679973735-11"]
+      "talks": ["yt-7gaXNhfJ00E", "yt-O7C156TmNgY", "yt-58y1Br1TKuQ"]
     },
     "yt-WPvAlHNzXo0": {
-      "talks": ["yt-8AjajzKuREg", "yt-86MhTfidcbc", "yt-pWo2XyO9mb4"]
+      "talks": ["yt-86MhTfidcbc", "yt-8AjajzKuREg", "yt-HAaR9mOU830"]
     },
     "yt-8AjajzKuREg": {
-      "talks": ["yt-86MhTfidcbc", "yt-WPvAlHNzXo0", "yt-Ksqd6GLD89Y"]
+      "talks": ["yt-86MhTfidcbc", "yt-WPvAlHNzXo0", "educast-5930"]
     },
     "yt-86MhTfidcbc": {
-      "talks": ["yt-8AjajzKuREg", "yt-WPvAlHNzXo0", "yt-Q1ElIv9sawE"]
+      "talks": ["yt-8AjajzKuREg", "yt-WPvAlHNzXo0", "yt-cPg0kn7GQEQ"]
     },
     "yt-d4Zq7DiLSpI": {
-      "talks": ["tps-2026-06-16", "educast-3201", "fb-photo-866140759783491"],
-      "articles": [
-        "10.15381/rif.v9i02.8597",
-        "10.15381/rif.v9i02.8584",
-        "10.15381/rif.v25i1.14972"
-      ]
+      "talks": ["yt-KGTpK1k0e48", "yt-Ut7xkFAdXwQ", "yt-0lCyM51Isek"]
     },
     "yt-xEcvoWrgpx8": {
-      "talks": ["fb-post-1266494072161434", "yt-sIerGzGpSLw", "yt-Bvg5hkqTlA0"],
-      "theses": ["14850", "7586", "26590"],
-      "articles": [
-        "10.15381/rif.v24i2.20359",
-        "10.15381/rif.v23i1.20289",
-        "10.15381/rif.v26i2.25155"
-      ]
+      "talks": ["yt-m9Fb5ux9Z_c", "yt-AvN3xueHZos", "yt-sIerGzGpSLw"]
     },
     "yt-KlQCA_DeETE": {
-      "talks": ["yt-FmxQ-qPvh6I", "yt-txghOqaSmtk", "fb-post-850004150477097"],
-      "theses": ["16125", "16358", "15117"],
-      "articles": [
-        "10.15381/rif.v21i1.20231",
-        "10.15381/rif.v19i1.13553",
-        "10.15381/rif.v17i01.8660"
-      ]
+      "talks": ["yt-I9zk4bcVUlA", "yt-f8Wf8LT5g_A", "yt-GeGS7WYdJBQ"]
+    },
+    "yt-eEzyBBuCUUg": {
+      "talks": ["yt-Vv_DOjRf8vA", "yt-sATmfGSbwRw", "yt-H9pbJpY1rYc"]
     },
     "yt-U4sICCmytC8": {
-      "talks": ["yt-FmxQ-qPvh6I"],
-      "theses": ["16358"]
+      "talks": ["yt-MoQX5QTlVRU", "yt-l0of1Ixf9y8", "yt-_giPFkyXDFQ"]
     },
     "yt-s57NrWNEMYA": {
-      "talks": [
-        "fb-photo-327815003478908",
-        "fb-photo-597571679973735-6",
-        "yt-z5c3_s99qOk"
-      ],
-      "theses": ["17057"],
-      "articles": ["10.15381/rif.v24i2.14245"]
+      "talks": ["yt-Qgbp9irKQzM", "yt-0b_RfWTHqzM", "yt-TwsPMt8RBDs"]
     },
     "yt-HAaR9mOU830": {
-      "talks": ["yt-hmq2-IASGzY", "yt-sATmfGSbwRw"]
+      "talks": ["yt-WPvAlHNzXo0", "yt-MoQX5QTlVRU", "yt-EMSXlLyEE7A"]
     },
     "yt-7guYMDAQq38": {
-      "talks": ["yt-7gaXNhfJ00E", "yt-YzGdsdCcbiA"],
-      "theses": ["15261"]
+      "talks": ["yt-I9zk4bcVUlA", "yt-Vv_DOjRf8vA", "yt-InkMori0kVM"]
     },
     "yt-4DF3cbzf6gA": {
-      "talks": ["yt-Oe1F-AGmiUk", "yt-pWo2XyO9mb4", "yt-WPvAlHNzXo0"]
+      "talks": ["yt-Oe1F-AGmiUk", "yt-pWo2XyO9mb4", "yt-tdSF_Dw-bYs"]
     },
     "yt-Oe1F-AGmiUk": {
-      "talks": ["yt-pWo2XyO9mb4", "yt-4DF3cbzf6gA", "yt-WPvAlHNzXo0"]
+      "talks": ["yt-pWo2XyO9mb4", "yt-4DF3cbzf6gA", "yt-tdSF_Dw-bYs"]
     },
     "yt-pWo2XyO9mb4": {
-      "talks": ["yt-Oe1F-AGmiUk", "yt-4DF3cbzf6gA", "yt-WPvAlHNzXo0"]
+      "talks": ["yt-Oe1F-AGmiUk", "yt-4DF3cbzf6gA", "yt-tdSF_Dw-bYs"]
     },
     "yt-egpZTqpktx0": {
-      "talks": ["yt-cPg0kn7GQEQ", "yt-cRnxaLs7atw", "yt-0bNV1B7yVEA"]
+      "talks": ["yt-RJaKyB9cNQw", "yt-Nd_XY1fZDxA", "yt-cRnxaLs7atw"]
     },
     "yt-BUOkmv8CEXo": {
-      "talks": ["yt-9tsKB-92tns", "yt-3v6SaAU_WxI", "yt-Em-qbyBbKIE"]
+      "talks": ["yt-9tsKB-92tns", "yt-LVCtr4TGVus", "educast-9543"]
     },
     "yt-kq4Ey9TmDKA": {
-      "talks": ["yt-Em-qbyBbKIE", "yt-3v6SaAU_WxI", "yt-9tsKB-92tns"]
+      "talks": ["yt-3v6SaAU_WxI", "yt-Em-qbyBbKIE", "yt-LVCtr4TGVus"]
     },
     "yt-0bNV1B7yVEA": {
-      "talks": ["yt-cPg0kn7GQEQ", "yt-egpZTqpktx0", "yt-cRnxaLs7atw"]
+      "talks": ["yt-cPg0kn7GQEQ", "yt-cRnxaLs7atw", "yt-LVCtr4TGVus"]
     },
     "yt-9tsKB-92tns": {
-      "talks": ["yt-BUOkmv8CEXo", "yt-3v6SaAU_WxI", "yt-Em-qbyBbKIE"]
+      "talks": ["yt-BUOkmv8CEXo", "educast-9543", "yt-LVCtr4TGVus"]
     },
     "yt-3v6SaAU_WxI": {
-      "talks": ["yt-Em-qbyBbKIE", "yt-kq4Ey9TmDKA", "yt-BUOkmv8CEXo"]
+      "talks": ["yt-kq4Ey9TmDKA", "yt-Em-qbyBbKIE", "yt-LVCtr4TGVus"]
     },
     "yt-cRnxaLs7atw": {
-      "talks": ["yt-cPg0kn7GQEQ", "yt-egpZTqpktx0", "yt-0bNV1B7yVEA"]
+      "talks": ["yt-cPg0kn7GQEQ", "yt-0bNV1B7yVEA", "yt-EMSXlLyEE7A"]
     },
     "yt-Em-qbyBbKIE": {
-      "talks": ["yt-kq4Ey9TmDKA", "yt-3v6SaAU_WxI", "yt-9tsKB-92tns"]
+      "talks": ["yt-3v6SaAU_WxI", "yt-LVCtr4TGVus", "yt-kq4Ey9TmDKA"]
     },
     "yt-cPg0kn7GQEQ": {
-      "talks": ["yt-egpZTqpktx0", "yt-cRnxaLs7atw", "yt-0bNV1B7yVEA"]
+      "talks": ["yt-0bNV1B7yVEA", "yt-cRnxaLs7atw", "yt-Bvg5hkqTlA0"]
     },
     "yt-LVCtr4TGVus": {
-      "talks": ["yt-cPg0kn7GQEQ", "yt-cRnxaLs7atw", "yt-0bNV1B7yVEA"],
-      "theses": ["15325"]
+      "talks": ["yt-Em-qbyBbKIE", "yt-3v6SaAU_WxI", "yt-BUOkmv8CEXo"]
     },
     "yt-BTj21RLvxqE": {
-      "talks": ["yt-u4FFDqabyRY", "yt-IlSxOyq7uLQ", "yt-c4bzSKPjR-s"]
+      "talks": ["yt-u4FFDqabyRY", "yt-0XsubYmiw84", "yt-mWStzrP-pRY"]
     },
     "yt-ho0TEkU7Aa0": {
-      "talks": ["yt-oDQ9rZbl_so", "yt-lckCnZrpOb8", "yt-IujKrqtFfTU"],
-      "articles": ["10.15381/rif.v5i01-02.8787"]
+      "talks": ["yt-MAUP6Er9qS0", "yt-Ip6qoZbLFTI", "educast-8989"]
     },
     "yt-mWStzrP-pRY": {
-      "talks": ["yt-g45U_yesVc8", "yt-QvM750TtyzU", "yt-UYqUsM8Jk1M"],
-      "articles": ["10.15381/rif.v28i2.30414"]
+      "talks": ["yt-sIerGzGpSLw", "yt-ngSRP-dGYbE", "yt-u4FFDqabyRY"]
     },
     "yt-IlSxOyq7uLQ": {
-      "talks": ["yt-u4FFDqabyRY", "yt-c4bzSKPjR-s", "yt-BTj21RLvxqE"]
+      "talks": ["yt-q19O8P__b_A", "yt-lckCnZrpOb8", "yt-c4bzSKPjR-s"]
     },
     "yt-q19O8P__b_A": {
-      "talks": ["yt-UYqUsM8Jk1M", "yt-IujKrqtFfTU", "yt-lckCnZrpOb8"],
-      "articles": ["10.15381/rif.v5i01-02.8787", "10.15381/rif.v28i2.30414"]
+      "talks": ["yt-IlSxOyq7uLQ", "yt-u4FFDqabyRY", "yt-g45U_yesVc8"]
     },
     "yt-g45U_yesVc8": {
-      "talks": ["yt-mWStzrP-pRY", "yt-QvM750TtyzU", "yt-UYqUsM8Jk1M"],
-      "articles": ["10.15381/rif.v28i2.30414"]
+      "talks": ["educast-5214", "yt-u4FFDqabyRY", "yt-lckCnZrpOb8"]
     },
     "yt-c4bzSKPjR-s": {
-      "talks": ["yt-u4FFDqabyRY", "yt-IlSxOyq7uLQ", "yt-BTj21RLvxqE"]
+      "talks": ["yt-u4FFDqabyRY", "yt-BTj21RLvxqE", "yt-mWStzrP-pRY"]
     },
     "yt-UYqUsM8Jk1M": {
-      "talks": ["yt-q19O8P__b_A", "yt-IujKrqtFfTU", "yt-lckCnZrpOb8"],
-      "articles": ["10.15381/rif.v5i01-02.8787", "10.15381/rif.v28i2.30414"]
+      "talks": ["yt-RqVy47ecK6k", "yt-VZdsSNTI58A", "yt-IujKrqtFfTU"]
     },
     "yt-lckCnZrpOb8": {
-      "talks": ["yt-IujKrqtFfTU", "yt-UYqUsM8Jk1M", "yt-q19O8P__b_A"],
-      "articles": ["10.15381/rif.v5i01-02.8787", "10.15381/rif.v28i2.30414"]
+      "talks": ["yt-IlSxOyq7uLQ", "yt-JngFurjHkgo", "yt-BTj21RLvxqE"]
     },
     "yt-JQ9z6CHjPCg": {
-      "talks": ["yt-lMf5cfNEzzw", "yt-8PRbuT-81Xk", "fb-photo-394201390173602"]
+      "talks": ["yt-oDQ9rZbl_so", "yt-YzGdsdCcbiA", "yt-Tq-gdiR2qTQ"]
     },
     "yt-QvM750TtyzU": {
-      "talks": ["yt-mWStzrP-pRY", "yt-g45U_yesVc8", "yt-UYqUsM8Jk1M"],
-      "articles": ["10.15381/rif.v28i2.30414"]
+      "talks": ["yt-XG4k_gaiZa4", "yt-STPsYa0gmEg", "yt-UYqUsM8Jk1M"]
     },
     "yt-u4FFDqabyRY": {
-      "talks": ["yt-c4bzSKPjR-s", "yt-IlSxOyq7uLQ", "yt-BTj21RLvxqE"]
+      "talks": ["yt-mWStzrP-pRY", "yt-BTj21RLvxqE", "yt-d4Zq7DiLSpI"]
     },
     "yt-oDQ9rZbl_so": {
-      "talks": ["yt-Ip6qoZbLFTI", "yt-ho0TEkU7Aa0", "yt-lckCnZrpOb8"],
-      "articles": ["10.15381/rif.v28i2.30414", "10.15381/rif.v5i01-02.8787"]
+      "talks": ["yt-JQ9z6CHjPCg", "yt-LlufH-A27ZE", "yt-Ip6qoZbLFTI"]
     },
     "yt-IujKrqtFfTU": {
-      "talks": ["yt-lckCnZrpOb8", "yt-q19O8P__b_A", "yt-UYqUsM8Jk1M"],
-      "articles": ["10.15381/rif.v5i01-02.8787", "10.15381/rif.v28i2.30414"]
+      "talks": ["yt-mWStzrP-pRY", "educast-12270", "yt-u4FFDqabyRY"]
     },
     "yt-hczOpuZLsLs": {
-      "talks": ["yt-mozqrNS4hBY", "yt-Qgbp9irKQzM", "yt-z5c3_s99qOk"]
+      "talks": ["yt-Qgbp9irKQzM", "yt-mw4Yrm4amo0", "yt-yo6W1YvoGro"]
+    },
+    "yt-aCdAfpbFiZ8": {
+      "talks": ["yt--mmklEQlv8I", "yt-ngSRP-dGYbE", "yt-LGrEOXp34_Q"]
     },
     "yt-EWfkfzXZ6dU": {
-      "talks": ["yt-EMSXlLyEE7A", "yt-ZbRk6ojWWUk", "yt-Bvg5hkqTlA0"]
+      "talks": ["yt-EMSXlLyEE7A", "yt-sATmfGSbwRw", "yt-0lCyM51Isek"]
+    },
+    "yt-8FeceWDZkVk": {
+      "talks": ["yt-0b_RfWTHqzM", "yt-U4sICCmytC8", "yt-hczOpuZLsLs"]
     },
     "yt-t_M9P6etOmc": {
-      "talks": ["yt-VDB7u0b-Ycg", "yt-rfT88EYm1rQ", "yt-pWo2XyO9mb4"]
+      "talks": ["yt-psvik-BUkzQ", "yt-rfT88EYm1rQ", "yt-VDB7u0b-Ycg"]
     },
     "yt-SAKaepHbbqo": {
-      "talks": ["yt-D8V31AQRCf0"]
+      "talks": ["yt-D8V31AQRCf0", "yt-f8Wf8LT5g_A", "yt-0lCyM51Isek"]
     },
     "yt-m-pC5OOq9uM": {
-      "talks": ["yt-l0of1Ixf9y8"]
+      "talks": ["yt-d4Zq7DiLSpI", "yt-psvik-BUkzQ", "yt-KGTpK1k0e48"]
     },
     "yt-RqVy47ecK6k": {
-      "talks": ["yt--RH4e_dAJCw", "yt-oLQC4JSHl3g", "yt-Q23g1qtpvIs"],
-      "theses": ["15261", "10391"]
+      "talks": ["yt-UYqUsM8Jk1M", "yt-VZdsSNTI58A", "yt-J54Y8IxEiwA"]
     },
     "yt-VDB7u0b-Ycg": {
-      "talks": ["yt-rfT88EYm1rQ", "yt-t_M9P6etOmc", "educast-2371"]
+      "talks": ["yt-rfT88EYm1rQ", "yt-t_M9P6etOmc", "yt-psvik-BUkzQ"]
     },
     "yt-uMpNS1guGV4": {
-      "talks": ["fb-photo-327815003478908"]
+      "talks": ["yt-Ut7xkFAdXwQ", "yt-IWZ4TNxr084", "yt-l0of1Ixf9y8"]
     },
     "yt-LGrEOXp34_Q": {
-      "talks": ["ig-DehfZjCEchq", "yt-tdSF_Dw-bYs", "ig-DP1jzphkU2d"],
-      "theses": ["23029"],
-      "articles": ["10.15381/rif.v24i2.20359", "10.15381/rif.28i2.28594"]
+      "talks": ["yt-N-UDaPSzJlg", "yt-tdSF_Dw-bYs", "educast-11499"]
     },
     "yt-W1elNSvz3Ls": {
-      "talks": [
-        "tps-2026-05-26",
-        "fb-photo-597571679973735-5",
-        "yt-lMf5cfNEzzw"
-      ]
+      "talks": ["yt-YMlXsLzvuIA", "yt-I1WE6CJHfLg", "yt-LXRCh4ByNUE"]
     },
     "yt-rfT88EYm1rQ": {
-      "talks": ["yt-VDB7u0b-Ycg", "yt-t_M9P6etOmc", "educast-2371"]
+      "talks": ["yt-VDB7u0b-Ycg", "yt-t_M9P6etOmc", "yt-m-pC5OOq9uM"]
+    },
+    "yt-osPfl6afPJw": {
+      "talks": ["yt-EMSXlLyEE7A", "yt-hmq2-IASGzY", "yt-mozqrNS4hBY"]
+    },
+    "yt-w1cq6FICd6c": {
+      "talks": ["educast-666", "yt-FmxQ-qPvh6I", "yt-c5CJfzzOBBQ"]
     },
     "yt-tdSF_Dw-bYs": {
-      "talks": [
-        "yt-aikqoOHNNYU",
-        "fb-photo-597571679973735-3",
-        "yt-LGrEOXp34_Q"
-      ],
-      "articles": ["10.15381/rif.28i2.28594"]
+      "talks": ["yt-Oe1F-AGmiUk", "yt-pWo2XyO9mb4", "educast-9206"]
     },
     "yt-hnL30Q3VW-s": {
-      "talks": ["yt-4nRdH6LCEj8", "yt-Ip6qoZbLFTI", "yt-oDQ9rZbl_so"]
+      "talks": ["educast-7595", "yt-tdSF_Dw-bYs", "educast-676"]
     },
     "yt-w-D336V2rDQ": {
-      "talks": ["yt-zL8Rb_mpy3w", "yt-WFaxbBtsIAE", "yt-hnL30Q3VW-s"],
-      "articles": ["10.15381/rif.v1i01.20483"]
+      "talks": ["yt-WFaxbBtsIAE", "yt-zL8Rb_mpy3w", "yt-hnL30Q3VW-s"]
     },
     "yt-yo6W1YvoGro": {
-      "talks": ["fb-photo-875333262197574", "yt-l0of1Ixf9y8", "yt-xEcvoWrgpx8"],
-      "theses": ["16843"],
-      "articles": [
-        "10.15381/rif.v13i02.8926",
-        "10.15381/rif.v7i01-02.8826",
-        "10.15381/rif.v26i1.24337"
-      ]
+      "talks": ["educast-647", "yt-0b_RfWTHqzM", "yt-Qgbp9irKQzM"]
     },
     "yt-FmxQ-qPvh6I": {
-      "talks": ["yt-KlQCA_DeETE", "yt-MAUP6Er9qS0", "yt-Q23g1qtpvIs"],
-      "theses": ["15117", "16358", "1471"],
-      "articles": ["10.15381/rif.v14i01.8540", "10.15381/rif.v24i1.20242"]
+      "talks": ["yt-Q23g1qtpvIs", "yt-w1cq6FICd6c", "yt-0b_RfWTHqzM"]
     },
     "yt-AJlu13CLbAQ": {
-      "talks": ["yt-Nd_XY1fZDxA", "ig-C6rn2P0vIiS"]
+      "talks": ["yt-Nd_XY1fZDxA", "yt-4IcDNA_FJUc", "yt-RJaKyB9cNQw"]
     },
     "yt-zL8Rb_mpy3w": {
-      "talks": ["yt-w-D336V2rDQ", "yt-WFaxbBtsIAE"],
-      "articles": ["10.15381/rif.v1i01.20483"]
+      "talks": ["yt-WFaxbBtsIAE", "yt-w-D336V2rDQ", "yt-MAUP6Er9qS0"]
     },
     "yt-Ut7xkFAdXwQ": {
-      "talks": ["yt-KxOiGVSjji0", "yt-ll416puYRUg", "yt-veUFMMUdpZk"],
-      "articles": [
-        "10.15381/rif.v9i01.8620",
-        "10.15381/rif.v12i01.8723",
-        "10.15381/rif.v13i01.8856"
-      ]
+      "talks": ["yt-d4Zq7DiLSpI", "yt-sQLzr3PT-bs", "yt-Bvg5hkqTlA0"]
     },
     "yt-l0of1Ixf9y8": {
-      "talks": [
-        "fb-photo-394201390173602-3",
-        "yt-YzGdsdCcbiA",
-        "yt-7gaXNhfJ00E"
-      ],
-      "theses": ["1471"],
-      "articles": [
-        "10.15381/rif.v14i01.8537",
-        "10.15381/rif.v7i01-02.8826",
-        "10.15381/rif.v24i2.20413"
-      ]
+      "talks": ["yt-sQLzr3PT-bs", "yt-s57NrWNEMYA", "yt-psvik-BUkzQ"]
     },
     "yt-EMSXlLyEE7A": {
-      "talks": ["yt-EWfkfzXZ6dU", "yt-l0of1Ixf9y8", "fb-post-1266494072161434"],
-      "theses": ["16358"],
-      "articles": ["10.15381/rif.v17i01.8660", "10.15381/rif.v8i02.8562"]
-    },
-    "fb-676003416444697": {
-      "talks": ["educast-1202"],
-      "theses": ["15686", "18297", "9121"],
-      "articles": [
-        "10.15381/rif.v23i3.20311",
-        "10.15381/rif.v23i3.20308",
-        "10.15381/rif.v1i02.8598"
-      ]
+      "talks": ["yt-hmq2-IASGzY", "yt-sATmfGSbwRw", "yt-Vv_DOjRf8vA"]
     },
     "yt-ngSRP-dGYbE": {
-      "talks": ["fb-photo-856443264086574", "yt-ePR8vgQiIUs", "yt-sIerGzGpSLw"],
-      "articles": [
-        "10.15381/rif.v13i02.8926",
-        "10.15381/rif.v26i2.25155",
-        "10.15381/rif.v24i2.20359"
-      ]
+      "talks": ["yt-sIerGzGpSLw", "yt-mWStzrP-pRY", "yt-ePR8vgQiIUs"]
     },
     "yt-mw4Yrm4amo0": {
-      "talks": [
-        "fb-photo-394201390173602-3",
-        "yt-l0of1Ixf9y8",
-        "yt-txghOqaSmtk"
-      ],
-      "articles": ["10.15381/rif.v9i01.8620"]
+      "talks": ["yt-sQLzr3PT-bs", "yt-hczOpuZLsLs", "yt-EWfkfzXZ6dU"]
     },
     "yt-sATmfGSbwRw": {
-      "talks": ["yt-HAaR9mOU830", "ig-DG3qaijxDzz"],
-      "articles": ["10.15381/rif.v25i3.23592"]
+      "talks": ["yt-Vv_DOjRf8vA", "yt-EMSXlLyEE7A", "yt-eEzyBBuCUUg"]
     },
     "yt-WFaxbBtsIAE": {
-      "talks": ["yt-zL8Rb_mpy3w", "yt-w-D336V2rDQ"],
-      "articles": ["10.15381/rif.v1i01.20483"]
+      "talks": ["yt-zL8Rb_mpy3w", "yt-w-D336V2rDQ", "yt-hnL30Q3VW-s"]
     },
     "yt-MAUP6Er9qS0": {
-      "talks": ["yt-ho0TEkU7Aa0", "yt-FmxQ-qPvh6I", "yt-I9zk4bcVUlA"],
-      "theses": ["15117"]
+      "talks": ["yt-ho0TEkU7Aa0", "yt-Ip6qoZbLFTI", "educast-8989"]
     },
     "yt-STPsYa0gmEg": {
-      "talks": ["yt-aYFV5gKi81A", "yt-Uoa8A_Me7qw", "yt-fYk_dBuhf2g"]
-    },
-    "yt-jaNpBaWYlFE": {
-      "talks": ["yt-LlufH-A27ZE", "yt-Ip6qoZbLFTI", "yt-lckCnZrpOb8"],
-      "articles": ["10.15381/rif.v28i2.30414", "10.15381/rif.v5i01-02.8787"]
+      "talks": ["yt-QvM750TtyzU", "yt-Ip6qoZbLFTI"]
     },
     "yt-LlufH-A27ZE": {
-      "talks": ["yt-Ip6qoZbLFTI", "yt-jaNpBaWYlFE", "yt-oDQ9rZbl_so"],
-      "articles": ["10.15381/rif.v28i2.30414", "10.15381/rif.v14i01.8537"]
+      "talks": ["yt-oDQ9rZbl_so", "yt--RH4e_dAJCw", "yt-1gd6SsUHHTw"]
     },
     "yt-aYFV5gKi81A": {
-      "talks": ["yt-STPsYa0gmEg", "yt-EyacOlPr2uY", "yt-GNuVibkBC0g"]
+      "talks": ["yt-m-pC5OOq9uM", "yt-0lCyM51Isek", "yt-d4Zq7DiLSpI"]
     },
     "yt-fYk_dBuhf2g": {
       "talks": ["yt-Uoa8A_Me7qw", "yt-EyacOlPr2uY", "yt-GNuVibkBC0g"]
     },
     "yt-EyacOlPr2uY": {
-      "talks": ["yt-GNuVibkBC0g", "yt-XHTUxyLZcQI", "yt-fYk_dBuhf2g"]
+      "talks": ["yt-GNuVibkBC0g", "yt-XHTUxyLZcQI", "yt-Uoa8A_Me7qw"]
     },
     "yt-Ip6qoZbLFTI": {
-      "talks": ["yt-oDQ9rZbl_so", "yt-LlufH-A27ZE", "yt-jaNpBaWYlFE"],
-      "articles": ["10.15381/rif.v28i2.30414", "10.15381/rif.v5i01-02.8787"]
+      "talks": ["educast-7595", "yt-MAUP6Er9qS0", "yt-ho0TEkU7Aa0"]
     },
     "yt-Uoa8A_Me7qw": {
       "talks": ["yt-fYk_dBuhf2g", "yt-EyacOlPr2uY", "yt-GNuVibkBC0g"]
@@ -1516,172 +1494,147 @@
     "yt-4nRdH6LCEj8": {
       "talks": ["yt-XHTUxyLZcQI", "yt-EyacOlPr2uY", "yt-GNuVibkBC0g"]
     },
+    "yt-EqI-_VGPTDQ": {
+      "talks": ["educast-8989", "educast-10431", "yt-Ip6qoZbLFTI"]
+    },
     "yt-psvik-BUkzQ": {
-      "talks": ["yt-KGTpK1k0e48", "yt-ZbRk6ojWWUk"],
-      "articles": ["10.15381/rif.v14i01.8728", "10.15381/rif.v7i01-02.8826"]
+      "talks": ["yt-KGTpK1k0e48", "yt-t_M9P6etOmc", "yt-d4Zq7DiLSpI"]
     },
     "yt-N-UDaPSzJlg": {
-      "talks": ["fb-photo-597571679973735-3", "yt-aikqoOHNNYU"],
-      "theses": ["19316"],
-      "articles": ["10.15381/rif.28i2.28594"]
+      "talks": ["yt-aikqoOHNNYU", "yt-LGrEOXp34_Q", "educast-11499"]
     },
     "yt-Eye905phr-E": {
-      "talks": ["fb-photo-856443264086574", "yt-xEcvoWrgpx8"],
+      "talks": ["fb-photo-856443264086574"],
+      "theses": ["23029"],
       "articles": ["10.15381/rif.v24i2.20359", "10.15381/rif.v26i2.25155"]
     },
     "yt-sIerGzGpSLw": {
-      "talks": ["yt-xEcvoWrgpx8", "yt-ePR8vgQiIUs", "fb-post-1266494072161434"],
-      "theses": ["14850", "26590"],
-      "articles": [
-        "10.15381/rif.v26i2.25155",
-        "10.15381/rif.v26i1.22806",
-        "10.15381/rif.v13i02.8926"
-      ]
+      "talks": ["yt-mWStzrP-pRY", "yt-ngSRP-dGYbE", "yt-xEcvoWrgpx8"]
     },
     "yt-keWkooGomVE": {
-      "talks": ["yt-yuLm4Yfpmbo"],
-      "theses": ["22860"]
+      "talks": ["yt-yuLm4Yfpmbo", "yt-Ut7xkFAdXwQ", "yt-sQLzr3PT-bs"]
+    },
+    "yt-6EhTUnEW82w": {
+      "talks": ["yt-s57NrWNEMYA", "yt-l0of1Ixf9y8", "yt-mw4Yrm4amo0"]
     },
     "yt-f8Wf8LT5g_A": {
-      "talks": ["yt-yuLm4Yfpmbo"]
+      "talks": ["yt-KlQCA_DeETE", "yt-mw4Yrm4amo0", "yt-eEzyBBuCUUg"]
     },
     "yt-KGTpK1k0e48": {
-      "talks": ["yt-psvik-BUkzQ", "yt-EMSXlLyEE7A", "yt-Bvg5hkqTlA0"],
-      "articles": ["10.15381/rif.v7i01-02.8826"]
+      "talks": ["yt-psvik-BUkzQ", "yt-d4Zq7DiLSpI", "yt-t_M9P6etOmc"]
+    },
+    "yt-LXRCh4ByNUE": {
+      "talks": ["yt-W1elNSvz3Ls", "educast-5739", "yt-z5c3_s99qOk"]
     },
     "yt-D8V31AQRCf0": {
-      "talks": ["yt-SAKaepHbbqo"]
+      "talks": ["yt-SAKaepHbbqo", "yt-f8Wf8LT5g_A", "yt-cB6fTtuP4Qo"]
     },
     "yt-6aw3JRuyZkQ": {
-      "talks": ["yt-l0of1Ixf9y8", "fb-photo-870807765983457", "ig-DBcOL-CSFIP"],
-      "theses": ["16358", "16843", "15261"]
+      "talks": ["yt-f8Wf8LT5g_A", "yt-hczOpuZLsLs", "yt-l0of1Ixf9y8"]
     },
     "educast-12260": {
-      "talks": ["educast-10081", "educast-5833"]
+      "talks": ["educast-10081"]
     },
     "yt-I9zk4bcVUlA": {
-      "talks": ["yt-aikqoOHNNYU", "yt-MAUP6Er9qS0", "yt-7gaXNhfJ00E"],
-      "theses": ["15117"],
-      "articles": [
-        "10.15381/rif.v19i1.13553",
-        "10.15381/rif.v16i01.8683",
-        "10.15381/rif.v13i01.8856"
-      ]
+      "talks": ["yt-7guYMDAQq38", "yt-KlQCA_DeETE", "yt-l0of1Ixf9y8"]
     },
     "yt-z5c3_s99qOk": {
-      "talks": ["yt-s57NrWNEMYA", "yt-ePR8vgQiIUs", "yt-hczOpuZLsLs"]
+      "talks": ["yt-Qgbp9irKQzM", "yt-s57NrWNEMYA", "yt-aikqoOHNNYU"]
     },
     "educast-12254": {
-      "talks": ["educast-6822", "educast-8989", "educast-933"]
+      "talks": ["educast-6822", "educast-933", "educast-8989"]
     },
     "yt-Vv_DOjRf8vA": {
-      "talks": ["yt-EMSXlLyEE7A", "yt-ePR8vgQiIUs", "fb-photo-853207614410139"],
-      "theses": ["7586"],
-      "articles": ["10.15381/rif.v24i2.20413", "10.15381/rif.v22i2.20292"]
+      "talks": ["yt-eEzyBBuCUUg", "yt-sATmfGSbwRw", "yt-EMSXlLyEE7A"]
     },
     "educast-12132": {
-      "talks": ["educast-5349", "educast-8464", "educast-11125"]
+      "talks": ["educast-5349"]
     },
     "educast-12134": {
-      "talks": ["educast-5349", "educast-2994", "educast-3319"]
+      "talks": ["educast-5349", "educast-3319", "educast-2994"]
     },
     "educast-12035": {
-      "talks": ["educast-11464", "educast-6629", "educast-2252"]
+      "talks": ["educast-11464"]
     },
     "yt-sQLzr3PT-bs": {
-      "talks": ["fb-photo-394201390173602", "yt-ePR8vgQiIUs", "yt-s57NrWNEMYA"],
-      "articles": ["10.15381/rif.v19i2.13560"]
+      "talks": ["yt-Ut7xkFAdXwQ", "yt-l0of1Ixf9y8", "yt-yuLm4Yfpmbo"]
     },
     "educast-11957": {
-      "talks": ["educast-9543", "educast-7595", "educast-7355"]
+      "talks": ["educast-9543", "yt-BUOkmv8CEXo", "educast-7595"]
+    },
+    "yt-ew3l6L4OX3Q": {
+      "talks": ["yt-DKnuaWKt6BI", "yt-U4sICCmytC8", "yt-ZbRk6ojWWUk"]
     },
     "educast-11887": {
       "talks": ["educast-7331", "educast-10611", "educast-9778"]
     },
     "educast-12270": {
-      "talks": ["educast-1203", "educast-11215", "educast-772"]
+      "talks": ["yt-IujKrqtFfTU", "yt-Qgbp9irKQzM", "yt-LXRCh4ByNUE"]
     },
     "yt-yuLm4Yfpmbo": {
-      "talks": ["yt-keWkooGomVE", "yt-_giPFkyXDFQ", "yt-f8Wf8LT5g_A"],
-      "theses": ["22860", "15117"]
+      "talks": ["yt-keWkooGomVE", "yt-sQLzr3PT-bs", "educast-2371"]
     },
     "educast-11684": {
       "talks": ["educast-3480", "educast-7355", "educast-2373"]
     },
     "yt-Qgbp9irKQzM": {
-      "talks": ["yt-hczOpuZLsLs", "yt-0b_RfWTHqzM"],
-      "theses": ["23029"],
-      "articles": ["10.15381/rif.v24i2.20359", "10.15381/rif.v26i2.25155"]
+      "talks": ["yt-z5c3_s99qOk", "yt-s57NrWNEMYA", "yt-0b_RfWTHqzM"]
     },
     "educast-11499": {
-      "talks": ["educast-9206", "educast-676", "educast-2371"]
+      "talks": ["educast-9206", "yt-N-UDaPSzJlg", "educast-676"]
     },
     "educast-11470": {
-      "talks": ["educast-8969", "educast-7359", "educast-9511"]
+      "talks": ["yt-KxOiGVSjji0", "educast-8969", "educast-7359"]
     },
     "yt-Bvg5hkqTlA0": {
-      "talks": ["fb-post-1266494072161434", "yt-EMSXlLyEE7A", "yt-xEcvoWrgpx8"],
-      "theses": ["7586"],
-      "articles": ["10.15381/rif.v25i3.23592"]
+      "talks": ["yt-cPg0kn7GQEQ", "yt-EMSXlLyEE7A", "yt-Ut7xkFAdXwQ"]
     },
     "educast-11464": {
       "talks": ["educast-11266", "educast-6991", "educast-12035"]
     },
     "yt-ePR8vgQiIUs": {
-      "talks": ["fb-photo-853207614410139", "yt-sQLzr3PT-bs", "yt-sIerGzGpSLw"],
-      "theses": ["14850", "23029", "26590"],
-      "articles": [
-        "10.15381/rif.v26i3.23641",
-        "10.15381/rif.v24i2.14245",
-        "10.15381/rif.v26i1.22806"
-      ]
+      "talks": ["yt-ngSRP-dGYbE", "yt-sQLzr3PT-bs", "yt-sIerGzGpSLw"]
     },
     "educast-11480": {
-      "talks": ["educast-2264"]
+      "talks": ["yt-JngFurjHkgo", "educast-2264"]
     },
     "yt-InkMori0kVM": {
-      "talks": [
-        "yt-l0of1Ixf9y8",
-        "fb-photo-394201390173602-3",
-        "yt-KxOiGVSjji0"
-      ],
-      "theses": ["1471"]
+      "talks": ["yt-7guYMDAQq38", "yt-Qgbp9irKQzM", "yt-I9zk4bcVUlA"]
     },
     "educast-11363": {
       "talks": ["educast-7089", "educast-7015", "educast-7359"]
     },
     "yt-H9pbJpY1rYc": {
-      "talks": ["fb-photo-873562759041291"]
+      "talks": ["yt-Vv_DOjRf8vA", "yt-eEzyBBuCUUg", "yt-TwsPMt8RBDs"]
     },
     "educast-11354": {
-      "talks": ["educast-5111", "educast-2262", "educast-11085"],
+      "talks": ["educast-5111", "educast-2262", "educast-2263"],
       "articles": ["10.15381/rif.v12i01.8722"]
     },
     "educast-11339": {
-      "talks": ["educast-2553", "educast-6629", "educast-9647"]
+      "talks": ["educast-2553"]
     },
     "educast-11314": {
-      "talks": ["educast-7549", "educast-2993", "educast-6861"]
+      "talks": ["yt-bNuYYE98J5M", "yt-J54Y8IxEiwA", "educast-7549"]
     },
     "educast-11266": {
       "talks": ["educast-6998", "educast-6741", "educast-2146"]
     },
     "educast-11215": {
-      "talks": ["educast-1203", "educast-5930", "educast-5739"]
+      "talks": ["educast-1203", "educast-5930", "yt-z5c3_s99qOk"]
     },
     "educast-11208": {
-      "talks": ["educast-9731", "educast-7133", "educast-2373"]
+      "talks": ["yt-va3mmX_pla0", "yt-KAWsuLgLaoU", "educast-9731"]
     },
     "educast-11137": {
-      "talks": ["educast-9530", "educast-1470", "educast-9543"]
+      "talks": ["educast-9530"]
     },
     "educast-11125": {
-      "talks": ["educast-10076", "educast-5019", "educast-8989"],
-      "theses": ["7570", "7794", "26609"],
-      "articles": ["10.15381/rif.v27i2.28263"]
+      "talks": ["educast-10076", "educast-5019", "educast-4136"],
+      "theses": ["7570"]
     },
     "educast-11085": {
-      "talks": ["educast-7326", "educast-7619", "educast-8871"]
+      "talks": ["educast-7326", "educast-7619", "educast-9174"]
     },
     "educast-11074": {
       "talks": ["educast-3252"]
@@ -1694,43 +1647,40 @@
       "talks": ["educast-5354", "educast-11085", "educast-2263"]
     },
     "educast-10971": {
-      "talks": ["educast-7359", "educast-3201", "educast-6038"]
+      "talks": ["educast-7359", "yt-cPg0kn7GQEQ", "educast-3201"]
     },
     "educast-10785": {
-      "talks": ["educast-10520", "educast-4403"]
+      "talks": ["educast-10520", "yt-0M2AyJo_TXw"]
     },
     "educast-10786": {
-      "talks": ["educast-4401", "educast-4182", "educast-6592"]
+      "talks": ["yt-m9Fb5ux9Z_c", "yt-ngSRP-dGYbE", "educast-4182"]
     },
     "educast-10784": {
-      "talks": ["educast-3261", "educast-7147", "educast-9647"]
+      "talks": ["educast-3261", "educast-7147", "educast-6822"]
     },
     "educast-10611": {
       "talks": ["educast-11887", "educast-7331", "educast-1968"]
     },
     "educast-10527": {
-      "talks": ["educast-6068", "educast-8378", "educast-6592"]
+      "talks": ["educast-6068", "educast-8378"]
     },
     "educast-10521": {
-      "talks": ["educast-1810", "educast-6991", "educast-7595"]
+      "talks": ["educast-1810"]
     },
     "educast-10520": {
-      "talks": ["educast-10785", "educast-4403"]
+      "talks": ["educast-10785", "yt-0M2AyJo_TXw"]
     },
     "educast-10431": {
-      "talks": ["educast-8989", "educast-7595", "educast-9801"]
+      "talks": ["educast-8989", "educast-7595", "yt-MAUP6Er9qS0"]
     },
     "educast-10392": {
       "talks": ["educast-2993", "educast-6741", "educast-2373"]
     },
     "educast-10376": {
-      "talks": ["educast-7148", "educast-10784", "educast-2222"]
+      "talks": ["educast-7148"]
     },
     "educast-10135": {
       "talks": ["educast-8101", "educast-9174", "educast-11085"]
-    },
-    "educast-10082": {
-      "talks": ["educast-5019"]
     },
     "educast-10081": {
       "talks": ["educast-12260", "educast-620"]
@@ -1742,16 +1692,13 @@
       "talks": ["educast-2146", "educast-11125", "educast-7901"]
     },
     "educast-10020": {
-      "talks": ["educast-10076", "educast-2146", "educast-4872"]
+      "talks": ["yt-UjeuFQGFWQs", "educast-10076", "educast-4872"]
     },
     "educast-9992": {
-      "talks": ["educast-3179", "educast-11266", "educast-1808"]
-    },
-    "educast-9982": {
-      "talks": ["educast-6822", "educast-2980", "educast-7148"]
+      "talks": ["educast-3179", "educast-11266"]
     },
     "educast-10004": {
-      "talks": ["educast-2146", "educast-7901", "educast-10076"]
+      "talks": ["educast-2146", "educast-7901", "educast-4872"]
     },
     "educast-9883": {
       "talks": ["fb-post-976385764505601"]
@@ -1763,10 +1710,10 @@
       "talks": ["educast-7359", "educast-7331", "educast-11887"]
     },
     "educast-9731": {
-      "talks": ["educast-7133", "educast-7355", "educast-3480"]
+      "talks": ["educast-7133", "educast-7355", "yt-2_r9JurpFXY"]
     },
     "educast-9704": {
-      "talks": ["educast-5121", "educast-9731", "educast-7866"]
+      "talks": ["educast-9731", "educast-7866", "educast-5121"]
     },
     "educast-9675": {
       "talks": ["educast-6038", "educast-5906", "educast-4401"]
@@ -1775,29 +1722,29 @@
       "talks": ["educast-7147", "educast-2523", "educast-10784"]
     },
     "educast-9543": {
-      "talks": ["educast-11957", "educast-5381", "educast-2252"]
+      "talks": ["educast-11957", "yt-BUOkmv8CEXo", "educast-5381"]
     },
     "educast-9530": {
       "talks": ["educast-2731", "educast-11137", "educast-2523"]
     },
     "educast-9414": {
-      "talks": ["tps-2026-06-16"],
+      "talks": ["yt-0lCyM51Isek", "tps-2026-06-16", "yt-EWfkfzXZ6dU"],
       "articles": ["10.15381/rif.v25i1.21966"]
     },
     "educast-9511": {
-      "talks": ["educast-11470", "educast-721", "educast-705"]
+      "talks": ["yt-KxOiGVSjji0", "educast-11470", "educast-721"]
     },
     "educast-9305": {
-      "talks": ["educast-2994", "educast-8464", "educast-6567"]
+      "talks": ["educast-2994", "educast-8464"]
     },
     "educast-9206": {
-      "talks": ["educast-11499", "educast-676", "educast-2371"]
+      "talks": ["educast-11499", "educast-676", "yt-tdSF_Dw-bYs"]
     },
     "educast-9176": {
       "talks": ["educast-3179", "educast-840", "educast-7619"]
     },
     "educast-9171": {
-      "talks": ["educast-892", "educast-5019", "educast-10076"],
+      "talks": ["educast-892", "educast-5019", "educast-11129"],
       "theses": ["25883", "3594"]
     },
     "educast-9174": {
@@ -1810,10 +1757,7 @@
       "talks": ["educast-5930", "educast-2529", "educast-7098"]
     },
     "educast-8989": {
-      "talks": ["educast-10431", "educast-7595", "educast-7355"]
-    },
-    "educast-8968": {
-      "talks": ["educast-7595"]
+      "talks": ["educast-10431", "yt-MAUP6Er9qS0", "educast-7595"]
     },
     "educast-8977": {
       "talks": ["educast-7619", "educast-8871", "educast-7618"]
@@ -1822,18 +1766,16 @@
       "talks": ["educast-7326", "educast-7619", "educast-11085"]
     },
     "educast-8504": {
-      "talks": ["educast-8006", "educast-6741", "educast-9543"]
+      "talks": ["educast-8006", "educast-6741", "yt-JQ9z6CHjPCg"]
     },
     "educast-8464": {
-      "talks": ["educast-9305", "educast-12132"]
+      "talks": ["educast-9305"]
     },
     "educast-8434": {
       "talks": ["educast-3480", "educast-7355", "educast-2373"]
     },
     "educast-8386": {
-      "talks": ["educast-721", "educast-9647", "educast-6822"],
-      "theses": ["18297", "11120"],
-      "articles": ["10.15381/rif.v23i3.20311"]
+      "talks": ["educast-721", "educast-9647"]
     },
     "educast-8378": {
       "talks": ["educast-5214", "educast-2980", "educast-10527"]
@@ -1848,7 +1790,7 @@
       "talks": ["educast-10135", "educast-7618", "educast-7326"]
     },
     "educast-8006": {
-      "talks": ["educast-8504", "educast-7549", "educast-3480"]
+      "talks": ["educast-3480", "educast-8504", "educast-7549"]
     },
     "educast-7993": {
       "talks": ["educast-11085"]
@@ -1857,34 +1799,34 @@
       "talks": ["educast-11085"]
     },
     "educast-7901": {
-      "talks": ["educast-2146", "educast-10076", "educast-10004"]
+      "talks": ["educast-2146", "educast-10004", "educast-10076"]
     },
     "educast-7759": {
       "talks": ["educast-789", "educast-7359", "educast-1970"]
     },
     "educast-7866": {
-      "talks": ["educast-9731", "educast-7549", "educast-9704"]
+      "talks": ["educast-9731", "yt-KAWsuLgLaoU", "educast-7549"]
     },
     "educast-7619": {
       "talks": ["educast-7326", "educast-8871", "educast-11085"]
     },
     "educast-7618": {
-      "talks": ["educast-8977", "educast-11085", "educast-7326"]
+      "talks": ["educast-8977", "educast-8101", "educast-7619"]
     },
     "educast-7595": {
-      "talks": ["educast-8989", "educast-10431", "educast-4912"]
+      "talks": ["yt-Ip6qoZbLFTI", "educast-8989", "yt-hnL30Q3VW-s"]
     },
     "educast-7549": {
-      "talks": ["educast-8006", "educast-7866", "educast-11314"]
+      "talks": ["yt-j1Y2XYRPaV0", "educast-8006", "educast-7866"]
     },
     "educast-7539": {
-      "talks": ["educast-11684", "educast-1007", "educast-1141"]
+      "talks": ["educast-1007", "educast-11684", "educast-1141"]
     },
     "educast-7538": {
-      "talks": ["educast-5349", "educast-6592", "educast-10971"]
+      "talks": ["educast-5349", "educast-6592", "educast-3252"]
     },
     "educast-7356": {
-      "talks": ["educast-8006", "educast-2373", "educast-666"]
+      "talks": ["educast-8006", "educast-2373"]
     },
     "educast-7331": {
       "talks": ["educast-11887", "educast-9778", "educast-9128"]
@@ -1899,7 +1841,7 @@
       "talks": ["educast-7133", "educast-11684", "educast-2373"]
     },
     "educast-7320": {
-      "talks": ["educast-7359", "educast-1810"]
+      "talks": ["educast-7359"]
     },
     "educast-7089": {
       "talks": ["educast-11363", "educast-8969", "educast-7015"]
@@ -1914,17 +1856,14 @@
       "talks": ["educast-4110", "educast-7153", "educast-1969"]
     },
     "educast-7902": {
-      "talks": ["educast-2555", "educast-1373", "educast-933"]
+      "talks": ["educast-2555"]
     },
     "educast-6998": {
-      "talks": ["educast-11266", "educast-6741"],
+      "talks": ["educast-11266", "educast-6741", "yt-FYxZbsJZQkc"],
       "articles": ["10.15381/rif.v16i02.8676"]
     },
     "educast-6991": {
-      "talks": ["educast-3179", "educast-8161", "educast-11464"]
-    },
-    "educast-6861": {
-      "talks": ["educast-1624", "educast-2372", "educast-5660"]
+      "talks": ["educast-3179", "educast-8161", "yt-bzE-_YueaLg"]
     },
     "educast-6822": {
       "talks": ["educast-10784", "educast-7147", "educast-12254"]
@@ -1933,33 +1872,24 @@
       "talks": ["educast-2993", "educast-6998", "educast-3179"]
     },
     "educast-6645": {
-      "talks": [
-        "fb-photo-313734258220316",
-        "fb-post-939912161486295",
-        "yt-Zw-PcRvWfc8"
-      ],
-      "theses": ["10603"]
+      "talks": ["fb-photo-313734258220316", "fb-post-939912161486295"],
+      "theses": ["10603"],
+      "articles": ["10.15381/rif.v14i02.8705"]
     },
     "educast-6629": {
-      "talks": ["educast-11125", "educast-12035", "educast-8386"]
-    },
-    "educast-6567": {
-      "talks": ["educast-9305"]
+      "talks": ["yt-4MZPsdZlIyg", "educast-11125"]
     },
     "educast-6592": {
       "talks": ["educast-1470", "educast-4401", "educast-7538"]
     },
     "educast-6316": {
-      "talks": ["educast-4401", "educast-6038", "educast-1470"]
-    },
-    "educast-6561": {
-      "talks": ["educast-6822", "educast-7901", "educast-6629"]
+      "talks": ["educast-4401", "educast-6038"]
     },
     "educast-7153": {
       "talks": ["educast-7104"]
     },
     "educast-6038": {
-      "talks": ["educast-5906", "educast-3201", "educast-2371"]
+      "talks": ["educast-5906", "yt-ngSRP-dGYbE", "educast-3201"]
     },
     "educast-7148": {
       "talks": ["educast-10784", "educast-5833", "educast-10376"]
@@ -1971,7 +1901,7 @@
       "talks": ["educast-2523", "educast-9647", "educast-10784"]
     },
     "educast-6068": {
-      "talks": ["educast-10527", "educast-6592", "educast-7538"]
+      "talks": ["educast-10527"]
     },
     "educast-7133": {
       "talks": ["educast-7355", "educast-9731", "educast-3480"]
@@ -1979,29 +1909,26 @@
     "educast-5930": {
       "talks": ["educast-5739", "educast-8969", "educast-772"]
     },
-    "educast-7132": {
-      "talks": ["educast-3992"]
-    },
     "educast-5739": {
-      "talks": ["educast-5930", "educast-11215", "educast-853"]
+      "talks": ["educast-5930", "yt-lMf5cfNEzzw", "yt-LXRCh4ByNUE"]
     },
     "educast-5833": {
-      "talks": ["educast-7148", "educast-12260"]
+      "talks": ["educast-7148"]
     },
     "educast-5637": {
-      "talks": ["educast-5660", "educast-7355", "educast-4912"]
+      "talks": ["educast-5660"]
     },
     "educast-5660": {
       "talks": ["educast-5637", "educast-5355", "educast-11684"]
     },
     "educast-5381": {
-      "talks": ["educast-9543", "educast-2252", "educast-11464"]
+      "talks": ["educast-9543", "educast-2252"]
     },
     "educast-5354": {
       "talks": ["educast-10995", "educast-2263", "educast-4883"]
     },
     "educast-5355": {
-      "talks": ["educast-5660", "educast-705", "educast-3637"]
+      "talks": ["educast-5660"]
     },
     "educast-5349": {
       "talks": ["educast-12132", "educast-7538", "educast-12134"]
@@ -2010,68 +1937,61 @@
       "talks": ["educast-3252", "educast-2371", "educast-676"]
     },
     "educast-5245": {
-      "talks": ["educast-620", "educast-10004"],
+      "talks": ["educast-620"],
       "theses": ["7936", "15392"]
     },
     "educast-5153": {
-      "talks": ["fb-photo-313734258220316", "educast-2993", "educast-2555"]
+      "talks": ["fb-photo-313734258220316", "yt-Zw-PcRvWfc8", "educast-2993"]
     },
     "educast-5214": {
-      "talks": ["educast-8378", "educast-2864", "educast-2980"]
+      "talks": ["educast-8378", "yt-g45U_yesVc8", "educast-2864"]
     },
     "educast-5121": {
       "talks": ["educast-9704", "educast-8504", "educast-8006"]
     },
-    "educast-5054": {
-      "talks": ["educast-12134"]
-    },
     "educast-5033": {
-      "talks": ["educast-2529", "educast-5930", "educast-3690"]
+      "talks": ["yt-L15_4yWQ69M"]
     },
     "educast-5019": {
       "talks": ["educast-11125", "educast-9171", "educast-9647"],
       "theses": ["7794", "11096", "5488"],
-      "articles": [
-        "10.15381/rif.v23i3.20308",
-        "10.15381/rif.v20i1.14709",
-        "10.15381/rif.v23i3.20311"
-      ]
+      "articles": ["10.15381/rif.v23i3.20308"]
     },
     "educast-5111": {
       "talks": ["educast-11354", "educast-2262"]
     },
     "educast-5024": {
-      "talks": ["educast-3342", "educast-7098", "educast-5739"]
+      "talks": ["educast-3342"]
     },
     "educast-4912": {
-      "talks": ["educast-7595", "educast-7148", "educast-5637"]
+      "talks": ["educast-7595"]
     },
     "educast-4883": {
-      "talks": ["educast-11085", "educast-5354", "educast-3909"]
+      "talks": ["educast-11085", "educast-5354"]
     },
     "educast-4872": {
       "talks": ["educast-10020", "educast-10004", "educast-2146"]
     },
     "educast-5009": {
-      "talks": ["educast-4182", "educast-9543", "educast-4847"]
+      "talks": ["educast-4182"]
     },
     "educast-4847": {
-      "talks": ["educast-666", "educast-4162", "educast-9675"]
+      "talks": ["educast-666", "educast-4162"]
     },
     "educast-4405": {
-      "talks": ["educast-2251", "educast-2372"]
+      "talks": ["educast-2251"]
     },
     "educast-4403": {
-      "talks": ["educast-2373", "educast-3480", "educast-8434"]
+      "talks": ["educast-2373", "yt-NZhYBCO7TcI", "educast-3480"]
     },
     "educast-4401": {
-      "talks": ["educast-6592", "educast-676", "educast-9206"]
+      "talks": ["educast-6592", "yt-aCdAfpbFiZ8", "educast-676"]
     },
     "educast-4402": {
-      "talks": ["educast-3061", "educast-1442", "educast-1471"]
+      "talks": ["educast-3061", "educast-1442"]
     },
     "educast-4250": {
-      "talks": ["educast-9128", "educast-1970"]
+      "talks": ["educast-9128"]
     },
     "educast-4182": {
       "talks": ["educast-2371", "educast-676", "educast-4401"]
@@ -2080,11 +2000,11 @@
       "talks": ["educast-630", "educast-2994", "educast-666"]
     },
     "educast-4148": {
-      "talks": ["educast-671", "yt-N86ZqXI1MEM"]
+      "talks": ["educast-671"]
     },
     "educast-4074": {
       "talks": ["educast-11129", "educast-1202", "educast-10076"],
-      "theses": ["4188", "26029", "14406"],
+      "theses": ["4188", "26029"],
       "articles": [
         "10.15381/rif.v11i1.21563",
         "10.15381/rif.v19i1.13549",
@@ -2092,84 +2012,59 @@
       ]
     },
     "educast-4110": {
-      "talks": ["educast-7104", "educast-8969", "educast-704"]
-    },
-    "educast-3992": {
-      "talks": ["educast-705", "educast-1373", "educast-7132"]
+      "talks": ["educast-7104", "educast-8969"]
     },
     "educast-4136": {
-      "talks": ["educast-11125", "educast-10431", "educast-7355"],
-      "articles": ["10.15381/rif.v8i02.8555"]
+      "talks": ["educast-11125"]
     },
     "educast-4427": {
-      "talks": ["educast-8989", "educast-9305"]
+      "talks": ["educast-8989"]
     },
     "educast-3909": {
       "talks": ["educast-2253", "educast-1521", "educast-5930"]
     },
-    "educast-4538": {
-      "talks": ["educast-2222", "educast-9647"],
-      "theses": ["4077", "12578", "5664"],
-      "articles": [
-        "10.15381/rif.v18i1.11577",
-        "10.15381/rif.v19i2.13557",
-        "10.15381/rif.v14i02.8702"
-      ]
-    },
     "educast-3690": {
-      "talks": ["educast-6038", "educast-5930", "educast-5033"]
+      "talks": ["educast-6038", "yt-ePR8vgQiIUs", "yt-sQLzr3PT-bs"]
     },
     "educast-3684": {
-      "talks": ["educast-7901", "educast-6991", "educast-10020"]
+      "talks": ["yt-bzE-_YueaLg", "educast-7901"]
     },
     "educast-3637": {
-      "talks": ["educast-5355", "ig-DJqM1BSOanw"]
+      "talks": ["yt-y1tJSk6fYeo"]
     },
     "educast-3480": {
       "talks": ["educast-11684", "educast-7133", "educast-7355"]
     },
-    "educast-3457": {
-      "talks": ["educast-5637", "educast-6592", "educast-10431"]
-    },
     "educast-3416": {
-      "talks": ["educast-2146", "educast-7901", "educast-6629"]
+      "talks": ["educast-2146", "educast-7901"]
     },
     "educast-3342": {
-      "talks": ["educast-5024", "educast-11215", "educast-7098"]
+      "talks": ["yt-InkMori0kVM", "educast-5024", "yt-OoSJFVa4XZI"]
     },
     "educast-3319": {
       "talks": ["educast-12134"]
     },
     "educast-3296": {
-      "talks": ["educast-2553", "educast-9530", "educast-6822"]
+      "talks": ["educast-2553"]
     },
     "educast-3289": {
-      "talks": ["educast-1807", "educast-1413", "educast-2372"]
+      "talks": ["educast-1807"]
     },
     "educast-3261": {
       "talks": ["educast-10784", "educast-7148", "educast-9647"]
     },
     "educast-3252": {
-      "talks": ["educast-11074", "educast-676", "educast-9206"]
+      "talks": ["educast-11074", "educast-676", "educast-5276"]
     },
     "educast-3201": {
-      "talks": ["educast-5906", "educast-6038", "educast-10971"],
+      "talks": ["educast-5906", "yt-cPg0kn7GQEQ", "educast-6038"],
       "articles": ["10.15381/rif.v9i02.8597"]
     },
     "educast-3061": {
-      "talks": ["educast-4402", "educast-1442", "educast-1471"]
-    },
-    "educast-3018": {
-      "talks": ["educast-9530"]
-    },
-    "educast-2969": {
-      "talks": ["educast-9704", "educast-1007"]
+      "talks": ["educast-4402", "educast-1442", "yt-tdSF_Dw-bYs"]
     },
     "educast-2980": {
-      "talks": ["educast-8378", "educast-5214", "educast-9982"]
-    },
-    "educast-2866": {
-      "talks": ["educast-11464"]
+      "talks": ["educast-8378"]
     },
     "educast-2993": {
       "talks": ["educast-6741", "educast-10392", "educast-7326"]
@@ -2178,25 +2073,25 @@
       "talks": ["educast-840", "educast-9176", "educast-8161"]
     },
     "educast-2776": {
-      "talks": ["educast-1034", "educast-8161"]
+      "talks": ["educast-1034"]
     },
     "educast-2994": {
-      "talks": ["educast-666", "educast-5930", "educast-9778"]
+      "talks": ["educast-9778", "educast-5930", "educast-666"]
     },
     "educast-2864": {
-      "talks": ["educast-6822", "educast-5214", "educast-8378"]
+      "talks": ["educast-6822", "yt-AJlu13CLbAQ", "educast-5214"]
     },
     "educast-2555": {
-      "talks": ["educast-900", "educast-7902", "educast-7549"]
+      "talks": ["educast-900", "yt-_YA06L63fww", "educast-7902"]
     },
     "educast-2554": {
       "talks": ["educast-3252"]
     },
     "educast-2553": {
-      "talks": ["educast-11339", "educast-1125", "educast-10784"]
+      "talks": ["educast-1125", "educast-11339", "educast-10784"]
     },
     "educast-3021": {
-      "talks": ["educast-1134", "educast-5930", "educast-2994"]
+      "talks": ["educast-1134", "educast-5930", "yt-vtyT2GNUjvI"]
     },
     "educast-2529": {
       "talks": ["educast-8969", "educast-5930", "educast-647"]
@@ -2204,23 +2099,20 @@
     "educast-2373": {
       "talks": ["educast-4403", "educast-7355", "educast-11684"]
     },
-    "educast-2516": {
-      "talks": ["educast-705", "educast-3480", "educast-7148"]
-    },
     "educast-2372": {
-      "talks": ["educast-9206", "educast-11499", "educast-6861"]
+      "talks": ["yt-uT-5JdYPQu8", "yt-Zw-PcRvWfc8", "yt-yY64Bwc2dKM"]
     },
     "educast-2523": {
       "talks": ["educast-7147", "educast-9647", "educast-2731"]
     },
     "educast-2371": {
-      "talks": ["educast-4182", "educast-676", "educast-6038"]
+      "talks": ["educast-4182", "yt-yuLm4Yfpmbo", "yt-keWkooGomVE"]
     },
     "educast-2264": {
-      "talks": ["educast-11480"]
+      "talks": ["educast-11480", "yt-y_yyeQPiud0"]
     },
     "educast-2253": {
-      "talks": ["educast-3909", "educast-5930", "educast-1203"]
+      "talks": ["educast-3909", "educast-5930"]
     },
     "educast-2262": {
       "talks": ["educast-11354", "educast-5111", "educast-7619"]
@@ -2229,10 +2121,10 @@
       "talks": ["educast-9543", "educast-7355", "educast-2373"]
     },
     "educast-2263": {
-      "talks": ["educast-10995", "educast-5354", "educast-11085"]
+      "talks": ["educast-10995", "educast-5354", "educast-11354"]
     },
     "educast-2251": {
-      "talks": ["educast-4405", "educast-620"]
+      "talks": ["educast-4405"]
     },
     "educast-2222": {
       "talks": ["educast-9647", "educast-8989", "educast-7147"]
@@ -2242,57 +2134,42 @@
       "articles": ["10.15381/rif.v9i01.8619"]
     },
     "educast-1970": {
-      "talks": ["educast-7759", "educast-7595", "educast-8989"]
+      "talks": ["educast-7759", "yt-w-D336V2rDQ", "yt-WFaxbBtsIAE"]
     },
     "educast-1969": {
-      "talks": ["educast-9543", "educast-7104", "educast-5355"]
+      "talks": ["educast-9543", "educast-7104"]
     },
     "educast-1968": {
-      "talks": ["educast-1471", "educast-10611", "educast-10971"]
+      "talks": ["yt-mw4Yrm4amo0", "yt-6EhTUnEW82w", "educast-1471"]
     },
     "educast-1810": {
       "talks": ["educast-10521", "educast-11470", "educast-2529"]
     },
     "educast-1808": {
-      "talks": ["educast-2146", "educast-7901", "educast-6991"]
+      "talks": ["educast-2146", "educast-7901"]
     },
     "educast-1807": {
       "talks": ["educast-3289"]
     },
-    "educast-1624": {
-      "talks": ["educast-6861"]
-    },
     "educast-1521": {
-      "talks": ["educast-3909", "educast-5930", "educast-5739"]
+      "talks": ["educast-3909"]
     },
     "educast-1471": {
-      "talks": ["educast-3061", "educast-2371", "educast-853"]
+      "talks": ["yt-sQLzr3PT-bs", "yt-tdSF_Dw-bYs", "yt-Ut7xkFAdXwQ"]
     },
     "educast-1470": {
       "talks": ["educast-6592", "educast-666", "educast-4401"]
     },
     "educast-1442": {
-      "talks": ["educast-3061", "educast-4402", "educast-676"]
-    },
-    "educast-2559": {
-      "talks": ["educast-8989"]
-    },
-    "educast-1413": {
-      "talks": ["educast-3289", "educast-705", "educast-7148"]
-    },
-    "educast-1373": {
-      "talks": ["educast-7902", "educast-3992", "educast-5355"]
+      "talks": ["educast-3061", "educast-4402"]
     },
     "educast-1203": {
       "talks": ["educast-11215", "educast-772", "educast-5930"]
     },
     "educast-1202": {
-      "talks": ["educast-11129", "educast-4074", "educast-5019"],
+      "talks": ["educast-11129", "educast-4074"],
       "theses": ["14406", "15493", "10847"],
       "articles": ["10.15381/rif.v22i1.20285"]
-    },
-    "educast-1167": {
-      "talks": ["educast-838"]
     },
     "educast-1141": {
       "talks": ["educast-610", "educast-1007", "educast-3480"],
@@ -2302,13 +2179,13 @@
       "talks": ["educast-3021", "educast-2994", "educast-12134"]
     },
     "educast-1125": {
-      "talks": ["educast-2553", "educast-10076", "educast-3252"]
+      "talks": ["educast-2553", "educast-10076"]
     },
     "educast-1057": {
-      "talks": ["educast-666", "educast-11957"]
+      "talks": ["educast-666"]
     },
     "educast-1034": {
-      "talks": ["educast-2776", "educast-6991", "educast-3179"]
+      "talks": ["educast-2776"]
     },
     "educast-1013": {
       "talks": ["educast-620"]
@@ -2317,26 +2194,26 @@
       "talks": ["educast-1141", "educast-610", "educast-7539"]
     },
     "educast-933": {
-      "talks": ["educast-12254", "educast-721", "educast-7902"]
+      "talks": ["educast-12254"]
     },
     "educast-909": {
-      "talks": ["educast-2371", "educast-8969", "educast-2529"]
+      "talks": ["yt-yuLm4Yfpmbo", "yt-keWkooGomVE", "educast-2371"]
     },
     "educast-900": {
-      "talks": ["educast-2555", "educast-7549", "educast-7133"]
+      "talks": ["educast-2555", "educast-7133", "educast-7549"]
     },
     "educast-892": {
-      "talks": ["educast-9171", "educast-2553", "educast-6629"],
+      "talks": ["educast-9171"],
       "theses": ["8310"]
     },
     "educast-853": {
-      "talks": ["educast-5930", "educast-772", "educast-5739"]
+      "talks": ["yt-eEzyBBuCUUg", "educast-5930", "educast-772"]
     },
     "educast-852": {
-      "talks": ["educast-630", "educast-666", "educast-8006"]
+      "talks": ["educast-630"]
     },
     "educast-838": {
-      "talks": ["educast-11215", "educast-1167", "educast-5121"]
+      "talks": ["educast-11215"]
     },
     "educast-826": {
       "talks": ["educast-11085", "educast-7619", "educast-7326"]
@@ -2345,43 +2222,43 @@
       "talks": ["educast-8161", "educast-3179", "educast-9176"]
     },
     "educast-2732": {
-      "talks": ["educast-2373", "educast-4403", "educast-8434"]
+      "talks": ["yt-NZhYBCO7TcI", "educast-2373", "educast-4403"]
     },
     "educast-789": {
-      "talks": ["educast-7759", "educast-10431", "educast-12134"]
+      "talks": ["educast-7759"]
     },
     "educast-772": {
-      "talks": ["educast-5930", "educast-1203", "educast-853"]
+      "talks": ["educast-5930", "educast-1203", "yt-veUFMMUdpZk"]
     },
     "educast-721": {
-      "talks": ["educast-8386", "educast-9511", "educast-933"]
+      "talks": ["educast-8386", "educast-9511"]
     },
     "educast-713": {
       "talks": ["educast-11887"]
     },
     "educast-705": {
-      "talks": ["educast-11684", "educast-7148", "educast-5660"]
+      "talks": ["educast-11684", "educast-7148", "educast-7759"]
     },
     "educast-704": {
-      "talks": ["educast-3252", "educast-9206", "educast-1471"]
+      "talks": ["educast-3252"]
     },
     "educast-2731": {
-      "talks": ["educast-9530", "educast-2523", "educast-7147"]
+      "talks": ["educast-9530", "educast-7147", "educast-2523"]
     },
     "educast-676": {
-      "talks": ["educast-9206", "educast-11499", "educast-2371"]
+      "talks": ["educast-9206", "educast-11499", "yt-tdSF_Dw-bYs"]
     },
     "educast-671": {
-      "talks": ["yt-BTj21RLvxqE", "yt-u4FFDqabyRY", "yt-IlSxOyq7uLQ"]
+      "talks": ["educast-4148"]
     },
     "educast-666": {
-      "talks": ["educast-1470", "educast-5930", "educast-1057"]
+      "talks": ["yt-w1cq6FICd6c", "educast-4847", "educast-1470"]
     },
     "educast-647": {
-      "talks": ["educast-2529", "educast-11215", "educast-772"]
+      "talks": ["yt-yo6W1YvoGro", "yt-0b_RfWTHqzM", "yt-hczOpuZLsLs"]
     },
     "educast-630": {
-      "talks": ["educast-4162", "educast-852", "educast-7759"]
+      "talks": ["educast-4162", "educast-852"]
     },
     "educast-620": {
       "talks": ["educast-5245", "educast-10081", "educast-1013"]
@@ -2389,46 +2266,19 @@
     "educast-610": {
       "talks": ["educast-1141", "educast-1007", "educast-3480"]
     },
-    "yt-cO-bhlQWMXU": {
-      "theses": ["7645"]
-    },
-    "yt-TE3Z5ZYd-cY": {
-      "theses": ["264"]
-    },
-    "yt-YMlXsLzvuIA": {
-      "theses": ["3232"]
-    },
-    "yt-oSBB3mh4fdk": {
-      "theses": ["28261", "20797", "16416"],
-      "articles": [
-        "10.15381/rif.v25i3.24279",
-        "10.15381/rif.v27i1.28010",
-        "10.15381/rif.v9i01.8618"
-      ]
-    },
-    "yt-Y141wnjae7s": {
-      "theses": ["10956"]
-    },
-    "fb-post-1270836148393893": {
-      "theses": ["22789"],
-      "articles": ["10.15381/rif.v27i1.25685", "10.15381/rif.v23i2.20297"]
-    },
-    "yt-f-5di1_Alws": {
-      "theses": ["14850"]
-    },
     "yt-mMA9LlY-XHI": {
       "theses": ["12585"]
     },
-    "yt-3liurVFgSns": {
-      "theses": ["10200", "15603"],
-      "articles": ["10.15381/rif.v12i01.8717"]
+    "fb-post-1153346553476187": {
+      "theses": ["18700"]
     },
     "ig-DKgc-LJuBy6": {
-      "theses": ["12044", "27908"]
+      "theses": ["12044", "27908", "1504"],
+      "articles": ["10.15381/rif.v12i02.8714"]
     },
-    "yt-MY3NVPUwRwU": {
-      "theses": ["21659", "17150"],
-      "articles": ["10.15381/rif.v26i2.24946"]
+    "ig-DJqM1BSOanw": {
+      "theses": ["1505", "16616"],
+      "articles": ["10.15381/rif.v2i01.8567"]
     },
     "fb-photo-597571679973735-8": {
       "theses": ["12582"],
@@ -2438,59 +2288,67 @@
       "theses": ["7645"],
       "articles": ["10.15381/rif.v25i3.23592", "10.15381/rif.v9i02.8584"]
     },
+    "fb-post-894662616011250": {
+      "theses": ["15261"]
+    },
     "ig-C7fLDX_RwVm": {
       "theses": ["22860"]
     },
-    "yt-JngFurjHkgo": {
-      "theses": ["4078"],
-      "articles": ["10.15381/rif.v2i01.8568"]
+    "fb-photo-394201450173596-2": {
+      "theses": ["14850"],
+      "articles": ["10.15381/rif.v13i01.8856", "10.15381/rif.v2i01.8565"]
     },
     "fb-post-485208053623377": {
       "theses": ["8253"]
     },
-    "yt-osPfl6afPJw": {
-      "theses": ["26590", "7586", "24596"],
-      "articles": ["10.15381/rif.v26i1.24337"]
+    "fb-676003416444697": {
+      "theses": ["15686", "18297", "9121"],
+      "articles": [
+        "10.15381/rif.v23i3.20311",
+        "10.15381/rif.v23i3.20308",
+        "10.15381/rif.v1i02.8598"
+      ]
     },
     "educast-8584": {
-      "theses": ["19346"],
-      "articles": ["10.15381/rif.v24i1.20241", "10.15381/rif.v12i01.8716"]
+      "theses": ["19346", "20905"],
+      "articles": [
+        "10.15381/rif.v24i1.20241",
+        "10.15381/rif.v12i01.8716",
+        "10.15381/rif.v26i3.26216"
+      ]
+    },
+    "educast-4538": {
+      "theses": ["4077", "12578", "5664"],
+      "articles": [
+        "10.15381/rif.v18i1.11577",
+        "10.15381/rif.v19i2.13557",
+        "10.15381/rif.v14i02.8702"
+      ]
     },
     "educast-1214": {
       "theses": ["24558", "28261"]
     },
-    "yt-pr6LPkYc968": {
-      "articles": ["10.15381/rif.29i2.31552"]
-    },
-    "yt-0lCyM51Isek": {
-      "articles": ["10.15381/rif.28i2.29995"]
-    },
     "yt-9AAvYPb45U8": {
-      "articles": ["10.15381/rif.v23i1.20284", "10.15381/rif.29i1.32612"]
+      "articles": [
+        "10.15381/rif.v23i1.20284",
+        "10.15381/rif.29i1.32612",
+        "10.15381/rif.v14i02.8705"
+      ]
     },
-    "yt-q651sjUCGl8": {
-      "articles": ["10.15381/rif.v19i2.13559"]
+    "yt-W2gJGE2-WGY": {
+      "articles": ["10.15381/rif.v26i2.23688"]
     },
-    "yt-t383ALOb3KI": {
-      "articles": ["10.15381/rif.v26i1.23902", "10.15381/rif.v17i2.11540"]
-    },
-    "fb-photo-394201450173596-2": {
-      "articles": ["10.15381/rif.v13i01.8856"]
+    "fb-post-864787252332120": {
+      "articles": ["10.15381/rif.v17i01.8660"]
     },
     "fb-post-799095465567966": {
       "articles": ["10.15381/rif.v5i01-02.8778"]
     },
-    "yt-UjeuFQGFWQs": {
-      "articles": ["10.15381/rif.v5i01-02.8787"]
+    "fb-post-753968006747379": {
+      "articles": ["10.15381/rif.v16i01.9178", "10.15381/rif.v15i02.8684"]
     },
     "fb-post-729067519237428": {
       "articles": ["10.15381/rif.v23i2.20298"]
-    },
-    "yt-Zut95qdEdhk": {
-      "articles": ["10.15381/rif.v16i02.8678"]
-    },
-    "yt-75gXkGUd0Eg": {
-      "articles": ["10.15381/rif.v13i02.8927"]
     },
     "educast-3019": {
       "articles": ["10.15381/rif.v13i02.8930"]
@@ -2502,8 +2360,8 @@
       "theses": ["11120", "9989", "12578"],
       "articles": [
         "10.15381/rif.v8i02.8544",
-        "10.15381/rif.v18i1.11577",
-        "10.15381/rif.v14i02.8702"
+        "10.15381/rif.v14i02.8702",
+        "10.15381/rif.v18i1.11577"
       ]
     },
     "31347": {
@@ -2516,9 +2374,17 @@
       ]
     },
     "26208": {
-      "talks": ["yt-oLQC4JSHl3g", "yt-hvDhk1RrFz8", "fb-post-960895942721250"],
-      "theses": ["10391", "4093"],
-      "articles": ["10.15381/rif.v18i1.11576", "10.15381/rif.v23i2.20297"]
+      "talks": [
+        "yt-BpNaloDaNBE",
+        "fb-post-960895942721250",
+        "fb-295394366566030"
+      ],
+      "theses": ["10391", "4093", "16521"],
+      "articles": [
+        "10.15381/rif.v18i1.11576",
+        "10.15381/rif.v23i2.20297",
+        "10.15381/rif.v16i02.8676"
+      ]
     },
     "28261": {
       "talks": ["yt-oSBB3mh4fdk", "educast-1214"],
@@ -2530,12 +2396,12 @@
       ]
     },
     "26590": {
-      "talks": ["yt-osPfl6afPJw", "yt-sIerGzGpSLw", "yt-xEcvoWrgpx8"],
-      "theses": ["16358", "14850"],
+      "talks": ["fb-photo-856443264086574", "fb-post-1266494072161434"],
+      "theses": ["16358", "14850", "7586"],
       "articles": ["10.15381/rif.v24i2.20359", "10.15381/rif.v26i2.25155"]
     },
     "26609": {
-      "talks": ["fb-676003416444697", "educast-11125"],
+      "talks": ["fb-676003416444697"],
       "theses": ["11096", "26877", "7794"],
       "articles": [
         "10.15381/rif.v28i1.29044",
@@ -2543,15 +2409,10 @@
         "10.15381/rif.v27i3.27369"
       ]
     },
-    "27048": {
-      "talks": ["yt-kv2FLel4q0g"],
-      "theses": ["19883", "4496", "25405"],
-      "articles": ["10.15381/rif.v12i02.8711"]
-    },
     "27908": {
       "talks": ["ig-DKgc-LJuBy6"],
       "theses": ["15328", "1467"],
-      "articles": ["10.15381/rif.29i2.24264"]
+      "articles": ["10.15381/rif.29i2.24264", "10.15381/rif.v16i01.9180"]
     },
     "26029": {
       "talks": ["educast-4074", "educast-1202"],
@@ -2560,6 +2421,15 @@
         "10.15381/rif.v13i02.8929",
         "10.15381/rif.v27i1.27371",
         "10.15381/rif.v19i1.13549"
+      ]
+    },
+    "28846": {
+      "talks": ["yt-2ogJwDy6rrw"],
+      "theses": ["1503", "12153", "4495"],
+      "articles": [
+        "10.15381/rif.v15i02.8685",
+        "10.15381/rif.v1i01.8519",
+        "10.15381/rif.v16i02.8677"
       ]
     },
     "26877": {
@@ -2572,8 +2442,12 @@
       ]
     },
     "23029": {
-      "talks": ["ig-DP1jzphkU2d", "yt-ePR8vgQiIUs", "fb-photo-856443264086574"],
-      "theses": ["14850"],
+      "talks": [
+        "ig-DP1jzphkU2d",
+        "fb-post-1266494072161434",
+        "fb-photo-856443264086574"
+      ],
+      "theses": ["14850", "7586"],
       "articles": [
         "10.15381/rif.v24i2.20359",
         "10.15381/rif.v26i2.25155",
@@ -2581,16 +2455,16 @@
       ]
     },
     "24558": {
-      "talks": ["yt-oSBB3mh4fdk", "educast-1214"],
+      "talks": ["educast-1214"],
       "theses": ["18993", "28261", "11131"],
       "articles": ["10.15381/rif.v25i3.24279", "10.15381/rif.v27i1.28010"]
     },
     "24860": {
-      "talks": ["yt-_vGaYlMHVgQ", "tps-2026-09-02"]
+      "talks": ["tps-2026-09-02"]
     },
     "24428": {
       "talks": ["fb-post-850004150477097"],
-      "theses": ["19258", "14765"]
+      "theses": ["19258", "14765", "25944"]
     },
     "21659": {
       "talks": ["yt-MY3NVPUwRwU"],
@@ -2606,13 +2480,8 @@
         "10.15381/rif.v19i1.13551"
       ]
     },
-    "24596": {
-      "talks": ["yt-osPfl6afPJw"],
-      "theses": ["7586"],
-      "articles": ["10.15381/rif.v26i1.24337", "10.15381/rif.v24i2.20413"]
-    },
     "21691": {
-      "talks": ["yt-FYxZbsJZQkc", "fb-post-960895942721250"],
+      "talks": ["fb-post-960895942721250"],
       "theses": ["10603", "10208", "10200"],
       "articles": ["10.15381/rif.29i1.31412"]
     },
@@ -2628,15 +2497,25 @@
     "19346": {
       "talks": ["educast-8584"],
       "theses": ["20905"],
-      "articles": ["10.15381/rif.v24i1.20241", "10.15381/rif.v26i3.26216"]
+      "articles": [
+        "10.15381/rif.v24i1.20241",
+        "10.15381/rif.v26i3.26216",
+        "10.15381/rif.v12i01.8716"
+      ]
+    },
+    "20905": {
+      "talks": ["educast-8584"],
+      "theses": ["19346"],
+      "articles": ["10.15381/rif.v26i3.26216", "10.15381/rif.v16i02.8675"]
     },
     "20319": {
       "talks": ["fb-post-960895942721250"],
-      "theses": ["263"]
+      "theses": ["263"],
+      "articles": ["10.15381/rif.v13i02.8863"]
     },
     "22789": {
       "talks": ["fb-post-1270836148393893"],
-      "theses": ["10200", "5005"],
+      "theses": ["10200", "5005", "12153"],
       "articles": ["10.15381/rif.v27i1.25685"]
     },
     "20714": {
@@ -2648,17 +2527,13 @@
         "10.15381/rif.v24i3.20920"
       ]
     },
-    "19494": {
-      "talks": ["yt-va3mmX_pla0"],
-      "theses": ["19454", "19292", "20330"]
-    },
-    "19454": {
-      "talks": ["yt-va3mmX_pla0"],
-      "theses": ["19494", "19292", "20330"]
+    "30970": {
+      "talks": ["yt-FcdJXNZG7bg"],
+      "theses": ["21020", "12093", "19460"]
     },
     "18297": {
-      "talks": ["fb-676003416444697", "educast-5019", "educast-8386"],
-      "theses": ["9121", "15686", "20714"],
+      "talks": ["fb-676003416444697"],
+      "theses": ["9121", "20714", "15686"],
       "articles": [
         "10.15381/rif.v23i3.20311",
         "10.15381/rif.v26i2.25992",
@@ -2666,15 +2541,11 @@
       ]
     },
     "19200": {
-      "talks": ["yt-FYxZbsJZQkc", "yt-NTQPOAi2hFU"],
+      "talks": ["fb-post-960895942721250"],
       "theses": ["19106", "19012", "10208"]
     },
-    "22706": {
-      "talks": ["yt-xEcvoWrgpx8"],
-      "articles": ["10.15381/rif.v5i01-02.8796"]
-    },
     "22860": {
-      "talks": ["yt-yuLm4Yfpmbo", "yt-_giPFkyXDFQ", "yt-AvN3xueHZos"],
+      "talks": ["ig-C7fLDX_RwVm", "fb-photo-870807765983457"],
       "theses": ["16358", "15261"],
       "articles": [
         "10.15381/rif.v28i1.27302",
@@ -2683,8 +2554,8 @@
       ]
     },
     "18700": {
-      "talks": ["yt-fuC0VK_wN6k", "yt-KAWsuLgLaoU", "yt-NTQPOAi2hFU"],
-      "theses": ["3746"]
+      "talks": ["fb-post-1153346553476187", "yt-OKeqL1bPQAU"],
+      "theses": ["3746", "18861"]
     },
     "18296": {
       "talks": ["fb-676003416444697"],
@@ -2700,22 +2571,9 @@
         "10.15381/rif.v28i1.29044"
       ]
     },
-    "19186": {
-      "talks": ["yt-va3mmX_pla0"],
-      "theses": ["28269", "19494", "4093"]
-    },
     "19316": {
-      "talks": [
-        "yt-aikqoOHNNYU",
-        "fb-photo-597571679973735-3",
-        "yt-N-UDaPSzJlg"
-      ],
-      "articles": ["10.15381/rif.28i2.28594"]
-    },
-    "18993": {
-      "talks": ["yt-oSBB3mh4fdk"],
-      "theses": ["16416", "24558", "11131"],
-      "articles": ["10.15381/rif.v27i1.28010", "10.15381/rif.v25i3.24279"]
+      "talks": ["fb-photo-597571679973735-3"],
+      "articles": ["10.15381/rif.28i2.28594", "10.15381/rif.v19i1.13553"]
     },
     "19106": {
       "talks": ["fb-post-960895942721250"],
@@ -2733,7 +2591,7 @@
     },
     "16744": {
       "talks": ["fb-post-1554839286660243", "fb-post-1561350359342469"],
-      "theses": ["1505", "6331"],
+      "theses": ["1505", "6331", "6333"],
       "articles": ["10.15381/rif.v2i01.8567"]
     },
     "17436": {
@@ -2746,10 +2604,10 @@
       ]
     },
     "17057": {
-      "talks": ["fb-photo-327815003478908", "yt-s57NrWNEMYA"]
+      "talks": ["fb-photo-327815003478908"]
     },
     "16616": {
-      "talks": ["yt-bzE-_YueaLg", "ig-DJqM1BSOanw"],
+      "talks": ["ig-DJqM1BSOanw"],
       "theses": ["1505", "3071", "5968"],
       "articles": [
         "10.15381/rif.v19i1.13550",
@@ -2758,31 +2616,22 @@
       ]
     },
     "16125": {
-      "talks": ["yt-KlQCA_DeETE", "yt-BpNaloDaNBE"],
-      "theses": ["15261"],
+      "talks": ["yt-BpNaloDaNBE", "fb-post-850004150477097"],
+      "theses": ["15261", "5255", "16521"],
       "articles": ["10.15381/rif.v28i1.30156", "10.15381/rif.v14i01.8727"]
     },
-    "16416": {
-      "talks": ["yt-oSBB3mh4fdk"],
-      "theses": ["18993", "20797", "4658"],
+    "16521": {
+      "talks": ["fb-post-850004150477097", "yt-BpNaloDaNBE"],
+      "theses": ["15261", "12583", "19397"],
       "articles": [
-        "10.15381/rif.v27i1.28010",
-        "10.15381/rif.29i2.33462",
-        "10.15381/rif.v25i3.24279"
-      ]
-    },
-    "17150": {
-      "talks": ["yt-oSBB3mh4fdk", "yt-MY3NVPUwRwU"],
-      "theses": ["4658", "28261", "20797"],
-      "articles": [
-        "10.15381/rif.v9i01.8618",
-        "10.15381/rif.v25i3.24279",
-        "10.15381/rif.v27i1.28010"
+        "10.15381/rif.v1i01.20456",
+        "10.15381/rif.v28i1.30156",
+        "10.15381/rif.v14i01.8727"
       ]
     },
     "16843": {
-      "talks": ["fb-post-850004150477097", "ig-DBcOL-CSFIP", "yt-6aw3JRuyZkQ"],
-      "theses": ["15261"],
+      "talks": ["fb-post-850004150477097", "ig-DBcOL-CSFIP"],
+      "theses": ["15261", "16521"],
       "articles": [
         "10.15381/rif.v1i01.20456",
         "10.15381/rif.v14i01.8727",
@@ -2808,7 +2657,7 @@
       ]
     },
     "14406": {
-      "talks": ["educast-1202", "educast-4074"],
+      "talks": ["educast-1202"],
       "theses": ["15493", "10847", "16573"],
       "articles": [
         "10.15381/rif.v22i1.20285",
@@ -2826,7 +2675,7 @@
       "articles": [
         "10.15381/rif.v28i1.29044",
         "10.15381/rif.v23i3.20311",
-        "10.15381/rif.28i3.31136"
+        "10.15381/rif.v23i3.20315"
       ]
     },
     "10847": {
@@ -2839,12 +2688,12 @@
       ]
     },
     "11120": {
-      "talks": ["fb-676003416444697", "educast-8386"],
-      "theses": ["18297", "18104", "31649"],
+      "talks": ["fb-676003416444697"],
+      "theses": ["18104", "18297", "31649"],
       "articles": [
         "10.15381/rif.v23i3.20311",
         "10.15381/rif.v9i01.8622",
-        "10.15381/rif.v20i1.14510"
+        "10.15381/rif.v23i3.20308"
       ]
     },
     "11117": {
@@ -2856,14 +2705,9 @@
         "10.15381/rif.v27i2.28263"
       ]
     },
-    "11131": {
-      "talks": ["yt-oSBB3mh4fdk"],
-      "theses": ["20797", "16416", "18993"],
-      "articles": ["10.15381/rif.v25i3.24279", "10.15381/rif.v27i1.28010"]
-    },
     "10400": {
       "talks": ["fb-676003416444697"],
-      "theses": ["5664", "7936", "18297"],
+      "theses": ["5664", "18297", "7936"],
       "articles": ["10.15381/rif.v23i3.20311", "10.15381/rif.v24i1.20246"]
     },
     "7936": {
@@ -2872,11 +2716,11 @@
       "articles": ["10.15381/rif.v23i3.20311"]
     },
     "7794": {
-      "talks": ["fb-676003416444697", "educast-5019", "educast-11125"],
+      "talks": ["fb-676003416444697", "educast-5019"],
       "theses": ["11096", "26609", "31347"],
       "articles": [
-        "10.15381/rif.v19i1.13551",
         "10.15381/rif.v23i3.20315",
+        "10.15381/rif.v19i1.13551",
         "10.15381/rif.v28i1.29044"
       ]
     },
@@ -2891,7 +2735,7 @@
     },
     "15493": {
       "talks": ["educast-1202"],
-      "theses": ["14406", "10847", "16573"],
+      "theses": ["14406", "16573", "10847"],
       "articles": [
         "10.15381/rif.v22i1.20285",
         "10.15381/rif.v20i2.15166",
@@ -2909,33 +2753,52 @@
     },
     "8205": {
       "talks": ["fb-photo-291638763763199"],
-      "theses": ["14756", "6333"],
-      "articles": ["10.15381/rif.v20i1.14710", "10.15381/rif.v24i2.20320"]
+      "theses": ["14756", "6333", "11120"],
+      "articles": [
+        "10.15381/rif.v20i1.14710",
+        "10.15381/rif.v24i2.20320",
+        "10.15381/rif.v12i02.8707"
+      ]
     },
     "8310": {
       "talks": ["educast-892"],
       "theses": ["26609", "3594", "11525"],
       "articles": ["10.15381/rif.v27i3.27369", "10.15381/rif.v28i1.29044"]
     },
-    "16358": {
-      "talks": ["yt-U4sICCmytC8", "yt-Q23g1qtpvIs", "yt-EMSXlLyEE7A"],
-      "theses": ["22860", "26590", "15117"],
-      "articles": ["10.15381/rif.v19i1.13553"]
+    "8475": {
+      "talks": ["ig-DKgc-LJuBy6"],
+      "theses": ["14765", "7167"],
+      "articles": ["10.15381/rif.v8i02.8557"]
     },
-    "10122": {
-      "talks": ["yt-y_yyeQPiud0"],
-      "theses": ["10208", "16448", "14510"]
+    "16358": {
+      "talks": [
+        "fb-post-1266494072161434",
+        "fb-photo-856443264086574",
+        "fb-photo-394201390173602-3"
+      ],
+      "theses": ["22860", "26590", "15117"],
+      "articles": ["10.15381/rif.v19i1.13553", "10.15381/rif.v24i2.20413"]
     },
     "8253": {
-      "talks": ["fb-post-485208053623377", "yt-0M2AyJo_TXw"]
+      "talks": ["fb-post-485208053623377"],
+      "articles": ["10.15381/rif.v12i02.8708"]
+    },
+    "7758": {
+      "talks": ["fb-photo-291638763763199"],
+      "theses": ["15493", "17687"],
+      "articles": [
+        "10.15381/rif.v24i3.20805",
+        "10.15381/rif.v28i3.32011",
+        "10.15381/rif.v23i1.20289"
+      ]
     },
     "10391": {
-      "talks": ["yt-oLQC4JSHl3g", "yt-NTQPOAi2hFU", "yt-y_yyeQPiud0"],
+      "talks": ["ig-DG3qaijxDzz", "fb-post-960895942721250"],
       "theses": ["26208"],
       "articles": ["10.15381/rif.v17i01.8660", "10.15381/rif.v3i01-02.8601"]
     },
     "10208": {
-      "talks": ["fb-post-917422633735248"],
+      "talks": ["fb-post-917422633735248", "yt-FcdJXNZG7bg"],
       "theses": ["19012", "10122", "3390"],
       "articles": ["10.15381/rif.v25i1.21240", "10.15381/rif.v26i3.26116"]
     },
@@ -2950,16 +2813,7 @@
       "articles": [
         "10.15381/rif.v23i3.20311",
         "10.15381/rif.v8i02.8544",
-        "10.15381/rif.28i3.31136"
-      ]
-    },
-    "7235": {
-      "talks": ["educast-4538"],
-      "theses": ["10030", "15193", "9989"],
-      "articles": [
-        "10.15381/rif.v9i02.8582",
-        "10.15381/rif.v23i3.20314",
-        "10.15381/rif.v22i2.20290"
+        "10.15381/rif.v9i01.8622"
       ]
     },
     "6921": {
@@ -2972,15 +2826,11 @@
       ]
     },
     "7645": {
-      "talks": [
-        "fb-photo-597571679973735-9",
-        "yt-cO-bhlQWMXU",
-        "yt-hmq2-IASGzY"
-      ]
+      "talks": ["fb-photo-597571679973735-9"]
     },
     "7586": {
-      "talks": ["yt-Bvg5hkqTlA0", "yt-Nd_XY1fZDxA", "fb-post-1266494072161434"],
-      "theses": ["24596", "14850"],
+      "talks": ["fb-post-1266494072161434", "tps-2026-04-21", "ig-DC4n4QexId5"],
+      "theses": ["14850", "24596", "26590"],
       "articles": [
         "10.15381/rif.v25i1.21966",
         "10.15381/rif.v26i1.24337",
@@ -3019,18 +2869,9 @@
         "10.15381/rif.v27i3.27369"
       ]
     },
-    "4658": {
-      "talks": ["yt-oSBB3mh4fdk"],
-      "theses": ["17150", "20797", "16416"],
-      "articles": [
-        "10.15381/rif.v27i1.28010",
-        "10.15381/rif.v9i01.8618",
-        "10.15381/rif.v25i3.24279"
-      ]
-    },
     "12583": {
-      "talks": ["fb-post-850004150477097"],
-      "theses": ["16521"],
+      "talks": ["fb-post-850004150477097", "ig-DBcOL-CSFIP"],
+      "theses": ["16521", "15261", "12044"],
       "articles": [
         "10.15381/rif.v14i01.8727",
         "10.15381/rif.v28i1.30156",
@@ -3039,7 +2880,8 @@
     },
     "12585": {
       "talks": ["yt-mMA9LlY-XHI"],
-      "theses": ["6336", "10107"]
+      "theses": ["6336", "10107", "14703"],
+      "articles": ["10.15381/rif.v28i1.30156", "10.15381/rif.v8i02.8557"]
     },
     "4188": {
       "talks": ["educast-4074"],
@@ -3060,15 +2902,16 @@
       ]
     },
     "5255": {
-      "talks": ["yt-O7C156TmNgY", "yt-YzGdsdCcbiA", "yt-1tNoXyo6x6k"]
+      "talks": [
+        "fb-photo-394201450173596",
+        "yt-BpNaloDaNBE",
+        "fb-post-890772273066951"
+      ],
+      "theses": ["15261", "16125", "28846"]
     },
     "4093": {
-      "talks": [
-        "yt-va3mmX_pla0",
-        "fb-post-960895942721250",
-        "fb-post-930470775763767"
-      ],
-      "theses": ["3390", "10208", "19200"],
+      "talks": ["fb-post-960895942721250", "fb-post-930470775763767"],
+      "theses": ["3390", "26208", "10208"],
       "articles": ["10.15381/rif.v16i02.8676"]
     },
     "10030": {
@@ -3087,7 +2930,8 @@
     },
     "10093": {
       "talks": ["fb-photo-343793755214366", "ig-DBKlbIHMefk"],
-      "theses": ["12093", "5593"]
+      "theses": ["12093", "5593"],
+      "articles": ["10.15381/rif.v15i01.8692"]
     },
     "9989": {
       "talks": ["educast-4538", "fb-676003416444697"],
@@ -3103,8 +2947,8 @@
       "theses": ["1467", "11562", "14765"],
       "articles": [
         "10.15381/rif.v2i01.8566",
-        "10.15381/rif.v12i02.8714",
-        "10.15381/rif.v8i02.8557"
+        "10.15381/rif.v8i02.8557",
+        "10.15381/rif.v12i02.8714"
       ]
     },
     "4077": {
@@ -3116,39 +2960,9 @@
         "10.15381/rif.v14i02.8702"
       ]
     },
-    "4078": {
-      "talks": ["yt-JngFurjHkgo"],
-      "theses": ["259", "5959", "6334"],
-      "articles": [
-        "10.15381/rif.v22i2.20288",
-        "10.15381/rif.v2i01.8568",
-        "10.15381/rif.v24i3.21084"
-      ]
-    },
-    "10956": {
-      "talks": ["yt-Y141wnjae7s"],
-      "theses": ["3955", "6779"],
-      "articles": ["10.15381/rif.v8i01.8838"]
-    },
-    "5489": {
-      "talks": ["yt-YzGdsdCcbiA"],
-      "theses": ["265", "1503", "12153"],
-      "articles": [
-        "10.15381/rif.v16i02.8679",
-        "10.15381/rif.v14i02.8698",
-        "10.15381/rif.v23i2.20293"
-      ]
-    },
     "12093": {
       "talks": ["fb-photo-343793755214366"],
       "theses": ["10093", "30970"]
-    },
-    "3451": {
-      "talks": ["yt-y_yyeQPiud0"],
-      "theses": ["19106", "19200", "19012"]
-    },
-    "4311": {
-      "talks": ["yt-0b_RfWTHqzM", "yt-TwsPMt8RBDs"]
     },
     "3538": {
       "talks": ["fb-photo-870807762650124"],
@@ -3160,28 +2974,46 @@
       ]
     },
     "14850": {
-      "talks": ["yt-ePR8vgQiIUs", "yt-sIerGzGpSLw", "yt-xEcvoWrgpx8"],
+      "talks": [
+        "fb-post-1266494072161434",
+        "fb-photo-856443264086574",
+        "fb-photo-394201450173596-2"
+      ],
       "theses": ["23029", "26590", "7586"],
-      "articles": ["10.15381/rif.v24i2.20359", "10.15381/rif.v26i2.25155"]
+      "articles": [
+        "10.15381/rif.v24i2.20359",
+        "10.15381/rif.v26i2.25155",
+        "10.15381/rif.v23i1.20289"
+      ]
+    },
+    "14852": {
+      "talks": ["yt-KfXHptKkV58"],
+      "theses": ["1503", "18600", "4495"],
+      "articles": [
+        "10.15381/rif.v15i02.8685",
+        "10.15381/rif.v14i02.8698",
+        "10.15381/rif.v16i02.8677"
+      ]
     },
     "3390": {
-      "talks": ["fb-post-960895942721250", "yt-va3mmX_pla0"],
-      "theses": ["19106", "10208", "19494"],
+      "talks": ["fb-post-960895942721250"],
+      "theses": ["10208", "19106", "19494"],
       "articles": ["10.15381/rif.v25i1.21240", "10.15381/rif.v16i02.8676"]
     },
     "3490": {
       "talks": ["fb-676003416444697"],
-      "theses": ["3114", "15686"]
+      "theses": ["3114", "15686"],
+      "articles": ["10.15381/rif.v1i01.20456", "10.15381/rif.v9i01.8622"]
     },
     "5005": {
-      "talks": ["educast-1141"],
+      "talks": ["educast-1141", "fb-post-1270836148393893"],
       "theses": ["10183", "12153", "22789"],
       "articles": ["10.15381/rif.v27i1.25685", "10.15381/rif.v18i2.11580"]
     },
     "15261": {
-      "talks": ["yt-7gaXNhfJ00E", "yt-RqVy47ecK6k", "yt-7guYMDAQq38"],
-      "theses": ["16125", "22860", "16521"],
-      "articles": ["10.15381/rif.v28i1.30156"]
+      "talks": ["fb-post-894662616011250", "fb-post-850004150477097"],
+      "theses": ["16125", "16521", "22860"],
+      "articles": ["10.15381/rif.v28i1.30156", "10.15381/rif.v14i01.8727"]
     },
     "10603": {
       "talks": ["fb-photo-313734258220316", "educast-6645"],
@@ -3192,8 +3024,12 @@
       "talks": ["fb-photo-870807762650124"]
     },
     "1471": {
-      "talks": ["yt-YzGdsdCcbiA", "yt-l0of1Ixf9y8", "yt-Q23g1qtpvIs"],
-      "articles": ["10.15381/rif.v7i01-02.8826"]
+      "talks": ["fb-photo-597571679973735-5", "fb-photo-394201390173602-3"],
+      "articles": [
+        "10.15381/rif.v7i01-02.8826",
+        "10.15381/rif.v28i2.30414",
+        "10.15381/rif.v14i02.8705"
+      ]
     },
     "11096": {
       "talks": ["fb-676003416444697", "educast-5019"],
@@ -3204,28 +3040,17 @@
         "10.15381/rif.v23i3.20311"
       ]
     },
-    "264": {
-      "talks": ["yt-TE3Z5ZYd-cY"]
-    },
-    "15122": {
-      "talks": ["yt-7gaXNhfJ00E", "yt-KlQCA_DeETE"],
-      "theses": ["15325"]
-    },
     "15117": {
-      "talks": ["yt-yuLm4Yfpmbo", "yt-I9zk4bcVUlA", "yt-aikqoOHNNYU"],
+      "talks": ["fb-photo-313742191552856"],
       "theses": ["16358"]
     },
-    "15325": {
-      "talks": ["yt-LVCtr4TGVus"],
-      "theses": ["15122", "8247"],
-      "articles": ["10.15381/rif.v17i2.11540"]
+    "14787": {
+      "talks": ["yt-MY3NVPUwRwU"],
+      "theses": ["21659"],
+      "articles": ["10.15381/rif.v26i2.24946"]
     },
     "14756": {
-      "talks": [
-        "fb-photo-291638763763199",
-        "fb-post-930470775763767",
-        "yt-Tq-gdiR2qTQ"
-      ],
+      "talks": ["fb-photo-291638763763199", "fb-post-930470775763767"],
       "theses": ["8205"]
     },
     "3594": {
@@ -3246,12 +3071,10 @@
         "10.15381/rif.v14i02.8702"
       ]
     },
-    "7089": {
-      "talks": ["yt-vtyT2GNUjvI"],
-      "articles": ["10.15381/rif.v12i01.8719", "10.15381/rif.v14i01.8535"]
-    },
-    "3232": {
-      "talks": ["yt-YMlXsLzvuIA"]
+    "1504": {
+      "talks": ["ig-DKgc-LJuBy6"],
+      "theses": ["7167", "8294", "5986"],
+      "articles": ["10.15381/rif.v1i02.8599"]
     },
     "12582": {
       "talks": ["fb-photo-597571679973735-8"]
@@ -3266,7 +3089,11 @@
       ]
     },
     "1505": {
-      "talks": ["fb-post-1554839286660243", "yt-bzE-_YueaLg", "ig-DJqM1BSOanw"],
+      "talks": [
+        "fb-post-1554839286660243",
+        "ig-DJqM1BSOanw",
+        "fb-post-1561350359342469"
+      ],
       "theses": ["6333", "3158", "16616"],
       "articles": [
         "10.15381/rif.v2i01.8567",
@@ -3276,7 +3103,7 @@
     },
     "6333": {
       "talks": ["fb-post-1554839286660243"],
-      "theses": ["1505", "8205"],
+      "theses": ["1505", "8205", "16744"],
       "articles": [
         "10.15381/rif.v2i01.8567",
         "10.15381/rif.v7i01-02.8827",
@@ -3285,37 +3112,37 @@
     },
     "6331": {
       "talks": ["fb-post-1554839286660243"],
-      "theses": ["16744", "1505"]
+      "theses": ["16744", "1505"],
+      "articles": ["10.15381/rif.29i1.32612"]
+    },
+    "31378": {
+      "theses": ["31728"],
+      "articles": ["10.15381/rif.v24i1.20247"]
     },
     "31728": {
-      "theses": ["31336"]
+      "theses": ["31336", "31378"]
     },
     "31329": {
       "theses": ["15193", "5968", "5633"],
       "articles": ["10.15381/rif.v19i1.13550"]
     },
     "31336": {
-      "theses": ["31728"],
-      "articles": ["10.15381/rif.v24i1.20247"]
+      "theses": ["31728"]
     },
     "28265": {
-      "theses": ["7845", "7794"],
+      "theses": ["7845", "7794", "26068"],
       "articles": [
         "10.15381/rif.v28i2.31018",
         "10.15381/rif.v26i1.23804",
         "10.15381/rif.v19i1.13551"
       ]
     },
+    "27048": {
+      "theses": ["19883", "4496", "25405"],
+      "articles": ["10.15381/rif.v12i02.8711"]
+    },
     "25316": {
       "theses": ["9935", "14078"]
-    },
-    "28846": {
-      "theses": ["1503", "12153", "4495"],
-      "articles": [
-        "10.15381/rif.v1i01.8519",
-        "10.15381/rif.v15i02.8685",
-        "10.15381/rif.v15i01.8694"
-      ]
     },
     "28269": {
       "theses": ["19186", "3390"]
@@ -3353,7 +3180,7 @@
     },
     "22586": {
       "theses": ["8100", "27048", "16448"],
-      "articles": ["10.15381/rif.v12i02.8711"]
+      "articles": ["10.15381/rif.v12i02.8711", "10.15381/rif.v12i02.8708"]
     },
     "24227": {
       "theses": ["26609", "25883", "11096"],
@@ -3362,6 +3189,10 @@
         "10.15381/rif.v28i1.29044",
         "10.15381/rif.v20i1.14510"
       ]
+    },
+    "24596": {
+      "theses": ["7586"],
+      "articles": ["10.15381/rif.v26i1.24337", "10.15381/rif.v24i2.20413"]
     },
     "22696": {
       "theses": ["12588"]
@@ -3379,9 +3210,8 @@
     "19397": {
       "theses": ["16521"]
     },
-    "20905": {
-      "theses": ["19346"],
-      "articles": ["10.15381/rif.v26i3.26216", "10.15381/rif.v16i02.8675"]
+    "22764": {
+      "theses": ["12588"]
     },
     "23929": {
       "theses": ["9484", "9988", "18104"],
@@ -3392,11 +3222,15 @@
       "articles": [
         "10.15381/rif.v22i2.20288",
         "10.15381/rif.v24i3.21084",
-        "10.15381/rif.v27i3.28963"
+        "10.15381/rif.29i1.32612"
       ]
     },
+    "19460": {
+      "theses": ["30970"],
+      "articles": ["10.15381/rif.v24i2.20720"]
+    },
     "26068": {
-      "theses": ["7845", "4880"],
+      "theses": ["7845", "4880", "28265"],
       "articles": [
         "10.15381/rif.v26i1.23804",
         "10.15381/rif.v11i1.21563",
@@ -3405,10 +3239,17 @@
     },
     "20098": {
       "theses": ["1503", "14852", "28846"],
-      "articles": ["10.15381/rif.v1i01.8519", "10.15381/rif.v14i02.8698"]
+      "articles": [
+        "10.15381/rif.v1i01.8519",
+        "10.15381/rif.v14i02.8698",
+        "10.15381/rif.v3i01-02.8605"
+      ]
     },
-    "30970": {
-      "theses": ["21020", "12093"]
+    "19494": {
+      "theses": ["19454", "19292", "20330"]
+    },
+    "19454": {
+      "theses": ["19494", "19292", "20330"]
     },
     "21128": {
       "theses": ["1467", "16842", "8268"],
@@ -3427,7 +3268,8 @@
       "articles": ["10.15381/rif.v12i02.8714", "10.15381/rif.v16i01.9180"]
     },
     "19258": {
-      "theses": ["24428", "14765"]
+      "theses": ["24428", "14765"],
+      "articles": ["10.15381/rif.v12i02.8714", "10.15381/rif.v27i2.27701"]
     },
     "18551": {
       "theses": ["14510", "14703", "6694"],
@@ -3437,23 +3279,39 @@
         "10.15381/rif.v24i3.15617"
       ]
     },
+    "22706": {
+      "theses": ["14850"],
+      "articles": ["10.15381/rif.v5i01-02.8796", "10.15381/rif.v26i2.25155"]
+    },
     "18911": {
-      "theses": ["14406", "15493"],
+      "theses": ["14406", "15493", "16573"],
       "articles": ["10.15381/rif.v24i3.21050", "10.15381/rif.v13i01.8924"]
     },
     "18705": {
       "theses": ["15083"]
     },
     "19311": {
-      "theses": ["3955", "6779", "7845"],
+      "theses": ["3955", "6779", "4880"],
       "articles": [
         "10.15381/rif.v26i1.23804",
         "10.15381/rif.v5i01-02.8743",
         "10.15381/rif.v27i1.27261"
       ]
     },
+    "19186": {
+      "theses": ["28269", "19494", "4093"]
+    },
+    "18993": {
+      "theses": ["16416", "24558", "11131"],
+      "articles": ["10.15381/rif.v27i1.28010", "10.15381/rif.v25i3.24279"]
+    },
     "18861": {
-      "theses": ["19287"]
+      "theses": ["19287", "18700"],
+      "articles": [
+        "10.15381/rif.v16i02.8678",
+        "10.15381/rif.v16i02.8675",
+        "10.15381/rif.v7i01-02.9252"
+      ]
     },
     "18102": {
       "theses": ["1255"],
@@ -3464,17 +3322,21 @@
       ]
     },
     "19802": {
-      "theses": ["12321"]
+      "theses": ["12321", "18877"]
     },
     "19012": {
-      "theses": ["19106", "19494", "10208"]
+      "theses": ["19106", "10208", "19494"]
     },
     "19217": {
       "theses": ["7367", "9484", "7235"],
-      "articles": ["10.15381/rif.v26i3.25730"]
+      "articles": [
+        "10.15381/rif.v26i3.25730",
+        "10.15381/rif.v22i2.20290",
+        "10.15381/rif.v27i2.26528"
+      ]
     },
     "16101": {
-      "theses": ["8277", "8268"],
+      "theses": ["8277"],
       "articles": ["10.15381/rif.29i1.23990"]
     },
     "16632": {
@@ -3489,13 +3351,13 @@
       "theses": ["9988", "19216", "5633"],
       "articles": [
         "10.15381/rif.v23i2.20296",
-        "10.15381/rif.v24i2.20385",
-        "10.15381/rif.v15i02.8688"
+        "10.15381/rif.v15i02.8688",
+        "10.15381/rif.v24i2.20385"
       ]
     },
     "19445": {
       "theses": ["9848", "7962", "12578"],
-      "articles": ["10.15381/rif.v9i01.8609"]
+      "articles": ["10.15381/rif.v9i01.8609", "10.15381/rif.v21i1.20179"]
     },
     "17474": {
       "theses": ["18877", "16842", "12321"],
@@ -3513,26 +3375,34 @@
         "10.15381/rif.v14i02.8701"
       ]
     },
+    "16416": {
+      "theses": ["18993", "20797", "11131"],
+      "articles": [
+        "10.15381/rif.v27i1.28010",
+        "10.15381/rif.29i2.33462",
+        "10.15381/rif.v25i3.24279"
+      ]
+    },
     "19292": {
       "theses": ["20330", "19454", "19494"]
     },
-    "16521": {
-      "theses": ["15261", "19397", "12583"],
-      "articles": [
-        "10.15381/rif.v1i01.20456",
-        "10.15381/rif.v28i1.30156",
-        "10.15381/rif.v14i01.8727"
-      ]
-    },
     "17528": {
       "theses": ["12708", "12342", "263"]
+    },
+    "17150": {
+      "theses": ["4658", "28261", "20797"],
+      "articles": [
+        "10.15381/rif.v9i01.8618",
+        "10.15381/rif.v25i3.24279",
+        "10.15381/rif.v27i1.28010"
+      ]
     },
     "17291": {
       "theses": ["14186", "15965", "7714"],
       "articles": ["10.15381/rif.v24i1.20246"]
     },
     "16734": {
-      "theses": ["12321", "16842"]
+      "theses": ["12321"]
     },
     "17145": {
       "theses": ["5488"],
@@ -3594,7 +3464,11 @@
     },
     "11562": {
       "theses": ["12044"],
-      "articles": ["10.15381/rif.29i1.33166", "10.15381/rif.v2i01.8566"]
+      "articles": [
+        "10.15381/rif.29i1.33166",
+        "10.15381/rif.v2i01.8566",
+        "10.15381/rif.v12i02.8714"
+      ]
     },
     "10290": {
       "theses": ["6520", "4188", "21131"],
@@ -3613,7 +3487,7 @@
       ]
     },
     "11579": {
-      "theses": ["5708", "9484", "11525"],
+      "theses": ["5708", "9484", "7714"],
       "articles": ["10.15381/rif.v24i3.20805", "10.15381/rif.v8i02.8544"]
     },
     "10694": {
@@ -3621,18 +3495,22 @@
       "articles": ["10.15381/rif.v27i3.27369", "10.15381/rif.v4i01.8709"]
     },
     "11594": {
-      "theses": ["12586", "11117"],
+      "theses": ["12586", "4076", "11117"],
       "articles": ["10.15381/rif.v24i1.20246"]
     },
     "12708": {
       "theses": ["17528"]
+    },
+    "11131": {
+      "theses": ["20797", "16416", "18993"],
+      "articles": ["10.15381/rif.v25i3.24279", "10.15381/rif.v27i1.28010"]
     },
     "11530": {
       "theses": ["3204", "8294"],
       "articles": ["10.15381/rif.v9i01.8616"]
     },
     "8277": {
-      "theses": ["16101", "8268"],
+      "theses": ["16101"],
       "articles": ["10.15381/rif.29i1.23990"]
     },
     "7962": {
@@ -3644,23 +3522,34 @@
       "articles": ["10.15381/rif.v23i2.20291", "10.15381/rif.v12i01.8716"]
     },
     "8268": {
-      "theses": ["16842", "21128", "1467"],
+      "theses": ["16842", "1467", "21128"],
       "articles": [
         "10.15381/rif.v16i01.9180",
-        "10.15381/rif.v22i1.20265",
-        "10.15381/rif.v8i02.8556"
+        "10.15381/rif.v8i02.8556",
+        "10.15381/rif.v22i1.20265"
       ]
     },
     "9484": {
       "theses": ["23929", "9988", "7714"],
-      "articles": ["10.15381/rif.v24i1.20246", "10.15381/rif.v22i2.20290"]
+      "articles": [
+        "10.15381/rif.v24i1.20246",
+        "10.15381/rif.v22i2.20290",
+        "10.15381/rif.v23i2.20291"
+      ]
+    },
+    "8972": {
+      "theses": ["15457"]
     },
     "10107": {
       "theses": ["12585"]
     },
     "10027": {
       "theses": ["14076", "12153", "3006"],
-      "articles": ["10.15381/rif.v13i01.8849", "10.15381/rif.v16i02.8675"]
+      "articles": [
+        "10.15381/rif.v13i01.8849",
+        "10.15381/rif.v16i02.8675",
+        "10.15381/rif.v15i02.8685"
+      ]
     },
     "8294": {
       "theses": ["1504", "11530"],
@@ -3686,12 +3575,8 @@
       "theses": ["5633", "19216", "5968"],
       "articles": ["10.15381/rif.v24i2.20385", "10.15381/rif.v19i1.13550"]
     },
-    "8475": {
-      "theses": ["14765", "7167"]
-    },
-    "7758": {
-      "theses": ["15493"],
-      "articles": ["10.15381/rif.v24i3.20805", "10.15381/rif.v28i3.32011"]
+    "10122": {
+      "theses": ["10208", "16448", "19292"]
     },
     "7845": {
       "theses": ["19311", "28265", "5488"],
@@ -3713,7 +3598,7 @@
       "articles": ["10.15381/rif.v13i02.8928"]
     },
     "7807": {
-      "theses": ["4076"],
+      "theses": ["4076", "17687", "24227"],
       "articles": ["10.15381/rif.v27i3.27369"]
     },
     "7367": {
@@ -3722,6 +3607,14 @@
         "10.15381/rif.v26i3.25730",
         "10.15381/rif.v24i3.20805",
         "10.15381/rif.29i2.32732"
+      ]
+    },
+    "7235": {
+      "theses": ["10030", "15193", "9989"],
+      "articles": [
+        "10.15381/rif.v9i02.8582",
+        "10.15381/rif.v23i3.20314",
+        "10.15381/rif.v22i2.20290"
       ]
     },
     "6258": {
@@ -3779,13 +3672,19 @@
       "theses": ["5005"],
       "articles": ["10.15381/rif.v8i02.8549"]
     },
+    "5218": {
+      "theses": ["10847"]
+    },
     "4880": {
-      "theses": ["2537", "5488", "19311"],
+      "theses": ["2537", "19311", "5488"],
       "articles": [
         "10.15381/rif.v20i1.14709",
         "10.15381/rif.v23i1.20286",
         "10.15381/rif.v23i3.20303"
       ]
+    },
+    "12587": {
+      "theses": ["19445"]
     },
     "7167": {
       "theses": ["15083", "15328", "1504"]
@@ -3794,8 +3693,17 @@
       "theses": ["11579", "20714", "11525"],
       "articles": ["10.15381/rif.v26i2.25992"]
     },
+    "4658": {
+      "theses": ["17150", "20797", "16416"],
+      "articles": [
+        "10.15381/rif.v27i1.28010",
+        "10.15381/rif.v9i01.8618",
+        "10.15381/rif.v25i3.24279"
+      ]
+    },
     "12584": {
-      "theses": ["257", "12580"]
+      "theses": ["257", "12580"],
+      "articles": ["10.15381/rif.v2i01.8565", "10.15381/rif.v25i1.22288"]
     },
     "12586": {
       "theses": ["11594", "12345", "11117"],
@@ -3819,7 +3727,11 @@
     },
     "7425": {
       "theses": ["16573"],
-      "articles": ["10.15381/rif.v24i3.21050", "10.15381/rif.v20i1.14708"]
+      "articles": [
+        "10.15381/rif.v24i3.21050",
+        "10.15381/rif.v20i1.14708",
+        "10.15381/rif.v27i1.27371"
+      ]
     },
     "8561": {
       "theses": ["14842", "4568", "5633"],
@@ -3834,7 +3746,7 @@
       "articles": ["10.15381/rif.v16i02.8676"]
     },
     "12588": {
-      "theses": ["22696"],
+      "theses": ["22696", "22764"],
       "articles": ["10.15381/rif.v1i02.8591"]
     },
     "4495": {
@@ -3846,7 +3758,7 @@
       ]
     },
     "5968": {
-      "theses": ["3071", "17142", "19216"],
+      "theses": ["3071", "17142", "31329"],
       "articles": [
         "10.15381/rif.v19i1.13550",
         "10.15381/rif.v22i2.20290",
@@ -3878,7 +3790,19 @@
     },
     "9935": {
       "theses": ["14078", "15392", "3158"],
-      "articles": ["10.15381/rif.v8i01.8843", "10.15381/rif.v27i3.28848"]
+      "articles": [
+        "10.15381/rif.v8i01.8843",
+        "10.15381/rif.v27i3.28848",
+        "10.15381/rif.v14i02.8703"
+      ]
+    },
+    "4078": {
+      "theses": ["259", "5959", "6334"],
+      "articles": [
+        "10.15381/rif.v22i2.20288",
+        "10.15381/rif.v2i01.8568",
+        "10.15381/rif.v24i3.21084"
+      ]
     },
     "5786": {
       "theses": ["12342", "10603"],
@@ -3890,11 +3814,23 @@
     },
     "3955": {
       "theses": ["19311", "6779", "10956"],
-      "articles": ["10.15381/rif.v8i01.8838"]
+      "articles": ["10.15381/rif.v8i01.8838", "10.15381/rif.v26i1.23804"]
     },
     "9848": {
       "theses": ["19445", "7962", "12580"],
       "articles": ["10.15381/rif.v9i01.8609", "10.15381/rif.v21i1.20179"]
+    },
+    "10956": {
+      "theses": ["3955", "6779"],
+      "articles": ["10.15381/rif.v8i01.8838"]
+    },
+    "5489": {
+      "theses": ["265", "1503", "12153"],
+      "articles": [
+        "10.15381/rif.v16i02.8679",
+        "10.15381/rif.v23i2.20293",
+        "10.15381/rif.v14i02.8698"
+      ]
     },
     "9943": {
       "theses": ["9420", "16871"],
@@ -3939,13 +3875,8 @@
         "10.15381/rif.v24i3.15617"
       ]
     },
-    "14852": {
-      "theses": ["1503", "4495", "18600"],
-      "articles": [
-        "10.15381/rif.v15i02.8685",
-        "10.15381/rif.v14i02.8698",
-        "10.15381/rif.v16i02.8677"
-      ]
+    "3451": {
+      "theses": ["19106", "19200", "19012"]
     },
     "4568": {
       "theses": ["14842", "8561", "12345"]
@@ -3988,7 +3919,7 @@
     },
     "12580": {
       "theses": ["12584", "9848"],
-      "articles": ["10.15381/rif.v21i1.20179"]
+      "articles": ["10.15381/rif.v21i1.20179", "10.15381/rif.v20i2.15166"]
     },
     "12345": {
       "theses": ["12586", "14842", "16632"],
@@ -4011,7 +3942,7 @@
       ]
     },
     "1467": {
-      "theses": ["21128", "15328", "8268"],
+      "theses": ["21128", "15328", "12044"],
       "articles": [
         "10.15381/rif.v16i01.9180",
         "10.15381/rif.v8i02.8556",
@@ -4027,14 +3958,15 @@
       ]
     },
     "25405": {
-      "theses": ["27048"],
+      "theses": ["27048", "4496"],
       "articles": ["10.15381/rif.v12i02.8711"]
     },
     "12321": {
       "theses": ["18877", "16842", "16734"]
     },
     "259": {
-      "theses": ["4078", "3781", "16448"]
+      "theses": ["4078", "3781", "16448"],
+      "articles": ["10.15381/rif.v2i01.8568"]
     },
     "263": {
       "theses": ["12342", "17528", "20319"],
@@ -4047,13 +3979,21 @@
       "theses": ["16692", "14415"],
       "articles": ["10.15381/rif.v21i2.20236"]
     },
-    "14787": {
-      "theses": ["21659"],
-      "articles": ["10.15381/rif.v26i2.24946"]
+    "15122": {
+      "theses": ["15325"],
+      "articles": ["10.15381/rif.v1i01.20456"]
+    },
+    "15325": {
+      "theses": ["15122", "8247"],
+      "articles": ["10.15381/rif.v17i2.11540"]
     },
     "14765": {
       "theses": ["8475", "19258", "15083"],
-      "articles": ["10.15381/rif.v8i02.8557", "10.15381/rif.v12i02.8714"]
+      "articles": [
+        "10.15381/rif.v8i02.8557",
+        "10.15381/rif.v12i02.8714",
+        "10.15381/rif.v5i01-02.8787"
+      ]
     },
     "15328": {
       "theses": ["1467", "15083", "7167"],
@@ -4087,8 +4027,12 @@
       "theses": ["20797", "3543"],
       "articles": ["10.15381/rif.v12i02.8707"]
     },
+    "7089": {
+      "theses": ["14850"],
+      "articles": ["10.15381/rif.v12i01.8719", "10.15381/rif.v14i01.8535"]
+    },
     "6694": {
-      "theses": ["261", "14510", "14703"],
+      "theses": ["261", "14703", "14510"],
       "articles": [
         "10.15381/rif.v15i01.8690",
         "10.15381/rif.v15i01.8691",
@@ -4106,14 +4050,10 @@
     "2537": {
       "theses": ["5488", "1741", "4880"],
       "articles": [
-        "10.15381/rif.v16i01.8681",
         "10.15381/rif.v5i01-02.8743",
+        "10.15381/rif.v16i01.8681",
         "10.15381/rif.v23i1.20286"
       ]
-    },
-    "1504": {
-      "theses": ["7167", "8294", "5986"],
-      "articles": ["10.15381/rif.v1i02.8599"]
     },
     "3006": {
       "theses": ["10027"],
@@ -4125,7 +4065,11 @@
     },
     "843": {
       "theses": ["1503", "14852", "6258"],
-      "articles": ["10.15381/rif.v14i02.8698", "10.15381/rif.v7i01-02.8809"]
+      "articles": [
+        "10.15381/rif.v14i02.8698",
+        "10.15381/rif.v7i01-02.8809",
+        "10.15381/rif.v16i02.8677"
+      ]
     },
     "3204": {
       "theses": ["11530"],
@@ -4144,18 +4088,18 @@
       "articles": [
         "10.15381/rif.v2i01.8568",
         "10.15381/rif.v27i3.28963",
-        "10.15381/rif.v22i2.20288"
+        "10.15381/rif.29i1.32612"
       ]
     },
     "6336": {
       "theses": ["12585"],
       "articles": ["10.15381/rif.v13i02.8860"]
     },
-    "31378": {
-      "articles": ["10.15381/rif.v24i1.20247"]
-    },
     "31142": {
       "articles": ["10.15381/rif.v18i1.11576"]
+    },
+    "31290": {
+      "articles": ["10.15381/rif.v23i2.20297"]
     },
     "29140": {
       "articles": ["10.15381/rif.v27i2.27701"]
@@ -4163,11 +4107,15 @@
     "22530": {
       "articles": ["10.15381/rif.v27i2.26337"]
     },
-    "19460": {
-      "articles": ["10.15381/rif.v24i2.20720"]
-    },
     "20093": {
-      "articles": ["10.15381/rif.v25i1.14972"]
+      "articles": [
+        "10.15381/rif.v25i1.14972",
+        "10.15381/rif.v16i02.8678",
+        "10.15381/rif.v22i1.20264"
+      ]
+    },
+    "20141": {
+      "articles": ["10.15381/rif.v24i2.20340"]
     },
     "20574": {
       "articles": ["10.15381/rif.v26i3.26116", "10.15381/rif.v28i2.29414"]
@@ -4209,17 +4157,27 @@
     "4418": {
       "articles": ["10.15381/rif.v17i2.11530"]
     },
+    "11971": {
+      "articles": ["10.15381/rif.v22i1.20264"]
+    },
     "13970": {
       "articles": ["10.15381/rif.v26i2.24946"]
     },
+    "9664": {
+      "articles": ["10.15381/rif.v12i02.8707", "10.15381/rif.v8i02.8546"]
+    },
     "15968": {
-      "articles": ["10.15381/rif.v13i01.8856", "10.15381/rif.v16i01.8683"]
+      "articles": [
+        "10.15381/rif.v13i01.8856",
+        "10.15381/rif.v16i01.8683",
+        "10.15381/rif.v19i1.13553"
+      ]
     },
     "260": {
-      "articles": ["10.15381/rif.v12i02.8710"]
+      "articles": ["10.15381/rif.v12i02.8710", "10.15381/rif.v23i1.20284"]
     },
     "12579": {
-      "articles": ["10.15381/rif.v24i1.20247"]
+      "articles": ["10.15381/rif.v24i1.20247", "10.15381/rif.v1i01.8590"]
     },
     "610": {
       "articles": ["10.15381/rif.v9i01.8612"]
