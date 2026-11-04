@@ -42,7 +42,6 @@
 		</div>
 
 		<div class="view" data-view="calendario">
-			<p class="text-muted">Prácticas de todas las carreras, no solo de física: quien convoca en el mismo mes varios años seguidos suele repetirlo.</p>
 			{{- range $employers }}
 				{{- $name := . }}
 				{{- $rows := slice }}
@@ -54,6 +53,7 @@
 					</section>
 				{{- end }}
 			{{- end }}
+			<p class="text-muted">Prácticas de todas las carreras, no solo de física.</p>
 		</div>
 
 		<div class="view" data-view="habilidad">
@@ -121,7 +121,7 @@
 	</div>
 
 	<p class="person-note text-muted">
-		Los datos se copian de los portales de convocatorias del IGP, SENAMHI, INAIGEM, ITP, IPEN y otras entidades en gob.pe, de las bases de la UNSA y la UNJFSC y de los avisos de Bumeran. Una convocatoria pide física cuando su formación académica acepta una carrera de esa familia; las bases escaneadas no se pueden leer y cuentan como que no. Si falta una convocatoria o un dato está mal, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
+		Convocatorias de gob.pe, de la UNSA, de la UNJFSC y de Bumeran. Una pide física cuando su formación acepta una carrera de física. Si falta una convocatoria, <a href="{{ "/contacto/" | relURL }}">escríbenos</a>.
 	</p>
 </div>
 {{ end }}

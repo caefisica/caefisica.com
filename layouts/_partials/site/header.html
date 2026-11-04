@@ -7,12 +7,6 @@
 				{{- partial "ui/logo.html" (dict "class" "size-5 shrink-0") }}
 				{{- site.Params.title -}}
 			</a>
-			{{- with .FirstSection }}
-				{{- if not .IsHome }}
-					<span class="text-muted" aria-hidden="true">/</span>
-					<a class="truncate text-muted hover:text-fg" href="{{ .RelPermalink }}">{{ .Title | lower }}</a>
-				{{- end }}
-			{{- end }}
 		</p>
 
 		{{ partial "site/search-button.html" (dict "class" "icon-btn md:hidden") }}

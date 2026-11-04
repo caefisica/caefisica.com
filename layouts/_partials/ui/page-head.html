@@ -1,4 +1,4 @@
-{{- /* The header crumb already names the section, so a section index sets `headline` to a statement instead of repeating its title. The lead is one sentence, with the section's counts in its prose; where the data comes from goes in the note that closes the page. */ -}}
+{{- /* The lead is one sentence, with the section's counts in its prose; where the data comes from goes in the note that closes the page. */ -}}
 {{- $page := .page }}
 <h1>{{ or $page.Params.headline $page.Title }}{{ with $page.Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
 {{- with .lead | default $page.Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
