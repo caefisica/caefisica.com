@@ -59,7 +59,7 @@ Si el pull request toca `content/`, el flujo
 carpeta. Para revisarlos antes, ejecuta `bun run links`.
 
 Al participar aceptas el [Código de Conducta](../CODE_OF_CONDUCT.md) y publicas
-tu aporte bajo la [licencia MIT](../LICENCE).
+tu aporte bajo la [licencia Apache 2.0](../LICENCE).
 
 ## Qué puedes aportar
 
