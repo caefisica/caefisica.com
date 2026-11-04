@@ -14,7 +14,7 @@ Front matter `toc: false` drops the contents column. List pages of a taxonomy ge
 <div class="docs-layout{{ if $toc }} has-toc{{ end }}{{ if eq $root.Section "apuntes" }} notes-layout{{ end }}">
 	{{ partial "docs/sidebar.html" (merge $sidebar (dict "page" $page)) }}
 	<article class="docs-article">
-		{{ partial "article/breadcrumbs.html" (dict "page" $page "root" $root) }}
+		{{ partial "article/breadcrumbs.html" $page }}
 		{{ partial "ui/page-head.html" (dict "page" $page "lead" .lead) }}
 		{{ .body }}
 		{{ partial "article/page-footer.html" $page }}

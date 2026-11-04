@@ -1770,12 +1770,12 @@
     }
   }
 
-  /* A thesis or a talk can fill five cells, so the row wraps. */
+  /* Up to seven cells, so fixed columns keep a wrapped row under the first. */
   .story-info {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     order: 2;
-    gap: 1.5rem 5rem;
+    gap: 1.5rem 2rem;
     margin: 0.875rem 0 1.75rem;
     padding-block: 2rem;
     border-block: 1px solid var(--line);
@@ -1820,7 +1820,7 @@
     }
 
     @media (width < 40rem) {
-      flex-direction: column;
+      grid-template-columns: minmax(0, 1fr);
       order: 1;
       gap: 1rem;
       margin: 0 0 1.75rem;
