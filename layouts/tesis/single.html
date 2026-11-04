@@ -72,14 +72,7 @@
 			<h2 id="temas">Temas</h2>
 			<p>{{ delimit . " · " }}</p>
 		{{- end }}
-		{{- $talks := slice -}}
-		{{- range index (hugo.Data.related.theses | default dict) $t.id }}{{ with index (where hugo.Data.recordings.recordings "id" .) 0 }}{{ $talks = $talks | append . }}{{ end }}{{ end -}}
-		{{- with $talks }}
-			<h2 id="charlas">Charlas relacionadas</h2>
-			<ul class="rows">
-				{{- range . }}{{ partial "grabaciones/row.html" (dict "recording" . "note" (index (where hugo.Data.recordings.series "id" .series) 0).name) }}{{ end }}
-			</ul>
-		{{- end }}
+		{{ partial "grabaciones/related.html" (index (hugo.Data.related.theses | default dict) $t.id) }}
 		<p class="person-note text-muted">
 			Copia de su registro en Cybertesis, el repositorio de San Marcos, al {{ partial "ui/date.html" (time.AsTime $data.fetched) }}. El PDF y su licencia están ahí.
 		</p>
