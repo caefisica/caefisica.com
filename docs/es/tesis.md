@@ -11,10 +11,18 @@ página en `/tesis/<número>/`, donde el número es el del handle de Cybertesis.
 `data/theses.json` es una copia de tres colecciones de Cybertesis, el
 repositorio de San Marcos. No se edita a mano: se genera fuera de este
 repositorio. `fetched` guarda la fecha de la copia. Cada tesis tiene título,
-autores, asesores, jurado, año, grado, área, temas, resumen, handle y licencia.
+autores, asesores, jurado, año, grado, área, temas, resumen, términos del texto,
+handle y licencia.
 
 El PDF no se copia. La página enlaza el registro en Cybertesis, donde están el
 texto completo y su licencia.
+
+`terms` son temas del vocabulario de Cybertesis que el cuerpo de la tesis usa al
+menos tres veces y que su título, resumen y temas no dicen. La página los
+muestra en «También trata», así la búsqueda encuentra la tesis por ellos. Un
+término que sale en el registro del 5 % de las tesis o más, o en el cuerpo de
+más del 15 %, no entra: es demasiado general para buscar. Una tesis sin texto
+completo en Cybertesis, o con un escaneo sin texto, no tiene términos.
 
 El área es el primer código OCDE del registro. `areas` guarda la etiqueta de
 cada código usado, según el vocabulario de

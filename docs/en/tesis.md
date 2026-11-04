@@ -11,10 +11,18 @@ sufficiency works of the Faculty of Physical Sciences. Each has its page at
 `data/theses.json` is a copy of three collections of Cybertesis, the San Marcos
 repository. It is not edited by hand: it is generated outside this repository.
 `fetched` keeps the date of the copy. Each thesis has title, authors, advisers,
-jury, year, degree, area, topics, abstract, handle and licence.
+jury, year, degree, area, topics, abstract, terms from the text, handle and
+licence.
 
 The PDF is not copied. The page links the Cybertesis record, which holds the
 full text and its licence.
+
+`terms` are topics from the Cybertesis vocabulary that the thesis body uses at
+least three times and that its title, abstract and topics do not state. The page
+shows them under "También trata", so search finds the thesis by them. A term in
+the record of 5% of the theses or more, or in the body of more than 15%, is left
+out: it is too general to search for. A thesis with no full text in Cybertesis,
+or a scan without text, has no terms.
 
 The area is the first OECD code of the record. `areas` keeps the label of each
 code used, according to the vocabulary of

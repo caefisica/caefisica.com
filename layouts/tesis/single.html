@@ -72,6 +72,10 @@
 			<h2 id="temas">Temas</h2>
 			<p>{{ delimit . " · " }}</p>
 		{{- end }}
+		{{- with $t.terms }}
+			<h2 id="en-el-texto">También trata</h2>
+			<p>{{ delimit . " · " }}</p>
+		{{- end }}
 		{{ partial "grabaciones/related.html" (index (hugo.Data.related.theses | default dict) $t.id) }}
 		<p class="person-note text-muted">
 			Copia de su registro en Cybertesis, el repositorio de San Marcos, al {{ partial "ui/date.html" (time.AsTime $data.fetched) }}. El PDF y su licencia están ahí.
