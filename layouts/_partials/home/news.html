@@ -1,4 +1,4 @@
-{{- /* The three newest talks, open physics postings and physics grants. Postings and grants can carry a date after the build (a posting announced ahead, a grant that starts later), so each stream keeps only dates up to the build day; a posting also needs a closing date on or after it. */ -}}
+{{- /* The three newest talks, open physics postings and physics grants. Postings and grants can carry a date after the build (a posting announced ahead, a grant that starts later), so each stream keeps only dates up to the build day; a posting also needs a closing date on or after it and an ad still listed. */ -}}
 {{- $now := now.Format "2006-01-02" -}}
 {{- $talks := slice -}}
 {{- range first 3 (sort (where (where hugo.Data.recordings.recordings "host" "ne" "Invitación") "date" "le" $now) "date" "desc") -}}
@@ -8,7 +8,7 @@
 	{{- $talks = $talks | append (dict "date" .date "title" .title "url" $url "note" $series.name) -}}
 {{- end -}}
 {{- $jobs := slice -}}
-{{- range first 3 (sort (where (where (where hugo.Data.opportunities "physics" true) "published" "le" $now) "closes" "ge" $now) "published" "desc") -}}
+{{- range first 3 (sort (where (where (where (where hugo.Data.opportunities "physics" true) "state" "ne" "retirado") "published" "le" $now) "closes" "ge" $now) "published" "desc") -}}
 	{{- $url := .url -}}
 	{{- $employer := .employer -}}
 	{{- $id := .id -}}

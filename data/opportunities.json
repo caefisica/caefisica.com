@@ -11,6 +11,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1230.0,
     "vacancies": 1,
+    "state": "Vigente",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-cpp-na-003-2026-practicas-profesionales-ufl-oa.pdf"
   },
   {
@@ -252,6 +253,7 @@
     "published": "2026-10-28",
     "place": "Huaraz",
     "stipend": 6564.0,
+    "state": "En proceso",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases%20ESPECIALISTA%20EN%20GESTI%C3%93N%20DEL%20CONOCIMIENTO%20Y%20DISE%C3%91O%20GR%C3%81FICO_20261027195047.pdf"
   },
   {
@@ -380,6 +382,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-proceso-cas-na-012-2026-igp-tacnico-de-recursos-humanos-ufrh-oa.pdf"
   },
   {
@@ -637,6 +640,7 @@
     "published": "2026-10-14",
     "place": "Huaraz",
     "stipend": 4364.0,
+    "state": "En evaluación",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases%20ANALISTA%20EN%20CONTABILIDAD_20261013224650.pdf"
   },
   {
@@ -1039,6 +1043,7 @@
     "published": "2026-10-12",
     "place": "Huaraz",
     "stipend": 3864.0,
+    "state": "En evaluación",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20261012122440.pdf"
   },
   {
@@ -1143,6 +1148,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-cpp-na-002-2026-practicas-profesionales-ufi-oa.pdf"
   },
   {
@@ -1179,6 +1185,7 @@
     "published": "2026-10-03",
     "place": "Huaraz",
     "stipend": 5364.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/BASES%20-%20ESPECIALISTA%20EN%20TELEDETECCI%C3%93N_20261002215014.pdf"
   },
   {
@@ -1193,6 +1200,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1300.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-proceso-cpm-728-na-006-2026-igp-tacnico-asistente-oa-ufl.pdf"
   },
   {
@@ -1337,6 +1345,7 @@
     "published": "2026-09-23",
     "place": "Huaraz",
     "stipend": 10364.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260922215959.pdf"
   },
   {
@@ -1349,6 +1358,7 @@
     "published": "2026-09-23",
     "place": "Huaraz",
     "stipend": 3864.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260922190529.pdf"
   },
   {
@@ -1363,6 +1373,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-proceso-cpm-728-na-005-2026-igp-secretaria-v-oa.pdf"
   },
   {
@@ -1559,6 +1570,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-proceso-cpm-728-na-003-2026-igp-tacnico-administrativo-iii-oa-uff.pdf"
   },
   {
@@ -1573,7 +1585,28 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-cpp-na-001-2026-practicas-profesionales-oppm.pdf"
+  },
+  {
+    "id": "bumeran-1118442522",
+    "source": "bumeran",
+    "employer": "UNIVERSIDAD CATÓLICA SAN PABLO",
+    "kind": "Privado",
+    "number": "",
+    "title": "Coordinador de laboratorios",
+    "published": "2026-09-15",
+    "closes": "2027-01-13",
+    "place": "Arequipa, Arequipa, Peru",
+    "unit": "Salud, Medicina y Farmacia",
+    "degrees": "dicos sobre el estado, uso y necesidades de los laboratorios, dirigidos a la Administración de la Facultad. Otras funciones afines al puesto. Requisitos: Titulado en Ing. Química, Ing. de Materiales, Física o carreras afines. Contar con experiencia minima de 3 años en la gestión y coordinación de laboratorios académicos, científicos o industriales. Así como, con la gestión de inventarios y control",
+    "physics": true,
+    "fields": ["Física"],
+    "skills": ["Metrología"],
+    "stipend": null,
+    "vacancies": 1,
+    "state": "activo",
+    "url": "https://www.bumeran.com.pe/empleos/coordinador-de-laboratorios-universidad-catolica-san-pablo-1118442522.html"
   },
   {
     "id": "igp-6a91a57508ee48f9689434d6",
@@ -1587,6 +1620,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 4550.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-proceso-cas-na-009-2026-igp-ingeniero-electranico-sistemas-de-adquisician-de-datos-digdt.pdf"
   },
   {
@@ -1713,6 +1747,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1300.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-proceso-cpm-728-na-002-2026-igp-tacnico-asistente-oa.pdf"
   },
   {
@@ -2314,6 +2349,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 4550.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/bases-proceso-cas-006-2026-ingeniero-electrainico-adquisian-de-base-de-datos-digdt.pdf"
   },
   {
@@ -2871,6 +2907,7 @@
     "published": "2026-05-12",
     "place": "Huaraz",
     "stipend": 6364.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260511211945.pdf"
   },
   {
@@ -4527,6 +4564,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 1130.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/BASES%20%20CPPP%20N%C3%82%C2%B0%20001-2026%20PRACTICAS%20PRE%20-%20PROFESIONALES%20-%20ROJ.pdf"
   },
   {
@@ -4539,6 +4577,7 @@
     "published": "2026-03-23",
     "place": "Huaraz",
     "stipend": 3364.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260323091708.pdf"
   },
   {
@@ -4614,6 +4653,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/BASES-PROCESO%20CAS%20005-2026-ASISTENTE%20DE%20INVESTIGACI%C3%83%C2%93N%20_%20DCTS.pdf"
   },
   {
@@ -4712,6 +4752,7 @@
     "place": "Camino Real, La Molina - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/BASES-PROCESO%20CAS%20002-2026-CONDUCTOR%20DE%20VEH%C3%83%C2%8DCULOS%20-%20DCTS..pdf"
   },
   {
@@ -4764,6 +4805,7 @@
     "published": "2026-03-13",
     "place": "Huaraz",
     "stipend": 6364.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260313084136.pdf"
   },
   {
@@ -4898,6 +4940,7 @@
     "published": "2026-03-10",
     "place": "Huaraz",
     "stipend": 6364.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260310085522.pdf"
   },
   {
@@ -5272,6 +5315,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2026/BASES-PROCESO%20CAS%20001-2026-ESPECIALISTA%20EN%20SEGURIDAD%20Y%20SALUD%20EN%20EL%20TRABAJO_%20UFRH.pdf"
   },
   {
@@ -5284,6 +5328,7 @@
     "published": "2026-03-02",
     "place": "Huaraz",
     "stipend": 5000.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260302223713.pdf"
   },
   {
@@ -5296,6 +5341,7 @@
     "published": "2026-03-02",
     "place": "Huaraz",
     "stipend": 4864.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260302223601.pdf"
   },
   {
@@ -5902,6 +5948,7 @@
     "published": "2026-01-30",
     "place": "Huaraz",
     "stipend": 6364.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20260130170158.pdf"
   },
   {
@@ -6456,6 +6503,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20044-2025-ESPECIALISTA%20EN%20SEGURIDAD%20Y%20SALUD%20EN%20TRABAJO-URH%201.pdf"
   },
   {
@@ -6498,6 +6546,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 1950.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20043-2025-T%C3%83%C2%89CNICO%20INFORM%C3%83%C2%81TICO_OTIC.pdf"
   },
   {
@@ -6512,6 +6561,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20042-2025-INGENIERO%20ELECTR%C3%83%C2%93NICO%20DE%20CIELO_DCG..pdf"
   },
   {
@@ -6549,6 +6599,7 @@
     "published": "2025-11-27",
     "place": "Huaraz",
     "stipend": 12264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251127165138.pdf"
   },
   {
@@ -6561,6 +6612,7 @@
     "published": "2025-11-25",
     "place": "Huaraz",
     "stipend": 6264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251124220550.pdf"
   },
   {
@@ -6661,6 +6713,7 @@
     "published": "2025-11-19",
     "place": "Huaraz",
     "stipend": 6264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251118214523.pdf"
   },
   {
@@ -6759,6 +6812,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20039-2025-CONDUCTOR%20DE%20VEH%C3%83%C2%8DCULOS-%20DCTS.1.pdf"
   },
   {
@@ -7109,6 +7163,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20038-2025-T%C3%83%C2%89CNICO%20ELECTR%C3%83%C2%93NICO-%20DIGDT.docx%20%281%29.pdf"
   },
   {
@@ -7273,6 +7328,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 1950.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20037-2025-%20T%C3%83%C2%89CNICO%20INFORM%C3%83%C2%81TICO-%20OTIC.pdf"
   },
   {
@@ -7287,6 +7343,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20036-2025-%20ESPECIALISTA%20EN%20SISTEMAS%20-OTIC.pdf"
   },
   {
@@ -7301,6 +7358,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20035-2025-%20T%C3%83%C2%89CNICO%20EN%20CONTRATACIONES%20-%20ULO.pdf"
   },
   {
@@ -7315,6 +7373,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20034-2025-%20INGENIERO%20ELECTRONICO%20DE%20CIELO-%20DCG.pdf"
   },
   {
@@ -7411,6 +7470,7 @@
     "published": "2025-10-21",
     "place": "Huaraz",
     "stipend": 5064.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251021154448.pdf"
   },
   {
@@ -7464,6 +7524,7 @@
     "published": "2025-10-20",
     "place": "Huaraz",
     "stipend": 6764.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251020170347.pdf"
   },
   {
@@ -7500,6 +7561,7 @@
     "published": "2025-10-08",
     "place": "Huaraz",
     "stipend": 6764.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251008110535.pdf"
   },
   {
@@ -7512,6 +7574,7 @@
     "published": "2025-10-08",
     "place": "Huaraz",
     "stipend": 6264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251008110212.pdf"
   },
   {
@@ -7524,6 +7587,7 @@
     "published": "2025-10-03",
     "place": "Huaraz",
     "stipend": 6264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20251003084416.pdf"
   },
   {
@@ -7627,6 +7691,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20-%20PROCESO%20CPM%20728%20012-2025%20SECRETARIA%20V-%20OA%20%281%29.pdf"
   },
   {
@@ -7641,6 +7706,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20033-2025-%20INGENIERO%20ELECTRONICO%20-%20DCG%20%281%29.pdf"
   },
   {
@@ -7655,6 +7721,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20032-2025-%20T%C3%83%C2%89CNICO%20EN%20SERVICIOS%20GENERALES%20-ULO%20%281%29.pdf"
   },
   {
@@ -7669,6 +7736,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20031-2025-%20T%C3%83%C2%89CNICO%20EN%20CONTRATACIONES%20-%20ULO%20%281%29.pdf"
   },
   {
@@ -7928,6 +7996,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 1130.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20%20CPPP%20N%C3%82%C2%B0%20001-2025%20PRACTICAS%20PRE%20-%20PROFESIONALES%20-%20ROJ%20OK%20%281%29.pdf"
   },
   {
@@ -7942,6 +8011,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 1950.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20030-2025-%20T%C3%83%C2%89CNICO%20INFORM%C3%83%C2%81TICO-%20OTIC%20%281%29.pdf"
   },
   {
@@ -7956,6 +8026,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20029-2025-%20ESPECIALISTA%20EN%20SISTEMAS%20-OTIC%20v2.pdf"
   },
   {
@@ -7970,6 +8041,7 @@
     "place": "Sachaca, Arequipa - Arequipa",
     "stipend": 2860.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20028-2025-%20INGENIERO%20ELECTRONICO%20-%20CAMPO-%20DIGDT%20%283%29.pdf"
   },
   {
@@ -8258,6 +8330,7 @@
     "published": "2025-09-17",
     "place": "Huaraz",
     "stipend": 6264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250917164026.pdf"
   },
   {
@@ -8357,6 +8430,7 @@
     "published": "2025-09-05",
     "place": "Huaraz",
     "stipend": 5264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250905173834.pdf"
   },
   {
@@ -9847,6 +9921,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3380.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20027-2025-%20ANALISTA%20DE%20INVESTIGACI%C3%83%C2%93N%20-%20DCTS%20%281%29.pdf"
   },
   {
@@ -9861,6 +9936,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20026-2025-%20T%C3%83%C2%89CNICO%20EN%20SERVICIOS%20GENERALES%20-ULO.pdf"
   },
   {
@@ -9908,6 +9984,7 @@
     "published": "2025-08-25",
     "place": "Huaraz",
     "stipend": 8064.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250825173756.pdf"
   },
   {
@@ -9922,6 +9999,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3250.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20025-2025-%20ESPECIALISTA%20EN%20BIBLIOTECOLOG%C3%83%C2%8DA%20-%20DGICCDTI%20%281%29.pdf"
   },
   {
@@ -9936,6 +10014,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 4550.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20024-2025-%20INGENIERO%20ELECTRONICO%20-%20DIGDT.docx.pdf"
   },
   {
@@ -9950,6 +10029,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20023-2025-%20T%C3%83%C2%89CNICO%20EN%20CONTRATACIONES%20-%20ULO.docx.pdf"
   },
   {
@@ -9961,6 +10041,7 @@
     "title": "ESPECIALISTA EN GESTION DE RIESGOS DE DESASTRES - GEOTECNIA",
     "published": "2025-08-11",
     "place": "Huaraz",
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250811180353.pdf"
   },
   {
@@ -9972,6 +10053,7 @@
     "title": "ESPECIALISTA EN GEOMÁTICA",
     "published": "2025-08-11",
     "place": "Huaraz",
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250811175800.pdf"
   },
   {
@@ -10093,6 +10175,7 @@
     "published": "2025-08-08",
     "place": "Huaraz",
     "stipend": 6264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250808151322.pdf"
   },
   {
@@ -10890,6 +10973,7 @@
     "published": "2025-07-04",
     "place": "Huaraz",
     "stipend": 10264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250704171338.pdf"
   },
   {
@@ -10902,6 +10986,7 @@
     "published": "2025-07-04",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250704095946.pdf"
   },
   {
@@ -10926,6 +11011,7 @@
     "published": "2025-07-03",
     "place": "Huaraz",
     "stipend": 6264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250703094357.pdf"
   },
   {
@@ -10969,6 +11055,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20022-2025-%20ASISTENTE%20ADMINISTRATIVO%20-%20ULO.pdf"
   },
   {
@@ -11230,6 +11317,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 4550.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20019-2025-%20IBGENIERO%20ELECTRONICO%20-%20DIGDT%20ok.pdf"
   },
   {
@@ -12003,6 +12091,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20016-2025-%20TECNICO%20DE%20CONTRATACIONES%20-%20OAD%20%282%29.pdf"
   },
   {
@@ -12058,6 +12147,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20-%20PROCESO%20CPM%20728%20009-2025%20SECRETARIA%20V-%20OA.pdf"
   },
   {
@@ -12128,6 +12218,7 @@
     "published": "2025-06-05",
     "place": "Huaraz",
     "stipend": 10264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250605120758.pdf"
   },
   {
@@ -12283,6 +12374,7 @@
     "published": "2025-05-21",
     "place": "Huaraz",
     "stipend": 4264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250520192239.pdf"
   },
   {
@@ -12523,6 +12615,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20-%20PROCESO%20CPM%20728%20008-2025%20SECRETARIA%20V-%20OA%20%282%29.pdf"
   },
   {
@@ -13033,6 +13126,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 2,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20%20CPP%20N%C3%82%C2%B0%20002-2025%20PRACTICAS%20PROFESIONALES%20-%20URH%20%281%29.pdf"
   },
   {
@@ -13047,6 +13141,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20014-2025-%20ANALISTA%20DE%20CONTRATACIONES%20-%20OAD%20%281%29.pdf"
   },
   {
@@ -13257,6 +13352,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20012-2025-%20ANALISTA%20DE%20SISTEMAS%20GIS-%20OTIDG%20%281%29%20v2.pdf"
   },
   {
@@ -13312,6 +13408,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20010-2025-%20TECNICO%20DE%20CONTRATACIONES%20-%20OAD%20%281%29%20%283%29v2.pdf"
   },
   {
@@ -13326,6 +13423,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 2200.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20009-2025-%20ASISTENTE%20DE%20INVESTIGACI%C3%83%C2%93N%20-%20SUPLENCIA%20%20CTS%20%283%29%20%283%29v2.pdf"
   },
   {
@@ -13518,6 +13616,7 @@
     "published": "2025-04-15",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250415162703.pdf"
   },
   {
@@ -13530,6 +13629,7 @@
     "published": "2025-04-14",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250414173053.pdf"
   },
   {
@@ -13977,6 +14077,7 @@
     "published": "2025-03-27",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250326213840.pdf"
   },
   {
@@ -14026,6 +14127,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3336.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20-%20PROCESO%20CPM%20728%20006-2025%20ASISTENTE%20DE%20INVESTIGACI%C3%83%C2%93N%20-%20SCAH%20OK.pdf"
   },
   {
@@ -14075,6 +14177,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 5136.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20-%20PROCESO%20CPM%20728%20003-2025%20ADJUNTO%20DE%20INGENIERIA%20-%20OTIDG%20OK.pdf"
   },
   {
@@ -14136,6 +14239,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1751.11,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20-%20PROCESO%20CPM%20728%20002-2025%20SECRETARIA%20V-%20OAD%20LISTO.pdf"
   },
   {
@@ -14150,6 +14254,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20%20CPP%20N%C3%82%C2%B0%20001-2025%20PRACTICAS%20PROFESIONALES%20-%20URH%20%281%29.pdf"
   },
   {
@@ -14215,6 +14320,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 4264.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20006-2025-%20INGENIERO%20ELECTRONICO%20-%20REDES%20%281%29.pdf"
   },
   {
@@ -14229,6 +14335,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 2464.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20005-2025-%20ASISTENTE%20DE%20INVESTIGACI%C3%83%C2%93N%20-%20SUPLENCIA%20%20CTS%20%282%29.pdf"
   },
   {
@@ -14349,6 +14456,7 @@
     "published": "2025-03-20",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250320170826.pdf"
   },
   {
@@ -14361,6 +14469,7 @@
     "published": "2025-03-20",
     "closes": "2025-03-27",
     "place": "Mayorazgo, Ate - Lima",
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES%20DEL%20PROCESO%20DE%20CONVOCATORIA%20PARA%20VOLUNTARIADO%20001%20v2.pdf"
   },
   {
@@ -14387,6 +14496,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2464.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20004-2025-%20TECNICO%20EN%20RECUSOS%20HUMANOS%20-%20SUPLENCIA.pdf"
   },
   {
@@ -14399,6 +14509,7 @@
     "published": "2025-03-18",
     "place": "Huaraz",
     "stipend": 3764.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/_20250318093011.pdf"
   },
   {
@@ -14434,6 +14545,7 @@
     "published": "2025-03-14",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250313191908.pdf"
   },
   {
@@ -14446,6 +14558,7 @@
     "published": "2025-03-13",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250313164721.pdf"
   },
   {
@@ -14458,6 +14571,7 @@
     "published": "2025-03-10",
     "place": "Huaraz",
     "stipend": 4264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/_20250310174115.pdf"
   },
   {
@@ -14472,6 +14586,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3764.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20003-2025-%20ANALISTA%20DE%20SISTEMAS%20GIS-%20OTIDG.pdf"
   },
   {
@@ -14486,6 +14601,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 2764.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2025/BASES-PROCESO%20CAS%20002-2025-%20CONDUCTOR%20DE%20VEHICULOS-%20REDES.pdf"
   },
   {
@@ -14510,6 +14626,7 @@
     "published": "2025-02-28",
     "place": "Huaraz",
     "stipend": 1695.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/_20250228175739.pdf"
   },
   {
@@ -14522,6 +14639,7 @@
     "published": "2025-02-28",
     "place": "Huaraz",
     "stipend": 8764.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250228175406.pdf"
   },
   {
@@ -15098,6 +15216,7 @@
     "published": "2025-02-19",
     "place": "Huaraz",
     "stipend": 1537.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250219123032.pdf"
   },
   {
@@ -15220,6 +15339,7 @@
     "published": "2025-02-17",
     "place": "Huaraz",
     "stipend": 1537.0,
+    "state": "Suspendido",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250217092352.pdf"
   },
   {
@@ -15406,6 +15526,7 @@
     "published": "2025-02-11",
     "place": "Huaraz",
     "stipend": 10264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/TDR_20250211145600.pdf"
   },
   {
@@ -15464,6 +15585,7 @@
     "published": "2025-02-07",
     "place": "Huaraz",
     "stipend": 4764.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250206230840.pdf"
   },
   {
@@ -15476,6 +15598,7 @@
     "published": "2025-02-07",
     "place": "Huaraz",
     "stipend": 3264.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250206230617.pdf"
   },
   {
@@ -15488,6 +15611,7 @@
     "published": "2025-02-07",
     "place": "Huaraz",
     "stipend": 3764.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20250206230413.pdf"
   },
   {
@@ -16141,6 +16265,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 2314.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20028-2024%20Bases_%20REDES%20%282%29.pdf"
   },
   {
@@ -16173,6 +16298,7 @@
     "published": "2024-12-11",
     "place": "Huaraz",
     "stipend": 12114.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/_20241211162626.pdf"
   },
   {
@@ -16450,6 +16576,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 4114.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20027-2024%20Bases_%20REDES%20%281%29%20%281%29.pdf"
   },
   {
@@ -16464,6 +16591,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3364.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20026-2024%20Bases_%20OTIDG.pdf"
   },
   {
@@ -16478,6 +16606,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3614.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20025-2024%20Bases_%20OTIDG.pdf"
   },
   {
@@ -16492,6 +16621,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 2314.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20024-2024%20Bases_%20ROJ.pdf"
   },
   {
@@ -16506,6 +16636,7 @@
     "place": "Chupaca, Huachac - Junín",
     "stipend": 1025.0,
     "vacancies": 2,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPPP%20N%C3%82%C2%B0%20006-2024%20PRACTICAS%20PRE%20-%20PROFESIONALES%20-%20ARCHIVO.pdf"
   },
   {
@@ -16520,6 +16651,7 @@
     "place": "Los Libertadores, Chicayo - Lambayeque",
     "stipend": 1611.11,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20-%20PROCESO%20CPM%20728%20N%C3%82%C2%BA%20003-2024-IGP%20TECNICO%20PRINCIPAL-REDES%20%281%29%20%281%29.pdf"
   },
   {
@@ -17626,6 +17758,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 2974.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20023-2024%20Bases_%20REDES%20%282%29.pdf"
   },
   {
@@ -17836,6 +17969,7 @@
     "place": "Chupaca, Huachac - Junín",
     "stipend": 1025.0,
     "vacancies": 2,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPPP%20N%C3%82%C2%B0%20004-2024%20PRACTICAS%20PRE%20-%20PROFESIONALES%20%282%29%20%281%29.pdf"
   },
   {
@@ -17872,6 +18006,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPP%20N%C3%82%C2%B0%20007-2024%20PRACTICAS%20PROFESIONALES%20v2.pdf"
   },
   {
@@ -17886,6 +18021,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 2314.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20022-2024%20Bases_%20ROJ%20%281%29.pdf"
   },
   {
@@ -18436,6 +18572,7 @@
     "published": "2024-10-09",
     "place": "Huaraz",
     "stipend": 6114.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20241009093701.pdf"
   },
   {
@@ -18512,6 +18649,7 @@
     "published": "2024-10-01",
     "place": "Huaraz",
     "stipend": 4614.0,
+    "state": "Finalizado",
     "url": "https://api-convocatorias.inaigem.gob.pe/inaigem-api-convocatorias/api/files/view/Bases_20241001153526.pdf"
   },
   {
@@ -18538,6 +18676,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 4664.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20021-2024%20Bases_%20REDES%20%281%29.pdf"
   },
   {
@@ -18552,6 +18691,7 @@
     "place": "Sachaca, Arequipa - Arequipa",
     "stipend": 4664.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20020-2024%20Bases_%20REDES%20%281%29.pdf"
   },
   {
@@ -18736,6 +18876,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2974.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20019-2024%20Bases_%20SCSH%20%282%29.pdf"
   },
   {
@@ -18750,6 +18891,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPP%20N%C3%82%C2%B0%20006-2024%20PRACTICAS%20PROFESIONALES%20%281%29%20%282%29.pdf"
   },
   {
@@ -18764,6 +18906,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 1025.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPPP%20N%C3%82%C2%B0%20003-2024%20PRACTICAS%20PRE%20PROFESIONALES%20-%20%281%29.pdf"
   },
   {
@@ -18862,6 +19005,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 2314.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20018-2024%20Bases_%20ROJ.pdf"
   },
   {
@@ -19148,6 +19292,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 3364.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20017-2024%20Bases_%20OTIDG%20v2.pdf"
   },
   {
@@ -19162,6 +19307,7 @@
     "place": "Sachaca, Arequipa - Arequipa",
     "stipend": 4664.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20016-2024%20Bases%20%282%29.pdf"
   },
   {
@@ -19297,6 +19443,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 4214.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20015-2024%20Bases_%20CTS%20%282%29.pdf"
   },
   {
@@ -19311,6 +19458,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPP%20N%C3%82%C2%B0%20005-2024%20PRACTICAS%20PROFESIONALES%20%282%29.pdf"
   },
   {
@@ -19619,6 +19767,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 1025.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPPP%20N%C3%82%C2%B0%20002-2024%20PRACTICAS%20PRE%20PROFESIONALES%20-%20%281%29.pdf"
   },
   {
@@ -19929,6 +20078,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPP%20N%C3%82%C2%B0%20004-2024%20PRACTICAS%20PROFESIONALES.pdf"
   },
   {
@@ -19943,6 +20093,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPP%20N%C3%82%C2%B0%20003-2024%20PRACTICAS%20PROFESIONALES.pdf"
   },
   {
@@ -20153,6 +20304,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 1025.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPPP%20N%C3%82%C2%B0%20001-2024%20PRACTICAS%20PRE%20PROFESIONALES%20-.pdf"
   },
   {
@@ -20966,6 +21118,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 4214.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20014-2024%20Bases_%20CTS.pdf"
   },
   {
@@ -20980,6 +21133,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2614.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20013-2024%20Bases_%20ULO.pdf"
   },
   {
@@ -21106,6 +21260,7 @@
     "place": "Camacho, La Molina - Lima",
     "stipend": 4214.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20012-2024%20Bases_%20CTS.pdf"
   },
   {
@@ -21132,6 +21287,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20%20CPP%20N%C3%82%C2%B0%20002-2024%20PRACTICAS%20PROFESIONALES.pdf"
   },
   {
@@ -21146,6 +21302,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1501.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20-%20PROCESO%20CPM%20728%20N%C3%82%C2%BA%20002-2024-IGP%20SECRETARIA%20IV%20v2.pdf"
   },
   {
@@ -21462,6 +21619,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2614.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20011-2024%20Bases_%20ULO%20okokok.pdf"
   },
   {
@@ -22476,6 +22634,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2564.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES-PROCESO%20CAS%20009-2024%20Bases_%20OKULTIMO.pdf"
   },
   {
@@ -22490,6 +22649,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 2614.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20-%20PROCESO%20CAS%20008-2024%20Bases%20Tecnico%20de%20Radar%202%20-%20%20ROJ.pdf"
   },
   {
@@ -24544,6 +24704,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 3,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20CPP%20N%C3%82%C2%B0%20001-2024%20PRACTICAS%20PROFESIONALES.pdf"
   },
   {
@@ -25333,6 +25494,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2614.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20-%20PROCESO%20CAS%20003-2023%20Bases_%20ASISTENTE%20ADMINISTRATIVO%20-%20ULO%20%20V2.pdf"
   },
   {
@@ -25394,6 +25556,7 @@
     "place": "Arboleda, Ate - Lima",
     "stipend": 4014.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2024/BASES%20-%20PROCESO%20CAS%20001-2024%20Bases_%20INGENIERO%20ELECTRONICO%20-%20REDES.pdf"
   },
   {
@@ -27694,6 +27857,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1351.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705952540858.pdf"
   },
   {
@@ -27720,6 +27884,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3564.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705956443361.pdf"
   },
   {
@@ -27734,6 +27899,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 2264.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705956347115.pdf"
   },
   {
@@ -27748,6 +27914,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1551.11,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705952283682.pdf"
   },
   {
@@ -27940,6 +28107,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1351.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705951915878.pdf"
   },
   {
@@ -27954,6 +28122,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1451.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705951792035.pdf"
   },
   {
@@ -27968,6 +28137,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1551.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705951607794.pdf"
   },
   {
@@ -27982,6 +28152,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1551.11,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705951487884.pdf"
   },
   {
@@ -28036,6 +28207,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 6736.11,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705951096006.pdf"
   },
   {
@@ -28246,6 +28418,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2014.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705956247545.pdf"
   },
   {
@@ -28260,6 +28433,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2264.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705956138955.pdf"
   },
   {
@@ -28359,6 +28533,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3964.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705955655639.pdf"
   },
   {
@@ -29322,6 +29497,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3564.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705955024289.pdf"
   },
   {
@@ -29336,6 +29512,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 2264.19,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705954928611.pdf"
   },
   {
@@ -30296,6 +30473,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4564.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705954768384.pdf"
   },
   {
@@ -30310,6 +30488,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2564.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705954621144.pdf"
   },
   {
@@ -30324,6 +30503,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3564.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705954345616.pdf"
   },
   {
@@ -30717,6 +30897,7 @@
     "place": "Radio Observatorio de Jicamarca, Lurigancho - Lima",
     "stipend": 2924.19,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705954191107.pdf"
   },
   {
@@ -32053,6 +32234,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705937382651.pdf"
   },
   {
@@ -32110,6 +32292,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 2,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705937306036.pdf"
   },
   {
@@ -32315,6 +32498,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705936913591.pdf"
   },
   {
@@ -32329,6 +32513,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1225.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705935493391.pdf"
   },
   {
@@ -32343,6 +32528,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1025.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2023/archivos_1705938155128.pdf"
   },
   {
@@ -33288,6 +33474,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1950.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705710005254.pdf"
   },
   {
@@ -33302,6 +33489,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2860.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709942437.pdf"
   },
   {
@@ -33316,6 +33504,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3900.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709763527.pdf"
   },
   {
@@ -33330,6 +33519,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3900.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709691072.pdf"
   },
   {
@@ -33344,6 +33534,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4550.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709613461.pdf"
   },
   {
@@ -33358,6 +33549,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709506146.pdf"
   },
   {
@@ -33409,6 +33601,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709337956.pdf"
   },
   {
@@ -33620,6 +33813,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1400.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705704178932.pdf"
   },
   {
@@ -33982,6 +34176,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705708505307.pdf"
   },
   {
@@ -33996,6 +34191,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705708417693.pdf"
   },
   {
@@ -34010,6 +34206,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3900.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709220580.pdf"
   },
   {
@@ -34024,6 +34221,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705709140153.pdf"
   },
   {
@@ -34087,6 +34285,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4550.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705708864276.pdf"
   },
   {
@@ -34101,6 +34300,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2860.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705708587671.pdf"
   },
   {
@@ -34397,6 +34597,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705703142507.pdf"
   },
   {
@@ -34857,6 +35058,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4550.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705707090913.pdf"
   },
   {
@@ -34895,6 +35097,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705706863183.pdf"
   },
   {
@@ -35092,6 +35295,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3900.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705707266754.pdf"
   },
   {
@@ -35156,6 +35360,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2860.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705707938092.pdf"
   },
   {
@@ -35262,6 +35467,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705707339643.pdf"
   },
   {
@@ -35942,6 +36148,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705706320549.pdf"
   },
   {
@@ -36099,6 +36306,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2022/archivos_1705703036875.pdf"
   },
   {
@@ -38064,6 +38272,7 @@
     "closes": "2021-12-23",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 6085.0,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705641447231.pdf"
   },
   {
@@ -38122,6 +38331,7 @@
     "closes": "2021-12-20",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1500.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705641268739.pdf"
   },
   {
@@ -38135,6 +38345,7 @@
     "closes": "2021-12-16",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1300.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705641179546.pdf"
   },
   {
@@ -38497,6 +38708,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644994526.pdf"
   },
   {
@@ -38510,6 +38722,7 @@
     "closes": "2021-10-15",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4500.0,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644915303.pdf"
   },
   {
@@ -38524,6 +38737,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644849850.pdf"
   },
   {
@@ -38538,6 +38752,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644775272.pdf"
   },
   {
@@ -38552,6 +38767,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644674071.pdf"
   },
   {
@@ -38566,6 +38782,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644597342.pdf"
   },
   {
@@ -38580,6 +38797,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644512724.pdf"
   },
   {
@@ -38594,6 +38812,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3000.0,
     "vacancies": 1,
+    "state": "Cancelado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644430152.pdf"
   },
   {
@@ -38608,6 +38827,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3900.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644211378.pdf"
   },
   {
@@ -38663,6 +38883,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4100.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705644064895.pdf"
   },
   {
@@ -38677,6 +38898,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2800.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643995138.pdf"
   },
   {
@@ -38691,6 +38913,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643882021.pdf"
   },
   {
@@ -38705,6 +38928,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643748492.pdf"
   },
   {
@@ -38971,6 +39195,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643656467.pdf"
   },
   {
@@ -38985,6 +39210,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 4500.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643561268.pdf"
   },
   {
@@ -38999,6 +39225,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643475217.pdf"
   },
   {
@@ -39013,6 +39240,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643348246.pdf"
   },
   {
@@ -39027,6 +39255,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643270221.pdf"
   },
   {
@@ -39041,6 +39270,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705643188219.pdf"
   },
   {
@@ -39055,6 +39285,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642950387.pdf"
   },
   {
@@ -39069,6 +39300,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 5000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642814982.pdf"
   },
   {
@@ -39083,6 +39315,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 3000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642677764.pdf"
   },
   {
@@ -39097,6 +39330,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 6000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642590458.pdf"
   },
   {
@@ -39111,6 +39345,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 6000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642486812.pdf"
   },
   {
@@ -39125,6 +39360,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 6000.0,
     "vacancies": 1,
+    "state": "Desierto",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642389599.pdf"
   },
   {
@@ -39139,6 +39375,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 8000.0,
     "vacancies": 1,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642217532.pdf"
   },
   {
@@ -39153,6 +39390,7 @@
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 8000.0,
     "vacancies": 1,
+    "state": "Cancelado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705642124158.pdf"
   },
   {
@@ -39820,6 +40058,7 @@
     "closes": "2021-07-30",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705640275443.pdf"
   },
   {
@@ -39833,6 +40072,7 @@
     "closes": "2021-07-30",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705640116325.pdf"
   },
   {
@@ -39846,6 +40086,7 @@
     "closes": "2021-07-30",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705639967691.pdf"
   },
   {
@@ -39859,6 +40100,7 @@
     "closes": "2021-07-30",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705639238600.pdf"
   },
   {
@@ -40433,6 +40675,7 @@
     "closes": "2021-04-27",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 1200.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705639125588.pdf"
   },
   {
@@ -40910,6 +41153,7 @@
     "closes": "2021-02-14",
     "place": "Mayorazgo, Ate - Lima",
     "stipend": 2200.0,
+    "state": "Finalizado",
     "url": "https://www.igp.gob.pe/convocatorias/docs/2021/archivos_1705638823967.pdf"
   },
   {
