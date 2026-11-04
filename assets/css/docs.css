@@ -1161,6 +1161,42 @@
     }
   }
 
+  /* The latest talks as thumbnail cards: one column on a phone, three from a tablet up. */
+  .talk-cards {
+    display: grid;
+    gap: 1.25rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    & > li {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      border-radius: 0.75rem;
+    }
+
+    & img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      margin-bottom: 0.5rem;
+      border: 1px solid var(--edge);
+      border-radius: 0.75rem;
+      object-fit: cover;
+    }
+
+    & p {
+      margin: 0;
+      font-size: 0.875rem;
+    }
+  }
+
   .section-group {
     margin-top: 2.5rem;
 

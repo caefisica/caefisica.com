@@ -1,0 +1,21 @@
+{{- /* The three most recent YouTube talks as cards, so /grabaciones/ opens on what was just recorded rather than on the list. mqdefault is YouTube's 16:9 thumbnail; hqdefault is 4:3 with black bars. Context: the recordings data. */ -}}
+{{- $now := now.Format "2006-01-02" -}}
+{{- $talks := where (where .recordings "host" "YouTube") "date" "le" $now -}}
+{{- with first 3 (sort $talks "date" "desc") }}
+	<section class="section-group band">
+		<h2>Lo último</h2>
+		<ul class="talk-cards">
+			{{- range . }}
+				{{- $r := . }}
+				{{- $series := index (where $.series "id" $r.series) 0 }}
+				{{- $page := site.GetPage (printf "/grabaciones/%s/%s" $r.series (lower $r.id)) | default (site.GetPage (printf "/grabaciones/%s" (lower $r.id))) }}
+				<li class="group">
+					<img src="https://i.ytimg.com/vi/{{ strings.TrimPrefix "yt-" $r.id }}/mqdefault.jpg" alt="" width="320" height="180" loading="lazy"/>
+					<a class="card-link" href="{{ with $page }}{{ .RelPermalink }}{{ else }}{{ $r.url }}{{ end }}">{{ $r.title }}</a>
+					<p>{{ range $i, $s := $r.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}</p>
+					<p class="text-muted">{{ $series.name }} · {{ partial "ui/day-or-month.html" $r }}</p>
+				</li>
+			{{- end }}
+		</ul>
+	</section>
+{{- end }}
