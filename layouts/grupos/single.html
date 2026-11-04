@@ -12,8 +12,14 @@
 	<div class="story-rule" aria-hidden="true"></div>
 	<div class="story-body">
 		<div class="story-lead">
-			<p class="story-intro">{{ $g.summary | default (printf "Grupo de investigación · %s." ($place.short | default $place.name)) }}</p>
+			{{- with $g.summary }}<p class="story-intro">{{ . }}</p>{{ end }}
 			<dl class="story-info">
+				{{- with $g.acronym }}
+					<div>
+						<dt>Sigla</dt>
+						<dd>{{ . }}</dd>
+					</div>
+				{{- end }}
 				<div>
 					<dt>Institución</dt>
 					<dd><a href="{{ (site.GetPage (printf "/organizaciones/%s" $place.id)).RelPermalink }}">{{ $place.name }}</a></dd>
@@ -27,13 +33,7 @@
 				{{- with $lead }}
 					<div>
 						<dt>Coordinación</dt>
-						<dd>{{ partial "grupos/person.html" . }}</dd>
-					</div>
-				{{- end }}
-				{{- if $vrip }}
-					<div>
-						<dt>Integrantes</dt>
-						<dd>{{ len $g.members }}</dd>
+						<dd>{{ partial "grupos/person.html" (dict "member" .) }}</dd>
 					</div>
 				{{- end }}
 				{{- with $g.founded }}

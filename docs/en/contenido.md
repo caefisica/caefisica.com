@@ -71,11 +71,12 @@ A slug cannot be in both. To write about a person, create
 photo goes in `static/images/personas/<slug>.webp` or `.jpg`, and its source in
 [`data/photos.yaml`](../../data/photos.yaml).
 
-The page puts the name and one line at the top that says who they are: `role` on
-a written page; on a data page, their current post and their highest degree with
-its institution, such as "Profesor principal, UNMSM · Doctorado en física, TU
-Chemnitz". The facts follow in one row of label and value cells, between two
-rules, and the sections come after them. Each section starts with
+The page puts the name at the top and, under it, an intro in written copy only:
+`role` on a written page, else `about` from `data/people.toml`. A person in
+`data/physicists.json` without `role` has no intro; their current post and their
+highest degree with its institution, such as "Doctorado, TU Chemnitz", are
+facts. The facts follow in one row of label and value cells, between two rules,
+and the sections come after them. Each section starts with
 `<h2 id="…">Title <span class="count">N</span></h2>`. A list of eight rows or
 more shows five and a button with the rest.
 

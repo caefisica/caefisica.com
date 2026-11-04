@@ -11,12 +11,11 @@
 </div>
 {{- if eq $g.institution "unmsm" }}
 	<h2 id="integrantes">Integrantes <span class="count">{{ len $g.members }}</span></h2>
-	<p class="text-muted">El nombre enlaza el perfil de quien está en el mapa de físicos.</p>
 	<ul class="rows">
 		{{- range $g.members }}
 			<li class="group">
 				<div class="row-main">
-					{{ partial "grupos/person.html" . }}
+					{{ partial "grupos/person.html" (dict "member" . "class" "card-link") }}
 					{{- with .degree }}<p>{{ . }}</p>{{ end }}
 				</div>
 				{{- with .role }}<span class="row-meta">Coordinación</span>{{ end }}
@@ -26,7 +25,6 @@
 {{- end }}
 {{- with $g.projects }}
 	<h2 id="proyectos">Proyectos <span class="count">{{ len . }}</span></h2>
-	<p class="text-muted">Los proyectos que el Vicerrectorado registra para el grupo, con su código y, cuando el código lo indica, el programa que lo financió.</p>
 	<ul class="rows">
 		{{- range . }}
 			<li class="group">

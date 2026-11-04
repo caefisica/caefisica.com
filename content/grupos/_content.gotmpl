@@ -3,12 +3,12 @@ One page per group in data/groups.json, at its id. docs/en/grupos.md says where 
 */ -}}
 {{- $data := hugo.Data.groups -}}
 {{- range $data.groups -}}
-	{{- $title := .name -}}
-	{{- with .acronym }}{{ $title = printf "%s (%s)" $title . }}{{ end -}}
+	{{- $named := .name -}}
+	{{- with .acronym }}{{ $named = printf "%s (%s)" $named . }}{{ end -}}
 	{{- $.AddPage (dict
 		"path" .id
-		"title" $title
-		"params" (dict "group" .id "description" (printf "Integrantes, líneas, proyectos y publicaciones del grupo %s." $title))
+		"title" .name
+		"params" (dict "group" .id "description" (printf "Integrantes, líneas, proyectos y publicaciones del grupo %s." $named))
 		"dates" (dict "lastmod" (time.AsTime (index $data.fetched "vrip")))
 		"content" (dict "mediaType" "text/markdown" "value" "")
 	) -}}

@@ -71,10 +71,11 @@ Un slug no puede estar en los dos. Para escribir sobre una persona, crea
 registros. La foto va en `static/images/personas/<slug>.webp` o `.jpg`, y su
 origen en [`data/photos.yaml`](../../data/photos.yaml).
 
-La página pone el nombre y una línea arriba que dice quién es: `role` en una
-página escrita; en una de datos, su puesto actual y su grado más alto con la
-institución, como «Profesor principal, UNMSM · Doctorado en física, TU
-Chemnitz». Los datos siguen en una fila de celdas de etiqueta y valor, entre dos
+La página pone el nombre arriba y, debajo, una entrada que solo es texto
+escrito: `role` en una página escrita, si no `about` de `data/people.toml`. Una
+persona de `data/physicists.json` sin `role` no tiene entrada; su puesto actual
+y su grado más alto con la institución, como «Doctorado, TU Chemnitz», son
+datos. Los datos siguen en una fila de celdas de etiqueta y valor, entre dos
 rayas, y las secciones vienen después. Cada sección empieza con
 `<h2 id="…">Título <span class="count">N</span></h2>`. Una lista de ocho filas o
 más muestra cinco y un botón con el resto.

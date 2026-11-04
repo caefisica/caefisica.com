@@ -19,23 +19,19 @@
 {{- with $p }}{{ $updated = split .updated "-" }}{{ $initials = .initials }}{{ end -}}
 {{- $courses := partial "data/person-courses.html" $slug -}}
 {{- .Store.Set "more" true -}}
+{{- /* The intro is written copy only. A record's post and degree are facts, so they sit in the facts row. */ -}}
 {{- $lead := .Params.role -}}
-{{- if not $lead -}}
-	{{- with $p -}}
-		{{- /* The lead says who the person is: their current post, then their highest degree and where it is from. */ -}}
-		{{- $parts := slice -}}
-		{{- with .works }}{{ $w := index . 0 }}{{ $at := index $places $w.place }}{{ $parts = $parts | append (printf "%s%s" (cond (ne $w.role "") (printf "%s, " $w.role) "") ($at.short | default $at.name)) }}{{ end -}}
-		{{- with .degree -}}
-			{{- $level := index (split . " ") 0 -}}
-			{{- $from := "" -}}
-			{{- range where $p.studied "level" $level }}{{ $at := index $places .place }}{{ $from = $at.short | default $at.name }}{{ end -}}
-			{{- $parts = $parts | append (printf "%s%s" . (cond (ne $from "") (printf ", %s" $from) "")) -}}
-		{{- end -}}
-		{{- $lead = delimit $parts " · " -}}
-	{{- else -}}
-		{{- $lead = $row.about | default (cond (gt (len $courses) 0) "Docente de la Facultad de Ciencias Físicas, UNMSM" "") -}}
-	{{- end -}}
+{{- if not (or $lead $p) -}}
+	{{- $lead = $row.about | default (cond (gt (len $courses) 0) "Docente de la Facultad de Ciencias Físicas, UNMSM" "") -}}
 {{- end -}}
+{{- $degree := "" -}}
+{{- with $p }}
+	{{ with .degree -}}
+		{{- $level := index (split . " ") 0 -}}
+		{{- $degree = . -}}
+		{{- range where $p.studied "level" $level }}{{ $degree = printf "%s, %s" $level (index $places .place).name }}{{ end -}}
+	{{- end }}
+{{ end -}}
 {{- /* The order puts what the person did before what the site holds about them. */ -}}
 {{- $trajectory := "" -}}
 {{- with $p }}{{ $trajectory = partial "personas/trajectory.html" (dict "page" $ "person" . "places" $places) }}{{ end -}}
@@ -61,17 +57,14 @@
 	<div class="story-rule" aria-hidden="true"></div>
 	<div class="story-body">
 		<div class="story-lead">
-			{{- with $lead }}<p class="story-intro">{{ . }}.</p>{{ end }}
+			{{- with $lead }}<p class="story-intro">{{ strings.TrimSuffix "." . }}.</p>{{ end }}
 			{{- if $p }}
 				<dl class="story-info">
-					{{- /* A data page's lead already names the highest degree; a written page's role does not. */}}
-					{{- if .Params.role }}
-						{{- with $p.degree }}
-							<div>
-								<dt>Grado más alto</dt>
-								<dd>{{ . }}</dd>
-							</div>
-						{{- end }}
+					{{- with $degree }}
+						<div>
+							<dt>Grado más alto</dt>
+							<dd>{{ . }}</dd>
+						</div>
 					{{- end }}
 					{{- with or .Params.fields $p.fields }}
 						<div>
@@ -91,7 +84,7 @@
 					{{- with $p.works }}
 						<div>
 							<dt>Trabaja en</dt>
-							<dd>{{ range $i, $w := . }}{{ if $i }}, {{ end }}{{ (index $places $w.place).name }}{{ end }}</dd>
+							<dd>{{ range $i, $w := . }}{{ if $i }}; {{ end }}{{ with $w.role }}{{ . }}, {{ end }}{{ (index $places $w.place).name }}{{ end }}</dd>
 						</div>
 					{{- end }}
 					{{- with .Params.collaborations }}

@@ -6,6 +6,11 @@
 `content/grupos/_content.gotmpl` creates the pages; there are no content files
 per group. The index groups them by university.
 
+A page takes the group's `name` as its title and shows the `acronym` as its
+first fact. An index row gives the acronym, the coordinator and, for a UNMSM
+group, the member count. The PUCP names only the coordinator, so its rows give
+no count.
+
 ## Which groups enter
 
 Every group of the Faculty of Physical Sciences of the UNMSM enters, and any
@@ -19,6 +24,8 @@ accents and particles; two words are not enough.
 | Field         | Content                                                                                                      |
 | ------------- | ------------------------------------------------------------------------------------------------------------ |
 | `id`          | The university and the group's acronym, like `unmsm-gimna`. It is the path of its page.                      |
+| `name`        | The group's name, without its acronym.                                                                       |
+| `acronym`     | The acronym the group uses, like `GIMNA`.                                                                    |
 | `institution` | The `id` of its place in `data/physicists.json`; links its organisations page.                               |
 | `summary`     | What the group researches, in two to four sentences of our own. Its own text stays on its ficha.             |
 | `members`     | Name, `role` (`Coordinador`), degree and `slug` if they have a profile. The PUCP gives only the coordinator. |
