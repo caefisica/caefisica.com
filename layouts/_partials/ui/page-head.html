@@ -1,4 +1,12 @@
-{{- /* The header crumb already names the section, so a section index sets `headline` to a statement instead of repeating its title. */ -}}
+{{- /* The header crumb already names the section, so a section index sets `headline` to a statement instead of repeating its title. The lead is one sentence; the counts go in `stats`, a list of value and label pairs, and where the data comes from goes in `source`. */ -}}
 {{- $page := .page }}
 <h1>{{ or $page.Params.headline $page.Title }}{{ with $page.Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</h1>
 {{- with .lead | default $page.Params.lead }}<p class="text-lead">{{ . | safeHTML }}</p>{{ end }}
+{{- with .stats }}
+	<dl class="page-stats">
+		{{- range . }}
+			<div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>
+		{{- end }}
+	</dl>
+{{- end }}
+{{- with .source }}<p class="page-source">{{ . | safeHTML }}</p>{{ end }}

@@ -24,7 +24,16 @@
 {{- end -}}
 {{- $orgs = sort (sort $orgs "name") "n" "desc" -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d proyectos con fondos de PROCIENCIA, de %s a %s, por S/ %s en total. %d son del área de ciencias físicas; los demás tienen en su equipo a alguien del <a href=\"%s\">mapa de físicos</a>. Cada título abre su ficha en el Observatorio de PROCIENCIA." (len $all) (index (last 1 $years) 0) (index $years 0) (lang.FormatNumber 0 $total) (len $area) ((site.GetPage "/fisicos").RelPermalink))) }}
+	{{ partial "ui/page-head.html" (dict "page" .
+		"lead" (printf "Qué investigación financia PROCIENCIA en el área de ciencias físicas o con alguien del <a href=\"%s\">mapa de físicos</a> en el equipo, en qué institución y por cuánto." ((site.GetPage "/fisicos").RelPermalink))
+		"stats" (slice
+			(dict "value" (len $all) "label" "proyectos")
+			(dict "value" (printf "S/ %s M" (lang.FormatNumber 0 (div $total 1e6))) "label" "en total")
+			(dict "value" (len $area) "label" "de ciencias físicas")
+		)
+		"source" (printf "Del Observatorio de PROCIENCIA, de %s a %s." (index (last 1 $years) 0) (index $years 0))
+	)
+	}}
 
 	<div class="views">
 		<fieldset class="pill-tabs">

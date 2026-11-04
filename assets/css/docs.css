@@ -1110,6 +1110,57 @@
     }
   }
 
+  /* A section's counts as figures over a short label, in a row ruled above and below like Linear's customer stats. */
+  .page-stats {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    max-width: 40rem;
+    margin: 1.75rem 0 0;
+    border-block: 1px solid var(--edge);
+
+    & > div {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      gap: 0.25rem;
+      padding: 1rem 0.75rem 1rem 0;
+    }
+
+    & > div + div {
+      padding-left: 0.75rem;
+      border-left: 1px solid var(--edge);
+
+      @media (width >= 48rem) {
+        padding-left: 1.25rem;
+      }
+    }
+
+    & dd {
+      margin: 0;
+      font-size: var(--text-xl);
+      font-weight: 500;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.012em;
+    }
+
+    & dt {
+      color: var(--muted);
+      font-size: 0.8125rem;
+    }
+  }
+
+  .page-source {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    font-size: 0.8125rem;
+
+    & a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+
   .section-group {
     margin-top: 2.5rem;
 

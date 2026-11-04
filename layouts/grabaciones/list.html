@@ -4,7 +4,15 @@
 {{- $videos := len (where $all "host" "ne" "Invitación") -}}
 {{- $series := where $data.series "organiser" "ne" nil -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d charlas, sesiones y sustentaciones de la Facultad de Ciencias Físicas, de la Sección Física de la PUCP y de grupos de física de la UNI y la UNT, %d de ellas con video." (len $all) $videos)) }}
+	{{ partial "ui/page-head.html" (dict "page" .
+		"lead" "De la Facultad de Ciencias Físicas, de la Sección Física de la PUCP y de grupos de física de la UNI y la UNT."
+		"stats" (slice
+			(dict "value" (len $all) "label" "grabaciones")
+			(dict "value" $videos "label" "con video")
+			(dict "value" (len $series) "label" "series")
+		)
+	)
+	}}
 
 	<section class="section-group band">
 		<h2>Series <span class="count">{{ len $series }}</span></h2>

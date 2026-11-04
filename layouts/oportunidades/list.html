@@ -19,7 +19,16 @@
 {{- range $all }}{{ with .published }}{{ $years = $years | append (substr . 0 4) }}{{ end }}{{ end -}}
 {{- $years = sort ($years | uniq) -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%s convocatorias de %d empleadores, de %s a %s, copiadas de sus portales. %s piden una carrera de la familia de la física, como física, ingeniería física, física médica o geofísica. Cada entidad tiene su página: qué piden sus bases, cómo es su proceso y en qué meses publica." (lang.FormatNumber 0 (len $all)) (len $employers) (index $years 0) (index (last 1 $years) 0) (lang.FormatNumber 0 (len $phys)))) }}
+	{{ partial "ui/page-head.html" (dict "page" .
+		"lead" "Qué piden sus bases, cómo evalúan y en qué meses convocan."
+		"stats" (slice
+			(dict "value" (lang.FormatNumber 0 (len $all)) "label" "convocatorias")
+			(dict "value" (len $employers) "label" "empleadores")
+			(dict "value" (lang.FormatNumber 0 (len $phys)) "label" "piden física")
+		)
+		"source" (printf "Copiadas del portal de cada empleador, de %s a %s. «Piden física» cuenta las que aceptan física, ingeniería física, física médica o geofísica." (index $years 0) (index (last 1 $years) 0))
+	)
+	}}
 
 	<div class="views">
 		<fieldset class="pill-tabs">
