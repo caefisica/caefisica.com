@@ -1,0 +1,35 @@
+# The home page's sections, under the need each answers. `menu` is the name of
+# a main menu entry: the page shows that entry's link and description.
+needs:
+  - title: Para estudiar
+    rows:
+      - need: Preparar un curso
+        menu: Plan de estudios
+      - need: Repasar un tema
+        menu: Apuntes
+      - need: Ver una clase grabada
+        menu: Clases en video
+      - need: Encontrar un libro
+        menu: Biblioteca
+      - need: Saber quién dicta un curso
+        menu: Docentes
+      - need: Hacer un trámite
+        menu: Facultad
+  - title: Para investigar y trabajar
+    rows:
+      - need: Elegir tesis o asesor
+        menu: Tesis
+      - need: Unirse a un grupo
+        menu: Grupos de investigación
+      - need: Escuchar una charla
+        menu: Charlas
+      - need: Buscar trabajo o prácticas
+        menu: Oportunidades
+      - need: Buscar financiamiento
+        menu: Proyectos
+      - need: Publicar un artículo
+        menu: Revista
+      - need: Ver dónde trabajan los físicos
+        menu: Físicos
+      - need: Conocer una institución
+        menu: Organizaciones

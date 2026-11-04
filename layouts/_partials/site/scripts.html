@@ -47,6 +47,3 @@
 {{- with .Store.Get "physicistsMap" -}}
 	{{- partial "site/script.html" (dict "src" "js/physicists-map.ts" "params" .) -}}
 {{- end -}}
-{{- if .IsHome -}}
-	{{- partial "site/script.html" (dict "src" "js/plan.ts") -}}
-{{- end -}}

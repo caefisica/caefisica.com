@@ -1,0 +1,48 @@
+{{- /* The three newest talks, open physics postings and physics grants. Postings and grants can carry a date after the build (a posting announced ahead, a grant that starts later), so each stream keeps only dates up to the build day; a posting also needs a closing date on or after it. */ -}}
+{{- $now := now.Format "2006-01-02" -}}
+{{- $talks := slice -}}
+{{- range first 3 (sort (where (where hugo.Data.recordings.recordings "host" "ne" "Invitación") "date" "le" $now) "date" "desc") -}}
+	{{- $url := .url -}}
+	{{- with site.GetPage (printf "/grabaciones/%s/%s" .series (lower .id)) | default (site.GetPage (printf "/grabaciones/%s" (lower .id))) }}{{ $url = .RelPermalink }}{{ end -}}
+	{{- $series := index (where hugo.Data.recordings.series "id" .series) 0 -}}
+	{{- $talks = $talks | append (dict "date" .date "title" .title "url" $url "note" $series.name) -}}
+{{- end -}}
+{{- $jobs := slice -}}
+{{- range first 3 (sort (where (where (where hugo.Data.opportunities "physics" true) "published" "le" $now) "closes" "ge" $now) "published" "desc") -}}
+	{{- $url := .url -}}
+	{{- $employer := .employer -}}
+	{{- $id := .id -}}
+	{{- with site.GetPage (printf "/oportunidades/%s" (urlize .employer)) }}{{ $url = printf "%s#%s" .RelPermalink $id }}{{ $employer = .LinkTitle }}{{ end -}}
+	{{- $jobs = $jobs | append (dict "date" .published "title" .title "url" $url "note" $employer) -}}
+{{- end -}}
+{{- $grants := slice -}}
+{{- range first 3 (sort (where (where (where hugo.Data.grants "physics_area" true) "start" "ne" "") "start" "le" $now) "start" "desc") -}}
+	{{- $org := .organisation -}}
+	{{- with .place }}{{ with site.GetPage (printf "/organizaciones/%s" .) }}{{ $org = .Title }}{{ end }}{{ end -}}
+	{{- $grants = $grants | append (dict "date" .start "title" .title "url" .url "note" $org) -}}
+{{- end -}}
+<section class="sec news-sec border-t border-dashed border-dash" aria-labelledby="novedades">
+	<div class="mx-auto w-full max-w-page px-gutter">
+		<h2 id="novedades" class="sec-title reveal">Novedades</h2>
+		<div class="news">
+			{{- range slice
+				(dict "title" "Charlas grabadas" "section" "/grabaciones" "items" $talks)
+				(dict "title" "Convocatorias abiertas" "section" "/oportunidades" "items" $jobs)
+				(dict "title" "Proyectos financiados" "section" "/proyectos" "items" $grants)
+			}}
+				<div class="reveal">
+					<h3 class="mono-label m-0"><a href="{{ (site.GetPage .section).RelPermalink }}">{{ .title }}</a></h3>
+					<ol class="news-rows">
+						{{- range .items }}
+							<li>
+								<span class="mono-label">{{ partial "ui/date.html" (time.AsTime .date) }}</span>
+								<a href="{{ .url }}">{{ .title }}</a>
+								<p>{{ .note }}</p>
+							</li>
+						{{- end }}
+					</ol>
+				</div>
+			{{- end }}
+		</div>
+	</div>
+</section>

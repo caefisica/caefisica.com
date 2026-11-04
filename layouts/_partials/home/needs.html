@@ -1,0 +1,20 @@
+{{- /* The sections under the need each answers, from data/home.yaml. A row shows its main menu entry's name and description, so a section renamed or described there changes here too; a name missing from the menu fails the build. Equipo and Blog answer no reader's need and stay in the header and footer. */ -}}
+{{- $entries := dict -}}
+{{- range site.Menus.main }}{{ range .Children }}{{ $entries = merge $entries (dict .Name .) }}{{ end }}{{ end -}}
+<section class="needs mx-auto w-full max-w-page px-gutter" aria-label="Secciones">
+	{{- range $g, $group := hugo.Data.home.needs }}
+		<div class="hero-fade" style="--i: {{ add $g 3 }}">
+			<h2 class="mono-label m-0">{{ $group.title }}</h2>
+			<ul class="need-rows">
+				{{- range $group.rows }}
+					{{- $e := index $entries .menu }}
+					{{- if not $e }}{{ errorf "home/needs: no main menu entry named %q" .menu }}{{ end }}
+					<li>
+						<a href="{{ $e.URL }}">{{ .need }}</a>
+						<p><span>{{ $e.Name }}</span> · {{ $e.Params.description }}</p>
+					</li>
+				{{- end }}
+			</ul>
+		</div>
+	{{- end }}
+</section>

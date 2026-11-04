@@ -1,21 +1,9 @@
 @layer components {
   .sec {
-    padding-block: 4rem;
+    padding-block: 3rem 4rem;
 
     @media (width >= 48rem) {
-      padding-block: 8rem;
-    }
-  }
-
-  .sec-copy {
-    display: grid;
-    gap: 1.5rem;
-    padding-bottom: 4rem;
-
-    @media (width >= 62rem) {
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-      padding-bottom: 6rem;
+      padding-block: 4rem 6rem;
     }
   }
 
@@ -29,31 +17,6 @@
     text-wrap: balance;
   }
 
-  .sec-desc {
-    max-width: 38ch;
-    margin: 0;
-    color: var(--muted);
-    font-size: clamp(var(--text-lg), 2vw, 1.5rem);
-    letter-spacing: -0.012em;
-    line-height: 1.33;
-
-    @media (width >= 62rem) {
-      padding-inline: 2rem;
-    }
-  }
-
-  .sec-link {
-    display: inline-flex;
-    gap: 0.5rem;
-    margin-top: 3rem;
-    color: var(--muted);
-    font-size: var(--text-base);
-
-    &:hover {
-      color: var(--fg);
-    }
-  }
-
   .mono-label {
     color: var(--muted);
     font-family: var(--font-mono);
@@ -63,441 +26,171 @@
     text-transform: uppercase;
   }
 
-  /* A label on the left and its entries in two columns on the right, split by hairlines. */
-  .rail {
-    display: grid;
-    gap: 1rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--edge);
-
-    @media (width >= 62rem) {
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-    }
-
-    & ul {
-      display: grid;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-
-      @media (width >= 48rem) {
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-
-    & li {
-      position: relative;
-      padding-block: 0.25rem;
-
-      @media (width >= 48rem) {
-        padding-left: 2rem;
-
-        &:nth-child(odd) {
-          padding-left: 0;
-        }
-
-        &:nth-child(even)::before {
-          position: absolute;
-          top: 0.25rem;
-          bottom: 0.25rem;
-          left: 0;
-          width: 1px;
-          background: var(--edge);
-          content: "";
-        }
-      }
-    }
-
-    & a {
-      color: var(--fg);
-
-      &:hover {
-        color: var(--link);
-      }
-    }
-  }
-
-  .plan-wrap {
-    padding-bottom: 4rem;
-
-    @media (width >= 48rem) {
-      padding-bottom: 8rem;
-    }
-  }
-
-  .plan {
-    overflow: hidden;
-    border: 1px solid var(--edge);
-    border-radius: 0.75rem;
-    background: var(--bg);
-  }
-
-  .plan-bar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem 1.5rem;
-    padding: 0.75rem 1rem;
-    border-bottom: 1px solid var(--edge);
-  }
-
-  .plan-name {
-    margin: 0;
-    font-size: var(--text-sm);
-    font-weight: 500;
-  }
-
-  .plan-panel {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    & li + li {
-      border-top: 1px solid var(--line);
-    }
-
-    & a {
-      display: grid;
-      grid-template-areas: "code credits" "title title" "meta meta";
-      grid-template-columns: 1fr auto;
-      gap: 0.125rem 1rem;
-      padding: 0.75rem 1rem;
-      color: var(--fg);
-
-      @media (width >= 48rem) {
-        grid-template-areas: "code title meta credits";
-        grid-template-columns: 6rem 1fr auto 3.5rem;
-        align-items: baseline;
-      }
-
-      &:hover {
-        background: var(--hover);
-        text-decoration: none;
-      }
-    }
-  }
-
-  /* A browser without :has shows every cycle. */
-  .plan:has(input:checked) .plan-panel {
-    display: none;
-  }
-
-  .plan:has([value="1"]:checked) [data-cycle="1"],
-  .plan:has([value="2"]:checked) [data-cycle="2"],
-  .plan:has([value="3"]:checked) [data-cycle="3"],
-  .plan:has([value="4"]:checked) [data-cycle="4"],
-  .plan:has([value="5"]:checked) [data-cycle="5"],
-  .plan:has([value="6"]:checked) [data-cycle="6"],
-  .plan:has([value="7"]:checked) [data-cycle="7"],
-  .plan:has([value="8"]:checked) [data-cycle="8"],
-  .plan:has([value="9"]:checked) [data-cycle="9"],
-  .plan:has([value="10"]:checked) [data-cycle="10"] {
-    display: block;
-  }
-
-  .plan-code {
-    grid-area: code;
-    color: var(--muted);
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-  }
-
-  .plan-title {
-    grid-area: title;
-  }
-
-  .plan-meta {
-    grid-area: meta;
-    color: var(--muted);
-    font-size: var(--text-sm);
-  }
-
-  .plan-empty {
-    opacity: 0.7;
-  }
-
-  .plan-credits {
-    grid-area: credits;
-    color: var(--muted);
-    font-size: var(--text-sm);
-    text-align: right;
-  }
-
-  .plan-all {
-    display: flex;
-    gap: 0.5rem;
-    padding: 0.75rem 1rem;
-    border-top: 1px solid var(--edge);
-    color: var(--muted);
-    font-size: var(--text-sm);
-
-    &:hover {
-      color: var(--fg);
-      text-decoration: none;
-    }
-  }
-
-  /* A section's preview shows real site content and fades out at the bottom to say there is more. */
-  .scene {
-    display: grid;
-    margin-bottom: 4rem;
-    overflow: hidden;
-    border: 1px solid var(--edge);
-    border-radius: 0.75rem;
-    mask-image: linear-gradient(to bottom, #000 65%, transparent);
-
-    @media (width >= 62rem) {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    & ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    & li a {
-      display: grid;
-      grid-template-columns: auto 1fr;
-      column-gap: 0.75rem;
-      padding: 0.625rem 1rem;
-      border-top: 1px solid var(--line);
-      color: var(--fg);
-
-      &:hover {
-        background: var(--hover);
-        text-decoration: none;
-      }
-
-      & svg {
-        grid-row: span 2;
-        margin-top: 0.2rem;
-        color: var(--muted);
-      }
-    }
-  }
-
-  .scene-col + .scene-col {
-    border-top: 1px solid var(--edge);
-
-    @media (width >= 62rem) {
-      border-top: 0;
-      border-left: 1px solid var(--edge);
-    }
-  }
-
-  .scene-head {
-    margin: 0;
-    padding: 0.75rem 1rem;
-  }
-
-  .scene-title,
-  .scene-meta {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .scene-meta {
-    color: var(--muted);
-    font-size: var(--text-sm);
-  }
-
-  /* A note shown as a document view: a breadcrumb bar, the text, and its facts in a side panel. */
-  .scene-note {
-    grid-template-columns: minmax(0, 1fr);
-    color: var(--fg);
-
-    @media (width >= 62rem) {
-      grid-template-columns: minmax(0, 1fr) 18rem;
-    }
-
-    &:hover {
-      border-color: color-mix(in oklab, var(--accent) 50%, var(--edge));
-      text-decoration: none;
-    }
-
-    & .scene-head {
-      grid-column: 1 / -1;
-      border-bottom: 1px solid var(--line);
-      color: var(--muted);
-    }
-  }
-
-  .note-doc {
-    padding: 2rem 1.5rem 4rem;
-
-    @media (width >= 48rem) {
-      padding-inline: 3rem;
-    }
-  }
-
-  .note-title {
-    margin: 0 0 1.25rem;
-    font-size: var(--text-xl);
-    font-weight: 500;
-    line-height: var(--text-xl--line-height);
-    letter-spacing: -0.01em;
-  }
-
-  .note-props {
-    padding: 1.25rem 1rem;
-    border-left: 1px solid var(--line);
-    font-size: var(--text-sm);
-
-    @media (width < 62rem) {
-      display: none;
-    }
-
-    & dl {
-      display: grid;
-      gap: 0.625rem;
-      margin: 0 0 1.75rem;
-    }
-
-    & dl > div {
-      display: grid;
-      grid-template-columns: 6.5rem 1fr;
-      gap: 0.5rem;
-    }
-
-    & dt {
-      color: var(--muted);
-      font-weight: 400;
-    }
-
-    & dd {
-      margin: 0;
-    }
-  }
-
-  .note-props-head {
-    margin: 0 0 0.625rem;
-    color: var(--muted);
-  }
-
-  .note-outline {
-    display: grid;
-    gap: 0.5rem;
-    color: var(--muted);
-  }
-
-  .scene-body {
-    max-width: 65ch;
-
-    & p {
-      margin: 0 0 1rem;
-    }
-  }
-
-  .scene-body .scene-h {
-    margin: 1.5rem 0 0.5rem;
-    font-weight: 500;
-  }
-
-  .scene-math {
-    margin: 0 0 1rem;
-    padding-block: 0.25rem;
-    overflow: hidden;
-    font-size: 1.15rem;
-
-    /* The card is a link to the note, so a wide equation fades at the edge instead of scrolling. */
-    @media (width < 48rem) {
-      mask-image: linear-gradient(to right, #000 80%, transparent);
-    }
-
-    /* MathML Core browsers ignore mathvariant other than normal, so \boldsymbol vectors would render plain. */
-    & [mathvariant^="bold"] {
-      font-weight: 700;
-    }
-  }
-
-  .timeline {
-    position: relative;
+  .needs {
     display: grid;
     gap: 3rem;
-    margin: 0;
+    padding-bottom: 3rem;
+
+    @media (width >= 62rem) {
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      padding-bottom: 4rem;
+    }
+  }
+
+  /* A need over its section, split by hairlines. The whole row is the link, and the hairlines around a hovered row give way to its fill. */
+  .need-rows {
+    isolation: isolate;
+    margin: 1rem 0 0;
     padding: 0;
+    border-top: 1px solid var(--edge);
     list-style: none;
 
-    @media (width >= 48rem) {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 4rem;
-
-      /* The line runs through the centre of each marker. */
-      &::before {
-        position: absolute;
-        top: 1rem;
-        right: 0;
-        left: 0;
-        height: 1px;
-        background: var(--edge);
-        content: "";
-      }
-    }
-
-    & li {
+    & > li {
       position: relative;
-    }
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 1rem;
+      align-items: center;
+      gap: 0 1rem;
+      padding-block: 0.75rem;
+      border-bottom: 1px solid var(--line);
 
-    & .dot {
-      position: relative;
-      display: block;
-      width: 2rem;
-      height: 2rem;
-      margin-bottom: 3rem;
-      background: var(--bg);
-
-      &::before {
+      &::after {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 0.375rem;
-        height: 0.375rem;
-        border-radius: 50%;
-        background: var(--muted);
+        z-index: -1;
+        inset: -1px -1rem;
+        border-radius: 0.75rem;
+        background: var(--hover);
         content: "";
-        translate: -50% -50%;
+        opacity: 0;
+        transition: opacity 100ms;
       }
-    }
 
-    & li:first-child .dot::before {
-      background: var(--accent);
+      /* → leads to a page here, ↗ out of the site. */
+      &::before {
+        grid-area: 1 / 2 / 3;
+        color: var(--muted);
+        font-size: 0.8125rem;
+        content: "→" / "";
+        opacity: 0.6;
+        transition: opacity 100ms;
+      }
+
+      &:has(a[href^="http"])::before {
+        content: "↗" / "";
+      }
+
+      &:is(:hover, :focus-within) {
+        border-color: transparent;
+
+        &::before,
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      &:has(+ li:is(:hover, :focus-within)) {
+        border-color: transparent;
+      }
+
+      &:has(a:focus-visible)::after {
+        outline: 2px solid var(--link);
+      }
     }
 
     & a {
       color: var(--fg);
+      font-weight: 500;
+
+      &::before {
+        position: absolute;
+        inset: 0;
+        content: "";
+      }
+
+      &:focus-visible {
+        outline: none;
+      }
     }
 
-    & li:hover h3 a {
-      color: var(--link);
+    & p {
+      overflow: hidden;
+      margin: 0.125rem 0 0;
+      color: var(--muted);
+      font-size: var(--text-sm);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    & p > span {
+      color: var(--fg);
     }
   }
 
-  .cta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
-    padding-block: 8rem 10rem;
-    text-align: center;
+  .news {
+    display: grid;
+    gap: 3rem;
+    margin-top: 3rem;
 
-    & h2 {
-      max-width: 16ch;
-      margin: 0;
-      font-size: clamp(var(--text-2xl), 7vw, 4.5rem);
-      font-weight: 500;
-      letter-spacing: -0.022em;
-      line-height: 1;
-      text-wrap: balance;
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 4rem;
     }
 
-    & .btn {
-      min-height: 2.75rem;
-      padding-inline: 1.25rem;
-      border-radius: 999px;
+    & h3 a {
+      color: inherit;
+
+      &:hover {
+        color: var(--fg);
+      }
+    }
+  }
+
+  /* Dated rows, newest first. The title is the link and covers the row. */
+  .news-rows {
+    margin: 1rem 0 0;
+    padding: 0;
+    border-top: 1px solid var(--edge);
+    list-style: none;
+
+    & > li {
+      position: relative;
+      padding-block: 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    & .mono-label {
+      display: block;
+      margin-bottom: 0.375rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    & a {
+      display: -webkit-box;
+      overflow: hidden;
+      color: var(--fg);
+      font-weight: 500;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+
+      &::before {
+        position: absolute;
+        inset: 0;
+        content: "";
+      }
+    }
+
+    & > li:hover a {
+      color: var(--link);
+    }
+
+    & p {
+      overflow: hidden;
+      margin: 0.25rem 0 0;
+      color: var(--muted);
+      font-size: var(--text-sm);
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 }

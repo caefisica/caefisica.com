@@ -26,7 +26,6 @@ tu navegador.
 | Clave               | Para qué                                                        |
 | ------------------- | --------------------------------------------------------------- |
 | `theme`             | El modo claro u oscuro que elegiste.                            |
-| `plan-cycle`        | El ciclo que elegiste en el plan de estudios.                   |
 | `global-alert-*`    | Los avisos que cerraste, para no volver a mostrarlos.           |
 | `video:rate`        | La velocidad de reproducción de las grabaciones.                |
 | `video:<grabación>` | El minuto en que dejaste cada grabación, para seguir desde ahí. |
