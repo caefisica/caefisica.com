@@ -1,0 +1,29 @@
+{{- /* A machine transcription of handwritten notes, chunk by chunk, with each chunk's review status and a link to review it. Place it in a page bundle whose files pXX-cYY.md are written by review.rising.sh. Params: none. */ -}}
+{{- $source := .Page.File.ContentBaseName -}}
+{{- $chunks := sort (.Page.Resources.Match "p*.md") "Name" -}}
+{{- if not $chunks }}<p>Esta transcripción aún no está publicada.</p>
+{{ else -}}
+	<aside class="callout">
+		<span class="callout-icon" aria-hidden="true">{{ partial "ui/icon.html" "edit" }}</span>
+		<div>
+			<p class="callout-title">Borrador de transcripción</p>
+			<p>Un modelo transcribió estos apuntes manuscritos y personas los revisan. Cada fragmento indica si ya fue revisado. <a href="https://review.rising.sh/">Ayúdanos a revisarlos</a>; no necesitas saber de git.</p>
+		</div>
+	</aside>
+	{{ range $chunks }}
+		{{- $id := strings.TrimSuffix ".md" .Name -}}
+		{{- $status := .Params.status -}}
+		<section class="transcript-chunk" id="{{ $id }}" data-status="{{ $status }}">
+			<p class="text-muted">
+				Página {{ .Params.page }} ·
+				{{- if eq $status "checked" }} Revisado{{ with .Params.reviewers }} por {{ delimit . ", " }}{{ end }}
+				{{- else if eq $status "blurry" }} Pendiente de revisión: el escaneo es poco legible
+				{{- else if eq $status "disputed" }} Sin revisar: dos lecturas automáticas discrepan
+				{{- else }} Sin revisar: transcripción automática
+				{{- end }}
+				{{- if ne $status "checked" }} · <a href="https://review.rising.sh/?chunk={{ printf "%s/%s" $source $id | urlquery }}">Revisar este fragmento</a>{{ end }}
+			</p>
+			{{- with strings.TrimSpace .RawContent }}<div class="transcript-text">{{ . }}</div>{{ end }}
+		</section>
+	{{ end }}
+{{- end }}
