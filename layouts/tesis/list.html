@@ -28,7 +28,16 @@
 {{- end -}}
 {{- $advisors = sort (sort $advisors "person.name") "n" "desc" -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d trabajos de la Facultad de Ciencias Físicas, de %d a %d, copiados de Cybertesis con su resumen, su asesor y su jurado, y las sustentaciones que la facultad anunció. El texto completo está en el repositorio." (len $theses) (int (index (last 1 $years) 0)) (int (index $years 0)))) }}
+	{{ partial "ui/page-head.html" (dict "page" .
+		"lead" "Cada una con su resumen, su asesor y su jurado, junto a las sustentaciones que la facultad anunció."
+		"stats" (slice
+			(dict "value" (len $theses) "label" "tesis")
+			(dict "value" (len $counts) "label" "asesores")
+			(dict "value" (len hugo.Data.defences.defences) "label" "sustentaciones")
+		)
+		"source" (printf "De Cybertesis, de %d a %d, donde está el texto completo; las sustentaciones, de la página de Facebook de la facultad." (int (index (last 1 $years) 0)) (int (index $years 0)))
+	)
+	}}
 
 	<div class="views">
 		<fieldset class="pill-tabs">
@@ -100,7 +109,7 @@
 					</ul>
 				</section>
 			{{- end }}
-			<p class="text-muted">Las invitaciones que la facultad publicó en Facebook desde {{ index (last 1 $dyears) 0 }}, con su jurado. Cada fila abre la tesis cuando ya está en Cybertesis y la invitación cuando no.</p>
+			<p class="text-muted">Las invitaciones que la facultad publicó en Facebook desde {{ index (last 1 $dyears) 0 }}, con su jurado.</p>
 		</div>
 	</div>
 </div>

@@ -3,7 +3,15 @@
 {{- $kinds := partial "organizaciones/kinds.html" -}}
 {{- $from := time.AsTime $data.research_from -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" . "lead" (printf "%d organizaciones del Perú y del extranjero donde estudiaron o trabajan las personas del <a href=\"%s\">mapa de físicos</a>. Las del Perú que OpenAlex registra muestran sus publicaciones de física desde %d." (len $data.places) ((site.GetPage "/fisicos").RelPermalink) $from.Year)) }}
+	{{ partial "ui/page-head.html" (dict "page" .
+		"lead" (printf "Universidades, institutos, empresas y entidades del Estado donde estudiaron o trabajan las personas del <a href=\"%s\">mapa de físicos</a>." ((site.GetPage "/fisicos").RelPermalink))
+		"stats" (slice
+			(dict "value" (len $data.places) "label" "organizaciones")
+			(dict "value" (len (where $data.places "country" "PE")) "label" "del Perú")
+		)
+		"source" (printf "Las publicaciones de las organizaciones del Perú vienen de OpenAlex, desde %d." $from.Year)
+	)
+	}}
 
 	{{- range $kinds }}
 		{{- $rows := slice }}
