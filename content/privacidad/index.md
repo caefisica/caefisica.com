@@ -1,65 +1,68 @@
 ---
 title: "Política de privacidad"
-description: "We do not use cookies and we do not collect any personal data."
+description:
+  "Qué guarda el sitio de @caefisica en tu navegador, qué servicios externos
+  carga y quién ve tu visita."
 date: 2020-08-27T19:23:18+02:00
-lastmod: 2020-08-27T19:23:18+02:00
+lastmod: 2026-11-03T00:00:00-05:00
 draft: false
 images: []
 ---
 
-***
+Vigente desde el 3 de noviembre de 2026.
 
-**Resumen**: No utilizamos cookies y no recogemos Datos Personales.
+El sitio no usa cookies, no tiene formularios ni cuentas y no mide visitas. Unas
+pocas preferencias se guardan en tu navegador y nunca salen de él.
 
----
+Responsable: @caefisica. Para cualquier consulta sobre esta política,
+[escríbenos]({{< relref "contacto/_index.md" >}}).
 
-```text
-Titular y Responsable del tratamiento de los Datos: Centro de Apoyo al Estudiante de Física (CAE Física)
-Correo electrónico de contacto del Titular: cae [en] unmsm.edu.pe
-```
+## 1. Lo que se guarda en tu navegador
 
-## Visitantes
+El sitio usa el almacenamiento local del navegador (`localStorage`), no cookies.
+Nada de esto se envía a un servidor. Para borrarlo, borra los datos del sitio en
+tu navegador.
 
-- No recogemos ninguna información personal.
-- No almacenamos ninguna información en el navegador.
-- No compartimos, enviamos o vendemos ninguna información relacionada al usuario
-  a terceros.
-- No compartimos ninguna información con empresas de publicidad.
-- No recopilamos información suya para determinar sus preferencias personales o
-  de comportamiento.
-- No comercializamos ninguna información.
+| Clave               | Para qué                                                        |
+| ------------------- | --------------------------------------------------------------- |
+| `theme`             | El modo claro u oscuro que elegiste.                            |
+| `plan-cycle`        | El ciclo que elegiste en el plan de estudios.                   |
+| `global-alert-*`    | Los avisos que cerraste, para no volver a mostrarlos.           |
+| `video:rate`        | La velocidad de reproducción de las grabaciones.                |
+| `video:<grabación>` | El minuto en que dejaste cada grabación, para seguir desde ahí. |
 
-## Clases de Datos recogidos
+## 2. Servicios externos
 
-Esta página web no tiene formularios y no recoge Datos Personales.
+Algunas páginas cargan contenido de otros servicios. Cada uno recibe tu
+dirección IP y los datos que envía tu navegador al pedirle un archivo.
 
-## Información detallada del proveedor
+- **YouTube y Google Drive.** El reproductor de una clase se carga solo cuando
+  pulsas reproducir. YouTube se carga desde `youtube-nocookie.com`, su dominio
+  sin cookies de seguimiento hasta que reproduces.
+- **Imágenes.** Las miniaturas de videos vienen de `i.ytimg.com` y
+  `lh3.googleusercontent.com`; algunas imágenes de artículos, de
+  `res.cloudinary.com` e `i.imgur.com`.
+- **Educast PUCP.** Las grabaciones alojadas en `educast.pucp.edu.pe` se
+  reproducen desde ese servidor.
 
-### Hosting e infrastructura de backend
+El buscador del sitio corre en tu navegador: tus búsquedas no salen de él.
 
-Este tipo de servicios tienen por finalidad el alojamiento de Datos y archivos
-para permitir que esta página web funcione y sea distribuida, así como para
-proporcionar una infrastructura lista para operar que permita poner en marcha
-diversas funcionalidades o partes de esta página web.
+## 3. Alojamiento
 
-Algunos servicios de los enumerados más adelante, en su caso, pueden funcionar
-mediante servidores geográficamente distribuidos, lo que dificulta la
-determinación de la localización exacta en la que se almacenan los Datos
-Personales.
+El sitio se sirve desde Cloudflare y Netlify. Como todo servidor web, registran
+cada petición (dirección IP, navegador, página pedida) para entregar el sitio y
+protegerlo de ataques. @caefisica no usa esos registros. Sus políticas:
+[Cloudflare](https://www.cloudflare.com/es-es/privacypolicy/) y
+[Netlify](https://www.netlify.com/privacy/).
 
-```text
-Cloudflare (Cloudflare, Inc.)
-```
+## 4. Datos de personas en el sitio
 
-Cloudflare es un servicio de hosting prestado por Cloudflare, Inc.
+Los perfiles de físicos, tesis, proyectos y convocatorias se copian de fuentes
+públicas: CTI Vitae, ORCID, Cybertesis, OpenAlex y los portales de cada entidad.
+Solo se publican datos profesionales. Nunca se guardan documentos de identidad,
+correos ni teléfonos personales. Si apareces y quieres corregir o quitar un
+dato, [escríbenos]({{< relref "contacto/_index.md" >}}).
 
-- Datos Personales tratados: Datos comunicados durante el uso del servicio.
-- Lugar de tratamiento: EE.UU. – Política de privacidad.
+## 5. Cambios
 
----
-
-## Contacto
-
-[Contáctanos]({{< relref "contacto/_index.md" >}}) si tienes alguna pregunta.
-
-Fecha de entrada en vigor: _21 de octubre del 2026_
+Si esta política cambia, la fecha de arriba cambia con ella.
