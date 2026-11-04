@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-03",
+  "fetched": "2026-11-04",
   "series": [
     {
       "id": "coloquio",
@@ -95,8 +95,8 @@
       "organiser": "Facultad de Ciencias Físicas",
       "one": "sesión",
       "unit": "sesiones",
-      "talks": 2,
-      "videos": 2,
+      "talks": 3,
+      "videos": 3,
       "first": "2026",
       "last": "2026"
     },
@@ -157,6 +157,18 @@
     }
   ],
   "recordings": [
+    {
+      "id": "fb-1178658528151604",
+      "date": "2026-11-02",
+      "minutes": 65,
+      "url": "https://drive.google.com/file/d/1nwPnl5eowdBfOElfIU5cKcgPo_vTq3e9/preview",
+      "host": "Facebook",
+      "speakers": [],
+      "post": "https://www.facebook.com/FCFUNMSM/videos/1178658528151604/",
+      "series": "consejo",
+      "title": "Sesión del Consejo de Facultad",
+      "month": "2026-11"
+    },
     {
       "id": "yt-WbXY105_r2c",
       "series": "lafmat",
@@ -11949,7 +11961,7 @@
       "poster": "https://educast.pucp.edu.pe/img/4490f3d2ce57bdbea0aa56366/b055b.png",
       "host": "Educast PUCP",
       "speakers": [],
-      "summary": "Primer encuentro para la Olimpiada Mundial de Física (WoPhO)",
+      "summary": null,
       "month": "2011-05"
     },
     {
