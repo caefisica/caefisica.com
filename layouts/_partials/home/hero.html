@@ -1,11 +1,11 @@
 <section class="hero mx-auto w-full max-w-page px-gutter">
 	<div class="hero-copy">
-		<h1 class="hero-title hero-fade" style="--i: 0">Una guía para el estudio <span>de las Ciencias Físicas</span></h1>
-		<p class="hero-lead hero-fade" style="--i: 1">{{ or .Params.Lead .Description | safeHTML -}}</p>
+		<h1 class="hero-title hero-fade" style="--i: 0">Física en el Perú, <span>del primer curso al primer trabajo</span></h1>
+		<p class="hero-lead hero-fade" style="--i: 1">{{ .Description }}</p>
 		<div class="hero-actions hero-fade" style="--i: 2">
 			<button class="hero-search" type="button" data-search-open aria-haspopup="dialog" aria-keyshortcuts="Control+K /">
 				{{ partial "ui/icon.html" "search" }}
-				<span class="grow">Buscar cursos, libros, apuntes…</span>
+				<span class="grow">Buscar cursos, tesis, charlas…</span>
 				<span class="hidden gap-1 sm:inline-flex" aria-hidden="true"><kbd class="kbd" data-kbd-mod>Ctrl</kbd><kbd class="kbd">K</kbd></span>
 			</button>
 		</div>
