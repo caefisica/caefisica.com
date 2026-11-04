@@ -57,41 +57,35 @@
 <div class="py-page">
 	{{- $countries := slice }}
 	{{- range $data.places }}{{ with .country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}
-	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" (printf "%s personas en %d instituciones de %d países: quienes estudiaron física o geofísica, y quienes llegaron a la física desde la ingeniería u otra carrera." (lang.FormatNumber 0 (len $data.people)) (len $places) (len ($countries | uniq)))
-	)
-	}}
-
-	<div class="map" hidden>
-		<canvas tabindex="0" role="img" aria-label="Globo con las instituciones donde estudiaron o trabajaron. La lista de abajo tiene los mismos datos."></canvas>
-		<div class="map-controls">
-			<button class="map-btn" type="button" data-map="in" aria-label="Acercar">{{ partial "ui/icon.html" (dict "name" "plus" "size" 16) }}</button>
-			<button class="map-btn" type="button" data-map="out" aria-label="Alejar">{{ partial "ui/icon.html" (dict "name" "minus" "size" 16) }}</button>
-			<button class="map-btn map-btn-text" type="button" data-map="peru">Perú</button>
-			<button class="map-btn map-btn-text" type="button" data-map="world">Mundo</button>
-		</div>
-		<aside class="map-panel" hidden aria-live="polite">
-			<button class="map-btn map-panel-close" type="button" aria-label="Cerrar">{{ partial "ui/icon.html" (dict "name" "close" "size" 16) }}</button>
-			<div class="map-panel-body"></div>
-			<div class="map-panel-foot" hidden></div>
-			{{- /* Icons the script copies into the person view. */}}
-			<template class="map-icons">
-				{{- range slice "chevron-left" "chevron-right" }}
-					<span data-icon="{{ . }}">{{ partial "ui/icon.html" (dict "name" . "size" 16) }}</span>
-				{{- end }}
-			</template>
-		</aside>
-	</div>
-
-	{{- /* A radio group, so the views switch without script. A browser without :has shows them all. */}}
+	{{- /* A radio group, so the views switch without script. A browser without :has shows them all. The map is no view, so it stays in every one. */}}
 	<div class="views">
-		<fieldset class="pill-tabs">
-			<legend>Ver por</legend>
-			<label><input type="radio" name="vista" value="lugar" checked /><span>Institución</span></label>
-			<label><input type="radio" name="vista" value="area" /><span>Área</span></label>
-			<label><input type="radio" name="vista" value="formacion" /><span>Formación</span></label>
-			<label><input type="radio" name="vista" value="persona" /><span>Persona</span></label>
-		</fieldset>
+		{{ partial "ui/index-head.html" (dict "page" .
+			"tabs" (slice (dict "value" "lugar" "label" "Institución") (dict "value" "area" "label" "Área") (dict "value" "formacion" "label" "Formación") (dict "value" "persona" "label" "Persona"))
+			"lead" (printf "%s personas en %d instituciones de %d países: quienes estudiaron física o geofísica, y quienes llegaron a la física desde la ingeniería u otra carrera." (lang.FormatNumber 0 (len $data.people)) (len $places) (len ($countries | uniq)))
+		)
+		}}
+
+		<div class="map" hidden>
+			<canvas tabindex="0" role="img" aria-label="Globo con las instituciones donde estudiaron o trabajaron. La lista de abajo tiene los mismos datos."></canvas>
+			<div class="map-controls">
+				<button class="map-btn" type="button" data-map="in" aria-label="Acercar">{{ partial "ui/icon.html" (dict "name" "plus" "size" 16) }}</button>
+				<button class="map-btn" type="button" data-map="out" aria-label="Alejar">{{ partial "ui/icon.html" (dict "name" "minus" "size" 16) }}</button>
+				<button class="map-btn map-btn-text" type="button" data-map="peru">Perú</button>
+				<button class="map-btn map-btn-text" type="button" data-map="world">Mundo</button>
+			</div>
+			<aside class="map-panel" hidden aria-live="polite">
+				<button class="map-btn map-panel-close" type="button" aria-label="Cerrar">{{ partial "ui/icon.html" (dict "name" "close" "size" 16) }}</button>
+				<div class="map-panel-body"></div>
+				<div class="map-panel-foot" hidden></div>
+				{{- /* Icons the script copies into the person view. */}}
+				<template class="map-icons">
+					{{- range slice "chevron-left" "chevron-right" }}
+						<span data-icon="{{ . }}">{{ partial "ui/icon.html" (dict "name" . "size" 16) }}</span>
+					{{- end }}
+				</template>
+			</aside>
+		</div>
+
 
 		<div class="view map-list" data-view="lugar">
 			{{- range $places }}
@@ -150,7 +144,6 @@
 								<a class="card-link" href="{{ .url }}">{{ .title }}</a>
 								{{- with .note }}<p>{{ . }}</p>{{ end }}
 							</div>
-							{{ partial "ui/chevron.html" }}
 						</li>
 					{{- end }}
 				</ul>

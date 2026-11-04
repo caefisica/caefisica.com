@@ -42,7 +42,6 @@ The team page: the organisation chart from data/team.yaml, the other authors by 
 						{{ partial "ui/avatar.html" (dict "page" .page "size" 32) }}
 						<div class="row-main"><a class="card-link" href="{{ .page.RelPermalink }}">{{ .page.Title }}</a></div>
 						<span class="row-meta">{{ partial "data/publication-count.html" .n }}</span>
-						{{ partial "ui/chevron.html" }}
 					</li>
 				{{- end }}
 			</ul>

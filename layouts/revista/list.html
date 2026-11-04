@@ -31,18 +31,12 @@
 {{- range $byKey }}{{ if ge (len .rows) 3 }}{{ $authors = $authors | append (merge . (dict "n" (len .rows))) }}{{ end }}{{ end -}}
 {{- $authors = sort (sort $authors "name") "n" "desc" -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" (printf "Los %d artículos de la Revista de Investigación de Física, de %d a %d, número por número, con sus autores y el texto completo." (len $all) (int (index $years 0)) (int (index (last 1 $years) 0)))
-	)
-	}}
-
 	<div class="views">
-		<fieldset class="pill-tabs">
-			<legend>Ver por</legend>
-			<label><input type="radio" name="vista" value="area" checked /><span>Área</span></label>
-			<label><input type="radio" name="vista" value="numero" /><span>Número</span></label>
-			<label><input type="radio" name="vista" value="autor" /><span>Autor</span></label>
-		</fieldset>
+		{{ partial "ui/index-head.html" (dict "page" .
+			"tabs" (slice (dict "value" "area" "label" "Área") (dict "value" "numero" "label" "Número") (dict "value" "autor" "label" "Autor"))
+			"lead" (printf "%d artículos, de %d a %d, número por número, con sus autores y el texto completo." (len $all) (int (index $years 0)) (int (index (last 1 $years) 0)))
+		)
+		}}
 
 		<div class="view" data-view="area">
 			{{- range $areas }}

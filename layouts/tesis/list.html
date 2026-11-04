@@ -28,19 +28,12 @@
 {{- end -}}
 {{- $advisors = sort (sort $advisors "person.name") "n" "desc" -}}
 <div class="py-page">
-	{{ partial "ui/page-head.html" (dict "page" .
-		"lead" (printf "Las %d tesis de Cybertesis, de %d a %d, cada una con su resumen, su asesor y su jurado, junto a las sustentaciones que la facultad anunció." (len $theses) (int (index (last 1 $years) 0)) (int (index $years 0)))
-	)
-	}}
-
 	<div class="views">
-		<fieldset class="pill-tabs">
-			<legend>Ver por</legend>
-			<label><input type="radio" name="vista" value="area" checked /><span>Área</span></label>
-			<label><input type="radio" name="vista" value="anio" /><span>Año</span></label>
-			<label><input type="radio" name="vista" value="asesor" /><span>Asesor</span></label>
-			<label><input type="radio" name="vista" value="sustentacion" /><span>Sustentaciones</span></label>
-		</fieldset>
+		{{ partial "ui/index-head.html" (dict "page" .
+			"tabs" (slice (dict "value" "area" "label" "Área") (dict "value" "anio" "label" "Año") (dict "value" "asesor" "label" "Asesor") (dict "value" "sustentacion" "label" "Sustentaciones"))
+			"lead" (printf "Las %d tesis de Cybertesis, de %d a %d, cada una con su resumen, su asesor y su jurado, junto a las sustentaciones que la facultad anunció." (len $theses) (int (index (last 1 $years) 0)) (int (index $years 0)))
+		)
+		}}
 
 		<div class="view" data-view="area">
 			{{- range $areas }}

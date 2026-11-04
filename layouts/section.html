@@ -10,7 +10,6 @@
 						<a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}{{ with .Params.emoji }}&nbsp;{{ . | emojify }}{{ end }}</a>
 						{{- with or .Params.lead .Description }}<p>{{ . | safeHTML }}</p>{{ end }}
 					</div>
-					{{ partial "ui/chevron.html" }}
 				</li>
 			{{- end }}
 		</ul>
