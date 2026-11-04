@@ -489,6 +489,28 @@
       scroll-margin-top: 5rem;
     }
 
+    /* The marker hangs centred in the indent. */
+    & > ul:not([class]) {
+      padding-left: 1.5rem;
+      list-style: none;
+
+      & > li {
+        position: relative;
+      }
+
+      & > li + li {
+        margin-top: 0.5rem;
+      }
+
+      & > li::before {
+        position: absolute;
+        right: calc(100% + 1.5px);
+        min-width: 1.5rem;
+        content: "•" / "";
+        text-align: center;
+      }
+    }
+
     & .anchor {
       visibility: hidden;
       padding-left: 0.5rem;
@@ -1243,6 +1265,11 @@
         gap: 0;
       }
     }
+
+    /* A record without years keeps no empty column. */
+    & li > span:only-child {
+      grid-column: 1 / -1;
+    }
   }
 
   .timeline-years {
@@ -1633,8 +1660,9 @@
       margin: 3.5rem 0 0;
     }
 
+    /* The page utility zeroes the h1's top margin, so the avatar carries the gap. */
     & > .avatar {
-      margin: 1.5rem auto 0;
+      margin: 1.5rem auto 2rem;
     }
 
     & > img.avatar {
@@ -1692,6 +1720,13 @@
   .story-lead {
     display: flex;
     flex-direction: column;
+
+    /* With no intro, the rule above already opens the facts. */
+    &:not(:has(.story-intro)) > .story-info {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
   }
 
   .story-intro {
@@ -1699,7 +1734,7 @@
     margin: 0 0 2rem;
     color: var(--fg);
     font-size: var(--text-xl);
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.33;
     letter-spacing: -0.012em;
     text-wrap: pretty;
@@ -1746,6 +1781,22 @@
     & dd a {
       color: inherit;
       font-weight: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--underline);
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.175em;
+
+      &:hover {
+        color: var(--fg);
+        text-decoration-color: currentcolor;
+      }
+    }
+
+    /* An inline-block keeps the arrow out of the underline. */
+    & dd a[href^="http"]::after {
+      display: inline-block;
+      margin-left: 0.25em;
+      content: "↗" / "";
     }
 
     @media (width < 40rem) {
@@ -2864,7 +2915,6 @@
     & > li:has(.card-link)::before {
       flex: none;
       order: 1;
-      align-self: center;
       color: var(--muted);
       font-size: 0.8125rem;
       content: "→" / "";
@@ -2971,6 +3021,12 @@
   .row-main {
     flex: 1;
     min-width: 0;
+
+    /* A row with nowhere to go keeps the same title as a linked one. */
+    & > span:first-child {
+      color: var(--fg);
+      font-weight: 500;
+    }
 
     & > p {
       display: -webkit-box;

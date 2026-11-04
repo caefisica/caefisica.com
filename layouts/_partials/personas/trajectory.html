@@ -52,7 +52,7 @@
 					<ul class="timeline">
 						{{- range .items }}
 							<li>
-								<span class="timeline-years">{{ partial "fisicos/years.html" . }}</span>
+								{{- with strings.TrimSpace (partial "fisicos/years.html" .) }}<span class="timeline-years">{{ . }}</span>{{ end }}
 								<span>{{ .text }}</span>
 							</li>
 						{{- end }}

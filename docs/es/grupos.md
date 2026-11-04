@@ -6,6 +6,11 @@
 `content/grupos/_content.gotmpl` crea las páginas; no hay archivos de contenido
 por grupo. El índice los agrupa por universidad.
 
+Una página toma el `name` del grupo como título y muestra la `acronym` como su
+primer dato. Una fila del índice da la sigla, quien coordina y, en un grupo de
+la UNMSM, el número de integrantes. La PUCP solo nombra a quien coordina, así
+que sus filas no dan número.
+
 ## Qué grupos entran
 
 Entran todos los grupos de la Facultad de Ciencias Físicas de la UNMSM y
@@ -19,6 +24,8 @@ partículas; dos palabras no bastan.
 | Campo         | Contenido                                                                                         |
 | ------------- | ------------------------------------------------------------------------------------------------- |
 | `id`          | La universidad y la sigla del grupo, como `unmsm-gimna`. Es la ruta de su página.                 |
+| `name`        | El nombre del grupo, sin su sigla.                                                                |
+| `acronym`     | La sigla que usa el grupo, como `GIMNA`.                                                          |
 | `institution` | El `id` de su lugar en `data/physicists.json`; enlaza su página de organizaciones.                |
 | `summary`     | Qué investiga el grupo, en dos a cuatro frases nuestras. Su propio texto queda en su ficha.       |
 | `members`     | Nombre, `role` (`Coordinador`), grado y `slug` si tiene perfil. La PUCP solo da quien coordina.   |
