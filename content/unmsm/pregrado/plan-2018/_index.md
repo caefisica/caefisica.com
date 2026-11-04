@@ -4,6 +4,7 @@ description:
   "Guías de estudio de los cursos del plan curricular 2018 de Física, ordenadas
   por ciclo."
 lead: "Elige un curso para ver sus libros, videos, sílabos y docentes."
+keywords: ["malla curricular", "plan de estudios"]
 date: 2020-10-06T00:00:45+00:00
 draft: false
 weight: 10
