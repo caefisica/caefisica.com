@@ -7,13 +7,9 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video, a
 {{- $series := index (where $data.series "id" $r.series) 0 -}}
 {{- $seriesPage := site.GetPage (printf "/grabaciones/%s" $series.id) -}}
 {{- $invitation := cond (eq $r.host "Invitación") $r.url ($r.invitation | default "") -}}
-<div class="py-page">
+<article class="story py-page">
 	{{ partial "article/breadcrumbs.html" . }}
 	<h1>{{ .Title }}</h1>
-	<p class="text-lead">
-		{{- range $i, $s := $r.speakers }}{{ if $i }}{{ if eq $i (sub (len $r.speakers) 1) }} y {{ else }}, {{ end }}{{ end }}{{ with $s.slug }}<a href="{{ (partial "data/person.html" .).RelPermalink }}">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}{{ with $s.affiliation }} ({{ . }}){{ end }}{{ end }}
-		{{- with $r.speakers }}. {{ end }}{{ partial "ui/day-or-month.html" $r }}, en {{ with $seriesPage }}<a href="{{ .RelPermalink }}">{{ $series.name }}</a>{{ else }}{{ $series.name }}{{ end }}.
-	</p>
 	{{- if eq $r.host "YouTube" }}
 		{{- $id := strings.TrimPrefix "yt-" $r.id }}
 		{{- .Store.Set "player" true }}
@@ -44,15 +40,18 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video, a
 			<video src="{{ $r.url }}"{{ with $r.poster }} poster="{{ . }}"{{ end }} controls preload="metadata" playsinline aria-label="{{ .Title }}"></video>
 		</div>
 	{{- else }}
-		<aside class="callout">
-			<span class="callout-icon" aria-hidden="true">{{ partial "ui/icon.html" "info" }}</span>
-			<p>Esta {{ $series.one }} no tiene video. {{ with $invitation }}<a href="{{ . }}">Ver la invitación</a>.{{ end }}</p>
-		</aside>
+		<div class="story-rule" aria-hidden="true"></div>
 	{{- end }}
-	<div class="course-about">
-		<section class="facts" aria-labelledby="talk-info">
-			<h2 id="talk-info">La {{ $series.one }}</h2>
-			<dl>
+	<div class="story-body">
+		{{- if eq $r.host "Invitación" }}
+			<aside class="callout">
+				<span class="callout-icon" aria-hidden="true">{{ partial "ui/icon.html" "info" }}</span>
+				<p>Esta {{ $series.one }} no tiene video. {{ with $invitation }}<a href="{{ . }}">Ver la invitación</a>.{{ end }}</p>
+			</aside>
+		{{- end }}
+		<div class="story-lead">
+			{{- with $r.summary }}<p class="story-intro">{{ . }}</p>{{ end }}
+			<dl class="story-info">
 				{{- with $r.speakers }}
 					<div>
 						<dt>{{ cond (eq (len .) 1) "Ponente" "Ponentes" }}</dt>
@@ -93,17 +92,12 @@ One talk of data/recordings.json, found by .Params.recording. A YouTube video, a
 						<dd><a href="{{ . }}">{{ cond (strings.Contains . "instagram.com") "Instagram" (cond (strings.Contains . "facebook.com") "Facebook" "Página del seminario") }}</a></dd>
 					</div>
 				{{- end }}
-				{{- with $r.summary }}
-					<div>
-						<dt>Resumen</dt>
-						<dd>{{ . }}</dd>
-					</div>
-				{{- end }}
 			</dl>
-		</section>
+		</div>
 		{{ partial "grabaciones/related.html" (index (hugo.Data.related.recordings | default dict) $r.id) }}
 		<p class="text-muted text-sm">Datos al {{ partial "ui/date.html" (time.AsTime $data.fetched) }}.{{ if ne $r.host "Invitación" }} El video se reproduce desde su sitio original.{{ end }}</p>
 		{{ partial "article/page-footer.html" . }}
 	</div>
-</div>
+	{{ partial "ui/story-neighbors.html" (dict "page" . "pages" .CurrentSection.RegularPages.ByDate.Reverse) }}
+</article>
 {{ end }}

@@ -40,16 +40,15 @@ Educast summary. By origin:
 - **YouTube**, **Facebook** and **Drive** show the thumbnail with a button; when
   pressed, `assets/js/player.ts` loads the YouTube player (without cookies) or
   the Google Drive one. Until then the page requests nothing from those sites.
-- **Educast** plays the mp4 in the site's own player (`assets/js/video.ts`),
-  taken from Linear's customer stories player: the controls float over a shadow
-  and hide after two seconds without moving the pointer; the timeline shows what
-  has loaded and, on hover, the minute underneath; there are volume, speed,
-  picture-in-picture and full screen. The keys are YouTube's: space or K, M, F,
-  P, arrows (5 s), J and L (10 s) and the digits (tenths of the video). The
-  browser remembers where each video stopped, and the start button offers to
-  continue from there, because a colloquium lasts one or two hours. Without
-  JavaScript the browser's controls remain. The thumbnail is the Educast page's
-  image.
+- **Educast** plays the mp4 in the site's own player (`assets/js/video.ts`): the
+  controls float over a shadow and hide after two seconds without moving the
+  pointer; the timeline shows what has loaded and, on hover, the minute
+  underneath; there are volume, speed, picture-in-picture and full screen. The
+  keys are YouTube's: space or K, M, F, P, arrows (5 s), J and L (10 s) and the
+  digits (tenths of the video). The browser remembers where each video stopped,
+  and the start button offers to continue from there, because a colloquium lasts
+  one or two hours. Without JavaScript the browser's controls remain. The
+  thumbnail is the Educast page's image.
 - **Invitation**: a notice that there is no video, with the link to the
   invitation.
 

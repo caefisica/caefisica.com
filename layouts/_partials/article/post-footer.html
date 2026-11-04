@@ -1,35 +1,9 @@
-{{- /* The row that ends a post: copy its link, share it on a network, edit its source. Context: the page. */ -}}
-{{- $url := .Permalink -}}
-{{- $links := slice
-	(dict "name" "Facebook" "icon" "facebook" "href" (printf "https://www.facebook.com/sharer/sharer.php?u=%s" (urlquery $url)))
-	(dict "name" "X" "icon" "x" "href" (printf "https://twitter.com/intent/tweet?text=%s&url=%s&hashtags=caefisica,physics" (urlquery (printf "¿Te interesa aprender física? Acabo de leer un artículo sobre %s en" .Title)) (urlquery $url)))
-	(dict "name" "LinkedIn" "icon" "linkedin" "href" (printf "https://www.linkedin.com/shareArticle?mini=true&url=%s" (urlquery $url)))
-	(dict "name" "correo" "icon" "mail" "href" (printf "mailto:?subject=%s&body=%s" (urlquery "Algo interesante que acabo de encontrar") (urlquery (printf "Buen día, quizá te interese leer este artículo: %s" $url))))
--}}
+{{- /* Context: the page. */ -}}
 {{- $copy := site.Params.options.clipBoard -}}
 {{- if $copy }}{{ .Store.Set "copy" true }}{{ end -}}
 <footer class="post-footer" data-pagefind-ignore="all">
-	<ul aria-label="Compartir">
-		{{- if $copy }}
-			<li>
-				<button class="copy-link" type="button" data-clipboard-text="{{ $url }}" data-copied="Enlace copiado">
-					<span class="swap">{{ partial "ui/icon.html" (dict "name" "link" "size" 16) }}{{ partial "ui/icon.html" (dict "name" "check" "size" 16) }}</span>
-					Copiar enlace
-				</button>
-			</li>
-		{{- end }}
-		{{- range $links }}
-			<li>
-				<a class="icon-btn" href="{{ .href }}"{{ if ne .icon "mail" }} target="_blank" rel="noopener"{{ end }} aria-label="Compartir por {{ .name }}">
-					{{ partial "ui/icon.html" (dict "name" .icon "size" 18) }}
-				</a>
-			</li>
-		{{- end }}
-	</ul>
-	{{- with partial "data/edit-url.html" . }}
-		<a class="post-edit" href="{{ . }}">
-			{{ partial "ui/icon.html" (dict "name" "edit" "size" 16) }}
-			<span>Edita esta página</span>
-		</a>
+	{{ partial "article/post-meta.html" . }}
+	{{- if $copy }}
+		<button class="copy-link" type="button" data-clipboard-text="{{ .Permalink }}" data-copied="Enlace copiado">Copiar enlace</button>
 	{{- end }}
 </footer>

@@ -2,7 +2,6 @@
 <div class="py-page">
 	{{ partial "ui/index-head.html" (dict "page" .) }}
 	{{- with .Content }}<div class="markdown">{{ . }}</div>{{ end }}
-	{{- /* Linear's Now archive: one line per post, the title and its date. */}}
 	<ul class="rows row-line">
 		{{- range .Pages.ByDate.Reverse }}
 			<li class="group">
