@@ -131,3 +131,22 @@ A[Física Matemática III] --> B[Ecuaciones de la Física Matemática]
 ```
 
 `class` agrega clases CSS al contenedor.
+
+## `transcripcion`
+
+Transcripción automática de apuntes manuscritos, mostrada fragmento por
+fragmento. Úsalo en un paquete de página (`content/…/landi-01/index.md`). El
+paquete contiene archivos `pXX-cYY.md` que escribe el bot de revisión de
+[review.rising.sh](https://review.rising.sh); no los edites a mano. El front
+matter de cada archivo da `status` (`machine`, `disputed`, `blurry` o
+`checked`), `page` y `reviewers`.
+
+```text
+{{< transcripcion >}}
+```
+
+El shortcode muestra un aviso de borrador y, por fragmento, su página, su estado
+y un enlace que abre ese fragmento en el sitio de revisión. Un fragmento
+`blurry` no muestra texto. El texto se imprime tal cual para que el LaTeX llegue
+a KaTeX sin cambios, así que la sección necesita `math: true`. Sin archivos de
+fragmentos, la página dice que la transcripción aún no está publicada.
