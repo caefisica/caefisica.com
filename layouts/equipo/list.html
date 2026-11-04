@@ -16,6 +16,20 @@ The team page: the organisation chart from data/team.yaml, the other authors by 
 	{{ partial "ui/page-head.html" (dict "page" .) }}
 	<div class="mt-12">{{ partial "ui/org-chart.html" . }}</div>
 
+	{{- with .Params.principles }}
+		<section class="team-band" aria-labelledby="how">
+			<h2 id="how" class="org-title">Cómo trabajamos</h2>
+			<ol class="principles">
+				{{- range . }}
+					<li>
+						<h3>{{ if .link }}<a href="{{ site.Params.docsRepo }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+						<p>{{ .text }}</p>
+					</li>
+				{{- end }}
+			</ol>
+		</section>
+	{{- end }}
+
 	{{- with $others }}
 		<section class="team-band" aria-labelledby="also">
 			<h2 id="also" class="org-title">También escribieron</h2>
