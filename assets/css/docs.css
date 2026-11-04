@@ -465,26 +465,26 @@
     margin-left: auto;
   }
 
-  .markdown {
-    /* A prose link is underlined at rest, since colour alone does not mark it (WCAG 1.4.1). On hover a full-strength line sweeps in from the left over the faint one. */
-    & :is(p, li, td, dd) a:not(.doc-btn, .cite a, .doc-meta a, .stop-head a) {
-      padding-bottom: 0.2rem;
-      background:
-        linear-gradient(currentColor, currentColor) 0 100% / 0 0.1em no-repeat,
-        linear-gradient(
-            color-mix(in oklab, currentColor 30%, transparent),
-            color-mix(in oklab, currentColor 30%, transparent)
-          )
-          100% 100% / 100% 0.1em no-repeat;
-      transition: background-size 0.3s var(--ease-snap);
+  /* A link in running text keeps the text colour and is marked by its underline (WCAG 1.4.1), which darkens on hover. */
+  .markdown
+    :is(p, li, td, dd)
+    a:not(.doc-btn, .cite a, .doc-meta a, .stop-head a),
+  .facts dd a,
+  p.text-muted a,
+  .byline a,
+  .person-note a {
+    color: var(--fg);
+    text-decoration: underline;
+    text-decoration-color: var(--underline);
+    text-decoration-thickness: from-font;
+    text-underline-offset: 0.175em;
 
-      &:hover {
-        background-size:
-          100% 0.1em,
-          0 0.1em;
-      }
+    &:hover {
+      text-decoration-color: currentcolor;
     }
+  }
 
+  .markdown {
     & :is(h2, h3, h4)[id] {
       scroll-margin-top: 5rem;
     }
@@ -1193,13 +1193,13 @@
 
     & .card-link {
       text-decoration: underline;
-      text-decoration-color: color-mix(in oklab, var(--fg) 25%, transparent);
-      text-underline-offset: 3px;
+      text-decoration-color: var(--underline);
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.175em;
     }
 
     & > li:is(:hover, :focus-within) .card-link {
-      color: var(--link);
-      text-decoration-color: currentColor;
+      text-decoration-color: currentcolor;
     }
 
     & > li > p {
@@ -1236,7 +1236,7 @@
     }
   }
 
-  /* A profile reads in one column. From xl its facts move to a sticky column beside it, so they stay in view the way an infobox does. */
+  /* A profile reads in one column. From xl its facts move to a column beside it, and the table of contents under them sticks, so the reader can jump at any depth without the column scrolling on its own. */
   .person-page {
     @apply col-prose;
 
@@ -1259,13 +1259,6 @@
       & > .person-aside {
         grid-row: 1 / 4;
         grid-column: 2;
-        position: sticky;
-        top: 4.5rem;
-        align-self: start;
-        max-height: calc(100vh - 5.5rem);
-        overflow-y: auto;
-        padding-right: 0.75rem;
-        scrollbar-width: thin;
 
         & .facts {
           margin-top: 0;
@@ -1274,6 +1267,11 @@
         & .facts dl {
           grid-template-columns: 6.5rem minmax(0, 1fr);
           column-gap: 0.75rem;
+        }
+
+        & .page-map {
+          position: sticky;
+          top: 4.5rem;
         }
 
         & .page-map ol {
@@ -2562,11 +2560,12 @@
       position: relative;
       color: inherit;
       text-decoration: underline;
-      text-decoration-color: var(--line);
-      text-underline-offset: 0.2em;
+      text-decoration-color: var(--underline);
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.175em;
 
       &:hover {
-        color: var(--link);
+        color: var(--fg);
         text-decoration-color: currentcolor;
       }
     }
@@ -2746,11 +2745,13 @@
     & .doc-meta a {
       color: inherit;
       text-decoration: underline;
-      text-decoration-color: var(--line);
-      text-underline-offset: 0.2em;
+      text-decoration-color: var(--underline);
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.175em;
 
       &:hover {
-        color: var(--link);
+        color: var(--fg);
+        text-decoration-color: currentcolor;
       }
     }
 
