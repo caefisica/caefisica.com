@@ -483,7 +483,7 @@
               },
               {
                 "name": "Luis Otiniano",
-                "slug": null
+                "slug": "luis-otiniano"
               },
               {
                 "name": "C. Castromonte",
@@ -1262,7 +1262,7 @@
               },
               {
                 "name": "Ken I. Takahashi",
-                "slug": null
+                "slug": "ken-takahashi-guevara"
               }
             ],
             "n": 3
@@ -1280,7 +1280,7 @@
               },
               {
                 "name": "Paolo Tataje",
-                "slug": null
+                "slug": "paolo-giovanni-tataje-bazalar"
               },
               {
                 "name": "Heriberto Sánchez",
@@ -1347,6 +1347,10 @@
               {
                 "name": "Renzo Romero",
                 "slug": null
+              },
+              {
+                "name": "M. Montoya",
+                "slug": "modesto-e-montoya-zavaleta"
               }
             ],
             "n": 12
@@ -1593,7 +1597,7 @@
           },
           {
             "name": "A. I. Rivasplata Mendoza",
-            "slug": null,
+            "slug": "antonio-rivasplata-mendoza",
             "works": 8
           },
           {
@@ -1603,7 +1607,7 @@
           },
           {
             "name": "G. H. Ramírez Ulloa",
-            "slug": null,
+            "slug": "guillermo-henry-ramirez-ulloa",
             "works": 6
           },
           {
@@ -1994,6 +1998,10 @@
               {
                 "name": "Renzo Romero",
                 "slug": null
+              },
+              {
+                "name": "M. Montoya",
+                "slug": "modesto-e-montoya-zavaleta"
               }
             ],
             "n": 12
@@ -2016,6 +2024,10 @@
               {
                 "name": "Enzo Aucca",
                 "slug": null
+              },
+              {
+                "name": "M. Montoya",
+                "slug": "modesto-e-montoya-zavaleta"
               }
             ],
             "n": 16
@@ -2290,7 +2302,7 @@
               },
               {
                 "name": "Silvana Urcia-Romero",
-                "slug": null
+                "slug": "silvana-rocio-urcia-romero"
               }
             ],
             "n": 6
@@ -2370,7 +2382,7 @@
             "authors": [
               {
                 "name": "Silvana Urcia-Romero",
-                "slug": null
+                "slug": "silvana-rocio-urcia-romero"
               },
               {
                 "name": "Eduardo Saavedra",
@@ -2400,7 +2412,7 @@
               },
               {
                 "name": "Silvana Urcia-Romero",
-                "slug": null
+                "slug": "silvana-rocio-urcia-romero"
               }
             ],
             "n": 5
@@ -2422,7 +2434,7 @@
               },
               {
                 "name": "Silvana Urcia-Romero",
-                "slug": null
+                "slug": "silvana-rocio-urcia-romero"
               }
             ],
             "n": 3
@@ -2440,7 +2452,7 @@
               },
               {
                 "name": "Silvana Urcia-Romero",
-                "slug": null
+                "slug": "silvana-rocio-urcia-romero"
               },
               {
                 "name": "H. Vigo-Cotrina",
@@ -2480,7 +2492,7 @@
           },
           {
             "name": "Silvana Urcia-Romero",
-            "slug": null,
+            "slug": "silvana-rocio-urcia-romero",
             "works": 7
           },
           {
@@ -2500,7 +2512,7 @@
           },
           {
             "name": "Rafael N. Liñán-Abanto",
-            "slug": null,
+            "slug": "rafael-nery-linan-abanto",
             "works": 3
           },
           {
@@ -2580,6 +2592,10 @@
               {
                 "name": "Enzo Aucca",
                 "slug": null
+              },
+              {
+                "name": "M. Montoya",
+                "slug": "modesto-e-montoya-zavaleta"
               }
             ],
             "n": 16
@@ -2698,6 +2714,14 @@
               {
                 "name": "Dante E. Roa",
                 "slug": null
+              },
+              {
+                "name": "Andres Gonzales",
+                "slug": "andres-miguel-gonzales-galvez"
+              },
+              {
+                "name": "M. Montoya",
+                "slug": "modesto-e-montoya-zavaleta"
               }
             ],
             "n": 14
@@ -2735,7 +2759,7 @@
           },
           {
             "name": "M. Montoya",
-            "slug": null,
+            "slug": "modesto-e-montoya-zavaleta",
             "works": 5
           },
           {
@@ -2982,11 +3006,15 @@
               },
               {
                 "name": "Jorge Luis Chau",
-                "slug": null
+                "slug": "jorge-chau"
               },
               {
                 "name": "J. Federico Conte",
                 "slug": null
+              },
+              {
+                "name": "Juan Miguel Urco",
+                "slug": "juan-miguel-urco-cordero"
               }
             ],
             "n": 6
@@ -3009,6 +3037,14 @@
               {
                 "name": "Gerald A. Lehmacher",
                 "slug": null
+              },
+              {
+                "name": "Juan Miguel Urco",
+                "slug": "juan-miguel-urco-cordero"
+              },
+              {
+                "name": "Jorge Luis Chau",
+                "slug": "jorge-chau"
               }
             ],
             "n": 7
@@ -4781,8 +4817,24 @@
                 "slug": null
               },
               {
+                "name": "Mauricio Bustamante",
+                "slug": "mauricio-bustamante-ramirez"
+              },
+              {
+                "name": "Saneli Carbajal",
+                "slug": "saneli-alcides-carbajal-vigo"
+              },
+              {
+                "name": "Victor A. Centa",
+                "slug": "victor-arturo-centa-cueva"
+              },
+              {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Marco A. Milla",
+                "slug": "marco-antonio-milla-bravo"
               },
               {
                 "name": "Luciano Stucchi",
@@ -4811,8 +4863,16 @@
                 "slug": null
               },
               {
+                "name": "Daniel Martínez-Castro",
+                "slug": "daniel-martinez-castro"
+              },
+              {
                 "name": "Elver Villalobos‐Puma",
                 "slug": "elver-edmundo-villalobos-puma"
+              },
+              {
+                "name": "Yamina Silva",
+                "slug": "yamina-silva-vidal"
               }
             ],
             "n": 6
@@ -5460,7 +5520,7 @@
               },
               {
                 "name": "René Negrón Huamán",
-                "slug": null
+                "slug": "rene-negron-huaman"
               }
             ],
             "n": 2
@@ -5483,6 +5543,10 @@
               {
                 "name": "José Fernando Márquez Pachas",
                 "slug": "jose-fernando-marquez-pachas"
+              },
+              {
+                "name": "Galo Patiño",
+                "slug": "galo-patino-camargo"
               }
             ],
             "n": 12
@@ -6239,7 +6303,7 @@
           },
           {
             "name": "Erick Meza",
-            "slug": null,
+            "slug": "erick-gregorio-meza-quispe",
             "works": 2
           },
           {
@@ -6585,6 +6649,10 @@
               {
                 "name": "Yoshiharu Asaki",
                 "slug": null
+              },
+              {
+                "name": "Jose K. Ishitsuka",
+                "slug": "jose-kaname-ishitsuka-iba"
               }
             ],
             "n": 11
@@ -6607,6 +6675,10 @@
               {
                 "name": "Yoshiharu Asaki",
                 "slug": null
+              },
+              {
+                "name": "Jose K. Ishitsuka",
+                "slug": "jose-kaname-ishitsuka-iba"
               }
             ],
             "n": 11
@@ -6687,6 +6759,10 @@
               {
                 "name": "Jairo M. Valdivia",
                 "slug": null
+              },
+              {
+                "name": "Yamina Silva",
+                "slug": "yamina-silva-vidal"
               },
               {
                 "name": "Elver Villalobos‐Puma",
@@ -6792,7 +6868,7 @@
           },
           {
             "name": "Jose K. Ishitsuka",
-            "slug": null,
+            "slug": "jose-kaname-ishitsuka-iba",
             "works": 3
           },
           {
@@ -7069,6 +7145,10 @@
               {
                 "name": "Ayumi Asai",
                 "slug": null
+              },
+              {
+                "name": "Jose K. Ishitsuka",
+                "slug": "jose-kaname-ishitsuka-iba"
               }
             ],
             "n": 13
@@ -7404,7 +7484,7 @@
           },
           {
             "name": "Christian Yarlequé",
-            "slug": null,
+            "slug": "christian-yarleque",
             "works": 3
           },
           {
@@ -7542,7 +7622,7 @@
             "authors": [
               {
                 "name": "Odón R. Sánchez-Ccoyllo",
-                "slug": null
+                "slug": "odon-roman-sanchez-ccoyllo"
               },
               {
                 "name": "Marcelo Félix Alonso",
@@ -7582,7 +7662,7 @@
             "authors": [
               {
                 "name": "Odón R. Sánchez-Ccoyllo",
-                "slug": null
+                "slug": "odon-roman-sanchez-ccoyllo"
               },
               {
                 "name": "Alan Llacza",
@@ -7626,7 +7706,7 @@
               },
               {
                 "name": "Odón R. Sánchez-Ccoyllo",
-                "slug": null
+                "slug": "odon-roman-sanchez-ccoyllo"
               }
             ],
             "n": 3
@@ -7640,7 +7720,7 @@
           },
           {
             "name": "Odón R. Sánchez-Ccoyllo",
-            "slug": null,
+            "slug": "odon-roman-sanchez-ccoyllo",
             "works": 5
           },
           {
@@ -8611,7 +8691,7 @@
               },
               {
                 "name": "Silvana Urcia-Romero",
-                "slug": null
+                "slug": "silvana-rocio-urcia-romero"
               }
             ],
             "n": 6
@@ -8777,7 +8857,7 @@
           },
           {
             "name": "Silvana Urcia-Romero",
-            "slug": null,
+            "slug": "silvana-rocio-urcia-romero",
             "works": 10
           },
           {
@@ -9636,6 +9716,10 @@
               {
                 "name": "M. Mastropietro",
                 "slug": null
+              },
+              {
+                "name": "Mariela Huaman",
+                "slug": "mariela-huaman-espinoza"
               }
             ],
             "n": 10
@@ -9719,7 +9803,7 @@
               },
               {
                 "name": "Angel E. Obispo",
-                "slug": null
+                "slug": "angel-eduardo-obispo-vasquez"
               }
             ],
             "n": 4
@@ -9777,7 +9861,7 @@
             "authors": [
               {
                 "name": "Angel E. Obispo",
-                "slug": null
+                "slug": "angel-eduardo-obispo-vasquez"
               },
               {
                 "name": "Andrés G. Jirón Vicente",
@@ -9830,7 +9914,7 @@
           },
           {
             "name": "Mariela Huaman",
-            "slug": null,
+            "slug": "mariela-huaman-espinoza",
             "works": 9
           },
           {
@@ -9840,7 +9924,7 @@
           },
           {
             "name": "Angel E. Obispo",
-            "slug": null,
+            "slug": "angel-eduardo-obispo-vasquez",
             "works": 8
           },
           {
@@ -9955,6 +10039,10 @@
               {
                 "name": "Carlos Del Castillo-Velarde",
                 "slug": "carlos-manuel-del-castillo-velarde"
+              },
+              {
+                "name": "Yamina Silva",
+                "slug": "yamina-silva-vidal"
               }
             ],
             "n": 5
@@ -9998,7 +10086,7 @@
               },
               {
                 "name": "Ken I. Takahashi",
-                "slug": null
+                "slug": "ken-takahashi-guevara"
               }
             ],
             "n": 3
@@ -10061,6 +10149,18 @@
               {
                 "name": "Hernando J. Tavera",
                 "slug": "hernando-jhonny-tavera-huarache"
+              },
+              {
+                "name": "Marco A. Milla",
+                "slug": "marco-antonio-milla-bravo"
+              },
+              {
+                "name": "Marco Antonio Rivera Porras",
+                "slug": "marco-antonio-rivera-porras"
+              },
+              {
+                "name": "Adolfo Inza",
+                "slug": "adolfo-inza"
               }
             ],
             "n": 16
@@ -10105,6 +10205,10 @@
               {
                 "name": "John W. Meriwether",
                 "slug": null
+              },
+              {
+                "name": "Danny Scipión",
+                "slug": "danny-eddy-scipion-castillo"
               }
             ],
             "n": 11
@@ -10113,7 +10217,7 @@
         "authors": [
           {
             "name": "Danny Scipión",
-            "slug": null,
+            "slug": "danny-eddy-scipion-castillo",
             "works": 40
           },
           {
@@ -10123,12 +10227,12 @@
           },
           {
             "name": "Karim M. Kuyeng",
-            "slug": null,
+            "slug": "karim-milagros-kuyeng-ruiz",
             "works": 25
           },
           {
             "name": "Marco A. Milla",
-            "slug": null,
+            "slug": "marco-antonio-milla-bravo",
             "works": 24
           },
           {
@@ -10138,7 +10242,7 @@
           },
           {
             "name": "Yamina Silva",
-            "slug": null,
+            "slug": "yamina-silva-vidal",
             "works": 16
           },
           {
@@ -10153,12 +10257,12 @@
           },
           {
             "name": "Marco Antonio Rivera Porras",
-            "slug": null,
+            "slug": "marco-antonio-rivera-porras",
             "works": 14
           },
           {
             "name": "Jorge Luis Chau",
-            "slug": null,
+            "slug": "jorge-chau",
             "works": 14
           },
           {
@@ -10265,7 +10369,7 @@
             "authors": [
               {
                 "name": "Adolfo Chamorro",
-                "slug": null
+                "slug": "adolfo-vicente-chamorro-gomez"
               },
               {
                 "name": "François Colas",
@@ -10715,6 +10819,10 @@
               {
                 "name": "José Luis Torres",
                 "slug": "jose-luis-torres-aguilar"
+              },
+              {
+                "name": "Marco Antonio Rivera Porras",
+                "slug": "marco-antonio-rivera-porras"
               }
             ],
             "n": 13
@@ -10743,7 +10851,7 @@
           },
           {
             "name": "Marco Antonio Rivera Porras",
-            "slug": null,
+            "slug": "marco-antonio-rivera-porras",
             "works": 8
           },
           {
@@ -11397,6 +11505,24 @@
       "kind": "universidad"
     },
     {
+      "id": "tu-dresden",
+      "name": "Technische Universität Dresden",
+      "short": "TU Dresden",
+      "country": "DE",
+      "lat": 51.02806,
+      "lon": 13.72667,
+      "kind": "universidad"
+    },
+    {
+      "id": "hochschule-trier",
+      "name": "Hochschule Trier",
+      "short": "Hochschule Trier",
+      "country": "DE",
+      "lat": 49.7681,
+      "lon": 6.62944,
+      "kind": "universidad"
+    },
+    {
       "id": "grips",
       "name": "National Graduate Institute for Policy Studies",
       "short": "GRIPS",
@@ -11540,8 +11666,24 @@
                 "slug": null
               },
               {
+                "name": "Mauricio Bustamante",
+                "slug": "mauricio-bustamante-ramirez"
+              },
+              {
+                "name": "Saneli Carbajal",
+                "slug": "saneli-alcides-carbajal-vigo"
+              },
+              {
+                "name": "Victor A. Centa",
+                "slug": "victor-arturo-centa-cueva"
+              },
+              {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Marco A. Milla",
+                "slug": "marco-antonio-milla-bravo"
               },
               {
                 "name": "Luciano Stucchi",
@@ -11611,11 +11753,23 @@
               },
               {
                 "name": "Mauricio Bustamante",
-                "slug": null
+                "slug": "mauricio-bustamante-ramirez"
+              },
+              {
+                "name": "Saneli Carbajal",
+                "slug": "saneli-alcides-carbajal-vigo"
+              },
+              {
+                "name": "Victor A. Centa",
+                "slug": "victor-arturo-centa-cueva"
               },
               {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Marco A. Milla",
+                "slug": "marco-antonio-milla-bravo"
               },
               {
                 "name": "Luciano Stucchi",
@@ -11644,8 +11798,24 @@
                 "slug": null
               },
               {
+                "name": "Mauricio Bustamante",
+                "slug": "mauricio-bustamante-ramirez"
+              },
+              {
+                "name": "Saneli Carbajal",
+                "slug": "saneli-alcides-carbajal-vigo"
+              },
+              {
+                "name": "Victor A. Centa",
+                "slug": "victor-arturo-centa-cueva"
+              },
+              {
                 "name": "A. M. Gago",
                 "slug": "alberto-martin-gago-medina"
+              },
+              {
+                "name": "Marco A. Milla",
+                "slug": "marco-antonio-milla-bravo"
               },
               {
                 "name": "Luciano Stucchi",
@@ -11729,7 +11899,7 @@
               },
               {
                 "name": "Galo Patiño",
-                "slug": null
+                "slug": "galo-patino-camargo"
               },
               {
                 "name": "Ana Luna",
@@ -11782,7 +11952,7 @@
           },
           {
             "name": "Marco A. Milla",
-            "slug": null,
+            "slug": "marco-antonio-milla-bravo",
             "works": 3
           },
           {
@@ -12051,7 +12221,7 @@
             "authors": [
               {
                 "name": "Jorge Samanes",
-                "slug": null
+                "slug": "jorge-samanes"
               },
               {
                 "name": "Ricardo Y. C. Cueva",
@@ -12151,7 +12321,7 @@
               },
               {
                 "name": "Luis Otiniano",
-                "slug": null
+                "slug": "luis-otiniano"
               },
               {
                 "name": "C. Castromonte",
@@ -12178,6 +12348,10 @@
               {
                 "name": "M. Audelo",
                 "slug": null
+              },
+              {
+                "name": "Luis Otiniano",
+                "slug": "luis-otiniano"
               }
             ],
             "n": 14
@@ -12186,7 +12360,7 @@
         "authors": [
           {
             "name": "Luis Otiniano",
-            "slug": null,
+            "slug": "luis-otiniano",
             "works": 22
           },
           {
@@ -12432,6 +12606,10 @@
               {
                 "name": "José Fernando Márquez Pachas",
                 "slug": "jose-fernando-marquez-pachas"
+              },
+              {
+                "name": "Galo Patiño",
+                "slug": "galo-patino-camargo"
               }
             ],
             "n": 12
@@ -12566,7 +12744,7 @@
               },
               {
                 "name": "Paolo Tataje",
-                "slug": null
+                "slug": "paolo-giovanni-tataje-bazalar"
               },
               {
                 "name": "Heriberto Sánchez",
@@ -12614,7 +12792,7 @@
             "authors": [
               {
                 "name": "Paolo Tataje",
-                "slug": null
+                "slug": "paolo-giovanni-tataje-bazalar"
               },
               {
                 "name": "Braulio Ticona",
@@ -12658,7 +12836,7 @@
             "authors": [
               {
                 "name": "Paolo Tataje",
-                "slug": null
+                "slug": "paolo-giovanni-tataje-bazalar"
               },
               {
                 "name": "Abdessamad Didi",
@@ -12746,7 +12924,7 @@
             "authors": [
               {
                 "name": "Paolo Tataje",
-                "slug": null
+                "slug": "paolo-giovanni-tataje-bazalar"
               },
               {
                 "name": "Braulio Ticona",
@@ -12777,7 +12955,7 @@
         "authors": [
           {
             "name": "Paolo Tataje",
-            "slug": null,
+            "slug": "paolo-giovanni-tataje-bazalar",
             "works": 4
           },
           {
@@ -13030,6 +13208,10 @@
               {
                 "name": "Jhonny Antonio Benavente Castillo",
                 "slug": "jhonny-antonio-benavente-castillo"
+              },
+              {
+                "name": "Galo Patiño",
+                "slug": "galo-patino-camargo"
               }
             ],
             "n": 18
@@ -13074,6 +13256,10 @@
               {
                 "name": "José Fernando Márquez Pachas",
                 "slug": "jose-fernando-marquez-pachas"
+              },
+              {
+                "name": "Galo Patiño",
+                "slug": "galo-patino-camargo"
               }
             ],
             "n": 12
@@ -14520,8 +14706,16 @@
                 "slug": null
               },
               {
+                "name": "Daniel Martínez-Castro",
+                "slug": "daniel-martinez-castro"
+              },
+              {
                 "name": "Elver Villalobos‐Puma",
                 "slug": "elver-edmundo-villalobos-puma"
+              },
+              {
+                "name": "Yamina Silva",
+                "slug": "yamina-silva-vidal"
               }
             ],
             "n": 6
@@ -14535,7 +14729,7 @@
             "authors": [
               {
                 "name": "Guillermo Ontiveros-González",
-                "slug": null
+                "slug": "guillermo-ontiveros-gonzalez"
               }
             ],
             "n": 1
@@ -14593,7 +14787,7 @@
             "authors": [
               {
                 "name": "Guillermo Ontiveros-González",
-                "slug": null
+                "slug": "guillermo-ontiveros-gonzalez"
               },
               {
                 "name": "Luzmila Davila-Roller",
@@ -14615,7 +14809,7 @@
             "authors": [
               {
                 "name": "Guillermo Ontiveros-González",
-                "slug": null
+                "slug": "guillermo-ontiveros-gonzalez"
               },
               {
                 "name": "Luzmila Davila-Roller",
@@ -14679,12 +14873,12 @@
           },
           {
             "name": "Yamina Silva",
-            "slug": null,
+            "slug": "yamina-silva-vidal",
             "works": 9
           },
           {
             "name": "Christian Yarlequé",
-            "slug": null,
+            "slug": "christian-yarleque",
             "works": 8
           },
           {
@@ -15411,6 +15605,10 @@
               {
                 "name": "Carlos Del Castillo-Velarde",
                 "slug": "carlos-manuel-del-castillo-velarde"
+              },
+              {
+                "name": "Yamina Silva",
+                "slug": "yamina-silva-vidal"
               }
             ],
             "n": 5
@@ -15433,6 +15631,10 @@
               {
                 "name": "Christiano Brum",
                 "slug": null
+              },
+              {
+                "name": "Danny Scipión",
+                "slug": "danny-eddy-scipion-castillo"
               }
             ],
             "n": 15
@@ -15517,6 +15719,14 @@
               {
                 "name": "José Suclupe",
                 "slug": "jose-suclupe"
+              },
+              {
+                "name": "Jorge Luis Chau",
+                "slug": "jorge-chau"
+              },
+              {
+                "name": "Danny Scipión",
+                "slug": "danny-eddy-scipion-castillo"
               }
             ],
             "n": 11
@@ -15538,7 +15748,15 @@
               },
               {
                 "name": "Marco A. Milla",
-                "slug": null
+                "slug": "marco-antonio-milla-bravo"
+              },
+              {
+                "name": "Karim M. Kuyeng",
+                "slug": "karim-milagros-kuyeng-ruiz"
+              },
+              {
+                "name": "Danny Scipión",
+                "slug": "danny-eddy-scipion-castillo"
               }
             ],
             "n": 7
@@ -15556,11 +15774,15 @@
               },
               {
                 "name": "Jorge Luis Chau",
-                "slug": null
+                "slug": "jorge-chau"
               },
               {
                 "name": "J. Federico Conte",
                 "slug": null
+              },
+              {
+                "name": "Danny Scipión",
+                "slug": "danny-eddy-scipion-castillo"
               }
             ],
             "n": 13
@@ -15574,7 +15796,7 @@
             "authors": [
               {
                 "name": "Jorge Luis Chau",
-                "slug": null
+                "slug": "jorge-chau"
               },
               {
                 "name": "Facundo L. Poblet",
@@ -15583,6 +15805,10 @@
               {
                 "name": "Hanli Liu",
                 "slug": null
+              },
+              {
+                "name": "Danny Scipión",
+                "slug": "danny-eddy-scipion-castillo"
               }
             ],
             "n": 9
@@ -15600,7 +15826,7 @@
               },
               {
                 "name": "Jorge Luis Chau",
-                "slug": null
+                "slug": "jorge-chau"
               },
               {
                 "name": "Erdal Yiğit",
@@ -15627,12 +15853,12 @@
           },
           {
             "name": "Jorge Luis Chau",
-            "slug": null,
+            "slug": "jorge-chau",
             "works": 7
           },
           {
             "name": "Danny Scipión",
-            "slug": null,
+            "slug": "danny-eddy-scipion-castillo",
             "works": 6
           },
           {
@@ -15642,7 +15868,7 @@
           },
           {
             "name": "Karim M. Kuyeng",
-            "slug": null,
+            "slug": "karim-milagros-kuyeng-ruiz",
             "works": 3
           },
           {
@@ -15672,7 +15898,7 @@
           },
           {
             "name": "Marco A. Milla",
-            "slug": null,
+            "slug": "marco-antonio-milla-bravo",
             "works": 2
           }
         ]
@@ -15707,7 +15933,11 @@
               },
               {
                 "name": "Aldo S. Moya-Álvarez",
-                "slug": null
+                "slug": "aldo-moya"
+              },
+              {
+                "name": "Alexis Nicolás Ibáñez Blancas",
+                "slug": "alexis-nicolas-ibanez-blancas"
               }
             ],
             "n": 7
@@ -15783,11 +16013,11 @@
             "authors": [
               {
                 "name": "Aldo S. Moya-Álvarez",
-                "slug": null
+                "slug": "aldo-moya"
               },
               {
                 "name": "Yamina Silva",
-                "slug": null
+                "slug": "yamina-silva-vidal"
               },
               {
                 "name": "Elver Villalobos‐Puma",
@@ -15809,7 +16039,7 @@
             "authors": [
               {
                 "name": "Fulgencio Villegas Silva",
-                "slug": null
+                "slug": "fulgencio-villegas-silva"
               },
               {
                 "name": "Elvito Villegas",
@@ -16155,6 +16385,14 @@
               {
                 "name": "Renzo Romero",
                 "slug": null
+              },
+              {
+                "name": "Andres Gonzales",
+                "slug": "andres-miguel-gonzales-galvez"
+              },
+              {
+                "name": "M. Montoya",
+                "slug": "modesto-e-montoya-zavaleta"
               }
             ],
             "n": 13
@@ -16241,7 +16479,7 @@
           },
           {
             "name": "M. Montoya",
-            "slug": null,
+            "slug": "modesto-e-montoya-zavaleta",
             "works": 5
           },
           {
@@ -16414,7 +16652,11 @@
               },
               {
                 "name": "Aldo S. Moya-Álvarez",
-                "slug": null
+                "slug": "aldo-moya"
+              },
+              {
+                "name": "Alexis Nicolás Ibáñez Blancas",
+                "slug": "alexis-nicolas-ibanez-blancas"
               }
             ],
             "n": 7
@@ -16437,6 +16679,10 @@
               {
                 "name": "Katerina Goubanova",
                 "slug": null
+              },
+              {
+                "name": "Jhan Carlo Espinoza",
+                "slug": "jhan-carlo-espinoza-villar"
               }
             ],
             "n": 11
@@ -16528,7 +16774,7 @@
               },
               {
                 "name": "Jhan Carlo Espinoza",
-                "slug": null
+                "slug": "jhan-carlo-espinoza-villar"
               }
             ],
             "n": 5
@@ -16654,7 +16900,7 @@
           },
           {
             "name": "Jhan Carlo Espinoza",
-            "slug": null,
+            "slug": "jhan-carlo-espinoza-villar",
             "works": 3
           }
         ]
@@ -17940,6 +18186,10 @@
               {
                 "name": "Ellen Mosley‐Thompson",
                 "slug": null
+              },
+              {
+                "name": "Gustavo Valdivia",
+                "slug": "gustavo-cesar-valdivia-mera"
               }
             ],
             "n": 7
@@ -17953,7 +18203,7 @@
           },
           {
             "name": "Gustavo Valdivia",
-            "slug": null,
+            "slug": "gustavo-cesar-valdivia-mera",
             "works": 1
           },
           {
@@ -21304,11 +21554,15 @@
       "initials": "JA",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=acuna+huamani%2C+jonathan",
-      "orcid": null,
+      "orcid": "0000-0002-2282-3070",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5004714314",
+      "area": "Óptica y física atómica",
+      "works_count": 4,
+      "cited_by": 4,
       "studied": [
         {
           "place": "unmsm",
@@ -21429,6 +21683,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5119792453",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -21532,6 +21790,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5022752051",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 5,
       "studied": [
         {
           "place": "unitru",
@@ -21936,6 +22198,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5032305194",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unitru",
@@ -22155,11 +22421,15 @@
       "initials": "MA",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=alania+vicente%2C+marcos+antonio",
-      "orcid": null,
+      "orcid": "0000-0001-9419-9695",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5037291662",
+      "area": "Materia condensada y materiales",
+      "works_count": 7,
+      "cited_by": 45,
       "studied": [
         {
           "place": "uni",
@@ -22195,6 +22465,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5052694818",
+      "area": "Materia condensada y materiales",
+      "works_count": 6,
+      "cited_by": 66,
       "studied": [
         {
           "place": "uni",
@@ -22340,6 +22614,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5085315207",
+      "area": "Materia condensada y materiales",
+      "works_count": 19,
+      "cited_by": 151,
       "studied": [
         {
           "place": "unitru",
@@ -22707,6 +22985,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5005442261",
+      "area": "Ingeniería y energía",
+      "works_count": 4,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unitru",
@@ -23228,6 +23510,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Física",
+      "openalex": "A5110535541",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 1,
+      "cited_by": 25,
       "studied": [
         {
           "place": "unitru",
@@ -23496,6 +23782,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Otra formación",
+      "openalex": "A5079182213",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 15,
+      "cited_by": 37,
       "studied": [
         {
           "place": "unalm",
@@ -23629,6 +23919,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5060448576",
+      "area": "Partículas y física nuclear",
+      "works_count": 14,
+      "cited_by": 67,
       "studied": [
         {
           "place": "wm",
@@ -24230,11 +24524,15 @@
       "initials": "SA",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=alvarez+navarro%2C+sthefany",
-      "orcid": null,
+      "orcid": "0000-0002-1872-4985",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5068581582",
+      "area": "Ingeniería y energía",
+      "works_count": 10,
+      "cited_by": 39,
       "studied": [
         {
           "place": "pucp",
@@ -24317,6 +24615,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en geofísica",
       "track": "Geofísica",
+      "openalex": "A5058934797",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 6,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unsa",
@@ -24430,11 +24732,15 @@
       "initials": "PA",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=amao+cutipa%2C+pedro",
-      "orcid": null,
+      "orcid": "0000-0002-9348-3499",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5044193345",
+      "area": "Física computacional y matemática",
+      "works_count": 5,
+      "cited_by": 13,
       "studied": [
         {
           "place": "pucp",
@@ -25078,11 +25384,15 @@
       "initials": "MA",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=andia+torres%2C+miguel+alfredo",
-      "orcid": null,
+      "orcid": "0000-0001-9372-6297",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5073878477",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unmsm",
@@ -25699,6 +26009,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5057353005",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 1,
+      "cited_by": 45,
       "studied": [
         {
           "place": "unmsm",
@@ -26015,6 +26329,10 @@
       "updated": "29-12-2020",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5093407189",
+      "area": "Materia condensada y materiales",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unsch",
@@ -26181,6 +26499,10 @@
       "updated": "02-11-2026",
       "degree": "Bachillerato en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5121591558",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 0,
       "fields": [
         "Teledetección",
         "Sistemas de información geográfica",
@@ -26841,11 +27163,15 @@
       "initials": "CA",
       "source": "web",
       "url": "https://www.linkedin.com/in/carla-lili-arias-salazar-aab6a517b/",
-      "orcid": null,
+      "orcid": "0000-0003-4399-3076",
       "site": "LinkedIn",
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Ingeniería",
+      "openalex": "A5110745910",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 9,
+      "cited_by": 34,
       "fields": ["Vulcanología", "Geociencias"],
       "studied": [
         {
@@ -28714,6 +29040,10 @@
       "updated": "23-12-2025",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5030912265",
+      "area": "Óptica y física atómica",
+      "works_count": 5,
+      "cited_by": 146,
       "studied": [
         {
           "place": "unmsm",
@@ -29026,6 +29356,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5160497493",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -29157,11 +29491,15 @@
       "initials": "DA",
       "source": "web",
       "url": "https://www.linkedin.com/in/daryl-ayala/",
-      "orcid": null,
+      "orcid": "0000-0003-1244-3098",
       "site": "LinkedIn",
       "updated": "04-11-2026",
       "degree": "Licenciatura en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5106743432",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 16,
       "fields": [
         "Teledetección",
         "Balance de masa de glaciares",
@@ -29250,6 +29588,12 @@
             "Consultor en análisis y procesamiento de datos geoespaciales",
             "Consultor de datos geoespaciales"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "github",
+          "url": "https://github.com/daryleas"
         }
       ]
     },
@@ -29350,6 +29694,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5028310471",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -29374,11 +29722,15 @@
       "initials": "RB",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=badaracco+meza%2C+rolando+renee",
-      "orcid": null,
+      "orcid": "0000-0003-0067-2010",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5094263219",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unmsm",
@@ -29770,11 +30122,15 @@
       "initials": "DB",
       "source": "ctivitae",
       "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=30449",
-      "orcid": null,
+      "orcid": "0000-0002-6845-1807",
       "site": null,
       "updated": "02-01-2017",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5067531946",
+      "area": "Óptica y física atómica",
+      "works_count": 53,
+      "cited_by": 753,
       "studied": [
         {
           "place": "pucp",
@@ -29889,6 +30245,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5023979913",
+      "area": "Física médica y radiaciones",
+      "works_count": 5,
+      "cited_by": 124,
       "studied": [
         {
           "place": "uni",
@@ -30104,6 +30464,10 @@
       "updated": "19-03-2019",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5085387853",
+      "area": "Física computacional y matemática",
+      "works_count": 13,
+      "cited_by": 288,
       "studied": [
         {
           "place": "uni",
@@ -30286,11 +30650,15 @@
       "initials": "LB",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=basurto+pinao%2C+ladislao+jesus",
-      "orcid": null,
+      "orcid": "0000-0002-9339-0401",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5093988013",
+      "area": "Ingeniería y energía",
+      "works_count": 6,
+      "cited_by": 9,
       "studied": [
         {
           "place": "uni",
@@ -30412,6 +30780,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5017711510",
+      "area": null,
+      "works_count": 6,
+      "cited_by": 2,
       "studied": [
         {
           "place": "uni",
@@ -30589,11 +30961,15 @@
       "initials": "HB",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=bedon+monzon%2C+hector+manuel",
-      "orcid": null,
+      "orcid": "0000-0001-7231-4795",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5066336669",
+      "area": "Física computacional y matemática",
+      "works_count": 15,
+      "cited_by": 116,
       "studied": [
         {
           "place": "uni",
@@ -30715,6 +31091,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5085651945",
+      "area": "Partículas y física nuclear",
+      "works_count": 389,
+      "cited_by": 19888,
       "studied": [
         {
           "place": "unsa",
@@ -30818,6 +31198,10 @@
       "updated": "01-02-2018",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5109147708",
+      "area": "Materia condensada y materiales",
+      "works_count": 6,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unmsm",
@@ -31373,6 +31757,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5050046008",
+      "area": "Óptica y física atómica",
+      "works_count": 3,
+      "cited_by": 5,
       "studied": [
         {
           "place": "uni",
@@ -31488,6 +31876,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5015195648",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unjbg",
@@ -31678,6 +32070,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5046093333",
+      "area": "Física computacional y matemática",
+      "works_count": 6,
+      "cited_by": 11,
       "studied": [
         {
           "place": "unmsm",
@@ -31753,6 +32149,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5086851063",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "pucp",
@@ -31904,6 +32304,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5023385826",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -32144,11 +32548,15 @@
       "initials": "MB",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=bustamante+ramirez%2C+mauricio",
-      "orcid": null,
+      "orcid": "0000-0001-6923-0865",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5075145457",
+      "area": "Partículas y física nuclear",
+      "works_count": 124,
+      "cited_by": 2822,
       "studied": [
         {
           "place": "pucp",
@@ -32168,6 +32576,14 @@
       ],
       "links": [
         {
+          "kind": "web",
+          "url": "https://mbustamante.net/"
+        },
+        {
+          "kind": "web",
+          "url": "https://researchprofiles.ku.dk/en/persons/65ddadfd-9e97-4e4a-a932-537afb11ab18"
+        },
+        {
           "kind": "inspire",
           "url": "https://inspirehep.net/authors/1065481"
         }
@@ -32184,6 +32600,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5030148940",
+      "area": "Astronomía y astrofísica",
+      "works_count": 45,
+      "cited_by": 8277,
       "studied": [
         {
           "place": "pucp",
@@ -32302,6 +32722,10 @@
       "updated": "01-12-2015",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5108615016",
+      "area": "Materia condensada y materiales",
+      "works_count": 3,
+      "cited_by": 14,
       "studied": [
         {
           "place": "pucp",
@@ -32635,6 +33059,10 @@
       "updated": "01-03-2022",
       "degree": "Maestría",
       "track": "Física",
+      "openalex": "A5093255624",
+      "area": "Óptica y física atómica",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -32908,6 +33336,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5005578471",
+      "area": null,
+      "works_count": 4,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -33055,6 +33487,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Física",
+      "openalex": "A5075469767",
+      "area": "Física computacional y matemática",
+      "works_count": 28,
+      "cited_by": 26,
       "studied": [
         {
           "place": "unmsm",
@@ -33685,11 +34121,15 @@
       "initials": "BC",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=calsi+silva%2C+brando+xavier",
-      "orcid": null,
+      "orcid": "0000-0003-4324-0656",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5016184104",
+      "area": "Ingeniería y energía",
+      "works_count": 7,
+      "cited_by": 28,
       "studied": [
         {
           "place": "pucp",
@@ -33813,6 +34253,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5085364748",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 2,
       "studied": [
         {
           "place": "uni",
@@ -34172,6 +34616,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5065206281",
+      "area": "Partículas y física nuclear",
+      "works_count": 6,
+      "cited_by": 17,
       "studied": [
         {
           "place": "puc-chile",
@@ -34451,6 +34899,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5123316309",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -34557,6 +35009,10 @@
       "updated": "06-07-2025",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5109564125",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -34637,6 +35093,10 @@
       "updated": "01-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5066091266",
+      "area": "Partículas y física nuclear",
+      "works_count": 6,
+      "cited_by": 228,
       "studied": [
         {
           "place": "unmsm",
@@ -34944,6 +35404,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5018367654",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -35291,11 +35755,15 @@
       "initials": "JC",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=carpio+dumler%2C+jose+alonso",
-      "orcid": null,
+      "orcid": "0000-0003-0667-6557",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5058042506",
+      "area": "Partículas y física nuclear",
+      "works_count": 129,
+      "cited_by": 457,
       "studied": [
         {
           "place": "pucp",
@@ -35886,11 +36354,15 @@
       "initials": "HC",
       "source": "web",
       "url": "https://sigaa.ufrn.br/sigaa/public/docente/portal.jsf?siape=1680333",
-      "orcid": null,
+      "orcid": "0000-0002-5401-4390",
       "site": "SIGAA UFRN",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5061227115",
+      "area": "Física computacional y matemática",
+      "works_count": 4,
+      "cited_by": 1,
       "studied": [
         {
           "place": "cbpf",
@@ -35987,6 +36459,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5023309187",
+      "area": "Partículas y física nuclear",
+      "works_count": 128,
+      "cited_by": 2149,
       "studied": [
         {
           "place": "uni",
@@ -36315,6 +36791,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5139607434",
+      "area": "Astronomía y astrofísica",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "pucp",
@@ -37050,6 +37530,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5062306049",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -37181,6 +37665,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5009130324",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 8,
       "studied": [
         {
           "place": "uni",
@@ -37857,11 +38345,15 @@
       "initials": "WC",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=ccuiro+montalvo%2C+weyner+edin",
-      "orcid": null,
+      "orcid": "0000-0001-7572-858X",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5033386609",
+      "area": "Astronomía y astrofísica",
+      "works_count": 5,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unsaac",
@@ -37891,6 +38383,10 @@
       "updated": "07-05-2024",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5057393862",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 14,
+      "cited_by": 38,
       "studied": [
         {
           "place": "pucp",
@@ -37997,6 +38493,10 @@
       "updated": "12-09-2026",
       "degree": "Maestría en geofísica",
       "track": "Geofísica",
+      "openalex": "A5104547127",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 22,
+      "cited_by": 185,
       "studied": [
         {
           "place": "unsa",
@@ -38349,6 +38849,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5024718080",
+      "area": "Astronomía y astrofísica",
+      "works_count": 39,
+      "cited_by": 38,
       "studied": [
         {
           "place": "unmsm",
@@ -38410,6 +38914,20 @@
         {
           "place": "uc",
           "did": ["Docente TP"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/maria-luisa-ceron-loayza"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/asanum/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=ecctWL0AAAAJ"
         }
       ]
     },
@@ -38751,11 +39269,15 @@
       "initials": "AC",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=chamorro+gomez%2C+adolfo+vicente",
-      "orcid": null,
+      "orcid": "0000-0003-2060-6520",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5050131004",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 20,
+      "cited_by": 157,
       "studied": [
         {
           "place": "uni",
@@ -39059,6 +39581,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5140119367",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unprg",
@@ -39150,6 +39676,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5080002917",
+      "area": "Astronomía y astrofísica",
+      "works_count": 543,
+      "cited_by": 9268,
       "studied": [
         {
           "place": "cu-boulder",
@@ -39306,6 +39836,10 @@
       "updated": "24-10-2023",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5086749234",
+      "area": "Física computacional y matemática",
+      "works_count": 4,
+      "cited_by": 48,
       "studied": [
         {
           "place": "unitru",
@@ -39588,6 +40122,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5103386095",
+      "area": "Partículas y física nuclear",
+      "works_count": 9,
+      "cited_by": 13,
       "studied": [
         {
           "place": "unitru",
@@ -39749,6 +40287,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5018647041",
+      "area": "Ingeniería y energía",
+      "works_count": 4,
+      "cited_by": 6,
       "studied": [
         {
           "place": "uni",
@@ -40491,6 +41033,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en geofísica",
       "track": "Geofísica",
+      "openalex": "A5043681517",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unsa",
@@ -40549,6 +41095,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5037891527",
+      "area": "Materia condensada y materiales",
+      "works_count": 5,
+      "cited_by": 33,
       "studied": [
         {
           "place": "uni",
@@ -40704,11 +41254,15 @@
       "initials": "MC",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=churampi+lavado%2C+manuel+jesus",
-      "orcid": null,
+      "orcid": "0000-0001-7054-5928",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5093214012",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -41036,11 +41590,15 @@
       "initials": "AC",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=cobenas+sanchez%2C+angel+alfonso",
-      "orcid": null,
+      "orcid": "0000-0002-5839-2575",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5096999241",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -41070,6 +41628,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5010274847",
+      "area": "Óptica y física atómica",
+      "works_count": 36,
+      "cited_by": 620,
       "studied": [
         {
           "place": "pucp",
@@ -41301,6 +41863,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5005741372",
+      "area": "Materia condensada y materiales",
+      "works_count": 6,
+      "cited_by": 5,
       "studied": [
         {
           "place": "uni",
@@ -42082,11 +42648,15 @@
       "initials": "JC",
       "source": "web",
       "url": "https://www.linkedin.com/in/jean-cordova/",
-      "orcid": null,
+      "orcid": "0000-0001-6796-5067",
       "site": "LinkedIn",
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5064560653",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "fields": [
         "Ciencia de datos",
         "Aprendizaje automático",
@@ -42532,11 +43102,15 @@
       "initials": "WC",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=cruz+borda%2C+willy",
-      "orcid": null,
+      "orcid": "0000-0001-9193-1932",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5064641970",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 9,
       "studied": [
         {
           "place": "uni",
@@ -43309,6 +43883,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Física",
+      "openalex": "A5147632924",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unsa",
@@ -43510,6 +44088,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5050446439",
+      "area": "Materia condensada y materiales",
+      "works_count": 12,
+      "cited_by": 76,
       "studied": [
         {
           "place": "unmsm",
@@ -44149,6 +44731,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5112529737",
+      "area": null,
+      "works_count": 7,
+      "cited_by": 36,
       "studied": [
         {
           "place": "pucp",
@@ -45860,6 +46446,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Física",
+      "openalex": "A5000542103",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unprg",
@@ -46319,6 +46909,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5109343286",
+      "area": "Partículas y física nuclear",
+      "works_count": 83,
+      "cited_by": 4828,
       "studied": [
         {
           "place": "uam",
@@ -47042,11 +47636,15 @@
       "initials": "ME",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=espinoza+panduro%2C+miguel+lorenzo+antonio",
-      "orcid": null,
+      "orcid": "0000-0002-1585-5007",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5099464024",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -47285,6 +47883,10 @@
       "updated": "16-01-2026",
       "degree": "Doctorado",
       "track": "Ingeniería",
+      "openalex": "A5054935486",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 393,
+      "cited_by": 9739,
       "studied": [
         {
           "place": "unalm",
@@ -47440,6 +48042,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5019786939",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 56,
+      "cited_by": 494,
       "studied": [
         {
           "place": "camaguey",
@@ -47554,6 +48160,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5079162719",
+      "area": "Ingeniería y energía",
+      "works_count": 11,
+      "cited_by": 8,
       "studied": [
         {
           "place": "unitru",
@@ -47578,11 +48188,15 @@
       "initials": "WE",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=estrada+cordova%2C+walter+david",
-      "orcid": null,
+      "orcid": "0000-0003-4337-6887",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5004483288",
+      "area": "Materia condensada y materiales",
+      "works_count": 72,
+      "cited_by": 2089,
       "studied": [
         {
           "place": "uni",
@@ -47641,6 +48255,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5027692159",
+      "area": "Materia condensada y materiales",
+      "works_count": 16,
+      "cited_by": 349,
       "studied": [
         {
           "place": "uni",
@@ -47745,6 +48363,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5045805169",
+      "area": "Materia condensada y materiales",
+      "works_count": 9,
+      "cited_by": 40,
       "studied": [
         {
           "place": "uni",
@@ -47781,6 +48403,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5048451483",
+      "area": "Física médica y radiaciones",
+      "works_count": 25,
+      "cited_by": 185,
       "studied": [
         {
           "place": "unmsm",
@@ -48096,6 +48722,10 @@
       "updated": "23-09-2024",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5080864177",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 9,
+      "cited_by": 53,
       "studied": [
         {
           "place": "unmsm",
@@ -48232,11 +48862,15 @@
       "initials": "EF",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=fernandez+chillcce%2C+enver",
-      "orcid": null,
+      "orcid": "0000-0002-0905-5943",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5051658200",
+      "area": "Ingeniería y energía",
+      "works_count": 76,
+      "cited_by": 497,
       "studied": [
         {
           "place": "uni",
@@ -48723,6 +49357,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5110045056",
+      "area": "Ingeniería y energía",
+      "works_count": 6,
+      "cited_by": 2,
       "studied": [
         {
           "place": "uni",
@@ -48821,6 +49459,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5042737467",
+      "area": "Partículas y física nuclear",
+      "works_count": 21,
+      "cited_by": 453,
       "studied": [
         {
           "place": "uerj",
@@ -48880,6 +49522,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5054737070",
+      "area": "Partículas y física nuclear",
+      "works_count": 9,
+      "cited_by": 200,
       "studied": [
         {
           "place": "lady-brabourne",
@@ -50330,6 +50976,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5036779028",
+      "area": "Astronomía y astrofísica",
+      "works_count": 23,
+      "cited_by": 204,
       "studied": [
         {
           "place": "uni",
@@ -50423,6 +51073,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5051194371",
+      "area": "Materia condensada y materiales",
+      "works_count": 2,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -50452,6 +51106,10 @@
       "updated": "",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5038506188",
+      "area": "Ingeniería y energía",
+      "works_count": 9,
+      "cited_by": 13,
       "studied": [
         {
           "place": "pucp",
@@ -51264,6 +51922,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5036695986",
+      "area": "Astronomía y astrofísica",
+      "works_count": 8,
+      "cited_by": 12,
       "studied": [
         {
           "place": "unac",
@@ -51380,11 +52042,15 @@
       "initials": "EG",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=gastelo+diaz%2C+elmer+manuel",
-      "orcid": null,
+      "orcid": "0000-0002-6395-4819",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5037198449",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 7,
       "studied": [
         {
           "place": "uni",
@@ -51416,11 +52082,15 @@
       "initials": "GG",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=gatti+alvarez%2C+giancarlo",
-      "orcid": null,
+      "orcid": "0000-0002-5867-3537",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5102892305",
+      "area": "Física computacional y matemática",
+      "works_count": 7,
+      "cited_by": 58,
       "studied": [
         {
           "place": "pucp",
@@ -51586,6 +52256,10 @@
       "updated": "09-06-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5037144074",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -52169,6 +52843,10 @@
       "updated": "15-10-2023",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5012076668",
+      "area": "Física médica y radiaciones",
+      "works_count": 9,
+      "cited_by": 23,
       "studied": [
         {
           "place": "unfv",
@@ -52287,6 +52965,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría",
       "track": "Geofísica",
+      "openalex": "A5110628233",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 6,
+      "cited_by": 114,
       "fields": [
         "Interferometría radar (InSAR)",
         "Teledetección",
@@ -52371,6 +53053,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5057398713",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 7,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -52395,11 +53081,15 @@
       "initials": "FG",
       "source": "pucp",
       "url": "https://www.pucp.edu.pe/profesor/franco-gonzales-nino/resumen/",
-      "orcid": null,
+      "orcid": "0000-0001-8686-7200",
       "site": null,
       "updated": "",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5068629279",
+      "area": "Física computacional y matemática",
+      "works_count": 9,
+      "cited_by": 3,
       "studied": [
         {
           "place": "pucp",
@@ -52428,6 +53118,12 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Profesor auxiliar"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://www.pucp.edu.pe/profesor/franco-gonzales-nino"
         }
       ]
     },
@@ -52595,6 +53291,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5103825406",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "pucp",
@@ -53200,6 +53900,10 @@
       "updated": "",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5110570450",
+      "area": "Partículas y física nuclear",
+      "works_count": 68,
+      "cited_by": 10796,
       "studied": [
         {
           "place": "pucp",
@@ -53360,6 +54064,10 @@
       "updated": "10-09-2025",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5001141824",
+      "area": "Astronomía y astrofísica",
+      "works_count": 7,
+      "cited_by": 91,
       "studied": [
         {
           "place": "unmsm",
@@ -53427,6 +54135,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5080245879",
+      "area": "Enseñanza de la física",
+      "works_count": 3,
+      "cited_by": 4,
       "studied": [
         {
           "place": "unmsm",
@@ -53530,6 +54242,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5006280041",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 235,
       "studied": [
         {
           "place": "pucp",
@@ -54446,6 +55162,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5112225408",
+      "area": "Física médica y radiaciones",
+      "works_count": 13,
+      "cited_by": 5,
       "studied": [
         {
           "place": "unmsm",
@@ -54862,6 +55582,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5052882575",
+      "area": "Física médica y radiaciones",
+      "works_count": 4,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -55665,6 +56389,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5119282958",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unp",
@@ -55941,6 +56669,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5087989883",
+      "area": "Física médica y radiaciones",
+      "works_count": 2,
+      "cited_by": 15,
       "studied": [
         {
           "place": "uni",
@@ -55970,6 +56702,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5034444355",
+      "area": "Astronomía y astrofísica",
+      "works_count": 30,
+      "cited_by": 399,
       "studied": [
         {
           "place": "unac",
@@ -56029,11 +56765,15 @@
       "initials": "AH",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=huaman+gutierrez%2C+angiolo+miguel",
-      "orcid": null,
+      "orcid": "0000-0001-5273-5437",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5040457866",
+      "area": "Óptica y física atómica",
+      "works_count": 14,
+      "cited_by": 50,
       "studied": [
         {
           "place": "uni",
@@ -56081,6 +56821,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5114990135",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 3,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unsaac",
@@ -56229,11 +56973,15 @@
       "initials": "FH",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=huaman+perez%2C+fernando",
-      "orcid": null,
+      "orcid": "0000-0002-4299-8492",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5024063526",
+      "area": "Física médica y radiaciones",
+      "works_count": 4,
+      "cited_by": 3,
       "studied": [
         {
           "place": "uni",
@@ -56292,6 +57040,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5082019687",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -56403,11 +57155,15 @@
       "initials": "RH",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=huamani+corimanya%2C+renzon+jesus",
-      "orcid": null,
+      "orcid": "0000-0001-7718-5128",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5106912884",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unsa",
@@ -56805,6 +57561,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5074645255",
+      "area": "Óptica y física atómica",
+      "works_count": 16,
+      "cited_by": 0,
       "fields": [
         "Enseñanza de la física",
         "Simulación de fenómenos físicos",
@@ -56870,6 +57630,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5078533376",
+      "area": "Ingeniería y energía",
+      "works_count": 11,
+      "cited_by": 82,
       "studied": [
         {
           "place": "uni",
@@ -56894,11 +57658,15 @@
       "initials": "YH",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=huayllazo+huayllazo%2C+yasmine+clarita",
-      "orcid": null,
+      "orcid": "0009-0001-5422-2317",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en geofísica",
       "track": "Geofísica",
+      "openalex": "A5093231085",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 10,
       "studied": [
         {
           "place": "unsa",
@@ -56915,6 +57683,12 @@
           "place": "unsa",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/yasminehuayllazo"
+        }
       ]
     },
     {
@@ -56928,6 +57702,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5041688282",
+      "area": "Materia condensada y materiales",
+      "works_count": 10,
+      "cited_by": 13,
       "studied": [
         {
           "place": "unmsm",
@@ -57247,6 +58025,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5022590877",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 13,
+      "cited_by": 24,
       "studied": [
         {
           "place": "unalm",
@@ -57510,6 +58292,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5037716164",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 31,
+      "cited_by": 806,
       "studied": [
         {
           "place": "uni",
@@ -57584,6 +58370,10 @@
       "updated": "11-09-2019",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5070549981",
+      "area": "Astronomía y astrofísica",
+      "works_count": 61,
+      "cited_by": 232,
       "studied": [
         {
           "place": "uvg",
@@ -58746,6 +59536,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5136067628",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unp",
@@ -58849,6 +59643,12 @@
           "place": "unp",
           "did": ["Estudiante de doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/vladimirajuarezo"
+        }
       ]
     },
     {
@@ -58949,6 +59749,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría",
       "track": "Ingeniería",
+      "openalex": "A5081826147",
+      "area": "Astronomía y astrofísica",
+      "works_count": 49,
+      "cited_by": 282,
       "studied": [
         {
           "place": "pucp",
@@ -59127,6 +59931,10 @@
       "updated": "14-02-2017",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5088413606",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 27,
+      "cited_by": 533,
       "studied": [
         {
           "place": "unmsm",
@@ -59835,11 +60643,15 @@
       "initials": "KL",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=lazarte+ponce%2C+krover",
-      "orcid": null,
+      "orcid": "0000-0002-1288-8479",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en geofísica",
       "track": "Geofísica",
+      "openalex": "A5093231087",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 10,
       "studied": [
         {
           "place": "unsa",
@@ -60173,11 +60985,15 @@
       "initials": "LL",
       "source": "ctivitae",
       "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=12306",
-      "orcid": null,
+      "orcid": "0000-0001-9392-4592",
       "site": null,
       "updated": "02-09-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5012439570",
+      "area": "Materia condensada y materiales",
+      "works_count": 36,
+      "cited_by": 1056,
       "studied": [
         {
           "place": "unmsm",
@@ -61058,6 +61874,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5033977451",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 13,
+      "cited_by": 55,
       "studied": [
         {
           "place": "unam",
@@ -61684,6 +62504,10 @@
       "updated": "",
       "degree": "Doctorado en ingeniería",
       "track": "Física",
+      "openalex": "A5086838170",
+      "area": "Física médica y radiaciones",
+      "works_count": 7,
+      "cited_by": 1,
       "studied": [
         {
           "place": "pucp",
@@ -61765,11 +62589,15 @@
       "initials": "PL",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=llontop+lopez-davalos%2C+paul+david",
-      "orcid": null,
+      "orcid": "0000-0003-1633-6943",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5022065556",
+      "area": "Ingeniería y energía",
+      "works_count": 16,
+      "cited_by": 56,
       "studied": [
         {
           "place": "pucp",
@@ -61806,6 +62634,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5018109240",
+      "area": "Física médica y radiaciones",
+      "works_count": 11,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -61980,6 +62812,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5152773972",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "pucp",
@@ -62207,6 +63043,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5101672864",
+      "area": "Física médica y radiaciones",
+      "works_count": 18,
+      "cited_by": 378,
       "studied": [
         {
           "place": "pucp",
@@ -62424,6 +63264,10 @@
       "updated": "14-05-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5108361684",
+      "area": "Ingeniería y energía",
+      "works_count": 54,
+      "cited_by": 168,
       "studied": [
         {
           "place": "uni",
@@ -62548,11 +63392,15 @@
       "initials": "HL",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=loro+ramirez%2C+hector+raul",
-      "orcid": null,
+      "orcid": "0000-0002-5965-6771",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5020834327",
+      "area": "Materia condensada y materiales",
+      "works_count": 42,
+      "cited_by": 354,
       "studied": [
         {
           "place": "uni",
@@ -62904,6 +63752,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5054516807",
+      "area": "Ingeniería y energía",
+      "works_count": 3,
+      "cited_by": 24,
       "studied": [
         {
           "place": "uni",
@@ -63000,11 +63852,15 @@
       "initials": "NL",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=luna+diaz%2C+nestor",
-      "orcid": null,
+      "orcid": "0000-0002-3436-8271",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5043085277",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 2,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unmsm",
@@ -63020,6 +63876,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "github",
+          "url": "https://github.com/nestor-ld93"
         }
       ]
     },
@@ -63067,6 +63929,10 @@
       "updated": "05-10-2025",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5102881767",
+      "area": "Astronomía y astrofísica",
+      "works_count": 14,
+      "cited_by": 1562,
       "studied": [
         {
           "place": "unsa",
@@ -63173,6 +64039,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5116486515",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -63390,6 +64260,10 @@
       "updated": "18-01-2026",
       "degree": "Maestría",
       "track": "Ingeniería",
+      "openalex": "A5046402589",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 49,
+      "cited_by": 35,
       "studied": [
         {
           "place": "unsa",
@@ -63906,6 +64780,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5061771921",
+      "area": "Óptica y física atómica",
+      "works_count": 5,
+      "cited_by": 65,
       "studied": [
         {
           "place": "udec",
@@ -64261,6 +65139,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5032772299",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -64895,6 +65777,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5112021800",
+      "area": "Materia condensada y materiales",
+      "works_count": 5,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -65087,6 +65973,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5039546150",
+      "area": "Física médica y radiaciones",
+      "works_count": 2,
+      "cited_by": 17,
       "studied": [
         {
           "place": "unitru",
@@ -65237,6 +66127,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5026630259",
+      "area": null,
+      "works_count": 4,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -65461,6 +66355,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5045432349",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 78,
+      "cited_by": 3177,
       "studied": [
         {
           "place": "uh",
@@ -65572,6 +66470,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5108115274",
+      "area": "Ingeniería y energía",
+      "works_count": 5,
+      "cited_by": 36,
       "studied": [
         {
           "place": "pucp",
@@ -65596,11 +66498,15 @@
       "initials": "JM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=martinez+ore%2C+jhonatan+eliel",
-      "orcid": null,
+      "orcid": "0000-0001-5589-5057",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5013335635",
+      "area": "Física médica y radiaciones",
+      "works_count": 4,
+      "cited_by": 27,
       "studied": [
         {
           "place": "uni",
@@ -65740,11 +66646,15 @@
       "initials": "JM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=masias+teves%2C+joaquin+aurelio",
-      "orcid": null,
+      "orcid": "0000-0003-4147-1370",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5014890223",
+      "area": "Partículas y física nuclear",
+      "works_count": 16,
+      "cited_by": 120,
       "studied": [
         {
           "place": "pucp",
@@ -65950,6 +66860,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5108055891",
+      "area": "Materia condensada y materiales",
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unitru",
@@ -66179,11 +67093,15 @@
       "initials": "NM",
       "source": "web",
       "url": "https://www.linkedin.com/in/nelson-ruben-mechan-zurita-36227733b/",
-      "orcid": null,
+      "orcid": "0009-0005-6157-2023",
       "site": "LinkedIn",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5127758392",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unprg",
@@ -66225,6 +67143,12 @@
         {
           "place": "unitru",
           "did": ["Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://wwwunitru.academia.edu/NelsonMech%C3%A1nZurita"
         }
       ]
     },
@@ -66550,6 +67474,10 @@
       "updated": "12-10-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5043588612",
+      "area": "Materia condensada y materiales",
+      "works_count": 11,
+      "cited_by": 149,
       "studied": [
         {
           "place": "karazin",
@@ -66882,6 +67810,10 @@
       "updated": "",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5021313005",
+      "area": "Física computacional y matemática",
+      "works_count": 2,
+      "cited_by": 24,
       "studied": [
         {
           "place": "pucp",
@@ -66919,11 +67851,15 @@
       "initials": "MM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=mejia+santillan%2C+mirian+esther",
-      "orcid": null,
+      "orcid": "0000-0002-2575-4568",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5081398971",
+      "area": "Materia condensada y materiales",
+      "works_count": 21,
+      "cited_by": 123,
       "studied": [
         {
           "place": "unmsm",
@@ -67023,6 +67959,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5093047709",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 5,
       "studied": [
         {
           "place": "unsa",
@@ -67052,6 +67992,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5097864464",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -67076,11 +68020,15 @@
       "initials": "JM",
       "source": "web",
       "url": "http://www.astro.iag.usp.br/~jorge/cv_short2p_2019_01.pdf",
-      "orcid": null,
+      "orcid": "0000-0002-4933-2239",
       "site": "IAG-USP",
       "updated": "01-01-2019",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5054681294",
+      "area": "Astronomía y astrofísica",
+      "works_count": 289,
+      "cited_by": 13217,
       "studied": [
         {
           "place": "unmsm",
@@ -67665,6 +68613,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5008853025",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 7,
+      "cited_by": 124,
       "studied": [
         {
           "place": "uni",
@@ -67726,11 +68678,15 @@
       "initials": "FM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=mendoza+villa%2C+freddy",
-      "orcid": null,
+      "orcid": "0009-0008-8220-9604",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5072244101",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 8,
+      "cited_by": 23,
       "studied": [
         {
           "place": "unmsm",
@@ -67862,6 +68818,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5078586647",
+      "area": "Astronomía y astrofísica",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "pucp",
@@ -67989,11 +68949,15 @@
       "initials": "RM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=metzger+alvan%2C+roger+javier",
-      "orcid": null,
+      "orcid": "0000-0002-8437-0118",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5037010636",
+      "area": "Física computacional y matemática",
+      "works_count": 14,
+      "cited_by": 210,
       "studied": [
         {
           "place": "uni",
@@ -68018,11 +68982,15 @@
       "initials": "EM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=meza+quispe%2C+erick+gregorio",
-      "orcid": null,
+      "orcid": "0000-0002-4058-0420",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5104148729",
+      "area": "Astronomía y astrofísica",
+      "works_count": 53,
+      "cited_by": 723,
       "studied": [
         {
           "place": "uni",
@@ -68094,6 +69062,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5107860023",
+      "area": "Partículas y física nuclear",
+      "works_count": 1610,
+      "cited_by": 61710,
       "studied": [
         {
           "place": "valencia",
@@ -68155,6 +69127,10 @@
       "updated": "21-11-2025",
       "degree": "Doctorado en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5049087998",
+      "area": "Astronomía y astrofísica",
+      "works_count": 173,
+      "cited_by": 1321,
       "studied": [
         {
           "place": "pucp",
@@ -68266,6 +69242,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5115874458",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 3,
+      "cited_by": 10,
       "studied": [
         {
           "place": "pucp",
@@ -68658,6 +69638,10 @@
       "updated": "",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5102526693",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "pucp",
@@ -69369,11 +70353,15 @@
       "initials": "EM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=monteblanco+vinces%2C+elmer+nahuel",
-      "orcid": null,
+      "orcid": "0000-0002-3610-6822",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5021845418",
+      "area": "Óptica y física atómica",
+      "works_count": 39,
+      "cited_by": 170,
       "studied": [
         {
           "place": "uni",
@@ -69534,6 +70522,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5059108373",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 65,
+      "cited_by": 4748,
       "studied": [
         {
           "place": "udec",
@@ -69618,11 +70610,15 @@
       "initials": "EM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=montoya+calderon%2C+erick+franco",
-      "orcid": null,
+      "orcid": "0000-0002-0201-3265",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5115833983",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -69638,6 +70634,20 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://dibujoastronomicolima.blogspot.com/"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/@erickmontoyacalderon6844"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/erick-montoya-calder%C3%B3n-b2a949235"
         }
       ]
     },
@@ -69944,6 +70954,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5079754281",
+      "area": "Física médica y radiaciones",
+      "works_count": 71,
+      "cited_by": 175,
       "studied": [
         {
           "place": "uantwerpen",
@@ -69980,11 +70994,15 @@
       "initials": "MM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=montoya+zavaleta%2C+modesto+e.",
-      "orcid": null,
+      "orcid": "0000-0002-3376-1872",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5088904355",
+      "area": "Partículas y física nuclear",
+      "works_count": 133,
+      "cited_by": 391,
       "studied": [
         {
           "place": "uni",
@@ -70000,6 +71018,12 @@
         {
           "place": "uni",
           "did": ["Maestría"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://www.modestomontoya.com/"
         }
       ],
       "wikipedia": "https://es.wikipedia.org/wiki/Modesto_Montoya"
@@ -71086,11 +72110,15 @@
       "initials": "LM",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=mosquera+leiva%2C+luis+alberto",
-      "orcid": null,
+      "orcid": "0000-0003-0798-8392",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5075893956",
+      "area": "Ingeniería y energía",
+      "works_count": 33,
+      "cited_by": 142,
       "studied": [
         {
           "place": "uni",
@@ -71484,6 +72512,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5075533644",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 41,
+      "cited_by": 566,
       "studied": [
         {
           "place": "odesa-ecologica",
@@ -71642,6 +72674,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5103834790",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 20,
       "studied": [
         {
           "place": "unsa",
@@ -72018,11 +73054,15 @@
       "initials": "VN",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=nakama+martinez%2C+victor+luis",
-      "orcid": null,
+      "orcid": "0009-0003-0088-183X",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5065712221",
+      "area": "Ingeniería y energía",
+      "works_count": 6,
+      "cited_by": 8,
       "studied": [
         {
           "place": "uni",
@@ -72220,11 +73260,15 @@
       "initials": "AN",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=naupa+roque%2C+alexander+raul",
-      "orcid": null,
+      "orcid": "0000-0002-3585-6875",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5052998263",
+      "area": "Materia condensada y materiales",
+      "works_count": 5,
+      "cited_by": 40,
       "studied": [
         {
           "place": "uni",
@@ -72539,11 +73583,15 @@
       "initials": "RN",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=nazario+ticse%2C+russell",
-      "orcid": null,
+      "orcid": "0000-0002-6224-0830",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5075664264",
+      "area": "Ingeniería y energía",
+      "works_count": 8,
+      "cited_by": 3,
       "studied": [
         {
           "place": "uni",
@@ -72828,6 +73876,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5030057391",
+      "area": "Física computacional y matemática",
+      "works_count": 6,
+      "cited_by": 8,
       "studied": [
         {
           "place": "unmsm",
@@ -73499,6 +74551,10 @@
       "updated": "26-10-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5006081333",
+      "area": "Óptica y física atómica",
+      "works_count": 32,
+      "cited_by": 105,
       "studied": [
         {
           "place": "unac",
@@ -73971,6 +75027,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5104000403",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -74105,11 +75165,15 @@
       "initials": "CO",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=oncebay+segura%2C+charlie+oscar",
-      "orcid": null,
+      "orcid": "0000-0003-1396-8494",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5068058127",
+      "area": "Física computacional y matemática",
+      "works_count": 8,
+      "cited_by": 28,
       "studied": [
         {
           "place": "uni",
@@ -74139,6 +75203,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5037713821",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 23,
+      "cited_by": 71,
       "studied": [
         {
           "place": "buap",
@@ -74329,6 +75397,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5073026063",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 11,
+      "cited_by": 189,
       "studied": [
         {
           "place": "unalm",
@@ -74773,6 +75845,10 @@
       "updated": "18-10-2025",
       "degree": "Maestría en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5059495772",
+      "area": "Materia condensada y materiales",
+      "works_count": 27,
+      "cited_by": 109,
       "studied": [
         {
           "place": "uncp",
@@ -74863,6 +75939,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5081977978",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 11,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unfv",
@@ -75001,6 +76081,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato",
       "track": "Otra formación",
+      "openalex": "A5055176386",
+      "area": "Partículas y física nuclear",
+      "works_count": 56,
+      "cited_by": 272,
       "studied": [
         {
           "place": "uni",
@@ -75053,6 +76137,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Otra formación",
+      "openalex": "A5025149790",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 15,
+      "cited_by": 490,
       "studied": [
         {
           "place": "unalm",
@@ -75230,6 +76318,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5072969876",
+      "area": "Óptica y física atómica",
+      "works_count": 135,
+      "cited_by": 1619,
       "studied": [
         {
           "place": "unsaac",
@@ -75289,6 +76381,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5043183968",
+      "area": "Astronomía y astrofísica",
+      "works_count": 27,
+      "cited_by": 368,
       "studied": [
         {
           "place": "utd",
@@ -75471,6 +76567,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5064813234",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 5,
+      "cited_by": 10,
       "studied": [
         {
           "place": "unsa",
@@ -75533,6 +76633,12 @@
             "Estudiante de licenciatura en física",
             "Docente contratado estraordinario"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/post/Can_we_use_same_sample_for_different_different_testing"
         }
       ]
     },
@@ -75924,6 +77030,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5030875343",
+      "area": "Partículas y física nuclear",
+      "works_count": 3,
+      "cited_by": 33,
       "studied": [
         {
           "place": "cbpf",
@@ -76086,11 +77196,15 @@
       "initials": "AP",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=panfichi+sanborn%2C+aldo+miguel",
-      "orcid": null,
+      "orcid": "0000-0001-6565-5540",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5057034163",
+      "area": null,
+      "works_count": 56,
+      "cited_by": 360,
       "studied": [
         {
           "place": "pucp",
@@ -76107,6 +77221,20 @@
           "place": "pucp",
           "did": ["Maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://blog.pucp.edu.pe/aldopanfichi"
+        },
+        {
+          "kind": "web",
+          "url": "https://www.pucp.edu.pe/profesor/aldo-panfichi-huaman"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Aldo_Panfichi"
+        }
       ]
     },
     {
@@ -76115,11 +77243,15 @@
       "initials": "FP",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=paraguay+delgado%2C+francisco",
-      "orcid": null,
+      "orcid": "0000-0002-3764-1595",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5083848926",
+      "area": "Materia condensada y materiales",
+      "works_count": 246,
+      "cited_by": 3683,
       "studied": [
         {
           "place": "uni",
@@ -76384,6 +77516,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5111578959",
+      "area": "Materia condensada y materiales",
+      "works_count": 8,
+      "cited_by": 154,
       "studied": [
         {
           "place": "unmsm",
@@ -76575,6 +77711,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5032560759",
+      "area": "Materia condensada y materiales",
+      "works_count": 10,
+      "cited_by": 23,
       "studied": [
         {
           "place": "uni",
@@ -76628,11 +77768,15 @@
       "initials": "EP",
       "source": "ctivitae",
       "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=284046",
-      "orcid": null,
+      "orcid": "0009-0009-9319-2884",
       "site": null,
       "updated": "03-09-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5120166081",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 8,
       "studied": [
         {
           "place": "unsa",
@@ -76757,6 +77901,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5101806344",
+      "area": "Física médica y radiaciones",
+      "works_count": 22,
+      "cited_by": 17,
       "studied": [
         {
           "place": "valencia",
@@ -76966,6 +78114,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5056676735",
+      "area": "Materia condensada y materiales",
+      "works_count": 3,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -77585,6 +78737,10 @@
       "updated": "28-05-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5088468577",
+      "area": "Astronomía y astrofísica",
+      "works_count": 78,
+      "cited_by": 318,
       "studied": [
         {
           "place": "uni",
@@ -77715,6 +78871,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5032927619",
+      "area": "Partículas y física nuclear",
+      "works_count": 18,
+      "cited_by": 197,
       "studied": [
         {
           "place": "uni",
@@ -78415,6 +79575,10 @@
       "updated": "18-01-2025",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5065769488",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 11,
+      "cited_by": 82,
       "studied": [
         {
           "place": "uni",
@@ -78592,56 +79756,82 @@
       "slug": "mirtha-pillaca-quispe",
       "name": "Mirtha Pillaca Quispe",
       "initials": "MP",
-      "source": "ctivitae",
-      "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=18830",
+      "source": "web",
+      "url": "https://www.linkedin.com/in/mirtha-pillaca/",
       "orcid": null,
-      "site": null,
-      "updated": "23-08-2017",
-      "degree": "Maestría en física",
+      "site": "LinkedIn",
+      "updated": "05-11-2026",
+      "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5057421558",
+      "area": "Materia condensada y materiales",
+      "works_count": 40,
+      "cited_by": 15,
+      "fields": [
+        "Crecimiento de cristales",
+        "Cristalografía",
+        "Materiales magnéticos",
+        "Ciencia de datos"
+      ],
       "studied": [
         {
           "place": "unmsm",
           "level": "Bachillerato",
           "field": null,
-          "start": null,
-          "end": null
+          "start": 2004,
+          "end": 2010
         },
         {
           "place": "unmsm",
           "level": "Licenciatura",
           "field": null,
           "start": null,
-          "end": null
+          "end": 2010
         },
         {
           "place": "unmsm",
           "level": "Maestría",
           "field": null,
-          "start": null,
-          "end": null
-        }
-      ],
-      "works": [
+          "start": 2010,
+          "end": 2012
+        },
         {
           "place": "lmu",
-          "role": "Estudiante de doctorado"
+          "level": "Doctorado",
+          "field": "Doctorado en ciencia de materiales (cristalografía)",
+          "start": 2014,
+          "end": 2026
         }
       ],
+      "works": [],
       "jobs": [
+        {
+          "place": null,
+          "name": "Data Science Institute",
+          "role": "Formación profesional en ciencia de datos",
+          "start": 2026,
+          "end": 2026
+        },
+        {
+          "place": "hochschule-trier",
+          "name": "Hochschule Trier",
+          "role": "Asistente de investigación",
+          "start": 2023,
+          "end": 2024
+        },
+        {
+          "place": "tu-dresden",
+          "name": "Technische Universität Dresden",
+          "role": "Investigadora asociada, crecimiento de cristales de materiales magnéticos",
+          "start": 2020,
+          "end": 2022
+        },
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
           "role": "Ayudantía de cátedra",
           "start": 2009,
           "end": 2009
-        },
-        {
-          "place": "lmu",
-          "name": "Ludwig-Maximilians-Universität München",
-          "role": "Estudiante de doctorado",
-          "start": 2014,
-          "end": "now"
         }
       ],
       "path": [
@@ -78649,14 +79839,38 @@
           "place": "unmsm",
           "did": [
             "Bachillerato",
+            "Ayudantía de cátedra",
             "Licenciatura",
-            "Maestría",
-            "Ayudantía de cátedra"
+            "Maestría"
           ]
         },
         {
           "place": "lmu",
-          "did": ["Estudiante de doctorado"]
+          "did": ["Doctorado"]
+        },
+        {
+          "place": "tu-dresden",
+          "did": [
+            "Investigadora asociada, crecimiento de cristales de materiales magnéticos"
+          ]
+        },
+        {
+          "place": "hochschule-trier",
+          "did": ["Asistente de investigación"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/mirtha-pillaca"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=5HsOB0IAAAAJ"
+        },
+        {
+          "kind": "github",
+          "url": "https://github.com/Mirtha-Pillaca"
         }
       ]
     },
@@ -79149,11 +80363,15 @@
       "initials": "MP",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=pineiro+sales%2C+miguel",
-      "orcid": null,
+      "orcid": "0000-0002-1093-4988",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5004297994",
+      "area": "Materia condensada y materiales",
+      "works_count": 5,
+      "cited_by": 36,
       "studied": [
         {
           "place": "uni",
@@ -79634,6 +80852,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5001691205",
+      "area": "Materia condensada y materiales",
+      "works_count": 2,
+      "cited_by": 18,
       "studied": [
         {
           "place": "uni",
@@ -79779,6 +81001,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5114441663",
+      "area": "Física médica y radiaciones",
+      "works_count": 4,
+      "cited_by": 8,
       "studied": [
         {
           "place": "unsaac",
@@ -80399,11 +81625,15 @@
       "initials": "RP",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=prosopio+galarza%2C+roy+ronald",
-      "orcid": null,
+      "orcid": "0000-0002-3992-0176",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5057475706",
+      "area": "Ingeniería y energía",
+      "works_count": 9,
+      "cited_by": 22,
       "studied": [
         {
           "place": "uni",
@@ -80433,6 +81663,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5057626884",
+      "area": "Materia condensada y materiales",
+      "works_count": 13,
+      "cited_by": 9,
       "studied": [
         {
           "place": "uni",
@@ -80742,11 +81976,15 @@
       "initials": "FP",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=puma+ttito%2C+flossi+dayana",
-      "orcid": null,
+      "orcid": "0000-0001-6692-0991",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5116197663",
+      "area": "Física computacional y matemática",
+      "works_count": 8,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unsa",
@@ -80825,6 +82063,10 @@
       "updated": "11-08-2026",
       "degree": "Doctorado",
       "track": "Ingeniería",
+      "openalex": "A5012426674",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 52,
+      "cited_by": 1789,
       "studied": [
         {
           "place": "unfv",
@@ -81423,11 +82665,15 @@
       "initials": "MQ",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=quiroga+agurto%2C+mauro",
-      "orcid": null,
+      "orcid": "0000-0003-0179-508X",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5027757539",
+      "area": "Materia condensada y materiales",
+      "works_count": 5,
+      "cited_by": 7,
       "studied": [
         {
           "place": "unmsm",
@@ -81763,11 +83009,15 @@
       "initials": "RQ",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=quispe+dominguez%2C+roger",
-      "orcid": null,
+      "orcid": "0000-0002-0774-9511",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5069271435",
+      "area": "Materia condensada y materiales",
+      "works_count": 6,
+      "cited_by": 153,
       "studied": [
         {
           "place": "pucp",
@@ -81797,6 +83047,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura",
       "track": "Otra formación",
+      "openalex": "A5034870155",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 41,
+      "cited_by": 167,
       "studied": [
         {
           "place": "unalm",
@@ -82211,6 +83465,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5023589382",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 22,
       "studied": [
         {
           "place": "uni",
@@ -82662,6 +83920,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5119187683",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -82735,6 +83997,10 @@
       "updated": "03-08-2023",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5052327288",
+      "area": "Física computacional y matemática",
+      "works_count": 3,
+      "cited_by": 5,
       "studied": [
         {
           "place": "unac",
@@ -83044,6 +84310,10 @@
       "updated": "21-10-2025",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5037644117",
+      "area": "Partículas y física nuclear",
+      "works_count": 9,
+      "cited_by": 27,
       "studied": [
         {
           "place": "unitru",
@@ -83103,11 +84373,15 @@
       "initials": "PR",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=ramos+apestegui%2C+pierre+giovanny",
-      "orcid": null,
+      "orcid": "0000-0002-7857-4747",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5033729016",
+      "area": "Ingeniería y energía",
+      "works_count": 25,
+      "cited_by": 296,
       "studied": [
         {
           "place": "uni",
@@ -83180,6 +84454,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en ingeniería",
       "track": "Física",
+      "openalex": "A5019112651",
+      "area": "Ingeniería y energía",
+      "works_count": 17,
+      "cited_by": 13,
       "studied": [
         {
           "place": "uni",
@@ -83751,6 +85029,10 @@
       "updated": "30-06-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5112281665",
+      "area": "Partículas y física nuclear",
+      "works_count": 5,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -84235,6 +85517,10 @@
       "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5139021330",
+      "area": "Física médica y radiaciones",
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -84264,6 +85550,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5103673336",
+      "area": "Materia condensada y materiales",
+      "works_count": 13,
+      "cited_by": 20,
       "studied": [
         {
           "place": "unmsm",
@@ -84614,11 +85904,15 @@
       "initials": "JR",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=ricra+mayorca%2C+jose+luis",
-      "orcid": null,
+      "orcid": "0000-0002-4659-8103",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5021060521",
+      "area": "Astronomía y astrofísica",
+      "works_count": 27,
+      "cited_by": 20,
       "studied": [
         {
           "place": "uni",
@@ -85105,6 +86399,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5076499944",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "pucp",
@@ -85163,6 +86461,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5065671788",
+      "area": "Partículas y física nuclear",
+      "works_count": 13,
+      "cited_by": 14,
       "studied": [
         {
           "place": "rudn",
@@ -85575,6 +86877,10 @@
       "updated": "02-09-2026",
       "degree": "Doctorado",
       "track": "Ingeniería",
+      "openalex": "A5027849890",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 167,
+      "cited_by": 393,
       "studied": [
         {
           "place": "unmsm",
@@ -86006,6 +87312,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5054310123",
+      "area": "Física computacional y matemática",
+      "works_count": 4,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unmsm",
@@ -86119,6 +87429,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5047133111",
+      "area": "Ingeniería y energía",
+      "works_count": 7,
+      "cited_by": 109,
       "studied": [
         {
           "place": "uni",
@@ -86820,6 +88134,10 @@
       "updated": "16-11-2024",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5109378053",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -87397,6 +88715,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5030342878",
+      "area": "Óptica y física atómica",
+      "works_count": 45,
+      "cited_by": 720,
       "studied": [
         {
           "place": "cbpf",
@@ -87488,6 +88810,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5101412560",
+      "area": "Ingeniería y energía",
+      "works_count": 39,
+      "cited_by": 176,
       "studied": [
         {
           "place": "karazin",
@@ -88047,11 +89373,15 @@
       "initials": "JR",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=romero+menacho%2C+jaime+ulices",
-      "orcid": null,
+      "orcid": "0000-0003-0123-8806",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5046097351",
+      "area": "Física médica y radiaciones",
+      "works_count": 7,
+      "cited_by": 13,
       "studied": [
         {
           "place": "unmsm",
@@ -88263,6 +89593,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5112393564",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 0,
       "studied": [
         {
           "place": "uni",
@@ -88350,6 +89684,10 @@
       "updated": "29-12-2017",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5046178066",
+      "area": "Astronomía y astrofísica",
+      "works_count": 53,
+      "cited_by": 132,
       "studied": [
         {
           "place": "unac",
@@ -88670,11 +90008,15 @@
       "initials": "RR",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=rueda+vellasmin%2C+renzo",
-      "orcid": null,
+      "orcid": "0000-0003-2438-9711",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5070928661",
+      "area": "Materia condensada y materiales",
+      "works_count": 20,
+      "cited_by": 41,
       "studied": [
         {
           "place": "unmsm",
@@ -88697,6 +90039,16 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato", "Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Renzo-Rueda-Vellasmin"
+        },
+        {
+          "kind": "lattes",
+          "url": "http://lattes.cnpq.br/2717943149297146"
         }
       ]
     },
@@ -89072,6 +90424,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5073314762",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -89295,11 +90651,15 @@
       "initials": "ES",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=saettone+olschewski%2C+erich+arturo",
-      "orcid": null,
+      "orcid": "0000-0003-4849-3038",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5051483823",
+      "area": "Ingeniería y energía",
+      "works_count": 40,
+      "cited_by": 160,
       "studied": [
         {
           "place": "uni",
@@ -89316,6 +90676,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://cris.ulima.edu.pe/es/persons/erich-arturo-saettone-olschewski"
+        }
       ]
     },
     {
@@ -89324,11 +90690,15 @@
       "initials": "LS",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=salazar+de+paz%2C+luis",
-      "orcid": null,
+      "orcid": "0000-0002-1723-5709",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5122826532",
+      "area": "Física computacional y matemática",
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -89926,11 +91296,15 @@
       "initials": "JS",
       "source": "web",
       "url": "https://www.linkedin.com/in/jorge-samanes-367bba179/",
-      "orcid": null,
+      "orcid": "0000-0002-7349-2187",
       "site": "LinkedIn",
       "updated": "02-11-2026",
       "degree": "Doctorado en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5072037485",
+      "area": "Astronomía y astrofísica",
+      "works_count": 36,
+      "cited_by": 99,
       "studied": [
         {
           "place": "beihang",
@@ -90119,6 +91493,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5073722380",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 50,
+      "cited_by": 1438,
       "studied": [
         {
           "place": "usp",
@@ -90316,6 +91694,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en geofísica",
       "track": "Física",
+      "openalex": "A5065086076",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 12,
+      "cited_by": 118,
       "studied": [
         {
           "place": "unac",
@@ -90371,6 +91753,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5016447725",
+      "area": "Óptica y física atómica",
+      "works_count": 7,
+      "cited_by": 34,
       "studied": [
         {
           "place": "pucp",
@@ -90488,6 +91874,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5101432201",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 22,
+      "cited_by": 148,
       "studied": [
         {
           "place": "unmsm",
@@ -90540,6 +91930,12 @@
         {
           "place": "inpe",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "github",
+          "url": "https://github.com/mhacarthur"
         }
       ]
     },
@@ -91004,11 +92400,15 @@
       "initials": "NS",
       "source": "ctivitae",
       "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=87939",
-      "orcid": null,
+      "orcid": "0000-0001-8661-4393",
       "site": null,
       "updated": "01-11-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5056292046",
+      "area": "Física médica y radiaciones",
+      "works_count": 22,
+      "cited_by": 13,
       "studied": [
         {
           "place": "unprg",
@@ -91209,6 +92609,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5044874723",
+      "area": "Física computacional y matemática",
+      "works_count": 4,
+      "cited_by": 0,
       "studied": [
         {
           "place": "pucp",
@@ -91238,6 +92642,10 @@
       "updated": "16-03-2026",
       "degree": "Doctorado en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5005360694",
+      "area": "Astronomía y astrofísica",
+      "works_count": 72,
+      "cited_by": 614,
       "fields": [
         "Radares atmosféricos e ionosféricos",
         "Turbulencia en la capa límite y la troposfera",
@@ -91457,11 +92865,15 @@
       "initials": "JS",
       "source": "web",
       "url": "https://engineering.tamu.edu/chemical/profiles/jseminario.html",
-      "orcid": null,
+      "orcid": "0000-0001-5397-9281",
       "site": "Texas A&M",
       "updated": "02-11-2026",
       "degree": "Doctorado",
       "track": "Ingeniería",
+      "openalex": "A5038840640",
+      "area": "Ingeniería y energía",
+      "works_count": 339,
+      "cited_by": 11642,
       "studied": [
         {
           "place": "uni",
@@ -92064,6 +93476,10 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5015842270",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unprg",
@@ -92326,6 +93742,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5066609564",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 80,
+      "cited_by": 1700,
       "studied": [
         {
           "place": "rshu",
@@ -92461,6 +93881,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5085583039",
+      "area": "Materia condensada y materiales",
+      "works_count": 18,
+      "cited_by": 237,
       "studied": [
         {
           "place": "unmsm",
@@ -92980,6 +94404,10 @@
       "updated": "10-06-2025",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5133331676",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unac",
@@ -93375,6 +94803,10 @@
       "updated": "09-12-2025",
       "degree": "Licenciatura en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5102946763",
+      "area": "Astronomía y astrofísica",
+      "works_count": 65,
+      "cited_by": 320,
       "studied": [
         {
           "place": "uncp",
@@ -93664,6 +95096,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5134253968",
+      "area": "Ingeniería y energía",
+      "works_count": 2,
+      "cited_by": 0,
       "fields": [
         "Instrumentación nuclear",
         "Reactores de investigación",
@@ -94240,6 +95676,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5024288265",
+      "area": "Materia condensada y materiales",
+      "works_count": 4,
+      "cited_by": 7,
       "studied": [
         {
           "place": "uni",
@@ -94315,6 +95755,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Otra formación",
+      "openalex": "A5006454317",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 22,
+      "cited_by": 772,
       "studied": [
         {
           "place": "unsa",
@@ -94372,6 +95816,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5109470438",
+      "area": null,
+      "works_count": 1,
+      "cited_by": 42,
       "studied": [
         {
           "place": "unmsm",
@@ -94460,6 +95908,10 @@
       "updated": "02-11-2026",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5001798874",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 329,
+      "cited_by": 12573,
       "studied": [
         {
           "place": "pucp",
@@ -94757,6 +96209,10 @@
       "updated": "12-10-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5010164866",
+      "area": "Astronomía y astrofísica",
+      "works_count": 12,
+      "cited_by": 238,
       "studied": [
         {
           "place": "olemiss",
@@ -95179,11 +96635,15 @@
       "initials": "PT",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=tataje+bazalar%2C+paolo+giovanni",
-      "orcid": null,
+      "orcid": "0000-0003-4980-394X",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5056819625",
+      "area": "Ingeniería y energía",
+      "works_count": 5,
+      "cited_by": 3,
       "studied": [
         {
           "place": "unmsm",
@@ -95199,6 +96659,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/paolo-tataje-bazalar-4431b722a"
         }
       ]
     },
@@ -95484,11 +96950,15 @@
       "initials": "AT",
       "source": "pucp",
       "url": "https://www.pucp.edu.pe/profesor/alvaro-tejada-esteves/resumen/",
-      "orcid": null,
+      "orcid": "0000-0001-9632-033X",
       "site": null,
       "updated": "",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5082415764",
+      "area": "Ingeniería y energía",
+      "works_count": 27,
+      "cited_by": 733,
       "studied": [
         {
           "place": "pucp",
@@ -95562,11 +97032,15 @@
       "initials": "JT",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=tello+galvez%2C+julio+cesar",
-      "orcid": null,
+      "orcid": "0000-0003-1361-352X",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5087915148",
+      "area": "Astronomía y astrofísica",
+      "works_count": 259,
+      "cited_by": 3491,
       "studied": [
         {
           "place": "uni",
@@ -96268,6 +97742,10 @@
       "updated": "21-01-2022",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5073723248",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 4,
+      "cited_by": 2,
       "studied": [
         {
           "place": "unac",
@@ -97139,6 +98617,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Otra formación",
+      "openalex": "A5055898729",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 12,
+      "cited_by": 70,
       "studied": [
         {
           "place": "unmsm",
@@ -97231,6 +98713,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Física",
+      "openalex": "A5058810599",
+      "area": "Astronomía y astrofísica",
+      "works_count": 9,
+      "cited_by": 7,
       "studied": [
         {
           "place": "unmsm",
@@ -97317,6 +98803,10 @@
       "updated": "15-08-2025",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5035558923",
+      "area": "Óptica y física atómica",
+      "works_count": 15,
+      "cited_by": 105,
       "studied": [
         {
           "place": "unmsm",
@@ -97579,6 +99069,10 @@
       "updated": "",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5057916719",
+      "area": "Materia condensada y materiales",
+      "works_count": 12,
+      "cited_by": 31,
       "studied": [
         {
           "place": "pucp",
@@ -97856,6 +99350,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5083821707",
+      "area": "Física médica y radiaciones",
+      "works_count": 3,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -98036,11 +99534,15 @@
       "initials": "SU",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=urcia+romero%2C+silvana+rocio",
-      "orcid": null,
+      "orcid": "0000-0002-0730-9081",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5007674005",
+      "area": "Materia condensada y materiales",
+      "works_count": 69,
+      "cited_by": 94,
       "studied": [
         {
           "place": "unitru",
@@ -98125,6 +99627,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5112386696",
+      "area": "Astronomía y astrofísica",
+      "works_count": 49,
+      "cited_by": 597,
       "studied": [
         {
           "place": "unmsm",
@@ -98199,11 +99705,15 @@
       "initials": "EU",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=urday+escobar%2C+estefany+almendra",
-      "orcid": null,
+      "orcid": "0000-0002-0719-2127",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5029191039",
+      "area": null,
+      "works_count": 3,
+      "cited_by": 27,
       "studied": [
         {
           "place": "uni",
@@ -98476,11 +99986,15 @@
       "initials": "GV",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=valdivia+mera%2C+gustavo+cesar",
-      "orcid": null,
+      "orcid": "0000-0001-7176-3484",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5003249608",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 5,
+      "cited_by": 75,
       "studied": [
         {
           "place": "unmsm",
@@ -98516,6 +100030,10 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Física",
+      "openalex": "A5089941562",
+      "area": "Ingeniería y energía",
+      "works_count": 9,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unitru",
@@ -98789,6 +100307,10 @@
       "updated": "02-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "openalex": "A5080009339",
+      "area": "Partículas y física nuclear",
+      "works_count": 17,
+      "cited_by": 252,
       "studied": [
         {
           "place": "uni",
@@ -99006,6 +100528,10 @@
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5033091788",
+      "area": "Ingeniería y energía",
+      "works_count": 1,
+      "cited_by": 1,
       "studied": [
         {
           "place": "uni",
@@ -99066,11 +100592,15 @@
       "initials": "EV",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=valle+rivera%2C+eiser",
-      "orcid": null,
+      "orcid": "0009-0008-6486-2060",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5116440175",
+      "area": "Materia condensada y materiales",
+      "works_count": 3,
+      "cited_by": 8,
       "studied": [
         {
           "place": "unitru",
@@ -99858,6 +101388,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5109096241",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 80,
+      "cited_by": 784,
       "fields": ["Oceanografía física", "Cambio climático"],
       "studied": [
         {
@@ -100183,6 +101717,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5114014661",
+      "area": "Partículas y física nuclear",
+      "works_count": 9,
+      "cited_by": 19,
       "studied": [
         {
           "place": "utp",
@@ -100771,11 +102309,15 @@
       "initials": "AV",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=velazco+torrejon%2C+abner",
-      "orcid": null,
+      "orcid": "0000-0003-3512-8963",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5008478827",
+      "area": "Física médica y radiaciones",
+      "works_count": 10,
+      "cited_by": 165,
       "studied": [
         {
           "place": "uni",
@@ -100805,6 +102347,10 @@
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5004659250",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 4,
       "studied": [
         {
           "place": "unmsm",
@@ -101053,11 +102599,15 @@
       "initials": "MV",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=vera+panez%2C+michael+enrique",
-      "orcid": null,
+      "orcid": "0000-0002-4930-2531",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5004068978",
+      "area": "Física computacional y matemática",
+      "works_count": 5,
+      "cited_by": 10,
       "studied": [
         {
           "place": "uni",
@@ -101174,6 +102724,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5102904071",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 4,
+      "cited_by": 6,
       "studied": [
         {
           "place": "unmsm",
@@ -101605,6 +103159,10 @@
       "updated": "06-11-2025",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5049497313",
+      "area": "Ingeniería y energía",
+      "works_count": 4,
+      "cited_by": 24,
       "studied": [
         {
           "place": "unjbg",
@@ -101831,6 +103389,10 @@
       "updated": "",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5112106716",
+      "area": "Física médica y radiaciones",
+      "works_count": 8,
+      "cited_by": 27,
       "studied": [
         {
           "place": "pucp",
@@ -102567,11 +104129,15 @@
       "initials": "KV",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=villegas+rosales%2C+kevin+amilcar",
-      "orcid": null,
+      "orcid": "0000-0003-4050-0547",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5031168124",
+      "area": "Óptica y física atómica",
+      "works_count": 25,
+      "cited_by": 563,
       "studied": [
         {
           "place": "uni",
@@ -102596,11 +104162,15 @@
       "initials": "FV",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=villegas+silva%2C+fulgencio",
-      "orcid": null,
+      "orcid": "0000-0002-2560-9352",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5026192200",
+      "area": "Astronomía y astrofísica",
+      "works_count": 36,
+      "cited_by": 12,
       "studied": [
         {
           "place": "unmsm",
@@ -102623,6 +104193,20 @@
         {
           "place": "unmsm",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "https://siis.unmsm.edu.pe/es/persons/fulgencio-villegas-silva"
+        },
+        {
+          "kind": "web",
+          "url": "https://vrip.unmsm.edu.pe/gft/"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=0xpScPsAAAAJ"
         }
       ]
     },
@@ -103124,11 +104708,15 @@
       "initials": "BW",
       "source": "ctivitae",
       "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=1612",
-      "orcid": null,
+      "orcid": "0000-0002-0666-4655",
       "site": null,
       "updated": "28-09-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5016609717",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 46,
+      "cited_by": 559,
       "studied": [
         {
           "place": "unmsm",
@@ -103235,6 +104823,20 @@
           "place": "upch",
           "did": ["Investigador y gestor"]
         }
+      ],
+      "links": [
+        {
+          "kind": "web",
+          "url": "http://www.cca.org.pe/"
+        },
+        {
+          "kind": "web",
+          "url": "http://expoaguaperu.com/"
+        },
+        {
+          "kind": "web",
+          "url": "http://www.posgradoupch.pe/programa/mba-en-gestion-integral-del-agua/#1479997658201-821008b1-6b83"
+        }
       ]
     },
     {
@@ -103248,6 +104850,10 @@
       "updated": "02-05-2016",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5082932285",
+      "area": "Astronomía y astrofísica",
+      "works_count": 181,
+      "cited_by": 10241,
       "studied": [
         {
           "place": "uni",
@@ -103693,6 +105299,10 @@
       "updated": "01-10-2026",
       "degree": "Doctorado en ingeniería",
       "track": "Ingeniería",
+      "openalex": "A5035850877",
+      "area": "Ingeniería y energía",
+      "works_count": 51,
+      "cited_by": 223,
       "studied": [
         {
           "place": "spbpu",
@@ -103809,11 +105419,15 @@
       "initials": "RY",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=yaringano+limache%2C+roxani+marisa",
-      "orcid": null,
+      "orcid": "0000-0003-2677-3485",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5059605079",
+      "area": null,
+      "works_count": 2,
+      "cited_by": 1,
       "studied": [
         {
           "place": "unmsm",
@@ -103843,6 +105457,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado",
       "track": "Otra formación",
+      "openalex": "A5014980541",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 32,
+      "cited_by": 1030,
       "studied": [
         {
           "place": "pucp",
@@ -104439,11 +106057,15 @@
       "initials": "AZ",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=zamalloa+ponce+de+leon%2C+ariatna+isabel",
-      "orcid": null,
+      "orcid": "0000-0002-0627-9896",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "openalex": "A5054432705",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 8,
+      "cited_by": 18,
       "studied": [
         {
           "place": "unsaac",
@@ -104473,6 +106095,10 @@
       "updated": "02-04-2024",
       "degree": "Doctorado",
       "track": "Física",
+      "openalex": "A5018172970",
+      "area": null,
+      "works_count": 4,
+      "cited_by": 128,
       "studied": [
         {
           "place": "unsaac",
@@ -104746,6 +106372,10 @@
       "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
+      "openalex": "A5073122790",
+      "area": "Partículas y física nuclear",
+      "works_count": 8,
+      "cited_by": 49,
       "studied": [
         {
           "place": "unmdp",
@@ -105098,11 +106728,15 @@
       "initials": "AZ",
       "source": "web",
       "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=zavala+trujillo%2C+augurio+narciso",
-      "orcid": null,
+      "orcid": "0000-0002-0170-2384",
       "site": "RENATI",
       "updated": "02-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "openalex": "A5094263217",
+      "area": "Materia condensada y materiales",
+      "works_count": 1,
+      "cited_by": 0,
       "studied": [
         {
           "place": "unmsm",
@@ -105730,11 +107364,15 @@
       "initials": "RZ",
       "source": "web",
       "url": "https://www.linkedin.com/in/ricardo-zubieta-barrag%C3%A1n-724b96124/",
-      "orcid": null,
+      "orcid": "0000-0002-4315-7695",
       "site": "LinkedIn",
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Ingeniería",
+      "openalex": "A5074706654",
+      "area": "Tierra, clima y ambiente",
+      "works_count": 40,
+      "cited_by": 761,
       "fields": ["Modelización hidrológica", "Recursos hídricos"],
       "studied": [
         {
