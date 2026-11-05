@@ -23349,7 +23349,7 @@
         {
           "place": "ufes",
           "name": "Universidade Federal do Espírito Santo",
-          "role": "Investigador phd",
+          "role": "Investigador PhD",
           "start": 2013,
           "end": 2017
         }
@@ -23361,7 +23361,7 @@
         },
         {
           "place": "ufes",
-          "did": ["Maestría", "Doctorado", "Investigador phd"]
+          "did": ["Maestría", "Doctorado", "Investigador PhD"]
         },
         {
           "place": "ufpr",
@@ -23914,7 +23914,7 @@
         {
           "place": "unp",
           "name": "Universidad Nacional de Piura",
-          "role": "Jefe de unidad de recreación y deportes de la universidad nacional de piura",
+          "role": "Jefe de unidad de recreación y deportes de la Universidad Nacional de Piura",
           "start": 2025,
           "end": 2025
         },
@@ -23984,7 +23984,7 @@
         {
           "place": "unp",
           "name": "Universidad Nacional de Piura",
-          "role": "Cordinador general sedes descentralizadas -unp",
+          "role": "Cordinador general sedes descentralizadas -UNP",
           "start": 2005,
           "end": 2010
         }
@@ -24001,7 +24001,7 @@
         {
           "place": "unp",
           "did": [
-            "Cordinador general sedes descentralizadas -unp",
+            "Cordinador general sedes descentralizadas -UNP",
             "Cordinador administrativo proedun sullana",
             "Cordinador administrativo centro de informatica",
             "Cordinador administrativo sede sechura",
@@ -24011,7 +24011,7 @@
             "Director de departamento de física",
             "Organizador",
             "Ponente",
-            "Jefe de unidad de recreación y deportes de la universidad nacional de piura"
+            "Jefe de unidad de recreación y deportes de la Universidad Nacional de Piura"
           ]
         }
       ]
@@ -24219,21 +24219,21 @@
       "works": [
         {
           "place": "utec",
-          "role": "Asistente de enseñanza tc"
+          "role": "Asistente de enseñanza TC"
         }
       ],
       "jobs": [
         {
           "place": "utec",
           "name": "Universidad de Ingeniería y Tecnología",
-          "role": "Asistente de enseñanza tc",
+          "role": "Asistente de enseñanza TC",
           "start": 2024,
           "end": "now"
         },
         {
           "place": "utec",
           "name": "Universidad de Ingeniería y Tecnología",
-          "role": "Asistente de enseñanza tp",
+          "role": "Asistente de enseñanza TP",
           "start": 2023,
           "end": 2024
         }
@@ -24245,7 +24245,7 @@
         },
         {
           "place": "utec",
-          "did": ["Asistente de enseñanza tp", "Asistente de enseñanza tc"]
+          "did": ["Asistente de enseñanza TP", "Asistente de enseñanza TC"]
         }
       ]
     },
@@ -24562,7 +24562,7 @@
       "works": [
         {
           "place": "univ-cote-azur",
-          "role": "Investigador principal del ird y jefe del equipo de ciclo sísmico de géoazur"
+          "role": "Investigador principal del IRD y jefe del equipo de ciclo sísmico de géoazur"
         }
       ],
       "jobs": [
@@ -24597,7 +24597,7 @@
         {
           "place": "univ-cote-azur",
           "name": "Université Côte d'Azur",
-          "role": "Investigador principal del ird y jefe del equipo de ciclo sísmico de géoazur",
+          "role": "Investigador principal del IRD y jefe del equipo de ciclo sísmico de géoazur",
           "start": 2017,
           "end": "now"
         }
@@ -24630,7 +24630,7 @@
         {
           "place": "univ-cote-azur",
           "did": [
-            "Investigador principal del ird y jefe del equipo de ciclo sísmico de géoazur"
+            "Investigador principal del IRD y jefe del equipo de ciclo sísmico de géoazur"
           ]
         }
       ],
@@ -26086,14 +26086,14 @@
       "works": [
         {
           "place": "vibro",
-          "role": "Analista de vibraciones cat ii"
+          "role": "Analista de vibraciones cat II"
         }
       ],
       "jobs": [
         {
           "place": "vibro",
           "name": "Vibro Technology",
-          "role": "Analista de vibraciones cat ii",
+          "role": "Analista de vibraciones cat II",
           "start": 2022,
           "end": "now"
         }
@@ -26109,7 +26109,7 @@
         },
         {
           "place": "vibro",
-          "did": ["Analista de vibraciones cat ii"]
+          "did": ["Analista de vibraciones cat II"]
         }
       ]
     },
@@ -27387,28 +27387,28 @@
         {
           "place": "usp",
           "name": "Universidade de São Paulo",
-          "role": "Jefe de practica fisica iv",
+          "role": "Jefe de practica fisica IV",
           "start": 2020,
           "end": 2020
         },
         {
           "place": "usp",
           "name": "Universidade de São Paulo",
-          "role": "Jefe de práctica fisica iii",
+          "role": "Jefe de práctica fisica III",
           "start": 2019,
           "end": 2019
         },
         {
           "place": "usp",
           "name": "Universidade de São Paulo",
-          "role": "Jefe de práctica fisica iv",
+          "role": "Jefe de práctica fisica IV",
           "start": 2018,
           "end": 2018
         },
         {
           "place": "usp",
           "name": "Universidade de São Paulo",
-          "role": "Jefe de práctica fisica iii",
+          "role": "Jefe de práctica fisica III",
           "start": 2018,
           "end": 2018
         },
@@ -27422,21 +27422,21 @@
         {
           "place": "utp",
           "name": "Universidad Tecnológica del Perú",
-          "role": "Docente de fisica general (fisica i), electricidad y magnetismo",
+          "role": "Docente de fisica general (fisica I), electricidad y magnetismo",
           "start": 2015,
           "end": 2017
         },
         {
           "place": "usp",
           "name": "Universidade de São Paulo",
-          "role": "Jefe de práctica fisica matematica ii",
+          "role": "Jefe de práctica fisica matematica II",
           "start": 2013,
           "end": 2013
         },
         {
           "place": "usp",
           "name": "Universidade de São Paulo",
-          "role": "Jefe de práctica fisica matematica ii",
+          "role": "Jefe de práctica fisica matematica II",
           "start": 2013,
           "end": 2013
         },
@@ -27462,12 +27462,12 @@
         },
         {
           "place": "usp",
-          "did": ["Maestría", "Jefe de práctica fisica matematica ii"]
+          "did": ["Maestría", "Jefe de práctica fisica matematica II"]
         },
         {
           "place": "utp",
           "did": [
-            "Docente de fisica general (fisica i), electricidad y magnetismo"
+            "Docente de fisica general (fisica I), electricidad y magnetismo"
           ]
         },
         {
@@ -27475,9 +27475,9 @@
           "did": [
             "Doctorado",
             "Jefe de practica de metodos de la fisica teorica",
-            "Jefe de práctica fisica iv",
-            "Jefe de práctica fisica iii",
-            "Jefe de practica fisica iv"
+            "Jefe de práctica fisica IV",
+            "Jefe de práctica fisica III",
+            "Jefe de practica fisica IV"
           ]
         },
         {
@@ -27835,14 +27835,14 @@
       "works": [
         {
           "place": "upn",
-          "role": "Jefe centro de investigacion en nanotecnologia y materiales avanzados (cinma)"
+          "role": "Jefe centro de investigacion en nanotecnologia y materiales avanzados (CINMA)"
         }
       ],
       "jobs": [
         {
           "place": "upn",
           "name": "Universidad Privada del Norte",
-          "role": "Jefe centro de investigacion en nanotecnologia y materiales avanzados (cinma)",
+          "role": "Jefe centro de investigacion en nanotecnologia y materiales avanzados (CINMA)",
           "start": 2026,
           "end": "now"
         },
@@ -27863,7 +27863,7 @@
         {
           "place": "ual",
           "name": "Universidad de Almería",
-          "role": "Researcher, phd student",
+          "role": "Researcher, PhD student",
           "start": 2019,
           "end": 2021
         },
@@ -27955,7 +27955,7 @@
         },
         {
           "place": "ual",
-          "did": ["Researcher, phd student"]
+          "did": ["Researcher, PhD student"]
         },
         {
           "place": "undc",
@@ -27964,7 +27964,7 @@
         {
           "place": "upn",
           "did": [
-            "Jefe centro de investigacion en nanotecnologia y materiales avanzados (cinma)"
+            "Jefe centro de investigacion en nanotecnologia y materiales avanzados (CINMA)"
           ]
         }
       ],
@@ -28005,7 +28005,7 @@
         {
           "place": "upch",
           "level": "Maestría",
-          "field": "Msc. marine sciences",
+          "field": "MSc. marine sciences",
           "start": 2015,
           "end": 2016
         }
@@ -28901,7 +28901,7 @@
         {
           "place": "unsa",
           "name": "Universidad Nacional de San Agustín de Arequipa",
-          "role": "Director de unidad de investigación de facultad de ciencias naturales y formales unsa",
+          "role": "Director de unidad de investigación de facultad de ciencias naturales y formales UNSA",
           "start": 2020,
           "end": 2021
         },
@@ -28938,7 +28938,7 @@
           "did": [
             "Docente investigador",
             "Coordinador",
-            "Director de unidad de investigación de facultad de ciencias naturales y formales unsa"
+            "Director de unidad de investigación de facultad de ciencias naturales y formales UNSA"
           ]
         }
       ]
@@ -29373,14 +29373,14 @@
         {
           "place": "cnrs",
           "name": "Centre national de la recherche scientifique",
-          "role": "Ingénieur détudes en instrumentation et expérimentation",
+          "role": "Ingénieur d’études en instrumentation et expérimentation",
           "start": 2021,
           "end": 2021
         },
         {
           "place": "cea-cadarache",
           "name": "Centre CEA de Cadarache",
-          "role": "Phd fellow",
+          "role": "PhD fellow",
           "start": 2018,
           "end": 2021
         },
@@ -29422,11 +29422,11 @@
         },
         {
           "place": "cea-cadarache",
-          "did": ["Phd fellow"]
+          "did": ["PhD fellow"]
         },
         {
           "place": "cnrs",
-          "did": ["Ingénieur détudes en instrumentation et expérimentation"]
+          "did": ["Ingénieur d’études en instrumentation et expérimentation"]
         },
         {
           "place": "wm",
@@ -29887,7 +29887,7 @@
         {
           "place": "unir",
           "level": "Maestría",
-          "field": "Máster en diseño y gestión de proyectos tecnológicos i+d+i",
+          "field": "Máster en diseño y gestión de proyectos tecnológicos I+d+I",
           "start": 2023,
           "end": 2024
         }
@@ -31049,28 +31049,28 @@
         {
           "place": "ufmg",
           "name": "Universidade Federal de Minas Gerais",
-          "role": "Postdoctoral position (capes/pnpd research fellow) at the department of nuclear engineering (den) of the ufmg",
+          "role": "Postdoctoral position (CAPES/PNPD research fellow) at the department of nuclear engineering (DEN) of the UFMG",
           "start": 2019,
           "end": 2022
         },
         {
           "place": "cdtn",
           "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
-          "role": "Postdoctoral position (capes/pnpd research fellow)",
+          "role": "Postdoctoral position (CAPES/PNPD research fellow)",
           "start": 2019,
           "end": 2019
         },
         {
           "place": "cdtn",
           "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
-          "role": "Researcher position (pci-db/cnpq research fellow)",
+          "role": "Researcher position (PCI-DB/CNPq research fellow)",
           "start": 2018,
           "end": 2018
         },
         {
           "place": "ufmg",
           "name": "Universidade Federal de Minas Gerais",
-          "role": "Phd researcher position at ufmg/cdtn (cnen research fellow)",
+          "role": "PhD researcher position at UFMG/CDTN (CNEN research fellow)",
           "start": 2013,
           "end": 2017
         },
@@ -31084,21 +31084,21 @@
         {
           "place": "cdtn",
           "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
-          "role": "Researcher position (sibratec/metroradi/cnpq research fellow)",
+          "role": "Researcher position (SIBRATEC/METRORADI/CNPq research fellow)",
           "start": 2011,
           "end": 2013
         },
         {
           "place": "cdtn",
           "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
-          "role": "Msc. researcher position (pci/cnpq research fellow)",
+          "role": "MSc. researcher position (PCI/CNPq research fellow)",
           "start": 2009,
           "end": 2011
         },
         {
           "place": "cdtn",
           "name": "Centro de Desenvolvimento da Tecnologia Nuclear",
-          "role": "Researcher position (pci/cnpq research fellow)",
+          "role": "Researcher position (PCI/CNPq research fellow)",
           "start": 2009,
           "end": 2009
         }
@@ -31119,14 +31119,14 @@
         {
           "place": "cdtn",
           "did": [
-            "Msc. researcher position (pci/cnpq research fellow)",
-            "Researcher position (pci/cnpq research fellow)",
-            "Researcher position (sibratec/metroradi/cnpq research fellow)"
+            "MSc. researcher position (PCI/CNPq research fellow)",
+            "Researcher position (PCI/CNPq research fellow)",
+            "Researcher position (SIBRATEC/METRORADI/CNPq research fellow)"
           ]
         },
         {
           "place": "ufmg",
-          "did": ["Phd researcher position at ufmg/cdtn (cnen research fellow)"]
+          "did": ["PhD researcher position at UFMG/CDTN (CNEN research fellow)"]
         },
         {
           "place": "nucleom",
@@ -31134,17 +31134,17 @@
         },
         {
           "place": "cdtn",
-          "did": ["Researcher position (pci-db/cnpq research fellow)"]
+          "did": ["Researcher position (PCI-DB/CNPq research fellow)"]
         },
         {
           "place": "ufmg",
           "did": [
-            "Postdoctoral position (capes/pnpd research fellow) at the department of nuclear engineering (den) of the ufmg"
+            "Postdoctoral position (CAPES/PNPD research fellow) at the department of nuclear engineering (DEN) of the UFMG"
           ]
         },
         {
           "place": "cdtn",
-          "did": ["Postdoctoral position (capes/pnpd research fellow)"]
+          "did": ["Postdoctoral position (CAPES/PNPD research fellow)"]
         },
         {
           "place": "uni",
@@ -32820,7 +32820,7 @@
         {
           "place": "unp",
           "level": "Maestría",
-          "field": "Msc. docencia universitaria",
+          "field": "MSc. docencia universitaria",
           "start": 2004,
           "end": 2006
         }
@@ -37171,7 +37171,7 @@
         {
           "place": "rwth",
           "level": "Maestría",
-          "field": "Master of science rwth aachen university (m. sc. rwth) (magíster en ciencias)",
+          "field": "Master of science RWTH Aachen university (M. Sc. RWTH) (magíster en ciencias)",
           "start": null,
           "end": null
         }
@@ -38250,7 +38250,7 @@
         {
           "place": "uc",
           "name": "Universidad Continental",
-          "role": "Docente tp",
+          "role": "Docente TP",
           "start": 2022,
           "end": 2026
         },
@@ -38277,7 +38277,7 @@
         },
         {
           "place": "uc",
-          "did": ["Docente tp"]
+          "did": ["Docente TP"]
         }
       ]
     },
@@ -38324,21 +38324,21 @@
         {
           "place": null,
           "name": "Fa Ingenieros",
-          "role": "Especialista en difraccion de rayos x",
+          "role": "Especialista en difraccion de rayos X",
           "start": 2020,
           "end": 2020
         },
         {
           "place": null,
           "name": "Fa Ingenieros",
-          "role": "Especialista en difraccion de rayos x",
+          "role": "Especialista en difraccion de rayos X",
           "start": 2018,
           "end": 2019
         },
         {
           "place": null,
           "name": "Fa Ingenieros",
-          "role": "Especialista en difraccion de rayos x",
+          "role": "Especialista en difraccion de rayos X",
           "start": 2017,
           "end": 2018
         },
@@ -38402,14 +38402,14 @@
       "works": [
         {
           "place": "usp",
-          "role": "Phd fellow"
+          "role": "PhD fellow"
         }
       ],
       "jobs": [
         {
           "place": "usp",
           "name": "Universidade de São Paulo",
-          "role": "Phd fellow",
+          "role": "PhD fellow",
           "start": 2021,
           "end": "now"
         },
@@ -38472,7 +38472,7 @@
         },
         {
           "place": "usp",
-          "did": ["Maestría", "Phd fellow"]
+          "did": ["Maestría", "PhD fellow"]
         }
       ]
     },
@@ -38727,14 +38727,14 @@
       "works": [
         {
           "place": "ufabc",
-          "role": "Prof. associado iv"
+          "role": "Prof. associado IV"
         }
       ],
       "jobs": [
         {
           "place": "ufabc",
           "name": "Universidade Federal do ABC",
-          "role": "Prof. associado iv",
+          "role": "Prof. associado IV",
           "start": 2009,
           "end": "now"
         },
@@ -38768,7 +38768,7 @@
         },
         {
           "place": "ufabc",
-          "did": ["Prof. associado iv"]
+          "did": ["Prof. associado IV"]
         }
       ]
     },
@@ -38948,7 +38948,7 @@
         {
           "place": null,
           "name": "Bioelectronsac",
-          "role": "Control de calidad en equipos de rayos x",
+          "role": "Control de calidad en equipos de rayos X",
           "start": 2023,
           "end": 2023
         },
@@ -39029,7 +39029,7 @@
         {
           "place": "cu-boulder",
           "level": "Doctorado",
-          "field": "Ph.d. en ingeniería eléctrica y de computadoras",
+          "field": "Ph.D. en ingeniería eléctrica y de computadoras",
           "start": 1993,
           "end": 1998
         }
@@ -39359,7 +39359,7 @@
         {
           "place": "duke",
           "name": "Duke University",
-          "role": "Ph.d candidate",
+          "role": "Ph.D candidate",
           "start": 2020,
           "end": 2023
         },
@@ -39404,7 +39404,7 @@
         },
         {
           "place": "duke",
-          "did": ["Ph.d candidate"]
+          "did": ["Ph.D candidate"]
         },
         {
           "place": "scu",
@@ -39784,14 +39784,14 @@
       "works": [
         {
           "place": "upn",
-          "role": "Docente tc"
+          "role": "Docente TC"
         }
       ],
       "jobs": [
         {
           "place": "upn",
           "name": "Universidad Privada del Norte",
-          "role": "Docente tc",
+          "role": "Docente TC",
           "start": 2021,
           "end": "now"
         },
@@ -39805,7 +39805,7 @@
         {
           "place": "upn",
           "name": "Universidad Privada del Norte",
-          "role": "Docente tc",
+          "role": "Docente TC",
           "start": 2018,
           "end": 2020
         },
@@ -39840,7 +39840,7 @@
         },
         {
           "place": "upn",
-          "did": ["Docente tc"]
+          "did": ["Docente TC"]
         }
       ]
     },
@@ -40268,7 +40268,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Investigador invitado del grupo gft y space de la universidad nacional mayor de san marcos",
+          "role": "Investigador invitado del grupo GFT y SPACE de la Universidad Nacional Mayor de San Marcos",
           "start": 2018,
           "end": 2018
         },
@@ -40325,7 +40325,7 @@
         {
           "place": "unmsm",
           "did": [
-            "Investigador invitado del grupo gft y space de la universidad nacional mayor de san marcos"
+            "Investigador invitado del grupo GFT y SPACE de la Universidad Nacional Mayor de San Marcos"
           ]
         },
         {
@@ -40515,7 +40515,7 @@
         {
           "place": "unp",
           "name": "Universidad Nacional de Piura",
-          "role": "Fisico dosimetrista en control de calidad en equipos de radiodiagnostico para el hospital universitario de la unp",
+          "role": "Fisico dosimetrista en control de calidad en equipos de radiodiagnostico para el hospital universitario de la UNP",
           "start": 2011,
           "end": 2015
         },
@@ -40554,7 +40554,7 @@
         {
           "place": "unp",
           "did": [
-            "Fisico dosimetrista en control de calidad en equipos de radiodiagnostico para el hospital universitario de la unp",
+            "Fisico dosimetrista en control de calidad en equipos de radiodiagnostico para el hospital universitario de la UNP",
             "Docente",
             "Docente universitario en la categoria de auxiliar a tiempo completo",
             "Miembro de la asamblea universitaria"
@@ -41430,7 +41430,7 @@
         {
           "place": "pucp",
           "name": "Pontificia Universidad Católica del Perú",
-          "role": "Becario maestría concytec",
+          "role": "Becario maestría CONCYTEC",
           "start": 2015,
           "end": 2017
         },
@@ -41452,7 +41452,7 @@
           "did": [
             "Maestría",
             "Doctorado",
-            "Becario maestría concytec",
+            "Becario maestría CONCYTEC",
             "Becario doctorado cienciactiva"
           ]
         },
@@ -41695,7 +41695,7 @@
         {
           "place": "unsa",
           "name": "Universidad Nacional de San Agustín de Arequipa",
-          "role": "Director del instituto de investigación geofísica de la unsa (idigunsa)",
+          "role": "Director del instituto de investigación geofísica de la UNSA (IDIGUNSA)",
           "start": 2024,
           "end": "now"
         }
@@ -41718,7 +41718,7 @@
           "did": [
             "Docente investigador",
             "Director de la unidad de investigación de la facultad de geología, geofísica y minas",
-            "Director del instituto de investigación geofísica de la unsa (idigunsa)"
+            "Director del instituto de investigación geofísica de la UNSA (IDIGUNSA)"
           ]
         }
       ]
@@ -42558,7 +42558,7 @@
       "works": [
         {
           "place": "auger",
-          "role": "Phd student"
+          "role": "PhD student"
         },
         {
           "place": "unlp",
@@ -42569,7 +42569,7 @@
         {
           "place": "auger",
           "name": "Observatorio Pierre Auger",
-          "role": "Phd student",
+          "role": "PhD student",
           "start": null,
           "end": "now"
         },
@@ -42595,7 +42595,7 @@
         },
         {
           "place": "auger",
-          "did": ["Phd student"]
+          "did": ["PhD student"]
         },
         {
           "place": "ictp",
@@ -42924,14 +42924,14 @@
         {
           "place": "unitru",
           "name": "Universidad Nacional de Trujillo",
-          "role": "Docente tc",
+          "role": "Docente TC",
           "start": 2019,
           "end": 2023
         },
         {
           "place": "upn",
           "name": "Universidad Privada del Norte",
-          "role": "Docente tc",
+          "role": "Docente TC",
           "start": 2018,
           "end": 2019
         },
@@ -42961,11 +42961,11 @@
         },
         {
           "place": "upn",
-          "did": ["Docente tc"]
+          "did": ["Docente TC"]
         },
         {
           "place": "unitru",
-          "did": ["Docente tc"]
+          "did": ["Docente TC"]
         },
         {
           "place": "uni",
@@ -45892,14 +45892,14 @@
       "works": [
         {
           "place": "ufrj",
-          "role": "Professor associado i"
+          "role": "Professor associado I"
         }
       ],
       "jobs": [
         {
           "place": "ufrj",
           "name": "Universidade Federal do Rio de Janeiro",
-          "role": "Professor associado i",
+          "role": "Professor associado I",
           "start": 2014,
           "end": "now"
         }
@@ -45915,7 +45915,7 @@
         },
         {
           "place": "ufrj",
-          "did": ["Professor associado i"]
+          "did": ["Professor associado I"]
         }
       ]
     },
@@ -48660,7 +48660,7 @@
         {
           "place": "iiser-mohali",
           "name": "Indian Institute of Science Education and Research Mohali",
-          "role": "Ph.d. student",
+          "role": "Ph.D. student",
           "start": 2016,
           "end": 2023
         }
@@ -48672,7 +48672,7 @@
         },
         {
           "place": "iiser-mohali",
-          "did": ["Ph.d. student"]
+          "did": ["Ph.D. student"]
         },
         {
           "place": "cau",
@@ -50740,14 +50740,14 @@
       "works": [
         {
           "place": "pucp",
-          "role": "Asistente de investigacion en laboratorio de materiales y energias renovables (mater-pucp))"
+          "role": "Asistente de investigacion en laboratorio de materiales y energias renovables (MATER-PUCP))"
         }
       ],
       "jobs": [
         {
           "place": "pucp",
           "name": "Pontificia Universidad Católica del Perú",
-          "role": "Asistente de investigacion en laboratorio de materiales y energias renovables (mater-pucp))",
+          "role": "Asistente de investigacion en laboratorio de materiales y energias renovables (MATER-PUCP))",
           "start": 2021,
           "end": "now"
         }
@@ -50760,7 +50760,7 @@
         {
           "place": "pucp",
           "did": [
-            "Asistente de investigacion en laboratorio de materiales y energias renovables (mater-pucp))",
+            "Asistente de investigacion en laboratorio de materiales y energias renovables (MATER-PUCP))",
             "Maestría"
           ]
         },
@@ -50879,7 +50879,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Profesor auxiliar, dr.",
+          "role": "Profesor auxiliar, Dr.",
           "start": 2017,
           "end": 2019
         },
@@ -50925,7 +50925,7 @@
         },
         {
           "place": "unmsm",
-          "did": ["Profesor auxiliar, dr.", "Docente"]
+          "did": ["Profesor auxiliar, Dr.", "Docente"]
         },
         {
           "place": "ulaval",
@@ -52259,7 +52259,7 @@
         {
           "place": "untels",
           "name": "Universidad Nacional Tecnológica de Lima Sur",
-          "role": "Director del instituto general de investigación y prospectiva tecnológica (igipt)",
+          "role": "Director del instituto general de investigación y prospectiva tecnológica (IGIPT)",
           "start": 2009,
           "end": 2011
         },
@@ -52298,7 +52298,7 @@
           "place": "untels",
           "did": [
             "Profesor",
-            "Director del instituto general de investigación y prospectiva tecnológica (igipt)",
+            "Director del instituto general de investigación y prospectiva tecnológica (IGIPT)",
             "Presidente de la comisión de admisión- 2011-I",
             "Jefe de ogsa",
             "Presidente de la comisión de admisión- 2013-II",
@@ -52398,7 +52398,7 @@
         {
           "place": "unalm",
           "level": "Doctorado",
-          "field": "Ph.d. recursos hidricos",
+          "field": "Ph.D. recursos hidricos",
           "start": 2017,
           "end": 2019
         }
@@ -52650,7 +52650,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Jefe de practicas tc",
+          "role": "Jefe de practicas TC",
           "start": 1998,
           "end": 2000
         },
@@ -52676,7 +52676,7 @@
             "Bachillerato",
             "Licenciatura",
             "Maestría",
-            "Jefe de practicas tc"
+            "Jefe de practicas TC"
           ]
         },
         {
@@ -54879,7 +54879,7 @@
         {
           "place": null,
           "name": "Direccion General de Electrificacion Rural - Minem.",
-          "role": "Consultoria/ revision del funcionamiento de 510 instalaciones rer autonomas implementadas por el inversionista en las regiones de amazonas y san martin.",
+          "role": "Consultoria/ revision del funcionamiento de 510 instalaciones rer autonomas implementadas por el inversionista en las regiones de Amazonas y San Martín.",
           "start": 2017,
           "end": 2017
         },
@@ -54893,70 +54893,70 @@
         {
           "place": null,
           "name": "Direccion General de Electrificacion Rural - Minem",
-          "role": "Supervision del suministro e instalacion del proyecto “ampliacion del suministro de energia electrica mediante la instalacion de sistemas fotovoltaicos domiciliarios (sfd) en las regiones de ucayali y loreto”.",
+          "role": "Supervision del suministro e instalacion del proyecto “ampliacion del suministro de energia electrica mediante la instalacion de sistemas fotovoltaicos domiciliarios (SFD) en las regiones de Ucayali y Loreto”.",
           "start": 2013,
           "end": 2014
         },
         {
           "place": null,
           "name": "Empresa Solar Power Sac",
-          "role": "Gerente tecnico. empresa solar power s.a.c. (sp sac). coordinar las actividades para la elaboracion, diseno, ejecucion, monitoreo y supervision de proyectos con energias renovables.",
+          "role": "Gerente tecnico. empresa solar power S.A.C. (SP SAC). coordinar las actividades para la elaboracion, diseno, ejecucion, monitoreo y supervision de proyectos con energias renovables.",
           "start": 2012,
           "end": 2013
         },
         {
           "place": null,
           "name": "Desarrollo Energetico Sostenible",
-          "role": "Gerente de servicio electrico. empresa desarrollo energetico sostenible s.a.c. (des sac). gestionar las actividades de explotacion tecnica y comercial de sistemas fotovoltaicos domesticos en las provincias de jaen y san ignacio, region cajamarca.",
+          "role": "Gerente de servicio electrico. empresa desarrollo energetico sostenible S.A.C. (DES SAC). gestionar las actividades de explotacion tecnica y comercial de sistemas fotovoltaicos domesticos en las provincias de Jaén y San Ignacio, region Cajamarca.",
           "start": 2011,
           "end": 2012
         },
         {
           "place": null,
           "name": "Desarrollo Energetico Sostenible",
-          "role": "Supervisor de proyectos. empresa desarrollo energetico sostenible s.a.c. (des sac). supervision, gestion tecnica, administrativa y comercial de 1550 sistemas fotovoltaicos domesticos en la region cajamarca.",
+          "role": "Supervisor de proyectos. empresa desarrollo energetico sostenible S.A.C. (DES SAC). supervision, gestion tecnica, administrativa y comercial de 1550 sistemas fotovoltaicos domesticos en la region Cajamarca.",
           "start": 2010,
           "end": 2011
         },
         {
           "place": null,
           "name": "Ministerio de Energia y Minas",
-          "role": "Consultoria. asistencia tecnica internacional – ministerio de energia y minas. supervision de las obras civiles e instalaciones electromecanicas, y de cargas del kit hibrido (eolico-solar) del programa euro-solar en 12 comunidades de las regiones de piura, amazonas y lambayeque.",
+          "role": "Consultoria. asistencia tecnica internacional – ministerio de energia y minas. supervision de las obras civiles e instalaciones electromecanicas, y de cargas del kit hibrido (eolico-solar) del programa euro-solar en 12 comunidades de las regiones de Piura, Amazonas y Lambayeque.",
           "start": 2010,
           "end": 2011
         },
         {
           "place": null,
           "name": "Empresa de Administracion de Infraestructura Electrica (adinelsa)",
-          "role": "Coordinador de proyectos de la region cajamarca. empresa de administracion de infraestructura electrica s.a (adinelsa). supervision y gestion tecnica, administrativa y comercial de 1550 sistemas fotovoltaicos domesticos instalados en la region cajamarca.",
+          "role": "Coordinador de proyectos de la region Cajamarca. empresa de administracion de infraestructura electrica s.a (ADINELSA). supervision y gestion tecnica, administrativa y comercial de 1550 sistemas fotovoltaicos domesticos instalados en la region Cajamarca.",
           "start": 2008,
           "end": 2010
         },
         {
           "place": "unalm",
           "name": "Universidad Nacional Agraria La Molina",
-          "role": "Integrante del equipo de investigacion sobre “conflictos y consensos en la mineria peruana – estudio de caso para la elaboracion de indicadores bajo el enfoque de desarrollo rural territorial”. convenio suscrito entre la universidad nacional agraria la molina y pennsylvania state university – trabajo con comunidades de pequenos productores del peru.",
+          "role": "Integrante del equipo de investigacion sobre “conflictos y consensos en la mineria peruana – estudio de caso para la elaboracion de indicadores bajo el enfoque de desarrollo rural territorial”. convenio suscrito entre la Universidad Nacional Agraria La Molina y Pennsylvania State University – trabajo con comunidades de pequenos productores del Perú.",
           "start": 2007,
           "end": 2008
         },
         {
           "place": null,
           "name": "Empresa de Adminitracion de Infraestructura Electrica Sa",
-          "role": "Consultoria. empresa de administracion de infraestructura electrica s.a. administracion tecnico – comercial de los 1550 sistemas fotovoltaicos domesticos instalados en 49 localidades en los distritos de huarango, namballe, san ignacio, santa rosa, san jose de lourdes y san jose del alto de la region cajamarca.",
+          "role": "Consultoria. empresa de administracion de infraestructura electrica s.a. administracion tecnico – comercial de los 1550 sistemas fotovoltaicos domesticos instalados en 49 localidades en los distritos de huarango, namballe, San Ignacio, santa rosa, san jose de lourdes y san jose del alto de la region Cajamarca.",
           "start": 2008,
           "end": 2008
         },
         {
           "place": "unalm",
           "name": "Universidad Nacional Agraria La Molina",
-          "role": "Investigador asociado del equipo interdisciplinario del instituto de la pequena produccion sustentable de la universidad nacional agraria la molina. encargado de planificar, monitorear, sistematizar y evaluar proyectos con energia no convencional. unalm.",
+          "role": "Investigador asociado del equipo interdisciplinario del instituto de la pequena produccion sustentable de la Universidad Nacional Agraria La Molina. encargado de planificar, monitorear, sistematizar y evaluar proyectos con energia no convencional. UNALM.",
           "start": 2006,
           "end": 2008
         },
         {
           "place": "unalm",
           "name": "Universidad Nacional Agraria La Molina",
-          "role": "Consultoria. integrante del equipo de investigacion sobre “implementacion de la cadena productiva alto andina de los biocombustibles”. convenio suscrito entre la universidad nacional agraria la molina y sierra exportadora.",
+          "role": "Consultoria. integrante del equipo de investigacion sobre “implementacion de la cadena productiva alto andina de los biocombustibles”. convenio suscrito entre la Universidad Nacional Agraria La Molina y sierra exportadora.",
           "start": 2007,
           "end": 2008
         },
@@ -54970,7 +54970,7 @@
         {
           "place": null,
           "name": "Ministerio de Energia y Minas",
-          "role": "Consultor del proyecto PER/98/G31, ministerio de energia y minas – programa de las naciones unidas para el desarrollo. supervision de sistemas fotovoltaicos domesticos instalados en 25 localidades de los distritos de namballe, san ignacio, huarango y san jose de lourdes de la provincia de san ignacio - cajamarca.",
+          "role": "Consultor del proyecto PER/98/G31, ministerio de energia y minas – programa de las naciones unidas para el desarrollo. supervision de sistemas fotovoltaicos domesticos instalados en 25 localidades de los distritos de namballe, San Ignacio, huarango y san jose de lourdes de la provincia de San Ignacio - Cajamarca.",
           "start": 2007,
           "end": 2007
         }
@@ -54983,9 +54983,9 @@
         {
           "place": "unalm",
           "did": [
-            "Investigador asociado del equipo interdisciplinario del instituto de la pequena produccion sustentable de la universidad nacional agraria la molina. encargado de planificar, monitorear, sistematizar y evaluar proyectos con energia no convencional. unalm.",
-            "Integrante del equipo de investigacion sobre “conflictos y consensos en la mineria peruana – estudio de caso para la elaboracion de indicadores bajo el enfoque de desarrollo rural territorial”. convenio suscrito entre la universidad nacional agraria la molina y pennsylvania state university – trabajo con comunidades de pequenos productores del peru.",
-            "Consultoria. integrante del equipo de investigacion sobre “implementacion de la cadena productiva alto andina de los biocombustibles”. convenio suscrito entre la universidad nacional agraria la molina y sierra exportadora.",
+            "Investigador asociado del equipo interdisciplinario del instituto de la pequena produccion sustentable de la Universidad Nacional Agraria La Molina. encargado de planificar, monitorear, sistematizar y evaluar proyectos con energia no convencional. UNALM.",
+            "Integrante del equipo de investigacion sobre “conflictos y consensos en la mineria peruana – estudio de caso para la elaboracion de indicadores bajo el enfoque de desarrollo rural territorial”. convenio suscrito entre la Universidad Nacional Agraria La Molina y Pennsylvania State University – trabajo con comunidades de pequenos productores del Perú.",
+            "Consultoria. integrante del equipo de investigacion sobre “implementacion de la cadena productiva alto andina de los biocombustibles”. convenio suscrito entre la Universidad Nacional Agraria La Molina y sierra exportadora.",
             "Encargado del laboratorio de energias renovables y planta de biodiesel"
           ]
         }
@@ -55063,14 +55063,14 @@
         {
           "place": "mackenzie",
           "level": "Maestría",
-          "field": "Msc. in geospace sciences and applications",
+          "field": "MSc. in geospace sciences and applications",
           "start": 2013,
           "end": 2015
         },
         {
           "place": "mackenzie",
           "level": "Doctorado",
-          "field": "Ph.d. in geospace sciences and applications",
+          "field": "Ph.D. in geospace sciences and applications",
           "start": 2015,
           "end": 2019
         }
@@ -55236,7 +55236,7 @@
         {
           "place": "warwick",
           "name": "University of Warwick",
-          "role": "Exchange msc student",
+          "role": "Exchange MSc student",
           "start": 2023,
           "end": 2024
         }
@@ -55252,7 +55252,7 @@
         },
         {
           "place": "warwick",
-          "did": ["Exchange msc student"]
+          "did": ["Exchange MSc student"]
         },
         {
           "place": "uis-no",
@@ -55308,7 +55308,7 @@
         {
           "place": "unibo",
           "name": "Università di Bologna",
-          "role": "Research fellow / phd",
+          "role": "Research fellow / PhD",
           "start": 2021,
           "end": 2024
         }
@@ -55320,7 +55320,7 @@
         },
         {
           "place": "unibo",
-          "did": ["Doctorado", "Research fellow / phd"]
+          "did": ["Doctorado", "Research fellow / PhD"]
         },
         {
           "place": "ncbj",
@@ -57010,7 +57010,7 @@
         {
           "place": "unia-andalucia",
           "level": "Doctorado",
-          "field": "Phd technology environment",
+          "field": "PhD technology environment",
           "start": 2008,
           "end": 2015
         }
@@ -57354,7 +57354,7 @@
         {
           "place": "utokyo",
           "level": "Doctorado",
-          "field": "Grado de doctor (ph.d.) en el campo de estudio ciencias multidisciplinarias",
+          "field": "Grado de doctor (Ph.D.) en el campo de estudio ciencias multidisciplinarias",
           "start": null,
           "end": null
         }
@@ -59554,14 +59554,14 @@
       "works": [
         {
           "place": "valencia",
-          "role": "Phd student"
+          "role": "PhD student"
         }
       ],
       "jobs": [
         {
           "place": "valencia",
           "name": "Universitat de València",
-          "role": "Phd student",
+          "role": "PhD student",
           "start": 2023,
           "end": "now"
         }
@@ -59577,7 +59577,7 @@
         },
         {
           "place": "valencia",
-          "did": ["Phd student"]
+          "did": ["PhD student"]
         }
       ]
     },
@@ -60860,7 +60860,7 @@
         {
           "place": "bonn",
           "level": "Doctorado",
-          "field": "Doktor der naturwissenschaften (dr. rer. nat.)",
+          "field": "Doktor der naturwissenschaften (Dr. rer. nat.)",
           "start": null,
           "end": null
         }
@@ -62125,7 +62125,7 @@
         {
           "place": "imm-csic",
           "name": "Instituto de Micro y Nanotecnología",
-          "role": "Technology transfer: training, assembly and diagnose of a dc plasma of a hybrid system of dc magnetron sputtering and pulsed evaporation for production of thermoelectric films of AG2-XSE and CU2-XSE",
+          "role": "Technology transfer: training, assembly and diagnose of a DC plasma of a hybrid system of DC magnetron sputtering and pulsed evaporation for production of thermoelectric films of AG2-XSE and CU2-XSE",
           "start": 2015,
           "end": 2015
         }
@@ -62142,7 +62142,7 @@
         {
           "place": "imm-csic",
           "did": [
-            "Technology transfer: training, assembly and diagnose of a dc plasma of a hybrid system of dc magnetron sputtering and pulsed evaporation for production of thermoelectric films of AG2-XSE and CU2-XSE"
+            "Technology transfer: training, assembly and diagnose of a DC plasma of a hybrid system of DC magnetron sputtering and pulsed evaporation for production of thermoelectric films of AG2-XSE and CU2-XSE"
           ]
         },
         {
@@ -64187,7 +64187,7 @@
         {
           "place": "unap",
           "name": "Universidad Nacional del Altiplano",
-          "role": "Fisica i y fisica ii",
+          "role": "Fisica I y fisica II",
           "start": 2015,
           "end": 2015
         },
@@ -64202,7 +64202,7 @@
       "path": [
         {
           "place": "unap",
-          "did": ["Bachillerato", "Fisica i y fisica ii"]
+          "did": ["Bachillerato", "Fisica I y fisica II"]
         },
         {
           "place": "unaj",
@@ -65260,7 +65260,7 @@
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Senior researcher in the magnet-igp project",
+          "role": "Senior researcher in the magnet-IGP project",
           "start": 2017,
           "end": 2020
         },
@@ -65291,7 +65291,7 @@
         },
         {
           "place": "igp",
-          "did": ["Senior researcher in the magnet-igp project"]
+          "did": ["Senior researcher in the magnet-IGP project"]
         },
         {
           "place": "inaigem",
@@ -67954,7 +67954,7 @@
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Director del radio observatorio de jicamarca",
+          "role": "Director del Radio Observatorio de Jicamarca",
           "start": 2012,
           "end": 2021
         },
@@ -67998,7 +67998,7 @@
           "place": "igp",
           "did": [
             "Investigador post-doctoral",
-            "Director del radio observatorio de jicamarca"
+            "Director del Radio Observatorio de Jicamarca"
           ]
         },
         {
@@ -68658,7 +68658,7 @@
         {
           "place": "furg",
           "level": "Doctorado",
-          "field": "Ph.d. in oceanology",
+          "field": "Ph.D. in oceanology",
           "start": 2015,
           "end": 2019
         }
@@ -70538,14 +70538,14 @@
       "works": [
         {
           "place": "unitru",
-          "role": "Docente investigador unt"
+          "role": "Docente investigador UNT"
         }
       ],
       "jobs": [
         {
           "place": "unitru",
           "name": "Universidad Nacional de Trujillo",
-          "role": "Docente investigador unt",
+          "role": "Docente investigador UNT",
           "start": 2013,
           "end": "now"
         },
@@ -70565,7 +70565,7 @@
             "Licenciatura",
             "Maestría",
             "Doctorado",
-            "Docente investigador unt"
+            "Docente investigador UNT"
           ]
         }
       ]
@@ -71948,7 +71948,7 @@
         {
           "place": "bsc",
           "name": "Barcelona Supercomputing Center",
-          "role": "Phd",
+          "role": "PhD",
           "start": 2019,
           "end": 2024
         },
@@ -71978,7 +71978,7 @@
         },
         {
           "place": "bsc",
-          "did": ["Phd"]
+          "did": ["PhD"]
         },
         {
           "place": "upc",
@@ -72035,7 +72035,7 @@
       "works": [
         {
           "place": "utp",
-          "role": "Docente tp"
+          "role": "Docente TP"
         },
         {
           "place": "ucv",
@@ -72054,7 +72054,7 @@
         {
           "place": "utp",
           "name": "Universidad Tecnológica del Perú",
-          "role": "Docente tp",
+          "role": "Docente TP",
           "start": 2025,
           "end": "now"
         },
@@ -72136,7 +72136,7 @@
         },
         {
           "place": "utp",
-          "did": ["Docente tp"]
+          "did": ["Docente TP"]
         }
       ]
     },
@@ -72248,7 +72248,7 @@
         {
           "place": "cnrs",
           "name": "Centre national de la recherche scientifique",
-          "role": "Phd fellow",
+          "role": "PhD fellow",
           "start": 2024,
           "end": null
         },
@@ -72290,7 +72290,7 @@
         {
           "place": "uni",
           "name": "Universidad Nacional de Ingeniería",
-          "role": "Phd fellow",
+          "role": "PhD fellow",
           "start": null,
           "end": null
         }
@@ -72306,7 +72306,7 @@
         },
         {
           "place": "uni",
-          "did": ["Phd fellow"]
+          "did": ["PhD fellow"]
         },
         {
           "place": "unalm",
@@ -72326,7 +72326,7 @@
         },
         {
           "place": "cnrs",
-          "did": ["Phd fellow"]
+          "did": ["PhD fellow"]
         }
       ]
     },
@@ -73132,7 +73132,7 @@
       "works": [
         {
           "place": "utp",
-          "role": "Profesor tc investigación"
+          "role": "Profesor TC investigación"
         },
         {
           "place": "unmsm",
@@ -73140,14 +73140,14 @@
         },
         {
           "place": "upn",
-          "role": "Profesor tp"
+          "role": "Profesor TP"
         }
       ],
       "jobs": [
         {
           "place": "utp",
           "name": "Universidad Tecnológica del Perú",
-          "role": "Profesor tc investigación",
+          "role": "Profesor TC investigación",
           "start": 2022,
           "end": "now"
         },
@@ -73161,21 +73161,21 @@
         {
           "place": "utp",
           "name": "Universidad Tecnológica del Perú",
-          "role": "Profesor tp",
+          "role": "Profesor TP",
           "start": 2021,
           "end": 2022
         },
         {
           "place": "upn",
           "name": "Universidad Privada del Norte",
-          "role": "Profesor tp",
+          "role": "Profesor TP",
           "start": 2021,
           "end": "now"
         },
         {
           "place": "ufma",
           "name": "Universidade Federal do Maranhão",
-          "role": "Docente investigador tc",
+          "role": "Docente investigador TC",
           "start": 2019,
           "end": 2021
         },
@@ -73189,7 +73189,7 @@
         {
           "place": "ufma",
           "name": "Universidade Federal do Maranhão",
-          "role": "Docente investigador tp",
+          "role": "Docente investigador TP",
           "start": 2017,
           "end": 2017
         },
@@ -73214,21 +73214,21 @@
           "place": "ufma",
           "did": [
             "Investigador postdoctoral",
-            "Docente investigador tp",
-            "Docente investigador tc"
+            "Docente investigador TP",
+            "Docente investigador TC"
           ]
         },
         {
           "place": "utp",
-          "did": ["Profesor tp"]
+          "did": ["Profesor TP"]
         },
         {
           "place": "upn",
-          "did": ["Profesor tp"]
+          "did": ["Profesor TP"]
         },
         {
           "place": "utp",
-          "did": ["Profesor tc investigación"]
+          "did": ["Profesor TC investigación"]
         },
         {
           "place": "unmsm",
@@ -73764,7 +73764,7 @@
         {
           "place": "unam",
           "level": "Doctorado",
-          "field": "Phd. in earth sciences.",
+          "field": "PhD. in earth sciences.",
           "start": 2012,
           "end": 2017
         }
@@ -73947,14 +73947,14 @@
         {
           "place": "reading",
           "level": "Maestría",
-          "field": "Msc. atmosphere, oceans and climate",
+          "field": "MSc. atmosphere, oceans and climate",
           "start": 2016,
           "end": 2017
         },
         {
           "place": "unsw",
           "level": "Doctorado",
-          "field": "Phd. climate science",
+          "field": "PhD. climate science",
           "start": 2018,
           "end": 2022
         }
@@ -74420,14 +74420,14 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Coordinadora grupo de investigación materiales para la innovación tecnológica (matintec)",
+          "role": "Coordinadora grupo de investigación materiales para la innovación tecnológica (MATINTEC)",
           "start": 2017,
           "end": "now"
         },
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Responsable laboratorio de nanotecnología e innovación tecnológica de la facultad de química e ingeniería química (labnanointec-fqiq-unmsm)",
+          "role": "Responsable laboratorio de nanotecnología e innovación tecnológica de la facultad de química e ingeniería química (LABNANOINTEC-FQIQ-UNMSM)",
           "start": 2017,
           "end": "now"
         },
@@ -74453,8 +74453,8 @@
           "did": [
             "Investigadora",
             "Docente del curso de química cepusm",
-            "Coordinadora grupo de investigación materiales para la innovación tecnológica (matintec)",
-            "Responsable laboratorio de nanotecnología e innovación tecnológica de la facultad de química e ingeniería química (labnanointec-fqiq-unmsm)"
+            "Coordinadora grupo de investigación materiales para la innovación tecnológica (MATINTEC)",
+            "Responsable laboratorio de nanotecnología e innovación tecnológica de la facultad de química e ingeniería química (LABNANOINTEC-FQIQ-UNMSM)"
           ]
         }
       ]
@@ -74707,7 +74707,7 @@
         {
           "place": "mpi-met",
           "name": "Max-Planck-Institut für Meteorologie",
-          "role": "Phd student",
+          "role": "PhD student",
           "start": 2018,
           "end": 2021
         },
@@ -74756,7 +74756,7 @@
         },
         {
           "place": "mpi-met",
-          "did": ["Phd student", "Postdoctoral research"]
+          "did": ["PhD student", "Postdoctoral research"]
         },
         {
           "place": "virginia",
@@ -75598,7 +75598,7 @@
         {
           "place": "tu-berlin",
           "level": "Doctorado",
-          "field": "Doktor der naturwissenschaften (dr. rer. nat.)",
+          "field": "Doktor der naturwissenschaften (Dr. rer. nat.)",
           "start": null,
           "end": null
         }
@@ -76514,14 +76514,14 @@
       "works": [
         {
           "place": "uni",
-          "role": "Phd student in mathematics"
+          "role": "PhD student in mathematics"
         }
       ],
       "jobs": [
         {
           "place": "uni",
           "name": "Universidad Nacional de Ingeniería",
-          "role": "Phd student in mathematics",
+          "role": "PhD student in mathematics",
           "start": 2018,
           "end": "now"
         }
@@ -76529,7 +76529,7 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Bachillerato", "Phd student in mathematics"]
+          "did": ["Bachillerato", "PhD student in mathematics"]
         }
       ]
     },
@@ -76739,7 +76739,7 @@
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Practicante para el radio observatorio de jicamarca",
+          "role": "Practicante para el Radio Observatorio de Jicamarca",
           "start": 2024,
           "end": 2024
         }
@@ -76751,7 +76751,7 @@
         },
         {
           "place": "igp",
-          "did": ["Practicante para el radio observatorio de jicamarca"]
+          "did": ["Practicante para el Radio Observatorio de Jicamarca"]
         },
         {
           "place": "pucp",
@@ -78289,7 +78289,7 @@
         {
           "place": "cstb",
           "name": "Centre Scientifique et Technique du Bâtiment",
-          "role": "Phd. student",
+          "role": "PhD. student",
           "start": 2021,
           "end": 2024
         }
@@ -78301,7 +78301,7 @@
         },
         {
           "place": "cstb",
-          "did": ["Phd. student"]
+          "did": ["PhD. student"]
         },
         {
           "place": "upec",
@@ -78542,7 +78542,7 @@
         {
           "place": null,
           "name": "Ministerio de Economia y Finanzas",
-          "role": "Consultor apoyo gerencial (fag)",
+          "role": "Consultor apoyo gerencial (FAG)",
           "start": 2019,
           "end": 2020
         },
@@ -78577,42 +78577,42 @@
         {
           "place": "hidrostal",
           "name": "Hidrostal",
-          "role": "Asesor - consultor i+d",
+          "role": "Asesor - consultor I+d",
           "start": 2010,
           "end": 2010
         },
         {
           "place": "ciencia-internacional",
           "name": "Ciencia Internacional",
-          "role": "Ingeniero desarrollo y operaciones de radar en el radio observatorio de jicamarca",
+          "role": "Ingeniero desarrollo y operaciones de radar en el Radio Observatorio de Jicamarca",
           "start": 2007,
           "end": 2009
         },
         {
           "place": "inanpe",
           "name": "Instituto Antártico Peruano",
-          "role": "Investigador y expedicionario en proyecto radar antártico del radio observatorio de jicamarca",
+          "role": "Investigador y expedicionario en proyecto radar antártico del Radio Observatorio de Jicamarca",
           "start": 2006,
           "end": 2007
         },
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Agregado de investigación P5-IGP en el radio observatorio de jicamarca",
+          "role": "Agregado de investigación P5-IGP en el Radio Observatorio de Jicamarca",
           "start": 2003,
           "end": 2006
         },
         {
           "place": "udep",
           "name": "Universidad de Piura",
-          "role": "Asistente administrativo del laboratorio de fisica y radar st",
+          "role": "Asistente administrativo del laboratorio de fisica y radar ST",
           "start": 2002,
           "end": 2002
         },
         {
           "place": "ciencia-internacional",
           "name": "Ciencia Internacional",
-          "role": "Entrenamiento en investigacion y desarrollo en el radio observatorio de jicamarca",
+          "role": "Entrenamiento en investigacion y desarrollo en el Radio Observatorio de Jicamarca",
           "start": 2001,
           "end": 2002
         },
@@ -78626,42 +78626,42 @@
         {
           "place": "unj",
           "name": "Universidad Nacional de Jaén",
-          "role": "Coordinador del semillero de investigación en diseño mecánico y procesos de manufactura (cad-cam)",
+          "role": "Coordinador del semillero de investigación en diseño mecánico y procesos de manufactura (CAD-CAM)",
           "start": 2022,
           "end": "now"
         },
         {
           "place": "unj",
           "name": "Universidad Nacional de Jaén",
-          "role": "Coordinador del semillero de investigacion en desarrollo tecnológico con electrónica embebida programable (tecdes)",
+          "role": "Coordinador del semillero de investigacion en desarrollo tecnológico con electrónica embebida programable (TECDES)",
           "start": 2024,
           "end": "now"
         },
         {
           "place": "unj",
           "name": "Universidad Nacional de Jaén",
-          "role": "Coordinador del semillero de investigacion en desarrollo de software científico e industrial (sci-soft)",
+          "role": "Coordinador del semillero de investigacion en desarrollo de software científico e industrial (SCI-SOFT)",
           "start": 2022,
           "end": "now"
         },
         {
           "place": "unj",
           "name": "Universidad Nacional de Jaén",
-          "role": "Representante unj en comisión regional de la iniciativa para la transparencia de las industrias extractivas eiti cajamarca",
+          "role": "Representante UNJ en comisión regional de la iniciativa para la transparencia de las industrias extractivas EITI Cajamarca",
           "start": 2023,
           "end": "now"
         },
         {
           "place": "unj",
           "name": "Universidad Nacional de Jaén",
-          "role": "Arbitro integrante del comité editor de la revista científica pakamuros de la universidad nacional de jaén",
+          "role": "Arbitro integrante del comité editor de la revista científica pakamuros de la Universidad Nacional de Jaén",
           "start": 2023,
           "end": "now"
         },
         {
           "place": "unj",
           "name": "Universidad Nacional de Jaén",
-          "role": "Mentor de la dirección de incubadora de empresas de la universidad nacional de jaen",
+          "role": "Mentor de la dirección de incubadora de empresas de la Universidad Nacional de Jaén",
           "start": 2023,
           "end": "now"
         }
@@ -78678,31 +78678,31 @@
         {
           "place": "ciencia-internacional",
           "did": [
-            "Entrenamiento en investigacion y desarrollo en el radio observatorio de jicamarca"
+            "Entrenamiento en investigacion y desarrollo en el Radio Observatorio de Jicamarca"
           ]
         },
         {
           "place": "udep",
           "did": [
-            "Asistente administrativo del laboratorio de fisica y radar st"
+            "Asistente administrativo del laboratorio de fisica y radar ST"
           ]
         },
         {
           "place": "igp",
           "did": [
-            "Agregado de investigación P5-IGP en el radio observatorio de jicamarca"
+            "Agregado de investigación P5-IGP en el Radio Observatorio de Jicamarca"
           ]
         },
         {
           "place": "inanpe",
           "did": [
-            "Investigador y expedicionario en proyecto radar antártico del radio observatorio de jicamarca"
+            "Investigador y expedicionario en proyecto radar antártico del Radio Observatorio de Jicamarca"
           ]
         },
         {
           "place": "ciencia-internacional",
           "did": [
-            "Ingeniero desarrollo y operaciones de radar en el radio observatorio de jicamarca"
+            "Ingeniero desarrollo y operaciones de radar en el Radio Observatorio de Jicamarca"
           ]
         },
         {
@@ -78711,7 +78711,7 @@
         },
         {
           "place": "hidrostal",
-          "did": ["Asesor - consultor i+d"]
+          "did": ["Asesor - consultor I+d"]
         },
         {
           "place": "uit",
@@ -78724,14 +78724,14 @@
             "Director del instituto de investigación en energías renovables",
             "Docente investigador",
             "Miembro de comisión permanente de investigación e innovación - escuela profesional de ingenieria mecanica y electrica",
-            "Coordinador del semillero de investigación en diseño mecánico y procesos de manufactura (cad-cam)",
-            "Coordinador del semillero de investigacion en desarrollo de software científico e industrial (sci-soft)",
+            "Coordinador del semillero de investigación en diseño mecánico y procesos de manufactura (CAD-CAM)",
+            "Coordinador del semillero de investigacion en desarrollo de software científico e industrial (SCI-SOFT)",
             "Director de la direccion de investigacion, innovacion, y transferencia tecnológica",
-            "Representante unj en comisión regional de la iniciativa para la transparencia de las industrias extractivas eiti cajamarca",
-            "Arbitro integrante del comité editor de la revista científica pakamuros de la universidad nacional de jaén",
-            "Mentor de la dirección de incubadora de empresas de la universidad nacional de jaen",
+            "Representante UNJ en comisión regional de la iniciativa para la transparencia de las industrias extractivas EITI Cajamarca",
+            "Arbitro integrante del comité editor de la revista científica pakamuros de la Universidad Nacional de Jaén",
+            "Mentor de la dirección de incubadora de empresas de la Universidad Nacional de Jaén",
             "Presidente de la comisión permanente de investigación e innovación de la escuela profesional de ingeniería mecánica y eléctrica",
-            "Coordinador del semillero de investigacion en desarrollo tecnológico con electrónica embebida programable (tecdes)"
+            "Coordinador del semillero de investigacion en desarrollo tecnológico con electrónica embebida programable (TECDES)"
           ]
         }
       ]
@@ -80047,7 +80047,7 @@
         {
           "place": "uni",
           "name": "Universidad Nacional de Ingeniería",
-          "role": "Profesor contratado tc",
+          "role": "Profesor contratado TC",
           "start": 2023,
           "end": 2024
         }
@@ -80055,7 +80055,7 @@
       "path": [
         {
           "place": "uni",
-          "did": ["Licenciatura", "Maestría", "Profesor contratado tc"]
+          "did": ["Licenciatura", "Maestría", "Profesor contratado TC"]
         }
       ]
     },
@@ -82906,7 +82906,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Organizador al curso básico de r para la investigación científica-cerseu fcf UNMSM 2024",
+          "role": "Organizador al curso básico de r para la investigación científica-CERSEU FCF UNMSM 2024",
           "start": 2024,
           "end": 2024
         },
@@ -82927,7 +82927,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Organizador al 1er taller peruano de espectrometría mossbauer: aspectos fundamentales y aplicaciones-cerseu-fcf-unmsm 2022",
+          "role": "Organizador al 1er taller peruano de espectrometría mossbauer: aspectos fundamentales y aplicaciones-CERSEU-FCF-UNMSM 2022",
           "start": 2022,
           "end": 2022
         },
@@ -82941,21 +82941,21 @@
         {
           "place": "ufes",
           "name": "Universidade Federal do Espírito Santo",
-          "role": "Profesor/investigador visitante en el laboratorio de magnetometria y espectroscopia mossbauer, centro de ciencias exactas, ufes, vitoria, brasil",
+          "role": "Profesor/investigador visitante en el laboratorio de magnetometria y espectroscopia mossbauer, centro de ciencias exactas, UFES, vitoria, Brasil",
           "start": 2021,
           "end": 2021
         },
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Organizador del curso de espectroscopía uv-visible: conceptos y aplicaciones cerseu fcf-unmsm",
+          "role": "Organizador del curso de espectroscopía UV-visible: conceptos y aplicaciones CERSEU FCF-UNMSM",
           "start": 2021,
           "end": 2021
         },
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Organizador del evento académico científicotaller formativo especializado en difracción de rayos-x y refinamiento rietveld",
+          "role": "Organizador del evento académico científico–taller formativo especializado en difracción de rayos-X y refinamiento rietveld",
           "start": 2021,
           "end": 2021
         },
@@ -82990,7 +82990,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Docente física centro pre-universitario (cepre-unmsm)",
+          "role": "Docente física centro pre-universitario (CEPRE-UNMSM)",
           "start": 2013,
           "end": 2015
         },
@@ -83023,7 +83023,7 @@
           "did": [
             "Doctorado",
             "Jefe de practica",
-            "Docente física centro pre-universitario (cepre-unmsm)"
+            "Docente física centro pre-universitario (CEPRE-UNMSM)"
           ]
         },
         {
@@ -83055,14 +83055,14 @@
         {
           "place": "ufes",
           "did": [
-            "Profesor/investigador visitante en el laboratorio de magnetometria y espectroscopia mossbauer, centro de ciencias exactas, ufes, vitoria, brasil"
+            "Profesor/investigador visitante en el laboratorio de magnetometria y espectroscopia mossbauer, centro de ciencias exactas, UFES, vitoria, Brasil"
           ]
         },
         {
           "place": "unmsm",
           "did": [
-            "Organizador del curso de espectroscopía uv-visible: conceptos y aplicaciones cerseu fcf-unmsm",
-            "Organizador del evento académico científicotaller formativo especializado en difracción de rayos-x y refinamiento rietveld"
+            "Organizador del curso de espectroscopía UV-visible: conceptos y aplicaciones CERSEU FCF-UNMSM",
+            "Organizador del evento académico científico–taller formativo especializado en difracción de rayos-X y refinamiento rietveld"
           ]
         },
         {
@@ -83072,7 +83072,7 @@
         {
           "place": "unmsm",
           "did": [
-            "Organizador al 1er taller peruano de espectrometría mossbauer: aspectos fundamentales y aplicaciones-cerseu-fcf-unmsm 2022"
+            "Organizador al 1er taller peruano de espectrometría mossbauer: aspectos fundamentales y aplicaciones-CERSEU-FCF-UNMSM 2022"
           ]
         },
         {
@@ -83088,7 +83088,7 @@
         {
           "place": "unmsm",
           "did": [
-            "Organizador al curso básico de r para la investigación científica-cerseu fcf UNMSM 2024"
+            "Organizador al curso básico de r para la investigación científica-CERSEU FCF UNMSM 2024"
           ]
         },
         {
@@ -83257,14 +83257,14 @@
       "works": [
         {
           "place": "balseiro",
-          "role": "Phd student"
+          "role": "PhD student"
         }
       ],
       "jobs": [
         {
           "place": "balseiro",
           "name": "Instituto Balseiro",
-          "role": "Phd student",
+          "role": "PhD student",
           "start": 2023,
           "end": "now"
         },
@@ -83292,7 +83292,7 @@
           "place": "balseiro",
           "did": [
             "Master student of physical science",
-            "Phd student",
+            "PhD student",
             "Estudiante de doctorado"
           ]
         }
@@ -84760,7 +84760,7 @@
         {
           "place": "rudn",
           "level": "Doctorado",
-          "field": "Phd in physics and mathematics",
+          "field": "PhD in physics and mathematics",
           "start": null,
           "end": null
         }
@@ -85215,7 +85215,7 @@
         {
           "place": "ingemmet",
           "name": "Instituto Geológico, Minero y Metalúrgico",
-          "role": "Ingeniero iv",
+          "role": "Ingeniero IV",
           "start": 2001,
           "end": 2019
         },
@@ -85238,7 +85238,7 @@
         },
         {
           "place": "ingemmet",
-          "did": ["Ingeniero iv"]
+          "did": ["Ingeniero IV"]
         },
         {
           "place": "igp",
@@ -87692,7 +87692,7 @@
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Supervisor y asistente técnico en estación de transmisión - unica - ica (radio observatorio de jicamarca)",
+          "role": "Supervisor y asistente técnico en estación de transmisión - UNICA - Ica (Radio Observatorio de Jicamarca)",
           "start": 2020,
           "end": 2022
         }
@@ -87705,7 +87705,7 @@
         {
           "place": "igp",
           "did": [
-            "Supervisor y asistente técnico en estación de transmisión - unica - ica (radio observatorio de jicamarca)"
+            "Supervisor y asistente técnico en estación de transmisión - UNICA - Ica (Radio Observatorio de Jicamarca)"
           ]
         }
       ],
@@ -88503,7 +88503,7 @@
         {
           "place": null,
           "name": "Iafas de la Marina de Guerra del Peru",
-          "role": "Físico iii",
+          "role": "Físico III",
           "start": 2017,
           "end": 2017
         },
@@ -88517,7 +88517,7 @@
         {
           "place": "ign",
           "name": "Instituto Geográfico Nacional",
-          "role": "Procesamiento de datos gps",
+          "role": "Procesamiento de datos GPS",
           "start": 2008,
           "end": 2010
         },
@@ -88574,7 +88574,7 @@
         },
         {
           "place": "ign",
-          "did": ["Procesamiento de datos gps"]
+          "did": ["Procesamiento de datos GPS"]
         },
         {
           "place": "senamhi",
@@ -89196,7 +89196,7 @@
         {
           "place": "ufpr",
           "level": "Doctorado",
-          "field": "Phd engenheiro de materiais",
+          "field": "PhD engenheiro de materiais",
           "start": 2011,
           "end": 2015
         }
@@ -89204,35 +89204,35 @@
       "works": [
         {
           "place": "ufpr",
-          "role": "Professor substituto - ufpr"
+          "role": "Professor substituto - UFPR"
         }
       ],
       "jobs": [
         {
           "place": "ufpr",
           "name": "Universidade Federal do Paraná",
-          "role": "Professor substituto - ufpr",
+          "role": "Professor substituto - UFPR",
           "start": 2025,
           "end": "now"
         },
         {
           "place": "unemat",
           "name": "Universidade do Estado de Mato Grosso",
-          "role": "Professor temporario - unemat",
+          "role": "Professor temporario - UNEMAT",
           "start": 2023,
           "end": 2023
         },
         {
           "place": "ufpr",
           "name": "Universidade Federal do Paraná",
-          "role": "Professor substituto - ufpr",
+          "role": "Professor substituto - UFPR",
           "start": 2022,
           "end": 2023
         },
         {
           "place": "ufpr",
           "name": "Universidade Federal do Paraná",
-          "role": "Professor em fisica (ufpr)",
+          "role": "Professor em fisica (UFPR)",
           "start": 2018,
           "end": 2019
         },
@@ -89277,15 +89277,15 @@
         },
         {
           "place": "ufpr",
-          "did": ["Professor em fisica (ufpr)", "Professor substituto - ufpr"]
+          "did": ["Professor em fisica (UFPR)", "Professor substituto - UFPR"]
         },
         {
           "place": "unemat",
-          "did": ["Professor temporario - unemat"]
+          "did": ["Professor temporario - UNEMAT"]
         },
         {
           "place": "ufpr",
-          "did": ["Professor substituto - ufpr"]
+          "did": ["Professor substituto - UFPR"]
         }
       ]
     },
@@ -90365,28 +90365,28 @@
       "works": [
         {
           "place": "utp",
-          "role": "Dtp"
+          "role": "DTP"
         }
       ],
       "jobs": [
         {
           "place": "utp",
           "name": "Universidad Tecnológica del Perú",
-          "role": "Dtp",
+          "role": "DTP",
           "start": 2025,
           "end": "now"
         },
         {
           "place": "upn",
           "name": "Universidad Privada del Norte",
-          "role": "Dtc renacyt",
+          "role": "DTC RENACYT",
           "start": 2024,
           "end": 2025
         },
         {
           "place": "utp",
           "name": "Universidad Tecnológica del Perú",
-          "role": "Dtc",
+          "role": "DTC",
           "start": 2021,
           "end": 2024
         }
@@ -90402,7 +90402,7 @@
         },
         {
           "place": "utp",
-          "did": ["Dtc"]
+          "did": ["DTC"]
         },
         {
           "place": "unitru",
@@ -90410,11 +90410,11 @@
         },
         {
           "place": "upn",
-          "did": ["Dtc renacyt"]
+          "did": ["DTC RENACYT"]
         },
         {
           "place": "utp",
-          "did": ["Dtp"]
+          "did": ["DTP"]
         }
       ]
     },
@@ -90894,7 +90894,7 @@
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Director del radio observatorio de jicamarca",
+          "role": "Director del Radio Observatorio de Jicamarca",
           "start": 2021,
           "end": 2026
         },
@@ -90996,7 +90996,7 @@
           "place": "igp",
           "did": [
             "Director científico",
-            "Director del radio observatorio de jicamarca"
+            "Director del Radio Observatorio de Jicamarca"
           ]
         },
         {
@@ -91238,7 +91238,7 @@
         {
           "place": "balseiro",
           "level": "Doctorado",
-          "field": "Doctorado, phd",
+          "field": "Doctorado, PhD",
           "start": 2005,
           "end": 2010
         }
@@ -93187,21 +93187,21 @@
       "works": [
         {
           "place": "iap-kborn",
-          "role": "Phd student"
+          "role": "PhD student"
         }
       ],
       "jobs": [
         {
           "place": "iap-kborn",
           "name": "Leibniz-Institut für Atmosphärenphysik",
-          "role": "Phd student",
+          "role": "PhD student",
           "start": 2022,
           "end": "now"
         },
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Radar operations analyst / simone peru project",
+          "role": "Radar operations analyst / simone Perú project",
           "start": 2020,
           "end": 2022
         },
@@ -93238,11 +93238,11 @@
         },
         {
           "place": "igp",
-          "did": ["Radar operations analyst / simone peru project"]
+          "did": ["Radar operations analyst / simone Perú project"]
         },
         {
           "place": "iap-kborn",
-          "did": ["Phd student"]
+          "did": ["PhD student"]
         }
       ]
     },
@@ -93537,7 +93537,7 @@
         {
           "place": "uni",
           "name": "Universidad Nacional de Ingeniería",
-          "role": "Head of practice, physics i, ii, iii",
+          "role": "Head of practice, physics I, II, III",
           "start": 2018,
           "end": 2018
         },
@@ -93575,7 +93575,7 @@
         },
         {
           "place": "uni",
-          "did": ["Head of practice, physics i, ii, iii"]
+          "did": ["Head of practice, physics I, II, III"]
         }
       ],
       "links": [
@@ -94039,7 +94039,7 @@
         {
           "place": "uw",
           "level": "Doctorado",
-          "field": "Ph. d. en ciencias atmosféricas",
+          "field": "Ph. D. en ciencias atmosféricas",
           "start": 2002,
           "end": 2006
         }
@@ -94700,7 +94700,7 @@
         {
           "place": "cnpem",
           "name": "Centro Nacional de Pesquisa em Energia e Materiais",
-          "role": "Phd. student",
+          "role": "PhD. student",
           "start": 2013,
           "end": 2016
         }
@@ -94720,7 +94720,7 @@
         },
         {
           "place": "cnpem",
-          "did": ["Phd. student"]
+          "did": ["PhD. student"]
         },
         {
           "place": "esrf",
@@ -94843,14 +94843,14 @@
       "works": [
         {
           "place": "pucp",
-          "role": "Researcher in the high energy physics group (hep-pucp)"
+          "role": "Researcher in the high energy physics group (HEP-PUCP)"
         }
       ],
       "jobs": [
         {
           "place": "pucp",
           "name": "Pontificia Universidad Católica del Perú",
-          "role": "Researcher in the high energy physics group (hep-pucp)",
+          "role": "Researcher in the high energy physics group (HEP-PUCP)",
           "start": 2015,
           "end": "now"
         },
@@ -94871,7 +94871,7 @@
         {
           "place": "pucp",
           "name": "Pontificia Universidad Católica del Perú",
-          "role": "Researcher in the quantum optics laboratory (groc-pucp)",
+          "role": "Researcher in the quantum optics laboratory (GROC-PUCP)",
           "start": 2014,
           "end": 2015
         },
@@ -94885,7 +94885,7 @@
         {
           "place": "pucp",
           "name": "Pontificia Universidad Católica del Perú",
-          "role": "Speaker member in the science tunnel – tour peru - PUCP",
+          "role": "Speaker member in the science tunnel – tour Perú - PUCP",
           "start": 2013,
           "end": 2013
         }
@@ -94896,9 +94896,9 @@
           "did": [
             "Bachillerato",
             "Speaker member in 'one morning in sciences'",
-            "Speaker member in the science tunnel – tour peru - PUCP",
-            "Researcher in the quantum optics laboratory (groc-pucp)",
-            "Researcher in the high energy physics group (hep-pucp)",
+            "Speaker member in the science tunnel – tour Perú - PUCP",
+            "Researcher in the quantum optics laboratory (GROC-PUCP)",
+            "Researcher in the high energy physics group (HEP-PUCP)",
             "Teaching assistant"
           ]
         }
@@ -94943,14 +94943,14 @@
         {
           "place": "paris-diderot",
           "level": "Maestría",
-          "field": "Msc en geofísica interna",
+          "field": "MSc en geofísica interna",
           "start": 1990,
           "end": 1991
         },
         {
           "place": "ucm",
           "level": "Maestría",
-          "field": "Msc en geofísica",
+          "field": "MSc en geofísica",
           "start": 1994,
           "end": 1996
         },
@@ -95464,14 +95464,14 @@
       "works": [
         {
           "place": "unican",
-          "role": "Phd candidate"
+          "role": "PhD candidate"
         }
       ],
       "jobs": [
         {
           "place": "unican",
           "name": "Universidad de Cantabria",
-          "role": "Phd candidate",
+          "role": "PhD candidate",
           "start": 2023,
           "end": "now"
         },
@@ -95494,7 +95494,7 @@
         },
         {
           "place": "unican",
-          "did": ["Phd candidate", "Estudiante de doctorado"]
+          "did": ["PhD candidate", "Estudiante de doctorado"]
         }
       ],
       "links": [
@@ -98869,7 +98869,7 @@
         {
           "place": "igp",
           "name": "Instituto Geofísico del Perú",
-          "role": "Coordinadora del centro vulcanológico nacional (cenvul)",
+          "role": "Coordinadora del centro vulcanológico nacional (CENVUL)",
           "start": 2023,
           "end": "now"
         }
@@ -98892,7 +98892,7 @@
           "did": [
             "Asistente de investigación",
             "Analista de investigacion vulcanología- geodesta",
-            "Coordinadora del centro vulcanológico nacional (cenvul)"
+            "Coordinadora del centro vulcanológico nacional (CENVUL)"
           ]
         }
       ]
@@ -99254,7 +99254,7 @@
         {
           "place": "unitru",
           "name": "Universidad Nacional de Trujillo",
-          "role": "Director (e) departamento académico de física",
+          "role": "Director (E) departamento académico de física",
           "start": 2015,
           "end": 2016
         },
@@ -99282,7 +99282,7 @@
         {
           "place": "unitru",
           "name": "Universidad Nacional de Trujillo",
-          "role": "Jefe de la oficina de admisión unt",
+          "role": "Jefe de la oficina de admisión UNT",
           "start": 2000,
           "end": 2005
         },
@@ -99312,11 +99312,11 @@
             "Director de escuela de física",
             "Jefe de departamento académico de física",
             "Jefe de laboratorio de fisica nuclear",
-            "Jefe de la oficina de admisión unt",
+            "Jefe de la oficina de admisión UNT",
             "Decano ffccffymm",
             "Secretario de la sociedad peruana de fisica",
             "Presidente del eci-norte",
-            "Director (e) departamento académico de física",
+            "Director (E) departamento académico de física",
             "Director de unidad de posgrado"
           ]
         },
@@ -100017,7 +100017,7 @@
         {
           "place": "pucp",
           "name": "Pontificia Universidad Católica del Perú",
-          "role": "Coordinador del grupo de investigación iot-pucp",
+          "role": "Coordinador del grupo de investigación IoT-PUCP",
           "start": 2018,
           "end": "now"
         }
@@ -100032,7 +100032,7 @@
             "Docente asociado",
             "Coordinador de la especialidad de ingeniería de las telecomunicaciones",
             "Coordinador de la sección de ingeniería de las telecomunicaciones",
-            "Coordinador del grupo de investigación iot-pucp",
+            "Coordinador del grupo de investigación IoT-PUCP",
             "Director de tecnologías exponenciales - departamento de ingeniería"
           ]
         }
@@ -100411,28 +100411,28 @@
         {
           "place": null,
           "name": "Peru Organismo de Evaluacion y Fiscalizacion Ambienta",
-          "role": "Tercero evaluador iv subdireccion tecnica cientifica",
+          "role": "Tercero evaluador IV subdireccion tecnica cientifica",
           "start": 2022,
           "end": "now"
         },
         {
           "place": null,
           "name": "Organismo de Evaluacion y Fiscalizacion Ambiental",
-          "role": "Oficina desconcentrada moquegua - especialista ambiental profesional ii",
+          "role": "Oficina desconcentrada Moquegua - especialista ambiental profesional II",
           "start": 2017,
           "end": 2022
         },
         {
           "place": null,
           "name": "Organismo de Evaluacion y Fiscalizacion Ambiental",
-          "role": "Oficina desconcentrada moquegua - tercero supervisor iv",
+          "role": "Oficina desconcentrada Moquegua - tercero supervisor IV",
           "start": 2016,
           "end": 2017
         },
         {
           "place": null,
           "name": "Organismo de Evaluacion y Fiscalizacion Ambiental",
-          "role": "Tercero evaluador iv - evaluaciones ambientales integrales",
+          "role": "Tercero evaluador IV - evaluaciones ambientales integrales",
           "start": 2015,
           "end": 2016
         },
@@ -100453,14 +100453,14 @@
         {
           "place": null,
           "name": "Ministerio del Ambiente",
-          "role": "Apoyo tecnico en la gestion ambiental y apoyo tecnico de la coordinacion local del programa regional de aire limpio, para promover la implementacion de la politica nacional de la calidad de aire asi como politicas sectoriales y locales, seguimiento a la implementacion de medidas del plan a limpiar el aire de arequipa. oficina de coordinacion macroregional arequipa - moquegua –tacna",
+          "role": "Apoyo tecnico en la gestion ambiental y apoyo tecnico de la coordinacion local del programa regional de aire limpio, para promover la implementacion de la politica nacional de la calidad de aire asi como politicas sectoriales y locales, seguimiento a la implementacion de medidas del plan a limpiar el aire de Arequipa. oficina de coordinacion macroregional Arequipa - Moquegua –Tacna",
           "start": 2008,
           "end": 2008
         },
         {
           "place": null,
           "name": "Consejo Nacional del Ambiente",
-          "role": "Apoyo tecnico en la gestion ambiental y apoyo tecnico de la coordinacion local del programa regional de aire limpio, para promover la implementacion de la politica nacional de la calidad de aire asi como politicas sectoriales y locales, seguimiento a la implementacion de medidas del plan a limpiar el aire de arequipa. secretaria ejecutiva regional arequipa - moquegua -tacna.",
+          "role": "Apoyo tecnico en la gestion ambiental y apoyo tecnico de la coordinacion local del programa regional de aire limpio, para promover la implementacion de la politica nacional de la calidad de aire asi como politicas sectoriales y locales, seguimiento a la implementacion de medidas del plan a limpiar el aire de Arequipa. secretaria ejecutiva regional Arequipa - Moquegua -Tacna.",
           "start": 2004,
           "end": 2008
         },
@@ -101555,7 +101555,7 @@
         {
           "place": "senamhi",
           "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
-          "role": "Especialista en modelamiento numerico ii",
+          "role": "Especialista en modelamiento numerico II",
           "start": 2015,
           "end": 2019
         },
@@ -101609,7 +101609,7 @@
           "place": "senamhi",
           "did": [
             "Modelador numerico",
-            "Especialista en modelamiento numerico ii",
+            "Especialista en modelamiento numerico II",
             "Analista avanzado en modelamiento numerico del tiempo",
             "Analista de climatologia"
           ]
@@ -102710,7 +102710,7 @@
         {
           "place": "ku-leuven",
           "level": "Doctorado",
-          "field": "Phd sciences (physics)",
+          "field": "PhD sciences (physics)",
           "start": 2004,
           "end": 2009
         }
@@ -103069,32 +103069,32 @@
       "works": [
         {
           "place": "ijl",
-          "role": "Phd student / doctorant.e"
+          "role": "PhD student / doctorant.e"
         },
         {
           "place": "lorraine",
-          "role": "Phd student"
+          "role": "PhD student"
         }
       ],
       "jobs": [
         {
           "place": "ijl",
           "name": "Institut Jean Lamour",
-          "role": "Phd student / doctorant.e",
+          "role": "PhD student / doctorant.e",
           "start": null,
           "end": "now"
         },
         {
           "place": "lorraine",
           "name": "Université de Lorraine",
-          "role": "Phd student",
+          "role": "PhD student",
           "start": 2024,
           "end": "now"
         },
         {
           "place": "lorraine",
           "name": "Université de Lorraine",
-          "role": "Phd student / doctorant.e",
+          "role": "PhD student / doctorant.e",
           "start": 2023,
           "end": "now"
         }
@@ -103106,7 +103106,7 @@
         },
         {
           "place": "lorraine",
-          "did": ["Phd student / doctorant.e"]
+          "did": ["PhD student / doctorant.e"]
         },
         {
           "place": "unmsm",
@@ -103114,11 +103114,11 @@
         },
         {
           "place": "ijl",
-          "did": ["Phd student / doctorant.e"]
+          "did": ["PhD student / doctorant.e"]
         },
         {
           "place": "lorraine",
-          "did": ["Phd student"]
+          "did": ["PhD student"]
         }
       ]
     },
@@ -103410,7 +103410,7 @@
         {
           "place": "albany",
           "level": "Doctorado",
-          "field": "Phd in atmospheric science",
+          "field": "PhD in atmospheric science",
           "start": 2013,
           "end": 2018
         }
@@ -103672,14 +103672,14 @@
       "works": [
         {
           "place": "indeci",
-          "role": "Especialista en gestión de riesgo de desastres (grd)"
+          "role": "Especialista en gestión de riesgo de desastres (GRD)"
         }
       ],
       "jobs": [
         {
           "place": "indeci",
           "name": "Instituto Nacional de Defensa Civil",
-          "role": "Especialista en gestión de riesgo de desastres (grd)",
+          "role": "Especialista en gestión de riesgo de desastres (GRD)",
           "start": 2015,
           "end": "now"
         },
@@ -103710,7 +103710,7 @@
         },
         {
           "place": "indeci",
-          "did": ["Especialista en gestión de riesgo de desastres (grd)"]
+          "did": ["Especialista en gestión de riesgo de desastres (GRD)"]
         }
       ]
     },
@@ -104620,7 +104620,7 @@
         {
           "place": "upao",
           "name": "Universidad Privada Antenor Orrego",
-          "role": "Coordinador de of. admision - filial piura",
+          "role": "Coordinador de of. admision - filial Piura",
           "start": 2011,
           "end": 2024
         }
@@ -104632,7 +104632,7 @@
         },
         {
           "place": "upao",
-          "did": ["Coordinador de of. admision - filial piura", "Docente"]
+          "did": ["Coordinador de of. admision - filial Piura", "Docente"]
         },
         {
           "place": "ucv",
