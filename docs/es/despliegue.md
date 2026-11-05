@@ -90,13 +90,32 @@ resultado muestra sobre el título. Dónde se carga el buscador:
 [arquitectura](architecture.md).
 
 La página carga solo `search.ts`, unos 4 KB. El motor de Pagefind, su
-WebAssembly y `search-words.json` se cargan juntos cuando el puntero entra en un
-botón de búsqueda o se abre el diálogo, unos 150 KB. Después, cada búsqueda pide
-el bloque del índice que tiene sus palabras, unos 40 KB, y un fragmento por cada
-resultado que muestra. El orden usa `pageLength: 0.2` en vez del 0.75 de
-Pagefind, porque el valor por defecto pone las páginas largas que reúnen un tema
-(un curso, una universidad, el plan de estudios) debajo de páginas cortas que
-nombran la palabra una vez.
+WebAssembly, el índice de filtros y `search-words.json` se cargan cuando el
+puntero entra en un botón de búsqueda o se abre el diálogo, unos 155 KB.
+Después, cada búsqueda pide el bloque del índice que tiene sus palabras, unos 40
+KB, y un fragmento por cada resultado que muestra.
+
+Pagefind pide sus archivos uno tras otro: `pagefind.js`, luego su worker, luego
+`pagefind-entry.json`, luego los metadatos y el WebAssembly. Cada paso cuesta un
+viaje de ida y vuelta, lento en un celular. `search.ts` pide el worker, la
+entrada, los metadatos y el WebAssembly por su cuenta, en paralelo con
+`pagefind.js`, y Pagefind luego los lee de la caché del navegador. Para que
+funcione:
+
+- `search.ts` le pasa a Pagefind un `metaCacheTag` que cambia en cada
+  compilación
+  ([`search/cache-tag.html`](../../layouts/_partials/search/cache-tag.html)).
+  Sin él, Pagefind agrega la hora actual a la URL de la entrada y ninguna
+  petición se puede reusar.
+- `_headers` guarda en caché los archivos de `/pagefind/` 5 minutos. Los
+  metadatos, el índice, los filtros y los fragmentos llevan un hash de su
+  contenido en el nombre, así que se guardan un año.
+
+La primera búsqueda en frío con un perfil de celular lento (150 ms de latencia)
+pasó de 1,8 s a 1,2 s. Una búsqueda en otra página reusa los archivos en caché.
+El orden usa `pageLength: 0.2` en vez del 0.75 de Pagefind, porque el valor por
+defecto pone las páginas largas que reúnen un tema (un curso, una universidad,
+el plan de estudios) debajo de páginas cortas que nombran la palabra una vez.
 
 [`search/keywords.html`](../../layouts/_partials/search/keywords.html) le da a
 una página las palabras que los lectores buscan y que ella no dice: las
