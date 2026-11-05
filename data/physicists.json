@@ -21196,6 +21196,12 @@
           "place": "unprg",
           "did": ["Docente ordinario"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jaime-abanto-castillo-68953a114"
+        }
       ]
     },
     {
@@ -21429,6 +21435,12 @@
         {
           "place": "unmsm",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/oscar-ad%C3%A1n-acevedo-s%C3%A1nchez-4b2030249"
         }
       ]
     },
@@ -21871,6 +21883,16 @@
           "place": "unitru",
           "did": ["Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jes%C3%BAs-agreda-paredes-6b41173a"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=tgfOeEMAAAAJ"
+        }
       ]
     },
     {
@@ -22185,6 +22207,12 @@
           "place": "unmsm",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=1cIS1koAAAAJ"
+        }
       ]
     },
     {
@@ -22248,6 +22276,12 @@
         {
           "place": "liu",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=NXdh9OAAAAAJ"
         }
       ]
     },
@@ -22542,6 +22576,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/julio-enrique-alarc%C3%B3n-alvarado-34994418"
         }
       ]
     },
@@ -23187,6 +23227,16 @@
         {
           "place": "utp",
           "did": ["Docente investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=-XfN7awAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/juan-a-alc%C3%A1ntara-n%C3%BA%C3%B1ez"
         }
       ]
     },
@@ -24364,6 +24414,16 @@
             "Ponente",
             "Jefe de unidad de recreación y deportes de la Universidad Nacional de Piura"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Douglas-Alvarado-Paiva"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/douglas-fidel-alvarado-paiva-a57733210"
         }
       ]
     },
@@ -25846,6 +25906,12 @@
             "Servicio de investigación científica"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Yanet-Antayhua"
+        }
       ]
     },
     {
@@ -26315,6 +26381,20 @@
         {
           "place": "iren-sur",
           "did": ["Físico médico"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Danny-Giancarlo-Apaza-Veliz"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Dg5gHHUAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/dgav"
         }
       ]
     },
@@ -27898,6 +27978,12 @@
           "place": "pucp",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/mart%C3%ADn-dionisio-arteaga-tupia-a160292b1"
+        }
       ]
     },
     {
@@ -28100,6 +28186,12 @@
           "place": "uni",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Junior-David-Asencios-Rojas"
+        }
       ]
     },
     {
@@ -28189,6 +28281,16 @@
         {
           "place": "uniq",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=U_6F2EcAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Abrahan-Quispe"
         }
       ]
     },
@@ -28872,6 +28974,16 @@
           "place": "ifrn",
           "did": ["Professor visitante de fisica"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jason-Atoche-Medrano"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jason-jerry-atoche-medrano-958b6620"
+        }
       ]
     },
     {
@@ -29342,6 +29454,20 @@
             "Coordinador",
             "Director de unidad de investigación de facultad de ciencias naturales y formales UNSA"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=GyFFKiQAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Ayala-Arenas"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jorge-sabino-ayala-arenas-9b5726217"
         }
       ]
     },
@@ -31479,6 +31605,20 @@
         {
           "place": "pucp",
           "did": ["Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=rlBrCsAAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jhosep-victorino-beltran-ramirez-6a0570161"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jhosep-Beltran"
         }
       ]
     },
@@ -33740,6 +33880,16 @@
           "place": "utp",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/noely-zully-calderon-ipanaque"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Noely-Calderon-Ipanaque"
+        }
       ]
     },
     {
@@ -35683,6 +35833,16 @@
           "place": "unac",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=J9VJhswAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/dr-rafael-edgardo-carlos-reyes-61595944"
+        }
       ]
     },
     {
@@ -36287,6 +36447,12 @@
         {
           "place": "uc",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/salinova-carrillo-segura-45b3086a"
         }
       ]
     },
@@ -37311,6 +37477,12 @@
           "place": "uni",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Muy6B3IAAAAJ"
+        }
       ]
     },
     {
@@ -37409,6 +37581,16 @@
         {
           "place": "une",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=jsFzz6kAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Miguel-Castillo-Corzo-2"
         }
       ]
     },
@@ -38094,6 +38276,12 @@
         {
           "place": "ucv",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jorge-luis-casusol-cumpa-396243129"
         }
       ]
     },
@@ -39424,6 +39612,16 @@
           "place": "ufabc",
           "did": ["Prof. associado IV"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=nLaj-swAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ana-champi-70a514123"
+        }
       ]
     },
     {
@@ -39517,6 +39715,12 @@
         {
           "place": "carnegie",
           "did": ["Hubble fellow"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=WXfloK8AAAAJ"
         }
       ]
     },
@@ -39896,6 +40100,12 @@
             "Docente ordinario"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=OtLFOZIAAAAJ"
+        }
       ]
     },
     {
@@ -40079,6 +40289,16 @@
         {
           "place": "pucp",
           "did": ["Profesor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=xhu7wxUAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/steven-paul-ch%C3%A1vez-jara-6125752a9"
         }
       ]
     },
@@ -40313,6 +40533,12 @@
         {
           "place": "uni",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/leonardo-chevez-abanto-8a57931b3"
         }
       ]
     },
@@ -40871,6 +41097,16 @@
           "place": "unjbg",
           "did": ["Investigador postdoctoral", "Docente ordinario - auxiliar"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=ESfMKAsAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jovanetty-Choque"
+        }
       ]
     },
     {
@@ -41246,6 +41482,12 @@
           "place": "utp",
           "did": ["Docente universitario"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/sara-luz-chunga-palomino-7b400a3b3"
+        }
       ]
     },
     {
@@ -41382,6 +41624,12 @@
         {
           "place": "unsa",
           "did": ["Docente", "Docente invitado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/niko-churata-mamani-956284121"
         }
       ]
     },
@@ -41704,6 +41952,20 @@
             "Associate professor",
             "Full professor"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=xfC9ihkAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/yves-coello-82904317"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Yves-Coello"
         }
       ]
     },
@@ -42170,6 +42432,12 @@
           "place": "uantof",
           "did": ["Post doctoral researcher"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/luis-angel-conde-mendoza-b1bb25120"
+        }
       ]
     },
     {
@@ -42497,6 +42765,20 @@
             "Director del instituto de investigación geofísica de la UNSA (IDIGUNSA)"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Cristobal-Condori"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/cristobal-condori-quispe-a576b821a"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=x4OlwRUAAAAJ"
+        }
       ]
     },
     {
@@ -42581,6 +42863,16 @@
         {
           "place": "cbpf",
           "did": ["Posdoctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=riFEfR8AAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/cynthia-contreras-medrano"
         }
       ]
     },
@@ -42905,6 +43197,12 @@
             "Director de investigación",
             "Docente"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlos-Villalobos-20"
         }
       ]
     },
@@ -44136,6 +44434,12 @@
           "place": "ufu",
           "did": ["Researcher/teacher"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Raul-Cuevas-4"
+        }
       ]
     },
     {
@@ -44208,6 +44512,12 @@
             "Doctorado",
             "Profesor ordinario"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=rXLKV7wAAAAJ"
         }
       ]
     },
@@ -44343,6 +44653,12 @@
         {
           "place": "uni",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/santiago-custodio-fernandez"
         }
       ]
     },
@@ -45204,6 +45520,12 @@
           "place": "pucp",
           "did": ["Doctorado", "Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Francisco-De-Zela"
+        }
       ]
     },
     {
@@ -45614,6 +45936,16 @@
             "Investigador asociado cimayd"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Martin_Delgado_Wong"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/martin-augusto-delgado-wong-b6353b65"
+        }
       ]
     },
     {
@@ -45893,6 +46225,12 @@
           "place": "unab-pe",
           "did": ["Docente de fisica"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jaime-edsel-diaz-carrera-30038059"
+        }
       ]
     },
     {
@@ -45965,6 +46303,12 @@
             "Doctorado",
             "Docente"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Henry-Diaz-4"
         }
       ]
     },
@@ -46687,6 +47031,16 @@
             "Investigador - estudiante de doctorado"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jorge-dulanto-carbajal-pucp"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Dulanto"
+        }
       ]
     },
     {
@@ -46754,6 +47108,12 @@
         {
           "place": "ufrj",
           "did": ["Professor associado I"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Habib-Dumet-Montoya"
         }
       ]
     },
@@ -47814,6 +48174,12 @@
           "place": "upn",
           "did": ["Investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=yKnWpi0AAAAJ"
+        }
       ]
     },
     {
@@ -47966,6 +48332,16 @@
         {
           "place": "ird",
           "did": ["Investigador científico"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jhan-Espinoza"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jhan-carlo-espinoza-b771195a"
         }
       ]
     },
@@ -48180,6 +48556,16 @@
           "place": "unitru",
           "did": ["Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=O7co-DwAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/manuel-esteves-pairazaman-b561a2255"
+        }
       ]
     },
     {
@@ -48349,6 +48735,12 @@
         {
           "place": "upch",
           "did": ["Research faculty"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Wilfredo-Evangelista-Falcon"
         }
       ]
     },
@@ -49247,6 +49639,16 @@
           "place": "nasa-gsfc",
           "did": ["Postdoctoral research scientist", "Research associate"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=1CZ-aLwAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/cristian-ferradas-1a549a2a"
+        }
       ]
     },
     {
@@ -49343,6 +49745,12 @@
             "Ayudante diplomado",
             "Jefe de trabajos practicos"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/gabriel-ferrero-a867682a"
         }
       ]
     },
@@ -49892,6 +50300,16 @@
           "place": "unac",
           "did": ["University lecturer"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=9gMwY8IAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/sthy-flores-2341373b"
+        }
       ]
     },
     {
@@ -49981,6 +50399,16 @@
         {
           "place": "utec",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Loreleyn-Flores"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/loreleyn-flores"
         }
       ]
     },
@@ -50876,6 +51304,12 @@
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=4AmClOIAAAAJ"
+        }
       ]
     },
     {
@@ -51473,6 +51907,12 @@
         {
           "place": "unsa",
           "did": ["Licenciatura", "Docente principal de", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/francisco-garc%C3%ADa-calisaya-5b13552a3"
         }
       ]
     },
@@ -52074,6 +52514,12 @@
           "place": "uni",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Elmer-Gastelo-Diaz"
+        }
       ]
     },
     {
@@ -52135,6 +52581,12 @@
         {
           "place": "unitru",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=seXv_dIAAAAJ"
         }
       ]
     },
@@ -52465,6 +52917,16 @@
         {
           "place": "uni",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=XYrA89sAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Monica-Gomez-12"
         }
       ],
       "wikipedia": "https://es.wikipedia.org/wiki/M%C3%B3nica_G%C3%B3mez_Le%C3%B3n"
@@ -53249,6 +53711,20 @@
             "Jefe de la oficina central de estado-empresa-sociedad civil"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/pablo-guillermo-gonzales-orme%C3%B1o-47861834"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Pablo-Gonzales-Ormeno"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=ws72BzIAAAAJ"
+        }
       ]
     },
     {
@@ -53887,6 +54363,12 @@
           "place": "pucp",
           "did": ["Profesor asociado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/rolf-grieseler"
+        }
       ]
     },
     {
@@ -53981,6 +54463,12 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor principal"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jorge-andres-guerra-torres-2340a6195"
         }
       ]
     },
@@ -54625,6 +55113,16 @@
           "place": "ulima",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=YnsIQr0AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Abel-Gutarra-Espinoza"
+        }
       ]
     },
     {
@@ -54981,6 +55479,16 @@
             "Director del instituto de investigación"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/karina-silvana-gutierrez-valverde-4a5764127"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Karina-Gutierrez-Valverde"
+        }
       ]
     },
     {
@@ -55119,6 +55627,16 @@
         {
           "place": "unmsm",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=hW9InrwAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/robert-mikhail-guzman-arellano-043689203"
         }
       ]
     },
@@ -55415,6 +55933,20 @@
         {
           "place": "pucp",
           "did": ["Coordinador académico icp"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=tep1LkgAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ahadzichgir"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Antonella-Hadzich"
         }
       ]
     },
@@ -55716,6 +56248,20 @@
         {
           "place": "pucp",
           "did": ["Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=lKUeixQAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Fermin-Aragon"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/fermin-herrera-arag%C3%B3n-6193142a7"
         }
       ]
     },
@@ -56114,6 +56660,16 @@
         {
           "place": "unmsm",
           "did": ["Profesor universitario"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Ray-F-Hidalgo-Ramirez"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ray-hidalgo-a6622b49"
         }
       ]
     },
@@ -56656,6 +57212,20 @@
           "place": "uni",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=i0t8GhYAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Arnold-Huaman-Aguirre"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/arnold-anthony-huam%C3%A1n-aguirre-669297124"
+        }
       ]
     },
     {
@@ -56757,6 +57327,16 @@
           "place": "utp",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=HKylJaoAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Mariela-Huaman-Espinoza"
+        }
       ]
     },
     {
@@ -56807,6 +57387,20 @@
         {
           "place": "uncuyo",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/angioloh"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=2Ok9VQwAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Angiolo-Huaman"
         }
       ]
     },
@@ -57280,6 +57874,16 @@
         {
           "place": "agh",
           "did": ["Postdoctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=V7gIJQQAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jorge-luis-huamani-correa-12aa1750"
         }
       ]
     },
@@ -57954,6 +58558,12 @@
           "place": "unitru",
           "did": ["Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=W6vADx4AAAAJ"
+        }
       ]
     },
     {
@@ -58072,6 +58682,12 @@
         {
           "place": "unalm",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=tj9PTIwAAAAJ"
         }
       ]
     },
@@ -58917,6 +59533,12 @@
           "place": "unsa",
           "did": ["Profesor auxiliar"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=9IdPqW0AAAAJ"
+        }
       ]
     },
     {
@@ -59046,6 +59668,16 @@
         {
           "place": "utp",
           "did": ["Visiting professor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Jimenez-Apaza"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jos%C3%A9-carlos-jim%C3%A9nez-apaza-8285b22b0"
         }
       ]
     },
@@ -59889,6 +60521,12 @@
           "place": "usil",
           "did": ["Docente investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jose-luis-la-rosa-navarro-53040a13a"
+        }
       ]
     },
     {
@@ -60005,6 +60643,12 @@
         {
           "place": "unmsm",
           "did": ["Profesor principal"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/pablo-lagos-b309b846"
         }
       ],
       "wikipedia": "https://es.wikipedia.org/wiki/Pablo_Lagos_Enr%C3%ADquez"
@@ -60406,6 +61050,20 @@
           "place": "usp",
           "did": ["Professor /associate"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=woGJFT8AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Julio-Antonio-Jimenez"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/julio-antonio-larrea-jimenez"
+        }
       ]
     },
     {
@@ -60531,6 +61189,20 @@
         {
           "place": "ufpe",
           "did": ["Professor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=7J2KeVkAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Henry-Sullasi"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/henry-lavalle-72b458220"
         }
       ]
     },
@@ -61135,6 +61807,12 @@
         {
           "place": "ulima",
           "did": ["Profesor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Lizbet-Felix"
         }
       ]
     },
@@ -61911,6 +62589,12 @@
           "place": "unam",
           "did": ["Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rafael-Linan-Abanto-2"
+        }
       ]
     },
     {
@@ -61956,6 +62640,12 @@
         {
           "place": "pucp",
           "did": ["Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=VLwehOkAAAAJ"
         }
       ]
     },
@@ -62031,6 +62721,20 @@
         {
           "place": "uc",
           "did": ["Jefe de investigación y grados de posgrado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rafael-Liza-Neciosup"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=myZBrHkAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/rafaellizan"
         }
       ]
     },
@@ -62204,6 +62908,16 @@
         {
           "place": "pucp",
           "did": ["Doctorado", "Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=w1iL7w8AAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/kevin-angello-lizarraga-olivares-29874a240"
         }
       ]
     },
@@ -62551,6 +63265,12 @@
         {
           "place": "pucp",
           "did": ["Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Celso-Llimpe-2"
         }
       ]
     },
@@ -63091,6 +63811,12 @@
           "place": "pucp",
           "did": ["Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Maria-Lopez-Herrera"
+        }
       ]
     },
     {
@@ -63354,6 +64080,16 @@
         {
           "place": "ipen-pe",
           "did": ["Investigador científico tecnológico"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/alcides-lopez-milla-b1978116"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alcides-Lopez"
         }
       ]
     },
@@ -63641,6 +64377,12 @@
           "place": "unmsm",
           "did": ["Director del departamento de fisica del estado solido"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Whualkuer-Bartra"
+        }
       ]
     },
     {
@@ -63738,6 +64480,16 @@
             "Doctorado",
             "Post-doctorado"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=0ehHvRIAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/glozano-phy"
         }
       ]
     },
@@ -63996,6 +64748,12 @@
         {
           "place": "unsa",
           "did": ["Docente contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=VyjXrPEAAAAJ"
         }
       ]
     },
@@ -65000,6 +65758,16 @@
             "Docente"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/wilson-arcenio-maco-vasquez-0787b91ab"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Wilson-Maco"
+        }
       ]
     },
     {
@@ -65764,6 +66532,16 @@
           "place": "untels",
           "did": ["Docente", "Docente de física"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Manco-Chavez"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jose-manco-ch%C3%A1vez-6a42626b"
+        }
       ]
     },
     {
@@ -66274,6 +67052,16 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jean-Paul-Marrou-Osores"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jean-paul-marrou-osores-19ab57260"
         }
       ]
     },
@@ -67529,6 +68317,16 @@
           "place": "upch",
           "did": ["Profesor"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan-Medina-Pantoja"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/juan-carlos-medina-pantoja-114327a3"
+        }
       ]
     },
     {
@@ -67796,6 +68594,16 @@
         {
           "place": "pucp",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/mar%C3%ADa-del-carmen-mej-mejia-chueca-a21a05a2"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Maria-Mejia-4"
         }
       ]
     },
@@ -69114,6 +69922,16 @@
           "place": "utec",
           "did": []
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=cdk5PGoAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Diego-Milanes-2"
+        }
       ]
     },
     {
@@ -69228,6 +70046,16 @@
         {
           "place": "pucp",
           "did": ["Profesor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/marco-milla-b0a8b062"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marco-Milla"
         }
       ]
     },
@@ -69976,6 +70804,20 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/rodrigo-mogoll%C3%B3n-aburto-0a77442ba"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=3gQ8mgwAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rodrigo-Mogollon"
         }
       ]
     },
@@ -70872,6 +71714,16 @@
             "Coordinador de investigación carrerra de ingeniería civil"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/israelmontoyamatos"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=6NkMapkAAAAJ"
+        }
       ]
     },
     {
@@ -70985,6 +71837,16 @@
         {
           "place": "uantwerpen",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Eduardo-Montoya-Rossi"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/eduardo-h-montoya-rossi-303960b"
         }
       ]
     },
@@ -71385,6 +72247,12 @@
           "place": "ucv",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/rosa-morales-nizama-04386791"
+        }
       ]
     },
     {
@@ -71470,6 +72338,16 @@
         {
           "place": "uni",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/josemoranmeza"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Antonio-Meza"
         }
       ]
     },
@@ -71914,6 +72792,12 @@
             "Doctorado",
             "Docente investigador UNT"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=zGf2RAoAAAAJ"
         }
       ]
     },
@@ -72571,6 +73455,16 @@
           "did": [
             "Investigador, subdirección de ciencias de la atmósfera e hidrósfera"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Aldo-Moya-Alvarez"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/aldo-moya-%C3%A1lvarez-ba4ab5104"
         }
       ]
     },
@@ -73252,6 +74146,16 @@
           "place": "unmsm",
           "did": ["Docente auxiliar"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Erick-Natividad-Zevallos"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=WcQGGFgAAAAJ"
+        }
       ]
     },
     {
@@ -73428,6 +74332,16 @@
         {
           "place": "upc",
           "did": ["Profesor investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/hectornavarrobarboza"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Hector-Navarro-Barboza-2"
         }
       ]
     },
@@ -73933,6 +74847,16 @@
             "Encargado de los laboratorios de fisica e ingenieria electrica"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=7kc_jWMAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ren%C3%A9-negr%C3%B3n-b7700a17a"
+        }
       ]
     },
     {
@@ -74040,6 +74964,12 @@
         {
           "place": "ua-peru",
           "did": ["Docente investigador tiempo completo"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=UjTsCv201JgC"
         }
       ]
     },
@@ -74298,6 +75228,16 @@
             "Director de gestión de la investigación, conocimiento científico, desarrollo tecnológico e innovación"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/edmundo-norabuena-95a61a3b"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Edmundo-Norabuena"
+        }
       ]
     },
     {
@@ -74372,6 +75312,12 @@
         {
           "place": "upn",
           "did": ["Docente auxiliar"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ernesto-noriega-d%C3%ADaz-b89350113"
         }
       ]
     },
@@ -75294,6 +76240,20 @@
           "place": "inaigem",
           "did": []
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Guillermo-Gonzalez-21"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/guillermo-ontiveros-gonzalez"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=hsXD7aUAAAAJ"
+        }
       ]
     },
     {
@@ -75644,6 +76604,12 @@
         {
           "place": "pucp",
           "did": ["Profesor a tiempo parcial por asignatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/omar-ortiz-cabello-382736232"
         }
       ]
     },
@@ -76038,6 +77004,12 @@
         {
           "place": "ucv",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/eberardo-osorio-rojas-74813835"
         }
       ]
     },
@@ -76554,6 +77526,16 @@
           "place": "usp",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/david-gregorio-pacheco-salazar-1707b2b"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=UwxnRO4AAAAJ"
+        }
       ]
     },
     {
@@ -76746,6 +77728,12 @@
         {
           "place": "pucp",
           "did": ["Profesor asociado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=VsNJVCcAAAAJ"
         }
       ]
     },
@@ -77017,6 +78005,16 @@
           "place": "unsa",
           "did": ["Doctorado", "Docente", "Director"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=_WvY288AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan-Palo-Tejada"
+        }
       ]
     },
     {
@@ -77129,6 +78127,20 @@
         {
           "place": "pucp",
           "did": ["Profesor principal"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=cJ2YI28AAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jan-amaru-t%C3%B6fflinger-palomino-8a9309b8"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jan-Toefflinger"
         }
       ]
     },
@@ -77445,6 +78457,20 @@
           "place": "uni",
           "did": ["Docente investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Vp7IGjsAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alejandro-Paredes-Cabrel"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/alejandroparedescabrel"
+        }
       ]
     },
     {
@@ -77639,6 +78665,16 @@
         {
           "place": "unmsm",
           "did": ["Docente ordinario"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=KTO5rfwAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/david-pareja-quispe-76b0a84a"
         }
       ]
     },
@@ -78508,6 +79544,16 @@
           "place": "ufrj",
           "did": ["Postdoc"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=HR7cwR0AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jilder-Dandy-Serna"
+        }
       ]
     },
     {
@@ -78858,6 +79904,12 @@
           "place": "igp",
           "did": ["Investigador científico superior"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Antonio-Pereyra"
+        }
       ]
     },
     {
@@ -78921,6 +79973,16 @@
         {
           "place": "unesp",
           "did": ["Doctorado", "Posdoctoral position"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=KC_2hGYAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Orlando-Ravinez"
         }
       ]
     },
@@ -80780,6 +81842,16 @@
           "place": "upf",
           "did": ["Promotor tecnologico"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/edsonplasencia"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=lvqkbIoAAAAJ"
+        }
       ]
     },
     {
@@ -81787,6 +82859,12 @@
           "place": "uni",
           "did": ["Professor", "Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=0w7dFI8AAAAJ"
+        }
       ]
     },
     {
@@ -81927,6 +83005,12 @@
         {
           "place": "upch",
           "did": ["Docente tiempo parcial"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/davidpumat"
         }
       ]
     },
@@ -82124,6 +83208,16 @@
         {
           "place": "imarpe",
           "did": ["Investigador", "Coordinador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/sara-purca-50022823"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Sara-Purca"
         }
       ],
       "wikipedia": "https://es.wikipedia.org/wiki/Sara_Purca"
@@ -82739,6 +83833,16 @@
           "place": "pucp",
           "did": ["Doctorado", "Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Aransselly-Quiroz-Chang-2"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/aransselly-quiroz-03a3711a8"
+        }
       ]
     },
     {
@@ -83033,6 +84137,20 @@
         {
           "place": "pucp",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Roger-Quispe-Dominguez-2"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=QLXSLHQAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/roger-quispe-dominguez-298799214"
         }
       ]
     },
@@ -83401,6 +84519,16 @@
         {
           "place": "citbm",
           "did": ["Investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=d7_5jgUAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/justiniano-quispe-marcatoma-048ab8a0"
         }
       ]
     },
@@ -84138,6 +85266,12 @@
           "place": "upch",
           "did": ["Docente e investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=oyehyG0AAAAJ"
+        }
       ]
     },
     {
@@ -84411,6 +85545,20 @@
         {
           "place": "uni",
           "did": ["Licenciatura", "Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=K02zRtcAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Pierre-Giovanny-Ramos-Apestegui"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/pierre-giovanny-ramos-apestegui-313a64155"
         }
       ]
     },
@@ -85090,6 +86238,12 @@
           "place": "pucp",
           "did": ["Jefe de prácticas"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Javier-Rengifo"
+        }
       ]
     },
     {
@@ -85605,6 +86759,12 @@
           "place": "unmsm",
           "did": ["Professor", "Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=KuCtBGgAAAAJ"
+        }
       ]
     },
     {
@@ -86084,6 +87244,16 @@
           "place": "utec",
           "did": ["Profesor ciencias"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Ai2lJ68AAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/alejandro-c-rios-20735753"
+        }
       ]
     },
     {
@@ -86263,6 +87433,12 @@
         {
           "place": "pucv",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlos-Rios-Morales"
         }
       ]
     },
@@ -86498,6 +87674,12 @@
           "place": "unitru",
           "did": ["Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=bWxQoVcAAAAJ"
+        }
       ]
     },
     {
@@ -86636,6 +87818,12 @@
         {
           "place": "unitru",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jesus-manuel-rivera-esteban-a228057b"
         }
       ]
     },
@@ -87299,6 +88487,16 @@
           "place": "unmsm",
           "did": ["Estudiante de doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=PpkkayQAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/carlos-rodriguez-benites-56bb10122"
+        }
       ]
     },
     {
@@ -87815,6 +89013,16 @@
         {
           "place": "ufam",
           "did": ["Professor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Octavio-Salmon"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/octavio-daniel-rodriguez-salmon-bb4b2510"
         }
       ]
     },
@@ -88599,6 +89807,16 @@
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jhonny-Rojas-Hancco"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jhonny-jonnatan-rojas-hancco-099a221b3"
+        }
       ]
     },
     {
@@ -88973,6 +90191,12 @@
             "Investigador postdoctoral"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/enrique-rojas-villalba-8a565236a"
+        }
       ]
     },
     {
@@ -89094,6 +90318,16 @@
             "Postdoctorante de investigación",
             "Asistente técnico en proyectos de investigación"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Luz-Roman-Mendoza"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/luz-esmeralda-rom%C3%A1n-mendoza-43608890"
         }
       ]
     },
@@ -89918,6 +91152,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=weC1Ei4AAAAJ"
+        }
       ]
     },
     {
@@ -90098,6 +91338,12 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=01RMy64AAAAJ"
         }
       ]
     },
@@ -91064,6 +92310,12 @@
           "place": "ufpr",
           "did": ["Professor substituto - UFPR"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Miguel-Jorge-Jimenez-2"
+        }
       ]
     },
     {
@@ -91230,6 +92482,12 @@
           "place": "lsbu",
           "did": ["Senior research fellow", "Visiting senior research fellow"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Ener-Salinas"
+        }
       ]
     },
     {
@@ -91288,6 +92546,16 @@
           "place": "unicamp",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=ADvo-nMAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/edwin-sallica-leva-b2b216203"
+        }
       ]
     },
     {
@@ -91337,6 +92605,16 @@
         {
           "place": "conida",
           "did": ["Jefe del departamento de ciencias espaciales y astronomía"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jorge-samanes-367bba179"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Samanes"
         }
       ]
     },
@@ -91529,6 +92807,20 @@
         {
           "place": "untels",
           "did": ["Professor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=LlEPskQAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Odon-Sanchez-Ccoyllo"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/odon-s%C3%A1nchez-3365921b8"
         }
       ]
     },
@@ -91739,6 +93031,16 @@
         {
           "place": "inpe",
           "did": ["Maestría", "Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Saul-Sanchez-Juarez"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=QWWckHgAAAAJ"
         }
       ]
     },
@@ -92061,6 +93363,12 @@
           "place": "uni",
           "did": ["Profesor asociado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=M4csgMEAAAAJ"
+        }
       ]
     },
     {
@@ -92218,6 +93526,16 @@
         {
           "place": "utp",
           "did": ["DTP"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Z95Vb8sAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Luis-Sanchez-Rosas-2"
         }
       ]
     },
@@ -92450,6 +93768,16 @@
           "place": "untrm",
           "did": ["Maestría", "Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/nemesio-santamar%C3%ADa-baldera-53416373"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Nemesio-Santamaria"
+        }
       ]
     },
     {
@@ -92595,6 +93923,12 @@
         {
           "place": "pucp",
           "did": ["Profesor auxiliar"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/martinsarango"
         }
       ]
     },
@@ -93145,6 +94479,16 @@
           "place": "cab",
           "did": ["Researcher"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=OTajqP4AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Laura-Serkovic-Loli"
+        }
       ]
     },
     {
@@ -93463,6 +94807,20 @@
           "place": "csic",
           "did": ["Investigador postdoctoral"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=YssaLIYAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/msevillanob"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Miguel-Sevillano-Bendezu"
+        }
       ]
     },
     {
@@ -93635,6 +94993,20 @@
         {
           "place": "usp",
           "did": ["Posdoctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Betzabel-Silva-Carrera"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/betzabel-noemi-silva-carrera-168b4b14b"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=CupshIwAAAAJ"
         }
       ]
     },
@@ -93983,6 +95355,12 @@
           "place": "utp",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jose-gabriel-solano-canchaya-ab795738a"
+        }
       ]
     },
     {
@@ -94176,6 +95554,16 @@
         {
           "place": "uni",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jose-luis-solis-veliz-18425a97"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Solis-9"
         }
       ]
     },
@@ -95895,6 +97283,12 @@
           "place": "ministerio-publico",
           "did": ["Analista físico forense"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/patricia-taipe-26540a169"
+        }
       ]
     },
     {
@@ -96029,6 +97423,16 @@
             "Investigador científico principal, ciencias de la atmósfera, hidrósfera y cambio climático"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ken-takahashi-758a8758"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Ken-Takahashi-9"
+        }
       ]
     },
     {
@@ -96095,6 +97499,20 @@
         {
           "place": "uni",
           "did": ["Licenciatura", "Maestría", "Doctorado", "Profesor principal"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=7ssOYF4AAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/arturo-talledo-4b471850"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Arturo-Talledo"
         }
       ]
     },
@@ -96723,6 +98141,20 @@
           "place": "unmdp",
           "did": ["Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=uF9_sfUAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/segundo-aristides-tavara-aponte-b8043a238"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Segundo-Tavara"
+        }
       ]
     },
     {
@@ -96942,6 +98374,12 @@
           "place": "inaigem",
           "did": ["Presidente ejecutivo"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/hernando-tavera-05b208156"
+        }
       ]
     },
     {
@@ -96994,6 +98432,16 @@
         {
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/alvaro-tejada-esteves-a1a74a14a"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alvaro-Tejada"
         }
       ]
     },
@@ -97172,6 +98620,12 @@
           "place": "tecsup",
           "did": ["Asesor de física"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Luis-Temoche-Hurtado"
+        }
       ]
     },
     {
@@ -97262,6 +98716,12 @@
         {
           "place": "cinvestav",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Tiburcio-Moreno"
         }
       ]
     },
@@ -97642,6 +99102,12 @@
           "place": "ifsc-usp",
           "did": ["Investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=kB5yU_wAAAAJ"
+        }
       ]
     },
     {
@@ -97728,6 +99194,12 @@
         {
           "place": "ufpb",
           "did": ["Doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/christian-tolentino-95670087"
         }
       ]
     },
@@ -98952,6 +100424,20 @@
           "place": "utp",
           "did": ["Docente investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Wiliam-Herrera"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/wtherrera"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=7CEUwfYAAAAJ"
+        }
       ]
     },
     {
@@ -99101,6 +100587,16 @@
         {
           "place": "pucp",
           "did": ["Doctorado", "Profesor contratado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/karemytucto"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Karem-Tucto"
         }
       ]
     },
@@ -99614,6 +101110,12 @@
           "place": "ufrj",
           "did": ["Doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Kevin-Urcia"
+        }
       ]
     },
     {
@@ -99696,6 +101198,16 @@
         {
           "place": "pucp",
           "did": ["Professor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=7MaMGmkAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan-Urco"
         }
       ]
     },
@@ -100515,6 +102027,16 @@
           "place": "unmsm",
           "did": ["Investigador pos-doctoral"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=2ZvCK8QAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marlon-Valerio-Cuadros"
+        }
       ]
     },
     {
@@ -101298,6 +102820,12 @@
           "place": "uss",
           "did": ["Docente investigador", "Vicerrector de investigación"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/marcial-vasquez-arteaga-a1ba4634"
+        }
       ]
     },
     {
@@ -101914,6 +103442,12 @@
           "place": "usp",
           "did": ["Investigador-doctorado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=oF_Do44AAAAJ"
+        }
       ]
     },
     {
@@ -102138,6 +103672,12 @@
         {
           "place": "ufmg",
           "did": ["Postdoctoral", "Professor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlos-Velasquez-Cabrera"
         }
       ]
     },
@@ -102815,6 +104355,16 @@
             "Estudiante de maestría en geofísica",
             "Doctorado"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=zXUX1LIAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Cesar-Victoria"
         }
       ]
     },
@@ -103508,6 +105058,16 @@
           "place": "pucp",
           "did": ["Pre-docente", "Docente contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/heyner-vilchez-rojas-777413156"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Heyner-Vilchez-Rojas"
+        }
       ]
     },
     {
@@ -104121,6 +105681,16 @@
           "place": "unsa",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=_shei50AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan-Villegas-Lanza"
+        }
       ]
     },
     {
@@ -104410,6 +105980,16 @@
           "place": "psi",
           "did": ["Post doctoral fellow"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=J9279JcAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Franklin-Vivanco"
+        }
       ]
     },
     {
@@ -104502,6 +106082,12 @@
         {
           "place": "utp",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/cristofher-vivas-palomares-38500025b"
         }
       ]
     },
@@ -104617,6 +106203,16 @@
         {
           "place": "uc",
           "did": ["Docente investigador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=1BOMPWEAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/cynthia-ventura-224016176"
         }
       ]
     },
@@ -105552,6 +107148,16 @@
           "place": "senamhi",
           "did": ["Director"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/christian-yarleque-84ab98b9"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=gIOWdlUAAAAJ"
+        }
       ]
     },
     {
@@ -105885,6 +107491,16 @@
           "place": "pucp",
           "did": ["Maestría", "Doctorado", "Profesor contratado"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/yonny-yugra-88b8a6351"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Yonny-Yugra"
+        }
       ]
     },
     {
@@ -105955,6 +107571,20 @@
             "Profesor de tiempo parcial por contrato",
             "Profesor asistente"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=850UP1YAAAAJ"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/wilfredo-yupanqui-carpio-12a34a276"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Wilfredo-Yupanqui"
         }
       ]
     },
@@ -106048,6 +107678,20 @@
         {
           "place": "unsaac",
           "did": ["Proffessor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=hN9b_QoAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marco-Zamalloa-Jara"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/marco-a-zamalloa-jara-015702198"
         }
       ]
     },
@@ -106359,6 +108003,12 @@
           "place": "ucsur",
           "did": ["Docente de física"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/jonathan-joas-zapata-campos-07235a135"
+        }
       ]
     },
     {
@@ -106598,6 +108248,12 @@
         {
           "place": "cbpf",
           "did": ["Postdoc"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=-nUUT1UAAAAJ"
         }
       ]
     },
@@ -106895,6 +108551,20 @@
         {
           "place": "uni",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Antonio-Zegarra-Borrero"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/antonio-f-zegarra-borrero-b90233126"
+        },
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=rWUZKE8AAAAJ"
         }
       ]
     },
@@ -107298,6 +108968,12 @@
           "place": "uni",
           "did": []
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/maria-isela-zevallos-herencia-22b27a85"
+        }
       ]
     },
     {
@@ -107610,6 +109286,16 @@
         {
           "place": "ujmb",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=-aIDq_QAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Zuloaga"
         }
       ]
     },
