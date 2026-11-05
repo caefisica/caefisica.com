@@ -22,10 +22,10 @@ change it only there.
 
 When a reader closes the search dialog or leaves the page, `search.ts` sends the
 last search to `POST /api/search`: the words, the number of results, and the
-shorter search shown when nothing matched. The Worker writes them to the
-`searches` dataset of Workers Analytics Engine, bound as `SEARCHES`. It stores
-no IP, cookie, user agent or page. Analytics Engine keeps the data for three
-months.
+shorter search shown when nothing matched. The prefixes typed on the way are not
+sent. The Worker writes them to the `searches` dataset of Workers Analytics
+Engine, bound as `SEARCHES`. It stores no IP, cookie, user agent or page.
+Analytics Engine keeps the data for three months.
 
 `bun run searches [days]` prints the most frequent searches of the last 7 days
 and those that found nothing. It needs `CLOUDFLARE_ANALYTICS_TOKEN`, a token
@@ -88,6 +88,14 @@ except the home page carries the `section` metadata with its section path, which
 the result shows above the title. Where the search loads:
 [architecture](architecture.md).
 
+The page loads only `search.ts`, about 4 KB. The Pagefind engine, its
+WebAssembly and `search-words.json` load together when a pointer enters a search
+button or the dialog opens, about 150 KB. A search then fetches the index chunk
+that holds its words, about 40 KB, and a fragment for each result shown. The
+ranking uses `pageLength: 0.2` instead of Pagefind's 0.75, because the default
+ranks long hub pages (a course, a university, the study plan) under short pages
+that mention the word once.
+
 [`search/keywords.html`](../../layouts/_partials/search/keywords.html) gives a
 page the words readers search for that it never says: the front matter
 `keywords`, a course's code and its number in digits ("Cálculo 1"), and a
@@ -95,15 +103,24 @@ university's acronym. Search weighs them above the title. Those words and a
 course's title also go, lowercase and without accents, into the `exact` filter:
 a search equal to one of them puts that page first, so "uni" finds the
 Universidad Nacional de Ingeniería before every page that says "universidad".
+Search sends the filter with the query. A filter searched without a query makes
+Pagefind fetch the whole index, about 2 MB.
 
 Hugo also writes `public/search-words.json`
 ([`layouts/index.words.json`](../../layouts/index.words.json)): every word of
 four letters or more in a page title or keywords, the most used first. Pagefind
 has no typo tolerance and matches an unknown word through any indexed word it
-starts with, so "optcia" finds pages about "opt". When no title word starts with
-a searched word and its best result marks no word that does, search swaps it for
-the closest title word within one or two edits and shows "¿Quisiste decir
-«óptica»?" with the results for the corrected search.
+starts with, so "optcia" finds pages about "opt". A searched word of four
+letters or more is known when a word in that list starts with it, or its best
+result marks a word that does. Search swaps an unknown word for the closest
+listed word: one edit away for a word of up to five letters, two for a longer
+one, and the more used word on a tie. It then shows "¿Quisiste decir «óptica»?"
+with the results for the corrected search.
+
+Pagefind requires every word to match, so one extra word can empty the list.
+When a search of several words finds nothing, search drops the word with the
+fewest results of its own until some results come back, and shows the shorter
+search.
 
 `bun run dev` runs `build` first, so the index also exists locally and search
 works.

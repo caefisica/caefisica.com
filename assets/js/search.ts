@@ -38,11 +38,8 @@ type Searched = {
   relaxed: number;
 };
 
-// The query the reader settled on, sent when they leave the dialog or the page, so the
-// prefixes typed on the way there are not logged.
 let settled: Searched | undefined;
 
-// The worker keeps the words and counts only. See worker/index.ts.
 function report() {
   if (!settled) return;
   navigator.sendBeacon(
@@ -52,12 +49,10 @@ function report() {
   settled = undefined;
 }
 
-// The 30 KB engine and its index load on the first sign of intent, not with the page.
 function load(): Promise<Pagefind> {
+  vocabularyWords().catch(() => (vocabulary = undefined));
   engine ??= import(`${params.bundlePath}pagefind.js`).then(
     async (pagefind: Pagefind) => {
-      // Hub pages (a course, a university, the study plan) are long, and Pagefind's default
-      // pageLength of 0.75 ranks them under short pages that mention the word once.
       await pagefind.options({
         excerptLength: 16,
         ranking: { metaWeights: { keywords: 10 }, pageLength: 0.2 },
@@ -126,9 +121,6 @@ function message(html: string) {
 
 type Retried = { query: string; found: Found; how: "corrected" | "relaxed" };
 
-// Pagefind requires every word to match and has no typo tolerance, so one misspelt or
-// extra word empties the list. Drop the rarest word, the likeliest typo or the idea the
-// site lacks, until some results come back.
 async function relax(
   pagefind: Pagefind,
   query: string,
@@ -160,8 +152,6 @@ type Word = { word: string; folded: string };
 
 let vocabulary: Promise<Word[]> | undefined;
 
-// The title and keyword words of every page, the most used first; built by
-// layouts/index.words.json. Loaded only when a search finds nothing.
 function vocabularyWords(): Promise<Word[]> {
   vocabulary ??= fetch("/search-words.json")
     .then((response) => response.json())
@@ -171,8 +161,7 @@ function vocabularyWords(): Promise<Word[]> {
   return vocabulary;
 }
 
-// Edits (insert, delete, replace, swap two neighbours) that turn a into b, or max + 1
-// once no alignment can stay within max.
+// Returns max + 1 once the distance must exceed max.
 function distance(a: string, b: string, max: number): number {
   if (Math.abs(a.length - b.length) > max) return max + 1;
   let before: number[] = [];
@@ -196,28 +185,20 @@ function distance(a: string, b: string, max: number): number {
   return previous[b.length];
 }
 
-// Pagefind matches a word it lacks through the longest indexed word that the typed word
-// starts with, so "generl" finds "generadores" and a typo rarely finds nothing. A word
-// is known when a title word starts with it or its best page marks a word that does.
-// Words under four letters count as known, since most are one edit from many others.
-async function known(
-  pagefind: Pagefind,
-  typed: string,
-  words: Word[],
-): Promise<boolean> {
+async function known(pagefind: Pagefind, typed: string): Promise<boolean> {
   const folded = fold(typed);
-  if (folded.length < 4 || words.some((w) => w.folded.startsWith(folded)))
+  if (folded.length < 4) return true;
+  const starts = (w: string) => fold(w).startsWith(folded);
+  if ((await vocabularyWords()).some((w) => w.folded.startsWith(folded)))
     return true;
   const [best] = (await pagefind.search(typed)).results;
   if (!best) return false;
   const { excerpt } = await best.data();
   return [...excerpt.matchAll(/<mark>(.*?)<\/mark>/g)].some((m) =>
-    fold(m[1]).startsWith(folded),
+    starts(m[1]),
   );
 }
 
-// The title word closest to an unknown one: one edit away for a word of up to five
-// letters, two for a longer one. A tie goes to the more used word.
 function closest(typed: string, words: Word[]): string | undefined {
   const folded = fold(typed);
   let best: string | undefined;
@@ -236,12 +217,13 @@ async function correct(
   pagefind: Pagefind,
   query: string,
 ): Promise<Retried | undefined> {
-  const words = await vocabularyWords();
   const fixed = await Promise.all(
     query
       .split(/\s+/)
       .map(async (w) =>
-        (await known(pagefind, w, words)) ? w : (closest(w, words) ?? w),
+        (await known(pagefind, w))
+          ? w
+          : (closest(w, await vocabularyWords()) ?? w),
       ),
   );
   const corrected = fixed.join(" ");
@@ -255,16 +237,13 @@ async function correct(
     return { query: corrected, found, how: "corrected" };
 }
 
-// A short name loses to long pages full of its words: "uni" is the prefix of
-// "universidad" and "física 1" shares "1" with thousands of pages. A page lists its
-// exact names (keywords, a course's title) in the "exact" filter, and a search equal to
-// one of them puts that page first.
+// A filter searched without a query makes Pagefind fetch every index chunk.
 async function pin(
   pagefind: Pagefind,
   query: string,
   found: Found,
 ): Promise<Found> {
-  const exact = await pagefind.search(null, {
+  const exact = await pagefind.search(query, {
     filters: { exact: fold(query) },
   });
   if (!exact.results.length) return found;

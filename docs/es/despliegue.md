@@ -22,10 +22,11 @@ solo ahí.
 
 Cuando el lector cierra el diálogo de búsqueda o sale de la página, `search.ts`
 envía la última búsqueda a `POST /api/search`: las palabras, el número de
-resultados y la búsqueda más corta que se mostró cuando nada coincidía. El
-Worker las escribe en el dataset `searches` de Workers Analytics Engine,
-enlazado como `SEARCHES`. No guarda IP, cookies, user agent ni página. Analytics
-Engine conserva los datos tres meses.
+resultados y la búsqueda más corta que se mostró cuando nada coincidía. Los
+prefijos que escribió en el camino no se envían. El Worker las escribe en el
+dataset `searches` de Workers Analytics Engine, enlazado como `SEARCHES`. No
+guarda IP, cookies, user agent ni página. Analytics Engine conserva los datos
+tres meses.
 
 `bun run searches [días]` imprime las búsquedas más frecuentes de los últimos 7
 días y las que no encontraron nada. Necesita `CLOUDFLARE_ANALYTICS_TOKEN`, un
@@ -88,6 +89,15 @@ sin portada lleva el metadato `section` con su ruta de secciones, que el
 resultado muestra sobre el título. Dónde se carga el buscador:
 [arquitectura](architecture.md).
 
+La página carga solo `search.ts`, unos 4 KB. El motor de Pagefind, su
+WebAssembly y `search-words.json` se cargan juntos cuando el puntero entra en un
+botón de búsqueda o se abre el diálogo, unos 150 KB. Después, cada búsqueda pide
+el bloque del índice que tiene sus palabras, unos 40 KB, y un fragmento por cada
+resultado que muestra. El orden usa `pageLength: 0.2` en vez del 0.75 de
+Pagefind, porque el valor por defecto pone las páginas largas que reúnen un tema
+(un curso, una universidad, el plan de estudios) debajo de páginas cortas que
+nombran la palabra una vez.
+
 [`search/keywords.html`](../../layouts/_partials/search/keywords.html) le da a
 una página las palabras que los lectores buscan y que ella no dice: las
 `keywords` del front matter, el código de un curso y su número en cifras
@@ -95,17 +105,26 @@ una página las palabras que los lectores buscan y que ella no dice: las
 título. Esas palabras y el título de un curso también van, en minúsculas y sin
 tildes, al filtro `exact`: una búsqueda igual a una de ellas pone esa página
 primero, así «uni» encuentra la Universidad Nacional de Ingeniería antes que
-todas las páginas que dicen «universidad».
+todas las páginas que dicen «universidad». El buscador envía el filtro junto con
+la búsqueda. Un filtro sin búsqueda hace que Pagefind pida el índice entero,
+unos 2 MB.
 
 Hugo también escribe `public/search-words.json`
 ([`layouts/index.words.json`](../../layouts/index.words.json)): cada palabra de
 cuatro letras o más de los títulos y las `keywords`, la más usada primero.
 Pagefind no tolera erratas y une una palabra que no conoce con cualquier palabra
-indexada con la que empiece, así «optcia» encuentra páginas sobre «opt». Cuando
-ninguna palabra de título empieza con la palabra buscada y su mejor resultado no
-marca ninguna que lo haga, el buscador la cambia por la palabra de título más
-cercana, a una o dos ediciones, y muestra «¿Quisiste decir «óptica»?» con los
-resultados de la búsqueda corregida.
+indexada con la que empiece, así «optcia» encuentra páginas sobre «opt». Una
+palabra buscada de cuatro letras o más es conocida cuando una palabra de esa
+lista empieza con ella, o cuando su mejor resultado marca una que lo hace. El
+buscador cambia una palabra desconocida por la palabra de la lista más cercana:
+a una edición si tiene hasta cinco letras, a dos si es más larga, y la más usada
+en un empate. Luego muestra «¿Quisiste decir «óptica»?» con los resultados de la
+búsqueda corregida.
+
+Pagefind exige que coincidan todas las palabras, así que una palabra de más
+puede vaciar la lista. Cuando una búsqueda de varias palabras no encuentra nada,
+el buscador quita la palabra con menos resultados propios hasta que vuelvan
+resultados, y muestra la búsqueda más corta.
 
 `bun run dev` ejecuta `build` antes, así que el índice también existe en local y
 el buscador funciona.
