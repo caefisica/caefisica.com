@@ -94,26 +94,21 @@ a search button or the dialog opens, about 155 KB. A search then fetches the
 index chunk that holds its words, about 40 KB, and a fragment for each result
 shown.
 
-Pagefind fetches its files one after another: `pagefind.js`, then its worker,
-then `pagefind-entry.json`, then the metadata and the WebAssembly. Each step
-costs a round trip, which is slow on a phone. `search.ts` requests the worker,
-the entry, the metadata and the WebAssembly itself, in parallel with
-`pagefind.js`, and Pagefind then reads them from the browser cache. For that to
-work:
+Pagefind fetches its files in a chain: `pagefind.js`, its worker,
+`pagefind-entry.json`, then the metadata and the WebAssembly. `search.ts`
+fetches the last four in parallel with `pagefind.js`, and Pagefind reads them
+from the browser cache. Two settings make the URLs match and the files
+cacheable:
 
-- `search.ts` passes Pagefind a `metaCacheTag` that changes on every build
-  ([`search/cache-tag.html`](../../layouts/_partials/search/cache-tag.html)).
-  Without it Pagefind adds the current time to the entry URL, and no request can
-  be reused.
-- `_headers` caches the files of `/pagefind/` for 5 minutes. The metadata,
-  index, filter and fragment files carry a content hash in their names, so they
-  are cached for a year.
+- `metaCacheTag` is the build's tag
+  ([`search/cache-tag.html`](../../layouts/_partials/search/cache-tag.html)),
+  which Pagefind appends to the entry URL.
+- `_headers` caches `/pagefind/` for 5 minutes, and the files with a content
+  hash in their names (metadata, index, filter, fragment) for a year.
 
-The cold first search on a throttled phone profile (150 ms latency) went from
-1.8 s to 1.2 s. A search on a second page reuses the cached files. The ranking
-uses `pageLength: 0.2` instead of Pagefind's 0.75, because the default ranks
-long hub pages (a course, a university, the study plan) under short pages that
-mention the word once.
+The ranking uses `pageLength: 0.2` instead of Pagefind's 0.75, because the
+default ranks long hub pages (a course, a university, the study plan) under
+short pages that mention the word once.
 
 [`search/keywords.html`](../../layouts/_partials/search/keywords.html) gives a
 page the words readers search for that it never says: the front matter

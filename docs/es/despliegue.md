@@ -95,24 +95,18 @@ puntero entra en un botón de búsqueda o se abre el diálogo, unos 155 KB.
 Después, cada búsqueda pide el bloque del índice que tiene sus palabras, unos 40
 KB, y un fragmento por cada resultado que muestra.
 
-Pagefind pide sus archivos uno tras otro: `pagefind.js`, luego su worker, luego
-`pagefind-entry.json`, luego los metadatos y el WebAssembly. Cada paso cuesta un
-viaje de ida y vuelta, lento en un celular. `search.ts` pide el worker, la
-entrada, los metadatos y el WebAssembly por su cuenta, en paralelo con
-`pagefind.js`, y Pagefind luego los lee de la caché del navegador. Para que
-funcione:
+Pagefind pide sus archivos en cadena: `pagefind.js`, su worker,
+`pagefind-entry.json`, y luego los metadatos y el WebAssembly. `search.ts` pide
+los cuatro últimos en paralelo con `pagefind.js`, y Pagefind los lee de la caché
+del navegador. Dos ajustes hacen que las URL coincidan y que los archivos se
+guarden en caché:
 
-- `search.ts` le pasa a Pagefind un `metaCacheTag` que cambia en cada
-  compilación
-  ([`search/cache-tag.html`](../../layouts/_partials/search/cache-tag.html)).
-  Sin él, Pagefind agrega la hora actual a la URL de la entrada y ninguna
-  petición se puede reusar.
-- `_headers` guarda en caché los archivos de `/pagefind/` 5 minutos. Los
-  metadatos, el índice, los filtros y los fragmentos llevan un hash de su
-  contenido en el nombre, así que se guardan un año.
+- `metaCacheTag` es la marca de la compilación
+  ([`search/cache-tag.html`](../../layouts/_partials/search/cache-tag.html)),
+  que Pagefind agrega a la URL de la entrada.
+- `_headers` guarda `/pagefind/` en caché 5 minutos, y los archivos con un hash
+  de su contenido en el nombre (metadatos, índice, filtros, fragmentos) un año.
 
-La primera búsqueda en frío con un perfil de celular lento (150 ms de latencia)
-pasó de 1,8 s a 1,2 s. Una búsqueda en otra página reusa los archivos en caché.
 El orden usa `pageLength: 0.2` en vez del 0.75 de Pagefind, porque el valor por
 defecto pone las páginas largas que reúnen un tema (un curso, una universidad,
 el plan de estudios) debajo de páginas cortas que nombran la palabra una vez.
