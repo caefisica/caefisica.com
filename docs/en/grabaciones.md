@@ -67,13 +67,13 @@ talks and of videos, and the first and last year. It is sorted by number of
 videos. Each record has series, title, date, month, minutes, link, origin and
 speakers. A record's id is unique ignoring case.
 
-| Origin       | What enters                                                                               | Own fields                                    |
-| ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------- |
-| `facebook`   | Videos from the faculty's page of 15 minutes or more, with a public copy on Drive.        | `post`: the Facebook post.                    |
-| `youtube`    | Videos of 15 minutes or more from each channel that is a series; no classes or workshops. | `invitation`, if the video matches one.       |
-| `educast`    | The PUCP video archive.                                                                   | `url` (mp4), `page` (Educast page), `poster`. |
-| `drive`      | Recordings that a seminar site links on its recordings page.                              | `url` (Drive player), `page`.                 |
-| `invitation` | Talks announced without video, with title and speaker.                                    | `invitation`: the link to the invitation.     |
+| Origin       | What enters                                                                                                                                 | Own fields                                    |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| `facebook`   | Videos from the faculty's page of 15 minutes or more, with a public copy on Drive.                                                          | `post`: the Facebook post.                    |
+| `youtube`    | Videos of 15 minutes or more from each channel that is a series; no classes or workshops. A single talk on another channel enters outreach. | `invitation`, if the video matches one.       |
+| `educast`    | The PUCP video archive.                                                                                                                     | `url` (mp4), `page` (Educast page), `poster`. |
+| `drive`      | Recordings that a seminar site links on its recordings page.                                                                                | `url` (Drive player), `page`.                 |
+| `invitation` | Talks announced without video, with title and speaker.                                                                                      | `invitation`: the link to the invitation.     |
 
 Common rules:
 
