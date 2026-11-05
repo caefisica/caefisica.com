@@ -22945,9 +22945,10 @@
       "url": "https://www.linkedin.com/in/rosario-aldava-asencios-001680261/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "fields": ["Astrofísica de altas energías", "Física de neutrinos"],
       "studied": [
         {
           "place": "unmsm",
@@ -22957,8 +22958,20 @@
           "end": 2024
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "unmsm",
+          "role": "Investigadora en física de partículas elementales (GFT-HEP)"
+        }
+      ],
       "jobs": [
+        {
+          "place": "ipn",
+          "name": "Instituto Politécnico Nacional",
+          "role": "Participante de la escuela de verano de introducción a la computación cuántica",
+          "start": 2025,
+          "end": 2025
+        },
         {
           "place": "rochester",
           "name": "University of Rochester",
@@ -22969,19 +22982,63 @@
         {
           "place": null,
           "name": "Tutor Doctor Perú",
-          "role": "Tutora",
+          "role": "Tutora de ciencias y matemáticas",
           "start": 2024,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Investigadora en física de partículas elementales (GFT-HEP)",
+          "start": 2023,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Museo Histórico de Ciencias Físicas",
+          "role": "Voluntaria expositora del área de electricidad y magnetismo",
+          "start": 2023,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "IEEE NPSS UNMSM",
+          "role": "Directora del área de marketing y branding",
+          "start": 2023,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "Grupo de Trabajo de Mujeres Físicas - Perú",
+          "role": "Voluntaria de desarrollo",
+          "start": 2022,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Fisiket",
+          "role": "Divulgadora científica",
+          "start": 2020,
           "end": "now"
         }
       ],
       "path": [
         {
           "place": "unmsm",
-          "did": ["Bachillerato"]
+          "did": [
+            "Bachillerato",
+            "Investigadora en física de partículas elementales (GFT-HEP)"
+          ]
         },
         {
           "place": "rochester",
           "did": ["Investigadora de verano (REU, DUNE)"]
+        },
+        {
+          "place": "ipn",
+          "did": [
+            "Participante de la escuela de verano de introducción a la computación cuántica"
+          ]
         }
       ]
     },
@@ -24889,7 +24946,7 @@
         },
         {
           "place": null,
-          "name": "Coansa del Peru Ingenieros Sac",
+          "name": "Coansa del Peru Ingenieros SAC",
           "role": "Asistente de operaciones",
           "start": 2019,
           "end": 2019
@@ -26168,7 +26225,7 @@
         },
         {
           "place": null,
-          "name": "Gtd Peru",
+          "name": "GTD Peru",
           "role": "Analista gis",
           "start": 2020,
           "end": 2021
@@ -26786,9 +26843,10 @@
       "url": "https://www.linkedin.com/in/carla-lili-arias-salazar-aab6a517b/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Ingeniería",
+      "fields": ["Vulcanología", "Geociencias"],
       "studied": [
         {
           "place": "unap",
@@ -26818,6 +26876,20 @@
           "role": "Vulcanóloga",
           "start": 2026,
           "end": "now"
+        },
+        {
+          "place": null,
+          "name": "National and Kapodistrian University of Athens",
+          "role": "Estudiante de movilidad de la maestría en geociencias",
+          "start": 2022,
+          "end": 2024
+        },
+        {
+          "place": null,
+          "name": "Universite de Lille",
+          "role": "Estudiante de movilidad de la maestría en geociencias",
+          "start": 2022,
+          "end": 2024
         },
         {
           "place": "ingemmet",
@@ -26870,14 +26942,14 @@
       "jobs": [
         {
           "place": null,
-          "name": "Aleph Group & Asociados Sac",
+          "name": "Aleph Group & Asociados SAC",
           "role": "Control de calidad",
           "start": 2015,
           "end": 2015
         },
         {
           "place": null,
-          "name": "Aleph Group & Asociados Sac",
+          "name": "Aleph Group & Asociados SAC",
           "role": "Control de calidad",
           "start": 2013,
           "end": 2013
@@ -29087,7 +29159,7 @@
       "url": "https://www.linkedin.com/in/daryl-ayala/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Licenciatura en ingeniería",
       "track": "Ingeniería",
       "fields": [
@@ -29138,6 +29210,27 @@
           "role": "Asistente de investigación, laboratorio de procesado de imágenes",
           "start": 2023,
           "end": 2023
+        },
+        {
+          "place": null,
+          "name": "The Shared Wood Company",
+          "role": "Asistente en geomática y medio ambiente",
+          "start": 2023,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "Pepsa Tecsult",
+          "role": "Asistente ambiental",
+          "start": 2022,
+          "end": 2023
+        },
+        {
+          "place": null,
+          "name": "Eors Etriath EIRL",
+          "role": "Asistente de jefe de operaciones",
+          "start": 2022,
+          "end": 2022
         }
       ],
       "path": [
@@ -29847,7 +29940,7 @@
       "url": "https://www.linkedin.com/in/ronalbarrientos/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
       "fields": [
@@ -29894,17 +29987,42 @@
       ],
       "works": [
         {
+          "place": "unir",
+          "role": "Estudiante de maestría en inteligencia artificial"
+        },
+        {
           "place": "conida",
           "role": "Responsable de aseguramiento de producto y calidad del satélite PERUSAT-1"
         }
       ],
       "jobs": [
         {
+          "place": null,
+          "name": "Escuela de Posgrado Newman",
+          "role": "Estudiante de maestría en inteligencia artificial",
+          "start": 2025,
+          "end": "now"
+        },
+        {
+          "place": "unir",
+          "name": "Universidad Internacional de La Rioja",
+          "role": "Estudiante de maestría en inteligencia artificial",
+          "start": 2024,
+          "end": "now"
+        },
+        {
           "place": "conida",
           "name": "Agencia Espacial del Perú",
           "role": "Responsable de aseguramiento de producto y calidad del satélite PERUSAT-1",
           "start": 2015,
           "end": "now"
+        },
+        {
+          "place": "up",
+          "name": "Universidad del Pacífico",
+          "role": "Egresado de la maestría en gestión pública",
+          "start": 2013,
+          "end": 2015
         },
         {
           "place": "concytec",
@@ -29926,6 +30044,13 @@
           "role": "Ingeniero de integración de radio lte",
           "start": 2000,
           "end": 2010
+        },
+        {
+          "place": null,
+          "name": "ALTEN",
+          "role": "Ingeniero de pruebas de desarrollo e investigación en telefonía celular",
+          "start": 1988,
+          "end": 1999
         }
       ],
       "path": [
@@ -29946,6 +30071,10 @@
           "did": ["Maestría"]
         },
         {
+          "place": "up",
+          "did": ["Egresado de la maestría en gestión pública"]
+        },
+        {
           "place": "concytec",
           "did": ["Responsable nacional de transferencia tecnológica"]
         },
@@ -29957,7 +30086,10 @@
         },
         {
           "place": "unir",
-          "did": ["Maestría"]
+          "did": [
+            "Maestría",
+            "Estudiante de maestría en inteligencia artificial"
+          ]
         }
       ]
     },
@@ -35331,7 +35463,7 @@
         },
         {
           "place": null,
-          "name": "Jb Cipre Eirl",
+          "name": "JB Cipre EIRL",
           "role": "Especialista en radiacion ionizante",
           "start": 2018,
           "end": 2019
@@ -38673,7 +38805,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Isw & Ingenieros Consultores Sac",
+          "name": "Isw & Ingenieros Consultores SAC",
           "role": "Ingeniero de proyectos",
           "start": 2003,
           "end": "now"
@@ -41482,9 +41614,14 @@
       "url": "https://www.linkedin.com/in/jorge-condori-b6026057/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Ingeniería",
+      "fields": [
+        "Protección radiológica",
+        "Producción de radioisótopos",
+        "Garantía de calidad nuclear"
+      ],
       "studied": [
         {
           "place": "unsa",
@@ -41543,6 +41680,41 @@
         {
           "place": "ipen-pe",
           "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Jefe del departamento de garantía de calidad, subdirección de operación de reactores nucleares",
+          "start": 2016,
+          "end": 2016
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Especialista tecnológico nuclear",
+          "start": 2013,
+          "end": 2016
+        },
+        {
+          "place": "uba",
+          "name": "Universidad de Buenos Aires",
+          "role": "Participante del posgrado en seguridad nuclear y protección radiológica",
+          "start": 2009,
+          "end": 2009
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Docente del centro superior de estudios nucleares",
+          "start": 2002,
+          "end": "now"
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Jefe de la división de industria e hidrología",
+          "start": 2001,
+          "end": 2013
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
           "role": "Director de aplicaciones",
           "start": 2001,
           "end": 2009
@@ -41553,6 +41725,27 @@
           "role": "Especialista en radioisótopos",
           "start": 1992,
           "end": 2001
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Jefe del área de mantenimiento mecánico de la planta de producción de radioisótopos",
+          "start": 1989,
+          "end": 1991
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Técnico nuclear",
+          "start": 1987,
+          "end": 1988
+        },
+        {
+          "place": null,
+          "name": "Minera Aurifera Calpa",
+          "role": "Control de procesos metalúrgicos",
+          "start": 1984,
+          "end": 1987
         }
       ],
       "path": [
@@ -41567,9 +41760,26 @@
         {
           "place": "ipen-pe",
           "did": [
+            "Técnico nuclear",
+            "Jefe del área de mantenimiento mecánico de la planta de producción de radioisótopos",
             "Especialista en radioisótopos",
+            "Jefe de la división de industria e hidrología",
             "Director de aplicaciones",
+            "Docente del centro superior de estudios nucleares"
+          ]
+        },
+        {
+          "place": "uba",
+          "did": [
+            "Participante del posgrado en seguridad nuclear y protección radiológica"
+          ]
+        },
+        {
+          "place": "ipen-pe",
+          "did": [
+            "Especialista tecnológico nuclear",
             "Director de servicios",
+            "Jefe del departamento de garantía de calidad, subdirección de operación de reactores nucleares",
             "Especialista tecnológico nuclear, garantía de calidad del reactor RP-10"
           ]
         },
@@ -41874,10 +42084,16 @@
       "url": "https://www.linkedin.com/in/jean-cordova/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
-      "fields": ["Ciencia de datos", "Aprendizaje automático", "Oceanografía"],
+      "fields": [
+        "Ciencia de datos",
+        "Aprendizaje automático",
+        "Oceanografía",
+        "Computación cuántica",
+        "Imágenes satelitales"
+      ],
       "studied": [
         {
           "place": "unmsm",
@@ -41887,8 +42103,27 @@
           "end": 2022
         }
       ],
-      "works": [],
+      "works": [
+        {
+          "place": "pucp",
+          "role": "Estudiante de maestría en informática (ciencias de la computación)"
+        }
+      ],
       "jobs": [
+        {
+          "place": "pucp",
+          "name": "Pontificia Universidad Católica del Perú",
+          "role": "Estudiante de maestría en informática (ciencias de la computación)",
+          "start": 2025,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Universidad Nacional de Cordoba",
+          "role": "Diplomatura en ciencia de datos",
+          "start": 2023,
+          "end": 2024
+        },
         {
           "place": null,
           "name": "Grupo de Investigacion En Ciencias de la Tierra Clima y Medio Ambiente Ctclima",
@@ -41913,6 +42148,12 @@
           "place": "imarpe",
           "did": [
             "Practicante en el laboratorio de hidrofísica marina y el centro de datos oceanográficos"
+          ]
+        },
+        {
+          "place": "pucp",
+          "did": [
+            "Estudiante de maestría en informática (ciencias de la computación)"
           ]
         }
       ]
@@ -42137,7 +42378,7 @@
         },
         {
           "place": null,
-          "name": "Fismatlab Sac",
+          "name": "Fismatlab SAC",
           "role": "Director",
           "start": 2024,
           "end": "now"
@@ -44080,7 +44321,7 @@
       "url": "https://www.linkedin.com/in/magherllydaviran/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
       "fields": ["Espintrónica", "Películas delgadas", "Materiales cuánticos"],
@@ -44132,6 +44373,13 @@
           "place": "ictp",
           "name": "Abdus Salam International Centre for Theoretical Physics",
           "role": "Estudiante del diploma de posgrado en materia condensada",
+          "start": 2025,
+          "end": "now"
+        },
+        {
+          "place": null,
+          "name": "EducationUSA",
+          "role": "Becaria del programa opportunity funds",
           "start": 2025,
           "end": "now"
         }
@@ -44519,7 +44767,7 @@
         },
         {
           "place": null,
-          "name": "Snc Lavalin Peru S.A.",
+          "name": "SNC Lavalin Peru S.A.",
           "role": "Especialista ambiental junior",
           "start": 2022,
           "end": 2023
@@ -47820,7 +48068,7 @@
         },
         {
           "place": null,
-          "name": "Adr Tecnology Sac",
+          "name": "Adr Tecnology SAC",
           "role": "Contrastacion de las estaciones tacmet",
           "start": 2017,
           "end": 2017
@@ -48161,7 +48409,7 @@
         },
         {
           "place": null,
-          "name": "Jm Net S.A.C.",
+          "name": "JM Net S.A.C.",
           "role": "Docente",
           "start": 2010,
           "end": 2015
@@ -49792,7 +50040,7 @@
         },
         {
           "place": null,
-          "name": "F Remise Sac",
+          "name": "F Remise SAC",
           "role": "General manager",
           "start": 2016,
           "end": "now"
@@ -51062,7 +51310,7 @@
         },
         {
           "place": null,
-          "name": "Sg Nortec S.R.L.",
+          "name": "SG Nortec S.R.L.",
           "role": "Metrologo",
           "start": 2013,
           "end": 2014
@@ -54899,7 +55147,7 @@
         },
         {
           "place": null,
-          "name": "Empresa Solar Power Sac",
+          "name": "Empresa Solar Power SAC",
           "role": "Gerente tecnico. empresa solar power S.A.C. (SP SAC). coordinar las actividades para la elaboracion, diseno, ejecucion, monitoreo y supervision de proyectos con energias renovables.",
           "start": 2012,
           "end": 2013
@@ -56693,7 +56941,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Bizalab Sac",
+          "name": "Bizalab SAC",
           "role": "Director",
           "start": 2015,
           "end": "now"
@@ -68269,7 +68517,7 @@
       "url": "https://www.linkedin.com/in/andrea-ximena-miranda-corzo-6a4850170/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Licenciatura en ingeniería",
       "track": "Ingeniería",
       "fields": [
@@ -68320,6 +68568,41 @@
           "role": "Auxiliar en meteorología",
           "start": 2021,
           "end": 2022
+        },
+        {
+          "place": "unalm",
+          "name": "Universidad Nacional Agraria La Molina",
+          "role": "Presidenta del centro de estudiantes de meteorología",
+          "start": 2021,
+          "end": 2021
+        },
+        {
+          "place": "unalm",
+          "name": "Universidad Nacional Agraria La Molina",
+          "role": "Presidenta del círculo de investigación en glaciares",
+          "start": 2021,
+          "end": 2021
+        },
+        {
+          "place": "unalm",
+          "name": "Universidad Nacional Agraria La Molina",
+          "role": "Fundadora del círculo de investigación en glaciares",
+          "start": 2020,
+          "end": 2021
+        },
+        {
+          "place": "senamhi",
+          "name": "Servicio Nacional de Meteorología e Hidrología del Perú",
+          "role": "Practicante preprofesional, subdirección de ambiente y atmósfera",
+          "start": 2020,
+          "end": 2020
+        },
+        {
+          "place": "uba",
+          "name": "Universidad de Buenos Aires",
+          "role": "Estudiante de intercambio en ciencias de la atmósfera y meteorología",
+          "start": 2019,
+          "end": 2019
         }
       ],
       "path": [
@@ -68328,8 +68611,28 @@
           "did": ["Licenciatura"]
         },
         {
+          "place": "uba",
+          "did": [
+            "Estudiante de intercambio en ciencias de la atmósfera y meteorología"
+          ]
+        },
+        {
+          "place": "unalm",
+          "did": ["Fundadora del círculo de investigación en glaciares"]
+        },
+        {
           "place": "senamhi",
-          "did": ["Auxiliar en meteorología"]
+          "did": [
+            "Practicante preprofesional, subdirección de ambiente y atmósfera",
+            "Auxiliar en meteorología"
+          ]
+        },
+        {
+          "place": "unalm",
+          "did": [
+            "Presidenta del centro de estudiantes de meteorología",
+            "Presidenta del círculo de investigación en glaciares"
+          ]
         },
         {
           "place": "inaigem",
@@ -69738,9 +70041,14 @@
       "url": "https://www.linkedin.com/in/fernando-monzon-macedo-84349a235/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "fields": [
+        "Física médica",
+        "Radioisótopos ambientales",
+        "Dosimetría interna"
+      ],
       "studied": [
         {
           "place": "uni",
@@ -69752,11 +70060,22 @@
       ],
       "works": [
         {
+          "place": "uni",
+          "role": "Estudiante de maestría en física médica"
+        },
+        {
           "place": "ipen-pe",
           "role": "Practicante profesional"
         }
       ],
       "jobs": [
+        {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Estudiante de maestría en física médica",
+          "start": 2025,
+          "end": "now"
+        },
         {
           "place": "ipen-pe",
           "name": "Instituto Peruano de Energía Nuclear",
@@ -69766,7 +70085,7 @@
         },
         {
           "place": null,
-          "name": "Fa Ingenieros Sac",
+          "name": "Fa Ingenieros SAC",
           "role": "Analista",
           "start": 2022,
           "end": 2023
@@ -69780,6 +70099,10 @@
         {
           "place": "ipen-pe",
           "did": ["Practicante profesional"]
+        },
+        {
+          "place": "uni",
+          "did": ["Estudiante de maestría en física médica"]
         }
       ]
     },
@@ -70934,9 +71257,14 @@
       "url": "https://hdl.handle.net/20.500.12672/19397",
       "orcid": null,
       "site": "Cybertesis UNMSM",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Maestría en ingeniería",
       "track": "Física",
+      "fields": [
+        "Física instrumental",
+        "Aerosoles atmosféricos",
+        "Internet de las cosas"
+      ],
       "studied": [
         {
           "place": "unmsm",
@@ -70951,6 +71279,13 @@
           "field": null,
           "start": null,
           "end": 2023
+        },
+        {
+          "place": "unir",
+          "level": "Maestría",
+          "field": "Maestría en diseño y gestión de proyectos tecnológicos",
+          "start": 2021,
+          "end": 2022
         },
         {
           "place": "unicamp",
@@ -70973,6 +71308,48 @@
           "role": "Investigador de física aplicada e instrumental, grupo ctclima",
           "start": 2018,
           "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Serendipity: Mentorship in Science",
+          "role": "Estudiante del programa de mentoría",
+          "start": 2021,
+          "end": "now"
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Participante del programa de comercialización tecnológica LAB2MARKET",
+          "start": 2022,
+          "end": 2022
+        },
+        {
+          "place": "unir",
+          "name": "Universidad Internacional de La Rioja",
+          "role": "Diplomatura en innovación tecnológica",
+          "start": 2021,
+          "end": 2021
+        },
+        {
+          "place": "unir",
+          "name": "Universidad Internacional de La Rioja",
+          "role": "Diplomado en soft skills y habilidades directivas",
+          "start": 2021,
+          "end": 2021
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Líder de proyectos y desarrollador de hardware y software, grupo de física aplicada y experimental",
+          "start": 2020,
+          "end": 2021
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Ayudante de laboratorio",
+          "start": 2018,
+          "end": 2018
         }
       ],
       "path": [
@@ -70980,7 +71357,23 @@
           "place": "unmsm",
           "did": [
             "Investigador de física aplicada e instrumental, grupo ctclima",
-            "Bachillerato",
+            "Ayudante de laboratorio",
+            "Líder de proyectos y desarrollador de hardware y software, grupo de física aplicada y experimental",
+            "Bachillerato"
+          ]
+        },
+        {
+          "place": "unir",
+          "did": [
+            "Maestría",
+            "Diplomatura en innovación tecnológica",
+            "Diplomado en soft skills y habilidades directivas"
+          ]
+        },
+        {
+          "place": "unmsm",
+          "did": [
+            "Participante del programa de comercialización tecnológica LAB2MARKET",
             "Licenciatura"
           ]
         },
@@ -71770,7 +72163,7 @@
         },
         {
           "place": null,
-          "name": "Gamma Capital | Xp Investimentos",
+          "name": "Gamma Capital | XP Investimentos",
           "role": "Equity research analyst",
           "start": 2022,
           "end": 2023
@@ -75418,7 +75811,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Qc Dose Sac",
+          "name": "QC Dose SAC",
           "role": "Jefe del area",
           "start": 2014,
           "end": "now"
@@ -77781,7 +78174,7 @@
       "url": "https://www.linkedin.com/in/she-her-mar%C3%ADa-de-los-%C3%A1ngeles-p%C3%A9rez-tello-6204b3281/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Bachillerato en ingeniería",
       "track": "Ingeniería",
       "fields": [
@@ -77822,6 +78215,20 @@
           "role": "Técnica de campo, cemgem",
           "start": 2024,
           "end": "now"
+        },
+        {
+          "place": null,
+          "name": "Crees",
+          "role": "Responsable del área de comunidades",
+          "start": 2022,
+          "end": 2022
+        },
+        {
+          "place": null,
+          "name": "Ecoayni",
+          "role": "Asistente del área ambiental",
+          "start": 2020,
+          "end": 2021
         }
       ],
       "path": [
@@ -79748,7 +80155,7 @@
         },
         {
           "place": null,
-          "name": "Servicios de Ascensores Gs & F S.A.C.",
+          "name": "Servicios de Ascensores GS & F S.A.C.",
           "role": "Jefe de proyectos",
           "start": 2012,
           "end": 2013
@@ -85661,7 +86068,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Ntt Data Peru",
+          "name": "NTT Data Peru",
           "role": "Lead quantum solutions architect",
           "start": 2026,
           "end": "now"
@@ -90718,14 +91125,14 @@
         },
         {
           "place": null,
-          "name": "Globbal General Services Eirl",
+          "name": "Globbal General Services EIRL",
           "role": "Supervisor de campo",
           "start": 2022,
           "end": 2023
         },
         {
           "place": null,
-          "name": "Kyw Consultores y Ejecutores Sac",
+          "name": "Kyw Consultores y Ejecutores SAC",
           "role": "Asistente de oficina tecnica",
           "start": 2021,
           "end": 2022
@@ -93254,7 +93661,7 @@
       "url": "https://www.linkedin.com/in/juan-suica-692b66a3/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Maestría en ingeniería",
       "track": "Ingeniería",
       "fields": [
@@ -93286,6 +93693,13 @@
           "end": "now"
         },
         {
+          "place": null,
+          "name": "Metroil",
+          "role": "Supervisor de mantenimiento",
+          "start": 2025,
+          "end": 2026
+        },
+        {
           "place": "ipen-pe",
           "name": "Instituto Peruano de Energía Nuclear",
           "role": "Especialista en electrónica para física experimental de reactores",
@@ -93293,17 +93707,42 @@
           "end": 2024
         },
         {
+          "place": null,
+          "name": "Salomon Engineering and Technology",
+          "role": "Supervisor de mantenimiento de equipos de ti y biomédicos",
+          "start": 2022,
+          "end": 2023
+        },
+        {
           "place": "ipen-pe",
           "name": "Instituto Peruano de Energía Nuclear",
           "role": "Especialista en electrónica",
           "start": 2017,
           "end": 2019
+        },
+        {
+          "place": "ipen-pe",
+          "name": "Instituto Peruano de Energía Nuclear",
+          "role": "Practicante de ingeniería",
+          "start": 2016,
+          "end": 2017
+        },
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Estudiante de ingeniería mecatrónica",
+          "start": 2011,
+          "end": 2015
         }
       ],
       "path": [
         {
+          "place": "unmsm",
+          "did": ["Estudiante de ingeniería mecatrónica"]
+        },
+        {
           "place": "ipen-pe",
-          "did": ["Especialista en electrónica"]
+          "did": ["Practicante de ingeniería", "Especialista en electrónica"]
         },
         {
           "place": "balseiro",
@@ -93609,7 +94048,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Promecal Sac",
+          "name": "Promecal SAC",
           "role": "Asistente de metrologia",
           "start": 2025,
           "end": "now"
@@ -95154,13 +95593,18 @@
       "url": "https://www.linkedin.com/in/luis-fernando-temoche-a021a187/",
       "orcid": "0000-0003-4413-7693",
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Doctorado en física",
       "track": "Física",
       "openalex": "A5008601936",
       "area": "Astronomía y astrofísica",
       "works_count": 7,
       "cited_by": 44,
+      "fields": [
+        "Física de altas energías teórica",
+        "Mecánica de agujeros negros",
+        "Redes neuronales"
+      ],
       "studied": [
         {
           "place": "unmsm",
@@ -105000,7 +105444,7 @@
       "jobs": [
         {
           "place": null,
-          "name": "Zear Geophysics International Eirl",
+          "name": "Zear Geophysics International EIRL",
           "role": "Geofisica",
           "start": 2018,
           "end": "now"
@@ -105021,7 +105465,7 @@
       "url": "https://www.linkedin.com/in/davidzevallos/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
       "fields": ["Superconductividad", "Materia condensada", "Metrología"],
@@ -105037,10 +105481,17 @@
       "works": [
         {
           "place": "unmsm",
-          "role": "Miembro de grupo de investigación"
+          "role": "Estudiante de maestría en física del estado sólido"
         }
       ],
       "jobs": [
+        {
+          "place": "unmsm",
+          "name": "Universidad Nacional Mayor de San Marcos",
+          "role": "Estudiante de maestría en física del estado sólido",
+          "start": 2026,
+          "end": "now"
+        },
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
@@ -105098,6 +105549,13 @@
           "end": 2024
         },
         {
+          "place": "uni",
+          "name": "Universidad Nacional de Ingeniería",
+          "role": "Participante de la premaestría en modelamiento matemático y computacional (IMCA)",
+          "start": 2023,
+          "end": 2023
+        },
+        {
           "place": null,
           "name": "Biotechcell",
           "role": "Asistente de investigación",
@@ -105129,9 +105587,16 @@
           "did": ["Jefe de prácticas"]
         },
         {
+          "place": "uni",
+          "did": [
+            "Participante de la premaestría en modelamiento matemático y computacional (IMCA)"
+          ]
+        },
+        {
           "place": "unmsm",
           "did": [
             "Asistente de investigación",
+            "Estudiante de maestría en física del estado sólido",
             "Miembro de grupo de investigación"
           ]
         }
@@ -105267,9 +105732,10 @@
       "url": "https://www.linkedin.com/in/ricardo-zubieta-barrag%C3%A1n-724b96124/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Ingeniería",
+      "fields": ["Modelización hidrológica", "Recursos hídricos"],
       "studied": [
         {
           "place": "unfv",
@@ -105299,6 +105765,13 @@
           "role": "Agregado de investigación",
           "start": 2003,
           "end": "now"
+        },
+        {
+          "place": "unalm",
+          "name": "Universidad Nacional Agraria La Molina",
+          "role": "Estudiante de doctorado en recursos hídricos",
+          "start": null,
+          "end": null
         }
       ],
       "path": [
@@ -105313,6 +105786,10 @@
         {
           "place": "igp",
           "did": ["Agregado de investigación"]
+        },
+        {
+          "place": "unalm",
+          "did": ["Estudiante de doctorado en recursos hídricos"]
         }
       ]
     },
