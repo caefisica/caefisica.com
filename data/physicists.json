@@ -22962,7 +22962,7 @@
         {
           "place": "rochester",
           "name": "University of Rochester",
-          "role": "Investigadora de verano (reu, dune)",
+          "role": "Investigadora de verano (REU, DUNE)",
           "start": 2024,
           "end": 2025
         },
@@ -22981,7 +22981,7 @@
         },
         {
           "place": "rochester",
-          "did": ["Investigadora de verano (reu, dune)"]
+          "did": ["Investigadora de verano (REU, DUNE)"]
         }
       ]
     },
@@ -82906,7 +82906,7 @@
         {
           "place": "unmsm",
           "name": "Universidad Nacional Mayor de San Marcos",
-          "role": "Organizador al curso básico de r para la investigación científica-cerseu fcf unmsm 2024",
+          "role": "Organizador al curso básico de r para la investigación científica-cerseu fcf UNMSM 2024",
           "start": 2024,
           "end": 2024
         },
@@ -83088,7 +83088,7 @@
         {
           "place": "unmsm",
           "did": [
-            "Organizador al curso básico de r para la investigación científica-cerseu fcf unmsm 2024"
+            "Organizador al curso básico de r para la investigación científica-cerseu fcf UNMSM 2024"
           ]
         },
         {
@@ -86658,9 +86658,10 @@
       "url": "https://www.linkedin.com/in/pedro-rojas-fernandez-14830728a/",
       "orcid": null,
       "site": "LinkedIn",
-      "updated": "02-11-2026",
+      "updated": "04-11-2026",
       "degree": "Bachillerato en física",
       "track": "Física",
+      "fields": ["Neutrinos atmosféricos", "Redes neuronales cuánticas"],
       "studied": [
         {
           "place": "unmsm",
@@ -86685,6 +86686,13 @@
           "end": "now"
         },
         {
+          "place": "ictp",
+          "name": "Abdus Salam International Centre for Theoretical Physics",
+          "role": "Participante de la escuela de teoría cuántica de campos",
+          "start": 2025,
+          "end": 2025
+        },
+        {
           "place": "jgu",
           "name": "Johannes Gutenberg-Universität Mainz",
           "role": "Asistente de investigación (prácticas)",
@@ -86694,9 +86702,23 @@
         {
           "place": "rochester",
           "name": "University of Rochester",
-          "role": "Investigador de pregrado (reu)",
+          "role": "Investigador de pregrado (REU) en neutrinos atmosféricos de DUNE",
           "start": 2024,
           "end": 2025
+        },
+        {
+          "place": "ictp-saifr",
+          "name": "ICTP South American Institute for Fundamental Research",
+          "role": "Participante de la escuela de física teórica",
+          "start": 2023,
+          "end": 2023
+        },
+        {
+          "place": "unam",
+          "name": "Universidad Nacional Autónoma de México",
+          "role": "Estudiante de intercambio",
+          "start": 2022,
+          "end": 2022
         },
         {
           "place": "inen",
@@ -86716,8 +86738,22 @@
           "did": ["Bachillerato"]
         },
         {
+          "place": "unam",
+          "did": ["Estudiante de intercambio"]
+        },
+        {
+          "place": "ictp-saifr",
+          "did": ["Participante de la escuela de física teórica"]
+        },
+        {
           "place": "rochester",
-          "did": ["Investigador de pregrado (reu)"]
+          "did": [
+            "Investigador de pregrado (REU) en neutrinos atmosféricos de DUNE"
+          ]
+        },
+        {
+          "place": "ictp",
+          "did": ["Participante de la escuela de teoría cuántica de campos"]
         },
         {
           "place": "jgu",
@@ -94849,7 +94885,7 @@
         {
           "place": "pucp",
           "name": "Pontificia Universidad Católica del Perú",
-          "role": "Speaker member in the science tunnel – tour peru - pucp",
+          "role": "Speaker member in the science tunnel – tour peru - PUCP",
           "start": 2013,
           "end": 2013
         }
@@ -94860,7 +94896,7 @@
           "did": [
             "Bachillerato",
             "Speaker member in 'one morning in sciences'",
-            "Speaker member in the science tunnel – tour peru - pucp",
+            "Speaker member in the science tunnel – tour peru - PUCP",
             "Researcher in the quantum optics laboratory (groc-pucp)",
             "Researcher in the high energy physics group (hep-pucp)",
             "Teaching assistant"
@@ -105682,6 +105718,22 @@
         "alberto-martin-gago-medina",
         "marco-antonio-milla-bravo",
         "luciano-stucchi"
+      ]
+    },
+    {
+      "id": "dune",
+      "name": "DUNE",
+      "url": "https://www.dunescience.org/",
+      "about": "Experimento internacional de neutrinos del Fermilab, con detectores lejanos a 1300 km bajo tierra en Dakota del Sur.",
+      "members": [
+        "jose-luis-bazo-alba",
+        "cesar-manuel-castromonte-flores",
+        "felix-napoleon-diaz-desposorio",
+        "alberto-martin-gago-medina",
+        "luis-otiniano",
+        "carlos-javier-solano-salinas",
+        "pedro-rojas-fernandez",
+        "rosario-aldava-asencios"
       ]
     },
     {
