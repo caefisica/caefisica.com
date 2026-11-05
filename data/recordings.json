@@ -57,6 +57,17 @@
       "last": "2026"
     },
     {
+      "id": "divulgacion",
+      "name": "Divulgación",
+      "organiser": null,
+      "one": "charla",
+      "unit": "charlas",
+      "talks": 15,
+      "videos": 7,
+      "first": "2011",
+      "last": "2024"
+    },
+    {
       "id": "asdf-pucp",
       "name": "Charlas de la ASDF PUCP",
       "organiser": "Asociación de Estudiantes de Física de la PUCP",
@@ -66,17 +77,6 @@
       "videos": 6,
       "first": "2020",
       "last": "2026"
-    },
-    {
-      "id": "divulgacion",
-      "name": "Divulgación",
-      "organiser": null,
-      "one": "charla",
-      "unit": "charlas",
-      "talks": 6,
-      "videos": 6,
-      "first": "2011",
-      "last": "2023"
     },
     {
       "id": "tps",
@@ -4292,6 +4292,140 @@
       ]
     },
     {
+      "id": "fb-photo-122095006058167364",
+      "series": "divulgacion",
+      "title": "¿De verdad conocemos el universo lejano? Redefiniendo nuestra comprensión de las galaxias desde el infrarrojo",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Adrian Diaz",
+          "affiliation": "University of Wisconsin",
+          "slug": "adrian-carlos-diaz-espinoza"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-122095006058167364-2",
+      "series": "divulgacion",
+      "title": "Entropía de entrelazamiento holográfico para branas de prueba: un ejemplo concreto",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Andrés Argandoña",
+          "affiliation": "Universidad Autónoma de México",
+          "slug": "andres-aaron-argandona-villavicencio"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-122095006058167364-3",
+      "series": "divulgacion",
+      "title": "Entre aislantes y conductores: el papel de la topología en la física de la materia condensada",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Renzo Franco",
+          "affiliation": "Universidade de São Paulo",
+          "slug": "erwin-renzo-franco-diaz"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-122095006058167364-4",
+      "series": "divulgacion",
+      "title": "Defectos y el transporte en materiales topológicos",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "David Hinostroza",
+          "affiliation": "Universidade de São Paulo",
+          "slug": "cristhian-david-hinostroza-vargas-machuca"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-122095006058167364-5",
+      "series": "divulgacion",
+      "title": "Búsqueda de la línea de absorción de Hα en la atmósfera extendida de TOI 1288b",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Lisseth Gonzales",
+          "affiliation": "Wesleyan University"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-122095006058167364-6",
+      "series": "divulgacion",
+      "title": "Búsqueda de partículas de larga vida en el LHC",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Lucia Coll",
+          "affiliation": "DESY y Universität Hamburg",
+          "slug": "lucia-ximena-coll-saravia"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-122095006058167364-7",
+      "series": "divulgacion",
+      "title": "Los non-Fermi liquids y la superconductividad: persiguiendo a los superconductores de altas temperaturas",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Mario Solis",
+          "affiliation": "Instituto Balseiro",
+          "slug": "mario-florencio-solis-benites"
+        }
+      ]
+    },
+    {
+      "id": "fb-photo-122095006058167364-8",
+      "series": "divulgacion",
+      "title": "Vámonos a Marte para salvar la Tierra: un enfoque desde la dinámica de fluidos computacionales",
+      "date": null,
+      "month": "2024-01",
+      "minutes": null,
+      "url": "https://www.facebook.com/photo/?fbid=122095006058167364",
+      "host": "Invitación",
+      "speakers": [
+        {
+          "name": "Rivaldo Duran",
+          "affiliation": "Instituto Politécnico Nacional"
+        }
+      ]
+    },
+    {
       "id": "fb-photo-327815003478908",
       "series": "cefunt",
       "title": "Información cuántica en teoría de campos y el grupo de renormalización",
@@ -5517,6 +5651,23 @@
         }
       ],
       "month": "2022-02"
+    },
+    {
+      "id": "yt-oI6LEZ3zwXQ",
+      "series": "divulgacion",
+      "date": "2022-01-17",
+      "minutes": 170,
+      "url": "https://www.youtube.com/watch?v=oI6LEZ3zwXQ",
+      "host": "YouTube",
+      "title": "Charla introductoria a la carrera de Física de la UNMSM",
+      "speakers": [
+        {
+          "name": "Renzo Franco",
+          "affiliation": "Universidad Nacional Mayor de San Marcos",
+          "slug": "erwin-renzo-franco-diaz"
+        }
+      ],
+      "month": "2022-01"
     },
     {
       "id": "yt-4DF3cbzf6gA",
@@ -11025,7 +11176,8 @@
       "speakers": [
         {
           "name": "María Elena López",
-          "affiliation": "Sección Física PUCP"
+          "affiliation": "Sección Física PUCP",
+          "slug": "maria-elena-lopez-herrera"
         }
       ],
       "summary": "El radón-222 es un gas radioactivo, que existe como fuente de contaminación natural al emitir partículas alfa a temperatura ambiente. Se le considera como un indicador de la presencia de otros contaminantes naturales radiactivos como el uranio y el radio, al encontrarse dentro de las respectivas cadenas de decaimiento. Al gas radón se le relaciona con la incidencia de algunos tipos de cáncer según la concentración presente en las viviendas o en los ambientes de trabajo. En el Perú se han desarrollado algunas mediciones de este contaminante natural, particularmente en la ciudad de Lima, y actualmente hay un creciente interés en realizar mediciones en otras ciudades del país. Su estudio en zonas urbanas por métodos ya implementados en la PUCP es de importancia para varios sectores, como el sector salud, o para la implementación de un plan de normas de seguridad en construcción, especialmente teniendo en cuenta el tema de ventilación de los ambientes, etc.",
@@ -11729,7 +11881,8 @@
       "speakers": [
         {
           "name": "María Elena López",
-          "affiliation": "Sección Física PUCP"
+          "affiliation": "Sección Física PUCP",
+          "slug": "maria-elena-lopez-herrera"
         }
       ],
       "summary": "A pesar de que sus propiedades están aún bajo estudio, los cuasicristales han cobrado ya una gran importancia en aplicaciones tecnológicas y su estudio ha contribuido a ampliar nuestra comprensión acerca de las leyes que controlan el crecimiento y la estructura de la materia en su estado sólido. Se revisan los modelos planteados para dar cuenta de algunas estructuras y se busca un modelo enteramente físico para explicar el fenómeno de los cuasicristales a partir de leyes fundamentales, capaz de describir las posiciones atómicas de sistemas cuasicristalinos conocidos y de predecir la existencia de otras estructuras aún no descubiertas.",

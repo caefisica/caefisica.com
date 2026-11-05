@@ -66,13 +66,13 @@ charlas y de videos, y el primer y el último año. Va ordenada por número de
 videos. Cada registro tiene serie, título, fecha, mes, minutos, enlace, origen y
 ponentes. El id de un registro es único sin distinguir mayúsculas.
 
-| Origen       | Qué entra                                                                           | Campos propios                                     |
-| ------------ | ----------------------------------------------------------------------------------- | -------------------------------------------------- |
-| `facebook`   | Videos de la página de la facultad de 15 minutos o más, con copia pública en Drive. | `post`: la publicación de Facebook.                |
-| `youtube`    | Videos de 15 minutos o más de cada canal que es una serie; sin clases ni talleres.  | `invitation`, si el video corresponde a una.       |
-| `educast`    | El archivo de videos de la PUCP.                                                    | `url` (mp4), `page` (página de Educast), `poster`. |
-| `drive`      | Grabaciones que un sitio de seminarios enlaza en su página de grabaciones.          | `url` (reproductor de Drive), `page`.              |
-| `invitation` | Charlas anunciadas sin video, con título y ponente.                                 | `invitation`: el enlace a la invitación.           |
+| Origen       | Qué entra                                                                                                                                | Campos propios                                     |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| `facebook`   | Videos de la página de la facultad de 15 minutos o más, con copia pública en Drive.                                                      | `post`: la publicación de Facebook.                |
+| `youtube`    | Videos de 15 minutos o más de cada canal que es una serie; sin clases ni talleres. Una charla suelta de otro canal entra en divulgación. | `invitation`, si el video corresponde a una.       |
+| `educast`    | El archivo de videos de la PUCP.                                                                                                         | `url` (mp4), `page` (página de Educast), `poster`. |
+| `drive`      | Grabaciones que un sitio de seminarios enlaza en su página de grabaciones.                                                               | `url` (reproductor de Drive), `page`.              |
+| `invitation` | Charlas anunciadas sin video, con título y ponente.                                                                                      | `invitation`: el enlace a la invitación.           |
 
 Reglas comunes:
 
