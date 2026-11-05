@@ -21,4 +21,20 @@
 
 /pagefind/*
   ! Cache-Control
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=300
+
+/pagefind/*.pf_meta
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/pagefind/index/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/pagefind/filter/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/pagefind/fragment/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable

@@ -6,6 +6,7 @@ type Pagefind = {
   options(options: object): Promise<void>;
   init(): Promise<void>;
   search(query: string | null, options?: object): Promise<Found>;
+  filters(): Promise<object>;
   debouncedSearch(
     query: string,
     options?: object,
@@ -50,18 +51,40 @@ function report() {
 }
 
 function load(): Promise<Pagefind> {
-  vocabularyWords().catch(() => (vocabulary = undefined));
-  engine ??= import(`${params.bundlePath}pagefind.js`).then(
-    async (pagefind: Pagefind) => {
-      await pagefind.options({
-        excerptLength: 16,
-        ranking: { metaWeights: { keywords: 10 }, pageLength: 0.2 },
-      });
-      await pagefind.init();
-      return pagefind;
-    },
-  );
+  engine ??= start();
   return engine;
+}
+
+async function start(): Promise<Pagefind> {
+  warm().catch(() => {});
+  const pagefind: Pagefind = await import(`${params.bundlePath}pagefind.js`);
+  vocabularyWords().catch(() => (vocabulary = undefined));
+  await pagefind.options({
+    excerptLength: 16,
+    metaCacheTag: params.cacheTag,
+    ranking: { metaWeights: { keywords: 10 }, pageLength: 0.2 },
+  });
+  await pagefind.init();
+  pagefind.filters().catch(() => {});
+  return pagefind;
+}
+
+// Must request the same URLs as Pagefind, which then reads them from the HTTP cache.
+async function warm() {
+  const get = (file: string) =>
+    fetch(params.bundlePath + file).then((r) => r.arrayBuffer());
+  get("pagefind-worker.js").catch(() => {});
+  const entry = await fetch(
+    `${params.bundlePath}pagefind-entry.json?ts=${params.cacheTag}`,
+  ).then((r) => r.json());
+  const [language] = Object.values(entry.languages) as {
+    hash: string;
+    wasm: string;
+  }[];
+  await Promise.all([
+    get(`pagefind.${language.hash}.pf_meta`),
+    get(`wasm.${language.wasm}.pagefind`),
+  ]);
 }
 
 function options(): HTMLAnchorElement[] {
