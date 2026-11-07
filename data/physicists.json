@@ -60107,6 +60107,12 @@
           "place": "unitru",
           "did": ["Bachillerato", "Tecnico de laboratorio"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Daniel-Alejandro-Infantes-Huaccha"
+        }
       ]
     },
     {
@@ -62159,6 +62165,12 @@
           "place": "unjbg",
           "did": ["Asistente de investigacion", "Técnico de laboratorio"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Wilson-Lanchipa-Ramos"
+        }
       ]
     },
     {
@@ -62466,6 +62478,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Damaso-Laura"
         }
       ]
     },
@@ -62827,6 +62845,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Lazo-Jara"
         }
       ]
     },
@@ -63222,6 +63246,16 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=1cd4mjQAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Misael-Hilario"
         }
       ]
     },
@@ -64356,6 +64390,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alan-Llacza"
+        }
       ]
     },
     {
@@ -64545,6 +64585,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Llamocca"
+        }
       ]
     },
     {
@@ -64721,6 +64767,12 @@
           "place": "unmsm",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alan-Lliuyacc"
+        }
       ]
     },
     {
@@ -64794,6 +64846,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=ne0qgoQAAAAJ"
+        }
       ]
     },
     {
@@ -64852,6 +64910,16 @@
           "place": "unsaac",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=uiE54OAAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Veronica-Loaiza-Tacuri"
+        }
       ]
     },
     {
@@ -64909,6 +64977,16 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=so38REcAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Hildo-Loayza"
         }
       ]
     },
@@ -66868,6 +66946,12 @@
           "place": "unsa",
           "did": ["Licenciatura", "Estudiante de maestría"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jhonathan-Machaca-Yancachajlla"
+        }
       ]
     },
     {
@@ -67452,6 +67536,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=zZ4_6mcAAAAJ"
+        }
       ]
     },
     {
@@ -67736,6 +67826,12 @@
           "place": "uc",
           "did": []
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Mamani-Calcina"
+        }
       ]
     },
     {
@@ -67886,6 +67982,16 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Fx5oquwAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carmen-Soncco-2"
         }
       ]
     },
@@ -68656,6 +68762,12 @@
           "place": "citbm",
           "did": ["Asistente de investigacion"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Javier-Martinez-Capristano"
+        }
       ]
     },
     {
@@ -69356,6 +69468,12 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Fredy-Mayhua"
         }
       ]
     },
