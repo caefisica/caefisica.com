@@ -100536,6 +100536,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlo-Antonio-Tamanaha-Vegas"
+        }
       ]
     },
     {
@@ -100658,6 +100664,12 @@
         {
           "place": "unfv",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Cosme-Tancayllo-Chacca"
         }
       ]
     },
@@ -102378,6 +102390,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=LUVJqcwAAAAJ"
+        }
       ]
     },
     {
@@ -102422,6 +102440,16 @@
         {
           "place": "general-atomics",
           "did": ["Científico de radiofrecuencia"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Fpw6HVUAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/scientific-contributions/Humberto-Torreblanca-81893925"
         }
       ]
     },
@@ -103016,6 +103044,16 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=DuD_shEAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan-Torres-Vega"
+        }
       ]
     },
     {
@@ -103164,6 +103202,12 @@
           "place": "unsa",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rosinaldo-Trelles"
+        }
       ]
     },
     {
@@ -103259,6 +103303,12 @@
         {
           "place": "uni",
           "did": ["Bachillerato"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alexander-Antonio-Trigoso-Sulca"
         }
       ]
     },
@@ -104098,6 +104148,16 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=AgCnmyIAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Silvana-Urcia-Romero"
         }
       ]
     },
@@ -105291,6 +105351,16 @@
         {
           "place": "unitru",
           "did": ["Licenciatura", "Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=SdFW3E0AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Miguel-Valverde-Alva"
         }
       ]
     },
@@ -106699,6 +106769,12 @@
           "place": "unsa",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Lizbeth-Velarde"
+        }
       ]
     },
     {
@@ -107041,6 +107117,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=j8VOTRMAAAAJ"
+        }
       ]
     },
     {
@@ -107308,6 +107390,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=vFVpPgUAAAAJ"
+        }
       ]
     },
     {
@@ -107336,6 +107424,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Roger-Veramendi"
         }
       ]
     },
@@ -108926,6 +109020,16 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=4IzXOwYAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Kevin-Villegas-Rosales"
+        }
       ]
     },
     {
@@ -109008,6 +109112,16 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=AOYODJYAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Tomas-P-V-Andrade"
         }
       ]
     },
@@ -109497,6 +109611,16 @@
         {
           "place": "unsaac",
           "did": ["Bachillerato", "Licenciatura", "Professor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=VDeJC2gAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Bruce-Warthon-Olarte"
         }
       ]
     },
@@ -110952,6 +111076,12 @@
           "place": "unsaac",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Ariatna-Zamalloa"
+        }
       ]
     },
     {
@@ -111070,6 +111200,12 @@
           "place": "unmsm",
           "did": ["Bachillerato", "Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Sandra-Zambrano-Alva"
+        }
       ]
     },
     {
@@ -111098,6 +111234,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=PRiXUqIAAAAJ"
         }
       ]
     },
@@ -111357,6 +111499,16 @@
           "place": "oncologia-sac",
           "did": ["Asistente de física médica"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=mpQvhdMAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marilyn-Ruth-Zapata-Requena"
+        }
       ]
     },
     {
@@ -111509,6 +111661,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=EEKmoL0AAAAJ"
         }
       ]
     },
@@ -112146,6 +112304,12 @@
             "Miembro de grupo de investigación"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/David-Zevallos-Garay"
+        }
       ]
     },
     {
@@ -112273,6 +112437,16 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=J7KkjscAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Mirko-Zimic"
         }
       ]
     },
