@@ -51136,6 +51136,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=gvyWJ0YAAAAJ"
+        }
       ]
     },
     {
@@ -51199,6 +51205,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Joseph-Flores-Cuba"
         }
       ]
     },
@@ -51711,6 +51723,12 @@
         {
           "place": "usp",
           "did": ["Estudiante de maestría en física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Gemily-Flores"
         }
       ]
     },
@@ -52402,6 +52420,16 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=buQhxaUAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Andree-Galdos"
+        }
       ]
     },
     {
@@ -52798,6 +52826,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alexander-Gamez-2"
         }
       ]
     },
@@ -54645,6 +54679,16 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=vie1g74AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlos-D-Gonzales-Lorenzo"
+        }
       ]
     },
     {
@@ -55430,6 +55474,12 @@
           "place": "ucsp",
           "did": ["Jefe de practicas", "Docente tiempo completo"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=xoo-LaQAAAAJ"
+        }
       ]
     },
     {
@@ -55743,6 +55793,12 @@
         {
           "place": "conida",
           "did": ["Director astrofísica", "Asesor consultor"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Walter-Guevara-Day"
         }
       ]
     },
@@ -58213,6 +58269,12 @@
           "place": "uni",
           "did": ["Estudiante de maestría en física"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Huacachi-Bazan"
+        }
       ]
     },
     {
@@ -58790,6 +58852,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Fernando-Huaman-Perez"
+        }
       ]
     },
     {
@@ -58910,6 +58978,12 @@
           "place": "unsaac",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Leo-Huamani-Aslla"
+        }
       ]
     },
     {
@@ -58938,6 +59012,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Richard-Chaviguri-2"
         }
       ]
     },
@@ -59419,6 +59499,12 @@
             "Jefe de la oficina de calidad académica y acreditación"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Arnaldo-Huaroto"
+        }
       ]
     },
     {
@@ -59451,6 +59537,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Fredy-Huaylla-Roque"
         }
       ]
     },
@@ -59620,6 +59712,12 @@
         {
           "place": "unap",
           "did": ["Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Matias-Huillca"
         }
       ]
     },
