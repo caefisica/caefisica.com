@@ -112,8 +112,8 @@
 							{{- $links := slice -}}
 							{{- if eq $p.source "ctivitae" }}{{ $links = $links | append (dict "url" $p.url "title" "CTI Vitae") }}{{ end -}}
 							{{- if eq $p.source "pucp" }}{{ $links = $links | append (dict "url" $p.url "title" "PUCP") }}{{ end -}}
-							{{- if eq $p.source "web" }}{{ $links = $links | append (dict "url" $p.url "title" $p.site) }}{{ end -}}
-							{{- with $p.orcid }}{{ $orcid := printf "https://orcid.org/%s" . }}{{ if ne $orcid $p.url }}{{ $links = $links | append (dict "url" $orcid "title" "ORCID") }}{{ end }}{{ end -}}
+							{{- if and (eq $p.source "web") (ne $p.url (printf "https://orcid.org/%s" $p.orcid)) }}{{ $links = $links | append (dict "url" $p.url "title" $p.site) }}{{ end -}}
+							{{- with $p.orcid }}{{ $links = $links | append (dict "url" (printf "https://orcid.org/%s" .) "title" "ORCID") }}{{ end -}}
 							{{- range $l := $p.links }}{{ with index $research $l.kind }}{{ $links = $links | append (dict "url" $l.url "title" .) }}{{ end }}{{ end -}}
 							{{- with $p.wikipedia }}{{ $links = $links | append (dict "url" . "title" "Wikipedia") }}{{ end -}}
 							{{- with $p.openalex }}{{ $links = $links | append (dict "url" (printf "https://openalex.org/authors/%s" .) "title" "OpenAlex") }}{{ end -}}
