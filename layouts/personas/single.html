@@ -117,7 +117,8 @@
 							{{- range $l := $p.links }}{{ with index $research $l.kind }}{{ $links = $links | append (dict "url" $l.url "title" .) }}{{ end }}{{ end -}}
 							{{- with $p.wikipedia }}{{ $links = $links | append (dict "url" . "title" "Wikipedia") }}{{ end -}}
 							{{- with $p.openalex }}{{ $links = $links | append (dict "url" (printf "https://openalex.org/authors/%s" .) "title" "OpenAlex") }}{{ end -}}
-							{{- range $i, $l := $links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end -}}
+							{{- $cited := slice }}{{ range $.Params.sources }}{{ $cited = $cited | append .url }}{{ end -}}
+							{{- range $i, $l := where $links "url" "not in" $cited }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.title }}</a>{{ end -}}
 						</dd>
 					</div>
 					{{- $web := slice }}
