@@ -21706,6 +21706,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=uuuArCoAAAAJ"
+        }
       ]
     },
     {
@@ -21755,6 +21761,12 @@
         {
           "place": "utarapaca",
           "did": ["Estudiante de maestría en física"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Miguel-Agama-Flores"
         }
       ]
     },
@@ -22088,6 +22100,12 @@
             "Licenciatura",
             "Jefe del laboratorio de física de materiales"
           ]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Wilder-Aguilar-Castro"
         }
       ]
     },
@@ -22481,6 +22499,12 @@
           "place": "unmsm",
           "did": ["Bachillerato", "Investigador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan-Alania"
+        }
       ]
     },
     {
@@ -22674,6 +22698,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Joel-Alayo-Onton"
         }
       ]
     },
@@ -23052,6 +23082,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Alonso-Lujan"
+        }
       ]
     },
     {
@@ -23307,6 +23343,12 @@
           "place": "unac",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Naira-Aldana-Cotrina"
+        }
       ]
     },
     {
@@ -23412,6 +23454,12 @@
             "Participante de la escuela de verano de introducción a la computación cuántica"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rosario-Aldava"
+        }
       ]
     },
     {
@@ -23469,6 +23517,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Abel-Alejos-Cori"
         }
       ]
     },
@@ -26235,6 +26289,12 @@
           "place": "unmsm",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Tony-Aparco"
+        }
       ]
     },
     {
@@ -26373,6 +26433,12 @@
         {
           "place": "uni",
           "did": ["Bachillerato", "Becado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Hebbert_Apaza"
         }
       ]
     },
@@ -27613,6 +27679,12 @@
         {
           "place": "unsa",
           "did": ["Bachillerato", "Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Raul-Arotaipe-Ala"
         }
       ]
     },
@@ -29575,6 +29647,16 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=IJMGheIAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/L-Aviles-Felix"
+        }
       ]
     },
     {
@@ -30500,6 +30582,12 @@
           "place": "igp",
           "did": ["Analista de datos sismicos"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jacob-Banos-Pacco"
+        }
       ]
     },
     {
@@ -30588,6 +30676,12 @@
         {
           "place": "unac",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Leonard-Barboza-Navarro"
         }
       ]
     },
@@ -30888,6 +30982,12 @@
           "place": "upch",
           "did": ["Programador"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Franklin-Barrientos-Porras"
+        }
       ]
     },
     {
@@ -31066,6 +31166,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jesus-Basurto"
         }
       ]
     },
@@ -31388,6 +31494,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Hector-Bedon"
+        }
       ]
     },
     {
@@ -31683,6 +31795,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Edson-Bellido"
         }
       ]
     },
@@ -32193,6 +32311,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Benel-Mogrovejo-2"
+        }
       ]
     },
     {
@@ -32324,6 +32448,12 @@
         {
           "place": "unjbg",
           "did": ["Licenciatura", "Docente"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rigoberto-Bernabe-Coaquera"
         }
       ]
     },
@@ -32845,6 +32975,12 @@
           "place": "unmsm",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/L-Borja-Castro"
+        }
       ]
     },
     {
@@ -33356,6 +33492,12 @@
           "place": "unitru",
           "did": ["Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlos-Salvatierra"
+        }
       ]
     },
     {
@@ -33717,6 +33859,16 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=eHtMCUUAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Samuel-Cajahuaringa"
+        }
       ]
     },
     {
@@ -33958,6 +34110,12 @@
           "place": "upc-pe",
           "did": ["Professor"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlos-Calderon-Cahuana"
+        }
       ]
     },
     {
@@ -34095,6 +34253,12 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Eder-Calderon"
         }
       ]
     },
@@ -34386,6 +34550,12 @@
           "place": "unsa",
           "did": ["Docente de física ceprunsa"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Yefry-Calla-Zapana"
+        }
       ]
     },
     {
@@ -34662,6 +34832,16 @@
           "place": "pucp",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=g24eWxYAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Brando-Calsi"
+        }
       ]
     },
     {
@@ -34846,6 +35026,12 @@
         {
           "place": "unitru",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Robin-Camacho-Chavez"
         }
       ]
     },
@@ -35128,6 +35314,12 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Smith-Canaza-Yaguno"
         }
       ]
     },
@@ -35776,6 +35968,12 @@
           "place": "goyeneche",
           "did": ["Fisico dosimetrista"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Andres-Cardena-Rojas"
+        }
       ]
     },
     {
@@ -35875,6 +36073,12 @@
         {
           "place": "unfv",
           "did": ["Bachillerato", "Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Nilton-Cardenas-Falcon"
         }
       ]
     },
@@ -36108,6 +36312,12 @@
         {
           "place": "unsa",
           "did": ["Bachillerato", "Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Af-Carlos-Chilo"
         }
       ]
     },
