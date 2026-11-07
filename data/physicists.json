@@ -80681,6 +80681,12 @@
           "place": "unsa",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marilyn-Paredes-Huanca"
+        }
       ]
     },
     {
@@ -80856,6 +80862,16 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=2jVF4xoAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Kelly-Pari"
         }
       ]
     },
@@ -83936,6 +83952,12 @@
           "place": "unmsm",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Armando-Piscoya-Santibanez"
+        }
       ]
     },
     {
@@ -84179,6 +84201,16 @@
           "did": ["Licenciatura"]
         }
       ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=v6aBSlEAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Adolfo-Poma-Bernaola"
+        }
+      ],
       "wikipedia": "https://es.wikipedia.org/wiki/Adolfo_Poma_Bernaola"
     },
     {
@@ -84299,6 +84331,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Walter-Poma-2"
+        }
       ]
     },
     {
@@ -84327,6 +84365,12 @@
         {
           "place": "unfv",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Patricia-Ysabel-Poma-Nunez-2"
         }
       ]
     },
@@ -84360,6 +84404,12 @@
         {
           "place": "unsaac",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rafael_Ponce_Amanca"
         }
       ]
     },
@@ -85026,6 +85076,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Roy-Prosopio-2"
+        }
       ]
     },
     {
@@ -85569,6 +85625,12 @@
           "place": "unac",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Erick-Purizaca-Leon-2"
+        }
       ]
     },
     {
@@ -85805,6 +85867,12 @@
           "place": "unitru",
           "did": ["Bachillerato", "Profesor principal"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/scientific-contributions/Elvar-Quezada-Castillo-2157608672"
+        }
       ]
     },
     {
@@ -85833,6 +85901,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Edward-Quijada-2"
         }
       ]
     },
@@ -86297,6 +86371,12 @@
           "place": "unac",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Luis-Quispe-Ayme"
+        }
       ]
     },
     {
@@ -86349,6 +86429,12 @@
         {
           "place": "inacal",
           "did": ["Especialista", "Coordinador"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Billy-Quispe"
         }
       ]
     },
@@ -86458,6 +86544,12 @@
         {
           "place": "unsaac",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jeanette-Quispe-2"
         }
       ]
     },
@@ -86600,6 +86692,12 @@
           "place": "unmsm",
           "did": []
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Nelson-Gutierrez-8"
+        }
       ]
     },
     {
@@ -86696,6 +86794,12 @@
         {
           "place": "on",
           "did": ["Posdoctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Fredi-Huaynasi"
         }
       ]
     },
@@ -86934,6 +87038,16 @@
           "place": "usach",
           "did": ["Estudiante de doctorado en ciencias físicas"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=mgyzeosAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Ricardo-Quispe-Mendizabal"
+        }
       ]
     },
     {
@@ -87024,6 +87138,16 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=hmoORrEAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Johan-Quispe-Navarrete"
         }
       ]
     },
@@ -87143,6 +87267,12 @@
         {
           "place": "igp",
           "did": ["Coordinadora de las actividades del planetario"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Adita-Quispe-Quispe"
         }
       ]
     },
