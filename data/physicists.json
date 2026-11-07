@@ -37495,6 +37495,12 @@
             "Practicante pre profesional del area de geofisica"
           ]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Diana-Casas-Mamani"
+        }
       ]
     },
     {
@@ -38358,6 +38364,12 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Joyce-Castillo-Llanos"
         }
       ]
     },
@@ -39224,6 +39236,12 @@
           "place": "unsaac",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Weyner-Ccuiro-Montalvo-2"
+        }
       ]
     },
     {
@@ -40042,6 +40060,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=Fx3ZP24AAAAJ"
         }
       ]
     },
@@ -41499,6 +41523,12 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Anais-Chino-Quispe"
+        }
       ]
     },
     {
@@ -42079,6 +42109,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Dalton-Chumpitaz-Principe"
+        }
       ]
     },
     {
@@ -42248,6 +42284,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Manuel-Churampi-2"
         }
       ]
     },
@@ -42499,6 +42541,12 @@
         {
           "place": "ganil",
           "did": ["Physics intern"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Lisbeth-Cisneros-Huarcaya"
         }
       ]
     },
@@ -42883,6 +42931,16 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=9JGsh60AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Roberto-Colonia-2"
+        }
       ]
     },
     {
@@ -43009,6 +43067,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=6J-tzbIAAAAJ"
         }
       ]
     },
@@ -44043,6 +44107,12 @@
           "place": "unprg",
           "did": ["Docente"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=9a2EvnIAAAAJ"
+        }
       ]
     },
     {
@@ -44455,6 +44525,12 @@
         {
           "place": "unlp",
           "did": ["Estudiante de doctorado"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlo-Salvattore-Cruz-Sanchez"
         }
       ]
     },
@@ -45350,6 +45426,12 @@
           "place": "unmsm",
           "did": ["Bachillerato", "Docente universitario"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Eduardo-Custodio-Chung"
+        }
       ]
     },
     {
@@ -46237,6 +46319,16 @@
           "place": "unprg",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=MaxCsRQAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Ricardo-De-La-Cruz-Rioja"
+        }
       ]
     },
     {
@@ -46556,6 +46648,16 @@
           "place": "upn",
           "did": ["Coordinador de laboratorio de fisica"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=65gb4M4AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Daniel-Delfin-Narciso"
+        }
       ]
     },
     {
@@ -46793,6 +46895,12 @@
           "place": "unsaac",
           "did": ["Jefe de practicas"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=R8Xw3mEAAAAJ"
+        }
       ]
     },
     {
@@ -46821,6 +46929,12 @@
         {
           "place": "unsaac",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Luis-Desa-Salas"
         }
       ]
     },
@@ -47317,6 +47431,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Carlos-Manuel-Diaz-Dominguez"
+        }
       ]
     },
     {
@@ -47478,6 +47598,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura", "Docente ordinario"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=EJwLcqAAAAAJ"
         }
       ]
     },
@@ -47721,6 +47847,12 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marcela-Dioses-Ramirez"
         }
       ]
     },
@@ -48280,6 +48412,12 @@
         {
           "place": "unmsm",
           "did": ["Bachillerato"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Dario-Escriba-Quispe"
         }
       ]
     },
@@ -49221,6 +49359,16 @@
           "place": "unprg",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=2nKL3RAAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Ronald-Estela-Urbina"
+        }
       ]
     },
     {
@@ -49414,6 +49562,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Walter-Estrada-2"
         }
       ]
     },
@@ -49723,6 +49877,12 @@
           "place": "uni",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jose-Fachin"
+        }
       ]
     },
     {
@@ -49860,6 +50020,12 @@
         {
           "place": "unac",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Victor-Falla-Ponce"
         }
       ]
     },
@@ -50122,6 +50288,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Enver-Fernandez"
         }
       ]
     },
@@ -52865,10 +53037,6 @@
         }
       ],
       "links": [
-        {
-          "kind": "researchgate",
-          "url": "https://www.researchgate.net/profile/Jorge-Dulanto"
-        },
         {
           "kind": "scholar",
           "url": "https://scholar.google.com/citations?user=zHbq9CMAAAAJ"
