@@ -69656,6 +69656,12 @@
           "place": "unitru",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=abUeHw8AAAAJ"
+        }
       ]
     },
     {
@@ -70021,6 +70027,12 @@
         {
           "place": "unsa",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Gustavo-Medina-Sanchez"
         }
       ]
     },
@@ -71237,6 +71249,16 @@
           "place": "unmsm",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=bfrPqlUAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Freddy-Mendoza-Villa"
+        }
       ]
     },
     {
@@ -71517,6 +71539,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=tqgcCcIAAAAJ"
         }
       ]
     },
@@ -71845,6 +71873,12 @@
           "place": "pucp",
           "did": ["Bachillerato"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Pierina-Milla"
+        }
       ]
     },
     {
@@ -72028,6 +72062,12 @@
           "place": "upn",
           "did": ["Especialista de ciencias en fisica"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Yamil-Minez-Cuba"
+        }
       ]
     },
     {
@@ -72194,6 +72234,12 @@
         {
           "place": "senamhi",
           "did": ["Analista avanzada en modelamiento numérico a largo plazo"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Andrea-Miranda-Corzo"
         }
       ]
     },
@@ -72625,6 +72671,16 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=OXJtI04AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Juan-Molina-Fuertes"
+        }
       ]
     },
     {
@@ -72926,6 +72982,16 @@
           "place": "upn",
           "did": []
         }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=DlWkyCEAAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Fred-Montalvo-2"
+        }
       ]
     },
     {
@@ -72954,6 +73020,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=bmvP3qsAAAAJ"
         }
       ]
     },
@@ -73712,6 +73784,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Cristian-Monzon"
         }
       ]
     },
@@ -74719,6 +74797,12 @@
           "place": "inaigem",
           "did": ["Tecnico en sistemas de informacion geografica"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Keiko-Moroccoire"
+        }
       ]
     },
     {
@@ -74874,6 +74958,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Miguel-Angel-Mosquera-Molina"
         }
       ]
     },
@@ -75463,6 +75553,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marco-Munive"
+        }
       ]
     },
     {
@@ -75539,6 +75635,16 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=rm2mE00AAAAJ"
+        },
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jonathan-Cristhian-Munoz-Leon"
         }
       ]
     },
@@ -75841,6 +75947,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Victor-Nakama-2"
+        }
       ]
     },
     {
@@ -76056,6 +76168,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "scholar",
+          "url": "https://scholar.google.com/citations?user=6voL0vIAAAAJ"
         }
       ]
     },
@@ -76675,6 +76793,12 @@
           "place": "viu",
           "did": ["Estudiante de maestría en astrofísica"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Luis-Fernando-Neglia-Villanueva"
+        }
       ]
     },
     {
@@ -76975,6 +77099,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Marco-Nizama-2"
+        }
       ]
     },
     {
@@ -77003,6 +77133,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Jorge-Nole"
         }
       ]
     },
@@ -77689,6 +77825,12 @@
           "place": "unmsm",
           "did": ["Bachillerato", "Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Joao-Ocampo-Anticona"
+        }
       ]
     },
     {
@@ -78051,6 +78193,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Charlie-Oncebay"
         }
       ]
     },
@@ -78720,6 +78868,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Fernando-Oscco"
+        }
       ]
     },
     {
@@ -79226,6 +79380,12 @@
         {
           "place": "uni",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Valeria-Pachas-Yeren"
         }
       ]
     },
@@ -79816,6 +79976,12 @@
           "place": "uni",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Elius-Palacios-Quintana"
+        }
       ]
     },
     {
@@ -79844,6 +80010,12 @@
         {
           "place": "unmsm",
           "did": ["Licenciatura"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "researchgate",
+          "url": "https://www.researchgate.net/profile/Rogger-Palacios-Rivera"
         }
       ]
     },
