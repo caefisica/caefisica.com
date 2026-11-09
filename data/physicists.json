@@ -26169,6 +26169,7 @@
       "updated": "04-11-2026",
       "degree": "Licenciatura en física",
       "track": "Física",
+      "aka": ["antonella-aracelli-anticona-verastegui"],
       "studied": [
         {
           "place": "unmsm",
@@ -27402,6 +27403,7 @@
       "area": "Partículas y física nuclear",
       "works_count": 956,
       "cited_by": 26040,
+      "aka": ["carlos-alberto-arguelles-delgado"],
       "studied": [
         {
           "place": "pucp",
@@ -28025,6 +28027,7 @@
       "updated": "04-11-2026",
       "degree": "Maestría",
       "track": "Física",
+      "aka": ["johnny-junior-arroyo-barboza"],
       "studied": [
         {
           "place": "pucp",
@@ -35548,6 +35551,7 @@
       "area": null,
       "works_count": 1,
       "cited_by": 0,
+      "aka": ["ricardo-antonio-canchis-caballero"],
       "studied": [
         {
           "place": "unmsm",
@@ -46005,6 +46009,7 @@
       "area": "Astronomía y astrofísica",
       "works_count": 8,
       "cited_by": 38,
+      "aka": ["jorge-alejandro-gonzales-davalos"],
       "studied": [
         {
           "place": "unmsm",
@@ -57387,7 +57392,15 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "aka": ["diana-lizbeth-huallpa-laguna"],
       "studied": [
+        {
+          "place": "unsa",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2025
+        },
         {
           "place": "unsa",
           "level": "Maestría",
@@ -57421,7 +57434,11 @@
       "path": [
         {
           "place": "unsa",
-          "did": ["Maestría", "Estudiante de licenciatura en física"]
+          "did": [
+            "Maestría",
+            "Licenciatura",
+            "Estudiante de licenciatura en física"
+          ]
         }
       ]
     },
@@ -57642,6 +57659,7 @@
       "area": "Física computacional y matemática",
       "works_count": 3,
       "cited_by": 1,
+      "aka": ["alejandro-ariel-heredia-guevara"],
       "studied": [
         {
           "place": "unmsm",
@@ -58709,35 +58727,6 @@
         {
           "kind": "linkedin",
           "url": "https://www.linkedin.com/in/walter-antonio-huallpa-guti%C3%A9rrez-4a84092a"
-        }
-      ]
-    },
-    {
-      "slug": "diana-lizbeth-huallpa-laguna",
-      "name": "Diana Lizbeth Huallpa Laguna",
-      "initials": "DH",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=huallpa+laguna%2C+diana+lizbeth",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Licenciatura en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "unsa",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2025
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "unsa",
-          "did": ["Licenciatura"]
         }
       ]
     },
@@ -60006,6 +59995,7 @@
       "area": "Materia condensada y materiales",
       "works_count": 10,
       "cited_by": 13,
+      "aka": ["yezena-huaypar-vasquez"],
       "studied": [
         {
           "place": "unmsm",
@@ -64055,6 +64045,7 @@
       "area": "Ingeniería y energía",
       "works_count": 6,
       "cited_by": 3,
+      "aka": ["christian-hugo-lexequias-cabrera"],
       "studied": [
         {
           "place": "unmsm",
@@ -64125,35 +64116,6 @@
             "Deputy general coordinator",
             "General coordinator of the historical museum of physical sciences"
           ]
-        }
-      ]
-    },
-    {
-      "slug": "christian-hugo-lexequias-cabrera",
-      "name": "Christian Hugo Lexequias Cabrera",
-      "initials": "CL",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=lexequias+cabrera%2C+christian+hugo",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Bachillerato en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "unmsm",
-          "level": "Bachillerato",
-          "field": null,
-          "start": null,
-          "end": 2023
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "unmsm",
-          "did": ["Bachillerato"]
         }
       ]
     },
@@ -70294,6 +70256,7 @@
       "area": "Tierra, clima y ambiente",
       "works_count": 3,
       "cited_by": 37,
+      "aka": ["melissa-de-jesus-medina-burga"],
       "studied": [
         {
           "place": "unmsm",
@@ -71381,6 +71344,7 @@
       "area": "Óptica y física atómica",
       "works_count": 28,
       "cited_by": 140,
+      "aka": ["miguel-alberto-mendoza-flores"],
       "studied": [
         {
           "place": "unac",
@@ -74508,6 +74472,7 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "aka": ["julio-morales-chinchay"],
       "studied": [
         {
           "place": "uni",
@@ -85765,6 +85730,7 @@
       "area": "Materia condensada y materiales",
       "works_count": 13,
       "cited_by": 9,
+      "aka": ["ruben-ciro-puga-correa"],
       "studied": [
         {
           "place": "uni",
@@ -85978,6 +85944,7 @@
       "area": "Ingeniería y energía",
       "works_count": 2,
       "cited_by": 33,
+      "aka": ["david-willian-puma-ttito"],
       "studied": [
         {
           "place": "unsaac",
@@ -85985,6 +85952,13 @@
           "field": null,
           "start": 2011,
           "end": 2016
+        },
+        {
+          "place": "unsaac",
+          "level": "Licenciatura",
+          "field": null,
+          "start": null,
+          "end": 2022
         },
         {
           "place": "uni",
@@ -86037,6 +86011,10 @@
           "did": ["Maestría", "Doctorado"]
         },
         {
+          "place": "unsaac",
+          "did": ["Licenciatura"]
+        },
+        {
           "place": "utp",
           "did": ["Profesor tiempo completo"]
         },
@@ -86049,56 +86027,10 @@
         {
           "kind": "linkedin",
           "url": "https://www.linkedin.com/in/davidpumat"
-        }
-      ]
-    },
-    {
-      "slug": "david-willian-puma-ttito",
-      "name": "David Willian Puma Ttito",
-      "initials": "DP",
-      "source": "web",
-      "url": "https://renati.sunedu.gob.pe/indice/autor/detalle?valor=puma+ttito%2C+david+willian",
-      "orcid": null,
-      "site": "RENATI",
-      "updated": "02-11-2026",
-      "degree": "Maestría en física",
-      "track": "Física",
-      "studied": [
-        {
-          "place": "unsaac",
-          "level": "Licenciatura",
-          "field": null,
-          "start": null,
-          "end": 2022
         },
-        {
-          "place": "uni",
-          "level": "Maestría",
-          "field": null,
-          "start": null,
-          "end": 2019
-        }
-      ],
-      "works": [],
-      "jobs": [],
-      "path": [
-        {
-          "place": "uni",
-          "did": ["Maestría"]
-        },
-        {
-          "place": "unsaac",
-          "did": ["Licenciatura"]
-        }
-      ],
-      "links": [
         {
           "kind": "researchgate",
           "url": "https://www.researchgate.net/profile/David-Puma-Ttito"
-        },
-        {
-          "kind": "linkedin",
-          "url": "https://www.linkedin.com/in/davidpumat"
         }
       ]
     },
@@ -86438,6 +86370,7 @@
       "area": "Física médica y radiaciones",
       "works_count": 2,
       "cited_by": 0,
+      "aka": ["cecilia-querebalu-garcia"],
       "studied": [
         {
           "place": "unprg",
@@ -89304,6 +89237,7 @@
       "area": "Partículas y física nuclear",
       "works_count": 5,
       "cited_by": 1,
+      "aka": ["kelvin-julinio-ramos-villalobos"],
       "studied": [
         {
           "place": "unitru",
@@ -89824,6 +89758,7 @@
       "area": "Materia condensada y materiales",
       "works_count": 12,
       "cited_by": 456,
+      "aka": ["luis-fernando-reyes-hernandez"],
       "studied": [
         {
           "place": "uni",
@@ -90553,6 +90488,7 @@
       "area": null,
       "works_count": 1,
       "cited_by": 5,
+      "aka": ["dante-enrique-rios-sanchez"],
       "studied": [
         {
           "place": "unmsm",
@@ -95315,6 +95251,7 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "aka": ["shamuel-rhabi-saenz-sotelo"],
       "studied": [
         {
           "place": "unac",
@@ -97178,6 +97115,7 @@
       "area": null,
       "works_count": 1,
       "cited_by": 0,
+      "aka": ["sergio-santa-maria-linarez"],
       "studied": [
         {
           "place": "unitru",
@@ -100035,6 +99973,7 @@
       "area": "Astronomía y astrofísica",
       "works_count": 19,
       "cited_by": 44,
+      "aka": ["jose-manuel-suclupe-osorio"],
       "studied": [
         {
           "place": "uni",
@@ -107779,6 +107718,7 @@
       "area": "Ingeniería y energía",
       "works_count": 2,
       "cited_by": 12,
+      "aka": ["jose-ricardo-velasquez-ordonez"],
       "studied": [
         {
           "place": "unsa",
@@ -109658,6 +109598,7 @@
       "updated": "04-11-2026",
       "degree": "Maestría en física",
       "track": "Física",
+      "aka": ["franco-augusto-villata-ribbeck"],
       "studied": [
         {
           "place": "unac",
@@ -111016,6 +110957,7 @@
       "area": "Astronomía y astrofísica",
       "works_count": 49,
       "cited_by": 656,
+      "aka": ["jhon-joel-yana-galarza"],
       "studied": [
         {
           "place": "unmsm",
