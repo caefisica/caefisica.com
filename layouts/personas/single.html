@@ -40,7 +40,7 @@
 	(partial "videos/person.html" $slug)
 	(partial "personas/works.html" $works)
 	(partial "revista/person.html" $slug)
-	(partial "tesis/person.html" $slug)
+	(partial "tesis/person.html" (dict "slugs" (slice $slug | append ($p.aka | default slice))))
 	(partial "grupos/person-groups.html" $slug)
 	(partial "fisicos/person-projects.html" $slug)
 	(partial "proyectos/person.html" $slug)
