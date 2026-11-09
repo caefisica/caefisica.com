@@ -1,11 +1,12 @@
 {{- /*
 One page per person, at the person's slug: everyone in data/physicists.json and in data/people.toml. A slug is in one file only, so nobody gets two pages.
+A record's "aka" slugs, from records merged into it, redirect to its page.
 A person with a written page at content/personas/<slug>/index.md gets that page instead, and the same template fills in the data.
 The photo is static/images/personas/<slug>.webp or .jpg when it exists; data/photos.yaml says where each one came from.
 */ -}}
 {{- $people := slice -}}
 {{- range hugo.Data.physicists.people -}}
-	{{- $people = $people | append (dict "slug" .slug "name" .name "description" (printf "Dónde estudió y dónde trabaja %s, según sus fichas públicas." .name) "lastmod" (time.AsTime hugo.Data.physicists.fetched)) -}}
+	{{- $people = $people | append (dict "slug" .slug "name" .name "aka" .aka "description" (printf "Dónde estudió y dónde trabaja %s, según sus fichas públicas." .name) "lastmod" (time.AsTime hugo.Data.physicists.fetched)) -}}
 {{- end -}}
 {{- range hugo.Data.people.people -}}
 	{{- $people = $people | append (dict "slug" .slug "name" .name "description" (.about | default (printf "%s en el Centro de Apoyo al Estudiante de Física." .name))) -}}
@@ -20,5 +21,6 @@ The photo is static/images/personas/<slug>.webp or .jpg when it exists; data/pho
 	{{- end -}}
 	{{- $page := dict "path" .slug "title" .name "params" $params "content" (dict "mediaType" "text/markdown" "value" "") -}}
 	{{- with .lastmod }}{{ $page = merge $page (dict "dates" (dict "lastmod" .)) }}{{ end -}}
+	{{- with .aka }}{{ $page = merge $page (dict "aliases" (apply . "printf" "/personas/%s/" ".")) }}{{ end -}}
 	{{- $.AddPage $page -}}
 {{- end -}}

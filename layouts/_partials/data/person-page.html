@@ -1,4 +1,5 @@
 {{- /* The page of a person named in data/theses.json or data/defences.json, or nil. Context: the person's candidate slugs, most likely first. */ -}}
 {{- $page := false -}}
 {{- range . }}{{ if not $page }}{{ with site.GetPage (printf "/personas/%s" .) }}{{ $page = . }}{{ end }}{{ end }}{{ end -}}
+{{- if not $page }}{{ with index (where hugo.Data.physicists.people "aka" "intersect" .) 0 }}{{ $page = site.GetPage (printf "/personas/%s" .slug) }}{{ end }}{{ end -}}
 {{- return $page -}}
