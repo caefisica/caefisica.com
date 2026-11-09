@@ -33234,6 +33234,12 @@
           "place": "unac",
           "did": ["Licenciatura"]
         }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/ruben-saul-buitron-castro-b09807121"
+        }
       ]
     },
     {
@@ -47686,6 +47692,10 @@
         {
           "kind": "researchgate",
           "url": "https://www.researchgate.net/profile/Carlos-Manuel-Diaz-Dominguez"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/carlos-manuel-diaz-dominguez-282080358"
         }
       ]
     },
@@ -81887,6 +81897,16 @@
         {
           "place": "uni",
           "did": ["Bachillerato", "PhD student in mathematics"]
+        }
+      ],
+      "links": [
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/herberth-gustavo-paucar-romero-745333168"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/herberth-gustavo-paucar-romero-1bb28315a"
         }
       ]
     },
